@@ -1,15 +1,15 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 13:08:54",
+  "updated_at": "2026-10-28 13:12:15",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "13:08:52",
+    "updated_at": "13:12:13",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 9.11,
+        "flu_rt": 8.9,
         "leaders": "안랩, 이니텍",
         "rising": "4/4"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 7.46,
+        "flu_rt": 7.74,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "3/3"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "555",
         "name": "반도체_전공정장비",
-        "flu_rt": 7.2,
+        "flu_rt": 7.49,
         "leaders": "원익홀딩스, 피에스케이홀딩스",
         "rising": "7/7"
       },
@@ -33,41 +33,41 @@
         "rank": 4,
         "code": "554",
         "name": "반도체_후공정소재",
-        "flu_rt": 6.61,
+        "flu_rt": 6.91,
         "leaders": "마이크로컨텍솔, 엠케이전자",
         "rising": "6/6"
       },
       {
         "rank": 5,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 6.12,
-        "leaders": "케이아이엔엑스, SK",
-        "rising": "8/9"
+        "code": "420",
+        "name": "보험_생명보험",
+        "flu_rt": 5.98,
+        "leaders": "삼성생명, 한화생명",
+        "rising": "2/2"
       },
       {
         "rank": 6,
-        "code": "420",
-        "name": "보험_생명보험",
-        "flu_rt": 5.88,
-        "leaders": "삼성생명, 한화생명",
-        "rising": "2/2"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 5.96,
+        "leaders": "케이아이엔엑스, SK",
+        "rising": "6/9"
       },
       {
         "rank": 7,
         "code": "480",
         "name": "네트워크/광통신",
-        "flu_rt": 4.92,
+        "flu_rt": 5.02,
         "leaders": "빛과전자, 대한광통신",
         "rising": "7/9"
       },
       {
         "rank": 8,
-        "code": "214",
-        "name": "우주항공",
-        "flu_rt": 4.48,
-        "leaders": "한양디지텍, 한국항공우주",
-        "rising": "6/6"
+        "code": "243",
+        "name": "자동차_차량용 반도체",
+        "flu_rt": 4.49,
+        "leaders": "현대모비스, HL홀딩스",
+        "rising": "2/2"
       }
     ]
   },
