@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📡 오늘의 주도 테마 &amp; 실시간 조건검색 전광판</title>
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', '맑은 고딕', sans-serif; }
+  body { background-color: #0B1120; color: #FFFFFF; padding: 16px; max-width: 1400px; margin: 0 auto; }
+
+  .sound-banner {
+    background: linear-gradient(90deg, #F79009, #DC6803); color: #FFFFFF;
+    padding: 13px 18px; border-radius: 12px; margin-bottom: 14px;
+    font-size: 17px; font-weight: 900; text-align: center; cursor: pointer;
+    box-shadow: 0 4px 15px rgba(247, 144, 9, 0.4); border: 2px solid #FEF0C7;
+  }
+  .sound-banner.active {
+    background: #0F5132; border-color: #32D583; box-shadow: none; font-size: 15px; padding: 10px;
+  }
+
+  .header {
+    background-color: #161F33; padding: 16px 22px; border-radius: 12px;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    border: 1px solid #2E3A59;
+  }
+  .header-title { font-size: 24px; font-weight: 900; color: #FFFFFF; }
+  .header-sub { font-size: 14px; color: #94A3B8; margin-left: 8px; font-weight: 700; }
+  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .status-badge { font-size: 14px; font-weight: 800; color: #32D583; }
+  .btn {
+    background-color: #2E90FA; color: #FFFFFF; border: none; padding: 9px 15px;
+    font-size: 14px; font-weight: 800; border-radius: 8px; cursor: pointer;
+  }
+  .btn:hover { background-color: #1570EF; }
+  .btn-test { background-color: #F79009; }
+  .btn-test:hover { background-color: #DC6803; }
+
+  /* 🔥 맨 위 오늘의 주도 테마 대형 섹션 */
+  .theme-section {
+    background: linear-gradient(180deg, #1E1B4B 0%, #111827 100%);
+    border: 2px solid #6366F1; border-radius: 14px;
+    padding: 18px 20px; margin-top: 14px;
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.2);
+  }
+  .theme-header {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 14px;
+  }
+  .theme-title { font-size: 24px; font-weight: 900; color: #FDE047; letter-spacing: -0.5px; }
+  .theme-sub { font-size: 14px; font-weight: 700; color: #C7D2FE; }
+  .theme-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px;
+  }
+  .theme-card {
+    background-color: #1E293B; border: 2px solid #334155; border-radius: 12px;
+    padding: 14px 16px; display: flex; flex-direction: column; gap: 6px;
+  }
+  .theme-card.top3 {
+    border-color: #F59E0B; background: linear-gradient(135deg, #1E293B 0%, #291D12 100%);
+  }
+  .theme-card-top { display: flex; justify-content: space-between; align-items: center; }
+  .theme-rank-name { font-size: 19px; font-weight: 900; color: #FFFFFF; }
+  .theme-rate { font-size: 19px; font-weight: 900; color: #F97066; }
+  .theme-leaders { font-size: 14px; font-weight: 700; color: #FDE047; }
+
+  /* 🎯 중앙 실시간 조건검색 포착 히어로 카드 */
+  .hero-card {
+    background-color: #1E293B; border: 3px solid #475467; border-radius: 14px;
+    padding: 22px; margin-top: 16px; transition: all 0.25s;
+  }
+  .hero-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  .signal-badge { font-size: 19px; font-weight: 900; color: #FDB022; }
+  .stock-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 18px; margin: 12px 0; }
+  .stock-name { font-size: 36px; font-weight: 900; color: #FFFFFF; }
+  .stock-price { font-size: 28px; font-weight: 900; color: #F04438; }
+  .target-box {
+    background-color: #0F172A; padding: 14px 18px; border-radius: 10px;
+    font-size: 18px; font-weight: 800; color: #6CE9A6; margin-bottom: 12px;
+    border-left: 5px solid #12B76A;
+  }
+  .ammo-text { font-size: 17px; font-weight: 800; color: #FDE047; line-height: 1.5; }
+
+  /* 📋 하단 당일 포착 리스트 */
+  .table-header-row {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+    margin: 20px 4px 10px 4px; gap: 8px;
+  }
+  .table-title { font-size: 18px; font-weight: 900; color: #F8FAFC; }
+  .today-only-badge {
+    background-color: #1D4ED8; color: #FFFFFF; font-size: 13px; font-weight: 800;
+    padding: 5px 12px; border-radius: 999px;
+  }
+  .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid #334155; }
+  table { width: 100%; border-collapse: collapse; background-color: #161F33; }
+  th {
+    background-color: #26344D; color: #FFFFFF; font-size: 15px; font-weight: 800;
+    padding: 13px 10px; text-align: center; white-space: nowrap;
+  }
+  td {
+    padding: 13px 10px; font-size: 15px; font-weight: 700; text-align: center;
+    border-bottom: 1px solid #26344D; cursor: pointer;
+  }
+  tr:hover td { background-color: #1E2D4A; }
+  .tag-buy { color: #FF692E; font-weight: 900; }
+  .tag-sell { color: #32D583; font-weight: 900; }
+  .tag-watch { color: #38BDF8; font-weight: 900; }
+</style>
+</head>
+<body onclick="unlockAudioOnce(false)">
+
+<div id="soundBanner" class="sound-banner" onclick="unlockAudioOnce(true)">
+  🔊 [중요] 화면 아무 곳이나 한 번만 터치(클릭)하시면 '실시간 차임벨 알림음'이 켜집니다!
+</div>
+
+<div class="header">
+  <div>
+    <span class="header-title">📡 오늘의 주도 테마 &amp; 조건검색 실시간 전광판</span>
+    <span id="todayDateLbl" class="header-sub">| 당일 실시간 포착 전용</span>
+  </div>
+  <div class="header-right">
+    <span id="statusLbl" class="status-badge">🟢 실시간 연결 중...</span>
+    <button class="btn btn-test" onclick="triggerTestAlert()">🔔 소리 테스트</button>
+  </div>
+</div>
+
+<!-- 1. 맨 위: 오늘의 주도 테마 대형 전광판 -->
+<div class="theme-section">
+  <div class="theme-header">
+    <div class="theme-title">🔥 오늘의 주도 테마 TOP 8 (장전 레이더 &amp; 실시간 수급 1위 테마)</div>
+    <div id="themeUpdateLbl" class="theme-sub">실시간 테마 수신 중...</div>
+  </div>
+  <div id="themeGrid" class="theme-grid">
+    <div class="theme-card top3">
+      <div class="theme-card-top">
+        <span class="theme-rank-name">⏳ 테마 분석 중...</span>
+        <span class="theme-rate">-</span>
+      </div>
+      <div class="theme-leaders">잠시만 기다려 주세요...</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. 가운데: 검색식('돈이 몰라는건가~') + 테마 일치 최근 포착 종목 -->
+<div id="heroCard" class="hero-card">
+  <div class="hero-top">
+    <div id="badgeLbl" class="signal-badge">⏳ '돈이 몰라는건가~'(1분 5억 폭발) + 오늘의 테마 일치 종목을 감시 중입니다...</div>
+    <button id="copyBtn" class="btn" onclick="copyCurrentCode(true)">📋 종목코드 복사</button>
+  </div>
+  <div class="stock-row">
+    <div id="stockTitle" class="stock-name">당일 포착 대기 중</div>
+    <div id="priceLbl" class="stock-price"></div>
+  </div>
+  <div id="targetLbl" class="target-box">
+    🎯 권장 익절 목표가(+11%): - 원 &nbsp;&nbsp;|&nbsp;&nbsp; 🛡️ 손절 기준가(-3% 또는 시초가): - 원
+  </div>
+  <div id="ammoLbl" class="ammo-text">
+    🔥 매칭된 오늘의 테마 &amp; 수급 사유: 검색식에 새로운 종목이 포착되는 즉시 차임벨 소리와 함께 이곳에 크게 표시됩니다!
+  </div>
+</div>
+
+<!-- 3. 하단: 오직 오늘(당일) 포착된 종목만 표시되는 실시간 표 -->
+<div class="table-header-row">
+  <div class="table-title">📋 오늘 검색식에 걸린 실시간 종목 리스트 (클릭 시 상단 확대 &amp; 종목코드 복사)</div>
+  <div id="todayCountBadge" class="today-only-badge">📅 당일(오늘) 포착 종목만 표시됨</div>
+</div>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>포착 시각</th>
+        <th>구분</th>
+        <th>종목명 (코드)</th>
+        <th>포착가 (등락률)</th>
+        <th>+11% 목표가</th>
+        <th>당일 거래대금</th>
+        <th>매칭된 오늘의 테마 &amp; 포착 사유</th>
+      </tr>
+    </thead>
+    <tbody id="signalTableBody">
+      <tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘 포착된 종목을 불러오고 있습니다...</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
+const TOPIC_THEMES = "kr_whale_detector_vip_family_2026/themes";
+const TOPIC_HISTORY = "kr_whale_detector_vip_family_2026/history";
+const TOPIC_LIVE = "kr_whale_detector_vip_family_2026/live";
+
+let seenKeys = new Set();
+let currentCode = "";
+let audioCtx = null;
+let audioUnlocked = false;
+
+function getTodayKST() {
+  const now = new Date();
+  const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+  const kst = new Date(utc + (9 * 3600000));
+  const y = kst.getFullYear();
+  const m = String(kst.getMonth() + 1).padStart(2, '0');
+  const d = String(kst.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+document.getElementById("todayDateLbl").innerText = `| 📅 ${getTodayKST()} 당일 실시간 포착 전용`;
+
+function initAudio() {
+  if (!audioCtx) {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AudioContext();
+  }
+  if (audioCtx.state === 'suspended') {
+    audioCtx.resume();
+  }
+}
+
+function unlockAudioOnce(playSample) {
+  initAudio();
+  if (!audioUnlocked) {
+    audioUnlocked = true;
+    const sb = document.getElementById("soundBanner");
+    sb.className = "sound-banner active";
+    sb.innerText = "✅ 실시간 차임벨 알림음이 켜졌습니다! (검색식에 새 종목이 뜨면 즉시 소리가 울립니다)";
+    if (playSample) playChime("BUY");
+  }
+}
+
+function playNote(freq, startOffset, duration) {
+  if (!audioCtx) return;
+  const osc = audioCtx.createOscillator();
+  const gain = audioCtx.createGain();
+  osc.type = "triangle";
+  osc.frequency.setValueAtTime(freq, audioCtx.currentTime + startOffset);
+  gain.gain.setValueAtTime(0.32, audioCtx.currentTime + startOffset);
+  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + startOffset + duration);
+  osc.connect(gain);
+  gain.connect(audioCtx.destination);
+  osc.start(audioCtx.currentTime + startOffset);
+  osc.stop(audioCtx.currentTime + startOffset + duration);
+}
+
+function playChime(type) {
+  initAudio();
+  if (type === "SELL") {
+    playNote(880, 0.0, 0.18);
+    playNote(1174.66, 0.2, 0.35);
+    playNote(880, 0.65, 0.18);
+    playNote(1174.66, 0.85, 0.35);
+  } else {
+    const notes = [523.25, 659.25, 783.99, 1046.50];
+    for (let r = 0; r < 2; r++) {
+      const base = r * 0.85;
+      playNote(notes[0], base + 0.0, 0.16);
+      playNote(notes[1], base + 0.17, 0.16);
+      playNote(notes[2], base + 0.34, 0.16);
+      playNote(notes[3], base + 0.51, 0.30);
+    }
+  }
+}
+
+function copyTextFallback(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).catch(() => {});
+  }
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.style.position = "fixed";
+  ta.style.left = "-9999px";
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
+  try { document.execCommand("copy"); } catch (e) {}
+  document.body.removeChild(ta);
+}
+
+function copyCurrentCode(showBtnFeedback) {
+  if (!currentCode) return;
+  copyTextFallback(currentCode);
+  if (showBtnFeedback) {
+    const btn = document.getElementById("copyBtn");
+    btn.innerText = `✅ [${currentCode}] 복사됨!`;
+    btn.style.backgroundColor = "#12B76A";
+    setTimeout(() => {
+      btn.innerText = "📋 종목코드 복사";
+      btn.style.backgroundColor = "#2E90FA";
+    }, 2000);
+  }
+}
+
+function renderThemes(themePayload) {
+  if (!themePayload || !Array.isArray(themePayload.themes)) return;
+  const grid = document.getElementById("themeGrid");
+  const upd = document.getElementById("themeUpdateLbl");
+  upd.innerText = `기준일: ${themePayload.date || getTodayKST()} (업데이트: ${themePayload.updated_at || '실시간'})`;
+
+  const list = themePayload.themes;
+  if (list.length === 0) return;
+
+  grid.innerHTML = "";
+  list.forEach((t, idx) => {
+    const card = document.createElement("div");
+    card.className = idx < 3 ? "theme-card top3" : "theme-card";
+    const medal = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : "🔥";
+    const flu = Number(t.flu_rt || 0);
+    const fluStr = (flu >= 0 ? "+" : "") + flu.toFixed(2) + "%";
+    card.innerHTML = `
+      <div class="theme-card-top">
+        <span class="theme-rank-name">${medal} ${t.rank || (idx+1)}위. ${t.name}</span>
+        <span class="theme-rate">${fluStr}</span>
+      </div>
+      <div class="theme-leaders">👑 대장주: ${t.leaders || '-'} <span style="color:#94A3B8;font-size:12px;">(상승 ${t.rising || ''})</span></div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function updateHeroCard(data, withSound) {
+  if (!data) return;
+  const sigType = data.type || "BUY";
+  const name = data.name || "";
+  const code = data.code || "";
+  const price = Number(data.price || 0);
+  const fluRt = Number(data.flu_rt || 0);
+  const valUk = Number(data.val_uk || 0);
+  const targetP = Number(data.target_price || 0);
+  const stopP = Number(data.stop_price || 0);
+  const ammoTitle = data.ammo_title || "";
+  const note = data.note || "";
+  const tm = (data.time || "").slice(-8);
+
+  currentCode = code;
+  if (code) copyTextFallback(code);
+
+  const card = document.getElementById("heroCard");
+  const badge = document.getElementById("badgeLbl");
+  if (sigType === "BUY") {
+    card.style.borderColor = "#F04438";
+    badge.style.color = "#FF692E";
+    badge.innerText = `🚀 [실전 매수 타격! ${tm}] ${note || '검색식(1분 5억) + 오늘의 테마 일치 초입 돌파!'}`;
+  } else if (sigType === "SELL") {
+    card.style.borderColor = "#12B76A";
+    badge.style.color = "#32D583";
+    badge.innerText = `🎉 [전량 매도/익절 신호! ${tm}] ${note || '목표 달성 매도 신호입니다!'}`;
+  } else {
+    card.style.borderColor = "#2E90FA";
+    badge.style.color = "#38BDF8";
+    badge.innerText = `⚡ [검색식 실시간 포착! ${tm}] ${note || '돈이 몰리는건가~ + 테마 일치 포착 종목!'}`;
+  }
+
+  document.getElementById("stockTitle").innerText = `${name} (${code})`;
+  const sign = fluRt >= 0 ? "+" : "";
+  document.getElementById("priceLbl").innerText = `현재/포착가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)  |  거래대금: ${valUk.toFixed(1)}억`;
+  document.getElementById("targetLbl").innerText = `🎯 +11% 목표익절가: ${targetP.toLocaleString()}원    |    🛡️ 손절기준가(-3% / 시초가): ${stopP.toLocaleString()}원`;
+  document.getElementById("ammoLbl").innerText = `🔥 매칭 테마 & 수급: ${ammoTitle}`;
+
+  if (withSound) playChime(sigType);
+}
+
+function renderTable(items) {
+  const todayStr = getTodayKST();
+  // 오직 당일(오늘) 날짜 데이터만 필터링!
+  const todayItems = (items || []).filter(item => String(item.time || "").startsWith(todayStr));
+
+  document.getElementById("todayCountBadge").innerText = `📅 ${todayStr} 당일 포착: ${todayItems.length}건`;
+  const tbody = document.getElementById("signalTableBody");
+  tbody.innerHTML = "";
+
+  if (todayItems.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘(${todayStr}) 아직 새로 포착된 종목이 없습니다. 조건검색식에 포착되는 즉시 표시됩니다!</td></tr>`;
+    return;
+  }
+
+  const reversed = [...todayItems].reverse();
+  reversed.forEach((item) => {
+    const tr = document.createElement("tr");
+    const sigType = item.type || "WATCH";
+    let tagClass = "tag-watch";
+    let tagText = "⚡검색식포착";
+    if (sigType === "BUY") { tagClass = "tag-buy"; tagText = "🚀실전매수"; }
+    else if (sigType === "SELL") { tagClass = "tag-sell"; tagText = "🎉익절/청산"; }
+
+    const price = Number(item.price || 0);
+    const fluRt = Number(item.flu_rt || 0);
+    const sign = fluRt >= 0 ? "+" : "";
+    const targetP = Number(item.target_price || 0);
+    const valUk = Number(item.val_uk || 0);
+    const timeOnly = String(item.time || "").slice(11, 19) || item.time;
+
+    tr.innerHTML = `
+      <td>${timeOnly}</td>
+      <td class="${tagClass}">${tagText}</td>
+      <td style="font-weight:900; color:#FFFFFF; font-size:16px;">${item.name} (${item.code})</td>
+      <td style="color:#F97066; font-weight:900;">${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)</td>
+      <td style="color:#6CE9A6; font-weight:900;">${targetP.toLocaleString()}원</td>
+      <td>${valUk.toFixed(1)}억</td>
+      <td style="text-align:left; color:#FDE047;">${item.ammo_title || ""}</td>
+    `;
+    tr.onclick = () => updateHeroCard(item, false);
+    tbody.appendChild(tr);
+  });
+}
+
+function triggerTestAlert() {
+  unlockAudioOnce(false);
+  playChime("BUY");
+}
+
+// 1차: GitHub Pages 같은 폴더의 live_state.json 초기 로드 및 4초 주기 백업 동기화
+async function pollGitHubState() {
+  try {
+    const res = await fetch(`./live_state.json?t=${Date.now()}`, { cache: "no-store" });
+    if (res.ok) {
+      const state = await res.json();
+      if (state.themes_data) renderThemes(state.themes_data);
+      if (Array.isArray(state.history)) {
+        const todayStr = getTodayKST();
+        const todayItems = state.history.filter(x => String(x.time || "").startsWith(todayStr));
+        renderTable(todayItems);
+        if (todayItems.length > 0 && !currentCode) {
+          updateHeroCard(todayItems[todayItems.length - 1], false);
+        }
+      }
+    }
+  } catch (e) {}
+}
+pollGitHubState();
+setInterval(pollGitHubState, 4000);
+
+// 2차: EMQX 초고속 실시간 웹소켓 (0.05초 즉시 푸시)
+const client = mqtt.connect(BROKER_WSS, {
+  clientId: "kr_mother_web_" + Math.random().toString(16).slice(2, 10),
+  clean: true,
+  reconnectPeriod: 2000
+});
+
+client.on("connect", () => {
+  const st = document.getElementById("statusLbl");
+  st.innerText = "🟢 실시간 전광판 연결 완료 (0.05초 즉시 수신 중)";
+  st.style.color = "#32D583";
+  client.subscribe([TOPIC_THEMES, TOPIC_HISTORY, TOPIC_LIVE], { qos: 1 });
+});
+
+client.on("message", (topic, payload) => {
+  try {
+    const text = new TextDecoder("utf-8").decode(payload);
+    const data = JSON.parse(text);
+    const todayStr = getTodayKST();
+
+    if (topic === TOPIC_THEMES) {
+      renderThemes(data);
+    } else if (topic === TOPIC_HISTORY && Array.isArray(data)) {
+      const todayItems = data.filter(x => String(x.time || "").startsWith(todayStr));
+      renderTable(todayItems);
+      if (todayItems.length > 0 && !currentCode) {
+        updateHeroCard(todayItems[todayItems.length - 1], false);
+      }
+      todayItems.forEach(x => { if (x.id) seenKeys.add(x.id); });
+    } else if (topic === TOPIC_LIVE && data && data.code) {
+      if (!String(data.time || "").startsWith(todayStr)) return;
+      if (data.id && seenKeys.has(data.id)) return;
+      if (data.id) seenKeys.add(data.id);
+      updateHeroCard(data, true);
+    }
+  } catch (e) {}
+});
+</script>
+</body>
+</html>
