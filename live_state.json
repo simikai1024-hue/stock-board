@@ -1,9 +1,9 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 19:53:57",
+  "updated_at": "2026-10-28 19:57:09",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "19:53:55",
+    "updated_at": "19:57:07",
     "themes": [
       {
         "rank": 1,
@@ -15,59 +15,59 @@
       },
       {
         "rank": 2,
-        "code": "555",
-        "name": "반도체_전공정장비",
-        "flu_rt": 8.41,
-        "leaders": "원익홀딩스, 피에스케이홀딩스",
-        "rising": "6/7"
-      },
-      {
-        "rank": 3,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 8.2,
-        "leaders": "안랩, 이니텍",
-        "rising": "4/4"
-      },
-      {
-        "rank": 4,
         "code": "554",
         "name": "반도체_후공정소재",
-        "flu_rt": 8.12,
+        "flu_rt": 8.51,
         "leaders": "마이크로컨텍솔, 심텍홀딩스",
         "rising": "6/6"
       },
       {
+        "rank": 3,
+        "code": "555",
+        "name": "반도체_전공정장비",
+        "flu_rt": 8.43,
+        "leaders": "원익홀딩스, 피에스케이홀딩스",
+        "rising": "6/7"
+      },
+      {
+        "rank": 4,
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 8.12,
+        "leaders": "안랩, 이니텍",
+        "rising": "4/4"
+      },
+      {
         "rank": 5,
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 6.15,
+        "leaders": "케이아이엔엑스, SK",
+        "rising": "8/9"
+      },
+      {
+        "rank": 6,
         "code": "556",
         "name": "반도체_전공정소재",
-        "flu_rt": 6.13,
+        "flu_rt": 6.14,
         "leaders": "동진쎄미켐, 원익QnC",
         "rising": "7/7"
       },
       {
-        "rank": 6,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 6.06,
-        "leaders": "케이아이엔엑스, SK",
-        "rising": "7/9"
-      },
-      {
         "rank": 7,
-        "code": "480",
-        "name": "네트워크/광통신",
-        "flu_rt": 5.97,
-        "leaders": "빛과전자, 대한광통신",
-        "rising": "7/9"
+        "code": "561",
+        "name": "LCD_소재",
+        "flu_rt": 5.99,
+        "leaders": "동진쎄미켐, 네패스",
+        "rising": "4/4"
       },
       {
         "rank": 8,
-        "code": "561",
-        "name": "LCD_소재",
-        "flu_rt": 5.9,
-        "leaders": "동진쎄미켐, 네패스",
-        "rising": "4/4"
+        "code": "480",
+        "name": "네트워크/광통신",
+        "flu_rt": 5.96,
+        "leaders": "빛과전자, 대한광통신",
+        "rising": "7/9"
       }
     ]
   },
