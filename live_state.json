@@ -1,63 +1,63 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 12:17:51",
+  "updated_at": "2026-10-28 12:21:10",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "12:17:49",
+    "updated_at": "12:21:09",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 10.98,
+        "flu_rt": 10.85,
         "leaders": "안랩, 이니텍",
         "rising": "4/4"
       },
       {
         "rank": 2,
-        "code": "554",
-        "name": "반도체_후공정소재",
-        "flu_rt": 7.31,
-        "leaders": "마이크로컨텍솔, 코리아써키트",
-        "rising": "6/6"
+        "code": "550",
+        "name": "반도체_생산",
+        "flu_rt": 7.62,
+        "leaders": "SK하이닉스, 삼성전자",
+        "rising": "3/3"
       },
       {
         "rank": 3,
-        "code": "550",
-        "name": "반도체_생산",
-        "flu_rt": 7.23,
-        "leaders": "SK하이닉스, 삼성전자",
-        "rising": "3/3"
+        "code": "554",
+        "name": "반도체_후공정소재",
+        "flu_rt": 7.5,
+        "leaders": "마이크로컨텍솔, 코리아써키트",
+        "rising": "6/6"
       },
       {
         "rank": 4,
         "code": "555",
         "name": "반도체_전공정장비",
-        "flu_rt": 7.04,
+        "flu_rt": 7.16,
         "leaders": "원익홀딩스, 피에스케이홀딩스",
         "rising": "7/7"
       },
       {
         "rank": 5,
-        "code": "420",
-        "name": "보험_생명보험",
-        "flu_rt": 6.26,
-        "leaders": "삼성생명, 한화생명",
-        "rising": "2/2"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 6.27,
+        "leaders": "케이아이엔엑스, SK",
+        "rising": "7/9"
       },
       {
         "rank": 6,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 6.25,
-        "leaders": "케이아이엔엑스, SK",
-        "rising": "7/9"
+        "code": "420",
+        "name": "보험_생명보험",
+        "flu_rt": 6.04,
+        "leaders": "삼성생명, 한화생명",
+        "rising": "2/2"
       },
       {
         "rank": 7,
         "code": "480",
         "name": "네트워크/광통신",
-        "flu_rt": 4.69,
+        "flu_rt": 4.8,
         "leaders": "빛과전자, 대한광통신",
         "rising": "6/9"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "556",
         "name": "반도체_전공정소재",
-        "flu_rt": 4.51,
+        "flu_rt": 4.43,
         "leaders": "동진쎄미켐, 원익QnC",
         "rising": "7/7"
       }
