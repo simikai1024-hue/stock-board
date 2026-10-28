@@ -1,15 +1,15 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 19:06:26",
+  "updated_at": "2026-10-28 19:09:37",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "19:06:24",
+    "updated_at": "19:09:34",
     "themes": [
       {
         "rank": 1,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 9.16,
+        "flu_rt": 9.0,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "3/3"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.5,
+        "flu_rt": 8.61,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "555",
         "name": "반도체_전공정장비",
-        "flu_rt": 7.93,
+        "flu_rt": 7.91,
         "leaders": "원익홀딩스, 피에스케이홀딩스",
         "rising": "6/7"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "556",
         "name": "반도체_전공정소재",
-        "flu_rt": 6.02,
+        "flu_rt": 6.01,
         "leaders": "동진쎄미켐, 디엔에프",
         "rising": "7/7"
       },
@@ -49,15 +49,15 @@
         "rank": 6,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 5.99,
+        "flu_rt": 5.86,
         "leaders": "케이아이엔엑스, SK",
-        "rising": "8/9"
+        "rising": "7/9"
       },
       {
         "rank": 7,
         "code": "480",
         "name": "네트워크/광통신",
-        "flu_rt": 5.8,
+        "flu_rt": 5.74,
         "leaders": "빛과전자, 대한광통신",
         "rising": "7/9"
       },
@@ -65,8 +65,8 @@
         "rank": 8,
         "code": "561",
         "name": "LCD_소재",
-        "flu_rt": 5.47,
-        "leaders": "동진쎄미켐, 네패스",
+        "flu_rt": 5.53,
+        "leaders": "동진쎄미켐, 이엔에프테크놀로지",
         "rising": "4/4"
       }
     ]
