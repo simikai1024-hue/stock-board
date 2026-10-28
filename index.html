@@ -7,84 +7,104 @@
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', '맑은 고딕', sans-serif; }
-  body { background-color: #0B1120; color: #FFFFFF; padding: 16px; max-width: 1400px; margin: 0 auto; }
+  body { background-color: #0B1120; color: #FFFFFF; padding: 14px 18px; max-width: 1720px; margin: 0 auto; }
 
   .sound-banner {
     background: linear-gradient(90deg, #F79009, #DC6803); color: #FFFFFF;
-    padding: 13px 18px; border-radius: 12px; margin-bottom: 14px;
-    font-size: 17px; font-weight: 900; text-align: center; cursor: pointer;
+    padding: 11px 16px; border-radius: 10px; margin-bottom: 12px;
+    font-size: 16px; font-weight: 900; text-align: center; cursor: pointer;
     box-shadow: 0 4px 15px rgba(247, 144, 9, 0.4); border: 2px solid #FEF0C7;
   }
   .sound-banner.active {
-    background: #0F5132; border-color: #32D583; box-shadow: none; font-size: 15px; padding: 10px;
+    background: #0F5132; border-color: #32D583; box-shadow: none; font-size: 14px; padding: 8px;
   }
 
   .header {
-    background-color: #161F33; padding: 16px 22px; border-radius: 12px;
+    background-color: #161F33; padding: 14px 20px; border-radius: 12px;
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
     border: 1px solid #2E3A59;
   }
-  .header-title { font-size: 24px; font-weight: 900; color: #FFFFFF; }
+  .header-title { font-size: 22px; font-weight: 900; color: #FFFFFF; }
   .header-sub { font-size: 14px; color: #94A3B8; margin-left: 8px; font-weight: 700; }
   .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .status-badge { font-size: 14px; font-weight: 800; color: #32D583; }
   .btn {
-    background-color: #2E90FA; color: #FFFFFF; border: none; padding: 9px 15px;
+    background-color: #2E90FA; color: #FFFFFF; border: none; padding: 8px 14px;
     font-size: 14px; font-weight: 800; border-radius: 8px; cursor: pointer;
   }
   .btn:hover { background-color: #1570EF; }
   .btn-test { background-color: #F79009; }
   .btn-test:hover { background-color: #DC6803; }
 
-  /* 🔥 맨 위 오늘의 주도 테마 대형 섹션 */
+  /* 📐 좌우 2단 분할 레이아웃: 왼쪽(테마 1~8위 세로 일렬) + 오른쪽(상단 포착화면 + 하단 종목리스트) */
+  .main-split {
+    display: grid;
+    grid-template-columns: 390px minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+    margin-top: 14px;
+  }
+  @media (max-width: 1080px) {
+    .main-split {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* 🔥 왼쪽 컬럼: 오늘의 주도 테마 TOP 8 (1위~8위 아래로 길게) */
   .theme-section {
     background: linear-gradient(180deg, #1E1B4B 0%, #111827 100%);
     border: 2px solid #6366F1; border-radius: 14px;
-    padding: 18px 20px; margin-top: 14px;
+    padding: 16px;
     box-shadow: 0 8px 24px rgba(99, 102, 241, 0.2);
   }
   .theme-header {
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
-    margin-bottom: 14px;
+    display: flex; flex-direction: column; gap: 4px;
+    margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #312E81;
   }
-  .theme-title { font-size: 24px; font-weight: 900; color: #FDE047; letter-spacing: -0.5px; }
-  .theme-sub { font-size: 14px; font-weight: 700; color: #C7D2FE; }
+  .theme-title { font-size: 21px; font-weight: 900; color: #FDE047; letter-spacing: -0.5px; }
+  .theme-sub { font-size: 13px; font-weight: 700; color: #C7D2FE; }
   .theme-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px;
+    display: flex; flex-direction: column; gap: 10px;
   }
   .theme-card {
-    background-color: #1E293B; border: 2px solid #334155; border-radius: 12px;
-    padding: 14px 16px; display: flex; flex-direction: column; gap: 6px;
+    background-color: #1E293B; border: 2px solid #334155; border-radius: 10px;
+    padding: 11px 14px; display: flex; flex-direction: column; gap: 5px;
   }
   .theme-card.top3 {
     border-color: #F59E0B; background: linear-gradient(135deg, #1E293B 0%, #291D12 100%);
   }
-  .theme-card-top { display: flex; justify-content: space-between; align-items: center; }
-  .theme-rank-name { font-size: 19px; font-weight: 900; color: #FFFFFF; }
-  .theme-rate { font-size: 19px; font-weight: 900; color: #F97066; }
-  .theme-leaders { font-size: 14px; font-weight: 700; color: #FDE047; }
+  .theme-card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .theme-rank-name { font-size: 17px; font-weight: 900; color: #FFFFFF; }
+  .theme-rate { font-size: 18px; font-weight: 900; color: #F97066; white-space: nowrap; }
+  .theme-leaders { font-size: 13.5px; font-weight: 700; color: #FDE047; line-height: 1.35; }
 
-  /* 🎯 중앙 실시간 조건검색 포착 히어로 카드 */
+  /* 🎯 오른쪽 컬럼: 상단 실시간 포착 카드 + 하단 당일 포착 리스트 */
+  .right-panel {
+    display: flex; flex-direction: column; gap: 16px; min-width: 0;
+  }
   .hero-card {
     background-color: #1E293B; border: 3px solid #475467; border-radius: 14px;
-    padding: 22px; margin-top: 16px; transition: all 0.25s;
+    padding: 20px 22px; transition: all 0.25s;
   }
   .hero-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-  .signal-badge { font-size: 19px; font-weight: 900; color: #FDB022; }
-  .stock-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 18px; margin: 12px 0; }
-  .stock-name { font-size: 36px; font-weight: 900; color: #FFFFFF; }
-  .stock-price { font-size: 28px; font-weight: 900; color: #F04438; }
+  .signal-badge { font-size: 18px; font-weight: 900; color: #FDB022; }
+  .stock-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 16px; margin: 10px 0; }
+  .stock-name { font-size: 34px; font-weight: 900; color: #FFFFFF; }
+  .stock-price { font-size: 26px; font-weight: 900; color: #F04438; }
   .target-box {
-    background-color: #0F172A; padding: 14px 18px; border-radius: 10px;
-    font-size: 18px; font-weight: 800; color: #6CE9A6; margin-bottom: 12px;
+    background-color: #0F172A; padding: 13px 16px; border-radius: 10px;
+    font-size: 17px; font-weight: 800; color: #6CE9A6; margin-bottom: 10px;
     border-left: 5px solid #12B76A;
   }
-  .ammo-text { font-size: 17px; font-weight: 800; color: #FDE047; line-height: 1.5; }
+  .ammo-text { font-size: 16px; font-weight: 800; color: #FDE047; line-height: 1.5; }
 
-  /* 📋 하단 당일 포착 리스트 */
+  /* 📋 오른쪽 하단 당일 포착 리스트 */
+  .table-section {
+    display: flex; flex-direction: column; gap: 8px;
+  }
   .table-header-row {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
-    margin: 20px 4px 10px 4px; gap: 8px;
+    padding: 0 4px; gap: 8px;
   }
   .table-title { font-size: 18px; font-weight: 900; color: #F8FAFC; }
   .today-only-badge {
@@ -94,11 +114,11 @@
   .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid #334155; }
   table { width: 100%; border-collapse: collapse; background-color: #161F33; }
   th {
-    background-color: #26344D; color: #FFFFFF; font-size: 15px; font-weight: 800;
-    padding: 13px 10px; text-align: center; white-space: nowrap;
+    background-color: #26344D; color: #FFFFFF; font-size: 14.5px; font-weight: 800;
+    padding: 12px 10px; text-align: center; white-space: nowrap;
   }
   td {
-    padding: 13px 10px; font-size: 15px; font-weight: 700; text-align: center;
+    padding: 12px 10px; font-size: 14.5px; font-weight: 700; text-align: center;
     border-bottom: 1px solid #26344D; cursor: pointer;
   }
   tr:hover td { background-color: #1E2D4A; }
@@ -124,63 +144,74 @@
   </div>
 </div>
 
-<!-- 1. 맨 위: 오늘의 주도 테마 대형 전광판 -->
-<div class="theme-section">
-  <div class="theme-header">
-    <div class="theme-title">🔥 오늘의 주도 테마 TOP 8 (장전 레이더 &amp; 실시간 수급 1위 테마)</div>
-    <div id="themeUpdateLbl" class="theme-sub">실시간 테마 수신 중...</div>
-  </div>
-  <div id="themeGrid" class="theme-grid">
-    <div class="theme-card top3">
-      <div class="theme-card-top">
-        <span class="theme-rank-name">⏳ 테마 분석 중...</span>
-        <span class="theme-rate">-</span>
+<!-- 📐 좌우 2단 메인 컨테이너 -->
+<div class="main-split">
+
+  <!-- ⬅️ 왼쪽: 오늘의 주도 테마 TOP 8 (1위부터 8위까지 세로로 길게 배치) -->
+  <div class="theme-section">
+    <div class="theme-header">
+      <div class="theme-title">🔥 오늘의 주도 테마 TOP 8</div>
+      <div id="themeUpdateLbl" class="theme-sub">실시간 테마 수신 중...</div>
+    </div>
+    <div id="themeGrid" class="theme-grid">
+      <div class="theme-card top3">
+        <div class="theme-card-top">
+          <span class="theme-rank-name">⏳ 테마 분석 중...</span>
+          <span class="theme-rate">-</span>
+        </div>
+        <div class="theme-leaders">잠시만 기다려 주세요...</div>
       </div>
-      <div class="theme-leaders">잠시만 기다려 주세요...</div>
     </div>
   </div>
-</div>
 
-<!-- 2. 가운데: 검색식('돈이 몰라는건가~') + 테마 일치 최근 포착 종목 -->
-<div id="heroCard" class="hero-card">
-  <div class="hero-top">
-    <div id="badgeLbl" class="signal-badge">⏳ '돈이 몰라는건가~'(1분 5억 폭발) + 오늘의 테마 일치 종목을 감시 중입니다...</div>
-    <button id="copyBtn" class="btn" onclick="copyCurrentCode(true)">📋 종목코드 복사</button>
-  </div>
-  <div class="stock-row">
-    <div id="stockTitle" class="stock-name">당일 포착 대기 중</div>
-    <div id="priceLbl" class="stock-price"></div>
-  </div>
-  <div id="targetLbl" class="target-box">
-    🎯 권장 익절 목표가(+11%): - 원 &nbsp;&nbsp;|&nbsp;&nbsp; 🛡️ 손절 기준가(-3% 또는 시초가): - 원
-  </div>
-  <div id="ammoLbl" class="ammo-text">
-    🔥 매칭된 오늘의 테마 &amp; 수급 사유: 검색식에 새로운 종목이 포착되는 즉시 차임벨 소리와 함께 이곳에 크게 표시됩니다!
-  </div>
-</div>
+  <!-- ➡️ 오른쪽: 상단 실시간 포착 화면 + 하단 당일 종목 리스트 -->
+  <div class="right-panel">
 
-<!-- 3. 하단: 오직 오늘(당일) 포착된 종목만 표시되는 실시간 표 -->
-<div class="table-header-row">
-  <div class="table-title">📋 오늘 검색식에 걸린 실시간 종목 리스트 (클릭 시 상단 확대 &amp; 종목코드 복사)</div>
-  <div id="todayCountBadge" class="today-only-badge">📅 당일(오늘) 포착 종목만 표시됨</div>
-</div>
-<div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>포착 시각</th>
-        <th>구분</th>
-        <th>종목명 (코드)</th>
-        <th>포착가 (등락률)</th>
-        <th>+11% 목표가</th>
-        <th>당일 거래대금</th>
-        <th>매칭된 오늘의 테마 &amp; 포착 사유</th>
-      </tr>
-    </thead>
-    <tbody id="signalTableBody">
-      <tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘 포착된 종목을 불러오고 있습니다...</td></tr>
-    </tbody>
-  </table>
+    <!-- 1. 오른쪽 상단: 실시간 포착 메인 카드 -->
+    <div id="heroCard" class="hero-card">
+      <div class="hero-top">
+        <div id="badgeLbl" class="signal-badge">⏳ '돈이 몰라는건가~'(1분 5억 폭발) + 오늘의 테마 일치 종목을 감시 중입니다...</div>
+        <button id="copyBtn" class="btn" onclick="copyCurrentCode(true)">📋 종목코드 복사</button>
+      </div>
+      <div class="stock-row">
+        <div id="stockTitle" class="stock-name">당일 포착 대기 중</div>
+        <div id="priceLbl" class="stock-price"></div>
+      </div>
+      <div id="targetLbl" class="target-box">
+        🎯 권장 익절 목표가(+11%): - 원 &nbsp;&nbsp;|&nbsp;&nbsp; 🛡️ 손절 기준가(-3% 또는 시초가): - 원
+      </div>
+      <div id="ammoLbl" class="ammo-text">
+        🔥 매칭된 오늘의 테마 &amp; 수급 사유: 검색식에 새로운 종목이 포착되는 즉시 차임벨 소리와 함께 이곳에 크게 표시됩니다!
+      </div>
+    </div>
+
+    <!-- 2. 오른쪽 하단: 오늘(당일) 포착 종목 리스트 -->
+    <div class="table-section">
+      <div class="table-header-row">
+        <div class="table-title">📋 오늘 검색식에 걸린 실시간 종목 리스트 (클릭 시 상단 확대 &amp; 종목코드 복사)</div>
+        <div id="todayCountBadge" class="today-only-badge">📅 당일(오늘) 포착 종목만 표시됨</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>포착 시각</th>
+              <th>구분</th>
+              <th>종목명 (코드)</th>
+              <th>포착가 (등락률)</th>
+              <th>+11% 목표가</th>
+              <th>당일 거래대금</th>
+              <th>매칭된 오늘의 테마 &amp; 포착 사유</th>
+            </tr>
+          </thead>
+          <tbody id="signalTableBody">
+            <tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘 포착된 종목을 불러오고 있습니다...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <script>
