@@ -1,15 +1,15 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 14:47:55",
+  "updated_at": "2026-10-28 14:51:06",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "14:47:53",
+    "updated_at": "14:51:04",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.22,
+        "flu_rt": 8.1,
         "leaders": "안랩, 이니텍",
         "rising": "4/4"
       },
@@ -17,31 +17,31 @@
         "rank": 2,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 8.08,
+        "flu_rt": 7.95,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "3/3"
       },
       {
         "rank": 3,
-        "code": "554",
-        "name": "반도체_후공정소재",
-        "flu_rt": 7.1,
-        "leaders": "마이크로컨텍솔, 심텍홀딩스",
-        "rising": "6/6"
+        "code": "555",
+        "name": "반도체_전공정장비",
+        "flu_rt": 6.98,
+        "leaders": "원익홀딩스, 피에스케이홀딩스",
+        "rising": "6/7"
       },
       {
         "rank": 4,
-        "code": "555",
-        "name": "반도체_전공정장비",
-        "flu_rt": 6.9,
-        "leaders": "원익홀딩스, 피에스케이홀딩스",
-        "rising": "6/7"
+        "code": "554",
+        "name": "반도체_후공정소재",
+        "flu_rt": 6.91,
+        "leaders": "마이크로컨텍솔, 심텍홀딩스",
+        "rising": "6/6"
       },
       {
         "rank": 5,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 6.09,
+        "flu_rt": 6.03,
         "leaders": "케이아이엔엑스, SK",
         "rising": "7/9"
       },
@@ -49,25 +49,25 @@
         "rank": 6,
         "code": "243",
         "name": "자동차_차량용 반도체",
-        "flu_rt": 5.52,
+        "flu_rt": 5.45,
         "leaders": "현대모비스, HL홀딩스",
         "rising": "2/2"
       },
       {
         "rank": 7,
-        "code": "420",
-        "name": "보험_생명보험",
-        "flu_rt": 5.44,
-        "leaders": "삼성생명, 한화생명",
-        "rising": "2/2"
+        "code": "480",
+        "name": "네트워크/광통신",
+        "flu_rt": 5.43,
+        "leaders": "빛과전자, 대한광통신",
+        "rising": "8/9"
       },
       {
         "rank": 8,
-        "code": "480",
-        "name": "네트워크/광통신",
-        "flu_rt": 5.24,
-        "leaders": "빛과전자, 대한광통신",
-        "rising": "8/9"
+        "code": "420",
+        "name": "보험_생명보험",
+        "flu_rt": 5.28,
+        "leaders": "삼성생명, 한화생명",
+        "rising": "2/2"
       }
     ]
   },
