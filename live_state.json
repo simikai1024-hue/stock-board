@@ -1,15 +1,15 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 18:19:17",
+  "updated_at": "2026-10-28 18:22:25",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "18:19:15",
+    "updated_at": "18:22:22",
     "themes": [
       {
         "rank": 1,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 8.77,
+        "flu_rt": 8.99,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "3/3"
       },
@@ -17,15 +17,15 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.49,
+        "flu_rt": 8.64,
         "leaders": "안랩, 이니텍",
-        "rising": "3/4"
+        "rising": "4/4"
       },
       {
         "rank": 3,
         "code": "555",
         "name": "반도체_전공정장비",
-        "flu_rt": 7.85,
+        "flu_rt": 7.84,
         "leaders": "원익홀딩스, 피에스케이홀딩스",
         "rising": "6/7"
       },
@@ -33,28 +33,20 @@
         "rank": 4,
         "code": "554",
         "name": "반도체_후공정소재",
-        "flu_rt": 7.59,
-        "leaders": "마이크로컨텍솔, 심텍홀딩스",
+        "flu_rt": 7.44,
+        "leaders": "마이크로컨텍솔, 엠케이전자",
         "rising": "6/6"
       },
       {
         "rank": 5,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 6.08,
+        "flu_rt": 6.11,
         "leaders": "케이아이엔엑스, SK",
         "rising": "8/9"
       },
       {
         "rank": 6,
-        "code": "556",
-        "name": "반도체_전공정소재",
-        "flu_rt": 5.92,
-        "leaders": "동진쎄미켐, 디엔에프",
-        "rising": "7/7"
-      },
-      {
-        "rank": 7,
         "code": "480",
         "name": "네트워크/광통신",
         "flu_rt": 5.83,
@@ -62,10 +54,18 @@
         "rising": "8/9"
       },
       {
+        "rank": 7,
+        "code": "556",
+        "name": "반도체_전공정소재",
+        "flu_rt": 5.55,
+        "leaders": "동진쎄미켐, 원익QnC",
+        "rising": "7/7"
+      },
+      {
         "rank": 8,
         "code": "420",
         "name": "보험_생명보험",
-        "flu_rt": 5.21,
+        "flu_rt": 5.34,
         "leaders": "삼성생명, 한화생명",
         "rising": "2/2"
       }
