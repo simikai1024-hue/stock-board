@@ -1,15 +1,15 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 17:38:31",
+  "updated_at": "2026-10-28 17:41:38",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "17:38:29",
+    "updated_at": "17:41:36",
     "themes": [
       {
         "rank": 1,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 9.08,
+        "flu_rt": 9.13,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "3/3"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.05,
+        "flu_rt": 8.07,
         "leaders": "안랩, 이니텍",
         "rising": "4/4"
       },
@@ -41,15 +41,15 @@
         "rank": 5,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 5.98,
+        "flu_rt": 6.17,
         "leaders": "케이아이엔엑스, SK",
-        "rising": "7/9"
+        "rising": "8/9"
       },
       {
         "rank": 6,
         "code": "556",
         "name": "반도체_전공정소재",
-        "flu_rt": 5.95,
+        "flu_rt": 5.91,
         "leaders": "동진쎄미켐, 디엔에프",
         "rising": "7/7"
       },
@@ -57,17 +57,17 @@
         "rank": 7,
         "code": "480",
         "name": "네트워크/광통신",
-        "flu_rt": 5.87,
+        "flu_rt": 5.84,
         "leaders": "빛과전자, 대한광통신",
         "rising": "8/9"
       },
       {
         "rank": 8,
-        "code": "561",
-        "name": "LCD_소재",
-        "flu_rt": 5.35,
-        "leaders": "동진쎄미켐, 네패스",
-        "rising": "4/4"
+        "code": "420",
+        "name": "보험_생명보험",
+        "flu_rt": 5.38,
+        "leaders": "삼성생명, 한화생명",
+        "rising": "2/2"
       }
     ]
   },
