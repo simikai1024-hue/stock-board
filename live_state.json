@@ -1,15 +1,15 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28 19:00:10",
+  "updated_at": "2026-10-28 19:03:19",
   "themes_data": {
     "date": "2026-10-28",
-    "updated_at": "19:00:09",
+    "updated_at": "19:03:17",
     "themes": [
       {
         "rank": 1,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 9.01,
+        "flu_rt": 8.99,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "3/3"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.23,
+        "flu_rt": 8.34,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -33,39 +33,39 @@
         "rank": 4,
         "code": "554",
         "name": "반도체_후공정소재",
-        "flu_rt": 7.64,
+        "flu_rt": 7.63,
         "leaders": "마이크로컨텍솔, 심텍홀딩스",
         "rising": "6/6"
       },
       {
         "rank": 5,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 6.01,
-        "leaders": "케이아이엔엑스, SK",
-        "rising": "8/9"
+        "code": "556",
+        "name": "반도체_전공정소재",
+        "flu_rt": 6.06,
+        "leaders": "동진쎄미켐, 디엔에프",
+        "rising": "7/7"
       },
       {
         "rank": 6,
-        "code": "556",
-        "name": "반도체_전공정소재",
-        "flu_rt": 6.01,
-        "leaders": "동진쎄미켐, 디엔에프",
-        "rising": "7/7"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 5.96,
+        "leaders": "케이아이엔엑스, SK",
+        "rising": "8/9"
       },
       {
         "rank": 7,
         "code": "480",
         "name": "네트워크/광통신",
-        "flu_rt": 5.82,
+        "flu_rt": 5.81,
         "leaders": "빛과전자, 대한광통신",
-        "rising": "8/9"
+        "rising": "7/9"
       },
       {
         "rank": 8,
         "code": "561",
         "name": "LCD_소재",
-        "flu_rt": 5.41,
+        "flu_rt": 5.44,
         "leaders": "동진쎄미켐, 네패스",
         "rising": "4/4"
       }
