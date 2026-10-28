@@ -181,7 +181,7 @@
   </div>
   <div class="header-right">
     <span id="statusLbl" class="status-badge">🟢 실시간 연결 중...</span>
-    <button class="btn" style="background-color:#E11D48;" onclick="toggleHealthCard()">💌 어머님 건강 안내문 보기/접기</button>
+    <button id="healthHeaderBtn" class="btn" style="background-color:#E11D48;" onclick="toggleHealthCard()">💌 어머님 건강 안내문 보기/접기</button>
     <button class="btn btn-test" onclick="triggerTestAlert()">🔔 소리 테스트</button>
   </div>
 </div>
@@ -340,6 +340,19 @@ function getTodayKST() {
 }
 
 document.getElementById("todayDateLbl").innerText = `| 📅 ${getTodayKST()} 당일 실시간 포착 전용`;
+
+function checkDailyRolloverUI() {
+  const today = getTodayKST();
+  document.getElementById("todayDateLbl").innerText = `| 📅 ${today} 당일 실시간 포착 전용`;
+  const hc = document.getElementById("healthCard");
+  const hb = document.getElementById("healthHeaderBtn");
+  if (today !== "2026-10-28") {
+    if (hc) hc.style.display = "none";
+    if (hb) hb.style.display = "none";
+  }
+}
+checkDailyRolloverUI();
+setInterval(checkDailyRolloverUI, 10000);
 
 function initAudio() {
   if (!audioCtx) {
@@ -568,6 +581,15 @@ async function pollGitHubState() {
         renderTable(todayItems);
         if (todayItems.length > 0 && !currentCode) {
           updateHeroCard(todayItems[todayItems.length - 1], false);
+        } else if (todayItems.length === 0 && currentCode) {
+          currentCode = "";
+          document.getElementById("heroCard").style.borderColor = "#475467";
+          document.getElementById("badgeLbl").style.color = "#FDB022";
+          document.getElementById("badgeLbl").innerText = "⏳ '돈이 몰라는건가~'(1분 5억 폭발) + 오늘의 테마 일치 종목을 감시 중입니다...";
+          document.getElementById("stockTitle").innerText = "당일 포착 대기 중";
+          document.getElementById("priceLbl").innerText = "";
+          document.getElementById("targetLbl").innerText = "🎯 권장 익절 목표가(+11%): - 원   |   🛡️ 손절 기준가(-3% 또는 시초가): - 원";
+          document.getElementById("ammoLbl").innerText = "🔥 매칭된 오늘의 테마 & 수급 사유: 검색식에 새로운 종목이 포착되는 즉시 차임벨 소리와 함께 이곳에 크게 표시됩니다!";
         }
       }
     }
