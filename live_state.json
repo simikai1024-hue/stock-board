@@ -1,28 +1,20 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 12:31:01",
+  "updated_at": "2026-10-29 12:32:05",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "12:31:00",
+    "updated_at": "12:32:04",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 1.59,
+        "flu_rt": 1.87,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
       {
         "rank": 2,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.05,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "2/9"
-      },
-      {
-        "rank": 3,
         "code": "230",
         "name": "운송_항공",
         "flu_rt": 0.98,
@@ -30,12 +22,20 @@
         "rising": "2/2"
       },
       {
+        "rank": 3,
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 0.96,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "2/9"
+      },
+      {
         "rank": 4,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.86,
+        "flu_rt": 0.9,
         "leaders": "롯데손해보험, 현대해상",
-        "rising": "5/7"
+        "rising": "6/7"
       },
       {
         "rank": 5,
@@ -49,25 +49,25 @@
         "rank": 6,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.47,
+        "flu_rt": 0.49,
         "leaders": "케이아이엔엑스, KT",
         "rising": "3/9"
       },
       {
         "rank": 7,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 0.18,
-        "leaders": "하나금융지주, KB금융",
-        "rising": "5/7"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.28,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       },
       {
         "rank": 8,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.18,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 0.21,
+        "leaders": "하나금융지주, KB금융",
+        "rising": "5/7"
       }
     ]
   },
