@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:03:29",
+  "updated_at": "2026-10-29 19:04:32",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:03:28",
+    "updated_at": "19:04:30",
     "themes": [
       {
         "rank": 1,
@@ -23,19 +23,19 @@
       },
       {
         "rank": 3,
-        "code": "232",
-        "name": "운송_육상운송",
-        "flu_rt": 1.65,
-        "leaders": "CJ대한통운, 한진",
-        "rising": "4/4"
-      },
-      {
-        "rank": 4,
         "code": "250",
         "name": "가구",
         "flu_rt": 1.64,
         "leaders": "현대리바트, 퍼시스",
         "rising": "3/3"
+      },
+      {
+        "rank": 4,
+        "code": "232",
+        "name": "운송_육상운송",
+        "flu_rt": 1.62,
+        "leaders": "CJ대한통운, 한진",
+        "rising": "4/4"
       },
       {
         "rank": 5,
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.41,
+        "flu_rt": 1.45,
         "leaders": "서울반도체, 금호전기",
         "rising": "4/9"
       }
