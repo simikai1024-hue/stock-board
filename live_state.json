@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:10:03",
+  "updated_at": "2026-10-29 13:11:05",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:10:02",
+    "updated_at": "13:11:04",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 1.64,
+        "flu_rt": 1.68,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
@@ -17,20 +17,12 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.26,
+        "flu_rt": 1.17,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
       {
         "rank": 3,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.07,
-        "leaders": "퍼시스, 한샘",
-        "rising": "2/3"
-      },
-      {
-        "rank": 4,
         "code": "230",
         "name": "운송_항공",
         "flu_rt": 1.03,
@@ -38,34 +30,42 @@
         "rising": "2/2"
       },
       {
+        "rank": 4,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.02,
+        "leaders": "퍼시스, 한샘",
+        "rising": "2/3"
+      },
+      {
         "rank": 5,
-        "code": "291",
-        "name": "홈쇼핑",
+        "code": "400",
+        "name": "은행",
         "flu_rt": 0.86,
-        "leaders": "CJ ENM",
-        "rising": "1/1"
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 6,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 0.82,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
+        "code": "291",
+        "name": "홈쇼핑",
+        "flu_rt": 0.74,
+        "leaders": "CJ ENM",
+        "rising": "1/1"
       },
       {
         "rank": 7,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.77,
-        "leaders": "현대해상, 롯데손해보험",
-        "rising": "6/7"
+        "flu_rt": 0.65,
+        "leaders": "롯데손해보험, 현대해상",
+        "rising": "5/7"
       },
       {
         "rank": 8,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.65,
+        "flu_rt": 0.61,
         "leaders": "케이아이엔엑스, KT",
         "rising": "3/9"
       }
