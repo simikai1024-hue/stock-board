@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 16:58:18",
+  "updated_at": "2026-10-29 16:59:21",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "16:58:16",
+    "updated_at": "16:59:19",
     "themes": [
       {
         "rank": 1,
@@ -31,19 +31,19 @@
       },
       {
         "rank": 4,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 1.42,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "3/5"
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 1.41,
+        "leaders": "남양유업, 빙그레",
+        "rising": "3/3"
       },
       {
         "rank": 5,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 1.33,
-        "leaders": "남양유업, 빙그레",
-        "rising": "3/3"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 1.41,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "3/5"
       },
       {
         "rank": 6,
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.3,
+        "flu_rt": 1.29,
         "leaders": "서울반도체, 우리이앤엘하루틴",
         "rising": "4/9"
       },
