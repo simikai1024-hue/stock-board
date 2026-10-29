@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:38:28",
+  "updated_at": "2026-10-29 09:39:34",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:38:26",
+    "updated_at": "09:39:33",
     "themes": [
       {
         "rank": 1,
         "code": "572",
         "name": "LED",
-        "flu_rt": 2.7,
+        "flu_rt": 2.54,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 1.14,
+        "flu_rt": 1.18,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "2/3"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.91,
+        "flu_rt": 0.9,
         "leaders": "케이아이엔엑스, SK",
         "rising": "4/9"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.7,
+        "flu_rt": 0.55,
         "leaders": "스틱인베스트먼트, SBI인베스트먼트",
         "rising": "2/5"
       },
