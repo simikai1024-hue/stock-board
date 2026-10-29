@@ -1,12 +1,20 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 11:13:37",
+  "updated_at": "2026-10-29 11:14:42",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "11:13:35",
+    "updated_at": "11:14:40",
     "themes": [
       {
         "rank": 1,
+        "code": "262",
+        "name": "전기자전거",
+        "flu_rt": 1.8,
+        "leaders": "알톤, 삼천리자전거",
+        "rising": "1/2"
+      },
+      {
+        "rank": 2,
         "code": "230",
         "name": "운송_항공",
         "flu_rt": 1.72,
@@ -14,18 +22,10 @@
         "rising": "2/2"
       },
       {
-        "rank": 2,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 1.54,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "1/2"
-      },
-      {
         "rank": 3,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.0,
+        "flu_rt": 0.88,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.81,
+        "flu_rt": 0.79,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "2/5"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "400",
         "name": "은행",
-        "flu_rt": 0.56,
+        "flu_rt": 0.61,
         "leaders": "하나금융지주, KB금융",
         "rising": "6/7"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.53,
+        "flu_rt": 0.57,
         "leaders": "롯데손해보험, 삼성화재",
         "rising": "5/7"
       },
@@ -65,8 +65,8 @@
         "rank": 8,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.32,
-        "leaders": "케이아이엔엑스, KT",
+        "flu_rt": 0.31,
+        "leaders": "케이아이엔엑스, LG유플러스",
         "rising": "3/9"
       }
     ]
