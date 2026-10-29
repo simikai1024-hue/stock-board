@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 17:26:30",
+  "updated_at": "2026-10-29 17:27:32",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "17:26:28",
+    "updated_at": "17:27:31",
     "themes": [
       {
         "rank": 1,
@@ -15,19 +15,19 @@
       },
       {
         "rank": 2,
-        "code": "312",
-        "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.9,
-        "leaders": "한탑, 사조동아원",
-        "rising": "4/6"
-      },
-      {
-        "rank": 3,
         "code": "314",
         "name": "유가공",
         "flu_rt": 1.87,
         "leaders": "매일홀딩스, 남양유업",
         "rising": "3/3"
+      },
+      {
+        "rank": 3,
+        "code": "312",
+        "name": "곡물가공품_설탕/밀가루/유지",
+        "flu_rt": 1.78,
+        "leaders": "한탑, 사조동아원",
+        "rising": "4/6"
       },
       {
         "rank": 4,
@@ -47,19 +47,19 @@
       },
       {
         "rank": 6,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.26,
-        "leaders": "서울반도체, 우리이앤엘하루틴",
-        "rising": "4/9"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 1.23,
+        "leaders": "케이아이엔엑스, KT",
+        "rising": "5/9"
       },
       {
         "rank": 7,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.22,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "5/9"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.23,
+        "leaders": "서울반도체, 우리이앤엘하루틴",
+        "rising": "4/9"
       },
       {
         "rank": 8,
