@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:13:59",
+  "updated_at": "2026-10-29 19:15:02",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:13:58",
+    "updated_at": "19:15:00",
     "themes": [
       {
         "rank": 1,
@@ -47,19 +47,19 @@
       },
       {
         "rank": 6,
-        "code": "232",
-        "name": "운송_육상운송",
-        "flu_rt": 1.52,
-        "leaders": "CJ대한통운, 한진",
-        "rising": "4/4"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.5,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "4/9"
       },
       {
         "rank": 7,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.51,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
+        "code": "232",
+        "name": "운송_육상운송",
+        "flu_rt": 1.48,
+        "leaders": "CJ대한통운, 한진",
+        "rising": "4/4"
       },
       {
         "rank": 8,
