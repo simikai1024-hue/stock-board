@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 17:56:47",
+  "updated_at": "2026-10-29 17:57:50",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "17:56:45",
+    "updated_at": "17:57:48",
     "themes": [
       {
         "rank": 1,
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.29,
+        "flu_rt": 1.31,
         "leaders": "서울반도체, 우리이앤엘하루틴",
         "rising": "4/9"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.03,
+        "flu_rt": 1.06,
         "leaders": "현대해상, 한화손해보험",
         "rising": "6/7"
       }
