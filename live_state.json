@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:22:19",
+  "updated_at": "2026-10-29 19:23:21",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:22:17",
+    "updated_at": "19:23:19",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.98,
+        "flu_rt": 1.93,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "410",
         "name": "창투",
-        "flu_rt": 1.66,
+        "flu_rt": 1.6,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "3/5"
       },
@@ -47,27 +47,27 @@
       },
       {
         "rank": 6,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.5,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
-      },
-      {
-        "rank": 7,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.49,
+        "flu_rt": 1.51,
         "leaders": "현대해상, 삼성화재",
         "rising": "6/7"
       },
       {
-        "rank": 8,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.45,
-        "leaders": "현대리바트, 퍼시스",
+        "rank": 7,
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 1.48,
+        "leaders": "남양유업, 빙그레",
         "rising": "3/3"
+      },
+      {
+        "rank": 8,
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.47,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "4/9"
       }
     ]
   },
