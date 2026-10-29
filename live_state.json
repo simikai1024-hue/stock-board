@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 12:23:36",
+  "updated_at": "2026-10-29 12:24:40",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "12:23:34",
+    "updated_at": "12:24:38",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 1.59,
+        "flu_rt": 1.64,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.14,
+        "flu_rt": 1.16,
         "leaders": "서울반도체, 금호전기",
         "rising": "3/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "230",
         "name": "운송_항공",
-        "flu_rt": 0.91,
+        "flu_rt": 0.84,
         "leaders": "대한항공, 아시아나항공",
         "rising": "2/2"
       },
@@ -33,20 +33,12 @@
         "rank": 4,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.9,
+        "flu_rt": 0.84,
         "leaders": "롯데손해보험, 현대해상",
-        "rising": "5/7"
+        "rising": "6/7"
       },
       {
         "rank": 5,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.69,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "3/9"
-      },
-      {
-        "rank": 6,
         "code": "250",
         "name": "가구",
         "flu_rt": 0.65,
@@ -54,20 +46,28 @@
         "rising": "1/3"
       },
       {
+        "rank": 6,
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 0.65,
+        "leaders": "케이아이엔엑스, KT",
+        "rising": "3/9"
+      },
+      {
         "rank": 7,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.36,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.4,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       },
       {
         "rank": 8,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.33,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.34,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "2/5"
       }
     ]
   },
