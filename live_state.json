@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:12:09",
+  "updated_at": "2026-10-29 13:13:11",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:12:08",
+    "updated_at": "13:13:10",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.19,
+        "flu_rt": 1.15,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.11,
+        "flu_rt": 1.07,
         "leaders": "퍼시스, 한샘",
         "rising": "2/3"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "230",
         "name": "운송_항공",
-        "flu_rt": 0.98,
+        "flu_rt": 0.89,
         "leaders": "아시아나항공, 대한항공",
         "rising": "2/2"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.77,
+        "flu_rt": 0.8,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "6/7"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.64,
+        "flu_rt": 0.67,
         "leaders": "케이아이엔엑스, KT",
         "rising": "3/9"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.42,
+        "flu_rt": 0.53,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "2/5"
       }
