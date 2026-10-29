@@ -1,12 +1,20 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:05:34",
+  "updated_at": "2026-10-29 19:06:36",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:05:32",
+    "updated_at": "19:06:35",
     "themes": [
       {
         "rank": 1,
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 2.07,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
+      },
+      {
+        "rank": 2,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
         "flu_rt": 1.99,
@@ -14,18 +22,10 @@
         "rising": "4/6"
       },
       {
-        "rank": 2,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.98,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
-      },
-      {
         "rank": 3,
         "code": "232",
         "name": "운송_육상운송",
-        "flu_rt": 1.73,
+        "flu_rt": 1.81,
         "leaders": "CJ대한통운, 한진",
         "rising": "4/4"
       },
