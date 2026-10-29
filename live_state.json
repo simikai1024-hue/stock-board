@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:20:14",
+  "updated_at": "2026-10-29 19:21:16",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:20:12",
+    "updated_at": "19:21:15",
     "themes": [
       {
         "rank": 1,
@@ -17,25 +17,25 @@
         "rank": 2,
         "code": "400",
         "name": "은행",
-        "flu_rt": 2.0,
+        "flu_rt": 1.99,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
       {
         "rank": 3,
+        "code": "232",
+        "name": "운송_육상운송",
+        "flu_rt": 1.56,
+        "leaders": "CJ대한통운, 한진",
+        "rising": "4/4"
+      },
+      {
+        "rank": 4,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.56,
         "leaders": "알톤, 삼천리자전거",
         "rising": "2/2"
-      },
-      {
-        "rank": 4,
-        "code": "232",
-        "name": "운송_육상운송",
-        "flu_rt": 1.55,
-        "leaders": "CJ대한통운, 한진",
-        "rising": "4/4"
       },
       {
         "rank": 5,
@@ -49,17 +49,17 @@
         "rank": 6,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.5,
+        "flu_rt": 1.51,
         "leaders": "서울반도체, 금호전기",
         "rising": "4/9"
       },
       {
         "rank": 7,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 1.48,
-        "leaders": "남양유업, 빙그레",
-        "rising": "3/3"
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 1.49,
+        "leaders": "현대해상, 삼성화재",
+        "rising": "6/7"
       },
       {
         "rank": 8,
