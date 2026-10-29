@@ -1,33 +1,17 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:01:53",
+  "updated_at": "2026-10-29 09:02:57",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:01:52",
+    "updated_at": "09:02:55",
     "themes": [
       {
         "rank": 1,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 1.79,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "2/2"
-      },
-      {
-        "rank": 2,
-        "code": "363",
-        "name": "바이오_유전체분석",
-        "flu_rt": 1.76,
-        "leaders": "제이에스링크, 테라젠이텍스",
-        "rising": "2/3"
-      },
-      {
-        "rank": 3,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.62,
-        "leaders": "케이아이엔엑스, 엔텔스",
-        "rising": "5/9"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.57,
+        "leaders": "서울반도체, 일진디스플",
+        "rising": "1/9"
       }
     ]
   },
