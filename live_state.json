@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:33:45",
+  "updated_at": "2026-10-29 19:34:48",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:33:44",
+    "updated_at": "19:34:46",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "400",
         "name": "은행",
-        "flu_rt": 2.08,
+        "flu_rt": 2.04,
         "leaders": "iM금융지주, 하나금융지주",
         "rising": "6/7"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.64,
+        "flu_rt": 1.61,
         "leaders": "현대해상, 한화손해보험",
         "rising": "6/7"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "232",
         "name": "운송_육상운송",
-        "flu_rt": 1.59,
+        "flu_rt": 1.55,
         "leaders": "CJ대한통운, 한진",
         "rising": "4/4"
       },
