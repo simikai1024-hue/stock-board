@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 16:06:04",
+  "updated_at": "2026-10-29 16:07:06",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "16:06:03",
+    "updated_at": "16:07:05",
     "themes": [
       {
         "rank": 1,
@@ -39,14 +39,22 @@
       },
       {
         "rank": 5,
-        "code": "281",
-        "name": "미디어_디지털방송전환",
-        "flu_rt": 1.66,
-        "leaders": "현대퓨처넷, LG유플러스",
-        "rising": "4/7"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.46,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 6,
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.44,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "4/9"
+      },
+      {
+        "rank": 7,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
         "flu_rt": 1.41,
@@ -54,20 +62,12 @@
         "rising": "5/6"
       },
       {
-        "rank": 7,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.4,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
-      },
-      {
         "rank": 8,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.39,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 1.06,
+        "leaders": "DN오토모티브, 넥센타이어",
+        "rising": "2/4"
       }
     ]
   },
