@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:42:46",
+  "updated_at": "2026-10-29 09:43:50",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:42:45",
+    "updated_at": "09:43:49",
     "themes": [
       {
         "rank": 1,
         "code": "572",
         "name": "LED",
-        "flu_rt": 2.62,
+        "flu_rt": 2.56,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 1.54,
+        "flu_rt": 1.51,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "2/3"
       },
@@ -33,40 +33,40 @@
         "rank": 4,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.81,
+        "flu_rt": 1.01,
         "leaders": "케이아이엔엑스, SK",
-        "rising": "3/9"
+        "rising": "4/9"
       },
       {
         "rank": 5,
         "code": "172",
         "name": "합금철",
-        "flu_rt": 0.72,
+        "flu_rt": 0.67,
         "leaders": "동일산업, 태경산업",
         "rising": "1/2"
       },
       {
         "rank": 6,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.64,
-        "leaders": "퍼시스, 한샘",
-        "rising": "1/3"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.56,
+        "leaders": "스틱인베스트먼트, SBI인베스트먼트",
+        "rising": "2/5"
       },
       {
         "rank": 7,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.62,
-        "leaders": "스틱인베스트먼트, SBI인베스트먼트",
-        "rising": "2/5"
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.47,
+        "leaders": "퍼시스, 현대리바트",
+        "rising": "1/3"
       },
       {
         "rank": 8,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 0.42,
-        "leaders": "매일홀딩스, 빙그레",
+        "flu_rt": 0.25,
+        "leaders": "매일홀딩스, 남양유업",
         "rising": "1/3"
       }
     ]
