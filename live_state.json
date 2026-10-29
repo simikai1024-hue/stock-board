@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:29:36",
+  "updated_at": "2026-10-29 19:30:39",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:29:34",
+    "updated_at": "19:30:37",
     "themes": [
       {
         "rank": 1,
@@ -25,8 +25,8 @@
         "rank": 3,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.99,
-        "leaders": "하나금융지주, iM금융지주",
+        "flu_rt": 1.91,
+        "leaders": "iM금융지주, 하나금융지주",
         "rising": "6/7"
       },
       {
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "410",
         "name": "창투",
-        "flu_rt": 1.61,
+        "flu_rt": 1.52,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "3/5"
       },
