@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 17:33:46",
+  "updated_at": "2026-10-29 17:34:48",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "17:33:44",
+    "updated_at": "17:34:47",
     "themes": [
       {
         "rank": 1,
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "410",
         "name": "창투",
-        "flu_rt": 1.63,
+        "flu_rt": 1.66,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "3/5"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.24,
+        "flu_rt": 1.26,
         "leaders": "서울반도체, 우리이앤엘하루틴",
         "rising": "4/9"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.15,
+        "flu_rt": 1.08,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       }
