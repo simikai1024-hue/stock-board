@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:07:58",
+  "updated_at": "2026-10-29 13:09:01",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:07:57",
+    "updated_at": "13:09:00",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.09,
+        "flu_rt": 1.11,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -39,35 +39,35 @@
       },
       {
         "rank": 5,
-        "code": "291",
-        "name": "홈쇼핑",
-        "flu_rt": 0.98,
-        "leaders": "CJ ENM",
-        "rising": "1/1"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 0.96,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 6,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 0.95,
-        "leaders": "하나금융지주, iM금융지주",
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 0.82,
+        "leaders": "롯데손해보험, 현대해상",
         "rising": "6/7"
       },
       {
         "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.66,
+        "flu_rt": 0.72,
         "leaders": "케이아이엔엑스, KT",
         "rising": "3/9"
       },
       {
         "rank": 8,
-        "code": "421",
-        "name": "보험_손해보험",
-        "flu_rt": 0.65,
-        "leaders": "롯데손해보험, 현대해상",
-        "rising": "6/7"
+        "code": "291",
+        "name": "홈쇼핑",
+        "flu_rt": 0.49,
+        "leaders": "CJ ENM",
+        "rising": "1/1"
       }
     ]
   },
