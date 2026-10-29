@@ -1,25 +1,25 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:15:02",
+  "updated_at": "2026-10-29 19:16:05",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:15:00",
+    "updated_at": "19:16:03",
     "themes": [
       {
         "rank": 1,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 2.0,
-        "leaders": "iM금융지주, 하나금융지주",
-        "rising": "6/7"
-      },
-      {
-        "rank": 2,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
         "flu_rt": 1.99,
         "leaders": "한탑, 사조동아원",
         "rising": "4/6"
+      },
+      {
+        "rank": 2,
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.97,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 3,
@@ -31,14 +31,6 @@
       },
       {
         "rank": 4,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 1.59,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "3/5"
-      },
-      {
-        "rank": 5,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.56,
@@ -46,20 +38,28 @@
         "rising": "2/2"
       },
       {
+        "rank": 5,
+        "code": "232",
+        "name": "운송_육상운송",
+        "flu_rt": 1.52,
+        "leaders": "CJ대한통운, 한진",
+        "rising": "4/4"
+      },
+      {
         "rank": 6,
-        "code": "572",
-        "name": "LED",
+        "code": "410",
+        "name": "창투",
         "flu_rt": 1.5,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "3/5"
       },
       {
         "rank": 7,
-        "code": "232",
-        "name": "운송_육상운송",
-        "flu_rt": 1.48,
-        "leaders": "CJ대한통운, 한진",
-        "rising": "4/4"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.49,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "4/9"
       },
       {
         "rank": 8,
