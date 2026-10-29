@@ -165,6 +165,7 @@
   tr:hover td { background-color: #1E2D4A; }
   .tag-buy { color: #FF692E; font-weight: 900; }
   .tag-sell { color: #32D583; font-weight: 900; }
+  .tag-sell-loss { color: #60A5FA; font-weight: 900; }
   .tag-watch { color: #38BDF8; font-weight: 900; }
 </style>
 </head>
@@ -302,10 +303,10 @@
               <th>포착 시각</th>
               <th>구분</th>
               <th>종목명 (코드)</th>
-              <th>포착가 (등락률)</th>
-              <th>+11% 목표가</th>
-              <th>당일 거래대금</th>
-              <th>매칭된 오늘의 테마 &amp; 포착 사유</th>
+              <th>포착/청산가 (등락률)</th>
+              <th>+11% 목표가 / 실현손익</th>
+              <th>거래대금 / 수량</th>
+              <th>매칭된 오늘의 테마 &amp; 청산 손익 상세</th>
             </tr>
           </thead>
           <tbody id="signalTableBody">
@@ -485,31 +486,56 @@ function updateHeroCard(data, withSound) {
   const ammoTitle = data.ammo_title || "";
   const note = data.note || "";
   const tm = (data.time || "").slice(-8);
+  const hasPnl = (data.pnl_krw !== undefined && data.pnl_krw !== null);
+  const pnlKrw = hasPnl ? Number(data.pnl_krw) : 0;
+  const pnlPct = (data.pnl_pct !== undefined && data.pnl_pct !== null) ? Number(data.pnl_pct) : 0;
+  const buyP = Number(data.buy_price || 0);
+  const qty = Number(data.qty || 0);
 
   currentCode = code;
   if (code) copyTextFallback(code);
 
   const card = document.getElementById("heroCard");
   const badge = document.getElementById("badgeLbl");
+  const sign = fluRt >= 0 ? "+" : "";
+  document.getElementById("stockTitle").innerText = `${name} (${code})`;
+
   if (sigType === "BUY") {
     card.style.borderColor = "#F04438";
     badge.style.color = "#FF692E";
     badge.innerText = `🚀 [실전 매수 타격! ${tm}] ${note || '검색식(1분 5억) + 오늘의 테마 일치 초입 돌파!'}`;
+    document.getElementById("priceLbl").innerText = `현재/포착가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)  |  거래대금: ${valUk.toFixed(1)}억`;
+    document.getElementById("targetLbl").innerText = `🎯 +11% 목표익절가: ${targetP.toLocaleString()}원    |    🛡️ 손절기준가(-3% / 시초가): ${stopP.toLocaleString()}원`;
+    document.getElementById("ammoLbl").innerText = `🔥 매칭 테마 & 수급: ${ammoTitle}`;
   } else if (sigType === "SELL") {
-    card.style.borderColor = "#12B76A";
-    badge.style.color = "#32D583";
-    badge.innerText = `🎉 [전량 매도/익절 신호! ${tm}] ${note || '목표 달성 매도 신호입니다!'}`;
+    if (hasPnl && pnlKrw < 0) {
+      card.style.borderColor = "#38BDF8";
+      badge.style.color = "#60A5FA";
+      badge.innerText = `📘 [전량 청산 완료! ${tm}] ${note || '보유 종목 전량 당일 청산 완료!'}`;
+      document.getElementById("priceLbl").innerText = `청산 체결가: ${price.toLocaleString()}원 (당일 ${sign}${fluRt.toFixed(2)}%)  |  청산 수량: ${qty > 0 ? qty + '주 전량' : '전량'}`;
+      document.getElementById("targetLbl").innerText = `📉 세후 확정 손실: ${pnlKrw.toLocaleString()}원 (${pnlPct.toFixed(2)}%)    |    📌 매수 평단가: ${buyP > 0 ? buyP.toLocaleString() + '원' : '-'} → 매도가: ${price.toLocaleString()}원`;
+    } else if (hasPnl) {
+      card.style.borderColor = "#12B76A";
+      badge.style.color = "#32D583";
+      badge.innerText = `🎉 [전량 익절 완료! ${tm}] ${note || '목표 달성 익절 매도 완료!'}`;
+      document.getElementById("priceLbl").innerText = `익절 체결가: ${price.toLocaleString()}원 (당일 ${sign}${fluRt.toFixed(2)}%)  |  익절 수량: ${qty > 0 ? qty + '주 전량' : '전량'}`;
+      document.getElementById("targetLbl").innerText = `💰 세후 확정 수익: +${pnlKrw.toLocaleString()}원 (+${pnlPct.toFixed(2)}%)    |    📌 매수 평단가: ${buyP > 0 ? buyP.toLocaleString() + '원' : '-'} → 매도가: ${price.toLocaleString()}원`;
+    } else {
+      card.style.borderColor = "#12B76A";
+      badge.style.color = "#32D583";
+      badge.innerText = `🎉 [전량 매도/청산 신호! ${tm}] ${note || '전량 매도 신호입니다!'}`;
+      document.getElementById("priceLbl").innerText = `청산가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)`;
+      document.getElementById("targetLbl").innerText = `📌 전량 매도/청산 완료`;
+    }
+    document.getElementById("ammoLbl").innerText = `📊 청산 상세 내역: ${ammoTitle}`;
   } else {
     card.style.borderColor = "#2E90FA";
     badge.style.color = "#38BDF8";
     badge.innerText = `⚡ [검색식 실시간 포착! ${tm}] ${note || '돈이 몰리는건가~ + 테마 일치 포착 종목!'}`;
+    document.getElementById("priceLbl").innerText = `현재/포착가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)  |  거래대금: ${valUk.toFixed(1)}억`;
+    document.getElementById("targetLbl").innerText = `🎯 +11% 목표익절가: ${targetP.toLocaleString()}원    |    🛡️ 손절기준가(-3% / 시초가): ${stopP.toLocaleString()}원`;
+    document.getElementById("ammoLbl").innerText = `🔥 매칭 테마 & 수급: ${ammoTitle}`;
   }
-
-  document.getElementById("stockTitle").innerText = `${name} (${code})`;
-  const sign = fluRt >= 0 ? "+" : "";
-  document.getElementById("priceLbl").innerText = `현재/포착가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)  |  거래대금: ${valUk.toFixed(1)}억`;
-  document.getElementById("targetLbl").innerText = `🎯 +11% 목표익절가: ${targetP.toLocaleString()}원    |    🛡️ 손절기준가(-3% / 시초가): ${stopP.toLocaleString()}원`;
-  document.getElementById("ammoLbl").innerText = `🔥 매칭 테마 & 수급: ${ammoTitle}`;
 
   if (withSound) playChime(sigType);
 }
@@ -548,10 +574,25 @@ function mergeAndRenderTable(incomingItems) {
   reversed.forEach((item) => {
     const tr = document.createElement("tr");
     const sigType = item.type || "WATCH";
+    const hasPnl = (item.pnl_krw !== undefined && item.pnl_krw !== null);
+    const pnlKrw = hasPnl ? Number(item.pnl_krw) : 0;
+    const pnlPct = (item.pnl_pct !== undefined && item.pnl_pct !== null) ? Number(item.pnl_pct) : 0;
+    const qty = Number(item.qty || 0);
+
     let tagClass = "tag-watch";
     let tagText = "⚡검색식포착";
-    if (sigType === "BUY") { tagClass = "tag-buy"; tagText = "🚀실전매수"; }
-    else if (sigType === "SELL") { tagClass = "tag-sell"; tagText = "🎉익절/청산"; }
+    if (sigType === "BUY") {
+      tagClass = "tag-buy";
+      tagText = "🚀실전매수";
+    } else if (sigType === "SELL") {
+      if (hasPnl && pnlKrw < 0) {
+        tagClass = "tag-sell-loss";
+        tagText = "📘마감청산";
+      } else {
+        tagClass = "tag-sell";
+        tagText = "🎉익절청산";
+      }
+    }
 
     const price = Number(item.price || 0);
     const fluRt = Number(item.flu_rt || 0);
@@ -560,14 +601,31 @@ function mergeAndRenderTable(incomingItems) {
     const valUk = Number(item.val_uk || 0);
     const timeOnly = String(item.time || "").slice(11, 19) || item.time;
 
+    let col5Html = `<td style="color:#6CE9A6; font-weight:900;">${targetP.toLocaleString()}원</td>`;
+    let col6Html = `<td>${valUk.toFixed(1)}억</td>`;
+    let col7Color = "#FDE047";
+
+    if (sigType === "SELL") {
+      if (hasPnl && pnlKrw >= 0) {
+        col5Html = `<td style="color:#4ADE80; font-weight:900; font-size:15.5px;">💰 +${pnlKrw.toLocaleString()}원 (+${pnlPct.toFixed(2)}%)</td>`;
+        col7Color = "#86EFAC";
+      } else if (hasPnl && pnlKrw < 0) {
+        col5Html = `<td style="color:#60A5FA; font-weight:900; font-size:15.5px;">📉 ${pnlKrw.toLocaleString()}원 (${pnlPct.toFixed(2)}%)</td>`;
+        col7Color = "#93C5FD";
+      } else {
+        col5Html = `<td style="color:#94A3B8; font-weight:900;">전량청산</td>`;
+      }
+      col6Html = `<td>${qty > 0 ? qty + "주 청산" : "전량청산"}</td>`;
+    }
+
     tr.innerHTML = `
       <td>${timeOnly}</td>
       <td class="${tagClass}">${tagText}</td>
       <td style="font-weight:900; color:#FFFFFF; font-size:16px;">${item.name} (${item.code})</td>
       <td style="color:#F97066; font-weight:900;">${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)</td>
-      <td style="color:#6CE9A6; font-weight:900;">${targetP.toLocaleString()}원</td>
-      <td>${valUk.toFixed(1)}억</td>
-      <td style="text-align:left; color:#FDE047;">${item.ammo_title || ""}</td>
+      ${col5Html}
+      ${col6Html}
+      <td style="text-align:left; color:${col7Color};">${item.ammo_title || ""}</td>
     `;
     tr.onclick = () => updateHeroCard(item, false);
     tbody.appendChild(tr);
