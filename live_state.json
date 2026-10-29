@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 11:31:35",
+  "updated_at": "2026-10-29 11:32:38",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "11:31:34",
+    "updated_at": "11:32:37",
     "themes": [
       {
         "rank": 1,
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.05,
+        "flu_rt": 1.02,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -33,12 +33,20 @@
         "rank": 4,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.77,
+        "flu_rt": 0.95,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "5/7"
       },
       {
         "rank": 5,
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.79,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "3/5"
+      },
+      {
+        "rank": 6,
         "code": "250",
         "name": "가구",
         "flu_rt": 0.65,
@@ -46,18 +54,10 @@
         "rising": "1/3"
       },
       {
-        "rank": 6,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.57,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
-      },
-      {
         "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.5,
+        "flu_rt": 0.52,
         "leaders": "케이아이엔엑스, LG유플러스",
         "rising": "3/9"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "400",
         "name": "은행",
-        "flu_rt": 0.33,
+        "flu_rt": 0.41,
         "leaders": "하나금융지주, KB금융",
         "rising": "5/7"
       }
