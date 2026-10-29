@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 11:55:44",
+  "updated_at": "2026-10-29 11:56:47",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "11:55:43",
+    "updated_at": "11:56:46",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 2.03,
+        "flu_rt": 1.45,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "230",
         "name": "운송_항공",
-        "flu_rt": 1.39,
+        "flu_rt": 1.37,
         "leaders": "아시아나항공, 대한항공",
         "rising": "2/2"
       },
@@ -25,33 +25,33 @@
         "rank": 3,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.29,
+        "flu_rt": 1.32,
         "leaders": "서울반도체, 금호전기",
-        "rising": "2/9"
+        "rising": "3/9"
       },
       {
         "rank": 4,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.82,
+        "flu_rt": 0.98,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "5/7"
       },
       {
         "rank": 5,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.68,
-        "leaders": "케이아이엔엑스, LG유플러스",
-        "rising": "2/9"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.66,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "2/5"
       },
       {
         "rank": 6,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.67,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 0.66,
+        "leaders": "케이아이엔엑스, LG유플러스",
+        "rising": "3/9"
       },
       {
         "rank": 7,
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "244",
         "name": "타이어",
-        "flu_rt": 0.33,
+        "flu_rt": 0.42,
         "leaders": "넥센타이어, DN오토모티브",
         "rising": "2/4"
       }
