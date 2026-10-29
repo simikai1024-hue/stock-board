@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 18:00:56",
+  "updated_at": "2026-10-29 18:01:59",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "18:00:55",
+    "updated_at": "18:01:57",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.82,
+        "flu_rt": 1.83,
         "leaders": "한탑, 사조동아원",
         "rising": "4/6"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.59,
+        "flu_rt": 1.55,
         "leaders": "현대리바트, 퍼시스",
         "rising": "3/3"
       },
@@ -55,19 +55,19 @@
       },
       {
         "rank": 7,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.38,
-        "leaders": "서울반도체, 우리이앤엘하루틴",
-        "rising": "4/9"
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 1.45,
+        "leaders": "현대해상, 삼성화재",
+        "rising": "6/7"
       },
       {
         "rank": 8,
-        "code": "421",
-        "name": "보험_손해보험",
-        "flu_rt": 1.3,
-        "leaders": "현대해상, 삼성화재",
-        "rising": "6/7"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.4,
+        "leaders": "서울반도체, 우리이앤엘하루틴",
+        "rising": "4/9"
       }
     ]
   },
