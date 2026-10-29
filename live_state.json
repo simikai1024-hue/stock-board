@@ -1,17 +1,17 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:11:15",
+  "updated_at": "2026-10-29 09:12:28",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:11:13",
+    "updated_at": "09:12:27",
     "themes": [
       {
         "rank": 1,
         "code": "572",
         "name": "LED",
-        "flu_rt": 3.37,
+        "flu_rt": 3.06,
         "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
+        "rising": "3/9"
       },
       {
         "rank": 2,
@@ -25,49 +25,49 @@
         "rank": 3,
         "code": "285",
         "name": "컨텐츠_한류",
-        "flu_rt": 1.63,
-        "leaders": "JYP Ent., 에스엠",
-        "rising": "6/7"
-      },
-      {
-        "rank": 4,
-        "code": "312",
-        "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.29,
-        "leaders": "사조동아원, 한탑",
-        "rising": "4/6"
-      },
-      {
-        "rank": 5,
-        "code": "283",
-        "name": "컨텐츠_음원",
-        "flu_rt": 1.22,
+        "flu_rt": 1.34,
         "leaders": "JYP Ent., 에스엠",
         "rising": "5/7"
       },
       {
-        "rank": 6,
-        "code": "550",
-        "name": "반도체_생산",
-        "flu_rt": 1.19,
-        "leaders": "SK하이닉스, 삼성전자",
+        "rank": 4,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.17,
+        "leaders": "퍼시스, 한샘",
         "rising": "2/3"
       },
       {
-        "rank": 7,
+        "rank": 5,
+        "code": "312",
+        "name": "곡물가공품_설탕/밀가루/유지",
+        "flu_rt": 1.14,
+        "leaders": "사조동아원, 한탑",
+        "rising": "4/6"
+      },
+      {
+        "rank": 6,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 1.1,
+        "flu_rt": 0.98,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.08,
-        "leaders": "케이아이엔엑스, SK",
-        "rising": "3/9"
+        "flu_rt": 0.97,
+        "leaders": "케이아이엔엑스, 인지소프트",
+        "rising": "2/9"
+      },
+      {
+        "rank": 8,
+        "code": "550",
+        "name": "반도체_생산",
+        "flu_rt": 0.97,
+        "leaders": "SK하이닉스, 삼성전자",
+        "rising": "2/3"
       }
     ]
   },
