@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:18:28",
+  "updated_at": "2026-10-29 13:19:30",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:18:26",
+    "updated_at": "13:19:29",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 1.74,
+        "flu_rt": 1.8,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
@@ -23,41 +23,41 @@
       },
       {
         "rank": 3,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.11,
+        "leaders": "퍼시스, 현대리바트",
+        "rising": "3/3"
+      },
+      {
+        "rank": 4,
         "code": "230",
         "name": "운송_항공",
-        "flu_rt": 1.2,
+        "flu_rt": 0.96,
         "leaders": "아시아나항공, 대한항공",
         "rising": "2/2"
       },
       {
-        "rank": 4,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.96,
-        "leaders": "퍼시스, 한샘",
-        "rising": "2/3"
-      },
-      {
         "rank": 5,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 0.89,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 0.9,
+        "leaders": "케이아이엔엑스, KT",
+        "rising": "3/9"
       },
       {
         "rank": 6,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.83,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "3/9"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 0.87,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 7,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.67,
+        "flu_rt": 0.72,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "6/7"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.63,
+        "flu_rt": 0.57,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "2/5"
       }
