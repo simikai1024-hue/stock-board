@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:44:12",
+  "updated_at": "2026-10-29 19:45:15",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:44:10",
+    "updated_at": "19:45:13",
     "themes": [
       {
         "rank": 1,
@@ -23,14 +23,6 @@
       },
       {
         "rank": 3,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 2.03,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
-      },
-      {
-        "rank": 4,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
         "flu_rt": 1.99,
@@ -38,28 +30,36 @@
         "rising": "4/6"
       },
       {
+        "rank": 4,
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.99,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
+      },
+      {
         "rank": 5,
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 1.58,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "3/5"
+      },
+      {
+        "rank": 6,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.68,
+        "flu_rt": 1.53,
         "leaders": "현대해상, 한화손해보험",
         "rising": "6/7"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "232",
         "name": "운송_육상운송",
-        "flu_rt": 1.55,
+        "flu_rt": 1.51,
         "leaders": "CJ대한통운, 한진",
         "rising": "4/4"
-      },
-      {
-        "rank": 7,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 1.55,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "3/5"
       },
       {
         "rank": 8,
