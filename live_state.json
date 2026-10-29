@@ -1,20 +1,12 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:48:04",
+  "updated_at": "2026-10-29 09:49:07",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:48:02",
+    "updated_at": "09:49:06",
     "themes": [
       {
         "rank": 1,
-        "code": "550",
-        "name": "반도체_생산",
-        "flu_rt": 2.46,
-        "leaders": "SK하이닉스, 삼성전자",
-        "rising": "2/3"
-      },
-      {
-        "rank": 2,
         "code": "572",
         "name": "LED",
         "flu_rt": 2.35,
@@ -22,52 +14,60 @@
         "rising": "2/9"
       },
       {
+        "rank": 2,
+        "code": "550",
+        "name": "반도체_생산",
+        "flu_rt": 2.29,
+        "leaders": "SK하이닉스, 삼성전자",
+        "rising": "2/3"
+      },
+      {
         "rank": 3,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.12,
+        "flu_rt": 1.16,
         "leaders": "케이아이엔엑스, SK",
         "rising": "5/9"
       },
       {
         "rank": 4,
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.62,
+        "leaders": "스틱인베스트먼트, SBI인베스트먼트",
+        "rising": "2/5"
+      },
+      {
+        "rank": 5,
         "code": "172",
         "name": "합금철",
-        "flu_rt": 0.77,
+        "flu_rt": 0.61,
         "leaders": "동일산업, 태경산업",
         "rising": "1/2"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.51,
-        "leaders": "퍼시스, 현대리바트",
+        "flu_rt": 0.45,
+        "leaders": "퍼시스, 한샘",
         "rising": "1/3"
-      },
-      {
-        "rank": 6,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.49,
-        "leaders": "스틱인베스트먼트, SBI인베스트먼트",
-        "rising": "1/5"
       },
       {
         "rank": 7,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.22,
+        "flu_rt": 0.33,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "4/7"
       },
       {
         "rank": 8,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 0.2,
-        "leaders": "매일홀딩스, 남양유업",
-        "rising": "1/3"
+        "code": "420",
+        "name": "보험_생명보험",
+        "flu_rt": 0.24,
+        "leaders": "삼성생명, 한화생명",
+        "rising": "1/2"
       }
     ]
   },
