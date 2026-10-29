@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:30:06",
+  "updated_at": "2026-10-29 13:31:11",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:30:05",
+    "updated_at": "13:31:10",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 1.85,
+        "flu_rt": 1.89,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.42,
+        "flu_rt": 1.33,
         "leaders": "서울반도체, 금호전기",
         "rising": "3/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.36,
+        "flu_rt": 1.23,
         "leaders": "퍼시스, 현대리바트",
         "rising": "3/3"
       },
@@ -33,41 +33,41 @@
         "rank": 4,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.15,
+        "flu_rt": 1.16,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
       {
         "rank": 5,
-        "code": "230",
-        "name": "운송_항공",
-        "flu_rt": 1.1,
-        "leaders": "아시아나항공, 대한항공",
-        "rising": "2/2"
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 1.09,
+        "leaders": "롯데손해보험, 현대해상",
+        "rising": "6/7"
       },
       {
         "rank": 6,
-        "code": "421",
-        "name": "보험_손해보험",
-        "flu_rt": 1.05,
-        "leaders": "현대해상, 롯데손해보험",
-        "rising": "6/7"
+        "code": "230",
+        "name": "운송_항공",
+        "flu_rt": 0.96,
+        "leaders": "아시아나항공, 대한항공",
+        "rising": "2/2"
       },
       {
         "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.96,
+        "flu_rt": 0.92,
         "leaders": "케이아이엔엑스, KT",
         "rising": "4/9"
       },
       {
         "rank": 8,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.82,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
+        "code": "312",
+        "name": "곡물가공품_설탕/밀가루/유지",
+        "flu_rt": 0.81,
+        "leaders": "한탑, 대한제당",
+        "rising": "3/6"
       }
     ]
   },
