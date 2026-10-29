@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 18:34:20",
+  "updated_at": "2026-10-29 18:35:23",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "18:34:19",
+    "updated_at": "18:35:21",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.88,
+        "flu_rt": 1.86,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "232",
         "name": "운송_육상운송",
-        "flu_rt": 1.51,
+        "flu_rt": 1.4,
         "leaders": "CJ대한통운, 한진",
         "rising": "4/4"
       },
@@ -63,11 +63,11 @@
       },
       {
         "rank": 8,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.31,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "5/9"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.32,
+        "leaders": "서울반도체, 우리이앤엘하루틴",
+        "rising": "4/9"
       }
     ]
   },
