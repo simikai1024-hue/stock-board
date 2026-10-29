@@ -1,25 +1,25 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 11:56:47",
+  "updated_at": "2026-10-29 11:57:50",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "11:56:46",
+    "updated_at": "11:57:48",
     "themes": [
       {
         "rank": 1,
+        "code": "230",
+        "name": "운송_항공",
+        "flu_rt": 1.46,
+        "leaders": "아시아나항공, 대한항공",
+        "rising": "2/2"
+      },
+      {
+        "rank": 2,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.45,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
-      },
-      {
-        "rank": 2,
-        "code": "230",
-        "name": "운송_항공",
-        "flu_rt": 1.37,
-        "leaders": "아시아나항공, 대한항공",
-        "rising": "2/2"
       },
       {
         "rank": 3,
@@ -33,25 +33,25 @@
         "rank": 4,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.98,
+        "flu_rt": 0.92,
         "leaders": "롯데손해보험, 현대해상",
-        "rising": "5/7"
+        "rising": "6/7"
       },
       {
         "rank": 5,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.66,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 0.71,
+        "leaders": "케이아이엔엑스, LG유플러스",
+        "rising": "3/9"
       },
       {
         "rank": 6,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.66,
-        "leaders": "케이아이엔엑스, LG유플러스",
-        "rising": "3/9"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.64,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "2/5"
       },
       {
         "rank": 7,
