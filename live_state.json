@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:10:50",
+  "updated_at": "2026-10-29 19:11:55",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:10:49",
+    "updated_at": "19:11:53",
     "themes": [
       {
         "rank": 1,
         "code": "400",
         "name": "은행",
-        "flu_rt": 2.02,
+        "flu_rt": 2.0,
         "leaders": "iM금융지주, 하나금융지주",
         "rising": "6/7"
       },
@@ -33,20 +33,12 @@
         "rank": 4,
         "code": "410",
         "name": "창투",
-        "flu_rt": 1.61,
+        "flu_rt": 1.58,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "3/5"
       },
       {
         "rank": 5,
-        "code": "232",
-        "name": "운송_육상운송",
-        "flu_rt": 1.59,
-        "leaders": "CJ대한통운, 한진",
-        "rising": "4/4"
-      },
-      {
-        "rank": 6,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.56,
@@ -54,12 +46,20 @@
         "rising": "2/2"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "572",
         "name": "LED",
         "flu_rt": 1.56,
         "leaders": "서울반도체, 금호전기",
         "rising": "4/9"
+      },
+      {
+        "rank": 7,
+        "code": "232",
+        "name": "운송_육상운송",
+        "flu_rt": 1.52,
+        "leaders": "CJ대한통운, 한진",
+        "rising": "4/4"
       },
       {
         "rank": 8,
