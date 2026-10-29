@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 16:12:20",
+  "updated_at": "2026-10-29 16:13:22",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "16:12:18",
+    "updated_at": "16:13:20",
     "themes": [
       {
         "rank": 1,
@@ -33,9 +33,9 @@
         "rank": 4,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 2.3,
+        "flu_rt": 2.2,
         "leaders": "사조동아원, 한탑",
-        "rising": "5/6"
+        "rising": "4/6"
       },
       {
         "rank": 5,
@@ -57,15 +57,15 @@
         "rank": 7,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.56,
-        "leaders": "현대해상, 롯데손해보험",
+        "flu_rt": 1.47,
+        "leaders": "롯데손해보험, 현대해상",
         "rising": "6/7"
       },
       {
         "rank": 8,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.37,
+        "flu_rt": 1.35,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       }
