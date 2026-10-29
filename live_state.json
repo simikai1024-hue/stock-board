@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 15:06:23",
+  "updated_at": "2026-10-29 15:07:29",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "15:06:22",
+    "updated_at": "15:07:27",
     "themes": [
       {
         "rank": 1,
         "code": "319",
         "name": "건강식품",
-        "flu_rt": 3.06,
+        "flu_rt": 3.43,
         "leaders": "비엘팜텍, 대상",
         "rising": "3/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 1.61,
+        "flu_rt": 1.65,
         "leaders": "남양유업, 매일홀딩스",
         "rising": "3/3"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "230",
         "name": "운송_항공",
-        "flu_rt": 1.37,
+        "flu_rt": 1.53,
         "leaders": "아시아나항공, 대한항공",
         "rising": "2/2"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.37,
+        "flu_rt": 1.36,
         "leaders": "한탑, 대한제당",
         "rising": "4/6"
       },
@@ -49,23 +49,23 @@
         "rank": 6,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.28,
+        "flu_rt": 1.32,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
       {
         "rank": 7,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.28,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 1.19,
+        "leaders": "현대해상, 롯데손해보험",
+        "rising": "6/7"
       },
       {
         "rank": 8,
         "code": "410",
         "name": "창투",
-        "flu_rt": 1.2,
+        "flu_rt": 1.13,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "3/5"
       }
