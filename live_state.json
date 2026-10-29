@@ -1,23 +1,23 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:14:49",
+  "updated_at": "2026-10-29 09:16:23",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:14:48",
+    "updated_at": "09:16:22",
     "themes": [
       {
         "rank": 1,
         "code": "572",
         "name": "LED",
-        "flu_rt": 4.24,
+        "flu_rt": 4.32,
         "leaders": "서울반도체, 금호전기",
-        "rising": "3/9"
+        "rising": "2/9"
       },
       {
         "rank": 2,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 2.75,
+        "flu_rt": 2.96,
         "leaders": "알톤, 삼천리자전거",
         "rising": "2/2"
       },
@@ -25,47 +25,47 @@
         "rank": 3,
         "code": "363",
         "name": "바이오_유전체분석",
-        "flu_rt": 1.27,
+        "flu_rt": 1.61,
         "leaders": "제이에스링크, 테라젠이텍스",
         "rising": "2/3"
       },
       {
         "rank": 4,
-        "code": "285",
-        "name": "컨텐츠_한류",
-        "flu_rt": 1.19,
-        "leaders": "JYP Ent., 에스엠",
-        "rising": "4/7"
-      },
-      {
-        "rank": 5,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.13,
-        "leaders": "퍼시스, 한샘",
-        "rising": "2/3"
-      },
-      {
-        "rank": 6,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 1.1,
+        "flu_rt": 1.47,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
-        "rank": 7,
+        "rank": 5,
+        "code": "285",
+        "name": "컨텐츠_한류",
+        "flu_rt": 1.13,
+        "leaders": "JYP Ent., 에스엠",
+        "rising": "4/7"
+      },
+      {
+        "rank": 6,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.99,
-        "leaders": "케이아이엔엑스, 인지소프트",
+        "flu_rt": 1.11,
+        "leaders": "케이아이엔엑스, SK",
         "rising": "3/9"
+      },
+      {
+        "rank": 7,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.07,
+        "leaders": "퍼시스, 한샘",
+        "rising": "2/3"
       },
       {
         "rank": 8,
         "code": "283",
         "name": "컨텐츠_음원",
-        "flu_rt": 0.91,
+        "flu_rt": 0.88,
         "leaders": "JYP Ent., 에스엠",
         "rising": "4/7"
       }
