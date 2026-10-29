@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:00:38",
+  "updated_at": "2026-10-29 13:01:41",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:00:37",
+    "updated_at": "13:01:39",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.31,
+        "flu_rt": 1.34,
         "leaders": "서울반도체, 금호전기",
         "rising": "2/9"
       },
@@ -25,31 +25,31 @@
         "rank": 3,
         "code": "230",
         "name": "운송_항공",
-        "flu_rt": 1.2,
+        "flu_rt": 1.1,
         "leaders": "아시아나항공, 대한항공",
         "rising": "2/2"
       },
       {
         "rank": 4,
-        "code": "421",
-        "name": "보험_손해보험",
-        "flu_rt": 1.03,
-        "leaders": "롯데손해보험, 현대해상",
-        "rising": "6/7"
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.98,
+        "leaders": "퍼시스, 한샘",
+        "rising": "2/3"
       },
       {
         "rank": 5,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.02,
-        "leaders": "퍼시스, 한샘",
-        "rising": "2/3"
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 0.95,
+        "leaders": "롯데손해보험, 현대해상",
+        "rising": "6/7"
       },
       {
         "rank": 6,
         "code": "400",
         "name": "은행",
-        "flu_rt": 0.87,
+        "flu_rt": 0.78,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.72,
+        "flu_rt": 0.68,
         "leaders": "케이아이엔엑스, KT",
         "rising": "3/9"
       },
