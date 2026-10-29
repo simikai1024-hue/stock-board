@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 15:13:49",
+  "updated_at": "2026-10-29 15:14:52",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "15:13:47",
+    "updated_at": "15:14:51",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "319",
         "name": "건강식품",
-        "flu_rt": 2.27,
+        "flu_rt": 2.35,
         "leaders": "비엘팜텍, 대상",
         "rising": "2/4"
       },
@@ -31,43 +31,43 @@
       },
       {
         "rank": 4,
-        "code": "230",
-        "name": "운송_항공",
-        "flu_rt": 1.63,
-        "leaders": "아시아나항공, 대한항공",
-        "rising": "2/2"
-      },
-      {
-        "rank": 5,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.48,
+        "flu_rt": 1.66,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
       {
+        "rank": 5,
+        "code": "230",
+        "name": "운송_항공",
+        "flu_rt": 1.53,
+        "leaders": "아시아나항공, 대한항공",
+        "rising": "2/2"
+      },
+      {
         "rank": 6,
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 1.44,
+        "leaders": "현대해상, 롯데손해보험",
+        "rising": "6/7"
+      },
+      {
+        "rank": 7,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.24,
+        "flu_rt": 1.16,
         "leaders": "한탑, CJ제일제당",
         "rising": "4/6"
       },
       {
-        "rank": 7,
-        "code": "421",
-        "name": "보험_손해보험",
-        "flu_rt": 1.21,
-        "leaders": "현대해상, 삼성화재",
-        "rising": "6/7"
-      },
-      {
         "rank": 8,
-        "code": "244",
-        "name": "타이어",
-        "flu_rt": 1.13,
-        "leaders": "넥센타이어, DN오토모티브",
-        "rising": "2/4"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 1.11,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "3/5"
       }
     ]
   },
