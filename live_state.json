@@ -1,33 +1,33 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 16:08:09",
+  "updated_at": "2026-10-29 16:09:12",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "16:08:07",
+    "updated_at": "16:09:10",
     "themes": [
       {
         "rank": 1,
         "code": "261",
         "name": "여행",
-        "flu_rt": 4.44,
+        "flu_rt": 4.43,
         "leaders": "세중, 모두투어",
         "rising": "1/5"
       },
       {
         "rank": 2,
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 4.12,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "4/5"
+      },
+      {
+        "rank": 3,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 2.84,
         "leaders": "알톤, 삼천리자전거",
         "rising": "2/2"
-      },
-      {
-        "rank": 3,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 2.72,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "4/5"
       },
       {
         "rank": 4,
@@ -49,25 +49,25 @@
         "rank": 6,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.85,
+        "flu_rt": 1.83,
         "leaders": "서울반도체, 금호전기",
         "rising": "4/9"
       },
       {
         "rank": 7,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.4,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 1.47,
+        "leaders": "케이아이엔엑스, 엔텔스",
+        "rising": "5/9"
       },
       {
         "rank": 8,
-        "code": "312",
-        "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.37,
-        "leaders": "한탑, 대한제당",
-        "rising": "5/6"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.41,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       }
     ]
   },
