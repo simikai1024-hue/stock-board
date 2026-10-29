@@ -1,57 +1,57 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:10:39",
+  "updated_at": "2026-10-29 09:11:15",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:10:01",
+    "updated_at": "09:11:13",
     "themes": [
       {
         "rank": 1,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 3.33,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "2/2"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 3.37,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "4/9"
       },
       {
         "rank": 2,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 2.01,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "3/9"
+        "code": "262",
+        "name": "전기자전거",
+        "flu_rt": 2.7,
+        "leaders": "알톤, 삼천리자전거",
+        "rising": "2/2"
       },
       {
         "rank": 3,
         "code": "285",
         "name": "컨텐츠_한류",
-        "flu_rt": 1.84,
+        "flu_rt": 1.63,
         "leaders": "JYP Ent., 에스엠",
         "rising": "6/7"
       },
       {
         "rank": 4,
+        "code": "312",
+        "name": "곡물가공품_설탕/밀가루/유지",
+        "flu_rt": 1.29,
+        "leaders": "사조동아원, 한탑",
+        "rising": "4/6"
+      },
+      {
+        "rank": 5,
         "code": "283",
         "name": "컨텐츠_음원",
-        "flu_rt": 1.42,
+        "flu_rt": 1.22,
         "leaders": "JYP Ent., 에스엠",
         "rising": "5/7"
       },
       {
-        "rank": 5,
-        "code": "363",
-        "name": "바이오_유전체분석",
-        "flu_rt": 1.4,
-        "leaders": "제이에스링크, 테라젠이텍스",
-        "rising": "2/3"
-      },
-      {
         "rank": 6,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.32,
-        "leaders": "퍼시스, 현대리바트",
-        "rising": "3/3"
+        "code": "550",
+        "name": "반도체_생산",
+        "flu_rt": 1.19,
+        "leaders": "SK하이닉스, 삼성전자",
+        "rising": "2/3"
       },
       {
         "rank": 7,
@@ -65,8 +65,8 @@
         "rank": 8,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.02,
-        "leaders": "케이아이엔엑스, 인지소프트",
+        "flu_rt": 1.08,
+        "leaders": "케이아이엔엑스, SK",
         "rising": "3/9"
       }
     ]
