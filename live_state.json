@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:33:53",
+  "updated_at": "2026-10-29 09:35:12",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:33:51",
+    "updated_at": "09:35:11",
     "themes": [
       {
         "rank": 1,
         "code": "572",
         "name": "LED",
-        "flu_rt": 3.22,
+        "flu_rt": 3.26,
         "leaders": "서울반도체, 금호전기",
         "rising": "3/9"
       },
@@ -25,36 +25,28 @@
         "rank": 3,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 1.82,
+        "flu_rt": 1.87,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "2/3"
       },
       {
         "rank": 4,
-        "code": "480",
-        "name": "네트워크/광통신",
-        "flu_rt": 0.97,
-        "leaders": "케이엠더블유, 대한광통신",
-        "rising": "7/9"
-      },
-      {
-        "rank": 5,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.96,
+        "flu_rt": 0.92,
         "leaders": "케이아이엔엑스, SK",
         "rising": "3/9"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.82,
+        "flu_rt": 0.91,
         "leaders": "스틱인베스트먼트, SBI인베스트먼트",
         "rising": "2/5"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "172",
         "name": "합금철",
         "flu_rt": 0.77,
@@ -62,12 +54,20 @@
         "rising": "1/2"
       },
       {
+        "rank": 7,
+        "code": "480",
+        "name": "네트워크/광통신",
+        "flu_rt": 0.71,
+        "leaders": "케이엠더블유, 빛과전자",
+        "rising": "6/9"
+      },
+      {
         "rank": 8,
-        "code": "160",
-        "name": "금형/몰드베이스",
-        "flu_rt": 0.66,
-        "leaders": "에이테크솔루션, KD",
-        "rising": "1/4"
+        "code": "363",
+        "name": "바이오_유전체분석",
+        "flu_rt": 0.65,
+        "leaders": "제이에스링크, 마크로젠",
+        "rising": "1/3"
       }
     ]
   },
