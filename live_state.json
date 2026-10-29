@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 17:44:11",
+  "updated_at": "2026-10-29 17:45:16",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "17:44:09",
+    "updated_at": "17:45:14",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 2.95,
+        "flu_rt": 1.83,
         "leaders": "알톤, 삼천리자전거",
         "rising": "2/2"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.27,
+        "flu_rt": 1.28,
         "leaders": "서울반도체, 우리이앤엘하루틴",
         "rising": "4/9"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.18,
+        "flu_rt": 1.16,
         "leaders": "케이아이엔엑스, KT",
         "rising": "5/9"
       }
