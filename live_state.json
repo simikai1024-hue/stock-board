@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 19:08:44",
+  "updated_at": "2026-10-29 19:09:48",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "19:08:42",
+    "updated_at": "19:09:47",
     "themes": [
       {
         "rank": 1,
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "232",
         "name": "운송_육상운송",
-        "flu_rt": 1.56,
+        "flu_rt": 1.59,
         "leaders": "CJ대한통운, 한진",
         "rising": "4/4"
       },
@@ -57,17 +57,17 @@
         "rank": 7,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.52,
+        "flu_rt": 1.54,
         "leaders": "서울반도체, 금호전기",
         "rising": "4/9"
       },
       {
         "rank": 8,
-        "code": "421",
-        "name": "보험_손해보험",
-        "flu_rt": 1.51,
-        "leaders": "현대해상, 삼성화재",
-        "rising": "6/7"
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 1.48,
+        "leaders": "남양유업, 빙그레",
+        "rising": "3/3"
       }
     ]
   },
