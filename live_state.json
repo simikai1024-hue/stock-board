@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:24:36",
+  "updated_at": "2026-10-29 09:25:46",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:24:35",
+    "updated_at": "09:25:45",
     "themes": [
       {
         "rank": 1,
         "code": "572",
         "name": "LED",
-        "flu_rt": 3.4,
+        "flu_rt": 3.34,
         "leaders": "서울반도체, 금호전기",
         "rising": "4/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "550",
         "name": "반도체_생산",
-        "flu_rt": 2.04,
+        "flu_rt": 2.34,
         "leaders": "SK하이닉스, 삼성전자",
         "rising": "2/3"
       },
@@ -33,41 +33,41 @@
         "rank": 4,
         "code": "363",
         "name": "바이오_유전체분석",
-        "flu_rt": 1.41,
+        "flu_rt": 1.21,
         "leaders": "제이에스링크, 테라젠이텍스",
         "rising": "2/3"
       },
       {
         "rank": 5,
+        "code": "480",
+        "name": "네트워크/광통신",
+        "flu_rt": 1.02,
+        "leaders": "케이엠더블유, 대한광통신",
+        "rising": "6/9"
+      },
+      {
+        "rank": 6,
         "code": "160",
         "name": "금형/몰드베이스",
-        "flu_rt": 1.04,
+        "flu_rt": 0.96,
         "leaders": "에이테크솔루션, 우진플라임",
         "rising": "2/4"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.87,
+        "flu_rt": 0.81,
         "leaders": "케이아이엔엑스, SK",
         "rising": "2/9"
       },
       {
-        "rank": 7,
-        "code": "480",
-        "name": "네트워크/광통신",
-        "flu_rt": 0.72,
-        "leaders": "케이엠더블유, 대한광통신",
-        "rising": "4/9"
-      },
-      {
         "rank": 8,
-        "code": "510",
-        "name": "휴대폰_수동부품",
-        "flu_rt": 0.72,
-        "leaders": "성호전자, 삼화콘덴서",
-        "rising": "4/9"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.76,
+        "leaders": "스틱인베스트먼트, 다올투자증권",
+        "rising": "1/5"
       }
     ]
   },
