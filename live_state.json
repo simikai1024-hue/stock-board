@@ -1,55 +1,55 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 10:33:16",
+  "updated_at": "2026-10-29 10:34:24",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "10:33:15",
+    "updated_at": "10:34:23",
     "themes": [
       {
         "rank": 1,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 0.61,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "2/5"
-      },
-      {
-        "rank": 2,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 0.55,
+        "flu_rt": 0.71,
         "leaders": "알톤, 삼천리자전거",
         "rising": "1/2"
       },
       {
+        "rank": 2,
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.57,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "2/5"
+      },
+      {
         "rank": 3,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 0.51,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "2/9"
+        "code": "230",
+        "name": "운송_항공",
+        "flu_rt": 0.48,
+        "leaders": "아시아나항공, 대한항공",
+        "rising": "2/2"
       },
       {
         "rank": 4,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.42,
-        "leaders": "케이아이엔엑스, KT",
+        "flu_rt": 0.44,
+        "leaders": "케이아이엔엑스, LG유플러스",
         "rising": "3/9"
       },
       {
         "rank": 5,
-        "code": "230",
-        "name": "운송_항공",
-        "flu_rt": 0.31,
-        "leaders": "아시아나항공, 대한항공",
-        "rising": "2/2"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 0.42,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "2/9"
       },
       {
         "rank": 6,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.25,
+        "flu_rt": 0.28,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "5/7"
       },
@@ -65,8 +65,8 @@
         "rank": 8,
         "code": "400",
         "name": "은행",
-        "flu_rt": 0.15,
-        "leaders": "하나금융지주, iM금융지주",
+        "flu_rt": 0.22,
+        "leaders": "하나금융지주, KB금융",
         "rising": "4/7"
       }
     ]
