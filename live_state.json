@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 18:49:56",
+  "updated_at": "2026-10-29 18:50:58",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "18:49:54",
+    "updated_at": "18:50:57",
     "themes": [
       {
         "rank": 1,
@@ -47,27 +47,27 @@
       },
       {
         "rank": 6,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.42,
-        "leaders": "서울반도체, 우리이앤엘하루틴",
-        "rising": "4/9"
-      },
-      {
-        "rank": 7,
         "code": "232",
         "name": "운송_육상운송",
-        "flu_rt": 1.39,
+        "flu_rt": 1.47,
         "leaders": "CJ대한통운, 한진",
         "rising": "4/4"
       },
       {
+        "rank": 7,
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.43,
+        "leaders": "서울반도체, 우리이앤엘하루틴",
+        "rising": "4/9"
+      },
+      {
         "rank": 8,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.34,
-        "leaders": "케이아이엔엑스, LG유플러스",
-        "rising": "5/9"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 1.39,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "3/5"
       }
     ]
   },
