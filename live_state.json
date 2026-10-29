@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 16:30:05",
+  "updated_at": "2026-10-29 16:31:07",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "16:30:03",
+    "updated_at": "16:31:06",
     "themes": [
       {
         "rank": 1,
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.53,
+        "flu_rt": 1.51,
         "leaders": "서울반도체, 비보존 제약",
         "rising": "4/9"
       },
@@ -57,17 +57,17 @@
         "rank": 7,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.31,
+        "flu_rt": 1.3,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
       {
         "rank": 8,
-        "code": "230",
-        "name": "운송_항공",
-        "flu_rt": 1.29,
-        "leaders": "아시아나항공, 대한항공",
-        "rising": "2/2"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 1.21,
+        "leaders": "넥센타이어, DN오토모티브",
+        "rising": "2/4"
       }
     ]
   },
