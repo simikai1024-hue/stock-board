@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 18:05:07",
+  "updated_at": "2026-10-29 18:06:10",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "18:05:05",
+    "updated_at": "18:06:08",
     "themes": [
       {
         "rank": 1,
@@ -65,8 +65,8 @@
         "rank": 8,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.34,
-        "leaders": "현대해상, DB손해보험",
+        "flu_rt": 1.41,
+        "leaders": "현대해상, 삼성화재",
         "rising": "6/7"
       }
     ]
