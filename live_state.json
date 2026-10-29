@@ -1,12 +1,20 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 10:36:29",
+  "updated_at": "2026-10-29 10:37:33",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "10:36:28",
+    "updated_at": "10:37:32",
     "themes": [
       {
         "rank": 1,
+        "code": "262",
+        "name": "전기자전거",
+        "flu_rt": 1.26,
+        "leaders": "알톤, 삼천리자전거",
+        "rising": "1/2"
+      },
+      {
+        "rank": 2,
         "code": "230",
         "name": "운송_항공",
         "flu_rt": 0.72,
@@ -14,60 +22,52 @@
         "rising": "2/2"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.59,
+        "flu_rt": 0.54,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "2/5"
-      },
-      {
-        "rank": 3,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.44,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "3/9"
       },
       {
         "rank": 4,
         "code": "572",
         "name": "LED",
-        "flu_rt": 0.43,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "2/9"
+        "flu_rt": 0.37,
+        "leaders": "서울반도체, 일진디스플",
+        "rising": "1/9"
       },
       {
         "rank": 5,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.32,
-        "leaders": "퍼시스, 한샘",
-        "rising": "1/3"
-      },
-      {
-        "rank": 6,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.32,
+        "flu_rt": 0.33,
         "leaders": "롯데손해보험, 현대해상",
         "rising": "5/7"
       },
       {
+        "rank": 6,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.27,
+        "leaders": "퍼시스, 한샘",
+        "rising": "1/3"
+      },
+      {
         "rank": 7,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 0.18,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "1/2"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 0.24,
+        "leaders": "하나금융지주, KB금융",
+        "rising": "5/7"
       },
       {
         "rank": 8,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 0.11,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "4/7"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 0.22,
+        "leaders": "케이아이엔엑스, KT",
+        "rising": "3/9"
       }
     ]
   },
