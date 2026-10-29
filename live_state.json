@@ -1,36 +1,12 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:01:29",
+  "updated_at": "2026-10-29 09:01:53",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:00:43",
+    "updated_at": "09:01:52",
     "themes": [
       {
         "rank": 1,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 3.25,
-        "leaders": "LG화학, 삼성SDI",
-        "rising": "2/3"
-      },
-      {
-        "rank": 2,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 2.35,
-        "leaders": "서울반도체, 비보존 제약",
-        "rising": "1/9"
-      },
-      {
-        "rank": 3,
-        "code": "363",
-        "name": "바이오_유전체분석",
-        "flu_rt": 1.94,
-        "leaders": "제이에스링크, 테라젠이텍스",
-        "rising": "2/3"
-      },
-      {
-        "rank": 4,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.79,
@@ -38,28 +14,20 @@
         "rising": "2/2"
       },
       {
-        "rank": 5,
-        "code": "152",
-        "name": "합성고무",
-        "flu_rt": 1.75,
-        "leaders": "LG화학, 금호석유화학",
-        "rising": "1/2"
+        "rank": 2,
+        "code": "363",
+        "name": "바이오_유전체분석",
+        "flu_rt": 1.76,
+        "leaders": "제이에스링크, 테라젠이텍스",
+        "rising": "2/3"
       },
       {
-        "rank": 6,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.58,
-        "leaders": "한미약품, 셀트리온",
-        "rising": "4/5"
-      },
-      {
-        "rank": 7,
-        "code": "362",
-        "name": "바이오_진단/백신",
-        "flu_rt": 1.53,
-        "leaders": "신흥, 엑세스바이오",
-        "rising": "7/7"
+        "rank": 3,
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 1.62,
+        "leaders": "케이아이엔엑스, 엔텔스",
+        "rising": "5/9"
       }
     ]
   },
