@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 16:16:29",
+  "updated_at": "2026-10-29 16:17:31",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "16:16:27",
+    "updated_at": "16:17:30",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "410",
         "name": "창투",
-        "flu_rt": 2.63,
+        "flu_rt": 2.52,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "4/5"
       },
@@ -47,6 +47,14 @@
       },
       {
         "rank": 6,
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.49,
+        "leaders": "서울반도체, 비보존 제약",
+        "rising": "4/9"
+      },
+      {
+        "rank": 7,
         "code": "421",
         "name": "보험_손해보험",
         "flu_rt": 1.44,
@@ -54,20 +62,12 @@
         "rising": "6/7"
       },
       {
-        "rank": 7,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.37,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "4/9"
-      },
-      {
         "rank": 8,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.3,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 1.32,
+        "leaders": "케이아이엔엑스, 엔텔스",
+        "rising": "5/9"
       }
     ]
   },
