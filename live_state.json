@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 17:47:21",
+  "updated_at": "2026-10-29 17:48:24",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "17:47:19",
+    "updated_at": "17:48:23",
     "themes": [
       {
         "rank": 1,
@@ -49,25 +49,25 @@
         "rank": 6,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.28,
+        "flu_rt": 1.29,
         "leaders": "서울반도체, 우리이앤엘하루틴",
         "rising": "4/9"
       },
       {
         "rank": 7,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.23,
-        "leaders": "하나금융지주, iM금융지주",
+        "code": "421",
+        "name": "보험_손해보험",
+        "flu_rt": 1.17,
+        "leaders": "현대해상, 한화손해보험",
         "rising": "6/7"
       },
       {
         "rank": 8,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.14,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "5/9"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.16,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       }
     ]
   },
