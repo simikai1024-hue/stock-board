@@ -1,20 +1,12 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 18:11:23",
+  "updated_at": "2026-10-29 18:12:26",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "18:11:22",
+    "updated_at": "18:12:24",
     "themes": [
       {
         "rank": 1,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.87,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
-      },
-      {
-        "rank": 2,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
         "flu_rt": 1.85,
@@ -22,7 +14,7 @@
         "rising": "4/6"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.83,
@@ -30,12 +22,20 @@
         "rising": "2/2"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "314",
         "name": "유가공",
         "flu_rt": 1.82,
         "leaders": "매일홀딩스, 남양유업",
         "rising": "3/3"
+      },
+      {
+        "rank": 4,
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.79,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 5,
