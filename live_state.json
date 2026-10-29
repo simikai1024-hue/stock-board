@@ -1,20 +1,12 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 11:15:46",
+  "updated_at": "2026-10-29 11:16:48",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "11:15:45",
+    "updated_at": "11:16:47",
     "themes": [
       {
         "rank": 1,
-        "code": "230",
-        "name": "운송_항공",
-        "flu_rt": 1.89,
-        "leaders": "대한항공, 아시아나항공",
-        "rising": "2/2"
-      },
-      {
-        "rank": 2,
         "code": "262",
         "name": "전기자전거",
         "flu_rt": 1.8,
@@ -22,34 +14,42 @@
         "rising": "1/2"
       },
       {
-        "rank": 3,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 0.84,
-        "leaders": "서울반도체, 금호전기",
-        "rising": "2/9"
+        "rank": 2,
+        "code": "230",
+        "name": "운송_항공",
+        "flu_rt": 1.77,
+        "leaders": "아시아나항공, 대한항공",
+        "rising": "2/2"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 0.8,
+        "flu_rt": 0.89,
         "leaders": "롯데손해보험, DB손해보험",
         "rising": "6/7"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "400",
         "name": "은행",
-        "flu_rt": 0.76,
+        "flu_rt": 0.79,
         "leaders": "하나금융지주, KB금융",
         "rising": "6/7"
+      },
+      {
+        "rank": 5,
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 0.78,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "2/9"
       },
       {
         "rank": 6,
         "code": "410",
         "name": "창투",
-        "flu_rt": 0.68,
+        "flu_rt": 0.73,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "2/5"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.5,
+        "flu_rt": 0.55,
         "leaders": "퍼시스, 한샘",
         "rising": "2/3"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 0.31,
+        "flu_rt": 0.38,
         "leaders": "케이아이엔엑스, LG유플러스",
         "rising": "3/9"
       }
