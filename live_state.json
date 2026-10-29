@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 17:59:54",
+  "updated_at": "2026-10-29 18:00:56",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "17:59:52",
+    "updated_at": "18:00:55",
     "themes": [
       {
         "rank": 1,
@@ -15,6 +15,14 @@
       },
       {
         "rank": 2,
+        "code": "312",
+        "name": "곡물가공품_설탕/밀가루/유지",
+        "flu_rt": 1.82,
+        "leaders": "한탑, 사조동아원",
+        "rising": "4/6"
+      },
+      {
+        "rank": 3,
         "code": "314",
         "name": "유가공",
         "flu_rt": 1.82,
@@ -22,51 +30,43 @@
         "rising": "3/3"
       },
       {
-        "rank": 3,
-        "code": "312",
-        "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.8,
-        "leaders": "한탑, 사조동아원",
-        "rising": "4/6"
-      },
-      {
         "rank": 4,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.38,
-        "leaders": "현대리바트, 퍼시스",
-        "rising": "3/3"
+        "code": "400",
+        "name": "은행",
+        "flu_rt": 1.65,
+        "leaders": "하나금융지주, iM금융지주",
+        "rising": "6/7"
       },
       {
         "rank": 5,
-        "code": "572",
-        "name": "LED",
-        "flu_rt": 1.35,
-        "leaders": "서울반도체, 우리이앤엘하루틴",
-        "rising": "4/9"
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.59,
+        "leaders": "현대리바트, 퍼시스",
+        "rising": "3/3"
       },
       {
         "rank": 6,
         "code": "410",
         "name": "창투",
-        "flu_rt": 1.28,
+        "flu_rt": 1.49,
         "leaders": "스틱인베스트먼트, 한국금융지주",
         "rising": "3/5"
       },
       {
         "rank": 7,
-        "code": "400",
-        "name": "은행",
-        "flu_rt": 1.13,
-        "leaders": "하나금융지주, iM금융지주",
-        "rising": "6/7"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.38,
+        "leaders": "서울반도체, 우리이앤엘하루틴",
+        "rising": "4/9"
       },
       {
         "rank": 8,
         "code": "421",
         "name": "보험_손해보험",
-        "flu_rt": 1.03,
-        "leaders": "현대해상, 한화손해보험",
+        "flu_rt": 1.3,
+        "leaders": "현대해상, 삼성화재",
         "rising": "6/7"
       }
     ]
