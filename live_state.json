@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 18:09:19",
+  "updated_at": "2026-10-29 18:10:21",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "18:09:18",
+    "updated_at": "18:10:20",
     "themes": [
       {
         "rank": 1,
         "code": "400",
         "name": "은행",
-        "flu_rt": 1.98,
+        "flu_rt": 1.95,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "312",
         "name": "곡물가공품_설탕/밀가루/유지",
-        "flu_rt": 1.87,
+        "flu_rt": 1.85,
         "leaders": "한탑, 사조동아원",
         "rising": "4/6"
       },
@@ -63,11 +63,11 @@
       },
       {
         "rank": 8,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.4,
-        "leaders": "케이아이엔엑스, KT",
-        "rising": "5/9"
+        "code": "572",
+        "name": "LED",
+        "flu_rt": 1.43,
+        "leaders": "서울반도체, 우리이앤엘하루틴",
+        "rising": "4/9"
       }
     ]
   },
