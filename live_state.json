@@ -1,15 +1,15 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 09:08:51",
+  "updated_at": "2026-10-29 09:10:02",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "09:08:49",
+    "updated_at": "09:10:01",
     "themes": [
       {
         "rank": 1,
         "code": "262",
         "name": "전기자전거",
-        "flu_rt": 3.38,
+        "flu_rt": 3.33,
         "leaders": "알톤, 삼천리자전거",
         "rising": "2/2"
       },
@@ -17,31 +17,31 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 2.42,
-        "leaders": "서울반도체, 우리이앤엘하루틴",
-        "rising": "4/9"
+        "flu_rt": 2.01,
+        "leaders": "서울반도체, 금호전기",
+        "rising": "3/9"
       },
       {
         "rank": 3,
         "code": "285",
         "name": "컨텐츠_한류",
-        "flu_rt": 1.6,
+        "flu_rt": 1.84,
         "leaders": "JYP Ent., 에스엠",
-        "rising": "5/7"
+        "rising": "6/7"
       },
       {
         "rank": 4,
         "code": "283",
         "name": "컨텐츠_음원",
-        "flu_rt": 1.37,
+        "flu_rt": 1.42,
         "leaders": "JYP Ent., 에스엠",
-        "rising": "4/7"
+        "rising": "5/7"
       },
       {
         "rank": 5,
         "code": "363",
         "name": "바이오_유전체분석",
-        "flu_rt": 1.24,
+        "flu_rt": 1.4,
         "leaders": "제이에스링크, 테라젠이텍스",
         "rising": "2/3"
       },
@@ -49,25 +49,25 @@
         "rank": 6,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.19,
+        "flu_rt": 1.32,
         "leaders": "퍼시스, 현대리바트",
-        "rising": "2/3"
+        "rising": "3/3"
       },
       {
         "rank": 7,
-        "code": "530",
-        "name": "셋톱박스",
-        "flu_rt": 1.12,
-        "leaders": "휴맥스, 가온그룹",
-        "rising": "3/3"
+        "code": "291",
+        "name": "홈쇼핑",
+        "flu_rt": 1.1,
+        "leaders": "CJ ENM",
+        "rising": "1/1"
       },
       {
         "rank": 8,
         "code": "457",
         "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.06,
+        "flu_rt": 1.02,
         "leaders": "케이아이엔엑스, 인지소프트",
-        "rising": "2/9"
+        "rising": "3/9"
       }
     ]
   },
