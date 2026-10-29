@@ -328,6 +328,8 @@ let seenKeys = new Set();
 let currentCode = "";
 let audioCtx = null;
 let audioUnlocked = false;
+let localItemsMap = new Map(); // 절대 사라지지 않도록 당일 수신 종목을 메모리에 영구 병합 보관!
+let lastThemeUpdateStr = "";
 
 function getTodayKST() {
   const now = new Date();
@@ -439,12 +441,18 @@ function copyCurrentCode(showBtnFeedback) {
 
 function renderThemes(themePayload) {
   if (!themePayload || !Array.isArray(themePayload.themes)) return;
+  const list = themePayload.themes;
+  if (list.length === 0) return;
+  const newUpd = `${themePayload.date || ''}_${themePayload.updated_at || ''}_${list.length}`;
+  // 더 오래된 캐시 테마가 최신 8개 테마를 덮어쓰지 못하도록 방어!
+  if (lastThemeUpdateStr && themePayload.updated_at && themePayload.updated_at < lastThemeUpdateStr && list.length < 8) {
+    return;
+  }
+  if (themePayload.updated_at) lastThemeUpdateStr = themePayload.updated_at;
+
   const grid = document.getElementById("themeGrid");
   const upd = document.getElementById("themeUpdateLbl");
   upd.innerText = `기준일: ${themePayload.date || getTodayKST()} (업데이트: ${themePayload.updated_at || '실시간'})`;
-
-  const list = themePayload.themes;
-  if (list.length === 0) return;
 
   grid.innerHTML = "";
   list.forEach((t, idx) => {
@@ -506,10 +514,26 @@ function updateHeroCard(data, withSound) {
   if (withSound) playChime(sigType);
 }
 
-function renderTable(items) {
+function mergeAndRenderTable(incomingItems) {
   const todayStr = getTodayKST();
-  // 오직 당일(오늘) 날짜 데이터만 필터링!
-  const todayItems = (items || []).filter(item => String(item.time || "").startsWith(todayStr));
+  // 날짜가 바뀌었으면 이전 날짜 항목 정리
+  for (const [k, v] of localItemsMap.entries()) {
+    if (!String(v.time || "").startsWith(todayStr)) {
+      localItemsMap.delete(k);
+    }
+  }
+  // 새로 들어온 배열을 기존 메모리 맵에 병합 (절대 기존에 뜬 당일 종목을 지우지 않음!)
+  (incomingItems || []).forEach(item => {
+    if (item && item.code && String(item.time || "").startsWith(todayStr)) {
+      const key = `${item.code}_${item.type || 'WATCH'}`;
+      const existing = localItemsMap.get(key);
+      if (!existing || String(item.time || "") >= String(existing.time || "")) {
+        localItemsMap.set(key, item);
+      }
+    }
+  });
+
+  const todayItems = Array.from(localItemsMap.values()).sort((a, b) => String(a.time || "").localeCompare(String(b.time || "")));
 
   document.getElementById("todayCountBadge").innerText = `📅 ${todayStr} 당일 포착: ${todayItems.length}건`;
   const tbody = document.getElementById("signalTableBody");
@@ -517,7 +541,7 @@ function renderTable(items) {
 
   if (todayItems.length === 0) {
     tbody.innerHTML = `<tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘(${todayStr}) 아직 새로 포착된 종목이 없습니다. 조건검색식에 포착되는 즉시 표시됩니다!</td></tr>`;
-    return;
+    return todayItems;
   }
 
   const reversed = [...todayItems].reverse();
@@ -548,6 +572,7 @@ function renderTable(items) {
     tr.onclick = () => updateHeroCard(item, false);
     tbody.appendChild(tr);
   });
+  return todayItems;
 }
 
 function toggleHealthCard() {
@@ -568,7 +593,7 @@ function triggerTestAlert() {
   playChime("BUY");
 }
 
-// 1차: GitHub Pages 같은 폴더의 live_state.json 초기 로드 및 4초 주기 백업 동기화
+// 1차: GitHub Pages 같은 폴더의 live_state.json 초기 로드 및 15초 주기 백업 병합 동기화
 async function pollGitHubState() {
   try {
     const res = await fetch(`./live_state.json?t=${Date.now()}`, { cache: "no-store" });
@@ -576,27 +601,16 @@ async function pollGitHubState() {
       const state = await res.json();
       if (state.themes_data) renderThemes(state.themes_data);
       if (Array.isArray(state.history)) {
-        const todayStr = getTodayKST();
-        const todayItems = state.history.filter(x => String(x.time || "").startsWith(todayStr));
-        renderTable(todayItems);
-        if (todayItems.length > 0 && !currentCode) {
-          updateHeroCard(todayItems[todayItems.length - 1], false);
-        } else if (todayItems.length === 0 && currentCode) {
-          currentCode = "";
-          document.getElementById("heroCard").style.borderColor = "#475467";
-          document.getElementById("badgeLbl").style.color = "#FDB022";
-          document.getElementById("badgeLbl").innerText = "⏳ '돈이 몰라는건가~'(1분 5억 폭발) + 오늘의 테마 일치 종목을 감시 중입니다...";
-          document.getElementById("stockTitle").innerText = "당일 포착 대기 중";
-          document.getElementById("priceLbl").innerText = "";
-          document.getElementById("targetLbl").innerText = "🎯 권장 익절 목표가(+11%): - 원   |   🛡️ 손절 기준가(-3% 또는 시초가): - 원";
-          document.getElementById("ammoLbl").innerText = "🔥 매칭된 오늘의 테마 & 수급 사유: 검색식에 새로운 종목이 포착되는 즉시 차임벨 소리와 함께 이곳에 크게 표시됩니다!";
+        const merged = mergeAndRenderTable(state.history);
+        if (merged.length > 0 && !currentCode) {
+          updateHeroCard(merged[merged.length - 1], false);
         }
       }
     }
   } catch (e) {}
 }
 pollGitHubState();
-setInterval(pollGitHubState, 4000);
+setInterval(pollGitHubState, 15000);
 
 // 2차: EMQX 초고속 실시간 웹소켓 (0.05초 즉시 푸시)
 const client = mqtt.connect(BROKER_WSS, {
@@ -621,14 +635,14 @@ client.on("message", (topic, payload) => {
     if (topic === TOPIC_THEMES) {
       renderThemes(data);
     } else if (topic === TOPIC_HISTORY && Array.isArray(data)) {
-      const todayItems = data.filter(x => String(x.time || "").startsWith(todayStr));
-      renderTable(todayItems);
-      if (todayItems.length > 0 && !currentCode) {
-        updateHeroCard(todayItems[todayItems.length - 1], false);
+      const merged = mergeAndRenderTable(data);
+      if (merged.length > 0 && !currentCode) {
+        updateHeroCard(merged[merged.length - 1], false);
       }
-      todayItems.forEach(x => { if (x.id) seenKeys.add(x.id); });
+      merged.forEach(x => { if (x.id) seenKeys.add(x.id); });
     } else if (topic === TOPIC_LIVE && data && data.code) {
       if (!String(data.time || "").startsWith(todayStr)) return;
+      mergeAndRenderTable([data]);
       if (data.id && seenKeys.has(data.id)) return;
       if (data.id) seenKeys.add(data.id);
       updateHeroCard(data, true);
