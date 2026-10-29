@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29 13:56:44",
+  "updated_at": "2026-10-29 13:57:48",
   "themes_data": {
     "date": "2026-10-29",
-    "updated_at": "13:56:42",
+    "updated_at": "13:57:47",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "572",
         "name": "LED",
-        "flu_rt": 1.65,
+        "flu_rt": 1.61,
         "leaders": "서울반도체, 금호전기",
         "rising": "3/9"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "243",
         "name": "자동차_차량용 반도체",
-        "flu_rt": 1.31,
+        "flu_rt": 1.21,
         "leaders": "현대모비스, HL홀딩스",
         "rising": "2/2"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.21,
+        "flu_rt": 1.11,
         "leaders": "퍼시스, 현대리바트",
         "rising": "3/3"
       },
@@ -47,25 +47,25 @@
       },
       {
         "rank": 6,
-        "code": "410",
-        "name": "창투",
-        "flu_rt": 1.03,
-        "leaders": "스틱인베스트먼트, 한국금융지주",
-        "rising": "3/5"
+        "code": "457",
+        "name": "클라우드 컴퓨팅",
+        "flu_rt": 1.02,
+        "leaders": "케이아이엔엑스, KT",
+        "rising": "3/9"
       },
       {
         "rank": 7,
-        "code": "457",
-        "name": "클라우드 컴퓨팅",
-        "flu_rt": 1.01,
-        "leaders": "케이아이엔엑스, LG유플러스",
-        "rising": "4/9"
+        "code": "410",
+        "name": "창투",
+        "flu_rt": 0.99,
+        "leaders": "스틱인베스트먼트, 한국금융지주",
+        "rising": "2/5"
       },
       {
         "rank": 8,
         "code": "400",
         "name": "은행",
-        "flu_rt": 0.74,
+        "flu_rt": 0.77,
         "leaders": "하나금융지주, iM금융지주",
         "rising": "6/7"
       }
