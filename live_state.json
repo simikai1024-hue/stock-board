@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:13:15",
+  "updated_at": "2026-10-30 16:14:18",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:13:14",
+    "updated_at": "16:14:16",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.32,
+        "flu_rt": 7.17,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "317",
         "name": "제과스낵",
-        "flu_rt": 2.82,
+        "flu_rt": 2.98,
         "leaders": "크라운해태홀딩스, 농심",
         "rising": "3/4"
       },
@@ -55,19 +55,19 @@
       },
       {
         "rank": 7,
-        "code": "300",
-        "name": "주류",
-        "flu_rt": 1.23,
-        "leaders": "국순당, 롯데칠성",
-        "rising": "5/7"
-      },
-      {
-        "rank": 8,
         "code": "181",
         "name": "제지_기타",
         "flu_rt": 1.11,
         "leaders": "무림페이퍼, 에스엠국일",
         "rising": "4/6"
+      },
+      {
+        "rank": 8,
+        "code": "270",
+        "name": "교육",
+        "flu_rt": 1.08,
+        "leaders": "예림당, 삼성출판사",
+        "rising": "8/13"
       }
     ]
   },
