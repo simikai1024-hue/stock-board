@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 14:07:44",
+  "updated_at": "2026-10-30 14:08:47",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "14:07:43",
+    "updated_at": "14:08:46",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.45,
+        "flu_rt": 5.57,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -33,8 +33,8 @@
         "rank": 4,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.2,
-        "leaders": "HMM, 대한해운",
+        "flu_rt": 1.22,
+        "leaders": "대한해운, HMM",
         "rising": "4/7"
       },
       {
@@ -49,9 +49,9 @@
         "rank": 6,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.15,
+        "flu_rt": 0.93,
         "leaders": "코이즈, 엘엠에스",
-        "rising": "2/8"
+        "rising": "1/8"
       },
       {
         "rank": 7,
