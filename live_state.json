@@ -1,28 +1,36 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 10:04:39",
+  "updated_at": "2026-10-30 10:05:42",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "10:04:38",
+    "updated_at": "10:05:40",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.25,
+        "flu_rt": 4.0,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 2,
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 1.72,
+        "leaders": "안랩, 윈스테크넷",
+        "rising": "3/4"
+      },
+      {
+        "rank": 3,
         "code": "151",
         "name": "합성섬유_원료",
         "flu_rt": 1.57,
         "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
+        "rising": "3/9"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "316",
         "name": "라면",
         "flu_rt": 1.54,
@@ -30,28 +38,20 @@
         "rising": "3/3"
       },
       {
-        "rank": 4,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 1.42,
-        "leaders": "안랩, 이니텍",
-        "rising": "2/4"
-      },
-      {
         "rank": 5,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 1.39,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "1/8"
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 1.44,
+        "leaders": "한미약품, 셀트리온",
+        "rising": "3/5"
       },
       {
         "rank": 6,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.31,
-        "leaders": "한미약품, 셀트리온",
-        "rising": "3/5"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 1.44,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "1/8"
       },
       {
         "rank": 7,
