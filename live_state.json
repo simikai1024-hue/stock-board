@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:11:58",
+  "updated_at": "2026-10-30 13:13:06",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:11:57",
+    "updated_at": "13:13:04",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 4.09,
+        "flu_rt": 3.97,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.08,
+        "flu_rt": 1.13,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 0.99,
+        "flu_rt": 0.96,
         "leaders": "카프로, SK이노베이션",
         "rising": "2/9"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "315",
         "name": "빙과",
-        "flu_rt": 0.83,
+        "flu_rt": 0.96,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
       },
@@ -57,16 +57,16 @@
         "rank": 7,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.56,
+        "flu_rt": 0.61,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
         "rank": 8,
-        "code": "455",
-        "name": "전자결제_B2B",
-        "flu_rt": 0.3,
-        "leaders": "아이마켓코리아, 이크레더블",
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 0.51,
+        "leaders": "삼성SDI, SK이노베이션",
         "rising": "2/3"
       }
     ]
