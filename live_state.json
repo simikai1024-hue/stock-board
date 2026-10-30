@@ -1,73 +1,73 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:41:12",
+  "updated_at": "2026-10-30 09:42:14",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:41:11",
+    "updated_at": "09:42:13",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.25,
+        "flu_rt": 4.13,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 2,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 2.14,
-        "leaders": "안랩, 이스트소프트",
-        "rising": "2/4"
-      },
-      {
-        "rank": 3,
         "code": "140",
         "name": "2차전지_완제품",
-        "flu_rt": 2.07,
+        "flu_rt": 2.08,
         "leaders": "삼성SDI, SK이노베이션",
         "rising": "3/3"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 2.01,
+        "flu_rt": 1.97,
         "leaders": "코이즈, 미래나노텍",
-        "rising": "1/8"
+        "rising": "2/8"
+      },
+      {
+        "rank": 4,
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 1.71,
+        "leaders": "안랩, 이스트소프트",
+        "rising": "2/4"
       },
       {
         "rank": 5,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.57,
-        "leaders": "한미약품, 메디톡스",
+        "flu_rt": 1.28,
+        "leaders": "한미약품, 셀트리온",
         "rising": "3/5"
       },
       {
         "rank": 6,
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 1.24,
+        "leaders": "농심, 오리온홀딩스",
+        "rising": "3/4"
+      },
+      {
+        "rank": 7,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.25,
+        "flu_rt": 1.21,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
-        "rank": 7,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.15,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "2/2"
-      },
-      {
         "rank": 8,
-        "code": "318",
-        "name": "식자재유통",
-        "flu_rt": 0.96,
-        "leaders": "대상, 현대지에프홀딩스",
-        "rising": "2/3"
+        "code": "316",
+        "name": "라면",
+        "flu_rt": 1.19,
+        "leaders": "농심, 오뚜기",
+        "rising": "1/3"
       }
     ]
   },
