@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:42:35",
+  "updated_at": "2026-10-30 13:43:38",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:42:34",
+    "updated_at": "13:43:36",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.16,
+        "flu_rt": 5.24,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -25,9 +25,9 @@
         "rank": 3,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.29,
+        "flu_rt": 1.28,
         "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
+        "rising": "1/9"
       },
       {
         "rank": 4,
@@ -57,17 +57,17 @@
         "rank": 7,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.81,
+        "flu_rt": 0.74,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
         "rank": 8,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.55,
-        "leaders": "한미약품, 셀트리온",
-        "rising": "3/5"
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 0.47,
+        "leaders": "빙그레, 매일홀딩스",
+        "rising": "1/3"
       }
     ]
   },
