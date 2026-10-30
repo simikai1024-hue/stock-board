@@ -1,28 +1,20 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 17:37:26",
+  "updated_at": "2026-10-30 17:38:29",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "17:37:24",
+    "updated_at": "17:38:28",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.96,
+        "flu_rt": 7.93,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
       {
         "rank": 2,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 2.86,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "1/2"
-      },
-      {
-        "rank": 3,
         "code": "284",
         "name": "컨텐츠_메니지먼트",
         "flu_rt": 2.63,
@@ -30,7 +22,7 @@
         "rising": "1/1"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "291",
         "name": "홈쇼핑",
         "flu_rt": 2.18,
@@ -38,7 +30,7 @@
         "rising": "1/1"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "250",
         "name": "가구",
         "flu_rt": 1.81,
@@ -46,12 +38,20 @@
         "rising": "3/3"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "231",
         "name": "운송_해운",
         "flu_rt": 1.53,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
+      },
+      {
+        "rank": 6,
+        "code": "262",
+        "name": "전기자전거",
+        "flu_rt": 1.38,
+        "leaders": "알톤, 삼천리자전거",
+        "rising": "1/2"
       },
       {
         "rank": 7,
@@ -123,7 +123,7 @@
     }
   ],
   "aftermarket_data": {
-    "updated_at": "2026-10-30 17:37:26",
+    "updated_at": "2026-10-30 17:38:29",
     "stats": {
       "total_evaluated": 21,
       "hit_5_count": 7,
