@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 11:44:06",
+  "updated_at": "2026-10-30 11:45:09",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "11:44:04",
+    "updated_at": "11:45:08",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.88,
+        "flu_rt": 3.76,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.43,
+        "flu_rt": 2.49,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.7,
+        "flu_rt": 0.54,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "315",
         "name": "빙과",
-        "flu_rt": 0.52,
+        "flu_rt": 0.45,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 0.37,
+        "flu_rt": 0.32,
         "leaders": "빙그레, 매일홀딩스",
         "rising": "2/3"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.21,
+        "flu_rt": 0.23,
         "leaders": "하이트진로, 롯데칠성",
         "rising": "4/7"
       }
