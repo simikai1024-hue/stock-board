@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:27:53",
+  "updated_at": "2026-10-30 16:28:56",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:27:52",
+    "updated_at": "16:28:55",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.73,
+        "flu_rt": 7.72,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.7,
+        "flu_rt": 1.67,
         "leaders": "HMM, 대한해운",
         "rising": "5/7"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "282",
         "name": "컨텐츠_영상",
-        "flu_rt": 1.2,
+        "flu_rt": 1.07,
         "leaders": "삼화네트웍스, 팬엔터테인먼트",
         "rising": "6/12"
       },
