@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:10:38",
+  "updated_at": "2026-10-30 09:11:40",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:10:36",
+    "updated_at": "09:11:39",
     "themes": [
       {
         "rank": 1,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 2.38,
+        "flu_rt": 2.5,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.08,
+        "flu_rt": 2.37,
         "leaders": "안랩, 이니텍",
         "rising": "1/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 1.94,
+        "flu_rt": 1.46,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -47,27 +47,27 @@
       },
       {
         "rank": 6,
+        "code": "130",
+        "name": "바이오_디젤/에탄올",
+        "flu_rt": 0.4,
+        "leaders": "제이씨케미칼, SK디스커버리",
+        "rising": "1/4"
+      },
+      {
+        "rank": 7,
         "code": "370",
         "name": "신약개발/기술수출",
-        "flu_rt": 0.21,
+        "flu_rt": 0.28,
         "leaders": "한미약품, 하이퍼코퍼레이션",
         "rising": "2/9"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.1,
+        "flu_rt": 0.14,
         "leaders": "풍국주정, 한국알콜",
         "rising": "2/7"
-      },
-      {
-        "rank": 8,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 0.06,
-        "leaders": "빙그레, 매일홀딩스",
-        "rising": "1/3"
       }
     ]
   },
