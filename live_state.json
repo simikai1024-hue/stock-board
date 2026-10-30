@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:50:57",
+  "updated_at": "2026-10-30 13:52:00",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:50:55",
+    "updated_at": "13:51:58",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.46,
+        "flu_rt": 5.38,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -17,17 +17,17 @@
         "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.79,
+        "flu_rt": 2.18,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 3,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.41,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 1.31,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "1/9"
       },
       {
         "rank": 4,
@@ -39,19 +39,19 @@
       },
       {
         "rank": 5,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 1.19,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "2/8"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 1.23,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       },
       {
         "rank": 6,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 1.09,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "1/9"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 1.18,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "2/8"
       },
       {
         "rank": 7,
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.66,
+        "flu_rt": 0.73,
         "leaders": "한미약품, 셀트리온",
         "rising": "3/5"
       }
