@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 17:52:19",
+  "updated_at": "2026-10-30 17:53:25",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "17:52:18",
+    "updated_at": "17:53:23",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.13,
+        "flu_rt": 8.03,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -123,7 +123,7 @@
     }
   ],
   "aftermarket_data": {
-    "updated_at": "2026-10-30 17:52:19",
+    "updated_at": "2026-10-30 17:53:25",
     "stats": {
       "total_evaluated": 21,
       "hit_5_count": 7,
