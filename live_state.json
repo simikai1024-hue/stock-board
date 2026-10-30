@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 17:41:39",
+  "updated_at": "2026-10-30 17:42:42",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "17:41:38",
+    "updated_at": "17:42:41",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.0,
+        "flu_rt": 8.13,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "300",
         "name": "주류",
-        "flu_rt": 1.21,
+        "flu_rt": 1.22,
         "leaders": "풍국주정, 롯데칠성",
         "rising": "4/7"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "317",
         "name": "제과스낵",
-        "flu_rt": 1.14,
+        "flu_rt": 1.09,
         "leaders": "농심, 크라운해태홀딩스",
         "rising": "3/4"
       }
@@ -123,7 +123,7 @@
     }
   ],
   "aftermarket_data": {
-    "updated_at": "2026-10-30 17:41:39",
+    "updated_at": "2026-10-30 17:42:42",
     "stats": {
       "total_evaluated": 21,
       "hit_5_count": 7,
