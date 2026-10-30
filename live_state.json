@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:24:46",
+  "updated_at": "2026-10-30 13:25:49",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:24:45",
+    "updated_at": "13:25:48",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 6.06,
+        "flu_rt": 5.91,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.46,
+        "flu_rt": 1.44,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.26,
+        "flu_rt": 1.24,
         "leaders": "카프로, SK이노베이션",
         "rising": "2/9"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.0,
+        "flu_rt": 1.01,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
@@ -57,8 +57,8 @@
         "rank": 7,
         "code": "140",
         "name": "2차전지_완제품",
-        "flu_rt": 0.82,
-        "leaders": "삼성SDI, SK이노베이션",
+        "flu_rt": 0.83,
+        "leaders": "삼성SDI, LG화학",
         "rising": "3/3"
       },
       {
