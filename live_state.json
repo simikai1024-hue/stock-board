@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:16:23",
+  "updated_at": "2026-10-30 16:17:25",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:16:22",
+    "updated_at": "16:17:24",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.19,
+        "flu_rt": 7.49,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -25,15 +25,15 @@
         "rank": 3,
         "code": "450",
         "name": "전자책_e-book",
-        "flu_rt": 2.89,
+        "flu_rt": 2.91,
         "leaders": "예림당, 예스24",
-        "rising": "3/5"
+        "rising": "4/5"
       },
       {
         "rank": 4,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.67,
+        "flu_rt": 2.31,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -47,19 +47,19 @@
       },
       {
         "rank": 6,
+        "code": "181",
+        "name": "제지_기타",
+        "flu_rt": 1.57,
+        "leaders": "무림페이퍼, 에스엠국일",
+        "rising": "4/6"
+      },
+      {
+        "rank": 7,
         "code": "315",
         "name": "빙과",
         "flu_rt": 1.46,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
-      },
-      {
-        "rank": 7,
-        "code": "181",
-        "name": "제지_기타",
-        "flu_rt": 1.11,
-        "leaders": "무림페이퍼, 에스엠국일",
-        "rising": "4/6"
       },
       {
         "rank": 8,
