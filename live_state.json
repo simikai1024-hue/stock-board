@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:47:26",
+  "updated_at": "2026-10-30 09:48:38",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:47:25",
+    "updated_at": "09:48:36",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.61,
+        "flu_rt": 4.49,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,57 +17,57 @@
         "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.97,
+        "flu_rt": 1.91,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       },
       {
         "rank": 3,
-        "code": "316",
-        "name": "라면",
-        "flu_rt": 1.36,
-        "leaders": "농심, 오뚜기",
-        "rising": "2/3"
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 1.51,
+        "leaders": "삼성SDI, SK이노베이션",
+        "rising": "3/3"
       },
       {
         "rank": 4,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.47,
+        "leaders": "한샘, 퍼시스",
+        "rising": "2/3"
+      },
+      {
+        "rank": 5,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.35,
+        "flu_rt": 1.33,
         "leaders": "한미약품, 메디톡스",
         "rising": "3/5"
       },
       {
-        "rank": 5,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.29,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "2/2"
-      },
-      {
         "rank": 6,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 1.24,
-        "leaders": "SK이노베이션, 삼성SDI",
-        "rising": "3/3"
+        "code": "316",
+        "name": "라면",
+        "flu_rt": 1.1,
+        "leaders": "농심, 오뚜기",
+        "rising": "1/3"
       },
       {
         "rank": 7,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 1.15,
-        "leaders": "농심, 오리온홀딩스",
-        "rising": "3/4"
-      },
-      {
-        "rank": 8,
         "code": "453",
         "name": "보안_인터넷",
         "flu_rt": 1.09,
-        "leaders": "안랩, 이스트소프트",
+        "leaders": "안랩, 이니텍",
         "rising": "1/4"
+      },
+      {
+        "rank": 8,
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 1.0,
+        "leaders": "농심, 오리온홀딩스",
+        "rising": "2/4"
       }
     ]
   },
