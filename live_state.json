@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 10:38:28",
+  "updated_at": "2026-10-30 10:39:32",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "10:38:26",
+    "updated_at": "10:39:30",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.13,
+        "flu_rt": 3.76,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.13,
+        "flu_rt": 1.93,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.64,
+        "flu_rt": 1.63,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.06,
+        "flu_rt": 1.13,
         "leaders": "카프로, SK이노베이션",
         "rising": "2/9"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.63,
+        "flu_rt": 0.66,
         "leaders": "한미약품, 셀트리온",
         "rising": "3/5"
       },
@@ -63,11 +63,11 @@
       },
       {
         "rank": 8,
-        "code": "244",
-        "name": "타이어",
-        "flu_rt": 0.49,
-        "leaders": "넥센타이어, 금호타이어",
-        "rising": "2/4"
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 0.5,
+        "leaders": "SK이노베이션, 삼성SDI",
+        "rising": "2/3"
       }
     ]
   },
