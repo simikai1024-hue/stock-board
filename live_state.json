@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:03:05",
+  "updated_at": "2026-10-30 16:04:07",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:03:04",
+    "updated_at": "16:04:06",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 6.87,
+        "flu_rt": 6.79,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -31,6 +31,14 @@
       },
       {
         "rank": 4,
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 2.0,
+        "leaders": "한미약품, 에이프로젠바이오로직스",
+        "rising": "3/5"
+      },
+      {
+        "rank": 5,
         "code": "315",
         "name": "빙과",
         "flu_rt": 1.69,
@@ -38,35 +46,27 @@
         "rising": "2/2"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.49,
+        "flu_rt": 1.47,
         "leaders": "대한해운, HMM",
         "rising": "4/7"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.11,
+        "flu_rt": 1.09,
         "leaders": "카프로, 휴비스",
         "rising": "4/9"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "250",
         "name": "가구",
         "flu_rt": 0.81,
         "leaders": "한샘, 퍼시스",
-        "rising": "2/3"
-      },
-      {
-        "rank": 8,
-        "code": "316",
-        "name": "라면",
-        "flu_rt": 0.81,
-        "leaders": "농심, 오뚜기",
         "rising": "2/3"
       }
     ]
