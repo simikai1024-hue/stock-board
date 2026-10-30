@@ -1,32 +1,32 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:31:02",
+  "updated_at": "2026-10-30 16:32:06",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:31:01",
+    "updated_at": "16:32:04",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.83,
+        "flu_rt": 7.86,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
       {
         "rank": 2,
-        "code": "291",
-        "name": "홈쇼핑",
-        "flu_rt": 2.43,
-        "leaders": "CJ ENM",
+        "code": "284",
+        "name": "컨텐츠_메니지먼트",
+        "flu_rt": 2.74,
+        "leaders": "키이스트",
         "rising": "1/1"
       },
       {
         "rank": 3,
-        "code": "284",
-        "name": "컨텐츠_메니지먼트",
-        "flu_rt": 2.4,
-        "leaders": "키이스트",
+        "code": "291",
+        "name": "홈쇼핑",
+        "flu_rt": 2.43,
+        "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
@@ -55,19 +55,19 @@
       },
       {
         "rank": 7,
-        "code": "282",
-        "name": "컨텐츠_영상",
-        "flu_rt": 1.22,
-        "leaders": "삼화네트웍스, 팬엔터테인먼트",
-        "rising": "6/12"
-      },
-      {
-        "rank": 8,
         "code": "181",
         "name": "제지_기타",
         "flu_rt": 1.2,
         "leaders": "무림페이퍼, 에스엠국일",
         "rising": "4/6"
+      },
+      {
+        "rank": 8,
+        "code": "282",
+        "name": "컨텐츠_영상",
+        "flu_rt": 1.09,
+        "leaders": "삼화네트웍스, 팬엔터테인먼트",
+        "rising": "6/12"
       }
     ]
   },
