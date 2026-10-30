@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 15:19:26",
+  "updated_at": "2026-10-30 15:20:28",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "15:19:25",
+    "updated_at": "15:20:27",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.87,
+        "flu_rt": 5.91,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.79,
+        "flu_rt": 2.67,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -25,47 +25,47 @@
         "rank": 3,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.78,
+        "flu_rt": 1.8,
         "leaders": "카프로, S-Oil",
-        "rising": "4/9"
+        "rising": "3/9"
       },
       {
         "rank": 4,
-        "code": "231",
-        "name": "운송_해운",
-        "flu_rt": 1.6,
-        "leaders": "대한해운, HMM",
-        "rising": "5/7"
-      },
-      {
-        "rank": 5,
         "code": "315",
         "name": "빙과",
-        "flu_rt": 1.46,
+        "flu_rt": 1.59,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
       },
       {
+        "rank": 5,
+        "code": "231",
+        "name": "운송_해운",
+        "flu_rt": 1.41,
+        "leaders": "HMM, 대한해운",
+        "rising": "5/7"
+      },
+      {
         "rank": 6,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.85,
-        "leaders": "한샘, 퍼시스",
-        "rising": "2/3"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 1.2,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "1/8"
       },
       {
         "rank": 7,
-        "code": "300",
-        "name": "주류",
-        "flu_rt": 0.76,
-        "leaders": "롯데칠성, 하이트진로",
-        "rising": "4/7"
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.9,
+        "leaders": "한샘, 퍼시스",
+        "rising": "2/3"
       },
       {
         "rank": 8,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 0.75,
+        "flu_rt": 0.84,
         "leaders": "빙그레, 매일홀딩스",
         "rising": "2/3"
       }
