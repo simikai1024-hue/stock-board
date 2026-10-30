@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 15:04:39",
+  "updated_at": "2026-10-30 15:05:41",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "15:04:38",
+    "updated_at": "15:05:40",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.56,
+        "flu_rt": 5.52,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.4,
+        "flu_rt": 3.52,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -25,31 +25,31 @@
         "rank": 3,
         "code": "315",
         "name": "빙과",
-        "flu_rt": 1.24,
+        "flu_rt": 1.36,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
       },
       {
         "rank": 4,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 0.91,
-        "leaders": "카프로, 태광산업",
-        "rising": "1/9"
+        "code": "231",
+        "name": "운송_해운",
+        "flu_rt": 0.95,
+        "leaders": "대한해운, HMM",
+        "rising": "4/7"
       },
       {
         "rank": 5,
-        "code": "231",
-        "name": "운송_해운",
-        "flu_rt": 0.81,
-        "leaders": "대한해운, HMM",
-        "rising": "4/7"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 0.89,
+        "leaders": "카프로, 태광산업",
+        "rising": "1/9"
       },
       {
         "rank": 6,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 0.75,
+        "flu_rt": 0.84,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 0.71,
+        "flu_rt": 0.74,
         "leaders": "빙그레, 매일홀딩스",
         "rising": "1/3"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.54,
+        "flu_rt": 0.66,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       }
