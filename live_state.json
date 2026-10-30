@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 11:29:16",
+  "updated_at": "2026-10-30 11:30:20",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "11:29:14",
+    "updated_at": "11:30:18",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.0,
+        "flu_rt": 3.64,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.31,
+        "flu_rt": 2.07,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 0.91,
+        "flu_rt": 0.88,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -33,25 +33,25 @@
         "rank": 4,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 0.44,
+        "flu_rt": 0.49,
         "leaders": "카프로, SK이노베이션",
         "rising": "2/9"
       },
       {
         "rank": 5,
-        "code": "300",
-        "name": "주류",
-        "flu_rt": 0.41,
-        "leaders": "풍국주정, 하이트진로",
-        "rising": "4/7"
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 0.44,
+        "leaders": "빙그레, 매일홀딩스",
+        "rising": "2/3"
       },
       {
         "rank": 6,
-        "code": "314",
-        "name": "유가공",
+        "code": "300",
+        "name": "주류",
         "flu_rt": 0.39,
-        "leaders": "빙그레, 매일홀딩스",
-        "rising": "2/3"
+        "leaders": "풍국주정, 하이트진로",
+        "rising": "4/7"
       },
       {
         "rank": 7,
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.3,
+        "flu_rt": 0.35,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       }
