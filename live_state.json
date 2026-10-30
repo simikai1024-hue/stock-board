@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:09:01",
+  "updated_at": "2026-10-30 16:10:04",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:09:00",
+    "updated_at": "16:10:03",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 6.85,
+        "flu_rt": 6.8,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.31,
+        "flu_rt": 2.67,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "270",
         "name": "교육",
-        "flu_rt": 2.04,
+        "flu_rt": 2.02,
         "leaders": "예림당, 삼성출판사",
         "rising": "8/13"
       },
@@ -57,7 +57,7 @@
         "rank": 7,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.85,
+        "flu_rt": 1.86,
         "leaders": "한미약품, 에이프로젠바이오로직스",
         "rising": "3/5"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.68,
+        "flu_rt": 1.71,
         "leaders": "대한해운, HMM",
         "rising": "4/7"
       }
