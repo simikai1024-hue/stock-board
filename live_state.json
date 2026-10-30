@@ -1,28 +1,20 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:10:04",
+  "updated_at": "2026-10-30 16:11:08",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:10:03",
+    "updated_at": "16:11:06",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 6.8,
+        "flu_rt": 7.15,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
       {
         "rank": 2,
-        "code": "450",
-        "name": "전자책_e-book",
-        "flu_rt": 5.08,
-        "leaders": "예림당, 예스24",
-        "rising": "3/5"
-      },
-      {
-        "rank": 3,
         "code": "317",
         "name": "제과스낵",
         "flu_rt": 2.82,
@@ -30,7 +22,7 @@
         "rising": "3/4"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "291",
         "name": "홈쇼핑",
         "flu_rt": 2.67,
@@ -38,23 +30,15 @@
         "rising": "1/1"
       },
       {
+        "rank": 4,
+        "code": "450",
+        "name": "전자책_e-book",
+        "flu_rt": 2.63,
+        "leaders": "예림당, 예스24",
+        "rising": "3/5"
+      },
+      {
         "rank": 5,
-        "code": "270",
-        "name": "교육",
-        "flu_rt": 2.02,
-        "leaders": "예림당, 삼성출판사",
-        "rising": "8/13"
-      },
-      {
-        "rank": 6,
-        "code": "820",
-        "name": "엔젤산업",
-        "flu_rt": 2.0,
-        "leaders": "예림당, 삼성출판사",
-        "rising": "8/12"
-      },
-      {
-        "rank": 7,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
         "flu_rt": 1.86,
@@ -62,12 +46,28 @@
         "rising": "3/5"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "231",
         "name": "운송_해운",
         "flu_rt": 1.71,
         "leaders": "대한해운, HMM",
         "rising": "4/7"
+      },
+      {
+        "rank": 7,
+        "code": "300",
+        "name": "주류",
+        "flu_rt": 1.32,
+        "leaders": "국순당, 롯데칠성",
+        "rising": "5/7"
+      },
+      {
+        "rank": 8,
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 1.13,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       }
     ]
   },
