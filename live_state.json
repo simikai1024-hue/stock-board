@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:50:57",
+  "updated_at": "2026-10-30 09:52:01",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:50:56",
+    "updated_at": "09:51:59",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.49,
+        "flu_rt": 4.61,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.96,
+        "flu_rt": 1.98,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "140",
         "name": "2차전지_완제품",
-        "flu_rt": 1.67,
+        "flu_rt": 1.71,
         "leaders": "SK이노베이션, 삼성SDI",
         "rising": "3/3"
       },
@@ -33,17 +33,17 @@
         "rank": 4,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.51,
-        "leaders": "한미약품, 메디톡스",
+        "flu_rt": 1.61,
+        "leaders": "한미약품, 셀트리온",
         "rising": "3/5"
       },
       {
         "rank": 5,
         "code": "316",
         "name": "라면",
-        "flu_rt": 1.46,
+        "flu_rt": 1.42,
         "leaders": "농심, 오뚜기",
-        "rising": "2/3"
+        "rising": "3/3"
       },
       {
         "rank": 6,
@@ -55,19 +55,19 @@
       },
       {
         "rank": 7,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 1.09,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 1.14,
+        "leaders": "안랩, 이니텍",
+        "rising": "2/4"
       },
       {
         "rank": 8,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 1.0,
-        "leaders": "농심, 오리온홀딩스",
-        "rising": "3/4"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 1.05,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
       }
     ]
   },
