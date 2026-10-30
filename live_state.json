@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:49:54",
+  "updated_at": "2026-10-30 09:50:57",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:49:53",
+    "updated_at": "09:50:56",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.37,
+        "flu_rt": 4.49,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.97,
+        "flu_rt": 1.96,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       },
@@ -25,49 +25,49 @@
         "rank": 3,
         "code": "140",
         "name": "2차전지_완제품",
-        "flu_rt": 1.56,
-        "leaders": "삼성SDI, SK이노베이션",
+        "flu_rt": 1.67,
+        "leaders": "SK이노베이션, 삼성SDI",
         "rising": "3/3"
       },
       {
         "rank": 4,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.42,
+        "flu_rt": 1.51,
         "leaders": "한미약품, 메디톡스",
         "rising": "3/5"
       },
       {
         "rank": 5,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.32,
-        "leaders": "한샘, 퍼시스",
+        "code": "316",
+        "name": "라면",
+        "flu_rt": 1.46,
+        "leaders": "농심, 오뚜기",
         "rising": "2/3"
       },
       {
         "rank": 6,
-        "code": "316",
-        "name": "라면",
-        "flu_rt": 1.22,
-        "leaders": "농심, 삼양식품",
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 1.27,
+        "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
         "rank": 7,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 1.05,
-        "leaders": "농심, 오리온홀딩스",
-        "rising": "3/4"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 1.09,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
       },
       {
         "rank": 8,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.03,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "2/2"
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 1.0,
+        "leaders": "농심, 오리온홀딩스",
+        "rising": "3/4"
       }
     ]
   },
