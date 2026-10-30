@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 12:24:18",
+  "updated_at": "2026-10-30 12:25:22",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "12:24:17",
+    "updated_at": "12:25:20",
     "themes": [
       {
         "rank": 1,
@@ -17,31 +17,31 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.46,
+        "flu_rt": 2.43,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
       {
         "rank": 3,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 0.92,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 0.91,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "2/8"
       },
       {
         "rank": 4,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 0.83,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "2/8"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 0.88,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
       },
       {
         "rank": 5,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.66,
+        "flu_rt": 0.69,
         "leaders": "대한해운, HMM",
         "rising": "4/7"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.16,
+        "flu_rt": 0.17,
         "leaders": "하이트진로, 롯데칠성",
         "rising": "4/7"
       }
