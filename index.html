@@ -3,438 +3,353 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>📡 오늘의 주도 테마 &amp; 애프터마켓 종가베팅 전광판</title>
+<title>실시간 주식 자동매매 & AI 종가베팅 성적 전광판</title>
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', '맑은 고딕', sans-serif; }
-  body { background-color: #0B1120; color: #FFFFFF; padding: 14px 18px; max-width: 1720px; margin: 0 auto; }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
+  body { background-color: #0B1120; color: #F8FAFC; padding: 16px; max-width: 1220px; margin: 0 auto; line-height: 1.45; }
 
-  .sound-banner {
-    background: linear-gradient(90deg, #F79009, #DC6803); color: #FFFFFF;
-    padding: 11px 16px; border-radius: 10px; margin-bottom: 12px;
-    font-size: 16px; font-weight: 900; text-align: center; cursor: pointer;
-    box-shadow: 0 4px 15px rgba(247, 144, 9, 0.4); border: 2px solid #FEF0C7;
-  }
-  .sound-banner.active {
-    background: #0F5132; border-color: #32D583; box-shadow: none; font-size: 14px; padding: 8px;
-  }
-
-  .header {
-    background-color: #161F33; padding: 14px 20px; border-radius: 12px;
+  /* 상단 헤더 */
+  .header-bar {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    border: 1px solid #2E3A59;
+    background: #111C33; border: 1px solid #243556; border-radius: 14px; padding: 14px 20px; margin-bottom: 14px;
   }
-  .header-title { font-size: 22px; font-weight: 900; color: #FFFFFF; }
-  .header-sub { font-size: 14px; color: #94A3B8; margin-left: 8px; font-weight: 700; }
+  .header-title { font-size: 22px; font-weight: 900; color: #FDE047; letter-spacing: -0.3px; }
   .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-  .status-badge { font-size: 14px; font-weight: 800; color: #32D583; }
-  .btn {
-    background-color: #2E90FA; color: #FFFFFF; border: none; padding: 8px 14px;
-    font-size: 14px; font-weight: 800; border-radius: 8px; cursor: pointer;
+  .status-txt { font-size: 14px; font-weight: 800; color: #34D399; }
+  .sound-btn {
+    background: #1E293B; color: #E2E8F0; border: 1px solid #475569; border-radius: 8px;
+    padding: 7px 13px; font-size: 13.5px; font-weight: 800; cursor: pointer; transition: 0.15s;
   }
-  .btn:hover { background-color: #1570EF; }
-  .btn-test { background-color: #F79009; }
-  .btn-test:hover { background-color: #DC6803; }
+  .sound-btn:hover { background: #334155; color: #FFFFFF; }
+  .sound-btn.on { background: #064E3B; border-color: #10B981; color: #A7F3D0; }
 
-  /* 🧭 상단 전용 메뉴 탭 바 */
+  /* 상단 2대 메인 메뉴 탭 */
   .nav-tabs {
-    display: flex; gap: 12px; margin-top: 12px; flex-wrap: wrap;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px;
   }
-  .nav-tab-btn {
-    flex: 1; min-width: 240px; padding: 14px 20px; border-radius: 12px;
-    font-size: 18px; font-weight: 900; cursor: pointer; text-align: center;
-    background-color: #161F33; color: #94A3B8; border: 2px solid #2E3A59;
-    transition: all 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px;
+  .nav-tab {
+    padding: 18px 16px; border-radius: 14px; border: 2px solid #263654;
+    background: #131F38; color: #94A3B8; font-size: 19px; font-weight: 900;
+    cursor: pointer; text-align: center; transition: all 0.18s;
+    display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;
   }
-  .nav-tab-btn:hover { background-color: #1E293B; color: #FFFFFF; }
-  .nav-tab-btn.active-main {
-    background: linear-gradient(90deg, #1D4ED8, #2563EB); color: #FFFFFF;
-    border-color: #60A5FA; box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+  .nav-tab:hover { border-color: #60A5FA; color: #F1F5F9; }
+  .nav-tab.active-main {
+    background: linear-gradient(135deg, #1D4ED8 0%, #0F295C 100%);
+    border-color: #60A5FA; color: #FFFFFF;
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
   }
-  .nav-tab-btn.active-after {
-    background: linear-gradient(90deg, #6D28D9, #9333EA); color: #FFFFFF;
-    border-color: #FDE047; box-shadow: 0 6px 22px rgba(147, 51, 234, 0.45);
-  }
-  .tab-pill {
-    font-size: 12.5px; font-weight: 800; padding: 3px 9px; border-radius: 999px;
-    background-color: rgba(15, 23, 42, 0.55); color: #FDE047;
+  .nav-tab.active-after {
+    background: linear-gradient(135deg, #6D28D9 0%, #3B0764 100%);
+    border-color: #C084FC; color: #FFFFFF;
+    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.38);
   }
 
-  /* 📐 좌우 2단 분할 레이아웃 */
-  .main-split {
-    display: grid;
-    grid-template-columns: 390px minmax(0, 1fr);
-    gap: 18px;
-    align-items: start;
-    margin-top: 14px;
+  /* 초대형 누적 성공률 전광판 */
+  .winrate-board {
+    background: linear-gradient(145deg, #13223F 0%, #0E172A 100%);
+    border: 2px solid #3B82F6; border-radius: 18px; padding: 26px 28px;
+    margin-bottom: 18px; text-align: center;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
   }
-  @media (max-width: 1080px) {
-    .main-split { grid-template-columns: 1fr; }
+  .winrate-board.purple {
+    background: linear-gradient(145deg, #22143E 0%, #110C24 100%);
+    border-color: #A855F7;
   }
+  .winrate-title { font-size: 20px; font-weight: 900; color: #CBD5E1; margin-bottom: 8px; }
+  .winrate-big-num {
+    font-size: 68px; font-weight: 900; color: #FDE047; line-height: 1.08;
+    text-shadow: 0 4px 18px rgba(253, 224, 71, 0.28); margin: 6px 0 14px 0;
+  }
+  .winrate-pills {
+    display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .stat-pill {
+    padding: 8px 18px; border-radius: 999px; font-size: 17px; font-weight: 900;
+    background: #1E293B; border: 1px solid #334155; color: #F8FAFC;
+  }
+  .stat-pill.win { background: rgba(16, 185, 129, 0.18); border-color: #10B981; color: #6EE7B7; }
+  .stat-pill.super { background: rgba(245, 158, 11, 0.22); border-color: #F59E0B; color: #FDE047; }
+  .stat-pill.loss { background: rgba(239, 68, 68, 0.16); border-color: #EF4444; color: #FCA5A5; }
+  .winrate-rule-note { font-size: 14.5px; color: #94A3B8; font-weight: 700; margin-top: 6px; }
 
-  .theme-section {
-    background: linear-gradient(180deg, #1E1B4B 0%, #111827 100%);
-    border: 2px solid #6366F1; border-radius: 14px;
-    padding: 16px;
-    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.2);
+  /* 실시간 오늘의 포착/매수 카드 */
+  .live-card {
+    background: #131F37; border: 2px solid #2A3F66; border-radius: 16px;
+    padding: 20px 24px; margin-bottom: 20px;
   }
-  .theme-header {
-    display: flex; flex-direction: column; gap: 4px;
-    margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #312E81;
+  .live-card.purple { background: #191332; border-color: #6D28D9; }
+  .live-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .live-badge { font-size: 16px; font-weight: 900; color: #38BDF8; margin-bottom: 6px; }
+  .live-stock { font-size: 32px; font-weight: 900; color: #FFFFFF; }
+  .live-price { font-size: 19px; font-weight: 900; color: #FCA5A5; margin-top: 6px; }
+  .live-sub { font-size: 15.5px; color: #E2E8F0; margin-top: 8px; white-space: pre-line; }
+  .copy-btn {
+    background: #2563EB; color: #FFFFFF; border: none; border-radius: 10px;
+    padding: 12px 20px; font-size: 16px; font-weight: 900; cursor: pointer;
   }
-  .theme-title { font-size: 21px; font-weight: 900; color: #FDE047; letter-spacing: -0.5px; }
-  .theme-sub { font-size: 13px; font-weight: 700; color: #C7D2FE; }
-  .theme-grid { display: flex; flex-direction: column; gap: 10px; }
-  .theme-card {
-    background-color: #1E293B; border: 2px solid #334155; border-radius: 10px;
-    padding: 11px 14px; display: flex; flex-direction: column; gap: 5px;
-  }
-  .theme-card.top3 {
-    border-color: #F59E0B; background: linear-gradient(135deg, #1E293B 0%, #291D12 100%);
-  }
-  .theme-card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-  .theme-rank-name { font-size: 17px; font-weight: 900; color: #FFFFFF; }
-  .theme-rate { font-size: 18px; font-weight: 900; color: #F97066; white-space: nowrap; }
-  .theme-leaders { font-size: 13.5px; font-weight: 700; color: #FDE047; line-height: 1.35; }
+  .copy-btn:hover { background: #1D4ED8; }
 
-  .right-panel { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
-  .hero-card {
-    background-color: #1E293B; border: 3px solid #475467; border-radius: 14px;
-    padding: 20px 22px; transition: all 0.25s;
+  /* 섹션 타이틀 & 필터 스위치 */
+  .section-bar {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    margin: 8px 0 12px 0;
   }
-  .hero-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-  .signal-badge { font-size: 18px; font-weight: 900; color: #FDB022; }
-  .stock-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 16px; margin: 10px 0; }
-  .stock-name { font-size: 34px; font-weight: 900; color: #FFFFFF; }
-  .stock-price { font-size: 26px; font-weight: 900; color: #F04438; }
-  .target-box {
-    background-color: #0F172A; padding: 13px 16px; border-radius: 10px;
-    font-size: 17px; font-weight: 800; color: #6CE9A6; margin-bottom: 10px;
-    border-left: 5px solid #12B76A;
+  .section-title { font-size: 21px; font-weight: 900; color: #F8FAFC; }
+  .mode-switch { display: flex; gap: 8px; }
+  .mode-btn {
+    padding: 8px 14px; border-radius: 9px; border: 1px solid #475569;
+    background: #1E293B; color: #CBD5E1; font-size: 14px; font-weight: 800; cursor: pointer;
   }
-  .ammo-text { font-size: 18px; font-weight: 800; color: #FDE047; line-height: 1.65; white-space: pre-wrap; }
+  .mode-btn.active { background: #7C3AED; border-color: #C084FC; color: #FFFFFF; }
 
-  .table-section { display: flex; flex-direction: column; gap: 8px; }
-  .table-header-row {
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
-    padding: 0 4px; gap: 8px;
+  /* 요일별 성적표 테이블 */
+  .table-card {
+    background: #111C33; border: 1px solid #243556; border-radius: 16px;
+    overflow-x: auto; margin-bottom: 18px;
   }
-  .table-title { font-size: 18px; font-weight: 900; color: #F8FAFC; }
-  .today-only-badge {
-    background-color: #1D4ED8; color: #FFFFFF; font-size: 13px; font-weight: 800;
-    padding: 5px 12px; border-radius: 999px;
-  }
-  .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid #334155; }
-  table { width: 100%; border-collapse: collapse; background-color: #161F33; }
+  table { width: 100%; border-collapse: collapse; min-width: 680px; }
   th {
-    background-color: #26344D; color: #FFFFFF; font-size: 14.5px; font-weight: 800;
-    padding: 12px 10px; text-align: center; white-space: nowrap;
+    background: #182644; color: #CBD5E1; font-size: 15.5px; font-weight: 900;
+    padding: 14px 12px; border-bottom: 2px solid #2A3F66; text-align: center;
   }
   td {
-    padding: 12px 10px; font-size: 14.5px; font-weight: 700; text-align: center;
-    border-bottom: 1px solid #26344D; cursor: pointer;
+    padding: 15px 12px; border-bottom: 1px solid #1E2E4F; font-size: 16.5px;
+    text-align: center; font-weight: 700; color: #F1F5F9;
   }
-  tr:hover td { background-color: #1E2D4A; }
-  .tag-buy { color: #FF692E; font-weight: 900; }
-  .tag-sell { color: #32D583; font-weight: 900; }
-  .tag-sell-loss { color: #60A5FA; font-weight: 900; }
-  .tag-watch { color: #38BDF8; font-weight: 900; }
+  tr:hover td { background: rgba(59, 130, 246, 0.09); cursor: pointer; }
 
-  /* 🌙 애프터마켓 종가베팅 전용 메뉴 스타일 */
-  .after-view { display: none; flex-direction: column; gap: 18px; margin-top: 14px; }
-  .after-schedule-banner {
-    background: linear-gradient(90deg, #311042, #1E1B4B); border: 2px solid #A855F7;
-    border-radius: 12px; padding: 13px 18px; font-size: 15.5px; font-weight: 800; color: #F3E8FF;
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+  /* 요일 배지 */
+  .day-cell { font-weight: 900; font-size: 16.5px; color: #E2E8F0; }
+  .wk-badge {
+    display: inline-block; padding: 3px 9px; border-radius: 7px; font-size: 14px; font-weight: 900;
+    margin-left: 5px; background: #1E293B; color: #93C5FD; border: 1px solid #3B82F6;
   }
-  .after-hero {
-    background: linear-gradient(135deg, #1E1B4B 0%, #161F33 100%);
-    border: 3px solid #F59E0B; border-radius: 16px; padding: 22px 24px;
-    box-shadow: 0 10px 28px rgba(245, 158, 11, 0.18);
-  }
-  .after-result-box {
-    background-color: #0F172A; border-radius: 12px; padding: 15px 18px; margin-top: 12px;
-    border-left: 6px solid #F59E0B; font-size: 17.5px; font-weight: 900; line-height: 1.6;
-  }
-  .dna-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px;
-  }
-  .dna-card {
-    background-color: #161F33; border: 1px solid #334155; border-radius: 12px; padding: 16px 18px;
-  }
-  .dna-card-title { font-size: 14.5px; font-weight: 800; color: #94A3B8; margin-bottom: 6px; }
-  .dna-card-val { font-size: 23px; font-weight: 900; color: #FDE047; margin-bottom: 4px; }
-  .dna-card-sub { font-size: 13.5px; font-weight: 700; color: #CBD5E1; line-height: 1.45; }
 
-  .day-block {
-    background-color: #131C2E; border: 1px solid #2E3A59; border-radius: 14px; padding: 16px 18px;
-    display: flex; flex-direction: column; gap: 10px;
+  /* 성공 / 실패 큼직한 판정 배지 */
+  .res-win {
+    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
+    background: rgba(16, 185, 129, 0.20); border: 1.5px solid #10B981; color: #4ADE80;
   }
-  .day-block-header {
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
-    padding-bottom: 8px; border-bottom: 1px solid #26344D;
+  .res-super {
+    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
+    background: rgba(245, 158, 11, 0.24); border: 1.5px solid #F59E0B; color: #FDE047;
   }
-  .day-block-title { font-size: 19px; font-weight: 900; color: #FDE047; }
-  .badge-dir {
-    background-color: #F59E0B; color: #0F172A; font-size: 12.5px; font-weight: 900;
-    padding: 3px 8px; border-radius: 6px; margin-right: 5px;
+  .res-loss {
+    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
+    background: rgba(239, 68, 68, 0.18); border: 1.5px solid #EF4444; color: #FCA5A5;
   }
-  .badge-win20 { color: #FBBF24; font-weight: 900; }
-  .badge-win11 { color: #34D399; font-weight: 900; }
-  .badge-win5 { color: #38BDF8; font-weight: 900; }
-  .badge-flat { color: #94A3B8; font-weight: 800; }
-  .badge-wait { color: #C084FC; font-weight: 900; }
+  .res-wait {
+    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 15.5px; font-weight: 900;
+    background: rgba(168, 85, 247, 0.20); border: 1.5px solid #A855F7; color: #E9D5FF;
+  }
+  .ai-crown {
+    display: inline-block; background: #F59E0B; color: #111827; font-size: 12.5px; font-weight: 900;
+    padding: 2px 7px; border-radius: 6px; margin-right: 6px; vertical-align: middle;
+  }
+
+  @media (max-width: 760px) {
+    .nav-tabs { grid-template-columns: 1fr; }
+    .winrate-big-num { font-size: 52px; }
+    .live-stock { font-size: 25px; }
+  }
 </style>
 </head>
-<body onclick="unlockAudioOnce(false)">
+<body>
 
-<div id="soundBanner" class="sound-banner" onclick="unlockAudioOnce(true)">
-  🔊 [중요] 화면 아무 곳이나 한 번만 터치(클릭)하시면 '실시간 차임벨 알림음'이 켜집니다!
-</div>
-
-<div class="header">
-  <div>
-    <span class="header-title">📡 달의 검 실시간 주도테마 &amp; 종가베팅 전광판</span>
-    <span id="todayDateLbl" class="header-sub">| 당일 실시간 포착 전용</span>
-  </div>
-  <div class="header-right">
-    <span id="statusLbl" class="status-badge">🟢 실시간 연결 중...</span>
-    <button class="btn btn-test" onclick="triggerTestAlert()">🔔 소리 테스트</button>
-  </div>
-</div>
-
-<!-- 🧭 상단 2대 메뉴 탭 -->
-<div class="nav-tabs">
-  <button id="tabBtnMain" class="nav-tab-btn active-main" onclick="switchMenu('main')">
-    📡 실시간 본장 주도테마 &amp; 포착
-    <span id="mainCountPill" class="tab-pill">본장 LIVE</span>
-  </button>
-  <button id="tabBtnAfter" class="nav-tab-btn" onclick="switchMenu('after')">
-    🌙 애프터마켓 종가베팅
-    <span id="afterStatusPill" class="tab-pill">모의검증·성적표</span>
-  </button>
-</div>
-
-<!-- ===================================================================== -->
-<!-- [메뉴 1] 기존 실시간 본장 주도테마 TOP 8 & 포착 리스트 -->
-<!-- ===================================================================== -->
-<div id="viewMain" class="main-split">
-
-  <!-- ⬅️ 왼쪽: 오늘의 주도 테마 TOP 8 -->
-  <div class="theme-section">
-    <div class="theme-header">
-      <div class="theme-title">🔥 오늘의 주도 테마 TOP 8</div>
-      <div id="themeUpdateLbl" class="theme-sub">실시간 테마 수신 중...</div>
+  <!-- 상단 심플 바 -->
+  <div class="header-bar">
+    <div class="header-title">📈 우리 가족 주식 자동매매 & AI 분석 성적표</div>
+    <div class="header-right">
+      <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
+      <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 켜기</button>
     </div>
-    <div id="themeGrid" class="theme-grid">
-      <div class="theme-card top3">
-        <div class="theme-card-top">
-          <span class="theme-rank-name">⏳ 테마 분석 중...</span>
-          <span class="theme-rate">-</span>
+  </div>
+
+  <!-- 상단 2개 메인 메뉴 버튼 -->
+  <div class="nav-tabs">
+    <button id="tabBtnMain" class="nav-tab active-main" onclick="switchTab('main')">
+      ⚡ 장 중 자동매매 (만쥬 식 주도테마 매매)
+    </button>
+    <button id="tabBtnAfter" class="nav-tab" onclick="switchTab('aftermarket')">
+      🧬 AI 역추적 종가베팅 분석
+    </button>
+  </div>
+
+  <!-- =========================================================================
+       [메뉴 1] ⚡ 장 중 자동매매 (만쥬 식 주도테마 매매)
+       ========================================================================= -->
+  <div id="sectionMain">
+    <!-- 맨 위 초대형 성공률 전광판 -->
+    <div class="winrate-board">
+      <div class="winrate-title">⚡ 장 중 자동매매 그동안의 누적 성공률</div>
+      <div class="winrate-big-num" id="mainWinRateNum">--%</div>
+      <div class="winrate-pills">
+        <span class="stat-pill" id="mainTotalPill">총 0번 매매</span>
+        <span class="stat-pill win" id="mainWinPill">⭕ 성공 0번</span>
+        <span class="stat-pill loss" id="mainLossPill">❌ 실패 0번</span>
+      </div>
+      <div class="winrate-rule-note">※ 실제 키움 계좌에서 낮 본장(09:00~15:30)에 자동 매수·매도하여 수익으로 마감하면 ⭕성공으로 집계됩니다.</div>
+    </div>
+
+    <!-- 오늘 현재 진행 상태 카드 -->
+    <div class="live-card" id="mainHeroCard">
+      <div class="live-top">
+        <div>
+          <div class="live-badge" id="mainHeroBadge">📡 오늘 장 중 자동매매 진행 상태</div>
+          <div class="live-stock" id="mainHeroStock">다음 본장 매매 대기 중...</div>
+          <div class="live-price" id="mainHeroPrice">평일 오전 9시 본장이 열리면 주도테마 1등주를 자동 감시합니다.</div>
         </div>
-        <div class="theme-leaders">잠시만 기다려 주세요...</div>
+        <button class="copy-btn" id="mainCopyBtn" onclick="copyCode(currentMainCode, 'mainCopyBtn')">📋 종목코드 복사</button>
       </div>
+      <div class="live-sub" id="mainHeroSub"></div>
+    </div>
+
+    <!-- 요일별 장 중 자동매매 성적표 -->
+    <div class="section-bar">
+      <div class="section-title">📅 요일별 장 중 자동매매 성공 · 실패 기록</div>
+    </div>
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>날짜 (요일)</th>
+            <th>매매 종목</th>
+            <th>매수가 → 매도가</th>
+            <th>수익률 (실현손익)</th>
+            <th>성공 / 실패</th>
+          </tr>
+        </thead>
+        <tbody id="mainLedgerBody">
+          <tr><td colspan="5" style="padding:26px; color:#94A3B8;">성적표 데이터를 불러오는 중입니다...</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <!-- ➡️ 오른쪽: 상단 실시간 포착 화면 + 하단 당일 종목 리스트 -->
-  <div class="right-panel">
-
-    <div id="heroCard" class="hero-card">
-      <div class="hero-top">
-        <div id="badgeLbl" class="signal-badge">⏳ 만쥬 Top-Down 주도테마 TOP 3 대장·짝꿍 초입 돌파 종목을 감시 중입니다...</div>
-        <button id="copyBtn" class="btn" onclick="copyCurrentCode(true)">📋 종목코드 복사</button>
+  <!-- =========================================================================
+       [메뉴 2] 🧬 AI 역추적 종가베팅 분석
+       ========================================================================= -->
+  <div id="sectionAfter" style="display:none;">
+    <!-- 맨 위 초대형 성공률 전광판 -->
+    <div class="winrate-board purple">
+      <div class="winrate-title">🧬 매일 19:45 AI 역추적 종가베팅 그동안의 성공률</div>
+      <div class="winrate-big-num" id="afterWinRateNum">--%</div>
+      <div class="winrate-pills">
+        <span class="stat-pill" id="afterTotalPill">총 0회 검증</span>
+        <span class="stat-pill win" id="afterWinPill">⭕ 성공(+5%↑) 0회</span>
+        <span class="stat-pill super" id="afterSuperPill">🔥 그중 +15%↑ 대박 0회</span>
+        <span class="stat-pill loss" id="afterLossPill">❌ 실패 0회</span>
       </div>
-      <div class="stock-row">
-        <div id="stockTitle" class="stock-name">당일 포착 대기 중</div>
-        <div id="priceLbl" class="stock-price"></div>
-      </div>
-      <div id="targetLbl" class="target-box">
-        🎯 권장 익절 목표가(+11%): - 원 &nbsp;&nbsp;|&nbsp;&nbsp; 🛡️ 손절 기준가(-3% 또는 시초가): - 원
-      </div>
-      <div id="ammoLbl" class="ammo-text">
-        🔥 매칭된 오늘의 테마 &amp; 수급 사유: 주도테마 초입 돌파 종목이 포착되는 즉시 차임벨 소리와 함께 이곳에 크게 표시됩니다!
-      </div>
-    </div>
-
-    <div class="table-section">
-      <div class="table-header-row">
-        <div class="table-title">📋 오늘 본장 실시간 포착 종목 리스트 (클릭 시 상단 확대 &amp; 종목코드 복사)</div>
-        <div id="todayCountBadge" class="today-only-badge">📅 당일(오늘) 포착 종목만 표시됨</div>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>포착 시각</th>
-              <th>구분</th>
-              <th>종목명 (코드)</th>
-              <th>포착/청산가 (등락률)</th>
-              <th>+11% 목표가 / 실현손익</th>
-              <th>거래대금 / 수량</th>
-              <th>매칭된 오늘의 테마 &amp; 청산 손익 상세</th>
-            </tr>
-          </thead>
-          <tbody id="signalTableBody">
-            <tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘 포착된 종목을 불러오고 있습니다...</td></tr>
-          </tbody>
-        </table>
+      <div class="winrate-rule-note">
+        📌 성공 기준: 저녁 19:45 애프터마켓 매수가 대비 <b>다음 거래일 장중 +5% 이상 수익 도달 시 ⭕성공!</b> (+15% 이상 급등 시 🔥대박성공!)
       </div>
     </div>
 
-  </div>
-</div>
+    <!-- 오늘(최근) 19:45 대표 매수 분석 카드 -->
+    <div class="live-card purple" id="afterHeroCard">
+      <div class="live-top">
+        <div>
+          <div class="live-badge" id="afterHeroBadge" style="color:#E9D5FF;">🌙 최근 19:45 종가베팅 대표 분석 종목</div>
+          <div class="live-stock" id="afterHeroStock">데이터 불러오는 중...</div>
+          <div class="live-price" id="afterHeroPrice" style="color:#FDE047;">19:45 매수가: -원</div>
+        </div>
+        <button class="copy-btn" id="afterCopyBtn" onclick="copyCode(currentAfterCode, 'afterCopyBtn')">📋 종목코드 복사</button>
+      </div>
+      <div class="live-sub" id="afterHeroSub"></div>
+    </div>
 
-<!-- ===================================================================== -->
-<!-- [메뉴 2] 🌙 애프터마켓 종가베팅 전용 메뉴 (오늘 샀다면 뭘 샀고 다음날 결과가 어떨지!) -->
-<!-- ===================================================================== -->
-<div id="viewAfter" class="after-view">
-
-  <div class="after-schedule-banner">
-    <div id="afterScheduleNotice">
-      🌙 <b>[모의분석·성적검증 전용]</b> 실전 예수금은 쓰지 않고 매일 저녁 <b>19:45 KST</b> 전 종목 NXT 수급 + DART 공시 + NotebookLM 연구소장이 <b>"오늘 샀다면 뭘 샀을지"</b>를 선정하고, 다음 거래일 <b>15:40 KST</b>에 실제 시초가·최고가·종가 성적을 자동 채점합니다!
+    <!-- 요일별 19:45 종가베팅 성적표 -->
+    <div class="section-bar">
+      <div class="section-title">📅 매일 19:45 매수 가격 & 다음 날 수익률 성적표</div>
+      <div class="mode-switch">
+        <button id="btnModeAll" class="mode-btn active" onclick="setAfterViewMode('all')">전체 포착 종목 보기</button>
+        <button id="btnModeRep" class="mode-btn" onclick="setAfterViewMode('rep')">하루 1개 대표 종목만 보기</button>
+      </div>
     </div>
-    <div id="afterUpdatedLbl" style="color:#FDE047; font-size:13.5px;">동기화 대기 중...</div>
-  </div>
-
-  <!-- 상단: 가장 최근(오늘) 가상 종가베팅 대표 카드 -->
-  <div id="afterHeroCard" class="after-hero">
-    <div class="hero-top">
-      <div id="afterHeroBadge" class="signal-badge" style="color:#FDE047;">👑 [가장 최근 애프터마켓 가상 종가베팅 픽 불러오는 중...]</div>
-      <button id="afterCopyBtn" class="btn" onclick="copyAfterCode()">📋 종목코드 복사</button>
-    </div>
-    <div class="stock-row">
-      <div id="afterHeroStock" class="stock-name">데이터 수신 중...</div>
-      <div id="afterHeroPrice" class="stock-price" style="color:#38BDF8;"></div>
-    </div>
-    <div id="afterHeroReason" class="ammo-text" style="font-size:16.5px;">
-      잠시만 기다려 주세요...
-    </div>
-    <div id="afterHeroResultBox" class="after-result-box">
-      ⏳ 다음 거래일 본장 실제 결과 데이터를 불러오고 있습니다...
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>매수일 · 요일 (19:45)</th>
+            <th>종목명 (코드)</th>
+            <th>19:45 매수가 (+5% 익절가)</th>
+            <th>다음 날 몇 % 올랐나?</th>
+            <th>성공 / 실패</th>
+          </tr>
+        </thead>
+        <tbody id="afterLedgerBody">
+          <tr><td colspan="5" style="padding:26px; color:#94A3B8;">AI 종가베팅 기록을 불러오는 중입니다...</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
-
-  <!-- 중단: 누적 +11% 대박 DNA vs 미달 그룹 통계 카드 -->
-  <div class="dna-grid">
-    <div class="dna-card">
-      <div class="dna-card-title">📊 누적 검증 완료 종목 수</div>
-      <div id="statTotalLbl" class="dna-card-val">- 종목</div>
-      <div id="statHit5Lbl" class="dna-card-sub">+5% 이상 단타 익절권 도달: -종목</div>
-    </div>
-    <div class="dna-card" style="border-color:#10B981;">
-      <div class="dna-card-title">🎯 익일 +11% 이상 대박 적중</div>
-      <div id="statHit11Lbl" class="dna-card-val" style="color:#34D399;">- 종목 (-%)</div>
-      <div id="statHit20Lbl" class="dna-card-sub">🚀 그중 +20% / 상한가급 초급등: -종목</div>
-    </div>
-    <div class="dna-card" style="border-color:#F59E0B;">
-      <div class="dna-card-title">🌟 +11% 대박 그룹 평균 DNA</div>
-      <div id="statWinMaxLbl" class="dna-card-val" style="color:#FBBF24;">익일 최고 +0.00%</div>
-      <div id="statWinDnaLbl" class="dna-card-sub">애프터 평균 -% | 애프터 대금 -억 | 고가유지 -%</div>
-    </div>
-    <div class="dna-card">
-      <div class="dna-card-title">📉 +11% 미달 그룹 평균 DNA (오답노트)</div>
-      <div id="statLoseMaxLbl" class="dna-card-val" style="color:#94A3B8;">익일 최고 +0.00%</div>
-      <div id="statLoseDnaLbl" class="dna-card-sub">애프터 평균 -% | 애프터 대금 -억 (소액/재료부족 주의)</div>
-    </div>
-  </div>
-
-  <!-- 하단: 일자별 전체 가상 픽 & 익일 실제 성적표 -->
-  <div id="afterDaysContainer" style="display:flex; flex-direction:column; gap:16px;">
-    <div class="day-block" style="color:#94A3B8; text-align:center; padding:28px;">
-      애프터마켓 종가베팅 기록을 불러오고 있습니다...
-    </div>
-  </div>
-
-</div>
 
 <script>
 const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
-const TOPIC_THEMES = "kr_whale_detector_vip_family_2026/themes";
 const TOPIC_HISTORY = "kr_whale_detector_vip_family_2026/history";
 const TOPIC_LIVE = "kr_whale_detector_vip_family_2026/live";
+const TOPIC_LEDGER = "kr_whale_detector_vip_family_2026/ledger";
 const TOPIC_AFTERMARKET = "kr_whale_detector_vip_family_2026/aftermarket";
 
-let seenKeys = new Set();
-let currentCode = "";
-let currentAfterCode = "";
 let audioCtx = null;
-let audioUnlocked = false;
-let localItemsMap = new Map();
-let lastThemeUpdateStr = "";
-let latestAfterData = null;
+let soundEnabled = false;
+let currentMainCode = "";
+let currentAfterCode = "";
+let afterViewMode = "all"; // 'all' | 'rep'
+let cachedAfterPayload = null;
+const seenLiveIds = new Set();
 
-function switchMenu(which) {
-  const vMain = document.getElementById("viewMain");
-  const vAfter = document.getElementById("viewAfter");
-  const bMain = document.getElementById("tabBtnMain");
-  const bAfter = document.getElementById("tabBtnAfter");
-  if (which === "after") {
-    vMain.style.display = "none";
-    vAfter.style.display = "flex";
-    bMain.className = "nav-tab-btn";
-    bAfter.className = "nav-tab-btn active-after";
-    window.location.hash = "aftermarket";
+function switchTab(tab) {
+  const secMain = document.getElementById("sectionMain");
+  const secAfter = document.getElementById("sectionAfter");
+  const btnMain = document.getElementById("tabBtnMain");
+  const btnAfter = document.getElementById("tabBtnAfter");
+  if (tab === "aftermarket") {
+    secMain.style.display = "none";
+    secAfter.style.display = "block";
+    btnMain.className = "nav-tab";
+    btnAfter.className = "nav-tab active-after";
+    try { history.replaceState(null, "", "#aftermarket"); } catch (e) {}
   } else {
-    vMain.style.display = "grid";
-    vAfter.style.display = "none";
-    bMain.className = "nav-tab-btn active-main";
-    bAfter.className = "nav-tab-btn";
-    window.location.hash = "";
+    secMain.style.display = "block";
+    secAfter.style.display = "none";
+    btnMain.className = "nav-tab active-main";
+    btnAfter.className = "nav-tab";
+    try { history.replaceState(null, "", "#main"); } catch (e) {}
   }
 }
-
 if (window.location.hash === "#aftermarket") {
-  window.addEventListener("DOMContentLoaded", () => switchMenu("after"));
+  switchTab("aftermarket");
 }
 
-function getTodayKST() {
-  const now = new Date();
-  const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-  const kst = new Date(utc + (9 * 3600000));
-  const y = kst.getFullYear();
-  const m = String(kst.getMonth() + 1).padStart(2, '0');
-  const d = String(kst.getDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
-}
-
-document.getElementById("todayDateLbl").innerText = `| 📅 ${getTodayKST()} 실시간 가동 중`;
-
-function checkDailyRolloverUI() {
-  const today = getTodayKST();
-  document.getElementById("todayDateLbl").innerText = `| 📅 ${today} 실시간 가동 중`;
-}
-checkDailyRolloverUI();
-setInterval(checkDailyRolloverUI, 10000);
-
-function initAudio() {
+function toggleSound() {
   if (!audioCtx) {
-    const AudioContext = window.AudioContext || window.webkitAudioContext;
-    audioCtx = new AudioContext();
+    const AC = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AC();
   }
-  if (audioCtx.state === 'suspended') {
-    audioCtx.resume();
-  }
-}
-
-function unlockAudioOnce(playSample) {
-  initAudio();
-  if (!audioUnlocked) {
-    audioUnlocked = true;
-    const sb = document.getElementById("soundBanner");
-    sb.className = "sound-banner active";
-    sb.innerText = "✅ 실시간 차임벨 알림음이 켜졌습니다! (새 종목이 포착되면 즉시 소리가 울립니다)";
-    if (playSample) playChime("BUY");
+  if (audioCtx.state === "suspended") audioCtx.resume();
+  soundEnabled = !soundEnabled;
+  const btn = document.getElementById("soundBtn");
+  if (soundEnabled) {
+    btn.className = "sound-btn on";
+    btn.innerText = "🔊 알림음 켜짐";
+    playChime("BUY");
+  } else {
+    btn.className = "sound-btn";
+    btn.innerText = "🔔 알림음 켜기";
   }
 }
 
 function playNote(freq, startOffset, duration) {
-  if (!audioCtx) return;
+  if (!soundEnabled || !audioCtx) return;
   const osc = audioCtx.createOscillator();
   const gain = audioCtx.createGain();
   osc.type = "triangle";
   osc.frequency.setValueAtTime(freq, audioCtx.currentTime + startOffset);
-  gain.gain.setValueAtTime(0.32, audioCtx.currentTime + startOffset);
+  gain.gain.setValueAtTime(0.30, audioCtx.currentTime + startOffset);
   gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + startOffset + duration);
   osc.connect(gain);
   gain.connect(audioCtx.destination);
@@ -443,491 +358,306 @@ function playNote(freq, startOffset, duration) {
 }
 
 function playChime(type) {
-  initAudio();
+  if (!soundEnabled) return;
   if (type === "SELL") {
     playNote(880, 0.0, 0.18);
     playNote(1174.66, 0.2, 0.35);
-    playNote(880, 0.65, 0.18);
-    playNote(1174.66, 0.85, 0.35);
   } else {
-    const notes = [523.25, 659.25, 783.99, 1046.50];
-    for (let r = 0; r < 2; r++) {
-      const base = r * 0.85;
-      playNote(notes[0], base + 0.0, 0.16);
-      playNote(notes[1], base + 0.17, 0.16);
-      playNote(notes[2], base + 0.34, 0.16);
-      playNote(notes[3], base + 0.51, 0.30);
-    }
+    playNote(523.25, 0.0, 0.16);
+    playNote(659.25, 0.17, 0.16);
+    playNote(783.99, 0.34, 0.16);
+    playNote(1046.50, 0.51, 0.30);
   }
 }
 
-function copyTextFallback(text) {
+function copyCode(code, btnId) {
+  if (!code) return;
   if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(text).catch(() => {});
+    navigator.clipboard.writeText(code).catch(() => {});
   }
   const ta = document.createElement("textarea");
-  ta.value = text;
+  ta.value = code;
   ta.style.position = "fixed";
   ta.style.left = "-9999px";
   document.body.appendChild(ta);
-  ta.focus();
   ta.select();
   try { document.execCommand("copy"); } catch (e) {}
   document.body.removeChild(ta);
-}
 
-function copyCurrentCode(showBtnFeedback) {
-  if (!currentCode) return;
-  copyTextFallback(currentCode);
-  if (showBtnFeedback) {
-    const btn = document.getElementById("copyBtn");
-    btn.innerText = `✅ [${currentCode}] 복사됨!`;
-    btn.style.backgroundColor = "#12B76A";
-    setTimeout(() => {
-      btn.innerText = "📋 종목코드 복사";
-      btn.style.backgroundColor = "#2E90FA";
-    }, 2000);
-  }
-}
-
-function copyAfterCode() {
-  if (!currentAfterCode) return;
-  copyTextFallback(currentAfterCode);
-  const btn = document.getElementById("afterCopyBtn");
-  btn.innerText = `✅ [${currentAfterCode}] 복사됨!`;
-  btn.style.backgroundColor = "#12B76A";
+  const btn = document.getElementById(btnId);
+  const orig = btn.innerText;
+  btn.innerText = `✅ [${code}] 복사 완료!`;
+  btn.style.background = "#10B981";
   setTimeout(() => {
-    btn.innerText = "📋 종목코드 복사";
-    btn.style.backgroundColor = "#2E90FA";
-  }, 2000);
+    btn.innerText = orig;
+    btn.style.background = "#2563EB";
+  }, 1800);
 }
 
-function renderThemes(themePayload) {
-  if (!themePayload || !Array.isArray(themePayload.themes)) return;
-  const list = themePayload.themes;
-  if (list.length === 0) return;
-  if (lastThemeUpdateStr && themePayload.updated_at && themePayload.updated_at < lastThemeUpdateStr && list.length < 8) {
+function fmtShortDate(dtStr) {
+  if (!dtStr || dtStr.length < 10) return dtStr || "-";
+  return `${Number(dtStr.slice(5, 7))}/${Number(dtStr.slice(8, 10))}`;
+}
+
+/* =========================================================================
+   [메뉴 1] 장 중 자동매매 렌더링
+   ========================================================================= */
+function updateMainHeroFromSignal(item, withSound) {
+  if (!item) return;
+  currentMainCode = item.code || "";
+  const sig = item.type || "WATCH";
+  const price = Number(item.price || 0);
+  const pnlPct = Number(item.pnl_pct || 0);
+  const pnlKrw = Number(item.pnl_krw || 0);
+  const buyP = Number(item.buy_price || 0);
+  const tm = String(item.time || "").slice(-8);
+
+  document.getElementById("mainHeroStock").innerText = `${item.name} (${item.code})`;
+  if (sig === "BUY") {
+    document.getElementById("mainHeroBadge").innerText = `🚀 [${tm} 장 중 실전 매수 체결!]`;
+    document.getElementById("mainHeroPrice").innerText =
+      `매수가: ${price.toLocaleString()}원  |  🎯 목표 익절가(+11%): ${Number(item.target_price||0).toLocaleString()}원`;
+    document.getElementById("mainHeroSub").innerText = item.ammo_title || "";
+  } else if (sig === "SELL") {
+    const isWin = pnlKrw > 0 || pnlPct > 0;
+    document.getElementById("mainHeroBadge").innerText =
+      isWin ? `⭕ [${tm} 수익 익절 매도 완료!]` : `❌ [${tm} 손절 / 마감 청산 완료]`;
+    document.getElementById("mainHeroPrice").innerText =
+      `매수가 ${buyP > 0 ? buyP.toLocaleString() : '-'}원 → 매도가 ${price.toLocaleString()}원  |  확정 수익률: ${pnlPct>=0?'+':''}${pnlPct.toFixed(2)}% (${pnlKrw>=0?'+':''}${pnlKrw.toLocaleString()}원)`;
+    document.getElementById("mainHeroSub").innerText = "";
+  } else {
+    document.getElementById("mainHeroBadge").innerText = `⚡ [${tm} 주도테마 수급 포착]`;
+    document.getElementById("mainHeroPrice").innerText = `포착 가격: ${price.toLocaleString()}원`;
+    document.getElementById("mainHeroSub").innerText = item.ammo_title || "";
+  }
+  if (withSound) playChime(sig);
+}
+
+function renderMainLedger(payload) {
+  if (!payload) return;
+  const stats = payload.stats || {};
+  const rows = payload.rows || [];
+
+  const rate = Number(stats.win_rate_pct || 0);
+  const rateEl = document.getElementById("mainWinRateNum");
+  rateEl.innerText = `${rate.toFixed(1)}%`;
+  rateEl.style.color = rate >= 50 ? "#4ADE80" : "#FDE047";
+
+  document.getElementById("mainTotalPill").innerText = `총 ${stats.total_closed || 0}번 매매`;
+  document.getElementById("mainWinPill").innerText = `⭕ 성공 ${stats.win_count || 0}번`;
+  document.getElementById("mainLossPill").innerText = `❌ 실패 ${stats.loss_count || 0}번`;
+
+  if (rows.length > 0 && !currentMainCode) {
+    const top = rows[0];
+    currentMainCode = top.code;
+    document.getElementById("mainHeroStock").innerText = `${top.name} (${top.code})`;
+    if (top.status === "OPEN") {
+      document.getElementById("mainHeroBadge").innerText = `⏳ [${fmtShortDate(top.date)} ${top.weekday} 현재 보유 중]`;
+      document.getElementById("mainHeroPrice").innerText = `매수가: ${Number(top.buy_price||0).toLocaleString()}원`;
+    } else {
+      const ok = top.status === "WIN";
+      document.getElementById("mainHeroBadge").innerText =
+        `📌 최근 매매 결과 (${fmtShortDate(top.date)} ${top.weekday}) — ${ok ? '⭕ 성공!' : '❌ 실패'}`;
+      document.getElementById("mainHeroPrice").innerText =
+        `매수가 ${Number(top.buy_price||0).toLocaleString()}원 → 매도가 ${Number(top.sell_price||0).toLocaleString()}원 (${top.pnl_pct>=0?'+':''}${Number(top.pnl_pct||0).toFixed(2)}% / ${top.pnl_krw>=0?'+':''}${Number(top.pnl_krw||0).toLocaleString()}원)`;
+    }
+  }
+
+  const tbody = document.getElementById("mainLedgerBody");
+  tbody.innerHTML = "";
+  if (rows.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="5" style="padding:26px; color:#94A3B8;">아직 기록된 장 중 매매 내역이 없습니다.</td></tr>`;
     return;
   }
-  if (themePayload.updated_at) lastThemeUpdateStr = themePayload.updated_at;
 
-  const grid = document.getElementById("themeGrid");
-  const upd = document.getElementById("themeUpdateLbl");
-  upd.innerText = `기준일: ${themePayload.date || getTodayKST()} (업데이트: ${themePayload.updated_at || '실시간'})`;
-
-  grid.innerHTML = "";
-  list.forEach((t, idx) => {
-    const card = document.createElement("div");
-    card.className = idx < 3 ? "theme-card top3" : "theme-card";
-    const medal = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : "🔥";
-    const flu = Number(t.flu_rt || 0);
-    const fluStr = (flu >= 0 ? "+" : "") + flu.toFixed(2) + "%";
-    card.innerHTML = `
-      <div class="theme-card-top">
-        <span class="theme-rank-name">${medal} ${t.rank || (idx+1)}위. ${t.name}</span>
-        <span class="theme-rate">${fluStr}</span>
-      </div>
-      <div class="theme-leaders">👑 대장주: ${t.leaders || '-'} <span style="color:#94A3B8;font-size:12px;">(상승 ${t.rising || ''})</span></div>
-    `;
-    grid.appendChild(card);
-  });
-}
-
-function updateHeroCard(data, withSound) {
-  if (!data) return;
-  const sigType = data.type || "BUY";
-  const name = data.name || "";
-  const code = data.code || "";
-  const price = Number(data.price || 0);
-  const fluRt = Number(data.flu_rt || 0);
-  const valUk = Number(data.val_uk || 0);
-  const targetP = Number(data.target_price || 0);
-  const stopP = Number(data.stop_price || 0);
-  const ammoTitle = data.ammo_title || "";
-  const note = data.note || "";
-  const tm = (data.time || "").slice(-8);
-  const hasPnl = (data.pnl_krw !== undefined && data.pnl_krw !== null);
-  const pnlKrw = hasPnl ? Number(data.pnl_krw) : 0;
-  const pnlPct = (data.pnl_pct !== undefined && data.pnl_pct !== null) ? Number(data.pnl_pct) : 0;
-  const buyP = Number(data.buy_price || 0);
-  const qty = Number(data.qty || 0);
-
-  currentCode = code;
-  if (code) copyTextFallback(code);
-
-  const card = document.getElementById("heroCard");
-  const badge = document.getElementById("badgeLbl");
-  const sign = fluRt >= 0 ? "+" : "";
-  document.getElementById("stockTitle").innerText = `${name} (${code})`;
-
-  if (sigType === "BUY") {
-    card.style.borderColor = "#F04438";
-    badge.style.color = "#FF692E";
-    badge.innerText = `🚀 [실전 매수 타격! ${tm}] ${note || '만쥬 Top-Down 주도테마 초입 돌파!'}`;
-    document.getElementById("priceLbl").innerText = `현재/포착가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)  |  거래대금: ${valUk.toFixed(1)}억`;
-    document.getElementById("targetLbl").innerText = `🎯 +11% 목표익절가: ${targetP.toLocaleString()}원    |    🛡️ 손절기준가(-3% / 시초가): ${stopP.toLocaleString()}원`;
-    document.getElementById("ammoLbl").innerText = `🔥 매칭 테마 & 수급: ${ammoTitle}`;
-  } else if (sigType === "SELL") {
-    if (hasPnl && pnlKrw < 0) {
-      card.style.borderColor = "#38BDF8";
-      badge.style.color = "#60A5FA";
-      badge.innerText = `📘 [전량 청산 완료! ${tm}] ${note || '보유 종목 전량 당일 청산 완료!'}`;
-      document.getElementById("priceLbl").innerText = `청산 체결가: ${price.toLocaleString()}원 (당일 ${sign}${fluRt.toFixed(2)}%)  |  청산 수량: ${qty > 0 ? qty + '주 전량' : '전량'}`;
-      document.getElementById("targetLbl").innerText = `📉 세후 확정 손실: ${pnlKrw.toLocaleString()}원 (${pnlPct.toFixed(2)}%)    |    📌 매수 평단가: ${buyP > 0 ? buyP.toLocaleString() + '원' : '-'} → 매도가: ${price.toLocaleString()}원`;
-    } else if (hasPnl) {
-      card.style.borderColor = "#12B76A";
-      badge.style.color = "#32D583";
-      badge.innerText = `🎉 [전량 익절 완료! ${tm}] ${note || '목표 달성 익절 매도 완료!'}`;
-      document.getElementById("priceLbl").innerText = `익절 체결가: ${price.toLocaleString()}원 (당일 ${sign}${fluRt.toFixed(2)}%)  |  익절 수량: ${qty > 0 ? qty + '주 전량' : '전량'}`;
-      document.getElementById("targetLbl").innerText = `💰 세후 확정 수익: +${pnlKrw.toLocaleString()}원 (+${pnlPct.toFixed(2)}%)    |    📌 매수 평단가: ${buyP > 0 ? buyP.toLocaleString() + '원' : '-'} → 매도가: ${price.toLocaleString()}원`;
-    } else {
-      card.style.borderColor = "#12B76A";
-      badge.style.color = "#32D583";
-      badge.innerText = `🎉 [전량 매도/청산 신호! ${tm}] ${note || '전량 매도 신호입니다!'}`;
-      document.getElementById("priceLbl").innerText = `청산가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)`;
-      document.getElementById("targetLbl").innerText = `📌 전량 매도/청산 완료`;
-    }
-    document.getElementById("ammoLbl").innerText = `📊 청산 상세 내역: ${ammoTitle}`;
-  } else {
-    card.style.borderColor = "#2E90FA";
-    badge.style.color = "#38BDF8";
-    badge.innerText = `⚡ [주도테마 초입 포착! ${tm}] ${note || '만쥬 Top-Down 주도테마 포착 종목!'}`;
-    document.getElementById("priceLbl").innerText = `현재/포착가: ${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)  |  거래대금: ${valUk.toFixed(1)}억`;
-    document.getElementById("targetLbl").innerText = `🎯 +11% 목표익절가: ${targetP.toLocaleString()}원    |    🛡️ 손절기준가(-3% / 시초가): ${stopP.toLocaleString()}원`;
-    document.getElementById("ammoLbl").innerText = `🔥 매칭 테마 & 수급: ${ammoTitle}`;
-  }
-
-  if (withSound) playChime(sigType);
-}
-
-function mergeAndRenderTable(incomingItems) {
-  const todayStr = getTodayKST();
-  for (const [k, v] of localItemsMap.entries()) {
-    if (!String(v.time || "").startsWith(todayStr)) {
-      localItemsMap.delete(k);
-    }
-  }
-  (incomingItems || []).forEach(item => {
-    if (item && item.code && String(item.time || "").startsWith(todayStr)) {
-      const key = `${item.code}_${item.type || 'WATCH'}`;
-      const existing = localItemsMap.get(key);
-      if (!existing || String(item.time || "") >= String(existing.time || "")) {
-        localItemsMap.set(key, item);
-      }
-    }
-  });
-
-  const todayItems = Array.from(localItemsMap.values()).sort((a, b) => String(a.time || "").localeCompare(String(b.time || "")));
-
-  document.getElementById("todayCountBadge").innerText = `📅 ${todayStr} 당일 포착: ${todayItems.length}건`;
-  document.getElementById("mainCountPill").innerText = `본장 ${todayItems.length}건`;
-  const tbody = document.getElementById("signalTableBody");
-  tbody.innerHTML = "";
-
-  if (todayItems.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="7" style="color:#94A3B8; padding:24px;">오늘(${todayStr}) 아직 본장에서 새로 포착된 종목이 없습니다.</td></tr>`;
-    return todayItems;
-  }
-
-  const reversed = [...todayItems].reverse();
-  reversed.forEach((item) => {
+  rows.forEach((r) => {
     const tr = document.createElement("tr");
-    const sigType = item.type || "WATCH";
-    const hasPnl = (item.pnl_krw !== undefined && item.pnl_krw !== null);
-    const pnlKrw = hasPnl ? Number(item.pnl_krw) : 0;
-    const pnlPct = (item.pnl_pct !== undefined && item.pnl_pct !== null) ? Number(item.pnl_pct) : 0;
-    const qty = Number(item.qty || 0);
+    const buyP = Number(r.buy_price || 0);
+    const sellP = Number(r.sell_price || 0);
+    const pct = Number(r.pnl_pct || 0);
+    const krw = Number(r.pnl_krw || 0);
 
-    let tagClass = "tag-watch";
-    let tagText = "⚡초입포착";
-    if (sigType === "BUY") {
-      tagClass = "tag-buy";
-      tagText = "🚀실전매수";
-    } else if (sigType === "SELL") {
-      if (hasPnl && pnlKrw < 0) {
-        tagClass = "tag-sell-loss";
-        tagText = "📘마감청산";
-      } else {
-        tagClass = "tag-sell";
-        tagText = "🎉익절청산";
-      }
-    }
+    let priceTxt = `${buyP.toLocaleString()}원 → ${sellP > 0 ? sellP.toLocaleString() + '원' : '보유중'}`;
+    let pnlColor = pct > 0 ? "#4ADE80" : (pct < 0 ? "#FCA5A5" : "#E2E8F0");
+    let pnlTxt = r.status === "OPEN"
+      ? `<span style="color:#93C5FD;">진행 중</span>`
+      : `<span style="color:${pnlColor}; font-weight:900; font-size:17.5px;">${pct>=0?'+':''}${pct.toFixed(2)}%</span> <span style="font-size:14px; color:#94A3B8;">(${krw>=0?'+':''}${krw.toLocaleString()}원)</span>`;
 
-    const price = Number(item.price || 0);
-    const fluRt = Number(item.flu_rt || 0);
-    const sign = fluRt >= 0 ? "+" : "";
-    const targetP = Number(item.target_price || 0);
-    const valUk = Number(item.val_uk || 0);
-    const timeOnly = String(item.time || "").slice(11, 19) || item.time;
-
-    let col5Html = `<td style="color:#6CE9A6; font-weight:900;">${targetP.toLocaleString()}원</td>`;
-    let col6Html = `<td>${valUk.toFixed(1)}억</td>`;
-    let col7Color = "#FDE047";
-
-    if (sigType === "SELL") {
-      if (hasPnl && pnlKrw >= 0) {
-        col5Html = `<td style="color:#4ADE80; font-weight:900; font-size:15.5px;">💰 +${pnlKrw.toLocaleString()}원 (+${pnlPct.toFixed(2)}%)</td>`;
-        col7Color = "#86EFAC";
-      } else if (hasPnl && pnlKrw < 0) {
-        col5Html = `<td style="color:#60A5FA; font-weight:900; font-size:15.5px;">📉 ${pnlKrw.toLocaleString()}원 (${pnlPct.toFixed(2)}%)</td>`;
-        col7Color = "#93C5FD";
-      } else {
-        col5Html = `<td style="color:#94A3B8; font-weight:900;">전량청산</td>`;
-      }
-      col6Html = `<td>${qty > 0 ? qty + "주 청산" : "전량청산"}</td>`;
-    }
+    let badgeHtml = `<span class="res-wait">⏳ 보유중</span>`;
+    if (r.status === "WIN") badgeHtml = `<span class="res-win">⭕ 성공</span>`;
+    else if (r.status === "LOSS") badgeHtml = `<span class="res-loss">❌ 실패</span>`;
 
     tr.innerHTML = `
-      <td>${timeOnly}</td>
-      <td class="${tagClass}">${tagText}</td>
-      <td style="font-weight:900; color:#FFFFFF; font-size:16px;">${item.name} (${item.code})</td>
-      <td style="color:#F97066; font-weight:900;">${price.toLocaleString()}원 (${sign}${fluRt.toFixed(2)}%)</td>
-      ${col5Html}
-      ${col6Html}
-      <td style="text-align:left; color:${col7Color};">${item.ammo_title || ""}</td>
+      <td class="day-cell">${fmtShortDate(r.date)} <span class="wk-badge">${r.weekday || ''}</span></td>
+      <td style="font-weight:900; font-size:17.5px; color:#FFFFFF;">${r.name} <span style="font-size:13.5px; color:#94A3B8;">(${r.code})</span></td>
+      <td>${priceTxt}</td>
+      <td>${pnlTxt}</td>
+      <td>${badgeHtml}</td>
     `;
-    tr.onclick = () => updateHeroCard(item, false);
+    tr.onclick = () => {
+      currentMainCode = r.code;
+      document.getElementById("mainHeroStock").innerText = `${r.name} (${r.code})`;
+      document.getElementById("mainHeroBadge").innerText = `📅 ${r.date} (${r.weekday}) 매매 상세`;
+      document.getElementById("mainHeroPrice").innerText =
+        `매수가 ${buyP.toLocaleString()}원 → 매도가 ${sellP.toLocaleString()}원 (${pct>=0?'+':''}${pct.toFixed(2)}% / ${krw>=0?'+':''}${krw.toLocaleString()}원)`;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     tbody.appendChild(tr);
   });
-  return todayItems;
 }
 
-/* =====================================================================
-   🌙 [메뉴 2] 애프터마켓 종가베팅 렌더링 엔진
-   ===================================================================== */
-function getResultBadgeInfo(pick) {
-  if (!pick.evaluated || pick.max_ret_pct === undefined || pick.max_ret_pct === null) {
-    return { cls: "badge-wait", txt: "⏳ 다음 거래일 15:40 채점대기" };
-  }
-  const m = Number(pick.max_ret_pct || 0);
-  if (m >= 29.0) return { cls: "badge-win20", txt: "👑 상한가 달성! (+30%급)" };
-  if (m >= 20.0) return { cls: "badge-win20", txt: "🚀 초급등 대박! (+20%↑)" };
-  if (m >= 11.0) return { cls: "badge-win11", txt: "🎯 +11% 목표 달성!" };
-  if (m >= 5.0)  return { cls: "badge-win5",  txt: "✅ +5% 단타익절권" };
-  return { cls: "badge-flat", txt: "➖ 보합/약세" };
+/* =========================================================================
+   [메뉴 2] AI 역추적 종가베팅 분석 렌더링
+   ========================================================================= */
+function setAfterViewMode(mode) {
+  afterViewMode = mode;
+  document.getElementById("btnModeAll").className = mode === "all" ? "mode-btn active" : "mode-btn";
+  document.getElementById("btnModeRep").className = mode === "rep" ? "mode-btn active" : "mode-btn";
+  if (cachedAfterPayload) renderAftermarketBoard(cachedAfterPayload);
 }
 
 function updateAfterHero(dayObj, pick) {
   if (!dayObj || !pick) return;
   currentAfterCode = pick.code || "";
   const entryP = Number(pick.p_1950 || 0);
-  const targetP = Number(pick.target_11_price || Math.round(entryP * 1.11));
-  const diffTot = Number(pick.diff_total || 0);
-  const aftUk = Number(pick.aft_uk || 0);
-  const hasDirSystem = Array.isArray(dayObj.director_force_buy);
-  const dirList = dayObj.director_force_buy || [];
+  const t5 = Number(pick.target_5_price || Math.round(entryP * 1.05));
+  const t15 = Number(pick.target_15_price || Math.round(entryP * 1.15));
 
-  let roleTxt = "";
-  if (pick.director_approved) {
-    roleTxt = `👑 [${dayObj.date} 19:45 오늘 샀다면 이 종목! — NotebookLM 연구소장 최종 승인 픽]`;
-  } else if (hasDirSystem && dirList.length === 0 && dayObj.predicted_at && dayObj.date >= "2026-10-30") {
-    roleTxt = `🛡️ [${dayObj.date} 연구소장 판정: A급 부재로 '매수 휴식' 권고 | 관찰 1위 후보 참고]`;
-  } else {
-    roleTxt = `🌙 [${dayObj.date} 애프터마켓 가상 종가베팅 ${pick.rank || 1}위 포착 종목]`;
-  }
-
-  document.getElementById("afterHeroBadge").innerText = roleTxt;
+  const crown = pick.director_approved ? "👑 AI 연구소장 최종 추천 픽!" : "🌙 19:45 포착 종목";
+  document.getElementById("afterHeroBadge").innerText =
+    `📅 ${dayObj.date} (${dayObj.weekday || ''}) 19:45 매수 기준 — ${crown}`;
   document.getElementById("afterHeroStock").innerText = `${pick.name} (${pick.code})`;
   document.getElementById("afterHeroPrice").innerText =
-    `가상 배팅가: ${entryP.toLocaleString()}원 (애프터 +${diffTot.toFixed(2)}% / 대금 ${aftUk.toFixed(1)}억)  |  🎯 +11% 목표가: ${targetP.toLocaleString()}원`;
+    `19:45 매수가: ${entryP.toLocaleString()}원  |  🎯 +5% 성공가: ${t5.toLocaleString()}원  |  🔥 +15% 대박가: ${t15.toLocaleString()}원`;
 
-  let detailLines = [];
-  detailLines.push(`• 소속 테마: ${pick.theme || "-"}  |  가격 계단: 15:30종가 ${Number(pick.p_1530||0).toLocaleString()}원 → 18:00 ${Number(pick.p_1800||0).toLocaleString()}원 → 배팅가 ${entryP.toLocaleString()}원`);
-  detailLines.push(`• 매집 DNA: 정규장 ${(pick.reg_gain_pct>=0?'+':'')}${Number(pick.reg_gain_pct||0).toFixed(1)}% (고가유지 ${Number(pick.reg_high_keep_pct||0).toFixed(1)}%) | 애프터 고가유지 ${Number(pick.aft_high_keep_pct||0).toFixed(1)}% | 양봉비율 ${Number(pick.aft_bull_ratio_pct||0).toFixed(0)}%`);
-  if (pick.director_note) {
-    detailLines.push(`• 🧠 연구소장 코멘트: ${pick.director_note}`);
-  } else if (dayObj.director_headline) {
-    detailLines.push(`• 🧠 연구소장 총평: ${dayObj.director_headline}`);
-  }
-  if (Array.isArray(pick.dart_disclosures) && pick.dart_disclosures.length > 0) {
-    detailLines.push(`• 🏛️ 당일 DART 공시: ${pick.dart_disclosures.join(" / ")}`);
-  }
-  if (Array.isArray(pick.news_headlines) && pick.news_headlines.length > 0) {
-    detailLines.push(`• 📰 핵심 뉴스: ${pick.news_headlines[0]}`);
-  }
-  document.getElementById("afterHeroReason").innerText = detailLines.join("\n");
-
-  const rBox = document.getElementById("afterHeroResultBox");
-  const bInfo = getResultBadgeInfo(pick);
+  let lines = [];
   if (pick.evaluated && pick.next_high) {
-    const oRet = Number(pick.open_ret_pct || 0);
     const mRet = Number(pick.max_ret_pct || 0);
     const cRet = Number(pick.close_ret_pct || 0);
-    rBox.style.borderLeftColor = mRet >= 11.0 ? "#10B981" : (mRet >= 5.0 ? "#38BDF8" : "#64748B");
-    rBox.innerHTML =
-      `📊 <span style="color:#FDE047;">[${pick.eval_date || '다음 거래일'} 본장 실제 결과]</span> &nbsp; ` +
-      `시초가: <b>${Number(pick.next_open||0).toLocaleString()}원</b> (${oRet>=0?'+':''}${oRet.toFixed(2)}%) &nbsp;→&nbsp; ` +
-      `🔥 장중 최고가: <b style="color:#4ADE80;font-size:20px;">${Number(pick.next_high||0).toLocaleString()}원 (${mRet>=0?'+':''}${mRet.toFixed(2)}%)</b> &nbsp;→&nbsp; ` +
-      `종가: <b>${Number(pick.next_close||0).toLocaleString()}원</b> (${cRet>=0?'+':''}${cRet.toFixed(2)}%) &nbsp;|&nbsp; ` +
-      `<span class="${bInfo.cls}">${bInfo.txt}</span>`;
+    const resTxt = mRet >= 15.0 ? "🔥 대박 성공!" : (mRet >= 5.0 ? "⭕ 성공!" : "❌ 실패");
+    lines.push(
+      `📊 [다음 날 실제 결과]: 최고 ${Number(pick.next_high).toLocaleString()}원 (${mRet>=0?'+':''}${mRet.toFixed(2)}%)  |  종가 ${Number(pick.next_close||0).toLocaleString()}원 (${cRet>=0?'+':''}${cRet.toFixed(2)}%)  👉  ${resTxt}`
+    );
   } else {
-    rBox.style.borderLeftColor = "#A855F7";
-    rBox.innerHTML =
-      `⏳ <span style="color:#E9D5FF;">다음 거래일(월요일/익일) 15:40 KST에 본장 실제 시초가 · 장중 최고가 · 종가 수익률이 이곳에 자동 채점됩니다!</span>`;
+    lines.push("⏳ [결과 대기 중]: 다음 거래일(월요일/내일) 오후 3시 40분에 몇 % 먹었는지 자동 채점됩니다!");
   }
+  if (pick.director_note) lines.push(`🧠 AI 연구소장 분석: ${pick.director_note}`);
+  else if (dayObj.director_headline) lines.push(`🧠 AI 연구소장 총평: ${dayObj.director_headline}`);
+  if (Array.isArray(pick.dart_disclosures) && pick.dart_disclosures.length > 0) {
+    lines.push(`🏛️ 당일 공시: ${pick.dart_disclosures[0]}`);
+  }
+  document.getElementById("afterHeroSub").innerText = lines.join("\n");
 }
 
 function renderAftermarketBoard(payload) {
   if (!payload) return;
-  latestAfterData = payload;
+  cachedAfterPayload = payload;
   const stats = payload.stats || {};
   const days = payload.days || [];
-  const todayStr = getTodayKST();
 
-  document.getElementById("afterUpdatedLbl").innerText = `최근 업데이트: ${payload.updated_at || '-'}`;
+  // 상단 성공률 계산 (모드에 따라 전체 기준 or 하루 1개 대표 기준 자동 표시)
+  const useRep = afterViewMode === "rep";
+  const tot = useRep ? Number(stats.rep_total || 0) : Number(stats.total_evaluated || 0);
+  const winCnt = useRep ? Number(stats.rep_win_count || 0) : Number(stats.win_5_count || 0);
+  const supCnt = useRep ? Number(stats.rep_super_count || 0) : Number(stats.super_15_count || 0);
+  const lossCnt = useRep ? Number(stats.rep_loss_count || 0) : Number(stats.loss_count || 0);
+  const rate = useRep ? Number(stats.rep_win_rate_pct || 0) : Number(stats.win_5_rate_pct || 0);
 
-  // 상단 탭 배지 업데이트
-  if (days.length > 0) {
-    const newest = days[0];
-    document.getElementById("afterStatusPill").innerText =
-      newest.evaluated ? `${newest.date} 채점완료` : `${newest.date} 결과대기`;
-  }
+  const rateEl = document.getElementById("afterWinRateNum");
+  rateEl.innerText = `${rate.toFixed(1)}%`;
+  rateEl.style.color = rate >= 50 ? "#4ADE80" : "#FDE047";
 
-  // 오늘 19:45 전 안내 배너 보강
-  const hasTodayPred = days.some(d => d.date === todayStr);
-  const schedEl = document.getElementById("afterScheduleNotice");
-  if (!hasTodayPred) {
-    schedEl.innerHTML =
-      `⏰ <b>오늘(${todayStr}) 저녁 19:45 KST</b>에 금일 애프터마켓 가상 종가베팅 종목(다음 거래일 성적 검증용)이 연구소장 심사를 거쳐 이곳에 자동 등록됩니다! <span style="color:#FDE047;">(실전 매수 없음 · 순수 모의추적)</span>`;
-  } else {
-    schedEl.innerHTML =
-      `✅ <b>오늘(${todayStr}) 19:45 가상 종가베팅 분석 완료!</b> 다음 거래일 <b>15:40 KST</b>에 본장 실제 시초가·최고가·종가 결과가 자동 채점됩니다. <span style="color:#FDE047;">(실전 매수 없음 · 순수 모의추적)</span>`;
-  }
+  document.getElementById("afterTotalPill").innerText = `총 ${tot}회 검증`;
+  document.getElementById("afterWinPill").innerText = `⭕ 성공(+5%↑) ${winCnt}회`;
+  document.getElementById("afterSuperPill").innerText = `🔥 그중 +15%↑ 대박 ${supCnt}회`;
+  document.getElementById("afterLossPill").innerText = `❌ 실패 ${lossCnt}회`;
 
-  // 통계 카드 반영
-  document.getElementById("statTotalLbl").innerText = `${stats.total_evaluated || 0} 종목`;
-  document.getElementById("statHit5Lbl").innerText = `+5% 이상 단타 익절권 도달: ${stats.hit_5_count || 0}종목`;
-  document.getElementById("statHit11Lbl").innerText = `${stats.hit_11_count || 0} 종목 (${stats.hit_11_rate_pct || 0}%)`;
-  document.getElementById("statHit20Lbl").innerText = `🚀 그중 +20% / 상한가급 초급등: ${stats.hit_20_count || 0}종목`;
-
-  const wDna = stats.winner_dna || {};
-  const oDna = stats.other_dna || {};
-  document.getElementById("statWinMaxLbl").innerText = `익일 최고 +${Number(wDna.avg_max_ret || 0).toFixed(2)}%`;
-  document.getElementById("statWinDnaLbl").innerText =
-    `애프터 +${Number(wDna.avg_aft_gain || 0).toFixed(2)}% | 대금 ${Number(wDna.avg_aft_uk || 0).toFixed(1)}억 | 고가유지 ${Number(wDna.avg_aft_keep || 0).toFixed(1)}%`;
-  document.getElementById("statLoseMaxLbl").innerText = `익일 최고 +${Number(oDna.avg_max_ret || 0).toFixed(2)}%`;
-  document.getElementById("statLoseDnaLbl").innerText =
-    `애프터 +${Number(oDna.avg_aft_gain || 0).toFixed(2)}% | 대금 ${Number(oDna.avg_aft_uk || 0).toFixed(1)}억 (소액/재료부족 주의)`;
-
-  // 대표 히어로 카드 선정 (가장 최근 날짜의 연구소장 승인 픽 1순위 -> 없으면 1위 후보)
+  // 대표 히어로 카드 업데이트
   if (days.length > 0 && Array.isArray(days[0].picks) && days[0].picks.length > 0) {
     const d0 = days[0];
-    const heroPick = d0.picks.find(p => p.director_approved) || d0.picks[0];
-    updateAfterHero(d0, heroPick);
+    const heroP = d0.picks.find(x => x.director_approved) || d0.picks[0];
+    updateAfterHero(d0, heroP);
   }
 
-  // 일자별 테이블 렌더링
-  const container = document.getElementById("afterDaysContainer");
-  container.innerHTML = "";
-  if (days.length === 0) {
-    container.innerHTML = `<div class="day-block" style="color:#94A3B8; text-align:center; padding:28px;">아직 누적된 종가베팅 기록이 없습니다.</div>`;
-    return;
-  }
+  // 하단 성적표 행 생성
+  const tbody = document.getElementById("afterLedgerBody");
+  tbody.innerHTML = "";
+  let rowCount = 0;
 
   days.forEach((dayObj) => {
-    const block = document.createElement("div");
-    block.className = "day-block";
     const picks = dayObj.picks || [];
-    const fbCodes = dayObj.director_force_buy || [];
-    const dirSummaryTxt = fbCodes.length > 0
-      ? `👑 연구소장 최종 픽: ${picks.filter(p => p.director_approved).map(p => p.name).join(", ")}`
-      : (dayObj.date >= "2026-10-30" ? "🛡️ 연구소장 판정: A급 부재(매수 휴식) — 상위 후보 모의추적" : `포착 후보 ${picks.length}종목`);
+    const hasDirField = Array.isArray(dayObj.director_force_buy) && dayObj.date >= "2026-10-30";
 
-    const statusBadge = dayObj.evaluated
-      ? `<span style="color:#34D399; font-weight:900; font-size:14px;">✅ 익일 본장 성적 채점 완료</span>`
-      : `<span style="color:#C084FC; font-weight:900; font-size:14px;">⏳ 다음 거래일(월요일/익일) 15:40 채점 대기 중</span>`;
+    // 오늘 이후 AI 연구소장이 '전원 기준 미달(휴식)'을 선언한 날 표시
+    if (hasDirField && dayObj.director_force_buy.length === 0 && useRep) {
+      rowCount++;
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge">${dayObj.weekday || ''}</span></td>
+        <td colspan="3" style="color:#E9D5FF;">🛡️ AI 연구소장 판정: 확실한 급등 전조 종목이 없어 <b>'매수 휴식(패스)'</b> 선언</td>
+        <td><span class="res-wait">🛡️ 휴식</span></td>
+      `;
+      tbody.appendChild(tr);
+      return;
+    }
 
-    let rowsHtml = "";
-    picks.forEach((p, idx) => {
+    let listToShow = picks;
+    if (useRep && picks.length > 0) {
+      const dirPick = picks.find(x => x.director_approved) || picks[0];
+      listToShow = [dirPick];
+    }
+
+    listToShow.forEach((p) => {
+      rowCount++;
+      const tr = document.createElement("tr");
       const entryP = Number(p.p_1950 || 0);
-      const t11 = Number(p.target_11_price || Math.round(entryP * 1.11));
-      const dTot = Number(p.diff_total || 0);
-      const aUk = Number(p.aft_uk || 0);
-      const bInfo = getResultBadgeInfo(p);
-      const dirBadge = p.director_approved ? `<span class="badge-dir">👑오늘의픽</span>` : "";
+      const t5 = Number(p.target_5_price || Math.round(entryP * 1.05));
+      const crownHtml = p.director_approved ? `<span class="ai-crown">👑AI픽</span>` : "";
 
-      let nextOpenCol = `<td style="color:#94A3B8;">대기 중</td>`;
-      let nextHighCol = `<td style="color:#C084FC; font-weight:800;">채점 대기</td>`;
-      let nextCloseCol = `<td style="color:#94A3B8;">-</td>`;
+      let nextColHtml = `<span style="color:#E9D5FF;">⏳ 다음 거래일 15:40 채점 대기</span>`;
+      let badgeHtml = `<span class="res-wait">⏳ 결과대기</span>`;
 
       if (p.evaluated && p.next_high) {
-        const oR = Number(p.open_ret_pct || 0);
-        const mR = Number(p.max_ret_pct || 0);
-        const cR = Number(p.close_ret_pct || 0);
-        const mColor = mR >= 11.0 ? "#4ADE80" : (mR >= 5.0 ? "#38BDF8" : "#E2E8F0");
-        nextOpenCol = `<td>${Number(p.next_open||0).toLocaleString()}원 (${oR>=0?'+':''}${oR.toFixed(1)}%)</td>`;
-        nextHighCol = `<td style="color:${mColor}; font-weight:900; font-size:15.5px;">${Number(p.next_high||0).toLocaleString()}원 (${mR>=0?'+':''}${mR.toFixed(2)}%)</td>`;
-        nextCloseCol = `<td>${Number(p.next_close||0).toLocaleString()}원 (${cR>=0?'+':''}${cR.toFixed(2)}%)</td>`;
+        const mRet = Number(p.max_ret_pct || 0);
+        const cRet = Number(p.close_ret_pct || 0);
+        const mColor = mRet >= 15.0 ? "#FDE047" : (mRet >= 5.0 ? "#4ADE80" : (mRet > 0 ? "#E2E8F0" : "#FCA5A5"));
+        nextColHtml =
+          `<div style="color:${mColor}; font-weight:900; font-size:18px;">최고 ${mRet>=0?'+':''}${mRet.toFixed(2)}% <span style="font-size:14px; font-weight:700;">(${Number(p.next_high).toLocaleString()}원)</span></div>` +
+          `<div style="font-size:13.5px; color:#94A3B8; margin-top:2px;">종가 마감: ${cRet>=0?'+':''}${cRet.toFixed(2)}% (${Number(p.next_close||0).toLocaleString()}원)</div>`;
+
+        if (mRet >= 15.0) {
+          badgeHtml = `<span class="res-super">🔥 대박성공!</span>`;
+        } else if (mRet >= 5.0) {
+          badgeHtml = `<span class="res-win">⭕ 성공</span>`;
+        } else {
+          badgeHtml = `<span class="res-loss">❌ 실패</span>`;
+        }
       }
 
-      const noteTxt = p.director_note || (Array.isArray(p.dart_disclosures) && p.dart_disclosures[0]) || p.theme || "-";
-      rowsHtml += `
-        <tr data-day-idx="${dayObj.date}" data-pick-idx="${idx}">
-          <td>${p.rank || (idx + 1)}위</td>
-          <td style="font-weight:900; color:#FFFFFF; font-size:15.5px;">${dirBadge}${p.name} (${p.code})</td>
-          <td style="color:#F97066; font-weight:900;">${entryP.toLocaleString()}원 (+${dTot.toFixed(2)}%)</td>
-          <td>${aUk.toFixed(1)}억</td>
-          <td style="color:#6CE9A6; font-weight:800;">${t11.toLocaleString()}원</td>
-          ${nextOpenCol}
-          ${nextHighCol}
-          ${nextCloseCol}
-          <td class="${bInfo.cls}">${bInfo.txt}</td>
-          <td style="text-align:left; color:#FDE047; max-width:320px;">${noteTxt}</td>
-        </tr>
+      tr.innerHTML = `
+        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge">${dayObj.weekday || ''}</span><div style="font-size:12.5px; color:#94A3B8; margin-top:3px;">저녁 19:45 매수</div></td>
+        <td style="font-weight:900; font-size:18px; color:#FFFFFF;">${crownHtml}${p.name} <span style="font-size:13.5px; color:#94A3B8;">(${p.code})</span></td>
+        <td>
+          <div style="font-weight:900; color:#FCA5A5; font-size:17.5px;">${entryP.toLocaleString()}원</div>
+          <div style="font-size:13px; color:#6EE7B7; margin-top:2px;">🎯+5%목표: ${t5.toLocaleString()}원</div>
+        </td>
+        <td>${nextColHtml}</td>
+        <td>${badgeHtml}</td>
       `;
-    });
-
-    block.innerHTML = `
-      <div class="day-block-header">
-        <div class="day-block-title">📅 ${dayObj.date} 저녁 애프터마켓 종가베팅 &nbsp;|&nbsp; <span style="color:#F8FAFC; font-size:15.5px;">${dirSummaryTxt}</span></div>
-        <div>${statusBadge}</div>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>순위</th>
-              <th>종목명 (코드)</th>
-              <th>19:45 가상배팅가 (애프터등락)</th>
-              <th>애프터대금</th>
-              <th>+11% 목표가</th>
-              <th>익일 시초가</th>
-              <th>🔥 익일 장중최고가</th>
-              <th>익일 종가</th>
-              <th>성적 판정</th>
-              <th>테마 · 공시 · 연구소장 코멘트</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rowsHtml || '<tr><td colspan="10" style="color:#94A3B8; padding:18px;">해당 일자 포착 후보가 없습니다.</td></tr>'}
-          </tbody>
-        </table>
-      </div>
-    `;
-
-    // 행 클릭 시 상단 히어로 카드에 상세 표시 & 종목코드 자동 복사
-    const trs = block.querySelectorAll("tbody tr[data-pick-idx]");
-    trs.forEach((trEl) => {
-      trEl.onclick = () => {
-        const pIdx = Number(trEl.getAttribute("data-pick-idx"));
-        if (picks[pIdx]) {
-          copyTextFallback(picks[pIdx].code);
-          updateAfterHero(dayObj, picks[pIdx]);
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        }
+      tr.onclick = () => {
+        updateAfterHero(dayObj, p);
+        window.scrollTo({ top: 0, behavior: "smooth" });
       };
+      tbody.appendChild(tr);
     });
-
-    container.appendChild(block);
   });
+
+  if (rowCount === 0) {
+    tbody.innerHTML = `<tr><td colspan="5" style="padding:26px; color:#94A3B8;">아직 누적된 19:45 종가베팅 기록이 없습니다.</td></tr>`;
+  }
 }
 
-function triggerTestAlert() {
-  unlockAudioOnce(false);
-  playChime("BUY");
-}
-
-// 1차: GitHub Pages 같은 폴더의 live_state.json 초기 로드 및 15초 주기 백업 병합 동기화
+/* 초기 상태 로드 (GitHub Pages & 로컬 바탕화면 HTML 모두 완벽 호환) */
 async function pollGitHubState() {
   try {
     const baseStateUrl = window.location.protocol === "file:"
@@ -936,15 +666,13 @@ async function pollGitHubState() {
     const res = await fetch(`${baseStateUrl}?t=${Date.now()}`, { cache: "no-store" });
     if (res.ok) {
       const state = await res.json();
-      if (state.themes_data) renderThemes(state.themes_data);
-      if (Array.isArray(state.history)) {
-        const merged = mergeAndRenderTable(state.history);
-        if (merged.length > 0 && !currentCode) {
-          updateHeroCard(merged[merged.length - 1], false);
+      if (state.intraday_ledger) renderMainLedger(state.intraday_ledger);
+      if (state.aftermarket_data) renderAftermarketBoard(state.aftermarket_data);
+      if (Array.isArray(state.history) && state.history.length > 0) {
+        const lastSig = state.history[state.history.length - 1];
+        if (lastSig && lastSig.type === "BUY") {
+          updateMainHeroFromSignal(lastSig, false);
         }
-      }
-      if (state.aftermarket_data) {
-        renderAftermarketBoard(state.aftermarket_data);
       }
     }
   } catch (e) {}
@@ -952,42 +680,31 @@ async function pollGitHubState() {
 pollGitHubState();
 setInterval(pollGitHubState, 15000);
 
-// 2차: EMQX 초고속 실시간 웹소켓 (0.05초 즉시 푸시)
+/* EMQX 실시간 웹소켓 연결 */
 const client = mqtt.connect(BROKER_WSS, {
-  clientId: "kr_mother_web_" + Math.random().toString(16).slice(2, 10),
+  clientId: "kr_family_board_" + Math.random().toString(16).slice(2, 10),
   clean: true,
-  reconnectPeriod: 2000
+  reconnectPeriod: 2000,
 });
 
 client.on("connect", () => {
   const st = document.getElementById("statusLbl");
-  st.innerText = "🟢 실시간 전광판 연결 완료 (0.05초 즉시 수신 중)";
-  st.style.color = "#32D583";
-  client.subscribe([TOPIC_THEMES, TOPIC_HISTORY, TOPIC_LIVE, TOPIC_AFTERMARKET], { qos: 1 });
+  st.innerText = "🟢 실시간 자동 업데이트 켜짐";
+  st.style.color = "#34D399";
+  client.subscribe([TOPIC_LEDGER, TOPIC_AFTERMARKET, TOPIC_LIVE, TOPIC_HISTORY], { qos: 1 });
 });
 
 client.on("message", (topic, payload) => {
   try {
-    const text = new TextDecoder("utf-8").decode(payload);
-    const data = JSON.parse(text);
-    const todayStr = getTodayKST();
-
-    if (topic === TOPIC_THEMES) {
-      renderThemes(data);
+    const data = JSON.parse(new TextDecoder("utf-8").decode(payload));
+    if (topic === TOPIC_LEDGER) {
+      renderMainLedger(data);
     } else if (topic === TOPIC_AFTERMARKET) {
       renderAftermarketBoard(data);
-    } else if (topic === TOPIC_HISTORY && Array.isArray(data)) {
-      const merged = mergeAndRenderTable(data);
-      if (merged.length > 0 && !currentCode) {
-        updateHeroCard(merged[merged.length - 1], false);
-      }
-      merged.forEach(x => { if (x.id) seenKeys.add(x.id); });
     } else if (topic === TOPIC_LIVE && data && data.code) {
-      if (!String(data.time || "").startsWith(todayStr)) return;
-      mergeAndRenderTable([data]);
-      if (data.id && seenKeys.has(data.id)) return;
-      if (data.id) seenKeys.add(data.id);
-      updateHeroCard(data, true);
+      if (data.id && seenLiveIds.has(data.id)) return;
+      if (data.id) seenLiveIds.add(data.id);
+      updateMainHeroFromSignal(data, true);
     }
   } catch (e) {}
 });
