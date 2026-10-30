@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:38:44",
+  "updated_at": "2026-10-30 16:39:47",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:38:43",
+    "updated_at": "16:39:45",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.9,
+        "flu_rt": 7.73,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -31,6 +31,14 @@
       },
       {
         "rank": 4,
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 1.66,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
+      },
+      {
+        "rank": 5,
         "code": "231",
         "name": "운송_해운",
         "flu_rt": 1.63,
@@ -38,20 +46,12 @@
         "rising": "5/7"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 1.49,
+        "flu_rt": 1.62,
         "leaders": "빙그레, 매일홀딩스",
         "rising": "2/3"
-      },
-      {
-        "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.46,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
       },
       {
         "rank": 7,
