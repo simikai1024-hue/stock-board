@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 11:38:49",
+  "updated_at": "2026-10-30 11:39:52",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "11:38:47",
+    "updated_at": "11:39:51",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 1.95,
+        "flu_rt": 2.12,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.0,
+        "flu_rt": 0.95,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -41,32 +41,32 @@
         "rank": 5,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.57,
+        "flu_rt": 0.59,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
       {
         "rank": 6,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 0.52,
-        "leaders": "빙그레, 매일홀딩스",
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.4,
+        "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
         "rank": 7,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.4,
+        "flu_rt": 0.39,
         "leaders": "풍국주정, 하이트진로",
         "rising": "4/7"
       },
       {
         "rank": 8,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.36,
-        "leaders": "한샘, 퍼시스",
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 0.37,
+        "leaders": "빙그레, 매일홀딩스",
         "rising": "2/3"
       }
     ]
