@@ -1,20 +1,28 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 11:10:16",
+  "updated_at": "2026-10-30 11:11:19",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "11:10:15",
+    "updated_at": "11:11:18",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.03,
+        "flu_rt": 3.52,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 2,
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 0.93,
+        "leaders": "안랩, 이니텍",
+        "rising": "1/4"
+      },
+      {
+        "rank": 3,
         "code": "562",
         "name": "LCD_부품",
         "flu_rt": 0.9,
@@ -22,52 +30,44 @@
         "rising": "2/8"
       },
       {
-        "rank": 3,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 0.52,
-        "leaders": "안랩, 이니텍",
-        "rising": "1/4"
-      },
-      {
         "rank": 4,
         "code": "314",
         "name": "유가공",
-        "flu_rt": 0.48,
+        "flu_rt": 0.44,
         "leaders": "빙그레, 매일홀딩스",
         "rising": "2/3"
       },
       {
         "rank": 5,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.23,
-        "leaders": "한샘, 퍼시스",
-        "rising": "2/3"
-      },
-      {
-        "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.15,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
-      },
-      {
-        "rank": 7,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.14,
+        "flu_rt": 0.24,
         "leaders": "롯데칠성, 하이트진로",
         "rising": "4/7"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.07,
-        "leaders": "HMM, 대한해운",
+        "flu_rt": 0.22,
+        "leaders": "HMM, 흥아해운",
         "rising": "3/7"
+      },
+      {
+        "rank": 7,
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.16,
+        "leaders": "한샘, 퍼시스",
+        "rising": "2/3"
+      },
+      {
+        "rank": 8,
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.09,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       }
     ]
   },
