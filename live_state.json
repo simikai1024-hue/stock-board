@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:33:41",
+  "updated_at": "2026-10-30 09:34:50",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:33:39",
+    "updated_at": "09:34:48",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.76,
+        "flu_rt": 4.25,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -23,22 +23,30 @@
       },
       {
         "rank": 3,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 2.11,
-        "leaders": "한미약품, 메디톡스",
-        "rising": "4/5"
-      },
-      {
-        "rank": 4,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.09,
+        "flu_rt": 2.21,
         "leaders": "안랩, 이스트소프트",
         "rising": "3/4"
       },
       {
+        "rank": 4,
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 1.84,
+        "leaders": "한미약품, 메디톡스",
+        "rising": "3/5"
+      },
+      {
         "rank": 5,
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 1.69,
+        "leaders": "삼성SDI, LG화학",
+        "rising": "3/3"
+      },
+      {
+        "rank": 6,
         "code": "316",
         "name": "라면",
         "flu_rt": 1.65,
@@ -46,28 +54,20 @@
         "rising": "3/3"
       },
       {
-        "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.4,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "2/2"
-      },
-      {
         "rank": 7,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 1.33,
-        "leaders": "LG화학, 삼성SDI",
-        "rising": "3/3"
+        "code": "830",
+        "name": "Cheap-Chic_저가실용품",
+        "flu_rt": 1.51,
+        "leaders": "아모레퍼시픽홀딩스, 코스맥스비티아이",
+        "rising": "3/5"
       },
       {
         "rank": 8,
-        "code": "830",
-        "name": "Cheap-Chic_저가실용품",
-        "flu_rt": 1.33,
-        "leaders": "아모레퍼시픽홀딩스, 코스맥스비티아이",
-        "rising": "2/5"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 1.45,
+        "leaders": "넥센타이어, 한국타이어앤테크놀로지",
+        "rising": "3/4"
       }
     ]
   },
