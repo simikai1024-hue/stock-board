@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 10:27:51",
+  "updated_at": "2026-10-30 10:28:55",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "10:27:50",
+    "updated_at": "10:28:54",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 1.77,
+        "flu_rt": 2.03,
         "leaders": "안랩, 이니텍",
         "rising": "1/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.53,
+        "flu_rt": 1.6,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.96,
+        "flu_rt": 1.0,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
@@ -41,33 +41,33 @@
         "rank": 5,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.88,
+        "flu_rt": 0.89,
         "leaders": "한미약품, 셀트리온",
         "rising": "3/5"
       },
       {
         "rank": 6,
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 0.76,
+        "leaders": "삼성SDI, SK이노베이션",
+        "rising": "2/3"
+      },
+      {
+        "rank": 7,
         "code": "316",
         "name": "라면",
-        "flu_rt": 0.83,
+        "flu_rt": 0.72,
         "leaders": "농심, 오뚜기",
         "rising": "1/3"
       },
       {
-        "rank": 7,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 0.57,
-        "leaders": "빙그레, 매일홀딩스",
-        "rising": "2/3"
-      },
-      {
         "rank": 8,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 0.55,
-        "leaders": "농심, 오리온홀딩스",
-        "rising": "2/4"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 0.67,
+        "leaders": "넥센타이어, 금호타이어",
+        "rising": "3/4"
       }
     ]
   },
