@@ -1,73 +1,73 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:37:59",
+  "updated_at": "2026-10-30 09:39:08",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:37:58",
+    "updated_at": "09:39:06",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.37,
+        "flu_rt": 4.25,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 2,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 2.37,
-        "leaders": "안랩, 이스트소프트",
-        "rising": "2/4"
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 2.27,
+        "leaders": "삼성SDI, SK이노베이션",
+        "rising": "3/3"
       },
       {
         "rank": 3,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 2.09,
-        "leaders": "한미약품, 메디톡스",
-        "rising": "3/5"
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 2.19,
+        "leaders": "안랩, 이스트소프트",
+        "rising": "2/4"
       },
       {
         "rank": 4,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 2.05,
+        "flu_rt": 2.07,
         "leaders": "코이즈, 미래나노텍",
-        "rising": "1/8"
+        "rising": "2/8"
       },
       {
         "rank": 5,
-        "code": "316",
-        "name": "라면",
-        "flu_rt": 2.0,
-        "leaders": "농심, 삼양식품",
-        "rising": "3/3"
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 1.98,
+        "leaders": "한미약품, 메디톡스",
+        "rising": "3/5"
       },
       {
         "rank": 6,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 1.83,
-        "leaders": "삼성SDI, LG화학",
-        "rising": "3/3"
+        "code": "830",
+        "name": "Cheap-Chic_저가실용품",
+        "flu_rt": 1.57,
+        "leaders": "아모레퍼시픽홀딩스, 코스맥스비티아이",
+        "rising": "3/5"
       },
       {
         "rank": 7,
-        "code": "830",
-        "name": "Cheap-Chic_저가실용품",
-        "flu_rt": 1.7,
-        "leaders": "아모레퍼시픽홀딩스, 코스맥스비티아이",
-        "rising": "4/5"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 1.53,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "2/2"
       },
       {
         "rank": 8,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.4,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "2/2"
+        "code": "316",
+        "name": "라면",
+        "flu_rt": 1.43,
+        "leaders": "농심, 삼양식품",
+        "rising": "3/3"
       }
     ]
   },
