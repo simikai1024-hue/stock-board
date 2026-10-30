@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 10:52:15",
+  "updated_at": "2026-10-30 10:53:18",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "10:52:13",
+    "updated_at": "10:53:17",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.0,
+        "flu_rt": 3.76,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.4,
+        "flu_rt": 1.28,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -25,15 +25,15 @@
         "rank": 3,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.11,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "1/9"
+        "flu_rt": 1.2,
+        "leaders": "카프로, 태광산업",
+        "rising": "3/9"
       },
       {
         "rank": 4,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.89,
+        "flu_rt": 0.98,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
@@ -41,20 +41,12 @@
         "rank": 5,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 0.83,
+        "flu_rt": 0.74,
         "leaders": "안랩, 이니텍",
         "rising": "1/4"
       },
       {
         "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.44,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
-      },
-      {
-        "rank": 7,
         "code": "455",
         "name": "전자결제_B2B",
         "flu_rt": 0.39,
@@ -62,10 +54,18 @@
         "rising": "2/3"
       },
       {
+        "rank": 7,
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.32,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
+      },
+      {
         "rank": 8,
         "code": "244",
         "name": "타이어",
-        "flu_rt": 0.27,
+        "flu_rt": 0.31,
         "leaders": "넥센타이어, 금호타이어",
         "rising": "2/4"
       }
