@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:13:45",
+  "updated_at": "2026-10-30 09:14:48",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:13:43",
+    "updated_at": "09:14:46",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.76,
+        "flu_rt": 2.78,
         "leaders": "안랩, 윈스테크넷",
         "rising": "1/4"
       },
@@ -25,49 +25,49 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.84,
+        "flu_rt": 1.79,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       },
       {
         "rank": 4,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.55,
-        "leaders": "한미약품, 셀트리온",
-        "rising": "1/5"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 0.29,
+        "leaders": "넥센타이어, DN오토모티브",
+        "rising": "2/4"
       },
       {
         "rank": 5,
-        "code": "300",
-        "name": "주류",
-        "flu_rt": 0.16,
-        "leaders": "풍국주정, 한국알콜",
-        "rising": "3/7"
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 0.2,
+        "leaders": "한미약품, 메디톡스",
+        "rising": "1/5"
       },
       {
         "rank": 6,
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.08,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
+      },
+      {
+        "rank": 7,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.15,
+        "flu_rt": 0.07,
         "leaders": "HMM, 팬오션",
         "rising": "4/7"
       },
       {
-        "rank": 7,
-        "code": "130",
-        "name": "바이오_디젤/에탄올",
-        "flu_rt": 0.13,
-        "leaders": "제이씨케미칼, SK디스커버리",
-        "rising": "2/4"
-      },
-      {
         "rank": 8,
-        "code": "455",
-        "name": "전자결제_B2B",
-        "flu_rt": 0.13,
-        "leaders": "이상네트웍스, 이크레더블",
-        "rising": "1/3"
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 0.03,
+        "leaders": "농심, 크라운해태홀딩스",
+        "rising": "1/4"
       }
     ]
   },
