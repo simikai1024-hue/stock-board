@@ -1,36 +1,20 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:04:26",
+  "updated_at": "2026-10-30 09:05:28",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:04:25",
+    "updated_at": "09:05:26",
     "themes": [
       {
         "rank": 1,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 2.04,
-        "leaders": "안랩, 이니텍",
-        "rising": "1/4"
-      },
-      {
-        "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.94,
+        "flu_rt": 2.46,
         "leaders": "코이즈, 신화인터텍",
         "rising": "1/8"
       },
       {
-        "rank": 3,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 0.87,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "1/2"
-      },
-      {
-        "rank": 4,
+        "rank": 2,
         "code": "572",
         "name": "LED",
         "flu_rt": 0.75,
@@ -38,36 +22,52 @@
         "rising": "3/9"
       },
       {
-        "rank": 5,
+        "rank": 3,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 0.49,
+        "flu_rt": 0.73,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
-        "rank": 6,
+        "rank": 4,
+        "code": "319",
+        "name": "건강식품",
+        "flu_rt": 0.53,
+        "leaders": "쎌바이오텍, 비엘팜텍",
+        "rising": "2/4"
+      },
+      {
+        "rank": 5,
         "code": "160",
         "name": "금형/몰드베이스",
-        "flu_rt": 0.46,
+        "flu_rt": 0.45,
         "leaders": "우진플라임, 에이테크솔루션",
         "rising": "2/4"
       },
       {
+        "rank": 6,
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 0.36,
+        "leaders": "안랩, 이니텍",
+        "rising": "1/4"
+      },
+      {
         "rank": 7,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.39,
-        "leaders": "한미약품, 이수앱지스",
-        "rising": "3/5"
+        "code": "270",
+        "name": "교육",
+        "flu_rt": 0.11,
+        "leaders": "NE능률, 웅진씽크빅",
+        "rising": "3/13"
       },
       {
         "rank": 8,
-        "code": "319",
-        "name": "건강식품",
-        "flu_rt": 0.31,
-        "leaders": "쎌바이오텍, 비엘팜텍",
-        "rising": "1/4"
+        "code": "830",
+        "name": "Cheap-Chic_저가실용품",
+        "flu_rt": 0.09,
+        "leaders": "코스맥스비티아이, 아모레퍼시픽홀딩스",
+        "rising": "2/5"
       }
     ]
   },
