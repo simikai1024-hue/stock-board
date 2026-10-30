@@ -1,73 +1,73 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 08:59:15",
+  "updated_at": "2026-10-30 09:00:17",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "08:59:14",
+    "updated_at": "09:00:16",
     "themes": [
       {
         "rank": 1,
-        "code": "100",
-        "name": "태양광_폴리실리콘",
-        "flu_rt": 0.0,
-        "leaders": "OCI홀딩스, 롯데정밀화학",
-        "rising": "0/4"
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 1.04,
+        "leaders": "한미약품, 셀트리온",
+        "rising": "1/5"
       },
       {
         "rank": 2,
-        "code": "101",
-        "name": "태양광_잉곳/웨이퍼/셀/모듈",
-        "flu_rt": 0.0,
-        "leaders": "오성첨단소재, 한화솔루션",
-        "rising": "0/5"
+        "code": "300",
+        "name": "주류",
+        "flu_rt": 0.83,
+        "leaders": "국순당, 풍국주정",
+        "rising": "2/7"
       },
       {
         "rank": 3,
-        "code": "102",
-        "name": "태양광_부품/소재/장비",
-        "flu_rt": 0.0,
-        "leaders": "SKC, 대주전자재료",
-        "rising": "0/5"
+        "code": "830",
+        "name": "Cheap-Chic_저가실용품",
+        "flu_rt": 0.57,
+        "leaders": "코스맥스비티아이, 아모레퍼시픽홀딩스",
+        "rising": "1/5"
       },
       {
         "rank": 4,
-        "code": "103",
-        "name": "태양광_발전/설치/운영",
-        "flu_rt": 0.0,
-        "leaders": "에스에너지, SDN",
-        "rising": "0/3"
+        "code": "530",
+        "name": "셋톱박스",
+        "flu_rt": 0.54,
+        "leaders": "홈캐스트, 휴맥스",
+        "rising": "1/3"
       },
       {
         "rank": 5,
-        "code": "110",
-        "name": "원자력_기자재",
-        "flu_rt": 0.0,
-        "leaders": "두산에너빌리티, 비에이치아이",
-        "rising": "0/7"
+        "code": "910",
+        "name": "중국_내수소비 확대",
+        "flu_rt": 0.54,
+        "leaders": "코스맥스비티아이, 부방",
+        "rising": "5/12"
       },
       {
         "rank": 6,
-        "code": "111",
-        "name": "원자력_설계시공",
-        "flu_rt": 0.0,
-        "leaders": "우진, 일진파워",
-        "rising": "0/2"
+        "code": "255",
+        "name": "의복_아웃도어",
+        "flu_rt": 0.43,
+        "leaders": "영원무역홀딩스, 미스토홀딩스",
+        "rising": "2/7"
       },
       {
         "rank": 7,
-        "code": "120",
-        "name": "화력_발전기자재",
-        "flu_rt": 0.0,
-        "leaders": "DKME, 비에이치아이",
-        "rising": "0/3"
+        "code": "316",
+        "name": "라면",
+        "flu_rt": 0.39,
+        "leaders": "농심, 삼양식품",
+        "rising": "2/3"
       },
       {
         "rank": 8,
-        "code": "121",
-        "name": "풍력_단조/기자재",
-        "flu_rt": 0.0,
-        "leaders": "THE E&M, 유니슨",
-        "rising": "0/6"
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 0.33,
+        "leaders": "오리온홀딩스, 농심",
+        "rising": "2/4"
       }
     ]
   },
