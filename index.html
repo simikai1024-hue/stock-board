@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>실시간 주식 자동매매 & AI 종가베팅 성적 전광판</title>
+<title>우리 가족 주식 자동매매 & AI 종가베팅 성적 전광판</title>
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
@@ -81,16 +81,10 @@
     padding: 20px 24px; margin-bottom: 20px;
   }
   .live-card.purple { background: #191332; border-color: #6D28D9; }
-  .live-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   .live-badge { font-size: 16px; font-weight: 900; color: #38BDF8; margin-bottom: 6px; }
   .live-stock { font-size: 32px; font-weight: 900; color: #FFFFFF; }
   .live-price { font-size: 19px; font-weight: 900; color: #FCA5A5; margin-top: 6px; }
   .live-sub { font-size: 15.5px; color: #E2E8F0; margin-top: 8px; white-space: pre-line; }
-  .copy-btn {
-    background: #2563EB; color: #FFFFFF; border: none; border-radius: 10px;
-    padding: 12px 20px; font-size: 16px; font-weight: 900; cursor: pointer;
-  }
-  .copy-btn:hover { background: #1D4ED8; }
 
   /* 섹션 타이틀 & 필터 스위치 */
   .section-bar {
@@ -107,35 +101,58 @@
 
   /* 요일별 성적표 테이블 */
   .table-card {
-    background: #111C33; border: 1px solid #243556; border-radius: 16px;
+    background: #111C33; border: 1px solid #2A3D63; border-radius: 16px;
     overflow-x: auto; margin-bottom: 18px;
   }
   table { width: 100%; border-collapse: collapse; min-width: 680px; }
   th {
-    background: #182644; color: #CBD5E1; font-size: 15.5px; font-weight: 900;
-    padding: 14px 12px; border-bottom: 2px solid #2A3F66; text-align: center;
+    background: #0F172A; color: #E2E8F0; font-size: 15.5px; font-weight: 900;
+    padding: 15px 12px; border-bottom: 2px solid #334155; text-align: center;
   }
   td {
-    padding: 15px 12px; border-bottom: 1px solid #1E2E4F; font-size: 16.5px;
-    text-align: center; font-weight: 700; color: #F1F5F9;
+    padding: 15px 12px; border-bottom: 1px solid rgba(148, 163, 184, 0.14); font-size: 16.5px;
+    text-align: center; font-weight: 700; color: #F1F5F9; transition: filter 0.12s;
   }
-  tr:hover td { background: rgba(59, 130, 246, 0.09); cursor: pointer; }
+  tbody tr:hover td { filter: brightness(1.16); cursor: pointer; }
 
-  /* 요일 배지 */
-  .day-cell { font-weight: 900; font-size: 16.5px; color: #E2E8F0; }
+  /* 날짜가 바뀔 때 상단 굵은 구분선 */
+  tr.date-group-start td { border-top: 2.5px solid #475569; }
+
+  /* 요일·날짜 묶음별 고유 컬러 테마 (날짜마다 배경색과 좌측 컬러바가 명확히 구분됨!) */
+  tr.wk-mon td { background-color: #1A2333; }
+  tr.wk-mon td:first-child { border-left: 5px solid #94A3B8; }
+  .wk-badge.mon { background: rgba(148, 163, 184, 0.22); color: #E2E8F0; border: 1px solid #94A3B8; }
+
+  tr.wk-tue td { background-color: #241937; }
+  tr.wk-tue td:first-child { border-left: 5px solid #C084FC; }
+  .wk-badge.tue { background: rgba(192, 132, 252, 0.22); color: #E9D5FF; border: 1px solid #C084FC; }
+
+  tr.wk-wed td { background-color: #122829; }
+  tr.wk-wed td:first-child { border-left: 5px solid #2DD4BF; }
+  .wk-badge.wed { background: rgba(45, 212, 191, 0.20); color: #99F6E4; border: 1px solid #2DD4BF; }
+
+  tr.wk-thu td { background-color: #162647; }
+  tr.wk-thu td:first-child { border-left: 5px solid #60A5FA; }
+  .wk-badge.thu { background: rgba(96, 165, 250, 0.22); color: #BFDBFE; border: 1px solid #60A5FA; }
+
+  tr.wk-fri td { background-color: #272115; }
+  tr.wk-fri td:first-child { border-left: 5px solid #FBBF24; }
+  .wk-badge.fri { background: rgba(251, 191, 36, 0.22); color: #FEF08A; border: 1px solid #FBBF24; }
+
+  .day-cell { font-weight: 900; font-size: 16.5px; color: #F8FAFC; }
   .wk-badge {
     display: inline-block; padding: 3px 9px; border-radius: 7px; font-size: 14px; font-weight: 900;
-    margin-left: 5px; background: #1E293B; color: #93C5FD; border: 1px solid #3B82F6;
+    margin-left: 5px;
   }
 
   /* 성공 / 실패 큼직한 판정 배지 */
   .res-win {
     display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
-    background: rgba(16, 185, 129, 0.20); border: 1.5px solid #10B981; color: #4ADE80;
+    background: rgba(16, 185, 129, 0.22); border: 1.5px solid #10B981; color: #4ADE80;
   }
   .res-super {
     display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
-    background: rgba(245, 158, 11, 0.24); border: 1.5px solid #F59E0B; color: #FDE047;
+    background: rgba(245, 158, 11, 0.25); border: 1.5px solid #F59E0B; color: #FDE047;
   }
   .res-loss {
     display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
@@ -143,7 +160,7 @@
   }
   .res-wait {
     display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 15.5px; font-weight: 900;
-    background: rgba(168, 85, 247, 0.20); border: 1.5px solid #A855F7; color: #E9D5FF;
+    background: rgba(168, 85, 247, 0.22); border: 1.5px solid #A855F7; color: #E9D5FF;
   }
   .ai-crown {
     display: inline-block; background: #F59E0B; color: #111827; font-size: 12.5px; font-weight: 900;
@@ -188,22 +205,17 @@
       <div class="winrate-big-num" id="mainWinRateNum">--%</div>
       <div class="winrate-pills">
         <span class="stat-pill" id="mainTotalPill">총 0번 매매</span>
-        <span class="stat-pill win" id="mainWinPill">⭕ 성공 0번</span>
+        <span class="stat-pill win" id="mainWinPill">⭕ 성공(+11% 달성) 0번</span>
         <span class="stat-pill loss" id="mainLossPill">❌ 실패 0번</span>
       </div>
-      <div class="winrate-rule-note">※ 실제 키움 계좌에서 낮 본장(09:00~15:30)에 자동 매수·매도하여 수익으로 마감하면 ⭕성공으로 집계됩니다.</div>
+      <div class="winrate-rule-note">📌 성공 기준: 낮 본장 자동매매에서 <b>목표 수익률 +11% 익절을 달성했을 때만 ⭕성공</b>으로 엄격 집계합니다.</div>
     </div>
 
     <!-- 오늘 현재 진행 상태 카드 -->
     <div class="live-card" id="mainHeroCard">
-      <div class="live-top">
-        <div>
-          <div class="live-badge" id="mainHeroBadge">📡 오늘 장 중 자동매매 진행 상태</div>
-          <div class="live-stock" id="mainHeroStock">다음 본장 매매 대기 중...</div>
-          <div class="live-price" id="mainHeroPrice">평일 오전 9시 본장이 열리면 주도테마 1등주를 자동 감시합니다.</div>
-        </div>
-        <button class="copy-btn" id="mainCopyBtn" onclick="copyCode(currentMainCode, 'mainCopyBtn')">📋 종목코드 복사</button>
-      </div>
+      <div class="live-badge" id="mainHeroBadge">📡 오늘 장 중 자동매매 진행 상태</div>
+      <div class="live-stock" id="mainHeroStock">다음 본장 매매 대기 중...</div>
+      <div class="live-price" id="mainHeroPrice">평일 오전 9시 본장이 열리면 주도테마 1등주를 자동 감시합니다.</div>
       <div class="live-sub" id="mainHeroSub"></div>
     </div>
 
@@ -219,7 +231,7 @@
             <th>매매 종목</th>
             <th>매수가 → 매도가</th>
             <th>수익률 (실현손익)</th>
-            <th>성공 / 실패</th>
+            <th>성공 / 실패 (+11% 기준)</th>
           </tr>
         </thead>
         <tbody id="mainLedgerBody">
@@ -250,14 +262,9 @@
 
     <!-- 오늘(최근) 19:45 대표 매수 분석 카드 -->
     <div class="live-card purple" id="afterHeroCard">
-      <div class="live-top">
-        <div>
-          <div class="live-badge" id="afterHeroBadge" style="color:#E9D5FF;">🌙 최근 19:45 종가베팅 대표 분석 종목</div>
-          <div class="live-stock" id="afterHeroStock">데이터 불러오는 중...</div>
-          <div class="live-price" id="afterHeroPrice" style="color:#FDE047;">19:45 매수가: -원</div>
-        </div>
-        <button class="copy-btn" id="afterCopyBtn" onclick="copyCode(currentAfterCode, 'afterCopyBtn')">📋 종목코드 복사</button>
-      </div>
+      <div class="live-badge" id="afterHeroBadge" style="color:#E9D5FF;">🌙 최근 19:45 종가베팅 대표 분석 종목</div>
+      <div class="live-stock" id="afterHeroStock">데이터 불러오는 중...</div>
+      <div class="live-price" id="afterHeroPrice" style="color:#FDE047;">19:45 매수가: -원</div>
       <div class="live-sub" id="afterHeroSub"></div>
     </div>
 
@@ -296,8 +303,7 @@ const TOPIC_AFTERMARKET = "kr_whale_detector_vip_family_2026/aftermarket";
 
 let audioCtx = null;
 let soundEnabled = false;
-let currentMainCode = "";
-let currentAfterCode = "";
+let hasInitMainHero = false;
 let afterViewMode = "all"; // 'all' | 'rep'
 let cachedAfterPayload = null;
 const seenLiveIds = new Set();
@@ -370,41 +376,35 @@ function playChime(type) {
   }
 }
 
-function copyCode(code, btnId) {
-  if (!code) return;
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(code).catch(() => {});
-  }
-  const ta = document.createElement("textarea");
-  ta.value = code;
-  ta.style.position = "fixed";
-  ta.style.left = "-9999px";
-  document.body.appendChild(ta);
-  ta.select();
-  try { document.execCommand("copy"); } catch (e) {}
-  document.body.removeChild(ta);
-
-  const btn = document.getElementById(btnId);
-  const orig = btn.innerText;
-  btn.innerText = `✅ [${code}] 복사 완료!`;
-  btn.style.background = "#10B981";
-  setTimeout(() => {
-    btn.innerText = orig;
-    btn.style.background = "#2563EB";
-  }, 1800);
-}
-
 function fmtShortDate(dtStr) {
   if (!dtStr || dtStr.length < 10) return dtStr || "-";
   return `${Number(dtStr.slice(5, 7))}/${Number(dtStr.slice(8, 10))}`;
 }
 
+/* 날짜 문자열(YYYY-MM-DD)에서 요일별 고유 색상 클래스 자동 반환 */
+function getWeekdayThemeKey(dtStr) {
+  if (!dtStr || dtStr.length < 10) return "mon";
+  const parts = dtStr.slice(0, 10).split("-").map(Number);
+  const d = new Date(parts[0], parts[1] - 1, parts[2]);
+  const day = d.getDay(); // 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat
+  if (day === 1) return "mon";
+  if (day === 2) return "tue";
+  if (day === 3) return "wed";
+  if (day === 4) return "thu";
+  if (day === 5) return "fri";
+  return "mon";
+}
+
+function is11PctWin(buyP, sellP, pnlPct) {
+  return Number(pnlPct || 0) >= 10.5 || (Number(buyP || 0) > 0 && Number(sellP || 0) >= Number(buyP) * 1.108);
+}
+
 /* =========================================================================
-   [메뉴 1] 장 중 자동매매 렌더링
+   [메뉴 1] 장 중 자동매매 렌더링 (+11% 달성 성공 기준 + 요일별 컬러 구분)
    ========================================================================= */
 function updateMainHeroFromSignal(item, withSound) {
   if (!item) return;
-  currentMainCode = item.code || "";
+  hasInitMainHero = true;
   const sig = item.type || "WATCH";
   const price = Number(item.price || 0);
   const pnlPct = Number(item.pnl_pct || 0);
@@ -419,11 +419,11 @@ function updateMainHeroFromSignal(item, withSound) {
       `매수가: ${price.toLocaleString()}원  |  🎯 목표 익절가(+11%): ${Number(item.target_price||0).toLocaleString()}원`;
     document.getElementById("mainHeroSub").innerText = item.ammo_title || "";
   } else if (sig === "SELL") {
-    const isWin = pnlKrw > 0 || pnlPct > 0;
+    const isWin = is11PctWin(buyP, price, pnlPct);
     document.getElementById("mainHeroBadge").innerText =
-      isWin ? `⭕ [${tm} 수익 익절 매도 완료!]` : `❌ [${tm} 손절 / 마감 청산 완료]`;
+      isWin ? `⭕ [${tm} +11% 목표 익절 달성 성공!]` : `❌ [${tm} 매도 청산 완료 (+11% 미달)]`;
     document.getElementById("mainHeroPrice").innerText =
-      `매수가 ${buyP > 0 ? buyP.toLocaleString() : '-'}원 → 매도가 ${price.toLocaleString()}원  |  확정 수익률: ${pnlPct>=0?'+':''}${pnlPct.toFixed(2)}% (${pnlKrw>=0?'+':''}${pnlKrw.toLocaleString()}원)`;
+      `매수가 ${buyP > 0 ? buyP.toLocaleString() : '-'}원 → 매도가 ${price.toLocaleString()}원  |  수익률: ${pnlPct>=0?'+':''}${pnlPct.toFixed(2)}% (${pnlKrw>=0?'+':''}${pnlKrw.toLocaleString()}원)`;
     document.getElementById("mainHeroSub").innerText = "";
   } else {
     document.getElementById("mainHeroBadge").innerText = `⚡ [${tm} 주도테마 수급 포착]`;
@@ -435,29 +435,44 @@ function updateMainHeroFromSignal(item, withSound) {
 
 function renderMainLedger(payload) {
   if (!payload) return;
-  const stats = payload.stats || {};
   const rows = payload.rows || [];
 
-  const rate = Number(stats.win_rate_pct || 0);
+  // 프론트에서도 +11% 기준 재검증 보장
+  let closedCnt = 0;
+  let winCnt = 0;
+  let lossCnt = 0;
+  rows.forEach((r) => {
+    if (r.status === "OPEN") return;
+    closedCnt++;
+    if (is11PctWin(r.buy_price, r.sell_price, r.pnl_pct)) {
+      r._win11 = true;
+      winCnt++;
+    } else {
+      r._win11 = false;
+      lossCnt++;
+    }
+  });
+
+  const rate = closedCnt > 0 ? (winCnt / closedCnt) * 100.0 : 0.0;
   const rateEl = document.getElementById("mainWinRateNum");
   rateEl.innerText = `${rate.toFixed(1)}%`;
   rateEl.style.color = rate >= 50 ? "#4ADE80" : "#FDE047";
 
-  document.getElementById("mainTotalPill").innerText = `총 ${stats.total_closed || 0}번 매매`;
-  document.getElementById("mainWinPill").innerText = `⭕ 성공 ${stats.win_count || 0}번`;
-  document.getElementById("mainLossPill").innerText = `❌ 실패 ${stats.loss_count || 0}번`;
+  document.getElementById("mainTotalPill").innerText = `총 ${closedCnt}번 매매`;
+  document.getElementById("mainWinPill").innerText = `⭕ 성공(+11% 달성) ${winCnt}번`;
+  document.getElementById("mainLossPill").innerText = `❌ 실패 ${lossCnt}번`;
 
-  if (rows.length > 0 && !currentMainCode) {
+  if (rows.length > 0 && !hasInitMainHero) {
+    hasInitMainHero = true;
     const top = rows[0];
-    currentMainCode = top.code;
     document.getElementById("mainHeroStock").innerText = `${top.name} (${top.code})`;
     if (top.status === "OPEN") {
       document.getElementById("mainHeroBadge").innerText = `⏳ [${fmtShortDate(top.date)} ${top.weekday} 현재 보유 중]`;
       document.getElementById("mainHeroPrice").innerText = `매수가: ${Number(top.buy_price||0).toLocaleString()}원`;
     } else {
-      const ok = top.status === "WIN";
+      const ok = Boolean(top._win11);
       document.getElementById("mainHeroBadge").innerText =
-        `📌 최근 매매 결과 (${fmtShortDate(top.date)} ${top.weekday}) — ${ok ? '⭕ 성공!' : '❌ 실패'}`;
+        `📌 최근 매매 결과 (${fmtShortDate(top.date)} ${top.weekday}) — ${ok ? '⭕ +11% 성공!' : '❌ 실패(+11% 미달)'}`;
       document.getElementById("mainHeroPrice").innerText =
         `매수가 ${Number(top.buy_price||0).toLocaleString()}원 → 매도가 ${Number(top.sell_price||0).toLocaleString()}원 (${top.pnl_pct>=0?'+':''}${Number(top.pnl_pct||0).toFixed(2)}% / ${top.pnl_krw>=0?'+':''}${Number(top.pnl_krw||0).toLocaleString()}원)`;
     }
@@ -470,32 +485,38 @@ function renderMainLedger(payload) {
     return;
   }
 
+  let prevDate = "";
   rows.forEach((r) => {
     const tr = document.createElement("tr");
+    const wkKey = getWeekdayThemeKey(r.date);
+    const isNewDateGroup = prevDate !== "" && prevDate !== r.date;
+    prevDate = r.date;
+    tr.className = `wk-${wkKey}` + (isNewDateGroup ? " date-group-start" : "");
+
     const buyP = Number(r.buy_price || 0);
     const sellP = Number(r.sell_price || 0);
     const pct = Number(r.pnl_pct || 0);
     const krw = Number(r.pnl_krw || 0);
 
-    let priceTxt = `${buyP.toLocaleString()}원 → ${sellP > 0 ? sellP.toLocaleString() + '원' : '보유중'}`;
-    let pnlColor = pct > 0 ? "#4ADE80" : (pct < 0 ? "#FCA5A5" : "#E2E8F0");
-    let pnlTxt = r.status === "OPEN"
+    const priceTxt = `${buyP.toLocaleString()}원 → ${sellP > 0 ? sellP.toLocaleString() + '원' : '보유중'}`;
+    const pnlColor = pct > 0 ? "#4ADE80" : (pct < 0 ? "#FCA5A5" : "#E2E8F0");
+    const pnlTxt = r.status === "OPEN"
       ? `<span style="color:#93C5FD;">진행 중</span>`
-      : `<span style="color:${pnlColor}; font-weight:900; font-size:17.5px;">${pct>=0?'+':''}${pct.toFixed(2)}%</span> <span style="font-size:14px; color:#94A3B8;">(${krw>=0?'+':''}${krw.toLocaleString()}원)</span>`;
+      : `<span style="color:${pnlColor}; font-weight:900; font-size:17.5px;">${pct>=0?'+':''}${pct.toFixed(2)}%</span> <span style="font-size:14px; color:#CBD5E1;">(${krw>=0?'+':''}${krw.toLocaleString()}원)</span>`;
 
     let badgeHtml = `<span class="res-wait">⏳ 보유중</span>`;
-    if (r.status === "WIN") badgeHtml = `<span class="res-win">⭕ 성공</span>`;
-    else if (r.status === "LOSS") badgeHtml = `<span class="res-loss">❌ 실패</span>`;
+    if (r.status !== "OPEN") {
+      badgeHtml = r._win11 ? `<span class="res-win">⭕ 성공</span>` : `<span class="res-loss">❌ 실패</span>`;
+    }
 
     tr.innerHTML = `
-      <td class="day-cell">${fmtShortDate(r.date)} <span class="wk-badge">${r.weekday || ''}</span></td>
-      <td style="font-weight:900; font-size:17.5px; color:#FFFFFF;">${r.name} <span style="font-size:13.5px; color:#94A3B8;">(${r.code})</span></td>
+      <td class="day-cell">${fmtShortDate(r.date)} <span class="wk-badge ${wkKey}">${r.weekday || ''}</span></td>
+      <td style="font-weight:900; font-size:17.5px; color:#FFFFFF;">${r.name} <span style="font-size:13.5px; color:#CBD5E1;">(${r.code})</span></td>
       <td>${priceTxt}</td>
       <td>${pnlTxt}</td>
       <td>${badgeHtml}</td>
     `;
     tr.onclick = () => {
-      currentMainCode = r.code;
       document.getElementById("mainHeroStock").innerText = `${r.name} (${r.code})`;
       document.getElementById("mainHeroBadge").innerText = `📅 ${r.date} (${r.weekday}) 매매 상세`;
       document.getElementById("mainHeroPrice").innerText =
@@ -507,7 +528,7 @@ function renderMainLedger(payload) {
 }
 
 /* =========================================================================
-   [메뉴 2] AI 역추적 종가베팅 분석 렌더링
+   [메뉴 2] AI 역추적 종가베팅 분석 렌더링 (날짜·요일별 배경색 구분)
    ========================================================================= */
 function setAfterViewMode(mode) {
   afterViewMode = mode;
@@ -518,7 +539,6 @@ function setAfterViewMode(mode) {
 
 function updateAfterHero(dayObj, pick) {
   if (!dayObj || !pick) return;
-  currentAfterCode = pick.code || "";
   const entryP = Number(pick.p_1950 || 0);
   const t5 = Number(pick.target_5_price || Math.round(entryP * 1.05));
   const t15 = Number(pick.target_15_price || Math.round(entryP * 1.15));
@@ -555,7 +575,6 @@ function renderAftermarketBoard(payload) {
   const stats = payload.stats || {};
   const days = payload.days || [];
 
-  // 상단 성공률 계산 (모드에 따라 전체 기준 or 하루 1개 대표 기준 자동 표시)
   const useRep = afterViewMode === "rep";
   const tot = useRep ? Number(stats.rep_total || 0) : Number(stats.total_evaluated || 0);
   const winCnt = useRep ? Number(stats.rep_win_count || 0) : Number(stats.win_5_count || 0);
@@ -572,28 +591,30 @@ function renderAftermarketBoard(payload) {
   document.getElementById("afterSuperPill").innerText = `🔥 그중 +15%↑ 대박 ${supCnt}회`;
   document.getElementById("afterLossPill").innerText = `❌ 실패 ${lossCnt}회`;
 
-  // 대표 히어로 카드 업데이트
   if (days.length > 0 && Array.isArray(days[0].picks) && days[0].picks.length > 0) {
     const d0 = days[0];
     const heroP = d0.picks.find(x => x.director_approved) || d0.picks[0];
     updateAfterHero(d0, heroP);
   }
 
-  // 하단 성적표 행 생성
   const tbody = document.getElementById("afterLedgerBody");
   tbody.innerHTML = "";
   let rowCount = 0;
+  let prevDate = "";
 
   days.forEach((dayObj) => {
     const picks = dayObj.picks || [];
+    const wkKey = getWeekdayThemeKey(dayObj.date);
     const hasDirField = Array.isArray(dayObj.director_force_buy) && dayObj.date >= "2026-10-30";
 
-    // 오늘 이후 AI 연구소장이 '전원 기준 미달(휴식)'을 선언한 날 표시
     if (hasDirField && dayObj.director_force_buy.length === 0 && useRep) {
       rowCount++;
+      const isNewGroup = prevDate !== "" && prevDate !== dayObj.date;
+      prevDate = dayObj.date;
       const tr = document.createElement("tr");
+      tr.className = `wk-${wkKey}` + (isNewGroup ? " date-group-start" : "");
       tr.innerHTML = `
-        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge">${dayObj.weekday || ''}</span></td>
+        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge ${wkKey}">${dayObj.weekday || ''}</span></td>
         <td colspan="3" style="color:#E9D5FF;">🛡️ AI 연구소장 판정: 확실한 급등 전조 종목이 없어 <b>'매수 휴식(패스)'</b> 선언</td>
         <td><span class="res-wait">🛡️ 휴식</span></td>
       `;
@@ -607,9 +628,14 @@ function renderAftermarketBoard(payload) {
       listToShow = [dirPick];
     }
 
-    listToShow.forEach((p) => {
+    listToShow.forEach((p, idxInDay) => {
       rowCount++;
+      const isNewGroup = prevDate !== "" && prevDate !== dayObj.date && idxInDay === 0;
+      prevDate = dayObj.date;
+
       const tr = document.createElement("tr");
+      tr.className = `wk-${wkKey}` + (isNewGroup ? " date-group-start" : "");
+
       const entryP = Number(p.p_1950 || 0);
       const t5 = Number(p.target_5_price || Math.round(entryP * 1.05));
       const crownHtml = p.director_approved ? `<span class="ai-crown">👑AI픽</span>` : "";
@@ -623,7 +649,7 @@ function renderAftermarketBoard(payload) {
         const mColor = mRet >= 15.0 ? "#FDE047" : (mRet >= 5.0 ? "#4ADE80" : (mRet > 0 ? "#E2E8F0" : "#FCA5A5"));
         nextColHtml =
           `<div style="color:${mColor}; font-weight:900; font-size:18px;">최고 ${mRet>=0?'+':''}${mRet.toFixed(2)}% <span style="font-size:14px; font-weight:700;">(${Number(p.next_high).toLocaleString()}원)</span></div>` +
-          `<div style="font-size:13.5px; color:#94A3B8; margin-top:2px;">종가 마감: ${cRet>=0?'+':''}${cRet.toFixed(2)}% (${Number(p.next_close||0).toLocaleString()}원)</div>`;
+          `<div style="font-size:13.5px; color:#CBD5E1; margin-top:2px;">종가 마감: ${cRet>=0?'+':''}${cRet.toFixed(2)}% (${Number(p.next_close||0).toLocaleString()}원)</div>`;
 
         if (mRet >= 15.0) {
           badgeHtml = `<span class="res-super">🔥 대박성공!</span>`;
@@ -635,8 +661,8 @@ function renderAftermarketBoard(payload) {
       }
 
       tr.innerHTML = `
-        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge">${dayObj.weekday || ''}</span><div style="font-size:12.5px; color:#94A3B8; margin-top:3px;">저녁 19:45 매수</div></td>
-        <td style="font-weight:900; font-size:18px; color:#FFFFFF;">${crownHtml}${p.name} <span style="font-size:13.5px; color:#94A3B8;">(${p.code})</span></td>
+        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge ${wkKey}">${dayObj.weekday || ''}</span><div style="font-size:12.5px; color:#CBD5E1; margin-top:3px;">저녁 19:45 매수</div></td>
+        <td style="font-weight:900; font-size:18px; color:#FFFFFF;">${crownHtml}${p.name} <span style="font-size:13.5px; color:#CBD5E1;">(${p.code})</span></td>
         <td>
           <div style="font-weight:900; color:#FCA5A5; font-size:17.5px;">${entryP.toLocaleString()}원</div>
           <div style="font-size:13px; color:#6EE7B7; margin-top:2px;">🎯+5%목표: ${t5.toLocaleString()}원</div>
@@ -657,7 +683,7 @@ function renderAftermarketBoard(payload) {
   }
 }
 
-/* 초기 상태 로드 (GitHub Pages & 로컬 바탕화면 HTML 모두 완벽 호환) */
+/* 초기 상태 로드 */
 async function pollGitHubState() {
   try {
     const baseStateUrl = window.location.protocol === "file:"
