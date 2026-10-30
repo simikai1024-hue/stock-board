@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 18:22:05",
+  "updated_at": "2026-10-30 19:47:06",
   "history": [
     {
       "id": "1793323603598_042510_BUY",
@@ -53,7 +53,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-10-30 18:22:05",
+    "updated_at": "2026-10-30 19:47:06",
     "stats": {
       "total_closed": 13,
       "win_count": 0,
@@ -273,7 +273,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-10-30 18:22:05",
+    "updated_at": "2026-10-30 19:47:06",
     "stats": {
       "total_evaluated": 21,
       "win_5_count": 7,
@@ -287,6 +287,182 @@
       "rep_win_rate_pct": 33.3
     },
     "days": [
+      {
+        "date": "2026-10-30",
+        "weekday": "금요일",
+        "weekday_short": "금",
+        "predicted_at": "2026-10-30 19:45:22",
+        "evaluated": false,
+        "director_force_buy": [
+          "053800"
+        ],
+        "director_notes": {},
+        "director_headline": "'[달의검] 한국 애프터마켓 종가배팅 & DART공시 라이브 족보집' 구글 문서의 최신 동기화 데이터(2026-10-30 19:45 KST 기준)를 바탕으로, 실제 익일 +20% 이상 폭등·갭상승한 정답지 역추적 결과 및 오늘 후보 5종목에 대한 가상 종가배팅 정밀 심사 결과를 보고합니다. 1. [제4장] 실제 +20% 이상 폭등·시초 갭상승 정답 종목들의 공통 DNA 역추적 [제4장]에 수록된 10월 30일 본장 +20% 이상 폭등 및 갭상승 정답 종목들(안랩, 대원제약, 서울반도체, HLB제약, 에코아이 등)의 전일 애프터마켓 흔적을 역추적 분석한 결과, 다음 4",
+        "picks": [
+          {
+            "code": "237880",
+            "name": "클리오",
+            "cand_track": "애프터수급돌파",
+            "theme": "개별수급/기타",
+            "theme_rank": 0,
+            "theme_rate": 0.0,
+            "p_1530": 10700,
+            "p_1800": 11030,
+            "p_1950": 11000,
+            "diff_total": 2.8,
+            "diff_late": -0.27,
+            "aft_uk": 1.7,
+            "reg_gain_pct": -1.38,
+            "reg_high_keep_pct": 93.4,
+            "aft_high_keep_pct": 96.2,
+            "aft_bull_ratio_pct": 86.4,
+            "late_vol_share_pct": 64.3,
+            "affordable": true,
+            "dart_disclosures": [],
+            "news_headlines": [
+              "[1002 11:44 뉴시스] \"10개월 만에 작년 1년치 다 팔아\" K뷰티 질주에 3분기 '기대' — K뷰티 수출이 거침없는 성장세를 이어가고 있다. 지난달 화장품 수출액이 사상 처음으로 15억달러를 넘어서며 월간 역대 최대 기록을 갈아치웠다. 올해 9월까지 누적 수출액도 이미 지난해 연간 실적에 "
+            ],
+            "evaluated": false,
+            "rank": 1,
+            "target_5_price": 11550,
+            "target_11_price": 12210,
+            "target_15_price": 12650,
+            "director_approved": false,
+            "result_grade": "WAIT"
+          },
+          {
+            "code": "053800",
+            "name": "안랩",
+            "cand_track": "본장대장주_애프터지지",
+            "theme": "개별수급/기타",
+            "theme_rank": 0,
+            "theme_rate": 0.0,
+            "p_1530": 122600,
+            "p_1800": 122100,
+            "p_1950": 122500,
+            "diff_total": -0.08,
+            "diff_late": 0.33,
+            "aft_uk": 1917.6,
+            "reg_gain_pct": 22.48,
+            "reg_high_keep_pct": 96.2,
+            "aft_high_keep_pct": 96.2,
+            "aft_bull_ratio_pct": 54.0,
+            "late_vol_share_pct": 39.2,
+            "affordable": false,
+            "dart_disclosures": [],
+            "news_headlines": [
+              "[당일 16:43 머니투데이] AI해킹 일회성 아니다…보안주, '구조적 성장' 기대감 — 증권사와 자산운용사, 가상자산거래소에서 해킹 사고가 잇따르자 보안주가 일제히 급등했다. 다만 호실적을 낸 미국 보안 업체들의 주가가 엇갈리면서 해킹 이슈만으로 상승세가 이어지기는 어렵다는 신중론도 ",
+              "[당일 15:52 서울신문] 반도체 대형주 동반 약세… 인텔리빅스 244% 폭등 — 30일 오후 3시 35분 네이버 증권에서 투자자 관심은 대형 반도체주의 약세와 인텔리빅스(420610)의 급등에 쏠렸다. 검색 1위 삼성전자(005930)는 3.02% 하락한 22만5000원, 2위",
+              "[당일 09:45 서울신문] 검색 상위 20개 중 15개 하락… 삼성전자·SK하이닉스 나란히 약세 — 네이버 증권에 따르면 30일 오전 9시 5분 검색 상위 20개 종목 가운데 15개가 하락했다. 검색 1위 삼성전자(005930)는 2.80% 하락한 22만 5500원, 2위 SK하이닉스(000660"
+            ],
+            "evaluated": false,
+            "director_approved": true,
+            "rank": 2,
+            "target_5_price": 128600,
+            "target_11_price": 135900,
+            "target_15_price": 140800,
+            "result_grade": "WAIT"
+          },
+          {
+            "code": "065660",
+            "name": "안트로젠",
+            "cand_track": "애프터수급돌파",
+            "theme": "개별수급/기타",
+            "theme_rank": 0,
+            "theme_rate": 0.0,
+            "p_1530": 13350,
+            "p_1800": 13270,
+            "p_1950": 13510,
+            "diff_total": 1.2,
+            "diff_late": 1.81,
+            "aft_uk": 1.9,
+            "reg_gain_pct": -5.18,
+            "reg_high_keep_pct": 96.7,
+            "aft_high_keep_pct": 96.4,
+            "aft_bull_ratio_pct": 75.0,
+            "late_vol_share_pct": 5.5,
+            "affordable": true,
+            "dart_disclosures": [],
+            "news_headlines": [
+              "[1021 07:03 이데일리] 김미형 안트로젠 대표 “통증 완화 넘어 연골 재생…주사제로 가능성... — 이 기사는 2026년10월20일 07시00분에 팜이데일리 프리미엄 콘텐츠로 선공개 되었습니다. “주사 투여 후 반월상연골의 재생이 관찰됐다는 점에서 의미가 있습니다. 통증 완화를 넘어 구조적 개선의",
+              "[1020 09:29 뉴스1] [알립니다] K-바이오, 글로벌 시장을 담다…신약·의료기기·재생의료... — 국내 바이오·헬스케어 산업의 글로벌 시장 진출 전략을 모색하기 위해 정부와 국회, 제약·바이오 기업, 연구기관 등이 한자리에 모인다. 민영 뉴스통신사 뉴스1은 다음 달 10일 오전 8시 30분부터 "
+            ],
+            "evaluated": false,
+            "rank": 3,
+            "target_5_price": 14180,
+            "target_11_price": 14990,
+            "target_15_price": 15530,
+            "director_approved": false,
+            "result_grade": "WAIT"
+          },
+          {
+            "code": "084110",
+            "name": "휴온스글로벌",
+            "cand_track": "애프터수급돌파",
+            "theme": "개별수급/기타",
+            "theme_rank": 0,
+            "theme_rate": 0.0,
+            "p_1530": 20000,
+            "p_1800": 20300,
+            "p_1950": 20200,
+            "diff_total": 1.0,
+            "diff_late": -0.49,
+            "aft_uk": 5.7,
+            "reg_gain_pct": -4.53,
+            "reg_high_keep_pct": 94.8,
+            "aft_high_keep_pct": 95.3,
+            "aft_bull_ratio_pct": 60.7,
+            "late_vol_share_pct": 48.3,
+            "affordable": true,
+            "dart_disclosures": [],
+            "news_headlines": [
+              "[1029 05:02 뉴시스] 중국 시장 진입한 '이니보'…K-톡신 영토확장 속도 — 이니바이오의 보툴리눔 톡신 '이니보'(INIBO)가 최근 중국으로부터 품목허가를 받아 국내 기업이 개발한 제품 중 세 번째로 중국 시장에 진입하면서 'K-톡신'의 영역을 확장했다. 29일 제약바이오",
+              "[1019 09:08 이데일리] 휴온스그룹, 연이은 지식재산권 확보로 연구 성과 입증…“미래 지속... — 휴온스(243070)그룹 계열사들이 최근 특허 등록과 기능성 원료 인정 등 연구개발(R&D) 성과를 연이어 발표하고 있다. 바이오의약품의 투여 편의성을 높이는 제형 기술부터 에스테틱 소재, 건강기능",
+              "[1018 10:29 머니투데이] 휴온스랩, SC제형 변경 '하이디퓨즈' 적용범위 확대 — 휴온스랩이 인간유래 재조합 히알루로니다제(rHuPH20)를 기반으로 한 피하주사(SC) 제형 변경 플랫폼 '하이디퓨즈'의 적용 범위를 확대하고 있다. 항체의약품과 항체-약물접합체(ADC) 등 다양한"
+            ],
+            "evaluated": false,
+            "rank": 4,
+            "target_5_price": 21200,
+            "target_11_price": 22400,
+            "target_15_price": 23200,
+            "director_approved": false,
+            "result_grade": "WAIT"
+          },
+          {
+            "code": "445090",
+            "name": "에이직랜드",
+            "cand_track": "애프터수급돌파",
+            "theme": "개별수급/기타",
+            "theme_rank": 0,
+            "theme_rate": 0.0,
+            "p_1530": 16700,
+            "p_1800": 16690,
+            "p_1950": 16840,
+            "diff_total": 0.84,
+            "diff_late": 0.9,
+            "aft_uk": 2.9,
+            "reg_gain_pct": -6.55,
+            "reg_high_keep_pct": 92.8,
+            "aft_high_keep_pct": 93.6,
+            "aft_bull_ratio_pct": 64.5,
+            "late_vol_share_pct": 46.4,
+            "affordable": true,
+            "dart_disclosures": [],
+            "news_headlines": [
+              "[1028 19:25 중앙일보] 옵시디언 센서스, 수옵틱스·현대코퍼레이션과 차세대 열화상센서 개... — 미국 옵시디언 센서스와 수옵틱스, 현대코퍼레이션이 차세대 열화상 센서 공동 개발 및 글로벌 진출을 위한 3자 업무협약을 체결했다. 이번 협약은 정밀 광학 기업인 수옵틱스와 현대코퍼레이션이 샌디에이고",
+              "[1026 11:23 헤럴드경제] 국내 유일 TSMC 파트너…주문형 반도체의 엔비디아를 꿈꾸다 — 세상에는 기업이 참 많습니다. 다들 무얼 하는 회사일까요. 쪼개지고 합쳐지고 간판을 새로 다는 회사도 계속 생겨납니다. 새로운 사업을 시작하기도, 수년을 하던 사업을 접기도 합니다. 다이내믹한 기업",
+              "[1022 15:18 문화일보] 에이직랜드 이석용 상무, ‘반도체의 날’ 산업통상부 장관 표창 수상 — 주문형 반도체(ASIC) 디자인 솔루션 전문기업 에이직랜드는 이석용(사진 오른쪽 첫 번째) 상무가 지난 21일 열린 ‘제19회 반도체의 날’ 기념식에서 산업통상부 장관 표창을 수상했다고 22일 밝혔"
+            ],
+            "evaluated": false,
+            "rank": 5,
+            "target_5_price": 17680,
+            "target_11_price": 18690,
+            "target_15_price": 19360,
+            "director_approved": false,
+            "result_grade": "WAIT"
+          }
+        ]
+      },
       {
         "date": "2026-10-29",
         "weekday": "목요일",
