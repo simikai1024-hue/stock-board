@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 17:25:50",
+  "updated_at": "2026-10-30 17:26:53",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "17:25:48",
+    "updated_at": "17:26:51",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.44,
+        "flu_rt": 8.36,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.55,
+        "flu_rt": 2.43,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -49,25 +49,25 @@
         "rank": 6,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.39,
+        "flu_rt": 1.42,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
       {
         "rank": 7,
-        "code": "300",
-        "name": "주류",
-        "flu_rt": 1.26,
-        "leaders": "풍국주정, 롯데칠성",
-        "rising": "4/7"
-      },
-      {
-        "rank": 8,
         "code": "315",
         "name": "빙과",
         "flu_rt": 1.2,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
+      },
+      {
+        "rank": 8,
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 1.18,
+        "leaders": "농심, 크라운해태홀딩스",
+        "rising": "3/4"
       }
     ]
   },
@@ -123,7 +123,7 @@
     }
   ],
   "aftermarket_data": {
-    "updated_at": "2026-10-30 17:25:50",
+    "updated_at": "2026-10-30 17:26:53",
     "stats": {
       "total_evaluated": 21,
       "hit_5_count": 7,
