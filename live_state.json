@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:30:00",
+  "updated_at": "2026-10-30 13:31:04",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:29:58",
+    "updated_at": "13:31:02",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.12,
+        "flu_rt": 5.15,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.03,
+        "flu_rt": 3.52,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -25,12 +25,20 @@
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.45,
+        "flu_rt": 1.38,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
       {
         "rank": 4,
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 1.3,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
+      },
+      {
+        "rank": 5,
         "code": "315",
         "name": "빙과",
         "flu_rt": 1.27,
@@ -38,36 +46,28 @@
         "rising": "1/2"
       },
       {
-        "rank": 5,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 1.26,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
-      },
-      {
         "rank": 6,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.06,
+        "flu_rt": 1.1,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
       {
         "rank": 7,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 0.74,
-        "leaders": "삼성SDI, LG화학",
-        "rising": "3/3"
-      },
-      {
-        "rank": 8,
         "code": "250",
         "name": "가구",
         "flu_rt": 0.72,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
+      },
+      {
+        "rank": 8,
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 0.61,
+        "leaders": "삼성SDI, SK이노베이션",
+        "rising": "3/3"
       }
     ]
   },
