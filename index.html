@@ -333,6 +333,9 @@ let soundEnabled = false;
 let hasInitMainHero = false;
 let afterViewMode = "all"; // 'all' | 'rep'
 let cachedAfterPayload = null;
+let lastAfterStamp = "";
+let lastLedgerStamp = "";
+let selectedAfterKey = "";
 const seenLiveIds = new Set();
 
 function switchTab(tab) {
@@ -462,6 +465,10 @@ function updateMainHeroFromSignal(item, withSound) {
 
 function renderMainLedger(payload) {
   if (!payload) return;
+  const lStamp = String(payload.updated_at || "");
+  if (lastLedgerStamp && lStamp && lStamp < lastLedgerStamp) return;
+  if (lastLedgerStamp && lStamp && lStamp === lastLedgerStamp) return;
+  if (lStamp) lastLedgerStamp = lStamp;
   const rows = payload.rows || [];
 
   // 프론트에서도 +11% 기준 재검증 보장
@@ -561,7 +568,7 @@ function setAfterViewMode(mode) {
   afterViewMode = mode;
   document.getElementById("btnModeAll").className = mode === "all" ? "mode-btn active" : "mode-btn";
   document.getElementById("btnModeRep").className = mode === "rep" ? "mode-btn active" : "mode-btn";
-  if (cachedAfterPayload) renderAftermarketBoard(cachedAfterPayload);
+  if (cachedAfterPayload) renderAftermarketBoard(cachedAfterPayload, true);
 }
 
 function updateAfterHero(dayObj, pick) {
@@ -606,11 +613,22 @@ function updateAfterHero(dayObj, pick) {
   }
 }
 
-function renderAftermarketBoard(payload) {
+function renderAftermarketBoard(payload, forceRender) {
   if (!payload) return;
+  const days = payload.days || [];
+  const d0PredAt = (days.length > 0 && days[0].predicted_at) ? String(days[0].predicted_at) : "";
+  const aStamp = `${d0PredAt}|${String(payload.updated_at || "")}`;
+  if (!forceRender) {
+    if (lastAfterStamp && d0PredAt) {
+      const prevPredAt = lastAfterStamp.split("|")[0];
+      if (prevPredAt && d0PredAt < prevPredAt) return; // 구버전(예: 19:45 안랩 캐시) 역전 덮어쓰기 원천 차단!
+    }
+    if (lastAfterStamp && aStamp < lastAfterStamp) return;
+    if (lastAfterStamp && aStamp === lastAfterStamp) return;
+  }
+  if (aStamp) lastAfterStamp = aStamp;
   cachedAfterPayload = payload;
   const stats = payload.stats || {};
-  const days = payload.days || [];
 
   const useRep = afterViewMode === "rep";
   const tot = useRep ? Number(stats.rep_total || 0) : Number(stats.total_evaluated || 0);
@@ -629,9 +647,24 @@ function renderAftermarketBoard(payload) {
   document.getElementById("afterLossPill").innerText = `❌ 실패 ${lossCnt}회`;
 
   if (days.length > 0 && Array.isArray(days[0].picks) && days[0].picks.length > 0) {
-    const d0 = days[0];
-    const heroP = d0.picks.find(x => x.director_approved) || d0.picks[0];
-    updateAfterHero(d0, heroP);
+    let targetDay = days[0];
+    let heroP = null;
+    if (selectedAfterKey) {
+      const [selDate, selCode] = selectedAfterKey.split("|");
+      const foundDay = days.find(d => d.date === selDate);
+      if (foundDay && Array.isArray(foundDay.picks)) {
+        const foundPick = foundDay.picks.find(x => x.code === selCode && !x.director_blocked);
+        if (foundPick) {
+          targetDay = foundDay;
+          heroP = foundPick;
+        }
+      }
+    }
+    if (!heroP) {
+      const cleanD0 = days[0].picks.filter(x => !x.director_blocked);
+      heroP = cleanD0.find(x => x.director_approved) || cleanD0[0] || days[0].picks[0];
+    }
+    updateAfterHero(targetDay, heroP);
   }
 
   const tbody = document.getElementById("afterLedgerBody");
@@ -708,6 +741,7 @@ function renderAftermarketBoard(payload) {
         <td>${badgeHtml}</td>
       `;
       tr.onclick = () => {
+        selectedAfterKey = `${dayObj.date}|${p.code}`;
         updateAfterHero(dayObj, p);
         window.scrollTo({ top: 0, behavior: "smooth" });
       };
