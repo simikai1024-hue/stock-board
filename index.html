@@ -659,9 +659,9 @@ function renderAftermarketBoard(payload) {
       return;
     }
 
-    let listToShow = picks;
-    if (useRep && picks.length > 0) {
-      const dirPick = picks.find(x => x.director_approved) || picks[0];
+    let listToShow = picks.filter(x => !x.director_blocked);
+    if (useRep && listToShow.length > 0) {
+      const dirPick = listToShow.find(x => x.director_approved) || listToShow[0];
       listToShow = [dirPick];
     }
 
