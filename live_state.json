@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 11:00:43",
+  "updated_at": "2026-10-30 11:01:46",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "11:00:41",
+    "updated_at": "11:01:45",
     "themes": [
       {
         "rank": 1,
@@ -17,15 +17,15 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 1.63,
+        "flu_rt": 1.3,
         "leaders": "안랩, 이니텍",
-        "rising": "2/4"
+        "rising": "1/4"
       },
       {
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.21,
+        "flu_rt": 1.23,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -39,35 +39,35 @@
       },
       {
         "rank": 5,
-        "code": "244",
-        "name": "타이어",
-        "flu_rt": 0.2,
-        "leaders": "넥센타이어, 금호타이어",
-        "rising": "2/4"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.21,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       },
       {
         "rank": 6,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.16,
+        "flu_rt": 0.18,
         "leaders": "롯데칠성, 하이트진로",
         "rising": "3/7"
       },
       {
         "rank": 7,
-        "code": "315",
-        "name": "빙과",
+        "code": "231",
+        "name": "운송_해운",
         "flu_rt": 0.14,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "leaders": "HMM, 흥아해운",
+        "rising": "3/7"
       },
       {
         "rank": 8,
-        "code": "316",
-        "name": "라면",
-        "flu_rt": 0.14,
-        "leaders": "농심, 오뚜기",
-        "rising": "1/3"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 0.12,
+        "leaders": "넥센타이어, 금호타이어",
+        "rising": "2/4"
       }
     ]
   },
