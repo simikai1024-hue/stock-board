@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:26:50",
+  "updated_at": "2026-10-30 16:27:53",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:26:49",
+    "updated_at": "16:27:52",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.86,
+        "flu_rt": 7.73,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -33,20 +33,12 @@
         "rank": 4,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.69,
+        "flu_rt": 1.7,
         "leaders": "HMM, 대한해운",
         "rising": "5/7"
       },
       {
         "rank": 5,
-        "code": "181",
-        "name": "제지_기타",
-        "flu_rt": 1.5,
-        "leaders": "무림페이퍼, 에스엠국일",
-        "rising": "4/6"
-      },
-      {
-        "rank": 6,
         "code": "315",
         "name": "빙과",
         "flu_rt": 1.46,
@@ -54,10 +46,18 @@
         "rising": "1/2"
       },
       {
+        "rank": 6,
+        "code": "181",
+        "name": "제지_기타",
+        "flu_rt": 1.2,
+        "leaders": "무림페이퍼, 에스엠국일",
+        "rising": "4/6"
+      },
+      {
         "rank": 7,
         "code": "282",
         "name": "컨텐츠_영상",
-        "flu_rt": 1.16,
+        "flu_rt": 1.2,
         "leaders": "삼화네트웍스, 팬엔터테인먼트",
         "rising": "6/12"
       },
