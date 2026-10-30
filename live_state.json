@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:01:00",
+  "updated_at": "2026-10-30 16:02:02",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:00:58",
+    "updated_at": "16:02:01",
     "themes": [
       {
         "rank": 1,
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.42,
+        "flu_rt": 1.4,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
@@ -41,8 +41,8 @@
         "rank": 5,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 0.97,
-        "leaders": "카프로, S-Oil",
+        "flu_rt": 1.12,
+        "leaders": "카프로, 휴비스",
         "rising": "4/9"
       },
       {
@@ -55,18 +55,18 @@
       },
       {
         "rank": 7,
-        "code": "316",
-        "name": "라면",
-        "flu_rt": 0.84,
-        "leaders": "농심, 오뚜기",
-        "rising": "2/3"
-      },
-      {
-        "rank": 8,
         "code": "250",
         "name": "가구",
         "flu_rt": 0.81,
         "leaders": "한샘, 퍼시스",
+        "rising": "2/3"
+      },
+      {
+        "rank": 8,
+        "code": "316",
+        "name": "라면",
+        "flu_rt": 0.81,
+        "leaders": "농심, 오뚜기",
         "rising": "2/3"
       }
     ]
