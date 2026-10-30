@@ -1,31 +1,31 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:09:36",
+  "updated_at": "2026-10-30 09:10:38",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:09:34",
+    "updated_at": "09:10:36",
     "themes": [
       {
         "rank": 1,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 2.14,
-        "leaders": "안랩, 이니텍",
-        "rising": "1/4"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 2.38,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "1/8"
       },
       {
         "rank": 2,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 2.06,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "1/8"
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 2.08,
+        "leaders": "안랩, 이니텍",
+        "rising": "1/4"
       },
       {
         "rank": 3,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 1.82,
+        "flu_rt": 1.94,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -33,15 +33,15 @@
         "rank": 4,
         "code": "360",
         "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.64,
-        "leaders": "한미약품, 셀트리온",
+        "flu_rt": 0.6,
+        "leaders": "한미약품, 메디톡스",
         "rising": "1/5"
       },
       {
         "rank": 5,
         "code": "160",
         "name": "금형/몰드베이스",
-        "flu_rt": 0.5,
+        "flu_rt": 0.45,
         "leaders": "우진플라임, 에이테크솔루션",
         "rising": "2/4"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "370",
         "name": "신약개발/기술수출",
-        "flu_rt": 0.24,
+        "flu_rt": 0.21,
         "leaders": "한미약품, 하이퍼코퍼레이션",
         "rising": "2/9"
       },
@@ -57,16 +57,16 @@
         "rank": 7,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.09,
+        "flu_rt": 0.1,
         "leaders": "풍국주정, 한국알콜",
         "rising": "2/7"
       },
       {
         "rank": 8,
-        "code": "455",
-        "name": "전자결제_B2B",
-        "flu_rt": 0.01,
-        "leaders": "이상네트웍스, 이크레더블",
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 0.06,
+        "leaders": "빙그레, 매일홀딩스",
         "rising": "1/3"
       }
     ]
