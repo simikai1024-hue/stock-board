@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 17:33:14",
+  "updated_at": "2026-10-30 17:34:17",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "17:33:13",
+    "updated_at": "17:34:16",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.41,
+        "flu_rt": 8.38,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.18,
+        "flu_rt": 2.31,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.5,
+        "flu_rt": 1.48,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
@@ -123,7 +123,7 @@
     }
   ],
   "aftermarket_data": {
-    "updated_at": "2026-10-30 17:33:14",
+    "updated_at": "2026-10-30 17:34:17",
     "stats": {
       "total_evaluated": 21,
       "hit_5_count": 7,
