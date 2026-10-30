@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 18:11:07",
+  "updated_at": "2026-10-30 18:22:05",
   "history": [
     {
       "id": "1793323603598_042510_BUY",
@@ -53,12 +53,12 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-10-30 18:11:07",
+    "updated_at": "2026-10-30 18:22:05",
     "stats": {
       "total_closed": 13,
-      "win_count": 4,
-      "loss_count": 9,
-      "win_rate_pct": 30.8,
+      "win_count": 0,
+      "loss_count": 13,
+      "win_rate_pct": 0.0,
       "total_pnl_krw": -25474
     },
     "rows": [
@@ -73,7 +73,7 @@
         "qty": 5,
         "pnl_pct": 0.04,
         "pnl_krw": 37,
-        "status": "WIN",
+        "status": "LOSS",
         "buy_time": "",
         "sell_time": "",
         "reason": "만쥬 식 주도테마 매매"
@@ -137,7 +137,7 @@
         "qty": 33,
         "pnl_pct": 6.85,
         "pnl_krw": 8551,
-        "status": "WIN",
+        "status": "LOSS",
         "buy_time": "",
         "sell_time": "",
         "reason": "초기 버전 실전매매"
@@ -185,7 +185,7 @@
         "qty": 6,
         "pnl_pct": 0.94,
         "pnl_krw": 972,
-        "status": "WIN",
+        "status": "LOSS",
         "buy_time": "",
         "sell_time": "",
         "reason": "초기 버전 실전매매"
@@ -201,7 +201,7 @@
         "qty": 50,
         "pnl_pct": 0.37,
         "pnl_krw": 473,
-        "status": "WIN",
+        "status": "LOSS",
         "buy_time": "",
         "sell_time": "",
         "reason": "초기 버전 실전매매"
@@ -273,7 +273,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-10-30 18:11:07",
+    "updated_at": "2026-10-30 18:22:05",
     "stats": {
       "total_evaluated": 21,
       "win_5_count": 7,
