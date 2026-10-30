@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:28:56",
+  "updated_at": "2026-10-30 16:29:59",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:28:55",
+    "updated_at": "16:29:57",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.72,
+        "flu_rt": 7.7,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "284",
         "name": "컨텐츠_메니지먼트",
-        "flu_rt": 1.83,
+        "flu_rt": 2.4,
         "leaders": "키이스트",
         "rising": "1/1"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.67,
+        "flu_rt": 1.69,
         "leaders": "HMM, 대한해운",
         "rising": "5/7"
       },
@@ -47,27 +47,27 @@
       },
       {
         "rank": 6,
-        "code": "181",
-        "name": "제지_기타",
-        "flu_rt": 1.2,
-        "leaders": "무림페이퍼, 에스엠국일",
-        "rising": "4/6"
+        "code": "318",
+        "name": "식자재유통",
+        "flu_rt": 1.37,
+        "leaders": "현대지에프홀딩스, CJ프레시웨이",
+        "rising": "3/3"
       },
       {
         "rank": 7,
         "code": "282",
         "name": "컨텐츠_영상",
-        "flu_rt": 1.07,
+        "flu_rt": 1.22,
         "leaders": "삼화네트웍스, 팬엔터테인먼트",
         "rising": "6/12"
       },
       {
         "rank": 8,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.81,
-        "leaders": "한샘, 퍼시스",
-        "rising": "2/3"
+        "code": "181",
+        "name": "제지_기타",
+        "flu_rt": 1.2,
+        "leaders": "무림페이퍼, 에스엠국일",
+        "rising": "4/6"
       }
     ]
   },
