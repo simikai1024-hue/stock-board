@@ -1,73 +1,73 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:14:48",
+  "updated_at": "2026-10-30 09:15:50",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:14:46",
+    "updated_at": "09:15:48",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.78,
-        "leaders": "안랩, 윈스테크넷",
-        "rising": "1/4"
+        "flu_rt": 2.72,
+        "leaders": "안랩, 이스트소프트",
+        "rising": "2/4"
       },
       {
         "rank": 2,
-        "code": "291",
-        "name": "홈쇼핑",
-        "flu_rt": 2.18,
-        "leaders": "CJ ENM",
-        "rising": "1/1"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 1.92,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "1/8"
       },
       {
         "rank": 3,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 1.79,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "1/8"
+        "code": "291",
+        "name": "홈쇼핑",
+        "flu_rt": 1.82,
+        "leaders": "CJ ENM",
+        "rising": "1/1"
       },
       {
         "rank": 4,
         "code": "244",
         "name": "타이어",
-        "flu_rt": 0.29,
+        "flu_rt": 0.62,
         "leaders": "넥센타이어, DN오토모티브",
         "rising": "2/4"
       },
       {
         "rank": 5,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.2,
-        "leaders": "한미약품, 메디톡스",
-        "rising": "1/5"
+        "code": "130",
+        "name": "바이오_디젤/에탄올",
+        "flu_rt": 0.54,
+        "leaders": "제이씨케미칼, SK디스커버리",
+        "rising": "3/4"
       },
       {
         "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.08,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "code": "286",
+        "name": "에니메이션",
+        "flu_rt": 0.22,
+        "leaders": "손오공, 오로라",
+        "rising": "1/3"
       },
       {
         "rank": 7,
-        "code": "231",
-        "name": "운송_해운",
-        "flu_rt": 0.07,
-        "leaders": "HMM, 팬오션",
-        "rising": "4/7"
+        "code": "455",
+        "name": "전자결제_B2B",
+        "flu_rt": 0.21,
+        "leaders": "이상네트웍스, 아이마켓코리아",
+        "rising": "2/3"
       },
       {
         "rank": 8,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 0.03,
-        "leaders": "농심, 크라운해태홀딩스",
-        "rising": "1/4"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.1,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       }
     ]
   },
