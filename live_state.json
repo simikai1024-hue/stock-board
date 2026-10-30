@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 11:08:09",
+  "updated_at": "2026-10-30 11:09:13",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "11:08:08",
+    "updated_at": "11:09:12",
     "themes": [
       {
         "rank": 1,
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 0.93,
+        "flu_rt": 0.92,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -25,49 +25,49 @@
         "rank": 3,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 0.64,
+        "flu_rt": 0.69,
         "leaders": "안랩, 이니텍",
         "rising": "1/4"
       },
       {
         "rank": 4,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 0.46,
-        "leaders": "한샘, 퍼시스",
+        "code": "314",
+        "name": "유가공",
+        "flu_rt": 0.48,
+        "leaders": "빙그레, 매일홀딩스",
         "rising": "2/3"
       },
       {
         "rank": 5,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 0.44,
-        "leaders": "빙그레, 매일홀딩스",
+        "code": "250",
+        "name": "가구",
+        "flu_rt": 0.29,
+        "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
         "rank": 6,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.11,
-        "leaders": "하이트진로, 롯데칠성",
+        "flu_rt": 0.15,
+        "leaders": "롯데칠성, 하이트진로",
         "rising": "4/7"
       },
       {
         "rank": 7,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.09,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "code": "231",
+        "name": "운송_해운",
+        "flu_rt": 0.07,
+        "leaders": "HMM, 흥아해운",
+        "rising": "3/7"
       },
       {
         "rank": 8,
-        "code": "231",
-        "name": "운송_해운",
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
         "flu_rt": 0.05,
-        "leaders": "HMM, 흥아해운",
-        "rising": "3/7"
+        "leaders": "한미약품, 셀트리온",
+        "rising": "2/5"
       }
     ]
   },
