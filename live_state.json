@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 14:24:39",
+  "updated_at": "2026-10-30 14:25:42",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "14:24:37",
+    "updated_at": "14:25:40",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 5.54,
+        "flu_rt": 5.51,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.88,
+        "flu_rt": 3.64,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.56,
+        "flu_rt": 1.57,
         "leaders": "대한해운, HMM",
         "rising": "4/7"
       },
@@ -33,7 +33,7 @@
         "rank": 4,
         "code": "315",
         "name": "빙과",
-        "flu_rt": 1.54,
+        "flu_rt": 1.42,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.18,
+        "flu_rt": 1.16,
         "leaders": "카프로, SK이노베이션",
         "rising": "1/9"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.91,
+        "flu_rt": 0.98,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 0.9,
+        "flu_rt": 0.89,
         "leaders": "코이즈, 엘엠에스",
         "rising": "1/8"
       }
