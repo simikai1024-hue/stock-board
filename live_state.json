@@ -1,28 +1,20 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:18:28",
+  "updated_at": "2026-10-30 16:19:31",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:18:27",
+    "updated_at": "16:19:29",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.64,
+        "flu_rt": 7.56,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
       {
         "rank": 2,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 2.98,
-        "leaders": "크라운해태홀딩스, 농심",
-        "rising": "3/4"
-      },
-      {
-        "rank": 3,
         "code": "450",
         "name": "전자책_e-book",
         "flu_rt": 2.91,
@@ -30,10 +22,18 @@
         "rising": "4/5"
       },
       {
+        "rank": 3,
+        "code": "317",
+        "name": "제과스낵",
+        "flu_rt": 2.79,
+        "leaders": "크라운해태홀딩스, 농심",
+        "rising": "3/4"
+      },
+      {
         "rank": 4,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 2.31,
+        "flu_rt": 2.18,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.73,
+        "flu_rt": 1.62,
         "leaders": "HMM, 대한해운",
         "rising": "5/7"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "270",
         "name": "교육",
-        "flu_rt": 1.11,
+        "flu_rt": 1.05,
         "leaders": "예림당, 삼성출판사",
         "rising": "8/13"
       }
