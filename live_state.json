@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 16:39:47",
+  "updated_at": "2026-10-30 16:40:50",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "16:39:45",
+    "updated_at": "16:40:49",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 7.73,
+        "flu_rt": 7.88,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -47,14 +47,6 @@
       },
       {
         "rank": 6,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 1.62,
-        "leaders": "빙그레, 매일홀딩스",
-        "rising": "2/3"
-      },
-      {
-        "rank": 7,
         "code": "318",
         "name": "식자재유통",
         "flu_rt": 1.25,
@@ -62,12 +54,20 @@
         "rising": "3/3"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "317",
         "name": "제과스낵",
         "flu_rt": 1.21,
         "leaders": "농심, 크라운해태홀딩스",
         "rising": "3/4"
+      },
+      {
+        "rank": 8,
+        "code": "181",
+        "name": "제지_기타",
+        "flu_rt": 1.04,
+        "leaders": "무림페이퍼, 에스엠국일",
+        "rising": "4/6"
       }
     ]
   },
