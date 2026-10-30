@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:15:12",
+  "updated_at": "2026-10-30 13:16:18",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:15:11",
+    "updated_at": "13:16:16",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 4.2,
+        "flu_rt": 4.48,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
@@ -17,12 +17,20 @@
         "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.4,
+        "flu_rt": 3.03,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 3,
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 1.22,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
+      },
+      {
+        "rank": 4,
         "code": "562",
         "name": "LCD_부품",
         "flu_rt": 1.18,
@@ -30,34 +38,26 @@
         "rising": "2/8"
       },
       {
-        "rank": 4,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 1.1,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
-      },
-      {
         "rank": 5,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 0.94,
-        "leaders": "삼성SDI, LG화학",
-        "rising": "3/3"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.96,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       },
       {
         "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.85,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 0.9,
+        "leaders": "삼성SDI, LG화학",
+        "rising": "3/3"
       },
       {
         "rank": 7,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.77,
+        "flu_rt": 0.82,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
@@ -65,7 +65,7 @@
         "rank": 8,
         "code": "250",
         "name": "가구",
-        "flu_rt": 0.65,
+        "flu_rt": 0.54,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       }
