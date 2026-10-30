@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 12:17:58",
+  "updated_at": "2026-10-30 12:19:01",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "12:17:57",
+    "updated_at": "12:19:00",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.88,
+        "flu_rt": 3.64,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,36 +17,44 @@
         "rank": 2,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 2.28,
+        "flu_rt": 2.25,
         "leaders": "안랩, 이니텍",
         "rising": "2/4"
       },
       {
         "rank": 3,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 0.69,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 0.71,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "2/8"
       },
       {
         "rank": 4,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 0.68,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "2/8"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 0.63,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
       },
       {
         "rank": 5,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 0.63,
-        "leaders": "HMM, 대한해운",
+        "flu_rt": 0.61,
+        "leaders": "대한해운, HMM",
         "rising": "4/7"
       },
       {
         "rank": 6,
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.26,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
+      },
+      {
+        "rank": 7,
         "code": "250",
         "name": "가구",
         "flu_rt": 0.25,
@@ -54,18 +62,10 @@
         "rising": "2/3"
       },
       {
-        "rank": 7,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.19,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
-      },
-      {
         "rank": 8,
         "code": "300",
         "name": "주류",
-        "flu_rt": 0.12,
+        "flu_rt": 0.17,
         "leaders": "하이트진로, 풍국주정",
         "rising": "4/7"
       }
