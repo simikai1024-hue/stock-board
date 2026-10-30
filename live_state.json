@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 17:53:25",
+  "updated_at": "2026-10-30 17:54:29",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "17:53:23",
+    "updated_at": "17:54:27",
     "themes": [
       {
         "rank": 1,
         "code": "453",
         "name": "보안_인터넷",
-        "flu_rt": 8.03,
+        "flu_rt": 7.16,
         "leaders": "안랩, 이니텍",
         "rising": "3/4"
       },
@@ -41,7 +41,7 @@
         "rank": 5,
         "code": "231",
         "name": "운송_해운",
-        "flu_rt": 1.5,
+        "flu_rt": 1.42,
         "leaders": "HMM, 대한해운",
         "rising": "4/7"
       },
@@ -63,11 +63,11 @@
       },
       {
         "rank": 8,
-        "code": "317",
-        "name": "제과스낵",
-        "flu_rt": 1.06,
-        "leaders": "농심, 크라운해태홀딩스",
-        "rising": "3/4"
+        "code": "211",
+        "name": "기계_공작기계",
+        "flu_rt": 1.0,
+        "leaders": "화천기계, 신화프리텍",
+        "rising": "6/12"
       }
     ]
   },
@@ -123,7 +123,7 @@
     }
   ],
   "aftermarket_data": {
-    "updated_at": "2026-10-30 17:53:25",
+    "updated_at": "2026-10-30 17:54:29",
     "stats": {
       "total_evaluated": 21,
       "hit_5_count": 7,
