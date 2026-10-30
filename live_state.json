@@ -1,73 +1,73 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 09:55:11",
+  "updated_at": "2026-10-30 09:56:14",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "09:55:10",
+    "updated_at": "09:56:12",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 3.76,
+        "flu_rt": 3.64,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
       {
         "rank": 2,
-        "code": "562",
-        "name": "LCD_부품",
-        "flu_rt": 1.75,
-        "leaders": "코이즈, 엘엠에스",
-        "rising": "1/8"
+        "code": "360",
+        "name": "바이오_바이오시밀러/베터",
+        "flu_rt": 1.76,
+        "leaders": "한미약품, 셀트리온",
+        "rising": "3/5"
       },
       {
         "rank": 3,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 1.62,
-        "leaders": "한미약품, 셀트리온",
-        "rising": "3/5"
+        "code": "562",
+        "name": "LCD_부품",
+        "flu_rt": 1.66,
+        "leaders": "코이즈, 엘엠에스",
+        "rising": "1/8"
       },
       {
         "rank": 4,
         "code": "316",
         "name": "라면",
-        "flu_rt": 1.6,
-        "leaders": "농심, 삼양식품",
-        "rising": "3/3"
+        "flu_rt": 1.45,
+        "leaders": "농심, 오뚜기",
+        "rising": "2/3"
       },
       {
         "rank": 5,
-        "code": "151",
-        "name": "합성섬유_원료",
-        "flu_rt": 1.47,
-        "leaders": "카프로, SK이노베이션",
-        "rising": "2/9"
+        "code": "140",
+        "name": "2차전지_완제품",
+        "flu_rt": 1.34,
+        "leaders": "SK이노베이션, 삼성SDI",
+        "rising": "2/3"
       },
       {
         "rank": 6,
-        "code": "140",
-        "name": "2차전지_완제품",
-        "flu_rt": 1.46,
-        "leaders": "SK이노베이션, 삼성SDI",
-        "rising": "2/3"
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 1.28,
+        "leaders": "안랩, 이니텍",
+        "rising": "2/4"
       },
       {
         "rank": 7,
         "code": "250",
         "name": "가구",
-        "flu_rt": 1.31,
+        "flu_rt": 1.27,
         "leaders": "한샘, 퍼시스",
         "rising": "2/3"
       },
       {
         "rank": 8,
-        "code": "314",
-        "name": "유가공",
-        "flu_rt": 1.1,
-        "leaders": "빙그레, 매일홀딩스",
-        "rising": "3/3"
+        "code": "151",
+        "name": "합성섬유_원료",
+        "flu_rt": 1.21,
+        "leaders": "카프로, SK이노베이션",
+        "rising": "2/9"
       }
     ]
   },
