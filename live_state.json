@@ -1,12 +1,20 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 13:09:52",
+  "updated_at": "2026-10-30 13:10:55",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "13:09:50",
+    "updated_at": "13:10:53",
     "themes": [
       {
         "rank": 1,
+        "code": "453",
+        "name": "보안_인터넷",
+        "flu_rt": 4.09,
+        "leaders": "안랩, 이니텍",
+        "rising": "2/4"
+      },
+      {
+        "rank": 2,
         "code": "291",
         "name": "홈쇼핑",
         "flu_rt": 4.0,
@@ -14,18 +22,10 @@
         "rising": "1/1"
       },
       {
-        "rank": 2,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 3.56,
-        "leaders": "안랩, 이니텍",
-        "rising": "2/4"
-      },
-      {
         "rank": 3,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 0.97,
+        "flu_rt": 1.07,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -33,25 +33,25 @@
         "rank": 4,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 0.91,
+        "flu_rt": 0.98,
         "leaders": "카프로, SK이노베이션",
-        "rising": "1/9"
+        "rising": "2/9"
       },
       {
         "rank": 5,
-        "code": "231",
-        "name": "운송_해운",
-        "flu_rt": 0.75,
-        "leaders": "대한해운, HMM",
-        "rising": "4/7"
+        "code": "315",
+        "name": "빙과",
+        "flu_rt": 0.72,
+        "leaders": "빙그레, 롯데지주",
+        "rising": "1/2"
       },
       {
         "rank": 6,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 0.7,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
+        "code": "231",
+        "name": "운송_해운",
+        "flu_rt": 0.65,
+        "leaders": "HMM, 대한해운",
+        "rising": "4/7"
       },
       {
         "rank": 7,
