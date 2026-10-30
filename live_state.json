@@ -1,15 +1,15 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 10:50:08",
+  "updated_at": "2026-10-30 10:51:12",
   "themes_data": {
     "date": "2026-10-30",
-    "updated_at": "10:50:06",
+    "updated_at": "10:51:10",
     "themes": [
       {
         "rank": 1,
         "code": "291",
         "name": "홈쇼핑",
-        "flu_rt": 4.0,
+        "flu_rt": 3.88,
         "leaders": "CJ ENM",
         "rising": "1/1"
       },
@@ -17,7 +17,7 @@
         "rank": 2,
         "code": "562",
         "name": "LCD_부품",
-        "flu_rt": 1.46,
+        "flu_rt": 1.43,
         "leaders": "코이즈, 엘엠에스",
         "rising": "2/8"
       },
@@ -25,7 +25,7 @@
         "rank": 3,
         "code": "151",
         "name": "합성섬유_원료",
-        "flu_rt": 1.2,
+        "flu_rt": 1.23,
         "leaders": "카프로, SK이노베이션",
         "rising": "2/9"
       },
@@ -49,7 +49,7 @@
         "rank": 6,
         "code": "315",
         "name": "빙과",
-        "flu_rt": 0.82,
+        "flu_rt": 0.57,
         "leaders": "빙그레, 롯데지주",
         "rising": "1/2"
       },
@@ -63,11 +63,11 @@
       },
       {
         "rank": 8,
-        "code": "360",
-        "name": "바이오_바이오시밀러/베터",
-        "flu_rt": 0.43,
-        "leaders": "한미약품, 셀트리온",
-        "rising": "3/5"
+        "code": "244",
+        "name": "타이어",
+        "flu_rt": 0.35,
+        "leaders": "넥센타이어, 금호타이어",
+        "rising": "2/4"
       }
     ]
   },
