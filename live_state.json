@@ -1,76 +1,6 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30 18:10:18",
-  "themes_data": {
-    "date": "2026-10-30",
-    "updated_at": "18:10:16",
-    "themes": [
-      {
-        "rank": 1,
-        "code": "453",
-        "name": "보안_인터넷",
-        "flu_rt": 7.94,
-        "leaders": "안랩, 이니텍",
-        "rising": "3/4"
-      },
-      {
-        "rank": 2,
-        "code": "284",
-        "name": "컨텐츠_메니지먼트",
-        "flu_rt": 2.69,
-        "leaders": "키이스트",
-        "rising": "1/1"
-      },
-      {
-        "rank": 3,
-        "code": "291",
-        "name": "홈쇼핑",
-        "flu_rt": 2.43,
-        "leaders": "CJ ENM",
-        "rising": "1/1"
-      },
-      {
-        "rank": 4,
-        "code": "250",
-        "name": "가구",
-        "flu_rt": 1.64,
-        "leaders": "현대리바트, 한샘",
-        "rising": "3/3"
-      },
-      {
-        "rank": 5,
-        "code": "231",
-        "name": "운송_해운",
-        "flu_rt": 1.46,
-        "leaders": "HMM, 대한해운",
-        "rising": "4/7"
-      },
-      {
-        "rank": 6,
-        "code": "262",
-        "name": "전기자전거",
-        "flu_rt": 1.38,
-        "leaders": "알톤, 삼천리자전거",
-        "rising": "1/2"
-      },
-      {
-        "rank": 7,
-        "code": "315",
-        "name": "빙과",
-        "flu_rt": 1.31,
-        "leaders": "빙그레, 롯데지주",
-        "rising": "1/2"
-      },
-      {
-        "rank": 8,
-        "code": "300",
-        "name": "주류",
-        "flu_rt": 1.24,
-        "leaders": "풍국주정, 롯데칠성",
-        "rising": "4/7"
-      }
-    ]
-  },
+  "updated_at": "2026-10-30 18:11:07",
   "history": [
     {
       "id": "1793323603598_042510_BUY",
@@ -122,32 +52,245 @@
       "qty": 5
     }
   ],
+  "intraday_ledger": {
+    "updated_at": "2026-10-30 18:11:07",
+    "stats": {
+      "total_closed": 13,
+      "win_count": 4,
+      "loss_count": 9,
+      "win_rate_pct": 30.8,
+      "total_pnl_krw": -25474
+    },
+    "rows": [
+      {
+        "date": "2026-10-30",
+        "weekday": "금요일",
+        "weekday_short": "금",
+        "code": "042510",
+        "name": "라온시큐어",
+        "buy_price": 19280,
+        "sell_price": 19330,
+        "qty": 5,
+        "pnl_pct": 0.04,
+        "pnl_krw": 37,
+        "status": "WIN",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "만쥬 식 주도테마 매매"
+      },
+      {
+        "date": "2026-10-29",
+        "weekday": "목요일",
+        "weekday_short": "목",
+        "code": "091580",
+        "name": "상신이디피",
+        "buy_price": 28200,
+        "sell_price": 25750,
+        "qty": 4,
+        "pnl_pct": -8.89,
+        "pnl_krw": -10026,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "만쥬 식 주도테마 매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "001210",
+        "name": "금호전기",
+        "buy_price": 8250,
+        "sell_price": 7970,
+        "qty": 15,
+        "pnl_pct": -3.6,
+        "pnl_krw": -4458,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "014950",
+        "name": "삼익제약",
+        "buy_price": 7680,
+        "sell_price": 7610,
+        "qty": 15,
+        "pnl_pct": -1.13,
+        "pnl_krw": -1298,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "069540",
+        "name": "빛과전자",
+        "buy_price": 3782,
+        "sell_price": 4050,
+        "qty": 33,
+        "pnl_pct": 6.85,
+        "pnl_krw": 8551,
+        "status": "WIN",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "101360",
+        "name": "에코앤드림",
+        "buy_price": 11040,
+        "sell_price": 10580,
+        "qty": 10,
+        "pnl_pct": -4.38,
+        "pnl_krw": -4831,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "101490",
+        "name": "에스앤에스텍",
+        "buy_price": 40850,
+        "sell_price": 40700,
+        "qty": 3,
+        "pnl_pct": -0.58,
+        "pnl_krw": -714,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "356680",
+        "name": "엑스게이트",
+        "buy_price": 17180,
+        "sell_price": 17380,
+        "qty": 6,
+        "pnl_pct": 0.94,
+        "pnl_krw": 972,
+        "status": "WIN",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "419050",
+        "name": "삼기에너지솔루션즈",
+        "buy_price": 2555,
+        "sell_price": 2570,
+        "qty": 50,
+        "pnl_pct": 0.37,
+        "pnl_krw": 473,
+        "status": "WIN",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "486510",
+        "name": "글로벌테크놀로지",
+        "buy_price": 9570,
+        "sell_price": 9250,
+        "qty": 13,
+        "pnl_pct": -3.55,
+        "pnl_krw": -4420,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-27",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "code": "007810",
+        "name": "코리아써키트",
+        "buy_price": 70600,
+        "sell_price": 69900,
+        "qty": 1,
+        "pnl_pct": -1.22,
+        "pnl_krw": -858,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-27",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "code": "376900",
+        "name": "로킷헬스케어",
+        "buy_price": 16900,
+        "sell_price": 16370,
+        "qty": 7,
+        "pnl_pct": -3.35,
+        "pnl_krw": -3959,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      },
+      {
+        "date": "2026-10-26",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "code": "396300",
+        "name": "HT로보틱스",
+        "buy_price": 9720,
+        "sell_price": 9360,
+        "qty": 13,
+        "pnl_pct": -3.91,
+        "pnl_krw": -4943,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "",
+        "reason": "초기 버전 실전매매"
+      }
+    ]
+  },
   "aftermarket_data": {
-    "updated_at": "2026-10-30 18:10:18",
+    "updated_at": "2026-10-30 18:11:07",
     "stats": {
       "total_evaluated": 21,
-      "hit_5_count": 7,
-      "hit_11_count": 3,
-      "hit_20_count": 2,
-      "hit_11_rate_pct": 14.3,
-      "director_eval_count": 0,
-      "director_avg_max_ret": 0.0,
-      "winner_dna": {
-        "avg_max_ret": 18.57,
-        "avg_aft_gain": 3.92,
-        "avg_aft_uk": 84.8,
-        "avg_reg_gain": 5.91,
-        "avg_aft_keep": 97.97
-      },
-      "other_dna": {
-        "avg_max_ret": 2.54,
-        "avg_aft_gain": 1.83,
-        "avg_aft_uk": 38.9
-      }
+      "win_5_count": 7,
+      "super_15_count": 2,
+      "loss_count": 14,
+      "win_5_rate_pct": 33.3,
+      "rep_total": 3,
+      "rep_win_count": 1,
+      "rep_super_count": 1,
+      "rep_loss_count": 2,
+      "rep_win_rate_pct": 33.3
     },
     "days": [
       {
         "date": "2026-10-29",
+        "weekday": "목요일",
+        "weekday_short": "목",
         "predicted_at": "2026-10-29 19:49:26",
         "evaluated": true,
         "director_force_buy": [],
@@ -180,13 +323,18 @@
             "max_ret_pct": 0.06,
             "close_ret_pct": 0.06,
             "rank": 1,
+            "target_5_price": 16540,
             "target_11_price": 17490,
-            "director_approved": false
+            "target_15_price": 18120,
+            "director_approved": false,
+            "result_grade": "LOSS"
           }
         ]
       },
       {
         "date": "2026-10-28",
+        "weekday": "수요일",
+        "weekday_short": "수",
         "predicted_at": "2026-10-28 20:35:51",
         "evaluated": true,
         "director_force_buy": [],
@@ -219,8 +367,11 @@
             "max_ret_pct": 1.58,
             "close_ret_pct": -1.18,
             "rank": 1,
+            "target_5_price": 26600,
             "target_11_price": 28100,
-            "director_approved": false
+            "target_15_price": 29150,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "077360",
@@ -248,8 +399,11 @@
             "max_ret_pct": 1.47,
             "close_ret_pct": -6.34,
             "rank": 2,
+            "target_5_price": 11430,
             "target_11_price": 12080,
-            "director_approved": false
+            "target_15_price": 12520,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "005290",
@@ -277,8 +431,11 @@
             "max_ret_pct": -0.83,
             "close_ret_pct": -2.48,
             "rank": 3,
+            "target_5_price": 44450,
             "target_11_price": 47000,
-            "director_approved": false
+            "target_15_price": 48700,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "086390",
@@ -306,8 +463,11 @@
             "max_ret_pct": -0.41,
             "close_ret_pct": -6.03,
             "rank": 4,
+            "target_5_price": 12700,
             "target_11_price": 13430,
-            "director_approved": false
+            "target_15_price": 13910,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "084370",
@@ -335,8 +495,11 @@
             "max_ret_pct": -0.77,
             "close_ret_pct": -3.75,
             "rank": 5,
+            "target_5_price": 123000,
             "target_11_price": 130000,
-            "director_approved": false
+            "target_15_price": 134700,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "036830",
@@ -364,8 +527,11 @@
             "max_ret_pct": -0.38,
             "close_ret_pct": -2.04,
             "rank": 6,
+            "target_5_price": 41150,
             "target_11_price": 43500,
-            "director_approved": false
+            "target_15_price": 45050,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "105840",
@@ -393,8 +559,11 @@
             "max_ret_pct": -1.52,
             "close_ret_pct": -4.64,
             "rank": 7,
+            "target_5_price": 11080,
             "target_11_price": 11720,
-            "director_approved": false
+            "target_15_price": 12140,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "001820",
@@ -422,8 +591,11 @@
             "max_ret_pct": 1.79,
             "close_ret_pct": -3.74,
             "rank": 8,
+            "target_5_price": 123400,
             "target_11_price": 130500,
-            "director_approved": false
+            "target_15_price": 135200,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "064760",
@@ -451,8 +623,11 @@
             "max_ret_pct": -0.45,
             "close_ret_pct": -4.48,
             "rank": 9,
+            "target_5_price": 234000,
             "target_11_price": 247500,
-            "director_approved": false
+            "target_15_price": 256000,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "095610",
@@ -480,13 +655,18 @@
             "max_ret_pct": 0.0,
             "close_ret_pct": -2.16,
             "rank": 10,
+            "target_5_price": 126400,
             "target_11_price": 133600,
-            "director_approved": false
+            "target_15_price": 138400,
+            "director_approved": false,
+            "result_grade": "LOSS"
           }
         ]
       },
       {
         "date": "2026-10-27",
+        "weekday": "화요일",
+        "weekday_short": "화",
         "predicted_at": "2026-10-28 20:33:19",
         "evaluated": true,
         "director_force_buy": [],
@@ -519,8 +699,11 @@
             "max_ret_pct": 20.89,
             "close_ret_pct": 20.89,
             "rank": 1,
+            "target_5_price": 3640,
             "target_11_price": 3850,
-            "director_approved": false
+            "target_15_price": 3990,
+            "director_approved": false,
+            "result_grade": "SUPER_WIN"
           },
           {
             "code": "034730",
@@ -548,8 +731,11 @@
             "max_ret_pct": 8.61,
             "close_ret_pct": 5.68,
             "rank": 2,
+            "target_5_price": 536000,
             "target_11_price": 567000,
-            "director_approved": false
+            "target_15_price": 587000,
+            "director_approved": false,
+            "result_grade": "WIN"
           },
           {
             "code": "043260",
@@ -577,8 +763,11 @@
             "max_ret_pct": 4.48,
             "close_ret_pct": 2.87,
             "rank": 3,
+            "target_5_price": 29250,
             "target_11_price": 30950,
-            "director_approved": false
+            "target_15_price": 32050,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "050890",
@@ -606,8 +795,11 @@
             "max_ret_pct": 2.88,
             "close_ret_pct": 1.44,
             "rank": 4,
+            "target_5_price": 8740,
             "target_11_price": 9240,
-            "director_approved": false
+            "target_15_price": 9580,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "007810",
@@ -635,8 +827,11 @@
             "max_ret_pct": 6.36,
             "close_ret_pct": 4.15,
             "rank": 5,
+            "target_5_price": 80900,
             "target_11_price": 85500,
-            "director_approved": false
+            "target_15_price": 88600,
+            "director_approved": false,
+            "result_grade": "WIN"
           },
           {
             "code": "030530",
@@ -664,8 +859,11 @@
             "max_ret_pct": 23.05,
             "close_ret_pct": 15.23,
             "rank": 6,
+            "target_5_price": 25500,
             "target_11_price": 26950,
-            "director_approved": false
+            "target_15_price": 27900,
+            "director_approved": false,
+            "result_grade": "SUPER_WIN"
           },
           {
             "code": "036930",
@@ -693,8 +891,11 @@
             "max_ret_pct": 4.94,
             "close_ret_pct": 4.04,
             "rank": 7,
+            "target_5_price": 187200,
             "target_11_price": 197900,
-            "director_approved": false
+            "target_15_price": 205000,
+            "director_approved": false,
+            "result_grade": "LOSS"
           },
           {
             "code": "078350",
@@ -722,8 +923,11 @@
             "max_ret_pct": 11.78,
             "close_ret_pct": 7.33,
             "rank": 8,
+            "target_5_price": 40100,
             "target_11_price": 42400,
-            "director_approved": false
+            "target_15_price": 43900,
+            "director_approved": false,
+            "result_grade": "WIN"
           },
           {
             "code": "033160",
@@ -751,8 +955,11 @@
             "max_ret_pct": 8.25,
             "close_ret_pct": 5.35,
             "rank": 9,
+            "target_5_price": 14510,
             "target_11_price": 15340,
-            "director_approved": false
+            "target_15_price": 15890,
+            "director_approved": false,
+            "result_grade": "WIN"
           },
           {
             "code": "010170",
@@ -780,8 +987,11 @@
             "max_ret_pct": 9.68,
             "close_ret_pct": 7.46,
             "rank": 10,
+            "target_5_price": 14630,
             "target_11_price": 15470,
-            "director_approved": false
+            "target_15_price": 16030,
+            "director_approved": false,
+            "result_grade": "WIN"
           }
         ]
       }
