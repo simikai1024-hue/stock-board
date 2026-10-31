@@ -1,59 +1,9 @@
 {
-  "date": "2026-10-30",
-  "updated_at": "2026-10-30 20:56:55",
-  "history": [
-    {
-      "id": "1793323603598_042510_BUY",
-      "type": "BUY",
-      "time": "2026-10-30 10:26:43",
-      "name": "라온시큐어",
-      "code": "042510",
-      "price": 19250,
-      "flu_rt": 15.62,
-      "val_uk": 596.5,
-      "target_price": 21350,
-      "stop_price": 18670,
-      "ammo_title": "🔥 [실시간 주도테마 [네이버 6위 보안주(정보) (+0.67%, 상승 16/52)]] | 전일고가(18,930원) 돌파(+1.7%) & 당일고가 근처 1분5억 폭발",
-      "ammo_date": "20261030",
-      "note": "🚀 실전 매수 진입 완료! (+11% 목표가 매도 권장)"
-    },
-    {
-      "id": "1793324673813_024060_WATCH",
-      "type": "WATCH",
-      "time": "2026-10-30 10:44:33",
-      "name": "흥구석유",
-      "code": "024060",
-      "price": 12020,
-      "flu_rt": 7.8,
-      "val_uk": 90.8,
-      "target_price": 13340,
-      "stop_price": 11650,
-      "ammo_title": "🔥 [실시간 주도테마 [네이버 6위 윤활유 (+0.61%, 상승 4/7)]] | 전일고가(11,650원) 돌파(+3.2%) & 당일고가 근처 1분5억 폭발",
-      "ammo_date": "20261030",
-      "note": "⚡ '돈이 몰라는건가~' 검색식 + 오늘의 테마 일치 실시간 포착!"
-    },
-    {
-      "id": "1793332851450_042510_SELL",
-      "type": "SELL",
-      "time": "2026-10-30 13:00:51",
-      "name": "라온시큐어",
-      "code": "042510",
-      "price": 19330,
-      "flu_rt": 16.1,
-      "val_uk": 0.0,
-      "target_price": 21450,
-      "stop_price": 18750,
-      "ammo_title": "?? ?? ??: +37? (+0.04%) | ?? 19,280? ? ?? 19,330? (5?) [??? ?? ?? ??]",
-      "ammo_date": "",
-      "note": "?? ?? ??? ?? ?? ?? ??! ?? ?? +37? (+0.04%)",
-      "pnl_krw": 37,
-      "pnl_pct": 0.04,
-      "buy_price": 19280,
-      "qty": 5
-    }
-  ],
+  "date": "2026-10-31",
+  "updated_at": "2026-10-31 15:41:24",
+  "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-10-30 20:56:55",
+    "updated_at": "2026-10-31 15:41:24",
     "stats": {
       "total_closed": 13,
       "win_count": 0,
@@ -273,18 +223,18 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-10-30 20:56:55",
+    "updated_at": "2026-10-31 15:41:24",
     "stats": {
-      "total_evaluated": 21,
-      "win_5_count": 7,
+      "total_evaluated": 23,
+      "win_5_count": 9,
       "super_15_count": 2,
       "loss_count": 14,
-      "win_5_rate_pct": 33.3,
-      "rep_total": 3,
-      "rep_win_count": 1,
+      "win_5_rate_pct": 39.1,
+      "rep_total": 4,
+      "rep_win_count": 2,
       "rep_super_count": 1,
       "rep_loss_count": 2,
-      "rep_win_rate_pct": 33.3
+      "rep_win_rate_pct": 50.0
     },
     "days": [
       {
@@ -292,7 +242,7 @@
         "weekday": "금요일",
         "weekday_short": "금",
         "predicted_at": "2026-10-30 20:43:01",
-        "evaluated": false,
+        "evaluated": true,
         "director_force_buy": [
           "047920",
           "030960"
@@ -344,16 +294,23 @@
               "[1026 08:55 머니투데이] HLB생활건강 '테트라포스', 이마트 와우샵 입점…오프라인 유통 확대 — HLB글로벌 자회사 HLB생활건강은 스킨케어 브랜드 '테트라포스(TETRAFORCE)'가 지난 22일 이마트 와우샵 은평점과 월계점에 입점해 대표 스킨케어 제품인 '시카 카밍 시리즈' 5종을 선보였",
               "[1015 17:29 머니투데이] HLB, 여의도서 5개사 파이프라인 공개… 2030년 글로벌 100대 도약 — HLB그룹이 담관암 치료제 '리픽투(LYRFIGTU, 성분명 리라푸그라티닙)'의 미국 식품의약국(FDA) 승인을 시작으로 후속 신약과 차세대 바이오 사업에서 이어질 새로운 성장 가능성을 투자자들에게"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 52,
             "director_approved": true,
+            "eval_date": "2026-10-31",
+            "next_open": 9340,
+            "next_high": 11570,
+            "next_close": 10640,
+            "open_ret_pct": -12.22,
+            "max_ret_pct": 8.74,
+            "close_ret_pct": 0.0,
             "rank": 1,
             "target_5_price": 11170,
             "target_11_price": 11810,
             "target_15_price": 12230,
             "director_blocked": false,
             "director_note": "애프터 대금 189.2억 폭발 + +12.0% 상승 + 시총 4,635억(5천억↓) 그룹 주도 테마 수급 집결 (승인)",
-            "result_grade": "WAIT"
+            "result_grade": "WIN"
           },
           {
             "code": "046210",
@@ -385,8 +342,15 @@
               "[1026 08:55 머니투데이] HLB생활건강 '테트라포스', 이마트 와우샵 입점…오프라인 유통 확대 — HLB글로벌 자회사 HLB생활건강은 스킨케어 브랜드 '테트라포스(TETRAFORCE)'가 지난 22일 이마트 와우샵 은평점과 월계점에 입점해 대표 스킨케어 제품인 '시카 카밍 시리즈' 5종을 선보였",
               "[1021 15:40 머니투데이] 진양곤 HLB그룹 의장, 개인 법인 통해 계열사 지분 잇단 매입 — 진양곤 HLB그룹 의장이 최근 한 달 새 개인 법인을 통해 15차례에 걸쳐 그룹 주요 계열사 주식을 장내 매입하며 적극적인 매수 행보를 이어가고 있다. HLB그룹은 진 의장이 지분 99%를 보유한 "
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 39,
+            "eval_date": "2026-10-31",
+            "next_open": 1231,
+            "next_high": 1461,
+            "next_close": 1358,
+            "open_ret_pct": -9.35,
+            "max_ret_pct": 7.58,
+            "close_ret_pct": 0.0,
             "rank": 2,
             "target_5_price": 1426,
             "target_11_price": 1507,
@@ -394,7 +358,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 대금 1.56억 미달(10억↓)로 호가 공백 착시 함정 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "029460",
@@ -426,8 +390,15 @@
             "news_headlines": [
               "[1016 19:02 한국경제] 트루블루에쿼티·엔베스터, 조선부품사 케이씨 인수 추진 — 이 기사는 10월 16일 19:01 마켓인사이트에 게재된 기사입니다. 국내 사모펀드(PEF) 운용사 트루블루에쿼티와 교육·출판기업인 미래엔 계열 투자사 엔베스터가 손잡고 조선기자재 업체 케이씨 인수"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 44,
+            "eval_date": "2026-10-31",
+            "next_open": 37800,
+            "next_high": 39500,
+            "next_close": 37500,
+            "open_ret_pct": 0.27,
+            "max_ret_pct": 4.77,
+            "close_ret_pct": -0.53,
             "rank": 3,
             "target_5_price": 39550,
             "target_11_price": 41800,
@@ -435,7 +406,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "실적 공시 제출했으나 애프터 대금 6.80억 미달(10억↓) 수급 부족 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "030960",
@@ -467,16 +438,23 @@
               "[1022 13:25 서울신문] 코스닥 거래상위 혼조… 엠에스바이오 98% 급등·SKAI 상한가 — 22일 오후 12시 35분 기준 코스닥 시장 거래 상위 종목군에서는 개별 종목 장세가 뚜렷하게 전개되고 있다. 거래량 상위권에서는 엠에스바이오(0013Y0)가 4517만4031주 거래되며 1만551",
               "[1007 10:21 동아일보] 양지사 창립 50주년 …‘유즈어리25A’ 50가지 색으로 출시 — 문구 제조업체 ㈜양지사(대표 이현)가 창립 50주년을 맞아 주력 다이어리 ‘유즈어리25A’를 50가지 색상으로 내놨다. 다이어리·수첩·캘린더 등 2027년도 제품 판매도 시작했다. 양지사는 유즈어리"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
             "director_approved": true,
+            "eval_date": "2026-10-31",
+            "next_open": 7210,
+            "next_high": 7500,
+            "next_close": 6650,
+            "open_ret_pct": 8.42,
+            "max_ret_pct": 12.78,
+            "close_ret_pct": 0.0,
             "rank": 4,
             "target_5_price": 6980,
             "target_11_price": 7380,
             "target_15_price": 7640,
             "director_blocked": false,
             "director_note": "시총 1,063억 초소형 품절주 + 애프터 대금 13.7억(18시 이후 77% 집중) + 고가유지 99.6% 초입 돌파 (승인)",
-            "result_grade": "WAIT"
+            "result_grade": "WIN"
           },
           {
             "code": "321370",
@@ -506,8 +484,15 @@
               "[17:49 DART공시] 기타경영사항(자율공시) ([국책과제 선정]2026년 글로벌산업기술협력센터 사업 공동연구 과제 선정)"
             ],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-10-31",
+            "next_open": 1394,
+            "next_high": 1394,
+            "next_close": 1375,
+            "open_ret_pct": 1.38,
+            "max_ret_pct": 1.38,
+            "close_ret_pct": 0.0,
             "rank": 5,
             "target_5_price": 1444,
             "target_11_price": 1526,
@@ -515,7 +500,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "국책과제 공시 대비 애프터 대금 2.25억 미달(10억↓) (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "010660",
@@ -543,8 +528,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-10-31",
+            "next_open": 2875,
+            "next_high": 3420,
+            "next_close": 3260,
+            "open_ret_pct": -11.81,
+            "max_ret_pct": 4.91,
+            "close_ret_pct": 0.0,
             "rank": 6,
             "target_5_price": 3420,
             "target_11_price": 3615,
@@ -552,7 +544,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 대금 8.70억 미달(10억↓) 수급 부족 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "024850",
@@ -584,8 +576,15 @@
               "[1021 15:40 머니투데이] 진양곤 HLB그룹 의장, 개인 법인 통해 계열사 지분 잇단 매입 — 진양곤 HLB그룹 의장이 최근 한 달 새 개인 법인을 통해 15차례에 걸쳐 그룹 주요 계열사 주식을 장내 매입하며 적극적인 매수 행보를 이어가고 있다. HLB그룹은 진 의장이 지분 99%를 보유한 ",
               "[1021 07:50 비즈워치] HLB셀, 기증 사체 아닌 세포배양 스킨부스터 시동 — HLB이노베이션의 자회사 HLB셀이 기증받은 사체가 아닌 세포배양 기반 세포외기질(ECM) 스킨부스터 사업을 추진한다. 사람의 정상세포를 배양하는 과정에서 생성되는 ECM을 미용 분야에 활용한다는 "
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 44,
+            "eval_date": "2026-10-31",
+            "next_open": 14060,
+            "next_high": 15340,
+            "next_close": 14770,
+            "open_ret_pct": -4.81,
+            "max_ret_pct": 3.86,
+            "close_ret_pct": 0.0,
             "rank": 7,
             "target_5_price": 15500,
             "target_11_price": 16390,
@@ -593,7 +592,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시총 5,105억(5천억 초과) + 애프터 대금 3.03억 미달 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "024060",
@@ -625,8 +624,15 @@
               "[1002 10:10 조선비즈] [특징주] 중동 긴장 고조에 국제유가 급등… 정유·석유株 일제히 강... — 국내 정유와 석유 관련 종목들이 2일 장 초반 일제히 강세를 보이고 있다. 중동 지역의 지정학적 리스크 확대와 국제 유가 상승 소식이 전해지면서 국내 정유주와 석유주로 매수세가 집중되는 것으로 보인",
               "[1002 09:33 아이뉴스24] [특징주] 국제유가 급등 정유주 들썩⋯에쓰오일·SK이노·흥구석유↑ — 국제유가가 다시 들썩이면서 S-Oil(에쓰오일), SK이노베이션, 흥구석유 등 국내 정유주가 장 초반 상승세다. 2일 한국거래소에 따르면 이날 오전 9시 17분 S-Oil은 전 거래일 대비 1만90"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-10-31",
+            "next_open": 11240,
+            "next_high": 12360,
+            "next_close": 11630,
+            "open_ret_pct": -3.35,
+            "max_ret_pct": 6.28,
+            "close_ret_pct": 0.0,
             "rank": 8,
             "target_5_price": 12210,
             "target_11_price": 12900,
@@ -634,7 +640,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 등락 +0.43% 보합 저조 및 신규 기폭제 부재 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "170790",
@@ -666,8 +672,15 @@
               "[1028 11:16 지디넷코리아] 민관 'PHP2셸 취약점' 총력 대응…점검·대응 방안 제공 — 인증 없이 서버를 장악할 수 있는 PHP 결함 'PHP2셸(PHP2shell)'이 21일 공개되자 정부와 보안업계가 업데이트 권고, 점검 도구, 차단 규칙 배포에 나섰다. 이들은 임시 조치는 보조 ",
               "[1028 11:01 뉴시스] \"위협 경보 받아도 대응 막막\"…파이오링크, 관리형 탐지·대응 사업 ... — 정보보안 및 네트워크 전문기업 파이오링크가 서버, 업무 단말 등 엔드포인트 보안관제 강화에 나선다. 파이오링크는 멀티 엔드포인트 탐지·대응(EDR) 기반의 관리형 탐지·대응(MDR) 사업을 확대한다"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 40,
+            "eval_date": "2026-10-31",
+            "next_open": 8380,
+            "next_high": 9190,
+            "next_close": 8850,
+            "open_ret_pct": -5.31,
+            "max_ret_pct": 3.84,
+            "close_ret_pct": 0.0,
             "rank": 9,
             "target_5_price": 9290,
             "target_11_price": 9820,
@@ -675,7 +688,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "보안주 이슈 대비 애프터 대금 2.38억 미달(10억↓) (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "105740",
@@ -707,8 +720,15 @@
               "[1022 10:18 파이낸셜뉴스] 디케이락, '삼성전자 메탈 가스 필터' 품질 실사 통과…평택 P5 공급 ... — 반도체용 초고청정 부품 사업을 확대하고 있는 디케이락이 삼성전자 메탈 가스 필터 품질 실사를 통과하고 실장 테스트에 돌입했다. 기존 피팅·밸브 중심에서 가스 필터와 레귤레이터까지 제품군을 넓히며 반",
               "[1014 09:36 SBS Biz] [이 시각 시황] 코스피 1.8% 반등…해운·가스관·2차전지 강세 — ■ 머니쇼 '이 시각 시황' - 장연재 이 시각 시황입니다. 오늘(14일) 코스피 예상한대로 반등하고 있습니다. 1.8% 올라가면서 6,143포인트 기록하고 있습니다. 코스닥 보합입니다. 837선에"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-10-31",
+            "next_open": 12020,
+            "next_high": 12610,
+            "next_close": 12570,
+            "open_ret_pct": -4.38,
+            "max_ret_pct": 0.32,
+            "close_ret_pct": 0.0,
             "rank": 10,
             "target_5_price": 13190,
             "target_11_price": 13950,
@@ -716,7 +736,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 등락 +0.56% 보합 저조 및 상승 탄력 미달 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "203650",
@@ -751,8 +771,15 @@
               "[1023 15:56 전자신문] 금융·통신·보안기업 뭉쳐 AI 보안 공동 검증…KOTA 설립 추진 — 금융·통신기업과 보안기업, 학계 전문가들이 인공지능(AI) 보안 기술을 공동 연구하고 검증하는 민간 연합체 설립에 나섰다. 개별 보안 제품의 성능뿐 아니라 여러 기술을 연계했을 때 실제 업무 환경에",
               "[1022 17:10 디지털데일리] AI 시대, 까다로워진 보안 전략…한국트러스트연합 설립 추진 — 인공지능(AI) 시대 보안 문제에 공동 대응하기 위해 수요자, 학계, 기술 공급 기업, 보안 전문가가 참여하는 민간 연합체가 출범한다. '한국트러스트연합(KOTA)' 설립준비위원회는22일 발기인대회"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-10-31",
+            "next_open": 2180,
+            "next_high": 2335,
+            "next_close": 2265,
+            "open_ret_pct": -3.75,
+            "max_ret_pct": 3.09,
+            "close_ret_pct": 0.0,
             "rank": 11,
             "target_5_price": 2375,
             "target_11_price": 2510,
@@ -760,7 +787,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 -0.22% 음봉 하락 및 대금 9.16억 미달 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "053350",
@@ -790,8 +817,15 @@
             "news_headlines": [
               "[1013 14:26 전자신문] [보안, 대한민국의 기회]〈3〉기술은 있는데 그림이 없다 - 韓 보안의... — 국내 보안기술이 약하다고 보기는 어렵다. 오히려 특정 영역에서는 세계 시장에서도 경쟁할 만한 제품과 기술이 적지 않다. 네트워크에 접속한 단말을 식별하고 통제하는 네트워크접근제어(NAC), 관리자와"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 47,
+            "eval_date": "2026-10-31",
+            "next_open": 5500,
+            "next_high": 6190,
+            "next_close": 6120,
+            "open_ret_pct": -10.13,
+            "max_ret_pct": 1.14,
+            "close_ret_pct": 0.0,
             "rank": 12,
             "target_5_price": 6420,
             "target_11_price": 6790,
@@ -799,7 +833,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 대금 1.64억 미달(10억↓) 수급 부족 (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           }
         ]
       },
