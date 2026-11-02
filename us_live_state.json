@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:12:06",
-  "updated_at_et": "2026-11-02 08:12:06",
-  "updated_epoch_ms": 1793625126826,
+  "updated_at_kst": "2026-11-02 22:13:14",
+  "updated_at_et": "2026-11-02 08:13:14",
+  "updated_epoch_ms": 1793625194428,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:12:03"
+    "updated_kst": "22:13:11"
   },
   "stats": {
     "today_total": 12,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 11,
-    "today_hardcut": 10,
+    "today_hardcut": 11,
     "total_verdicts": 13,
     "total_buy": 1,
     "total_false": 12,
@@ -292,6 +292,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:12:27",
+      "time_kst": "22:12:27",
+      "symbol": "ACLS",
+      "company_name": "ACLS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3136.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:11:28",
