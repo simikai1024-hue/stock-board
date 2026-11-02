@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:16:01",
-  "updated_at_et": "2026-11-02 08:16:01",
-  "updated_epoch_ms": 1793625361021,
+  "updated_at_kst": "2026-11-02 22:17:03",
+  "updated_at_et": "2026-11-02 08:17:03",
+  "updated_epoch_ms": 1793625423964,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TOVX",
+    "company_name": "TOVX",
+    "exchange": "NY",
+    "price": 0.2175,
+    "gain_pct": 27.19,
+    "mcap_m": 9.98,
+    "catalyst_hint": "[당일 PR] Theriva™ Biologics Announces Sale of SYN-004 (ribaxamase) and Related Antibiotic-Degrading Enzyme Portfolio to Biossil Labs Inc.",
+    "queue_remaining": 0,
+    "mode_label": "모의 검증 분석 중",
+    "started_at_et": "08:17:00",
+    "started_at_kst": "22:17:00",
+    "started_epoch_ms": 1793625420530
   },
   "account": {
     "session_label": "프리장실전",
@@ -16,14 +28,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:15:59"
+    "updated_kst": "22:16:49"
   },
   "stats": {
     "today_total": 12,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 11,
-    "today_hardcut": 15,
+    "today_hardcut": 16,
     "total_verdicts": 13,
     "total_buy": 1,
     "total_false": 12,
@@ -292,6 +304,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:16:33",
+      "time_kst": "22:16:33",
+      "symbol": "XMAX",
+      "company_name": "XMAX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $434.24M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:15:04",
