@@ -1,13 +1,13 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 05:54:32",
-  "updated_at_et": "2026-11-02 15:54:32",
-  "updated_epoch_ms": 1793652872316,
+  "updated_at_kst": "2026-11-03 05:55:21",
+  "updated_at_et": "2026-11-02 15:55:21",
+  "updated_epoch_ms": 1793652921115,
   "analyzing": {
     "active": false
   },
   "account": {
-    "session_label": "정규장실전",
+    "session_label": "애프터마감",
     "watchlist_count": 168,
     "orderable_usd": 82.07,
     "daily_done": false,
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "05:54:29"
+    "updated_kst": "05:55:17"
   },
   "stats": {
     "today_total": 21,
