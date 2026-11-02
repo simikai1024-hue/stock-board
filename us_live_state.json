@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 04:48:32",
-  "updated_at_et": "2026-11-02 14:48:32",
-  "updated_epoch_ms": 1793648912758,
+  "updated_at_kst": "2026-11-03 04:49:18",
+  "updated_at_et": "2026-11-02 14:49:18",
+  "updated_epoch_ms": 1793648958880,
   "analyzing": {
-    "active": true,
-    "symbol": "KFFB",
-    "company_name": "KFFB",
-    "exchange": "ND",
-    "price": 5.535,
-    "gain_pct": 3.26,
-    "mcap_m": 44.76,
-    "catalyst_hint": "[당일 PR] Kentucky First Federal Bancorp Releases Earnings",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "14:48:29",
-    "started_at_kst": "04:48:29",
-    "started_epoch_ms": 1793648909464
+    "active": false
   },
   "account": {
     "session_label": "정규장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:48:09"
+    "updated_kst": "04:48:59"
   },
   "stats": {
-    "today_total": 20,
-    "today_nblm_count": 13,
+    "today_total": 21,
+    "today_nblm_count": 14,
     "today_buy": 1,
-    "today_false": 19,
+    "today_false": 20,
     "today_hardcut": 60,
-    "total_verdicts": 21,
+    "total_verdicts": 22,
     "total_buy": 1,
-    "total_false": 20,
-    "avg_nblm_sec": 46.0
+    "total_false": 21,
+    "avg_nblm_sec": 46.2
   },
   "verdicts": [
+    {
+      "id": "v_1793648955563_KFFB_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "14:49:15",
+      "time_kst": "04:49:15",
+      "symbol": "KFFB",
+      "company_name": "KFFB",
+      "exchange": "ND",
+      "price": 5.535,
+      "gain_pct": 3.26,
+      "mcap_m": 44.76,
+      "decision": "FALSE",
+      "elapsed_sec": 48.8,
+      "reason": "정기 실적 발표(Earnings Release)는 당일 확정 1급 기폭제 미달이며 거래대금($ [cite: 2, 26] [cite: 2]5,892) 극소로 전량 차단",
+      "catalyst_hint": "[당일 PR] Kentucky First Federal Bancorp Releases Earnings",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **KFFB (Kentucky First Federal Bancorp)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다 [cite: 2, 26].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $44.76M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과) [cite: 2].\n실시간 시세 및 수급: 전일 종가 $5.3600 대비 현재가 $5.5350 (+3.26%), 당일 고가 $5.5350 (+0.0%). 당일 누적 거래대금이 $5,892 USD에 불과하여 세력 유동성 유입이 매우 저조한 상태입니다.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 연례보고서(10-K) 및 주주총회 소집 안건(DEF 14A) 외 특이 수시 공시 없음.\n당일(11/02 13:51 ET) PR 원문 정밀 분석:\nPR 제목: \"Kentucky First Federal Bancorp Releases Earnings\"\n원문 진위 & 기폭제 결함: 지방 은행 지주회사의 정기 분기 실적 발표(Earnings Release) 뉴스입니다 [cite: 26].\n정기 실적 발표는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(M&A 완료, FDA 승인/임상 성공, 구체적 달러 금액 명시 대형 계약, 특별배당 등)가 아닌 일상적 뉴스로, 심사 원칙 2번·3번 기준상 1급 확정 기폭제 미달에 해당합니다 [cite: 2, 26].\n3. 최종 심사 및 결재 판정\n당일 PR이 정기 실적 발표에 불과하여 1급 확정 기폭제 요건을 충족하지 못하고, 당일 거래대금($5,892 USD)이 극히 미달하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다 .\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 .\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: KFFB NOTES:\n[KFFB] 정기 실적 발표(Earnings Release)는 당일 확정 1급 기폭제 미달이며 거래대금($ [cite: 2, 26] [cite: 2]5,892) 극소로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793641429910_SEGG_FALSE",
       "date_et": "2026-11-02",
