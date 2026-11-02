@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 03:13:02",
-  "updated_at_et": "2026-11-02 13:13:02",
-  "updated_epoch_ms": 1793643182993,
+  "updated_at_kst": "2026-11-03 03:14:09",
+  "updated_at_et": "2026-11-02 13:14:09",
+  "updated_epoch_ms": 1793643249528,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:12:59"
+    "updated_kst": "03:13:47"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "13:14:07",
+      "time_kst": "03:14:07",
+      "symbol": "HSBC",
+      "company_name": "HSBC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "13:03:26",
@@ -941,16 +951,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $558.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:01:03",
-      "time_kst": "23:01:03",
-      "symbol": "PNBK",
-      "company_name": "PNBK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $98.91M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
