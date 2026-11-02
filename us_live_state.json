@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:08:39",
-  "updated_at_et": "2026-11-02 09:08:39",
-  "updated_epoch_ms": 1793628519570,
+  "updated_at_kst": "2026-11-02 23:09:49",
+  "updated_at_et": "2026-11-02 09:09:49",
+  "updated_epoch_ms": 1793628589916,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:08:37"
+    "updated_kst": "23:09:48"
   },
   "stats": {
     "today_total": 15,
@@ -354,6 +354,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-02",
+      "time_et": "09:08:55",
+      "time_kst": "23:08:55",
+      "symbol": "HLN",
+      "company_name": "HLN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-02",
       "time_et": "09:03:21",
       "time_kst": "23:03:21",
       "symbol": "DOV",
@@ -438,16 +448,6 @@
       "time_kst": "22:46:32",
       "symbol": "BMNR",
       "company_name": "BMNR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:44:39",
-      "time_kst": "22:44:39",
-      "symbol": "HLN",
-      "company_name": "HLN",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
