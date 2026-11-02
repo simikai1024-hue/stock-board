@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:54:10",
-  "updated_at_et": "2026-11-02 08:54:10",
-  "updated_epoch_ms": 1793627650348,
+  "updated_at_kst": "2026-11-02 22:54:59",
+  "updated_at_et": "2026-11-02 08:54:59",
+  "updated_epoch_ms": 1793627699500,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:54:07"
+    "updated_kst": "22:54:56"
   },
   "stats": {
     "today_total": 15,
     "today_nblm_count": 8,
     "today_buy": 1,
     "today_false": 14,
-    "today_hardcut": 29,
+    "today_hardcut": 30,
     "total_verdicts": 16,
     "total_buy": 1,
     "total_false": 15,
@@ -352,6 +352,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:54:29",
+      "time_kst": "22:54:29",
+      "symbol": "CHKP",
+      "company_name": "CHKP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $15217.44M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:50:33",
