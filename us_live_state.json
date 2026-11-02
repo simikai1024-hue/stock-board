@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 04:04:32",
-  "updated_at_et": "2026-11-02 14:04:32",
-  "updated_epoch_ms": 1793646272137,
+  "updated_at_kst": "2026-11-03 04:05:20",
+  "updated_at_et": "2026-11-02 14:05:20",
+  "updated_epoch_ms": 1793646320528,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:04:29"
+    "updated_kst": "04:05:17"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "14:04:53",
+      "time_kst": "04:04:53",
+      "symbol": "CPSS",
+      "company_name": "CPSS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $220.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "13:14:07",
@@ -941,16 +951,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:01:26",
-      "time_kst": "23:01:26",
-      "symbol": "BSVN",
-      "company_name": "BSVN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $558.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
