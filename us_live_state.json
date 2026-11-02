@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:16:05",
-  "updated_at_et": "2026-11-02 09:16:05",
-  "updated_epoch_ms": 1793628965877,
+  "updated_at_kst": "2026-11-02 23:16:55",
+  "updated_at_et": "2026-11-02 09:16:55",
+  "updated_epoch_ms": 1793629015777,
   "analyzing": {
-    "active": true,
-    "symbol": "RBNE",
-    "company_name": "Robin Energy Ltd.",
-    "exchange": "ND",
-    "price": 0.1335,
-    "gain_pct": -2.27,
-    "mcap_m": 0.37,
-    "catalyst_hint": "[당일 PR] Robin Energy Declares Special Dividend of $0.10 Per Share",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:16:03",
-    "started_at_kst": "23:16:03",
-    "started_epoch_ms": 1793628963945
+    "active": false
   },
   "account": {
     "session_label": "프리장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:15:43"
+    "updated_kst": "23:16:52"
   },
   "stats": {
-    "today_total": 15,
-    "today_nblm_count": 8,
+    "today_total": 16,
+    "today_nblm_count": 9,
     "today_buy": 1,
-    "today_false": 14,
+    "today_false": 15,
     "today_hardcut": 42,
-    "total_verdicts": 16,
+    "total_verdicts": 17,
     "total_buy": 1,
-    "total_false": 15,
-    "avg_nblm_sec": 45.6
+    "total_false": 16,
+    "avg_nblm_sec": 46.2
   },
   "verdicts": [
+    {
+      "id": "v_1793629011504_RBNE_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "09:16:51",
+      "time_kst": "23:16:51",
+      "symbol": "RBNE",
+      "company_name": "Robin Energy Ltd.",
+      "exchange": "ND",
+      "price": 0.1335,
+      "gain_pct": -2.27,
+      "mcap_m": 0.37,
+      "decision": "FALSE",
+      "elapsed_sec": 50.9,
+      "reason": "사전 F-1 증권등록 희석 위험 잔존 및 당일 확정 1급 기폭제 부재 + 장전 대금 $0(-2.27%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Robin Energy Declares Special Dividend of $0.10 Per Share",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **RBNE (Robin Energy Ltd.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.37M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.1366 대비 현재가 $0.1335 (-2.27% 약보합/음봉), 당일 고가 $0.1578 (-15.4%). 장전 누적 거래대금 $0 USD로 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n사전 SEC 이력 및 희석 위험: 최근 10/16 F-1 (외국기업 신주 발행 증권등록신고서) 제출 이력이 존재하여, 언제든 신주 유상증자 물량이 출회될 수 있는 희석 위험이 열려 있습니다 (심사 원칙 1번 위반).\n당일 D-Day 기폭제 결함: 당일(11/02) 신규 SEC 공시가 아직 미접수된 무뉴스/무공시 상태로, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 수주/M&A 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n사전 F-1 제출에 따른 신주 희석 위험이 잔존하고, 당일 확정 1급 기폭제 부재 및 장전 수급 미달($0 USD / -2.27%)을 나타내어 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: RBNE NOTES:\n[RBNE] 사전 F-1 증권등록 희석 위험 잔존 및 당일 확정 1급 기폭제 부재 + 장전 대금 $0(-2.27%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793626630866_PPCB_FALSE",
       "date_et": "2026-11-02",
