@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:32:41",
-  "updated_at_et": "2026-11-02 10:32:41",
-  "updated_epoch_ms": 1793633561669,
+  "updated_at_kst": "2026-11-03 00:33:30",
+  "updated_at_et": "2026-11-02 10:33:30",
+  "updated_epoch_ms": 1793633610417,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:32:38"
+    "updated_kst": "00:33:27"
   },
   "stats": {
     "today_total": 19,
@@ -434,20 +434,30 @@
   "hardcuts": [
     {
       "date_et": "2026-11-02",
-      "time_et": "10:28:00",
-      "time_kst": "00:28:00",
-      "symbol": "RACE",
-      "company_name": "RACE",
+      "time_et": "10:33:03",
+      "time_kst": "00:33:03",
+      "symbol": "BTI",
+      "company_name": "BTI",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-02",
-      "time_et": "10:23:47",
-      "time_kst": "00:23:47",
+      "time_et": "10:32:59",
+      "time_kst": "00:32:59",
       "symbol": "AZN",
       "company_name": "AZN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "10:28:00",
+      "time_kst": "00:28:00",
+      "symbol": "RACE",
+      "company_name": "RACE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
@@ -918,16 +928,6 @@
       "time_kst": "22:29:08",
       "symbol": "KEP",
       "company_name": "KEP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:24:28",
-      "time_kst": "22:24:28",
-      "symbol": "PSO",
-      "company_name": "PSO",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
