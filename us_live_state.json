@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:50:31",
-  "updated_at_et": "2026-11-02 08:50:31",
-  "updated_epoch_ms": 1793627431948,
+  "updated_at_kst": "2026-11-02 22:51:44",
+  "updated_at_et": "2026-11-02 08:51:44",
+  "updated_epoch_ms": 1793627504600,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:50:30"
+    "updated_kst": "22:51:41"
   },
   "stats": {
     "today_total": 15,
     "today_nblm_count": 8,
     "today_buy": 1,
     "today_false": 14,
-    "today_hardcut": 28,
+    "today_hardcut": 29,
     "total_verdicts": 16,
     "total_buy": 1,
     "total_false": 15,
@@ -352,6 +352,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:50:33",
+      "time_kst": "22:50:33",
+      "symbol": "UFPI",
+      "company_name": "UFPI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4518.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:46:32",
