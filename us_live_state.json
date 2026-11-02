@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 04:47:23",
-  "updated_at_et": "2026-11-02 14:47:23",
-  "updated_epoch_ms": 1793648843092,
+  "updated_at_kst": "2026-11-03 04:48:32",
+  "updated_at_et": "2026-11-02 14:48:32",
+  "updated_epoch_ms": 1793648912758,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "KFFB",
+    "company_name": "KFFB",
+    "exchange": "ND",
+    "price": 5.535,
+    "gain_pct": 3.26,
+    "mcap_m": 44.76,
+    "catalyst_hint": "[당일 PR] Kentucky First Federal Bancorp Releases Earnings",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "14:48:29",
+    "started_at_kst": "04:48:29",
+    "started_epoch_ms": 1793648909464
   },
   "account": {
     "session_label": "정규장실전",
@@ -16,7 +28,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:47:20"
+    "updated_kst": "04:48:09"
   },
   "stats": {
     "today_total": 20,
