@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:17:24",
-  "updated_at_et": "2026-11-02 08:17:24",
-  "updated_epoch_ms": 1793625444414,
+  "updated_at_kst": "2026-11-02 22:18:35",
+  "updated_at_et": "2026-11-02 08:18:35",
+  "updated_epoch_ms": 1793625515413,
   "analyzing": {
-    "active": true,
-    "symbol": "TOVX",
-    "company_name": "TOVX",
-    "exchange": "NY",
-    "price": 0.2175,
-    "gain_pct": 27.19,
-    "mcap_m": 9.98,
-    "catalyst_hint": "[당일 PR] Theriva™ Biologics Announces Sale of SYN-004 (ribaxamase) and Related Antibiotic-Degrading Enzyme Portfolio to Biossil Labs Inc.",
-    "queue_remaining": 0,
-    "mode_label": "모의 검증 분석 중",
-    "started_at_et": "08:17:00",
-    "started_at_kst": "22:17:00",
-    "started_epoch_ms": 1793625420530
+    "active": false
   },
   "account": {
     "session_label": "프리장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:17:20"
+    "updated_kst": "22:18:34"
   },
   "stats": {
-    "today_total": 12,
-    "today_nblm_count": 5,
+    "today_total": 13,
+    "today_nblm_count": 6,
     "today_buy": 1,
-    "today_false": 11,
+    "today_false": 12,
     "today_hardcut": 16,
-    "total_verdicts": 13,
+    "total_verdicts": 14,
     "total_buy": 1,
-    "total_false": 12,
-    "avg_nblm_sec": 46.0
+    "total_false": 13,
+    "avg_nblm_sec": 48.3
   },
   "verdicts": [
+    {
+      "id": "v_1793625471106_TOVX_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "08:17:51",
+      "time_kst": "22:17:51",
+      "symbol": "TOVX",
+      "company_name": "TOVX",
+      "exchange": "AM",
+      "price": 0.2175,
+      "gain_pct": 27.19,
+      "mcap_m": 9.98,
+      "decision": "FALSE",
+      "elapsed_sec": 59.8,
+      "reason": "확정 선급금 $35만(약 4.8억)은 극소액이며 $9,100만 마일스톤은 미확정 조건부에 불과하여 1급 확정 기폭제 미달 및 장전 대금 $0 전량 차단",
+      "catalyst_hint": "[당일 PR] Theriva™ Biologics Announces Sale of SYN-004 (ribaxamase) and Related Antibiotic-Degrading Enzyme Portfolio to Biossil Labs Inc.",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 TOVX (Theriva Biologics, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.98M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.1710 대비 현재가 $0.2175 (+27.19%), 당일 최고가 $0.2491 (-12.7%). 장전 누적 거래대금 $0 USD로 수급 수직 유입 부재.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 주주총회 소집 안건(DEF 14A/PRE 14A) 외 특이 수시 공시 없음.\n당일(11/02 08:00 ET) PR 원문 정밀 분석:\nPR 제목: \"Theriva™ Biologics Announces Sale of SYN-004 (ribaxamase) and Related Antibiotic-Degrading Enzyme Portfolio to Biossil Labs Inc.\"\n원문 금액 및 조건 팩트:\n클로징 시 수령한 확정 선급금(Upfront Payment): $350,000 ($35만 달러 = 한화 약 4.8억 원의 극소액).\n마일스톤 조건: 향후 인허가 및 매출 달성 시 최대 $91.0M 조건부 수령 가능성 명시.\n기폭제 결함:\n확정 수령 현금인 선급금 $35만 달러는 시가총액 대비로도 기업 가치를 수직 폭등시키기엔 턱없이 적은 극소액 현금 유입에 불과합니다.\n제목의 '$9,100만 달러'는 미래의 조건부 임상/매출 마일스톤(Conditional Milestone)일 뿐, 오늘 당일 기업 가치로 수용되는 확정 현금 유입이나 대형 M&A 완결이 아닙니다.\n이는 AIOK($1,800만 달러 확정 현금 매각)와 같은 특S급 기폭제와 달리, '소액 선급금 + 미확정 미래 마일스톤 조합'의 전형적인 개잡주 착시 PR입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 실질 확정 현금 유입이 턱없이 적은 소액 선급금($35만) 및 미확정 조건부 마일스톤에 불과하여 전략 헌장 2번·3번 원칙에 의거 1급 확정 기폭제 미달로 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: TOVX NOTES:\n[TOVX] 확정 선급금 $35만(약 4.8억)은 극소액이며 $9,100만 마일스톤은 미확정 조건부에 불과하여 1급 확정 기폭제 미달 및 장전 대금 $0 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 모의검증",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "seed_2026-11-02_080216_CRMT",
       "date_et": "2026-11-02",
