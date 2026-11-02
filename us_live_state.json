@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:27:43",
-  "updated_at_et": "2026-11-02 10:27:43",
-  "updated_epoch_ms": 1793633263522,
+  "updated_at_kst": "2026-11-03 00:28:32",
+  "updated_at_et": "2026-11-02 10:28:32",
+  "updated_epoch_ms": 1793633312110,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:27:41"
+    "updated_kst": "00:28:29"
   },
   "stats": {
     "today_total": 19,
@@ -432,6 +432,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "10:28:00",
+      "time_kst": "00:28:00",
+      "symbol": "RACE",
+      "company_name": "RACE",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "10:23:47",
@@ -921,16 +931,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:16:33",
-      "time_kst": "22:16:33",
-      "symbol": "XMAX",
-      "company_name": "XMAX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $434.24M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
