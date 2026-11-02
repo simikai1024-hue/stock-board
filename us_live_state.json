@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:50:26",
-  "updated_at_et": "2026-11-02 10:50:26",
-  "updated_epoch_ms": 1793634626912,
+  "updated_at_kst": "2026-11-03 00:51:24",
+  "updated_at_et": "2026-11-02 10:51:24",
+  "updated_epoch_ms": 1793634684073,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:50:24"
+    "updated_kst": "00:51:12"
   },
   "stats": {
     "today_total": 19,
@@ -434,6 +434,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-02",
+      "time_et": "10:51:22",
+      "time_kst": "00:51:22",
+      "symbol": "SUPN",
+      "company_name": "SUPN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2441.24M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-02",
       "time_et": "10:46:31",
       "time_kst": "00:46:31",
       "symbol": "GPRK",
@@ -601,16 +611,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:29:13",
-      "time_kst": "23:29:13",
-      "symbol": "SUPN",
-      "company_name": "SUPN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2441.24M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-02",
