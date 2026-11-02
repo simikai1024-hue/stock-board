@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 02:44:41",
-  "updated_at_et": "2026-11-02 12:44:41",
-  "updated_epoch_ms": 1793641481825,
+  "updated_at_kst": "2026-11-03 02:45:49",
+  "updated_at_et": "2026-11-02 12:45:49",
+  "updated_epoch_ms": 1793641549096,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:44:32"
+    "updated_kst": "02:45:46"
   },
   "stats": {
     "today_total": 20,
@@ -454,6 +454,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-02",
+      "time_et": "12:45:05",
+      "time_kst": "02:45:05",
+      "symbol": "WPP",
+      "company_name": "WPP",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-02",
       "time_et": "12:44:38",
       "time_kst": "02:44:38",
       "symbol": "AEM",
@@ -721,16 +731,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1660.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:25:18",
-      "time_kst": "23:25:18",
-      "symbol": "WPP",
-      "company_name": "WPP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-02",
