@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:18:16",
-  "updated_at_et": "2026-11-02 09:18:16",
-  "updated_epoch_ms": 1793629096650,
+  "updated_at_kst": "2026-11-02 23:18:53",
+  "updated_at_et": "2026-11-02 09:18:53",
+  "updated_epoch_ms": 1793629133184,
   "analyzing": {
-    "active": true,
-    "symbol": "ABTS",
-    "company_name": "Abits Group Inc",
-    "exchange": "ND",
-    "price": 1.06,
-    "gain_pct": -11.22,
-    "mcap_m": 2.51,
-    "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:18:14",
-    "started_at_kst": "23:18:14",
-    "started_epoch_ms": 1793629094612
+    "active": false
   },
   "account": {
     "session_label": "프리장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:18:05"
+    "updated_kst": "23:18:30"
   },
   "stats": {
-    "today_total": 16,
-    "today_nblm_count": 9,
+    "today_total": 17,
+    "today_nblm_count": 10,
     "today_buy": 1,
-    "today_false": 15,
-    "today_hardcut": 44,
-    "total_verdicts": 17,
+    "today_false": 16,
+    "today_hardcut": 45,
+    "total_verdicts": 18,
     "total_buy": 1,
-    "total_false": 16,
-    "avg_nblm_sec": 46.2
+    "total_false": 17,
+    "avg_nblm_sec": 45.4
   },
   "verdicts": [
+    {
+      "id": "v_1793629130101_ABTS_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "09:18:50",
+      "time_kst": "23:18:50",
+      "symbol": "ABTS",
+      "company_name": "Abits Group Inc",
+      "exchange": "ND",
+      "price": 1.06,
+      "gain_pct": -11.22,
+      "mcap_m": 2.51,
+      "decision": "FALSE",
+      "elapsed_sec": 38.4,
+      "reason": "직전 10/30 자 F-1 신규 EFFECT(신주 희석) 발효 + 전일 대비 -11.22% 투매 및 장전 대금 $0(수급 부재)로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **ABTS (Abits Group Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.51M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.1940 대비 현재가 $1.0600 (-11.22% 투매/폭락), 당일 고가 $1.0700. 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n[신규 EFFECT 희석 폭탄 출회 (원칙 1 위반)]: 직전 거래일인 2026-10-30 자로 F-1 신주 증권등록신고서의 신규 EFFECT (효력 발생) 공시가 최종 발행되었습니다. 이는 언제든 시장에 신주 오퍼링/워런트 덤핑 물량이 쏟아질 수 있는 치명적 유상증자 희석 폭탄이 활성화된 상태입니다.\n[시세 차트 붕괴 (원칙 4 위반)]: 현재 주가가 전일 대비 -11.22% 폭락 중으로, 원칙 4항(\"-8% 이하 투매 및 설거지 차트 차단\")을 정면으로 위반하고 있습니다.\n[당일 기폭제 결함 (원칙 2·3 위반)]: 당일 제출된 6-K 공시는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)가 아닙니다.\n3. 최종 심사 및 결재 판정\n신규 EFFECT 발효로 인한 치명적 신주 희석 위험, -11.22% 투매 붕괴 차트, 당일 1급 확정 기폭제 부재 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번·4번 원칙에 의거 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: ABTS NOTES:\n[ABTS] 직전 10/30 자 F-1 신규 EFFECT(신주 희석) 발효 + 전일 대비 -11.22% 투매 및 장전 대금 $0(수급 부재)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793629011504_RBNE_FALSE",
       "date_et": "2026-11-02",
@@ -384,6 +392,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:18:25",
+      "time_kst": "23:18:25",
+      "symbol": "TEL",
+      "company_name": "TEL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:17:53",
