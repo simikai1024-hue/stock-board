@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:31:45",
-  "updated_at_et": "2026-11-02 08:31:45",
-  "updated_epoch_ms": 1793626305296,
+  "updated_at_kst": "2026-11-02 22:32:16",
+  "updated_at_et": "2026-11-02 08:32:16",
+  "updated_epoch_ms": 1793626336827,
   "analyzing": {
-    "active": true,
-    "symbol": "WCT",
-    "company_name": "WCT",
-    "exchange": "ND",
-    "price": 0.295,
-    "gain_pct": -4.84,
-    "mcap_m": 13.65,
-    "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:31:43",
-    "started_at_kst": "22:31:43",
-    "started_epoch_ms": 1793626303303
+    "active": false
   },
   "account": {
     "session_label": "프리장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:31:30"
+    "updated_kst": "22:31:53"
   },
   "stats": {
-    "today_total": 13,
-    "today_nblm_count": 6,
+    "today_total": 14,
+    "today_nblm_count": 7,
     "today_buy": 1,
-    "today_false": 12,
+    "today_false": 13,
     "today_hardcut": 19,
-    "total_verdicts": 14,
+    "total_verdicts": 15,
     "total_buy": 1,
-    "total_false": 13,
-    "avg_nblm_sec": 48.3
+    "total_false": 14,
+    "avg_nblm_sec": 46.9
   },
   "verdicts": [
+    {
+      "id": "v_1793626334643_WCT_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "08:32:14",
+      "time_kst": "22:32:14",
+      "symbol": "WCT",
+      "company_name": "WCT",
+      "exchange": "ND",
+      "price": 0.295,
+      "gain_pct": -4.84,
+      "mcap_m": 13.65,
+      "decision": "FALSE",
+      "elapsed_sec": 38.1,
+      "reason": "당일 확정 1급 기폭제 부재 및 전일 대비 -4.84% 약세/장전 대금 $0(수급 부재)로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 WCT (Wellchange Holdings Company Limited) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.65M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.3100 대비 현재가 $0.2950 (-4.84% 약세/음봉), 당일 최고가 $0.3400 (-13.2%). 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 6-K 원문 직독 검증\n사전 SEC 이력: 2026-10-13 [6-K] 제출 이력 확인.\n당일(11/02) D-Day 6-K 원문 분석:\n당일 제출된 6-K 공시 원문 검증 결과, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 수주/M&A 완료, 특별배당, 상장유지 회복 등)의 실체가 부재합니다.\n또한 주가가 전일 대비 -4.84% 약세를 기록하며 음봉 진행 중이고, 장전 누적 거래대금이 $0 USD에 불과하여 세력 유동성 유입 반응이 전혀 관측되지 않습니다.\n3. 최종 심사 및 결재 판정\n당일 확정 1급 기폭제가 부재하고 주가 약세(-4.84%) 및 거래대금 미달($0 USD)을 나타내어 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: WCT NOTES:\n[WCT] 당일 확정 1급 기폭제 부재 및 전일 대비 -4.84% 약세/장전 대금 $0(수급 부재)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793625471106_TOVX_FALSE",
       "date_et": "2026-11-02",
