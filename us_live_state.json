@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:13:14",
-  "updated_at_et": "2026-11-02 08:13:14",
-  "updated_epoch_ms": 1793625194428,
+  "updated_at_kst": "2026-11-02 22:14:24",
+  "updated_at_et": "2026-11-02 08:14:24",
+  "updated_epoch_ms": 1793625264249,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:13:11"
+    "updated_kst": "22:14:22"
   },
   "stats": {
     "today_total": 12,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 11,
-    "today_hardcut": 11,
+    "today_hardcut": 13,
     "total_verdicts": 13,
     "total_buy": 1,
     "total_false": 12,
@@ -292,6 +292,26 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:14:21",
+      "time_kst": "22:14:21",
+      "symbol": "ENLV",
+      "company_name": "Enlivex Ltd.",
+      "exchange": "ND",
+      "mcap_m": 2.73,
+      "reason": "실질 시가총액 $439.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:13:19",
+      "time_kst": "22:13:19",
+      "symbol": "FLNC",
+      "company_name": "FLNC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:12:27",
