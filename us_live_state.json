@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:16:55",
-  "updated_at_et": "2026-11-02 09:16:55",
-  "updated_epoch_ms": 1793629015777,
+  "updated_at_kst": "2026-11-02 23:17:52",
+  "updated_at_et": "2026-11-02 09:17:52",
+  "updated_epoch_ms": 1793629072108,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:16:52"
+    "updated_kst": "23:17:42"
   },
   "stats": {
     "today_total": 16,
     "today_nblm_count": 9,
     "today_buy": 1,
     "today_false": 15,
-    "today_hardcut": 42,
+    "today_hardcut": 44,
     "total_verdicts": 17,
     "total_buy": 1,
     "total_false": 16,
@@ -372,6 +372,26 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:17:50",
+      "time_kst": "23:17:50",
+      "symbol": "HCTI",
+      "company_name": "Healthcare Triangle, Inc.",
+      "exchange": "ND",
+      "mcap_m": 4.56,
+      "reason": "실질 시가총액 $76.97M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:17:00",
+      "time_kst": "23:17:00",
+      "symbol": "MPB",
+      "company_name": "MPB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $860.13M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:16:05",
