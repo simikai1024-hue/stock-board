@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:25:20",
-  "updated_at_et": "2026-11-02 09:25:20",
-  "updated_epoch_ms": 1793629520642,
+  "updated_at_kst": "2026-11-02 23:26:08",
+  "updated_at_et": "2026-11-02 09:26:08",
+  "updated_epoch_ms": 1793629568983,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:24:59"
+    "updated_kst": "23:25:45"
   },
   "stats": {
     "today_total": 18,
     "today_nblm_count": 11,
     "today_buy": 1,
     "today_false": 17,
-    "today_hardcut": 48,
+    "today_hardcut": 49,
     "total_verdicts": 19,
     "total_buy": 1,
     "total_false": 18,
@@ -412,6 +412,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:26:07",
+      "time_kst": "23:26:07",
+      "symbol": "QCRH",
+      "company_name": "QCRH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1660.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:25:18",
