@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:48:26",
-  "updated_at_et": "2026-11-02 09:48:26",
-  "updated_epoch_ms": 1793630906739,
+  "updated_at_kst": "2026-11-02 23:49:22",
+  "updated_at_et": "2026-11-02 09:49:22",
+  "updated_epoch_ms": 1793630962819,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CAPS",
+    "company_name": "Capstone Holding Corp.",
+    "exchange": "ND",
+    "price": 2.13,
+    "gain_pct": -8.58,
+    "mcap_m": 43.83,
+    "catalyst_hint": "[당일 PR] Capstone Sees Improving Winter Conditions Supporting Stronger Seasonal Outlook",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:49:20",
+    "started_at_kst": "23:49:20",
+    "started_epoch_ms": 1793630960950
   },
   "account": {
     "session_label": "정규장실전",
@@ -16,7 +28,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:48:24"
+    "updated_kst": "23:49:11"
   },
   "stats": {
     "today_total": 18,
