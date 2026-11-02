@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:09:41",
-  "updated_at_et": "2026-11-02 08:09:41",
-  "updated_epoch_ms": 1793624981069,
+  "updated_at_kst": "2026-11-02 22:10:43",
+  "updated_at_et": "2026-11-02 08:10:43",
+  "updated_epoch_ms": 1793625043579,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:09:41"
+    "updated_kst": "22:10:43"
   },
   "stats": {
     "today_total": 12,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 11,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 13,
     "total_buy": 1,
     "total_false": 12,
@@ -291,5 +291,16 @@
       "trade_action": "차단(패스)"
     }
   ],
-  "hardcuts": []
+  "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:41",
+      "time_kst": "22:10:41",
+      "symbol": "ALLR",
+      "company_name": "ALLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-30 [424B5])"
+    }
+  ]
 }
