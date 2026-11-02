@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:10:43",
-  "updated_at_et": "2026-11-02 08:10:43",
-  "updated_epoch_ms": 1793625043579,
+  "updated_at_kst": "2026-11-02 22:11:01",
+  "updated_at_et": "2026-11-02 08:11:01",
+  "updated_epoch_ms": 1793625061795,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:10:43"
+    "updated_kst": "22:11:01"
   },
   "stats": {
     "today_total": 12,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 11,
-    "today_hardcut": 1,
+    "today_hardcut": 9,
     "total_verdicts": 13,
     "total_buy": 1,
     "total_false": 12,
@@ -292,6 +292,86 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:59",
+      "time_kst": "22:10:59",
+      "symbol": "SGC",
+      "company_name": "SGC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 .97M (기준 <= .0M USD 초과)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:56",
+      "time_kst": "22:10:56",
+      "symbol": "NRXP",
+      "company_name": "NRXP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 .58M (기준 <= .0M USD 초과)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:54",
+      "time_kst": "22:10:54",
+      "symbol": "PSO",
+      "company_name": "PSO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:52",
+      "time_kst": "22:10:52",
+      "symbol": "PRG",
+      "company_name": "PRG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:49",
+      "time_kst": "22:10:49",
+      "symbol": "PKX",
+      "company_name": "PKX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:47",
+      "time_kst": "22:10:47",
+      "symbol": "AIR",
+      "company_name": "AIR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:45",
+      "time_kst": "22:10:45",
+      "symbol": "VBIO",
+      "company_name": "VBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:10:43",
+      "time_kst": "22:10:43",
+      "symbol": "SLE",
+      "company_name": "SLE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-21 [424B5])"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:10:41",
