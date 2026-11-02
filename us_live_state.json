@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 02:02:19",
-  "updated_at_et": "2026-11-02 12:02:19",
-  "updated_epoch_ms": 1793638939149,
+  "updated_at_kst": "2026-11-03 02:03:29",
+  "updated_at_et": "2026-11-02 12:03:29",
+  "updated_epoch_ms": 1793639009428,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:02:17"
+    "updated_kst": "02:03:27"
   },
   "stats": {
     "today_total": 19,
@@ -432,6 +432,26 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "12:02:29",
+      "time_kst": "02:02:29",
+      "symbol": "SHEL",
+      "company_name": "SHEL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-02",
+      "time_et": "12:02:25",
+      "time_kst": "02:02:25",
+      "symbol": "GRFS",
+      "company_name": "GRFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "11:39:16",
@@ -908,26 +928,6 @@
       "time_kst": "22:41:09",
       "symbol": "BIII",
       "company_name": "BIII",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:40:20",
-      "time_kst": "22:40:20",
-      "symbol": "LITE",
-      "company_name": "LITE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $70729.35M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:38:31",
-      "time_kst": "22:38:31",
-      "symbol": "STM",
-      "company_name": "STM",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
