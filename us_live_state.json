@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:17:03",
-  "updated_at_et": "2026-11-02 08:17:03",
-  "updated_epoch_ms": 1793625423964,
+  "updated_at_kst": "2026-11-02 22:17:24",
+  "updated_at_et": "2026-11-02 08:17:24",
+  "updated_epoch_ms": 1793625444414,
   "analyzing": {
     "active": true,
     "symbol": "TOVX",
@@ -28,7 +28,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:16:49"
+    "updated_kst": "22:17:20"
   },
   "stats": {
     "today_total": 12,
