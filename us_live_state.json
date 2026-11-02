@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 04:43:22",
-  "updated_at_et": "2026-11-02 14:43:22",
-  "updated_epoch_ms": 1793648602250,
+  "updated_at_kst": "2026-11-03 04:44:08",
+  "updated_at_et": "2026-11-02 14:44:08",
+  "updated_epoch_ms": 1793648648141,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:43:19"
+    "updated_kst": "04:44:06"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "14:44:06",
+      "time_kst": "04:44:06",
+      "symbol": "SHW",
+      "company_name": "SHW",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "14:04:53",
@@ -941,16 +951,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $182.98M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:02:18",
-      "time_kst": "23:02:18",
-      "symbol": "BBCI",
-      "company_name": "BBCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
