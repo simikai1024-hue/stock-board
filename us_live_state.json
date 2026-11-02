@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:46:27",
-  "updated_at_et": "2026-11-02 10:46:27",
-  "updated_epoch_ms": 1793634387005,
+  "updated_at_kst": "2026-11-03 00:47:17",
+  "updated_at_et": "2026-11-02 10:47:17",
+  "updated_epoch_ms": 1793634437196,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:46:25"
+    "updated_kst": "00:47:14"
   },
   "stats": {
     "today_total": 19,
@@ -432,6 +432,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "10:46:31",
+      "time_kst": "00:46:31",
+      "symbol": "GPRK",
+      "company_name": "GPRK",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "10:42:22",
@@ -921,16 +931,6 @@
       "exchange": "ND",
       "mcap_m": 22.37,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:31:29",
-      "time_kst": "22:31:29",
-      "symbol": "BLMN",
-      "company_name": "BLMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $909.29M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
