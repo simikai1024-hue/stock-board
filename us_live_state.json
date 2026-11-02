@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 02:43:52",
-  "updated_at_et": "2026-11-02 12:43:52",
-  "updated_epoch_ms": 1793641432147,
+  "updated_at_kst": "2026-11-03 02:44:41",
+  "updated_at_et": "2026-11-02 12:44:41",
+  "updated_epoch_ms": 1793641481825,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:43:44"
+    "updated_kst": "02:44:32"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "12:44:38",
+      "time_kst": "02:44:38",
+      "symbol": "AEM",
+      "company_name": "AEM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "12:02:29",
@@ -938,16 +948,6 @@
       "time_kst": "22:46:32",
       "symbol": "BMNR",
       "company_name": "BMNR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:41:09",
-      "time_kst": "22:41:09",
-      "symbol": "BIII",
-      "company_name": "BIII",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
