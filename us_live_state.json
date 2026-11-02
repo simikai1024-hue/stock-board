@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:40:28",
-  "updated_at_et": "2026-11-02 10:40:28",
-  "updated_epoch_ms": 1793634028110,
+  "updated_at_kst": "2026-11-03 00:41:40",
+  "updated_at_et": "2026-11-02 10:41:40",
+  "updated_epoch_ms": 1793634100155,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:40:25"
+    "updated_kst": "00:41:38"
   },
   "stats": {
     "today_total": 19,
@@ -432,6 +432,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "10:40:59",
+      "time_kst": "00:40:59",
+      "symbol": "APOG",
+      "company_name": "APOG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $971.96M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "10:33:03",
@@ -921,16 +931,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $221.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:29:08",
-      "time_kst": "22:29:08",
-      "symbol": "KEP",
-      "company_name": "KEP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
