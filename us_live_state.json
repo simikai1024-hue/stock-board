@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 03:03:06",
-  "updated_at_et": "2026-11-02 13:03:06",
-  "updated_epoch_ms": 1793642586139,
+  "updated_at_kst": "2026-11-03 03:04:15",
+  "updated_at_et": "2026-11-02 13:04:15",
+  "updated_epoch_ms": 1793642655730,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:03:03"
+    "updated_kst": "03:04:13"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "13:03:26",
+      "time_kst": "03:03:26",
+      "symbol": "ERIC",
+      "company_name": "ERIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "12:55:56",
@@ -941,16 +951,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $98.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:54:29",
-      "time_kst": "22:54:29",
-      "symbol": "CHKP",
-      "company_name": "CHKP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $15217.44M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
