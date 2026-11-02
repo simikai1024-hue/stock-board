@@ -453,9 +453,9 @@ function updateMainHeroFromSignal(item, withSound) {
       `매수가: ${price.toLocaleString()}원  |  🎯 목표 익절가(+11%): ${Number(item.target_price||0).toLocaleString()}원`;
     document.getElementById("mainHeroSub").innerText = item.ammo_title || "";
   } else if (sig === "BUY_FAIL") {
-    document.getElementById("mainHeroBadge").innerText = `⚠️ [${tm} 주문 접수 후 미체결 — 매수 실패!]`;
+    document.getElementById("mainHeroBadge").innerText = `❌ [${tm} 주문 접수 후 미체결 — 매수 실패!]`;
     document.getElementById("mainHeroPrice").innerText =
-      `주문 시도 가격: ${price.toLocaleString()}원 → 미체결 자동취소 (손익 0원 · 승률 집계 제외)`;
+      `주문 시도 가격: ${price.toLocaleString()}원 → 미체결 자동취소 (손익 0원 · 자동매매 실패 집계 포함)`;
     document.getElementById("mainHeroSub").innerText = item.note || item.ammo_title || "";
   } else if (sig === "SELL") {
     const isWin = is11PctWin(buyP, price, pnlPct);
@@ -480,14 +480,19 @@ function renderMainLedger(payload) {
   if (lStamp) lastLedgerStamp = lStamp;
   const rows = payload.rows || [];
 
-  // 프론트에서도 +11% 기준 재검증 보장 (미체결 '매수 실패'는 매매 모수·실패 횟수에서 제외!)
+  // 프론트에서도 +11% 기준 재검증 보장 ('매수 실패'도 자동매매 실패로 성공률 모수에 정식 포함!)
   let closedCnt = 0;
   let winCnt = 0;
   let lossCnt = 0;
+  let buyFailCnt = 0;
   rows.forEach((r) => {
-    if (r.status === "OPEN" || r.status === "BUY_FAIL") return;
+    if (r.status === "OPEN") return;
     closedCnt++;
-    if (is11PctWin(r.buy_price, r.sell_price, r.pnl_pct)) {
+    if (r.status === "BUY_FAIL") {
+      r._win11 = false;
+      lossCnt++;
+      buyFailCnt++;
+    } else if (is11PctWin(r.buy_price, r.sell_price, r.pnl_pct)) {
       r._win11 = true;
       winCnt++;
     } else {
@@ -503,7 +508,8 @@ function renderMainLedger(payload) {
 
   document.getElementById("mainTotalPill").innerText = `총 ${closedCnt}번 매매`;
   document.getElementById("mainWinPill").innerText = `⭕ 성공(+11% 달성) ${winCnt}번`;
-  document.getElementById("mainLossPill").innerText = `❌ 실패 ${lossCnt}번`;
+  document.getElementById("mainLossPill").innerText =
+    buyFailCnt > 0 ? `❌ 실패 ${lossCnt}번 (매수실패 ${buyFailCnt})` : `❌ 실패 ${lossCnt}번`;
 
   if (rows.length > 0 && !hasInitMainHero) {
     hasInitMainHero = true;
@@ -514,9 +520,9 @@ function renderMainLedger(payload) {
       document.getElementById("mainHeroPrice").innerText = `매수가: ${Number(top.buy_price||0).toLocaleString()}원`;
     } else if (top.status === "BUY_FAIL") {
       document.getElementById("mainHeroBadge").innerText =
-        `⚠️ [${fmtShortDate(top.date)} ${top.weekday} 주문 미체결 — 매수 실패]`;
+        `❌ [${fmtShortDate(top.date)} ${top.weekday} 주문 미체결 — 매수 실패]`;
       document.getElementById("mainHeroPrice").innerText =
-        `주문 시도 가격: ${Number(top.buy_price||0).toLocaleString()}원 → 미체결 자동취소 (손익 0원 · 승률 집계 제외)`;
+        `주문 시도 가격: ${Number(top.buy_price||0).toLocaleString()}원 → 미체결 자동취소 (손익 0원 · 자동매매 실패 집계 포함)`;
       document.getElementById("mainHeroSub").innerText = top.fail_detail || top.reason || "";
     } else {
       const ok = Boolean(top._win11);
@@ -558,7 +564,7 @@ function renderMainLedger(payload) {
       priceTxt = `${buyP.toLocaleString()}원 주문 → <span style="color:#FDBA74; font-weight:800;">미체결 취소</span>`;
       pnlTxt = `<span style="color:#FDBA74; font-weight:800;">0.00% (0원 · 미체결)</span>` +
         (r.fail_detail ? `<div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">${r.fail_detail}</div>` : "");
-      badgeHtml = `<span class="res-buyfail">⚠️ 매수 실패</span>`;
+      badgeHtml = `<span class="res-buyfail">❌ 매수 실패</span>`;
     } else if (r.status !== "OPEN") {
       badgeHtml = r._win11 ? `<span class="res-win">⭕ 성공</span>` : `<span class="res-loss">❌ 실패</span>`;
     }
@@ -573,9 +579,9 @@ function renderMainLedger(payload) {
     tr.onclick = () => {
       document.getElementById("mainHeroStock").innerText = `${r.name} (${r.code})`;
       if (r.status === "BUY_FAIL") {
-        document.getElementById("mainHeroBadge").innerText = `⚠️ ${r.date} (${r.weekday}) 주문 미체결 — 매수 실패`;
+        document.getElementById("mainHeroBadge").innerText = `❌ ${r.date} (${r.weekday}) 주문 미체결 — 매수 실패`;
         document.getElementById("mainHeroPrice").innerText =
-          `주문 시도 가격: ${buyP.toLocaleString()}원 → 미체결 자동취소 (손익 0원 · 승률 집계 제외)`;
+          `주문 시도 가격: ${buyP.toLocaleString()}원 → 미체결 자동취소 (손익 0원 · 자동매매 실패 집계 포함)`;
         document.getElementById("mainHeroSub").innerText = `${r.fail_detail || ''}\n${r.reason || ''}`.trim();
       } else {
         document.getElementById("mainHeroBadge").innerText = `📅 ${r.date} (${r.weekday}) 매매 상세`;
