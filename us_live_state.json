@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:21:45",
-  "updated_at_et": "2026-11-02 09:21:45",
-  "updated_epoch_ms": 1793629305362,
+  "updated_at_kst": "2026-11-02 23:22:43",
+  "updated_at_et": "2026-11-02 09:22:43",
+  "updated_epoch_ms": 1793629363891,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "KPTI",
+    "company_name": "KPTI",
+    "exchange": "ND",
+    "price": 0.21,
+    "gain_pct": -68.68,
+    "mcap_m": 4.76,
+    "catalyst_hint": "[당일 PR] Karyopharm Therapeutics Inc. Announces Planned Merger with Ayrmid Ltd. to Strengthen Company for the Future",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:22:40",
+    "started_at_kst": "23:22:40",
+    "started_epoch_ms": 1793629360504
   },
   "account": {
     "session_label": "프리장실전",
@@ -16,14 +28,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:21:43"
+    "updated_kst": "23:22:30"
   },
   "stats": {
     "today_total": 17,
     "today_nblm_count": 10,
     "today_buy": 1,
     "today_false": 16,
-    "today_hardcut": 46,
+    "today_hardcut": 47,
     "total_verdicts": 18,
     "total_buy": 1,
     "total_false": 17,
@@ -392,6 +404,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:22:02",
+      "time_kst": "23:22:02",
+      "symbol": "CBZ",
+      "company_name": "CBZ",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:20:02",
