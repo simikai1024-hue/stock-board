@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:28:24",
-  "updated_at_et": "2026-11-02 08:28:24",
-  "updated_epoch_ms": 1793626104265,
+  "updated_at_kst": "2026-11-02 22:29:09",
+  "updated_at_et": "2026-11-02 08:29:09",
+  "updated_epoch_ms": 1793626149821,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:28:21"
+    "updated_kst": "22:29:09"
   },
   "stats": {
     "today_total": 13,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 12,
-    "today_hardcut": 16,
+    "today_hardcut": 17,
     "total_verdicts": 14,
     "total_buy": 1,
     "total_false": 13,
@@ -312,6 +312,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:29:08",
+      "time_kst": "22:29:08",
+      "symbol": "KEP",
+      "company_name": "KEP",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:24:28",
