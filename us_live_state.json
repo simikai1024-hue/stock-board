@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:34:50",
-  "updated_at_et": "2026-11-02 09:34:50",
-  "updated_epoch_ms": 1793630090747,
+  "updated_at_kst": "2026-11-02 23:36:02",
+  "updated_at_et": "2026-11-02 09:36:02",
+  "updated_epoch_ms": 1793630162666,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:34:49"
+    "updated_kst": "23:35:59"
   },
   "stats": {
     "today_total": 18,
     "today_nblm_count": 11,
     "today_buy": 1,
     "today_false": 17,
-    "today_hardcut": 53,
+    "today_hardcut": 54,
     "total_verdicts": 19,
     "total_buy": 1,
     "total_false": 18,
@@ -412,6 +412,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:35:06",
+      "time_kst": "23:35:06",
+      "symbol": "SNN",
+      "company_name": "SNN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:31:21",
@@ -898,16 +908,6 @@
       "time_kst": "22:10:52",
       "symbol": "PRG",
       "company_name": "PRG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:10:47",
-      "time_kst": "22:10:47",
-      "symbol": "AIR",
-      "company_name": "AIR",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
