@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:11:46",
-  "updated_at_et": "2026-11-02 09:11:46",
-  "updated_epoch_ms": 1793628706616,
+  "updated_at_kst": "2026-11-02 23:12:58",
+  "updated_at_et": "2026-11-02 09:12:58",
+  "updated_epoch_ms": 1793628778020,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:11:23"
+    "updated_kst": "23:12:56"
   },
   "stats": {
     "today_total": 15,
     "today_nblm_count": 8,
     "today_buy": 1,
     "today_false": 14,
-    "today_hardcut": 38,
+    "today_hardcut": 39,
     "total_verdicts": 16,
     "total_buy": 1,
     "total_false": 15,
@@ -352,6 +352,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:12:12",
+      "time_kst": "23:12:12",
+      "symbol": "JAGX",
+      "company_name": "Jaguar Health, Inc.",
+      "exchange": "ND",
+      "mcap_m": 3.76,
+      "reason": "실질 시가총액 $167.8M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:11:44",
