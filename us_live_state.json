@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:19:46",
-  "updated_at_et": "2026-11-02 09:19:46",
-  "updated_epoch_ms": 1793629186541,
+  "updated_at_kst": "2026-11-02 23:20:35",
+  "updated_at_et": "2026-11-02 09:20:35",
+  "updated_epoch_ms": 1793629235969,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:19:43"
+    "updated_kst": "23:20:34"
   },
   "stats": {
     "today_total": 17,
     "today_nblm_count": 10,
     "today_buy": 1,
     "today_false": 16,
-    "today_hardcut": 45,
+    "today_hardcut": 46,
     "total_verdicts": 18,
     "total_buy": 1,
     "total_false": 17,
@@ -392,6 +392,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:20:02",
+      "time_kst": "23:20:02",
+      "symbol": "XPEV",
+      "company_name": "XPEV",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:18:25",
