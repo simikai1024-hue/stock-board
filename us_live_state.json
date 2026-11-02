@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 02:43:06",
-  "updated_at_et": "2026-11-02 12:43:06",
-  "updated_epoch_ms": 1793641386387,
+  "updated_at_kst": "2026-11-03 02:43:52",
+  "updated_at_et": "2026-11-02 12:43:52",
+  "updated_epoch_ms": 1793641432147,
   "analyzing": {
-    "active": true,
-    "symbol": "SEGG",
-    "company_name": "Sports Entertainment Gaming Global Corp",
-    "exchange": "ND",
-    "price": 1.69,
-    "gain_pct": 29.74,
-    "mcap_m": 7.11,
-    "catalyst_hint": "[당일 PR] SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "12:43:03",
-    "started_at_kst": "02:43:03",
-    "started_epoch_ms": 1793641383021
+    "active": false
   },
   "account": {
     "session_label": "정규장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:42:52"
+    "updated_kst": "02:43:44"
   },
   "stats": {
-    "today_total": 19,
-    "today_nblm_count": 12,
+    "today_total": 20,
+    "today_nblm_count": 13,
     "today_buy": 1,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
-    "total_verdicts": 20,
+    "total_verdicts": 21,
     "total_buy": 1,
-    "total_false": 19,
-    "avg_nblm_sec": 45.7
+    "total_false": 20,
+    "avg_nblm_sec": 46.0
   },
   "verdicts": [
+    {
+      "id": "v_1793641429910_SEGG_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "12:43:49",
+      "time_kst": "02:43:49",
+      "symbol": "SEGG",
+      "company_name": "Sports Entertainment Gaming Global Corp",
+      "exchange": "ND",
+      "price": 1.69,
+      "gain_pct": 29.74,
+      "mcap_m": 7.11,
+      "decision": "FALSE",
+      "elapsed_sec": 50.0,
+      "reason": "지연된 10-Q 분기보고서의 뒤늦은 제출은 행정적 상폐방어 서류일 뿐 1급 확정 기폭제가 아니며 회계재작성(4.02) 및 상폐이력(25-NSE)으로 전량 차단",
+      "catalyst_hint": "[당일 PR] SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **SEGG (Sports Entertainment Gaming Global Corporation)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.11M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.3026 대비 현재가 $1.6900 (+29.74%), 당일 고가 $1.6900 (+0.0%). 당일 누적 거래대금 $127,402 USD로 수급 유입 규모가 매우 저조한 상태입니다.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n[악성 사전 SEC 이력 적발 (회계부실 및 상폐 절차)]:\n2026-10-08 8-K (Item 4.02): 과거 재무제표 미신뢰(Non-Reliance) 및 회계 재작성 이슈 공시.\n2026-10-20 8-K (Item 3.01): 10-Q 분기보고서 미제출로 인한 나스닥 상장폐지 경고 통지 수령.\n2026-10-29 25-NSE: 나스닥 거래소 상장폐지 절차 진행 공시.\n[당일 D-Day 10-Q 제출 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/02) 제출된 10-Q 공시는 상장폐지 경고를 해소하기 위해 연체되었던 분기보고서를 뒤늦게 제출(Delayed Filing)한 행정적 절차에 불과합니다.\n이는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)가 절대 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 10-Q 제출 공시는 연체 보고서의 뒤늦은 행정 제출에 불과하며, 사전 회계재작성(4.02) 및 상폐절차(25-NSE) 리스크가 잔존하므로 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: SEGG NOTES:\n[SEGG] 지연된 10-Q 분기보고서의 뒤늦은 제출은 행정적 상폐방어 서류일 뿐 1급 확정 기폭제가 아니며 회계재작성(4.02) 및 상폐이력(25-NSE)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793631005117_CAPS_FALSE",
       "date_et": "2026-11-02",
