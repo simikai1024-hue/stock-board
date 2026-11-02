@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:24:37",
-  "updated_at_et": "2026-11-02 09:24:37",
-  "updated_epoch_ms": 1793629477495,
+  "updated_at_kst": "2026-11-02 23:25:20",
+  "updated_at_et": "2026-11-02 09:25:20",
+  "updated_epoch_ms": 1793629520642,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:24:34"
+    "updated_kst": "23:24:59"
   },
   "stats": {
     "today_total": 18,
     "today_nblm_count": 11,
     "today_buy": 1,
     "today_false": 17,
-    "today_hardcut": 47,
+    "today_hardcut": 48,
     "total_verdicts": 19,
     "total_buy": 1,
     "total_false": 18,
@@ -412,6 +412,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:25:18",
+      "time_kst": "23:25:18",
+      "symbol": "WPP",
+      "company_name": "WPP",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:22:02",
