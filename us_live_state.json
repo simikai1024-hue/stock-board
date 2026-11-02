@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:31:06",
-  "updated_at_et": "2026-11-02 09:31:06",
-  "updated_epoch_ms": 1793629866614,
+  "updated_at_kst": "2026-11-02 23:31:55",
+  "updated_at_et": "2026-11-02 09:31:55",
+  "updated_epoch_ms": 1793629915317,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:31:03"
+    "updated_kst": "23:31:52"
   },
   "stats": {
     "today_total": 18,
     "today_nblm_count": 11,
     "today_buy": 1,
     "today_false": 17,
-    "today_hardcut": 52,
+    "today_hardcut": 53,
     "total_verdicts": 19,
     "total_buy": 1,
     "total_false": 18,
@@ -412,6 +412,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:31:21",
+      "time_kst": "23:31:21",
+      "symbol": "KVUE",
+      "company_name": "KVUE",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:30:16",
@@ -901,16 +911,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 — 거래소=NYQ)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:10:45",
-      "time_kst": "22:10:45",
-      "symbol": "VBIO",
-      "company_name": "VBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시"
     }
   ]
 }
