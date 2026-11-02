@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:01:04",
-  "updated_at_et": "2026-11-02 09:01:04",
-  "updated_epoch_ms": 1793628064759,
+  "updated_at_kst": "2026-11-02 23:01:54",
+  "updated_at_et": "2026-11-02 09:01:54",
+  "updated_epoch_ms": 1793628114004,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:00:42"
+    "updated_kst": "23:01:52"
   },
   "stats": {
     "today_total": 15,
     "today_nblm_count": 8,
     "today_buy": 1,
     "today_false": 14,
-    "today_hardcut": 32,
+    "today_hardcut": 33,
     "total_verdicts": 16,
     "total_buy": 1,
     "total_false": 15,
@@ -352,6 +352,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "09:01:26",
+      "time_kst": "23:01:26",
+      "symbol": "BSVN",
+      "company_name": "BSVN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $558.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "09:01:03",
