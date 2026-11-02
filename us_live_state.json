@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 04:44:08",
-  "updated_at_et": "2026-11-02 14:44:08",
-  "updated_epoch_ms": 1793648648141,
+  "updated_at_kst": "2026-11-03 04:44:56",
+  "updated_at_et": "2026-11-02 14:44:56",
+  "updated_epoch_ms": 1793648696929,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:44:06"
+    "updated_kst": "04:44:54"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "14:44:09",
+      "time_kst": "04:44:09",
+      "symbol": "BCS",
+      "company_name": "BCS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "14:44:06",
@@ -941,16 +951,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:02:59",
-      "time_kst": "23:02:59",
-      "symbol": "ELVA",
-      "company_name": "ELVA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $182.98M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
