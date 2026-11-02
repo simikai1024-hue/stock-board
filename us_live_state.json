@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:41:40",
-  "updated_at_et": "2026-11-02 10:41:40",
-  "updated_epoch_ms": 1793634100155,
+  "updated_at_kst": "2026-11-03 00:42:24",
+  "updated_at_et": "2026-11-02 10:42:24",
+  "updated_epoch_ms": 1793634144459,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:41:38"
+    "updated_kst": "00:42:02"
   },
   "stats": {
     "today_total": 19,
@@ -432,6 +432,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "10:42:22",
+      "time_kst": "00:42:22",
+      "symbol": "GSK",
+      "company_name": "GSK",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "10:40:59",
@@ -921,16 +931,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $909.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:30:41",
-      "time_kst": "22:30:41",
-      "symbol": "WAVE",
-      "company_name": "WAVE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $221.91M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
