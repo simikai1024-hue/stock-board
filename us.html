@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미국판 달의 검 V5 · NotebookLM 실시간 심문 전광판</title>
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
+  body { background-color: #0B1120; color: #F8FAFC; padding: 16px; max-width: 1260px; margin: 0 auto; line-height: 1.48; }
+
+  /* 상단 헤더 */
+  .header-bar {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    background: #111C33; border: 1px solid #243556; border-radius: 14px; padding: 14px 20px; margin-bottom: 12px;
+  }
+  .header-title { font-size: 21px; font-weight: 900; color: #FDE047; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .header-sub-tag {
+    font-size: 12.5px; font-weight: 900; padding: 3px 9px; border-radius: 999px;
+    background: rgba(56, 189, 248, 0.18); border: 1px solid #38BDF8; color: #7DD3FC;
+  }
+  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .clock-txt {
+    font-size: 13.5px; font-weight: 800; color: #E2E8F0; background: #0F172A;
+    border: 1px solid #334155; padding: 6px 12px; border-radius: 8px;
+  }
+  .status-txt { font-size: 14px; font-weight: 800; color: #FBBF24; }
+  .sound-btn {
+    background: #1E293B; color: #E2E8F0; border: 1px solid #475569; border-radius: 8px;
+    padding: 7px 13px; font-size: 13.5px; font-weight: 800; cursor: pointer; transition: 0.15s;
+  }
+  .sound-btn:hover { background: #334155; color: #FFFFFF; }
+  .sound-btn.on { background: #064E3B; border-color: #10B981; color: #A7F3D0; }
+
+  /* 계좌 & 레이더 상태 스트립 */
+  .radar-strip {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    background: #0F192E; border: 1px solid #1E3A5F; border-radius: 12px;
+    padding: 11px 18px; margin-bottom: 14px; font-size: 14.5px; font-weight: 800; color: #CBD5E1;
+  }
+  .radar-pos-pill {
+    padding: 5px 13px; border-radius: 999px; font-size: 14px; font-weight: 900;
+    background: rgba(16, 185, 129, 0.15); border: 1px solid #10B981; color: #6EE7B7;
+  }
+  .radar-pos-pill.holding {
+    background: rgba(245, 158, 11, 0.22); border-color: #F59E0B; color: #FDE047;
+  }
+
+  /* 메인 히어로: 실시간 NotebookLM 분석 모니터 */
+  @keyframes pulseGlow {
+    0%   { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.45), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #38BDF8; }
+    50%  { box-shadow: 0 0 24px 4px rgba(250, 204, 21, 0.40), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #FACC15; }
+    100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.45), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #38BDF8; }
+  }
+  @keyframes spinDot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: 0.35; transform: scale(1.28); }
+  }
+
+  .hero-card {
+    background: linear-gradient(145deg, #13223F 0%, #0E172A 100%);
+    border: 2px solid #2A3F66; border-radius: 18px; padding: 22px 26px;
+    margin-bottom: 16px; transition: all 0.2s;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.42);
+  }
+  .hero-card.analyzing {
+    background: linear-gradient(145deg, #172B4D 0%, #1E1B4B 100%);
+    animation: pulseGlow 1.8s infinite;
+  }
+  .hero-card.buy-mode {
+    background: linear-gradient(145deg, #063729 0%, #0E172A 100%);
+    border-color: #10B981;
+  }
+  .hero-card.false-mode {
+    background: linear-gradient(145deg, #1A1E36 0%, #0E172A 100%);
+    border-color: #475569;
+  }
+
+  .hero-top-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+  .hero-badge { font-size: 16px; font-weight: 900; color: #38BDF8; display: flex; align-items: center; gap: 8px; }
+  .live-dot {
+    display: inline-block; width: 11px; height: 11px; border-radius: 50%;
+    background: #FACC15; animation: spinDot 1s infinite;
+  }
+  .hero-timer-pill {
+    font-size: 14.5px; font-weight: 900; padding: 5px 13px; border-radius: 999px;
+    background: #0F172A; border: 1px solid #475569; color: #FDE047;
+  }
+
+  .hero-main-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 6px 0 10px 0; }
+  .hero-ticker { font-size: 36px; font-weight: 900; color: #FFFFFF; letter-spacing: 0.5px; }
+  .ex-badge {
+    font-size: 13.5px; font-weight: 900; padding: 4px 10px; border-radius: 7px;
+    background: rgba(59, 130, 246, 0.22); border: 1px solid #60A5FA; color: #BFDBFE;
+  }
+  .ex-badge.am { background: rgba(168, 85, 247, 0.22); border-color: #C084FC; color: #E9D5FF; }
+  .ex-badge.ny { background: rgba(239, 68, 68, 0.20); border-color: #F87171; color: #FECACA; }
+
+  .verdict-big-pill {
+    font-size: 20px; font-weight: 900; padding: 7px 20px; border-radius: 999px;
+  }
+  .verdict-big-pill.buy {
+    background: rgba(16, 185, 129, 0.25); border: 2px solid #10B981; color: #4ADE80;
+    box-shadow: 0 0 18px rgba(16, 185, 129, 0.35);
+  }
+  .verdict-big-pill.false {
+    background: rgba(239, 68, 68, 0.18); border: 2px solid #EF4444; color: #FCA5A5;
+  }
+  .verdict-big-pill.wait {
+    background: rgba(250, 204, 21, 0.20); border: 2px solid #FACC15; color: #FDE047;
+  }
+
+  .hero-meta { font-size: 17px; font-weight: 800; color: #E2E8F0; margin-bottom: 10px; }
+  .hero-reason-box {
+    background: rgba(15, 23, 42, 0.72); border-left: 4px solid #38BDF8;
+    border-radius: 10px; padding: 13px 16px; font-size: 16.5px; font-weight: 800;
+    color: #F8FAFC; line-height: 1.55;
+  }
+  .hero-reason-box.buy { border-left-color: #10B981; color: #D1FAE5; }
+  .hero-reason-box.false { border-left-color: #EF4444; color: #FEE2E2; }
+
+  /* 연구소장 원문 접기/펼치기 */
+  details.director-fold {
+    margin-top: 12px; background: rgba(15, 23, 42, 0.78); border: 1.5px solid #475569;
+    border-radius: 12px; overflow: hidden;
+  }
+  details.director-fold summary {
+    list-style: none; cursor: pointer; padding: 11px 16px;
+    font-size: 15px; font-weight: 900; color: #FDE047;
+    background: linear-gradient(90deg, rgba(30, 58, 138, 0.45), rgba(30, 41, 59, 0.55));
+    display: flex; justify-content: space-between; align-items: center; user-select: none;
+  }
+  details.director-fold summary::-webkit-details-marker { display: none; }
+  details.director-fold .fold-arrow::after { content: "▼ 클릭해서 NotebookLM 심사 전문 펼치기"; font-size: 13px; color: #93C5FD; }
+  details.director-fold[open] .fold-arrow::after { content: "▲ 전문 접기"; color: #A7F3D0; }
+  .director-full-text {
+    padding: 15px 18px; font-size: 15px; line-height: 1.72; color: #F1F5F9;
+    white-space: pre-wrap; border-top: 1px solid rgba(148, 163, 184, 0.25);
+  }
+
+  /* 요약 통계 알약 바 */
+  .stats-row {
+    display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;
+  }
+  .stat-pill {
+    padding: 9px 16px; border-radius: 12px; font-size: 15px; font-weight: 900;
+    background: #131F37; border: 1px solid #2A3F66; color: #F8FAFC;
+  }
+  .stat-pill.buy { background: rgba(16, 185, 129, 0.16); border-color: #10B981; color: #6EE7B7; }
+  .stat-pill.false { background: rgba(239, 68, 68, 0.14); border-color: #EF4444; color: #FCA5A5; }
+  .stat-pill.speed { background: rgba(56, 189, 248, 0.15); border-color: #38BDF8; color: #7DD3FC; }
+  .stat-pill.hc { background: rgba(148, 163, 184, 0.14); border-color: #64748B; color: #CBD5E1; }
+
+  /* 필터 탭 & 섹션 바 */
+  .section-bar {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    margin: 6px 0 12px 0;
+  }
+  .section-title { font-size: 20px; font-weight: 900; color: #F8FAFC; }
+  .filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 8px 15px; border-radius: 10px; border: 1px solid #334155;
+    background: #1E293B; color: #CBD5E1; font-size: 14px; font-weight: 900; cursor: pointer; transition: 0.15s;
+  }
+  .filter-btn:hover { border-color: #60A5FA; color: #FFFFFF; }
+  .filter-btn.active { background: #2563EB; border-color: #60A5FA; color: #FFFFFF; }
+  .filter-btn.active-buy { background: #059669; border-color: #34D399; color: #FFFFFF; }
+  .filter-btn.active-false { background: #DC2626; border-color: #F87171; color: #FFFFFF; }
+
+  /* 판정 테이블 */
+  .table-card {
+    background: #111C33; border: 1px solid #2A3D63; border-radius: 16px;
+    overflow-x: auto; margin-bottom: 24px;
+  }
+  table { width: 100%; border-collapse: collapse; min-width: 760px; }
+  th {
+    background: #0F172A; color: #E2E8F0; font-size: 15px; font-weight: 900;
+    padding: 14px 12px; border-bottom: 2px solid #334155; text-align: center;
+  }
+  td {
+    padding: 14px 12px; border-bottom: 1px solid rgba(148, 163, 184, 0.14); font-size: 15.5px;
+    text-align: center; font-weight: 700; color: #F1F5F9; vertical-align: middle; transition: filter 0.12s;
+  }
+  tbody tr:hover td { filter: brightness(1.15); cursor: pointer; }
+  tr.date-group-start td { border-top: 2.5px solid #475569; }
+
+  /* 요일별 배경 테마 (어머니 전광판 동일 감성) */
+  tr.wk-mon td { background-color: #172133; }
+  tr.wk-mon td:first-child { border-left: 5px solid #94A3B8; }
+  .wk-badge.mon { background: rgba(148, 163, 184, 0.22); color: #E2E8F0; border: 1px solid #94A3B8; }
+
+  tr.wk-tue td { background-color: #211834; }
+  tr.wk-tue td:first-child { border-left: 5px solid #C084FC; }
+  .wk-badge.tue { background: rgba(192, 132, 252, 0.22); color: #E9D5FF; border: 1px solid #C084FC; }
+
+  tr.wk-wed td { background-color: #122628; }
+  tr.wk-wed td:first-child { border-left: 5px solid #2DD4BF; }
+  .wk-badge.wed { background: rgba(45, 212, 191, 0.20); color: #99F6E4; border: 1px solid #2DD4BF; }
+
+  tr.wk-thu td { background-color: #152443; }
+  tr.wk-thu td:first-child { border-left: 5px solid #60A5FA; }
+  .wk-badge.thu { background: rgba(96, 165, 250, 0.22); color: #BFDBFE; border: 1px solid #60A5FA; }
+
+  tr.wk-fri td { background-color: #251F14; }
+  tr.wk-fri td:first-child { border-left: 5px solid #FBBF24; }
+  .wk-badge.fri { background: rgba(251, 191, 36, 0.22); color: #FEF08A; border: 1px solid #FBBF24; }
+
+  .wk-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 13px; font-weight: 900; margin-left: 4px;
+  }
+
+  .res-buy {
+    display: inline-block; padding: 7px 18px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
+    background: rgba(16, 185, 129, 0.24); border: 1.5px solid #10B981; color: #4ADE80;
+  }
+  .res-false {
+    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16px; font-weight: 900;
+    background: rgba(239, 68, 68, 0.18); border: 1.5px solid #EF4444; color: #FCA5A5;
+  }
+  .res-hc {
+    display: inline-block; padding: 5px 12px; border-radius: 999px; font-size: 14px; font-weight: 900;
+    background: rgba(100, 116, 139, 0.25); border: 1px solid #94A3B8; color: #CBD5E1;
+  }
+
+  .reason-cell {
+    text-align: left; font-size: 15px; line-height: 1.5; color: #F1F5F9; max-width: 520px;
+  }
+  .engine-mini {
+    display: inline-block; font-size: 11.5px; font-weight: 900; padding: 2px 7px; border-radius: 5px;
+    background: rgba(56, 189, 248, 0.16); border: 1px solid rgba(56, 189, 248, 0.45); color: #7DD3FC;
+    margin-right: 6px; vertical-align: middle;
+  }
+  .engine-mini.legacy {
+    background: rgba(148, 163, 184, 0.15); border-color: #64748B; color: #94A3B8;
+  }
+  .more-report-chip {
+    display: inline-block; margin-left: 6px; font-size: 12px; font-weight: 900;
+    color: #FDE047; background: rgba(250, 204, 21, 0.14); border: 1px solid rgba(250, 204, 21, 0.4);
+    padding: 1px 7px; border-radius: 5px;
+  }
+
+  @media (max-width: 760px) {
+    .hero-ticker { font-size: 28px; }
+    .header-title { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- 상단 바 -->
+  <div class="header-bar">
+    <div class="header-title">
+      🦅 미국판 달의 검 V5 · NotebookLM 실시간 전광판
+      <span class="header-sub-tag">ND · AM 전용 · 시총 $50M↓ · 지메일 0% 직통</span>
+    </div>
+    <div class="header-right">
+      <span class="clock-txt" id="dualClockLbl">🇺🇸 --:--:-- ET · 🇰🇷 --:--:-- KST</span>
+      <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
+      <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 켜기</button>
+    </div>
+  </div>
+
+  <!-- 계좌 및 레이더 가동 상태 바 -->
+  <div class="radar-strip">
+    <div id="radarLeftTxt">📡 레이더 상태 불러오는 중...</div>
+    <div class="radar-pos-pill" id="radarPosPill">🎯 신규 타격 대기 중</div>
+  </div>
+
+  <!-- 메인 히어로: 실시간 분석 모니터 / 최근 판결 상세 -->
+  <div class="hero-card" id="heroCard">
+    <div class="hero-top-row">
+      <div class="hero-badge" id="heroBadge">📡 NotebookLM 연구소장 실시간 심문 모니터</div>
+      <div class="hero-timer-pill" id="heroTimerPill">대기 중</div>
+    </div>
+    <div class="hero-main-row">
+      <span class="hero-ticker" id="heroTicker">대기 중...</span>
+      <span class="ex-badge" id="heroExBadge" style="display:none;">ND</span>
+      <span class="verdict-big-pill wait" id="heroVerdictPill">신규 공시·PR 감시 중</span>
+    </div>
+    <div class="hero-meta" id="heroMeta">프리장(04:00 ET / 17:00 KST) ~ 정규장(15:00 ET) 동안 1차 하드컷을 통과한 종목이 포착되면 즉시 NotebookLM 심문이 시작됩니다.</div>
+    <div class="hero-reason-box" id="heroReasonBox">종목 심문이 시작되면 이곳에 실시간 분석 경과 초시계와 최종 BUY / FALSE 판정 사유가 즉시 표시됩니다.</div>
+
+    <details id="heroFullReportFold" class="director-fold" style="display:none;">
+      <summary>
+        <span id="heroFoldTitle">📖 NotebookLM 연구소장 원문 직독 심사 전문 보기</span>
+        <span class="fold-arrow"></span>
+      </summary>
+      <div class="director-full-text" id="heroFullReportBody"></div>
+    </details>
+  </div>
+
+  <!-- 요약 통계 알약 바 -->
+  <div class="stats-row">
+    <span class="stat-pill" id="statTodayTotal">오늘 심문 0건 (누적 0건)</span>
+    <span class="stat-pill buy" id="statBuyCnt">🔥 BUY 승인 0건</span>
+    <span class="stat-pill false" id="statFalseCnt">🛡️ FALSE 차단 0건</span>
+    <span class="stat-pill speed" id="statAvgSec">⚡ 평균 심문시간 --초</span>
+    <span class="stat-pill hc" id="statHardcutCnt">🛑 오늘 1차 하드컷 자체차단 0건</span>
+  </div>
+
+  <!-- 필터 탭 & 판정 피드 테이블 -->
+  <div class="section-bar">
+    <div class="section-title" id="tableTitleLbl">📋 NotebookLM 종목별 BUY / FALSE 실시간 판정 기록</div>
+    <div class="filter-tabs">
+      <button id="fBtnAll" class="filter-btn active" onclick="setFilterMode('all')">전체 판정</button>
+      <button id="fBtnBuy" class="filter-btn" onclick="setFilterMode('buy')">🔥 BUY 승인만</button>
+      <button id="fBtnFalse" class="filter-btn" onclick="setFilterMode('false')">🛡️ FALSE 차단만</button>
+      <button id="fBtnHc" class="filter-btn" onclick="setFilterMode('hardcut')">🛑 1차 파이썬 하드컷</button>
+    </div>
+  </div>
+
+  <div class="table-card">
+    <table>
+      <thead id="boardThead">
+        <tr>
+          <th style="width:165px;">심문 시각 (ET / KST)</th>
+          <th style="width:210px;">종목 (거래소 · 체급)</th>
+          <th style="width:155px;">BUY / FALSE 판정</th>
+          <th>핵심 판정 사유 (클릭 시 상단 전문 보기)</th>
+        </tr>
+      </thead>
+      <tbody id="boardTbody">
+        <tr><td colspan="4" style="padding:28px; color:#94A3B8;">미국장 판정 데이터를 불러오는 중입니다...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+<script>
+const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
+const TOPIC_US_STATE = "us_whale_nblm_board_2026/state";
+const TOPIC_US_LIVE  = "us_whale_nblm_board_2026/live";
+
+let audioCtx = null;
+let soundEnabled = false;
+let filterMode = "all"; // 'all' | 'buy' | 'false' | 'hardcut'
+let cachedState = null;
+let lastEpochMs = 0;
+let selectedVerdictId = "";
+let analyzingStartMs = 0;
+let isCurrentlyAnalyzing = false;
+const seenLiveIds = new Set();
+
+/* 실시간 ET / KST 듀얼 시계 & 분석 중 초시계 */
+function tickClocks() {
+  try {
+    const now = new Date();
+    const etStr = now.toLocaleTimeString("en-GB", { timeZone: "America/New_York", hour12: false });
+    const kstStr = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false });
+    document.getElementById("dualClockLbl").innerText = `🇺🇸 ${etStr} ET · 🇰🇷 ${kstStr} KST`;
+
+    if (isCurrentlyAnalyzing && analyzingStartMs > 0) {
+      const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
+      document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
+    }
+  } catch (e) {}
+}
+setInterval(tickClocks, 1000);
+tickClocks();
+
+/* 알림음 컨트롤 */
+function toggleSound() {
+  if (!audioCtx) {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AC();
+  }
+  if (audioCtx.state === "suspended") audioCtx.resume();
+  soundEnabled = !soundEnabled;
+  const btn = document.getElementById("soundBtn");
+  if (soundEnabled) {
+    btn.className = "sound-btn on";
+    btn.innerText = "🔊 알림음 켜짐";
+    playEventSound("ANALYZING");
+  } else {
+    btn.className = "sound-btn";
+    btn.innerText = "🔔 알림음 켜기";
+  }
+}
+
+function playTone(freq, startOffset, duration, vol = 0.25, wave = "triangle") {
+  if (!soundEnabled || !audioCtx) return;
+  const osc = audioCtx.createOscillator();
+  const gain = audioCtx.createGain();
+  osc.type = wave;
+  osc.frequency.setValueAtTime(freq, audioCtx.currentTime + startOffset);
+  gain.gain.setValueAtTime(vol, audioCtx.currentTime + startOffset);
+  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + startOffset + duration);
+  osc.connect(gain);
+  gain.connect(audioCtx.destination);
+  osc.start(audioCtx.currentTime + startOffset);
+  osc.stop(audioCtx.currentTime + startOffset + duration);
+}
+
+function playEventSound(evType) {
+  if (!soundEnabled) return;
+  if (evType === "ANALYZING") {
+    // 부드러운 레이더 스캔 시작음 (딩-동)
+    playTone(587.33, 0.0, 0.14, 0.20, "sine");
+    playTone(880.00, 0.15, 0.22, 0.22, "sine");
+  } else if (evType === "VERDICT_BUY" || evType === "TRADE_BUY") {
+    // 웅장한 상승 팡파레 4화음
+    playTone(523.25, 0.00, 0.16, 0.30, "triangle");
+    playTone(659.25, 0.16, 0.16, 0.30, "triangle");
+    playTone(783.99, 0.32, 0.16, 0.30, "triangle");
+    playTone(1046.50, 0.48, 0.38, 0.34, "triangle");
+  } else if (evType === "VERDICT_FALSE") {
+    // 차분한 차단 확인음
+    playTone(440.00, 0.00, 0.12, 0.16, "sine");
+    playTone(349.23, 0.13, 0.18, 0.16, "sine");
+  }
+}
+
+function fmtShortDate(dtStr) {
+  if (!dtStr || dtStr.length < 10) return dtStr || "-";
+  return `${Number(dtStr.slice(5, 7))}/${Number(dtStr.slice(8, 10))}`;
+}
+
+function getWeekdayThemeKey(dtStr) {
+  if (!dtStr || dtStr.length < 10) return "mon";
+  const parts = dtStr.slice(0, 10).split("-").map(Number);
+  const d = new Date(parts[0], parts[1] - 1, parts[2]);
+  const day = d.getDay();
+  if (day === 1) return "mon";
+  if (day === 2) return "tue";
+  if (day === 3) return "wed";
+  if (day === 4) return "thu";
+  if (day === 5) return "fri";
+  return "mon";
+}
+
+function styleExBadge(el, ex) {
+  const exU = String(ex || "ND").toUpperCase();
+  el.style.display = "inline-block";
+  el.innerText = exU === "ND" ? "NASDAQ (ND)" : (exU === "AM" ? "AMEX (AM)" : exU);
+  el.className = "ex-badge" + (exU === "AM" ? " am" : (exU === "NY" ? " ny" : ""));
+}
+
+function setFilterMode(mode) {
+  filterMode = mode;
+  document.getElementById("fBtnAll").className = mode === "all" ? "filter-btn active" : "filter-btn";
+  document.getElementById("fBtnBuy").className = mode === "buy" ? "filter-btn active-buy" : "filter-btn";
+  document.getElementById("fBtnFalse").className = mode === "false" ? "filter-btn active-false" : "filter-btn";
+  document.getElementById("fBtnHc").className = mode === "hardcut" ? "filter-btn active" : "filter-btn";
+  if (cachedState) renderBoard(cachedState, true);
+}
+
+function renderHeroVerdict(v, openReport = false) {
+  if (!v) return;
+  isCurrentlyAnalyzing = false;
+  analyzingStartMs = 0;
+
+  const isBuy = v.decision === "BUY";
+  const heroCard = document.getElementById("heroCard");
+  heroCard.className = "hero-card " + (isBuy ? "buy-mode" : "false-mode");
+
+  document.getElementById("heroBadge").innerHTML =
+    `📌 최근 NotebookLM 심문 결과 (${v.date_et} ${v.time_et} ET · 한국 ${v.time_kst || '-'} KST)`;
+  document.getElementById("heroTimerPill").innerText = `⏱️ 심문 소요: ${Number(v.elapsed_sec || 0).toFixed(1)}초`;
+
+  const compTxt = (v.company_name && v.company_name !== v.symbol) ? ` · ${v.company_name}` : "";
+  document.getElementById("heroTicker").innerText = `${v.symbol}${compTxt}`;
+  styleExBadge(document.getElementById("heroExBadge"), v.exchange);
+
+  const vPill = document.getElementById("heroVerdictPill");
+  vPill.className = "verdict-big-pill " + (isBuy ? "buy" : "false");
+  vPill.innerText = isBuy ? "🔥 BUY (즉시 매수 승인!)" : "🛡️ FALSE (매수 차단)";
+
+  const px = Number(v.price || 0);
+  const gn = Number(v.gain_pct || 0);
+  const mc = Number(v.mcap_m || 0);
+  const metaParts = [];
+  if (px > 0) metaParts.push(`심문 시점가: $${px.toFixed(4)} (${gn >= 0 ? '+' : ''}${gn.toFixed(2)}%)`);
+  if (mc > 0) metaParts.push(`실질 시총: $${mc.toFixed(2)}M USD`);
+  if (v.trade_action) metaParts.push(`실전 조치: ${v.trade_action}`);
+  document.getElementById("heroMeta").innerText = metaParts.join("   |   ") || `판정 엔진: ${v.engine || 'NotebookLM 직통'}`;
+
+  const rBox = document.getElementById("heroReasonBox");
+  rBox.className = "hero-reason-box " + (isBuy ? "buy" : "false");
+  const catLine = v.catalyst_hint ? `📰 포착 공시/PR: ${v.catalyst_hint}\n` : "";
+  rBox.innerText = `${catLine}💡 핵심 사유: ${v.reason || '-'}`;
+
+  const fold = document.getElementById("heroFullReportFold");
+  if (v.full_report && v.full_report.trim().length > 10) {
+    fold.style.display = "block";
+    document.getElementById("heroFoldTitle").innerText =
+      `📖 [${v.symbol}] NotebookLM 연구소장 원문 직독 심사 전문 전체 보기`;
+    document.getElementById("heroFullReportBody").innerText = v.full_report;
+    if (openReport) fold.open = true;
+  } else {
+    fold.style.display = "none";
+    fold.open = false;
+  }
+}
+
+function renderHeroAnalyzing(an) {
+  isCurrentlyAnalyzing = true;
+  analyzingStartMs = Number(an.started_epoch_ms || Date.now());
+
+  const heroCard = document.getElementById("heroCard");
+  heroCard.className = "hero-card analyzing";
+
+  const qTxt = Number(an.queue_remaining || 0) > 0 ? ` · 뒤이어 대기열 ${an.queue_remaining}종목` : "";
+  document.getElementById("heroBadge").innerHTML =
+    `<span class="live-dot"></span> 🧠 지금 NotebookLM 연구소장이 원문 서류철을 정밀 심문하고 있습니다!! (${an.mode_label || '실시간 심문'}${qTxt})`;
+
+  const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
+  document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
+
+  const compTxt = (an.company_name && an.company_name !== an.symbol) ? ` · ${an.company_name}` : "";
+  document.getElementById("heroTicker").innerText = `${an.symbol}${compTxt}`;
+  styleExBadge(document.getElementById("heroExBadge"), an.exchange);
+
+  const vPill = document.getElementById("heroVerdictPill");
+  vPill.className = "verdict-big-pill wait";
+  vPill.innerText = "🧠 BUY / FALSE 판결 도출 중...";
+
+  const px = Number(an.price || 0);
+  const gn = Number(an.gain_pct || 0);
+  const mc = Number(an.mcap_m || 0);
+  const metaParts = [];
+  if (px > 0) metaParts.push(`현재 포착가: $${px.toFixed(4)} (${gn >= 0 ? '+' : ''}${gn.toFixed(2)}%)`);
+  if (mc > 0) metaParts.push(`실질 시총: $${mc.toFixed(2)}M USD`);
+  metaParts.push(`시작 시각: ${an.started_at_et || ''} ET (${an.started_at_kst || ''} KST)`);
+  document.getElementById("heroMeta").innerText = metaParts.join("   |   ");
+
+  const rBox = document.getElementById("heroReasonBox");
+  rBox.className = "hero-reason-box";
+  rBox.innerText = an.catalyst_hint
+    ? `📄 심사 중인 당일 공시·PR: ${an.catalyst_hint}\n🔎 포트 9333 상시 예열 크롬에서 [실시간 긴급결재 원문서류철] + [29종목 진위 족보집] 교차 검증 중...`
+    : `🔎 포트 9333 상시 예열 크롬에서 [실시간 긴급결재 원문서류철] + [29종목 진위 족보집] 교차 검증 중...`;
+
+  document.getElementById("heroFullReportFold").style.display = "none";
+}
+
+function renderBoard(state, forceRender = false) {
+  if (!state) return;
+  const incomingMs = Number(state.updated_epoch_ms || 0);
+  if (!forceRender && lastEpochMs > 0 && incomingMs > 0 && incomingMs < lastEpochMs) {
+    return; // 구버전 캐시 역전 방지
+  }
+  if (incomingMs > 0) lastEpochMs = incomingMs;
+  cachedState = state;
+
+  // 1) 계좌 & 레이더 상태 바
+  const acc = state.account || {};
+  const wlCnt = Number(acc.watchlist_count || 168);
+  const usd = Number(acc.orderable_usd || 0);
+  const sess = acc.session_label || "프리장실전";
+  const doneTxt = acc.daily_done ? "🔒 금일 1회 매매 완료(계좌보호 잠금)" : "🟢 금일 타격 가능";
+  document.getElementById("radarLeftTxt").innerText =
+    `📡 [${sess}] 잠복 감시 ${wlCnt}종목 (ND·AM 전용)   |   💵 주문가능 외화: $${usd.toFixed(2)} USD   |   ${doneTxt}`;
+
+  const posPill = document.getElementById("radarPosPill");
+  if (acc.holding_symbol && Number(acc.holding_qty || 0) > 0) {
+    const pRt = Number(acc.profit_rate || 0);
+    posPill.className = "radar-pos-pill holding";
+    posPill.innerText =
+      `🚀 실전 보유 중: ${acc.holding_symbol} (${acc.holding_qty}주) | 평단 $${Number(acc.avg_price||0).toFixed(4)} → 현재 $${Number(acc.current_price||0).toFixed(4)} (${pRt>=0?'+':''}${pRt.toFixed(2)}%)`;
+  } else {
+    posPill.className = "radar-pos-pill";
+    posPill.innerText = acc.daily_done ? "🏁 금일 실전 매매 종료 (내일 개장 대기)" : "🎯 NotebookLM BUY 승인 대기 중";
+  }
+
+  // 2) 통계 알약 바
+  const st = state.stats || {};
+  document.getElementById("statTodayTotal").innerText =
+    `오늘 심문 ${Number(st.today_total || 0)}건 (누적 ${Number(st.total_verdicts || 0)}건)`;
+  document.getElementById("statBuyCnt").innerText =
+    `🔥 BUY 승인: 오늘 ${Number(st.today_buy || 0)}건 (누적 ${Number(st.total_buy || 0)}건)`;
+  document.getElementById("statFalseCnt").innerText =
+    `🛡️ FALSE 차단: 오늘 ${Number(st.today_false || 0)}건 (누적 ${Number(st.total_false || 0)}건)`;
+  document.getElementById("statAvgSec").innerText =
+    `⚡ 평균 심문시간: ${Number(st.avg_nblm_sec || 0).toFixed(1)}초`;
+  document.getElementById("statHardcutCnt").innerText =
+    `🛑 오늘 1차 하드컷 자체차단: ${Number(st.today_hardcut || 0)}건`;
+
+  // 3) 메인 히어로 카드 (분석 중이면 최우선 점등!)
+  const an = state.analyzing || {};
+  const verdicts = state.verdicts || [];
+  if (an.active && an.symbol) {
+    renderHeroAnalyzing(an);
+  } else if (verdicts.length > 0) {
+    const chosen = (selectedVerdictId && verdicts.find(x => x.id === selectedVerdictId)) || verdicts[0];
+    renderHeroVerdict(chosen, false);
+  }
+
+  // 4) 테이블 렌더링
+  const tbody = document.getElementById("boardTbody");
+  const thead = document.getElementById("boardThead");
+  tbody.innerHTML = "";
+
+  if (filterMode === "hardcut") {
+    document.getElementById("tableTitleLbl").innerText = "🛑 파이썬 1차 하드컷 자체 차단 로그 (NotebookLM 호출 전 0.1초 즉시 컷)";
+    thead.innerHTML = `
+      <tr>
+        <th style="width:165px;">차단 시각 (ET / KST)</th>
+        <th style="width:210px;">종목 (거래소 · 시총)</th>
+        <th style="width:155px;">1차 필터 판정</th>
+        <th>파이썬 0.1초 자체 차단 사유</th>
+      </tr>
+    `;
+    const hcs = state.hardcuts || [];
+    if (hcs.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="4" style="padding:28px; color:#94A3B8;">아직 기록된 금일 1차 하드컷 차단 내역이 없습니다. (다음 포착부터 실시간 기록됩니다)</td></tr>`;
+      return;
+    }
+    hcs.forEach((h) => {
+      const wkKey = getWeekdayThemeKey(h.date_et);
+      const tr = document.createElement("tr");
+      tr.className = `wk-${wkKey}`;
+      const mcTxt = Number(h.mcap_m || 0) > 0 ? `$${Number(h.mcap_m).toFixed(1)}M` : "-";
+      tr.innerHTML = `
+        <td>
+          <div style="font-weight:900;">${fmtShortDate(h.date_et)} · ${h.time_et || ''} ET</div>
+          <div style="font-size:12.5px; color:#94A3B8; margin-top:2px;">🇰🇷 ${h.time_kst || ''} KST</div>
+        </td>
+        <td>
+          <div style="font-weight:900; font-size:18px; color:#FFFFFF;">${h.symbol} <span style="font-size:12.5px; color:#93C5FD;">[${h.exchange || '-'}]</span></div>
+          <div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">시총: ${mcTxt}</div>
+        </td>
+        <td><span class="res-hc">🛑 0.1초 하드컷</span></td>
+        <td class="reason-cell">${h.reason || '-'}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+    return;
+  }
+
+  document.getElementById("tableTitleLbl").innerText = "📋 NotebookLM 종목별 BUY / FALSE 실시간 판정 기록";
+  thead.innerHTML = `
+    <tr>
+      <th style="width:170px;">심문 시각 (ET / KST)</th>
+      <th style="width:220px;">종목 (거래소 · 체급)</th>
+      <th style="width:165px;">BUY / FALSE 판정</th>
+      <th>핵심 판정 사유 (클릭 시 상단 심사 전문 보기)</th>
+    </tr>
+  `;
+
+  let rows = verdicts;
+  if (filterMode === "buy") rows = verdicts.filter(v => v.decision === "BUY");
+  if (filterMode === "false") rows = verdicts.filter(v => v.decision !== "BUY");
+
+  if (rows.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="4" style="padding:28px; color:#94A3B8;">해당 조건의 판정 기록이 없습니다.</td></tr>`;
+    return;
+  }
+
+  let prevDate = "";
+  rows.forEach((v) => {
+    const wkKey = getWeekdayThemeKey(v.date_et);
+    const isNewDate = prevDate !== "" && prevDate !== v.date_et;
+    prevDate = v.date_et;
+
+    const tr = document.createElement("tr");
+    tr.className = `wk-${wkKey}` + (isNewDate ? " date-group-start" : "");
+
+    const isBuy = v.decision === "BUY";
+    const badgeHtml = isBuy
+      ? `<span class="res-buy">🔥 BUY 승인</span>`
+      : `<span class="res-false">🛡️ FALSE 차단</span>`;
+
+    const px = Number(v.price || 0);
+    const gn = Number(v.gain_pct || 0);
+    const mc = Number(v.mcap_m || 0);
+    const subMeta = [];
+    if (px > 0) subMeta.push(`$${px.toFixed(3)} (${gn>=0?'+':''}${gn.toFixed(1)}%)`);
+    if (mc > 0) subMeta.push(`시총 $${mc.toFixed(1)}M`);
+
+    const isLegacy = String(v.engine || "").includes("Gmail");
+    const engChip = `<span class="engine-mini ${isLegacy ? 'legacy' : ''}">${v.engine || 'NotebookLM 직통'}</span>`;
+    const hasFull = v.full_report && v.full_report.trim().length > 10;
+    const moreChip = hasFull ? `<span class="more-report-chip">📖 전문있음</span>` : "";
+    const actLine = v.trade_action ? `<div style="font-size:12.5px; color:${isBuy ? '#6EE7B7' : '#94A3B8'}; margin-top:4px;">⚡ ${v.trade_action}</div>` : "";
+
+    tr.innerHTML = `
+      <td>
+        <div style="font-weight:900; font-size:15.5px;">${fmtShortDate(v.date_et)} <span class="wk-badge ${wkKey}">${v.weekday_kr || ''}</span></div>
+        <div style="font-size:13.5px; color:#E2E8F0; margin-top:3px;">🇺🇸 ${v.time_et || ''} ET</div>
+        <div style="font-size:12.5px; color:#94A3B8;">🇰🇷 ${v.time_kst || '-'} KST · ⏱️${Number(v.elapsed_sec||0).toFixed(1)}초</div>
+      </td>
+      <td>
+        <div style="font-weight:900; font-size:19px; color:#FFFFFF;">${v.symbol} <span style="font-size:12.5px; color:#93C5FD;">[${v.exchange || 'ND'}]</span></div>
+        <div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">${subMeta.join(" · ") || v.company_name || "-"}</div>
+      </td>
+      <td>
+        ${badgeHtml}
+        ${actLine}
+      </td>
+      <td class="reason-cell">
+        ${engChip}${v.reason || '-'}${moreChip}
+      </td>
+    `;
+    tr.onclick = () => {
+      selectedVerdictId = v.id;
+      renderHeroVerdict(v, true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    tbody.appendChild(tr);
+  });
+}
+
+/* GitHub Pages 초기 로드 & 12초 주기 폴백 동기화 */
+async function pollGitHubState() {
+  try {
+    const stateUrl = window.location.protocol === "file:"
+      ? "https://simikai1024-hue.github.io/stock-board/us_live_state.json"
+      : "./us_live_state.json";
+    const res = await fetch(`${stateUrl}?t=${Date.now()}`, { cache: "no-store" });
+    if (res.ok) {
+      const state = await res.json();
+      renderBoard(state, false);
+    }
+  } catch (e) {}
+}
+pollGitHubState();
+setInterval(pollGitHubState, 12000);
+
+/* EMQX 실시간 웹소켓 연결 */
+const client = mqtt.connect(BROKER_WSS, {
+  clientId: "us_nblm_board_" + Math.random().toString(16).slice(2, 10),
+  clean: true,
+  reconnectPeriod: 2000,
+});
+
+client.on("connect", () => {
+  const st = document.getElementById("statusLbl");
+  st.innerText = "🟢 실시간 자동 업데이트 켜짐";
+  st.style.color = "#34D399";
+  client.subscribe([TOPIC_US_STATE, TOPIC_US_LIVE], { qos: 1 });
+});
+
+client.on("reconnect", () => {
+  const st = document.getElementById("statusLbl");
+  st.innerText = "🟡 실시간 재연결 중...";
+  st.style.color = "#FBBF24";
+});
+
+client.on("message", (topic, payload) => {
+  try {
+    const data = JSON.parse(new TextDecoder("utf-8").decode(payload));
+    if (topic === TOPIC_US_STATE) {
+      if (data && data.verdicts && data.verdicts.length > 0 && !(data.analyzing && data.analyzing.active)) {
+        selectedVerdictId = data.verdicts[0].id;
+      }
+      renderBoard(data, true);
+    } else if (topic === TOPIC_US_LIVE && data) {
+      if (data.id && seenLiveIds.has(data.id)) return;
+      if (data.id) seenLiveIds.add(data.id);
+      playEventSound(data.event);
+    }
+  } catch (e) {}
+});
+</script>
+</body>
+</html>
