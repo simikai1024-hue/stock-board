@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 02:42:31",
-  "updated_at_et": "2026-11-02 12:42:31",
-  "updated_epoch_ms": 1793641351539,
+  "updated_at_kst": "2026-11-03 02:43:06",
+  "updated_at_et": "2026-11-02 12:43:06",
+  "updated_epoch_ms": 1793641386387,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SEGG",
+    "company_name": "Sports Entertainment Gaming Global Corp",
+    "exchange": "ND",
+    "price": 1.69,
+    "gain_pct": 29.74,
+    "mcap_m": 7.11,
+    "catalyst_hint": "[당일 PR] SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "12:43:03",
+    "started_at_kst": "02:43:03",
+    "started_epoch_ms": 1793641383021
   },
   "account": {
     "session_label": "정규장실전",
@@ -16,7 +28,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:42:28"
+    "updated_kst": "02:42:52"
   },
   "stats": {
     "today_total": 19,
