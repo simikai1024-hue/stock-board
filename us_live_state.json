@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 02:49:10",
-  "updated_at_et": "2026-11-02 12:49:10",
-  "updated_epoch_ms": 1793641750007,
+  "updated_at_kst": "2026-11-03 02:50:21",
+  "updated_at_et": "2026-11-02 12:50:21",
+  "updated_epoch_ms": 1793641821483,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:49:06"
+    "updated_kst": "02:50:19"
   },
   "stats": {
     "today_total": 20,
@@ -452,6 +452,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "12:50:18",
+      "time_kst": "02:50:18",
+      "symbol": "UL",
+      "company_name": "UL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "12:45:05",
@@ -941,16 +951,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4518.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:46:32",
-      "time_kst": "22:46:32",
-      "symbol": "BMNR",
-      "company_name": "BMNR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
