@@ -1,9 +1,9 @@
 {
   "date": "2026-11-02",
-  "updated_at": "2026-11-02 13:15:46",
+  "updated_at": "2026-11-02 13:21:12",
   "history": [
     {
-      "id": "1793592944591_179880_BUY_FAIL",
+      "id": "1793593270391_179880_BUY_FAIL",
       "type": "BUY_FAIL",
       "time": "2026-11-02 09:37:15",
       "name": "멜콘",
@@ -19,11 +19,12 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-02 13:15:46",
+    "updated_at": "2026-11-02 13:21:12",
     "stats": {
-      "total_closed": 13,
+      "total_closed": 14,
       "win_count": 0,
-      "loss_count": 13,
+      "loss_count": 14,
+      "buy_fail_count": 1,
       "win_rate_pct": 0.0,
       "total_pnl_krw": -25474
     },
@@ -256,7 +257,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-02 13:15:46",
+    "updated_at": "2026-11-02 13:21:12",
     "stats": {
       "total_evaluated": 21,
       "win_5_count": 7,
