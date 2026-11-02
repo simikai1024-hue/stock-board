@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:36:38",
-  "updated_at_et": "2026-11-02 08:36:38",
-  "updated_epoch_ms": 1793626598186,
+  "updated_at_kst": "2026-11-02 22:37:12",
+  "updated_at_et": "2026-11-02 08:37:12",
+  "updated_epoch_ms": 1793626632953,
   "analyzing": {
-    "active": true,
-    "symbol": "PPCB",
-    "company_name": "Propanc Biopharma, Inc.",
-    "exchange": "ND",
-    "price": 1.82,
-    "gain_pct": -1.09,
-    "mcap_m": 11.52,
-    "catalyst_hint": "[당일 PR] Propanc Biopharma Reports Preclinical Data with PRP & PRP plus TGF-β Inhibitor on TGF-β Pathway in Pancreatic Cancer",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:36:36",
-    "started_at_kst": "22:36:36",
-    "started_epoch_ms": 1793626596320
+    "active": false
   },
   "account": {
     "session_label": "프리장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:36:16"
+    "updated_kst": "22:37:04"
   },
   "stats": {
-    "today_total": 14,
-    "today_nblm_count": 7,
+    "today_total": 15,
+    "today_nblm_count": 8,
     "today_buy": 1,
-    "today_false": 13,
+    "today_false": 14,
     "today_hardcut": 22,
-    "total_verdicts": 15,
+    "total_verdicts": 16,
     "total_buy": 1,
-    "total_false": 14,
-    "avg_nblm_sec": 46.9
+    "total_false": 15,
+    "avg_nblm_sec": 45.6
   },
   "verdicts": [
+    {
+      "id": "v_1793626630866_PPCB_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "08:37:10",
+      "time_kst": "22:37:10",
+      "symbol": "PPCB",
+      "company_name": "Propanc Biopharma, Inc.",
+      "exchange": "ND",
+      "price": 1.82,
+      "gain_pct": -1.09,
+      "mcap_m": 11.52,
+      "decision": "FALSE",
+      "elapsed_sec": 37.1,
+      "reason": "사전 S-1 증권등록 희석 위험 잔존 + 나스닥 $1.00 미달 경고(3.01) 및 장전 대금 $0(-1.09%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Propanc Biopharma Reports Preclinical Data with PRP & PRP plus TGF-β Inhibitor on TGF-β Pathway in Pancreatic Cancer",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 PPCB (Propanc Biopharma, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.52M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.8400 대비 현재가 $1.8200 (-1.09% 약보합/음봉), 당일 최고가 $1.8200. 장전 누적 거래대금 $0 USD로 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n사전 SEC 이력 및 희석 위험:\n2026-10-05 S-1 (신주 발행 등록신고서): 유상증자 및 주식 처분을 위한 S-1 증권등록신고서 제출 이력이 존재하여, 언제든 신주 유상증자/워런트 물량이 출회될 수 있는 희석 위험이 열려 있습니다 (심사 원칙 1번 위반).\n2026-10-29 8-K (Item 3.01): 나스닥 최소 입찰가($1.00) 미달 경고 통지 수령 공시로, 상장유지 회복 호재가 아닌 상장폐지 위험 경고 공시입니다.\n당일 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n사전 S-1 제출로 인한 희석 덤핑 위험이 잔존하고, 당일 확정 1급 기폭제 부재 및 장전 수급 부재($0 USD / -1.09%)를 나타내어 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: PPCB NOTES:\n[PPCB] 사전 S-1 증권등록 희석 위험 잔존 + 나스닥 $1.00 미달 경고(3.01) 및 장전 대금 $0(-1.09%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793626334643_WCT_FALSE",
       "date_et": "2026-11-02",
