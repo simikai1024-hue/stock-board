@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 23:22:43",
-  "updated_at_et": "2026-11-02 09:22:43",
-  "updated_epoch_ms": 1793629363891,
+  "updated_at_kst": "2026-11-02 23:23:26",
+  "updated_at_et": "2026-11-02 09:23:26",
+  "updated_epoch_ms": 1793629406517,
   "analyzing": {
-    "active": true,
-    "symbol": "KPTI",
-    "company_name": "KPTI",
-    "exchange": "ND",
-    "price": 0.21,
-    "gain_pct": -68.68,
-    "mcap_m": 4.76,
-    "catalyst_hint": "[당일 PR] Karyopharm Therapeutics Inc. Announces Planned Merger with Ayrmid Ltd. to Strengthen Company for the Future",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:22:40",
-    "started_at_kst": "23:22:40",
-    "started_epoch_ms": 1793629360504
+    "active": false
   },
   "account": {
     "session_label": "프리장실전",
@@ -28,20 +16,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:22:30"
+    "updated_kst": "23:23:21"
   },
   "stats": {
-    "today_total": 17,
-    "today_nblm_count": 10,
+    "today_total": 18,
+    "today_nblm_count": 11,
     "today_buy": 1,
-    "today_false": 16,
+    "today_false": 17,
     "today_hardcut": 47,
-    "total_verdicts": 18,
+    "total_verdicts": 19,
     "total_buy": 1,
-    "total_false": 17,
-    "avg_nblm_sec": 45.4
+    "total_false": 18,
+    "avg_nblm_sec": 45.5
   },
   "verdicts": [
+    {
+      "id": "v_1793629403302_KPTI_FALSE",
+      "date_et": "2026-11-02",
+      "weekday_kr": "월",
+      "time_et": "09:23:23",
+      "time_kst": "23:23:23",
+      "symbol": "KPTI",
+      "company_name": "KPTI",
+      "exchange": "ND",
+      "price": 0.21,
+      "gain_pct": -68.68,
+      "mcap_m": 4.76,
+      "decision": "FALSE",
+      "elapsed_sec": 45.6,
+      "reason": "채권단 구조조정 지원 계약(Restructuring Agreement) 파산 수순 악재 및 전일 대비 -68.68% 대폭락 차트로 전량 차단",
+      "catalyst_hint": "[당일 PR] Karyopharm Therapeutics Inc. Announces Planned Merger with Ayrmid Ltd. to Strengthen Company for the Future",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **KPTI (Karyopharm Therapeutics Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.76M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 차트 붕괴: 전일 종가 $0.6706 대비 현재가 $0.2100 (-68.68% 대폭락), 당일 고가 $0.6800 대비 -69.1% 붕괴. 치명적인 투매 음봉 차트를 형성하고 있습니다 (원칙 4 위반).\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n당일(11/02) D-Day 8-K (Item 7.01) 및 EX-99.1 원문 정밀 분석:\n공시 핵심 내용: 기존 채권자/노트홀더 및 주요 관계자들과 구조조정 지원 계약(Restructuring Support Agreement)을 체결하였으며, Ayrmid Ltd.와 재무 구조개편된 Karyopharm 간의 합병(Transaction)을 추진하기 위한 법률 절차 개시 발표.\n악재 팩트 적발: 이는 기업 가치 상승 호재가 아니라, 거대한 채무 상환 불능으로 인해 법정 재무 구조조정 및 주식 소멸/극단적 희석 절차에 진입하는 대표적인 기업 파산/구조조정 대형 악재입니다.\n3. 최종 심사 및 결재 판정\n구조조정 지원 계약(Restructuring Support Agreement)에 따른 파산 수순 악재 출회 및 -68.68% 폭락 붕괴 차트로 전략 헌장 1번·2번·3번·4번 원칙을 모두 위배하여 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: KPTI NOTES:\n[KPTI] 채권단 구조조정 지원 계약(Restructuring Agreement) 파산 수순 악재 및 전일 대비 -68.68% 대폭락 차트로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793629130101_ABTS_FALSE",
       "date_et": "2026-11-02",
