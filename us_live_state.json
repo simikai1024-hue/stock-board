@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-02 22:38:15",
-  "updated_at_et": "2026-11-02 08:38:15",
-  "updated_epoch_ms": 1793626695523,
+  "updated_at_kst": "2026-11-02 22:39:26",
+  "updated_at_et": "2026-11-02 08:39:26",
+  "updated_epoch_ms": 1793626766810,
   "analyzing": {
     "active": false
   },
@@ -16,14 +16,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:38:13"
+    "updated_kst": "22:39:24"
   },
   "stats": {
     "today_total": 15,
     "today_nblm_count": 8,
     "today_buy": 1,
     "today_false": 14,
-    "today_hardcut": 23,
+    "today_hardcut": 24,
     "total_verdicts": 16,
     "total_buy": 1,
     "total_false": 15,
@@ -352,6 +352,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "08:38:31",
+      "time_kst": "22:38:31",
+      "symbol": "STM",
+      "company_name": "STM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "08:37:25",
