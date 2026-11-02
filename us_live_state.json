@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:20:54",
-  "updated_at_et": "2026-11-02 10:20:54",
-  "updated_epoch_ms": 1793632854121,
+  "updated_at_kst": "2026-11-03 00:22:04",
+  "updated_at_et": "2026-11-02 10:22:04",
+  "updated_epoch_ms": 1793632924075,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:20:52"
+    "updated_kst": "00:22:02"
   },
   "stats": {
     "today_total": 19,
@@ -432,6 +432,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-02",
+      "time_et": "10:21:01",
+      "time_kst": "00:21:01",
+      "symbol": "CCEP",
+      "company_name": "CCEP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51442.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "10:15:44",
@@ -921,16 +931,6 @@
       "exchange": "ND",
       "mcap_m": 9.34,
       "reason": "실질 시가총액 $690.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "08:14:21",
-      "time_kst": "22:14:21",
-      "symbol": "ENLV",
-      "company_name": "Enlivex Ltd.",
-      "exchange": "ND",
-      "mcap_m": 2.73,
-      "reason": "실질 시가총액 $439.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
