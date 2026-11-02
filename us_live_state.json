@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-02",
-  "updated_at_kst": "2026-11-03 00:01:23",
-  "updated_at_et": "2026-11-02 10:01:23",
-  "updated_epoch_ms": 1793631683967,
+  "updated_at_kst": "2026-11-03 00:02:15",
+  "updated_at_et": "2026-11-02 10:02:15",
+  "updated_epoch_ms": 1793631735891,
   "analyzing": {
     "active": false
   },
@@ -16,7 +16,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:01:22"
+    "updated_kst": "00:02:13"
   },
   "stats": {
     "today_total": 19,
@@ -434,6 +434,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-02",
+      "time_et": "10:01:28",
+      "time_kst": "00:01:28",
+      "symbol": "SGML",
+      "company_name": "SGML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $747.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-02",
       "time_et": "09:57:21",
       "time_kst": "23:57:21",
       "symbol": "NCI",
@@ -461,16 +471,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $8132.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:40:33",
-      "time_kst": "23:40:33",
-      "symbol": "SGML",
-      "company_name": "SGML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $796.53M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-02",
