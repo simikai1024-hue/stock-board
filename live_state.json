@@ -1,9 +1,28 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 12:38:12",
-  "history": [],
+  "updated_at": "2026-11-03 12:41:34",
+  "history": [
+    {
+      "id": "1793677292489_002760_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-03 12:41:32",
+      "name": "보락",
+      "code": "002760",
+      "price": 1052,
+      "flu_rt": 6.83,
+      "val_uk": 0.0,
+      "target_price": 1089,
+      "stop_price": 1015,
+      "ammo_title": "⚡[DART 실시간공시·자사주취득] 자사주취득 10.0억원 확정 (시총 628억)",
+      "ammo_date": "20261103",
+      "note": "⚡ DART·KIND 실시간 호재공시 직통 체결! (노트북LM 원문 정밀검수 & VI/슈팅 수익잠금 가동)",
+      "buy_price": 1052,
+      "qty": 90
+    }
+  ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 12:38:12",
+    "updated_at": "2026-11-03 12:41:34",
     "stats": {
       "total_closed": 0,
       "win_count": 0,
@@ -13,18 +32,48 @@
       "win_rate_pct": 0.0,
       "total_pnl_krw": 0
     },
-    "rows": []
+    "rows": [
+      {
+        "date": "2026-11-03",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "code": "002760",
+        "name": "보락",
+        "buy_price": 1052,
+        "sell_price": 0,
+        "qty": 90,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "12:41:30",
+        "sell_time": "",
+        "reason": "⚡[DART 실시간공시·자사주취득] 자사주취득 10.0억원 확정 (시총 628억)",
+        "note": "⚡ DART·KIND 실시간 호재공시 직통 체결! (노트북LM 원문 정밀검수 & VI/슈팅 수익잠금 가동)"
+      }
+    ]
   },
   "bap_data": {
-    "updated_at": "2026-11-03 12:38:12",
+    "updated_at": "2026-11-03 12:41:34",
     "stats": {
-      "cooked_count": 30,
-      "today_cooked_count": 0,
-      "avg_day_high_pct": 11.02,
-      "avg_open_to_high_pct": 12.32,
-      "avg_post_disc_max_pct": 9.85
+      "cooked_count": 31,
+      "today_cooked_count": 1,
+      "avg_day_high_pct": 10.87,
+      "avg_open_to_high_pct": 12.14,
+      "avg_post_disc_max_pct": 9.53
     },
     "preparing_list": [
+      {
+        "code": "002760",
+        "name": "보락",
+        "mcap_uk": 628,
+        "prep_tag": "✨ 자사주취득 폭발!",
+        "prep_detail": "자사주취득 10.0억원 확정 (시총 628억)",
+        "prep_date": "2026-11-03",
+        "cooked_today": true,
+        "disc_time": "12:41",
+        "day_high_pct": 6.4,
+        "open_to_high_pct": 6.94
+      },
       {
         "code": "110790",
         "name": "크리스에프앤씨",
@@ -288,20 +337,38 @@
         "cur_price": 1044,
         "flu_rt": 0.0,
         "cooked_today": false
-      },
-      {
-        "code": "066700",
-        "name": "테라젠이텍스",
-        "mcap_uk": 724,
-        "prep_tag": "CB리픽싱 바닥",
-        "prep_detail": "[10/19] 전환가액의조정 (시총 724억)",
-        "prep_date": "2026-10-19",
-        "cur_price": 1975,
-        "flu_rt": -1.99,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-03",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "disc_time": "12:41",
+        "code": "002760",
+        "name": "보락",
+        "cat": "자사주취득",
+        "summary": "자사주취득 10.0억원 확정 (시총 628억)",
+        "rpt_title": "주요사항보고서(자기주식취득신탁계약체결결정)",
+        "mcap_uk": 628,
+        "prev_close": 985,
+        "open_price": 980,
+        "high_price": 1048,
+        "close_price": 1048,
+        "entry_price": 1048,
+        "open_to_high_pct": 6.94,
+        "day_high_pct": 6.4,
+        "post_disc_max_pct": 0.0,
+        "is_today_live": true,
+        "my_trade": {
+          "status": "OPEN",
+          "buy_price": 1052,
+          "sell_price": 0,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0,
+          "note": "⚡ DART·KIND 실시간 호재공시 직통 체결! (노트북LM 원문 정밀검수 & VI/슈팅 수익잠금 가동)"
+        }
+      },
       {
         "date": "2026-11-02",
         "weekday": "월요일",
@@ -935,7 +1002,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 12:38:12",
+    "updated_at": "2026-11-03 12:41:34",
     "stats": {
       "total_evaluated": 23,
       "win_5_count": 8,
