@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:15:15",
-  "updated_at_et": "2026-11-03 08:15:15",
-  "updated_epoch_ms": 1793711715600,
+  "updated_at_kst": "2026-11-03 22:16:15",
+  "updated_at_et": "2026-11-03 08:16:15",
+  "updated_epoch_ms": 1793711775107,
   "analyzing": {
     "active": true,
     "symbol": "VIVS",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:14:55"
+    "updated_kst": "22:16:11"
   },
   "stats": {
     "today_total": 6,
@@ -609,6 +609,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:15:28",
+      "time_kst": "22:15:28",
+      "symbol": "ASC",
+      "company_name": "ASC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:14:57",
       "time_kst": "22:14:57",
       "symbol": "LPL",
@@ -643,16 +653,6 @@
       "time_kst": "22:14:44",
       "symbol": "LNG",
       "company_name": "LNG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:27",
-      "time_kst": "22:14:27",
-      "symbol": "ASC",
-      "company_name": "ASC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
