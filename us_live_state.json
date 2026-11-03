@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:12:27",
-  "updated_at_et": "2026-11-03 08:12:27",
-  "updated_epoch_ms": 1793711547091,
+  "updated_at_kst": "2026-11-03 22:12:38",
+  "updated_at_et": "2026-11-03 08:12:38",
+  "updated_epoch_ms": 1793711558621,
   "analyzing": {
-    "active": true,
-    "symbol": "TNMG",
-    "company_name": "TNMG",
-    "exchange": "ND",
-    "price": 4.01,
-    "gain_pct": -3.61,
-    "mcap_m": 10.25,
-    "catalyst_hint": "[당일 PR] TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:11:32",
-    "started_at_kst": "22:11:32",
-    "started_epoch_ms": 1793711492973
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:12:16"
+    "updated_kst": "22:12:35"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 3,
+    "today_total": 4,
+    "today_nblm_count": 4,
     "today_buy": 0,
-    "today_false": 3,
+    "today_false": 4,
     "today_hardcut": 31,
-    "total_verdicts": 25,
+    "total_verdicts": 26,
     "total_buy": 1,
-    "total_false": 24,
-    "avg_nblm_sec": 43.9
+    "total_false": 25,
+    "avg_nblm_sec": 47.9
   },
   "verdicts": [
+    {
+      "id": "v_1793711549552_TNMG_FALSE",
+      "date_et": "2026-11-03",
+      "weekday_kr": "화",
+      "time_et": "08:12:29",
+      "time_kst": "22:12:29",
+      "symbol": "TNMG",
+      "company_name": "TNMG",
+      "exchange": "ND",
+      "price": 4.01,
+      "gain_pct": -3.61,
+      "mcap_m": 10.25,
+      "decision": "FALSE",
+      "elapsed_sec": 59.7,
+      "reason": "사전(10월) 발표된 $6.25M 사모 지분투자 완료(Completion) 재탕 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-3.61%) 전량 차단",
+      "catalyst_hint": "[당일 PR] TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 TNMG (TNL Mediagene) 정밀 직독 결재 보고입니다 [cite: 2, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.25M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2, 4].\n실시간 시세 및 수급: 전일 종가 $4.1600 대비 현재가 $4.0100 (-3.61% 약세), 당일 최고가 $4.8500 (-17.3%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:00 ET) PR 원문 분석:\nPR 제목: \"TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director\"\n원문 팩트: 지난 10월 21일 자로 사전 체결되었던 Vector Advisory Partners LLC와의 $6.25M 규모 전략적 지분 투자 계약(Securities Purchase Agreement)의 단순 완결(Completion) 및 신임 이사 선임 발표 [cite: 4].\n치명적 기폭제 결함:\n오늘 당일 새롭게 유입된 신규 비즈니스 호재가 아니라, 기존(10월)에 이미 유입 발표가 끝난 사모 유상증자/지분 투자 계약의 단순 이행 및 완결(Completion) 재탕 소식에 불과합니다 [cite: 4].\n이는 신주 발행을 동반한 유상증자 건의 뒤늦은 종결 통지로, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주, 대형 M&A 완료, 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 27].\n전일 대비 주가가 -3.61% 약세를 기록하고 있으며 장전 누적 거래대금($0 USD) 및 초기 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 10월 자 사모 지분투자 완료(Completion) 재탕 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: TNMG 처리합니다 [cite: 27].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 254].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: TNMG NOTES:\n[TNMG] 사전(10월) 발표된 $6.25M 사모 지분투자 완료(Completion) 재탕 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-3.61%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793710451787_MDRR_FALSE",
       "date_et": "2026-11-03",
