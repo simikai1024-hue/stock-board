@@ -25,12 +25,19 @@
     border: 1px solid #334155; padding: 6px 12px; border-radius: 8px;
   }
   .status-txt { font-size: 14px; font-weight: 800; color: #FBBF24; }
+  .sound-ctrl-group {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    background: #0F172A; border: 1px solid #334155; border-radius: 10px; padding: 4px 8px;
+  }
   .sound-btn {
-    background: #1E293B; color: #E2E8F0; border: 1px solid #475569; border-radius: 8px;
-    padding: 7px 13px; font-size: 13.5px; font-weight: 800; cursor: pointer; transition: 0.15s;
+    background: #1E293B; color: #E2E8F0; border: 1px solid #475569; border-radius: 7px;
+    padding: 6px 11px; font-size: 13px; font-weight: 800; cursor: pointer; transition: 0.15s;
   }
   .sound-btn:hover { background: #334155; color: #FFFFFF; }
-  .sound-btn.on { background: #064E3B; border-color: #10B981; color: #A7F3D0; }
+  .sound-btn.on { background: #064E3B; border-color: #10B981; color: #A7F3D0; box-shadow: 0 0 12px rgba(16, 185, 129, 0.28); }
+  .sound-btn.playing { background: #1E1B4B; border-color: #818CF8; color: #E0E7FF; animation: spinDot 1.8s infinite; }
+  .vol-wrap { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 800; color: #94A3B8; padding: 0 4px; }
+  .vol-slider { width: 68px; accent-color: #38BDF8; cursor: pointer; }
 
   /* 계좌 & 레이더 상태 스트립 */
   .radar-strip {
@@ -283,7 +290,12 @@
     <div class="header-right">
       <span class="clock-txt" id="dualClockLbl">🇺🇸 --:--:-- ET · 🇰🇷 --:--:-- KST</span>
       <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
-      <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 켜기</button>
+      <div class="sound-ctrl-group">
+        <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림·BGM 켜기</button>
+        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="심문 시작 크리스탈 차임 + 42초 네오소울 라운지 BGM 미리듣기">🎵 40초 BGM 들어보기</button>
+        <button class="sound-btn" onclick="previewBuyFanfare()" title="BUY 매수 승인 골든 팡파레 들어보기">🎉 BUY음</button>
+        <span class="vol-wrap">🔊<input type="range" id="volSlider" class="vol-slider" min="20" max="150" value="115" oninput="updateMasterVolume(this.value)"><span id="volPctLbl">115%</span></span>
+      </div>
     </div>
   </div>
 
@@ -367,8 +379,6 @@ const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
 const TOPIC_US_STATE = "us_whale_nblm_board_2026/state";
 const TOPIC_US_LIVE  = "us_whale_nblm_board_2026/live";
 
-let audioCtx = null;
-let soundEnabled = false;
 let filterMode = "all"; // 'all' | 'buy' | 'false' | 'hardcut'
 let cachedState = null;
 let lastEpochMs = 0;
@@ -403,60 +413,415 @@ function tickClocks() {
 setInterval(tickClocks, 1000);
 tickClocks();
 
-/* 알림음 컨트롤 */
-function toggleSound() {
+let audioCtx = null;
+let masterGainNode = null;
+let compressorNode = null;
+let reverbNode = null;
+let bgmBusGain = null;
+let bgmStopTimer = null;
+let isBgmPlaying = false;
+let isPreviewPlaying = false;
+let soundEnabled = false;
+let masterVolScale = 1.15;
+let lastAutoAudioAnalyzeKey = "";
+let lastAutoAudioVerdictId = "";
+let initialStateLoaded = false;
+
+/* 스튜디오급 마스터 오디오 체인 (Warm Hall Reverb + Dynamics Compressor) */
+function ensureAudioGraph() {
   if (!audioCtx) {
     const AC = window.AudioContext || window.webkitAudioContext;
     audioCtx = new AC();
+
+    compressorNode = audioCtx.createDynamicsCompressor();
+    compressorNode.threshold.setValueAtTime(-16, audioCtx.currentTime);
+    compressorNode.knee.setValueAtTime(18, audioCtx.currentTime);
+    compressorNode.ratio.setValueAtTime(3.6, audioCtx.currentTime);
+    compressorNode.attack.setValueAtTime(0.006, audioCtx.currentTime);
+    compressorNode.release.setValueAtTime(0.24, audioCtx.currentTime);
+
+    masterGainNode = audioCtx.createGain();
+    masterGainNode.gain.setValueAtTime(masterVolScale * 1.35, audioCtx.currentTime);
+
+    // 2.3초 실키 벨벳 홀 리버브 임펄스 생성 (따뜻한 공간감 · 귀 피로도 0%)
+    reverbNode = audioCtx.createConvolver();
+    const rate = audioCtx.sampleRate;
+    const len = Math.floor(rate * 2.3);
+    const ir = audioCtx.createBuffer(2, len, rate);
+    for (let ch = 0; ch < 2; ch++) {
+      const buf = ir.getChannelData(ch);
+      let lp = 0;
+      for (let i = 0; i < len; i++) {
+        const env = Math.pow(1 - i / len, 2.6);
+        const white = (Math.random() * 2 - 1) * env;
+        lp = lp * 0.78 + white * 0.22; // 고역 치찰음 제거한 따뜻한 우드홀 잔향
+        buf[i] = lp * 0.85;
+      }
+    }
+    reverbNode.buffer = ir;
+
+    masterGainNode.connect(compressorNode);
+    compressorNode.connect(audioCtx.destination);
   }
-  if (audioCtx.state === "suspended") audioCtx.resume();
+  if (audioCtx.state === "suspended") {
+    audioCtx.resume();
+  }
+}
+
+function updateMasterVolume(val) {
+  const num = Math.max(20, Math.min(150, Number(val || 115)));
+  masterVolScale = num / 100.0;
+  const lbl = document.getElementById("volPctLbl");
+  if (lbl) lbl.innerText = `${num}%`;
+  try { localStorage.setItem("us_board_vol_pct", String(num)); } catch (e) {}
+  if (masterGainNode && audioCtx) {
+    masterGainNode.gain.setTargetAtTime(masterVolScale * 1.35, audioCtx.currentTime, 0.04);
+  }
+}
+
+(function initSavedVolume() {
+  try {
+    const sv = Number(localStorage.getItem("us_board_vol_pct") || 115);
+    if (sv >= 20 && sv <= 150) {
+      masterVolScale = sv / 100.0;
+      const sl = document.getElementById("volSlider");
+      const lb = document.getElementById("volPctLbl");
+      if (sl) sl.value = String(sv);
+      if (lb) lb.innerText = `${sv}%`;
+    }
+  } catch (e) {}
+})();
+
+function connectWithReverb(srcNode, destBus, wetRatio = 0.36) {
+  srcNode.connect(destBus);
+  if (reverbNode && audioCtx) {
+    const wet = audioCtx.createGain();
+    wet.gain.setValueAtTime(wetRatio, audioCtx.currentTime);
+    srcNode.connect(wet);
+    wet.connect(reverbNode);
+    reverbNode.connect(destBus);
+  }
+}
+
+/* 악기 1: 따뜻한 Fender Rhodes 일렉트릭 피아노 */
+function playRhodesNote(freq, startT, dur, vol = 0.22, targetBus = null) {
+  if (!audioCtx) return;
+  const bus = targetBus || masterGainNode;
+  const t0 = audioCtx.currentTime + startT;
+
+  const filt = audioCtx.createBiquadFilter();
+  filt.type = "lowpass";
+  filt.frequency.setValueAtTime(2100, t0);
+  filt.frequency.exponentialRampToValueAtTime(880, t0 + Math.min(dur, 1.8));
+
+  const env = audioCtx.createGain();
+  env.gain.setValueAtTime(0.0001, t0);
+  env.gain.linearRampToValueAtTime(vol, t0 + 0.022);
+  env.gain.exponentialRampToValueAtTime(vol * 0.52, t0 + Math.min(0.45, dur * 0.4));
+  env.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+
+  const osc1 = audioCtx.createOscillator();
+  osc1.type = "sine";
+  osc1.frequency.setValueAtTime(freq, t0);
+
+  const osc2 = audioCtx.createOscillator();
+  osc2.type = "triangle";
+  osc2.frequency.setValueAtTime(freq, t0);
+  const g2 = audioCtx.createGain();
+  g2.gain.setValueAtTime(0.34, t0);
+
+  // Rhodes 특유의 부드러운 벨 타인(Tine) 어택 배음
+  const tine = audioCtx.createOscillator();
+  tine.type = "sine";
+  tine.frequency.setValueAtTime(freq * 2.0, t0);
+  const gTine = audioCtx.createGain();
+  gTine.gain.setValueAtTime(0.16, t0);
+  gTine.gain.exponentialRampToValueAtTime(0.001, t0 + 0.14);
+
+  osc1.connect(filt);
+  osc2.connect(g2); g2.connect(filt);
+  tine.connect(gTine); gTine.connect(filt);
+  filt.connect(env);
+  connectWithReverb(env, bus, 0.38);
+
+  osc1.start(t0); osc1.stop(t0 + dur + 0.05);
+  osc2.start(t0); osc2.stop(t0 + dur + 0.05);
+  tine.start(t0); tine.stop(t0 + 0.18);
+}
+
+/* 악기 2: 귀에 쏙 들어오지만 자극 없는 크리스탈 셀레스타 벨 / 하프 */
+function playCrystalBell(freq, startT, dur, vol = 0.28, targetBus = null) {
+  if (!audioCtx) return;
+  const bus = targetBus || masterGainNode;
+  const t0 = audioCtx.currentTime + startT;
+
+  const filt = audioCtx.createBiquadFilter();
+  filt.type = "lowpass";
+  filt.frequency.setValueAtTime(3400, t0);
+
+  const env = audioCtx.createGain();
+  env.gain.setValueAtTime(0.0001, t0);
+  env.gain.linearRampToValueAtTime(vol, t0 + 0.015);
+  env.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+
+  const o1 = audioCtx.createOscillator();
+  o1.type = "sine";
+  o1.frequency.setValueAtTime(freq, t0);
+
+  const o2 = audioCtx.createOscillator();
+  o2.type = "triangle";
+  o2.frequency.setValueAtTime(freq * 2.0, t0);
+  const g2 = audioCtx.createGain();
+  g2.gain.setValueAtTime(0.22, t0);
+  g2.gain.exponentialRampToValueAtTime(0.001, t0 + dur * 0.55);
+
+  o1.connect(filt);
+  o2.connect(g2); g2.connect(filt);
+  filt.connect(env);
+  connectWithReverb(env, bus, 0.48);
+
+  o1.start(t0); o1.stop(t0 + dur + 0.05);
+  o2.start(t0); o2.stop(t0 + dur + 0.05);
+}
+
+/* 악기 3: 노트북·스피커에서도 포근하게 들리는 웜 베이스 패드 */
+function playWarmBass(freq, startT, dur, vol = 0.20, targetBus = null) {
+  if (!audioCtx) return;
+  const bus = targetBus || masterGainNode;
+  const t0 = audioCtx.currentTime + startT;
+
+  const env = audioCtx.createGain();
+  env.gain.setValueAtTime(0.0001, t0);
+  env.gain.linearRampToValueAtTime(vol, t0 + 0.08);
+  env.gain.setValueAtTime(vol * 0.82, t0 + Math.max(0.1, dur - 0.35));
+  env.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+
+  const sub = audioCtx.createOscillator();
+  sub.type = "sine";
+  sub.frequency.setValueAtTime(freq, t0);
+
+  const oct = audioCtx.createOscillator();
+  oct.type = "triangle";
+  oct.frequency.setValueAtTime(freq * 2.0, t0);
+  const gOct = audioCtx.createGain();
+  gOct.gain.setValueAtTime(0.32, t0);
+
+  const lp = audioCtx.createBiquadFilter();
+  lp.type = "lowpass";
+  lp.frequency.setValueAtTime(420, t0);
+
+  sub.connect(lp);
+  oct.connect(gOct); gOct.connect(lp);
+  lp.connect(env);
+  env.connect(bus);
+
+  sub.start(t0); sub.stop(t0 + dur + 0.05);
+  oct.start(t0); oct.stop(t0 + dur + 0.05);
+}
+
+/* 42초 라운지 BGM 즉시 부드럽게 페이드아웃 정지 */
+function stopLoungeBgm(fadeSec = 0.38) {
+  if (bgmStopTimer) {
+    clearTimeout(bgmStopTimer);
+    bgmStopTimer = null;
+  }
+  if (bgmBusGain && audioCtx) {
+    const oldBus = bgmBusGain;
+    bgmBusGain = null;
+    try {
+      const now = audioCtx.currentTime;
+      oldBus.gain.cancelScheduledValues(now);
+      oldBus.gain.setValueAtTime(Math.max(0.0001, oldBus.gain.value), now);
+      oldBus.gain.exponentialRampToValueAtTime(0.0001, now + fadeSec);
+      setTimeout(() => { try { oldBus.disconnect(); } catch (e) {} }, Math.ceil(fadeSec * 1000) + 120);
+    } catch (e) {}
+  }
+  isBgmPlaying = false;
+  isPreviewPlaying = false;
+  const pBtn = document.getElementById("previewBgmBtn");
+  if (pBtn) {
+    pBtn.className = "sound-btn";
+    pBtn.innerText = "🎵 40초 BGM 들어보기";
+  }
+}
+
+/* 시그니처 인트로 차임 + 42초 네오소울·재즈 라운지 심문 대기 BGM */
+function startLoungeAnalyzingBgm(isPreview = false) {
+  ensureAudioGraph();
+  stopLoungeBgm(0.15);
+
+  const bus = audioCtx.createGain();
+  bus.gain.setValueAtTime(1.0, audioCtx.currentTime);
+  bus.connect(masterGainNode);
+  bgmBusGain = bus;
+  isBgmPlaying = true;
+  isPreviewPlaying = isPreview;
+
+  if (isPreview) {
+    const pBtn = document.getElementById("previewBgmBtn");
+    if (pBtn) {
+      pBtn.className = "sound-btn playing";
+      pBtn.innerText = "⏹️ BGM 정지 (재생 중)";
+    }
+  }
+
+  // [Part 1: 0.0s ~ 1.7s] 귀에 쏙 들어오는 고급 크리스탈 하프 호출 차임 (Fmaj9 아르페지오)
+  const introNotes = [349.23, 440.00, 523.25, 659.25, 783.99, 880.00, 1046.50];
+  introNotes.forEach((f, idx) => {
+    playCrystalBell(f, idx * 0.11, 1.45, idx === 6 ? 0.34 : 0.27, bus);
+  });
+  [220.00, 261.63, 329.63, 392.00].forEach((f) => playRhodesNote(f, 0.05, 1.85, 0.14, bus));
+
+  // [Part 2: 1.8s ~ 43.2s] 4마디 네오소울 라운지 코드 진행 (Fmaj9 -> Em9 -> Dm9 -> Cmaj9/G13sus4) × 3회전
+  const barSec = 3.35;
+  const chords = [
+    { bass: 87.31,  notes: [220.00, 261.63, 329.63, 392.00] }, // Fmaj9
+    { bass: 82.41,  notes: [196.00, 246.94, 293.66, 369.99] }, // Em9
+    { bass: 73.42,  notes: [174.61, 220.00, 261.63, 329.63] }, // Dm9
+    { bass: 65.41,  notes: [164.81, 196.00, 246.94, 293.66] }  // Cmaj9
+  ];
+
+  // 회전별로 호흡이 살아있는 서정적 펜타토닉 멜로디 라인
+  const melodies = [
+    // Cycle 1 (1.8s ~ 15.2s)
+    [
+      [0.45, 659.25, 1.3], [1.65, 587.33, 1.1], [2.45, 523.25, 1.4],
+      [3.90, 587.33, 1.3], [5.15, 493.88, 1.5],
+      [7.25, 523.25, 1.2], [8.35, 440.00, 1.1], [9.25, 392.00, 1.5],
+      [10.65, 440.00, 1.2], [11.80, 523.25, 1.6]
+    ],
+    // Cycle 2 (15.2s ~ 28.6s)
+    [
+      [0.40, 783.99, 1.3], [1.55, 659.25, 1.1], [2.40, 587.33, 1.4],
+      [3.85, 659.25, 1.3], [5.10, 587.33, 1.5],
+      [7.20, 523.25, 1.2], [8.30, 587.33, 1.0], [9.15, 659.25, 1.5],
+      [10.60, 587.33, 1.2], [11.75, 523.25, 1.7]
+    ],
+    // Cycle 3 (28.6s ~ 42.0s)
+    [
+      [0.45, 659.25, 1.3], [1.60, 783.99, 1.2], [2.55, 880.00, 1.4],
+      [3.95, 783.99, 1.3], [5.20, 659.25, 1.5],
+      [7.25, 587.33, 1.2], [8.40, 523.25, 1.1], [9.30, 440.00, 1.4],
+      [10.65, 523.25, 1.2], [11.85, 587.33, 1.6]
+    ]
+  ];
+
+  let cursor = 1.85;
+  for (let cyc = 0; cyc < 3; cyc++) {
+    const cycStart = cursor;
+    for (let b = 0; b < 4; b++) {
+      const bt = cycStart + b * barSec;
+      const ch = chords[b];
+      playWarmBass(ch.bass, bt, barSec * 0.96, 0.19, bus);
+      ch.notes.forEach((nf, idx) => {
+        // 살짝 아르페지오 롤링된 부드러운 Rhodes 화음 터치
+        playRhodesNote(nf, bt + idx * 0.045, barSec * 0.94, 0.135, bus);
+      });
+      // 마디 중간(2박 뒤) 은은한 싱코페이션 리듬 코드 터치
+      playRhodesNote(ch.notes[1], bt + barSec * 0.52, barSec * 0.42, 0.075, bus);
+      playRhodesNote(ch.notes[3], bt + barSec * 0.55, barSec * 0.42, 0.075, bus);
+    }
+    melodies[cyc].forEach(([offset, mf, mdur]) => {
+      playCrystalBell(mf, cycStart + offset, mdur, 0.155, bus);
+      playRhodesNote(mf * 0.5, cycStart + offset, mdur * 0.9, 0.065, bus);
+    });
+    cursor += barSec * 4;
+  }
+
+  // 42초 마무리 부드러운 Fmaj9 엔딩 여운
+  playWarmBass(87.31, cursor, 2.8, 0.17, bus);
+  [220.00, 261.63, 329.63, 392.00, 523.25].forEach((nf, idx) => {
+    playRhodesNote(nf, cursor + idx * 0.06, 2.8, 0.12, bus);
+  });
+  playCrystalBell(659.25, cursor + 0.25, 2.5, 0.16, bus);
+
+  bgmStopTimer = setTimeout(() => {
+    stopLoungeBgm(0.5);
+  }, Math.ceil((cursor + 3.1) * 1000));
+}
+
+/* 알림음 컨트롤 */
+function toggleSound() {
+  ensureAudioGraph();
   soundEnabled = !soundEnabled;
   const btn = document.getElementById("soundBtn");
   if (soundEnabled) {
     btn.className = "sound-btn on";
-    btn.innerText = "🔊 알림음 켜짐";
-    playEventSound("ANALYZING");
+    btn.innerText = "🔊 알림·BGM 켜짐";
+    // 켰을 때 기분 좋은 짧은 웰컴 크리스탈 차임 (또는 현재 분석 중이면 즉시 라운지 BGM 가동!)
+    if (isCurrentlyAnalyzing) {
+      startLoungeAnalyzingBgm(false);
+    } else {
+      [523.25, 659.25, 783.99, 1046.50].forEach((f, i) => playCrystalBell(f, i * 0.09, 1.0, 0.25));
+    }
   } else {
+    stopLoungeBgm(0.25);
     btn.className = "sound-btn";
-    btn.innerText = "🔔 알림음 켜기";
+    btn.innerText = "🔔 알림·BGM 켜기";
   }
 }
 
-function playTone(freq, startOffset, duration, vol = 0.25, wave = "triangle") {
-  if (!soundEnabled || !audioCtx) return;
-  const osc = audioCtx.createOscillator();
-  const gain = audioCtx.createGain();
-  osc.type = wave;
-  osc.frequency.setValueAtTime(freq, audioCtx.currentTime + startOffset);
-  gain.gain.setValueAtTime(vol, audioCtx.currentTime + startOffset);
-  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + startOffset + duration);
-  osc.connect(gain);
-  gain.connect(audioCtx.destination);
-  osc.start(audioCtx.currentTime + startOffset);
-  osc.stop(audioCtx.currentTime + startOffset + duration);
+function togglePreviewBgm() {
+  ensureAudioGraph();
+  if (!soundEnabled) {
+    soundEnabled = true;
+    const btn = document.getElementById("soundBtn");
+    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
+  }
+  if (isPreviewPlaying || isBgmPlaying) {
+    stopLoungeBgm(0.3);
+  } else {
+    startLoungeAnalyzingBgm(true);
+  }
 }
 
-function playEventSound(evType) {
+function previewBuyFanfare() {
+  ensureAudioGraph();
+  if (!soundEnabled) {
+    soundEnabled = true;
+    const btn = document.getElementById("soundBtn");
+    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
+  }
+  playEventSound("VERDICT_BUY", true);
+}
+
+let lastPlayedEvKey = "";
+let lastPlayedEvMs = 0;
+
+function playEventSound(evType, forcePlay = false) {
   if (!soundEnabled) return;
+  const nowMs = Date.now();
+  if (!forcePlay && evType === lastPlayedEvKey && (nowMs - lastPlayedEvMs) < 1800) return;
+  lastPlayedEvKey = evType;
+  lastPlayedEvMs = nowMs;
+  ensureAudioGraph();
+
   if (evType === "ANALYZING") {
-    // 부드러운 레이더 스캔 시작음 (딩-동)
-    playTone(587.33, 0.0, 0.14, 0.20, "sine");
-    playTone(880.00, 0.15, 0.22, 0.22, "sine");
+    startLoungeAnalyzingBgm(false);
   } else if (evType === "VERDICT_BUY" || evType === "TRADE_BUY") {
-    // 웅장한 상승 팡파레 4화음
-    playTone(523.25, 0.00, 0.16, 0.30, "triangle");
-    playTone(659.25, 0.16, 0.16, 0.30, "triangle");
-    playTone(783.99, 0.32, 0.16, 0.30, "triangle");
-    playTone(1046.50, 0.48, 0.38, 0.34, "triangle");
+    // 대기 BGM 즉시 페이드아웃 후 -> 귀에 확 꽂히는 골든 프레스티지 상승 팡파레!
+    stopLoungeBgm(0.30);
+    const fanfare = [523.25, 659.25, 783.99, 987.77, 1174.66, 1567.98]; // Cmaj9 -> G6 골든 하프
+    fanfare.forEach((f, i) => {
+      playCrystalBell(f, 0.06 + i * 0.085, 1.65, i >= 4 ? 0.38 : 0.30);
+    });
+    // 풍성한 화음 받침 + 확인 2연타 벨
+    [261.63, 329.63, 392.00, 493.88, 587.33].forEach((f) => playRhodesNote(f, 0.12, 2.0, 0.20));
+    playWarmBass(130.81, 0.10, 1.9, 0.26);
+    playCrystalBell(1318.51, 0.72, 1.3, 0.34);
+    playCrystalBell(1567.98, 0.90, 1.8, 0.40);
   } else if (evType === "VERDICT_FALSE") {
-    // 차분한 차단 확인음
-    playTone(440.00, 0.00, 0.12, 0.16, "sine");
-    playTone(349.23, 0.13, 0.18, 0.16, "sine");
+    // 대기 BGM 부드럽게 종료 후 -> 편안하고 차분한 우드·로즈 안심 차임 ("가짜 차단 완료, 편히 쉬세요")
+    stopLoungeBgm(0.35);
+    playRhodesNote(440.00, 0.05, 0.95, 0.19);
+    playCrystalBell(523.25, 0.05, 0.85, 0.16);
+    playRhodesNote(349.23, 0.28, 1.25, 0.20);
+    playRhodesNote(261.63, 0.30, 1.25, 0.16);
   } else if (evType === "HALT_WATCH") {
-    // 홀트 감지 & 0.5초 감시 돌입 알림음
-    playTone(783.99, 0.00, 0.13, 0.24, "triangle");
-    playTone(587.33, 0.15, 0.16, 0.24, "triangle");
-    playTone(783.99, 0.33, 0.20, 0.26, "triangle");
+    // 홀트 감지 & 0.5초 밀착 감시 크리스탈 레이더 펄스
+    [659.25, 493.88, 659.25, 830.61].forEach((f, i) => {
+      playCrystalBell(f, i * 0.14, 0.85, 0.28);
+    });
   }
 }
 
@@ -654,9 +1019,30 @@ function renderBoard(state, forceRender = false) {
   document.getElementById("statHardcutCnt").innerText =
     `🛑 오늘 1차 하드컷 자체차단: ${Number(st.today_hardcut || 0)}건`;
 
-  // 3) 메인 히어로 카드 (분석 중이면 최우선 점등!)
+  // 3) 메인 히어로 카드 (분석 중이면 최우선 점등 + 사운드 상태 자동 동기화!)
   const an = state.analyzing || {};
   const verdicts = state.verdicts || [];
+  const newestVerdict = verdicts.length > 0 ? verdicts[0] : null;
+  if (!initialStateLoaded) {
+    initialStateLoaded = true;
+    if (newestVerdict && newestVerdict.id) lastAutoAudioVerdictId = newestVerdict.id;
+    if (an.active && an.symbol) lastAutoAudioAnalyzeKey = `${an.symbol}_${an.started_epoch_ms || 0}`;
+  } else if (soundEnabled) {
+    if (an.active && an.symbol) {
+      const aKey = `${an.symbol}_${an.started_epoch_ms || 0}`;
+      if (aKey !== lastAutoAudioAnalyzeKey && !isBgmPlaying) {
+        lastAutoAudioAnalyzeKey = aKey;
+        startLoungeAnalyzingBgm(false);
+      }
+    } else {
+      if (newestVerdict && newestVerdict.id && newestVerdict.id !== lastAutoAudioVerdictId) {
+        lastAutoAudioVerdictId = newestVerdict.id;
+        playEventSound(newestVerdict.decision === "BUY" ? "VERDICT_BUY" : "VERDICT_FALSE");
+      } else if (isBgmPlaying && !isPreviewPlaying) {
+        stopLoungeBgm(0.35);
+      }
+    }
+  }
   if (an.active && an.symbol) {
     renderHeroAnalyzing(an);
   } else if (verdicts.length > 0) {
