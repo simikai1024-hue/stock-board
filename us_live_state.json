@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 20:38:02",
-  "updated_at_et": "2026-11-03 06:38:02",
-  "updated_epoch_ms": 1793705882508,
+  "updated_at_kst": "2026-11-03 20:38:19",
+  "updated_at_et": "2026-11-03 06:38:19",
+  "updated_epoch_ms": 1793705899994,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DFSC",
+    "company_name": "DEFSEC Technologies Inc.",
+    "exchange": "ND",
+    "price": 0.6299,
+    "gain_pct": 7.66,
+    "mcap_m": 0.99,
+    "catalyst_hint": "[당일 PR] DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:38:17",
+    "started_at_kst": "20:38:17",
+    "started_epoch_ms": 1793705897479
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:38:00"
+    "updated_kst": "20:38:18"
   },
   "stats": {
     "today_total": 1,
