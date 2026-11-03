@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:55:52",
-  "updated_at_et": "2026-11-03 08:55:52",
-  "updated_epoch_ms": 1793714152854,
+  "updated_at_kst": "2026-11-03 22:56:31",
+  "updated_at_et": "2026-11-03 08:56:31",
+  "updated_epoch_ms": 1793714191753,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:55:50"
+    "updated_kst": "22:56:14"
   },
   "stats": {
     "today_total": 9,
@@ -657,6 +657,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:56:29",
+      "time_kst": "22:56:29",
+      "symbol": "SURG",
+      "company_name": "SURG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:54:56",
       "time_kst": "22:54:56",
       "symbol": "UL",
@@ -1144,16 +1154,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $120.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:13:10",
-      "time_kst": "22:13:10",
-      "symbol": "CMMB",
-      "company_name": "Chemomab Therapeutics Ltd.",
-      "exchange": "ND",
-      "mcap_m": 9.5,
-      "reason": "실질 시가총액 $713.47M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
