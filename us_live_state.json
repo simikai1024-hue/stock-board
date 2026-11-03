@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:05:31",
-  "updated_at_et": "2026-11-03 08:05:31",
-  "updated_epoch_ms": 1793711131409,
+  "updated_at_kst": "2026-11-03 22:06:28",
+  "updated_at_et": "2026-11-03 08:06:28",
+  "updated_epoch_ms": 1793711188857,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:05:17"
+    "updated_kst": "22:06:07"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 4,
+    "today_hardcut": 7,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +537,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:06:25",
+      "time_kst": "22:06:25",
+      "symbol": "PAX",
+      "company_name": "PAX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:05:34",
+      "time_kst": "22:05:34",
+      "symbol": "FMS",
+      "company_name": "FMS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:05:31",
+      "time_kst": "22:05:31",
+      "symbol": "ING",
+      "company_name": "ING",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:05:29",
       "time_kst": "22:05:29",
       "symbol": "EQNR",
@@ -1004,36 +1034,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:15:57",
-      "time_kst": "23:15:57",
-      "symbol": "KAZR",
-      "company_name": "KAZR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:14:28",
-      "time_kst": "23:14:28",
-      "symbol": "PRE",
-      "company_name": "PRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $299.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:12:12",
-      "time_kst": "23:12:12",
-      "symbol": "JAGX",
-      "company_name": "Jaguar Health, Inc.",
-      "exchange": "ND",
-      "mcap_m": 3.76,
-      "reason": "실질 시가총액 $167.8M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
