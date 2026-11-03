@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 12:41:37",
+  "updated_at": "2026-11-03 12:41:42",
   "history": [
     {
       "id": "1793677292489_002760_BUY",
@@ -22,7 +22,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 12:41:37",
+    "updated_at": "2026-11-03 12:41:42",
     "stats": {
       "total_closed": 0,
       "win_count": 0,
@@ -53,7 +53,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-03 12:41:37",
+    "updated_at": "2026-11-03 12:41:42",
     "stats": {
       "cooked_count": 31,
       "today_cooked_count": 1,
@@ -354,7 +354,7 @@
         "prev_close": 985,
         "open_price": 980,
         "high_price": 1048,
-        "close_price": 1048,
+        "close_price": 962,
         "entry_price": 1048,
         "open_to_high_pct": 6.94,
         "day_high_pct": 6.4,
@@ -1002,7 +1002,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 12:41:37",
+    "updated_at": "2026-11-03 12:41:42",
     "stats": {
       "total_evaluated": 23,
       "win_5_count": 8,
