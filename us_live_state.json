@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 18:04:15",
-  "updated_at_et": "2026-11-03 04:04:15",
-  "updated_epoch_ms": 1793696655409,
+  "updated_at_kst": "2026-11-03 18:04:54",
+  "updated_at_et": "2026-11-03 04:04:54",
+  "updated_epoch_ms": 1793696694471,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:04:12"
+    "updated_kst": "18:04:35"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 22,
     "total_buy": 1,
     "total_false": 21,
@@ -475,6 +475,16 @@
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-03",
+      "time_et": "04:04:51",
+      "time_kst": "18:04:51",
+      "symbol": "BKYI",
+      "company_name": "BIO KEY INTERNATIONAL INC",
+      "exchange": "ND",
+      "mcap_m": 4.99,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-02 [8-K] (Item 1.01,3.02,9.01))"
+    },
     {
       "date_et": "2026-11-02",
       "time_et": "14:44:09",
@@ -961,16 +971,6 @@
       "time_kst": "23:08:55",
       "symbol": "HLN",
       "company_name": "HLN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:03:21",
-      "time_kst": "23:03:21",
-      "symbol": "DOV",
-      "company_name": "DOV",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
