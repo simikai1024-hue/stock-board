@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>달의검 V5.0 — 🍚 밥그릇 자동매매 & AI 종가베팅 전광판</title>
+<title>🍚 밥그릇 자동매매 & AI 종가베팅 전광판</title>
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
@@ -21,10 +21,10 @@
   }
   .copy-toast.show { transform: translateX(-50%) translateY(0); }
 
-  /* 상단 헤더 */
+  /* 상단 우측 상태·복사 미니 컨트롤러 */
   .header-bar {
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    background: #111C33; border: 1px solid #243556; border-radius: 14px; padding: 14px 20px; margin-bottom: 14px;
+    display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 10px;
   }
   .header-title { font-size: 22px; font-weight: 900; color: #FDE047; letter-spacing: -0.3px; }
   .header-right { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -370,9 +370,8 @@
   <!-- 종목코드 복사 안내 플로팅 토스트 -->
   <div id="copyToast" class="copy-toast">📋 종목코드 복사 완료!</div>
 
-  <!-- 상단 심플 바 -->
+  <!-- 상단 우측 심플 컨트롤 바 -->
   <div class="header-bar">
-    <div class="header-title">🍚 달의검 V5.0 — 실시간 밥그릇 공시 자동매매 전광판</div>
     <div class="header-right">
       <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
       <button class="top-btn on" id="autoCopyBtn" onclick="toggleAutoCopy()">📋 종목코드 자동복사 켜짐</button>
@@ -395,39 +394,19 @@
        ========================================================================= -->
   <div id="sectionMain">
 
-    <!-- 1. 맨 위: 🍳 식사 준비 중 (가로 5칸 그리드 & 공시 폭발 반짝반짝 효과!) -->
-    <div class="prep-panel">
-      <div class="prep-header">
-        <div class="prep-title-wrap">
-          <span class="prep-title">🍳 식사 준비 중</span>
-          <span class="prep-sub-badge" id="prepSubBadge">선공시·밥그릇 예열 종목 (가로 5칸) · 공시 터지면 ✨반짝반짝 빛나며 종목코드 자동복사!</span>
-        </div>
-        <div style="display:flex; gap:8px; align-items:center;">
-          <button class="top-btn gold" onclick="previewSparkleDemo()" title="공시 터졌을 때 반짝임과 자동복사가 어떻게 작동하는지 미리 체험합니다">✨ 반짝임·자동복사 미리보기</button>
-        </div>
-      </div>
-
-      <div class="prep-grid-5" id="prepGrid5">
-        <div class="prep-card">
-          <div class="prep-card-top"><span class="prep-name">식사 준비 목록 로딩 중...</span></div>
-          <div class="prep-tag-row"><span class="prep-tag">선공시·224선 점검</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 2. 실시간 포착 종목 상세 & 종목코드 복사 카드 -->
+    <!-- 1. 실시간 포착 종목 상세 & 종목코드 복사 카드 -->
     <div class="live-card" id="mainHeroCard">
       <div class="live-top-row">
         <div>
-          <div class="live-badge" id="mainHeroBadge">📡 실시간 KIND·DART 호재 공시 1.0초 레이더 가동 중 (09:00 ~ 14:50)</div>
+          <div class="live-badge" id="mainHeroBadge">📡 실시간 KIND·DART 특S급 공시 1.0초 레이더 가동 중 (09:00 ~ 14:55)</div>
           <div class="live-stock-row">
-            <span class="live-stock" id="mainHeroStock" onclick="copyCurrentCode(true)" title="클릭하면 종목코드가 즉시 복사됩니다">🍚 공시 터질 종목 실시간 대기 중...</span>
+            <span class="live-stock" id="mainHeroStock" onclick="copyCurrentCode(true)" title="클릭하면 종목코드가 즉시 복사됩니다">🍚 특S급 공시 터질 종목 실시간 대기 중...</span>
             <button id="copyBtn" class="copy-code-btn" onclick="copyCurrentCode(true)">📋 종목코드 복사</button>
           </div>
         </div>
       </div>
       <div class="live-price" id="mainHeroPrice" style="color:#7DD3FC;">
-        위 '🍳 식사 준비 중' 종목이나 아래 '🍚 밥 다 된 종목' 어느 것이든 클릭하면 즉시 종목코드가 복사됩니다!
+        아래 '👑 특S급 걸린 종목들 리스트'에서 아무 종목이나 클릭하면 즉시 종목코드가 복사됩니다!
       </div>
       <div class="live-badges-row" id="mainHeroBadges">
         <span class="cat-chip">👑 초대형수주 (시총 50%↑ / 25%↑+AI·빅테크)</span>
@@ -496,7 +475,7 @@
             </tr>
           </thead>
           <tbody id="mainLedgerBody">
-            <tr><td colspan="5" style="padding:28px; color:#94A3B8;">⚡ V5.0 새출발 준비 완료! 첫 실시간 밥그릇 호재 공시 체결을 대기 중입니다.</td></tr>
+            <tr><td colspan="5" style="padding:28px; color:#94A3B8;">⚡ 첫 실시간 밥그릇 특S급 공시 체결을 대기 중입니다.</td></tr>
           </tbody>
         </table>
       </div>
@@ -817,29 +796,8 @@ function buildCatalystAndDirectorBadgesHtml(reasonStr, noteStr, isOpen) {
 }
 
 /* =========================================================================
-   🍳 식사 준비 중 (5칸 그리드) & 🍚 요일별 밥 다 된 종목들 렌더링
+   👑 요일별 특S급 걸린 종목들 렌더링
    ========================================================================= */
-function previewSparkleDemo() {
-  if (!cachedBapPayload || !Array.isArray(cachedBapPayload.preparing_list) || cachedBapPayload.preparing_list.length === 0) {
-    showCopyToast("아직 식사 준비 중 종목을 불러오는 중입니다!");
-    return;
-  }
-  const sample = cachedBapPayload.preparing_list[0];
-  sparkleDemoCode = sample.code;
-  renderBapBoard(cachedBapPayload, true);
-  copyStockCode(sample.code, sample.name, false);
-  playChime("BUY");
-  const hero = document.getElementById("mainHeroCard");
-  hero.classList.add("sparkle-hero");
-  document.getElementById("mainHeroBadge").innerText = `✨ [반짝임·자동복사 미리보기 작동 중 — 6초 후 원래대로 돌아갑니다]`;
-  document.getElementById("mainHeroStock").innerText = `${sample.name} (${sample.code})`;
-  setTimeout(() => {
-    sparkleDemoCode = "";
-    hero.classList.remove("sparkle-hero");
-    if (cachedBapPayload) renderBapBoard(cachedBapPayload, true);
-  }, 6000);
-}
-
 function renderBapBoard(payload, forceRender) {
   if (!payload) return;
   const bStamp = String(payload.updated_at || "");
@@ -847,60 +805,10 @@ function renderBapBoard(payload, forceRender) {
   if (bStamp) lastBapStamp = bStamp;
   cachedBapPayload = payload;
 
-  const prepList = payload.preparing_list || [];
   const cookedList = payload.cooked_list || [];
   const stats = payload.stats || {};
 
-  // 1) 🍳 식사 준비 중 5칸 그리드
-  const gridEl = document.getElementById("prepGrid5");
-  gridEl.innerHTML = "";
-  const todayCookedCnt = prepList.filter(p => p.cooked_today).length;
-  const subBadge = document.getElementById("prepSubBadge");
-  if (todayCookedCnt > 0) {
-    subBadge.innerText = `🔥 오늘 밥 다 된(공시 폭발) 종목 ${todayCookedCnt}개 반짝이는 중! · 카드 클릭 시 종목코드 즉시 복사`;
-    subBadge.style.borderColor = "#FDE047";
-    subBadge.style.color = "#FEF08A";
-  } else {
-    subBadge.innerText = `선공시·밥그릇 예열 ${prepList.length}종목 (가로 5칸) · 공시 터지면 ✨반짝반짝 빛나며 종목코드 자동복사!`;
-    subBadge.style.borderColor = "#38BDF8";
-    subBadge.style.color = "#BAE6FD";
-  }
-
-  prepList.slice(0, 25).forEach((p) => {
-    const isSparkle = Boolean(p.cooked_today || (sparkleDemoCode && p.code === sparkleDemoCode));
-    const card = document.createElement("div");
-    card.className = "prep-card" + (isSparkle ? " cooked-sparkle" : "");
-    card.title = p.prep_detail || `${p.name} (${p.code}) — 클릭 시 종목코드 복사`;
-
-    const tagText = isSparkle && !p.cooked_today ? "✨ 공시 폭발 예시!" : (p.prep_tag || "밥그릇 예열");
-    const rightMeta = p.cooked_today && p.day_high_pct !== undefined
-      ? `최고 +${Number(p.day_high_pct).toFixed(1)}%`
-      : (p.mcap_uk ? `${Number(p.mcap_uk).toLocaleString()}억` : "");
-
-    card.innerHTML = `
-      <div class="prep-card-top">
-        <span class="prep-name">${isSparkle ? '✨ ' : ''}${escapeHtml(p.name)}</span>
-        <span class="prep-code">${escapeHtml(p.code)}</span>
-      </div>
-      <div class="prep-tag-row">
-        <span class="prep-tag">${escapeHtml(tagText)}</span>
-        <span class="prep-mcap">${escapeHtml(rightMeta)}</span>
-      </div>
-    `;
-    card.onclick = () => {
-      copyStockCode(p.code, p.name, false);
-      document.getElementById("mainHeroBadge").innerText = p.cooked_today
-        ? `✨ [오늘 밥 다 된 공시 폭발 종목! — ${p.disc_time || ''} 포착]`
-        : `🍳 [식사 준비 중 (선공시·밥그릇 예열 종목) 상세]`;
-      document.getElementById("mainHeroStock").innerText = `${p.name} (${p.code})`;
-      const pEl = document.getElementById("mainHeroPrice");
-      pEl.style.color = p.cooked_today ? "#FDE047" : "#93C5FD";
-      pEl.innerText = p.prep_detail || `시총 ${Number(p.mcap_uk || 0).toLocaleString()}억 | ${p.prep_tag || ''}`;
-    };
-    gridEl.appendChild(card);
-  });
-
-  // 2) 👑 요일별 특S급 걸린 종목들 리스트 (공시 떴을 때 가격 & 정규장 마감 최고가)
+  // 👑 요일별 특S급 걸린 종목들 리스트 (공시 떴을 때 가격 & 정규장 마감 최고가)
   const avgEl = document.getElementById("cookedAvgBadge");
   if (cookedList.length > 0) {
     avgEl.innerText =
@@ -1048,11 +956,11 @@ function renderBapBoard(payload, forceRender) {
    ========================================================================= */
 function resetMainHeroToIdleRadar() {
   document.getElementById("mainHeroCard").classList.remove("sparkle-hero");
-  document.getElementById("mainHeroBadge").innerText = "📡 실시간 KIND·DART 호재 공시 1.0초 레이더 가동 중 (09:00 ~ 14:50)";
-  document.getElementById("mainHeroStock").innerText = "🍚 공시 터질 종목 실시간 대기 중...";
+  document.getElementById("mainHeroBadge").innerText = "📡 실시간 KIND·DART 특S급 공시 1.0초 레이더 가동 중 (09:00 ~ 14:55)";
+  document.getElementById("mainHeroStock").innerText = "🍚 특S급 공시 터질 종목 실시간 대기 중...";
   const pEl = document.getElementById("mainHeroPrice");
   pEl.style.color = "#7DD3FC";
-  pEl.innerText = "위 '🍳 식사 준비 중' 종목이나 아래 '🍚 밥 다 된 종목' 어느 것이든 클릭하면 즉시 종목코드가 복사됩니다!";
+  pEl.innerText = "아래 '👑 특S급 걸린 종목들 리스트'에서 아무 종목이나 클릭하면 즉시 종목코드가 복사됩니다!";
 }
 
 function updateMainHeroFromSignal(item, isLiveArrival) {
@@ -1173,7 +1081,7 @@ function renderMainLedger(payload) {
   const tbody = document.getElementById("mainLedgerBody");
   tbody.innerHTML = "";
   if (rows.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="5" style="padding:28px; color:#94A3B8;">⚡ V5.0 새출발 준비 완료! 첫 실시간 밥그릇 호재 공시 체결을 대기 중입니다.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5" style="padding:28px; color:#94A3B8;">⚡ 첫 실시간 밥그릇 특S급 공시 체결을 대기 중입니다.</td></tr>`;
     return;
   }
 
