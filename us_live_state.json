@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:45:58",
-  "updated_at_et": "2026-11-03 08:45:58",
-  "updated_epoch_ms": 1793713558440,
+  "updated_at_kst": "2026-11-03 22:46:46",
+  "updated_at_et": "2026-11-03 08:46:46",
+  "updated_epoch_ms": 1793713606223,
   "analyzing": {
     "active": true,
     "symbol": "AEON",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:45:46"
+    "updated_kst": "22:46:30"
   },
   "stats": {
     "today_total": 8,
@@ -649,6 +649,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:46:43",
+      "time_kst": "22:46:43",
+      "symbol": "CRE",
+      "company_name": "CRE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:46:32",
+      "time_kst": "22:46:32",
+      "symbol": "BBT",
+      "company_name": "BBT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:43:37",
       "time_kst": "22:43:37",
       "symbol": "APTV",
@@ -1126,26 +1146,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:12:04",
-      "time_kst": "22:12:04",
-      "symbol": "INFU",
-      "company_name": "INFU",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $275.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:11:56",
-      "time_kst": "22:11:56",
-      "symbol": "XEL",
-      "company_name": "XEL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50887.81M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
