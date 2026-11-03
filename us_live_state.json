@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:46:52",
-  "updated_at_et": "2026-11-03 08:46:52",
-  "updated_epoch_ms": 1793713612420,
+  "updated_at_kst": "2026-11-03 22:47:54",
+  "updated_at_et": "2026-11-03 08:47:54",
+  "updated_epoch_ms": 1793713674161,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:46:49"
+    "updated_kst": "22:47:50"
   },
   "stats": {
     "today_total": 9,
@@ -657,6 +657,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:47:11",
+      "time_kst": "22:47:11",
+      "symbol": "SMWB",
+      "company_name": "SMWB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:46:43",
       "time_kst": "22:46:43",
       "symbol": "CRE",
@@ -1144,16 +1154,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $179.44M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:12:08",
-      "time_kst": "22:12:08",
-      "symbol": "ELPC",
-      "company_name": "ELPC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
