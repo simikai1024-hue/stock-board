@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 02:58:04",
-  "updated_at_et": "2026-11-03 12:58:04",
-  "updated_epoch_ms": 1793728684052,
+  "updated_at_kst": "2026-11-04 02:59:01",
+  "updated_at_et": "2026-11-03 12:59:01",
+  "updated_epoch_ms": 1793728741992,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:58:01"
+    "updated_kst": "02:58:47"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "12:58:58",
+      "time_kst": "02:58:58",
+      "symbol": "UTMD",
+      "company_name": "UTMD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $223.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "12:52:22",
       "time_kst": "02:52:22",
       "symbol": "HSBC",
@@ -1184,16 +1194,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:30:38",
-      "time_kst": "22:30:38",
-      "symbol": "WAVE",
-      "company_name": "WAVE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $220.04M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
