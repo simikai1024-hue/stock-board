@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 01:24:14",
-  "updated_at_et": "2026-11-03 11:24:14",
-  "updated_epoch_ms": 1793723054055,
+  "updated_at_kst": "2026-11-04 01:25:18",
+  "updated_at_et": "2026-11-03 11:25:18",
+  "updated_epoch_ms": 1793723118685,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:24:12"
+    "updated_kst": "01:25:16"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "11:24:32",
+      "time_kst": "01:24:32",
+      "symbol": "HELP",
+      "company_name": "HELP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $198.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "11:19:09",
       "time_kst": "01:19:09",
       "symbol": "PSO",
@@ -1164,16 +1174,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $288.86M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:20:54",
-      "time_kst": "22:20:54",
-      "symbol": "VITL",
-      "company_name": "VITL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $370.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
