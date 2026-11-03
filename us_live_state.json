@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 19:59:41",
-  "updated_at_et": "2026-11-03 05:59:41",
-  "updated_epoch_ms": 1793703581455,
+  "updated_at_kst": "2026-11-03 20:00:52",
+  "updated_at_et": "2026-11-03 06:00:52",
+  "updated_epoch_ms": 1793703652101,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:59:39"
+    "updated_kst": "20:00:50"
   },
   "stats": {
     "today_total": 0,
