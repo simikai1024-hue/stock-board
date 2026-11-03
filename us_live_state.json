@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:50:35",
-  "updated_at_et": "2026-11-03 09:50:35",
-  "updated_epoch_ms": 1793717435196,
+  "updated_at_kst": "2026-11-03 23:51:45",
+  "updated_at_et": "2026-11-03 09:51:45",
+  "updated_epoch_ms": 1793717505666,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:50:32"
+    "updated_kst": "23:51:41"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "09:50:51",
+      "time_kst": "23:50:51",
+      "symbol": "HWBK",
+      "company_name": "HWBK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $268.85M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "09:48:55",
       "time_kst": "23:48:55",
       "symbol": "WMK",
@@ -1164,16 +1174,6 @@
       "exchange": "ND",
       "mcap_m": 0.09,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:19:06",
-      "time_kst": "22:19:06",
-      "symbol": "TAC",
-      "company_name": "TAC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
