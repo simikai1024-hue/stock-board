@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:35:03",
-  "updated_at_et": "2026-11-03 08:35:03",
-  "updated_epoch_ms": 1793712903515,
+  "updated_at_kst": "2026-11-03 22:35:47",
+  "updated_at_et": "2026-11-03 08:35:47",
+  "updated_epoch_ms": 1793712947232,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:35:00"
+    "updated_kst": "22:35:39"
   },
   "stats": {
     "today_total": 8,
@@ -637,6 +637,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:35:44",
+      "time_kst": "22:35:44",
+      "symbol": "PUK",
+      "company_name": "PUK",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:34:16",
       "time_kst": "22:34:16",
       "symbol": "PHI",
@@ -704,16 +714,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:27:40",
-      "time_kst": "22:27:40",
-      "symbol": "PUK",
-      "company_name": "PUK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-03",
