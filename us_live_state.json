@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:09:08",
-  "updated_at_et": "2026-11-03 08:09:08",
-  "updated_epoch_ms": 1793711348844,
+  "updated_at_kst": "2026-11-03 22:10:01",
+  "updated_at_et": "2026-11-03 08:10:01",
+  "updated_epoch_ms": 1793711401511,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:08:45"
+    "updated_kst": "22:09:59"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 15,
+    "today_hardcut": 19,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +537,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:09:26",
+      "time_kst": "22:09:26",
+      "symbol": "SQNS",
+      "company_name": "SQNS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:09:24",
+      "time_kst": "22:09:24",
+      "symbol": "BBVA",
+      "company_name": "BBVA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:09:22",
+      "time_kst": "22:09:22",
+      "symbol": "DT",
+      "company_name": "DT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:09:09",
+      "time_kst": "22:09:09",
+      "symbol": "KMX",
+      "company_name": "KMX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:09:06",
       "time_kst": "22:09:06",
       "symbol": "AVXL",
@@ -994,46 +1034,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:31:21",
-      "time_kst": "23:31:21",
-      "symbol": "KVUE",
-      "company_name": "KVUE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:30:16",
-      "time_kst": "23:30:16",
-      "symbol": "IHG",
-      "company_name": "IHG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:28:38",
-      "time_kst": "23:28:38",
-      "symbol": "INDV",
-      "company_name": "INDV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4174.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:26:07",
-      "time_kst": "23:26:07",
-      "symbol": "QCRH",
-      "company_name": "QCRH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1660.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
