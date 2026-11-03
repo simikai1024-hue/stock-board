@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:13:46",
-  "updated_at_et": "2026-11-03 08:13:46",
-  "updated_epoch_ms": 1793711626036,
+  "updated_at_kst": "2026-11-03 22:13:52",
+  "updated_at_et": "2026-11-03 08:13:52",
+  "updated_epoch_ms": 1793711632380,
   "analyzing": {
-    "active": true,
-    "symbol": "WKSP",
-    "company_name": "WKSP",
-    "exchange": "ND",
-    "price": 0.29,
-    "gain_pct": 2.44,
-    "mcap_m": 4.44,
-    "catalyst_hint": "[당일 PR] Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.2",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:12:54",
-    "started_at_kst": "22:12:54",
-    "started_epoch_ms": 1793711574989
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -34,17 +22,37 @@
     "updated_kst": "22:13:37"
   },
   "stats": {
-    "today_total": 4,
-    "today_nblm_count": 4,
+    "today_total": 5,
+    "today_nblm_count": 5,
     "today_buy": 0,
-    "today_false": 4,
+    "today_false": 5,
     "today_hardcut": 38,
-    "total_verdicts": 26,
+    "total_verdicts": 27,
     "total_buy": 1,
-    "total_false": 25,
-    "avg_nblm_sec": 47.9
+    "total_false": 26,
+    "avg_nblm_sec": 50.4
   },
   "verdicts": [
+    {
+      "id": "v_1793711628689_WKSP_FALSE",
+      "date_et": "2026-11-03",
+      "weekday_kr": "화",
+      "time_et": "08:13:48",
+      "time_kst": "22:13:48",
+      "symbol": "WKSP",
+      "company_name": "WKSP",
+      "exchange": "ND",
+      "price": 0.29,
+      "gain_pct": 2.44,
+      "mcap_m": 4.44,
+      "decision": "FALSE",
+      "elapsed_sec": 60.6,
+      "reason": "10/13 자 S-3 EFFECT 증약 희석 위험 잔존 + 당일 3분기 잠정 실적 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+2.44%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.2",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷에 수록된 원문 팩트를 바탕으로 진행한 WKSP (Worksport Ltd.) 정밀 직독 결재 보고입니다 [cite: 1, 19, 320].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.44M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 1, 320].\n실시간 시세 및 수급: 전일 종가 $0.2831 대비 현재가 $0.2900 (+2.44%), 당일 최고가 $0.3001 (-3.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 320].\n2. SEC 희석 위험 & D-Day PR 원문 직독 정밀 검증\n[사전 SEC 유상증자 희석 위험 잔존 (원칙 1 위반)]:\n사전 35일 SEC 제출 이력상 2026-10-13 EFFECT (S-3 증권등록신고서 효력 발생) 제출 기록이 존재하여, 언제든 장내 오퍼링/신주 유상증자 덤핑 물량이 출회될 수 있는 희석 위험이 열려 있습니다 [cite: 19].\n[당일 D-Day 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/03 07:01 ET) 발표 PR 제목: \"Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.24 Million\"\n원문 팩트: 3분기 잠정 실적 발표(Preliminary Q3 Results) 기사로, 매출액 $7.24M 및 영업현금 사용 감소 성과 발표 [cite: 19].\n치명적 기폭제 결함:\n정기/잠정 실적 발표(Earnings/Preliminary Results)는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 정기실적/주주서한' 범주에 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 특별배당 등)가 절대 아닙니다 [cite: 19].\n개장 전 수급 유입 반응($0 USD)이 전무하여 시장 참여자들의 폭발적인 주도주 매집이 형성되지 않았습니다.\n3. 최종 심사 및 결재 판정\n10/13 자 S-3 EFFECT 발효에 따른 희석 위험 잔존, 3분기 잠정 실적 발표의 1급 확정 기폭제 미달 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: WKSP 처리합니다 [cite: 19, 21].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 1].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: WKSP NOTES:\n[WKSP] 10/13 자 S-3 EFFECT 증약 희석 위험 잔존 + 당일 3분기 잠정 실적 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+2.44%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793711549552_TNMG_FALSE",
       "date_et": "2026-11-03",
