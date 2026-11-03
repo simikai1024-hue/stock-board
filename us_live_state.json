@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:03:46",
-  "updated_at_et": "2026-11-03 08:03:46",
-  "updated_epoch_ms": 1793711026991,
+  "updated_at_kst": "2026-11-03 22:04:43",
+  "updated_at_et": "2026-11-03 08:04:43",
+  "updated_epoch_ms": 1793711083292,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:03:43"
+    "updated_kst": "22:04:39"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 1,
+    "today_hardcut": 2,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +537,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:04:41",
+      "time_kst": "22:04:41",
+      "symbol": "CMCL",
+      "company_name": "CMCL",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $386.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "04:04:51",
       "time_kst": "18:04:51",
       "symbol": "BKYI",
@@ -1024,16 +1034,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $290.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:08:55",
-      "time_kst": "23:08:55",
-      "symbol": "HLN",
-      "company_name": "HLN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
