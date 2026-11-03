@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:36:38",
-  "updated_at_et": "2026-11-03 08:36:38",
-  "updated_epoch_ms": 1793712998325,
+  "updated_at_kst": "2026-11-03 22:37:30",
+  "updated_at_et": "2026-11-03 08:37:30",
+  "updated_epoch_ms": 1793713050366,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:36:36"
+    "updated_kst": "22:37:27"
   },
   "stats": {
     "today_total": 8,
@@ -637,6 +637,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:37:07",
+      "time_kst": "22:37:07",
+      "symbol": "FER",
+      "company_name": "FER",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $41508.07M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:36:58",
+      "time_kst": "22:36:58",
+      "symbol": "OPFI",
+      "company_name": "OPFI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:36:21",
       "time_kst": "22:36:21",
       "symbol": "TOP",
@@ -1114,26 +1134,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:11:01",
-      "time_kst": "22:11:01",
-      "symbol": "OPRA",
-      "company_name": "OPRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1327.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:10:41",
-      "time_kst": "22:10:41",
-      "symbol": "TSEM",
-      "company_name": "TSEM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $17996.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
