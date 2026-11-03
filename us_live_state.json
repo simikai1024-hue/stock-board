@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:10:01",
-  "updated_at_et": "2026-11-03 08:10:01",
-  "updated_epoch_ms": 1793711401511,
+  "updated_at_kst": "2026-11-03 22:10:43",
+  "updated_at_et": "2026-11-03 08:10:43",
+  "updated_epoch_ms": 1793711443842,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:09:59"
+    "updated_kst": "22:10:24"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 19,
+    "today_hardcut": 22,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +537,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:10:41",
+      "time_kst": "22:10:41",
+      "symbol": "TSEM",
+      "company_name": "TSEM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $17996.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:10:38",
+      "time_kst": "22:10:38",
+      "symbol": "SRAD",
+      "company_name": "SRAD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:10:22",
+      "time_kst": "22:10:22",
+      "symbol": "IBG",
+      "company_name": "IBG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:09:26",
       "time_kst": "22:09:26",
       "symbol": "SQNS",
@@ -1004,36 +1034,6 @@
       "exchange": "ND",
       "mcap_m": 2.91,
       "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-01 [424B5])"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:57:15",
-      "time_kst": "23:57:15",
-      "symbol": "NRSN",
-      "company_name": "NRSN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $53.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:57:06",
-      "time_kst": "23:57:06",
-      "symbol": "FCFS",
-      "company_name": "FCFS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8132.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:35:06",
-      "time_kst": "23:35:06",
-      "symbol": "SNN",
-      "company_name": "SNN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
