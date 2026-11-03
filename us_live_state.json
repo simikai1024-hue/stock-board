@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 20:06:24",
-  "updated_at_et": "2026-11-03 06:06:24",
-  "updated_epoch_ms": 1793703984304,
+  "updated_at_kst": "2026-11-03 20:06:57",
+  "updated_at_et": "2026-11-03 06:06:57",
+  "updated_epoch_ms": 1793704017844,
   "analyzing": {
-    "active": true,
-    "symbol": "RDAC",
-    "company_name": "Rising Dragon Acquisition Corp.",
-    "exchange": "ND",
-    "price": 9.7991,
-    "gain_pct": 101.63,
-    "mcap_m": 33.66,
-    "catalyst_hint": "[당일 PR] Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:06:22",
-    "started_at_kst": "20:06:22",
-    "started_epoch_ms": 1793703982272
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:06:13"
+    "updated_kst": "20:06:37"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
     "today_buy": 0,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 1,
-    "total_verdicts": 22,
+    "total_verdicts": 23,
     "total_buy": 1,
-    "total_false": 21,
-    "avg_nblm_sec": 45.9
+    "total_false": 22,
+    "avg_nblm_sec": 36.5
   },
   "verdicts": [
+    {
+      "id": "v_1793704015710_RDAC_FALSE",
+      "date_et": "2026-11-03",
+      "weekday_kr": "화",
+      "time_et": "06:06:55",
+      "time_kst": "20:06:55",
+      "symbol": "RDAC",
+      "company_name": "Rising Dragon Acquisition Corp.",
+      "exchange": "ND",
+      "price": 9.7991,
+      "gain_pct": 101.63,
+      "mcap_m": 33.66,
+      "decision": "FALSE",
+      "elapsed_sec": 36.5,
+      "reason": "HZJL과의 SPAC 합병 계약 상호 해지(Mutual Termination) 공시로 1급 확정 기폭제가 아닌 합병 무산 악재에 해당하여 전량 차단",
+      "catalyst_hint": "[당일 PR] Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 따라 긴급 포착 종목 **RDAC (Rising Dragon Acquisition Corp.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.66M USD (시가총액 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $4.8600 대비 현재가 $9.7991 (+101.63%), 당일 최고가 $9.9800 (-1.8%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:00 ET) PR 원문 분석:\nPR 제목: \"Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement\"\n원문 팩트: SPAC 회사인 RDAC가 피인수 대상인 HZJL Cayman Limited와의 기존 **합병 계약(Merger Agreement)을 상호 합의에 따라 공식 해지/파기(Mutual Termination)**한다고 발표함.\n치명적 결함:\n해당 공시는 M&A 합병 성사/완결 호재가 아니라, 추진 중이던 M&A 합병 계약이 최종 무산·파기(Termination)된 전형적인 합병 무산 공시입니다.\n당일 주가를 부양시킬 '확정적 1급 기폭제(완결된 M&A, FDA/임상 성공, 대형 수주, 특별배당 등)'가 전혀 아니며, 합병 파기에 따른 불확실성 증가로 진입 시 치명적인 손실을 유발할 수 있습니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 1급 확정 기폭제가 아닌 SPAC 합병 계약 무산/해지(Termination) 공시에 불과하므로 전략 헌장 2번·3번 원칙에 의거하여 FORCE_BLOCK: RDAC 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: RDAC NOTES:\n[RDAC] HZJL과의 SPAC 합병 계약 상호 해지(Mutual Termination) 공시로 1급 확정 기폭제가 아닌 합병 무산 악재에 해당하여 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793648955563_KFFB_FALSE",
       "date_et": "2026-11-02",
