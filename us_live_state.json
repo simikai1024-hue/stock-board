@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:07:31",
-  "updated_at_et": "2026-11-03 08:07:31",
-  "updated_epoch_ms": 1793711251787,
+  "updated_at_kst": "2026-11-03 22:08:22",
+  "updated_at_et": "2026-11-03 08:08:22",
+  "updated_epoch_ms": 1793711302242,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:07:29"
+    "updated_kst": "22:08:20"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 8,
+    "today_hardcut": 10,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +537,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:08:20",
+      "time_kst": "22:08:20",
+      "symbol": "FURY",
+      "company_name": "FURY",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $96.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:07:31",
+      "time_kst": "22:07:31",
+      "symbol": "CCEP",
+      "company_name": "CCEP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51056.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:06:45",
       "time_kst": "22:06:45",
       "symbol": "BHR",
@@ -1014,26 +1034,6 @@
       "exchange": "ND",
       "mcap_m": 4.56,
       "reason": "실질 시가총액 $76.97M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:17:00",
-      "time_kst": "23:17:00",
-      "symbol": "MPB",
-      "company_name": "MPB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $860.13M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:16:05",
-      "time_kst": "23:16:05",
-      "symbol": "TLSA",
-      "company_name": "TLSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $100.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
