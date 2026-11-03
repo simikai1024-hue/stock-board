@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:44:57",
-  "updated_at_et": "2026-11-03 09:44:57",
-  "updated_epoch_ms": 1793717097549,
+  "updated_at_kst": "2026-11-03 23:46:08",
+  "updated_at_et": "2026-11-03 09:46:08",
+  "updated_epoch_ms": 1793717168172,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:44:55"
+    "updated_kst": "23:46:05"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "09:45:26",
+      "time_kst": "23:45:26",
+      "symbol": "ACB",
+      "company_name": "ACB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $237.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "09:45:21",
+      "time_kst": "23:45:21",
+      "symbol": "MAIN",
+      "company_name": "MAIN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "09:31:33",
       "time_kst": "23:31:33",
       "symbol": "FMS",
@@ -1154,26 +1174,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $50948.87M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:18:59",
-      "time_kst": "22:18:59",
-      "symbol": "ECHO",
-      "company_name": "ECHO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:18:53",
-      "time_kst": "22:18:53",
-      "symbol": "DOCN",
-      "company_name": "DOCN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
