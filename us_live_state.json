@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 01:18:34",
-  "updated_at_et": "2026-11-03 11:18:34",
-  "updated_epoch_ms": 1793722714238,
+  "updated_at_kst": "2026-11-04 01:19:39",
+  "updated_at_et": "2026-11-03 11:19:39",
+  "updated_epoch_ms": 1793722779214,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:18:31"
+    "updated_kst": "01:19:35"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "11:19:09",
+      "time_kst": "01:19:09",
+      "symbol": "PSO",
+      "company_name": "PSO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "10:56:19",
       "time_kst": "00:56:19",
       "symbol": "NVO",
@@ -1164,16 +1174,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $370.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:20:38",
-      "time_kst": "22:20:38",
-      "symbol": "BNTX",
-      "company_name": "BNTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $22244.15M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
