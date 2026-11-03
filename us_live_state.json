@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 03:39:41",
-  "updated_at_et": "2026-11-03 13:39:41",
-  "updated_epoch_ms": 1793731181529,
+  "updated_at_kst": "2026-11-04 03:40:51",
+  "updated_at_et": "2026-11-03 13:40:51",
+  "updated_epoch_ms": 1793731251928,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:39:39"
+    "updated_kst": "03:40:48"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "13:39:54",
+      "time_kst": "03:39:54",
+      "symbol": "OGI",
+      "company_name": "OGI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $130.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "13:36:29",
       "time_kst": "03:36:29",
       "symbol": "CBSH",
@@ -1184,16 +1194,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $828.37M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:32:12",
-      "time_kst": "22:32:12",
-      "symbol": "ICU",
-      "company_name": "SeaStar Medical Holding Corp",
-      "exchange": "ND",
-      "mcap_m": 11.64,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-05 [8-K] (Item 1.01,3.02,8.01,9.01))"
     }
   ]
 }
