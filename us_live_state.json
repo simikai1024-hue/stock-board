@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:06:28",
-  "updated_at_et": "2026-11-03 08:06:28",
-  "updated_epoch_ms": 1793711188857,
+  "updated_at_kst": "2026-11-03 22:07:31",
+  "updated_at_et": "2026-11-03 08:07:31",
+  "updated_epoch_ms": 1793711251787,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:06:07"
+    "updated_kst": "22:07:29"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 7,
+    "today_hardcut": 8,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +537,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:06:45",
+      "time_kst": "22:06:45",
+      "symbol": "BHR",
+      "company_name": "BHR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:06:25",
       "time_kst": "22:06:25",
       "symbol": "PAX",
@@ -1024,16 +1034,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $100.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:16:00",
-      "time_kst": "23:16:00",
-      "symbol": "BP",
-      "company_name": "BP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
