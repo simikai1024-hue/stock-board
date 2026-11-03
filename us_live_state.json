@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 02:42:53",
-  "updated_at_et": "2026-11-03 12:42:53",
-  "updated_epoch_ms": 1793727773155,
+  "updated_at_kst": "2026-11-04 02:43:53",
+  "updated_at_et": "2026-11-03 12:43:53",
+  "updated_epoch_ms": 1793727833090,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:42:51"
+    "updated_kst": "02:43:36"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "12:43:50",
+      "time_kst": "02:43:50",
+      "symbol": "BCS",
+      "company_name": "BCS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "12:31:51",
       "time_kst": "02:31:51",
       "symbol": "CMS",
@@ -1184,16 +1194,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:26:24",
-      "time_kst": "22:26:24",
-      "symbol": "IMXI",
-      "company_name": "IMXI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $287.61M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
