@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 04:15:55",
-  "updated_at_et": "2026-11-03 14:15:55",
-  "updated_epoch_ms": 1793733355969,
+  "updated_at_kst": "2026-11-04 04:16:44",
+  "updated_at_et": "2026-11-03 14:16:44",
+  "updated_epoch_ms": 1793733404955,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:15:52"
+    "updated_kst": "04:16:41"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "14:16:41",
+      "time_kst": "04:16:41",
+      "symbol": "PAM",
+      "company_name": "PAM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "14:01:06",
       "time_kst": "04:01:06",
       "symbol": "NKSH",
@@ -1184,16 +1194,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $41508.07M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:36:58",
-      "time_kst": "22:36:58",
-      "symbol": "OPFI",
-      "company_name": "OPFI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
