@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 03:43:09",
-  "updated_at_et": "2026-11-03 13:43:09",
-  "updated_epoch_ms": 1793731389350,
+  "updated_at_kst": "2026-11-04 03:44:16",
+  "updated_at_et": "2026-11-03 13:44:16",
+  "updated_epoch_ms": 1793731456440,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:43:07"
+    "updated_kst": "03:44:13"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "13:43:20",
+      "time_kst": "03:43:20",
+      "symbol": "NWG",
+      "company_name": "NWG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "13:39:54",
       "time_kst": "03:39:54",
       "symbol": "OGI",
@@ -1184,16 +1194,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:34:04",
-      "time_kst": "22:34:04",
-      "symbol": "FWRG",
-      "company_name": "FWRG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $828.37M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
