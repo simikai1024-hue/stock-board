@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 01:51:25",
-  "updated_at_et": "2026-11-03 11:51:25",
-  "updated_epoch_ms": 1793724685508,
+  "updated_at_kst": "2026-11-04 01:52:29",
+  "updated_at_et": "2026-11-03 11:52:29",
+  "updated_epoch_ms": 1793724749565,
   "analyzing": {
     "active": true,
     "symbol": "KAPA",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:51:23"
+    "updated_kst": "01:52:27"
   },
   "stats": {
     "today_total": 10,
