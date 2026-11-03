@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:16:27",
-  "updated_at_et": "2026-11-03 08:16:27",
-  "updated_epoch_ms": 1793711787182,
+  "updated_at_kst": "2026-11-03 22:17:08",
+  "updated_at_et": "2026-11-03 08:17:08",
+  "updated_epoch_ms": 1793711828108,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:16:11"
+    "updated_kst": "22:16:49"
   },
   "stats": {
     "today_total": 7,
     "today_nblm_count": 7,
     "today_buy": 0,
     "today_false": 7,
-    "today_hardcut": 45,
+    "today_hardcut": 47,
     "total_verdicts": 29,
     "total_buy": 1,
     "total_false": 28,
@@ -617,6 +617,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:17:06",
+      "time_kst": "22:17:06",
+      "symbol": "GRAB",
+      "company_name": "GRAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:17:02",
+      "time_kst": "22:17:02",
+      "symbol": "RVTY",
+      "company_name": "RVTY",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:16:45",
+      "time_kst": "22:16:45",
+      "symbol": "CPAC",
+      "company_name": "CPAC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:16:43",
+      "time_kst": "22:16:43",
+      "symbol": "OCAC",
+      "company_name": "OCAC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:15:28",
       "time_kst": "22:15:28",
       "symbol": "ASC",
@@ -631,26 +671,6 @@
       "time_kst": "22:14:57",
       "symbol": "LPL",
       "company_name": "LPL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:54",
-      "time_kst": "22:14:54",
-      "symbol": "GRAB",
-      "company_name": "GRAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:49",
-      "time_kst": "22:14:49",
-      "symbol": "CPAC",
-      "company_name": "CPAC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
@@ -1094,26 +1114,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $220.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "13:14:07",
-      "time_kst": "03:14:07",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "13:03:26",
-      "time_kst": "03:03:26",
-      "symbol": "ERIC",
-      "company_name": "ERIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
