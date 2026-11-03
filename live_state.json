@@ -1,12 +1,12 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 12:41:45",
+  "updated_at": "2026-11-03 12:42:24",
   "history": [
     {
-      "id": "1793677292489_002760_BUY",
+      "id": "1793677341717_002760_BUY",
       "type": "BUY",
       "auto_copy": false,
-      "time": "2026-11-03 12:41:32",
+      "time": "2026-11-03 12:42:21",
       "name": "보락",
       "code": "002760",
       "price": 1052,
@@ -16,13 +16,13 @@
       "stop_price": 1015,
       "ammo_title": "⚡[DART 실시간공시·자사주취득] 자사주취득 10.0억원 확정 (시총 628억)",
       "ammo_date": "20261103",
-      "note": "⚡ DART·KIND 실시간 호재공시 직통 체결! (노트북LM 원문 정밀검수 & VI/슈팅 수익잠금 가동)",
+      "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 628억 대비 10억 원 규모의 단순 신탁계약 체결 공시로 VI 및 개장 초반 슈팅 시 빠른 분할익절과 본절잠금이 타당함 ===DART_AUDIT_END===",
       "buy_price": 1052,
       "qty": 90
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 12:41:45",
+    "updated_at": "2026-11-03 12:42:24",
     "stats": {
       "total_closed": 0,
       "win_count": 0,
@@ -48,12 +48,12 @@
         "buy_time": "12:41:30",
         "sell_time": "",
         "reason": "⚡[DART 실시간공시·자사주취득] 자사주취득 10.0억원 확정 (시총 628억)",
-        "note": "⚡ DART·KIND 실시간 호재공시 직통 체결! (노트북LM 원문 정밀검수 & VI/슈팅 수익잠금 가동)"
+        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 628억 대비 10억 원 규모의 단순 신탁계약 체결 공시로 VI 및 개장 초반 슈팅 시 빠른 분할익절과 본절잠금이 타당함 ===DART_AUDIT_END==="
       }
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-03 12:41:46",
+    "updated_at": "2026-11-03 12:42:24",
     "stats": {
       "cooked_count": 31,
       "today_cooked_count": 1,
@@ -366,7 +366,7 @@
           "sell_price": 0,
           "pnl_pct": 0.0,
           "pnl_krw": 0,
-          "note": "⚡ DART·KIND 실시간 호재공시 직통 체결! (노트북LM 원문 정밀검수 & VI/슈팅 수익잠금 가동)"
+          "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 628억 대비 10억 원 규모의 단순 신탁계약 체결 공시로 VI 및 개장 초반 슈팅 시 빠른 분할익절과 본절잠금이 타당함 ===DART_AUDIT_END==="
         }
       },
       {
@@ -1002,7 +1002,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 12:41:46",
+    "updated_at": "2026-11-03 12:42:24",
     "stats": {
       "total_evaluated": 23,
       "win_5_count": 8,
