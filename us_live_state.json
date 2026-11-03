@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 03:16:17",
-  "updated_at_et": "2026-11-03 13:16:17",
-  "updated_epoch_ms": 1793729777134,
+  "updated_at_kst": "2026-11-04 03:17:24",
+  "updated_at_et": "2026-11-03 13:17:24",
+  "updated_epoch_ms": 1793729844682,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:16:14"
+    "updated_kst": "03:17:21"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "13:16:49",
+      "time_kst": "03:16:49",
+      "symbol": "HSBC",
+      "company_name": "HSBC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "12:58:58",
       "time_kst": "02:58:58",
       "symbol": "UTMD",
@@ -704,16 +714,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $223.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "12:52:22",
-      "time_kst": "02:52:22",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-03",
