@@ -1,9 +1,9 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 16:12:28",
+  "updated_at": "2026-11-03 17:12:01",
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 16:12:28",
+    "updated_at": "2026-11-03 17:12:01",
     "stats": {
       "total_closed": 0,
       "win_count": 0,
@@ -16,7 +16,7 @@
     "rows": []
   },
   "bap_data": {
-    "updated_at": "2026-11-03 16:12:28",
+    "updated_at": "2026-11-03 17:12:01",
     "stats": {
       "cooked_count": 13,
       "today_cooked_count": 0,
@@ -328,7 +328,8 @@
         "day_high_pct": 5.41,
         "post_disc_max_pct": 10.43,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/058630/notice/174231791"
       },
       {
         "date": "2026-10-28",
@@ -356,7 +357,8 @@
         "day_high_pct": 21.9,
         "post_disc_max_pct": 20.65,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/131760/notice/169439728"
       },
       {
         "date": "2026-10-27",
@@ -384,7 +386,8 @@
         "day_high_pct": 17.52,
         "post_disc_max_pct": 14.25,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/032280/notice/168324040"
       },
       {
         "date": "2026-10-23",
@@ -412,7 +415,8 @@
         "day_high_pct": 33.98,
         "post_disc_max_pct": 28.39,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/220100/notice/165873509"
       },
       {
         "date": "2026-10-23",
@@ -440,7 +444,8 @@
         "day_high_pct": 15.21,
         "post_disc_max_pct": 19.77,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/084650/notice/165686187"
       },
       {
         "date": "2026-10-23",
@@ -468,7 +473,8 @@
         "day_high_pct": 9.09,
         "post_disc_max_pct": 8.82,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/002290/notice/165515253"
       },
       {
         "date": "2026-10-22",
@@ -496,7 +502,8 @@
         "day_high_pct": 17.33,
         "post_disc_max_pct": 8.48,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/063760/notice/163878198"
       },
       {
         "date": "2026-10-21",
@@ -524,7 +531,8 @@
         "day_high_pct": 31.59,
         "post_disc_max_pct": 29.13,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/011370/notice/162341216"
       },
       {
         "date": "2026-10-21",
@@ -552,7 +560,8 @@
         "day_high_pct": 29.98,
         "post_disc_max_pct": 23.6,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/003010/notice/162150798"
       },
       {
         "date": "2026-10-21",
@@ -580,7 +589,8 @@
         "day_high_pct": 8.53,
         "post_disc_max_pct": 3.4,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/378340/notice/161979263"
       },
       {
         "date": "2026-10-16",
@@ -608,7 +618,8 @@
         "day_high_pct": 24.04,
         "post_disc_max_pct": 20.34,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/222420/notice/158629519"
       },
       {
         "date": "2026-10-15",
@@ -636,7 +647,8 @@
         "day_high_pct": 4.21,
         "post_disc_max_pct": 6.98,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/021320/notice/156817991"
       },
       {
         "date": "2026-10-14",
@@ -664,12 +676,13 @@
         "day_high_pct": 16.33,
         "post_disc_max_pct": 20.93,
         "eod_finalized": true,
-        "is_today_live": false
+        "is_today_live": false,
+        "doc_url": "https://m.stock.naver.com/domestic/stock/130740/notice/155282597"
       }
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 16:12:28",
+    "updated_at": "2026-11-03 17:12:01",
     "stats": {
       "total_evaluated": 25,
       "win_5_count": 9,
