@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 21:53:19",
-  "updated_at_et": "2026-11-03 07:53:19",
-  "updated_epoch_ms": 1793710399300,
+  "updated_at_kst": "2026-11-03 21:53:29",
+  "updated_at_et": "2026-11-03 07:53:29",
+  "updated_epoch_ms": 1793710409826,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MDRR",
+    "company_name": "Medalist Diversified, Inc.",
+    "exchange": "ND",
+    "price": 11.74,
+    "gain_pct": 0.0,
+    "mcap_m": 19.12,
+    "catalyst_hint": "[당일 PR] The Zacks Analyst Blog Highlights Seagate, Chubb, Intercontinental and Medalist Diversified",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:53:26",
+    "started_at_kst": "21:53:26",
+    "started_epoch_ms": 1793710406397
   },
   "halt_watch": {
     "active": false
