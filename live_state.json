@@ -1,80 +1,22 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 15:41:39",
-  "history": [
-    {
-      "id": "1793677341717_002760_BUY",
-      "type": "BUY",
-      "auto_copy": false,
-      "time": "2026-11-03 12:42:21",
-      "name": "보락",
-      "code": "002760",
-      "price": 1052,
-      "flu_rt": 6.83,
-      "val_uk": 0.0,
-      "target_price": 1089,
-      "stop_price": 1015,
-      "ammo_title": "⚡[DART 실시간공시·자사주취득] 자사주취득 10.0억원 확정 (시총 628억)",
-      "ammo_date": "20261103",
-      "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 628억 대비 10억 원 규모의 단순 신탁계약 체결 공시로 VI 및 개장 초반 슈팅 시 빠른 분할익절과 본절잠금이 타당함 ===DART_AUDIT_END===",
-      "buy_price": 1052,
-      "qty": 90
-    },
-    {
-      "id": "1793677360332_002760_SELL",
-      "type": "SELL",
-      "auto_copy": false,
-      "time": "2026-11-03 12:42:40",
-      "name": "보락",
-      "code": "002760",
-      "price": 1011,
-      "flu_rt": 3.06,
-      "val_uk": 0.0,
-      "target_price": 1046,
-      "stop_price": 976,
-      "ammo_title": "📘 확정 손실: -3,891원 (-4.11%) | 매수 1,052원 → 매도 1,011원 (90주) [DART공시 칼손절(-3.5%)]",
-      "ammo_date": "",
-      "note": "⏰ DART공시 칼손절(-3.5%) 완료 | 확정 손익 -3,891원 (-4.11%)",
-      "pnl_krw": -3891,
-      "pnl_pct": -4.11,
-      "buy_price": 1052,
-      "qty": 90
-    }
-  ],
+  "updated_at": "2026-11-03 16:12:28",
+  "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 15:41:39",
+    "updated_at": "2026-11-03 16:12:28",
     "stats": {
-      "total_closed": 1,
+      "total_closed": 0,
       "win_count": 0,
       "super_win_count": 0,
-      "loss_count": 1,
+      "loss_count": 0,
       "buy_fail_count": 0,
       "win_rate_pct": 0.0,
-      "total_pnl_krw": -3891
+      "total_pnl_krw": 0
     },
-    "rows": [
-      {
-        "date": "2026-11-03",
-        "weekday": "화요일",
-        "weekday_short": "화",
-        "code": "002760",
-        "name": "보락",
-        "buy_price": 1052,
-        "sell_price": 1011,
-        "qty": 90,
-        "pnl_pct": -4.11,
-        "pnl_krw": -3891,
-        "status": "LOSS",
-        "buy_time": "12:41:30",
-        "sell_time": "12:42:40",
-        "reason": "⚡[DART 실시간공시·자사주취득] 자사주취득 10.0억원 확정 (시총 628억)",
-        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 628억 대비 10억 원 규모의 단순 신탁계약 체결 공시로 VI 및 개장 초반 슈팅 시 빠른 분할익절과 본절잠금이 타당함 ===DART_AUDIT_END===",
-        "sell_summary": "📘 확정 손실: -3,891원 (-4.11%) | 매수 1,052원 → 매도 1,011원 (90주) [DART공시 칼손절(-3.5%)]"
-      }
-    ]
+    "rows": []
   },
   "bap_data": {
-    "updated_at": "2026-11-03 15:41:39",
+    "updated_at": "2026-11-03 16:12:28",
     "stats": {
       "cooked_count": 13,
       "today_cooked_count": 0,
@@ -727,7 +669,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 15:41:39",
+    "updated_at": "2026-11-03 16:12:28",
     "stats": {
       "total_evaluated": 25,
       "win_5_count": 9,
