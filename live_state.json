@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 13:52:31",
+  "updated_at": "2026-11-03 15:41:39",
   "history": [
     {
       "id": "1793677341717_002760_BUY",
@@ -42,7 +42,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 13:52:31",
+    "updated_at": "2026-11-03 15:41:39",
     "stats": {
       "total_closed": 1,
       "win_count": 0,
@@ -74,7 +74,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-03 13:52:31",
+    "updated_at": "2026-11-03 15:41:39",
     "stats": {
       "cooked_count": 13,
       "today_cooked_count": 0,
@@ -727,18 +727,18 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 13:52:31",
+    "updated_at": "2026-11-03 15:41:39",
     "stats": {
-      "total_evaluated": 23,
-      "win_5_count": 8,
+      "total_evaluated": 25,
+      "win_5_count": 9,
       "super_15_count": 2,
-      "loss_count": 15,
-      "win_5_rate_pct": 34.8,
-      "rep_total": 4,
-      "rep_win_count": 2,
+      "loss_count": 16,
+      "win_5_rate_pct": 36.0,
+      "rep_total": 5,
+      "rep_win_count": 3,
       "rep_super_count": 1,
       "rep_loss_count": 2,
-      "rep_win_rate_pct": 50.0
+      "rep_win_rate_pct": 60.0
     },
     "days": [
       {
@@ -746,7 +746,7 @@
         "weekday": "월요일",
         "weekday_short": "월",
         "predicted_at": "2026-11-02 20:16:01",
-        "evaluated": false,
+        "evaluated": true,
         "director_force_buy": [
           "017900",
           "439090"
@@ -791,16 +791,23 @@
               "[16:12 DART공시] 주요사항보고서(자기주식취득신탁계약해지결정)"
             ],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
             "director_approved": true,
+            "eval_date": "2026-11-03",
+            "next_open": 14300,
+            "next_high": 15100,
+            "next_close": 14240,
+            "open_ret_pct": -0.14,
+            "max_ret_pct": 5.45,
+            "close_ret_pct": -0.56,
             "rank": 1,
             "target_5_price": 15030,
             "target_11_price": 15890,
             "target_15_price": 16460,
             "director_blocked": false,
             "director_note": "마녀공장: 시총 2,348억 중소형주 + 당일 16:46 자기주식취득 신탁계약 체결 DART 호재 공시 + 애프터 대금 38.2억 동반 +4.15% 초입 돌파로 승인",
-            "result_grade": "WAIT"
+            "result_grade": "WIN"
           },
           {
             "code": "072950",
@@ -828,16 +835,23 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 48,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 13860,
+            "next_high": 14380,
+            "next_close": 13530,
+            "open_ret_pct": -5.0,
+            "max_ret_pct": -1.44,
+            "close_ret_pct": -7.27,
             "rank": 2,
             "target_5_price": 15320,
             "target_11_price": 16190,
             "target_15_price": 16770,
             "director_blocked": true,
             "director_note": "빛샘전자: 정규장 -2.49% 음봉 마감 후 애프터 반등(양지사 실패형 패턴)으로 강제 차단",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "101360",
@@ -865,15 +879,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 8810,
+            "next_high": 9250,
+            "next_close": 8260,
+            "open_ret_pct": -1.34,
+            "max_ret_pct": 3.58,
+            "close_ret_pct": -7.5,
             "rank": 3,
             "target_5_price": 9370,
             "target_11_price": 9910,
             "target_15_price": 10270,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "084010",
@@ -901,15 +922,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 9000,
+            "next_high": 9580,
+            "next_close": 8630,
+            "open_ret_pct": 0.67,
+            "max_ret_pct": 7.16,
+            "close_ret_pct": -3.47,
             "rank": 4,
             "target_5_price": 9380,
             "target_11_price": 9920,
             "target_15_price": 10280,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "017900",
@@ -937,16 +965,23 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 48,
             "director_approved": true,
+            "eval_date": "2026-11-03",
+            "next_open": 8910,
+            "next_high": 9500,
+            "next_close": 8700,
+            "open_ret_pct": -4.4,
+            "max_ret_pct": 1.93,
+            "close_ret_pct": -6.65,
             "rank": 5,
             "target_5_price": 9780,
             "target_11_price": 10340,
             "target_15_price": 10710,
             "director_blocked": false,
             "director_note": "광전자: 정규장 +5.07%(고가유지 99.0%, 대금 316억) 강세 후 애프터 대금 110.4억 유입 및 +2.31%(고가유지 99.4%) 계단식 돌파 완성으로 최우선 승인",
-            "result_grade": "WAIT"
+            "result_grade": "LOSS"
           },
           {
             "code": "046890",
@@ -974,16 +1009,23 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 52,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 11270,
+            "next_high": 12300,
+            "next_close": 10300,
+            "open_ret_pct": -1.05,
+            "max_ret_pct": 7.99,
+            "close_ret_pct": -9.57,
             "rank": 6,
             "target_5_price": 11960,
             "target_11_price": 12640,
             "target_15_price": 13090,
             "director_blocked": true,
             "director_note": "서울반도체: 정규장 -4.21% 음봉 하락에 따른 본장 매물대 부담으로 강제 차단",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "179880",
@@ -1011,15 +1053,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 48,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 14700,
+            "next_high": 15410,
+            "next_close": 14280,
+            "open_ret_pct": -3.8,
+            "max_ret_pct": 0.85,
+            "close_ret_pct": -6.54,
             "rank": 7,
             "target_5_price": 16040,
             "target_11_price": 16960,
             "target_15_price": 17570,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "043910",
@@ -1049,16 +1098,23 @@
               "[17:19 DART공시] 단일판매ㆍ공급계약체결"
             ],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 34,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 2705,
+            "next_high": 2840,
+            "next_close": 2725,
+            "open_ret_pct": -1.46,
+            "max_ret_pct": 3.46,
+            "close_ret_pct": -0.73,
             "rank": 8,
             "target_5_price": 2880,
             "target_11_price": 3045,
             "target_15_price": 3155,
             "director_blocked": true,
             "director_note": "자연과환경: 애프터 대금 1.93억 소액 및 애프터 고가유지율 81.9% 윗꼬리 설거지 패턴으로 강제 차단",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "023160",
@@ -1086,15 +1142,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 52,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 29200,
+            "next_high": 30900,
+            "next_close": 27100,
+            "open_ret_pct": -2.5,
+            "max_ret_pct": 3.17,
+            "close_ret_pct": -9.52,
             "rank": 9,
             "target_5_price": 31400,
             "target_11_price": 33200,
             "target_15_price": 34400,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "069540",
@@ -1122,15 +1185,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 48,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 3900,
+            "next_high": 3990,
+            "next_close": 3750,
+            "open_ret_pct": -3.7,
+            "max_ret_pct": -1.48,
+            "close_ret_pct": -7.41,
             "rank": 10,
             "target_5_price": 4250,
             "target_11_price": 4495,
             "target_15_price": 4655,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "089970",
@@ -1158,15 +1228,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 40100,
+            "next_high": 40800,
+            "next_close": 38650,
+            "open_ret_pct": -4.41,
+            "max_ret_pct": -2.74,
+            "close_ret_pct": -7.87,
             "rank": 11,
             "target_5_price": 44000,
             "target_11_price": 46550,
             "target_15_price": 48200,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "014620",
@@ -1196,15 +1273,22 @@
             "news_headlines": [
               "[당일 09:33 SBS Biz] [이 시각 시황] 국내 증시 하락세 지속… 콩·대두株 상한가, 조선·방... — ■ 머니쇼 '이 시각 시황' - 장연재 이 시각 시황입니다. 오늘(2일) 국내 증시 하락합니다. 개장 대비해서는 좀 상승폭 하락폭 많이 줄여내나 싶었는데 지금은 다시 좀 제자리로 가고 있는 상황인데"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 52,
             "director_approved": false,
+            "eval_date": "2026-11-03",
+            "next_open": 29450,
+            "next_high": 29950,
+            "next_close": 28800,
+            "open_ret_pct": -2.16,
+            "max_ret_pct": -0.5,
+            "close_ret_pct": -4.32,
             "rank": 12,
             "target_5_price": 31600,
             "target_11_price": 33400,
             "target_15_price": 34600,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           }
         ]
       },
