@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 00:44:15",
-  "updated_at_et": "2026-11-03 10:44:15",
-  "updated_epoch_ms": 1793720655873,
+  "updated_at_kst": "2026-11-04 00:45:25",
+  "updated_at_et": "2026-11-03 10:45:25",
+  "updated_epoch_ms": 1793720725634,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:44:12"
+    "updated_kst": "00:45:22"
   },
   "stats": {
     "today_total": 10,
@@ -677,8 +677,8 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
-      "time_et": "10:34:32",
-      "time_kst": "00:34:32",
+      "time_et": "10:44:26",
+      "time_kst": "00:44:26",
       "symbol": "RACE",
       "company_name": "RACE",
       "exchange": "NY",
