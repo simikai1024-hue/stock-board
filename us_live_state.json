@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:10:57",
-  "updated_at_et": "2026-11-03 09:10:57",
-  "updated_epoch_ms": 1793715057130,
+  "updated_at_kst": "2026-11-03 23:11:37",
+  "updated_at_et": "2026-11-03 09:11:37",
+  "updated_epoch_ms": 1793715097584,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:10:53"
+    "updated_kst": "23:11:18"
   },
   "stats": {
     "today_total": 9,
@@ -657,6 +657,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "09:11:35",
+      "time_kst": "23:11:35",
+      "symbol": "INDV",
+      "company_name": "INDV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4282.32M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "09:10:01",
       "time_kst": "23:10:01",
       "symbol": "GEOS",
@@ -1144,16 +1154,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:25",
-      "time_kst": "22:14:25",
-      "symbol": "TRI",
-      "company_name": "TRI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59419.99M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
