@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 20:38:19",
-  "updated_at_et": "2026-11-03 06:38:19",
-  "updated_epoch_ms": 1793705899994,
+  "updated_at_kst": "2026-11-03 20:39:05",
+  "updated_at_et": "2026-11-03 06:39:05",
+  "updated_epoch_ms": 1793705945188,
   "analyzing": {
-    "active": true,
-    "symbol": "DFSC",
-    "company_name": "DEFSEC Technologies Inc.",
-    "exchange": "ND",
-    "price": 0.6299,
-    "gain_pct": 7.66,
-    "mcap_m": 0.99,
-    "catalyst_hint": "[당일 PR] DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:38:17",
-    "started_at_kst": "20:38:17",
-    "started_epoch_ms": 1793705897479
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:38:18"
+    "updated_kst": "20:39:02"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
     "today_buy": 0,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 1,
-    "total_verdicts": 23,
+    "total_verdicts": 24,
     "total_buy": 1,
-    "total_false": 22,
-    "avg_nblm_sec": 36.5
+    "total_false": 23,
+    "avg_nblm_sec": 41.6
   },
   "verdicts": [
+    {
+      "id": "v_1793705941473_DFSC_FALSE",
+      "date_et": "2026-11-03",
+      "weekday_kr": "화",
+      "time_et": "06:39:01",
+      "time_kst": "20:39:01",
+      "symbol": "DFSC",
+      "company_name": "DEFSEC Technologies Inc.",
+      "exchange": "ND",
+      "price": 0.6299,
+      "gain_pct": 7.66,
+      "mcap_m": 0.99,
+      "decision": "FALSE",
+      "elapsed_sec": 46.8,
+      "reason": "구체적 달러($) 금액이 미기재된 단순 ATF 규제 분류 통지(Classification)로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷에 수록된 원문을 바탕으로 진행한 DFSC (DEFSEC Technologies Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.99M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.5851 대비 현재가 $0.6299 (+7.66%), 당일 최고가 $0.6299 (+0.0%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:29 ET) PR 원문 분석:\nPR 제목: \"DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market\"\n원문 팩트: 미 주류·담배·총포 및 폭발물 단속국(ATF)으로부터 비치사성 분사기(Arwen Micro) 제품에 대한 미국 민간 시장 판매 분류(Classification) 결정을 승인받았다는 발표.\n치명적 기폭제 결함:\n구체적인 달러($) 현금 계약 금액이나 확정 수주 규모가 명시되지 않은 단순 정부 기관 규제 분류/승인 통지에 불과합니다.\n이는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 승인/특허/MOU/샘플 통지' 범주에 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 신약 승인/임상 3상 성공, 구체적 $ 수주, 대형 M&A 완료, 특별배당 등)가 절대 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구체적 달러 금액이 부재한 단순 ATF 규제 분류 승인 통보에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DFSC 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: DFSC NOTES:\n[DFSC] 구체적 달러($) 금액이 미기재된 단순 ATF 규제 분류 통지(Classification)로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793704015710_RDAC_FALSE",
       "date_et": "2026-11-03",
