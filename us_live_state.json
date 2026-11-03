@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 01:35:06",
-  "updated_at_et": "2026-11-03 11:35:06",
-  "updated_epoch_ms": 1793723706098,
+  "updated_at_kst": "2026-11-04 01:36:12",
+  "updated_at_et": "2026-11-03 11:36:12",
+  "updated_epoch_ms": 1793723772314,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:35:03"
+    "updated_kst": "01:36:10"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "11:35:21",
+      "time_kst": "01:35:21",
+      "symbol": "CARE",
+      "company_name": "CARE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $634.6M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "11:34:35",
       "time_kst": "01:34:35",
       "symbol": "BFH",
@@ -1164,16 +1174,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:21:50",
-      "time_kst": "22:21:50",
-      "symbol": "BZUN",
-      "company_name": "BZUN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $546.98M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
