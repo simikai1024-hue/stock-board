@@ -430,12 +430,12 @@
         위 '🍳 식사 준비 중' 종목이나 아래 '🍚 밥 다 된 종목' 어느 것이든 클릭하면 즉시 종목코드가 복사됩니다!
       </div>
       <div class="live-badges-row" id="mainHeroBadges">
-        <span class="cat-chip">💎 자사주취득·신탁 3억↑</span>
-        <span class="cat-chip">📦 단일판매·공급계약 매출대비 20%↑</span>
-        <span class="cat-chip">🎁 무상증자 1주당 0.5주(50%)↑</span>
-        <span class="cat-chip">🧬 기술수출 · FDA승인 · 임상탑라인</span>
+        <span class="cat-chip">👑 초대형수주 (시총 50%↑ / 25%↑+AI·빅테크)</span>
+        <span class="cat-chip">💎 진성자사주 (시총 7%↑ / 직접+소각)</span>
+        <span class="cat-chip">🎁 파격무상증자 (1주당 1주·100%↑)</span>
+        <span class="cat-chip">🧬 기술수출 · FDA본승인 · 임상탑라인</span>
       </div>
-      <div class="live-sub" id="mainHeroSub">장중에 대박 공시가 터지는 즉시 해당 종목이 맨 위에서 ✨반짝반짝 빛나며 종목코드가 자동 복사되고, 계좌도 안전벨트 없이 즉시 타격합니다!</div>
+      <div class="live-sub" id="mainHeroSub">👑 진짜 특S급 공시가 터지면 ✨반짝반짝 빛나며 종목코드가 자동 복사되고, +8.5%(VI 직전) 안전벨트 내에서 즉시 매수! 공시가와 15:31 정규장 마감 최고가가 아래 표에 자동 기록됩니다.</div>
     </div>
 
     <!-- 3. 내 실전 계좌 요약 스트립 -->
@@ -450,15 +450,15 @@
         <span class="stat-pill pnl-pos" id="mainPnlPill">💰 누적 +0원</span>
       </div>
       <div class="mode-switch">
-        <button id="btnBapCooked" class="mode-btn active" onclick="setBapTableMode('cooked')">🍚 요일별 밥 다 된 종목들 리스트</button>
+        <button id="btnBapCooked" class="mode-btn active" onclick="setBapTableMode('cooked')">👑 특S급 포착가 & 마감최고가 리스트</button>
         <button id="btnBapMyTrades" class="mode-btn" onclick="setBapTableMode('ledger')">🤖 내 계좌 체결 기록만 보기</button>
       </div>
     </div>
 
-    <!-- 4-A. 하단 메인 리스트: 🍚 요일별 밥 다 된 종목들 리스트 (시가·고가 / 시가→고가 % / 당일 최고가 %) -->
+    <!-- 4-A. 하단 메인 리스트: 👑 요일별 특S급 걸린 종목들 리스트 (공시 떴을 때 가격 & 정규장 마감 최고가) -->
     <div id="cookedTableWrap">
       <div class="section-bar">
-        <div class="section-title">🍚 요일별 밥 다 된 종목들 리스트 (실제 호재 공시 폭발 기록 · 클릭 시 코드 복사)</div>
+        <div class="section-title">👑 요일별 [특S급] 걸린 종목들 리스트 (공시 떴을 때 가격 & 15:31 정규장 마감 최고가 · 클릭 시 코드 복사)</div>
         <div id="cookedAvgBadge" style="font-size:14px; font-weight:900; color:#FDE047;"></div>
       </div>
       <div class="table-card">
@@ -466,10 +466,10 @@
           <thead>
             <tr>
               <th>날짜 · 요일 (공시시각)</th>
-              <th>밥 다 된 종목 (터진 호재 공시)</th>
-              <th>그날의 시가 → 고가</th>
-              <th>시가 → 고가 (%)</th>
-              <th>당일 최고가 (%) · 공시후 최대</th>
+              <th>👑 특S급 걸린 종목 (터진 호재 공시)</th>
+              <th>⚡ 공시 떴을 때 가격</th>
+              <th>🔥 정규장 마감 최고가 (당일 최고 %)</th>
+              <th>🚀 공시가 → 최고가 (%)</th>
             </tr>
           </thead>
           <tbody id="cookedListBody">
@@ -900,17 +900,17 @@ function renderBapBoard(payload, forceRender) {
     gridEl.appendChild(card);
   });
 
-  // 2) 🍚 요일별 밥 다 된 종목들 리스트
+  // 2) 👑 요일별 특S급 걸린 종목들 리스트 (공시 떴을 때 가격 & 정규장 마감 최고가)
   const avgEl = document.getElementById("cookedAvgBadge");
   if (cookedList.length > 0) {
     avgEl.innerText =
-      `최근 밥 다 된 ${cookedList.length}종목 평균 — 시가→고가 +${Number(stats.avg_open_to_high_pct || 0).toFixed(1)}%  |  당일 최고가 +${Number(stats.avg_day_high_pct || 0).toFixed(1)}%`;
+      `최근 👑특S급 ${cookedList.length}종목 평균 — 공시가→마감최고가 +${Number(stats.avg_post_disc_max_pct || 0).toFixed(1)}%  |  당일 최고등락률 +${Number(stats.avg_day_high_pct || 0).toFixed(1)}%`;
   }
 
   const cBody = document.getElementById("cookedListBody");
   cBody.innerHTML = "";
   if (cookedList.length === 0) {
-    cBody.innerHTML = `<tr><td colspan="5" style="padding:28px; color:#94A3B8;">아직 기록된 밥 다 된 종목이 없습니다.</td></tr>`;
+    cBody.innerHTML = `<tr><td colspan="5" style="padding:28px; color:#94A3B8;">아직 기록된 특S급 공시 종목이 없습니다.</td></tr>`;
     return;
   }
 
@@ -923,14 +923,21 @@ function renderBapBoard(payload, forceRender) {
     tr.className = `wk-${wkKey}` + (isNewDateGroup ? " date-group-start" : "") + (c.is_today_live ? " today-cooked-row" : "");
 
     const openP = Number(c.open_price || 0);
-    const highP = Number(c.high_price || 0);
-    const prevP = Number(c.prev_close || 0);
+    const discP = Number(c.disc_price || c.entry_price || openP || 0);
+    const preP = Number(c.pre_disc_price || 0);
+    const highP = Number(c.post_disc_high || c.high_price || 0);
+    const dayHighPx = Number(c.high_price || highP || 0);
     const openToHigh = Number(c.open_to_high_pct || 0);
     const dayHigh = Number(c.day_high_pct || 0);
     const postMax = Number(c.post_disc_max_pct || 0);
+    const isFinalized = c.eod_finalized !== false;
+    const beltPassed = c.belt_passed !== false;
 
     const catEmoji = c.cat === "자사주취득" ? "💎" : (c.cat === "공급계약" ? "📦" : (c.cat === "무상증자" ? "🎁" : "🧬"));
-    const todayStar = c.is_today_live ? `<span class="ai-crown">✨오늘폭발</span>` : "";
+    const todayStar = c.is_today_live ? `<span class="ai-crown">✨오늘포착</span>` : "";
+    const beltChip = beltPassed
+      ? `<span class="cat-chip" style="border-color:#22C55E; color:#86EFAC;">🛡️ +8.5%벨트 통과</span>`
+      : `<span class="cat-chip" style="border-color:#F59E0B; color:#FDE047;">👀 +8.5%벨트 초과(관전)</span>`;
 
     let myTradeHtml = "";
     if (c.my_trade && c.my_trade.status) {
@@ -944,9 +951,43 @@ function renderBapBoard(payload, forceRender) {
       }
     }
 
-    const othColor = openToHigh >= 15.0 ? "#FDE047" : (openToHigh >= 7.0 ? "#4ADE80" : "#7DD3FC");
+    const postColor = postMax >= 15.0 ? "#FDE047" : (postMax >= 7.0 ? "#4ADE80" : "#7DD3FC");
     const dhColor = dayHigh >= 29.0 ? "#FDE047" : (dayHigh >= 10.0 ? "#4ADE80" : (dayHigh > 0 ? "#E2E8F0" : "#FCA5A5"));
     const sangTag = dayHigh >= 29.2 ? ` <span class="ai-crown">상한가!</span>` : "";
+
+    const eodHighCellHtml = isFinalized
+      ? `
+        <div style="font-size:17.5px; font-weight:900; color:${dhColor};">
+          최고 ${highP.toLocaleString()}원${sangTag}
+        </div>
+        <div style="font-size:12.5px; color:#CBD5E1; margin-top:3px;">
+          당일최고 ${dayHigh >= 0 ? '+' : ''}${dayHigh.toFixed(2)}% · 시가→고가 +${openToHigh.toFixed(1)}%
+        </div>
+      `
+      : `
+        <div style="font-size:16px; font-weight:900; color:#FDE047;">
+          ⏳ 15:31 정규장 마감후 확정
+        </div>
+        <div style="font-size:12.5px; color:#94A3B8; margin-top:3px;">
+          (포착시점 고가 ${dayHighPx.toLocaleString()}원)
+        </div>
+      `;
+
+    const postMaxCellHtml = isFinalized
+      ? `
+        <div style="font-size:19.5px; font-weight:900; color:${postColor};">
+          +${Math.max(0, postMax).toFixed(2)}%
+        </div>
+        <div style="font-size:12px; color:#CBD5E1; margin-top:2px;">
+          ${discP.toLocaleString()}원 → ${highP.toLocaleString()}원
+        </div>
+      `
+      : `
+        <div style="font-size:15.5px; font-weight:900; color:#6EE7B7;">
+          ⏳ 마감후 1회 산출
+        </div>
+        <div style="font-size:12px; color:#94A3B8; margin-top:2px;">공시가 기준 대기중</div>
+      `;
 
     tr.innerHTML = `
       <td class="day-cell">
@@ -955,47 +996,39 @@ function renderBapBoard(payload, forceRender) {
       </td>
       <td style="text-align:left; padding-left:16px;">
         <div style="font-weight:900; font-size:17.5px; color:#FFFFFF;">
-          ${todayStar}${escapeHtml(c.name)} <span style="font-size:13.5px; color:#CBD5E1;">(${escapeHtml(c.code)})</span>
+          ${todayStar}👑 ${escapeHtml(c.name)} <span style="font-size:13.5px; color:#CBD5E1;">(${escapeHtml(c.code)})</span>
           <span class="mini-copy-tag">📋코드복사</span>
         </div>
         <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:6px;">
-          <span class="cat-chip">${catEmoji} ${escapeHtml(c.cat || '호재공시')}</span>
+          <span class="cat-chip">${catEmoji} ${escapeHtml(c.cat || '특S급공시')}</span>
           <span class="cat-chip metric">${escapeHtml(c.summary || c.rpt_title || '')}</span>
+          ${beltChip}
           ${myTradeHtml}
         </div>
       </td>
       <td>
-        <div style="font-size:16px; font-weight:900; color:#F8FAFC;">
-          시가 ${openP.toLocaleString()}원 → <span style="color:#FDE047;">고가 ${highP.toLocaleString()}원</span>
+        <div style="font-size:18px; font-weight:900; color:#38BDF8;">
+          ⚡ ${discP.toLocaleString()}원
         </div>
-        ${prevP > 0 ? `<div style="font-size:12.5px; color:#94A3B8; margin-top:2px;">(전일종가 ${prevP.toLocaleString()}원)</div>` : ''}
-      </td>
-      <td>
-        <div style="font-size:18.5px; font-weight:900; color:${othColor};">
-          ${openToHigh >= 0 ? '+' : ''}${openToHigh.toFixed(2)}%
-        </div>
-        <div style="font-size:12px; color:#CBD5E1; margin-top:2px;">시가 대비 고가</div>
-      </td>
-      <td>
-        <div style="font-size:18.5px; font-weight:900; color:${dhColor};">
-          당일최고 ${dayHigh >= 0 ? '+' : ''}${dayHigh.toFixed(2)}%${sangTag}
-        </div>
-        <div style="font-size:13px; color:#6EE7B7; font-weight:800; margin-top:3px;">
-          ⚡ 공시직후 최대: +${Math.max(0, postMax).toFixed(2)}%
+        <div style="font-size:12.5px; color:#94A3B8; margin-top:2px;">
+          ${preP > 0 ? `직전가 ${preP.toLocaleString()}원` : `당일시가 ${openP.toLocaleString()}원`}
         </div>
       </td>
+      <td>${eodHighCellHtml}</td>
+      <td>${postMaxCellHtml}</td>
     `;
     tr.onclick = () => {
       copyStockCode(c.code, c.name, false);
       document.getElementById("mainHeroBadge").innerText =
-        `🍚 [${c.date} (${c.weekday}) ${c.disc_time || ''} 밥 다 된 종목 상세]`;
+        `👑 [${c.date} (${c.weekday}) ${c.disc_time || ''} 특S급 포착 종목 상세]`;
       document.getElementById("mainHeroStock").innerText = `${c.name} (${c.code})`;
       const pEl = document.getElementById("mainHeroPrice");
       pEl.style.color = "#FDE047";
-      pEl.innerText =
-        `그날 시가 ${openP.toLocaleString()}원 → 고가 ${highP.toLocaleString()}원  |  시가→고가 +${openToHigh.toFixed(2)}%  |  당일 최고가 ${dayHigh>=0?'+':''}${dayHigh.toFixed(2)}% (공시직후 최대 +${Math.max(0, postMax).toFixed(2)}%)`;
+      pEl.innerText = isFinalized
+        ? `⚡ 공시 떴을 때 가격: ${discP.toLocaleString()}원  →  🔥 정규장 마감 최고가: ${highP.toLocaleString()}원 (+${Math.max(0, postMax).toFixed(2)}% 상승! | 당일최고 ${dayHigh>=0?'+':''}${dayHigh.toFixed(2)}%)`
+        : `⚡ 공시 떴을 때 가격: ${discP.toLocaleString()}원  |  ⏳ 정규장 마감(15:31) 후 최고가 1회 자동 기록 예정`;
       document.getElementById("mainHeroBadges").innerHTML =
-        `<span class="cat-chip">${catEmoji} ${escapeHtml(c.cat)}</span><span class="cat-chip metric">${escapeHtml(c.summary || '')}</span>`;
+        `<span class="cat-chip">${catEmoji} ${escapeHtml(c.cat)}</span><span class="cat-chip metric">${escapeHtml(c.summary || '')}</span>${beltChip}`;
       document.getElementById("mainHeroSub").innerText = `원문 공시명: ${c.rpt_title || c.summary || ''}`;
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
