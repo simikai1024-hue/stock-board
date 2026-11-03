@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 03:56:56",
-  "updated_at_et": "2026-11-03 13:56:56",
-  "updated_epoch_ms": 1793732216571,
+  "updated_at_kst": "2026-11-04 03:58:18",
+  "updated_at_et": "2026-11-03 13:58:18",
+  "updated_epoch_ms": 1793732298916,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:56:53"
+    "updated_kst": "03:57:17"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "13:58:10",
+      "time_kst": "03:58:10",
+      "symbol": "SAFT",
+      "company_name": "SAFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1530.3M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "13:52:28",
       "time_kst": "03:52:28",
       "symbol": "TRMB",
@@ -1184,16 +1194,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $402.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:35:44",
-      "time_kst": "22:35:44",
-      "symbol": "PUK",
-      "company_name": "PUK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
