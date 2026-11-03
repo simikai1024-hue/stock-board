@@ -2004,6 +2004,34 @@ function setAfterViewMode(mode) {
   if (cachedAfterPayload) renderAftermarketBoard(cachedAfterPayload, true);
 }
 
+function updateAfterHeroRest(dayObj, openFold = false) {
+  if (!dayObj) return;
+  const candCnt = Array.isArray(dayObj.picks) ? dayObj.picks.length : 0;
+  document.getElementById("afterHeroBadge").innerText =
+    `📅 ${dayObj.date} (${dayObj.weekday || ''}) 19:45 AI 심사 완료 — 🛡️ 매수 휴식(전종목 패스)`;
+  document.getElementById("afterHeroStock").innerText =
+    `🛡️ 금일 종가베팅 매수 휴식 (${candCnt > 0 ? '후보 ' + candCnt + '종목 전원 기준 미달 차단' : '확실한 급등 전조 없음'})`;
+  document.getElementById("afterHeroPrice").innerHTML = buildPriceStepsHtml([
+    { label: "🌙 19:45 스캔 후보", value: `${candCnt}종목 정밀 심사`, color: "#E9D5FF" },
+    { label: "👑 AI 최종 승인", value: "0종목 (계좌 보호 휴식)", color: "#FDE047" }
+  ]);
+  const hl = (dayObj.director_headline || "확실한 급등 전조 및 수급 유지율 기준을 통과한 A급 종목이 없어 현금 100% 보호(휴식) 처리했습니다.").trim();
+  document.getElementById("afterHeroSub").innerText =
+    `🧠 연구소장 한줄 결론: ${hl}\n💡 아래 보라색 바를 누르시면 오늘 스캔된 후보 종목별 탈락 사유 전문을 모두 보실 수 있습니다.`;
+
+  const foldEl = document.getElementById("afterFullReportFold");
+  const fullTxt = (dayObj.director_full_report || dayObj.director_headline || "").trim();
+  if (fullTxt) {
+    foldEl.style.display = "block";
+    document.getElementById("afterFoldTitle").innerText =
+      `📖 [${dayObj.date} ${dayObj.weekday || ''}] AI 연구소장 총평 & 후보 ${candCnt}종목 탈락 사유 전문 보기`;
+    document.getElementById("afterFullReportBody").innerText = fullTxt;
+    if (openFold) foldEl.open = true;
+  } else {
+    foldEl.style.display = "none";
+  }
+}
+
 function updateAfterHero(dayObj, pick) {
   if (!dayObj || !pick) return;
   const cleanCode = String(pick.code || "").slice(0, 6);
@@ -2091,25 +2119,40 @@ function renderAftermarketBoard(payload, forceRender) {
   document.getElementById("afterSuperPill").innerText = `🔥 +15%↑ 대박 ${supCnt}회`;
   document.getElementById("afterLossPill").innerText = `❌ 실패 ${lossCnt}회`;
 
-  if (days.length > 0 && Array.isArray(days[0].picks) && days[0].picks.length > 0) {
+  if (days.length > 0 && Array.isArray(days[0].picks)) {
     let targetDay = days[0];
     let heroP = null;
+    let isRestHero = false;
     if (selectedAfterKey) {
       const [selDate, selCode] = selectedAfterKey.split("|");
       const foundDay = days.find(d => d.date === selDate);
-      if (foundDay && Array.isArray(foundDay.picks)) {
-        const foundPick = foundDay.picks.find(x => x.code === selCode && !x.director_blocked);
-        if (foundPick) {
+      if (foundDay) {
+        if (selCode === "__REST__") {
           targetDay = foundDay;
-          heroP = foundPick;
+          isRestHero = true;
+        } else if (Array.isArray(foundDay.picks)) {
+          const foundPick = foundDay.picks.find(x => x.code === selCode && !x.director_blocked);
+          if (foundPick) {
+            targetDay = foundDay;
+            heroP = foundPick;
+          }
         }
       }
     }
-    if (!heroP) {
-      const cleanD0 = days[0].picks.filter(x => !x.director_blocked);
-      heroP = cleanD0.find(x => x.director_approved) || cleanD0[0] || days[0].picks[0];
+    if (!isRestHero && !heroP) {
+      const d0HasDir = Array.isArray(days[0].director_force_buy) && days[0].date >= "2026-10-30";
+      const cleanD0 = (days[0].picks || []).filter(x => !x.director_blocked);
+      if ((d0HasDir && days[0].director_force_buy.length === 0) || cleanD0.length === 0) {
+        isRestHero = true;
+      } else {
+        heroP = cleanD0.find(x => x.director_approved) || cleanD0[0];
+      }
     }
-    updateAfterHero(targetDay, heroP);
+    if (isRestHero) {
+      updateAfterHeroRest(targetDay, false);
+    } else if (heroP) {
+      updateAfterHero(targetDay, heroP);
+    }
   }
 
   const tbody = document.getElementById("afterLedgerBody");
@@ -2122,23 +2165,32 @@ function renderAftermarketBoard(payload, forceRender) {
     const wkKey = getWeekdayThemeKey(dayObj.date);
     const wkShort = String(dayObj.weekday || "").slice(0, 1);
     const hasDirField = Array.isArray(dayObj.director_force_buy) && dayObj.date >= "2026-10-30";
+    let listToShow = picks.filter(x => !x.director_blocked);
 
-    if (hasDirField && dayObj.director_force_buy.length === 0 && useRep) {
+    if ((hasDirField && dayObj.director_force_buy.length === 0) || listToShow.length === 0) {
       rowCount++;
       const isNewGroup = prevDate !== "" && prevDate !== dayObj.date;
       prevDate = dayObj.date;
+      const candCnt = picks.length;
       const tr = document.createElement("tr");
       tr.className = `wk-${wkKey}` + (isNewGroup ? " date-group-start" : "");
       tr.innerHTML = `
-        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge ${wkKey}">${escapeHtml(wkShort)}</span></td>
-        <td colspan="3" style="color:#E9D5FF; text-align:left; padding-left:18px;">🛡️ AI 연구소장 판정: 확실한 급등 전조 종목이 없어 <b>'매수 휴식(패스)'</b> 선언</td>
-        <td><span class="res-wait">🛡️ 휴식</span></td>
+        <td class="day-cell">${fmtShortDate(dayObj.date)} <span class="wk-badge ${wkKey}">${escapeHtml(wkShort)}</span><div style="font-size:11.5px; color:#94A3B8; margin-top:3px;">19:45 심사</div></td>
+        <td colspan="3" style="color:#E9D5FF; text-align:left; padding-left:18px;">
+          🛡️ AI 연구소장 판정: 후보 ${candCnt}종목 정밀 심사 결과 확실한 급등 전조가 없어 <b>'매수 휴식(전종목 패스)'</b> 선언
+          <span style="font-size:12px; color:#FDE047; margin-left:6px;">📖 클릭 시 ${candCnt}종목 탈락 사유 보기</span>
+        </td>
+        <td><span class="res-wait">🛡️ 매수휴식</span></td>
       `;
+      tr.onclick = () => {
+        selectedAfterKey = `${dayObj.date}|__REST__`;
+        updateAfterHeroRest(dayObj, true);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
       tbody.appendChild(tr);
       return;
     }
 
-    let listToShow = picks.filter(x => !x.director_blocked);
     if (useRep && listToShow.length > 0) {
       const dirPick = listToShow.find(x => x.director_approved) || listToShow[0];
       listToShow = [dirPick];
