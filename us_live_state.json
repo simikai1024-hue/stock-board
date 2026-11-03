@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:20:01",
-  "updated_at_et": "2026-11-03 08:20:01",
-  "updated_epoch_ms": 1793712001512,
+  "updated_at_kst": "2026-11-03 22:20:42",
+  "updated_at_et": "2026-11-03 08:20:42",
+  "updated_epoch_ms": 1793712042152,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:19:57"
+    "updated_kst": "22:20:35"
   },
   "stats": {
     "today_total": 8,
     "today_nblm_count": 8,
     "today_buy": 0,
     "today_false": 8,
-    "today_hardcut": 51,
+    "today_hardcut": 53,
     "total_verdicts": 30,
     "total_buy": 1,
     "total_false": 29,
@@ -637,6 +637,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:20:38",
+      "time_kst": "22:20:38",
+      "symbol": "BNTX",
+      "company_name": "BNTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $22244.15M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:20:02",
+      "time_kst": "22:20:02",
+      "symbol": "GH",
+      "company_name": "GH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $22911.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:19:25",
       "time_kst": "22:19:25",
       "symbol": "DKI",
@@ -1114,26 +1134,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:05:13",
-      "time_kst": "22:05:13",
-      "symbol": "TKC",
-      "company_name": "TKC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:04:41",
-      "time_kst": "22:04:41",
-      "symbol": "CMCL",
-      "company_name": "CMCL",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $386.29M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
