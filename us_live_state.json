@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:10:43",
-  "updated_at_et": "2026-11-03 08:10:43",
-  "updated_epoch_ms": 1793711443842,
+  "updated_at_kst": "2026-11-03 22:11:36",
+  "updated_at_et": "2026-11-03 08:11:36",
+  "updated_epoch_ms": 1793711496472,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TNMG",
+    "company_name": "TNMG",
+    "exchange": "ND",
+    "price": 4.01,
+    "gain_pct": -3.61,
+    "mcap_m": 10.25,
+    "catalyst_hint": "[당일 PR] TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:11:32",
+    "started_at_kst": "22:11:32",
+    "started_epoch_ms": 1793711492973
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:10:24"
+    "updated_kst": "22:11:33"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 22,
+    "today_hardcut": 26,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -537,6 +549,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:11:15",
+      "time_kst": "22:11:15",
+      "symbol": "SOPH",
+      "company_name": "SOPH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $481.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:11:07",
+      "time_kst": "22:11:07",
+      "symbol": "ELE",
+      "company_name": "ELE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:11:01",
+      "time_kst": "22:11:01",
+      "symbol": "OPRA",
+      "company_name": "OPRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1327.69M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:10:44",
+      "time_kst": "22:10:44",
+      "symbol": "FTS",
+      "company_name": "FTS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:10:41",
       "time_kst": "22:10:41",
       "symbol": "TSEM",
@@ -994,46 +1046,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:23:13",
-      "time_kst": "00:23:13",
-      "symbol": "POET",
-      "company_name": "POET",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $674.02M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:02:47",
-      "time_kst": "00:02:47",
-      "symbol": "CM",
-      "company_name": "CM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:01:28",
-      "time_kst": "00:01:28",
-      "symbol": "SGML",
-      "company_name": "SGML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $747.51M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "09:57:21",
-      "time_kst": "23:57:21",
-      "symbol": "NCI",
-      "company_name": "Neo-Concept International Group Holdings Ltd",
-      "exchange": "ND",
-      "mcap_m": 2.91,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-01 [424B5])"
     }
   ]
 }
