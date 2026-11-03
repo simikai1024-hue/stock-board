@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:11:36",
-  "updated_at_et": "2026-11-03 08:11:36",
-  "updated_epoch_ms": 1793711496472,
+  "updated_at_kst": "2026-11-03 22:12:27",
+  "updated_at_et": "2026-11-03 08:12:27",
+  "updated_epoch_ms": 1793711547091,
   "analyzing": {
     "active": true,
     "symbol": "TNMG",
@@ -31,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:11:33"
+    "updated_kst": "22:12:16"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 26,
+    "today_hardcut": 31,
     "total_verdicts": 25,
     "total_buy": 1,
     "total_false": 24,
@@ -549,6 +549,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:12:18",
+      "time_kst": "22:12:18",
+      "symbol": "CRNT",
+      "company_name": "CRNT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $179.44M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:12:08",
+      "time_kst": "22:12:08",
+      "symbol": "ELPC",
+      "company_name": "ELPC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:12:04",
+      "time_kst": "22:12:04",
+      "symbol": "INFU",
+      "company_name": "INFU",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $275.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:11:56",
+      "time_kst": "22:11:56",
+      "symbol": "XEL",
+      "company_name": "XEL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50887.81M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:11:40",
+      "time_kst": "22:11:40",
+      "symbol": "DIN",
+      "company_name": "DIN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:11:15",
       "time_kst": "22:11:15",
       "symbol": "SOPH",
@@ -993,56 +1043,6 @@
       "time_kst": "00:46:31",
       "symbol": "GPRK",
       "company_name": "GPRK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:42:22",
-      "time_kst": "00:42:22",
-      "symbol": "GSK",
-      "company_name": "GSK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:40:59",
-      "time_kst": "00:40:59",
-      "symbol": "APOG",
-      "company_name": "APOG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $971.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:33:03",
-      "time_kst": "00:33:03",
-      "symbol": "BTI",
-      "company_name": "BTI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:32:59",
-      "time_kst": "00:32:59",
-      "symbol": "AZN",
-      "company_name": "AZN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "10:28:00",
-      "time_kst": "00:28:00",
-      "symbol": "RACE",
-      "company_name": "RACE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
