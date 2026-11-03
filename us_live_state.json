@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 20:06:15",
-  "updated_at_et": "2026-11-03 06:06:15",
-  "updated_epoch_ms": 1793703975131,
+  "updated_at_kst": "2026-11-03 20:06:24",
+  "updated_at_et": "2026-11-03 06:06:24",
+  "updated_epoch_ms": 1793703984304,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "RDAC",
+    "company_name": "Rising Dragon Acquisition Corp.",
+    "exchange": "ND",
+    "price": 9.7991,
+    "gain_pct": 101.63,
+    "mcap_m": 33.66,
+    "catalyst_hint": "[당일 PR] Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:06:22",
+    "started_at_kst": "20:06:22",
+    "started_epoch_ms": 1793703982272
   },
   "halt_watch": {
     "active": false
