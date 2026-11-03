@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 01:34:00",
-  "updated_at_et": "2026-11-03 11:34:00",
-  "updated_epoch_ms": 1793723640144,
+  "updated_at_kst": "2026-11-04 01:35:06",
+  "updated_at_et": "2026-11-03 11:35:06",
+  "updated_epoch_ms": 1793723706098,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:33:55"
+    "updated_kst": "01:35:03"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "11:34:35",
+      "time_kst": "01:34:35",
+      "symbol": "BFH",
+      "company_name": "BFH",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "11:34:06",
+      "time_kst": "01:34:06",
+      "symbol": "PSIG",
+      "company_name": "PSIG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $77.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "11:24:32",
       "time_kst": "01:24:32",
       "symbol": "HELP",
@@ -1154,26 +1174,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $546.98M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:21:25",
-      "time_kst": "22:21:25",
-      "symbol": "WU",
-      "company_name": "WU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:21:21",
-      "time_kst": "22:21:21",
-      "symbol": "XMAX",
-      "company_name": "XMAX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $288.86M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
