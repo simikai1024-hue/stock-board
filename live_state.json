@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 12:42:43",
+  "updated_at": "2026-11-03 12:43:11",
   "history": [
     {
       "id": "1793677341717_002760_BUY",
@@ -42,7 +42,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 12:42:43",
+    "updated_at": "2026-11-03 12:43:11",
     "stats": {
       "total_closed": 1,
       "win_count": 0,
@@ -74,13 +74,13 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-03 12:42:43",
+    "updated_at": "2026-11-03 12:43:11",
     "stats": {
       "cooked_count": 31,
       "today_cooked_count": 1,
-      "avg_day_high_pct": 10.87,
-      "avg_open_to_high_pct": 12.14,
-      "avg_post_disc_max_pct": 9.53
+      "avg_day_high_pct": 10.93,
+      "avg_open_to_high_pct": 12.2,
+      "avg_post_disc_max_pct": 9.59
     },
     "preparing_list": [
       {
@@ -92,8 +92,8 @@
         "prep_date": "2026-11-03",
         "cooked_today": true,
         "disc_time": "12:41",
-        "day_high_pct": 6.4,
-        "open_to_high_pct": 6.94
+        "day_high_pct": 8.22,
+        "open_to_high_pct": 8.78
       },
       {
         "code": "110790",
@@ -374,12 +374,12 @@
         "mcap_uk": 628,
         "prev_close": 985,
         "open_price": 980,
-        "high_price": 1048,
-        "close_price": 962,
+        "high_price": 1066,
+        "close_price": 1036,
         "entry_price": 1048,
-        "open_to_high_pct": 6.94,
-        "day_high_pct": 6.4,
-        "post_disc_max_pct": 0.0,
+        "open_to_high_pct": 8.78,
+        "day_high_pct": 8.22,
+        "post_disc_max_pct": 1.72,
         "is_today_live": true,
         "my_trade": {
           "status": "LOSS",
@@ -1023,7 +1023,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 12:42:43",
+    "updated_at": "2026-11-03 12:43:11",
     "stats": {
       "total_evaluated": 23,
       "win_5_count": 8,
