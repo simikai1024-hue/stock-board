@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:53:50",
-  "updated_at_et": "2026-11-03 08:53:50",
-  "updated_epoch_ms": 1793714030505,
+  "updated_at_kst": "2026-11-03 22:54:58",
+  "updated_at_et": "2026-11-03 08:54:58",
+  "updated_epoch_ms": 1793714098579,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:53:47"
+    "updated_kst": "22:54:35"
   },
   "stats": {
     "today_total": 9,
@@ -657,6 +657,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:54:56",
+      "time_kst": "22:54:56",
+      "symbol": "UL",
+      "company_name": "UL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:48:19",
       "time_kst": "22:48:19",
       "symbol": "WSE",
@@ -1144,16 +1154,6 @@
       "exchange": "ND",
       "mcap_m": 9.5,
       "reason": "실질 시가총액 $713.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:13:01",
-      "time_kst": "22:13:01",
-      "symbol": "CDLR",
-      "company_name": "CDLR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
