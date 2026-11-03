@@ -1,9 +1,9 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 17:12:01",
+  "updated_at": "2026-11-03 17:38:56",
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 17:12:01",
+    "updated_at": "2026-11-03 17:38:56",
     "stats": {
       "total_closed": 0,
       "win_count": 0,
@@ -16,13 +16,13 @@
     "rows": []
   },
   "bap_data": {
-    "updated_at": "2026-11-03 17:12:01",
+    "updated_at": "2026-11-03 17:38:56",
     "stats": {
-      "cooked_count": 13,
+      "cooked_count": 10,
       "today_cooked_count": 0,
-      "avg_day_high_pct": 18.09,
-      "avg_open_to_high_pct": 18.22,
-      "avg_post_disc_max_pct": 16.55
+      "avg_day_high_pct": 21.33,
+      "avg_open_to_high_pct": 21.38,
+      "avg_post_disc_max_pct": 19.6
     },
     "preparing_list": [
       {
@@ -448,35 +448,6 @@
         "doc_url": "https://m.stock.naver.com/domestic/stock/084650/notice/165686187"
       },
       {
-        "date": "2026-10-23",
-        "weekday": "금요일",
-        "weekday_short": "금",
-        "disc_time": "10:18",
-        "code": "002290",
-        "name": "삼일기업공사",
-        "tier": "S",
-        "belt_passed": true,
-        "cat": "공급계약",
-        "summary": "👑[특S급] 수주 616억 (시총의 156% · 매출비 72.3%) (시총 396억)",
-        "rpt_title": "단일판매ㆍ공급계약체결",
-        "mcap_uk": 396,
-        "prev_close": 3245,
-        "pre_disc_price": 3205,
-        "spike_from_pre_pct": 1.5,
-        "disc_price": 3253,
-        "entry_price": 3253,
-        "open_price": 3265,
-        "high_price": 3540,
-        "post_disc_high": 3540,
-        "close_price": 3245,
-        "open_to_high_pct": 8.42,
-        "day_high_pct": 9.09,
-        "post_disc_max_pct": 8.82,
-        "eod_finalized": true,
-        "is_today_live": false,
-        "doc_url": "https://m.stock.naver.com/domestic/stock/002290/notice/165515253"
-      },
-      {
         "date": "2026-10-22",
         "weekday": "목요일",
         "weekday_short": "목",
@@ -564,35 +535,6 @@
         "doc_url": "https://m.stock.naver.com/domestic/stock/003010/notice/162150798"
       },
       {
-        "date": "2026-10-21",
-        "weekday": "수요일",
-        "weekday_short": "수",
-        "disc_time": "09:42",
-        "code": "378340",
-        "name": "필에너지",
-        "tier": "S",
-        "belt_passed": true,
-        "cat": "공급계약",
-        "summary": "👑[특S급] 수주 861억 (시총의 40% · 매출비 259.3%) · 키워드[2차전지] (시총 2,167억)",
-        "rpt_title": "단일판매ㆍ공급계약체결",
-        "mcap_uk": 2167,
-        "prev_close": 12900,
-        "pre_disc_price": 13200,
-        "spike_from_pre_pct": 2.58,
-        "disc_price": 13540,
-        "entry_price": 13540,
-        "open_price": 13060,
-        "high_price": 14000,
-        "post_disc_high": 14000,
-        "close_price": 12340,
-        "open_to_high_pct": 7.2,
-        "day_high_pct": 8.53,
-        "post_disc_max_pct": 3.4,
-        "eod_finalized": true,
-        "is_today_live": false,
-        "doc_url": "https://m.stock.naver.com/domestic/stock/378340/notice/161979263"
-      },
-      {
         "date": "2026-10-16",
         "weekday": "금요일",
         "weekday_short": "금",
@@ -620,35 +562,6 @@
         "eod_finalized": true,
         "is_today_live": false,
         "doc_url": "https://m.stock.naver.com/domestic/stock/222420/notice/158629519"
-      },
-      {
-        "date": "2026-10-15",
-        "weekday": "목요일",
-        "weekday_short": "목",
-        "disc_time": "11:01",
-        "code": "021320",
-        "name": "KCC건설",
-        "tier": "S",
-        "belt_passed": true,
-        "cat": "공급계약",
-        "summary": "👑[특S급] 수주 4,489억 (시총의 389% · 매출비 24.5%) (시총 1,153억)",
-        "rpt_title": "단일판매ㆍ공급계약체결",
-        "mcap_uk": 1153,
-        "prev_close": 5220,
-        "pre_disc_price": 5010,
-        "spike_from_pre_pct": 1.5,
-        "disc_price": 5085,
-        "entry_price": 5085,
-        "open_price": 5060,
-        "high_price": 5440,
-        "post_disc_high": 5440,
-        "close_price": 4995,
-        "open_to_high_pct": 7.51,
-        "day_high_pct": 4.21,
-        "post_disc_max_pct": 6.98,
-        "eod_finalized": true,
-        "is_today_live": false,
-        "doc_url": "https://m.stock.naver.com/domestic/stock/021320/notice/156817991"
       },
       {
         "date": "2026-10-14",
@@ -682,7 +595,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 17:12:01",
+    "updated_at": "2026-11-03 17:38:56",
     "stats": {
       "total_evaluated": 25,
       "win_5_count": 9,
