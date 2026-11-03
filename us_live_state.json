@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:09:49",
-  "updated_at_et": "2026-11-03 09:09:49",
-  "updated_epoch_ms": 1793714989204,
+  "updated_at_kst": "2026-11-03 23:10:57",
+  "updated_at_et": "2026-11-03 09:10:57",
+  "updated_epoch_ms": 1793715057130,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:46"
+    "updated_kst": "23:10:53"
   },
   "stats": {
     "today_total": 9,
@@ -657,6 +657,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "09:10:01",
+      "time_kst": "23:10:01",
+      "symbol": "GEOS",
+      "company_name": "GEOS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.35M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "09:06:15",
       "time_kst": "23:06:15",
       "symbol": "EVAX",
@@ -1144,16 +1154,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $59419.99M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:16",
-      "time_kst": "22:14:16",
-      "symbol": "BGC",
-      "company_name": "BGC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
