@@ -45,6 +45,33 @@
   .radar-pos-pill.holding {
     background: rgba(245, 158, 11, 0.22); border-color: #F59E0B; color: #FDE047;
   }
+  .radar-pos-pill.halting {
+    background: rgba(249, 115, 22, 0.24); border-color: #FB923C; color: #FED7AA;
+  }
+
+  /* 거래소 홀트 0.5초 밀착 감시 전용 배너 */
+  @keyframes haltPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.42); border-color: #F59E0B; }
+    50%  { box-shadow: 0 0 20px 3px rgba(249, 115, 22, 0.42); border-color: #FDBA74; }
+    100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.42); border-color: #F59E0B; }
+  }
+  .halt-banner {
+    display: none;
+    background: linear-gradient(135deg, #2E1A08 0%, #171324 100%);
+    border: 2px solid #F59E0B; border-radius: 15px; padding: 15px 20px;
+    margin-bottom: 14px; animation: haltPulse 1.8s infinite;
+  }
+  .halt-top {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 6px;
+  }
+  .halt-title { font-size: 16px; font-weight: 900; color: #FDE047; }
+  .halt-timer {
+    font-size: 13.5px; font-weight: 900; padding: 4px 11px; border-radius: 999px;
+    background: #0F172A; border: 1px solid #F59E0B; color: #FDBA74;
+  }
+  .halt-main { font-size: 15.5px; font-weight: 800; color: #FFFBEB; line-height: 1.5; }
+  .halt-sub  { font-size: 13.5px; font-weight: 700; color: #FCD34D; margin-top: 5px; }
 
   /* 메인 히어로: 실시간 NotebookLM 분석 모니터 */
   @keyframes pulseGlow {
@@ -266,6 +293,16 @@
     <div class="radar-pos-pill" id="radarPosPill">🎯 신규 타격 대기 중</div>
   </div>
 
+  <!-- 거래소 공식 홀트 0.5초 첫 체결 스나이퍼 배너 (타 종목 동시 심문과 병렬 표시) -->
+  <div class="halt-banner" id="haltWatchBanner">
+    <div class="halt-top">
+      <div class="halt-title" id="haltBannerTitle">⏸️ 거래소 공식 홀트 감지 · 주문 취소 & 0.5초 첫 체결 밀착 감시 중</div>
+      <div class="halt-timer" id="haltBannerTimer">⏱️ 대기 0초</div>
+    </div>
+    <div class="halt-main" id="haltBannerMain">-</div>
+    <div class="halt-sub" id="haltBannerSub">💡 미체결 주문을 취소해 달러 예수금을 100% 복구했습니다. 홀트 해제 첫 체결 포착 즉시 매수하며, 대기 중 다른 종목 BUY 발생 시 선착순으로 전환 매수합니다.</div>
+  </div>
+
   <!-- 메인 히어로: 실시간 분석 모니터 / 최근 판결 상세 -->
   <div class="hero-card" id="heroCard">
     <div class="hero-top-row">
@@ -338,6 +375,8 @@ let lastEpochMs = 0;
 let selectedVerdictId = "";
 let analyzingStartMs = 0;
 let isCurrentlyAnalyzing = false;
+let haltStartedMs = 0;
+let isCurrentlyHalting = false;
 const seenLiveIds = new Set();
 
 /* 실시간 ET / KST 듀얼 시계 & 분석 중 초시계 */
@@ -351,6 +390,13 @@ function tickClocks() {
     if (isCurrentlyAnalyzing && analyzingStartMs > 0) {
       const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
       document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
+    }
+    if (isCurrentlyHalting && haltStartedMs > 0) {
+      const hSec = Math.max(0, Math.floor((Date.now() - haltStartedMs) / 1000));
+      const mm = Math.floor(hSec / 60);
+      const ss = hSec % 60;
+      document.getElementById("haltBannerTimer").innerText =
+        mm > 0 ? `⏱️ 0.5초 밀착 감시 경과: ${mm}분 ${ss}초` : `⏱️ 0.5초 밀착 감시 경과: ${ss}초`;
     }
   } catch (e) {}
 }
@@ -406,6 +452,11 @@ function playEventSound(evType) {
     // 차분한 차단 확인음
     playTone(440.00, 0.00, 0.12, 0.16, "sine");
     playTone(349.23, 0.13, 0.18, 0.16, "sine");
+  } else if (evType === "HALT_WATCH") {
+    // 홀트 감지 & 0.5초 감시 돌입 알림음
+    playTone(783.99, 0.00, 0.13, 0.24, "triangle");
+    playTone(587.33, 0.15, 0.16, 0.24, "triangle");
+    playTone(783.99, 0.33, 0.20, 0.26, "triangle");
   }
 }
 
@@ -549,12 +600,42 @@ function renderBoard(state, forceRender = false) {
   document.getElementById("radarLeftTxt").innerText =
     `📡 [${sess}] 잠복 감시 ${wlCnt}종목 (ND·AM 전용)   |   💵 주문가능 외화: $${usd.toFixed(2)} USD   |   ${doneTxt}`;
 
+  const hw = state.halt_watch || {};
+  const haltBanner = document.getElementById("haltWatchBanner");
+  if (hw.active && hw.symbol) {
+    isCurrentlyHalting = true;
+    haltStartedMs = Number(hw.started_epoch_ms || Date.now());
+    haltBanner.style.display = "block";
+    const hEx = hw.exchange || "ND";
+    const hPx = Number(hw.halt_price || 0);
+    const resTxt = hw.resume_trade_et
+      ? `재개 확정: ${hw.resume_trade_et} ET${hw.resume_quote_et ? ' (호가재개 ' + hw.resume_quote_et + ')' : ''}`
+      : "재개 시각: 거래소 발표 대기 중 (3초마다 공식 피드 자동 조회)";
+    document.getElementById("haltBannerTitle").innerText =
+      `⏸️ [${hw.symbol} · ${hEx}] 거래소 공식 홀트 감지 → 미체결 주문 취소 & 0.5초 첫 체결 스나이퍼 가동 중!`;
+    document.getElementById("haltBannerMain").innerText =
+      `📌 사유: ${hw.reason_kr || hw.reason_code || '거래소 공식 홀트'}   |   정지 전 기준가: $${hPx.toFixed(4)}   |   정지시각: ${hw.halt_time_et || '-'} ET   |   ⏰ ${resTxt}`;
+    const hSec = Math.max(0, Math.floor((Date.now() - haltStartedMs) / 1000));
+    const mm = Math.floor(hSec / 60);
+    const ss = hSec % 60;
+    document.getElementById("haltBannerTimer").innerText =
+      mm > 0 ? `⏱️ 0.5초 밀착 감시 경과: ${mm}분 ${ss}초` : `⏱️ 0.5초 밀착 감시 경과: ${ss}초`;
+  } else {
+    isCurrentlyHalting = false;
+    haltStartedMs = 0;
+    haltBanner.style.display = "none";
+  }
+
   const posPill = document.getElementById("radarPosPill");
   if (acc.holding_symbol && Number(acc.holding_qty || 0) > 0) {
     const pRt = Number(acc.profit_rate || 0);
     posPill.className = "radar-pos-pill holding";
     posPill.innerText =
       `🚀 실전 보유 중: ${acc.holding_symbol} (${acc.holding_qty}주) | 평단 $${Number(acc.avg_price||0).toFixed(4)} → 현재 $${Number(acc.current_price||0).toFixed(4)} (${pRt>=0?'+':''}${pRt.toFixed(2)}%)`;
+  } else if (hw.active && hw.symbol) {
+    posPill.className = "radar-pos-pill halting";
+    posPill.innerText =
+      `⏸️ ${hw.symbol} 홀트 0.5초 감시 중 (타 종목 BUY 동시 열림)`;
   } else {
     posPill.className = "radar-pos-pill";
     posPill.innerText = acc.daily_done ? "🏁 금일 실전 매매 종료 (내일 개장 대기)" : "🎯 NotebookLM BUY 승인 대기 중";
