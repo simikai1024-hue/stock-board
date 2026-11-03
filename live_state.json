@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 09:05:13",
+  "updated_at": "2026-11-03 09:15:35",
   "history": [
     {
       "id": "1793664249473_042510_WATCH",
@@ -33,17 +33,36 @@
       "note": "🚀 만쥬 1등 대장주 돌파 실전체결 완료! (+3.2%/VI직전 분할익절 · 본절잠금 트레일링 가동)",
       "buy_price": 5450,
       "qty": 20
+    },
+    {
+      "id": "1793664932870_443670_SELL",
+      "type": "SELL",
+      "time": "2026-11-03 09:15:32",
+      "name": "에스피소프트",
+      "code": "443670",
+      "price": 5540,
+      "flu_rt": 8.3,
+      "val_uk": 0.0,
+      "target_price": 6140,
+      "stop_price": 5370,
+      "ammo_title": "💰 확정 수익: +1,580원 (+1.45%) | 매수 5,450원 → 매도 5,540원 (20주) [대장주 1차익절후 철통 본절잠금(+0.6%) 청산]",
+      "ammo_date": "",
+      "note": "🎉 대장주 1차익절후 철통 본절잠금(+0.6%) 청산 완료! 확정 수익 +1,580원 (+1.45%)",
+      "pnl_krw": 1580,
+      "pnl_pct": 1.45,
+      "buy_price": 5450,
+      "qty": 20
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 09:05:13",
+    "updated_at": "2026-11-03 09:15:35",
     "stats": {
-      "total_closed": 14,
+      "total_closed": 15,
       "win_count": 0,
-      "loss_count": 14,
+      "loss_count": 15,
       "buy_fail_count": 1,
       "win_rate_pct": 0.0,
-      "total_pnl_krw": -25474
+      "total_pnl_krw": -23894
     },
     "rows": [
       {
@@ -53,13 +72,13 @@
         "code": "443670",
         "name": "에스피소프트",
         "buy_price": 5450,
-        "sell_price": 0,
+        "sell_price": 5540,
         "qty": 20,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": 1.45,
+        "pnl_krw": 1580,
+        "status": "LOSS",
         "buy_time": "09:05:10",
-        "sell_time": "",
+        "sell_time": "09:15:32",
         "reason": "🦅 [만쥬주도테마 2위 [딥페이크(deepfake)] (동반상승 4개 / 상위3수급 115억)] | 테마1등대장(시총1309억) 전일고가(5,330원) 초입돌파 & 1분 14.4억 폭발(체결강도 253%)"
       },
       {
@@ -290,7 +309,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 09:05:13",
+    "updated_at": "2026-11-03 09:15:35",
     "stats": {
       "total_evaluated": 23,
       "win_5_count": 8,
