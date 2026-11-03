@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 03:51:31",
-  "updated_at_et": "2026-11-03 13:51:31",
-  "updated_epoch_ms": 1793731891207,
+  "updated_at_kst": "2026-11-04 03:52:30",
+  "updated_at_et": "2026-11-03 13:52:30",
+  "updated_epoch_ms": 1793731950587,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:51:27"
+    "updated_kst": "03:52:14"
   },
   "stats": {
     "today_total": 11,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "13:52:28",
+      "time_kst": "03:52:28",
+      "symbol": "TRMB",
+      "company_name": "TRMB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $15352.57M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "13:43:20",
       "time_kst": "03:43:20",
       "symbol": "NWG",
@@ -1181,16 +1191,6 @@
       "time_kst": "22:35:44",
       "symbol": "PUK",
       "company_name": "PUK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:34:16",
-      "time_kst": "22:34:16",
-      "symbol": "PHI",
-      "company_name": "PHI",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
