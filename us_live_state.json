@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 22:14:46",
-  "updated_at_et": "2026-11-03 08:14:46",
-  "updated_epoch_ms": 1793711686779,
+  "updated_at_kst": "2026-11-03 22:14:59",
+  "updated_at_et": "2026-11-03 08:14:59",
+  "updated_epoch_ms": 1793711699028,
   "analyzing": {
-    "active": true,
-    "symbol": "MAMO",
-    "company_name": "MAMO",
-    "exchange": "ND",
-    "price": 0.9601,
-    "gain_pct": 0.0,
-    "mcap_m": 39.98,
-    "catalyst_hint": "[당일 SEC] 2026-11-03 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:13:58",
-    "started_at_kst": "22:13:58",
-    "started_epoch_ms": 1793711638927
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:14:37"
+    "updated_kst": "22:14:55"
   },
   "stats": {
-    "today_total": 5,
-    "today_nblm_count": 5,
+    "today_total": 6,
+    "today_nblm_count": 6,
     "today_buy": 0,
-    "today_false": 5,
-    "today_hardcut": 42,
-    "total_verdicts": 27,
+    "today_false": 6,
+    "today_hardcut": 45,
+    "total_verdicts": 28,
     "total_buy": 1,
-    "total_false": 26,
-    "avg_nblm_sec": 50.4
+    "total_false": 27,
+    "avg_nblm_sec": 52.2
   },
   "verdicts": [
+    {
+      "id": "v_1793711696280_MAMO_FALSE",
+      "date_et": "2026-11-03",
+      "weekday_kr": "화",
+      "time_et": "08:14:56",
+      "time_kst": "22:14:56",
+      "symbol": "MAMO",
+      "company_name": "MAMO",
+      "exchange": "ND",
+      "price": 0.9601,
+      "gain_pct": 0.0,
+      "mcap_m": 39.98,
+      "decision": "FALSE",
+      "elapsed_sec": 61.1,
+      "reason": "당일 8-K(Item 7.01) IR자료(Investor Presentation) 게시는 1급 확정 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-03 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 MAMO (Massimo Group) 정밀 직독 결재 보고입니다 [cite: 2, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.98M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2, 4].\n실시간 시세 및 수급: 전일 종가 $0.9601 대비 현재가 $0.9601 (0.00% 보합), 당일 최고가 $0.9601. 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day SEC 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 핵심 내용: \"On November 3, 2026, Massimo Group posted an investor presentation on its website at www.massimomotor.com (Exhibit 99.1).\"\n원문 팩트: 회사의 공식 웹사이트에 투자자 설명회 자료(Investor Presentation, EX-99.1)를 게재했다는 단순 IR 홍보성 정보 공개(Regulation FD Disclosure) [cite: 46].\n치명적 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시키는 확정적 비즈니스 호재가 아니라, 단순 투자자 설명회(IR) 자료 업데이트 및 홈페이지 게재 재탕 기사에 불과합니다 [cite: 46].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 주주서한/IR 자료/정기 발표' 범주에 정확히 속하며, 당일 주가를 부양할 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 46].\n개장 전 유동성 반응($0 USD) 및 초기 세력 수급 유입이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 8-K(Item 7.01) 공시가 단순 IR 자료(Investor Presentation) 게재에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MAMO 처리합니다 [cite: 46].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 294].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: MAMO NOTES:\n[MAMO] 당일 8-K(Item 7.01) IR자료(Investor Presentation) 게시는 1급 확정 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793711628689_WKSP_FALSE",
       "date_et": "2026-11-03",
@@ -589,6 +597,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "08:14:57",
+      "time_kst": "22:14:57",
+      "symbol": "LPL",
+      "company_name": "LPL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:14:54",
+      "time_kst": "22:14:54",
+      "symbol": "GRAB",
+      "company_name": "GRAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "08:14:49",
+      "time_kst": "22:14:49",
+      "symbol": "CPAC",
+      "company_name": "CPAC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "08:14:44",
       "time_kst": "22:14:44",
       "symbol": "LNG",
@@ -1056,36 +1094,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "12:55:56",
-      "time_kst": "02:55:56",
-      "symbol": "RTO",
-      "company_name": "RTO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "12:50:18",
-      "time_kst": "02:50:18",
-      "symbol": "UL",
-      "company_name": "UL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-02",
-      "time_et": "12:45:05",
-      "time_kst": "02:45:05",
-      "symbol": "WPP",
-      "company_name": "WPP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
