@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:15:11",
-  "updated_at_et": "2026-11-03 09:15:11",
-  "updated_epoch_ms": 1793715311090,
+  "updated_at_kst": "2026-11-03 23:15:52",
+  "updated_at_et": "2026-11-03 09:15:52",
+  "updated_epoch_ms": 1793715352519,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:15:07"
+    "updated_kst": "23:15:27"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "09:15:50",
+      "time_kst": "23:15:50",
+      "symbol": "IBO",
+      "company_name": "IBO",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $432.36M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "09:15:37",
+      "time_kst": "23:15:37",
+      "symbol": "BAFN",
+      "company_name": "BAFN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $158.54M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "09:11:35",
       "time_kst": "23:11:35",
       "symbol": "INDV",
@@ -1151,26 +1171,6 @@
       "time_kst": "22:15:28",
       "symbol": "ASC",
       "company_name": "ASC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:57",
-      "time_kst": "22:14:57",
-      "symbol": "LPL",
-      "company_name": "LPL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:14:44",
-      "time_kst": "22:14:44",
-      "symbol": "LNG",
-      "company_name": "LNG",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
