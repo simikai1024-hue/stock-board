@@ -788,6 +788,12 @@
     border: 1px solid rgba(52, 211, 153, 0.35);
   }
   .mini-btn.chart:hover { background: rgba(16, 185, 129, 0.30); color: #FFFFFF; }
+  .mini-btn.dart {
+    color: #FDE68A;
+    background: rgba(245, 158, 11, 0.15);
+    border: 1px solid rgba(251, 191, 36, 0.38);
+  }
+  .mini-btn.dart:hover { background: rgba(245, 158, 11, 0.32); color: #FFFFFF; }
 
   /* 상승폭 프로그레스 게이지 */
   .gain-bar-track {
@@ -1172,11 +1178,18 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
-function updateQuickLinks(code, isAfter) {
+function updateQuickLinks(code, isAfter, exactDocUrl) {
   const clean = String(code || "").replace(/[^0-9A-Za-z]/g, "").slice(0, 6);
   if (!clean) return;
   const naverUrl = `https://finance.naver.com/item/main.naver?code=${clean}`;
-  const noticeUrl = `https://finance.naver.com/item/news_notice.naver?code=${clean}`;
+  let noticeUrl = exactDocUrl || "";
+  if (!noticeUrl && cachedBapPayload && Array.isArray(cachedBapPayload.cooked_list)) {
+    const matched = cachedBapPayload.cooked_list.find(x => String(x.code || "").slice(0, 6) === clean && x.doc_url);
+    if (matched) noticeUrl = matched.doc_url;
+  }
+  if (!noticeUrl) {
+    noticeUrl = `https://m.stock.naver.com/domestic/stock/${clean}/notice`;
+  }
   if (isAfter) {
     const ab = document.getElementById("afterNaverBtn");
     if (ab) ab.href = naverUrl;
@@ -1678,6 +1691,7 @@ function renderBapBoard(payload, forceRender) {
       `;
 
     const cleanCode = String(c.code || "").slice(0, 6);
+    const rowDocUrl = c.doc_url || `https://m.stock.naver.com/domestic/stock/${encodeURIComponent(cleanCode)}/notice`;
     tr.innerHTML = `
       <td class="day-cell">
         <div>${fmtShortDate(c.date)} <span class="wk-badge ${wkKey}">${escapeHtml(wkShort)}</span></div>
@@ -1693,6 +1707,7 @@ function renderBapBoard(payload, forceRender) {
           <div class="row-quick-btns">
             <span class="mini-btn copy">📋복사</span>
             <a class="mini-btn chart" href="https://finance.naver.com/item/main.naver?code=${encodeURIComponent(cleanCode)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">📈차트</a>
+            <a class="mini-btn dart" href="${escapeHtml(rowDocUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">🏛️원문</a>
           </div>
         </div>
         <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:7px;">
@@ -1717,6 +1732,7 @@ function renderBapBoard(payload, forceRender) {
 
     tr.onclick = () => {
       copyStockCode(cleanCode, c.name, false);
+      updateQuickLinks(cleanCode, false, rowDocUrl);
       document.getElementById("mainHeroBadge").innerText =
         `👑 ${c.date} (${c.weekday || wkShort}) ${c.disc_time || ''} 포착된 특S급 공시 상세`;
       document.getElementById("mainHeroStock").innerText = `${c.name} (${cleanCode})`;
