@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:19:03",
-  "updated_at_et": "2026-11-03 09:19:03",
-  "updated_epoch_ms": 1793715543595,
+  "updated_at_kst": "2026-11-03 23:20:12",
+  "updated_at_et": "2026-11-03 09:20:12",
+  "updated_epoch_ms": 1793715612814,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:19:01"
+    "updated_kst": "23:20:11"
   },
   "stats": {
     "today_total": 10,
@@ -677,6 +677,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-03",
+      "time_et": "09:20:10",
+      "time_kst": "23:20:10",
+      "symbol": "NXXT",
+      "company_name": "NEXTNRG, INC.",
+      "exchange": "ND",
+      "mcap_m": 3.76,
+      "reason": "실질 시가총액 $403.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-03",
+      "time_et": "09:19:19",
+      "time_kst": "23:19:19",
+      "symbol": "AIRE",
+      "company_name": "reAlpha Tech Corp.",
+      "exchange": "ND",
+      "mcap_m": 4.01,
+      "reason": "당일 유상증자/오퍼링 PR 명시 (reAlpha Tech Corp. Announces Pricing of $1.75 Mill)"
+    },
+    {
+      "date_et": "2026-11-03",
       "time_et": "09:15:50",
       "time_kst": "23:15:50",
       "symbol": "IBO",
@@ -1151,26 +1171,6 @@
       "time_kst": "22:16:45",
       "symbol": "CPAC",
       "company_name": "CPAC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:16:43",
-      "time_kst": "22:16:43",
-      "symbol": "OCAC",
-      "company_name": "OCAC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:15:28",
-      "time_kst": "22:15:28",
-      "symbol": "ASC",
-      "company_name": "ASC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
