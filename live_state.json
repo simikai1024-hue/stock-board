@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03 09:22:24",
+  "updated_at": "2026-11-03 09:35:08",
   "history": [
     {
       "id": "1793664249473_042510_WATCH",
@@ -69,17 +69,36 @@
       "note": "🚀 만쥬 1등 대장주 돌파 실전체결 완료! (+3.2%/VI직전 분할익절 · 본절잠금 트레일링 가동)",
       "buy_price": 5530,
       "qty": 20
+    },
+    {
+      "id": "1793666106833_158430_SELL",
+      "type": "SELL",
+      "time": "2026-11-03 09:35:06",
+      "name": "아톤",
+      "code": "158430",
+      "price": 5380,
+      "flu_rt": 5.27,
+      "val_uk": 0.0,
+      "target_price": 5970,
+      "stop_price": 5210,
+      "ammo_title": "📘 확정 손실: -3,235원 (-2.92%) | 매수 5,530원 → 매도 5,380원 (20주) [대장주 만쥬 칼손절(-2.5%)]",
+      "ammo_date": "",
+      "note": "⏰ 대장주 만쥬 칼손절(-2.5%) 완료 | 확정 손익 -3,235원 (-2.92%)",
+      "pnl_krw": -3235,
+      "pnl_pct": -2.92,
+      "buy_price": 5530,
+      "qty": 20
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 09:22:24",
+    "updated_at": "2026-11-03 09:35:08",
     "stats": {
-      "total_closed": 15,
+      "total_closed": 16,
       "win_count": 0,
-      "loss_count": 15,
+      "loss_count": 16,
       "buy_fail_count": 1,
       "win_rate_pct": 0.0,
-      "total_pnl_krw": -23894
+      "total_pnl_krw": -27129
     },
     "rows": [
       {
@@ -89,13 +108,13 @@
         "code": "158430",
         "name": "아톤",
         "buy_price": 5530,
-        "sell_price": 0,
+        "sell_price": 5380,
         "qty": 20,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": -2.92,
+        "pnl_krw": -3235,
+        "status": "LOSS",
         "buy_time": "09:22:21",
-        "sell_time": "",
+        "sell_time": "09:35:06",
         "reason": "🦅 [만쥬주도테마 2위 [양자암호/양자컴퓨팅] (동반상승 8개 / 상위3수급 688억)] | 테마1등대장(시총1354억) 전일고가(5,240원) 초입돌파 & 1분 5.4억 폭발(체결강도 188%)"
       },
       {
@@ -342,7 +361,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 09:22:24",
+    "updated_at": "2026-11-03 09:35:08",
     "stats": {
       "total_evaluated": 23,
       "win_5_count": 8,
