@@ -938,9 +938,9 @@
     <!-- 1. 한눈에 보는 4칸 요약 KPI 카드 -->
     <div class="kpi-grid">
       <div class="kpi-card">
-        <div class="kpi-label"><span>🚀 공시가 → 마감최고가 평균</span><span>특S급 파워</span></div>
-        <div class="kpi-val" id="kpiAvgGain" style="color:#FDE047;">+--%</div>
-        <div class="kpi-sub" id="kpiAvgDayHigh">당일 최고 평균 +--%</div>
+        <div class="kpi-label"><span>🚀 공시가 → 최고가 / 종가</span><span>특S급 파워</span></div>
+        <div class="kpi-val" id="kpiAvgGain" style="color:#FDE047;">최고 +--%</div>
+        <div class="kpi-sub" id="kpiAvgDayHigh">🏁 마감종가 평균 +--%</div>
       </div>
 
       <div class="kpi-card clickable" onclick="setCookedFilter('SUPER20')" title="클릭하면 +20%↑·상한가 종목만 모아봅니다">
@@ -1028,8 +1028,8 @@
               <th>날짜 · 요일 (공시시각)</th>
               <th style="text-align:left; padding-left:18px;">👑 특S급 종목 & 핵심 호재 요약</th>
               <th>⚡ 공시 떴을 때 가격</th>
-              <th>🔥 정규장 마감 최고가</th>
-              <th>🚀 공시가 → 최고가 상승폭</th>
+              <th>🔥 최고가 (공시가→최고 %)</th>
+              <th>🏁 마감 종가 (공시가→종가 %)</th>
             </tr>
           </thead>
           <tbody id="cookedListBody">
@@ -1542,24 +1542,28 @@ function renderBapBoard(payload, forceRender) {
   const tabCntPill = document.getElementById("tabMainCountPill");
   if (tabCntPill) tabCntPill.innerText = `특S급 ${cookedList.length}건 · +8.5% 벨트`;
 
-  let sumPost = 0, sumDay = 0, finCnt = 0, up15Cnt = 0, sangCnt = 0;
+  let sumPost = 0, sumCloseRet = 0, finCnt = 0, up15Cnt = 0, sangCnt = 0;
   cookedList.forEach((c) => {
     if (c.eod_finalized !== false) {
       finCnt++;
       const pm = Math.max(0, Number(c.post_disc_max_pct || 0));
       const dh = Number(c.day_high_pct || 0);
+      const dp = Number(c.disc_price || c.entry_price || c.open_price || 0);
+      const cp = Number(c.close_price || 0);
+      const cr = (dp > 0 && cp > 0) ? ((cp - dp) / dp * 100.0) : 0.0;
       sumPost += pm;
-      sumDay += dh;
+      sumCloseRet += cr;
       if (pm >= 15.0 || dh >= 20.0) up15Cnt++;
       if (dh >= 29.0) sangCnt++;
     }
   });
 
   const avgPost = finCnt > 0 ? (sumPost / finCnt) : Number(stats.avg_post_disc_max_pct || 0);
-  const avgDay = finCnt > 0 ? (sumDay / finCnt) : Number(stats.avg_day_high_pct || 0);
+  const avgCloseRet = finCnt > 0 ? (sumCloseRet / finCnt) : 0.0;
 
-  document.getElementById("kpiAvgGain").innerText = `+${avgPost.toFixed(1)}%`;
-  document.getElementById("kpiAvgDayHigh").innerText = `당일 최고 평균 +${avgDay.toFixed(1)}% (${cookedList.length}종목)`;
+  document.getElementById("kpiAvgGain").innerText = `최고 +${avgPost.toFixed(1)}%`;
+  document.getElementById("kpiAvgDayHigh").innerHTML =
+    `🏁 공시가→종가 평균 <b style="color:#4ADE80;">${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%</b>`;
   document.getElementById("kpiSuperRatio").innerText = `${up15Cnt} / ${finCnt || cookedList.length}건`;
   document.getElementById("kpiSangCount").innerHTML =
     `🔥 +15%↑ 급등 <b>${up15Cnt}건</b> · 🏆 상한가권 <b>${sangCnt}건</b>`;
@@ -1586,7 +1590,7 @@ function renderBapBoard(payload, forceRender) {
   if (filtered.length > 0) {
     avgEl.innerText =
       filtered.length === cookedList.length
-        ? `전체 ${cookedList.length}종목 표시 중 · 평균 공시가→최고가 +${avgPost.toFixed(1)}%`
+        ? `전체 ${cookedList.length}종목 · 공시가→최고 평균 +${avgPost.toFixed(1)}% / 공시가→종가 평균 ${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%`
         : `필터 결과 ${filtered.length}종목 (전체 ${cookedList.length}종목 중)`;
   } else {
     avgEl.innerText = "";
@@ -1607,13 +1611,16 @@ function renderBapBoard(payload, forceRender) {
     prevDate = c.date;
 
     const openP = Number(c.open_price || 0);
+    const prevCl = Number(c.prev_close || 0);
     const discP = Number(c.disc_price || c.entry_price || openP || 0);
     const preP = Number(c.pre_disc_price || 0);
     const highP = Number(c.post_disc_high || c.high_price || 0);
+    const closeP = Number(c.close_price || 0);
     const dayHighPx = Number(c.high_price || highP || 0);
-    const openToHigh = Number(c.open_to_high_pct || 0);
     const dayHigh = Number(c.day_high_pct || 0);
     const postMax = Math.max(0, Number(c.post_disc_max_pct || 0));
+    const discToClosePct = (discP > 0 && closeP > 0) ? ((closeP - discP) / discP * 100.0) : 0.0;
+    const dayClosePct = (prevCl > 0 && closeP > 0) ? ((closeP - prevCl) / prevCl * 100.0) : 0.0;
     const mcapUk = Number(c.mcap_uk || 0);
     const isFinalized = c.eod_finalized !== false;
     const beltPassed = c.belt_passed !== false;
@@ -1658,35 +1665,46 @@ function renderBapBoard(payload, forceRender) {
 
     const eodHighCellHtml = isFinalized
       ? `
-        <div style="font-size:17px; font-weight:900; color:${dhColor};">
-          ${highP.toLocaleString()}원${sangTag}
+        <div style="font-size:17.5px; font-weight:900; color:${postColor};">
+          +${postMax.toFixed(2)}%${sangTag}
         </div>
-        <div style="font-size:12px; color:#94A3B8; margin-top:3px;">
-          당일최고 ${dayHigh >= 0 ? '+' : ''}${dayHigh.toFixed(2)}% · 시가대비 +${openToHigh.toFixed(1)}%
+        <div class="gain-bar-track"><div class="gain-bar-fill" style="width:${barWidth.toFixed(0)}%; background:${barBg};"></div></div>
+        <div style="font-size:12px; color:#CBD5E1; margin-top:4px;">
+          최고 ${highP.toLocaleString()}원 <span style="color:#94A3B8;">(당일 +${dayHigh.toFixed(1)}%)</span>
         </div>
       `
       : `
         <div style="font-size:15px; font-weight:900; color:#FDE047;">
-          ⏳ 15:31 마감후 자동기록
+          ⏳ 15:31 마감후 기록
         </div>
         <div style="font-size:12px; color:#94A3B8; margin-top:3px;">
           현재 고가 ${dayHighPx.toLocaleString()}원
         </div>
       `;
 
+    const isSangClose = dayClosePct >= 29.0 || (closeP >= highP && postMax >= 20.0);
+    const closeColor = isSangClose ? "#FDE047" : (discToClosePct >= 8.0 ? "#4ADE80" : (discToClosePct > 0 ? "#7DD3FC" : "#FCA5A5"));
+    let closeShapeBadge = "";
+    if (isSangClose) {
+      closeShapeBadge = `<span class="ai-crown" style="margin-left:4px;">🏆상한가잠김</span>`;
+    } else if (discToClosePct > 0 && postMax > 0 && (discToClosePct / postMax) >= 0.60) {
+      closeShapeBadge = `<span style="font-size:11px; font-weight:800; color:#6EE7B7; background:rgba(16,185,129,0.16); border:1px solid rgba(52,211,153,0.4); padding:1px 6px; border-radius:5px; margin-left:4px;">💪종가유지</span>`;
+    } else {
+      closeShapeBadge = `<span style="font-size:11px; font-weight:800; color:#FDBA74; background:rgba(249,115,22,0.16); border:1px solid rgba(251,146,60,0.4); padding:1px 6px; border-radius:5px; margin-left:4px;">📉윗꼬리</span>`;
+    }
+
     const postMaxCellHtml = isFinalized
       ? `
-        <div style="font-size:19px; font-weight:900; color:${postColor};">
-          +${postMax.toFixed(2)}%
+        <div style="font-size:17.5px; font-weight:900; color:${closeColor};">
+          ${discToClosePct >= 0 ? '+' : ''}${discToClosePct.toFixed(2)}%${closeShapeBadge}
         </div>
-        <div class="gain-bar-track"><div class="gain-bar-fill" style="width:${barWidth.toFixed(0)}%; background:${barBg};"></div></div>
-        <div style="font-size:11.5px; color:#94A3B8; margin-top:4px;">
-          +${Math.max(0, highP - discP).toLocaleString()}원 상승
+        <div style="font-size:12px; color:#CBD5E1; margin-top:4px;">
+          종가 ${closeP.toLocaleString()}원 <span style="color:#94A3B8;">(전일비 ${dayClosePct >= 0 ? '+' : ''}${dayClosePct.toFixed(1)}%)</span>
         </div>
       `
       : `
         <div style="font-size:14.5px; font-weight:800; color:#6EE7B7;">
-          ⏳ 마감후 1회 산출
+          ⏳ 마감후 종가 기록
         </div>
       `;
 
@@ -1740,8 +1758,8 @@ function renderBapBoard(payload, forceRender) {
       if (isFinalized) {
         pEl.innerHTML = buildPriceStepsHtml([
           { label: "⚡ 공시 떴을 때 가격", value: `${discP.toLocaleString()}원`, color: "#38BDF8" },
-          { label: "🔥 정규장 마감 최고가", value: `${highP.toLocaleString()}원`, color: "#FDE047" },
-          { label: "🚀 공시가 대비 최고 상승폭", value: `+${postMax.toFixed(2)}% (당일최고 +${dayHigh.toFixed(2)}%)`, color: "#4ADE80" }
+          { label: "🔥 당일 최고가 (공시가 대비)", value: `${highP.toLocaleString()}원 (+${postMax.toFixed(2)}%)`, color: "#FDE047" },
+          { label: "🏁 정규장 마감 종가 (공시가 대비)", value: `${closeP.toLocaleString()}원 (${discToClosePct >= 0 ? '+' : ''}${discToClosePct.toFixed(2)}%)`, color: closeColor }
         ]);
       } else {
         pEl.innerHTML = buildPriceStepsHtml([
