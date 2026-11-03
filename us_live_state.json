@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-04 01:52:29",
-  "updated_at_et": "2026-11-03 11:52:29",
-  "updated_epoch_ms": 1793724749565,
+  "updated_at_kst": "2026-11-04 01:53:37",
+  "updated_at_et": "2026-11-03 11:53:37",
+  "updated_epoch_ms": 1793724817696,
   "analyzing": {
-    "active": true,
-    "symbol": "KAPA",
-    "company_name": "KAPA",
-    "exchange": "AM",
-    "price": 0.4751,
-    "gain_pct": 0.23,
-    "mcap_m": 11.26,
-    "catalyst_hint": "[당일 PR] Kairos Pharma Presents at United Scientific Group’s 11th International Conference on Cancer Research & Drug Development",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:51:24",
-    "started_at_kst": "01:51:24",
-    "started_epoch_ms": 1793724684373
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:52:27"
+    "updated_kst": "01:53:33"
   },
   "stats": {
-    "today_total": 10,
-    "today_nblm_count": 10,
+    "today_total": 11,
+    "today_nblm_count": 11,
     "today_buy": 0,
-    "today_false": 10,
+    "today_false": 11,
     "today_hardcut": 60,
-    "total_verdicts": 32,
+    "total_verdicts": 33,
     "total_buy": 1,
-    "total_false": 31,
-    "avg_nblm_sec": 56.5
+    "total_false": 32,
+    "avg_nblm_sec": 57.7
   },
   "verdicts": [
+    {
+      "id": "v_1793724750219_KAPA_FALSE",
+      "date_et": "2026-11-03",
+      "weekday_kr": "화",
+      "time_et": "11:52:30",
+      "time_kst": "01:52:30",
+      "symbol": "KAPA",
+      "company_name": "KAPA",
+      "exchange": "AM",
+      "price": 0.4751,
+      "gain_pct": 0.23,
+      "mcap_m": 11.26,
+      "decision": "FALSE",
+      "elapsed_sec": 69.3,
+      "reason": "단순 학회/컨퍼런스 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 누적 대금($75,747) 미달로 전량 차단",
+      "catalyst_hint": "[당일 PR] Kairos Pharma Presents at United Scientific Group’s 11th International Conference on Cancer Research & Drug Development",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문 팩트를 바탕으로 진행한 KAPA (Kairos Pharma, Ltd.) 정밀 직독 결재 보고입니다 [cite: 4, 43].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.26M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 42].\n실시간 시세 및 수급: 전일 종가 $0.4740 대비 현재가 $0.4751 (+0.23%), 당일 최고가 $0.5300 (-10.4%). 당일 누적 거래대금 $75,747 USD로 세력 수급 유입 반응이 매우 저조합니다.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 11:45 ET) PR 원문 분석:\nPR 제목: \"Kairos Pharma Presents at United Scientific Group’s 11th International Conference on Cancer Research & Drug Development\"\n원문 팩트: 회사의 경영진(Neil Bhowmick)이 암 연구 및 약물 개발 관련 국제 학회/컨퍼런스에서 발표(Presentation)를 진행한다는 단순 발표 소식.\n치명적 기폭제 결함:\n학회/컨퍼런스 참석 및 단순 발표(Conference Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/컨퍼런스/주주서한 발표에 불과합니다 [cite: 43].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 주주서한·컨퍼런스 발표·설문조사는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 43].\n거래대금 수급 반응($75,747 USD)이 극히 약하고 주가 반응(+0.23%) 역시 미미합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학회/컨퍼런스 발표 소식에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: KAPA 처리합니다 [cite: 43].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: KAPA NOTES:\n[KAPA] 단순 학회/컨퍼런스 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 누적 대금($75,747) 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793715179249_PBK_FALSE",
       "date_et": "2026-11-03",
