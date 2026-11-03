@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-03",
-  "updated_at_kst": "2026-11-03 23:11:37",
-  "updated_at_et": "2026-11-03 09:11:37",
-  "updated_epoch_ms": 1793715097584,
+  "updated_at_kst": "2026-11-03 23:11:56",
+  "updated_at_et": "2026-11-03 09:11:56",
+  "updated_epoch_ms": 1793715116486,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "PBK",
+    "company_name": "PBK",
+    "exchange": "ND",
+    "price": 0.158,
+    "gain_pct": 1.41,
+    "mcap_m": 7.54,
+    "catalyst_hint": "[당일 PR] PowerBank Secures Permission to Operate for 3.26 MW New York Solar Project Valued at US$7.3 Million",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:11:54",
+    "started_at_kst": "23:11:54",
+    "started_epoch_ms": 1793715114023
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:11:18"
+    "updated_kst": "23:11:43"
   },
   "stats": {
     "today_total": 9,
