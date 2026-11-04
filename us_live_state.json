@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:04:22",
-  "updated_at_et": "2026-11-04 07:04:22",
-  "updated_epoch_ms": 1793793862501,
+  "updated_at_kst": "2026-11-04 21:04:59",
+  "updated_at_et": "2026-11-04 07:04:59",
+  "updated_epoch_ms": 1793793899466,
   "analyzing": {
-    "active": true,
-    "symbol": "GNPX",
-    "company_name": "GNPX",
-    "exchange": "ND",
-    "price": 2.4,
-    "gain_pct": 4.8,
-    "mcap_m": 1.97,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 8.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:03:34",
-    "started_at_kst": "21:03:34",
-    "started_epoch_ms": 1793793814597
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:04:11"
+    "updated_kst": "21:04:49"
   },
   "stats": {
-    "today_total": 2,
-    "today_nblm_count": 2,
+    "today_total": 3,
+    "today_nblm_count": 3,
     "today_buy": 1,
-    "today_false": 1,
-    "today_hardcut": 35,
-    "total_verdicts": 35,
+    "today_false": 2,
+    "today_hardcut": 37,
+    "total_verdicts": 36,
     "total_buy": 2,
-    "total_false": 33,
-    "avg_nblm_sec": 74.8
+    "total_false": 34,
+    "avg_nblm_sec": 78.1
   },
   "verdicts": [
+    {
+      "id": "v_1793793895457_GNPX_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "07:04:55",
+      "time_kst": "21:04:55",
+      "symbol": "GNPX",
+      "company_name": "GNPX",
+      "exchange": "ND",
+      "price": 2.4,
+      "gain_pct": 4.8,
+      "mcap_m": 1.97,
+      "decision": "FALSE",
+      "elapsed_sec": 84.5,
+      "reason": "2026 EORTC-NCI-AACR 학회 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(+4.80%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 8.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 GNPX (Genprex, Inc.) 정밀 직독 결재 보고입니다 [cite: 319, 320].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.97M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 319].\n실시간 시세 및 수급: 전일 종가 $2.2900 대비 현재가 $2.4000 (+4.80%), 당일 최고가 $2.7129 (-11.5%) [cite: 319]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 319].\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 8.01) 원문 분석:\n공시 핵심 내용: \"On November 4, 2026, Genprex, Inc. issued a press release announcing that new research identifying TROP2 expression as a potential predictive biomarker... will be presented at the 2026 EORTC-NCI-AACR Symposium on Molecular Targets and Cancer Therapeutics...\" [cite: 320]\n원문 팩트: 2026 EORTC-NCI-AACR 학회/심포지엄에서 주력 파이프라인(Reqorsa) 바이오마커 연구 결과를 발표(Presentation)한다는 소식 [cite: 320].\n치명적 기폭제 결함:\n학회/심포지엄 참석 및 단순 연구 발표(Conference/Symposium Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/포스터 발표에 불과합니다 [cite: 32].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 최종 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 학회·컨퍼런스 발표·주주서한은 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 32].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 319].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 학회/심포지엄 연구 발표(Conference Presentation)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GNPX 처리합니다 [cite: 32, 320].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 323].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: GNPX NOTES:\n[GNPX] 2026 EORTC-NCI-AACR 학회 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(+4.80%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793792039921_BJDX_BUY",
       "date_et": "2026-11-04",
@@ -749,6 +757,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:04:55",
+      "time_kst": "21:04:55",
+      "symbol": "ECX",
+      "company_name": "ECX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $331.77M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "07:04:49",
+      "time_kst": "21:04:49",
+      "symbol": "CAMT",
+      "company_name": "CAMT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5244.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:04:17",
       "time_kst": "21:04:17",
       "symbol": "ACB",
@@ -1226,26 +1254,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "11:42:33",
-      "time_kst": "01:42:33",
-      "symbol": "XXII",
-      "company_name": "XXII",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "11:35:21",
-      "time_kst": "01:35:21",
-      "symbol": "CARE",
-      "company_name": "CARE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $634.6M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
