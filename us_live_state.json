@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:07:46",
-  "updated_at_et": "2026-11-04 07:07:46",
-  "updated_epoch_ms": 1793794066967,
+  "updated_at_kst": "2026-11-04 21:08:28",
+  "updated_at_et": "2026-11-04 07:08:28",
+  "updated_epoch_ms": 1793794108353,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "WKSP",
+    "company_name": "WKSP",
+    "exchange": "ND",
+    "price": 0.3005,
+    "gain_pct": 1.83,
+    "mcap_m": 6.01,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:08:24",
+    "started_at_kst": "21:08:24",
+    "started_epoch_ms": 1793794104827
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:07:46"
+    "updated_kst": "21:08:12"
   },
   "stats": {
     "today_total": 3,
