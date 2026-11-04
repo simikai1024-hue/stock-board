@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:30:04",
-  "updated_at_et": "2026-11-04 06:30:04",
-  "updated_epoch_ms": 1793791804587,
+  "updated_at_kst": "2026-11-04 20:30:50",
+  "updated_at_et": "2026-11-04 06:30:50",
+  "updated_epoch_ms": 1793791850549,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:30:02"
+    "updated_kst": "20:30:50"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 13,
+    "today_hardcut": 14,
     "total_verdicts": 33,
     "total_buy": 1,
     "total_false": 32,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:30:48",
+      "time_kst": "20:30:48",
+      "symbol": "HSLV",
+      "company_name": "HSLV",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $812.06M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:24:34",
       "time_kst": "20:24:34",
       "symbol": "EL",
@@ -1184,16 +1194,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1217.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:01:20",
-      "time_kst": "23:01:20",
-      "symbol": "PTCT",
-      "company_name": "PTCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5188.13M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
