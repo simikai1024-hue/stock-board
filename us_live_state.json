@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 00:23:11",
-  "updated_at_et": "2026-11-04 10:23:11",
-  "updated_epoch_ms": 1793805791624,
+  "updated_at_kst": "2026-11-05 00:23:56",
+  "updated_at_et": "2026-11-04 10:23:56",
+  "updated_epoch_ms": 1793805836569,
   "analyzing": {
-    "active": true,
-    "symbol": "CLGN",
-    "company_name": "CLGN",
-    "exchange": "ND",
-    "price": 4.0801,
-    "gain_pct": -0.73,
-    "mcap_m": 7.71,
-    "catalyst_hint": "[당일 PR] CollPlant Announces Proposed Name Change to OptiPhi Computing Reflecting Expansion to Computing with Light",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "10:23:06",
-    "started_at_kst": "00:23:06",
-    "started_epoch_ms": 1793805786870
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.38,
     "profit_rate": -3.11,
-    "updated_kst": "00:23:09"
+    "updated_kst": "00:23:54"
   },
   "stats": {
-    "today_total": 21,
-    "today_nblm_count": 21,
+    "today_total": 22,
+    "today_nblm_count": 22,
     "today_buy": 2,
-    "today_false": 19,
+    "today_false": 20,
     "today_hardcut": 60,
-    "total_verdicts": 54,
+    "total_verdicts": 55,
     "total_buy": 3,
-    "total_false": 51,
-    "avg_nblm_sec": 66.1
+    "total_false": 52,
+    "avg_nblm_sec": 65.4
   },
   "verdicts": [
+    {
+      "id": "v_1793805832501_CLGN_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "10:23:52",
+      "time_kst": "00:23:52",
+      "symbol": "CLGN",
+      "company_name": "CLGN",
+      "exchange": "ND",
+      "price": 4.0801,
+      "gain_pct": -0.73,
+      "mcap_m": 7.71,
+      "decision": "FALSE",
+      "elapsed_sec": 50.9,
+      "reason": "단순 사명 변경 주총 안건 제안(Proposed Name Change) 발표는 1급 확정 기폭제 미달 및 장전 대금 미달(-0.73%)로 전량 차단",
+      "catalyst_hint": "[당일 PR] CollPlant Announces Proposed Name Change to OptiPhi Computing Reflecting Expansion to Computing with Light",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 CLGN (CollPlant Biotechnologies Ltd.) 정밀 직독 결재 보고입니다 [cite: 223, 224].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.71M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 223].\n실시간 시세 및 수급: 전일 종가 $4.1100 대비 현재가 $4.0801 (-0.73% 약보합), 당일 최고가 $4.1900 (고점 대비 -2.6%) [cite: 223]. 당일 프리장 누적 거래대금 $6,210 USD [cite: 223].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:00 ET) PR 원문 분석:\nPR 제목: \"CollPlant Announces Proposed Name Change to OptiPhi Computing Reflecting Expansion to Computing with Light\" [cite: 224]\n원문 팩트: 오는 11월 24일 주주총회 승인 안건으로 사명 변경(OptiPhi Computing Ltd.) 및 나스닥 티커 변경(CLGN ➔ OPHI)을 추진한다는 단순 사명 변경 및 정관 변경 안건 제안(Proposed Name Change) 발표 [cite: 225].\n치명적 기폭제 결함:\n오늘 제출된 재료는 당일 즉시 효력이 발생하는 확정 재료가 아니며, 11월 24일 주주총회 표결 및 나스닥 승인 절차가 남아있는 단순 **사명 변경 안건 상정 통보(Proposed Name Change)**에 불과합니다 [cite: 225].\n내용 역시 지난 9월 이미 완료된 LightSolver 인수 건을 재탕하여 기업 이미지 변신을 홍보하는 단순 비전 제시 수준으로, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 9, 225].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '단순 사명 변경/티커 변경 예고/정관 변경 안건 제안/주주서한' 범주에 정확히 저해됩니다 [cite: 9].\n거래대금이 $6.2천 달러 미만에 불과하고 주가(-0.73%) 반응도 부재합니다 [cite: 223].\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 사명 변경 주총 안건 제안(Proposed Name Change) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CLGN 처리합니다 [cite: 9, 225].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: CLGN NOTES:\n[CLGN] 단순 사명 변경 주총 안건 제안(Proposed Name Change) 발표는 1급 확정 기폭제 미달 및 장전 대금 미달(-0.73%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793803109554_ONCY_FALSE",
       "date_et": "2026-11-04",
