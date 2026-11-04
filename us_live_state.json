@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 03:15:54",
-  "updated_at_et": "2026-11-04 13:15:54",
-  "updated_epoch_ms": 1793816154901,
+  "updated_at_kst": "2026-11-05 03:16:54",
+  "updated_at_et": "2026-11-04 13:16:54",
+  "updated_epoch_ms": 1793816214149,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "03:15:51"
+    "updated_kst": "03:16:51"
   },
   "stats": {
     "today_total": 24,
@@ -1177,6 +1177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "13:16:05",
+      "time_kst": "03:16:05",
+      "symbol": "HSBC",
+      "company_name": "HSBC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "12:52:32",
       "time_kst": "02:52:32",
       "symbol": "HELE",
@@ -1664,16 +1674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $223.07M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:01:43",
-      "time_kst": "22:01:43",
-      "symbol": "SILC",
-      "company_name": "SILC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $183.23M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
