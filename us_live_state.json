@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:51:09",
-  "updated_at_et": "2026-11-04 08:51:09",
-  "updated_epoch_ms": 1793800269250,
+  "updated_at_kst": "2026-11-04 22:51:55",
+  "updated_at_et": "2026-11-04 08:51:55",
+  "updated_epoch_ms": 1793800315452,
   "analyzing": {
-    "active": true,
-    "symbol": "PSHG",
-    "company_name": "PSHG",
-    "exchange": "ND",
-    "price": 1.85,
-    "gain_pct": 0.54,
-    "mcap_m": 23.0,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:51:06",
-    "started_at_kst": "22:51:06",
-    "started_epoch_ms": 1793800266870
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.43,
     "profit_rate": -1.07,
-    "updated_kst": "22:50:55"
+    "updated_kst": "22:51:51"
   },
   "stats": {
-    "today_total": 16,
-    "today_nblm_count": 16,
+    "today_total": 17,
+    "today_nblm_count": 17,
     "today_buy": 2,
-    "today_false": 14,
+    "today_false": 15,
     "today_hardcut": 60,
-    "total_verdicts": 49,
+    "total_verdicts": 50,
     "total_buy": 3,
-    "total_false": 46,
-    "avg_nblm_sec": 72.0
+    "total_false": 47,
+    "avg_nblm_sec": 70.6
   },
   "verdicts": [
+    {
+      "id": "v_1793800310299_PSHG_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "08:51:50",
+      "time_kst": "22:51:50",
+      "symbol": "PSHG",
+      "company_name": "PSHG",
+      "exchange": "ND",
+      "price": 1.85,
+      "gain_pct": 0.54,
+      "mcap_m": 23.0,
+      "decision": "FALSE",
+      "elapsed_sec": 48.1,
+      "reason": "공식 PR 뉴스가 미수신된 6-K 단순 행정 공시로 1급 확정 기폭제 미달 및 장전 대금 $0(+0.54%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 PSHG (Performance Shipping Inc.) 정밀 직독 결재 보고입니다 [cite: 252, 253].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.0M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 252].\n실시간 시세 및 수급: 전일 종가 $1.8401 대비 현재가 $1.8500 (+0.54%), 당일 최고가 $1.8500 (+0.0%) [cite: 252]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 252].\n2. D-Day SEC 6-K 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K 원문 분석:\n공시 현황: 2026-11-04 [6-K] 접수 [cite: 253].\n원문 팩트: 당일 기업 가치를 수직 폭등시킬 주요 PR 보도자료 미수신(0건) 상태에서 제출된 단순 정기 행정 보고용 6-K 공시에 불과합니다 [cite: 253].\n치명적 기폭제 결함:\n당일 공식 PR 보도자료가 발송되지 않았으며 제출된 6-K 공시 또한 단순 행정 서류에 불과합니다 [cite: 253].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 13, 253].\n개장 전 세력 매집 유동성($0 USD) 및 수급 반응도 전무합니다 [cite: 252].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 제출용 서류이고 공식 PR 뉴스가 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PSHG 처리합니다 [cite: 13, 253].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 13].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PSHG NOTES:\n[PSHG] 공식 PR 뉴스가 미수신된 6-K 단순 행정 공시로 1급 확정 기폭제 미달 및 장전 대금 $0(+0.54%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793799932337_EZRA_BUY",
       "date_et": "2026-11-04",
