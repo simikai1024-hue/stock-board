@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:04:03",
-  "updated_at_et": "2026-11-04 09:04:03",
-  "updated_epoch_ms": 1793801043632,
+  "updated_at_kst": "2026-11-04 23:05:13",
+  "updated_at_et": "2026-11-04 09:05:13",
+  "updated_epoch_ms": 1793801113647,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.43,
     "profit_rate": -1.07,
-    "updated_kst": "23:04:01"
+    "updated_kst": "23:05:10"
   },
   "stats": {
     "today_total": 18,
@@ -1057,6 +1057,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "09:04:33",
+      "time_kst": "23:04:33",
+      "symbol": "VOXR",
+      "company_name": "VOXR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $334.97M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:01:47",
       "time_kst": "23:01:47",
       "symbol": "BSRR",
@@ -1544,16 +1554,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5269.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:00:47",
-      "time_kst": "21:00:47",
-      "symbol": "ACIU",
-      "company_name": "ACIU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $212.71M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
