@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 01:05:25",
-  "updated_at_et": "2026-11-04 11:05:25",
-  "updated_epoch_ms": 1793808325270,
+  "updated_at_kst": "2026-11-05 01:06:10",
+  "updated_at_et": "2026-11-04 11:06:10",
+  "updated_epoch_ms": 1793808370662,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "EZRA",
     "holding_qty": 25,
     "avg_price": 2.4564,
-    "current_price": 2.4,
-    "profit_rate": -2.3,
-    "updated_kst": "01:05:22"
+    "current_price": 2.37,
+    "profit_rate": -3.52,
+    "updated_kst": "01:06:05"
   },
   "stats": {
     "today_total": 22,
@@ -1137,6 +1137,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "11:06:08",
+      "time_kst": "01:06:08",
+      "symbol": "SVM",
+      "company_name": "SVM",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1846.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "10:59:37",
       "time_kst": "00:59:37",
       "symbol": "ITUB",
@@ -1624,16 +1634,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:47:44",
-      "time_kst": "21:47:44",
-      "symbol": "NUCL",
-      "company_name": "NUCL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $127.05M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
