@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:52:07",
-  "updated_at_et": "2026-11-04 06:52:07",
-  "updated_epoch_ms": 1793793127978,
+  "updated_at_kst": "2026-11-04 20:53:10",
+  "updated_at_et": "2026-11-04 06:53:10",
+  "updated_epoch_ms": 1793793190727,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:52:05"
+    "updated_kst": "20:52:52"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 19,
+    "today_hardcut": 23,
     "total_verdicts": 35,
     "total_buy": 2,
     "total_false": 33,
@@ -737,6 +737,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:53:07",
+      "time_kst": "20:53:07",
+      "symbol": "ADNT",
+      "company_name": "ADNT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:52:24",
+      "time_kst": "20:52:24",
+      "symbol": "RDY",
+      "company_name": "RDY",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:52:21",
+      "time_kst": "20:52:21",
+      "symbol": "PBR",
+      "company_name": "PBR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:52:18",
+      "time_kst": "20:52:18",
+      "symbol": "KKR",
+      "company_name": "KKR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:46:33",
       "time_kst": "20:46:33",
       "symbol": "NOMD",
@@ -1194,46 +1234,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:29:37",
-      "time_kst": "23:29:37",
-      "symbol": "PRE",
-      "company_name": "PRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $277.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:20:51",
-      "time_kst": "23:20:51",
-      "symbol": "AIOK",
-      "company_name": "AIOK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:20:10",
-      "time_kst": "23:20:10",
-      "symbol": "NXXT",
-      "company_name": "NEXTNRG, INC.",
-      "exchange": "ND",
-      "mcap_m": 3.76,
-      "reason": "실질 시가총액 $403.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:19:19",
-      "time_kst": "23:19:19",
-      "symbol": "AIRE",
-      "company_name": "reAlpha Tech Corp.",
-      "exchange": "ND",
-      "mcap_m": 4.01,
-      "reason": "당일 유상증자/오퍼링 PR 명시 (reAlpha Tech Corp. Announces Pricing of $1.75 Mill)"
     }
   ]
 }
