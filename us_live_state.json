@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 00:41:22",
-  "updated_at_et": "2026-11-04 10:41:22",
-  "updated_epoch_ms": 1793806882806,
+  "updated_at_kst": "2026-11-05 00:42:23",
+  "updated_at_et": "2026-11-04 10:42:23",
+  "updated_epoch_ms": 1793806943353,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.4,
     "profit_rate": -2.3,
-    "updated_kst": "00:41:17"
+    "updated_kst": "00:42:19"
   },
   "stats": {
     "today_total": 22,
@@ -1137,6 +1137,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "10:41:36",
+      "time_kst": "00:41:36",
+      "symbol": "ARRY",
+      "company_name": "ARRY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $858.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "10:39:37",
       "time_kst": "00:39:37",
       "symbol": "PAAS",
@@ -1624,16 +1634,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:35:47",
-      "time_kst": "21:35:47",
-      "symbol": "NAMS",
-      "company_name": "NAMS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2390.74M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
