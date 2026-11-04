@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 02:37:52",
-  "updated_at_et": "2026-11-04 12:37:52",
-  "updated_epoch_ms": 1793813872614,
+  "updated_at_kst": "2026-11-05 02:38:54",
+  "updated_at_et": "2026-11-04 12:38:54",
+  "updated_epoch_ms": 1793813934352,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.3575,
     "profit_rate": -4.03,
-    "updated_kst": "02:37:48"
+    "updated_kst": "02:38:50"
   },
   "stats": {
     "today_total": 23,
@@ -1157,6 +1157,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "12:37:54",
+      "time_kst": "02:37:54",
+      "symbol": "TKC",
+      "company_name": "TKC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "12:02:43",
       "time_kst": "02:02:43",
       "symbol": "UFPI",
@@ -1644,16 +1654,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $82.76M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:01:19",
-      "time_kst": "22:01:19",
-      "symbol": "AFG",
-      "company_name": "AFG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
