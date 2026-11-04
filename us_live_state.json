@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:02:45",
-  "updated_at_et": "2026-11-04 07:02:45",
-  "updated_epoch_ms": 1793793765797,
+  "updated_at_kst": "2026-11-04 21:03:37",
+  "updated_at_et": "2026-11-04 07:03:37",
+  "updated_epoch_ms": 1793793817082,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "GNPX",
+    "company_name": "GNPX",
+    "exchange": "ND",
+    "price": 2.4,
+    "gain_pct": 4.8,
+    "mcap_m": 1.97,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 8.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:03:34",
+    "started_at_kst": "21:03:34",
+    "started_epoch_ms": 1793793814597
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:02:39"
+    "updated_kst": "21:03:24"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 31,
+    "today_hardcut": 34,
     "total_verdicts": 35,
     "total_buy": 2,
     "total_false": 33,
@@ -737,6 +749,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:03:23",
+      "time_kst": "21:03:23",
+      "symbol": "KHC",
+      "company_name": "KHC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "07:03:07",
+      "time_kst": "21:03:07",
+      "symbol": "ITUB",
+      "company_name": "ITUB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "07:03:00",
+      "time_kst": "21:03:00",
+      "symbol": "OPRA",
+      "company_name": "OPRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1375.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:02:11",
       "time_kst": "21:02:11",
       "symbol": "QBTS",
@@ -1201,36 +1243,6 @@
       "time_kst": "01:34:35",
       "symbol": "BFH",
       "company_name": "BFH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "11:34:06",
-      "time_kst": "01:34:06",
-      "symbol": "PSIG",
-      "company_name": "PSIG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $77.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "11:24:32",
-      "time_kst": "01:24:32",
-      "symbol": "HELP",
-      "company_name": "HELP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $198.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "11:19:09",
-      "time_kst": "01:19:09",
-      "symbol": "PSO",
-      "company_name": "PSO",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
