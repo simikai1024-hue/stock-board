@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:46:48",
-  "updated_at_et": "2026-11-04 07:46:48",
-  "updated_epoch_ms": 1793796408043,
+  "updated_at_kst": "2026-11-04 21:47:46",
+  "updated_at_et": "2026-11-04 07:47:46",
+  "updated_epoch_ms": 1793796466001,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:46:44"
+    "updated_kst": "21:47:42"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 5,
-    "today_hardcut": 46,
+    "today_hardcut": 47,
     "total_verdicts": 39,
     "total_buy": 2,
     "total_false": 37,
@@ -817,6 +817,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:47:44",
+      "time_kst": "21:47:44",
+      "symbol": "NUCL",
+      "company_name": "NUCL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $127.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:42:43",
       "time_kst": "21:42:43",
       "symbol": "ITUB",
@@ -1304,16 +1314,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1530.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "13:52:28",
-      "time_kst": "03:52:28",
-      "symbol": "TRMB",
-      "company_name": "TRMB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $15352.57M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
