@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:08:28",
-  "updated_at_et": "2026-11-04 07:08:28",
-  "updated_epoch_ms": 1793794108353,
+  "updated_at_kst": "2026-11-04 21:09:21",
+  "updated_at_et": "2026-11-04 07:09:21",
+  "updated_epoch_ms": 1793794161817,
   "analyzing": {
     "active": true,
     "symbol": "WKSP",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:08:12"
+    "updated_kst": "21:09:01"
   },
   "stats": {
     "today_total": 3,
@@ -769,6 +769,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:09:19",
+      "time_kst": "21:09:19",
+      "symbol": "BEPC",
+      "company_name": "BEPC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:07:43",
       "time_kst": "21:07:43",
       "symbol": "CDW",
@@ -913,16 +923,6 @@
       "time_kst": "20:55:38",
       "symbol": "BEP",
       "company_name": "BEP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:55:34",
-      "time_kst": "20:55:34",
-      "symbol": "BEPC",
-      "company_name": "BEPC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
