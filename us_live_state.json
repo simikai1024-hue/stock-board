@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 04:33:30",
-  "updated_at_et": "2026-11-04 14:33:30",
-  "updated_epoch_ms": 1793820810328,
+  "updated_at_kst": "2026-11-05 04:34:16",
+  "updated_at_et": "2026-11-04 14:34:16",
+  "updated_epoch_ms": 1793820856493,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "04:33:27"
+    "updated_kst": "04:34:11"
   },
   "stats": {
     "today_total": 27,
@@ -1237,6 +1237,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "14:34:12",
+      "time_kst": "04:34:12",
+      "symbol": "VET",
+      "company_name": "VET",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "14:17:51",
       "time_kst": "04:17:51",
       "symbol": "GABC",
@@ -1721,16 +1731,6 @@
       "time_kst": "22:05:13",
       "symbol": "JLL",
       "company_name": "JLL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:04:06",
-      "time_kst": "22:04:06",
-      "symbol": "MNSO",
-      "company_name": "MNSO",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
