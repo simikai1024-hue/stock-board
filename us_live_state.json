@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 03:34:23",
-  "updated_at_et": "2026-11-04 13:34:23",
-  "updated_epoch_ms": 1793817263338,
+  "updated_at_kst": "2026-11-05 03:35:02",
+  "updated_at_et": "2026-11-04 13:35:02",
+  "updated_epoch_ms": 1793817302113,
   "analyzing": {
-    "active": true,
-    "symbol": "CWD",
-    "company_name": "CWD",
-    "exchange": "ND",
-    "price": 0.4361,
-    "gain_pct": -3.07,
-    "mcap_m": 4.53,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "13:34:18",
-    "started_at_kst": "03:34:18",
-    "started_epoch_ms": 1793817258985
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "03:34:06"
+    "updated_kst": "03:34:46"
   },
   "stats": {
-    "today_total": 24,
-    "today_nblm_count": 24,
+    "today_total": 25,
+    "today_nblm_count": 25,
     "today_buy": 2,
-    "today_false": 22,
+    "today_false": 23,
     "today_hardcut": 60,
-    "total_verdicts": 57,
+    "total_verdicts": 58,
     "total_buy": 3,
-    "total_false": 54,
-    "avg_nblm_sec": 64.7
+    "total_false": 55,
+    "avg_nblm_sec": 63.8
   },
   "verdicts": [
+    {
+      "id": "v_1793817297357_CWD_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "13:34:57",
+      "time_kst": "03:34:57",
+      "symbol": "CWD",
+      "company_name": "CWD",
+      "exchange": "ND",
+      "price": 0.4361,
+      "gain_pct": -3.07,
+      "mcap_m": 4.53,
+      "decision": "FALSE",
+      "elapsed_sec": 41.7,
+      "reason": "단순 토큰화 부동산 투자 상품 출시(Item 7.01) 공시는 1급 확정 기폭제 미달 및 음봉 약세(-3.07%)로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 CWD (CaliberCos Inc.) 정밀 직독 결재 보고입니다 [cite: 264].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.53M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 264].\n실시간 시세 및 수급: 전일 종가 $0.4499 대비 현재가 $0.4361 (-3.07% 약보합), 당일 최고가 $0.4570 (고점 대비 -4.6%) [cite: 264]. 당일 프리장 누적 거래대금 $37,877 USD [cite: 264].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-04 [8-K] (Item 7.01, 9.01) 접수 [cite: 265].\n원문 팩트: \"On November 4, 2026, CaliberCos Inc. issued a press release today announcing that it has gone live with three additional tokenized real estate investment offerings: Caliber-Hyatt Studios Steamboat, Caliber-Hyatt Studios Phoenix/TSMC and the Caliber-HS Feeder Fund. Combined, the three offerings represent up to $85 million in offered equity...\" [cite: 265]\n치명적 기폭제 결함:\n오늘 제출된 재료는 회사로 확정적 현금이 유입되는 대형 수주/자산매각 계약이나 M&A 완료가 아니라, 총 $85M 규모의 **토큰화 부동산 투자 상품 3종 출시 및 투자자 모집 공시(Tokenized Real Estate Offerings Launch)**에 불과합니다 [cite: 265].\n이는 전략 헌장 3번 규칙에서 차단하는 '구체적 현금 수주/계약 금액 미명시 단순 상품 출시/펀드 모집/토큰화 프로젝트 홍보' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 6, 265].\n과거 [달의검] 족보집 CWD 부검 성적표(2026-10-30 8-K 출회 건)에서도 최고 상승률이 +2.9%에 그쳐 💀 실패·보합·설거지 패턴으로 검증된 바 있습니다 [cite: 133, 134].\n현재 시세가 전일 대비 -3.07% 음봉 약세를 기록하고 있어 장전 세력 매집 유동성 모멘텀도 약합니다 [cite: 264].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 토큰화 부동산 투자 상품 출시(Item 7.01)에 불과하고 음봉 약세(-3.07%) 흐름이 나타나 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CWD 처리합니다 [cite: 6, 264, 265].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 6].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 단순 토큰화 부동산 투자 상품 출시(Item 7.01) 공시는 1급 확정 기폭제 미달 및 음봉 약세(-3.07%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793814808473_ENSC_FALSE",
       "date_et": "2026-11-04",
