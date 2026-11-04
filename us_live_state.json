@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 04:36:16",
-  "updated_at_et": "2026-11-04 14:36:16",
-  "updated_epoch_ms": 1793820976066,
+  "updated_at_kst": "2026-11-05 04:37:16",
+  "updated_at_et": "2026-11-04 14:37:16",
+  "updated_epoch_ms": 1793821036799,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "04:36:11"
+    "updated_kst": "04:37:12"
   },
   "stats": {
     "today_total": 27,
@@ -1237,8 +1237,8 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
-      "time_et": "14:34:12",
-      "time_kst": "04:34:12",
+      "time_et": "14:36:28",
+      "time_kst": "04:36:28",
       "symbol": "VET",
       "company_name": "VET",
       "exchange": "NY",
