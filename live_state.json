@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updated_at": "2026-11-04 14:33:35",
+  "updated_at": "2026-11-04 14:42:48",
   "history": [
     {
       "id": "1793770413539_101680_BUY",
@@ -19,18 +19,38 @@
       "note": "🧠 연구소장 검수완료 [🔥대시세홀딩(HOLD_RUNNER)]: 시총 201억 초소형주에 우주·방산 핵심 섹터 78억 수주(매출비 25.5%·시총대비 38.8%) 및 8개월 단기계약으로 서한·혜인급 상한가 HOLD_RUNNER 판결 ===DART_AUDIT_EN",
       "buy_price": 2395,
       "qty": 45
+    },
+    {
+      "id": "1793770966703_101680_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-04 14:42:46",
+      "name": "한국정밀기계",
+      "code": "101680",
+      "price": 2347,
+      "flu_rt": -0.21,
+      "val_uk": 0.0,
+      "target_price": 2425,
+      "stop_price": 2265,
+      "ammo_title": "📘 확정 손실: -2,383원 (-2.21%) | 매수 2,395원 → 매도 2,347원 (45주) [DART공시 10분 시장무반응 조기회전]",
+      "ammo_date": "",
+      "note": "⏰ DART공시 10분 시장무반응 조기회전 완료 | 확정 손익 -2,383원 (-2.21%)",
+      "pnl_krw": -2383,
+      "pnl_pct": -2.21,
+      "buy_price": 2395,
+      "qty": 45
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-04 14:33:35",
+    "updated_at": "2026-11-04 14:42:48",
     "stats": {
-      "total_closed": 0,
+      "total_closed": 1,
       "win_count": 0,
       "super_win_count": 0,
-      "loss_count": 0,
+      "loss_count": 1,
       "buy_fail_count": 0,
       "win_rate_pct": 0.0,
-      "total_pnl_krw": 0
+      "total_pnl_krw": -2383
     },
     "rows": [
       {
@@ -40,20 +60,21 @@
         "code": "101680",
         "name": "한국정밀기계",
         "buy_price": 2395,
-        "sell_price": 0,
+        "sell_price": 2347,
         "qty": 45,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": -2.21,
+        "pnl_krw": -2383,
+        "status": "LOSS",
         "buy_time": "14:32:40",
-        "sell_time": "",
+        "sell_time": "14:42:46",
         "reason": "⚡[KIND 실시간공시·대형공급계약] 👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주] (시총 201억)",
-        "note": "🧠 연구소장 검수완료 [🔥대시세홀딩(HOLD_RUNNER)]: 시총 201억 초소형주에 우주·방산 핵심 섹터 78억 수주(매출비 25.5%·시총대비 38.8%) 및 8개월 단기계약으로 서한·혜인급 상한가 HOLD_RUNNER 판결 ===DART_AUDIT_EN"
+        "note": "🧠 연구소장 검수완료 [🔥대시세홀딩(HOLD_RUNNER)]: 시총 201억 초소형주에 우주·방산 핵심 섹터 78억 수주(매출비 25.5%·시총대비 38.8%) 및 8개월 단기계약으로 서한·혜인급 상한가 HOLD_RUNNER 판결 ===DART_AUDIT_EN",
+        "sell_summary": "📘 확정 손실: -2,383원 (-2.21%) | 매수 2,395원 → 매도 2,347원 (45주) [DART공시 10분 시장무반응 조기회전]"
       }
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-04 14:33:35",
+    "updated_at": "2026-11-04 14:42:48",
     "stats": {
       "cooked_count": 11,
       "today_cooked_count": 1,
@@ -369,11 +390,11 @@
         "eod_finalized": false,
         "is_today_live": true,
         "my_trade": {
-          "status": "OPEN",
+          "status": "LOSS",
           "buy_price": 2395,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 2347,
+          "pnl_pct": -2.21,
+          "pnl_krw": -2383,
           "note": "🧠 연구소장 검수완료 [🔥대시세홀딩(HOLD_RUNNER)]: 시총 201억 초소형주에 우주·방산 핵심 섹터 78억 수주(매출비 25.5%·시총대비 38.8%) 및 8개월 단기계약으로 서한·혜인급 상한가 HOLD_RUNNER 판결 ===DART_AUDIT_EN"
         }
       },
@@ -670,7 +691,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-04 14:33:35",
+    "updated_at": "2026-11-04 14:42:48",
     "stats": {
       "total_evaluated": 25,
       "win_5_count": 9,
