@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 02:51:36",
-  "updated_at_et": "2026-11-04 12:51:36",
-  "updated_epoch_ms": 1793814696705,
+  "updated_at_kst": "2026-11-05 02:52:35",
+  "updated_at_et": "2026-11-04 12:52:35",
+  "updated_epoch_ms": 1793814755832,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "02:51:34"
+    "updated_kst": "02:52:32"
   },
   "stats": {
     "today_total": 23,
@@ -1157,6 +1157,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "12:52:32",
+      "time_kst": "02:52:32",
+      "symbol": "HELE",
+      "company_name": "HELE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $870.13M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "12:37:54",
       "time_kst": "02:37:54",
       "symbol": "TKC",
@@ -1644,16 +1654,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $183.23M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:01:36",
-      "time_kst": "22:01:36",
-      "symbol": "SIEB",
-      "company_name": "SIEB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $82.76M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
