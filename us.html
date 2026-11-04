@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>미국판 달의 검 V5 · NotebookLM 실시간 심문 전광판</title>
+<meta name="theme-color" content="#0B1120">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="미국전광판">
+<link rel="manifest" href="./manifest-us.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="./icons/us-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icons/us-180.png">
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
@@ -277,6 +284,23 @@
     .hero-ticker { font-size: 28px; }
     .header-title { font-size: 18px; }
   }
+  .pwa-install-btn {
+    display: none;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.24) 0%, rgba(16, 185, 129, 0.26) 100%);
+    color: #A7F3D0;
+    border: 1px solid #38BDF8;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0 0 14px rgba(56, 189, 248, 0.24);
+    transition: all 0.18s;
+  }
+  .pwa-install-btn:hover {
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.38) 0%, rgba(16, 185, 129, 0.40) 100%);
+    transform: translateY(-1px);
+  }
 </style>
 </head>
 <body>
@@ -290,6 +314,7 @@
     <div class="header-right">
       <span class="clock-txt" id="dualClockLbl">🇺🇸 --:--:-- ET · 🇰🇷 --:--:-- KST</span>
       <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
+      <button class="pwa-install-btn" id="pwaInstallBtn" onclick="installBoardApp()" title="바탕화면·작업표시줄·홈화면에 미국 전광판 전용 앱으로 설치합니다">📲 앱 설치</button>
       <div class="sound-ctrl-group">
         <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림·BGM 켜기</button>
         <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="심문 시작 크리스탈 차임 + 42초 네오소울 라운지 BGM 미리듣기">🎵 40초 BGM 들어보기</button>
