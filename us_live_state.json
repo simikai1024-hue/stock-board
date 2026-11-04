@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 04:17:11",
-  "updated_at_et": "2026-11-04 14:17:11",
-  "updated_epoch_ms": 1793819831734,
+  "updated_at_kst": "2026-11-05 04:17:53",
+  "updated_at_et": "2026-11-04 14:17:53",
+  "updated_epoch_ms": 1793819873924,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "04:17:07"
+    "updated_kst": "04:17:48"
   },
   "stats": {
     "today_total": 26,
@@ -1217,6 +1217,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "14:17:51",
+      "time_kst": "04:17:51",
+      "symbol": "GABC",
+      "company_name": "GABC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1903.75M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "13:16:05",
       "time_kst": "03:16:05",
       "symbol": "HSBC",
@@ -1704,16 +1714,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:01:57",
-      "time_kst": "22:01:57",
-      "symbol": "AUDC",
-      "company_name": "AUDC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $223.07M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
