@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:56:23",
-  "updated_at_et": "2026-11-04 07:56:23",
-  "updated_epoch_ms": 1793796983904,
+  "updated_at_kst": "2026-11-04 21:57:23",
+  "updated_at_et": "2026-11-04 07:57:23",
+  "updated_epoch_ms": 1793797043409,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:56:20"
+    "updated_kst": "21:57:18"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 5,
-    "today_hardcut": 50,
+    "today_hardcut": 51,
     "total_verdicts": 39,
     "total_buy": 2,
     "total_false": 37,
@@ -817,6 +817,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:56:55",
+      "time_kst": "21:56:55",
+      "symbol": "NICE",
+      "company_name": "NICE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5478.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:52:39",
       "time_kst": "21:52:39",
       "symbol": "LND",
@@ -1301,16 +1311,6 @@
       "time_kst": "20:05:02",
       "symbol": "TSQ",
       "company_name": "TSQ",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:05:00",
-      "time_kst": "20:05:00",
-      "symbol": "EPAC",
-      "company_name": "EPAC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
