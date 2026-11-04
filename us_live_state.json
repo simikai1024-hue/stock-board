@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:04:14",
-  "updated_at_et": "2026-11-04 08:04:14",
-  "updated_epoch_ms": 1793797454033,
+  "updated_at_kst": "2026-11-04 22:05:14",
+  "updated_at_et": "2026-11-04 08:05:14",
+  "updated_epoch_ms": 1793797514213,
   "analyzing": {
-    "active": true,
-    "symbol": "PLCE",
-    "company_name": "PLCE",
-    "exchange": "ND",
-    "price": 0.27,
-    "gain_pct": -0.74,
-    "mcap_m": 6.0,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 5.02)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:04:04",
-    "started_at_kst": "22:04:04",
-    "started_epoch_ms": 1793797444913
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:03:59"
+    "updated_kst": "22:05:02"
   },
   "stats": {
-    "today_total": 8,
-    "today_nblm_count": 8,
+    "today_total": 9,
+    "today_nblm_count": 9,
     "today_buy": 1,
-    "today_false": 7,
-    "today_hardcut": 56,
-    "total_verdicts": 41,
+    "today_false": 8,
+    "today_hardcut": 57,
+    "total_verdicts": 42,
     "total_buy": 2,
-    "total_false": 39,
-    "avg_nblm_sec": 82.9
+    "total_false": 40,
+    "avg_nblm_sec": 81.8
   },
   "verdicts": [
+    {
+      "id": "v_1793797509172_PLCE_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "08:05:09",
+      "time_kst": "22:05:09",
+      "symbol": "PLCE",
+      "company_name": "PLCE",
+      "exchange": "ND",
+      "price": 0.27,
+      "gain_pct": -0.74,
+      "mcap_m": 6.0,
+      "decision": "FALSE",
+      "elapsed_sec": 72.8,
+      "reason": "단순 이사 사임(Item 5.02) 행정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 장전 대금 $0(-0.74%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 5.02)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 PLCE (The Children's Place, Inc.) 정밀 직독 결재 보고입니다 [cite: 226].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.0M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 226].\n실시간 시세 및 수급: 전일 종가 $0.2720 대비 현재가 $0.2700 (-0.74% 약보합), 당일 최고가 $0.2800 (-3.6%) [cite: 226]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 226].\n2. D-Day SEC 8-K(Item 5.02) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 5.02) 원문 분석:\n공시 핵심 내용: \"On October 30, 2026, Kim Roy notified The Children's Place, Inc. of her resignation from the Company's board of directors, effective immediately...\" [cite: 227]\n원문 팩트: 이사회 이사(Kim Roy)의 사임 통보 및 이사회 직위 물러남을 알리는 단순 임원 사임/경영진 변경(Departure of Directors) 행정 공시입니다 [cite: 227].\n치명적 기폭제 결함:\n오늘 당일 공식 PR 보도자료 수신이 **0건(미수신)**이며, 제출된 8-K 공시 또한 단순 이사 사임 보고서에 불과합니다 [cite: 227].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아니며, 전략 헌장 원칙(\"단순 임원 사임/경영진 교체/행정 공시는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 12, 15].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무하며 시세가 약보합(-0.74%) 상태입니다 [cite: 226].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 이사 사임(Item 5.02) 행정 공시이고 공식 PR 뉴스가 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PLCE 처리합니다 [cite: 12, 15, 227].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 12].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PLCE NOTES:\n[PLCE] 단순 이사 사임(Item 5.02) 행정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 장전 대금 $0(-0.74%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793797420828_DKI_FALSE",
       "date_et": "2026-11-04",
@@ -869,6 +877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "08:05:13",
+      "time_kst": "22:05:13",
+      "symbol": "JLL",
+      "company_name": "JLL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "08:04:06",
       "time_kst": "22:04:06",
       "symbol": "MNSO",
@@ -1353,16 +1371,6 @@
       "time_kst": "20:05:26",
       "symbol": "TM",
       "company_name": "TM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:05:23",
-      "time_kst": "20:05:23",
-      "symbol": "ATHM",
-      "company_name": "ATHM",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
