@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 01:07:39",
-  "updated_at_et": "2026-11-04 11:07:39",
-  "updated_epoch_ms": 1793808459830,
+  "updated_at_kst": "2026-11-05 01:08:46",
+  "updated_at_et": "2026-11-04 11:08:46",
+  "updated_epoch_ms": 1793808526218,
   "analyzing": {
-    "active": true,
-    "symbol": "MBRX",
-    "company_name": "Moleculin Biotech, Inc.",
-    "exchange": "ND",
-    "price": 8.589,
-    "gain_pct": 3.73,
-    "mcap_m": 9.02,
-    "catalyst_hint": "[당일 PR] Moleculin Announces Acceptance of Annamycin Data for Presentation at the 2026 American Society of Hematology (ASH) Annual Meeting",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:07:37",
-    "started_at_kst": "01:07:37",
-    "started_epoch_ms": 1793808457205
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.37,
     "profit_rate": -3.52,
-    "updated_kst": "01:07:26"
+    "updated_kst": "01:08:43"
   },
   "stats": {
-    "today_total": 22,
-    "today_nblm_count": 22,
+    "today_total": 23,
+    "today_nblm_count": 23,
     "today_buy": 2,
-    "today_false": 20,
+    "today_false": 21,
     "today_hardcut": 60,
-    "total_verdicts": 55,
+    "total_verdicts": 56,
     "total_buy": 3,
-    "total_false": 52,
-    "avg_nblm_sec": 65.4
+    "total_false": 53,
+    "avg_nblm_sec": 65.8
   },
   "verdicts": [
+    {
+      "id": "v_1793808524410_MBRX_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "11:08:44",
+      "time_kst": "01:08:44",
+      "symbol": "MBRX",
+      "company_name": "Moleculin Biotech, Inc.",
+      "exchange": "ND",
+      "price": 8.589,
+      "gain_pct": 3.73,
+      "mcap_m": 9.02,
+      "decision": "FALSE",
+      "elapsed_sec": 73.8,
+      "reason": "2026 ASH 학회 포스터 발표 초록 채택(Abstract Acceptance) 소식은 1급 확정 기폭제 미달로 전량 차단",
+      "catalyst_hint": "[당일 PR] Moleculin Announces Acceptance of Annamycin Data for Presentation at the 2026 American Society of Hematology (ASH) Annual Meeting",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 MBRX (Moleculin Biotech, Inc.) 정밀 직독 결재 보고입니다 [cite: 299].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.02M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 299].\n실시간 시세 및 수급: 전일 종가 $8.2800 대비 현재가 $8.5890 (+3.73%), 당일 최고가 $8.6508 (고점 대비 -0.7%) [cite: 299]. 당일 프리장 누적 거래대금 $40,595 USD [cite: 299].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 11:00 ET) PR 원문 분석:\nPR 제목: \"Moleculin Announces Acceptance of Annamycin Data for Presentation at the 2026 American Society of Hematology (ASH) Annual Meeting\" [cite: 300]\n원문 팩트: 2026년 12월 12~15일 뉴올리언스에서 열리는 미국혈액학회(ASH 2026)에서 급성백혈병(AML) 파이프라인(Annamycin)의 임상 2/3상(MIRACLE) 중간분석 데이터 초록이 학회 포스터 발표용으로 채택(Abstract Acceptance)되었다는 보도자료 [cite: 301, 303].\n치명적 기폭제 결함:\n오늘 당일 발표된 재료는 FDA 신약 최종 승인이나 Pivotal 임상 3상 톱라인(Top-line) 최종 성공 결과가 아니며, 단지 12월 학회(ASH)에서 포스터로 발표될 **초록/데이터 채택 소식(Abstract Acceptance for Presentation)**에 불과합니다 [cite: 11, 301].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액이 미기재된 단순 학회 발표/포스터/초록 채택/컨퍼런스' 범주에 속하므로, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 11, 314].\n과거 [달의검] 족보집 MBRX 부검 성적표(2026-10-30 임상 A파트 투여 완료 PR 출회)에서도 최고 상승률이 +3.2%에 그쳐 💀 실패·보합·설거지 패턴으로 검증된 바 있습니다 [cite: 155, 156].\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학회 발표용 초록 채택(Abstract Acceptance) 보도자료에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MBRX 처리합니다 [cite: 11, 300, 314].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 313].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: MBRX NOTES:\n[MBRX] 2026 ASH 학회 포스터 발표 초록 채택(Abstract Acceptance) 소식은 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793805832501_CLGN_FALSE",
       "date_et": "2026-11-04",
