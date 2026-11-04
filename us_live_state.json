@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 03:48:07",
-  "updated_at_et": "2026-11-04 13:48:07",
-  "updated_epoch_ms": 1793818087554,
+  "updated_at_kst": "2026-11-05 03:48:43",
+  "updated_at_et": "2026-11-04 13:48:43",
+  "updated_epoch_ms": 1793818123136,
   "analyzing": {
-    "active": true,
-    "symbol": "PASW",
-    "company_name": "Ping An Biomedical Co., Ltd.",
-    "exchange": "ND",
-    "price": 4.15,
-    "gain_pct": -16.33,
-    "mcap_m": 11.71,
-    "catalyst_hint": "[당일 PR] Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "13:48:04",
-    "started_at_kst": "03:48:04",
-    "started_epoch_ms": 1793818084990
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "03:48:06"
+    "updated_kst": "03:48:24"
   },
   "stats": {
-    "today_total": 25,
-    "today_nblm_count": 25,
+    "today_total": 26,
+    "today_nblm_count": 26,
     "today_buy": 2,
-    "today_false": 23,
+    "today_false": 24,
     "today_hardcut": 60,
-    "total_verdicts": 58,
+    "total_verdicts": 59,
     "total_buy": 3,
-    "total_false": 55,
-    "avg_nblm_sec": 63.8
+    "total_false": 56,
+    "avg_nblm_sec": 62.8
   },
   "verdicts": [
+    {
+      "id": "v_1793818120302_PASW_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "13:48:40",
+      "time_kst": "03:48:40",
+      "symbol": "PASW",
+      "company_name": "Ping An Biomedical Co., Ltd.",
+      "exchange": "ND",
+      "price": 4.15,
+      "gain_pct": -16.33,
+      "mcap_m": 11.71,
+      "decision": "FALSE",
+      "elapsed_sec": 38.7,
+      "reason": "3종 특허 매수 계약($2.3M) 발표는 단기 매출 미발생 장기 R&D용에 불과하며, 전일 대비 -16.33%(-16.6% 밀림) 음봉 투매 차트로 전량 차단",
+      "catalyst_hint": "[당일 PR] Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 PASW (Ping An Biomedical Co., Ltd.) 정밀 직독 결재 보고입니다 [cite: 277].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.71M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 277].\n실시간 시세 및 수급: 전일 종가 $4.9600 대비 현재가 $4.1500 (-16.33% 급락), 당일 최고가 $4.9778 (고점 대비 -16.6% 윗꼬리 밀림) [cite: 277]. 당일 누적 거래대금 $615,090 USD [cite: 277].\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함\n당일(11/04 13:30 ET) PR 원문 분석:\nPR 제목: \"Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies\" [cite: 278]\n원문 팩트: Future Biotechnology Group으로부터 암 진단·치료 관련 의료 기술 특허 3건을 $2.3M에 인수하는 확정 계약(Definitive Purchase Agreement) 체결 [cite: 279].\n치명적 기폭제 결함 및 차트 파괴:\n[단기 매출 미발생 장기 R&D용 특허 인수]: 회사 스스로 *\"not positioning the Acquisition as a near-term revenue driver, but as a capacity-building move for its biomedical agenda over a longer horizon\"*이라 명시하여, 당일 즉각적인 실적이나 현금 유입을 창출하는 확정 재료가 아닌 장기 연구개발(R&D)용 단순 특허 자산 매입임을 시인했습니다 [cite: 281].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 성공, 구체적 $ 수주/매각 완료, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 4, 281].\n[강한 음봉 투매 차트]: 뉴스 출회 직후 시장의 실망 매물이 쏟아지며 전일 대비 -16.33% 급락 및 당일 고점 대비 -16.6% 윗꼬리 투매 차트가 형성되어 전형적인 설거지/음봉 차트 패턴을 보이고 있습니다 [cite: 4, 277].\n3. 최종 심사 및 결재 판정\n당일 PR이 단기 매출 미발생 장기 R&D용 특허 인수에 불과하고, 전일 대비 -16.33% 급락 투매 차트가 출회되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PASW 처리합니다 [cite: 4, 277, 281].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PASW NOTES:\n[PASW] 3종 특허 매수 계약($2.3M) 발표는 단기 매출 미발생 장기 R&D용에 불과하며, 전일 대비 -16.33%(-16.6% 밀림) 음봉 투매 차트로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793817297357_CWD_FALSE",
       "date_et": "2026-11-04",
