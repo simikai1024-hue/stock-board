@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:42:15",
-  "updated_at_et": "2026-11-04 08:42:15",
-  "updated_epoch_ms": 1793799735432,
+  "updated_at_kst": "2026-11-04 22:42:27",
+  "updated_at_et": "2026-11-04 08:42:27",
+  "updated_epoch_ms": 1793799747925,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NUWE",
+    "company_name": "Nuwellis, Inc.",
+    "exchange": "ND",
+    "price": 5.25,
+    "gain_pct": -13.42,
+    "mcap_m": 19.15,
+    "catalyst_hint": "[당일 PR] Nuwellis to Report Third Quarter 2026 Financial Results on November 12",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:42:23",
+    "started_at_kst": "22:42:23",
+    "started_epoch_ms": 1793799743833
   },
   "halt_watch": {
     "active": false
