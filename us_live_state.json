@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:46:54",
-  "updated_at_et": "2026-11-04 08:46:54",
-  "updated_epoch_ms": 1793800014220,
+  "updated_at_kst": "2026-11-04 22:47:57",
+  "updated_at_et": "2026-11-04 08:47:57",
+  "updated_epoch_ms": 1793800077400,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "EZRA",
     "holding_qty": 25,
     "avg_price": 2.4564,
-    "current_price": 2.47,
-    "profit_rate": 0.55,
-    "updated_kst": "22:46:49"
+    "current_price": 2.48,
+    "profit_rate": 0.96,
+    "updated_kst": "22:47:53"
   },
   "stats": {
     "today_total": 16,
