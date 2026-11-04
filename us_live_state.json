@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:34:15",
-  "updated_at_et": "2026-11-04 06:34:15",
-  "updated_epoch_ms": 1793792055512,
+  "updated_at_kst": "2026-11-04 20:35:22",
+  "updated_at_et": "2026-11-04 06:35:22",
+  "updated_epoch_ms": 1793792122795,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "BJDX",
     "holding_qty": 16,
     "avg_price": 2.26,
-    "current_price": 2.26,
-    "profit_rate": 0.0,
-    "updated_kst": "20:34:15"
+    "current_price": 2.23,
+    "profit_rate": -1.33,
+    "updated_kst": "20:35:19"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 17,
+    "today_hardcut": 18,
     "total_verdicts": 35,
     "total_buy": 2,
     "total_false": 33,
@@ -737,6 +737,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:34:27",
+      "time_kst": "20:34:27",
+      "symbol": "CVS",
+      "company_name": "CVS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:32:04",
       "time_kst": "20:32:04",
       "symbol": "ASIX",
@@ -1224,16 +1234,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $432.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:15:37",
-      "time_kst": "23:15:37",
-      "symbol": "BAFN",
-      "company_name": "BAFN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $158.54M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
