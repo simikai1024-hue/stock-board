@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:32:49",
-  "updated_at_et": "2026-11-04 06:32:49",
-  "updated_epoch_ms": 1793791969923,
+  "updated_at_kst": "2026-11-04 20:32:59",
+  "updated_at_et": "2026-11-04 06:32:59",
+  "updated_epoch_ms": 1793791979018,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BJDX",
+    "company_name": "BJDX",
+    "exchange": "ND",
+    "price": 2.23,
+    "gain_pct": 2.76,
+    "mcap_m": 9.96,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 3.03,5.03,5.07,8.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:32:55",
+    "started_at_kst": "20:32:55",
+    "started_epoch_ms": 1793791975196
   },
   "halt_watch": {
     "active": false
