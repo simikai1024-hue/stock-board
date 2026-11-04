@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:00:45",
-  "updated_at_et": "2026-11-04 07:00:45",
-  "updated_epoch_ms": 1793793645900,
+  "updated_at_kst": "2026-11-04 21:01:39",
+  "updated_at_et": "2026-11-04 07:01:39",
+  "updated_epoch_ms": 1793793699180,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:29"
+    "updated_kst": "21:01:34"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 28,
+    "today_hardcut": 30,
     "total_verdicts": 35,
     "total_buy": 2,
     "total_false": 33,
@@ -737,6 +737,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:01:04",
+      "time_kst": "21:01:04",
+      "symbol": "CIGI",
+      "company_name": "CIGI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5269.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "07:00:47",
+      "time_kst": "21:00:47",
+      "symbol": "ACIU",
+      "company_name": "ACIU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $212.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:00:42",
       "time_kst": "21:00:42",
       "symbol": "SII",
@@ -1211,26 +1231,6 @@
       "time_kst": "00:56:19",
       "symbol": "NVO",
       "company_name": "NVO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "10:52:15",
-      "time_kst": "00:52:15",
-      "symbol": "SBSW",
-      "company_name": "SBSW",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "10:44:26",
-      "time_kst": "00:44:26",
-      "symbol": "RACE",
-      "company_name": "RACE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
