@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:57:11",
-  "updated_at_et": "2026-11-04 06:57:11",
-  "updated_epoch_ms": 1793793431239,
+  "updated_at_kst": "2026-11-04 20:58:06",
+  "updated_at_et": "2026-11-04 06:58:06",
+  "updated_epoch_ms": 1793793486862,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:57:07"
+    "updated_kst": "20:57:52"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 25,
+    "today_hardcut": 26,
     "total_verdicts": 35,
     "total_buy": 2,
     "total_false": 33,
@@ -737,6 +737,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:58:04",
+      "time_kst": "20:58:04",
+      "symbol": "TX",
+      "company_name": "TX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:55:38",
       "time_kst": "20:55:38",
       "symbol": "BEP",
@@ -1224,16 +1234,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:45:26",
-      "time_kst": "23:45:26",
-      "symbol": "ACB",
-      "company_name": "ACB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $237.31M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
