@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 03:47:06",
-  "updated_at_et": "2026-11-04 13:47:06",
-  "updated_epoch_ms": 1793818026723,
+  "updated_at_kst": "2026-11-05 03:48:07",
+  "updated_at_et": "2026-11-04 13:48:07",
+  "updated_epoch_ms": 1793818087554,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "PASW",
+    "company_name": "Ping An Biomedical Co., Ltd.",
+    "exchange": "ND",
+    "price": 4.15,
+    "gain_pct": -16.33,
+    "mcap_m": 11.71,
+    "catalyst_hint": "[당일 PR] Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "13:48:04",
+    "started_at_kst": "03:48:04",
+    "started_epoch_ms": 1793818084990
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "03:47:02"
+    "updated_kst": "03:48:06"
   },
   "stats": {
     "today_total": 25,
