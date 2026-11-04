@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:32:44",
-  "updated_at_et": "2026-11-04 06:32:44",
-  "updated_epoch_ms": 1793791964155,
+  "updated_at_kst": "2026-11-04 20:32:49",
+  "updated_at_et": "2026-11-04 06:32:49",
+  "updated_epoch_ms": 1793791969923,
   "analyzing": {
-    "active": true,
-    "symbol": "EVAX",
-    "company_name": "EVAX",
-    "exchange": "ND",
-    "price": 2.96,
-    "gain_pct": -1.33,
-    "mcap_m": 24.69,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:31:39",
-    "started_at_kst": "20:31:39",
-    "started_epoch_ms": 1793791899594
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -34,17 +22,37 @@
     "updated_kst": "20:32:40"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
     "today_buy": 0,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 17,
-    "total_verdicts": 33,
+    "total_verdicts": 34,
     "total_buy": 1,
-    "total_false": 32,
-    "avg_nblm_sec": 59.8
+    "total_false": 33,
+    "avg_nblm_sec": 80.6
   },
   "verdicts": [
+    {
+      "id": "v_1793791965577_EVAX_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "06:32:45",
+      "time_kst": "20:32:45",
+      "symbol": "EVAX",
+      "company_name": "EVAX",
+      "exchange": "ND",
+      "price": 2.96,
+      "gain_pct": -1.33,
+      "mcap_m": 24.69,
+      "decision": "FALSE",
+      "elapsed_sec": 80.6,
+      "reason": "SITC 2026 학회 데이터 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(-1.33%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 EVAX (Evaxion A/S) 정밀 직독 결재 보고입니다 [cite: 282, 283].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.69M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 282].\n실시간 시세 및 수급: 전일 종가 $3.0000 대비 현재가 $2.9600 (-1.33% 약보합), 당일 최고가 $2.9600 [cite: 282]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 282].\n2. D-Day SEC 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K 및 11/03 PR 원문 분석:\n공시/뉴스 핵심 내용: \"Evaxion to present broad biomarker data from phase 2 trial with personalized cancer vaccine EVX-01 at the SITC 2026 Annual Meeting\" [cite: 86, 284]\n원문 팩트: SITC 2026(Society for Immunotherapy of Cancer, 암학회) 학회에서 맞춤형 암 백신(EVX-01) 임상 2상 바이오마커 연구 데이터를 구두 및 포스터로 발표(Presentation)한다는 내용 [cite: 86, 284].\n치명적 기폭제 결함:\n학회/컨퍼런스 참석 및 단순 데이터 발표(Conference/SITC Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/포스터 발표에 해당합니다 [cite: 24].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 최종 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 학회·컨퍼런스 발표·주주서한은 100% FORCE_BLOCK\")에 의거 정식 차단 대상입니다 [cite: 24].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 282].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K/PR 내용이 단순 SITC 2026 학회 발표(Conference Presentation)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: EVAX 처리합니다 [cite: 24, 283].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 287].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: EVAX NOTES:\n[EVAX] SITC 2026 학회 데이터 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(-1.33%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793724750219_KAPA_FALSE",
       "date_et": "2026-11-03",
