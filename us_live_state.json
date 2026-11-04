@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:48:27",
-  "updated_at_et": "2026-11-04 07:48:27",
-  "updated_epoch_ms": 1793796507911,
+  "updated_at_kst": "2026-11-04 21:49:22",
+  "updated_at_et": "2026-11-04 07:49:22",
+  "updated_epoch_ms": 1793796562851,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:48:21"
+    "updated_kst": "21:49:19"
   },
   "stats": {
     "today_total": 6,
@@ -817,6 +817,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:48:54",
+      "time_kst": "21:48:54",
+      "symbol": "PBR",
+      "company_name": "PBR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:48:24",
       "time_kst": "21:48:24",
       "symbol": "NVO",
@@ -1091,16 +1101,6 @@
       "time_kst": "20:52:24",
       "symbol": "RDY",
       "company_name": "RDY",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:52:21",
-      "time_kst": "20:52:21",
-      "symbol": "PBR",
-      "company_name": "PBR",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
