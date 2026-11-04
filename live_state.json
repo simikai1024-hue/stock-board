@@ -1,9 +1,28 @@
 {
-  "date": "2026-11-03",
-  "updated_at": "2026-11-03 21:20:22",
-  "history": [],
+  "date": "2026-11-04",
+  "updated_at": "2026-11-04 14:32:43",
+  "history": [
+    {
+      "id": "1793770362764_101680_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-04 14:32:42",
+      "name": "한국정밀기계",
+      "code": "101680",
+      "price": 2395,
+      "flu_rt": 0.0,
+      "val_uk": 0.0,
+      "target_price": 2475,
+      "stop_price": 2310,
+      "ammo_title": "⚡[KIND 실시간공시·대형공급계약] 👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주] (시총 201억)",
+      "ammo_date": "20261104",
+      "note": "👑⚡ DART·KIND 진짜 특S급 호재공시 스나이퍼 체결! (VI 직전 초입 · 노트북LM 검수 & 상한가 트레일링 가동)",
+      "buy_price": 2395,
+      "qty": 45
+    }
+  ],
   "intraday_ledger": {
-    "updated_at": "2026-11-03 21:20:22",
+    "updated_at": "2026-11-04 14:32:43",
     "stats": {
       "total_closed": 0,
       "win_count": 0,
@@ -13,18 +32,48 @@
       "win_rate_pct": 0.0,
       "total_pnl_krw": 0
     },
-    "rows": []
+    "rows": [
+      {
+        "date": "2026-11-04",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "101680",
+        "name": "한국정밀기계",
+        "buy_price": 2395,
+        "sell_price": 0,
+        "qty": 45,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "14:32:40",
+        "sell_time": "",
+        "reason": "⚡[KIND 실시간공시·대형공급계약] 👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주] (시총 201억)",
+        "note": "👑⚡ DART·KIND 진짜 특S급 호재공시 스나이퍼 체결! (VI 직전 초입 · 노트북LM 검수 & 상한가 트레일링 가동)"
+      }
+    ]
   },
   "bap_data": {
-    "updated_at": "2026-11-03 21:20:22",
+    "updated_at": "2026-11-04 14:32:43",
     "stats": {
-      "cooked_count": 10,
-      "today_cooked_count": 0,
-      "avg_day_high_pct": 21.33,
-      "avg_open_to_high_pct": 21.38,
-      "avg_post_disc_max_pct": 19.6
+      "cooked_count": 11,
+      "today_cooked_count": 1,
+      "avg_day_high_pct": 19.39,
+      "avg_open_to_high_pct": 19.59,
+      "avg_post_disc_max_pct": 17.82
     },
     "preparing_list": [
+      {
+        "code": "101680",
+        "name": "한국정밀기계",
+        "mcap_uk": 201,
+        "prep_tag": "✨ 대형공급계약 폭발!",
+        "prep_detail": "👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주]",
+        "prep_date": "2026-11-04",
+        "cooked_today": true,
+        "disc_time": "14:32",
+        "day_high_pct": 0.0,
+        "open_to_high_pct": 1.7
+      },
       {
         "code": "110790",
         "name": "크리스에프앤씨",
@@ -288,20 +337,46 @@
         "cur_price": 1044,
         "flu_rt": 0.0,
         "cooked_today": false
-      },
-      {
-        "code": "066700",
-        "name": "테라젠이텍스",
-        "mcap_uk": 724,
-        "prep_tag": "CB리픽싱 바닥",
-        "prep_detail": "[10/19] 전환가액의조정 (시총 724억)",
-        "prep_date": "2026-10-19",
-        "cur_price": 1975,
-        "flu_rt": -1.99,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-04",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "disc_time": "14:32",
+        "code": "101680",
+        "name": "한국정밀기계",
+        "tier": "S",
+        "belt_passed": true,
+        "cat": "대형공급계약",
+        "summary": "👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주]",
+        "rpt_title": "[정정] 단일판매ㆍ공급계약체결",
+        "doc_url": "https://m.stock.naver.com/domestic/stock/101680/notice",
+        "mcap_uk": 201,
+        "prev_close": 2395,
+        "pre_disc_price": 2395,
+        "spike_from_pre_pct": 0.0,
+        "disc_price": 2395,
+        "entry_price": 2395,
+        "open_price": 2355,
+        "high_price": 2395,
+        "post_disc_high": 2395,
+        "close_price": 2395,
+        "open_to_high_pct": 1.7,
+        "day_high_pct": 0.0,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true,
+        "my_trade": {
+          "status": "OPEN",
+          "buy_price": 2395,
+          "sell_price": 0,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0,
+          "note": "👑⚡ DART·KIND 진짜 특S급 호재공시 스나이퍼 체결! (VI 직전 초입 · 노트북LM 검수 & 상한가 트레일링 가동)"
+        }
+      },
       {
         "date": "2026-10-30",
         "weekday": "금요일",
@@ -595,7 +670,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-03 21:20:22",
+    "updated_at": "2026-11-04 14:32:43",
     "stats": {
       "total_evaluated": 25,
       "win_5_count": 9,
