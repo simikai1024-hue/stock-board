@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:09:27",
-  "updated_at_et": "2026-11-04 09:09:27",
-  "updated_epoch_ms": 1793801367762,
+  "updated_at_kst": "2026-11-04 23:10:09",
+  "updated_at_et": "2026-11-04 09:10:09",
+  "updated_epoch_ms": 1793801409446,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "EZRA",
     "holding_qty": 25,
     "avg_price": 2.4564,
-    "current_price": 2.43,
-    "profit_rate": -1.07,
-    "updated_kst": "23:09:23"
+    "current_price": 2.21,
+    "profit_rate": -10.03,
+    "updated_kst": "23:10:08"
   },
   "stats": {
     "today_total": 18,
@@ -1057,6 +1057,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "09:10:04",
+      "time_kst": "23:10:04",
+      "symbol": "CENN",
+      "company_name": "Cenntro Inc.",
+      "exchange": "ND",
+      "mcap_m": 5.24,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:07:25",
       "time_kst": "23:07:25",
       "symbol": "LXFR",
@@ -1544,16 +1554,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1375.55M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:02:11",
-      "time_kst": "21:02:11",
-      "symbol": "QBTS",
-      "company_name": "QBTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3971.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
