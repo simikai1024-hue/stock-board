@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 02:52:35",
-  "updated_at_et": "2026-11-04 12:52:35",
-  "updated_epoch_ms": 1793814755832,
+  "updated_at_kst": "2026-11-05 02:52:54",
+  "updated_at_et": "2026-11-04 12:52:54",
+  "updated_epoch_ms": 1793814774506,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ENSC",
+    "company_name": "ENSC",
+    "exchange": "ND",
+    "price": 0.3719,
+    "gain_pct": -1.22,
+    "mcap_m": 7.24,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 5.02,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "12:52:51",
+    "started_at_kst": "02:52:51",
+    "started_epoch_ms": 1793814771830
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 2.4564,
     "current_price": 2.35,
     "profit_rate": -4.33,
-    "updated_kst": "02:52:32"
+    "updated_kst": "02:52:53"
   },
   "stats": {
     "today_total": 23,
