@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 02:02:26",
-  "updated_at_et": "2026-11-04 12:02:26",
-  "updated_epoch_ms": 1793811746362,
+  "updated_at_kst": "2026-11-05 02:03:37",
+  "updated_at_et": "2026-11-04 12:03:37",
+  "updated_epoch_ms": 1793811817250,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.2741,
     "profit_rate": -7.42,
-    "updated_kst": "02:02:23"
+    "updated_kst": "02:03:31"
   },
   "stats": {
     "today_total": 23,
@@ -1157,6 +1157,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "12:02:43",
+      "time_kst": "02:02:43",
+      "symbol": "UFPI",
+      "company_name": "UFPI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4738.92M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "11:54:27",
       "time_kst": "01:54:27",
       "symbol": "MT",
@@ -1644,16 +1654,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:56:55",
-      "time_kst": "21:56:55",
-      "symbol": "NICE",
-      "company_name": "NICE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5478.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
