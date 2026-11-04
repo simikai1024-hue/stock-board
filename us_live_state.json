@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:10:09",
-  "updated_at_et": "2026-11-04 09:10:09",
-  "updated_epoch_ms": 1793801409446,
+  "updated_at_kst": "2026-11-04 23:10:55",
+  "updated_at_et": "2026-11-04 09:10:55",
+  "updated_epoch_ms": 1793801455185,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.21,
     "profit_rate": -10.03,
-    "updated_kst": "23:10:08"
+    "updated_kst": "23:10:46"
   },
   "stats": {
     "today_total": 18,
@@ -1057,6 +1057,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "09:10:50",
+      "time_kst": "23:10:50",
+      "symbol": "PENG",
+      "company_name": "PENG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3150.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:10:04",
       "time_kst": "23:10:04",
       "symbol": "CENN",
@@ -1544,16 +1554,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:03:00",
-      "time_kst": "21:03:00",
-      "symbol": "OPRA",
-      "company_name": "OPRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1375.55M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
