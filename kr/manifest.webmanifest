@@ -1,0 +1,33 @@
+{
+  "id": "/stock-board/kr/",
+  "name": "달의검 한국장 특S급 전광판",
+  "short_name": "한국전광판",
+  "description": "실시간 특S급 공시·속보 스나이퍼 & AI 종가베팅 전광판",
+  "lang": "ko",
+  "start_url": "/stock-board/kr/",
+  "scope": "/stock-board/kr/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070B14",
+  "theme_color": "#070B14",
+  "icons": [
+    {
+      "src": "../icons/kr-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../icons/kr-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../icons/kr-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
