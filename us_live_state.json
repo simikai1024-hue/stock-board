@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:10:51",
-  "updated_at_et": "2026-11-04 07:10:51",
-  "updated_epoch_ms": 1793794251935,
+  "updated_at_kst": "2026-11-04 21:11:43",
+  "updated_at_et": "2026-11-04 07:11:43",
+  "updated_epoch_ms": 1793794303096,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:10:49"
+    "updated_kst": "21:11:39"
   },
   "stats": {
     "today_total": 4,
@@ -777,6 +777,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:11:17",
+      "time_kst": "21:11:17",
+      "symbol": "ITUB",
+      "company_name": "ITUB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:09:56",
       "time_kst": "21:09:56",
       "symbol": "GFS",
@@ -851,16 +861,6 @@
       "time_kst": "21:03:23",
       "symbol": "KHC",
       "company_name": "KHC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:03:07",
-      "time_kst": "21:03:07",
-      "symbol": "ITUB",
-      "company_name": "ITUB",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
