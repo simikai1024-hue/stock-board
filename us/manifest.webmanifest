@@ -1,0 +1,33 @@
+{
+  "id": "/stock-board/us/",
+  "name": "달의검 미국장 V5 심문 전광판",
+  "short_name": "미국전광판",
+  "description": "미국판 달의 검 V5 · NotebookLM 실시간 심문 전광판",
+  "lang": "ko",
+  "start_url": "/stock-board/us/",
+  "scope": "/stock-board/us/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B1120",
+  "theme_color": "#0B1120",
+  "icons": [
+    {
+      "src": "../icons/us-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../icons/us-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../icons/us-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
