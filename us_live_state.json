@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:52:59",
-  "updated_at_et": "2026-11-04 08:52:59",
-  "updated_epoch_ms": 1793800379287,
+  "updated_at_kst": "2026-11-04 22:54:02",
+  "updated_at_et": "2026-11-04 08:54:02",
+  "updated_epoch_ms": 1793800442553,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.43,
     "profit_rate": -1.07,
-    "updated_kst": "22:52:55"
+    "updated_kst": "22:53:58"
   },
   "stats": {
     "today_total": 17,
@@ -1037,6 +1037,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "08:53:16",
+      "time_kst": "22:53:16",
+      "symbol": "WEC",
+      "company_name": "WEC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "08:48:52",
       "time_kst": "22:48:52",
       "symbol": "ICU",
@@ -1521,16 +1531,6 @@
       "time_kst": "20:46:33",
       "symbol": "NOMD",
       "company_name": "NOMD",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:43:16",
-      "time_kst": "20:43:16",
-      "symbol": "SNN",
-      "company_name": "SNN",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
