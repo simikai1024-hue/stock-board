@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:00:59",
-  "updated_at_et": "2026-11-04 09:00:59",
-  "updated_epoch_ms": 1793800859165,
+  "updated_at_kst": "2026-11-04 23:01:37",
+  "updated_at_et": "2026-11-04 09:01:37",
+  "updated_epoch_ms": 1793800897695,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.43,
     "profit_rate": -1.07,
-    "updated_kst": "23:00:53"
+    "updated_kst": "23:01:30"
   },
   "stats": {
     "today_total": 17,
@@ -1037,6 +1037,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "09:01:33",
+      "time_kst": "23:01:33",
+      "symbol": "CDT",
+      "company_name": "CDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "09:00:59",
+      "time_kst": "23:00:59",
+      "symbol": "CDRO",
+      "company_name": "CDRO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $395.13M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:00:55",
       "time_kst": "23:00:55",
       "symbol": "LEGN",
@@ -1511,26 +1531,6 @@
       "time_kst": "20:58:43",
       "symbol": "FLUT",
       "company_name": "FLUT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:58:04",
-      "time_kst": "20:58:04",
-      "symbol": "TX",
-      "company_name": "TX",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:53:07",
-      "time_kst": "20:53:07",
-      "symbol": "ADNT",
-      "company_name": "ADNT",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
