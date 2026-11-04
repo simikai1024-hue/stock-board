@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 00:58:13",
-  "updated_at_et": "2026-11-04 10:58:13",
-  "updated_epoch_ms": 1793807893173,
+  "updated_at_kst": "2026-11-05 00:59:16",
+  "updated_at_et": "2026-11-04 10:59:16",
+  "updated_epoch_ms": 1793807956249,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.4,
     "profit_rate": -2.3,
-    "updated_kst": "00:58:09"
+    "updated_kst": "00:58:56"
   },
   "stats": {
     "today_total": 22,
@@ -1137,6 +1137,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "10:59:13",
+      "time_kst": "00:59:13",
+      "symbol": "ITUB",
+      "company_name": "ITUB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "10:46:19",
       "time_kst": "00:46:19",
       "symbol": "CRH",
@@ -1214,16 +1224,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $52.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:37:56",
-      "time_kst": "23:37:56",
-      "symbol": "ITUB",
-      "company_name": "ITUB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-04",
