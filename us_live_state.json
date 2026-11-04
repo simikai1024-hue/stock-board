@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:13:46",
-  "updated_at_et": "2026-11-04 09:13:46",
-  "updated_epoch_ms": 1793801626177,
+  "updated_at_kst": "2026-11-04 23:14:27",
+  "updated_at_et": "2026-11-04 09:14:27",
+  "updated_epoch_ms": 1793801667630,
   "analyzing": {
-    "active": true,
-    "symbol": "CTRM",
-    "company_name": "CTRM",
-    "exchange": "ND",
-    "price": 1.36,
-    "gain_pct": -0.37,
-    "mcap_m": 13.14,
-    "catalyst_hint": "[당일 PR] Castor Maritime Announces that MPC Oceanic Group Has Entered into Agreement to Acquire a 41% Stake in Marlow Navigation",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:13:42",
-    "started_at_kst": "23:13:42",
-    "started_epoch_ms": 1793801622161
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.3473,
     "profit_rate": -4.44,
-    "updated_kst": "23:13:31"
+    "updated_kst": "23:14:08"
   },
   "stats": {
-    "today_total": 18,
-    "today_nblm_count": 18,
+    "today_total": 19,
+    "today_nblm_count": 19,
     "today_buy": 2,
-    "today_false": 16,
+    "today_false": 17,
     "today_hardcut": 60,
-    "total_verdicts": 51,
+    "total_verdicts": 52,
     "total_buy": 3,
-    "total_false": 48,
-    "avg_nblm_sec": 69.8
+    "total_false": 49,
+    "avg_nblm_sec": 68.4
   },
   "verdicts": [
+    {
+      "id": "v_1793801663002_CTRM_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "09:14:23",
+      "time_kst": "23:14:23",
+      "symbol": "CTRM",
+      "company_name": "CTRM",
+      "exchange": "ND",
+      "price": 1.36,
+      "gain_pct": -0.37,
+      "mcap_m": 13.14,
+      "decision": "FALSE",
+      "elapsed_sec": 44.1,
+      "reason": "자회사(MPC Oceanic)를 통한 타법인 지분 41% 간접/소수지분 인수 및 2027년 인허가 조건부 계약으로 직접적 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Castor Maritime Announces that MPC Oceanic Group Has Entered into Agreement to Acquire a 41% Stake in Marlow Navigation",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 CTRM (Castor Maritime Inc.) 정밀 직독 결재 보고입니다 [cite: 296, 297].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.14M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 296].\n실시간 시세 및 수급: 전일 종가 $1.3650 대비 현재가 $1.3600 (-0.37% 약보합), 당일 최고가 $1.3600 (+0.0%) [cite: 296]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 296].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 09:00 ET) PR 원문 분석:\nPR 제목: \"Castor Maritime Announces that MPC Oceanic Group Has Entered into Agreement to Acquire a 41% Stake in Marlow Navigation\" [cite: 297]\n원문 팩트: CTRM이 직접 인수하는 것이 아니라, 독일 증시 상장 자회사인 MPC Oceanic Group AG가 Marlow Navigation의 지분 41%(소수지분)를 인수하는 계약을 체결함 [cite: 297].\n치명적 기폭제 결함:\n[간접 인수 및 소수지분(41%) 한계]: 본체 CTRM의 직접 100% 자산 인수나 M&A 완결이 아닌, 독일 상장 자회사를 통한 41% 소수지분(Minority Stake) 간접 투자 계약에 불과합니다 [cite: 297, 300].\n[2027년 조건부 및 부채 조달]: 거래 완료 시점이 **2027년 초 반독점/규제 당국 승인 조건부(Subject to regulatory approvals)**이며, 현금 결제액($97M)의 2/3를 신규 부채(Debt Financing)로 조달하는 구조입니다 [cite: 299, 300].\n이는 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 본체 직접 $ 수주/계약/매각, 100% 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 미달합니다 [cite: 20].\n개장 전 세력 매집 유동성($0 USD) 및 초기 수급 반응이 전무하며 시세가 약보합(-0.37%) 상태입니다 [cite: 296].\n3. 최종 심사 및 결재 판정\n당일 PR이 자회사를 통한 소수지분(41%) 간접 인수 및 2027년 규제 승인 조건부 계약에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CTRM 처리합니다 [cite: 20, 297, 300].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 308].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: CTRM NOTES:\n[CTRM] 자회사(MPC Oceanic)를 통한 타법인 지분 41% 간접/소수지분 인수 및 2027년 인허가 조건부 계약으로 직접적 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793800982553_GMHS_FALSE",
       "date_et": "2026-11-04",
