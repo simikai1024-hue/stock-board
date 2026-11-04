@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:01:23",
-  "updated_at_et": "2026-11-04 08:01:23",
-  "updated_epoch_ms": 1793797283685,
+  "updated_at_kst": "2026-11-04 22:02:13",
+  "updated_at_et": "2026-11-04 08:02:13",
+  "updated_epoch_ms": 1793797333858,
   "analyzing": {
-    "active": true,
-    "symbol": "UZX",
-    "company_name": "Linkage Global Inc",
-    "exchange": "ND",
-    "price": 1.0,
-    "gain_pct": -2.69,
-    "mcap_m": 3.34,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:01:19",
-    "started_at_kst": "22:01:19",
-    "started_epoch_ms": 1793797279486
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:01:18"
+    "updated_kst": "22:01:50"
   },
   "stats": {
-    "today_total": 6,
-    "today_nblm_count": 6,
+    "today_total": 7,
+    "today_nblm_count": 7,
     "today_buy": 1,
-    "today_false": 5,
-    "today_hardcut": 52,
-    "total_verdicts": 39,
+    "today_false": 6,
+    "today_hardcut": 55,
+    "total_verdicts": 40,
     "total_buy": 2,
-    "total_false": 37,
-    "avg_nblm_sec": 86.9
+    "total_false": 38,
+    "avg_nblm_sec": 83.4
   },
   "verdicts": [
+    {
+      "id": "v_1793797329311_UZX_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "08:02:09",
+      "time_kst": "22:02:09",
+      "symbol": "UZX",
+      "company_name": "Linkage Global Inc",
+      "exchange": "ND",
+      "price": 1.0,
+      "gain_pct": -2.69,
+      "mcap_m": 3.34,
+      "decision": "FALSE",
+      "elapsed_sec": 62.9,
+      "reason": "단순 임시주주총회 소집 통지(Notice of EGM) 공시에 불과하여 1급 확정 기폭제 미달 및 장전 대금 $0(-2.69%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 UZX (Linkage Global Inc) 정밀 직독 결재 보고입니다 [cite: 207, 208].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.34M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 207].\n실시간 시세 및 수급: 전일 종가 $1.0276 대비 현재가 $1.0000 (-2.69% 약보합), 당일 최고가 $1.0000 (+0.0%) [cite: 207]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 207].\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) SEC 6-K 및 사전 6-K 원문 분석:\n공시 핵심 내용: \"Notice and Proxy Statement of the Extraordinary General Meeting of Shareholders (EGM)\" [cite: 210]\n원문 팩트: UZX(Linkage Global Inc)가 제출한 6-K 공시는 임시주주총회 개최 및 안건에 관한 단순 주주총회 소집 통지 및 위임장 수여(Notice & Proxy Statement of EGM) 행정 공시입니다 [cite: 210].\n치명적 기폭제 결함:\n오늘 당일 제출된 공시는 주주총회 안내 등 정기/비정기 행정 공시에 불과하며, 당일 공식 PR 뉴스 수신도 0건입니다 [cite: 208, 210].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 전략 헌장 원칙(\"단순 주주총회 소집통지·주주서한·행정공시는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 8, 210].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 207].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시 내용이 단순 임시주주총회 소집 통지(Notice of EGM)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: UZX 처리합니다 [cite: 8, 210].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: UZX NOTES:\n[UZX] 단순 임시주주총회 소집 통지(Notice of EGM) 공시에 불과하여 1급 확정 기폭제 미달 및 장전 대금 $0(-2.69%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793795656699_POLA_FALSE",
       "date_et": "2026-11-04",
@@ -829,6 +837,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "08:01:57",
+      "time_kst": "22:01:57",
+      "symbol": "AUDC",
+      "company_name": "AUDC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $223.07M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "08:01:43",
+      "time_kst": "22:01:43",
+      "symbol": "SILC",
+      "company_name": "SILC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $183.23M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "08:01:36",
+      "time_kst": "22:01:36",
+      "symbol": "SIEB",
+      "company_name": "SIEB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $82.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "08:01:19",
       "time_kst": "22:01:19",
       "symbol": "AFG",
@@ -1296,36 +1334,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $132.15M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:05:09",
-      "time_kst": "20:05:09",
-      "symbol": "SKM",
-      "company_name": "SKM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:05:07",
-      "time_kst": "20:05:07",
-      "symbol": "KT",
-      "company_name": "KT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:05:05",
-      "time_kst": "20:05:05",
-      "symbol": "CIG",
-      "company_name": "CIG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
