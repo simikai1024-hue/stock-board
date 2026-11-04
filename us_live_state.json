@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:33:47",
-  "updated_at_et": "2026-11-04 07:33:47",
-  "updated_epoch_ms": 1793795627018,
+  "updated_at_kst": "2026-11-04 21:34:18",
+  "updated_at_et": "2026-11-04 07:34:18",
+  "updated_epoch_ms": 1793795658944,
   "analyzing": {
-    "active": true,
-    "symbol": "POLA",
-    "company_name": "Polar Power, Inc.",
-    "exchange": "ND",
-    "price": 0.5541,
-    "gain_pct": 6.07,
-    "mcap_m": 2.39,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:32:07",
-    "started_at_kst": "21:32:07",
-    "started_epoch_ms": 1793795527185
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:44"
+    "updated_kst": "21:34:03"
   },
   "stats": {
-    "today_total": 5,
-    "today_nblm_count": 5,
+    "today_total": 6,
+    "today_nblm_count": 6,
     "today_buy": 1,
-    "today_false": 4,
+    "today_false": 5,
     "today_hardcut": 44,
-    "total_verdicts": 38,
+    "total_verdicts": 39,
     "total_buy": 2,
-    "total_false": 36,
-    "avg_nblm_sec": 77.5
+    "total_false": 37,
+    "avg_nblm_sec": 86.9
   },
   "verdicts": [
+    {
+      "id": "v_1793795656699_POLA_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "07:34:16",
+      "time_kst": "21:34:16",
+      "symbol": "POLA",
+      "company_name": "Polar Power, Inc.",
+      "exchange": "ND",
+      "price": 0.5541,
+      "gain_pct": 6.07,
+      "mcap_m": 2.39,
+      "decision": "FALSE",
+      "elapsed_sec": 133.4,
+      "reason": "단순 나스닥 자기자본 상장유지 요건 충족 통보 및 구조조정 진행 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+6.07%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 POLA (Polar Power, Inc.) 정밀 직독 결재 보고입니다 [cite: 317, 318].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.39M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 317].\n실시간 시세 및 수급: 전일 종가 $0.5224 대비 현재가 $0.5541 (+6.07%), 당일 최고가 $0.5541 (+0.0%) [cite: 317]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 317].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 핵심 내용: \"On November 4, 2026, the Company issued a press release announcing that it has received a letter from Nasdaq stating that it is in compliance with Nasdaq s minimum stockholders equity requirement and announcing that it is beginning Phase 2 of its restructuring...\" [cite: 318]\n원문 팩트: 나스닥 상장유지 자기자본 요건(Stockholders' Equity Requirement) 충족 공식 확인서 수신 및 구조조정 2단계(Phase 2 Restructuring) 진입 발표 [cite: 318].\n치명적 기폭제 결함:\n오늘 당일 공시는 나스닥 규정 준수 확인서 수신 및 경영 재정비 경과를 보고하는 단순 **행정적 상장유지 통보 및 구조조정 경과 보고(Compliance Notice / Corporate Restructuring Update)**에 불과합니다 [cite: 318].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 최종 완결, 현금 특별배당, 주식병합 D-Day 등)가 절대 아니며, 전략 헌장 원칙(\"단순 행정보고·주주서한·구조조정 경과는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 8].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 317].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 나스닥 상장유지 요건 충족 통보 및 구조조정 경과 보고에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: POLA 처리합니다 [cite: 8, 318].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 321].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: POLA NOTES:\n[POLA] 단순 나스닥 자기자본 상장유지 요건 충족 통보 및 구조조정 진행 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+6.07%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793794537442_RADX_FALSE",
       "date_et": "2026-11-04",
