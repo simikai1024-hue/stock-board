@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:09:39",
-  "updated_at_et": "2026-11-04 07:09:39",
-  "updated_epoch_ms": 1793794179053,
+  "updated_at_kst": "2026-11-04 21:10:51",
+  "updated_at_et": "2026-11-04 07:10:51",
+  "updated_epoch_ms": 1793794251935,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:09:23"
+    "updated_kst": "21:10:49"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 1,
     "today_false": 3,
-    "today_hardcut": 39,
+    "today_hardcut": 40,
     "total_verdicts": 37,
     "total_buy": 2,
     "total_false": 35,
@@ -777,6 +777,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:09:56",
+      "time_kst": "21:09:56",
+      "symbol": "GFS",
+      "company_name": "GFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $24051.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:09:19",
       "time_kst": "21:09:19",
       "symbol": "BEPC",
@@ -1261,16 +1271,6 @@
       "time_kst": "02:43:50",
       "symbol": "BCS",
       "company_name": "BCS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "12:31:51",
-      "time_kst": "02:31:51",
-      "symbol": "CMS",
-      "company_name": "CMS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
