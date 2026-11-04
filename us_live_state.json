@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:47:57",
-  "updated_at_et": "2026-11-04 08:47:57",
-  "updated_epoch_ms": 1793800077400,
+  "updated_at_kst": "2026-11-04 22:48:56",
+  "updated_at_et": "2026-11-04 08:48:56",
+  "updated_epoch_ms": 1793800136596,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "EZRA",
     "holding_qty": 25,
     "avg_price": 2.4564,
-    "current_price": 2.48,
-    "profit_rate": 0.96,
-    "updated_kst": "22:47:53"
+    "current_price": 2.43,
+    "profit_rate": -1.07,
+    "updated_kst": "22:48:36"
   },
   "stats": {
     "today_total": 16,
@@ -1017,6 +1017,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "08:48:52",
+      "time_kst": "22:48:52",
+      "symbol": "ICU",
+      "company_name": "SeaStar Medical Holding Corp",
+      "exchange": "ND",
+      "mcap_m": 10.63,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-05 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "08:37:27",
       "time_kst": "22:37:27",
       "symbol": "APRE",
@@ -1501,16 +1511,6 @@
       "time_kst": "20:43:16",
       "symbol": "SNN",
       "company_name": "SNN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:34:27",
-      "time_kst": "20:34:27",
-      "symbol": "CVS",
-      "company_name": "CVS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
