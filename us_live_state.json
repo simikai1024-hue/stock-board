@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 01:14:58",
-  "updated_at_et": "2026-11-04 11:14:58",
-  "updated_epoch_ms": 1793808898455,
+  "updated_at_kst": "2026-11-05 01:16:04",
+  "updated_at_et": "2026-11-04 11:16:04",
+  "updated_epoch_ms": 1793808964699,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.37,
     "profit_rate": -3.52,
-    "updated_kst": "01:14:55"
+    "updated_kst": "01:16:04"
   },
   "stats": {
     "today_total": 23,
@@ -1157,6 +1157,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "11:16:02",
+      "time_kst": "01:16:02",
+      "symbol": "E",
+      "company_name": "E",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "11:06:08",
       "time_kst": "01:06:08",
       "symbol": "SVM",
@@ -1641,16 +1651,6 @@
       "time_kst": "21:48:24",
       "symbol": "NVO",
       "company_name": "NVO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:48:05",
-      "time_kst": "21:48:05",
-      "symbol": "BTU",
-      "company_name": "BTU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
