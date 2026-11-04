@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 00:21:08",
-  "updated_at_et": "2026-11-04 10:21:08",
-  "updated_epoch_ms": 1793805668066,
+  "updated_at_kst": "2026-11-05 00:21:48",
+  "updated_at_et": "2026-11-04 10:21:48",
+  "updated_epoch_ms": 1793805708219,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.38,
     "profit_rate": -3.11,
-    "updated_kst": "00:21:05"
+    "updated_kst": "00:21:44"
   },
   "stats": {
     "today_total": 21,
@@ -1117,6 +1117,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "10:21:45",
+      "time_kst": "00:21:45",
+      "symbol": "LYG",
+      "company_name": "LYG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:53:24",
       "time_kst": "23:53:24",
       "symbol": "LKFT",
@@ -1604,16 +1614,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $8408.85M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:30:32",
-      "time_kst": "21:30:32",
-      "symbol": "DLO",
-      "company_name": "DLO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3788.76M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
