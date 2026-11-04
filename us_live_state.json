@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 08:22:32",
-  "updated_at_et": "2026-11-04 18:22:32",
-  "updated_epoch_ms": 1793834552203,
+  "updated_at_kst": "2026-11-05 08:23:37",
+  "updated_at_et": "2026-11-04 18:23:37",
+  "updated_epoch_ms": 1793834617746,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "장외대기",
     "watchlist_count": 166,
-    "orderable_usd": 13.0,
+    "orderable_usd": 67.59,
     "daily_done": true,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "08:22:29"
+    "updated_kst": "08:23:35"
   },
   "stats": {
     "today_total": 27,
