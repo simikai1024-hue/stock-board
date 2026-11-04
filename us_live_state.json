@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:04:15",
-  "updated_at_et": "2026-11-04 06:04:15",
-  "updated_epoch_ms": 1793790255207,
+  "updated_at_kst": "2026-11-04 20:05:02",
+  "updated_at_et": "2026-11-04 06:05:02",
+  "updated_epoch_ms": 1793790302423,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:04:12"
+    "updated_kst": "20:05:00"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 33,
     "total_buy": 1,
     "total_false": 32,
@@ -696,6 +696,16 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:00",
+      "time_kst": "20:05:00",
+      "symbol": "EPAC",
+      "company_name": "EPAC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
       "date_et": "2026-11-03",
       "time_et": "14:16:41",
       "time_kst": "04:16:41",
@@ -1184,16 +1194,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:37:07",
-      "time_kst": "22:37:07",
-      "symbol": "FER",
-      "company_name": "FER",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $41508.07M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
