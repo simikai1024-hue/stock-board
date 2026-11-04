@@ -1,5 +1,5 @@
-// 달의검 독립 전광판 PWA Service Worker (실시간 JSON 무캐시 직통)
-const CACHE_NAME = 'moon-sword-sub-pwa-v2';
+// 달의검 독립 전광판 PWA Service Worker (실시간 JSON 무캐시 직통 · Audio v3)
+const CACHE_NAME = 'moon-sword-sub-pwa-v3';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
@@ -21,6 +21,6 @@ self.addEventListener('fetch', (event) => {
     return;
   }
   event.respondWith(
-    fetch(req).catch(() => caches.match(req))
+    fetch(req, { cache: 'no-store' }).catch(() => caches.match(req))
   );
 });
