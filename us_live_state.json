@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:33:05",
-  "updated_at_et": "2026-11-04 09:33:05",
-  "updated_epoch_ms": 1793802785664,
+  "updated_at_kst": "2026-11-04 23:33:46",
+  "updated_at_et": "2026-11-04 09:33:46",
+  "updated_epoch_ms": 1793802826227,
   "analyzing": {
-    "active": true,
-    "symbol": "JBDI",
-    "company_name": "JBDI Holdings Ltd",
-    "exchange": "ND",
-    "price": 2.49,
-    "gain_pct": 3.32,
-    "mcap_m": 49.27,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:33:03",
-    "started_at_kst": "23:33:03",
-    "started_epoch_ms": 1793802783039
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.245,
     "profit_rate": -8.61,
-    "updated_kst": "23:33:04"
+    "updated_kst": "23:33:45"
   },
   "stats": {
-    "today_total": 19,
-    "today_nblm_count": 19,
+    "today_total": 20,
+    "today_nblm_count": 20,
     "today_buy": 2,
-    "today_false": 17,
+    "today_false": 18,
     "today_hardcut": 60,
-    "total_verdicts": 52,
+    "total_verdicts": 53,
     "total_buy": 3,
-    "total_false": 49,
-    "avg_nblm_sec": 68.4
+    "total_false": 50,
+    "avg_nblm_sec": 67.2
   },
   "verdicts": [
+    {
+      "id": "v_1793802822517_JBDI_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "09:33:42",
+      "time_kst": "23:33:42",
+      "symbol": "JBDI",
+      "company_name": "JBDI Holdings Ltd",
+      "exchange": "ND",
+      "price": 2.49,
+      "gain_pct": 3.32,
+      "mcap_m": 49.27,
+      "decision": "FALSE",
+      "elapsed_sec": 44.2,
+      "reason": "당일 6-K 단순 행정 서류 공시 및 PR 미수신으로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 JBDI (JBDI Holdings Limited) 정밀 직독 결재 보고입니다 [cite: 253, 254].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $49.27M USD (파이썬 1차 시가총액 $50.0M 이하 소형 품절주 관문 턱걸이 통과) [cite: 253].\n실시간 시세 및 수급: 전일 종가 $2.4100 대비 현재가 $2.4900 (+3.32%), 당일 최고가 $2.6400 (고점 대비 -5.7% 밀림) [cite: 253]. 당일 프리장 누적 거래대금 $90,617 USD [cite: 253].\n2. D-Day SEC 6-K 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K 원문 분석:\n공시 현황: 2026-11-04 [6-K] 접수 [cite: 254].\n원문 팩트: Regulation S-K 관련 단순 서명란(Item 601(a)(5) / 601(b)(10) Signatures, 대표이사 Lim Chwee Poh 서명)만 수록된 단순 행정 제출용 6-K 공시입니다 [cite: 254].\n치명적 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료 미수신(0건) 상태이며, 제출된 6-K 공시 역시 단순 행정 서류에 불과합니다 [cite: 254].\n이는 전략 헌장 2번·3번 원칙에 따른 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 9, 254].\n[달의검] 족보집 과거 부검 기록상으로도 JBDI는 단순 6-K 출회 당일 최고 상승률이 +5.6%(시초가 -2.1%)에 그쳐 💀 실패·보합·설거지 패턴으로 검증된 바 있습니다 [cite: 21].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 서류이고 공식 PR 뉴스가 미수신되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: JBDI 처리합니다 [cite: 9, 254].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: JBDI NOTES:\n[JBDI] 당일 6-K 단순 행정 서류 공시 및 PR 미수신으로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793801663002_CTRM_FALSE",
       "date_et": "2026-11-04",
