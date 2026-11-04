@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 01:54:02",
-  "updated_at_et": "2026-11-04 11:54:02",
-  "updated_epoch_ms": 1793811242895,
+  "updated_at_kst": "2026-11-05 01:55:01",
+  "updated_at_et": "2026-11-04 11:55:01",
+  "updated_epoch_ms": 1793811301222,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.2741,
     "profit_rate": -7.42,
-    "updated_kst": "01:53:58"
+    "updated_kst": "01:54:56"
   },
   "stats": {
     "today_total": 23,
@@ -1157,6 +1157,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "11:54:27",
+      "time_kst": "01:54:27",
+      "symbol": "MT",
+      "company_name": "MT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "11:54:22",
+      "time_kst": "01:54:22",
+      "symbol": "SRCE",
+      "company_name": "SRCE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2163.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "11:54:17",
+      "time_kst": "01:54:17",
+      "symbol": "TVGN",
+      "company_name": "TVGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "11:16:02",
       "time_kst": "01:16:02",
       "symbol": "E",
@@ -1624,36 +1654,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5478.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:52:39",
-      "time_kst": "21:52:39",
-      "symbol": "LND",
-      "company_name": "LND",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:48:54",
-      "time_kst": "21:48:54",
-      "symbol": "PBR",
-      "company_name": "PBR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:48:24",
-      "time_kst": "21:48:24",
-      "symbol": "NVO",
-      "company_name": "NVO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
