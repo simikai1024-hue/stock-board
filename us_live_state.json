@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:07:17",
-  "updated_at_et": "2026-11-04 09:07:17",
-  "updated_epoch_ms": 1793801237491,
+  "updated_at_kst": "2026-11-04 23:08:23",
+  "updated_at_et": "2026-11-04 09:08:23",
+  "updated_epoch_ms": 1793801303178,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.43,
     "profit_rate": -1.07,
-    "updated_kst": "23:07:15"
+    "updated_kst": "23:08:21"
   },
   "stats": {
     "today_total": 18,
@@ -1057,6 +1057,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "09:07:25",
+      "time_kst": "23:07:25",
+      "symbol": "LXFR",
+      "company_name": "LXFR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:04:33",
       "time_kst": "23:04:33",
       "symbol": "VOXR",
@@ -1544,16 +1554,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3971.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:01:04",
-      "time_kst": "21:01:04",
-      "symbol": "CIGI",
-      "company_name": "CIGI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5269.82M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
