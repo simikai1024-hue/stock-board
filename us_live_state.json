@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:42:27",
-  "updated_at_et": "2026-11-04 08:42:27",
-  "updated_epoch_ms": 1793799747925,
+  "updated_at_kst": "2026-11-04 22:43:13",
+  "updated_at_et": "2026-11-04 08:43:13",
+  "updated_epoch_ms": 1793799793690,
   "analyzing": {
-    "active": true,
-    "symbol": "NUWE",
-    "company_name": "Nuwellis, Inc.",
-    "exchange": "ND",
-    "price": 5.25,
-    "gain_pct": -13.42,
-    "mcap_m": 19.15,
-    "catalyst_hint": "[당일 PR] Nuwellis to Report Third Quarter 2026 Financial Results on November 12",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:42:23",
-    "started_at_kst": "22:42:23",
-    "started_epoch_ms": 1793799743833
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:42:13"
+    "updated_kst": "22:42:57"
   },
   "stats": {
-    "today_total": 13,
-    "today_nblm_count": 13,
+    "today_total": 14,
+    "today_nblm_count": 14,
     "today_buy": 1,
-    "today_false": 12,
+    "today_false": 13,
     "today_hardcut": 60,
-    "total_verdicts": 46,
+    "total_verdicts": 47,
     "total_buy": 2,
-    "total_false": 44,
-    "avg_nblm_sec": 75.1
+    "total_false": 45,
+    "avg_nblm_sec": 73.2
   },
   "verdicts": [
+    {
+      "id": "v_1793799788730_NUWE_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "08:43:08",
+      "time_kst": "22:43:08",
+      "symbol": "NUWE",
+      "company_name": "Nuwellis, Inc.",
+      "exchange": "ND",
+      "price": 5.25,
+      "gain_pct": -13.42,
+      "mcap_m": 19.15,
+      "decision": "FALSE",
+      "elapsed_sec": 49.3,
+      "reason": "단순 3분기 실적 발표 일정 예고(Earnings Call Schedule Notice)는 1급 확정 기폭제 미달 및 전일 대비 -13.42% 약세로 전량 차단",
+      "catalyst_hint": "[당일 PR] Nuwellis to Report Third Quarter 2026 Financial Results on November 12",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 NUWE (Nuwellis, Inc.) 정밀 직독 결재 보고입니다 [cite: 12, 322].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $19.15M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 14].\n실시간 시세 및 수급: 전일 종가 $6.0635 대비 현재가 $5.2500 (-13.42% 약세), 당일 최고가 $5.4200 (고점 대비 -3.1%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Nuwellis to Report Third Quarter 2026 Financial Results on November 12\"\n원문 팩트: 2026년 3분기 실적 발표(Earnings Release) 및 컨퍼런스 콜을 오는 11월 12일에 진행한다는 단순 정기 실적 발표 일정 예고(Earnings Release Date Announcement) 보도자료입니다.\n치명적 기폭제 결함:\n오늘 당일 발표된 재료는 실질적인 현금 매출 확정이나 신약/수주/M&A 호재가 아니라, 단지 실적 발표 날짜를 안내하는 단순 정기 행정 일정 공지에 불과합니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 정기실적 발표 예고/주주서한/컨퍼런스 일정 안내' 범주에 정확히 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 12, 15].\n구체적 기폭제 부재 및 -13.42% 음봉 하락 흐름이 나타나고 있으며 장전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 3분기 실적 발표 일정 예고(Earnings Release Date Announcement)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: NUWE 처리합니다 [cite: 12].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: NUWE NOTES:\n[NUWE] 단순 3분기 실적 발표 일정 예고(Earnings Call Schedule Notice)는 1급 확정 기폭제 미달 및 전일 대비 -13.42% 약세로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793799728273_MDCX_FALSE",
       "date_et": "2026-11-04",
