@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:09:50",
-  "updated_at_et": "2026-11-04 06:09:50",
-  "updated_epoch_ms": 1793790590411,
+  "updated_at_kst": "2026-11-04 20:11:40",
+  "updated_at_et": "2026-11-04 06:11:40",
+  "updated_epoch_ms": 1793790700205,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:09:48"
+    "updated_kst": "20:11:38"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 9,
+    "today_hardcut": 10,
     "total_verdicts": 33,
     "total_buy": 1,
     "total_false": 32,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:10:54",
+      "time_kst": "20:10:54",
+      "symbol": "NWGL",
+      "company_name": "NWGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-02 [424B5])"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:05:26",
       "time_kst": "20:05:26",
       "symbol": "TM",
@@ -1184,16 +1194,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:59:46",
-      "time_kst": "22:59:46",
-      "symbol": "QNC",
-      "company_name": "QNC",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $222.96M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
