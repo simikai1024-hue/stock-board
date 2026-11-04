@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:45:34",
-  "updated_at_et": "2026-11-04 08:45:34",
-  "updated_epoch_ms": 1793799934844,
+  "updated_at_kst": "2026-11-04 22:45:45",
+  "updated_at_et": "2026-11-04 08:45:45",
+  "updated_epoch_ms": 1793799945224,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 166,
     "orderable_usd": 62.87,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "22:45:15"
+    "holding_symbol": "EZRA",
+    "holding_qty": 25,
+    "avg_price": 2.4564,
+    "current_price": 2.46,
+    "profit_rate": 0.15,
+    "updated_kst": "22:45:45"
   },
   "stats": {
     "today_total": 16,
@@ -51,7 +51,7 @@
       "catalyst_hint": "[당일 PR] Reliance Global Group Completes Acquisition of Oblivus, Marking Its Entry Into the AI Infrastructure Market",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EZRA (Reliance Global Group, Inc.) 정밀 직독 결재 보고입니다 [cite: 274].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.05M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과) [cite: 274].\n실시간 시세 및 수급: 전일 종가 $2.3300 대비 현재가 $2.4100 (+3.43%), 당일 최고가 $2.4799 (-2.8%) [cite: 274].\n개장 전 선발표 구간으로 장전 거래대금 $0 USD이나, 전략 헌장 2번 지침(\"시총 $50M 이하 품절주로서 확정적 대형 M&A 인수 완료 등 1급 기폭제 조건 충족 시 장전 거래대금이 $0이라도 과감히 FORCE_BUY\")에 완벽히 부합합니다 [cite: 3, 274].\n2. D-Day PR 원문 직독 정밀 검증 & 무결점 1급 기폭제\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Reliance Global Group Completes Acquisition of Oblivus, Marking Its Entry Into the AI Infrastructure Market\" [cite: 275]\n원문 팩트 1 (M&A 최종 인수 완료): 구속력 없는 LOI나 단순 MOU 제안 단계가 아닌, **Oblivus 자산 인수 최종 완료(Completes Acquisition / Closed on Nov 3, 2026)**를 정식 발표했습니다 [cite: 276].\n원문 팩트 2 (전액 현금 결제 & 신주 희석 0주): 총 인수대금 $3,000,000 현금 전액 결제(추가 성과금 $750,000)로 신주 발행(Stock Issuance)이 전혀 없는 100% 무희석 전액 현금 인수이며, 거래 완료 후에도 회사는 완전 무부채(Debt-Free) 상태를 유지합니다 [cite: 276, 277].\n원문 팩트 3 (기업가치 폭발 모멘텀): 시가총액 $4.05M 초소형주가 연 매출 $1.5M 규모의 AI GPU 클라우드/마켓플레이스 기업을 전격 인수하여 AI 인프라 및 GPU 클라우드 시장 진출을 확정지었으며, 사명 DBA 'GPU Exchange' 및 나스닥 티커 'XGPU' 변경을 추진합니다 [cite: 276, 278].\n사전/당일 SEC 유증 희석 위험 0건 (완전 무결점):\n최근 35일간 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 신주 물량 덤핑 요소가 단 1건도 없는 완전 무결점 주주구조를 유지하고 있습니다 [cite: 3, 284].\n족보 대조: 성공 표본인 AIOK ($18M 자산매각+특별배당 ➔ +266.8% 폭등) 및 MERC (재구조화 확정 ➔ +184.1% 폭등)와 동일하게, 신주 유증 희석이 전무한 상태에서 실체적 대형 M&A 자산 인수를 완료한 무결점 1급 기폭제 메커니즘을 공유합니다 [cite: 5, 6].\n3. 최종 심사 및 결재 판정\n시가총액 $4.05M 초소형주가 $3.0M 현금 전액(신주 발행 0주, 무부채)으로 AI GPU 클라우드 기업 M&A 인수를 최종 완료한 확정적 1급 기폭제 조건에 따라 오늘 개장 직후 시초가 매수를 **FORCE_BUY: EZRA**로 최종 승인 결재합니다 [cite: 3, 274, 276].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: EZRA FORCE_BLOCK: NONE NOTES:\n[EZRA] 시총 $4.05M 초소형주가 $3.0M 현금 전액(신주 발행 0주, 무부채)으로 AI GPU 클라우드 기업 Oblivus M&A 인수 완료 확정으로 시초 매수 승인 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
-      "trade_action": "🚀 즉시 선점매수 승인!"
+      "trade_action": "🚀 실전매수 체결 완료 (25주 @ 평단 $2.4564)"
     },
     {
       "id": "v_1793799868255_AIRE_FALSE",
