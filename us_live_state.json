@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:09:21",
-  "updated_at_et": "2026-11-04 07:09:21",
-  "updated_epoch_ms": 1793794161817,
+  "updated_at_kst": "2026-11-04 21:09:39",
+  "updated_at_et": "2026-11-04 07:09:39",
+  "updated_epoch_ms": 1793794179053,
   "analyzing": {
-    "active": true,
-    "symbol": "WKSP",
-    "company_name": "WKSP",
-    "exchange": "ND",
-    "price": 0.3005,
-    "gain_pct": 1.83,
-    "mcap_m": 6.01,
-    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:08:24",
-    "started_at_kst": "21:08:24",
-    "started_epoch_ms": 1793794104827
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:09:01"
+    "updated_kst": "21:09:23"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 3,
+    "today_total": 4,
+    "today_nblm_count": 4,
     "today_buy": 1,
-    "today_false": 2,
+    "today_false": 3,
     "today_hardcut": 39,
-    "total_verdicts": 36,
+    "total_verdicts": 37,
     "total_buy": 2,
-    "total_false": 34,
-    "avg_nblm_sec": 78.1
+    "total_false": 35,
+    "avg_nblm_sec": 77.6
   },
   "verdicts": [
+    {
+      "id": "v_1793794176752_WKSP_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "07:09:36",
+      "time_kst": "21:09:36",
+      "symbol": "WKSP",
+      "company_name": "WKSP",
+      "exchange": "ND",
+      "price": 0.3005,
+      "gain_pct": 1.83,
+      "mcap_m": 6.01,
+      "decision": "FALSE",
+      "elapsed_sec": 76.2,
+      "reason": "10/13 자 S-3 EFFECT 유증 희석 위험 잔존 + 단순 인수의향서(Term Sheet/MOU) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+1.83%) 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 WKSP (Worksport Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.01M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.2951 대비 현재가 $0.3005 (+1.83%), 당일 최고가 $0.3111 (-3.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. SEC 희석 위험 & D-Day 8-K(Item 7.01) 원문 직독 정밀 검증\n[사전 SEC 유상증자 희석 위험 잔존 (원칙 1 위반)]:\n사전 35일 SEC 제출 이력상 2026-10-13 EFFECT (S-3 증권등록신고서 효력 발생) 공시가 제출 및 유지되고 있어, 언제든 장내 신주 오퍼링/유상증자 덤핑 물량이 출회될 수 있는 희석 위험이 지속되고 있습니다.\n[당일 D-Day 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/04) SEC 8-K (Item 7.01) 및 PR 원문 분석:\n\"Worksport Signs Term Sheet to Acquire U.S.-Manufactured Truck Bed Accessory Business Accompanying IP Portfolio\"\n원문 팩트: 트럭 관련 용품 사업체 및 IP 포트폴리오 인수를 위한 구속력 없는 단초적 인수의향서(Term Sheet) 체결 발표.\n치명적 기폭제 결함:\n확정된 M&A 완결 계약이나 구체적 달러($) 현금 거래 규모가 명시된 최종 계약이 아니라, 인수 검토 단계의 단순 인수의향서(Term Sheet / MOU) 체결 소식에 불과합니다.\n이는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 MOU/Term Sheet/샘플/특허' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 최종 완결, 현금 특별배당, ATM 해지 등)가 절대 아닙니다.\n개장 전 유동성 유입($0 USD) 및 세력 매집 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n10/13 자 S-3 EFFECT 증약 희석 위험 잔존, 단순 인수의향서(Term Sheet) 발표의 1급 확정 기폭제 미달 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: WKSP 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: WKSP NOTES:\n[WKSP] 10/13 자 S-3 EFFECT 유증 희석 위험 잔존 + 단순 인수의향서(Term Sheet/MOU) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+1.83%) 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793793895457_GNPX_FALSE",
       "date_et": "2026-11-04",
