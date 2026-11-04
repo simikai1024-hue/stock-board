@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:15:01",
-  "updated_at_et": "2026-11-04 06:15:01",
-  "updated_epoch_ms": 1793790901981,
+  "updated_at_kst": "2026-11-04 20:15:45",
+  "updated_at_et": "2026-11-04 06:15:45",
+  "updated_epoch_ms": 1793790945144,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:14:58"
+    "updated_kst": "20:15:35"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 10,
+    "today_hardcut": 11,
     "total_verdicts": 33,
     "total_buy": 1,
     "total_false": 32,
@@ -697,6 +697,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:15:42",
+      "time_kst": "20:15:42",
+      "symbol": "CDLR",
+      "company_name": "CDLR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:10:54",
       "time_kst": "20:10:54",
       "symbol": "NWGL",
@@ -1184,16 +1194,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $93.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:00:55",
-      "time_kst": "23:00:55",
-      "symbol": "IBG",
-      "company_name": "IBG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
     }
   ]
 }
