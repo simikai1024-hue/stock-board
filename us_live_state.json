@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:01:37",
-  "updated_at_et": "2026-11-04 09:01:37",
-  "updated_epoch_ms": 1793800897695,
+  "updated_at_kst": "2026-11-04 23:02:15",
+  "updated_at_et": "2026-11-04 09:02:15",
+  "updated_epoch_ms": 1793800935603,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "GMHS",
+    "company_name": "GMHS",
+    "exchange": "ND",
+    "price": 0.5626,
+    "gain_pct": -6.82,
+    "mcap_m": 31.96,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:02:11",
+    "started_at_kst": "23:02:11",
+    "started_epoch_ms": 1793800931195
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 2.4564,
     "current_price": 2.43,
     "profit_rate": -1.07,
-    "updated_kst": "23:01:30"
+    "updated_kst": "23:02:15"
   },
   "stats": {
     "today_total": 17,
@@ -1037,6 +1049,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "09:01:47",
+      "time_kst": "23:01:47",
+      "symbol": "BSRR",
+      "company_name": "BSRR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $544.72M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "09:01:41",
+      "time_kst": "23:01:41",
+      "symbol": "LASE",
+      "company_name": "LASE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "09:01:33",
       "time_kst": "23:01:33",
       "symbol": "CDT",
@@ -1514,26 +1546,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $212.71M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:00:42",
-      "time_kst": "21:00:42",
-      "symbol": "SII",
-      "company_name": "SII",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:58:43",
-      "time_kst": "20:58:43",
-      "symbol": "FLUT",
-      "company_name": "FLUT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
