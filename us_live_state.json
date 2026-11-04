@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:30:05",
-  "updated_at_et": "2026-11-04 07:30:05",
-  "updated_epoch_ms": 1793795405692,
+  "updated_at_kst": "2026-11-04 21:30:50",
+  "updated_at_et": "2026-11-04 07:30:50",
+  "updated_epoch_ms": 1793795450515,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:30:03"
+    "updated_kst": "21:30:28"
   },
   "stats": {
     "today_total": 5,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 4,
-    "today_hardcut": 40,
+    "today_hardcut": 42,
     "total_verdicts": 38,
     "total_buy": 2,
     "total_false": 36,
@@ -797,6 +797,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:30:48",
+      "time_kst": "21:30:48",
+      "symbol": "ARWR",
+      "company_name": "ARWR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $8408.85M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "07:30:32",
+      "time_kst": "21:30:32",
+      "symbol": "DLO",
+      "company_name": "DLO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3788.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:29:24",
       "time_kst": "21:29:24",
       "symbol": "ITUB",
@@ -1271,26 +1291,6 @@
       "time_kst": "03:16:49",
       "symbol": "HSBC",
       "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "12:58:58",
-      "time_kst": "02:58:58",
-      "symbol": "UTMD",
-      "company_name": "UTMD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $223.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "12:43:50",
-      "time_kst": "02:43:50",
-      "symbol": "BCS",
-      "company_name": "BCS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
