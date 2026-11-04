@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:49:22",
-  "updated_at_et": "2026-11-04 07:49:22",
-  "updated_epoch_ms": 1793796562851,
+  "updated_at_kst": "2026-11-04 21:50:27",
+  "updated_at_et": "2026-11-04 07:50:27",
+  "updated_epoch_ms": 1793796627298,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:49:19"
+    "updated_kst": "21:50:23"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 5,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 39,
     "total_buy": 2,
     "total_false": 37,
@@ -817,6 +817,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:49:53",
+      "time_kst": "21:49:53",
+      "symbol": "LND",
+      "company_name": "LND",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:48:54",
       "time_kst": "21:48:54",
       "symbol": "PBR",
@@ -1301,16 +1311,6 @@
       "time_kst": "20:05:00",
       "symbol": "EPAC",
       "company_name": "EPAC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "14:16:41",
-      "time_kst": "04:16:41",
-      "symbol": "PAM",
-      "company_name": "PAM",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
