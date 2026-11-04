@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:31:35",
-  "updated_at_et": "2026-11-04 06:31:35",
-  "updated_epoch_ms": 1793791895036,
+  "updated_at_kst": "2026-11-04 20:32:44",
+  "updated_at_et": "2026-11-04 06:32:44",
+  "updated_epoch_ms": 1793791964155,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EVAX",
+    "company_name": "EVAX",
+    "exchange": "ND",
+    "price": 2.96,
+    "gain_pct": -1.33,
+    "mcap_m": 24.69,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:31:39",
+    "started_at_kst": "20:31:39",
+    "started_epoch_ms": 1793791899594
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:31:14"
+    "updated_kst": "20:32:40"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 16,
+    "today_hardcut": 17,
     "total_verdicts": 33,
     "total_buy": 1,
     "total_false": 32,
@@ -697,6 +709,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:32:04",
+      "time_kst": "20:32:04",
+      "symbol": "ASIX",
+      "company_name": "ASIX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:31:29",
       "time_kst": "20:31:29",
       "symbol": "RPC",
@@ -1184,16 +1206,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $158.54M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "09:11:35",
-      "time_kst": "23:11:35",
-      "symbol": "INDV",
-      "company_name": "INDV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4282.32M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
