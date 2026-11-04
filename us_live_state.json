@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:05:02",
-  "updated_at_et": "2026-11-04 06:05:02",
-  "updated_epoch_ms": 1793790302423,
+  "updated_at_kst": "2026-11-04 20:05:52",
+  "updated_at_et": "2026-11-04 06:05:52",
+  "updated_epoch_ms": 1793790352116,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:05:00"
+    "updated_kst": "20:05:48"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 1,
+    "today_hardcut": 9,
     "total_verdicts": 33,
     "total_buy": 1,
     "total_false": 32,
@@ -697,6 +697,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:05:26",
+      "time_kst": "20:05:26",
+      "symbol": "TM",
+      "company_name": "TM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:23",
+      "time_kst": "20:05:23",
+      "symbol": "ATHM",
+      "company_name": "ATHM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:19",
+      "time_kst": "20:05:19",
+      "symbol": "AIIO",
+      "company_name": "AIIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $132.15M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:12",
+      "time_kst": "20:05:12",
+      "symbol": "SNN",
+      "company_name": "SNN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:09",
+      "time_kst": "20:05:09",
+      "symbol": "SKM",
+      "company_name": "SKM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:07",
+      "time_kst": "20:05:07",
+      "symbol": "KT",
+      "company_name": "KT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:05",
+      "time_kst": "20:05:05",
+      "symbol": "CIG",
+      "company_name": "CIG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "06:05:02",
+      "time_kst": "20:05:02",
+      "symbol": "TSQ",
+      "company_name": "TSQ",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:05:00",
       "time_kst": "20:05:00",
       "symbol": "EPAC",
@@ -1114,86 +1194,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $222.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:56:29",
-      "time_kst": "22:56:29",
-      "symbol": "SURG",
-      "company_name": "SURG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:48:19",
-      "time_kst": "22:48:19",
-      "symbol": "WSE",
-      "company_name": "WSE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:47:11",
-      "time_kst": "22:47:11",
-      "symbol": "SMWB",
-      "company_name": "SMWB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:46:43",
-      "time_kst": "22:46:43",
-      "symbol": "CRE",
-      "company_name": "CRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:46:32",
-      "time_kst": "22:46:32",
-      "symbol": "BBT",
-      "company_name": "BBT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:43:37",
-      "time_kst": "22:43:37",
-      "symbol": "APTV",
-      "company_name": "APTV",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:40:37",
-      "time_kst": "22:40:37",
-      "symbol": "ZEO",
-      "company_name": "Zeo Energy Corp.",
-      "exchange": "ND",
-      "mcap_m": 21.99,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "08:39:48",
-      "time_kst": "22:39:48",
-      "symbol": "RTO",
-      "company_name": "RTO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
