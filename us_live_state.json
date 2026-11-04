@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:30:50",
-  "updated_at_et": "2026-11-04 07:30:50",
-  "updated_epoch_ms": 1793795450515,
+  "updated_at_kst": "2026-11-04 21:31:41",
+  "updated_at_et": "2026-11-04 07:31:41",
+  "updated_epoch_ms": 1793795501224,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:30:28"
+    "updated_kst": "21:31:37"
   },
   "stats": {
     "today_total": 5,
     "today_nblm_count": 5,
     "today_buy": 1,
     "today_false": 4,
-    "today_hardcut": 42,
+    "today_hardcut": 44,
     "total_verdicts": 38,
     "total_buy": 2,
     "total_false": 36,
@@ -797,6 +797,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:31:39",
+      "time_kst": "21:31:39",
+      "symbol": "JD",
+      "company_name": "JD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $33337.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "07:31:05",
+      "time_kst": "21:31:05",
+      "symbol": "TROX",
+      "company_name": "TROX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:30:48",
       "time_kst": "21:30:48",
       "symbol": "ARWR",
@@ -1274,26 +1294,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $130.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "13:36:29",
-      "time_kst": "03:36:29",
-      "symbol": "CBSH",
-      "company_name": "CBSH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7957.25M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "13:16:49",
-      "time_kst": "03:16:49",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
