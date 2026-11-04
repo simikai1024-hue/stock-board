@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 20:42:30",
-  "updated_at_et": "2026-11-04 06:42:30",
-  "updated_epoch_ms": 1793792550440,
+  "updated_at_kst": "2026-11-04 20:43:18",
+  "updated_at_et": "2026-11-04 06:43:18",
+  "updated_epoch_ms": 1793792598911,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.264,
     "current_price": 2.22,
     "profit_rate": -1.94,
-    "updated_kst": "20:42:27"
+    "updated_kst": "20:43:06"
   },
   "stats": {
     "today_total": 2,
@@ -737,6 +737,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "06:43:16",
+      "time_kst": "20:43:16",
+      "symbol": "SNN",
+      "company_name": "SNN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "06:34:27",
       "time_kst": "20:34:27",
       "symbol": "CVS",
@@ -854,16 +864,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $132.15M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:05:12",
-      "time_kst": "20:05:12",
-      "symbol": "SNN",
-      "company_name": "SNN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-04",
