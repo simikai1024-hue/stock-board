@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:35:16",
-  "updated_at_et": "2026-11-04 07:35:16",
-  "updated_epoch_ms": 1793795716196,
+  "updated_at_kst": "2026-11-04 21:36:16",
+  "updated_at_et": "2026-11-04 07:36:16",
+  "updated_epoch_ms": 1793795776152,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:35:12"
+    "updated_kst": "21:36:13"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 5,
-    "today_hardcut": 44,
+    "today_hardcut": 45,
     "total_verdicts": 39,
     "total_buy": 2,
     "total_false": 37,
@@ -817,6 +817,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "07:35:47",
+      "time_kst": "21:35:47",
+      "symbol": "NAMS",
+      "company_name": "NAMS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2390.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "07:31:39",
       "time_kst": "21:31:39",
       "symbol": "JD",
@@ -1304,16 +1314,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-03",
-      "time_et": "13:39:54",
-      "time_kst": "03:39:54",
-      "symbol": "OGI",
-      "company_name": "OGI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $130.83M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
