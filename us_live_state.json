@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 23:37:50",
-  "updated_at_et": "2026-11-04 09:37:50",
-  "updated_epoch_ms": 1793803070482,
+  "updated_at_kst": "2026-11-04 23:38:32",
+  "updated_at_et": "2026-11-04 09:38:32",
+  "updated_epoch_ms": 1793803112202,
   "analyzing": {
-    "active": true,
-    "symbol": "ONCY",
-    "company_name": "ONCY",
-    "exchange": "ND",
-    "price": 0.4084,
-    "gain_pct": 4.66,
-    "mcap_m": 40.99,
-    "catalyst_hint": "[당일 PR] Translational Data from Anal Cancer Patients Show Pelareorep Drives HPV-Specific Immune Responses, Supporting its Potential Across HPV-Driven Cancers",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:37:48",
-    "started_at_kst": "23:37:48",
-    "started_epoch_ms": 1793803068141
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 2.4564,
     "current_price": 2.37,
     "profit_rate": -3.52,
-    "updated_kst": "23:37:35"
+    "updated_kst": "23:38:18"
   },
   "stats": {
-    "today_total": 20,
-    "today_nblm_count": 20,
+    "today_total": 21,
+    "today_nblm_count": 21,
     "today_buy": 2,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
-    "total_verdicts": 53,
+    "total_verdicts": 54,
     "total_buy": 3,
-    "total_false": 50,
-    "avg_nblm_sec": 67.2
+    "total_false": 51,
+    "avg_nblm_sec": 66.1
   },
   "verdicts": [
+    {
+      "id": "v_1793803109554_ONCY_FALSE",
+      "date_et": "2026-11-04",
+      "weekday_kr": "수",
+      "time_et": "09:38:29",
+      "time_kst": "23:38:29",
+      "symbol": "ONCY",
+      "company_name": "ONCY",
+      "exchange": "ND",
+      "price": 0.4084,
+      "gain_pct": 4.66,
+      "mcap_m": 40.99,
+      "decision": "FALSE",
+      "elapsed_sec": 44.4,
+      "reason": "SITC 2026 학회 발표 중과적 데이터(Translational Data) 공시는 1급 확정 기폭제 미달로 전량 차단",
+      "catalyst_hint": "[당일 PR] Translational Data from Anal Cancer Patients Show Pelareorep Drives HPV-Specific Immune Responses, Supporting its Potential Across HPV-Driven Cancers",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 ONCY (Oncolytics Biotech Inc.) 정밀 직독 결재 보고입니다 [cite: 281, 282].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $40.99M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 281].\n실시간 시세 및 수급: 전일 종가 $0.3902 대비 현재가 $0.4084 (+4.66%), 당일 최고가 $0.4200 (고점 대비 -2.8%) [cite: 281]. 당일 프리장 누적 거래대금 $28,023 USD [cite: 281].\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 09:30 ET) PR 및 SEC 8-K (Item 8.01) 원문 분석:\nPR 제목: \"Translational Data from Anal Cancer Patients Show Pelareorep Drives HPV-Specific Immune Responses, Supporting its Potential Across HPV-Driven Cancers\" [cite: 282]\n원문 팩트: 면역항암학회(SITC 2026)에서 항항암 파이프라인(Pelareorep)의 편평세포 항문암(SCAC) 환자 대상 HPV-16 특이적 T세포 및 종양 침윤 리포구(TIL) 증가 등의 중과적 연구 데이터(Translational Data / Biomarker Data) 발표 [cite: 283].\n치명적 기폭제 결함:\n오늘 제출된 재료는 FDA 신약 승인이나 Pivotal 임상 3상 톱라인 성공 결과가 아니며, 학회(SITC)에서 발표되는 초기·중간 단계의 중과적/바이오마커 데이터(Translational / Biomarker Data) 발표에 불과합니다 [cite: 283, 291].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 계약 금액이 미기재된 단순 학회 발표/포스터/중과적·탐색적 임상 데이터' 범주에 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 9, 283].\n거래대금이 $2.8만 달러 수준에 그쳐 개장 전 강력한 세력 수급 유입 반응이 부재합니다 [cite: 281].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 학회 발표용 중과적 연구 데이터(Translational Data) 공시에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: ONCY 처리합니다 [cite: 9, 282, 291].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: ONCY NOTES:\n[ONCY] SITC 2026 학회 발표 중과적 데이터(Translational Data) 공시는 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793802822517_JBDI_FALSE",
       "date_et": "2026-11-04",
@@ -1109,8 +1117,8 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
-      "time_et": "09:36:56",
-      "time_kst": "23:36:56",
+      "time_et": "09:37:56",
+      "time_kst": "23:37:56",
       "symbol": "ITUB",
       "company_name": "ITUB",
       "exchange": "NY",
