@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updated_at": "2026-11-04 15:31:03",
+  "updated_at": "2026-11-04 15:41:29",
   "history": [
     {
       "id": "1793770413539_101680_BUY",
@@ -42,7 +42,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-04 15:31:03",
+    "updated_at": "2026-11-04 15:41:29",
     "stats": {
       "total_closed": 1,
       "win_count": 0,
@@ -74,7 +74,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-04 15:31:03",
+    "updated_at": "2026-11-04 15:41:29",
     "stats": {
       "cooked_count": 11,
       "today_cooked_count": 1,
@@ -691,7 +691,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-04 15:31:03",
+    "updated_at": "2026-11-04 15:41:29",
     "stats": {
       "total_evaluated": 25,
       "win_5_count": 9,
@@ -710,7 +710,7 @@
         "weekday": "화요일",
         "weekday_short": "화",
         "predicted_at": "2026-11-03 19:45:05",
-        "evaluated": false,
+        "evaluated": true,
         "director_force_buy": [],
         "director_notes": {
           "388050": "정규장 -5.90% 음봉 밀림 후 애프터 +7.83% 반등이 나왔으나, 애프터 고가유지율이 88.3%로 무너졌으며(95% 미달) 당일 공시/속보 재료가 부재한 전형적인 호가 공백 착시 반등. (차단)",
@@ -755,8 +755,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 45,
+            "eval_date": "2026-11-04",
+            "next_open": 7220,
+            "next_high": 8570,
+            "next_close": 7840,
+            "open_ret_pct": -4.62,
+            "max_ret_pct": 13.21,
+            "close_ret_pct": 3.57,
             "rank": 1,
             "target_5_price": 7940,
             "target_11_price": 8400,
@@ -764,7 +771,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "정규장 -5.90% 음봉 밀림 후 애프터 +7.83% 반등이 나왔으나, 애프터 고가유지율이 88.3%로 무너졌으며(95% 미달) 당일 공시/속보 재료가 부재한 전형적인 호가 공백 착시 반등. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "332570",
@@ -792,8 +799,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 47,
+            "eval_date": "2026-11-04",
+            "next_open": 6860,
+            "next_high": 7100,
+            "next_close": 6890,
+            "open_ret_pct": 0.15,
+            "max_ret_pct": 3.65,
+            "close_ret_pct": 0.58,
             "rank": 2,
             "target_5_price": 7190,
             "target_11_price": 7600,
@@ -801,7 +815,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시총 3,152억 원으로 체급은 부합하나, 당일 공시/뉴스 기폭제가 전무하고 정규장(-0.31%)에서 1차 주도 수급 형성 실패. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "089590",
@@ -836,8 +850,15 @@
               "[당일 17:44 매일경제] 알테오젠 분기최대 실적…KAI는 매출 50% 늘었네 — 주요 상장사 3분기 실적 알테오젠이 키트루다 피하주사(SC) 제형의 판매 확대와 신규 기술수출에 힘입어 매출과 영업이익 모두 분기 기준 역대 최대치를 기록했다. 알테오젠은 올해 3분기 연결기준 매출",
               "[당일 17:05 머니투데이] 제주항공, 3분기 영업이익 549억…전년比 흑자전환 — 제주항공이 올해 3분기 영업이익 549억원을 기록하며 흑자 전환에 성공했다. 제주항공은 3일 공시를 통해 올해 3분기 별도 기준 매출액 4896억원, 영업이익 549억원을 기록했다고 밝혔다. 영업이"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 46,
+            "eval_date": "2026-11-04",
+            "next_open": 5850,
+            "next_high": 6190,
+            "next_close": 5890,
+            "open_ret_pct": -1.02,
+            "max_ret_pct": 4.74,
+            "close_ret_pct": -0.34,
             "rank": 3,
             "target_5_price": 6200,
             "target_11_price": 6560,
@@ -845,7 +866,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "3Q 영업이익 549억 흑자전환 공시로 애프터 98.3억 대금이 터졌으나, 18시 이후 주가가 -0.34% 꺾였고 애프터 고가유지율이 85.9%로 붕괴되어 상단 매물 출회 확인. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "059090",
@@ -873,8 +894,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-04",
+            "next_open": 22350,
+            "next_high": 23800,
+            "next_close": 22800,
+            "open_ret_pct": 1.82,
+            "max_ret_pct": 8.43,
+            "close_ret_pct": 3.87,
             "rank": 4,
             "target_5_price": 23000,
             "target_11_price": 24350,
@@ -882,7 +910,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,000억 원 초과 중대형주로 품절 세력주 체급 관문 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "126340",
@@ -910,8 +938,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-04",
+            "next_open": 91300,
+            "next_high": 97000,
+            "next_close": 96200,
+            "open_ret_pct": 2.47,
+            "max_ret_pct": 8.87,
+            "close_ret_pct": 7.97,
             "rank": 5,
             "target_5_price": 93500,
             "target_11_price": 98900,
@@ -919,7 +954,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,000억 원 초과 중대형주 관문 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "078350",
@@ -947,8 +982,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 50,
+            "eval_date": "2026-11-04",
+            "next_open": 33950,
+            "next_high": 35550,
+            "next_close": 33900,
+            "open_ret_pct": -0.44,
+            "max_ret_pct": 4.25,
+            "close_ret_pct": -0.59,
             "rank": 6,
             "target_5_price": 35800,
             "target_11_price": 37850,
@@ -956,7 +998,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,000억 원 초과 중대형주 관문 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "121600",
@@ -988,8 +1030,15 @@
             "news_headlines": [
               "[당일 14:48 헤럴드경제] 나노신소재, 3분기 영업익 66억…전년비 632.6% ↑ — 나노신소재는 3분기 연결기준 영업이익이 66억1600만원으로 전년동기대비 632.6% 증가했다고 3일 공시했다. 같은 기간 매출액은 423억9700만원으로 35.7% 늘어난 것으로 나타났다. 당기순"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 50,
+            "eval_date": "2026-11-04",
+            "next_open": 65700,
+            "next_high": 72100,
+            "next_close": 71900,
+            "open_ret_pct": 1.39,
+            "max_ret_pct": 11.27,
+            "close_ret_pct": 10.96,
             "rank": 7,
             "target_5_price": 68000,
             "target_11_price": 71900,
@@ -997,7 +1046,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,000억 원 초과 및 애프터 상승률(+1.41%) 탄력 허들(+1.8% 이상) 미달. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "089890",
@@ -1025,8 +1074,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 50,
+            "eval_date": "2026-11-04",
+            "next_open": 31500,
+            "next_high": 33300,
+            "next_close": 32100,
+            "open_ret_pct": 4.13,
+            "max_ret_pct": 10.08,
+            "close_ret_pct": 6.12,
             "rank": 8,
             "target_5_price": 31750,
             "target_11_price": 33550,
@@ -1034,7 +1090,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,000억 원 초과 및 정규장 -12.5% 대음봉 약세. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "356860",
@@ -1062,8 +1118,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 50,
+            "eval_date": "2026-11-04",
+            "next_open": 39850,
+            "next_high": 40650,
+            "next_close": 37950,
+            "open_ret_pct": 8.44,
+            "max_ret_pct": 10.61,
+            "close_ret_pct": 3.27,
             "rank": 9,
             "target_5_price": 38550,
             "target_11_price": 40750,
@@ -1071,7 +1134,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,000억 원 초과 중대형주 관문 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "003160",
@@ -1102,8 +1165,15 @@
               "[1102 10:59 세계일보] 반도체 소부장에 몰린 투심…대덕전자 순매수 1위 [주식고수] — “주식고수들은 어디에 투자할까?.” 주식 투자자라면 한 번쯤 가져봤을 궁금증입니다. ‘주식고수’는 이 직관적인 질문에서 출발합니다. 시시각각 변하는 시장에서 고수들이 선택한 종목과 투자 궤적을 따라",
               "[1102 09:54 헤럴드경제] 디아이, 3분기 영업익 593억…전년비 493.1% ↑ — 디아이는 3분기 연결기준 영업이익이 593억4300만원으로 전년동기대비 493.1% 증가했다고 2일 공시했다. 같은 기간 매출액은 2177억2000만원으로 99.6% 늘어난 것으로 나타났다. 당기순"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-04",
+            "next_open": 37250,
+            "next_high": 38200,
+            "next_close": 34850,
+            "open_ret_pct": 1.5,
+            "max_ret_pct": 4.09,
+            "close_ret_pct": -5.04,
             "rank": 10,
             "target_5_price": 38500,
             "target_11_price": 40700,
@@ -1111,7 +1181,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 1조 원 대형주로 세력주 체급 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "441270",
@@ -1141,8 +1211,15 @@
             "news_headlines": [
               "[1102 10:30 서울경제] 오늘의 메모[11월 3일] — ▲구주주유상청약=삼성FN리츠(448730) ▲보통주추가상장=우성머티리얼스(011300)(국내CB) ▲주권변경상장=마니커·쏘카(주식소각) ▲공모주청약=바로팜(주관사 미래에셋) 동원파츠(삼성) 넥스아이"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 50,
+            "eval_date": "2026-11-04",
+            "next_open": 7850,
+            "next_high": 8150,
+            "next_close": 7730,
+            "open_ret_pct": -0.13,
+            "max_ret_pct": 3.69,
+            "close_ret_pct": -1.65,
             "rank": 11,
             "target_5_price": 8250,
             "target_11_price": 8720,
@@ -1150,7 +1227,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 등락률 +1.03%로 상승 탄력 기준(+1.8% 이상) 미달. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "439090",
@@ -1180,8 +1257,15 @@
             "news_headlines": [
               "[당일 17:56 조선비즈] 신촌·신림·압구정서 화장품도 30분만에 받는다…배민 ‘B뷰티’ 출격 — 배민 뷰티 전용관 출범 “온라인 뷰티 시장 성장 주목” 배달의민족(배민)을 운영하는 우아한형제들이 화장품 쇼핑 전용관인 ‘B뷰티’를 선보인다. 3일 배민은 애플리케이션 내 B마트에 뷰티 전용 메뉴를"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-11-04",
+            "next_open": 14110,
+            "next_high": 14610,
+            "next_close": 14120,
+            "open_ret_pct": -1.74,
+            "max_ret_pct": 1.74,
+            "close_ret_pct": -1.67,
             "rank": 12,
             "target_5_price": 15070,
             "target_11_price": 15940,
@@ -1189,7 +1273,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "애프터 등락률 +0.84%로 상승 탄력 기준(+1.8% 이상) 미달. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           }
         ]
       },
