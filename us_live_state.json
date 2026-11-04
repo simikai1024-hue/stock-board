@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 03:34:09",
-  "updated_at_et": "2026-11-04 13:34:09",
-  "updated_epoch_ms": 1793817249855,
+  "updated_at_kst": "2026-11-05 03:34:23",
+  "updated_at_et": "2026-11-04 13:34:23",
+  "updated_epoch_ms": 1793817263338,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CWD",
+    "company_name": "CWD",
+    "exchange": "ND",
+    "price": 0.4361,
+    "gain_pct": -3.07,
+    "mcap_m": 4.53,
+    "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "13:34:18",
+    "started_at_kst": "03:34:18",
+    "started_epoch_ms": 1793817258985
   },
   "halt_watch": {
     "active": false
