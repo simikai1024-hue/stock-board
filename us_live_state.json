@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:02:35",
-  "updated_at_et": "2026-11-04 08:02:35",
-  "updated_epoch_ms": 1793797355476,
+  "updated_at_kst": "2026-11-04 22:03:41",
+  "updated_at_et": "2026-11-04 08:03:41",
+  "updated_epoch_ms": 1793797421329,
   "analyzing": {
     "active": true,
     "symbol": "DKI",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:02:15"
+    "updated_kst": "22:03:36"
   },
   "stats": {
     "today_total": 7,
