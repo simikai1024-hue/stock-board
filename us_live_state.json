@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 21:52:29",
-  "updated_at_et": "2026-11-04 07:52:29",
-  "updated_epoch_ms": 1793796749222,
+  "updated_at_kst": "2026-11-04 21:53:29",
+  "updated_at_et": "2026-11-04 07:53:29",
+  "updated_epoch_ms": 1793796809484,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:52:25"
+    "updated_kst": "21:53:26"
   },
   "stats": {
     "today_total": 6,
@@ -817,8 +817,8 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
-      "time_et": "07:49:53",
-      "time_kst": "21:49:53",
+      "time_et": "07:52:39",
+      "time_kst": "21:52:39",
       "symbol": "LND",
       "company_name": "LND",
       "exchange": "NY",
