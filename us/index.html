@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미국판 달의 검 V5 · NotebookLM 실시간 심문 전광판</title>
+<meta name="theme-color" content="#0B1120">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="미국전광판">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/us-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../icons/us-180.png">
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
+  body { background-color: #0B1120; color: #F8FAFC; padding: 16px; max-width: 1260px; margin: 0 auto; line-height: 1.48; }
+
+  /* 상단 헤더 */
+  .header-bar {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    background: #111C33; border: 1px solid #243556; border-radius: 14px; padding: 14px 20px; margin-bottom: 12px;
+  }
+  .header-title { font-size: 21px; font-weight: 900; color: #FDE047; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .header-sub-tag {
+    font-size: 12.5px; font-weight: 900; padding: 3px 9px; border-radius: 999px;
+    background: rgba(56, 189, 248, 0.18); border: 1px solid #38BDF8; color: #7DD3FC;
+  }
+  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .clock-txt {
+    font-size: 13.5px; font-weight: 800; color: #E2E8F0; background: #0F172A;
+    border: 1px solid #334155; padding: 6px 12px; border-radius: 8px;
+  }
+  .status-txt { font-size: 14px; font-weight: 800; color: #FBBF24; }
+  .sound-ctrl-group {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    background: #0F172A; border: 1px solid #334155; border-radius: 10px; padding: 4px 8px;
+  }
+  .sound-btn {
+    background: #1E293B; color: #E2E8F0; border: 1px solid #475569; border-radius: 7px;
+    padding: 6px 11px; font-size: 13px; font-weight: 800; cursor: pointer; transition: 0.15s;
+  }
+  .sound-btn:hover { background: #334155; color: #FFFFFF; }
+  .sound-btn.on { background: #064E3B; border-color: #10B981; color: #A7F3D0; box-shadow: 0 0 12px rgba(16, 185, 129, 0.28); }
+  .sound-btn.playing { background: #1E1B4B; border-color: #818CF8; color: #E0E7FF; animation: spinDot 1.8s infinite; }
+  .vol-wrap { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 800; color: #94A3B8; padding: 0 4px; }
+  .vol-slider { width: 68px; accent-color: #38BDF8; cursor: pointer; }
+
+  /* 계좌 & 레이더 상태 스트립 */
+  .radar-strip {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    background: #0F192E; border: 1px solid #1E3A5F; border-radius: 12px;
+    padding: 11px 18px; margin-bottom: 14px; font-size: 14.5px; font-weight: 800; color: #CBD5E1;
+  }
+  .radar-pos-pill {
+    padding: 5px 13px; border-radius: 999px; font-size: 14px; font-weight: 900;
+    background: rgba(16, 185, 129, 0.15); border: 1px solid #10B981; color: #6EE7B7;
+  }
+  .radar-pos-pill.holding {
+    background: rgba(245, 158, 11, 0.22); border-color: #F59E0B; color: #FDE047;
+  }
+  .radar-pos-pill.halting {
+    background: rgba(249, 115, 22, 0.24); border-color: #FB923C; color: #FED7AA;
+  }
+
+  /* 거래소 홀트 0.5초 밀착 감시 전용 배너 */
+  @keyframes haltPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.42); border-color: #F59E0B; }
+    50%  { box-shadow: 0 0 20px 3px rgba(249, 115, 22, 0.42); border-color: #FDBA74; }
+    100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.42); border-color: #F59E0B; }
+  }
+  .halt-banner {
+    display: none;
+    background: linear-gradient(135deg, #2E1A08 0%, #171324 100%);
+    border: 2px solid #F59E0B; border-radius: 15px; padding: 15px 20px;
+    margin-bottom: 14px; animation: haltPulse 1.8s infinite;
+  }
+  .halt-top {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 6px;
+  }
+  .halt-title { font-size: 16px; font-weight: 900; color: #FDE047; }
+  .halt-timer {
+    font-size: 13.5px; font-weight: 900; padding: 4px 11px; border-radius: 999px;
+    background: #0F172A; border: 1px solid #F59E0B; color: #FDBA74;
+  }
+  .halt-main { font-size: 15.5px; font-weight: 800; color: #FFFBEB; line-height: 1.5; }
+  .halt-sub  { font-size: 13.5px; font-weight: 700; color: #FCD34D; margin-top: 5px; }
+
+  /* 메인 히어로: 실시간 NotebookLM 분석 모니터 */
+  @keyframes pulseGlow {
+    0%   { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.45), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #38BDF8; }
+    50%  { box-shadow: 0 0 24px 4px rgba(250, 204, 21, 0.40), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #FACC15; }
+    100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.45), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #38BDF8; }
+  }
+  @keyframes spinDot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: 0.35; transform: scale(1.28); }
+  }
+
+  .hero-card {
+    background: linear-gradient(145deg, #13223F 0%, #0E172A 100%);
+    border: 2px solid #2A3F66; border-radius: 18px; padding: 22px 26px;
+    margin-bottom: 16px; transition: all 0.2s;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.42);
+  }
+  .hero-card.analyzing {
+    background: linear-gradient(145deg, #172B4D 0%, #1E1B4B 100%);
+    animation: pulseGlow 1.8s infinite;
+  }
+  .hero-card.buy-mode {
+    background: linear-gradient(145deg, #063729 0%, #0E172A 100%);
+    border-color: #10B981;
+  }
+  .hero-card.false-mode {
+    background: linear-gradient(145deg, #1A1E36 0%, #0E172A 100%);
+    border-color: #475569;
+  }
+
+  .hero-top-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+  .hero-badge { font-size: 16px; font-weight: 900; color: #38BDF8; display: flex; align-items: center; gap: 8px; }
+  .live-dot {
+    display: inline-block; width: 11px; height: 11px; border-radius: 50%;
+    background: #FACC15; animation: spinDot 1s infinite;
+  }
+  .hero-timer-pill {
+    font-size: 14.5px; font-weight: 900; padding: 5px 13px; border-radius: 999px;
+    background: #0F172A; border: 1px solid #475569; color: #FDE047;
+  }
+
+  .hero-main-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 6px 0 10px 0; }
+  .hero-ticker { font-size: 36px; font-weight: 900; color: #FFFFFF; letter-spacing: 0.5px; }
+  .ex-badge {
+    font-size: 13.5px; font-weight: 900; padding: 4px 10px; border-radius: 7px;
+    background: rgba(59, 130, 246, 0.22); border: 1px solid #60A5FA; color: #BFDBFE;
+  }
+  .ex-badge.am { background: rgba(168, 85, 247, 0.22); border-color: #C084FC; color: #E9D5FF; }
+  .ex-badge.ny { background: rgba(239, 68, 68, 0.20); border-color: #F87171; color: #FECACA; }
+
+  .verdict-big-pill {
+    font-size: 20px; font-weight: 900; padding: 7px 20px; border-radius: 999px;
+  }
+  .verdict-big-pill.buy {
+    background: rgba(16, 185, 129, 0.25); border: 2px solid #10B981; color: #4ADE80;
+    box-shadow: 0 0 18px rgba(16, 185, 129, 0.35);
+  }
+  .verdict-big-pill.false {
+    background: rgba(239, 68, 68, 0.18); border: 2px solid #EF4444; color: #FCA5A5;
+  }
+  .verdict-big-pill.wait {
+    background: rgba(250, 204, 21, 0.20); border: 2px solid #FACC15; color: #FDE047;
+  }
+
+  .hero-meta { font-size: 17px; font-weight: 800; color: #E2E8F0; margin-bottom: 10px; }
+  .hero-reason-box {
+    background: rgba(15, 23, 42, 0.72); border-left: 4px solid #38BDF8;
+    border-radius: 10px; padding: 13px 16px; font-size: 16.5px; font-weight: 800;
+    color: #F8FAFC; line-height: 1.55;
+  }
+  .hero-reason-box.buy { border-left-color: #10B981; color: #D1FAE5; }
+  .hero-reason-box.false { border-left-color: #EF4444; color: #FEE2E2; }
+
+  /* 연구소장 원문 접기/펼치기 */
+  details.director-fold {
+    margin-top: 12px; background: rgba(15, 23, 42, 0.78); border: 1.5px solid #475569;
+    border-radius: 12px; overflow: hidden;
+  }
+  details.director-fold summary {
+    list-style: none; cursor: pointer; padding: 11px 16px;
+    font-size: 15px; font-weight: 900; color: #FDE047;
+    background: linear-gradient(90deg, rgba(30, 58, 138, 0.45), rgba(30, 41, 59, 0.55));
+    display: flex; justify-content: space-between; align-items: center; user-select: none;
+  }
+  details.director-fold summary::-webkit-details-marker { display: none; }
+  details.director-fold .fold-arrow::after { content: "▼ 클릭해서 NotebookLM 심사 전문 펼치기"; font-size: 13px; color: #93C5FD; }
+  details.director-fold[open] .fold-arrow::after { content: "▲ 전문 접기"; color: #A7F3D0; }
+  .director-full-text {
+    padding: 15px 18px; font-size: 15px; line-height: 1.72; color: #F1F5F9;
+    white-space: pre-wrap; border-top: 1px solid rgba(148, 163, 184, 0.25);
+  }
+
+  /* 요약 통계 알약 바 */
+  .stats-row {
+    display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;
+  }
+  .stat-pill {
+    padding: 9px 16px; border-radius: 12px; font-size: 15px; font-weight: 900;
+    background: #131F37; border: 1px solid #2A3F66; color: #F8FAFC;
+  }
+  .stat-pill.buy { background: rgba(16, 185, 129, 0.16); border-color: #10B981; color: #6EE7B7; }
+  .stat-pill.false { background: rgba(239, 68, 68, 0.14); border-color: #EF4444; color: #FCA5A5; }
+  .stat-pill.speed { background: rgba(56, 189, 248, 0.15); border-color: #38BDF8; color: #7DD3FC; }
+  .stat-pill.hc { background: rgba(148, 163, 184, 0.14); border-color: #64748B; color: #CBD5E1; }
+
+  /* 필터 탭 & 섹션 바 */
+  .section-bar {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    margin: 6px 0 12px 0;
+  }
+  .section-title { font-size: 20px; font-weight: 900; color: #F8FAFC; }
+  .filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 8px 15px; border-radius: 10px; border: 1px solid #334155;
+    background: #1E293B; color: #CBD5E1; font-size: 14px; font-weight: 900; cursor: pointer; transition: 0.15s;
+  }
+  .filter-btn:hover { border-color: #60A5FA; color: #FFFFFF; }
+  .filter-btn.active { background: #2563EB; border-color: #60A5FA; color: #FFFFFF; }
+  .filter-btn.active-buy { background: #059669; border-color: #34D399; color: #FFFFFF; }
+  .filter-btn.active-false { background: #DC2626; border-color: #F87171; color: #FFFFFF; }
+
+  /* 판정 테이블 */
+  .table-card {
+    background: #111C33; border: 1px solid #2A3D63; border-radius: 16px;
+    overflow-x: auto; margin-bottom: 24px;
+  }
+  table { width: 100%; border-collapse: collapse; min-width: 760px; }
+  th {
+    background: #0F172A; color: #E2E8F0; font-size: 15px; font-weight: 900;
+    padding: 14px 12px; border-bottom: 2px solid #334155; text-align: center;
+  }
+  td {
+    padding: 14px 12px; border-bottom: 1px solid rgba(148, 163, 184, 0.14); font-size: 15.5px;
+    text-align: center; font-weight: 700; color: #F1F5F9; vertical-align: middle; transition: filter 0.12s;
+  }
+  tbody tr:hover td { filter: brightness(1.15); cursor: pointer; }
+  tr.date-group-start td { border-top: 2.5px solid #475569; }
+
+  /* 요일별 배경 테마 (어머니 전광판 동일 감성) */
+  tr.wk-mon td { background-color: #172133; }
+  tr.wk-mon td:first-child { border-left: 5px solid #94A3B8; }
+  .wk-badge.mon { background: rgba(148, 163, 184, 0.22); color: #E2E8F0; border: 1px solid #94A3B8; }
+
+  tr.wk-tue td { background-color: #211834; }
+  tr.wk-tue td:first-child { border-left: 5px solid #C084FC; }
+  .wk-badge.tue { background: rgba(192, 132, 252, 0.22); color: #E9D5FF; border: 1px solid #C084FC; }
+
+  tr.wk-wed td { background-color: #122628; }
+  tr.wk-wed td:first-child { border-left: 5px solid #2DD4BF; }
+  .wk-badge.wed { background: rgba(45, 212, 191, 0.20); color: #99F6E4; border: 1px solid #2DD4BF; }
+
+  tr.wk-thu td { background-color: #152443; }
+  tr.wk-thu td:first-child { border-left: 5px solid #60A5FA; }
+  .wk-badge.thu { background: rgba(96, 165, 250, 0.22); color: #BFDBFE; border: 1px solid #60A5FA; }
+
+  tr.wk-fri td { background-color: #251F14; }
+  tr.wk-fri td:first-child { border-left: 5px solid #FBBF24; }
+  .wk-badge.fri { background: rgba(251, 191, 36, 0.22); color: #FEF08A; border: 1px solid #FBBF24; }
+
+  .wk-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 13px; font-weight: 900; margin-left: 4px;
+  }
+
+  .res-buy {
+    display: inline-block; padding: 7px 18px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
+    background: rgba(16, 185, 129, 0.24); border: 1.5px solid #10B981; color: #4ADE80;
+  }
+  .res-false {
+    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16px; font-weight: 900;
+    background: rgba(239, 68, 68, 0.18); border: 1.5px solid #EF4444; color: #FCA5A5;
+  }
+  .res-hc {
+    display: inline-block; padding: 5px 12px; border-radius: 999px; font-size: 14px; font-weight: 900;
+    background: rgba(100, 116, 139, 0.25); border: 1px solid #94A3B8; color: #CBD5E1;
+  }
+
+  .reason-cell {
+    text-align: left; font-size: 15px; line-height: 1.5; color: #F1F5F9; max-width: 520px;
+  }
+  .engine-mini {
+    display: inline-block; font-size: 11.5px; font-weight: 900; padding: 2px 7px; border-radius: 5px;
+    background: rgba(56, 189, 248, 0.16); border: 1px solid rgba(56, 189, 248, 0.45); color: #7DD3FC;
+    margin-right: 6px; vertical-align: middle;
+  }
+  .engine-mini.legacy {
+    background: rgba(148, 163, 184, 0.15); border-color: #64748B; color: #94A3B8;
+  }
+  .more-report-chip {
+    display: inline-block; margin-left: 6px; font-size: 12px; font-weight: 900;
+    color: #FDE047; background: rgba(250, 204, 21, 0.14); border: 1px solid rgba(250, 204, 21, 0.4);
+    padding: 1px 7px; border-radius: 5px;
+  }
+
+  @media (max-width: 760px) {
+    .hero-ticker { font-size: 28px; }
+    .header-title { font-size: 18px; }
+  }
+  .pwa-install-btn {
+    display: none;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.28) 0%, rgba(16, 185, 129, 0.30) 100%);
+    color: #A7F3D0;
+    border: 1px solid #38BDF8;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0 0 14px rgba(56, 189, 248, 0.24);
+  }
+</style>
+</head>
+<body>
+
+  <!-- 상단 바 -->
+  <div class="header-bar">
+    <div class="header-title">
+      🦅 미국판 달의 검 V5 · NotebookLM 실시간 전광판
+      <span class="header-sub-tag">ND · AM 전용 · 시총 $50M↓ · 지메일 0% 직통</span>
+    </div>
+    <div class="header-right">
+      <span class="clock-txt" id="dualClockLbl">🇺🇸 --:--:-- ET · 🇰🇷 --:--:-- KST</span>
+      <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
+      <button class="pwa-install-btn" id="pwaInstallBtn" onclick="installBoardApp()">📲 미국전광판 앱 설치</button>
+      <div class="sound-ctrl-group">
+        <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림·BGM 켜기</button>
+        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="심문 시작 크리스탈 차임 + 42초 네오소울 라운지 BGM 미리듣기">🎵 40초 BGM 들어보기</button>
+        <button class="sound-btn" onclick="previewBuyFanfare()" title="BUY 매수 승인 골든 팡파레 들어보기">🎉 BUY음</button>
+        <span class="vol-wrap">🔊<input type="range" id="volSlider" class="vol-slider" min="20" max="150" value="115" oninput="updateMasterVolume(this.value)"><span id="volPctLbl">115%</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 계좌 및 레이더 가동 상태 바 -->
+  <div class="radar-strip">
+    <div id="radarLeftTxt">📡 레이더 상태 불러오는 중...</div>
+    <div class="radar-pos-pill" id="radarPosPill">🎯 신규 타격 대기 중</div>
+  </div>
+
+  <!-- 거래소 공식 홀트 0.5초 첫 체결 스나이퍼 배너 (타 종목 동시 심문과 병렬 표시) -->
+  <div class="halt-banner" id="haltWatchBanner">
+    <div class="halt-top">
+      <div class="halt-title" id="haltBannerTitle">⏸️ 거래소 공식 홀트 감지 · 주문 취소 & 0.5초 첫 체결 밀착 감시 중</div>
+      <div class="halt-timer" id="haltBannerTimer">⏱️ 대기 0초</div>
+    </div>
+    <div class="halt-main" id="haltBannerMain">-</div>
+    <div class="halt-sub" id="haltBannerSub">💡 미체결 주문을 취소해 달러 예수금을 100% 복구했습니다. 홀트 해제 첫 체결 포착 즉시 매수하며, 대기 중 다른 종목 BUY 발생 시 선착순으로 전환 매수합니다.</div>
+  </div>
+
+  <!-- 메인 히어로: 실시간 분석 모니터 / 최근 판결 상세 -->
+  <div class="hero-card" id="heroCard">
+    <div class="hero-top-row">
+      <div class="hero-badge" id="heroBadge">📡 NotebookLM 연구소장 실시간 심문 모니터</div>
+      <div class="hero-timer-pill" id="heroTimerPill">대기 중</div>
+    </div>
+    <div class="hero-main-row">
+      <span class="hero-ticker" id="heroTicker">대기 중...</span>
+      <span class="ex-badge" id="heroExBadge" style="display:none;">ND</span>
+      <span class="verdict-big-pill wait" id="heroVerdictPill">신규 공시·PR 감시 중</span>
+    </div>
+    <div class="hero-meta" id="heroMeta">프리장(04:00 ET / 17:00 KST) ~ 정규장(15:00 ET) 동안 1차 하드컷을 통과한 종목이 포착되면 즉시 NotebookLM 심문이 시작됩니다.</div>
+    <div class="hero-reason-box" id="heroReasonBox">종목 심문이 시작되면 이곳에 실시간 분석 경과 초시계와 최종 BUY / FALSE 판정 사유가 즉시 표시됩니다.</div>
+
+    <details id="heroFullReportFold" class="director-fold" style="display:none;">
+      <summary>
+        <span id="heroFoldTitle">📖 NotebookLM 연구소장 원문 직독 심사 전문 보기</span>
+        <span class="fold-arrow"></span>
+      </summary>
+      <div class="director-full-text" id="heroFullReportBody"></div>
+    </details>
+  </div>
+
+  <!-- 요약 통계 알약 바 -->
+  <div class="stats-row">
+    <span class="stat-pill" id="statTodayTotal">오늘 심문 0건 (누적 0건)</span>
+    <span class="stat-pill buy" id="statBuyCnt">🔥 BUY 승인 0건</span>
+    <span class="stat-pill false" id="statFalseCnt">🛡️ FALSE 차단 0건</span>
+    <span class="stat-pill speed" id="statAvgSec">⚡ 평균 심문시간 --초</span>
+    <span class="stat-pill hc" id="statHardcutCnt">🛑 오늘 1차 하드컷 자체차단 0건</span>
+  </div>
+
+  <!-- 필터 탭 & 판정 피드 테이블 -->
+  <div class="section-bar">
+    <div class="section-title" id="tableTitleLbl">📋 NotebookLM 종목별 BUY / FALSE 실시간 판정 기록</div>
+    <div class="filter-tabs">
+      <button id="fBtnAll" class="filter-btn active" onclick="setFilterMode('all')">전체 판정</button>
+      <button id="fBtnBuy" class="filter-btn" onclick="setFilterMode('buy')">🔥 BUY 승인만</button>
+      <button id="fBtnFalse" class="filter-btn" onclick="setFilterMode('false')">🛡️ FALSE 차단만</button>
+      <button id="fBtnHc" class="filter-btn" onclick="setFilterMode('hardcut')">🛑 1차 파이썬 하드컷</button>
+    </div>
+  </div>
+
+  <div class="table-card">
+    <table>
+      <thead id="boardThead">
+        <tr>
+          <th style="width:165px;">심문 시각 (ET / KST)</th>
+          <th style="width:210px;">종목 (거래소 · 체급)</th>
+          <th style="width:155px;">BUY / FALSE 판정</th>
+          <th>핵심 판정 사유 (클릭 시 상단 전문 보기)</th>
+        </tr>
+      </thead>
+      <tbody id="boardTbody">
+        <tr><td colspan="4" style="padding:28px; color:#94A3B8;">미국장 판정 데이터를 불러오는 중입니다...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+<script>
+const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
+const TOPIC_US_STATE = "us_whale_nblm_board_2026/state";
+const TOPIC_US_LIVE  = "us_whale_nblm_board_2026/live";
+
+let filterMode = "all"; // 'all' | 'buy' | 'false' | 'hardcut'
+let cachedState = null;
+let lastEpochMs = 0;
+let selectedVerdictId = "";
+let analyzingStartMs = 0;
+let isCurrentlyAnalyzing = false;
+let haltStartedMs = 0;
+let isCurrentlyHalting = false;
+const seenLiveIds = new Set();
+
+/* 실시간 ET / KST 듀얼 시계 & 분석 중 초시계 */
+function tickClocks() {
+  try {
+    const now = new Date();
+    const etStr = now.toLocaleTimeString("en-GB", { timeZone: "America/New_York", hour12: false });
+    const kstStr = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false });
+    document.getElementById("dualClockLbl").innerText = `🇺🇸 ${etStr} ET · 🇰🇷 ${kstStr} KST`;
+
+    if (isCurrentlyAnalyzing && analyzingStartMs > 0) {
+      const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
+      document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
+    }
+    if (isCurrentlyHalting && haltStartedMs > 0) {
+      const hSec = Math.max(0, Math.floor((Date.now() - haltStartedMs) / 1000));
+      const mm = Math.floor(hSec / 60);
+      const ss = hSec % 60;
+      document.getElementById("haltBannerTimer").innerText =
+        mm > 0 ? `⏱️ 0.5초 밀착 감시 경과: ${mm}분 ${ss}초` : `⏱️ 0.5초 밀착 감시 경과: ${ss}초`;
+    }
+  } catch (e) {}
+}
+setInterval(tickClocks, 1000);
+tickClocks();
+
+let audioCtx = null;
+let masterGainNode = null;
+let compressorNode = null;
+let reverbNode = null;
+let bgmBusGain = null;
+let bgmStopTimer = null;
+let isBgmPlaying = false;
+let isPreviewPlaying = false;
+let soundEnabled = false;
+let masterVolScale = 1.15;
+let lastAutoAudioAnalyzeKey = "";
+let lastAutoAudioVerdictId = "";
+let initialStateLoaded = false;
+
+/* 스튜디오급 마스터 오디오 체인 (Warm Hall Reverb + Dynamics Compressor) */
+function ensureAudioGraph() {
+  if (!audioCtx) {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AC();
+
+    compressorNode = audioCtx.createDynamicsCompressor();
+    compressorNode.threshold.setValueAtTime(-16, audioCtx.currentTime);
+    compressorNode.knee.setValueAtTime(18, audioCtx.currentTime);
+    compressorNode.ratio.setValueAtTime(3.6, audioCtx.currentTime);
+    compressorNode.attack.setValueAtTime(0.006, audioCtx.currentTime);
+    compressorNode.release.setValueAtTime(0.24, audioCtx.currentTime);
+
+    masterGainNode = audioCtx.createGain();
+    masterGainNode.gain.setValueAtTime(masterVolScale * 1.35, audioCtx.currentTime);
+
+    // 2.3초 실키 벨벳 홀 리버브 임펄스 생성 (따뜻한 공간감 · 귀 피로도 0%)
+    reverbNode = audioCtx.createConvolver();
+    const rate = audioCtx.sampleRate;
+    const len = Math.floor(rate * 2.3);
+    const ir = audioCtx.createBuffer(2, len, rate);
+    for (let ch = 0; ch < 2; ch++) {
+      const buf = ir.getChannelData(ch);
+      let lp = 0;
+      for (let i = 0; i < len; i++) {
+        const env = Math.pow(1 - i / len, 2.6);
+        const white = (Math.random() * 2 - 1) * env;
+        lp = lp * 0.78 + white * 0.22; // 고역 치찰음 제거한 따뜻한 우드홀 잔향
+        buf[i] = lp * 0.85;
+      }
+    }
+    reverbNode.buffer = ir;
+
+    masterGainNode.connect(compressorNode);
+    compressorNode.connect(audioCtx.destination);
+  }
+  if (audioCtx.state === "suspended") {
+    audioCtx.resume();
+  }
+}
+
+function updateMasterVolume(val) {
+  const num = Math.max(20, Math.min(150, Number(val || 115)));
+  masterVolScale = num / 100.0;
+  const lbl = document.getElementById("volPctLbl");
+  if (lbl) lbl.innerText = `${num}%`;
+  try { localStorage.setItem("us_board_vol_pct", String(num)); } catch (e) {}
+  if (masterGainNode && audioCtx) {
+    masterGainNode.gain.setTargetAtTime(masterVolScale * 1.35, audioCtx.currentTime, 0.04);
+  }
+}
+
+(function initSavedVolume() {
+  try {
+    const sv = Number(localStorage.getItem("us_board_vol_pct") || 115);
+    if (sv >= 20 && sv <= 150) {
+      masterVolScale = sv / 100.0;
+      const sl = document.getElementById("volSlider");
+      const lb = document.getElementById("volPctLbl");
+      if (sl) sl.value = String(sv);
+      if (lb) lb.innerText = `${sv}%`;
+    }
+  } catch (e) {}
+})();
+
+function connectWithReverb(srcNode, destBus, wetRatio = 0.36) {
+  srcNode.connect(destBus);
+  if (reverbNode && audioCtx) {
+    const wet = audioCtx.createGain();
+    wet.gain.setValueAtTime(wetRatio, audioCtx.currentTime);
+    srcNode.connect(wet);
+    wet.connect(reverbNode);
+    reverbNode.connect(destBus);
+  }
+}
+
+/* 악기 1: 따뜻한 Fender Rhodes 일렉트릭 피아노 */
+function playRhodesNote(freq, startT, dur, vol = 0.22, targetBus = null) {
+  if (!audioCtx) return;
+  const bus = targetBus || masterGainNode;
+  const t0 = audioCtx.currentTime + startT;
+
+  const filt = audioCtx.createBiquadFilter();
+  filt.type = "lowpass";
+  filt.frequency.setValueAtTime(2100, t0);
+  filt.frequency.exponentialRampToValueAtTime(880, t0 + Math.min(dur, 1.8));
+
+  const env = audioCtx.createGain();
+  env.gain.setValueAtTime(0.0001, t0);
+  env.gain.linearRampToValueAtTime(vol, t0 + 0.022);
+  env.gain.exponentialRampToValueAtTime(vol * 0.52, t0 + Math.min(0.45, dur * 0.4));
+  env.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+
+  const osc1 = audioCtx.createOscillator();
+  osc1.type = "sine";
+  osc1.frequency.setValueAtTime(freq, t0);
+
+  const osc2 = audioCtx.createOscillator();
+  osc2.type = "triangle";
+  osc2.frequency.setValueAtTime(freq, t0);
+  const g2 = audioCtx.createGain();
+  g2.gain.setValueAtTime(0.34, t0);
+
+  // Rhodes 특유의 부드러운 벨 타인(Tine) 어택 배음
+  const tine = audioCtx.createOscillator();
+  tine.type = "sine";
+  tine.frequency.setValueAtTime(freq * 2.0, t0);
+  const gTine = audioCtx.createGain();
+  gTine.gain.setValueAtTime(0.16, t0);
+  gTine.gain.exponentialRampToValueAtTime(0.001, t0 + 0.14);
+
+  osc1.connect(filt);
+  osc2.connect(g2); g2.connect(filt);
+  tine.connect(gTine); gTine.connect(filt);
+  filt.connect(env);
+  connectWithReverb(env, bus, 0.38);
+
+  osc1.start(t0); osc1.stop(t0 + dur + 0.05);
+  osc2.start(t0); osc2.stop(t0 + dur + 0.05);
+  tine.start(t0); tine.stop(t0 + 0.18);
+}
+
+/* 악기 2: 귀에 쏙 들어오지만 자극 없는 크리스탈 셀레스타 벨 / 하프 */
+function playCrystalBell(freq, startT, dur, vol = 0.28, targetBus = null) {
+  if (!audioCtx) return;
+  const bus = targetBus || masterGainNode;
+  const t0 = audioCtx.currentTime + startT;
+
+  const filt = audioCtx.createBiquadFilter();
+  filt.type = "lowpass";
+  filt.frequency.setValueAtTime(3400, t0);
+
+  const env = audioCtx.createGain();
+  env.gain.setValueAtTime(0.0001, t0);
+  env.gain.linearRampToValueAtTime(vol, t0 + 0.015);
+  env.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+
+  const o1 = audioCtx.createOscillator();
+  o1.type = "sine";
+  o1.frequency.setValueAtTime(freq, t0);
+
+  const o2 = audioCtx.createOscillator();
+  o2.type = "triangle";
+  o2.frequency.setValueAtTime(freq * 2.0, t0);
+  const g2 = audioCtx.createGain();
+  g2.gain.setValueAtTime(0.22, t0);
+  g2.gain.exponentialRampToValueAtTime(0.001, t0 + dur * 0.55);
+
+  o1.connect(filt);
+  o2.connect(g2); g2.connect(filt);
+  filt.connect(env);
+  connectWithReverb(env, bus, 0.48);
+
+  o1.start(t0); o1.stop(t0 + dur + 0.05);
+  o2.start(t0); o2.stop(t0 + dur + 0.05);
+}
+
+/* 악기 3: 노트북·스피커에서도 포근하게 들리는 웜 베이스 패드 */
+function playWarmBass(freq, startT, dur, vol = 0.20, targetBus = null) {
+  if (!audioCtx) return;
+  const bus = targetBus || masterGainNode;
+  const t0 = audioCtx.currentTime + startT;
+
+  const env = audioCtx.createGain();
+  env.gain.setValueAtTime(0.0001, t0);
+  env.gain.linearRampToValueAtTime(vol, t0 + 0.08);
+  env.gain.setValueAtTime(vol * 0.82, t0 + Math.max(0.1, dur - 0.35));
+  env.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+
+  const sub = audioCtx.createOscillator();
+  sub.type = "sine";
+  sub.frequency.setValueAtTime(freq, t0);
+
+  const oct = audioCtx.createOscillator();
+  oct.type = "triangle";
+  oct.frequency.setValueAtTime(freq * 2.0, t0);
+  const gOct = audioCtx.createGain();
+  gOct.gain.setValueAtTime(0.32, t0);
+
+  const lp = audioCtx.createBiquadFilter();
+  lp.type = "lowpass";
+  lp.frequency.setValueAtTime(420, t0);
+
+  sub.connect(lp);
+  oct.connect(gOct); gOct.connect(lp);
+  lp.connect(env);
+  env.connect(bus);
+
+  sub.start(t0); sub.stop(t0 + dur + 0.05);
+  oct.start(t0); oct.stop(t0 + dur + 0.05);
+}
+
+/* 42초 라운지 BGM 즉시 부드럽게 페이드아웃 정지 */
+function stopLoungeBgm(fadeSec = 0.38) {
+  if (bgmStopTimer) {
+    clearTimeout(bgmStopTimer);
+    bgmStopTimer = null;
+  }
+  if (bgmBusGain && audioCtx) {
+    const oldBus = bgmBusGain;
+    bgmBusGain = null;
+    try {
+      const now = audioCtx.currentTime;
+      oldBus.gain.cancelScheduledValues(now);
+      oldBus.gain.setValueAtTime(Math.max(0.0001, oldBus.gain.value), now);
+      oldBus.gain.exponentialRampToValueAtTime(0.0001, now + fadeSec);
+      setTimeout(() => { try { oldBus.disconnect(); } catch (e) {} }, Math.ceil(fadeSec * 1000) + 120);
+    } catch (e) {}
+  }
+  isBgmPlaying = false;
+  isPreviewPlaying = false;
+  const pBtn = document.getElementById("previewBgmBtn");
+  if (pBtn) {
+    pBtn.className = "sound-btn";
+    pBtn.innerText = "🎵 40초 BGM 들어보기";
+  }
+}
+
+/* 시그니처 인트로 차임 + 42초 네오소울·재즈 라운지 심문 대기 BGM */
+function startLoungeAnalyzingBgm(isPreview = false) {
+  ensureAudioGraph();
+  stopLoungeBgm(0.15);
+
+  const bus = audioCtx.createGain();
+  bus.gain.setValueAtTime(1.0, audioCtx.currentTime);
+  bus.connect(masterGainNode);
+  bgmBusGain = bus;
+  isBgmPlaying = true;
+  isPreviewPlaying = isPreview;
+
+  if (isPreview) {
+    const pBtn = document.getElementById("previewBgmBtn");
+    if (pBtn) {
+      pBtn.className = "sound-btn playing";
+      pBtn.innerText = "⏹️ BGM 정지 (재생 중)";
+    }
+  }
+
+  // [Part 1: 0.0s ~ 1.7s] 귀에 쏙 들어오는 고급 크리스탈 하프 호출 차임 (Fmaj9 아르페지오)
+  const introNotes = [349.23, 440.00, 523.25, 659.25, 783.99, 880.00, 1046.50];
+  introNotes.forEach((f, idx) => {
+    playCrystalBell(f, idx * 0.11, 1.45, idx === 6 ? 0.34 : 0.27, bus);
+  });
+  [220.00, 261.63, 329.63, 392.00].forEach((f) => playRhodesNote(f, 0.05, 1.85, 0.14, bus));
+
+  // [Part 2: 1.8s ~ 43.2s] 4마디 네오소울 라운지 코드 진행 (Fmaj9 -> Em9 -> Dm9 -> Cmaj9/G13sus4) × 3회전
+  const barSec = 3.35;
+  const chords = [
+    { bass: 87.31,  notes: [220.00, 261.63, 329.63, 392.00] }, // Fmaj9
+    { bass: 82.41,  notes: [196.00, 246.94, 293.66, 369.99] }, // Em9
+    { bass: 73.42,  notes: [174.61, 220.00, 261.63, 329.63] }, // Dm9
+    { bass: 65.41,  notes: [164.81, 196.00, 246.94, 293.66] }  // Cmaj9
+  ];
+
+  // 회전별로 호흡이 살아있는 서정적 펜타토닉 멜로디 라인
+  const melodies = [
+    // Cycle 1 (1.8s ~ 15.2s)
+    [
+      [0.45, 659.25, 1.3], [1.65, 587.33, 1.1], [2.45, 523.25, 1.4],
+      [3.90, 587.33, 1.3], [5.15, 493.88, 1.5],
+      [7.25, 523.25, 1.2], [8.35, 440.00, 1.1], [9.25, 392.00, 1.5],
+      [10.65, 440.00, 1.2], [11.80, 523.25, 1.6]
+    ],
+    // Cycle 2 (15.2s ~ 28.6s)
+    [
+      [0.40, 783.99, 1.3], [1.55, 659.25, 1.1], [2.40, 587.33, 1.4],
+      [3.85, 659.25, 1.3], [5.10, 587.33, 1.5],
+      [7.20, 523.25, 1.2], [8.30, 587.33, 1.0], [9.15, 659.25, 1.5],
+      [10.60, 587.33, 1.2], [11.75, 523.25, 1.7]
+    ],
+    // Cycle 3 (28.6s ~ 42.0s)
+    [
+      [0.45, 659.25, 1.3], [1.60, 783.99, 1.2], [2.55, 880.00, 1.4],
+      [3.95, 783.99, 1.3], [5.20, 659.25, 1.5],
+      [7.25, 587.33, 1.2], [8.40, 523.25, 1.1], [9.30, 440.00, 1.4],
+      [10.65, 523.25, 1.2], [11.85, 587.33, 1.6]
+    ]
+  ];
+
+  let cursor = 1.85;
+  for (let cyc = 0; cyc < 3; cyc++) {
+    const cycStart = cursor;
+    for (let b = 0; b < 4; b++) {
+      const bt = cycStart + b * barSec;
+      const ch = chords[b];
+      playWarmBass(ch.bass, bt, barSec * 0.96, 0.19, bus);
+      ch.notes.forEach((nf, idx) => {
+        // 살짝 아르페지오 롤링된 부드러운 Rhodes 화음 터치
+        playRhodesNote(nf, bt + idx * 0.045, barSec * 0.94, 0.135, bus);
+      });
+      // 마디 중간(2박 뒤) 은은한 싱코페이션 리듬 코드 터치
+      playRhodesNote(ch.notes[1], bt + barSec * 0.52, barSec * 0.42, 0.075, bus);
+      playRhodesNote(ch.notes[3], bt + barSec * 0.55, barSec * 0.42, 0.075, bus);
+    }
+    melodies[cyc].forEach(([offset, mf, mdur]) => {
+      playCrystalBell(mf, cycStart + offset, mdur, 0.155, bus);
+      playRhodesNote(mf * 0.5, cycStart + offset, mdur * 0.9, 0.065, bus);
+    });
+    cursor += barSec * 4;
+  }
+
+  // 42초 마무리 부드러운 Fmaj9 엔딩 여운
+  playWarmBass(87.31, cursor, 2.8, 0.17, bus);
+  [220.00, 261.63, 329.63, 392.00, 523.25].forEach((nf, idx) => {
+    playRhodesNote(nf, cursor + idx * 0.06, 2.8, 0.12, bus);
+  });
+  playCrystalBell(659.25, cursor + 0.25, 2.5, 0.16, bus);
+
+  bgmStopTimer = setTimeout(() => {
+    stopLoungeBgm(0.5);
+  }, Math.ceil((cursor + 3.1) * 1000));
+}
+
+/* 알림음 컨트롤 */
+function toggleSound() {
+  ensureAudioGraph();
+  soundEnabled = !soundEnabled;
+  const btn = document.getElementById("soundBtn");
+  if (soundEnabled) {
+    btn.className = "sound-btn on";
+    btn.innerText = "🔊 알림·BGM 켜짐";
+    // 켰을 때 기분 좋은 짧은 웰컴 크리스탈 차임 (또는 현재 분석 중이면 즉시 라운지 BGM 가동!)
+    if (isCurrentlyAnalyzing) {
+      startLoungeAnalyzingBgm(false);
+    } else {
+      [523.25, 659.25, 783.99, 1046.50].forEach((f, i) => playCrystalBell(f, i * 0.09, 1.0, 0.25));
+    }
+  } else {
+    stopLoungeBgm(0.25);
+    btn.className = "sound-btn";
+    btn.innerText = "🔔 알림·BGM 켜기";
+  }
+}
+
+function togglePreviewBgm() {
+  ensureAudioGraph();
+  if (!soundEnabled) {
+    soundEnabled = true;
+    const btn = document.getElementById("soundBtn");
+    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
+  }
+  if (isPreviewPlaying || isBgmPlaying) {
+    stopLoungeBgm(0.3);
+  } else {
+    startLoungeAnalyzingBgm(true);
+  }
+}
+
+function previewBuyFanfare() {
+  ensureAudioGraph();
+  if (!soundEnabled) {
+    soundEnabled = true;
+    const btn = document.getElementById("soundBtn");
+    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
+  }
+  playEventSound("VERDICT_BUY", true);
+}
+
+let lastPlayedEvKey = "";
+let lastPlayedEvMs = 0;
+
+function playEventSound(evType, forcePlay = false) {
+  if (!soundEnabled) return;
+  const nowMs = Date.now();
+  if (!forcePlay && evType === lastPlayedEvKey && (nowMs - lastPlayedEvMs) < 1800) return;
+  lastPlayedEvKey = evType;
+  lastPlayedEvMs = nowMs;
+  ensureAudioGraph();
+
+  if (evType === "ANALYZING") {
+    startLoungeAnalyzingBgm(false);
+  } else if (evType === "VERDICT_BUY" || evType === "TRADE_BUY") {
+    // 대기 BGM 즉시 페이드아웃 후 -> 귀에 확 꽂히는 골든 프레스티지 상승 팡파레!
+    stopLoungeBgm(0.30);
+    const fanfare = [523.25, 659.25, 783.99, 987.77, 1174.66, 1567.98]; // Cmaj9 -> G6 골든 하프
+    fanfare.forEach((f, i) => {
+      playCrystalBell(f, 0.06 + i * 0.085, 1.65, i >= 4 ? 0.38 : 0.30);
+    });
+    // 풍성한 화음 받침 + 확인 2연타 벨
+    [261.63, 329.63, 392.00, 493.88, 587.33].forEach((f) => playRhodesNote(f, 0.12, 2.0, 0.20));
+    playWarmBass(130.81, 0.10, 1.9, 0.26);
+    playCrystalBell(1318.51, 0.72, 1.3, 0.34);
+    playCrystalBell(1567.98, 0.90, 1.8, 0.40);
+  } else if (evType === "VERDICT_FALSE") {
+    // 대기 BGM 부드럽게 종료 후 -> 편안하고 차분한 우드·로즈 안심 차임 ("가짜 차단 완료, 편히 쉬세요")
+    stopLoungeBgm(0.35);
+    playRhodesNote(440.00, 0.05, 0.95, 0.19);
+    playCrystalBell(523.25, 0.05, 0.85, 0.16);
+    playRhodesNote(349.23, 0.28, 1.25, 0.20);
+    playRhodesNote(261.63, 0.30, 1.25, 0.16);
+  } else if (evType === "HALT_WATCH") {
+    // 홀트 감지 & 0.5초 밀착 감시 크리스탈 레이더 펄스
+    [659.25, 493.88, 659.25, 830.61].forEach((f, i) => {
+      playCrystalBell(f, i * 0.14, 0.85, 0.28);
+    });
+  }
+}
+
+function fmtShortDate(dtStr) {
+  if (!dtStr || dtStr.length < 10) return dtStr || "-";
+  return `${Number(dtStr.slice(5, 7))}/${Number(dtStr.slice(8, 10))}`;
+}
+
+function getWeekdayThemeKey(dtStr) {
+  if (!dtStr || dtStr.length < 10) return "mon";
+  const parts = dtStr.slice(0, 10).split("-").map(Number);
+  const d = new Date(parts[0], parts[1] - 1, parts[2]);
+  const day = d.getDay();
+  if (day === 1) return "mon";
+  if (day === 2) return "tue";
+  if (day === 3) return "wed";
+  if (day === 4) return "thu";
+  if (day === 5) return "fri";
+  return "mon";
+}
+
+function styleExBadge(el, ex) {
+  const exU = String(ex || "ND").toUpperCase();
+  el.style.display = "inline-block";
+  el.innerText = exU === "ND" ? "NASDAQ (ND)" : (exU === "AM" ? "AMEX (AM)" : exU);
+  el.className = "ex-badge" + (exU === "AM" ? " am" : (exU === "NY" ? " ny" : ""));
+}
+
+function setFilterMode(mode) {
+  filterMode = mode;
+  document.getElementById("fBtnAll").className = mode === "all" ? "filter-btn active" : "filter-btn";
+  document.getElementById("fBtnBuy").className = mode === "buy" ? "filter-btn active-buy" : "filter-btn";
+  document.getElementById("fBtnFalse").className = mode === "false" ? "filter-btn active-false" : "filter-btn";
+  document.getElementById("fBtnHc").className = mode === "hardcut" ? "filter-btn active" : "filter-btn";
+  if (cachedState) renderBoard(cachedState, true);
+}
+
+function renderHeroVerdict(v, openReport = false) {
+  if (!v) return;
+  isCurrentlyAnalyzing = false;
+  analyzingStartMs = 0;
+
+  const isBuy = v.decision === "BUY";
+  const heroCard = document.getElementById("heroCard");
+  heroCard.className = "hero-card " + (isBuy ? "buy-mode" : "false-mode");
+
+  document.getElementById("heroBadge").innerHTML =
+    `📌 최근 NotebookLM 심문 결과 (${v.date_et} ${v.time_et} ET · 한국 ${v.time_kst || '-'} KST)`;
+  document.getElementById("heroTimerPill").innerText = `⏱️ 심문 소요: ${Number(v.elapsed_sec || 0).toFixed(1)}초`;
+
+  const compTxt = (v.company_name && v.company_name !== v.symbol) ? ` · ${v.company_name}` : "";
+  document.getElementById("heroTicker").innerText = `${v.symbol}${compTxt}`;
+  styleExBadge(document.getElementById("heroExBadge"), v.exchange);
+
+  const vPill = document.getElementById("heroVerdictPill");
+  vPill.className = "verdict-big-pill " + (isBuy ? "buy" : "false");
+  vPill.innerText = isBuy ? "🔥 BUY (즉시 매수 승인!)" : "🛡️ FALSE (매수 차단)";
+
+  const px = Number(v.price || 0);
+  const gn = Number(v.gain_pct || 0);
+  const mc = Number(v.mcap_m || 0);
+  const metaParts = [];
+  if (px > 0) metaParts.push(`심문 시점가: $${px.toFixed(4)} (${gn >= 0 ? '+' : ''}${gn.toFixed(2)}%)`);
+  if (mc > 0) metaParts.push(`실질 시총: $${mc.toFixed(2)}M USD`);
+  if (v.trade_action) metaParts.push(`실전 조치: ${v.trade_action}`);
+  document.getElementById("heroMeta").innerText = metaParts.join("   |   ") || `판정 엔진: ${v.engine || 'NotebookLM 직통'}`;
+
+  const rBox = document.getElementById("heroReasonBox");
+  rBox.className = "hero-reason-box " + (isBuy ? "buy" : "false");
+  const catLine = v.catalyst_hint ? `📰 포착 공시/PR: ${v.catalyst_hint}\n` : "";
+  rBox.innerText = `${catLine}💡 핵심 사유: ${v.reason || '-'}`;
+
+  const fold = document.getElementById("heroFullReportFold");
+  if (v.full_report && v.full_report.trim().length > 10) {
+    fold.style.display = "block";
+    document.getElementById("heroFoldTitle").innerText =
+      `📖 [${v.symbol}] NotebookLM 연구소장 원문 직독 심사 전문 전체 보기`;
+    document.getElementById("heroFullReportBody").innerText = v.full_report;
+    if (openReport) fold.open = true;
+  } else {
+    fold.style.display = "none";
+    fold.open = false;
+  }
+}
+
+function renderHeroAnalyzing(an) {
+  isCurrentlyAnalyzing = true;
+  analyzingStartMs = Number(an.started_epoch_ms || Date.now());
+
+  const heroCard = document.getElementById("heroCard");
+  heroCard.className = "hero-card analyzing";
+
+  const qTxt = Number(an.queue_remaining || 0) > 0 ? ` · 뒤이어 대기열 ${an.queue_remaining}종목` : "";
+  document.getElementById("heroBadge").innerHTML =
+    `<span class="live-dot"></span> 🧠 지금 NotebookLM 연구소장이 원문 서류철을 정밀 심문하고 있습니다!! (${an.mode_label || '실시간 심문'}${qTxt})`;
+
+  const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
+  document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
+
+  const compTxt = (an.company_name && an.company_name !== an.symbol) ? ` · ${an.company_name}` : "";
+  document.getElementById("heroTicker").innerText = `${an.symbol}${compTxt}`;
+  styleExBadge(document.getElementById("heroExBadge"), an.exchange);
+
+  const vPill = document.getElementById("heroVerdictPill");
+  vPill.className = "verdict-big-pill wait";
+  vPill.innerText = "🧠 BUY / FALSE 판결 도출 중...";
+
+  const px = Number(an.price || 0);
+  const gn = Number(an.gain_pct || 0);
+  const mc = Number(an.mcap_m || 0);
+  const metaParts = [];
+  if (px > 0) metaParts.push(`현재 포착가: $${px.toFixed(4)} (${gn >= 0 ? '+' : ''}${gn.toFixed(2)}%)`);
+  if (mc > 0) metaParts.push(`실질 시총: $${mc.toFixed(2)}M USD`);
+  metaParts.push(`시작 시각: ${an.started_at_et || ''} ET (${an.started_at_kst || ''} KST)`);
+  document.getElementById("heroMeta").innerText = metaParts.join("   |   ");
+
+  const rBox = document.getElementById("heroReasonBox");
+  rBox.className = "hero-reason-box";
+  rBox.innerText = an.catalyst_hint
+    ? `📄 심사 중인 당일 공시·PR: ${an.catalyst_hint}\n🔎 포트 9333 상시 예열 크롬에서 [실시간 긴급결재 원문서류철] + [29종목 진위 족보집] 교차 검증 중...`
+    : `🔎 포트 9333 상시 예열 크롬에서 [실시간 긴급결재 원문서류철] + [29종목 진위 족보집] 교차 검증 중...`;
+
+  document.getElementById("heroFullReportFold").style.display = "none";
+}
+
+function renderBoard(state, forceRender = false) {
+  if (!state) return;
+  const incomingMs = Number(state.updated_epoch_ms || 0);
+  if (!forceRender && lastEpochMs > 0 && incomingMs > 0 && incomingMs < lastEpochMs) {
+    return; // 구버전 캐시 역전 방지
+  }
+  if (incomingMs > 0) lastEpochMs = incomingMs;
+  cachedState = state;
+
+  // 1) 계좌 & 레이더 상태 바
+  const acc = state.account || {};
+  const wlCnt = Number(acc.watchlist_count || 168);
+  const usd = Number(acc.orderable_usd || 0);
+  const sess = acc.session_label || "프리장실전";
+  const doneTxt = acc.daily_done ? "🔒 금일 1회 매매 완료(계좌보호 잠금)" : "🟢 금일 타격 가능";
+  document.getElementById("radarLeftTxt").innerText =
+    `📡 [${sess}] 잠복 감시 ${wlCnt}종목 (ND·AM 전용)   |   💵 주문가능 외화: $${usd.toFixed(2)} USD   |   ${doneTxt}`;
+
+  const hw = state.halt_watch || {};
+  const haltBanner = document.getElementById("haltWatchBanner");
+  if (hw.active && hw.symbol) {
+    isCurrentlyHalting = true;
+    haltStartedMs = Number(hw.started_epoch_ms || Date.now());
+    haltBanner.style.display = "block";
+    const hEx = hw.exchange || "ND";
+    const hPx = Number(hw.halt_price || 0);
+    const resTxt = hw.resume_trade_et
+      ? `재개 확정: ${hw.resume_trade_et} ET${hw.resume_quote_et ? ' (호가재개 ' + hw.resume_quote_et + ')' : ''}`
+      : "재개 시각: 거래소 발표 대기 중 (3초마다 공식 피드 자동 조회)";
+    document.getElementById("haltBannerTitle").innerText =
+      `⏸️ [${hw.symbol} · ${hEx}] 거래소 공식 홀트 감지 → 미체결 주문 취소 & 0.5초 첫 체결 스나이퍼 가동 중!`;
+    document.getElementById("haltBannerMain").innerText =
+      `📌 사유: ${hw.reason_kr || hw.reason_code || '거래소 공식 홀트'}   |   정지 전 기준가: $${hPx.toFixed(4)}   |   정지시각: ${hw.halt_time_et || '-'} ET   |   ⏰ ${resTxt}`;
+    const hSec = Math.max(0, Math.floor((Date.now() - haltStartedMs) / 1000));
+    const mm = Math.floor(hSec / 60);
+    const ss = hSec % 60;
+    document.getElementById("haltBannerTimer").innerText =
+      mm > 0 ? `⏱️ 0.5초 밀착 감시 경과: ${mm}분 ${ss}초` : `⏱️ 0.5초 밀착 감시 경과: ${ss}초`;
+  } else {
+    isCurrentlyHalting = false;
+    haltStartedMs = 0;
+    haltBanner.style.display = "none";
+  }
+
+  const posPill = document.getElementById("radarPosPill");
+  if (acc.holding_symbol && Number(acc.holding_qty || 0) > 0) {
+    const pRt = Number(acc.profit_rate || 0);
+    posPill.className = "radar-pos-pill holding";
+    posPill.innerText =
+      `🚀 실전 보유 중: ${acc.holding_symbol} (${acc.holding_qty}주) | 평단 $${Number(acc.avg_price||0).toFixed(4)} → 현재 $${Number(acc.current_price||0).toFixed(4)} (${pRt>=0?'+':''}${pRt.toFixed(2)}%)`;
+  } else if (hw.active && hw.symbol) {
+    posPill.className = "radar-pos-pill halting";
+    posPill.innerText =
+      `⏸️ ${hw.symbol} 홀트 0.5초 감시 중 (타 종목 BUY 동시 열림)`;
+  } else {
+    posPill.className = "radar-pos-pill";
+    posPill.innerText = acc.daily_done ? "🏁 금일 실전 매매 종료 (내일 개장 대기)" : "🎯 NotebookLM BUY 승인 대기 중";
+  }
+
+  // 2) 통계 알약 바
+  const st = state.stats || {};
+  document.getElementById("statTodayTotal").innerText =
+    `오늘 심문 ${Number(st.today_total || 0)}건 (누적 ${Number(st.total_verdicts || 0)}건)`;
+  document.getElementById("statBuyCnt").innerText =
+    `🔥 BUY 승인: 오늘 ${Number(st.today_buy || 0)}건 (누적 ${Number(st.total_buy || 0)}건)`;
+  document.getElementById("statFalseCnt").innerText =
+    `🛡️ FALSE 차단: 오늘 ${Number(st.today_false || 0)}건 (누적 ${Number(st.total_false || 0)}건)`;
+  document.getElementById("statAvgSec").innerText =
+    `⚡ 평균 심문시간: ${Number(st.avg_nblm_sec || 0).toFixed(1)}초`;
+  document.getElementById("statHardcutCnt").innerText =
+    `🛑 오늘 1차 하드컷 자체차단: ${Number(st.today_hardcut || 0)}건`;
+
+  // 3) 메인 히어로 카드 (분석 중이면 최우선 점등 + 사운드 상태 자동 동기화!)
+  const an = state.analyzing || {};
+  const verdicts = state.verdicts || [];
+  const newestVerdict = verdicts.length > 0 ? verdicts[0] : null;
+  if (!initialStateLoaded) {
+    initialStateLoaded = true;
+    if (newestVerdict && newestVerdict.id) lastAutoAudioVerdictId = newestVerdict.id;
+    if (an.active && an.symbol) lastAutoAudioAnalyzeKey = `${an.symbol}_${an.started_epoch_ms || 0}`;
+  } else if (soundEnabled) {
+    if (an.active && an.symbol) {
+      const aKey = `${an.symbol}_${an.started_epoch_ms || 0}`;
+      if (aKey !== lastAutoAudioAnalyzeKey && !isBgmPlaying) {
+        lastAutoAudioAnalyzeKey = aKey;
+        startLoungeAnalyzingBgm(false);
+      }
+    } else {
+      if (newestVerdict && newestVerdict.id && newestVerdict.id !== lastAutoAudioVerdictId) {
+        lastAutoAudioVerdictId = newestVerdict.id;
+        playEventSound(newestVerdict.decision === "BUY" ? "VERDICT_BUY" : "VERDICT_FALSE");
+      } else if (isBgmPlaying && !isPreviewPlaying) {
+        stopLoungeBgm(0.35);
+      }
+    }
+  }
+  if (an.active && an.symbol) {
+    renderHeroAnalyzing(an);
+  } else if (verdicts.length > 0) {
+    const chosen = (selectedVerdictId && verdicts.find(x => x.id === selectedVerdictId)) || verdicts[0];
+    renderHeroVerdict(chosen, false);
+  }
+
+  // 4) 테이블 렌더링
+  const tbody = document.getElementById("boardTbody");
+  const thead = document.getElementById("boardThead");
+  tbody.innerHTML = "";
+
+  if (filterMode === "hardcut") {
+    document.getElementById("tableTitleLbl").innerText = "🛑 파이썬 1차 하드컷 자체 차단 로그 (NotebookLM 호출 전 0.1초 즉시 컷)";
+    thead.innerHTML = `
+      <tr>
+        <th style="width:165px;">차단 시각 (ET / KST)</th>
+        <th style="width:210px;">종목 (거래소 · 시총)</th>
+        <th style="width:155px;">1차 필터 판정</th>
+        <th>파이썬 0.1초 자체 차단 사유</th>
+      </tr>
+    `;
+    const hcs = state.hardcuts || [];
+    if (hcs.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="4" style="padding:28px; color:#94A3B8;">아직 기록된 금일 1차 하드컷 차단 내역이 없습니다. (다음 포착부터 실시간 기록됩니다)</td></tr>`;
+      return;
+    }
+    hcs.forEach((h) => {
+      const wkKey = getWeekdayThemeKey(h.date_et);
+      const tr = document.createElement("tr");
+      tr.className = `wk-${wkKey}`;
+      const mcTxt = Number(h.mcap_m || 0) > 0 ? `$${Number(h.mcap_m).toFixed(1)}M` : "-";
+      tr.innerHTML = `
+        <td>
+          <div style="font-weight:900;">${fmtShortDate(h.date_et)} · ${h.time_et || ''} ET</div>
+          <div style="font-size:12.5px; color:#94A3B8; margin-top:2px;">🇰🇷 ${h.time_kst || ''} KST</div>
+        </td>
+        <td>
+          <div style="font-weight:900; font-size:18px; color:#FFFFFF;">${h.symbol} <span style="font-size:12.5px; color:#93C5FD;">[${h.exchange || '-'}]</span></div>
+          <div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">시총: ${mcTxt}</div>
+        </td>
+        <td><span class="res-hc">🛑 0.1초 하드컷</span></td>
+        <td class="reason-cell">${h.reason || '-'}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+    return;
+  }
+
+  document.getElementById("tableTitleLbl").innerText = "📋 NotebookLM 종목별 BUY / FALSE 실시간 판정 기록";
+  thead.innerHTML = `
+    <tr>
+      <th style="width:170px;">심문 시각 (ET / KST)</th>
+      <th style="width:220px;">종목 (거래소 · 체급)</th>
+      <th style="width:165px;">BUY / FALSE 판정</th>
+      <th>핵심 판정 사유 (클릭 시 상단 심사 전문 보기)</th>
+    </tr>
+  `;
+
+  let rows = verdicts;
+  if (filterMode === "buy") rows = verdicts.filter(v => v.decision === "BUY");
+  if (filterMode === "false") rows = verdicts.filter(v => v.decision !== "BUY");
+
+  if (rows.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="4" style="padding:28px; color:#94A3B8;">해당 조건의 판정 기록이 없습니다.</td></tr>`;
+    return;
+  }
+
+  let prevDate = "";
+  rows.forEach((v) => {
+    const wkKey = getWeekdayThemeKey(v.date_et);
+    const isNewDate = prevDate !== "" && prevDate !== v.date_et;
+    prevDate = v.date_et;
+
+    const tr = document.createElement("tr");
+    tr.className = `wk-${wkKey}` + (isNewDate ? " date-group-start" : "");
+
+    const isBuy = v.decision === "BUY";
+    const badgeHtml = isBuy
+      ? `<span class="res-buy">🔥 BUY 승인</span>`
+      : `<span class="res-false">🛡️ FALSE 차단</span>`;
+
+    const px = Number(v.price || 0);
+    const gn = Number(v.gain_pct || 0);
+    const mc = Number(v.mcap_m || 0);
+    const subMeta = [];
+    if (px > 0) subMeta.push(`$${px.toFixed(3)} (${gn>=0?'+':''}${gn.toFixed(1)}%)`);
+    if (mc > 0) subMeta.push(`시총 $${mc.toFixed(1)}M`);
+
+    const isLegacy = String(v.engine || "").includes("Gmail");
+    const engChip = `<span class="engine-mini ${isLegacy ? 'legacy' : ''}">${v.engine || 'NotebookLM 직통'}</span>`;
+    const hasFull = v.full_report && v.full_report.trim().length > 10;
+    const moreChip = hasFull ? `<span class="more-report-chip">📖 전문있음</span>` : "";
+    const actLine = v.trade_action ? `<div style="font-size:12.5px; color:${isBuy ? '#6EE7B7' : '#94A3B8'}; margin-top:4px;">⚡ ${v.trade_action}</div>` : "";
+
+    tr.innerHTML = `
+      <td>
+        <div style="font-weight:900; font-size:15.5px;">${fmtShortDate(v.date_et)} <span class="wk-badge ${wkKey}">${v.weekday_kr || ''}</span></div>
+        <div style="font-size:13.5px; color:#E2E8F0; margin-top:3px;">🇺🇸 ${v.time_et || ''} ET</div>
+        <div style="font-size:12.5px; color:#94A3B8;">🇰🇷 ${v.time_kst || '-'} KST · ⏱️${Number(v.elapsed_sec||0).toFixed(1)}초</div>
+      </td>
+      <td>
+        <div style="font-weight:900; font-size:19px; color:#FFFFFF;">${v.symbol} <span style="font-size:12.5px; color:#93C5FD;">[${v.exchange || 'ND'}]</span></div>
+        <div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">${subMeta.join(" · ") || v.company_name || "-"}</div>
+      </td>
+      <td>
+        ${badgeHtml}
+        ${actLine}
+      </td>
+      <td class="reason-cell">
+        ${engChip}${v.reason || '-'}${moreChip}
+      </td>
+    `;
+    tr.onclick = () => {
+      selectedVerdictId = v.id;
+      renderHeroVerdict(v, true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    tbody.appendChild(tr);
+  });
+}
+
+/* GitHub Pages 초기 로드 & 12초 주기 폴백 동기화 */
+async function pollGitHubState() {
+  try {
+    const stateUrl = window.location.protocol === "file:"
+      ? "https://simikai1024-hue.github.io/stock-board/us_live_state.json"
+      : "../us_live_state.json";
+    const res = await fetch(`${stateUrl}?t=${Date.now()}`, { cache: "no-store" });
+    if (res.ok) {
+      const state = await res.json();
+      renderBoard(state, false);
+    }
+  } catch (e) {}
+}
+pollGitHubState();
+setInterval(pollGitHubState, 12000);
+
+/* EMQX 실시간 웹소켓 연결 */
+const client = mqtt.connect(BROKER_WSS, {
+  clientId: "us_nblm_board_" + Math.random().toString(16).slice(2, 10),
+  clean: true,
+  reconnectPeriod: 2000,
+});
+
+client.on("connect", () => {
+  const st = document.getElementById("statusLbl");
+  st.innerText = "🟢 실시간 자동 업데이트 켜짐";
+  st.style.color = "#34D399";
+  client.subscribe([TOPIC_US_STATE, TOPIC_US_LIVE], { qos: 1 });
+});
+
+client.on("reconnect", () => {
+  const st = document.getElementById("statusLbl");
+  st.innerText = "🟡 실시간 재연결 중...";
+  st.style.color = "#FBBF24";
+});
+
+client.on("message", (topic, payload) => {
+  try {
+    const data = JSON.parse(new TextDecoder("utf-8").decode(payload));
+    if (topic === TOPIC_US_STATE) {
+      if (data && data.verdicts && data.verdicts.length > 0 && !(data.analyzing && data.analyzing.active)) {
+        selectedVerdictId = data.verdicts[0].id;
+      }
+      renderBoard(data, true);
+    } else if (topic === TOPIC_US_LIVE && data) {
+      if (data.id && seenLiveIds.has(data.id)) return;
+      if (data.id) seenLiveIds.add(data.id);
+      playEventSound(data.event);
+    }
+  } catch (e) {}
+});
+</script>
+
+<!-- 📲 독립 폴더 PWA 앱 설치 스크립트 -->
+<script>
+(function() {
+  let deferredPwaPrompt = null;
+  const installBtn = document.getElementById("pwaInstallBtn");
+  const isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+
+  if (!isStandalone && installBtn) {
+    installBtn.style.display = "inline-flex";
+  }
+
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferredPwaPrompt = e;
+    if (!isStandalone && installBtn) {
+      installBtn.style.display = "inline-flex";
+    }
+  });
+
+  window.addEventListener("appinstalled", () => {
+    deferredPwaPrompt = null;
+    if (installBtn) installBtn.style.display = "none";
+  });
+
+  window.installBoardApp = async function() {
+    if (deferredPwaPrompt) {
+      deferredPwaPrompt.prompt();
+      try { await deferredPwaPrompt.userChoice; } catch (err) {}
+      deferredPwaPrompt = null;
+      if (installBtn) installBtn.style.display = "none";
+    } else {
+      alert("💡 크롬 주소창 오른쪽 끝의 [모니터+화살표(앱 설치)] 아이콘을 누르시거나, 우측 상단 메뉴(⋮) → [전송, 저장, 공유] → [페이지를 앱으로 설치]를 누르시면 바로 설치됩니다!");
+    }
+  };
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js", { scope: "./" }).catch(() => {});
+    });
+  }
+})();
+</script>
+</body>
+</html>
