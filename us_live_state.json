@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 00:39:21",
-  "updated_at_et": "2026-11-04 10:39:21",
-  "updated_epoch_ms": 1793806761249,
+  "updated_at_kst": "2026-11-05 00:40:19",
+  "updated_at_et": "2026-11-04 10:40:19",
+  "updated_epoch_ms": 1793806819811,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.4,
     "profit_rate": -2.3,
-    "updated_kst": "00:39:16"
+    "updated_kst": "00:40:17"
   },
   "stats": {
     "today_total": 22,
@@ -1137,6 +1137,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "10:39:37",
+      "time_kst": "00:39:37",
+      "symbol": "PAAS",
+      "company_name": "PAAS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
+      "time_et": "10:39:33",
+      "time_kst": "00:39:33",
+      "symbol": "ENVA",
+      "company_name": "ENVA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "10:36:32",
       "time_kst": "00:36:32",
       "symbol": "CEPU",
@@ -1614,26 +1634,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2390.74M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:31:39",
-      "time_kst": "21:31:39",
-      "symbol": "JD",
-      "company_name": "JD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $33337.86M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:31:05",
-      "time_kst": "21:31:05",
-      "symbol": "TROX",
-      "company_name": "TROX",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
