@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-05 00:35:36",
-  "updated_at_et": "2026-11-04 10:35:36",
-  "updated_epoch_ms": 1793806536013,
+  "updated_at_kst": "2026-11-05 00:36:34",
+  "updated_at_et": "2026-11-04 10:36:34",
+  "updated_epoch_ms": 1793806594633,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 2.4564,
     "current_price": 2.38,
     "profit_rate": -3.11,
-    "updated_kst": "00:35:33"
+    "updated_kst": "00:36:18"
   },
   "stats": {
     "today_total": 22,
@@ -1137,6 +1137,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "10:36:32",
+      "time_kst": "00:36:32",
+      "symbol": "CEPU",
+      "company_name": "CEPU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "10:21:45",
       "time_kst": "00:21:45",
       "symbol": "LYG",
@@ -1624,16 +1634,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "07:30:48",
-      "time_kst": "21:30:48",
-      "symbol": "ARWR",
-      "company_name": "ARWR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8408.85M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
