@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-04",
-  "updated_at_kst": "2026-11-04 22:21:10",
-  "updated_at_et": "2026-11-04 08:21:10",
-  "updated_epoch_ms": 1793798470287,
+  "updated_at_kst": "2026-11-04 22:22:14",
+  "updated_at_et": "2026-11-04 08:22:14",
+  "updated_epoch_ms": 1793798534347,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:21:08"
+    "updated_kst": "22:22:11"
   },
   "stats": {
     "today_total": 11,
@@ -917,6 +917,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-04",
+      "time_et": "08:21:24",
+      "time_kst": "22:21:24",
+      "symbol": "BIDU",
+      "company_name": "BIDU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $21940.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-04",
       "time_et": "08:17:13",
       "time_kst": "22:17:13",
       "symbol": "WULF",
@@ -1404,16 +1414,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $812.06M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "06:24:34",
-      "time_kst": "20:24:34",
-      "symbol": "EL",
-      "company_name": "EL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
