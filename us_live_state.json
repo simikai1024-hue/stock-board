@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:06:59",
-  "updated_at_et": "2026-11-05 08:06:59",
-  "updated_epoch_ms": 1793884019439,
+  "updated_at_kst": "2026-11-05 22:07:47",
+  "updated_at_et": "2026-11-05 08:07:47",
+  "updated_epoch_ms": 1793884067769,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.08,
-    "profit_rate": 36.0,
-    "updated_kst": "22:06:39"
+    "current_price": 4.13,
+    "profit_rate": 37.67,
+    "updated_kst": "22:07:43"
   },
   "stats": {
     "today_total": 6,
@@ -1357,6 +1357,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:07:45",
+      "time_kst": "22:07:45",
+      "symbol": "AVTX",
+      "company_name": "AVTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $379.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:06:01",
       "time_kst": "22:06:01",
       "symbol": "JRSH",
@@ -1841,16 +1851,6 @@
       "time_kst": "21:06:50",
       "symbol": "RHLD",
       "company_name": "RHLD",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:06:47",
-      "time_kst": "21:06:47",
-      "symbol": "GPGI",
-      "company_name": "GPGI",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
