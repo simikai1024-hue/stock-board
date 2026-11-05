@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:48:28",
-  "updated_at_et": "2026-11-05 07:48:28",
-  "updated_epoch_ms": 1793882908067,
+  "updated_at_kst": "2026-11-05 21:49:26",
+  "updated_at_et": "2026-11-05 07:49:26",
+  "updated_epoch_ms": 1793882966817,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.32,
-    "profit_rate": 44.0,
-    "updated_kst": "21:48:24"
+    "current_price": 4.27,
+    "profit_rate": 42.33,
+    "updated_kst": "21:49:25"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:49:24",
+      "time_kst": "21:49:24",
+      "symbol": "GIL",
+      "company_name": "GIL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:47:31",
       "time_kst": "21:47:31",
       "symbol": "HIMX",
@@ -1801,16 +1811,6 @@
       "time_kst": "20:46:31",
       "symbol": "CIM",
       "company_name": "CIM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:46:05",
-      "time_kst": "20:46:05",
-      "symbol": "BLSH",
-      "company_name": "BLSH",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
