@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:04:47",
-  "updated_at_et": "2026-11-05 06:04:47",
-  "updated_epoch_ms": 1793876687392,
+  "updated_at_kst": "2026-11-05 20:05:49",
+  "updated_at_et": "2026-11-05 06:05:49",
+  "updated_epoch_ms": 1793876749064,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.47,
-    "profit_rate": 15.67,
-    "updated_kst": "20:04:42"
+    "current_price": 3.4202,
+    "profit_rate": 14.01,
+    "updated_kst": "20:05:46"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1256,6 +1256,16 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-05",
+      "time_et": "06:05:44",
+      "time_kst": "20:05:44",
+      "symbol": "FIX",
+      "company_name": "FIX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
       "date_et": "2026-11-04",
       "time_et": "14:36:28",
       "time_kst": "04:36:28",
@@ -1741,16 +1751,6 @@
       "time_kst": "22:09:32",
       "symbol": "CCL",
       "company_name": "CCL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:05:13",
-      "time_kst": "22:05:13",
-      "symbol": "JLL",
-      "company_name": "JLL",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
