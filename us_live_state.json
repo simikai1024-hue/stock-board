@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:56:31",
-  "updated_at_et": "2026-11-05 07:56:31",
-  "updated_epoch_ms": 1793883391305,
+  "updated_at_kst": "2026-11-05 21:57:26",
+  "updated_at_et": "2026-11-05 07:57:26",
+  "updated_epoch_ms": 1793883446285,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.09,
-    "profit_rate": 36.33,
-    "updated_kst": "21:56:29"
+    "current_price": 4.0895,
+    "profit_rate": 36.32,
+    "updated_kst": "21:57:12"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:57:23",
+      "time_kst": "21:57:23",
+      "symbol": "HSAI",
+      "company_name": "HSAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1770.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:54:23",
       "time_kst": "21:54:23",
       "symbol": "GIL",
@@ -1801,16 +1811,6 @@
       "time_kst": "20:51:04",
       "symbol": "VIRT",
       "company_name": "VIRT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:47:52",
-      "time_kst": "20:47:52",
-      "symbol": "SBSW",
-      "company_name": "SBSW",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
