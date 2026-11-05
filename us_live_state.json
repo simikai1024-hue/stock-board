@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:00:34",
-  "updated_at_et": "2026-11-05 08:00:34",
-  "updated_epoch_ms": 1793883634523,
+  "updated_at_kst": "2026-11-05 22:01:40",
+  "updated_at_et": "2026-11-05 08:01:40",
+  "updated_epoch_ms": 1793883700076,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1301,
-    "profit_rate": 37.67,
-    "updated_kst": "22:00:32"
+    "current_price": 4.1599,
+    "profit_rate": 38.66,
+    "updated_kst": "22:01:35"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:01:39",
+      "time_kst": "22:01:39",
+      "symbol": "EBMT",
+      "company_name": "EBMT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $170.78M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "08:01:06",
+      "time_kst": "22:01:06",
+      "symbol": "HNVR",
+      "company_name": "HNVR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $162.35M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "08:00:54",
+      "time_kst": "22:00:54",
+      "symbol": "ADGM",
+      "company_name": "ADGM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-01 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:59:33",
       "time_kst": "21:59:33",
       "symbol": "DDD",
@@ -1784,36 +1814,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $19874.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:05:58",
-      "time_kst": "21:05:58",
-      "symbol": "DTIL",
-      "company_name": "DTIL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $231.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:59:25",
-      "time_kst": "20:59:25",
-      "symbol": "WMS",
-      "company_name": "WMS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:58:53",
-      "time_kst": "20:58:53",
-      "symbol": "UP",
-      "company_name": "UP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
