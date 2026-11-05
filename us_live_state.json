@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:51:32",
-  "updated_at_et": "2026-11-05 07:51:32",
-  "updated_epoch_ms": 1793883092045,
+  "updated_at_kst": "2026-11-05 21:52:23",
+  "updated_at_et": "2026-11-05 07:52:23",
+  "updated_epoch_ms": 1793883143426,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1998,
-    "profit_rate": 39.99,
-    "updated_kst": "21:51:29"
+    "current_price": 4.11,
+    "profit_rate": 37.0,
+    "updated_kst": "21:52:10"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:52:20",
+      "time_kst": "21:52:20",
+      "symbol": "BCE",
+      "company_name": "BCE",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:49:24",
       "time_kst": "21:49:24",
       "symbol": "GIL",
@@ -1804,16 +1814,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1379.44M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:46:31",
-      "time_kst": "20:46:31",
-      "symbol": "CIM",
-      "company_name": "CIM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
