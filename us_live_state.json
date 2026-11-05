@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:16:01",
-  "updated_at_et": "2026-11-05 06:16:01",
-  "updated_epoch_ms": 1793877361042,
+  "updated_at_kst": "2026-11-05 20:17:04",
+  "updated_at_et": "2026-11-05 06:17:04",
+  "updated_epoch_ms": 1793877424998,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.54,
-    "profit_rate": 18.0,
-    "updated_kst": "20:16:00"
+    "current_price": 3.49,
+    "profit_rate": 16.33,
+    "updated_kst": "20:17:02"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 27,
+    "today_hardcut": 28,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:16:34",
+      "time_kst": "20:16:34",
+      "symbol": "UMC",
+      "company_name": "UMC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:16:01",
+      "time_kst": "20:16:01",
+      "symbol": "CDLR",
+      "company_name": "CDLR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:15:56",
       "time_kst": "20:15:56",
       "symbol": "UEC",
@@ -1264,16 +1284,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3602.9M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:14:58",
-      "time_kst": "20:14:58",
-      "symbol": "CDLR",
-      "company_name": "CDLR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-05",
@@ -1741,16 +1751,6 @@
       "time_kst": "23:31:04",
       "symbol": "COR",
       "company_name": "COR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:31:01",
-      "time_kst": "23:31:01",
-      "symbol": "FLO",
-      "company_name": "FLO",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
