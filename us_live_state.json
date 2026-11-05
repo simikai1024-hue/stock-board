@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 04:26:25",
-  "updated_at_et": "2026-11-05 14:26:25",
-  "updated_epoch_ms": 1793906785722,
+  "updated_at_kst": "2026-11-06 04:27:20",
+  "updated_at_et": "2026-11-05 14:27:20",
+  "updated_epoch_ms": 1793906840204,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:26:22"
+    "updated_kst": "04:27:07"
   },
   "stats": {
     "today_total": 32,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "14:27:17",
+      "time_kst": "04:27:17",
+      "symbol": "TLSA",
+      "company_name": "TLSA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $79.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "14:24:11",
       "time_kst": "04:24:11",
       "symbol": "OBE",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $215.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:27:04",
-      "time_kst": "22:27:04",
-      "symbol": "NXE",
-      "company_name": "NXE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
