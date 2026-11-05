@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:15:19",
-  "updated_at_et": "2026-11-05 09:15:19",
-  "updated_epoch_ms": 1793888119919,
+  "updated_at_kst": "2026-11-05 23:16:01",
+  "updated_at_et": "2026-11-05 09:16:01",
+  "updated_epoch_ms": 1793888161015,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AIM",
+    "company_name": "AIM",
+    "exchange": "AM",
+    "price": 0.1696,
+    "gain_pct": 3.41,
+    "mcap_m": 6.77,
+    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:15:56",
+    "started_at_kst": "23:15:56",
+    "started_epoch_ms": 1793888156041
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:15:11"
+    "updated_kst": "23:15:58"
   },
   "stats": {
     "today_total": 24,
@@ -1717,6 +1729,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:15:57",
+      "time_kst": "23:15:57",
+      "symbol": "AAPG",
+      "company_name": "AAPG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1459.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:08:15",
       "time_kst": "23:08:15",
       "symbol": "TSCO",
@@ -2201,16 +2223,6 @@
       "time_kst": "21:38:41",
       "symbol": "AG",
       "company_name": "AG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:37:54",
-      "time_kst": "21:37:54",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
