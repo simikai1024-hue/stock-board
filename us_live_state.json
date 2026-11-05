@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 04:02:02",
-  "updated_at_et": "2026-11-05 14:02:02",
-  "updated_epoch_ms": 1793905322181,
+  "updated_at_kst": "2026-11-06 04:02:57",
+  "updated_at_et": "2026-11-05 14:02:57",
+  "updated_epoch_ms": 1793905377682,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "VRM",
+    "company_name": "Vroom, Inc.",
+    "exchange": "ND",
+    "price": 6.67,
+    "gain_pct": -4.71,
+    "mcap_m": 34.91,
+    "catalyst_hint": "[당일 PR] Robert J. Mylod, Jr. Elected a Director of Graham Holdings Company",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "14:02:52",
+    "started_at_kst": "04:02:52",
+    "started_epoch_ms": 1793905372157
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:01:58"
+    "updated_kst": "04:02:40"
   },
   "stats": {
     "today_total": 31,
