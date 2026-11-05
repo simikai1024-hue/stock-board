@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:32:18",
-  "updated_at_et": "2026-11-05 08:32:18",
-  "updated_epoch_ms": 1793885538449,
+  "updated_at_kst": "2026-11-05 22:33:14",
+  "updated_at_et": "2026-11-05 08:33:14",
+  "updated_epoch_ms": 1793885594477,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.02,
-    "profit_rate": 34.0,
-    "updated_kst": "22:32:07"
+    "current_price": 4.07,
+    "profit_rate": 35.67,
+    "updated_kst": "22:33:11"
   },
   "stats": {
     "today_total": 13,
@@ -1497,6 +1497,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:32:51",
+      "time_kst": "22:32:51",
+      "symbol": "NANO",
+      "company_name": "NANO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $218.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:31:11",
       "time_kst": "22:31:11",
       "symbol": "MBOT",
@@ -1984,16 +1994,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:16:14",
-      "time_kst": "21:16:14",
-      "symbol": "TRIP",
-      "company_name": "TRIP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $978.61M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
