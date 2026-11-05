@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:31:09",
-  "updated_at_et": "2026-11-05 08:31:09",
-  "updated_epoch_ms": 1793885469145,
+  "updated_at_kst": "2026-11-05 22:31:33",
+  "updated_at_et": "2026-11-05 08:31:33",
+  "updated_epoch_ms": 1793885493041,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.9598,
-    "profit_rate": 31.99,
-    "updated_kst": "22:31:04"
+    "current_price": 3.97,
+    "profit_rate": 32.33,
+    "updated_kst": "22:31:29"
   },
   "stats": {
-    "today_total": 10,
-    "today_nblm_count": 10,
+    "today_total": 11,
+    "today_nblm_count": 11,
     "today_buy": 1,
-    "today_false": 9,
+    "today_false": 10,
     "today_hardcut": 60,
-    "total_verdicts": 70,
+    "total_verdicts": 71,
     "total_buy": 4,
-    "total_false": 66,
-    "avg_nblm_sec": 4.2
+    "total_false": 67,
+    "avg_nblm_sec": 3.8
   },
   "verdicts": [
+    {
+      "id": "v_1793885488368_BDMD_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:31:28",
+      "time_kst": "22:31:28",
+      "symbol": "BDMD",
+      "company_name": "BDMD",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([BDMD] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793884645731_MTEK_FALSE",
       "date_et": "2026-11-05",
@@ -1437,6 +1457,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:31:11",
+      "time_kst": "22:31:11",
+      "symbol": "MBOT",
+      "company_name": "MBOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $77.25M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:31:02",
       "time_kst": "22:31:02",
       "symbol": "FCAP",
@@ -1924,16 +1954,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $978.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:14:05",
-      "time_kst": "21:14:05",
-      "symbol": "VISN",
-      "company_name": "VISN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1374.53M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
