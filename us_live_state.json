@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 01:30:00",
-  "updated_at_et": "2026-11-05 11:30:00",
-  "updated_epoch_ms": 1793896200927,
+  "updated_at_kst": "2026-11-06 01:31:10",
+  "updated_at_et": "2026-11-05 11:31:10",
+  "updated_epoch_ms": 1793896270462,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:29:56"
+    "updated_kst": "01:31:07"
   },
   "stats": {
     "today_total": 30,
@@ -1837,6 +1837,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "11:30:34",
+      "time_kst": "01:30:34",
+      "symbol": "MDWD",
+      "company_name": "MDWD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $172.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "11:30:28",
+      "time_kst": "01:30:28",
+      "symbol": "MT",
+      "company_name": "MT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "11:27:33",
       "time_kst": "01:27:33",
       "symbol": "DAIC",
@@ -2314,26 +2334,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:59:30",
-      "time_kst": "21:59:30",
-      "symbol": "HOMB",
-      "company_name": "HOMB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:57:23",
-      "time_kst": "21:57:23",
-      "symbol": "HSAI",
-      "company_name": "HSAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1770.22M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
