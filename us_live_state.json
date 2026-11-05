@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:17:39",
-  "updated_at_et": "2026-11-05 07:17:39",
-  "updated_epoch_ms": 1793881059601,
+  "updated_at_kst": "2026-11-05 21:18:47",
+  "updated_at_et": "2026-11-05 07:18:47",
+  "updated_epoch_ms": 1793881127741,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.47,
-    "profit_rate": 49.0,
-    "updated_kst": "21:17:21"
+    "current_price": 4.4898,
+    "profit_rate": 49.66,
+    "updated_kst": "21:18:45"
   },
   "stats": {
     "today_total": 3,
@@ -1297,6 +1297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:18:05",
+      "time_kst": "21:18:05",
+      "symbol": "WEN",
+      "company_name": "WEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1473.88M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:17:16",
       "time_kst": "21:17:16",
       "symbol": "DFH",
@@ -1781,16 +1791,6 @@
       "time_kst": "20:07:30",
       "symbol": "MSC",
       "company_name": "MSC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:27",
-      "time_kst": "20:07:27",
-      "symbol": "TM",
-      "company_name": "TM",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
