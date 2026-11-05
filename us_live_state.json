@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:21:52",
-  "updated_at_et": "2026-11-05 08:21:52",
-  "updated_epoch_ms": 1793884912728,
+  "updated_at_kst": "2026-11-05 22:22:49",
+  "updated_at_et": "2026-11-05 08:22:49",
+  "updated_epoch_ms": 1793884969569,
   "analyzing": {
     "active": false
   },
@@ -13,13 +13,13 @@
     "session_label": "프리장실전",
     "watchlist_count": 164,
     "orderable_usd": 158.43,
-    "daily_done": false,
+    "daily_done": true,
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.22,
-    "profit_rate": 40.67,
-    "updated_kst": "22:21:48"
+    "current_price": 4.5698,
+    "profit_rate": 52.33,
+    "updated_kst": "22:22:47"
   },
   "stats": {
     "today_total": 10,
