@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:09:05",
-  "updated_at_et": "2026-11-05 08:09:05",
-  "updated_epoch_ms": 1793884145145,
+  "updated_at_kst": "2026-11-05 22:10:06",
+  "updated_at_et": "2026-11-05 08:10:06",
+  "updated_epoch_ms": 1793884206305,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.13,
-    "profit_rate": 37.67,
-    "updated_kst": "22:08:41"
+    "current_price": 4.1785,
+    "profit_rate": 39.28,
+    "updated_kst": "22:10:03"
   },
   "stats": {
     "today_total": 7,
@@ -1377,6 +1377,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:09:22",
+      "time_kst": "22:09:22",
+      "symbol": "CAC",
+      "company_name": "CAC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1006.44M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:09:03",
       "time_kst": "22:09:03",
       "symbol": "INM",
@@ -1864,16 +1874,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $695.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:07:56",
-      "time_kst": "21:07:56",
-      "symbol": "DIBS",
-      "company_name": "DIBS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $186.9M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
