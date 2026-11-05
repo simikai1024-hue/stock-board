@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:10:20",
-  "updated_at_et": "2026-11-05 09:10:20",
-  "updated_epoch_ms": 1793887820535,
+  "updated_at_kst": "2026-11-05 23:10:29",
+  "updated_at_et": "2026-11-05 09:10:29",
+  "updated_epoch_ms": 1793887829224,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BOSC",
+    "company_name": "BOS BETTER ONLINE SOLUTIONS LTD",
+    "exchange": "ND",
+    "price": 4.24,
+    "gain_pct": -0.09,
+    "mcap_m": 30.12,
+    "catalyst_hint": "[당일 PR] BOS Robotics Division Secures $650,000 Order for a Robotic Munitions Packing Line at a New Site of a Leading Israeli Defense Customer",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:10:24",
+    "started_at_kst": "23:10:24",
+    "started_epoch_ms": 1793887824200
   },
   "halt_watch": {
     "active": false
