@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:13:55",
-  "updated_at_et": "2026-11-05 07:13:55",
-  "updated_epoch_ms": 1793880835062,
+  "updated_at_kst": "2026-11-05 21:14:56",
+  "updated_at_et": "2026-11-05 07:14:56",
+  "updated_epoch_ms": 1793880896826,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1,
+    "current_price": 4.1001,
     "profit_rate": 36.67,
-    "updated_kst": "21:13:50"
+    "updated_kst": "21:14:53"
   },
   "stats": {
     "today_total": 2,
@@ -1277,6 +1277,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:14:05",
+      "time_kst": "21:14:05",
+      "symbol": "VISN",
+      "company_name": "VISN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1374.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:14:00",
+      "time_kst": "21:14:00",
+      "symbol": "OTEX",
+      "company_name": "OTEX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6438.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:12:54",
       "time_kst": "21:12:54",
       "symbol": "EVGN",
@@ -1751,26 +1771,6 @@
       "time_kst": "20:07:22",
       "symbol": "AU",
       "company_name": "AU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:20",
-      "time_kst": "20:07:20",
-      "symbol": "BABA",
-      "company_name": "BABA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:17",
-      "time_kst": "20:07:17",
-      "symbol": "RDY",
-      "company_name": "RDY",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
