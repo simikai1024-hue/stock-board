@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:53:22",
-  "updated_at_et": "2026-11-05 07:53:22",
-  "updated_epoch_ms": 1793883202330,
+  "updated_at_kst": "2026-11-05 21:54:24",
+  "updated_at_et": "2026-11-05 07:54:24",
+  "updated_epoch_ms": 1793883264217,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.0385,
-    "profit_rate": 34.62,
-    "updated_kst": "21:53:18"
+    "current_price": 4.0398,
+    "profit_rate": 34.66,
+    "updated_kst": "21:54:21"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:54:23",
+      "time_kst": "21:54:23",
+      "symbol": "GIL",
+      "company_name": "GIL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:52:23",
       "time_kst": "21:52:23",
       "symbol": "WDS",
@@ -1331,16 +1341,6 @@
       "time_kst": "21:52:20",
       "symbol": "BCE",
       "company_name": "BCE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:49:24",
-      "time_kst": "21:49:24",
-      "symbol": "GIL",
-      "company_name": "GIL",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
