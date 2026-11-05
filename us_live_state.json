@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:14:55",
-  "updated_at_et": "2026-11-05 09:14:55",
-  "updated_epoch_ms": 1793888095208,
+  "updated_at_kst": "2026-11-05 23:15:19",
+  "updated_at_et": "2026-11-05 09:15:19",
+  "updated_epoch_ms": 1793888119919,
   "analyzing": {
-    "active": true,
-    "symbol": "CISS",
-    "company_name": "CISS",
-    "exchange": "ND",
-    "price": 0.4769,
-    "gain_pct": -1.99,
-    "mcap_m": 0.71,
-    "catalyst_hint": "[당일 PR] C3is Inc. Announces Reverse Stock Split",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:14:52",
-    "started_at_kst": "23:14:52",
-    "started_epoch_ms": 1793888092956
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:14:47"
+    "updated_kst": "23:15:11"
   },
   "stats": {
-    "today_total": 23,
-    "today_nblm_count": 23,
+    "today_total": 24,
+    "today_nblm_count": 24,
     "today_buy": 1,
-    "today_false": 22,
+    "today_false": 23,
     "today_hardcut": 60,
-    "total_verdicts": 83,
+    "total_verdicts": 84,
     "total_buy": 4,
-    "total_false": 79,
-    "avg_nblm_sec": 8.2
+    "total_false": 80,
+    "avg_nblm_sec": 8.8
   },
   "verdicts": [
+    {
+      "id": "v_1793888116676_CISS_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:15:16",
+      "time_kst": "23:15:16",
+      "symbol": "CISS",
+      "company_name": "CISS",
+      "exchange": "ND",
+      "price": 0.4769,
+      "gain_pct": -1.99,
+      "mcap_m": 0.71,
+      "decision": "FALSE",
+      "elapsed_sec": 23.7,
+      "reason": "D-Day 미발효 미래 주식병합 예고(11/09 발효 예정) 발표는 1급 확정 기폭제 미달 및 전일 대비 -1.99% 약세로 전량 차단",
+      "catalyst_hint": "[당일 PR] C3is Inc. Announces Reverse Stock Split",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CISS (C3is Inc.) 정밀 직독 결재 보고입니다 [cite: 1, 9].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.71M USD (파이썬 1차 시가총액 $50.0M 이하 초소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $0.4866 대비 현재가 $0.4769 (-1.99% 약보합), 당일 최고가 $0.4914 (고점 대비 -3.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함 (미발효 미래 예정 병합)\n당일(11/05 09:00 ET) PR 원문 분석:\nPR 제목: \"C3is Inc. Announces Reverse Stock Split\"\n원문 팩트: 나스닥 상장 유지 최소 입찰가 요건 충족을 위해 주식병합(Reverse Stock Split)을 실시하며, 효력 발생일은 **2026년 11월 9일 (To be effective November 9, 2026)**입니다.\n치명적 기폭제 결함:\n[D-Day 미발효 미래 예정 병합]: 오늘(11/05) 당일 실제 주식병합 효력이 발생하는 D-Day 1일차가 아니며, 4일 뒤(11/09) 발효될 예정인 단독 주식병합 예고 보도자료에 불과합니다 [cite: 10].\n성공 표본인 PARA (+426.5% 폭등)의 경우 당일 실제 정관 변경 및 주식병합 효력이 발효되어 유통물량이 극단적으로 줄어든 D-Day 1일차였던 반면, CISS처럼 당일 효력이 없는 단순 미래 주식병합 예고는 숏스퀴즈 모멘텀을 형성하지 못합니다 [cite: 10].\n이는 전략 헌장 4번 규칙 및 오답 교본(\"무호재 단순 주식병합 예고 및 D-Day 미발효 미래 병합 발표는 100% FORCE_BLOCK\")에 정확히 저해됩니다 [cite: 10].\n현재 시세 역시 전일 대비 -1.99% 음봉 약세를 기록하고 있으며, 개장 전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 효력이 발생하지 않은 단순 미래 주식병합 예고(11월 9일 발효 예정)에 불과하여 전략 헌장 2번·4번 원칙에 의거 FORCE_BLOCK: CISS 처리합니다 [cite: 10].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: CISS NOTES:\n[CISS] D-Day 미발효 미래 주식병합 예고(11/09 발효 예정) 발표는 1급 확정 기폭제 미달 및 전일 대비 -1.99% 약세로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793888078208_SNWV_FALSE",
       "date_et": "2026-11-05",
