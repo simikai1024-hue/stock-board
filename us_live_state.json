@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:08:40",
-  "updated_at_et": "2026-11-05 07:08:40",
-  "updated_epoch_ms": 1793880520475,
+  "updated_at_kst": "2026-11-05 21:09:46",
+  "updated_at_et": "2026-11-05 07:09:46",
+  "updated_epoch_ms": 1793880586119,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.985,
-    "profit_rate": 32.83,
-    "updated_kst": "21:08:35"
+    "current_price": 4.17,
+    "profit_rate": 39.0,
+    "updated_kst": "21:09:41"
   },
   "stats": {
     "today_total": 2,
@@ -1277,6 +1277,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:08:40",
+      "time_kst": "21:08:40",
+      "symbol": "GENI",
+      "company_name": "GENI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:08:36",
       "time_kst": "21:08:36",
       "symbol": "CRNT",
@@ -1764,16 +1774,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3824.72M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:07",
-      "time_kst": "20:07:07",
-      "symbol": "INM",
-      "company_name": "INM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "사후 뒷북 행정 8-K 차단 (실제 주식병합 효력발생일이 이미 경과한 사후 신고서 & 당일 신규 PR 0건)"
     }
   ]
 }
