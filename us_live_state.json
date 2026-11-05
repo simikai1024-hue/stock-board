@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:21:09",
-  "updated_at_et": "2026-11-05 06:21:09",
-  "updated_epoch_ms": 1793877669400,
+  "updated_at_kst": "2026-11-05 20:22:03",
+  "updated_at_et": "2026-11-05 06:22:03",
+  "updated_epoch_ms": 1793877723955,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.6,
-    "profit_rate": 20.0,
-    "updated_kst": "20:20:52"
+    "current_price": 3.4902,
+    "profit_rate": 16.34,
+    "updated_kst": "20:22:00"
   },
   "stats": {
     "today_total": 1,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:21:09",
+      "time_kst": "20:21:09",
+      "symbol": "NGG",
+      "company_name": "NGG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:21:07",
       "time_kst": "20:21:07",
       "symbol": "IPHA",
@@ -1371,16 +1381,6 @@
       "time_kst": "20:07:27",
       "symbol": "TM",
       "company_name": "TM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:24",
-      "time_kst": "20:07:24",
-      "symbol": "NGG",
-      "company_name": "NGG",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
