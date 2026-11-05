@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:17:23",
-  "updated_at_et": "2026-11-05 09:17:23",
-  "updated_epoch_ms": 1793888243611,
+  "updated_at_kst": "2026-11-05 23:18:06",
+  "updated_at_et": "2026-11-05 09:18:06",
+  "updated_epoch_ms": 1793888286883,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:17:14"
+    "updated_kst": "23:17:55"
   },
   "stats": {
-    "today_total": 26,
-    "today_nblm_count": 26,
+    "today_total": 27,
+    "today_nblm_count": 27,
     "today_buy": 1,
-    "today_false": 25,
+    "today_false": 26,
     "today_hardcut": 60,
-    "total_verdicts": 86,
+    "total_verdicts": 87,
     "total_buy": 4,
-    "total_false": 82,
-    "avg_nblm_sec": 11.0
+    "total_false": 83,
+    "avg_nblm_sec": 12.1
   },
   "verdicts": [
+    {
+      "id": "v_1793888286325_MTVA_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:18:06",
+      "time_kst": "23:18:06",
+      "symbol": "MTVA",
+      "company_name": "MTVA",
+      "exchange": "ND",
+      "price": 1.29,
+      "gain_pct": -3.01,
+      "mcap_m": 8.5,
+      "decision": "FALSE",
+      "elapsed_sec": 41.2,
+      "reason": "DA-1726 임상 1상 Part 3B 중간 데이터(Interim Data) 발표는 1급 확정 기폭제 미달 및 전일 대비 -3.01% 약세로 전량 차단",
+      "catalyst_hint": "[당일 PR] MetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MTVA (MetaVia) 정밀 직독 결재 보고입니다 [cite: 1, 10].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.5M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $1.3300 대비 현재가 $1.2900 (-3.01% 약보합), 당일 최고가 $1.4200 (고점 대비 -9.2% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 08:55 ET) PR 및 SEC 8-K (Item 7.01, 8.01, 9.01) 원문 분석:\nPR 제목: \"MetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data\"\n원문 팩트: DA-1726의 임상 1상 Part 3B 중간 데이터(Interim Data) 분석 결과 통계적으로 유의미한 지방간 68% 감소 효과를 확인했다는 보도자료 [cite: 10].\n치명적 기폭제 결함:\n오늘 제출된 재료는 FDA 신약 최종 승인이나 Pivotal 임상 3상 톱라인(Top-line) 최종 성공 결과가 아니며, 단지 **초기 임상 1상 단계의 중간 결과 발표(Phase 1 Part 3B Interim Data)**에 불과합니다 [cite: 10].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액이 미기재된 단순 중간/탐색적 임상 데이터 발표' 범주에 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 10].\n현재 시세 반응 역시 전일 대비 -3.01% 음봉 약보합에 갇혀 있고 고점 대비 -9.2% 밀림이 발생하여 개장 전 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 임상 1상 중간 데이터(Interim Data) 발표에 불과하고 시세가 -3.01% 약세 흐름을 나타내어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MTVA 처리합니다 [cite: 10].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: MTVA NOTES:\n[MTVA] DA-1726 임상 1상 Part 3B 중간 데이터(Interim Data) 발표는 1급 확정 기폭제 미달 및 전일 대비 -3.01% 약세로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793888239251_KAPA_FALSE",
       "date_et": "2026-11-05",
@@ -1757,6 +1777,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:18:03",
+      "time_kst": "23:18:03",
+      "symbol": "APPS",
+      "company_name": "APPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1192.88M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:15:57",
       "time_kst": "23:15:57",
       "symbol": "AAPG",
@@ -2244,16 +2274,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1293.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:38:41",
-      "time_kst": "21:38:41",
-      "symbol": "AG",
-      "company_name": "AG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
