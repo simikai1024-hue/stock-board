@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:07:36",
-  "updated_at_et": "2026-11-05 09:07:36",
-  "updated_epoch_ms": 1793887656693,
+  "updated_at_kst": "2026-11-05 23:07:57",
+  "updated_at_et": "2026-11-05 09:07:57",
+  "updated_epoch_ms": 1793887677327,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "HCWB",
+    "company_name": "HCWB",
+    "exchange": "ND",
+    "price": 1.09,
+    "gain_pct": 0.93,
+    "mcap_m": 2.44,
+    "catalyst_hint": "[당일 PR] HCW Biologics Secures up to $10.0 Million in Cash Through Debt Financing",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:07:54",
+    "started_at_kst": "23:07:54",
+    "started_epoch_ms": 1793887674481
   },
   "halt_watch": {
     "active": false
@@ -1617,6 +1629,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:07:45",
+      "time_kst": "23:07:45",
+      "symbol": "BHAV",
+      "company_name": "BHAV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $142.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "09:07:42",
+      "time_kst": "23:07:42",
+      "symbol": "IMUX",
+      "company_name": "IMUX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $108.34M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "09:07:38",
+      "time_kst": "23:07:38",
+      "symbol": "MYGN",
+      "company_name": "MYGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $575.81M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:07:34",
       "time_kst": "23:07:34",
       "symbol": "DBX",
@@ -2084,36 +2126,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:37:48",
-      "time_kst": "21:37:48",
-      "symbol": "ALNY",
-      "company_name": "ALNY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $22618.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:35:37",
-      "time_kst": "21:35:37",
-      "symbol": "MRX",
-      "company_name": "MRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5059.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:32:08",
-      "time_kst": "21:32:08",
-      "symbol": "PSNY",
-      "company_name": "PSNY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $769.07M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
