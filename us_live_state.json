@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:07:58",
-  "updated_at_et": "2026-11-05 07:07:58",
-  "updated_epoch_ms": 1793880478315,
+  "updated_at_kst": "2026-11-05 21:08:40",
+  "updated_at_et": "2026-11-05 07:08:40",
+  "updated_epoch_ms": 1793880520475,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.03,
-    "profit_rate": 34.33,
-    "updated_kst": "21:07:53"
+    "current_price": 3.985,
+    "profit_rate": 32.83,
+    "updated_kst": "21:08:35"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 54,
+    "today_hardcut": 60,
     "total_verdicts": 62,
     "total_buy": 4,
     "total_false": 58,
@@ -1277,6 +1277,76 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:08:36",
+      "time_kst": "21:08:36",
+      "symbol": "CRNT",
+      "company_name": "CRNT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $195.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:08:30",
+      "time_kst": "21:08:30",
+      "symbol": "OKYO",
+      "company_name": "OKYO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $75.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:08:24",
+      "time_kst": "21:08:24",
+      "symbol": "NICE",
+      "company_name": "NICE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5873.52M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:08:17",
+      "time_kst": "21:08:17",
+      "symbol": "MCTA",
+      "company_name": "MCTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $504.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:08:12",
+      "time_kst": "21:08:12",
+      "symbol": "HSBC",
+      "company_name": "HSBC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:08:06",
+      "time_kst": "21:08:06",
+      "symbol": "HQ",
+      "company_name": "HQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $695.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:08:02",
+      "time_kst": "21:08:02",
+      "symbol": "ACB",
+      "company_name": "ACB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $344.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:07:56",
       "time_kst": "21:07:56",
       "symbol": "DIBS",
@@ -1704,76 +1774,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "사후 뒷북 행정 8-K 차단 (실제 주식병합 효력발생일이 이미 경과한 사후 신고서 & 당일 신규 PR 0건)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:59",
-      "time_kst": "20:06:59",
-      "symbol": "GCT",
-      "company_name": "GCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2066.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:45",
-      "time_kst": "20:06:45",
-      "symbol": "CMCL",
-      "company_name": "CMCL",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $398.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:38",
-      "time_kst": "20:06:38",
-      "symbol": "WDS",
-      "company_name": "WDS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:26",
-      "time_kst": "20:06:26",
-      "symbol": "BEKE",
-      "company_name": "BEKE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:21",
-      "time_kst": "20:06:21",
-      "symbol": "MLCO",
-      "company_name": "MLCO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1790.95M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:13",
-      "time_kst": "20:06:13",
-      "symbol": "IQMX",
-      "company_name": "IQMX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1695.99M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:08",
-      "time_kst": "20:06:08",
-      "symbol": "LFS",
-      "company_name": "LFS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.84M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
