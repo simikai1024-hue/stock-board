@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:46:08",
-  "updated_at_et": "2026-11-05 06:46:08",
-  "updated_epoch_ms": 1793879168151,
+  "updated_at_kst": "2026-11-05 20:47:12",
+  "updated_at_et": "2026-11-05 06:47:12",
+  "updated_epoch_ms": 1793879232752,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.54,
-    "profit_rate": 18.0,
-    "updated_kst": "20:45:50"
+    "current_price": 3.5498,
+    "profit_rate": 18.33,
+    "updated_kst": "20:47:10"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 40,
+    "today_hardcut": 42,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:46:35",
+      "time_kst": "20:46:35",
+      "symbol": "WRD",
+      "company_name": "WRD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1379.44M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:46:31",
+      "time_kst": "20:46:31",
+      "symbol": "CIM",
+      "company_name": "CIM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:46:05",
       "time_kst": "20:46:05",
       "symbol": "BLSH",
@@ -1734,26 +1754,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2163.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "11:54:17",
-      "time_kst": "01:54:17",
-      "symbol": "TVGN",
-      "company_name": "TVGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "11:16:02",
-      "time_kst": "01:16:02",
-      "symbol": "E",
-      "company_name": "E",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
