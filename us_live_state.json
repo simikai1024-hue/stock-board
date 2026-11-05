@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:30:07",
-  "updated_at_et": "2026-11-05 08:30:07",
-  "updated_epoch_ms": 1793885407922,
+  "updated_at_kst": "2026-11-05 22:31:09",
+  "updated_at_et": "2026-11-05 08:31:09",
+  "updated_epoch_ms": 1793885469145,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.02,
-    "profit_rate": 34.0,
-    "updated_kst": "22:30:05"
+    "current_price": 3.9598,
+    "profit_rate": 31.99,
+    "updated_kst": "22:31:04"
   },
   "stats": {
     "today_total": 10,
@@ -1437,6 +1437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:31:02",
+      "time_kst": "22:31:02",
+      "symbol": "FCAP",
+      "company_name": "FCAP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $215.33M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:27:04",
       "time_kst": "22:27:04",
       "symbol": "NXE",
@@ -1924,16 +1934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1374.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:14:00",
-      "time_kst": "21:14:00",
-      "symbol": "OTEX",
-      "company_name": "OTEX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6438.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
