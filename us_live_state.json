@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:15:20",
-  "updated_at_et": "2026-11-05 08:15:20",
-  "updated_epoch_ms": 1793884520728,
+  "updated_at_kst": "2026-11-05 22:16:24",
+  "updated_at_et": "2026-11-05 08:16:24",
+  "updated_epoch_ms": 1793884584148,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1185,
-    "profit_rate": 37.28,
-    "updated_kst": "22:15:15"
+    "current_price": 4.13,
+    "profit_rate": 37.67,
+    "updated_kst": "22:16:22"
   },
   "stats": {
     "today_total": 9,
@@ -1417,6 +1417,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:15:56",
+      "time_kst": "22:15:56",
+      "symbol": "IMC",
+      "company_name": "IMC",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $933.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:14:21",
       "time_kst": "22:14:21",
       "symbol": "NTES",
@@ -1904,16 +1914,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $195.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:08:30",
-      "time_kst": "21:08:30",
-      "symbol": "OKYO",
-      "company_name": "OKYO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $75.05M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
