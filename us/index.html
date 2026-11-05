@@ -312,7 +312,8 @@
       <button class="pwa-install-btn" id="pwaInstallBtn" onclick="installBoardApp()">📲 미국전광판 앱 설치</button>
       <div class="sound-ctrl-group">
         <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림·BGM 켜기</button>
-        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="심문 시작 크리스탈 차임 + 42초 네오소울 라운지 BGM 미리듣기">🎵 40초 BGM 들어보기</button>
+        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="올드보이 OST 6곡 무한 랜덤 재생 / 정지">🎻 올드보이 OST 랜덤</button>
+        <button class="sound-btn" id="nextOstBtn" onclick="skipNextOldboyOst()" title="다른 올드보이 OST 랜덤 곡으로 즉시 넘기기">⏭️ 다음곡</button>
         <button class="sound-btn" onclick="previewBuyFanfare()" title="BUY 매수 승인 골든 팡파레 들어보기">🎉 BUY음</button>
         <span class="vol-wrap">🔊<input type="range" id="volSlider" class="vol-slider" min="20" max="150" value="115" oninput="updateMasterVolume(this.value)"><span id="volPctLbl">115%</span></span>
       </div>
@@ -527,6 +528,10 @@ function ensureAudioGraph() {
   }
 }
 
+function getTargetOstVolume() {
+  return Math.max(0.05, Math.min(1.0, (masterVolScale / 1.50) * 0.92));
+}
+
 function updateMasterVolume(val) {
   const num = Math.max(20, Math.min(150, Number(val || 115)));
   masterVolScale = num / 100.0;
@@ -535,6 +540,9 @@ function updateMasterVolume(val) {
   try { localStorage.setItem("us_board_vol_pct", String(num)); } catch (e) {}
   if (masterGainNode && audioCtx) {
     masterGainNode.gain.setTargetAtTime(masterVolScale * 0.78, audioCtx.currentTime, 0.04);
+  }
+  if (typeof ostAudioEl !== "undefined" && ostAudioEl && !ostDuckTimer) {
+    ostAudioEl.volume = getTargetOstVolume();
   }
 }
 
@@ -694,8 +702,94 @@ function playWarmBass(freq, startT, dur, vol = 0.125, targetBus = null) {
   fifth.start(t0); fifth.stop(tEnd + 0.02);
 }
 
-/* 42초 라운지 BGM 즉시 부드럽게 페이드아웃 정지 */
-function stopLoungeBgm(fadeSec = 0.32) {
+/* 🎻 올드보이(Oldboy) OST 6대 명곡 랜덤 주크박스 & 심문 대기 BGM 엔진 */
+const OLDBOY_OST_TRACKS = [
+  { file: "oldboy_01_last_waltz.m4a", title: "The Last Waltz (미도의 테마)" },
+  { file: "oldboy_02_cries_whispers.m4a", title: "Cries and Whispers (우진의 테마)" },
+  { file: "oldboy_03_farewell_lovely.m4a", title: "Farewell, My Lovely (이별의 왈츠)" },
+  { file: "oldboy_04_frantic.m4a", title: "Frantic (장도리 복도 격투씬)" },
+  { file: "oldboy_05_look_whos_talking.m4a", title: "Look Who's Talking (오프닝)" },
+  { file: "oldboy_06_vivaldi_winter.m4a", title: "Vivaldi - 사계 겨울 1악장" }
+];
+
+let ostShuffleBag = [];
+let lastOstTrackIdx = -1;
+let currentOstTitle = "";
+let ostAudioEl = null;
+let ostFadeTimer = null;
+let ostDuckTimer = null;
+
+function resolveOstUrl(fileName) {
+  if (window.location.protocol === "file:") {
+    return "https://simikai1024-hue.github.io/stock-board/ost/" + fileName;
+  }
+  return "../ost/" + fileName;
+}
+
+function pickNextRandomOstTrack() {
+  if (ostShuffleBag.length === 0) {
+    const indices = OLDBOY_OST_TRACKS.map((_, i) => i);
+    for (let i = indices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [indices[i], indices[j]] = [indices[j], indices[i]];
+    }
+    if (indices.length > 1 && indices[0] === lastOstTrackIdx) {
+      [indices[0], indices[indices.length - 1]] = [indices[indices.length - 1], indices[0]];
+    }
+    ostShuffleBag = indices;
+  }
+  const nextIdx = ostShuffleBag.shift();
+  lastOstTrackIdx = nextIdx;
+  return OLDBOY_OST_TRACKS[nextIdx];
+}
+
+function ensureOstAudioElement() {
+  if (!ostAudioEl) {
+    ostAudioEl = new Audio();
+    ostAudioEl.preload = "auto";
+    ostAudioEl.addEventListener("ended", () => {
+      if (isBgmPlaying) {
+        playRandomOldboyTrack(isPreviewPlaying, false);
+      }
+    });
+    ostAudioEl.addEventListener("error", () => {
+      if (isBgmPlaying) {
+        setTimeout(() => {
+          if (isBgmPlaying) playRandomOldboyTrack(isPreviewPlaying, false);
+        }, 600);
+      }
+    });
+  }
+  return ostAudioEl;
+}
+
+function updateOstButtonLabel() {
+  const pBtn = document.getElementById("previewBgmBtn");
+  if (!pBtn) return;
+  if (isBgmPlaying) {
+    pBtn.className = "sound-btn playing";
+    pBtn.innerText = `⏹️ ${currentOstTitle || "올드보이 OST"}`;
+    pBtn.title = `현재 재생 중: ${currentOstTitle} (클릭 시 정지)`;
+  } else {
+    pBtn.className = "sound-btn";
+    pBtn.innerText = "🎻 올드보이 OST 랜덤";
+    pBtn.title = "올드보이 OST 6곡 무한 랜덤 재생 / 정지";
+  }
+}
+
+function duckOstTemporarily(durationMs = 2300) {
+  if (!ostAudioEl || ostAudioEl.paused) return;
+  if (ostDuckTimer) clearTimeout(ostDuckTimer);
+  ostAudioEl.volume = Math.max(0.03, getTargetOstVolume() * 0.20);
+  ostDuckTimer = setTimeout(() => {
+    ostDuckTimer = null;
+    if (ostAudioEl && !ostAudioEl.paused && isBgmPlaying) {
+      ostAudioEl.volume = getTargetOstVolume();
+    }
+  }, durationMs);
+}
+
+function stopLoungeBgm(fadeSec = 0.30) {
   if (bgmSchedulerTimer) {
     clearInterval(bgmSchedulerTimer);
     bgmSchedulerTimer = null;
@@ -703,6 +797,14 @@ function stopLoungeBgm(fadeSec = 0.32) {
   if (bgmStopTimer) {
     clearTimeout(bgmStopTimer);
     bgmStopTimer = null;
+  }
+  if (ostFadeTimer) {
+    clearInterval(ostFadeTimer);
+    ostFadeTimer = null;
+  }
+  if (ostDuckTimer) {
+    clearTimeout(ostDuckTimer);
+    ostDuckTimer = null;
   }
   if (bgmBusGain && audioCtx) {
     const oldBus = bgmBusGain;
@@ -716,131 +818,100 @@ function stopLoungeBgm(fadeSec = 0.32) {
       setTimeout(() => { try { oldBus.disconnect(); } catch (e) {} }, Math.ceil(fadeSec * 1000) + 120);
     } catch (e) {}
   }
+  if (ostAudioEl && !ostAudioEl.paused) {
+    const el = ostAudioEl;
+    const startVol = el.volume;
+    const steps = 6;
+    let step = 0;
+    const stepMs = Math.max(25, Math.floor((fadeSec * 1000) / steps));
+    ostFadeTimer = setInterval(() => {
+      step += 1;
+      if (step >= steps) {
+        clearInterval(ostFadeTimer);
+        ostFadeTimer = null;
+        try { el.pause(); el.currentTime = 0; } catch (e) {}
+      } else {
+        el.volume = Math.max(0.0, startVol * (1.0 - step / steps));
+      }
+    }, stepMs);
+  }
   isBgmPlaying = false;
   isPreviewPlaying = false;
-  const pBtn = document.getElementById("previewBgmBtn");
-  if (pBtn) {
-    pBtn.className = "sound-btn";
-    pBtn.innerText = "🎵 40초 BGM 들어보기";
-  }
+  currentOstTitle = "";
+  updateOstButtonLabel();
 }
 
-/* 시그니처 인트로 차임 + 42초 네오소울·재즈 라운지 심문 대기 BGM (경량 룩어헤드 스케줄러) */
+function playRandomOldboyTrack(asJukebox = false, withIntroChime = false) {
+  ensureAudioGraph();
+  if (ostFadeTimer) {
+    clearInterval(ostFadeTimer);
+    ostFadeTimer = null;
+  }
+  const el = ensureOstAudioElement();
+  const picked = pickNextRandomOstTrack();
+  currentOstTitle = picked.title;
+  isBgmPlaying = true;
+  isPreviewPlaying = asJukebox;
+  updateOstButtonLabel();
+
+  if (withIntroChime) {
+    [349.23, 440.00, 523.25, 659.25, 783.99].forEach((f, idx) => {
+      playCrystalBell(f, idx * 0.08, 1.15, 0.085);
+    });
+  }
+
+  try {
+    el.pause();
+    el.src = resolveOstUrl(picked.file);
+    el.volume = getTargetOstVolume();
+    const playPromise = el.play();
+    if (playPromise && typeof playPromise.catch === "function") {
+      playPromise.catch(() => {});
+    }
+  } catch (e) {}
+}
+
 function startLoungeAnalyzingBgm(isPreview = false) {
   ensureAudioGraph();
-  stopLoungeBgm(0.14);
-
-  const bus = audioCtx.createGain();
-  bus.gain.setValueAtTime(1.0, audioCtx.currentTime);
-  bus.connect(drySumBus);
-  bus.connect(fxSendBus);
-  bgmBusGain = bus;
-  isBgmPlaying = true;
-  isPreviewPlaying = isPreview;
-
-  if (isPreview) {
-    const pBtn = document.getElementById("previewBgmBtn");
-    if (pBtn) {
-      pBtn.className = "sound-btn playing";
-      pBtn.innerText = "⏹️ BGM 정지 (재생 중)";
-    }
-  }
-
-  const events = [];
-  const pushEv = (offsetSec, fn) => events.push({ offsetSec, fn });
-
-  // [Part 1: 0.0s ~ 1.7s] 고급 크리스탈 하프 호출 차임 (Fmaj9 아르페지오)
-  const introNotes = [349.23, 440.00, 523.25, 659.25, 783.99, 880.00, 1046.50];
-  introNotes.forEach((f, idx) => {
-    pushEv(idx * 0.11, (dt) => playCrystalBell(f, dt, 1.45, idx === 6 ? 0.105 : 0.082, bus));
-  });
-  [220.00, 261.63, 329.63, 392.00].forEach((f, idx) => {
-    pushEv(0.05 + idx * 0.035, (dt) => playRhodesNote(f, dt, 1.85, 0.062, bus));
-  });
-
-  // [Part 2: 1.85s ~ 42.05s] 4마디 네오소울 라운지 코드 진행 (Fmaj9 -> Em9 -> Dm9 -> Cmaj9) × 3회전
-  const barSec = 3.35;
-  const chords = [
-    { bass: 87.31,  notes: [220.00, 261.63, 329.63, 392.00] }, // Fmaj9
-    { bass: 82.41,  notes: [196.00, 246.94, 293.66, 369.99] }, // Em9
-    { bass: 73.42,  notes: [174.61, 220.00, 261.63, 329.63] }, // Dm9
-    { bass: 65.41,  notes: [164.81, 196.00, 246.94, 293.66] }  // Cmaj9
-  ];
-
-  const melodies = [
-    [
-      [0.45, 659.25, 1.3], [1.65, 587.33, 1.1], [2.45, 523.25, 1.4],
-      [3.90, 587.33, 1.3], [5.15, 493.88, 1.5],
-      [7.25, 523.25, 1.2], [8.35, 440.00, 1.1], [9.25, 392.00, 1.5],
-      [10.65, 440.00, 1.2], [11.80, 523.25, 1.6]
-    ],
-    [
-      [0.40, 783.99, 1.3], [1.55, 659.25, 1.1], [2.40, 587.33, 1.4],
-      [3.85, 659.25, 1.3], [5.10, 587.33, 1.5],
-      [7.20, 523.25, 1.2], [8.30, 587.33, 1.0], [9.15, 659.25, 1.5],
-      [10.60, 587.33, 1.2], [11.75, 523.25, 1.7]
-    ],
-    [
-      [0.45, 659.25, 1.3], [1.60, 783.99, 1.2], [2.55, 880.00, 1.4],
-      [3.95, 783.99, 1.3], [5.20, 659.25, 1.5],
-      [7.25, 587.33, 1.2], [8.40, 523.25, 1.1], [9.30, 440.00, 1.4],
-      [10.65, 523.25, 1.2], [11.85, 587.33, 1.6]
-    ]
-  ];
-
-  let cursor = 1.85;
-  for (let cyc = 0; cyc < 3; cyc++) {
-    const cycStart = cursor;
-    for (let b = 0; b < 4; b++) {
-      const bt = cycStart + b * barSec;
-      const ch = chords[b];
-      pushEv(bt, (dt) => playWarmBass(ch.bass, dt, barSec * 0.96, 0.125, bus));
-      ch.notes.forEach((nf, idx) => {
-        pushEv(bt + idx * 0.045, (dt) => playRhodesNote(nf, dt, barSec * 0.94, 0.078, bus));
-      });
-      pushEv(bt + barSec * 0.52, (dt) => playRhodesNote(ch.notes[1], dt, barSec * 0.42, 0.046, bus));
-      pushEv(bt + barSec * 0.55, (dt) => playRhodesNote(ch.notes[3], dt, barSec * 0.42, 0.046, bus));
-    }
-    melodies[cyc].forEach(([offset, mf, mdur]) => {
-      pushEv(cycStart + offset, (dt) => {
-        playCrystalBell(mf, dt, mdur, 0.092, bus);
-        playRhodesNote(mf * 0.5, dt, mdur * 0.9, 0.042, bus);
-      });
+  // 사용자가 이미 수동으로 올드보이 OST 주크박스를 듣고 있으면 끊지 않고 심문 시작 차임만 얹어줌!
+  if (!isPreview && isPreviewPlaying && isBgmPlaying && ostAudioEl && !ostAudioEl.paused) {
+    duckOstTemporarily(1400);
+    [349.23, 440.00, 523.25, 659.25, 880.00].forEach((f, idx) => {
+      playCrystalBell(f, idx * 0.08, 1.2, 0.095);
     });
-    cursor += barSec * 4;
+    return;
   }
+  stopLoungeBgm(0.10);
+  playRandomOldboyTrack(isPreview, !isPreview);
+}
 
-  // 42초 마무리 부드러운 Fmaj9 엔딩 여운
-  pushEv(cursor, (dt) => playWarmBass(87.31, dt, 2.8, 0.115, bus));
-  [220.00, 261.63, 329.63, 392.00, 523.25].forEach((nf, idx) => {
-    pushEv(cursor + idx * 0.06, (dt) => playRhodesNote(nf, dt, 2.8, 0.068, bus));
-  });
-  pushEv(cursor + 0.25, (dt) => playCrystalBell(659.25, dt, 2.5, 0.095, bus));
-
-  events.sort((a, b) => a.offsetSec - b.offsetSec);
-
-  // 1.65초 선행 스케줄링 (동시 활성 오실레이터 95% 절감 · 백그라운드 탭 버퍼 끊김 완벽 방지)
-  const baseAudioTime = audioCtx.currentTime + 0.025;
-  let evIdx = 0;
-  const pumpSchedule = () => {
-    if (!audioCtx || bgmBusGain !== bus) return;
-    const horizon = audioCtx.currentTime + 1.65;
-    while (evIdx < events.length && (baseAudioTime + events[evIdx].offsetSec) <= horizon) {
-      const ev = events[evIdx++];
-      const relStart = Math.max(0.012, (baseAudioTime + ev.offsetSec) - audioCtx.currentTime);
-      ev.fn(relStart);
+function unlockOstAudioOnGesture() {
+  try {
+    const el = ensureOstAudioElement();
+    if (!isBgmPlaying && (!el.src || el.paused)) {
+      const prevSrc = el.src;
+      el.muted = true;
+      el.src = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA";
+      const p = el.play();
+      if (p && typeof p.then === "function") {
+        p.then(() => {
+          if (!isBgmPlaying) { el.pause(); el.muted = false; if (prevSrc) el.src = prevSrc; }
+        }).catch(() => { el.muted = false; });
+      } else {
+        el.muted = false;
+      }
     }
-    if (evIdx >= events.length && bgmSchedulerTimer) {
-      clearInterval(bgmSchedulerTimer);
-      bgmSchedulerTimer = null;
-    }
-  };
-  pumpSchedule();
-  bgmSchedulerTimer = setInterval(pumpSchedule, 240);
+  } catch (e) {}
+}
 
-  bgmStopTimer = setTimeout(() => {
-    stopLoungeBgm(0.5);
-  }, Math.ceil((cursor + 3.1) * 1000));
+function skipNextOldboyOst() {
+  ensureAudioGraph();
+  if (!soundEnabled) {
+    soundEnabled = true;
+    const btn = document.getElementById("soundBtn");
+    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
+  }
+  playRandomOldboyTrack(true, false);
 }
 
 /* 알림음 컨트롤 */
@@ -854,6 +925,7 @@ function toggleSound() {
     if (isCurrentlyAnalyzing) {
       startLoungeAnalyzingBgm(false);
     } else {
+      unlockOstAudioOnGesture();
       [523.25, 659.25, 783.99, 1046.50].forEach((f, i) => playCrystalBell(f, i * 0.09, 1.0, 0.11));
     }
   } else {
@@ -901,8 +973,8 @@ function playEventSound(evType, forcePlay = false) {
   if (evType === "ANALYZING") {
     startLoungeAnalyzingBgm(false);
   } else if (evType === "VERDICT_BUY" || evType === "TRADE_BUY") {
-    // 대기 BGM 즉시 페이드아웃 후 -> 깨끗하고 선명한 골든 프레스티지 상승 팡파레!
-    stopLoungeBgm(0.26);
+    // 수동 주크박스 감상 중이면 음악을 끄지 않고 볼륨만 잠시 낮춘 뒤 팡파레 울림!
+    if (isPreviewPlaying && isBgmPlaying) { duckOstTemporarily(2500); } else { stopLoungeBgm(0.26); }
     const fanfare = [523.25, 659.25, 783.99, 987.77, 1174.66, 1567.98];
     fanfare.forEach((f, i) => {
       playCrystalBell(f, 0.06 + i * 0.085, 1.65, i >= 4 ? 0.135 : 0.11);
@@ -914,8 +986,8 @@ function playEventSound(evType, forcePlay = false) {
     playCrystalBell(1318.51, 0.72, 1.3, 0.125);
     playCrystalBell(1567.98, 0.90, 1.8, 0.145);
   } else if (evType === "VERDICT_FALSE") {
-    // 대기 BGM 부드럽게 종료 후 -> 편안하고 차분한 우드·로즈 안심 차임
-    stopLoungeBgm(0.30);
+    // 수동 주크박스 감상 중이면 볼륨만 잠시 낮춘 뒤 차임 울림!
+    if (isPreviewPlaying && isBgmPlaying) { duckOstTemporarily(1800); } else { stopLoungeBgm(0.30); }
     playRhodesNote(440.00, 0.05, 0.95, 0.095);
     playCrystalBell(523.25, 0.05, 0.85, 0.085);
     playRhodesNote(349.23, 0.28, 1.25, 0.10);
