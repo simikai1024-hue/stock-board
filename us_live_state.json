@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:09:29",
-  "updated_at_et": "2026-11-05 09:09:29",
-  "updated_epoch_ms": 1793887769040,
+  "updated_at_kst": "2026-11-05 23:09:46",
+  "updated_at_et": "2026-11-05 09:09:46",
+  "updated_epoch_ms": 1793887786263,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "IVF",
+    "company_name": "INVO Fertility, Inc.",
+    "exchange": "ND",
+    "price": 2.06,
+    "gain_pct": 0.49,
+    "mcap_m": 9.83,
+    "catalyst_hint": "[당일 PR] INVO Fertility Partners with PatientFi to Help Make Fertility Treatment More Affordable",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:09:41",
+    "started_at_kst": "23:09:41",
+    "started_epoch_ms": 1793887781367
   },
   "halt_watch": {
     "active": false
