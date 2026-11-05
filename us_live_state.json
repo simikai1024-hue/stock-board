@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:45:12",
-  "updated_at_et": "2026-11-05 09:45:12",
-  "updated_epoch_ms": 1793889912431,
+  "updated_at_kst": "2026-11-05 23:46:21",
+  "updated_at_et": "2026-11-05 09:46:21",
+  "updated_epoch_ms": 1793889981996,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:45:10"
+    "updated_kst": "23:46:17"
   },
   "stats": {
     "today_total": 28,
@@ -1797,6 +1797,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:46:18",
+      "time_kst": "23:46:18",
+      "symbol": "GFI",
+      "company_name": "GFI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:26:23",
       "time_kst": "23:26:23",
       "symbol": "MSIF",
@@ -2284,16 +2294,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1329.72M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:46:31",
-      "time_kst": "21:46:31",
-      "symbol": "VTRS",
-      "company_name": "VTRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $22569.79M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
