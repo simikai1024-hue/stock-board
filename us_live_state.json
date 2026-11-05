@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:17:00",
-  "updated_at_et": "2026-11-05 07:17:00",
-  "updated_epoch_ms": 1793881020826,
+  "updated_at_kst": "2026-11-05 21:17:39",
+  "updated_at_et": "2026-11-05 07:17:39",
+  "updated_epoch_ms": 1793881059601,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.42,
-    "profit_rate": 47.33,
-    "updated_kst": "21:16:57"
+    "current_price": 4.47,
+    "profit_rate": 49.0,
+    "updated_kst": "21:17:21"
   },
   "stats": {
-    "today_total": 2,
-    "today_nblm_count": 2,
+    "today_total": 3,
+    "today_nblm_count": 3,
     "today_buy": 1,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 60,
-    "total_verdicts": 62,
+    "total_verdicts": 63,
     "total_buy": 4,
-    "total_false": 58,
-    "avg_nblm_sec": 20.9
+    "total_false": 59,
+    "avg_nblm_sec": 13.9
   },
   "verdicts": [
+    {
+      "id": "v_1793881055103_FMFC_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "07:17:35",
+      "time_kst": "21:17:35",
+      "symbol": "FMFC",
+      "company_name": "Kandal M Venture Ltd",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 1.8,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([FMFC] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793880426756_GNPX_FALSE",
       "date_et": "2026-11-05",
@@ -1277,6 +1297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:17:16",
+      "time_kst": "21:17:16",
+      "symbol": "DFH",
+      "company_name": "DFH",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:16:14",
       "time_kst": "21:16:14",
       "symbol": "TRIP",
@@ -1761,16 +1791,6 @@
       "time_kst": "20:07:27",
       "symbol": "TM",
       "company_name": "TM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:22",
-      "time_kst": "20:07:22",
-      "symbol": "AU",
-      "company_name": "AU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
