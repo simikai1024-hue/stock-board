@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:25:04",
-  "updated_at_et": "2026-11-05 07:25:04",
-  "updated_epoch_ms": 1793881504205,
+  "updated_at_kst": "2026-11-05 21:26:05",
+  "updated_at_et": "2026-11-05 07:26:05",
+  "updated_epoch_ms": 1793881565049,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.2998,
-    "profit_rate": 43.33,
-    "updated_kst": "21:25:00"
+    "current_price": 4.2198,
+    "profit_rate": 40.66,
+    "updated_kst": "21:26:03"
   },
   "stats": {
     "today_total": 3,
@@ -1297,6 +1297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:25:27",
+      "time_kst": "21:25:27",
+      "symbol": "BLDP",
+      "company_name": "BLDP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $546.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:24:42",
       "time_kst": "21:24:42",
       "symbol": "ACB",
@@ -1784,16 +1794,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3602.9M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:14:20",
-      "time_kst": "20:14:20",
-      "symbol": "KC",
-      "company_name": "KC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2635.04M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
