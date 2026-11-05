@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:45:14",
-  "updated_at_et": "2026-11-05 06:45:14",
-  "updated_epoch_ms": 1793879114616,
+  "updated_at_kst": "2026-11-05 20:46:08",
+  "updated_at_et": "2026-11-05 06:46:08",
+  "updated_epoch_ms": 1793879168151,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.49,
-    "profit_rate": 16.33,
-    "updated_kst": "20:45:09"
+    "current_price": 3.54,
+    "profit_rate": 18.0,
+    "updated_kst": "20:45:50"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 37,
+    "today_hardcut": 40,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:46:05",
+      "time_kst": "20:46:05",
+      "symbol": "BLSH",
+      "company_name": "BLSH",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:45:41",
+      "time_kst": "20:45:41",
+      "symbol": "GLDG",
+      "company_name": "GLDG",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $172.39M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:45:37",
+      "time_kst": "20:45:37",
+      "symbol": "BBUC",
+      "company_name": "BBUC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:39:36",
       "time_kst": "20:39:36",
       "symbol": "PUK",
@@ -1721,36 +1751,6 @@
       "time_kst": "01:16:02",
       "symbol": "E",
       "company_name": "E",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "11:06:08",
-      "time_kst": "01:06:08",
-      "symbol": "SVM",
-      "company_name": "SVM",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1846.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "10:59:37",
-      "time_kst": "00:59:37",
-      "symbol": "ITUB",
-      "company_name": "ITUB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "10:46:19",
-      "time_kst": "00:46:19",
-      "symbol": "CRH",
-      "company_name": "CRH",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
