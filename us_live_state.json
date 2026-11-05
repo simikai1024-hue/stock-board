@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:29:58",
-  "updated_at_et": "2026-11-05 06:29:58",
-  "updated_epoch_ms": 1793878198951,
+  "updated_at_kst": "2026-11-05 20:30:57",
+  "updated_at_et": "2026-11-05 06:30:57",
+  "updated_epoch_ms": 1793878257103,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.4598,
-    "profit_rate": 15.33,
-    "updated_kst": "20:29:56"
+    "current_price": 3.44,
+    "profit_rate": 14.67,
+    "updated_kst": "20:30:35"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 31,
+    "today_hardcut": 32,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:30:54",
+      "time_kst": "20:30:54",
+      "symbol": "NTES",
+      "company_name": "NTES",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $80022.8M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:29:01",
       "time_kst": "20:29:01",
       "symbol": "DEO",
@@ -1744,16 +1754,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:53:24",
-      "time_kst": "23:53:24",
-      "symbol": "LKFT",
-      "company_name": "LKFT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2182.38M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
