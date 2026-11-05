@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:42:14",
-  "updated_at_et": "2026-11-05 08:42:14",
-  "updated_epoch_ms": 1793886134596,
+  "updated_at_kst": "2026-11-05 22:42:27",
+  "updated_at_et": "2026-11-05 08:42:27",
+  "updated_epoch_ms": 1793886147019,
   "analyzing": {
     "active": false
   },
@@ -22,17 +22,37 @@
     "updated_kst": "22:42:10"
   },
   "stats": {
-    "today_total": 14,
-    "today_nblm_count": 14,
+    "today_total": 15,
+    "today_nblm_count": 15,
     "today_buy": 1,
-    "today_false": 13,
+    "today_false": 14,
     "today_hardcut": 60,
-    "total_verdicts": 74,
+    "total_verdicts": 75,
     "total_buy": 4,
-    "total_false": 70,
-    "avg_nblm_sec": 3.0
+    "total_false": 71,
+    "avg_nblm_sec": 2.8
   },
   "verdicts": [
+    {
+      "id": "v_1793886142921_DRMA_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:42:22",
+      "time_kst": "22:42:22",
+      "symbol": "DRMA",
+      "company_name": "Dermata Therapeutics, Inc.",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 4.24,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([DRMA] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793886011000_NUWE_FALSE",
       "date_et": "2026-11-05",
