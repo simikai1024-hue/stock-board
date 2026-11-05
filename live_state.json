@@ -1,48 +1,9 @@
 {
-  "date": "2026-11-04",
-  "updated_at": "2026-11-04 21:13:38",
-  "history": [
-    {
-      "id": "1793770413539_101680_BUY",
-      "type": "BUY",
-      "auto_copy": false,
-      "time": "2026-11-04 14:33:33",
-      "name": "한국정밀기계",
-      "code": "101680",
-      "price": 2395,
-      "flu_rt": 0.0,
-      "val_uk": 0.0,
-      "target_price": 2475,
-      "stop_price": 2310,
-      "ammo_title": "⚡[KIND 실시간공시·대형공급계약] 👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주] (시총 201억)",
-      "ammo_date": "20261104",
-      "note": "🧠 연구소장 검수완료 [🔥대시세홀딩(HOLD_RUNNER)]: 시총 201억 초소형주에 우주·방산 핵심 섹터 78억 수주(매출비 25.5%·시총대비 38.8%) 및 8개월 단기계약으로 서한·혜인급 상한가 HOLD_RUNNER 판결 ===DART_AUDIT_EN",
-      "buy_price": 2395,
-      "qty": 45
-    },
-    {
-      "id": "1793770966703_101680_SELL",
-      "type": "SELL",
-      "auto_copy": false,
-      "time": "2026-11-04 14:42:46",
-      "name": "한국정밀기계",
-      "code": "101680",
-      "price": 2347,
-      "flu_rt": -0.21,
-      "val_uk": 0.0,
-      "target_price": 2425,
-      "stop_price": 2265,
-      "ammo_title": "📘 확정 손실: -2,383원 (-2.21%) | 매수 2,395원 → 매도 2,347원 (45주) [DART공시 10분 시장무반응 조기회전]",
-      "ammo_date": "",
-      "note": "⏰ DART공시 10분 시장무반응 조기회전 완료 | 확정 손익 -2,383원 (-2.21%)",
-      "pnl_krw": -2383,
-      "pnl_pct": -2.21,
-      "buy_price": 2395,
-      "qty": 45
-    }
-  ],
+  "date": "2026-11-05",
+  "updated_at": "2026-11-05 15:41:05",
+  "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-04 21:13:38",
+    "updated_at": "2026-11-05 15:41:05",
     "stats": {
       "total_closed": 1,
       "win_count": 0,
@@ -74,27 +35,15 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-04 21:13:38",
+    "updated_at": "2026-11-05 15:41:05",
     "stats": {
       "cooked_count": 11,
-      "today_cooked_count": 1,
+      "today_cooked_count": 0,
       "avg_day_high_pct": 19.39,
       "avg_open_to_high_pct": 19.59,
       "avg_post_disc_max_pct": 17.82
     },
     "preparing_list": [
-      {
-        "code": "101680",
-        "name": "한국정밀기계",
-        "mcap_uk": 201,
-        "prep_tag": "✨ 대형공급계약 폭발!",
-        "prep_detail": "👑[특S급] 수주 78억 (시총의 39% · 매출비 25.5%) · 키워드[우주]",
-        "prep_date": "2026-11-04",
-        "cooked_today": true,
-        "disc_time": "14:32",
-        "day_high_pct": 0.0,
-        "open_to_high_pct": 1.7
-      },
       {
         "code": "110790",
         "name": "크리스에프앤씨",
@@ -358,6 +307,17 @@
         "cur_price": 1044,
         "flu_rt": 0.0,
         "cooked_today": false
+      },
+      {
+        "code": "066700",
+        "name": "테라젠이텍스",
+        "mcap_uk": 724,
+        "prep_tag": "CB리픽싱 바닥",
+        "prep_detail": "[10/19] 전환가액의조정 (시총 724억)",
+        "prep_date": "2026-10-19",
+        "cur_price": 1975,
+        "flu_rt": -1.99,
+        "cooked_today": false
       }
     ],
     "cooked_list": [
@@ -388,7 +348,7 @@
         "day_high_pct": 0.0,
         "post_disc_max_pct": 0.0,
         "eod_finalized": true,
-        "is_today_live": true,
+        "is_today_live": false,
         "my_trade": {
           "status": "LOSS",
           "buy_price": 2395,
@@ -691,18 +651,18 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-04 21:13:38",
+    "updated_at": "2026-11-05 15:41:05",
     "stats": {
-      "total_evaluated": 25,
-      "win_5_count": 9,
+      "total_evaluated": 27,
+      "win_5_count": 10,
       "super_15_count": 2,
-      "loss_count": 16,
-      "win_5_rate_pct": 36.0,
-      "rep_total": 5,
-      "rep_win_count": 3,
+      "loss_count": 17,
+      "win_5_rate_pct": 37.0,
+      "rep_total": 6,
+      "rep_win_count": 4,
       "rep_super_count": 1,
       "rep_loss_count": 2,
-      "rep_win_rate_pct": 60.0
+      "rep_win_rate_pct": 66.7
     },
     "days": [
       {
@@ -710,7 +670,7 @@
         "weekday": "수요일",
         "weekday_short": "수",
         "predicted_at": "2026-11-04 21:11:35",
-        "evaluated": false,
+        "evaluated": true,
         "director_force_buy": [
           "101360",
           "452280"
@@ -763,8 +723,15 @@
               "[당일 09:28 디지털타임스] 자비스, ‘2026 푸드위크 코리아’서 식품 X-ray 이물검사기 ‘FSCAN’... — X-ray 검사장비 전문기업 자비스(대표 김형철, KOSDAQ 254120)는 11월 4일부터 7일까지 서울 코엑스에서 열리는 ‘2026 푸드위크 코리아(제21회 서울국제식품산업전)’에 참가해 식품",
               "[1102 10:21 동아일보] 자비스, 운영자금 30억원 단기 차입 결정 — X-ray 검사장비 업체 자비스(대표 김형철)가 금융기관에서 30억원을 단기 차입한다. 자비스는 지난달 30일 이 같은 내용을 공시하며 차입 목적을 운영자금으로 밝혔다. 회사 측은 원재료 구입에 쓸"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 43,
+            "eval_date": "2026-11-05",
+            "next_open": 4010,
+            "next_high": 4150,
+            "next_close": 3830,
+            "open_ret_pct": -4.98,
+            "max_ret_pct": -1.66,
+            "close_ret_pct": -9.24,
             "rank": 1,
             "target_5_price": 4430,
             "target_11_price": 4680,
@@ -772,7 +739,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "단일판매 공급계약 공시가 떴으나, 애프터 누적 거래대금이 1.15억 원(15억 미만)에 불과하여 소액 호가공백 착시이며 애프터 고가유지율이 93.4%(95% 미달)로 무너짐. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "101360",
@@ -800,16 +767,23 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
             "director_approved": true,
+            "eval_date": "2026-11-05",
+            "next_open": 9520,
+            "next_high": 10570,
+            "next_close": 9370,
+            "open_ret_pct": -5.27,
+            "max_ret_pct": 5.17,
+            "close_ret_pct": -6.77,
             "rank": 2,
             "target_5_price": 10550,
             "target_11_price": 11150,
             "target_15_price": 11550,
             "director_blocked": false,
             "director_note": "시총 1,786억 원의 완벽한 세력주 체급 + 정규장 +14.53%(77.3억) 주도 수급 형성 + 애프터마켓 거래대금 71.12억 원(18시 이후 63% 매집) 폭발 + 애프터 고가유지율 100.0% 완벽 칼지지 마감. 본장 폭발 후 애프터 고가 칼지지 매집형(패턴 ②)의 무결점 A+급 정답주! (최우선 승인)",
-            "result_grade": "WAIT"
+            "result_grade": "WIN"
           },
           {
             "code": "124500",
@@ -837,8 +811,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 52,
+            "eval_date": "2026-11-05",
+            "next_open": 20900,
+            "next_high": 22450,
+            "next_close": 20800,
+            "open_ret_pct": -0.95,
+            "max_ret_pct": 6.4,
+            "close_ret_pct": -1.42,
             "rank": 3,
             "target_5_price": 22150,
             "target_11_price": 23400,
@@ -846,7 +827,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 4,896억 원으로 중소형주 체급 상한(5,000억 원) 턱걸이 및 신규 DART 공시/뉴스 기폭제 부재. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "439580",
@@ -877,8 +858,15 @@
               "[16:49 DART공시] 연결재무제표기준영업(잠정)실적(공정공시)"
             ],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 47,
+            "eval_date": "2026-11-05",
+            "next_open": 1913,
+            "next_high": 1999,
+            "next_close": 1891,
+            "open_ret_pct": -0.57,
+            "max_ret_pct": 3.9,
+            "close_ret_pct": -1.72,
             "rank": 4,
             "target_5_price": 2020,
             "target_11_price": 2135,
@@ -886,7 +874,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "주식소각 공시가 제출되었으나 애프터 거래대금이 9.83억 원(15억 미만)에 그쳤고, 애프터 고가유지율이 87.9%로 심각하게 붕괴(95% 미달)되어 윗꼬리 매물 출회 확인. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "452280",
@@ -914,16 +902,23 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
             "director_approved": true,
+            "eval_date": "2026-11-05",
+            "next_open": 11540,
+            "next_high": 11740,
+            "next_close": 10440,
+            "open_ret_pct": -6.86,
+            "max_ret_pct": -5.25,
+            "close_ret_pct": -15.74,
             "rank": 5,
             "target_5_price": 13010,
             "target_11_price": 13750,
             "target_15_price": 14240,
             "director_blocked": false,
             "director_note": "시총 2,385억 원 체급 + 정규장 +7.98%(60.5억) + 애프터 거래대금 25.86억 원 + 고가유지율 98.2%로 양호한 A급 수급 지속. (승인)",
-            "result_grade": "WAIT"
+            "result_grade": "LOSS"
           },
           {
             "code": "190510",
@@ -954,8 +949,15 @@
               "[1102 06:00 경향신문] 리모델링 수직 증축의 미래, ‘나무 아파트’가 열까[올앳부동산] — 지난해 일본에서 열린 오사카·간사이 엑스포는 특별한 구조물로 눈길을 끌었다. ‘그랜드 링(Grand Ring)’이란 이름 그대로 지름이 675ｍ에 달해 각국 박람회장을 모두 감싸 안는 거대한 반지 ",
               "[1101 18:26 매일신문] 아틀라스 공급망 윤곽…대구경북 소부장, 휴머노이드 시장 진입 기대 — 현대차그룹 휴머노이드 로봇 '아틀라스'의 핵심 부품 공급망이 윤곽을 드러내면서 대구경북 소부장(소재·부품·장비) 기업들의 밸류체인 진입 가능성에 관심이 쏠린다. 국내 배터리 셀 기업의 로봇 시장 진"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
+            "eval_date": "2026-11-05",
+            "next_open": 16170,
+            "next_high": 16860,
+            "next_close": 15050,
+            "open_ret_pct": -3.12,
+            "max_ret_pct": 1.02,
+            "close_ret_pct": -9.83,
             "rank": 6,
             "target_5_price": 17520,
             "target_11_price": 18520,
@@ -963,7 +965,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "정규장 -0.30% 음봉 하락 후 애프터 착시 반등 나온 패턴으로 차단. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "114190",
@@ -991,8 +993,15 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
+            "eval_date": "2026-11-05",
+            "next_open": 8400,
+            "next_high": 8800,
+            "next_close": 7640,
+            "open_ret_pct": 8.67,
+            "max_ret_pct": 13.84,
+            "close_ret_pct": -1.16,
             "rank": 7,
             "target_5_price": 8110,
             "target_11_price": 8580,
@@ -1000,7 +1009,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시총 2,017억 원 체급 + 정규장 +5.39% + 애프터 22.81억 원 + 고가유지율 100.0%로 양호하나, 에코앤드림 대비 거래대금 집중도에서 밀림. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "376900",
@@ -1032,8 +1041,15 @@
               "[1103 16:42 연합뉴스] [바이오스냅] GC녹십자웰빙, 음성에 의료기기 GMP 공장 착공 — 휴온스그룹 팬젠, 독일 쾰른 바이오 유럽 참가 GC녹십자웰빙이 메디컬 에스테틱 분야 사업 확대를 위해 의료기기 공장을 착공했다. ▲ GC녹십자웰빙은 충북 음성 공장 내에 의료기기 GMP(의약품 제조",
               "[1103 09:30 서울신문] 검색 1·2위 삼성전자·SK하이닉스 내리고 한진칼 8%대 상승 — 3일 오전 9시 5분 개장 직후 투자자의 관심은 삼성전자(005930)와 SK하이닉스(000660)에 쏠렸다. 네이버 증권에 따르면 검색 1위 삼성전자는 21만9000원으로 4.37% 하락했다. 검"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
+            "eval_date": "2026-11-05",
+            "next_open": 20150,
+            "next_high": 21050,
+            "next_close": 18830,
+            "open_ret_pct": 2.28,
+            "max_ret_pct": 6.85,
+            "close_ret_pct": -4.42,
             "rank": 8,
             "target_5_price": 20650,
             "target_11_price": 21850,
@@ -1041,7 +1057,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "정규장 -3.73% 대음봉 하락 후 애프터 착시 반등 나온 전형적인 실패 패턴. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "322000",
@@ -1073,8 +1089,15 @@
               "[당일 18:11 SBS Biz] 코스피 막판 뒤집기…'블루 웨이브' 수혜주 폭등 — 미국 선거결과를 기다리던 증시는 그야말로 극과 극을 오가는 롤러코스터를 탔습니다. 2% 넘게 장을 시작했던 코스피는 한때 4%나 폭락하면서 우려를 자아냈는데요. 예상대로 '블루웨이브'가 현실화하자,",
               "[당일 17:55 동행미디어 시대] 미 중간선거 '블루 웨이브', 코스피 5400→5680선으로 — 4일 국내 증시가 미국 중간선거 결과에 출렁였다. AI 데이터센터 규제 우려에 반도체와 전력기기는 약세를 보였지만 친환경 에너지 관련주는 급등했다. 선거 불확실성에 급락했던 지수는 낙폭을 회복하며 "
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-11-05",
+            "next_open": 90000,
+            "next_high": 96900,
+            "next_close": 89900,
+            "open_ret_pct": -1.1,
+            "max_ret_pct": 6.48,
+            "close_ret_pct": -1.21,
             "rank": 9,
             "target_5_price": 95500,
             "target_11_price": 101000,
@@ -1082,7 +1105,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 1조 192억 원 대형주로 가벼운 중소형 세력주 체급 관문(5,000억 원 이하) 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "089890",
@@ -1112,8 +1135,15 @@
             "news_headlines": [
               "[당일 11:34 서울경제] 삼전닉스 연이틀 약세에도…상위 1% 고수들은 ‘줍줍’ [주식 초고수... — 미래에셋증권(006800)에서 거래하는 고수익 투자자들이 4일 오전 가장 많이 순매수한 종목은 삼성전자(005930), SK하이닉스(000660), 삼성SDI(006400) 순으로 집계됐다. 미래에"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
+            "eval_date": "2026-11-05",
+            "next_open": 29850,
+            "next_high": 31100,
+            "next_close": 27000,
+            "open_ret_pct": -9.27,
+            "max_ret_pct": -5.47,
+            "close_ret_pct": -17.93,
             "rank": 10,
             "target_5_price": 34500,
             "target_11_price": 36500,
@@ -1121,7 +1151,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 5,456억 원으로 체급 기준(5,000억 원 이하) 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "126340",
@@ -1151,8 +1181,15 @@
             "news_headlines": [
               "[당일 10:04 디지털데일리] 韓 부품 61개사, 獨 일렉트로니카 2026서 AI 전력 기술 공략 — 국내 전자부품 기업 61개사가 세계 최대 전자부품 전시회 '일렉트로니카 2026'에 참가해 급증하는 인공지능(AI) 인프라 전력 수요를 겨냥한 차세대 소재와 반도체 솔루션을 대거 선보인다. 4일 관"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
+            "eval_date": "2026-11-05",
+            "next_open": 92100,
+            "next_high": 96200,
+            "next_close": 77900,
+            "open_ret_pct": -6.59,
+            "max_ret_pct": -2.43,
+            "close_ret_pct": -20.99,
             "rank": 11,
             "target_5_price": 103500,
             "target_11_price": 109400,
@@ -1160,7 +1197,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 7,080억 원으로 체급 기준(5,000억 원 이하) 초과. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "107640",
@@ -1192,8 +1229,15 @@
               "[1103 10:47 서울경제] 오늘의 메모[11월 4일] — ▲구주주유상청약=삼성FN리츠(448730) ▲주권변경상장=HDC·하나투어(주식소각) ▲공모주청약=넥스아이(주관사 한국) 영광와이케이엠씨(대신) ▲보통주추가상장=HLB이노베이션(024850)(국내CB",
               "[1101 13:21 디지털타임스] 이소영 中企, ‘1박2일 현장속으로’…경상권 확장 — 이소영 중소벤처기업부 장관이 전국 팔도에 있는 기업 현장을 찾아가는 '1박2일 현장속으로'가 경상권으로 확장됐다. 중기부는 1일 이소영 장관의 현장 소통 행보가 취임 후 첫 방문지인 충청도에 이어 "
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 53,
+            "eval_date": "2026-11-05",
+            "next_open": 52200,
+            "next_high": 54200,
+            "next_close": 47600,
+            "open_ret_pct": -1.51,
+            "max_ret_pct": 2.26,
+            "close_ret_pct": -10.19,
             "rank": 12,
             "target_5_price": 55600,
             "target_11_price": 58800,
@@ -1201,7 +1245,7 @@
             "director_approved": false,
             "director_blocked": true,
             "director_note": "시가총액 4,840억 원으로 5,000억 상한선에 육박하며, 정규장 +16.11% 급등 후 애프터 상승 탄력(+2.12%) 둔화. (차단)",
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           }
         ]
       },
