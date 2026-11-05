@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:52:23",
-  "updated_at_et": "2026-11-05 07:52:23",
-  "updated_epoch_ms": 1793883143426,
+  "updated_at_kst": "2026-11-05 21:53:22",
+  "updated_at_et": "2026-11-05 07:53:22",
+  "updated_epoch_ms": 1793883202330,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.11,
-    "profit_rate": 37.0,
-    "updated_kst": "21:52:10"
+    "current_price": 4.0385,
+    "profit_rate": 34.62,
+    "updated_kst": "21:53:18"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:52:23",
+      "time_kst": "21:52:23",
+      "symbol": "WDS",
+      "company_name": "WDS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:52:20",
       "time_kst": "21:52:20",
       "symbol": "BCE",
@@ -1804,16 +1814,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:46:35",
-      "time_kst": "20:46:35",
-      "symbol": "WRD",
-      "company_name": "WRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1379.44M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
