@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 04:24:06",
-  "updated_at_et": "2026-11-05 14:24:06",
-  "updated_epoch_ms": 1793906646028,
+  "updated_at_kst": "2026-11-06 04:25:15",
+  "updated_at_et": "2026-11-05 14:25:15",
+  "updated_epoch_ms": 1793906715030,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:24:03"
+    "updated_kst": "04:25:10"
   },
   "stats": {
     "today_total": 32,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "14:24:11",
+      "time_kst": "04:24:11",
+      "symbol": "OBE",
+      "company_name": "OBE",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $605.87M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "14:18:26",
       "time_kst": "04:18:26",
       "symbol": "TGS",
@@ -2361,16 +2371,6 @@
       "time_kst": "22:27:04",
       "symbol": "NXE",
       "company_name": "NXE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:26:59",
-      "time_kst": "22:26:59",
-      "symbol": "VMRK",
-      "company_name": "VMRK",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
