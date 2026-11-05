@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:31:43",
-  "updated_at_et": "2026-11-05 06:31:43",
-  "updated_epoch_ms": 1793878303761,
+  "updated_at_kst": "2026-11-05 20:32:41",
+  "updated_at_et": "2026-11-05 06:32:41",
+  "updated_epoch_ms": 1793878361573,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.4997,
-    "profit_rate": 16.66,
-    "updated_kst": "20:31:38"
+    "current_price": 3.47,
+    "profit_rate": 15.67,
+    "updated_kst": "20:32:41"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 33,
+    "today_hardcut": 34,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:32:38",
+      "time_kst": "20:32:38",
+      "symbol": "EVMN",
+      "company_name": "EVMN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:31:40",
       "time_kst": "20:31:40",
       "symbol": "SSMR",
@@ -1741,16 +1751,6 @@
       "time_kst": "00:39:33",
       "symbol": "ENVA",
       "company_name": "ENVA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "10:36:32",
-      "time_kst": "00:36:32",
-      "symbol": "CEPU",
-      "company_name": "CEPU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
