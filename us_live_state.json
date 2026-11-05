@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 04:02:57",
-  "updated_at_et": "2026-11-05 14:02:57",
-  "updated_epoch_ms": 1793905377682,
+  "updated_at_kst": "2026-11-06 04:03:40",
+  "updated_at_et": "2026-11-05 14:03:40",
+  "updated_epoch_ms": 1793905420024,
   "analyzing": {
-    "active": true,
-    "symbol": "VRM",
-    "company_name": "Vroom, Inc.",
-    "exchange": "ND",
-    "price": 6.67,
-    "gain_pct": -4.71,
-    "mcap_m": 34.91,
-    "catalyst_hint": "[당일 PR] Robert J. Mylod, Jr. Elected a Director of Graham Holdings Company",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "14:02:52",
-    "started_at_kst": "04:02:52",
-    "started_epoch_ms": 1793905372157
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:02:40"
+    "updated_kst": "04:03:17"
   },
   "stats": {
-    "today_total": 31,
-    "today_nblm_count": 31,
+    "today_total": 32,
+    "today_nblm_count": 32,
     "today_buy": 1,
-    "today_false": 30,
+    "today_false": 31,
     "today_hardcut": 60,
-    "total_verdicts": 91,
+    "total_verdicts": 92,
     "total_buy": 4,
-    "total_false": 87,
-    "avg_nblm_sec": 15.9
+    "total_false": 88,
+    "avg_nblm_sec": 16.9
   },
   "verdicts": [
+    {
+      "id": "v_1793905417577_VRM_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "14:03:37",
+      "time_kst": "04:03:37",
+      "symbol": "VRM",
+      "company_name": "Vroom, Inc.",
+      "exchange": "ND",
+      "price": 6.67,
+      "gain_pct": -4.71,
+      "mcap_m": 34.91,
+      "decision": "FALSE",
+      "elapsed_sec": 48.6,
+      "reason": "타기업(Graham Holdings Company) 이사 선출 단순 홍보 뉴스 및 -4.71% 음봉 약세로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Robert J. Mylod, Jr. Elected a Director of Graham Holdings Company",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 VRM (Vroom, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $34.91M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $7.0000 대비 현재가 $6.6700 (-4.71% 약보합), 당일 최고가 $7.1100 (고점 대비 -6.2% 밀림)\n. 당일 누적 거래대금 $32,603 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함\n당일(11/05 13:50 ET) PR 원문 분석:\nPR 제목: *\"Robert J. Mylod, Jr. Elected a Director of Graham Holdings Company\"*\n원문 팩트: 타기업인 그레이엄 홀딩스(Graham Holdings Company, NYSE: GHC)에서 Robert J. Mylod, Jr.를 자사 이사회 이사로 선출했다는 타법인 보도자료입니다.\n치명적 기폭제 결함:\n[타기업 이사 선출 관련 뉴스 착시]: VRM 본체의 확정적 기업 가치 상승이나 현금 유입, 대형 수주/계약이 아니라, 타법인(GHC)의 이사 선임 소식에 VRM 관련 인물이 포함되어 태그로 수신된 타법인 단순 인사 보도자료 착시입니다.\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 임원/이사 선임, 타법인 뉴스, 주주서한' 범주에 정확히 속하므로 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다.\n현재 주가 반응 역시 전일 대비 -4.71% 음봉 약세를 기록하고 있으며, 당일 거래대금($32,603 USD)도 극히 빈약하여 세력 매집 유동성이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 타기업 이사 선출 관련 소식에 불과하고 VRM 본체의 확정 1급 재료가 부재하며, 전일 대비 -4.71% 음봉 약세를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: VRM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: VRM NOTES:\n[VRM] 타기업(Graham Holdings Company) 이사 선출 단순 홍보 뉴스 및 -4.71% 음봉 약세로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793898615604_GYRO_FALSE",
       "date_et": "2026-11-05",
