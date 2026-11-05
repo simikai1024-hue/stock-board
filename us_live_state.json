@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 02:09:42",
-  "updated_at_et": "2026-11-05 12:09:42",
-  "updated_epoch_ms": 1793898582549,
+  "updated_at_kst": "2026-11-06 02:10:18",
+  "updated_at_et": "2026-11-05 12:10:18",
+  "updated_epoch_ms": 1793898618907,
   "analyzing": {
-    "active": true,
-    "symbol": "GYRO",
-    "company_name": "GYRO",
-    "exchange": "ND",
-    "price": 4.16,
-    "gain_pct": 0.97,
-    "mcap_m": 9.15,
-    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "12:09:38",
-    "started_at_kst": "02:09:38",
-    "started_epoch_ms": 1793898578655
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:09:26"
+    "updated_kst": "02:10:08"
   },
   "stats": {
-    "today_total": 30,
-    "today_nblm_count": 30,
+    "today_total": 31,
+    "today_nblm_count": 31,
     "today_buy": 1,
-    "today_false": 29,
+    "today_false": 30,
     "today_hardcut": 60,
-    "total_verdicts": 90,
+    "total_verdicts": 91,
     "total_buy": 4,
-    "total_false": 86,
-    "avg_nblm_sec": 15.1
+    "total_false": 87,
+    "avg_nblm_sec": 15.9
   },
   "verdicts": [
+    {
+      "id": "v_1793898615604_GYRO_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "12:10:15",
+      "time_kst": "02:10:15",
+      "symbol": "GYRO",
+      "company_name": "GYRO",
+      "exchange": "ND",
+      "price": 4.16,
+      "gain_pct": 0.97,
+      "mcap_m": 9.15,
+      "decision": "FALSE",
+      "elapsed_sec": 40.3,
+      "reason": "정기 주주총회 CEO 연설문 제출 공시(Item 7.01)는 1급 확정 기폭제 미달 및 장전 보합(+0.97%)으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 GYRO (Gyrodyne, LLC) 정밀 직독 결재 보고입니다 [cite: 403, 404].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.15M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 403].\n실시간 시세 및 수급: 전일 종가 $4.1200 대비 현재가 $4.1600 (+0.97% 보합), 당일 최고가 $4.2000 (고점 대비 -1.0%) [cite: 403]. 당일 누적 거래대금 $6,861 USD [cite: 403].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 12:09 ET) SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 404].\n원문 팩트: \"Gary Fitlin, President, Chief Executive Officer... presented remarks at the Company's 2026 Annual Shareholders Meeting held on November 5, 2026. The text of Mr. Fitlin's remarks is attached hereto as Exhibit 99.1...\" [cite: 404]\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니라, 단순 정기 주주총회 경영진 연설문/주주서한(CEO Remarks at Annual Shareholders Meeting) 제출에 불과합니다 [cite: 24, 404].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 주주서한/주주총회 연설문/IR 자료' 범주에 정확히 속합니다 [cite: 24].\n주가 반응 역시 전일 대비 +0.97% 보합권에 갇혀 있으며, 거래대금($6,861 USD)도 빈약하여 세력 수급 유입 모멘텀이 전무합니다 [cite: 403].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 주주총회 CEO 연설문(Item 7.01) 제출에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GYRO 처리합니다 [cite: 24, 404].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 24].\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: GYRO NOTES:\n[GYRO] 정기 주주총회 CEO 연설문 제출 공시(Item 7.01)는 1급 확정 기폭제 미달 및 장전 보합(+0.97%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793896063757_SEGG_FALSE",
       "date_et": "2026-11-05",
