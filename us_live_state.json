@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:09:46",
-  "updated_at_et": "2026-11-05 09:09:46",
-  "updated_epoch_ms": 1793887786263,
+  "updated_at_kst": "2026-11-05 23:10:20",
+  "updated_at_et": "2026-11-05 09:10:20",
+  "updated_epoch_ms": 1793887820535,
   "analyzing": {
-    "active": true,
-    "symbol": "IVF",
-    "company_name": "INVO Fertility, Inc.",
-    "exchange": "ND",
-    "price": 2.06,
-    "gain_pct": 0.49,
-    "mcap_m": 9.83,
-    "catalyst_hint": "[당일 PR] INVO Fertility Partners with PatientFi to Help Make Fertility Treatment More Affordable",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:09:41",
-    "started_at_kst": "23:09:41",
-    "started_epoch_ms": 1793887781367
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:25"
+    "updated_kst": "23:10:15"
   },
   "stats": {
-    "today_total": 20,
-    "today_nblm_count": 20,
+    "today_total": 21,
+    "today_nblm_count": 21,
     "today_buy": 1,
-    "today_false": 19,
+    "today_false": 20,
     "today_hardcut": 60,
-    "total_verdicts": 80,
+    "total_verdicts": 81,
     "total_buy": 4,
-    "total_false": 76,
-    "avg_nblm_sec": 4.0
+    "total_false": 77,
+    "avg_nblm_sec": 5.5
   },
   "verdicts": [
+    {
+      "id": "v_1793887815412_IVF_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:10:15",
+      "time_kst": "23:10:15",
+      "symbol": "IVF",
+      "company_name": "INVO Fertility, Inc.",
+      "exchange": "ND",
+      "price": 2.06,
+      "gain_pct": 0.49,
+      "mcap_m": 9.83,
+      "decision": "FALSE",
+      "elapsed_sec": 35.5,
+      "reason": "PatientFi 제휴 환자 파이낸싱 옵션 발표는 구체적 수주 금액이 부재한 단순 파트너십 공시로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] INVO Fertility Partners with PatientFi to Help Make Fertility Treatment More Affordable",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 IVF (INVO Fertility, Inc.) 정밀 직독 결재 보고입니다 [cite: 10, 13].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.83M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $2.0500 대비 현재가 $2.0600 (+0.49% 보합), 당일 최고가 $2.1700 (고점 대비 -5.1% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:00 ET) PR 원문 분석:\nPR 제목: \"INVO Fertility Partners with PatientFi to Help Make Fertility Treatment More Affordable\"\n원문 팩트: 환자 대상 시술비 할부/결제 파이낸싱 옵션을 제공하기 위해 PatientFi와 제휴(Partnership)를 체결했다는 발표.\n치명적 기폭제 결함:\n오늘 제출된 재료는 회사로 직접 유입되는 확정적 매출 수주액이나 대형 자산 매각/M&A 계약이 아니라, 단순 고객 결제 편의용 금융 플랫폼 제휴/파트너십(Financing Partnering) 소식입니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '구체적 달러($) 금액 미기재 단순 MOU/제휴/특허/주주서한' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 10, 13].\n현재 시세 반응도 +0.49% 보합권으로 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구체적 달러($) 수주/계약 금액이 부재한 단순 고객 파이낸싱 제휴 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: IVF 처리합니다 [cite: 10, 13].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: IVF NOTES:\n[IVF] PatientFi 제휴 환자 파이낸싱 옵션 발표는 구체적 수주 금액이 부재한 단순 파트너십 공시로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793887713594_HCWB_FALSE",
       "date_et": "2026-11-05",
