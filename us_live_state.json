@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 02:02:33",
-  "updated_at_et": "2026-11-05 12:02:33",
-  "updated_epoch_ms": 1793898153683,
+  "updated_at_kst": "2026-11-06 02:03:14",
+  "updated_at_et": "2026-11-05 12:03:14",
+  "updated_epoch_ms": 1793898194867,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:02:29"
+    "updated_kst": "02:02:53"
   },
   "stats": {
     "today_total": 30,
@@ -1837,6 +1837,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "12:03:10",
+      "time_kst": "02:03:10",
+      "symbol": "FSM",
+      "company_name": "FSM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "11:57:15",
       "time_kst": "01:57:15",
       "symbol": "BTI",
@@ -2324,16 +2334,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $170.78M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:01:06",
-      "time_kst": "22:01:06",
-      "symbol": "HNVR",
-      "company_name": "HNVR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $162.35M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
