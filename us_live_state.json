@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 03:57:59",
-  "updated_at_et": "2026-11-05 13:57:59",
-  "updated_epoch_ms": 1793905079730,
+  "updated_at_kst": "2026-11-06 03:59:04",
+  "updated_at_et": "2026-11-05 13:59:04",
+  "updated_epoch_ms": 1793905144143,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "03:57:55"
+    "updated_kst": "03:59:00"
   },
   "stats": {
     "today_total": 31,
@@ -1857,6 +1857,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "13:58:23",
+      "time_kst": "03:58:23",
+      "symbol": "DNN",
+      "company_name": "DNN",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1810.43M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "13:58:17",
+      "time_kst": "03:58:17",
+      "symbol": "STKE",
+      "company_name": "STKE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "13:25:37",
       "time_kst": "03:25:37",
       "symbol": "HSBC",
@@ -2207,16 +2227,6 @@
     },
     {
       "date_et": "2026-11-05",
-      "time_et": "08:53:28",
-      "time_kst": "22:53:28",
-      "symbol": "STKE",
-      "company_name": "STKE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-05",
       "time_et": "08:47:12",
       "time_kst": "22:47:12",
       "symbol": "GEHC",
@@ -2344,16 +2354,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $933.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:14:21",
-      "time_kst": "22:14:21",
-      "symbol": "NTES",
-      "company_name": "NTES",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $80239.35M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
