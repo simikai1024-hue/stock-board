@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:47:07",
-  "updated_at_et": "2026-11-05 08:47:07",
-  "updated_epoch_ms": 1793886427919,
+  "updated_at_kst": "2026-11-05 22:47:35",
+  "updated_at_et": "2026-11-05 08:47:35",
+  "updated_epoch_ms": 1793886455865,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:47:05"
+    "updated_kst": "22:47:23"
   },
   "stats": {
-    "today_total": 15,
-    "today_nblm_count": 15,
+    "today_total": 16,
+    "today_nblm_count": 16,
     "today_buy": 1,
-    "today_false": 14,
+    "today_false": 15,
     "today_hardcut": 60,
-    "total_verdicts": 75,
+    "total_verdicts": 76,
     "total_buy": 4,
-    "total_false": 71,
-    "avg_nblm_sec": 2.8
+    "total_false": 72,
+    "avg_nblm_sec": 2.6
   },
   "verdicts": [
+    {
+      "id": "v_1793886453795_NTRP_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:47:33",
+      "time_kst": "22:47:33",
+      "symbol": "NTRP",
+      "company_name": "NTRP",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([NTRP] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793886142921_DRMA_FALSE",
       "date_et": "2026-11-05",
@@ -1537,6 +1557,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:47:12",
+      "time_kst": "22:47:12",
+      "symbol": "GEHC",
+      "company_name": "GEHC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $39222.96M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:45:37",
       "time_kst": "22:45:37",
       "symbol": "LU",
@@ -2024,16 +2054,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:24:08",
-      "time_kst": "21:24:08",
-      "symbol": "EVO",
-      "company_name": "EVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $582.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
