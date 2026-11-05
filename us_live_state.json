@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:23:22",
-  "updated_at_et": "2026-11-05 07:23:22",
-  "updated_epoch_ms": 1793881402876,
+  "updated_at_kst": "2026-11-05 21:24:12",
+  "updated_at_et": "2026-11-05 07:24:12",
+  "updated_epoch_ms": 1793881452747,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.44,
-    "profit_rate": 48.0,
-    "updated_kst": "21:23:18"
+    "current_price": 4.2998,
+    "profit_rate": 43.33,
+    "updated_kst": "21:24:00"
   },
   "stats": {
     "today_total": 3,
@@ -1297,6 +1297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:24:08",
+      "time_kst": "21:24:08",
+      "symbol": "EVO",
+      "company_name": "EVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $582.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:21:46",
       "time_kst": "21:21:46",
       "symbol": "LSPD",
@@ -1784,16 +1794,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2635.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:08:50",
-      "time_kst": "20:08:50",
-      "symbol": "MEDS",
-      "company_name": "MEDS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
     }
   ]
 }
