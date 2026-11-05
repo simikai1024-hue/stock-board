@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:01:40",
-  "updated_at_et": "2026-11-05 08:01:40",
-  "updated_epoch_ms": 1793883700076,
+  "updated_at_kst": "2026-11-05 22:02:34",
+  "updated_at_et": "2026-11-05 08:02:34",
+  "updated_epoch_ms": 1793883754185,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1599,
-    "profit_rate": 38.66,
-    "updated_kst": "22:01:35"
+    "current_price": 4.1397,
+    "profit_rate": 37.99,
+    "updated_kst": "22:02:15"
   },
   "stats": {
-    "today_total": 4,
-    "today_nblm_count": 4,
+    "today_total": 5,
+    "today_nblm_count": 5,
     "today_buy": 1,
-    "today_false": 3,
+    "today_false": 4,
     "today_hardcut": 60,
-    "total_verdicts": 64,
+    "total_verdicts": 65,
     "total_buy": 4,
-    "total_false": 60,
-    "avg_nblm_sec": 10.4
+    "total_false": 61,
+    "avg_nblm_sec": 8.4
   },
   "verdicts": [
+    {
+      "id": "v_1793883749369_CRMT_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:02:29",
+      "time_kst": "22:02:29",
+      "symbol": "CRMT",
+      "company_name": "CRMT",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([CRMT] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793882415762_MDCX_FALSE",
       "date_et": "2026-11-05",
