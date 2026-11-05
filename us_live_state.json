@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 18:06:29",
-  "updated_at_et": "2026-11-05 04:06:29",
-  "updated_epoch_ms": 1793869589290,
+  "updated_at_kst": "2026-11-05 18:07:25",
+  "updated_at_et": "2026-11-05 04:07:25",
+  "updated_epoch_ms": 1793869645129,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELPW",
+    "company_name": "Elong Power Holding Ltd.",
+    "exchange": "ND",
+    "price": 2.9905,
+    "gain_pct": 17.05,
+    "mcap_m": 2.79,
+    "catalyst_hint": "[당일 PR] Elong Power Holding Limited (NASDAQ: ELPW) Announces Subsidiary’s Entry into a Three-Year Cooperation Agreement Worth at least RMB2 Billion (～US$300 Million), Achieving a M",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "04:07:22",
+    "started_at_kst": "18:07:22",
+    "started_epoch_ms": 1793869642265
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:06:27"
+    "updated_kst": "18:07:12"
   },
   "stats": {
     "today_total": 0,
