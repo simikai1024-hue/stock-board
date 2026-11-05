@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 02:10:18",
-  "updated_at_et": "2026-11-05 12:10:18",
-  "updated_epoch_ms": 1793898618907,
+  "updated_at_kst": "2026-11-06 02:11:20",
+  "updated_at_et": "2026-11-05 12:11:20",
+  "updated_epoch_ms": 1793898680634,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:10:08"
+    "updated_kst": "02:11:15"
   },
   "stats": {
     "today_total": 31,
@@ -1857,6 +1857,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "12:10:36",
+      "time_kst": "02:10:36",
+      "symbol": "WSBK",
+      "company_name": "WSBK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $126.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "12:06:02",
       "time_kst": "02:06:02",
       "symbol": "CFFI",
@@ -2344,16 +2354,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $204.37M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:02:49",
-      "time_kst": "22:02:49",
-      "symbol": "LFCR",
-      "company_name": "LFCR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $244.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
