@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:06:27",
-  "updated_at_et": "2026-11-05 09:06:27",
-  "updated_epoch_ms": 1793887587299,
+  "updated_at_kst": "2026-11-05 23:07:36",
+  "updated_at_et": "2026-11-05 09:07:36",
+  "updated_epoch_ms": 1793887656693,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:06:18"
+    "updated_kst": "23:07:34"
   },
   "stats": {
     "today_total": 19,
@@ -1617,6 +1617,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:07:34",
+      "time_kst": "23:07:34",
+      "symbol": "DBX",
+      "company_name": "DBX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $7849.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "09:06:34",
+      "time_kst": "23:06:34",
+      "symbol": "PMA",
+      "company_name": "PMA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "09:06:30",
+      "time_kst": "23:06:30",
+      "symbol": "NAAS",
+      "company_name": "NAAS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:06:24",
       "time_kst": "23:06:24",
       "symbol": "AIIR",
@@ -2084,36 +2114,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $769.07M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:31:26",
-      "time_kst": "21:31:26",
-      "symbol": "ORIO",
-      "company_name": "ORIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:31:19",
-      "time_kst": "21:31:19",
-      "symbol": "MIDD",
-      "company_name": "MIDD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5768.1M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:30:46",
-      "time_kst": "21:30:46",
-      "symbol": "NVMI",
-      "company_name": "NVMI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $9382.83M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
