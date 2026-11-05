@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 01:05:20",
-  "updated_at_et": "2026-11-05 11:05:20",
-  "updated_epoch_ms": 1793894720271,
+  "updated_at_kst": "2026-11-06 01:06:43",
+  "updated_at_et": "2026-11-05 11:06:43",
+  "updated_epoch_ms": 1793894803660,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:05:15"
+    "updated_kst": "01:06:35"
   },
   "stats": {
-    "today_total": 28,
-    "today_nblm_count": 28,
+    "today_total": 29,
+    "today_nblm_count": 29,
     "today_buy": 1,
-    "today_false": 27,
+    "today_false": 28,
     "today_hardcut": 60,
-    "total_verdicts": 88,
+    "total_verdicts": 89,
     "total_buy": 4,
-    "total_false": 84,
-    "avg_nblm_sec": 12.9
+    "total_false": 85,
+    "avg_nblm_sec": 13.8
   },
   "verdicts": [
+    {
+      "id": "v_1793894797727_EHTH_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "11:06:37",
+      "time_kst": "01:06:37",
+      "symbol": "EHTH",
+      "company_name": "eHealth, Inc.",
+      "exchange": "ND",
+      "price": 0.465,
+      "gain_pct": -26.74,
+      "mcap_m": 14.9,
+      "decision": "FALSE",
+      "elapsed_sec": 37.2,
+      "reason": "정기 분기 실적(10-Q) 공시는 1급 확정 기폭제 미달 및 전일 대비 -26.74% 음봉 폭락 차트로 전량 차단",
+      "catalyst_hint": "[당일 PR] eHealth (EHTH) Q3 2026 Earnings Call Transcript",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EHTH (eHealth, Inc.) 정밀 직독 결재 보고입니다 [cite: 1, 9].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.9M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $0.6347 대비 현재가 $0.4650 (-26.74% 폭락), 당일 최고가 $0.6100 (고점 대비 -23.8% 급락) [cite: 9]. 당일 누적 거래대금 $183,657 USD [cite: 9].\n2. D-Day SEC 10-Q & PR 원문 직독 정밀 검증 & 치명적 결함\n당일(11/05) SEC 10-Q 및 PR 원문 분석:\nSEC 공시 현황: 2026-11-05 [10-Q] (분기보고서) 및 전일 8-K (Item 2.02 실적발표) [cite: 9].\nPR 제목: \"eHealth (EHTH) Q3 2026 Earnings Call Transcript\" [cite: 9]\n원문 팩트: 2026년 3분기 정기 실적 발표(10-Q) 및 실적 컨퍼런스 콜 녹취록(Earnings Call Transcript) 공시 [cite: 9].\n치명적 기폭제 결함 및 차트 파괴:\n오늘 제출된 재료는 회사 기업 가치를 폭발시킬 1급 확정 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니며, 단순 **정기 분기 실적 발표(10-Q / 3Q Earnings Call)**에 불과합니다 [cite: 10].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 정기실적(10-Q/10-K/Item 2.02)' 범주에 정확히 속합니다 [cite: 10].\n[심각한 음봉 폭락 차트]: 실적 발표 후 시장의 차익/실망 매물이 출회되며 전일 대비 -26.74% 폭락 및 당일 고점 대비 -23.8% 급락하여 전략 헌장 3번 규칙(\"고점 대비 급락(-25%↓) 및 음봉 설거지 차트는 100% FORCE_BLOCK\")에 완벽히 저해됩니다 [cite: 10].\n3. 최종 심사 및 결재 판정\n당일 SEC 공시가 단순 정기 분기 실적(10-Q) 발표에 불과하고, 전일 대비 -26.74% 폭락 음봉 차트가 형성되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: EHTH 처리합니다 [cite: 10].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: EHTH NOTES:\n[EHTH] 정기 분기 실적(10-Q) 공시는 1급 확정 기폭제 미달 및 전일 대비 -26.74% 음봉 폭락 차트로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793888327052_TOON_FALSE",
       "date_et": "2026-11-05",
