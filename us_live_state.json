@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:16:00",
-  "updated_at_et": "2026-11-05 07:16:00",
-  "updated_epoch_ms": 1793880960067,
+  "updated_at_kst": "2026-11-05 21:17:00",
+  "updated_at_et": "2026-11-05 07:17:00",
+  "updated_epoch_ms": 1793881020826,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.21,
-    "profit_rate": 40.33,
-    "updated_kst": "21:15:56"
+    "current_price": 4.42,
+    "profit_rate": 47.33,
+    "updated_kst": "21:16:57"
   },
   "stats": {
     "today_total": 2,
@@ -1277,6 +1277,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:16:14",
+      "time_kst": "21:16:14",
+      "symbol": "TRIP",
+      "company_name": "TRIP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $978.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:14:05",
       "time_kst": "21:14:05",
       "symbol": "VISN",
@@ -1304,16 +1314,6 @@
       "exchange": "ND",
       "mcap_m": 6.41,
       "reason": "단순 실적발표 일정 예고 PR 차단 (Evogene Schedules Third Quarter 2026 Financial Results Rel)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:12:00",
-      "time_kst": "21:12:00",
-      "symbol": "TRIP",
-      "company_name": "TRIP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1021.98M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-05",
