@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:07:10",
-  "updated_at_et": "2026-11-05 06:07:10",
-  "updated_epoch_ms": 1793876830396,
+  "updated_at_kst": "2026-11-05 20:07:55",
+  "updated_at_et": "2026-11-05 06:07:55",
+  "updated_epoch_ms": 1793876875529,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.518,
-    "profit_rate": 17.27,
-    "updated_kst": "20:07:09"
+    "current_price": 3.55,
+    "profit_rate": 18.33,
+    "updated_kst": "20:07:49"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 13,
+    "today_hardcut": 21,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,96 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:07:51",
+      "time_kst": "20:07:51",
+      "symbol": "SONY",
+      "company_name": "SONY",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:30",
+      "time_kst": "20:07:30",
+      "symbol": "MSC",
+      "company_name": "MSC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:27",
+      "time_kst": "20:07:27",
+      "symbol": "TM",
+      "company_name": "TM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:24",
+      "time_kst": "20:07:24",
+      "symbol": "NGG",
+      "company_name": "NGG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:22",
+      "time_kst": "20:07:22",
+      "symbol": "AU",
+      "company_name": "AU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:20",
+      "time_kst": "20:07:20",
+      "symbol": "BABA",
+      "company_name": "BABA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:17",
+      "time_kst": "20:07:17",
+      "symbol": "RDY",
+      "company_name": "RDY",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:14",
+      "time_kst": "20:07:14",
+      "symbol": "MDA",
+      "company_name": "MDA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:07:11",
+      "time_kst": "20:07:11",
+      "symbol": "IEP",
+      "company_name": "IEP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3824.72M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:07:07",
       "time_kst": "20:07:07",
       "symbol": "INM",
@@ -1291,16 +1381,6 @@
       "time_kst": "20:06:38",
       "symbol": "WDS",
       "company_name": "WDS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:06:35",
-      "time_kst": "20:06:35",
-      "symbol": "SONY",
-      "company_name": "SONY",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
@@ -1674,86 +1754,6 @@
       "exchange": "ND",
       "mcap_m": 5.24,
       "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:07:25",
-      "time_kst": "23:07:25",
-      "symbol": "LXFR",
-      "company_name": "LXFR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:04:33",
-      "time_kst": "23:04:33",
-      "symbol": "VOXR",
-      "company_name": "VOXR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $334.97M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:01:47",
-      "time_kst": "23:01:47",
-      "symbol": "BSRR",
-      "company_name": "BSRR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $544.72M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:01:41",
-      "time_kst": "23:01:41",
-      "symbol": "LASE",
-      "company_name": "LASE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:01:33",
-      "time_kst": "23:01:33",
-      "symbol": "CDT",
-      "company_name": "CDT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:00:59",
-      "time_kst": "23:00:59",
-      "symbol": "CDRO",
-      "company_name": "CDRO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $395.13M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:00:55",
-      "time_kst": "23:00:55",
-      "symbol": "LEGN",
-      "company_name": "LEGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4197.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:00:27",
-      "time_kst": "23:00:27",
-      "symbol": "TUYA",
-      "company_name": "TUYA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
