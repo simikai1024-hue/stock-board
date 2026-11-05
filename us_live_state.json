@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:45:35",
-  "updated_at_et": "2026-11-05 08:45:35",
-  "updated_epoch_ms": 1793886335222,
+  "updated_at_kst": "2026-11-05 22:46:04",
+  "updated_at_et": "2026-11-05 08:46:04",
+  "updated_epoch_ms": 1793886364894,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 164,
-    "orderable_usd": 158.43,
+    "orderable_usd": 203.06,
     "daily_done": true,
-    "holding_symbol": "ELPW",
-    "holding_qty": 50,
-    "avg_price": 3.0,
-    "current_price": 3.9398,
-    "profit_rate": 31.33,
-    "updated_kst": "22:45:32"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "22:46:02"
   },
   "stats": {
     "today_total": 15,
@@ -1537,6 +1537,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:45:37",
+      "time_kst": "22:45:37",
+      "symbol": "LU",
+      "company_name": "LU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:44:58",
       "time_kst": "22:44:58",
       "symbol": "COFS",
@@ -2024,16 +2034,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $582.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:21:07",
-      "time_kst": "21:21:07",
-      "symbol": "TCPA",
-      "company_name": "TCPA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
