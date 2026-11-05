@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:16:24",
-  "updated_at_et": "2026-11-05 08:16:24",
-  "updated_epoch_ms": 1793884584148,
+  "updated_at_kst": "2026-11-05 22:17:28",
+  "updated_at_et": "2026-11-05 08:17:28",
+  "updated_epoch_ms": 1793884648524,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.13,
-    "profit_rate": 37.67,
-    "updated_kst": "22:16:22"
+    "current_price": 4.0985,
+    "profit_rate": 36.62,
+    "updated_kst": "22:17:28"
   },
   "stats": {
-    "today_total": 9,
-    "today_nblm_count": 9,
+    "today_total": 10,
+    "today_nblm_count": 10,
     "today_buy": 1,
-    "today_false": 8,
+    "today_false": 9,
     "today_hardcut": 60,
-    "total_verdicts": 69,
+    "total_verdicts": 70,
     "total_buy": 4,
-    "total_false": 65,
-    "avg_nblm_sec": 4.6
+    "total_false": 66,
+    "avg_nblm_sec": 4.2
   },
   "verdicts": [
+    {
+      "id": "v_1793884645731_MTEK_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:17:25",
+      "time_kst": "22:17:25",
+      "symbol": "MTEK",
+      "company_name": "Maris Tech Ltd.",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 2.75,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([MTEK] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793884350285_SCNI_FALSE",
       "date_et": "2026-11-05",
@@ -1417,6 +1437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:16:24",
+      "time_kst": "22:16:24",
+      "symbol": "OFAL",
+      "company_name": "OFAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-29 [8-K] (Item 1.01,3.02,3.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:15:56",
       "time_kst": "22:15:56",
       "symbol": "IMC",
@@ -1904,16 +1934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:08:36",
-      "time_kst": "21:08:36",
-      "symbol": "CRNT",
-      "company_name": "CRNT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $195.42M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
