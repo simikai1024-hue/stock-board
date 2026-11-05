@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:06:29",
-  "updated_at_et": "2026-11-05 06:06:29",
-  "updated_epoch_ms": 1793876789543,
+  "updated_at_kst": "2026-11-05 20:07:10",
+  "updated_at_et": "2026-11-05 06:07:10",
+  "updated_epoch_ms": 1793876830396,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.5,
-    "profit_rate": 16.67,
-    "updated_kst": "20:06:27"
+    "current_price": 3.518,
+    "profit_rate": 17.27,
+    "updated_kst": "20:07:09"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 8,
+    "today_hardcut": 13,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:07:07",
+      "time_kst": "20:07:07",
+      "symbol": "INM",
+      "company_name": "INM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "사후 뒷북 행정 8-K 차단 (실제 주식병합 효력발생일이 이미 경과한 사후 신고서 & 당일 신규 PR 0건)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:06:59",
+      "time_kst": "20:06:59",
+      "symbol": "GCT",
+      "company_name": "GCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2066.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:06:45",
+      "time_kst": "20:06:45",
+      "symbol": "CMCL",
+      "company_name": "CMCL",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $398.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:06:38",
+      "time_kst": "20:06:38",
+      "symbol": "WDS",
+      "company_name": "WDS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:06:35",
+      "time_kst": "20:06:35",
+      "symbol": "SONY",
+      "company_name": "SONY",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:06:26",
       "time_kst": "20:06:26",
       "symbol": "BEKE",
@@ -1701,56 +1751,6 @@
       "time_kst": "23:00:27",
       "symbol": "TUYA",
       "company_name": "TUYA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:00:25",
-      "time_kst": "23:00:25",
-      "symbol": "AROC",
-      "company_name": "AROC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:53:16",
-      "time_kst": "22:53:16",
-      "symbol": "WEC",
-      "company_name": "WEC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:48:52",
-      "time_kst": "22:48:52",
-      "symbol": "ICU",
-      "company_name": "SeaStar Medical Holding Corp",
-      "exchange": "ND",
-      "mcap_m": 10.63,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-05 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:37:27",
-      "time_kst": "22:37:27",
-      "symbol": "APRE",
-      "company_name": "APRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "08:32:57",
-      "time_kst": "22:32:57",
-      "symbol": "CVE",
-      "company_name": "CVE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
