@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 19:48:12",
-  "updated_at_et": "2026-11-05 05:48:12",
-  "updated_epoch_ms": 1793875692325,
+  "updated_at_kst": "2026-11-05 19:49:12",
+  "updated_at_et": "2026-11-05 05:49:12",
+  "updated_epoch_ms": 1793875752433,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.79,
-    "profit_rate": 26.33,
-    "updated_kst": "19:48:09"
+    "current_price": 3.7595,
+    "profit_rate": 25.32,
+    "updated_kst": "19:49:09"
   },
   "stats": {
     "today_total": 1,
