@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:18:14",
-  "updated_at_et": "2026-11-05 09:18:14",
-  "updated_epoch_ms": 1793888294882,
+  "updated_at_kst": "2026-11-05 23:18:50",
+  "updated_at_et": "2026-11-05 09:18:50",
+  "updated_epoch_ms": 1793888330308,
   "analyzing": {
-    "active": true,
-    "symbol": "TOON",
-    "company_name": "TOON",
-    "exchange": "AM",
-    "price": 0.5309,
-    "gain_pct": 3.67,
-    "mcap_m": 33.02,
-    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:18:12",
-    "started_at_kst": "23:18:12",
-    "started_epoch_ms": 1793888292219
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:17:55"
+    "updated_kst": "23:18:39"
   },
   "stats": {
-    "today_total": 27,
-    "today_nblm_count": 27,
+    "today_total": 28,
+    "today_nblm_count": 28,
     "today_buy": 1,
-    "today_false": 26,
+    "today_false": 27,
     "today_hardcut": 60,
-    "total_verdicts": 87,
+    "total_verdicts": 88,
     "total_buy": 4,
-    "total_false": 83,
-    "avg_nblm_sec": 12.1
+    "total_false": 84,
+    "avg_nblm_sec": 12.9
   },
   "verdicts": [
+    {
+      "id": "v_1793888327052_TOON_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:18:47",
+      "time_kst": "23:18:47",
+      "symbol": "TOON",
+      "company_name": "TOON",
+      "exchange": "AM",
+      "price": 0.5309,
+      "gain_pct": 3.67,
+      "mcap_m": 33.02,
+      "decision": "FALSE",
+      "elapsed_sec": 34.8,
+      "reason": "자회사 SPAC(KSAC)의 Form S-1 예비 등록신고서 제출 공시(Item 7.01)는 1급 확정 기폭제 미달로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TOON (Kartoon Studios, Inc.) 정밀 직독 결재 보고입니다 [cite: 4, 404].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.02M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 404].\n실시간 시세 및 수급: 전일 종가 $0.5121 대비 현재가 $0.5309 (+3.67% 보합), 당일 최고가 $0.5500 (고점 대비 -3.5% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05) SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 404].\n원문 팩트: \"Kartoon Studios Acquisition Corp. (KSAC), a corporation organized as a special purpose acquisition company, filed a Registration Statement on Form S-1...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 회사 본체로 직접 유입되는 확정적 현금 매출 수주나 자산 매각/M&A 완료, FDA 승인 등의 1급 재료가 아니며, 단지 자회사인 SPAC 법인(KSAC)의 증권거래위원회 예비 등록신고서(Form S-1) 제출 소식에 불과합니다 [cite: 4].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 예비등록(Form S-1)/SPAC 홍보/주주서한' 범주에 정확히 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 4].\n주가 반응 역시 전일 대비 +3.67% 보합권 수준에 갇혀 있고 고점 대비 -3.5% 밀림이 발생하여 개장 전 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 자회사 SPAC의 단순 Form S-1 예비 등록신고서 제출(Item 7.01)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: TOON 처리합니다 [cite: 4].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: TOON NOTES:\n[TOON] 자회사 SPAC(KSAC)의 Form S-1 예비 등록신고서 제출 공시(Item 7.01)는 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793888286325_MTVA_FALSE",
       "date_et": "2026-11-05",
@@ -1789,6 +1797,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:18:18",
+      "time_kst": "23:18:18",
+      "symbol": "ITUB",
+      "company_name": "ITUB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:18:07",
       "time_kst": "23:18:07",
       "symbol": "FBIZ",
@@ -2276,16 +2294,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $605.17M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:40:07",
-      "time_kst": "21:40:07",
-      "symbol": "DFLI",
-      "company_name": "Dragonfly Energy Holdings Corp.",
-      "exchange": "ND",
-      "mcap_m": 3.8,
-      "reason": "단순 실적발표 일정 예고 PR 차단 (Dragonfly Energy to Report Third Quarter 2026 Financial an)"
     }
   ]
 }
