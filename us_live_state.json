@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 04:28:16",
-  "updated_at_et": "2026-11-05 14:28:16",
-  "updated_epoch_ms": 1793906896836,
+  "updated_at_kst": "2026-11-06 04:29:24",
+  "updated_at_et": "2026-11-05 14:29:24",
+  "updated_epoch_ms": 1793906964477,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:28:12"
+    "updated_kst": "04:29:01"
   },
   "stats": {
     "today_total": 32,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "14:29:19",
+      "time_kst": "04:29:19",
+      "symbol": "CCJ",
+      "company_name": "CCJ",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "14:27:17",
       "time_kst": "04:27:17",
       "symbol": "TLSA",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $77.25M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:31:02",
-      "time_kst": "22:31:02",
-      "symbol": "FCAP",
-      "company_name": "FCAP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $215.33M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
