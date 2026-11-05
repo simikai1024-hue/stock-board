@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:31:33",
-  "updated_at_et": "2026-11-05 08:31:33",
-  "updated_epoch_ms": 1793885493041,
+  "updated_at_kst": "2026-11-05 22:32:06",
+  "updated_at_et": "2026-11-05 08:32:06",
+  "updated_epoch_ms": 1793885526924,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.97,
-    "profit_rate": 32.33,
-    "updated_kst": "22:31:29"
+    "current_price": 3.9702,
+    "profit_rate": 32.34,
+    "updated_kst": "22:31:49"
   },
   "stats": {
-    "today_total": 11,
-    "today_nblm_count": 11,
+    "today_total": 12,
+    "today_nblm_count": 12,
     "today_buy": 1,
-    "today_false": 10,
+    "today_false": 11,
     "today_hardcut": 60,
-    "total_verdicts": 71,
+    "total_verdicts": 72,
     "total_buy": 4,
-    "total_false": 67,
-    "avg_nblm_sec": 3.8
+    "total_false": 68,
+    "avg_nblm_sec": 3.5
   },
   "verdicts": [
+    {
+      "id": "v_1793885524594_AXNX_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:32:04",
+      "time_kst": "22:32:04",
+      "symbol": "AXNX",
+      "company_name": "Axonex AI Group Ltd",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 6.28,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([AXNX] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793885488368_BDMD_FALSE",
       "date_et": "2026-11-05",
