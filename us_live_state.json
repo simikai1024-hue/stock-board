@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:06:47",
-  "updated_at_et": "2026-11-05 07:06:47",
-  "updated_epoch_ms": 1793880407398,
+  "updated_at_kst": "2026-11-05 21:07:09",
+  "updated_at_et": "2026-11-05 07:07:09",
+  "updated_epoch_ms": 1793880429673,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.0195,
-    "profit_rate": 33.98,
-    "updated_kst": "21:06:32"
+    "current_price": 4.07,
+    "profit_rate": 35.67,
+    "updated_kst": "21:06:53"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
     "today_buy": 1,
-    "today_false": 0,
-    "today_hardcut": 51,
-    "total_verdicts": 61,
+    "today_false": 1,
+    "today_hardcut": 53,
+    "total_verdicts": 62,
     "total_buy": 4,
-    "total_false": 57,
-    "avg_nblm_sec": 41.8
+    "total_false": 58,
+    "avg_nblm_sec": 20.9
   },
   "verdicts": [
+    {
+      "id": "v_1793880426756_GNPX_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "07:07:06",
+      "time_kst": "21:07:06",
+      "symbol": "GNPX",
+      "company_name": "GNPX",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([GNPX] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793869681033_ELPW_BUY",
       "date_et": "2026-11-05",
@@ -1257,6 +1277,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:06:50",
+      "time_kst": "21:06:50",
+      "symbol": "RHLD",
+      "company_name": "RHLD",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:06:47",
+      "time_kst": "21:06:47",
+      "symbol": "GPGI",
+      "company_name": "GPGI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:06:44",
       "time_kst": "21:06:44",
       "symbol": "DTE",
@@ -1734,26 +1774,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:05:58",
-      "time_kst": "20:05:58",
-      "symbol": "NOAH",
-      "company_name": "NOAH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:05:53",
-      "time_kst": "20:05:53",
-      "symbol": "MSFT",
-      "company_name": "MSFT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4138987.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
