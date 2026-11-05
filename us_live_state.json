@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:05:13",
-  "updated_at_et": "2026-11-05 07:05:13",
-  "updated_epoch_ms": 1793880313752,
+  "updated_at_kst": "2026-11-05 21:06:02",
+  "updated_at_et": "2026-11-05 07:06:02",
+  "updated_epoch_ms": 1793880362999,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1,
-    "profit_rate": 36.67,
-    "updated_kst": "21:05:09"
+    "current_price": 4.07,
+    "profit_rate": 35.67,
+    "updated_kst": "21:05:53"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 47,
+    "today_hardcut": 48,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:05:58",
+      "time_kst": "21:05:58",
+      "symbol": "DTIL",
+      "company_name": "DTIL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $231.3M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:59:25",
       "time_kst": "20:59:25",
       "symbol": "WMS",
@@ -1744,16 +1754,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1903.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "13:16:05",
-      "time_kst": "03:16:05",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
