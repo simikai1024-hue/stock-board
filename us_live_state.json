@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:14:15",
-  "updated_at_et": "2026-11-05 06:14:15",
-  "updated_epoch_ms": 1793877255911,
+  "updated_at_kst": "2026-11-05 20:15:02",
+  "updated_at_et": "2026-11-05 06:15:02",
+  "updated_epoch_ms": 1793877302714,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.57,
-    "profit_rate": 19.0,
-    "updated_kst": "20:14:11"
+    "current_price": 3.58,
+    "profit_rate": 19.33,
+    "updated_kst": "20:14:56"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 24,
+    "today_hardcut": 26,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:14:58",
+      "time_kst": "20:14:58",
+      "symbol": "CDLR",
+      "company_name": "CDLR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:14:20",
+      "time_kst": "20:14:20",
+      "symbol": "KC",
+      "company_name": "KC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2635.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:08:50",
       "time_kst": "20:08:50",
       "symbol": "MEDS",
@@ -1734,26 +1754,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:19:09",
-      "time_kst": "23:19:09",
-      "symbol": "LH",
-      "company_name": "LH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:17:41",
-      "time_kst": "23:17:41",
-      "symbol": "CGEM",
-      "company_name": "CGEM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1034.88M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
