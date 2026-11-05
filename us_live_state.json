@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 02:05:02",
-  "updated_at_et": "2026-11-05 12:05:02",
-  "updated_epoch_ms": 1793898302713,
+  "updated_at_kst": "2026-11-06 02:06:07",
+  "updated_at_et": "2026-11-05 12:06:07",
+  "updated_epoch_ms": 1793898367754,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:04:59"
+    "updated_kst": "02:05:46"
   },
   "stats": {
     "today_total": 30,
@@ -1837,6 +1837,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "12:06:02",
+      "time_kst": "02:06:02",
+      "symbol": "CFFI",
+      "company_name": "CFFI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $362.48M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "12:03:10",
       "time_kst": "02:03:10",
       "symbol": "FSM",
@@ -2324,16 +2334,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $244.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:01:39",
-      "time_kst": "22:01:39",
-      "symbol": "EBMT",
-      "company_name": "EBMT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $170.78M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
