@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:16:58",
-  "updated_at_et": "2026-11-05 09:16:58",
-  "updated_epoch_ms": 1793888218747,
+  "updated_at_kst": "2026-11-05 23:17:23",
+  "updated_at_et": "2026-11-05 09:17:23",
+  "updated_epoch_ms": 1793888243611,
   "analyzing": {
-    "active": true,
-    "symbol": "KAPA",
-    "company_name": "KAPA",
-    "exchange": "AM",
-    "price": 0.5,
-    "gain_pct": 2.1,
-    "mcap_m": 1.69,
-    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 8.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:16:53",
-    "started_at_kst": "23:16:53",
-    "started_epoch_ms": 1793888213117
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:16:54"
+    "updated_kst": "23:17:14"
   },
   "stats": {
-    "today_total": 25,
-    "today_nblm_count": 25,
+    "today_total": 26,
+    "today_nblm_count": 26,
     "today_buy": 1,
-    "today_false": 24,
+    "today_false": 25,
     "today_hardcut": 60,
-    "total_verdicts": 85,
+    "total_verdicts": 86,
     "total_buy": 4,
-    "total_false": 81,
-    "avg_nblm_sec": 10.3
+    "total_false": 82,
+    "avg_nblm_sec": 11.0
   },
   "verdicts": [
+    {
+      "id": "v_1793888239251_KAPA_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:17:19",
+      "time_kst": "23:17:19",
+      "symbol": "KAPA",
+      "company_name": "KAPA",
+      "exchange": "AM",
+      "price": 0.5,
+      "gain_pct": 2.1,
+      "mcap_m": 1.69,
+      "decision": "FALSE",
+      "elapsed_sec": 29.5,
+      "reason": "단순 어워드 수상(2026 Biotech Breakthrough Awards) 발표는 1급 확정 기폭제 미달 및 장전 보합(+2.10%)으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 8.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 KAPA (Kairos Pharma, Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.69M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과)\n실시간 시세 및 수급: 전일 종가 $0.4897 대비 현재가 $0.5000 (+2.10% 보합), 당일 최고가 $0.5000 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05) SEC 8-K (Item 8.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 8.01, 9.01) 접수\n원문 팩트: \"On November 5, 2026, Kairos Pharma, Ltd. issued a press release announcing that the Company has been named a winner of the 2026 Biotech Breakthrough Awards in the category of Cancer Immunology Solution of the Year for its work with ENV-105 (carotuximab)...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 암 면역 치료 파이프라인(ENV-105)이 '2026 바이오텍 브레이크스루 어워드'를 수상(Winner)했다는 단순 어워드/상 수상 홍보성 발표에 불과합니다.\n이는 FDA 신약 최종 승인이나 Pivotal 임상 성공, 구체적 현금 유입 계약이 아니며, 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 $ 계약 금액 미기재 단순 수상/상장/특허/주주서한/홍보' 범주에 정확히 속하므로 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다.\n주가 반응 역시 전일 대비 +2.10% 보합권에 갇혀 있어 개장 전 세력 매집 수급($0 USD) 유입 모멘텀도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 어워드 수상(Biotech Breakthrough Awards Winner) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: KAPA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: KAPA NOTES:\n[KAPA] 단순 어워드 수상(2026 Biotech Breakthrough Awards) 발표는 1급 확정 기폭제 미달 및 장전 보합(+2.10%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793888200952_AIM_FALSE",
       "date_et": "2026-11-05",
