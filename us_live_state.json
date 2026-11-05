@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:07:55",
-  "updated_at_et": "2026-11-05 06:07:55",
-  "updated_epoch_ms": 1793876875529,
+  "updated_at_kst": "2026-11-05 20:08:54",
+  "updated_at_et": "2026-11-05 06:08:54",
+  "updated_epoch_ms": 1793876934718,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.55,
-    "profit_rate": 18.33,
-    "updated_kst": "20:07:49"
+    "current_price": 3.51,
+    "profit_rate": 17.0,
+    "updated_kst": "20:08:52"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 21,
+    "today_hardcut": 24,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:08:50",
+      "time_kst": "20:08:50",
+      "symbol": "MEDS",
+      "company_name": "MEDS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:08:28",
+      "time_kst": "20:08:28",
+      "symbol": "IX",
+      "company_name": "IX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "06:08:24",
+      "time_kst": "20:08:24",
+      "symbol": "HCM",
+      "company_name": "HCM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2500.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:07:51",
       "time_kst": "20:07:51",
       "symbol": "SONY",
@@ -1724,36 +1754,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1034.88M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:11:16",
-      "time_kst": "23:11:16",
-      "symbol": "AVAV",
-      "company_name": "AVAV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6150.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:10:50",
-      "time_kst": "23:10:50",
-      "symbol": "PENG",
-      "company_name": "PENG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3150.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:10:04",
-      "time_kst": "23:10:04",
-      "symbol": "CENN",
-      "company_name": "Cenntro Inc.",
-      "exchange": "ND",
-      "mcap_m": 5.24,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-13 [424B5])"
     }
   ]
 }
