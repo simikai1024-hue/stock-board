@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:05:43",
-  "updated_at_et": "2026-11-05 09:05:43",
-  "updated_epoch_ms": 1793887543455,
+  "updated_at_kst": "2026-11-05 23:06:27",
+  "updated_at_et": "2026-11-05 09:06:27",
+  "updated_epoch_ms": 1793887587299,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:05:38"
+    "updated_kst": "23:06:18"
   },
   "stats": {
     "today_total": 19,
@@ -1617,6 +1617,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:06:24",
+      "time_kst": "23:06:24",
+      "symbol": "AIIR",
+      "company_name": "AIIR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1188.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:54:06",
       "time_kst": "22:54:06",
       "symbol": "PRE",
@@ -2104,16 +2114,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $9382.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:25:27",
-      "time_kst": "21:25:27",
-      "symbol": "BLDP",
-      "company_name": "BLDP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $546.86M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
