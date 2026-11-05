@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:20:54",
-  "updated_at_et": "2026-11-05 07:20:54",
-  "updated_epoch_ms": 1793881254269,
+  "updated_at_kst": "2026-11-05 21:21:50",
+  "updated_at_et": "2026-11-05 07:21:50",
+  "updated_epoch_ms": 1793881310420,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.4502,
-    "profit_rate": 48.34,
-    "updated_kst": "21:20:49"
+    "current_price": 4.3495,
+    "profit_rate": 44.98,
+    "updated_kst": "21:21:33"
   },
   "stats": {
     "today_total": 3,
@@ -1297,10 +1297,30 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
-      "time_et": "07:20:09",
-      "time_kst": "21:20:09",
+      "time_et": "07:21:46",
+      "time_kst": "21:21:46",
+      "symbol": "LSPD",
+      "company_name": "LSPD",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:21:07",
+      "time_kst": "21:21:07",
       "symbol": "TCPA",
       "company_name": "TCPA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:21:02",
+      "time_kst": "21:21:02",
+      "symbol": "BIII",
+      "company_name": "BIII",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
@@ -1774,26 +1794,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:08:28",
-      "time_kst": "20:08:28",
-      "symbol": "IX",
-      "company_name": "IX",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:08:24",
-      "time_kst": "20:08:24",
-      "symbol": "HCM",
-      "company_name": "HCM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2500.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
