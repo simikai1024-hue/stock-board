@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:20:14",
-  "updated_at_et": "2026-11-05 06:20:14",
-  "updated_epoch_ms": 1793877614707,
+  "updated_at_kst": "2026-11-05 20:21:09",
+  "updated_at_et": "2026-11-05 06:21:09",
+  "updated_epoch_ms": 1793877669400,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.5604,
-    "profit_rate": 18.68,
-    "updated_kst": "20:20:11"
+    "current_price": 3.6,
+    "profit_rate": 20.0,
+    "updated_kst": "20:20:52"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 29,
+    "today_hardcut": 30,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:21:07",
+      "time_kst": "20:21:07",
+      "symbol": "IPHA",
+      "company_name": "IPHA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $163.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:17:06",
       "time_kst": "20:17:06",
       "symbol": "AUST",
@@ -1744,16 +1754,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $52.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "09:31:08",
-      "time_kst": "23:31:08",
-      "symbol": "SHLS",
-      "company_name": "SHLS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1514.7M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
