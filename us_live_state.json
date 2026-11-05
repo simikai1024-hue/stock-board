@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 02:13:28",
-  "updated_at_et": "2026-11-05 12:13:28",
-  "updated_epoch_ms": 1793898808338,
+  "updated_at_kst": "2026-11-06 02:14:14",
+  "updated_at_et": "2026-11-05 12:14:14",
+  "updated_epoch_ms": 1793898854035,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:13:24"
+    "updated_kst": "02:14:07"
   },
   "stats": {
     "today_total": 31,
@@ -1857,6 +1857,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "12:14:09",
+      "time_kst": "02:14:09",
+      "symbol": "MGEE",
+      "company_name": "MGEE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2944.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "12:10:36",
       "time_kst": "02:10:36",
       "symbol": "WSBK",
@@ -2344,16 +2354,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $73.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:04:58",
-      "time_kst": "22:04:58",
-      "symbol": "LCUT",
-      "company_name": "LCUT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $204.37M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
