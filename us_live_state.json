@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:07:57",
-  "updated_at_et": "2026-11-05 09:07:57",
-  "updated_epoch_ms": 1793887677327,
+  "updated_at_kst": "2026-11-05 23:08:36",
+  "updated_at_et": "2026-11-05 09:08:36",
+  "updated_epoch_ms": 1793887716981,
   "analyzing": {
-    "active": true,
-    "symbol": "HCWB",
-    "company_name": "HCWB",
-    "exchange": "ND",
-    "price": 1.09,
-    "gain_pct": 0.93,
-    "mcap_m": 2.44,
-    "catalyst_hint": "[당일 PR] HCW Biologics Secures up to $10.0 Million in Cash Through Debt Financing",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:07:54",
-    "started_at_kst": "23:07:54",
-    "started_epoch_ms": 1793887674481
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:07:34"
+    "updated_kst": "23:08:17"
   },
   "stats": {
-    "today_total": 19,
-    "today_nblm_count": 19,
+    "today_total": 20,
+    "today_nblm_count": 20,
     "today_buy": 1,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
-    "total_verdicts": 79,
+    "total_verdicts": 80,
     "total_buy": 4,
-    "total_false": 75,
-    "avg_nblm_sec": 2.2
+    "total_false": 76,
+    "avg_nblm_sec": 4.0
   },
   "verdicts": [
+    {
+      "id": "v_1793887713594_HCWB_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:08:33",
+      "time_kst": "23:08:33",
+      "symbol": "HCWB",
+      "company_name": "HCWB",
+      "exchange": "ND",
+      "price": 1.09,
+      "gain_pct": 0.93,
+      "mcap_m": 2.44,
+      "decision": "FALSE",
+      "elapsed_sec": 39.1,
+      "reason": "단순 대출/부채 조달(Debt Financing $10M) 발표는 ACH 패턴의 단순 대출·신용한도 조달에 해당하여 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] HCW Biologics Secures up to $10.0 Million in Cash Through Debt Financing",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 HCWB (HCW Biologics Inc.) 정밀 직독 결재 보고입니다 [cite: 11, 12].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.44M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 11].\n실시간 시세 및 수급: 전일 종가 $1.0800 대비 현재가 $1.0900 (+0.93% 보합), 당일 최고가 $1.2000 (고점 대비 -9.2% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR & SEC 8-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 08:45 ET) PR 및 SEC 8-K (Item 1.01, 7.01, 8.01, 9.01) 원문 분석:\nPR 제목: \"HCW Biologics Secures up to $10.0 Million in Cash Through Debt Financing\"\n원문 팩트: 부채 조달(Debt Financing)을 통해 최대 $10.0M 현금을 확보했다는 발표.\n치명적 기폭제 결함:\n오늘 제출된 재료는 기업 가치를 수직 폭등시키는 확정적 수주/계약/자산매각이 아니라, 단순 부채 조달 및 대출(Debt Financing) 발표입니다 [cite: 12].\n이는 전략 헌장 3번 규칙에서 명시적으로 차단하는 '단순 대출·신용한도 조달·유동화 연장(ACH 패턴)' 범주에 정확히 저해되며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 12].\n현재 주가 반응 역시 +0.93% 보합권에 갇혀 있고 당일 고점 대비 -9.2% 윗꼬리가 형성되어 세력 수급 유입 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 대출/부채 조달(Debt Financing $10M) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: HCWB 처리합니다 [cite: 12].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: HCWB NOTES:\n[HCWB] 단순 대출/부채 조달(Debt Financing $10M) 발표는 ACH 패턴의 단순 대출·신용한도 조달에 해당하여 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793887047514_CLGN_FALSE",
       "date_et": "2026-11-05",
@@ -1629,6 +1637,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:08:15",
+      "time_kst": "23:08:15",
+      "symbol": "TSCO",
+      "company_name": "TSCO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $19330.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:07:45",
       "time_kst": "23:07:45",
       "symbol": "BHAV",
@@ -2113,16 +2131,6 @@
       "time_kst": "21:37:54",
       "symbol": "HSBC",
       "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:37:51",
-      "time_kst": "21:37:51",
-      "symbol": "GOOS",
-      "company_name": "GOOS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
