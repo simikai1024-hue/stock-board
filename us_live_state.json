@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:46:34",
-  "updated_at_et": "2026-11-05 07:46:34",
-  "updated_epoch_ms": 1793882794971,
+  "updated_at_kst": "2026-11-05 21:47:35",
+  "updated_at_et": "2026-11-05 07:47:35",
+  "updated_epoch_ms": 1793882855752,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.26,
-    "profit_rate": 42.0,
-    "updated_kst": "21:46:34"
+    "current_price": 4.3,
+    "profit_rate": 43.33,
+    "updated_kst": "21:47:16"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:47:31",
+      "time_kst": "21:47:31",
+      "symbol": "HIMX",
+      "company_name": "HIMX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1329.72M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:46:31",
       "time_kst": "21:46:31",
       "symbol": "VTRS",
@@ -1804,16 +1814,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:45:41",
-      "time_kst": "20:45:41",
-      "symbol": "GLDG",
-      "company_name": "GLDG",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $172.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
