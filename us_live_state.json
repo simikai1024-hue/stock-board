@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:32:41",
-  "updated_at_et": "2026-11-05 06:32:41",
-  "updated_epoch_ms": 1793878361573,
+  "updated_at_kst": "2026-11-05 20:33:22",
+  "updated_at_et": "2026-11-05 06:33:22",
+  "updated_epoch_ms": 1793878402964,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.47,
-    "profit_rate": 15.67,
-    "updated_kst": "20:32:41"
+    "current_price": 3.4502,
+    "profit_rate": 15.01,
+    "updated_kst": "20:33:22"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 34,
+    "today_hardcut": 35,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:33:20",
+      "time_kst": "20:33:20",
+      "symbol": "VYX",
+      "company_name": "VYX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:32:38",
       "time_kst": "20:32:38",
       "symbol": "EVMN",
@@ -1741,16 +1751,6 @@
       "time_kst": "00:39:37",
       "symbol": "PAAS",
       "company_name": "PAAS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "10:39:33",
-      "time_kst": "00:39:33",
-      "symbol": "ENVA",
-      "company_name": "ENVA",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
