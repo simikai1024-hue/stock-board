@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:53:33",
-  "updated_at_et": "2026-11-05 08:53:33",
-  "updated_epoch_ms": 1793886813197,
+  "updated_at_kst": "2026-11-05 22:54:31",
+  "updated_at_et": "2026-11-05 08:54:31",
+  "updated_epoch_ms": 1793886871916,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:53:21"
+    "updated_kst": "22:54:27"
   },
   "stats": {
-    "today_total": 17,
-    "today_nblm_count": 17,
+    "today_total": 18,
+    "today_nblm_count": 18,
     "today_buy": 1,
-    "today_false": 16,
+    "today_false": 17,
     "today_hardcut": 60,
-    "total_verdicts": 77,
+    "total_verdicts": 78,
     "total_buy": 4,
-    "total_false": 73,
-    "avg_nblm_sec": 2.5
+    "total_false": 74,
+    "avg_nblm_sec": 2.3
   },
   "verdicts": [
+    {
+      "id": "v_1793886813600_NXXT_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:53:33",
+      "time_kst": "22:53:33",
+      "symbol": "NXXT",
+      "company_name": "NEXTNRG, INC.",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 4.27,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([NXXT] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793886458831_PASW_FALSE",
       "date_et": "2026-11-05",
@@ -1577,6 +1597,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:54:06",
+      "time_kst": "22:54:06",
+      "symbol": "PRE",
+      "company_name": "PRE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $274.39M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:53:28",
       "time_kst": "22:53:28",
       "symbol": "STKE",
@@ -2064,16 +2094,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $546.86M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:24:42",
-      "time_kst": "21:24:42",
-      "symbol": "ACB",
-      "company_name": "ACB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $344.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
