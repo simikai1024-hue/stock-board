@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:06:02",
-  "updated_at_et": "2026-11-05 07:06:02",
-  "updated_epoch_ms": 1793880362999,
+  "updated_at_kst": "2026-11-05 21:06:47",
+  "updated_at_et": "2026-11-05 07:06:47",
+  "updated_epoch_ms": 1793880407398,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.07,
-    "profit_rate": 35.67,
-    "updated_kst": "21:05:53"
+    "current_price": 4.0195,
+    "profit_rate": 33.98,
+    "updated_kst": "21:06:32"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 48,
+    "today_hardcut": 51,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:06:44",
+      "time_kst": "21:06:44",
+      "symbol": "DTE",
+      "company_name": "DTE",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:06:15",
+      "time_kst": "21:06:15",
+      "symbol": "CNOB",
+      "company_name": "CNOB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1665.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:06:09",
+      "time_kst": "21:06:09",
+      "symbol": "EVRG",
+      "company_name": "EVRG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $19874.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:05:58",
       "time_kst": "21:05:58",
       "symbol": "DTIL",
@@ -1724,36 +1754,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4138987.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:05:44",
-      "time_kst": "20:05:44",
-      "symbol": "FIX",
-      "company_name": "FIX",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "14:36:28",
-      "time_kst": "04:36:28",
-      "symbol": "VET",
-      "company_name": "VET",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "14:17:51",
-      "time_kst": "04:17:51",
-      "symbol": "GABC",
-      "company_name": "GABC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1903.75M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
