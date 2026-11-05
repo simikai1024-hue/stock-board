@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:45:41",
-  "updated_at_et": "2026-11-05 07:45:41",
-  "updated_epoch_ms": 1793882741645,
+  "updated_at_kst": "2026-11-05 21:46:34",
+  "updated_at_et": "2026-11-05 07:46:34",
+  "updated_epoch_ms": 1793882794971,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.3002,
-    "profit_rate": 43.34,
-    "updated_kst": "21:45:37"
+    "current_price": 4.26,
+    "profit_rate": 42.0,
+    "updated_kst": "21:46:34"
   },
   "stats": {
     "today_total": 4,
@@ -1317,6 +1317,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:46:31",
+      "time_kst": "21:46:31",
+      "symbol": "VTRS",
+      "company_name": "VTRS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $22569.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:46:08",
+      "time_kst": "21:46:08",
+      "symbol": "ISOU",
+      "company_name": "ISOU",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $526.62M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:46:00",
+      "time_kst": "21:46:00",
+      "symbol": "SHOO",
+      "company_name": "SHOO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3437.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:40:12",
       "time_kst": "21:40:12",
       "symbol": "ENVX",
@@ -1784,36 +1814,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $172.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:45:37",
-      "time_kst": "20:45:37",
-      "symbol": "BBUC",
-      "company_name": "BBUC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:39:36",
-      "time_kst": "20:39:36",
-      "symbol": "PUK",
-      "company_name": "PUK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:39:31",
-      "time_kst": "20:39:31",
-      "symbol": "MGA",
-      "company_name": "MGA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
