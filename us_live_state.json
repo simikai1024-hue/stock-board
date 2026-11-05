@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:24:12",
-  "updated_at_et": "2026-11-05 07:24:12",
-  "updated_epoch_ms": 1793881452747,
+  "updated_at_kst": "2026-11-05 21:25:04",
+  "updated_at_et": "2026-11-05 07:25:04",
+  "updated_epoch_ms": 1793881504205,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 3.0,
     "current_price": 4.2998,
     "profit_rate": 43.33,
-    "updated_kst": "21:24:00"
+    "updated_kst": "21:25:00"
   },
   "stats": {
     "today_total": 3,
@@ -1297,6 +1297,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:24:42",
+      "time_kst": "21:24:42",
+      "symbol": "ACB",
+      "company_name": "ACB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $344.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "07:24:36",
+      "time_kst": "21:24:36",
+      "symbol": "LSPD",
+      "company_name": "LSPD",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:24:08",
       "time_kst": "21:24:08",
       "symbol": "EVO",
@@ -1304,16 +1324,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $582.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:21:46",
-      "time_kst": "21:21:46",
-      "symbol": "LSPD",
-      "company_name": "LSPD",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-05",
@@ -1474,16 +1484,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $695.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:08:02",
-      "time_kst": "21:08:02",
-      "symbol": "ACB",
-      "company_name": "ACB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $344.5M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-05",
