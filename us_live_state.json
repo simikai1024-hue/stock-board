@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:04:57",
-  "updated_at_et": "2026-11-05 08:04:57",
-  "updated_epoch_ms": 1793883897948,
+  "updated_at_kst": "2026-11-05 22:06:01",
+  "updated_at_et": "2026-11-05 08:06:01",
+  "updated_epoch_ms": 1793883961886,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.05,
-    "profit_rate": 35.0,
-    "updated_kst": "22:04:55"
+    "current_price": 4.0885,
+    "profit_rate": 36.28,
+    "updated_kst": "22:05:57"
   },
   "stats": {
     "today_total": 5,
@@ -1337,6 +1337,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:06:01",
+      "time_kst": "22:06:01",
+      "symbol": "JRSH",
+      "company_name": "JRSH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $73.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
+      "time_et": "08:04:58",
+      "time_kst": "22:04:58",
+      "symbol": "LCUT",
+      "company_name": "LCUT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $204.37M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:02:49",
       "time_kst": "22:02:49",
       "symbol": "LFCR",
@@ -1814,26 +1834,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:06:44",
-      "time_kst": "21:06:44",
-      "symbol": "DTE",
-      "company_name": "DTE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:06:15",
-      "time_kst": "21:06:15",
-      "symbol": "CNOB",
-      "company_name": "CNOB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1665.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
