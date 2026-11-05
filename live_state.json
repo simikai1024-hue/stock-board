@@ -1,9 +1,28 @@
 {
   "date": "2026-11-05",
-  "updated_at": "2026-11-05 19:47:20",
-  "history": [],
+  "updated_at": "2026-11-05 19:47:30",
+  "history": [
+    {
+      "id": "1793875650112_101360_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-05 19:47:30",
+      "name": "🌙종가배팅:에코앤드림",
+      "code": "101360",
+      "price": 9790,
+      "flu_rt": 4.8,
+      "val_uk": 113.3,
+      "target_price": 10130,
+      "stop_price": 9440,
+      "ammo_title": "👑 [연구소장 A급 종가배팅 진입] 101360 (최우선 A급 승인)",
+      "ammo_date": "20261105",
+      "note": "🌙 19:47 NXT 종가배팅 실전체결 완료! 내일 08:00~09:05 만쥬식 시초 슈팅 수확 예정!",
+      "buy_price": 9790,
+      "qty": 9
+    }
+  ],
   "intraday_ledger": {
-    "updated_at": "2026-11-05 19:47:20",
+    "updated_at": "2026-11-05 19:47:30",
     "stats": {
       "total_closed": 1,
       "win_count": 0,
@@ -14,6 +33,23 @@
       "total_pnl_krw": -2383
     },
     "rows": [
+      {
+        "date": "2026-11-05",
+        "weekday": "목요일",
+        "weekday_short": "목",
+        "code": "101360",
+        "name": "🌙종가배팅:에코앤드림",
+        "buy_price": 9790,
+        "sell_price": 0,
+        "qty": 9,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "19:47:27",
+        "sell_time": "",
+        "reason": "👑 [연구소장 A급 종가배팅 진입] 101360 (최우선 A급 승인)",
+        "note": "🌙 19:47 NXT 종가배팅 실전체결 완료! 내일 08:00~09:05 만쥬식 시초 슈팅 수확 예정!"
+      },
       {
         "date": "2026-11-04",
         "weekday": "수요일",
@@ -35,7 +71,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-05 19:47:20",
+    "updated_at": "2026-11-05 19:47:30",
     "stats": {
       "cooked_count": 11,
       "today_cooked_count": 0,
@@ -651,7 +687,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-05 19:47:20",
+    "updated_at": "2026-11-05 19:47:30",
     "stats": {
       "total_evaluated": 27,
       "win_5_count": 10,
