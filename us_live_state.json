@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:47:35",
-  "updated_at_et": "2026-11-05 08:47:35",
-  "updated_epoch_ms": 1793886455865,
+  "updated_at_kst": "2026-11-05 22:47:40",
+  "updated_at_et": "2026-11-05 08:47:40",
+  "updated_epoch_ms": 1793886460954,
   "analyzing": {
     "active": false
   },
@@ -22,17 +22,37 @@
     "updated_kst": "22:47:23"
   },
   "stats": {
-    "today_total": 16,
-    "today_nblm_count": 16,
+    "today_total": 17,
+    "today_nblm_count": 17,
     "today_buy": 1,
-    "today_false": 15,
+    "today_false": 16,
     "today_hardcut": 60,
-    "total_verdicts": 76,
+    "total_verdicts": 77,
     "total_buy": 4,
-    "total_false": 72,
-    "avg_nblm_sec": 2.6
+    "total_false": 73,
+    "avg_nblm_sec": 2.5
   },
   "verdicts": [
+    {
+      "id": "v_1793886458831_PASW_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "08:47:38",
+      "time_kst": "22:47:38",
+      "symbol": "PASW",
+      "company_name": "Ping An Biomedical Co., Ltd.",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 8.27,
+      "decision": "FALSE",
+      "elapsed_sec": 0.0,
+      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([PASW] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
+      "catalyst_hint": "",
+      "full_report": "",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793886453795_NTRP_FALSE",
       "date_et": "2026-11-05",
