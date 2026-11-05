@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:52:48",
-  "updated_at_et": "2026-11-05 08:52:48",
-  "updated_epoch_ms": 1793886768627,
+  "updated_at_kst": "2026-11-05 22:53:33",
+  "updated_at_et": "2026-11-05 08:53:33",
+  "updated_epoch_ms": 1793886813197,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:52:43"
+    "updated_kst": "22:53:21"
   },
   "stats": {
     "today_total": 17,
@@ -1577,6 +1577,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:53:28",
+      "time_kst": "22:53:28",
+      "symbol": "STKE",
+      "company_name": "STKE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:47:12",
       "time_kst": "22:47:12",
       "symbol": "GEHC",
@@ -2064,16 +2074,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $344.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:24:36",
-      "time_kst": "21:24:36",
-      "symbol": "LSPD",
-      "company_name": "LSPD",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
