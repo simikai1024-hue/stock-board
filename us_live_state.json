@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:16:01",
-  "updated_at_et": "2026-11-05 09:16:01",
-  "updated_epoch_ms": 1793888161015,
+  "updated_at_kst": "2026-11-05 23:16:48",
+  "updated_at_et": "2026-11-05 09:16:48",
+  "updated_epoch_ms": 1793888208413,
   "analyzing": {
-    "active": true,
-    "symbol": "AIM",
-    "company_name": "AIM",
-    "exchange": "AM",
-    "price": 0.1696,
-    "gain_pct": 3.41,
-    "mcap_m": 6.77,
-    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:15:56",
-    "started_at_kst": "23:15:56",
-    "started_epoch_ms": 1793888156041
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:15:58"
+    "updated_kst": "23:16:31"
   },
   "stats": {
-    "today_total": 24,
-    "today_nblm_count": 24,
+    "today_total": 25,
+    "today_nblm_count": 25,
     "today_buy": 1,
-    "today_false": 23,
+    "today_false": 24,
     "today_hardcut": 60,
-    "total_verdicts": 84,
+    "total_verdicts": 85,
     "total_buy": 4,
-    "total_false": 80,
-    "avg_nblm_sec": 8.8
+    "total_false": 81,
+    "avg_nblm_sec": 10.3
   },
   "verdicts": [
+    {
+      "id": "v_1793888200952_AIM_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "09:16:40",
+      "time_kst": "23:16:40",
+      "symbol": "AIM",
+      "company_name": "AIM",
+      "exchange": "AM",
+      "price": 0.1696,
+      "gain_pct": 3.41,
+      "mcap_m": 6.77,
+      "decision": "FALSE",
+      "elapsed_sec": 44.9,
+      "reason": "Item 7.01 단순 기업 설명회(Corporate Presentation) 자료 제출은 1급 확정 기폭제 미달로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AIM (AIM ImmunoTech Inc.) 정밀 직독 결재 보고입니다 [cite: 14].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.77M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 13].\n실시간 시세 및 수급: 전일 종가 $0.1640 대비 현재가 $0.1696 (+3.41% 보합), 당일 최고가 $0.1749 (고점 대비 -3.0% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:15 ET) SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 14].\n원문 팩트: \"Item 7.01 Regulation FD Disclosure. Furnished herewith as Exhibits 99.1 and 99.2, respectively, are a Corporate Presentation of AIM ImmunoTech Inc. titled 'The Ampligen Opportunity' and a press release issued by the Company on November 5, 2026...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시 및 첨부 PR은 당일 기업 가치를 수직 폭등시킬 확정적 1급 재료(FDA 승인/임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 14].\n단순 기업 설명회 자료(Corporate Presentation - \"The Ampligen Opportunity\") 및 IR 발표용 보도자료 제출에 불과하며, 이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액이 미기재된 단순 IR 기업 설명회/주주서한/홍보 발표' 범주에 정확히 속합니다 [cite: 14].\n주가 반응 역시 전일 대비 +3.41% 보합권에 갇혀 있고, 개장 전 세력 매집 수급($0 USD) 유입 모멘텀도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 IR 기업 설명회 자료(Corporate Presentation) 제출에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AIM 처리합니다 [cite: 14].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 14].\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: AIM NOTES:\n[AIM] Item 7.01 단순 기업 설명회(Corporate Presentation) 자료 제출은 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793888116676_CISS_FALSE",
       "date_et": "2026-11-05",
