@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 01:01:56",
-  "updated_at_et": "2026-11-05 11:01:56",
-  "updated_epoch_ms": 1793894516809,
+  "updated_at_kst": "2026-11-06 01:05:20",
+  "updated_at_et": "2026-11-05 11:05:20",
+  "updated_epoch_ms": 1793894720271,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:01:53"
+    "updated_kst": "01:05:15"
   },
   "stats": {
     "today_total": 28,
@@ -1797,6 +1797,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "11:04:45",
+      "time_kst": "01:04:45",
+      "symbol": "GMAB",
+      "company_name": "GMAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $32368.84M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "10:37:32",
       "time_kst": "00:37:32",
       "symbol": "LHX",
@@ -2281,16 +2291,6 @@
       "time_kst": "21:54:23",
       "symbol": "GIL",
       "company_name": "GIL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:52:23",
-      "time_kst": "21:52:23",
-      "symbol": "WDS",
-      "company_name": "WDS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
