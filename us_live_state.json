@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:35:15",
-  "updated_at_et": "2026-11-05 08:35:15",
-  "updated_epoch_ms": 1793885715608,
+  "updated_at_kst": "2026-11-05 22:35:58",
+  "updated_at_et": "2026-11-05 08:35:58",
+  "updated_epoch_ms": 1793885758689,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.0798,
-    "profit_rate": 35.99,
-    "updated_kst": "22:35:11"
+    "current_price": 3.9985,
+    "profit_rate": 33.28,
+    "updated_kst": "22:35:55"
   },
   "stats": {
     "today_total": 13,
@@ -1497,6 +1497,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:35:55",
+      "time_kst": "22:35:55",
+      "symbol": "APVO",
+      "company_name": "APVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-30 [424B5])"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:34:38",
       "time_kst": "22:34:38",
       "symbol": "REAL",
@@ -1984,16 +1994,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:18:05",
-      "time_kst": "21:18:05",
-      "symbol": "WEN",
-      "company_name": "WEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1473.88M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
