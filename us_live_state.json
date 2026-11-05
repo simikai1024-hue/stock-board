@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 23:18:06",
-  "updated_at_et": "2026-11-05 09:18:06",
-  "updated_epoch_ms": 1793888286883,
+  "updated_at_kst": "2026-11-05 23:18:14",
+  "updated_at_et": "2026-11-05 09:18:14",
+  "updated_epoch_ms": 1793888294882,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TOON",
+    "company_name": "TOON",
+    "exchange": "AM",
+    "price": 0.5309,
+    "gain_pct": 3.67,
+    "mcap_m": 33.02,
+    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:18:12",
+    "started_at_kst": "23:18:12",
+    "started_epoch_ms": 1793888292219
   },
   "halt_watch": {
     "active": false
@@ -1777,6 +1789,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "09:18:07",
+      "time_kst": "23:18:07",
+      "symbol": "FBIZ",
+      "company_name": "FBIZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $643.89M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:18:03",
       "time_kst": "23:18:03",
       "symbol": "APPS",
@@ -2264,16 +2286,6 @@
       "exchange": "ND",
       "mcap_m": 3.8,
       "reason": "단순 실적발표 일정 예고 PR 차단 (Dragonfly Energy to Report Third Quarter 2026 Financial an)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:39:11",
-      "time_kst": "21:39:11",
-      "symbol": "ROCK",
-      "company_name": "ROCK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1293.62M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
