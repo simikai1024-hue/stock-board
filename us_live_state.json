@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:58:57",
-  "updated_at_et": "2026-11-05 06:58:57",
-  "updated_epoch_ms": 1793879937963,
+  "updated_at_kst": "2026-11-05 21:00:07",
+  "updated_at_et": "2026-11-05 07:00:07",
+  "updated_epoch_ms": 1793880007195,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.57,
-    "profit_rate": 19.0,
-    "updated_kst": "20:58:56"
+    "current_price": 3.68,
+    "profit_rate": 22.67,
+    "updated_kst": "21:00:02"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 1,
     "today_false": 0,
-    "today_hardcut": 46,
+    "today_hardcut": 47,
     "total_verdicts": 61,
     "total_buy": 4,
     "total_false": 57,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:59:25",
+      "time_kst": "20:59:25",
+      "symbol": "WMS",
+      "company_name": "WMS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:58:53",
       "time_kst": "20:58:53",
       "symbol": "UP",
@@ -1744,16 +1754,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-04",
-      "time_et": "12:52:32",
-      "time_kst": "02:52:32",
-      "symbol": "HELE",
-      "company_name": "HELE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $870.13M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
