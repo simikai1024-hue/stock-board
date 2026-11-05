@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:38:05",
-  "updated_at_et": "2026-11-05 08:38:05",
-  "updated_epoch_ms": 1793885885830,
+  "updated_at_kst": "2026-11-05 22:38:46",
+  "updated_at_et": "2026-11-05 08:38:46",
+  "updated_epoch_ms": 1793885926769,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.9798,
-    "profit_rate": 32.66,
-    "updated_kst": "22:38:01"
+    "current_price": 3.9498,
+    "profit_rate": 31.66,
+    "updated_kst": "22:38:43"
   },
   "stats": {
     "today_total": 13,
@@ -1497,6 +1497,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:38:42",
+      "time_kst": "22:38:42",
+      "symbol": "LOCL",
+      "company_name": "LOCL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:35:55",
       "time_kst": "22:35:55",
       "symbol": "APVO",
@@ -1981,16 +1991,6 @@
       "time_kst": "21:21:02",
       "symbol": "BIII",
       "company_name": "BIII",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:20:06",
-      "time_kst": "21:20:06",
-      "symbol": "TRP",
-      "company_name": "TRP",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
