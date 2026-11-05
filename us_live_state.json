@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:11:38",
-  "updated_at_et": "2026-11-05 07:11:38",
-  "updated_epoch_ms": 1793880698773,
+  "updated_at_kst": "2026-11-05 21:12:37",
+  "updated_at_et": "2026-11-05 07:12:37",
+  "updated_epoch_ms": 1793880757238,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1,
-    "profit_rate": 36.67,
-    "updated_kst": "21:11:35"
+    "current_price": 4.015,
+    "profit_rate": 33.83,
+    "updated_kst": "21:12:34"
   },
   "stats": {
     "today_total": 2,
@@ -1277,6 +1277,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:12:00",
+      "time_kst": "21:12:00",
+      "symbol": "TRIP",
+      "company_name": "TRIP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1021.98M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:08:40",
       "time_kst": "21:08:40",
       "symbol": "GENI",
@@ -1764,16 +1774,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:07:11",
-      "time_kst": "20:07:11",
-      "symbol": "IEP",
-      "company_name": "IEP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3824.72M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
