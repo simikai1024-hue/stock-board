@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 20:33:22",
-  "updated_at_et": "2026-11-05 06:33:22",
-  "updated_epoch_ms": 1793878402964,
+  "updated_at_kst": "2026-11-05 20:34:18",
+  "updated_at_et": "2026-11-05 06:34:18",
+  "updated_epoch_ms": 1793878458449,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 3.4502,
-    "profit_rate": 15.01,
-    "updated_kst": "20:33:22"
+    "current_price": 3.45,
+    "profit_rate": 15.0,
+    "updated_kst": "20:34:02"
   },
   "stats": {
     "today_total": 1,
@@ -1257,6 +1257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "06:34:13",
+      "time_kst": "20:34:13",
+      "symbol": "DEO",
+      "company_name": "DEO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "06:33:20",
       "time_kst": "20:33:20",
       "symbol": "VYX",
@@ -1294,16 +1304,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $80022.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:29:01",
-      "time_kst": "20:29:01",
-      "symbol": "DEO",
-      "company_name": "DEO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-05",
