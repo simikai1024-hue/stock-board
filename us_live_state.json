@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 00:36:35",
-  "updated_at_et": "2026-11-05 10:36:35",
-  "updated_epoch_ms": 1793892995357,
+  "updated_at_kst": "2026-11-06 00:37:37",
+  "updated_at_et": "2026-11-05 10:37:37",
+  "updated_epoch_ms": 1793893057663,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:36:32"
+    "updated_kst": "00:37:18"
   },
   "stats": {
     "today_total": 28,
@@ -1797,6 +1797,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "10:37:32",
+      "time_kst": "00:37:32",
+      "symbol": "LHX",
+      "company_name": "LHX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "09:53:10",
       "time_kst": "23:53:10",
       "symbol": "SONY",
@@ -2281,16 +2291,6 @@
       "time_kst": "21:52:23",
       "symbol": "WDS",
       "company_name": "WDS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:52:20",
-      "time_kst": "21:52:20",
-      "symbol": "BCE",
-      "company_name": "BCE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
