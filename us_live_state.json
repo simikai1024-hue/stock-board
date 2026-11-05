@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 02:09:13",
-  "updated_at_et": "2026-11-05 12:09:13",
-  "updated_epoch_ms": 1793898553075,
+  "updated_at_kst": "2026-11-06 02:09:42",
+  "updated_at_et": "2026-11-05 12:09:42",
+  "updated_epoch_ms": 1793898582549,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "GYRO",
+    "company_name": "GYRO",
+    "exchange": "ND",
+    "price": 4.16,
+    "gain_pct": 0.97,
+    "mcap_m": 9.15,
+    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "12:09:38",
+    "started_at_kst": "02:09:38",
+    "started_epoch_ms": 1793898578655
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:09:08"
+    "updated_kst": "02:09:26"
   },
   "stats": {
     "today_total": 30,
