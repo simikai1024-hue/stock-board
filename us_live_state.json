@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 21:39:16",
-  "updated_at_et": "2026-11-05 07:39:16",
-  "updated_epoch_ms": 1793882356157,
+  "updated_at_kst": "2026-11-05 21:40:10",
+  "updated_at_et": "2026-11-05 07:40:10",
+  "updated_epoch_ms": 1793882410536,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.1498,
-    "profit_rate": 38.33,
-    "updated_kst": "21:39:10"
+    "current_price": 4.11,
+    "profit_rate": 37.0,
+    "updated_kst": "21:39:53"
   },
   "stats": {
     "today_total": 3,
@@ -1297,6 +1297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "07:40:07",
+      "time_kst": "21:40:07",
+      "symbol": "DFLI",
+      "company_name": "Dragonfly Energy Holdings Corp.",
+      "exchange": "ND",
+      "mcap_m": 3.8,
+      "reason": "단순 실적발표 일정 예고 PR 차단 (Dragonfly Energy to Report Third Quarter 2026 Financial an)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "07:39:11",
       "time_kst": "21:39:11",
       "symbol": "ROCK",
@@ -1781,16 +1791,6 @@
       "time_kst": "20:34:13",
       "symbol": "DEO",
       "company_name": "DEO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "06:33:20",
-      "time_kst": "20:33:20",
-      "symbol": "VYX",
-      "company_name": "VYX",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
