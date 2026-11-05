@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:26:15",
-  "updated_at_et": "2026-11-05 08:26:15",
-  "updated_epoch_ms": 1793885175422,
+  "updated_at_kst": "2026-11-05 22:27:04",
+  "updated_at_et": "2026-11-05 08:27:04",
+  "updated_epoch_ms": 1793885224025,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.4302,
-    "profit_rate": 47.67,
-    "updated_kst": "22:26:12"
+    "current_price": 4.4098,
+    "profit_rate": 46.99,
+    "updated_kst": "22:27:01"
   },
   "stats": {
     "today_total": 10,
@@ -1437,6 +1437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:26:59",
+      "time_kst": "22:26:59",
+      "symbol": "VMRK",
+      "company_name": "VMRK",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:16:24",
       "time_kst": "22:16:24",
       "symbol": "OFAL",
@@ -1924,16 +1934,6 @@
       "exchange": "ND",
       "mcap_m": 6.41,
       "reason": "단순 실적발표 일정 예고 PR 차단 (Evogene Schedules Third Quarter 2026 Financial Results Rel)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:08:40",
-      "time_kst": "21:08:40",
-      "symbol": "GENI",
-      "company_name": "GENI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
