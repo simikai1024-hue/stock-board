@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 04:40:23",
-  "updated_at_et": "2026-11-05 14:40:23",
-  "updated_epoch_ms": 1793907623764,
+  "updated_at_kst": "2026-11-06 04:41:32",
+  "updated_at_et": "2026-11-05 14:41:32",
+  "updated_epoch_ms": 1793907692234,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:40:20"
+    "updated_kst": "04:41:29"
   },
   "stats": {
     "today_total": 32,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "14:41:27",
+      "time_kst": "04:41:27",
+      "symbol": "LYG",
+      "company_name": "LYG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "14:29:19",
       "time_kst": "04:29:19",
       "symbol": "CCJ",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $218.66M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:31:11",
-      "time_kst": "22:31:11",
-      "symbol": "MBOT",
-      "company_name": "MBOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $77.25M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
