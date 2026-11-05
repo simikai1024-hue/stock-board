@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-06 01:27:01",
-  "updated_at_et": "2026-11-05 11:27:01",
-  "updated_epoch_ms": 1793896021664,
+  "updated_at_kst": "2026-11-06 01:27:46",
+  "updated_at_et": "2026-11-05 11:27:46",
+  "updated_epoch_ms": 1793896066169,
   "analyzing": {
-    "active": true,
-    "symbol": "SEGG",
-    "company_name": "SEGG",
-    "exchange": "ND",
-    "price": 1.7266,
-    "gain_pct": 9.97,
-    "mcap_m": 7.26,
-    "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 8.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:26:56",
-    "started_at_kst": "01:26:56",
-    "started_epoch_ms": 1793896016406
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:26:54"
+    "updated_kst": "01:27:39"
   },
   "stats": {
-    "today_total": 29,
-    "today_nblm_count": 29,
+    "today_total": 30,
+    "today_nblm_count": 30,
     "today_buy": 1,
-    "today_false": 28,
+    "today_false": 29,
     "today_hardcut": 60,
-    "total_verdicts": 89,
+    "total_verdicts": 90,
     "total_buy": 4,
-    "total_false": 85,
-    "avg_nblm_sec": 13.8
+    "total_false": 86,
+    "avg_nblm_sec": 15.1
   },
   "verdicts": [
+    {
+      "id": "v_1793896063757_SEGG_FALSE",
+      "date_et": "2026-11-05",
+      "weekday_kr": "목",
+      "time_et": "11:27:43",
+      "time_kst": "01:27:43",
+      "symbol": "SEGG",
+      "company_name": "SEGG",
+      "exchange": "ND",
+      "price": 1.7266,
+      "gain_pct": 9.97,
+      "mcap_m": 7.26,
+      "decision": "FALSE",
+      "elapsed_sec": 52.6,
+      "reason": "당일 8-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 8.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 SEGG (Sports Entertainment Gaming Global Corporation) 정밀 직독 결재 보고입니다 [cite: 383, 384].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.26M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 383].\n실시간 시세 및 수급: 전일 종가 $1.5700 대비 현재가 $1.7266 (+9.97%), 당일 최고가 $1.7900 (고점 대비 -3.5%) [cite: 383]. 당일 누적 거래대금 $293,251 USD [cite: 383].\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 11:26 ET) SEC 8-K (Item 8.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 8.01, 9.01) 접수 [cite: 384].\n원문 팩트: 서명부(Signatures) 및 커버 페이지 XBRL 파일(Exhibit 104 Cover Page Interactive Data File)만 수록된 단순 행정 서류 보고용 8-K 공시 제출 [cite: 384].\n치명적 기폭제 결함:\n오늘 접수된 SEC 8-K 공시 및 수신 내역에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다 [cite: 384].\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 신고용 표지 공시에 불과합니다 [cite: 10, 384].\n이는 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다 [cite: 10].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 행정 신고용 표지 공시(PR 미수신)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: SEGG 처리합니다 [cite: 10, 384].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: SEGG NOTES:\n[SEGG] 당일 8-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793894797727_EHTH_FALSE",
       "date_et": "2026-11-05",
@@ -1829,6 +1837,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "11:27:33",
+      "time_kst": "01:27:33",
+      "symbol": "DAIC",
+      "company_name": "DAIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-16 [8-K] (Item 1.02,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "11:04:45",
       "time_kst": "01:04:45",
       "symbol": "GMAB",
@@ -2316,16 +2334,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1770.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:54:23",
-      "time_kst": "21:54:23",
-      "symbol": "GIL",
-      "company_name": "GIL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
