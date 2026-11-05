@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-05",
-  "updated_at_kst": "2026-11-05 22:13:26",
-  "updated_at_et": "2026-11-05 08:13:26",
-  "updated_epoch_ms": 1793884406176,
+  "updated_at_kst": "2026-11-05 22:14:19",
+  "updated_at_et": "2026-11-05 08:14:19",
+  "updated_epoch_ms": 1793884459858,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ELPW",
     "holding_qty": 50,
     "avg_price": 3.0,
-    "current_price": 4.11,
-    "profit_rate": 37.0,
-    "updated_kst": "22:13:23"
+    "current_price": 4.12,
+    "profit_rate": 37.33,
+    "updated_kst": "22:14:13"
   },
   "stats": {
     "today_total": 9,
@@ -1417,6 +1417,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-05",
+      "time_et": "08:14:15",
+      "time_kst": "22:14:15",
+      "symbol": "AUDC",
+      "company_name": "AUDC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $195.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-05",
       "time_et": "08:11:24",
       "time_kst": "22:11:24",
       "symbol": "PCSA",
@@ -1904,16 +1914,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5873.52M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "07:08:17",
-      "time_kst": "21:08:17",
-      "symbol": "MCTA",
-      "company_name": "MCTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $504.26M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
