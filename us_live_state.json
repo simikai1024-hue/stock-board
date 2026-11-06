@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:16:50",
-  "updated_at_et": "2026-11-06 07:16:50",
-  "updated_epoch_ms": 1793967410696,
+  "updated_at_kst": "2026-11-06 21:17:49",
+  "updated_at_et": "2026-11-06 07:17:49",
+  "updated_epoch_ms": 1793967469886,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:16:48"
+    "updated_kst": "21:17:34"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 34,
+    "today_hardcut": 35,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:17:47",
+      "time_kst": "21:17:47",
+      "symbol": "BAM",
+      "company_name": "BAM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:13:44",
       "time_kst": "21:13:44",
       "symbol": "KYIV",
@@ -2364,16 +2374,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "13:04:46",
-      "time_kst": "03:04:46",
-      "symbol": "GUNN",
-      "company_name": "GUNN",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
