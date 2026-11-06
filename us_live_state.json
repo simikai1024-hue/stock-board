@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:30:07",
-  "updated_at_et": "2026-11-06 10:30:07",
-  "updated_epoch_ms": 1793979007857,
+  "updated_at_kst": "2026-11-07 00:30:55",
+  "updated_at_et": "2026-11-06 10:30:55",
+  "updated_epoch_ms": 1793979055576,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SCKT",
+    "company_name": "SOCKET MOBILE, INC.",
+    "exchange": "ND",
+    "price": 0.2915,
+    "gain_pct": 5.96,
+    "mcap_m": 2.42,
+    "catalyst_hint": "[당일 PR] Socket Mobile (SCKT) Q3 2026 Earnings Call Transcript",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "10:30:52",
+    "started_at_kst": "00:30:52",
+    "started_epoch_ms": 1793979052404
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:30:03"
+    "updated_kst": "00:30:51"
   },
   "stats": {
     "today_total": 8,
