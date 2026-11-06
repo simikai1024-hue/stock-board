@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 02:05:18",
-  "updated_at_et": "2026-11-06 12:05:18",
-  "updated_epoch_ms": 1793984718816,
+  "updated_at_kst": "2026-11-07 02:06:18",
+  "updated_at_et": "2026-11-06 12:06:18",
+  "updated_epoch_ms": 1793984778237,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:05:13"
+    "updated_kst": "02:06:14"
   },
   "stats": {
     "today_total": 12,
@@ -2117,6 +2117,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "12:05:48",
+      "time_kst": "02:05:48",
+      "symbol": "CATX",
+      "company_name": "CATX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $97.06M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "12:02:12",
       "time_kst": "02:02:12",
       "symbol": "SNT",
@@ -2524,16 +2534,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:01:29",
-      "time_kst": "21:01:29",
-      "symbol": "CATX",
-      "company_name": "CATX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $93.26M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-06",
