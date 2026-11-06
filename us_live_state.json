@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:06:26",
-  "updated_at_et": "2026-11-06 06:06:26",
-  "updated_epoch_ms": 1793963186457,
+  "updated_at_kst": "2026-11-06 20:07:06",
+  "updated_at_et": "2026-11-06 06:07:06",
+  "updated_epoch_ms": 1793963226574,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:06:15"
+    "updated_kst": "20:07:04"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 4,
+    "today_hardcut": 8,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:07:03",
+      "time_kst": "20:07:03",
+      "symbol": "PASG",
+      "company_name": "PASG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:06:46",
+      "time_kst": "20:06:46",
+      "symbol": "XYF",
+      "company_name": "XYF",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:06:31",
+      "time_kst": "20:06:31",
+      "symbol": "BABA",
+      "company_name": "BABA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:06:27",
+      "time_kst": "20:06:27",
+      "symbol": "NTES",
+      "company_name": "NTES",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $81525.93M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:06:22",
       "time_kst": "20:06:22",
       "symbol": "CCEP",
@@ -2334,46 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $575.81M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:07:34",
-      "time_kst": "23:07:34",
-      "symbol": "DBX",
-      "company_name": "DBX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7849.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:06:34",
-      "time_kst": "23:06:34",
-      "symbol": "PMA",
-      "company_name": "PMA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:06:30",
-      "time_kst": "23:06:30",
-      "symbol": "NAAS",
-      "company_name": "NAAS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:06:24",
-      "time_kst": "23:06:24",
-      "symbol": "AIIR",
-      "company_name": "AIIR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1188.46M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
