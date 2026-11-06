@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06 08:45:12",
+  "updated_at": "2026-11-06 10:50:25",
   "history": [
     {
       "id": "1793922310108_101360_SELL",
@@ -21,10 +21,28 @@
       "pnl_pct": -10.62,
       "buy_price": 9790,
       "qty": 9
+    },
+    {
+      "id": "1793929825244_455180_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-06 10:50:25",
+      "name": "케이지에이",
+      "code": "455180",
+      "price": 865,
+      "flu_rt": -1.15,
+      "val_uk": 0.0,
+      "target_price": 895,
+      "stop_price": 835,
+      "ammo_title": "📰[파이낸셜뉴스 10:50:15·핵심수주·납품] 규모 약 181억 | 케이지에이, 매출 15% 규모 신규 수주…\"이차전지 넘어 물류자동화까지\" (시총 128억)",
+      "ammo_date": "20261106",
+      "note": "📰⚡ 원천 뉴스 스나이퍼 수급전 선타격 체결! (+5.0% 전량 칼익절 · 3분 무반응 보호 · 노트북LM 검수 가동)",
+      "buy_price": 865,
+      "qty": 102
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-06 08:45:12",
+    "updated_at": "2026-11-06 10:50:25",
     "stats": {
       "total_closed": 2,
       "win_count": 0,
@@ -35,6 +53,23 @@
       "total_pnl_krw": -11740
     },
     "rows": [
+      {
+        "date": "2026-11-06",
+        "weekday": "금요일",
+        "weekday_short": "금",
+        "code": "455180",
+        "name": "케이지에이",
+        "buy_price": 865,
+        "sell_price": 0,
+        "qty": 102,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "10:50:23",
+        "sell_time": "",
+        "reason": "📰[파이낸셜뉴스 10:50:15·핵심수주·납품] 규모 약 181억 | 케이지에이, 매출 15% 규모 신규 수주…\"이차전지 넘어 물류자동화까지\" (시총 128억)",
+        "note": "📰⚡ 원천 뉴스 스나이퍼 수급전 선타격 체결! (+5.0% 전량 칼익절 · 3분 무반응 보호 · 노트북LM 검수 가동)"
+      },
       {
         "date": "2026-11-06",
         "weekday": "금요일",
@@ -90,7 +125,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-06 08:45:12",
+    "updated_at": "2026-11-06 10:50:25",
     "stats": {
       "cooked_count": 11,
       "today_cooked_count": 0,
@@ -706,7 +741,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-06 08:45:12",
+    "updated_at": "2026-11-06 10:50:25",
     "stats": {
       "total_evaluated": 27,
       "win_5_count": 10,
