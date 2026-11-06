@@ -312,8 +312,8 @@
       <button class="pwa-install-btn" id="pwaInstallBtn" onclick="installBoardApp()">📲 미국전광판 앱 설치</button>
       <div class="sound-ctrl-group">
         <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림·BGM 켜기</button>
-        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="올드보이 OST 6곡 무한 랜덤 재생 / 정지">🎻 올드보이 OST 랜덤</button>
-        <button class="sound-btn" id="nextOstBtn" onclick="skipNextOldboyOst()" title="다른 올드보이 OST 랜덤 곡으로 즉시 넘기기">⏭️ 다음곡</button>
+        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="올드보이 + 달콤한 인생 OST 12곡 무한 랜덤 재생 / 정지">🎻 올드보이·달콤한인생 OST</button>
+        <button class="sound-btn" id="nextOstBtn" onclick="skipNextOldboyOst()" title="다음 OST 랜덤 곡으로 즉시 넘기기">⏭️ 다음곡</button>
         <button class="sound-btn" onclick="previewBuyFanfare()" title="BUY 매수 승인 골든 팡파레 들어보기">🎉 BUY음</button>
         <span class="vol-wrap">🔊<input type="range" id="volSlider" class="vol-slider" min="20" max="150" value="115" oninput="updateMasterVolume(this.value)"><span id="volPctLbl">115%</span></span>
       </div>
@@ -702,14 +702,20 @@ function playWarmBass(freq, startT, dur, vol = 0.125, targetBus = null) {
   fifth.start(t0); fifth.stop(tEnd + 0.02);
 }
 
-/* 🎻 올드보이(Oldboy) OST 6대 명곡 랜덤 주크박스 & 심문 대기 BGM 엔진 */
+/* 🎻 올드보이(Oldboy) + 달콤한 인생(A Bittersweet Life) OST 12대 명곡 랜덤 주크박스 & 심문 대기 BGM 엔진 */
 const OLDBOY_OST_TRACKS = [
-  { file: "oldboy_01_last_waltz.m4a", title: "The Last Waltz (미도의 테마)" },
-  { file: "oldboy_02_cries_whispers.m4a", title: "Cries and Whispers (우진의 테마)" },
-  { file: "oldboy_03_farewell_lovely.m4a", title: "Farewell, My Lovely (이별의 왈츠)" },
-  { file: "oldboy_04_frantic.m4a", title: "Frantic (장도리 복도 격투씬)" },
-  { file: "oldboy_05_look_whos_talking.m4a", title: "Look Who's Talking (오프닝)" },
-  { file: "oldboy_06_vivaldi_winter.m4a", title: "Vivaldi - 사계 겨울 1악장" }
+  { file: "oldboy_01_last_waltz.m4a", title: "[올드보이] The Last Waltz (미도의 테마)" },
+  { file: "oldboy_02_cries_whispers.m4a", title: "[올드보이] Cries and Whispers (우진의 테마)" },
+  { file: "oldboy_03_farewell_lovely.m4a", title: "[올드보이] Farewell, My Lovely (이별의 왈츠)" },
+  { file: "oldboy_04_frantic.m4a", title: "[올드보이] Frantic (장도리 복도 격투씬)" },
+  { file: "oldboy_05_look_whos_talking.m4a", title: "[올드보이] Look Who's Talking (오프닝)" },
+  { file: "oldboy_06_vivaldi_winter.m4a", title: "[올드보이] Vivaldi - 사계 겨울 1악장" },
+  { file: "bittersweet_01_romance.m4a", title: "[달콤한인생] Romance (유키 구라모토 · 선우의 테마)" },
+  { file: "bittersweet_02_irreversible_steps.m4a", title: "[달콤한인생] 돌이킬 수 없는 시간 (느와르 기타)" },
+  { file: "bittersweet_03_fairness.m4a", title: "[달콤한인생] 공정성 Fairness (달파란)" },
+  { file: "bittersweet_04_sky_lounge.m4a", title: "[달콤한인생] 스카이 라운지 Sky Lounge" },
+  { file: "bittersweet_05_dark_room.m4a", title: "[달콤한인생] Dark Room (어두운 방)" },
+  { file: "bittersweet_06_escape.m4a", title: "[달콤한인생] 탈출 Escape (클라이맥스)" }
 ];
 
 let ostShuffleBag = [];
@@ -768,12 +774,12 @@ function updateOstButtonLabel() {
   if (!pBtn) return;
   if (isBgmPlaying) {
     pBtn.className = "sound-btn playing";
-    pBtn.innerText = `⏹️ ${currentOstTitle || "올드보이 OST"}`;
+    pBtn.innerText = `⏹️ ${currentOstTitle || "명작 OST"}`;
     pBtn.title = `현재 재생 중: ${currentOstTitle} (클릭 시 정지)`;
   } else {
     pBtn.className = "sound-btn";
-    pBtn.innerText = "🎻 올드보이 OST 랜덤";
-    pBtn.title = "올드보이 OST 6곡 무한 랜덤 재생 / 정지";
+    pBtn.innerText = "🎻 올드보이·달콤한인생 OST";
+    pBtn.title = "올드보이 + 달콤한 인생 OST 12곡 무한 랜덤 재생 / 정지";
   }
 }
 
