@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 02:01:54",
-  "updated_at_et": "2026-11-06 12:01:54",
-  "updated_epoch_ms": 1793984514149,
+  "updated_at_kst": "2026-11-07 02:02:55",
+  "updated_at_et": "2026-11-06 12:02:55",
+  "updated_epoch_ms": 1793984575935,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "02:01:50"
+    "updated_kst": "02:02:53"
   },
   "stats": {
     "today_total": 12,
@@ -2117,6 +2117,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "12:02:12",
+      "time_kst": "02:02:12",
+      "symbol": "SNT",
+      "company_name": "SNT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "11:46:46",
       "time_kst": "01:46:46",
       "symbol": "CCJ",
@@ -2601,16 +2611,6 @@
       "time_kst": "20:47:42",
       "symbol": "ATMU",
       "company_name": "ATMU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:44:42",
-      "time_kst": "20:44:42",
-      "symbol": "DEO",
-      "company_name": "DEO",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
