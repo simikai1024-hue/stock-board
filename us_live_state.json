@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:53:12",
-  "updated_at_et": "2026-11-06 06:53:12",
-  "updated_epoch_ms": 1793965992699,
+  "updated_at_kst": "2026-11-06 20:54:10",
+  "updated_at_et": "2026-11-06 06:54:10",
+  "updated_epoch_ms": 1793966050750,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:53:07"
+    "updated_kst": "20:54:07"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 21,
+    "today_hardcut": 22,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:54:07",
+      "time_kst": "20:54:07",
+      "symbol": "VEON",
+      "company_name": "VEON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4803.28M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:47:42",
       "time_kst": "20:47:42",
       "symbol": "ATMU",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $32368.84M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "10:37:32",
-      "time_kst": "00:37:32",
-      "symbol": "LHX",
-      "company_name": "LHX",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
