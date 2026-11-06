@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:34:15",
-  "updated_at_et": "2026-11-06 07:34:15",
-  "updated_epoch_ms": 1793968455516,
+  "updated_at_kst": "2026-11-06 21:34:55",
+  "updated_at_et": "2026-11-06 07:34:55",
+  "updated_epoch_ms": 1793968495141,
   "analyzing": {
-    "active": true,
-    "symbol": "DAVI",
-    "company_name": "DAVION HEALTHCARE PLC",
-    "exchange": "ND",
-    "price": 1.3201,
-    "gain_pct": -2.93,
-    "mcap_m": 33.0,
-    "catalyst_hint": "[당일 PR] Davion Healthcare Plc Appoints Vienna Capital Partners to Support US$100 Million Acquisition Financing Strategy",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:34:11",
-    "started_at_kst": "21:34:11",
-    "started_epoch_ms": 1793968451614
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:59"
+    "updated_kst": "21:34:37"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
     "today_buy": 0,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 40,
-    "total_verdicts": 92,
+    "total_verdicts": 93,
     "total_buy": 4,
-    "total_false": 88,
-    "avg_nblm_sec": 38.9
+    "total_false": 89,
+    "avg_nblm_sec": 43.6
   },
   "verdicts": [
+    {
+      "id": "v_1793968492003_DAVI_FALSE",
+      "date_et": "2026-11-06",
+      "weekday_kr": "금",
+      "time_et": "07:34:52",
+      "time_kst": "21:34:52",
+      "symbol": "DAVI",
+      "company_name": "DAVION HEALTHCARE PLC",
+      "exchange": "ND",
+      "price": 1.3201,
+      "gain_pct": -2.93,
+      "mcap_m": 33.0,
+      "decision": "FALSE",
+      "elapsed_sec": 43.6,
+      "reason": "구속력 있는 대출 확약이 없는 단순 금융자문사 선임 발표는 1급 확정 기폭제 미달 및 전일 대비 -2.93% 약세로 전량 차단",
+      "catalyst_hint": "[당일 PR] Davion Healthcare Plc Appoints Vienna Capital Partners to Support US$100 Million Acquisition Financing Strategy",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 DAVI (Davion Healthcare Plc) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.0M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.3600 대비 현재가 $1.3201 (-2.93% 약보합), 당일 최고가 $1.4500 (고점 대비 -9.0% 밀림)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함\n당일(11/06 07:30 ET) PR 원문 분석:\nPR 제목: *\"Davion Healthcare Plc Appoints Vienna Capital Partners to Support US$100 Million Acquisition Financing Strategy\"*\n원문 팩트: 2027년 M&A 자율 자금 조달 전략을 지원하기 위해 뉴욕 소재 금융자문사인 Vienna Capital Partners LLC와 자문 계약(Financial Advisory Agreement)을 체결했다는 보도자료.\n원문 명시 내역: \"Davion's initial US$100 million financing objective is an indicative aggregate target and does not represent an established, committed or currently available credit facility. No binding lender commitments have been secured...\" (1억 달러 조달 목표는 지표성 상징 목표일 뿐, 구속력 있는 대주 확약이나 확정된 신용 한도가 전무함).\n치명적 기폭제 결함:\n오늘 발표된 재료는 회사로 직접 확정 현금이 유입되는 대형 수주/자산매각/M&A 완료나 FDA 승인이 아니며, 단순 **금융자문사 선임 및 구속력 없는 미래 자금조달 구상 발표(Advisory Appointment & Non-binding Strategy)**에 불과합니다.\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 자문사 계약/MOU/주주서한/비구속력 계획' 범주에 정확히 속하므로 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등) 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 -2.93% 약보합에 갇혀 있고, 당일 고점 대비 -9.0% 밀림이 발생하여 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구속력 없는 금융자문사 선임 및 자금조달 구상 발표에 불과하고, 주가가 -2.93% 약세를 기록하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DAVI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: DAVI NOTES:\n[DAVI] 구속력 있는 대출 확약이 없는 단순 금융자문사 선임 발표는 1급 확정 기폭제 미달 및 전일 대비 -2.93% 약세로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793905417577_VRM_FALSE",
       "date_et": "2026-11-05",
