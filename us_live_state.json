@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:12:33",
-  "updated_at_et": "2026-11-06 09:12:33",
-  "updated_epoch_ms": 1793974353283,
+  "updated_at_kst": "2026-11-06 23:13:20",
+  "updated_at_et": "2026-11-06 09:13:20",
+  "updated_epoch_ms": 1793974400157,
   "analyzing": {
-    "active": true,
-    "symbol": "IMNN",
-    "company_name": "Imunon, Inc.",
-    "exchange": "ND",
-    "price": 0.99,
-    "gain_pct": 14.32,
-    "mcap_m": 5.56,
-    "catalyst_hint": "[당일 PR] IMUNON Presents New Translational Data at SITC 2026 Demonstrating How IMNN-001 Activates and Sustains Anti-Tumor T-Cell Immunity in Advanced Ovarian Cancer",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:12:29",
-    "started_at_kst": "23:12:29",
-    "started_epoch_ms": 1793974349634
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:12:18"
+    "updated_kst": "23:13:06"
   },
   "stats": {
-    "today_total": 5,
-    "today_nblm_count": 5,
+    "today_total": 6,
+    "today_nblm_count": 6,
     "today_buy": 0,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 58,
-    "total_verdicts": 97,
+    "total_verdicts": 98,
     "total_buy": 4,
-    "total_false": 93,
-    "avg_nblm_sec": 45.0
+    "total_false": 94,
+    "avg_nblm_sec": 46.1
   },
   "verdicts": [
+    {
+      "id": "v_1793974396535_IMNN_FALSE",
+      "date_et": "2026-11-06",
+      "weekday_kr": "금",
+      "time_et": "09:13:16",
+      "time_kst": "23:13:16",
+      "symbol": "IMNN",
+      "company_name": "Imunon, Inc.",
+      "exchange": "ND",
+      "price": 0.99,
+      "gain_pct": 14.32,
+      "mcap_m": 5.56,
+      "decision": "FALSE",
+      "elapsed_sec": 51.6,
+      "reason": "SITC 2026 학회 발표(Translational Data Presentation)는 1급 확정 기폭제 미달로 전량 차단",
+      "catalyst_hint": "[당일 PR] IMUNON Presents New Translational Data at SITC 2026 Demonstrating How IMNN-001 Activates and Sustains Anti-Tumor T-Cell Immunity in Advanced Ovarian Cancer",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 IMNN (IMUNON, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.56M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.8660 대비 현재가 $0.9900 (+14.32% 상승), 당일 최고가 $0.9900 (+0.0%)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 09:00 ET) PR 원문 분석:\nPR 제목: *\"IMUNON Presents New Translational Data at SITC 2026 Demonstrating How IMNN-001 Activates and Sustains Anti-Tumor T-Cell Immunity in Advanced Ovarian Cancer\"*\n원문 팩트: 면역항암학회(SITC 2026)에서 자사 파이프라인(IMNN-001)의 난소암 임상 2상(OVATION 2) 환자 생체 생검 분석 데이터(Translational Data) 및 T세포 활성화 메커니즘을 발표(Presentation)한다는 보도자료입니다.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인이나 Pivotal 임상 3상 톱라인(Top-line) 최종 성공, 구체적 현금 유입 계약/자산 매각이 아니며, 단순 **학회 발표용 탐색적 중단 임상/생체 데이터 발표(Conference Presentation / Translational Data)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 학회 발표/중간 데이터/IR 발표/주주서한' 범주에 정확히 속하므로 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등) 기준에 절대 미달합니다.\n현재 장전 +14.32% 갭상승을 기록하고 있으나 실질 체결 수급($0 USD)이 형성되지 않은 선발표 착시 구간이므로 세력의 설거지 유입 위험이 높습니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학회 발표(SITC 2026 Presentation) 및 중단 데이터 공유에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: IMNN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: IMNN NOTES:\n[IMNN] SITC 2026 학회 발표(Translational Data Presentation)는 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793973709990_GMHS_FALSE",
       "date_et": "2026-11-06",
