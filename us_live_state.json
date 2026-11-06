@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 22:30:29",
-  "updated_at_et": "2026-11-06 08:30:29",
-  "updated_epoch_ms": 1793971829138,
+  "updated_at_kst": "2026-11-06 22:31:20",
+  "updated_at_et": "2026-11-06 08:31:20",
+  "updated_epoch_ms": 1793971880037,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BCDA",
+    "company_name": "BCDA",
+    "exchange": "ND",
+    "price": 0.89,
+    "gain_pct": -2.2,
+    "mcap_m": 13.47,
+    "catalyst_hint": "[당일 SEC] 2026-11-06 [8-K] (Item 8.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:31:16",
+    "started_at_kst": "22:31:16",
+    "started_epoch_ms": 1793971876944
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:30:24"
+    "updated_kst": "22:31:06"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 51,
+    "today_hardcut": 52,
     "total_verdicts": 95,
     "total_buy": 4,
     "total_false": 91,
@@ -1937,6 +1949,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "08:30:41",
+      "time_kst": "22:30:41",
+      "symbol": "INLF",
+      "company_name": "INLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-20 [424B5])"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "08:29:59",
       "time_kst": "22:29:59",
       "symbol": "WRD",
@@ -2424,16 +2446,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $79.49M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:06:10",
-      "time_kst": "20:06:10",
-      "symbol": "SLVM",
-      "company_name": "SLVM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
