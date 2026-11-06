@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:05:47",
-  "updated_at_et": "2026-11-06 06:05:47",
-  "updated_epoch_ms": 1793963147728,
+  "updated_at_kst": "2026-11-06 20:06:26",
+  "updated_at_et": "2026-11-06 06:06:26",
+  "updated_epoch_ms": 1793963186457,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:05:27"
+    "updated_kst": "20:06:15"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 1,
+    "today_hardcut": 4,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:06:22",
+      "time_kst": "20:06:22",
+      "symbol": "CCEP",
+      "company_name": "CCEP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50307.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:06:15",
+      "time_kst": "20:06:15",
+      "symbol": "SSEA",
+      "company_name": "SSEA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $79.49M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:06:10",
+      "time_kst": "20:06:10",
+      "symbol": "SLVM",
+      "company_name": "SLVM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:05:42",
       "time_kst": "20:05:42",
       "symbol": "NMR",
@@ -2344,36 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1188.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:54:06",
-      "time_kst": "22:54:06",
-      "symbol": "PRE",
-      "company_name": "PRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $274.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:47:12",
-      "time_kst": "22:47:12",
-      "symbol": "GEHC",
-      "company_name": "GEHC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $39222.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "08:45:37",
-      "time_kst": "22:45:37",
-      "symbol": "LU",
-      "company_name": "LU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
