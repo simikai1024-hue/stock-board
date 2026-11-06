@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 22:29:24",
-  "updated_at_et": "2026-11-06 08:29:24",
-  "updated_epoch_ms": 1793971764413,
+  "updated_at_kst": "2026-11-06 22:30:29",
+  "updated_at_et": "2026-11-06 08:30:29",
+  "updated_epoch_ms": 1793971829138,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:29:22"
+    "updated_kst": "22:30:24"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 50,
+    "today_hardcut": 51,
     "total_verdicts": 95,
     "total_buy": 4,
     "total_false": 91,
@@ -1937,6 +1937,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "08:29:59",
+      "time_kst": "22:29:59",
+      "symbol": "WRD",
+      "company_name": "WRD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1267.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "08:17:32",
       "time_kst": "22:17:32",
       "symbol": "WHLR",
@@ -2421,16 +2431,6 @@
       "time_kst": "20:06:10",
       "symbol": "SLVM",
       "company_name": "SLVM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:05:42",
-      "time_kst": "20:05:42",
-      "symbol": "NMR",
-      "company_name": "NMR",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
