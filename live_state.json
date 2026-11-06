@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06 15:36:03",
+  "updated_at": "2026-11-06 15:41:10",
   "history": [
     {
       "id": "1793922310108_101360_SELL",
@@ -94,7 +94,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-06 15:36:03",
+    "updated_at": "2026-11-06 15:41:10",
     "stats": {
       "total_closed": 3,
       "win_count": 1,
@@ -184,7 +184,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-06 15:36:03",
+    "updated_at": "2026-11-06 15:41:10",
     "stats": {
       "cooked_count": 14,
       "finalized_count": 14,
@@ -1404,18 +1404,18 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-06 15:36:03",
+    "updated_at": "2026-11-06 15:41:10",
     "stats": {
-      "total_evaluated": 27,
+      "total_evaluated": 28,
       "win_5_count": 10,
       "super_15_count": 2,
-      "loss_count": 17,
-      "win_5_rate_pct": 37.0,
-      "rep_total": 6,
+      "loss_count": 18,
+      "win_5_rate_pct": 35.7,
+      "rep_total": 7,
       "rep_win_count": 4,
       "rep_super_count": 1,
-      "rep_loss_count": 2,
-      "rep_win_rate_pct": 66.7
+      "rep_loss_count": 3,
+      "rep_win_rate_pct": 57.1
     },
     "days": [
       {
@@ -1423,7 +1423,7 @@
         "weekday": "목요일",
         "weekday_short": "목",
         "predicted_at": "2026-11-05 19:45:09",
-        "evaluated": false,
+        "evaluated": true,
         "director_force_buy": [
           "101360"
         ],
@@ -1459,15 +1459,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 46,
+            "eval_date": "2026-11-06",
+            "next_open": 2065,
+            "next_high": 2235,
+            "next_close": 2170,
+            "open_ret_pct": -12.31,
+            "max_ret_pct": -5.1,
+            "close_ret_pct": -7.86,
             "rank": 1,
             "target_5_price": 2470,
             "target_11_price": 2610,
             "target_15_price": 2705,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "109670",
@@ -1497,15 +1504,22 @@
               "[17:32 DART공시] 최대주주변경"
             ],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 47,
+            "eval_date": "2026-11-06",
+            "next_open": 11400,
+            "next_high": 11400,
+            "next_close": 9200,
+            "open_ret_pct": -17.45,
+            "max_ret_pct": -17.45,
+            "close_ret_pct": -33.38,
             "rank": 2,
             "target_5_price": 14500,
             "target_11_price": 15320,
             "target_15_price": 15880,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "101360",
@@ -1533,16 +1547,23 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 50,
             "director_approved": true,
+            "eval_date": "2026-11-06",
+            "next_open": 8640,
+            "next_high": 10140,
+            "next_close": 9950,
+            "open_ret_pct": -12.02,
+            "max_ret_pct": 3.26,
+            "close_ret_pct": 1.32,
             "rank": 3,
             "target_5_price": 10310,
             "target_11_price": 10900,
             "target_15_price": 11290,
             "director_blocked": false,
             "director_note": "101360 (최우선 A급 승인)",
-            "result_grade": "WAIT"
+            "result_grade": "LOSS"
           },
           {
             "code": "425040",
@@ -1572,15 +1593,22 @@
             "news_headlines": [
               "[당일 17:23 서울경제] [단독] 삼성, 반도체 네온가스 80% 다시 쓴다 — 삼성전자(005930)가 반도체 공정의 핵심 소재 중 하나인 네온가스를 회수·재활용하는 데 성공했다. 재활용 설비를 상용화하면서 배출가스를 고순도로 정제하면 전체 사용량의 80%를 다시 쓸수 있어 "
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 47,
+            "eval_date": "2026-11-06",
+            "next_open": 9610,
+            "next_high": 11280,
+            "next_close": 10400,
+            "open_ret_pct": -12.48,
+            "max_ret_pct": 2.73,
+            "close_ret_pct": -5.28,
             "rank": 4,
             "target_5_price": 11520,
             "target_11_price": 12180,
             "target_15_price": 12620,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "477850",
@@ -1614,15 +1642,22 @@
               "[1103 18:46 서울경제] [단독]카모, 前공군총장 영입...뜨거워지는 신방산 ‘별 모시기’ 경... — 국방 인공지능 전환(AX) 시장이 확대되면서 정보기술(IT) 기업들의 군 고위급 인사 영입 경쟁이 달아오르고 있다. 네이버클라우드가 육군 중장 출신인 김선호 전 국방부 차관을 영입한 데 이어 카카오",
               "[1103 16:36 이데일리] '따따블' 찍고 공모가 붕괴 …AI 새내기주 처참한 성적표 — 공모주 청약에서 수천 대 1의 경쟁률을 기록하고 상장 첫날 주가가 급등했던 인공지능(AI) 기업들이 이후 상승분을 반납하며 공모가 아래로 내려앉았다. 기관 수요예측과 일반청약에서 확인한 높은 관심이"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 46,
+            "eval_date": "2026-11-06",
+            "next_open": 12100,
+            "next_high": 13090,
+            "next_close": 12710,
+            "open_ret_pct": -10.7,
+            "max_ret_pct": -3.39,
+            "close_ret_pct": -6.2,
             "rank": 5,
             "target_5_price": 14220,
             "target_11_price": 15040,
             "target_15_price": 15580,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "119850",
@@ -1652,15 +1687,22 @@
             "news_headlines": [
               "[1102 08:30 SBS Biz] [투자자 순매수 TOP5] 외국인, 주간 매도우위 속 SK·방산주·건설주 순... — ■ 머니쇼 '투자자 순매수 TOP5' - 이가람 지난주 외국인과 기관이 가장 많이 순매수한 종목을 살펴보는 투자자 순매수 TOP5 시간입니다. 먼저 유가증권시장에서 외국인은 사흘 연속 순매수했지만,"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-11-06",
+            "next_open": 28400,
+            "next_high": 37550,
+            "next_close": 35300,
+            "open_ret_pct": -10.69,
+            "max_ret_pct": 18.08,
+            "close_ret_pct": 11.01,
             "rank": 6,
             "target_5_price": 33350,
             "target_11_price": 35250,
             "target_15_price": 36550,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "SUPER_WIN"
           },
           {
             "code": "365330",
@@ -1688,15 +1730,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 47,
+            "eval_date": "2026-11-06",
+            "next_open": 1429,
+            "next_high": 1715,
+            "next_close": 1602,
+            "open_ret_pct": -13.86,
+            "max_ret_pct": 3.38,
+            "close_ret_pct": -3.44,
             "rank": 7,
             "target_5_price": 1742,
             "target_11_price": 1841,
             "target_15_price": 1908,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "079900",
@@ -1726,15 +1775,22 @@
             "news_headlines": [
               "[1102 08:14 뉴시스] 모트렉스, 전진건설로봇 보통주 활용 590억 규모 EB 발행 — 모트렉스는 자회사 전진건설로봇의 보통주를 교환대상으로 하는 590억원 규모의 교환사채(EB) 발행을 결정했다고 2일 밝혔다. 회사 측에 따르면 교환가액은 기준주가에 20%의 할증률을 적용해 산정되며"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-06",
+            "next_open": 39000,
+            "next_high": 44200,
+            "next_close": 42300,
+            "open_ret_pct": -6.47,
+            "max_ret_pct": 6.0,
+            "close_ret_pct": 1.44,
             "rank": 8,
             "target_5_price": 43750,
             "target_11_price": 46250,
             "target_15_price": 47950,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "WIN"
           },
           {
             "code": "121600",
@@ -1765,15 +1821,22 @@
               "[당일 09:02 머니투데이] 나노신소재, 기존 사업 경쟁력·신규 성장 동력 있어…목표가↑-iM — iM증권은 나노신소재에 대해 기존 사업 경쟁력과 신규 성장 동력이 있어 중장기적인 실적 개선세가 이어질 것으로 보고 매수 투자의견과 함께 목표주가를 기존 8만원에서 11만5000원으로 상향 조정한다",
               "[1103 14:48 헤럴드경제] 나노신소재, 3분기 영업익 66억…전년비 632.6% ↑ — 나노신소재는 3분기 연결기준 영업이익이 66억1600만원으로 전년동기대비 632.6% 증가했다고 3일 공시했다. 같은 기간 매출액은 423억9700만원으로 35.7% 늘어난 것으로 나타났다. 당기순"
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-06",
+            "next_open": 63500,
+            "next_high": 69200,
+            "next_close": 63800,
+            "open_ret_pct": -10.06,
+            "max_ret_pct": -1.98,
+            "close_ret_pct": -9.63,
             "rank": 9,
             "target_5_price": 74100,
             "target_11_price": 78300,
             "target_15_price": 81100,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "124500",
@@ -1801,15 +1864,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-06",
+            "next_open": 19100,
+            "next_high": 21350,
+            "next_close": 20050,
+            "open_ret_pct": -9.26,
+            "max_ret_pct": 1.43,
+            "close_ret_pct": -4.75,
             "rank": 10,
             "target_5_price": 22100,
             "target_11_price": 23350,
             "target_15_price": 24200,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "456160",
@@ -1839,15 +1909,22 @@
             "news_headlines": [
               "[1101 09:01 매경이코노미] AI부터 비만약까지…11월 주목할 중소형주 10선 보니 — 반도체·디스플레이·우주항공·방산 유망 실적 개선·신규 수주 기대주 ‘눈길’ 변동성 장세가 이어지는 가운데 중소형주 투자 전략에 관심이 쏠린다. 대형주 중심의 주가 급락으로 투자 심리가 위축됐지만, "
             ],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 51,
+            "eval_date": "2026-11-06",
+            "next_open": 30150,
+            "next_high": 33500,
+            "next_close": 30200,
+            "open_ret_pct": -11.71,
+            "max_ret_pct": -1.9,
+            "close_ret_pct": -11.57,
             "rank": 11,
             "target_5_price": 35850,
             "target_11_price": 37900,
             "target_15_price": 39250,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           },
           {
             "code": "100840",
@@ -1875,15 +1952,22 @@
             "affordable": true,
             "dart_disclosures": [],
             "news_headlines": [],
-            "evaluated": false,
+            "evaluated": true,
             "aft_bar_count": 49,
+            "eval_date": "2026-11-06",
+            "next_open": 21900,
+            "next_high": 24400,
+            "next_close": 22800,
+            "open_ret_pct": -9.32,
+            "max_ret_pct": 1.04,
+            "close_ret_pct": -5.59,
             "rank": 12,
             "target_5_price": 25350,
             "target_11_price": 26800,
             "target_15_price": 27750,
             "director_approved": false,
             "director_blocked": true,
-            "result_grade": "BLOCKED"
+            "result_grade": "LOSS"
           }
         ]
       },
