@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:21:38",
-  "updated_at_et": "2026-11-06 07:21:38",
-  "updated_epoch_ms": 1793967698526,
+  "updated_at_kst": "2026-11-06 21:22:23",
+  "updated_at_et": "2026-11-06 07:22:23",
+  "updated_epoch_ms": 1793967743114,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:21:36"
+    "updated_kst": "21:21:58"
   },
   "stats": {
     "today_total": 0,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:22:17",
+      "time_kst": "21:22:17",
+      "symbol": "KYIV",
+      "company_name": "KYIV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3058.28M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:18:53",
       "time_kst": "21:18:53",
       "symbol": "SBS",
@@ -1894,16 +1904,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:13:44",
-      "time_kst": "21:13:44",
-      "symbol": "KYIV",
-      "company_name": "KYIV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3058.28M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-06",
