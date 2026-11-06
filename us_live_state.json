@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:05:02",
-  "updated_at_et": "2026-11-06 09:05:02",
-  "updated_epoch_ms": 1793973902919,
+  "updated_at_kst": "2026-11-06 23:06:06",
+  "updated_at_et": "2026-11-06 09:06:06",
+  "updated_epoch_ms": 1793973966555,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:04:59"
+    "updated_kst": "23:06:01"
   },
   "stats": {
     "today_total": 5,
     "today_nblm_count": 5,
     "today_buy": 0,
     "today_false": 5,
-    "today_hardcut": 56,
+    "today_hardcut": 57,
     "total_verdicts": 97,
     "total_buy": 4,
     "total_false": 93,
@@ -1977,6 +1977,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "09:05:36",
+      "time_kst": "23:05:36",
+      "symbol": "GASS",
+      "company_name": "GASS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $296.14M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "09:00:48",
       "time_kst": "23:00:48",
       "symbol": "VLRS",
@@ -2464,16 +2474,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:06:46",
-      "time_kst": "20:06:46",
-      "symbol": "XYF",
-      "company_name": "XYF",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
