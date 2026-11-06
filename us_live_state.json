@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:14:43",
-  "updated_at_et": "2026-11-06 10:14:43",
-  "updated_epoch_ms": 1793978083846,
+  "updated_at_kst": "2026-11-07 00:16:00",
+  "updated_at_et": "2026-11-06 10:16:00",
+  "updated_epoch_ms": 1793978160449,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:14:41"
+    "updated_kst": "00:15:56"
   },
   "stats": {
     "today_total": 8,
@@ -2037,6 +2037,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "10:14:58",
+      "time_kst": "00:14:58",
+      "symbol": "PUK",
+      "company_name": "PUK",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "10:09:15",
       "time_kst": "00:09:15",
       "symbol": "GSK",
@@ -2524,16 +2534,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $758.41M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:14:04",
-      "time_kst": "20:14:04",
-      "symbol": "PHAR",
-      "company_name": "PHAR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $870.57M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
