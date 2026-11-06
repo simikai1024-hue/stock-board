@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:41:43",
-  "updated_at_et": "2026-11-06 06:41:43",
-  "updated_epoch_ms": 1793965303331,
+  "updated_at_kst": "2026-11-06 20:42:42",
+  "updated_at_et": "2026-11-06 06:42:42",
+  "updated_epoch_ms": 1793965362401,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:41:38"
+    "updated_kst": "20:42:37"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 17,
+    "today_hardcut": 19,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:42:01",
+      "time_kst": "20:42:01",
+      "symbol": "VIV",
+      "company_name": "VIV",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:41:57",
+      "time_kst": "20:41:57",
+      "symbol": "AQN",
+      "company_name": "AQN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:40:33",
       "time_kst": "20:40:33",
       "symbol": "HSBC",
@@ -2354,26 +2374,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:26:23",
-      "time_kst": "23:26:23",
-      "symbol": "MSIF",
-      "company_name": "MSIF",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:25:58",
-      "time_kst": "23:25:58",
-      "symbol": "GASS",
-      "company_name": "GASS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $308.56M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
