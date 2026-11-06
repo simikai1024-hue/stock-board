@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:12:01",
-  "updated_at_et": "2026-11-06 09:12:01",
-  "updated_epoch_ms": 1793974321867,
+  "updated_at_kst": "2026-11-06 23:12:33",
+  "updated_at_et": "2026-11-06 09:12:33",
+  "updated_epoch_ms": 1793974353283,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "IMNN",
+    "company_name": "Imunon, Inc.",
+    "exchange": "ND",
+    "price": 0.99,
+    "gain_pct": 14.32,
+    "mcap_m": 5.56,
+    "catalyst_hint": "[당일 PR] IMUNON Presents New Translational Data at SITC 2026 Demonstrating How IMNN-001 Activates and Sustains Anti-Tumor T-Cell Immunity in Advanced Ovarian Cancer",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:12:29",
+    "started_at_kst": "23:12:29",
+    "started_epoch_ms": 1793974349634
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:11:58"
+    "updated_kst": "23:12:18"
   },
   "stats": {
     "today_total": 5,
