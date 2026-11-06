@@ -1,5 +1,5 @@
 // 달의검 한·미 전광판 통합 PWA Service Worker (실시간 데이터·오디오 스트리밍 무간섭 보장)
-const CACHE_NAME = 'moon-sword-board-shell-v2';
+const CACHE_NAME = 'moon-sword-board-shell-v3';
 const SHELL_ASSETS = [
   './icons/kr-192.png',
   './icons/kr-512.png',
