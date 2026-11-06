@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:33:45",
-  "updated_at_et": "2026-11-06 07:33:45",
-  "updated_epoch_ms": 1793968425329,
+  "updated_at_kst": "2026-11-06 21:34:15",
+  "updated_at_et": "2026-11-06 07:34:15",
+  "updated_epoch_ms": 1793968455516,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DAVI",
+    "company_name": "DAVION HEALTHCARE PLC",
+    "exchange": "ND",
+    "price": 1.3201,
+    "gain_pct": -2.93,
+    "mcap_m": 33.0,
+    "catalyst_hint": "[당일 PR] Davion Healthcare Plc Appoints Vienna Capital Partners to Support US$100 Million Acquisition Financing Strategy",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:34:11",
+    "started_at_kst": "21:34:11",
+    "started_epoch_ms": 1793968451614
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:40"
+    "updated_kst": "21:33:59"
   },
   "stats": {
     "today_total": 0,
