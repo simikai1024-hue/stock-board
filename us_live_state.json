@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:26:20",
-  "updated_at_et": "2026-11-06 09:26:20",
-  "updated_epoch_ms": 1793975180812,
+  "updated_at_kst": "2026-11-06 23:27:24",
+  "updated_at_et": "2026-11-06 09:27:24",
+  "updated_epoch_ms": 1793975244956,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "GAUZ",
+    "company_name": "GAUZ",
+    "exchange": "ND",
+    "price": 6.53,
+    "gain_pct": 0.0,
+    "mcap_m": 7.46,
+    "catalyst_hint": "[당일 SEC] 2026-11-06 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:27:21",
+    "started_at_kst": "23:27:21",
+    "started_epoch_ms": 1793975241116
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:26:15"
+    "updated_kst": "23:27:22"
   },
   "stats": {
     "today_total": 7,
