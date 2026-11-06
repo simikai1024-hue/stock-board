@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:55:19",
-  "updated_at_et": "2026-11-06 06:55:19",
-  "updated_epoch_ms": 1793966119546,
+  "updated_at_kst": "2026-11-06 20:56:29",
+  "updated_at_et": "2026-11-06 06:56:29",
+  "updated_epoch_ms": 1793966189370,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:55:16"
+    "updated_kst": "20:56:25"
   },
   "stats": {
     "today_total": 0,
@@ -1877,8 +1877,8 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
-      "time_et": "06:54:07",
-      "time_kst": "20:54:07",
+      "time_et": "06:55:33",
+      "time_kst": "20:55:33",
       "symbol": "VEON",
       "company_name": "VEON",
       "exchange": "ND",
