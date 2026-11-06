@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:30:50",
-  "updated_at_et": "2026-11-06 07:30:50",
-  "updated_epoch_ms": 1793968250050,
+  "updated_at_kst": "2026-11-06 21:31:44",
+  "updated_at_et": "2026-11-06 07:31:44",
+  "updated_epoch_ms": 1793968304743,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:30:45"
+    "updated_kst": "21:31:40"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 38,
+    "today_hardcut": 40,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:31:18",
+      "time_kst": "21:31:18",
+      "symbol": "CEPU",
+      "company_name": "CEPU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "07:31:01",
+      "time_kst": "21:31:01",
+      "symbol": "PLAG",
+      "company_name": "PLAG",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-02 [424B5])"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:29:49",
       "time_kst": "21:29:49",
       "symbol": "VEON",
@@ -2354,26 +2374,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "13:58:23",
-      "time_kst": "03:58:23",
-      "symbol": "DNN",
-      "company_name": "DNN",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1810.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "13:58:17",
-      "time_kst": "03:58:17",
-      "symbol": "STKE",
-      "company_name": "STKE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
     }
   ]
 }
