@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:59:19",
-  "updated_at_et": "2026-11-06 06:59:19",
-  "updated_epoch_ms": 1793966359528,
+  "updated_at_kst": "2026-11-06 21:00:21",
+  "updated_at_et": "2026-11-06 07:00:21",
+  "updated_epoch_ms": 1793966421975,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:59:14"
+    "updated_kst": "21:00:18"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 22,
+    "today_hardcut": 23,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:59:31",
+      "time_kst": "20:59:31",
+      "symbol": "AIRS",
+      "company_name": "AIRS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $103.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:55:33",
       "time_kst": "20:55:33",
       "symbol": "VEON",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-16 [8-K] (Item 1.02,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "11:04:45",
-      "time_kst": "01:04:45",
-      "symbol": "GMAB",
-      "company_name": "GMAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $32368.84M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
