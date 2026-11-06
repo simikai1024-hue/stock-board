@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:39:57",
-  "updated_at_et": "2026-11-06 07:39:57",
-  "updated_epoch_ms": 1793968797382,
+  "updated_at_kst": "2026-11-06 21:40:26",
+  "updated_at_et": "2026-11-06 07:40:26",
+  "updated_epoch_ms": 1793968826997,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BRAG",
+    "company_name": "Bragg Gaming Group Inc.",
+    "exchange": "ND",
+    "price": 0.815,
+    "gain_pct": 0.0,
+    "mcap_m": 25.32,
+    "catalyst_hint": "[당일 PR] Bragg Gaming Group Announces Leadership Transition",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:40:23",
+    "started_at_kst": "21:40:23",
+    "started_epoch_ms": 1793968823241
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:39:52"
+    "updated_kst": "21:40:11"
   },
   "stats": {
     "today_total": 1,
