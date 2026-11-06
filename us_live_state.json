@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:07:55",
-  "updated_at_et": "2026-11-06 09:07:55",
-  "updated_epoch_ms": 1793974075279,
+  "updated_at_kst": "2026-11-06 23:08:59",
+  "updated_at_et": "2026-11-06 09:08:59",
+  "updated_epoch_ms": 1793974139354,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:07:50"
+    "updated_kst": "23:08:56"
   },
   "stats": {
     "today_total": 5,
     "today_nblm_count": 5,
     "today_buy": 0,
     "today_false": 5,
-    "today_hardcut": 57,
+    "today_hardcut": 58,
     "total_verdicts": 97,
     "total_buy": 4,
     "total_false": 93,
@@ -1977,6 +1977,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "09:08:06",
+      "time_kst": "23:08:06",
+      "symbol": "AGO",
+      "company_name": "AGO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "09:05:36",
       "time_kst": "23:05:36",
       "symbol": "GASS",
@@ -2464,16 +2474,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $419.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:07:03",
-      "time_kst": "20:07:03",
-      "symbol": "PASG",
-      "company_name": "PASG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
     }
   ]
 }
