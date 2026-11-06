@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:30:55",
-  "updated_at_et": "2026-11-06 10:30:55",
-  "updated_epoch_ms": 1793979055576,
+  "updated_at_kst": "2026-11-07 00:31:33",
+  "updated_at_et": "2026-11-06 10:31:33",
+  "updated_epoch_ms": 1793979093489,
   "analyzing": {
-    "active": true,
-    "symbol": "SCKT",
-    "company_name": "SOCKET MOBILE, INC.",
-    "exchange": "ND",
-    "price": 0.2915,
-    "gain_pct": 5.96,
-    "mcap_m": 2.42,
-    "catalyst_hint": "[당일 PR] Socket Mobile (SCKT) Q3 2026 Earnings Call Transcript",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "10:30:52",
-    "started_at_kst": "00:30:52",
-    "started_epoch_ms": 1793979052404
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:30:51"
+    "updated_kst": "00:31:15"
   },
   "stats": {
-    "today_total": 8,
-    "today_nblm_count": 8,
+    "today_total": 9,
+    "today_nblm_count": 9,
     "today_buy": 0,
-    "today_false": 8,
+    "today_false": 9,
     "today_hardcut": 60,
-    "total_verdicts": 100,
+    "total_verdicts": 101,
     "total_buy": 4,
-    "total_false": 96,
-    "avg_nblm_sec": 45.8
+    "total_false": 97,
+    "avg_nblm_sec": 45.4
   },
   "verdicts": [
+    {
+      "id": "v_1793979091080_SCKT_FALSE",
+      "date_et": "2026-11-06",
+      "weekday_kr": "금",
+      "time_et": "10:31:31",
+      "time_kst": "00:31:31",
+      "symbol": "SCKT",
+      "company_name": "SOCKET MOBILE, INC.",
+      "exchange": "ND",
+      "price": 0.2915,
+      "gain_pct": 5.96,
+      "mcap_m": 2.42,
+      "decision": "FALSE",
+      "elapsed_sec": 42.4,
+      "reason": "정기 분기 실적 녹취록(Q3 Earnings Call Transcript) 공시는 1급 확정 기폭제 미달 및 나스닥 자진 상장철회(Item 3.01) 악재로 전량 차단",
+      "catalyst_hint": "[당일 PR] Socket Mobile (SCKT) Q3 2026 Earnings Call Transcript",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 SCKT (Socket Mobile, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.42M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.2751 대비 현재가 $0.2915 (+5.96% 보합), 당일 최고가 $0.3090 (고점 대비 -5.7% 밀림)\n. 당일 누적 거래대금 $8,467 USD.\n2. D-Day PR & 사전 SEC 원문 직독 정밀 검증 & 치명적 결함\n당일(11/06 10:16 ET) PR 및 사전 SEC 공시 원문 분석:\nPR 제목: *\"Socket Mobile (SCKT) Q3 2026 Earnings Call Transcript\"*\n원문 팩트: 2026년 3분기 정기 실적 발표(11/04 8-K Item 2.02)에 따른 실적 컨퍼런스 콜 녹취록(Earnings Call Transcript) 보도자료.\n치명적 기폭제 결함 & 상폐 악재 유입:\n오늘 제출된 재료는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니라, 단순 **정기 분기 실적 발표 및 녹취록(Q3 Earnings Call Transcript)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 정기실적(10-Q/Item 2.02/Earnings Call Transcript) 및 주주서한/IR 발표' 범주에 정확히 속합니다.\n[나스닥 자진 철회/상폐 악재]: 사전 35일 공시(10/27 8-K Item 3.01)에서 나스닥 자진 상장철회 및 이탈(Voluntary Withdrawal from Nasdaq) 결정을 이미 공식 공시하여, 기관 및 세력 자금 유입이 불가능한 구조적 리스크가 존재합니다.\n주가 반응 역시 +5.96% 보합권에 갇혀 있고, 당일 거래대금($8,467 USD)도 극히 미미하여 세력 매집 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 정기 실적 녹취록(Earnings Call Transcript) 발표에 불과하고, 나스닥 자진 상장철회(Item 3.01) 악재가 결합되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: SCKT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: SCKT NOTES:\n[SCKT] 정기 분기 실적 녹취록(Q3 Earnings Call Transcript) 공시는 1급 확정 기폭제 미달 및 나스닥 자진 상장철회(Item 3.01) 악재로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793975279606_GAUZ_FALSE",
       "date_et": "2026-11-06",
