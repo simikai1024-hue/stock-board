@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06 14:54:36",
+  "updated_at": "2026-11-06 15:31:08",
   "history": [
     {
       "id": "1793922310108_101360_SELL",
@@ -94,7 +94,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-06 14:54:36",
+    "updated_at": "2026-11-06 15:31:08",
     "stats": {
       "total_closed": 3,
       "win_count": 1,
@@ -184,18 +184,18 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-06 14:54:36",
+    "updated_at": "2026-11-06 15:31:08",
     "stats": {
       "cooked_count": 14,
-      "finalized_count": 11,
-      "hit_5pct_count": 10,
-      "hit_5pct_rate": 90.9,
+      "finalized_count": 14,
+      "hit_5pct_count": 12,
+      "hit_5pct_rate": 85.7,
       "dart_count": 14,
       "news_count": 0,
       "today_cooked_count": 3,
-      "avg_day_high_pct": 18.43,
-      "avg_open_to_high_pct": 18.37,
-      "avg_post_disc_max_pct": 14.95
+      "avg_day_high_pct": 18.28,
+      "avg_open_to_high_pct": 18.3,
+      "avg_post_disc_max_pct": 15.2
     },
     "preparing_list": [
       {
@@ -207,8 +207,8 @@
         "prep_date": "2026-11-06",
         "cooked_today": true,
         "disc_time": "10:07",
-        "day_high_pct": 10.74,
-        "open_to_high_pct": 10.6
+        "day_high_pct": 3.49,
+        "open_to_high_pct": 4.56
       },
       {
         "code": "128540",
@@ -219,8 +219,8 @@
         "prep_date": "2026-11-06",
         "cooked_today": true,
         "disc_time": "12:01",
-        "day_high_pct": 28.87,
-        "open_to_high_pct": 26.0
+        "day_high_pct": 29.85,
+        "open_to_high_pct": 26.95
       },
       {
         "code": "002460",
@@ -231,8 +231,8 @@
         "prep_date": "2026-11-06",
         "cooked_today": true,
         "disc_time": "10:50",
-        "day_high_pct": 5.16,
-        "open_to_high_pct": 5.16
+        "day_high_pct": 9.26,
+        "open_to_high_pct": 9.26
       },
       {
         "code": "110790",
@@ -498,13 +498,13 @@
         "disc_price": 755,
         "entry_price": 755,
         "open_price": 627,
-        "high_price": 790,
-        "post_disc_high": 755,
-        "close_price": 755,
-        "open_to_high_pct": 26.0,
-        "day_high_pct": 28.87,
-        "post_disc_max_pct": 4.64,
-        "eod_finalized": false,
+        "high_price": 796,
+        "post_disc_high": 796,
+        "close_price": 796,
+        "open_to_high_pct": 26.95,
+        "day_high_pct": 29.85,
+        "post_disc_max_pct": 5.43,
+        "eod_finalized": true,
         "is_today_live": true,
         "gain_10m_pct": 5.43,
         "mins_to_5pct": 7
@@ -529,13 +529,13 @@
         "disc_price": 11010,
         "entry_price": 11010,
         "open_price": 10470,
-        "high_price": 11010,
-        "post_disc_high": 11010,
-        "close_price": 11010,
-        "open_to_high_pct": 5.16,
-        "day_high_pct": 5.16,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
+        "high_price": 11440,
+        "post_disc_high": 11440,
+        "close_price": 10740,
+        "open_to_high_pct": 9.26,
+        "day_high_pct": 9.26,
+        "post_disc_max_pct": 3.91,
+        "eod_finalized": true,
         "is_today_live": true,
         "gain_10m_pct": 3.91,
         "mins_to_5pct": -1
@@ -548,20 +548,20 @@
         "cat": "대형공급계약",
         "disc_time": "10:07",
         "mcap_uk": 845,
-        "prev_close": 829,
-        "open_price": 830,
+        "prev_close": 887,
+        "open_price": 878,
         "pre_disc_price": 841,
         "disc_price": 845,
         "entry_price": 845,
         "target_5pct_price": 887,
         "high_price": 918,
-        "post_disc_high": 918,
-        "close_price": 0,
-        "day_high_pct": 10.74,
-        "open_to_high_pct": 10.6,
-        "post_disc_max_pct": 8.64,
+        "post_disc_high": 908,
+        "close_price": 829,
+        "day_high_pct": 3.49,
+        "open_to_high_pct": 4.56,
+        "post_disc_max_pct": 7.46,
         "belt_passed": true,
-        "eod_finalized": false,
+        "eod_finalized": true,
         "doc_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900118",
         "rpt_title": "단일판매ㆍ공급계약체결 (128억 · 매출대비 15.4%)",
         "summary": "수주 128억 · 매출비 15.4% (초입 845원→918원 +8.6% 돌파!)",
@@ -1375,7 +1375,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-06 14:54:36",
+    "updated_at": "2026-11-06 15:31:08",
     "stats": {
       "total_evaluated": 27,
       "win_5_count": 10,
