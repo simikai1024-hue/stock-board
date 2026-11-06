@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:22:58",
-  "updated_at_et": "2026-11-06 11:22:58",
-  "updated_epoch_ms": 1793982178292,
+  "updated_at_kst": "2026-11-07 01:24:06",
+  "updated_at_et": "2026-11-06 11:24:06",
+  "updated_epoch_ms": 1793982246605,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:22:55"
+    "updated_kst": "01:24:03"
   },
   "stats": {
     "today_total": 11,
@@ -2097,6 +2097,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "11:23:11",
+      "time_kst": "01:23:11",
+      "symbol": "TU",
+      "company_name": "TU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "11:21:15",
       "time_kst": "01:21:15",
       "symbol": "BTI",
@@ -2441,16 +2451,6 @@
       "time_kst": "21:17:47",
       "symbol": "BAM",
       "company_name": "BAM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:12:56",
-      "time_kst": "21:12:56",
-      "symbol": "TU",
-      "company_name": "TU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
