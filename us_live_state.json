@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:35:50",
-  "updated_at_et": "2026-11-06 07:35:50",
-  "updated_epoch_ms": 1793968550487,
+  "updated_at_kst": "2026-11-06 21:36:43",
+  "updated_at_et": "2026-11-06 07:36:43",
+  "updated_epoch_ms": 1793968603890,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:35:45"
+    "updated_kst": "21:36:43"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 40,
+    "today_hardcut": 41,
     "total_verdicts": 93,
     "total_buy": 4,
     "total_false": 89,
@@ -1897,6 +1897,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:36:39",
+      "time_kst": "21:36:39",
+      "symbol": "EHC",
+      "company_name": "EHC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:31:18",
       "time_kst": "21:31:18",
       "symbol": "CEPU",
@@ -2381,16 +2391,6 @@
       "time_kst": "04:18:26",
       "symbol": "TGS",
       "company_name": "TGS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:00:56",
-      "time_kst": "04:00:56",
-      "symbol": "LPX",
-      "company_name": "LPX",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
