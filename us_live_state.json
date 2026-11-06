@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:20:21",
-  "updated_at_et": "2026-11-06 10:20:21",
-  "updated_epoch_ms": 1793978421698,
+  "updated_at_kst": "2026-11-07 00:21:21",
+  "updated_at_et": "2026-11-06 10:21:21",
+  "updated_epoch_ms": 1793978481020,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:20:19"
+    "updated_kst": "00:21:19"
   },
   "stats": {
     "today_total": 8,
@@ -2037,6 +2037,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "10:21:15",
+      "time_kst": "00:21:15",
+      "symbol": "MXF",
+      "company_name": "MXF",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "10:14:58",
       "time_kst": "00:14:58",
       "symbol": "PUK",
@@ -2524,16 +2534,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:17:29",
-      "time_kst": "20:17:29",
-      "symbol": "DCBO",
-      "company_name": "DCBO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $758.41M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
