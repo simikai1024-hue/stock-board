@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>👑 특S급 공시 스나이퍼 & AI 종가베팅 전광판</title>
+<title>🎯 공시·뉴스 +5% 그물망 스나이퍼 & AI 종가베팅 전광판</title>
 <meta name="theme-color" content="#070B14">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="한국전광판">
+<meta name="apple-mobile-web-app-title" content="공시뉴스+5%">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="../icons/kr-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="../icons/kr-180.png">
@@ -892,6 +893,64 @@
     white-space: pre-wrap; border-top: 1px solid rgba(168, 85, 247, 0.30);
   }
 
+  /* 🗂️ 상단 2대 메인 메뉴 탭 */
+  /* 🧬 15:35 진화 노트 박스 */
+  .evo-day-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 18px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+  }
+  .evo-director-box {
+    margin: 12px 0 14px 0;
+    padding: 13px 16px;
+    border-radius: 13px;
+    background: linear-gradient(135deg, rgba(6, 78, 59, 0.35) 0%, rgba(15, 23, 42, 0.85) 100%);
+    border: 1px solid rgba(52, 211, 153, 0.42);
+    color: #ECFDF5;
+    font-size: 13.8px;
+    line-height: 1.65;
+    white-space: pre-wrap;
+  }
+  .ch-badge-dart {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 9px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 900;
+    background: rgba(245, 158, 11, 0.18);
+    border: 1px solid rgba(251, 191, 36, 0.50);
+    color: #FDE047;
+  }
+  .ch-badge-news {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 9px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 900;
+    background: rgba(14, 165, 233, 0.18);
+    border: 1px solid rgba(56, 189, 248, 0.50);
+    color: #7DD3FC;
+  }
+  .ch-badge-trap {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 9px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 900;
+    background: rgba(239, 68, 68, 0.18);
+    border: 1px solid rgba(248, 113, 113, 0.50);
+    color: #FCA5A5;
+  }
+
   /* 반응형 미디어 쿼리 */
   @media (max-width: 1024px) {
     .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -905,17 +964,18 @@
     .search-input, .search-input:focus { width: 100%; }
   }
   .pwa-install-btn {
-    display: none;
-    background: linear-gradient(135deg, rgba(251, 191, 36, 0.28) 0%, rgba(234, 88, 12, 0.30) 100%);
-    color: #FEF08A;
-    border: 1px solid #FBBF24;
+    background: linear-gradient(135deg, #FDE047 0%, #F59E0B 100%);
+    color: #0F172A;
+    border: 1.5px solid #FEF9C3;
+    padding: 6px 13px;
     border-radius: 9px;
-    padding: 6px 12px;
     font-size: 13px;
     font-weight: 900;
     cursor: pointer;
-    box-shadow: 0 0 14px rgba(251, 191, 36, 0.24);
+    box-shadow: 0 4px 14px rgba(245, 158, 11, 0.35);
+    transition: all 0.16s ease;
   }
+  .pwa-install-btn:hover { transform: translateY(-1px); filter: brightness(1.05); }
 </style>
 </head>
 <body>
@@ -941,8 +1001,8 @@
   <!-- 🗂️ 상단 2대 메인 메뉴 탭 -->
   <div class="nav-tabs">
     <button id="tabBtnMain" class="nav-tab active-main" onclick="switchTab('main')">
-      <span class="nav-tab-main-txt">👑 특S급 공시 스나이퍼</span>
-      <span class="nav-tab-pill" id="tabMainCountPill">실시간 감시 · +8.5% 벨트</span>
+      <span class="nav-tab-main-txt">🎯 공시·뉴스 +5% 그물망 스나이퍼</span>
+      <span class="nav-tab-pill" id="tabMainCountPill">🏛️공시 + 📰단독뉴스 · +5.0% 그물망</span>
     </button>
     <button id="tabBtnAfter" class="nav-tab" onclick="switchTab('aftermarket')">
       <span class="nav-tab-main-txt">🧬 AI 역추적 종가베팅 (19:45)</span>
@@ -951,36 +1011,36 @@
   </div>
 
   <!-- =========================================================================
-       [메뉴 1] 👑 특S급 공시 스나이퍼 (밥그릇 자동매매)
+       [메뉴 1] 🎯 공시·뉴스 통합 +5.0% 매복그물망 스나이퍼 & 15:35 진화 학습
        ========================================================================= -->
   <div id="sectionMain">
 
     <!-- 1. 한눈에 보는 4칸 요약 KPI 카드 -->
     <div class="kpi-grid">
-      <div class="kpi-card">
-        <div class="kpi-label"><span>🚀 공시가 → 최고가 / 종가</span><span>특S급 파워</span></div>
-        <div class="kpi-val" id="kpiAvgGain" style="color:#FDE047;">최고 +--%</div>
-        <div class="kpi-sub" id="kpiAvgDayHigh">🏁 마감종가 평균 +--%</div>
+      <div class="kpi-card clickable" onclick="setCookedFilter('HIT5')" title="클릭하면 포착 후 +5.0% 이상 적중한 종목만 모아봅니다">
+        <div class="kpi-label"><span>🎯 포착가 → +5.0% 적중률</span><span>클릭 필터</span></div>
+        <div class="kpi-val" id="kpiAvgGain" style="color:#4ADE80;">적중 --%</div>
+        <div class="kpi-sub" id="kpiAvgDayHigh">평균 최고 +--% · 종가 +--%</div>
       </div>
 
-      <div class="kpi-card clickable" onclick="setCookedFilter('SUPER20')" title="클릭하면 +20%↑·상한가 종목만 모아봅니다">
-        <div class="kpi-label"><span>🏆 대박 폭발 비율</span><span>클릭 필터</span></div>
-        <div class="kpi-val" id="kpiSuperRatio" style="color:#4ADE80;">- / -건</div>
-        <div class="kpi-sub" id="kpiSangCount">+15%↑ 급등 및 상한가 집계</div>
+      <div class="kpi-card clickable" onclick="setBapTableMode('evo5')" title="클릭하면 15:35 공시+뉴스 통합 +5% 진화 학습장을 엽니다">
+        <div class="kpi-label"><span>🏛️ 선행공시 + 📰 단독뉴스</span><span>15:35 통합학습 보기</span></div>
+        <div class="kpi-val" id="kpiSuperRatio" style="color:#FDE047; font-size:22px;">공시 - · 뉴스 -</div>
+        <div class="kpi-sub" id="kpiSangCount">🛡️ 선공시 4분↑ 뒷북기사 자동차단 ON</div>
       </div>
 
       <div class="kpi-card">
-        <div class="kpi-label"><span>⏰ 특S급 출몰 골든타임</span><span>집중 시간대</span></div>
-        <div class="kpi-val" style="font-size:19px; color:#7DD3FC;">09:00 ~ 14:55</div>
+        <div class="kpi-label"><span>🕸️ 오전·오후 +5% 회전 규율</span><span>09:00 ~ 15:10</span></div>
+        <div class="kpi-val" style="font-size:19px; color:#7DD3FC;">체결즉시 +5.0% 지정가</div>
         <div class="kpi-sub">
-          <span class="gt-mini" id="gtChip1">10:15~11:05</span>
-          <span class="gt-mini" id="gtChip2">12:15~13:45</span>
-          <span class="gt-mini" id="gtChip3">14:15~14:55</span>
+          <span class="gt-mini" id="gtChip1">오전 09:05~11:30</span>
+          <span class="gt-mini" id="gtChip2">오후 12:30~15:10</span>
+          <span class="gt-mini" id="gtChip3">15:35 통합진화</span>
         </div>
       </div>
 
       <div class="kpi-card clickable" onclick="setBapTableMode('ledger')" title="클릭하면 내 계좌 체결 기록을 봅니다">
-        <div class="kpi-label"><span>🤖 내 계좌 자동매매</span><span>클릭 내역보기</span></div>
+        <div class="kpi-label"><span>🤖 내 계좌 +5% 회전 성적</span><span>클릭 내역보기</span></div>
         <div class="kpi-val" id="kpiMyPnl" style="color:#7DD3FC;">+0원</div>
         <div class="kpi-sub" id="kpiMyWinSummary">승률 0.0% · 총 0전 (0승 0패)</div>
       </div>
@@ -990,70 +1050,71 @@
     <div class="hero-card" id="mainHeroCard">
       <div class="hero-top">
         <div>
-          <div class="hero-ribbon" id="mainHeroBadge">📡 실시간 KIND · DART 특S급 공시 1.0초 레이더 가동 중</div>
+          <div class="hero-ribbon" id="mainHeroBadge">📡 실시간 [KIND·DART 공시 + 네이버 원천속보] 1.0초 통합 스나이퍼 가동 중</div>
           <div class="hero-stock-line">
             <span class="hero-stock-name" id="mainHeroStock" onclick="copyCurrentCode(true)" title="클릭하면 종목코드가 즉시 복사됩니다">
-              👑 특S급 공시 터질 종목 실시간 대기 중...
+              🎯 +5.0% 슈팅할 진품 공시 · 단독뉴스 사냥 대기 중...
             </span>
           </div>
         </div>
         <div class="hero-actions">
           <button id="copyBtn" class="action-btn primary-copy" onclick="copyCurrentCode(true)">📋 종목코드 복사</button>
           <a id="heroNaverBtn" class="action-btn naver" href="https://finance.naver.com" target="_blank" rel="noopener">📈 네이버 차트</a>
-          <a id="heroDartBtn" class="action-btn dart" href="https://dart.fss.or.kr" target="_blank" rel="noopener">🏛️ 공시 원문</a>
+          <a id="heroDartBtn" class="action-btn dart" href="https://dart.fss.or.kr" target="_blank" rel="noopener">🏛️ 공시·뉴스 원문</a>
         </div>
       </div>
 
       <div class="hero-price-strip" id="mainHeroPrice">
-        아래 리스트에서 아무 종목이나 클릭하면 종목코드 자동복사 + 상세 가격 흐름이 여기에 표시됩니다!
+        체결 즉시 거래소(KRX)에 +5.0% 지정가 매복그물망 자동 설치! 아래 종목 클릭 시 상세 타점 흐름이 표시됩니다.
       </div>
 
       <div class="hero-badges-row" id="mainHeroBadges">
-        <span class="cat-chip">📦 초대형수주 (시총 50%↑ / 25%↑+빅테크·AI)</span>
-        <span class="cat-chip">💎 진성자사주 (시총 7%↑ / 직접+소각)</span>
-        <span class="cat-chip">🎁 파격무상증자 (1주당 1주·100%↑)</span>
-        <span class="cat-chip">🧬 기술수출 · FDA승인 · 임상탑라인</span>
+        <span class="cat-chip">🏛️ 실전A+특S 수주 (초소형 10%↑ · 중소형 12%↑)</span>
+        <span class="cat-chip">💎 진성자사주(5억·2%↑) · 무증(0.5주↑) · 흑자전환</span>
+        <span class="cat-chip">📰 무공시 단독 원천속보 0.2초 선타격</span>
+        <span class="cat-chip" style="border-color:rgba(52,211,153,0.5); color:#6EE7B7;">🛡️ 선(先)공시→후(後)뉴스 뒷북 100% 차단</span>
       </div>
-      <div class="hero-sub" id="mainHeroSub">선공시·차트 무관! 진짜 특S급 공시가 뜨면 ✨반짝이며 종목코드가 자동 복사되고 +8.5%(VI 직전) 안전벨트 안에서 즉시 매수합니다. 정규장 마감(15:31) 후 당일 최고가가 자동 기록됩니다.</div>
+      <div class="hero-sub" id="mainHeroSub">주 1회 희귀 대박 집착을 버리고, 오전·오후 [진품 공시 + 단독 원천뉴스] 초입에 진입해 KRX 거래소 +5.0% 지정가 그물망으로 위꼬리까지 100% 자동 수확합니다. (+3.3% 터치 후 +0.8% 본절잠금 · -3.0% 칼손절 · 15:35 공시+뉴스 전수 학습)</div>
     </div>
 
     <!-- 3. 뷰 스위치 & 카테고리 원클릭 필터 바 -->
     <div class="toolbar-card">
       <div class="view-Segment">
-        <button id="btnBapCooked" class="seg-btn active" onclick="setBapTableMode('cooked')">👑 특S급 포착 & 마감최고가 리스트</button>
+        <button id="btnBapCooked" class="seg-btn active" onclick="setBapTableMode('cooked')">🎯 실시간 포착 리스트</button>
         <button id="btnBapMyTrades" class="seg-btn" onclick="setBapTableMode('ledger')">🤖 내 계좌 체결 기록</button>
+        <button id="btnBapEvo5" class="seg-btn" onclick="setBapTableMode('evo5')">🧬 15:35 공시+뉴스 +5% 학습장</button>
       </div>
 
       <div class="filter-group" id="cookedFilterBar">
         <button class="filter-chip active" data-f="ALL" onclick="setCookedFilter('ALL')">전체</button>
-        <button class="filter-chip" data-f="SUPER20" onclick="setCookedFilter('SUPER20')">🔥 +20%↑·상한가</button>
-        <button class="filter-chip" data-f="공급계약" onclick="setCookedFilter('공급계약')">📦 공급계약</button>
-        <button class="filter-chip" data-f="자사주취득" onclick="setCookedFilter('자사주취득')">💎 자사주</button>
-        <button class="filter-chip" data-f="무상증자" onclick="setCookedFilter('무상증자')">🎁 무상증자</button>
-        <button class="filter-chip" data-f="BIO" onclick="setCookedFilter('BIO')">🧬 바이오·임상</button>
+        <button class="filter-chip" data-f="HIT5" onclick="setCookedFilter('HIT5')">🎯 +5%↑ 적중</button>
+        <button class="filter-chip" data-f="DART" onclick="setCookedFilter('DART')">🏛️ 공시(DART·KIND)</button>
+        <button class="filter-chip" data-f="NEWS" onclick="setCookedFilter('NEWS')">📰 단독원천뉴스</button>
+        <button class="filter-chip" data-f="수주실적" onclick="setCookedFilter('수주실적')">📦 수주·실적</button>
+        <button class="filter-chip" data-f="자사주바이오" onclick="setCookedFilter('자사주바이오')">💎 자사주·무증·바이오</button>
         <input type="text" id="cookedSearchInput" class="search-input" placeholder="🔍 종목명 · 코드 · 키워드 검색" oninput="applyCookedFilter()" />
       </div>
     </div>
 
-    <!-- 4-A. 👑 요일별 특S급 걸린 종목들 리스트 -->
+    <!-- 4-A. 🎯 요일별 공시·뉴스 실시간 포착 종목 리스트 -->
     <div id="cookedTableWrap">
       <div class="section-bar">
-        <div class="section-title">👑 요일별 [특S급] 포착 종목 기록 <span style="font-size:13px; font-weight:700; color:#94A3B8; margin-left:6px;">행 클릭 시 종목코드 즉시 복사</span></div>
+        <div class="section-title">🎯 요일별 [🏛️공시 + 📰원천뉴스] 포착 & +5% 그물망 성적 <span style="font-size:13px; font-weight:700; color:#94A3B8; margin-left:6px;">행 클릭 시 종목코드 즉시 복사</span></div>
         <div id="cookedAvgBadge" style="font-size:13.5px; font-weight:800; color:#FDE047;"></div>
       </div>
       <div class="table-card">
         <table>
           <thead>
             <tr>
-              <th>날짜 · 요일 (공시시각)</th>
-              <th style="text-align:left; padding-left:18px;">👑 특S급 종목 & 핵심 호재 요약</th>
-              <th>⚡ 공시 떴을 때 가격</th>
-              <th>🔥 최고가 (공시가→최고 %)</th>
-              <th>🏁 마감 종가 (공시가→종가 %)</th>
+              <th>날짜 · 요일 (발화시각)</th>
+              <th style="text-align:left; padding-left:18px;">🎯 포착 채널(공시/뉴스) · 종목 & 핵심 재료</th>
+              <th>⚡ 포착가 (🕸️+5%그물망)</th>
+              <th>🔥 최고가 (+5% 적중 여부)</th>
+              <th>🏁 마감 종가 (포착가→종가 %)</th>
             </tr>
           </thead>
           <tbody id="cookedListBody">
-            <tr><td colspan="5" style="padding:32px; color:#94A3B8;">특S급 공시 기록을 불러오는 중입니다...</td></tr>
+            <tr><td colspan="5" style="padding:32px; color:#94A3B8;">공시·뉴스 실시간 포착 기록을 불러오는 중입니다...</td></tr>
           </tbody>
         </table>
       </div>
@@ -1067,29 +1128,42 @@
           <span class="stat-pill" id="mainWinRatePill" style="color:#FDE047; border-color:#F59E0B;">승률 0.0%</span>
           <span class="stat-pill" id="mainTotalPill">총 0전</span>
           <span class="stat-pill win" id="mainWinPill">⭕ 익절 0승</span>
-          <span class="stat-pill super" id="mainSuperPill">🔥 +10%↑ 대박 0회</span>
+          <span class="stat-pill super" id="mainSuperPill">🎯 +5%칼익절 0회</span>
           <span class="stat-pill loss" id="mainLossPill">❌ 손절 0패</span>
           <span class="stat-pill pnl-pos" id="mainPnlPill">💰 누적 +0원</span>
         </div>
       </div>
       <div class="section-bar">
-        <div class="section-title">🤖 내 계좌 특S급 자동매매 체결 원장 <span style="font-size:13px; font-weight:700; color:#94A3B8; margin-left:6px;">세후 +1원↑ 익절 시 ⭕성공</span></div>
+        <div class="section-title">🤖 내 계좌 [공시 + 뉴스 통합 +5.0% 그물망] 체결 원장 <span style="font-size:13px; font-weight:700; color:#94A3B8; margin-left:6px;">체결 즉시 KRX +5.0% 지정가 매복 · +3.3% 터치 시 본절보호</span></div>
       </div>
       <div class="table-card">
         <table>
           <thead>
             <tr>
               <th>날짜 · 요일</th>
-              <th style="text-align:left; padding-left:18px;">매매 종목 · 공시 수치 & 연구소장 판결</th>
+              <th style="text-align:left; padding-left:18px;">매매 종목 · 포착 재료(공시/뉴스) & 연구소장 판결</th>
               <th>매수가 → 매도가</th>
               <th>세후 수익률 (실현손익)</th>
               <th>결과</th>
             </tr>
           </thead>
           <tbody id="mainLedgerBody">
-            <tr><td colspan="5" style="padding:32px; color:#94A3B8;">⚡ 첫 실시간 특S급 공시 스나이퍼 체결을 대기 중입니다.</td></tr>
+            <tr><td colspan="5" style="padding:32px; color:#94A3B8;">⚡ 실시간 공시·뉴스 +5.0% 스나이퍼 체결을 대기 중입니다.</td></tr>
           </tbody>
         </table>
+      </div>
+    </div>
+
+    <!-- 4-C. 🧬 15:35 공시+뉴스 통합 +5.0% 진화 학습장 -->
+    <div id="evo5TableWrap" style="display:none;">
+      <div class="section-bar">
+        <div class="section-title">🧬 매일 15:35 [🏛️DART·KIND 공시 + 📰속보뉴스] 전수 1분봉 채점 · '+5.0% 돌파 정답 족보'</div>
+        <div style="font-size:13px; font-weight:800; color:#6EE7B7;">시총 2,500억↓ 중소형 진품 +5% 슈팅 전종목 & 연구소장 복기</div>
+      </div>
+      <div id="evo5DaysContainer">
+        <div class="evo-day-card" style="text-align:center; color:#94A3B8; padding:32px;">
+          매일 정규장 마감 직후 15:35에 당일 모든 공시·뉴스 중 실제로 +5.0% 이상 슈팅한 정답 종목과 패턴 분석이 이곳에 자동 축적됩니다.
+        </div>
       </div>
     </div>
 
@@ -1241,9 +1315,9 @@ function updateKstClockAndPhase() {
   }
 
   const hm = Number(hh) * 100 + Number(mm);
-  const g1 = hm >= 1015 && hm <= 1105;
-  const g2 = hm >= 1215 && hm <= 1345;
-  const g3 = hm >= 1415 && hm <= 1455;
+  const g1 = hm >= 905 && hm <= 1130;
+  const g2 = hm >= 1230 && hm <= 1510;
+  const g3 = hm >= 1534 && hm <= 1600;
   const isWeekday = day >= 1 && day <= 5;
 
   const c1 = document.getElementById("gtChip1");
@@ -1258,34 +1332,47 @@ function updateKstClockAndPhase() {
 
   if (!isWeekday) {
     pill.className = "phase-pill";
-    pill.innerText = "🌙 주말 휴장 · 월요일 09:00 특S급 스나이퍼 자동 가동";
-  } else if (g1 || g2 || g3) {
-    const label = g1 ? "오전 골든타임(10:15~11:05)" : (g2 ? "점심 골든타임(12:15~13:45)" : "오후 상한가 골든타임(14:15~14:55)");
+    pill.innerText = "🌙 주말 휴장 · 월요일 09:00 [공시+뉴스 +5% 스나이퍼] 자동 가동";
+  } else if (hm >= 900 && hm <= 1510) {
+    const label = hm < 1200 ? "오전장 +5% 그물망 회전 사냥" : "오후장 +5% 그물망 회전 사냥";
     pill.className = "phase-pill golden";
-    pill.innerText = `🔥 지금 ${label} 집중 감시 중!`;
-  } else if (hm >= 900 && hm < 1455) {
+    pill.innerText = `🎯 지금 [${label}] 공시·단독뉴스 1.0초 감시 중!`;
+  } else if (hm > 1510 && hm <= 1534) {
     pill.className = "phase-pill open";
-    pill.innerText = "🟢 정규장 특S급 공시 1.0초 스나이퍼 가동 중";
-  } else if (hm >= 1455 && hm <= 1531) {
-    pill.className = "phase-pill open";
-    pill.innerText = "⏳ 장 마감 구간 · 15:31 당일 최고가 자동 기록 대기";
-  } else if (hm > 1531 && hm <= 1950) {
+    pill.innerText = "⏳ 15:18 마감 청산 & 15:31 최고가 확정 대기";
+  } else if (hm >= 1535 && hm <= 1605) {
+    pill.className = "phase-pill golden";
+    pill.innerText = "🧬 15:35 [공시+뉴스 +5% 정답종목] 자율 진화 학습 중!";
+  } else if (hm > 1605 && hm <= 1950) {
     pill.className = "phase-pill after";
-    pill.innerText = "🌙 정규장 마감 · 19:45 AI 역추적 종가베팅 대기";
+    pill.innerText = "🌙 정규장 학습 완료 · 19:45 AI 역추적 종가베팅 대기";
   } else {
     pill.className = "phase-pill";
-    pill.innerText = "🌙 장 마감 · 내일 09:00 특S급 레이더 자동 시작";
+    pill.innerText = "🌙 장 마감 · 내일 09:00 [공시+뉴스 +5% 스나이퍼] 자동 시작";
   }
 }
 updateKstClockAndPhase();
 setInterval(updateKstClockAndPhase, 1000);
+
+function roundKrTickJs(price) {
+  const p = Math.round(Number(price || 0));
+  if (p <= 0) return 0;
+  let t = 1000;
+  if (p < 2000) t = 1;
+  else if (p < 5000) t = 5;
+  else if (p < 20000) t = 10;
+  else if (p < 50000) t = 50;
+  else if (p < 200000) t = 100;
+  else if (p < 500000) t = 500;
+  return Math.floor(p / t) * t;
+}
 
 function isGoldenTimeStr(discTime) {
   if (!discTime) return false;
   const clean = String(discTime).replace(/[^0-9]/g, "");
   if (clean.length < 4) return false;
   const hm = Number(clean.slice(0, 4));
-  return (hm >= 1015 && hm <= 1105) || (hm >= 1215 && hm <= 1345) || (hm >= 1415 && hm <= 1455);
+  return (hm >= 900 && hm <= 1130) || (hm >= 1230 && hm <= 1510);
 }
 
 /* =========================================================================
@@ -1347,7 +1434,7 @@ function copyStockCode(code, name, isAutoTrigger) {
   const label = name ? `${name} (${clean})` : clean;
   showCopyToast(
     isAutoTrigger
-      ? `✨ 특S급 포착! [${label}] 코드 자동복사 완료! (영웅문 Ctrl+V)`
+      ? `✨ [공시·뉴스 +5% 포착!] [${label}] 코드 자동복사 완료! (영웅문 Ctrl+V)`
       : `📋 [${label}] 종목코드 복사 완료! (영웅문 Ctrl+V)`
   );
 }
@@ -1366,7 +1453,7 @@ function toggleAutoCopy() {
   if (autoCopyEnabled) {
     btn.className = "top-btn on";
     btn.innerText = "📋 자동복사 켜짐";
-    showCopyToast("✅ 특S급 포착 시 종목코드 자동복사가 켜졌습니다!");
+    showCopyToast("✅ 공시·뉴스 +5% 포착 시 종목코드 자동복사가 켜졌습니다!");
   } else {
     btn.className = "top-btn";
     btn.innerText = "📋 자동복사 꺼짐";
@@ -1408,11 +1495,21 @@ if (window.location.hash === "#aftermarket") {
 
 function setBapTableMode(mode) {
   bapTableMode = mode;
-  document.getElementById("btnBapCooked").className = mode === "cooked" ? "seg-btn active" : "seg-btn";
-  document.getElementById("btnBapMyTrades").className = mode === "ledger" ? "seg-btn active" : "seg-btn";
-  document.getElementById("cookedTableWrap").style.display = mode === "cooked" ? "block" : "none";
-  document.getElementById("cookedFilterBar").style.display = mode === "cooked" ? "flex" : "none";
-  document.getElementById("myLedgerTableWrap").style.display = mode === "ledger" ? "block" : "none";
+  const bCooked = document.getElementById("btnBapCooked");
+  const bLedger = document.getElementById("btnBapMyTrades");
+  const bEvo5 = document.getElementById("btnBapEvo5");
+  if (bCooked) bCooked.className = mode === "cooked" ? "seg-btn active" : "seg-btn";
+  if (bLedger) bLedger.className = mode === "ledger" ? "seg-btn active" : "seg-btn";
+  if (bEvo5) bEvo5.className = mode === "evo5" ? "seg-btn active" : "seg-btn";
+
+  const wCooked = document.getElementById("cookedTableWrap");
+  const wFilter = document.getElementById("cookedFilterBar");
+  const wLedger = document.getElementById("myLedgerTableWrap");
+  const wEvo5 = document.getElementById("evo5TableWrap");
+  if (wCooked) wCooked.style.display = mode === "cooked" ? "block" : "none";
+  if (wFilter) wFilter.style.display = mode === "cooked" ? "flex" : "none";
+  if (wLedger) wLedger.style.display = mode === "ledger" ? "block" : "none";
+  if (wEvo5) wEvo5.style.display = mode === "evo5" ? "block" : "none";
 }
 
 function setCookedFilter(f) {
@@ -1496,6 +1593,7 @@ function cleanSummaryText(raw) {
   return String(raw || "")
     .replace(/^👑\s*\[특S급[^\]]*\]\s*/g, "")
     .replace(/^\[특S급[^\]]*\]\s*/g, "")
+    .replace(/^🎯\s*\[[^\]]*\]\s*/g, "")
     .trim();
 }
 
@@ -1503,8 +1601,9 @@ function evaluateTradeResult(pnlKrw, pnlPct) {
   const krw = Number(pnlKrw || 0);
   const pct = Number(pnlPct || 0);
   const isWin = (krw > 0) || (krw === 0 && pct > 0);
+  const isHit5 = isWin && pct >= 4.5;
   const isSuper = isWin && pct >= 10.0;
-  return { isWin, isSuper };
+  return { isWin, isHit5, isSuper };
 }
 
 function buildPriceStepsHtml(steps) {
@@ -1520,10 +1619,15 @@ function buildCatalystAndDirectorBadgesHtml(reasonStr, noteStr, isOpen) {
   let chips = [];
 
   if (rsn) {
+    if (rsn.includes("뉴스") || rsn.includes("속보") || rsn.includes("[단독]") || rsn.includes("[특징주]")) {
+      chips.push(`<span class="ch-badge-news">📰 단독원천뉴스</span>`);
+    } else if (rsn.includes("공시") || rsn.includes("계약") || rsn.includes("자사주") || rsn.includes("무상증자")) {
+      chips.push(`<span class="ch-badge-dart">🏛️ 선행공시</span>`);
+    }
     const mBracket = rsn.match(/\[([^\]]+)\]\s*(.+)/);
     if (mBracket) {
       chips.push(`<span class="cat-chip">⚡ ${escapeHtml(mBracket[1])}</span>`);
-      chips.push(`<span class="cat-chip metric">📊 ${escapeHtml(mBracket[2])}</span>`);
+      chips.push(`<span class="cat-chip metric">📊 ${escapeHtml(mBracket[2].slice(0, 68))}</span>`);
     } else if (!rsn.startsWith("💰 확정") && !rsn.startsWith("📘 확정")) {
       chips.push(`<span class="cat-chip metric">📊 ${escapeHtml(rsn.slice(0, 72))}</span>`);
     }
@@ -1531,22 +1635,197 @@ function buildCatalystAndDirectorBadgesHtml(reasonStr, noteStr, isOpen) {
 
   if (nt.includes("HOLD_RUNNER") || nt.includes("대시세홀딩") || nt.includes("대박홀딩")) {
     const cleanComment = nt.replace(/^.*?:\s*/, "").trim();
-    chips.push(`<span class="nblm-chip runner" title="${escapeHtml(nt)}">🔥 연구소장: 대박 홀딩${cleanComment ? ' · ' + escapeHtml(cleanComment.slice(0, 34)) : ''}</span>`);
+    chips.push(`<span class="nblm-chip runner" title="${escapeHtml(nt)}">🔥 연구소장: +5% 그물망 유지${cleanComment ? ' · ' + escapeHtml(cleanComment.slice(0, 34)) : ''}</span>`);
   } else if (nt.includes("ABORT_TRAP") || nt.includes("함정즉시탈출")) {
     const cleanComment = nt.replace(/^.*?:\s*/, "").trim();
     chips.push(`<span class="nblm-chip trap" title="${escapeHtml(nt)}">🚨 연구소장: 함정 즉시탈출${cleanComment ? ' · ' + escapeHtml(cleanComment.slice(0, 34)) : ''}</span>`);
   } else if (nt.includes("QUICK_SCALP") || nt.includes("단기슈팅수확")) {
     const cleanComment = nt.replace(/^.*?:\s*/, "").trim();
-    chips.push(`<span class="nblm-chip scalp" title="${escapeHtml(nt)}">💰 연구소장: 단기 수확${cleanComment ? ' · ' + escapeHtml(cleanComment.slice(0, 34)) : ''}</span>`);
+    chips.push(`<span class="nblm-chip scalp" title="${escapeHtml(nt)}">🎯 연구소장: +5% 칼익절 수확${cleanComment ? ' · ' + escapeHtml(cleanComment.slice(0, 34)) : ''}</span>`);
   } else if (isOpen || nt.includes("검수 중") || nt.includes("정밀검수")) {
-    chips.push(`<span class="nblm-chip pending">🧠 노트북LM 원문 정밀검수 중...</span>`);
+    chips.push(`<span class="nblm-chip pending">🧠 노트북LM 원문 함정 검수 중 (+5% 지정가 대기)</span>`);
   }
 
   return chips.join("");
 }
 
 /* =========================================================================
-   👑 요일별 특S급 걸린 종목들 렌더링
+   🧬 15:35 공시+뉴스 통합 +5.0% 진화 학습장 렌더링
+   ========================================================================= */
+function renderEvo5Board(evoDays) {
+  const wrap = document.getElementById("evo5DaysContainer");
+  if (!wrap) return;
+  const days = Array.isArray(evoDays) ? evoDays : [];
+  const btnEvo = document.getElementById("btnBapEvo5");
+  if (btnEvo) {
+    btnEvo.innerText = days.length > 0
+      ? `🧬 15:35 공시+뉴스 +5% 학습장 (${days.length}일)`
+      : `🧬 15:35 공시+뉴스 +5% 학습장`;
+  }
+
+  if (days.length === 0) {
+    wrap.innerHTML = `
+      <div class="evo-day-card" style="text-align:center; color:#94A3B8; padding:32px;">
+        매일 정규장 마감 직후 <b>15:35</b>에 당일 모든 [🏛️DART·KIND 공시 + 📰실시간 속보뉴스]를 1분봉으로 전수 채점하여,<br/>
+        시총 2,500억 이하 중소형주 중 실제로 <b>+5.0% 이상 슈팅한 진품 정답 종목</b>과 연구소장 패턴 복기가 이곳에 자동 축적됩니다.
+      </div>
+    `;
+    return;
+  }
+
+  wrap.innerHTML = "";
+  days.forEach((d, dIdx) => {
+    const wkKey = getWeekdayThemeKey(d.date);
+    const wkShort = d.weekday_short || String(d.weekday || "").slice(0, 1);
+    const winners = Array.isArray(d.winners_5pct) ? d.winners_5pct : [];
+    const traps = Array.isArray(d.traps_defended) ? d.traps_defended : [];
+    const actualBuys = Array.isArray(d.actual_buys) ? d.actual_buys : [];
+    const dirNote = String(d.director_note || "").trim();
+
+    const card = document.createElement("div");
+    card.className = "evo-day-card";
+
+    const dirHtml = dirNote
+      ? `<div class="evo-director-box"><div style="font-weight:900; color:#6EE7B7; margin-bottom:5px;">👑 NotebookLM 연구소장 [+5.0% 공시·뉴스 패턴] 3줄 복기 노트</div>${escapeHtml(dirNote)}</div>`
+      : `<div class="evo-director-box" style="border-color:rgba(148,163,184,0.3); background:rgba(15,23,42,0.65); color:#CBD5E1;">⏳ 장중 실시간 1분봉 가채점 스냅샷입니다. <b>15:35 정규장 마감 학습</b> 시 마감 종가 확정 및 NotebookLM 연구소장 3줄 패턴 복기 노트가 자동 생성됩니다.</div>`;
+
+    let actualHtml = "";
+    if (actualBuys.length > 0) {
+      const abBadges = actualBuys.map((ab) => {
+        const chTag = ab.channel === "NEWS"
+          ? `<span class="ch-badge-news">📰속보 ${escapeHtml(ab.hhmm_fmt || '')}</span>`
+          : `<span class="ch-badge-dart">🏛️공시 ${escapeHtml(ab.hhmm_fmt || '')}</span>`;
+        const hit5Ok = Boolean(ab.hit_5pct_30m || ab.hit_5pct_eod);
+        const g30 = Number(ab.gain_30m || 0);
+        return `
+          <div style="display:inline-flex; align-items:center; gap:7px; flex-wrap:wrap; background:rgba(30,41,59,0.75); border:1px solid rgba(56,189,248,0.35); border-radius:10px; padding:7px 11px; margin:4px 6px 0 0; cursor:pointer;" onclick="copyStockCode('${escapeHtml(ab.code)}', '${escapeHtml(ab.name)}', false)">
+            ${chTag}
+            <b style="color:#FFF;">${escapeHtml(ab.name)} (${escapeHtml(ab.code)})</b>
+            <span style="color:#93C5FD; font-size:12.5px;">기준 ${Number(ab.ref_entry||0).toLocaleString()}원 → 🕸️+5%그물망 ${Number(ab.target_5pct_px||0).toLocaleString()}원</span>
+            <span style="font-weight:900; color:${hit5Ok ? '#4ADE80' : '#FDE047'};">30분최고 +${g30.toFixed(1)}% ${hit5Ok ? '🎯+5%돌파' : ''}</span>
+          </div>
+        `;
+      }).join("");
+      actualHtml = `<div style="margin-bottom:12px;"><div style="font-size:13px; font-weight:800; color:#93C5FD; margin-bottom:4px;">⚡ 당일 스나이퍼 실전 통과 타점 (${actualBuys.length}건):</div>${abBadges}</div>`;
+    }
+
+    let winRowsHtml = "";
+    if (winners.length === 0) {
+      winRowsHtml = `<tr><td colspan="5" style="padding:22px; color:#94A3B8;">해당 거래일(현재 시각 기준) 시총 2,500억 이하 공시·뉴스 중 +5.0% 돌파 종목이 아직 없습니다.</td></tr>`;
+    } else {
+      winRowsHtml = winners.map((w) => {
+        const isNews = w.channel === "NEWS";
+        const chBadge = isNews
+          ? `<span class="ch-badge-news">📰단독뉴스</span>`
+          : `<span class="ch-badge-dart">🏛️선행공시</span>`;
+        const refP = Number(w.ref_entry || 0);
+        const tgt5P = Number(w.target_5pct_px || 0) || roundKrTickJs(refP * 1.05);
+        const g30 = Number(w.gain_30m || 0);
+        const geod = Number(w.gain_eod || 0);
+        const dd30 = Number(w.dd_30m || 0);
+        const clChg = Number(w.close_chg || 0);
+        const mins5 = w.mins_to_5pct !== null && w.mins_to_5pct !== undefined ? `${w.mins_to_5pct}분만에 +5%!` : `+5% 돌파`;
+        const cleanCd = String(w.code || "").slice(0, 6);
+        const decBadge = String(w.decision || "").startsWith("✅")
+          ? `<span class="cat-chip" style="border-color:rgba(52,211,153,0.55); background:rgba(16,185,129,0.18); color:#6EE7B7;">✅ 현행필터 자동포착</span>`
+          : `<span class="cat-chip" style="border-color:rgba(251,191,36,0.45); background:rgba(245,158,11,0.14); color:#FDE68A;">📝 학습족보 (${escapeHtml(String(w.decision || '').replace(/^⏭️/, ''))})</span>`;
+
+        return `
+          <tr class="wk-${wkKey}" onclick="copyStockCode('${escapeHtml(cleanCd)}', '${escapeHtml(w.name)}', false)">
+            <td class="day-cell">
+              <div>${chBadge}</div>
+              <div class="disc-time-pill gt" style="margin-top:5px;">⏰ ${escapeHtml(w.hhmm_fmt || '')}</div>
+            </td>
+            <td style="text-align:left; padding-left:16px;">
+              <div class="row-title-wrap">
+                <div class="row-stock-main">
+                  <span style="font-weight:900; font-size:16.5px; color:#FFFFFF;">${escapeHtml(w.name)}</span>
+                  <span style="font-size:12.5px; color:#94A3B8;">${escapeHtml(cleanCd)}</span>
+                  <span class="cat-chip mcap">시총 ${Number(w.mcap_uk || 0).toLocaleString()}억</span>
+                  ${decBadge}
+                </div>
+                <div class="row-quick-btns">
+                  <span class="mini-btn copy">📋복사</span>
+                  <a class="mini-btn chart" href="https://finance.naver.com/item/main.naver?code=${encodeURIComponent(cleanCd)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">📈차트</a>
+                </div>
+              </div>
+              <div style="font-size:13px; color:#CBD5E1; margin-top:5px; font-weight:700;">${escapeHtml(w.title || '')}</div>
+            </td>
+            <td>
+              <div style="font-size:16px; font-weight:900; color:#38BDF8;">⚡ ${refP.toLocaleString()}원</div>
+              <div style="font-size:12px; color:#4ADE80; font-weight:800; margin-top:3px;">🕸️ +5%그물망 ${tgt5P.toLocaleString()}원</div>
+            </td>
+            <td>
+              <div style="font-size:17px; font-weight:900; color:#FDE047;">+${g30.toFixed(1)}% <span class="ai-crown">🎯${escapeHtml(mins5)}</span></div>
+              <div style="font-size:12px; color:#94A3B8; margin-top:3px;">당일최고 +${geod.toFixed(1)}%</div>
+            </td>
+            <td>
+              <div style="font-size:15.5px; font-weight:900; color:${clChg >= 3.0 ? '#4ADE80' : (clChg >= 0 ? '#7DD3FC' : '#FCA5A5')};">
+                종가 ${clChg >= 0 ? '+' : ''}${clChg.toFixed(1)}%
+              </div>
+              <div style="font-size:12px; color:#CBD5E1; margin-top:3px;">초반눌림 ${dd30.toFixed(1)}%</div>
+            </td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    let trapsFoldHtml = "";
+    if (traps.length > 0) {
+      const trapItemsHtml = traps.map((t) => {
+        const tagLbl = t.is_late_rewrite
+          ? `<span class="ch-badge-trap">🚨선공시뒷북뉴스</span>`
+          : `<span class="ch-badge-trap">📉설거지·윗꼬리함정</span>`;
+        return `<div style="padding:6px 0; border-bottom:1px dashed rgba(148,163,184,0.16); font-size:13px; color:#E2E8F0;">
+          ${tagLbl} <b>[${escapeHtml(t.hhmm_fmt || '')}] ${escapeHtml(t.name)}(${escapeHtml(t.code)})</b> · 시총 ${Number(t.mcap_uk||0).toLocaleString()}억 · 30분최고 +${Number(t.gain_30m||0).toFixed(1)}% / 마감 <b style="color:#FCA5A5;">${Number(t.close_chg||0)>=0?'+':''}${Number(t.close_chg||0).toFixed(1)}%</b> — <span style="color:#94A3B8;">${escapeHtml(t.title || '')}</span>
+        </div>`;
+      }).join("");
+      trapsFoldHtml = `
+        <details class="director-fold" style="margin-top:12px; border-color:rgba(248,113,113,0.38);" ${dIdx === 0 ? "" : ""}>
+          <summary style="background:linear-gradient(90deg, rgba(153,27,27,0.28), rgba(30,41,59,0.4)); color:#FCA5A5;">
+            <span>🛡️ 방어한 선(先)공시 뒷북기사 · 윗꼬리 설거지 함정 사례 (${traps.length}건)</span>
+            <span class="fold-arrow"></span>
+          </summary>
+          <div class="director-full-text" style="white-space:normal; padding:12px 16px;">${trapItemsHtml}</div>
+        </details>
+      `;
+    }
+
+    card.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:10px;">
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+          <span style="font-size:18px; font-weight:900; color:#F8FAFC;">📅 ${escapeHtml(d.date)}</span>
+          <span class="wk-badge ${wkKey}">${escapeHtml(wkShort)}요일</span>
+          <span class="cat-chip">🏛️공시 ${Number(d.dart_count||0)}건 + 📰속보 ${Number(d.news_count||0)}건 전수채점</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
+          <span class="res-win" style="font-size:13px; padding:4px 12px;">🎯 +5.0%↑ 진품 정답 ${winners.length}종목 (🏛️선행공시 ${Number(d.win_dart_cnt||0)} · 📰단독뉴스 ${Number(d.win_pure_news_cnt||0)})</span>
+        </div>
+      </div>
+      ${dirHtml}
+      ${actualHtml}
+      <div class="table-card" style="margin-top:8px;">
+        <table>
+          <thead>
+            <tr>
+              <th>발화채널 · 시각</th>
+              <th style="text-align:left; padding-left:16px;">🎯 +5% 돌파 종목 · 시총 & 원천 재료</th>
+              <th>포착기준가 (🕸️+5%그물망)</th>
+              <th>🚀 30분내 최고 (도달속도)</th>
+              <th>마감종가 / 초반눌림</th>
+            </tr>
+          </thead>
+          <tbody>${winRowsHtml}</tbody>
+        </table>
+      </div>
+      ${trapsFoldHtml}
+    `;
+    wrap.appendChild(card);
+  });
+}
+
+/* =========================================================================
+   🎯 요일별 [공시 + 원천뉴스] 포착 & +5% 그물망 성적 렌더링
    ========================================================================= */
 function renderBapBoard(payload, forceRender) {
   if (!payload) return;
@@ -1556,51 +1835,75 @@ function renderBapBoard(payload, forceRender) {
   cachedBapPayload = payload;
 
   const cookedList = payload.cooked_list || [];
+  const evoDays = payload.evolution_days || [];
   const stats = payload.stats || {};
 
-  // 상단 탭 & KPI 카드 업데이트
-  const tabCntPill = document.getElementById("tabMainCountPill");
-  if (tabCntPill) tabCntPill.innerText = `특S급 ${cookedList.length}건 · +8.5% 벨트`;
+  // 15:35 통합 진화 학습장 먼저 동기화
+  renderEvo5Board(evoDays);
 
-  let sumPost = 0, sumCloseRet = 0, finCnt = 0, up15Cnt = 0, sangCnt = 0;
+  let sumPost = 0, sumCloseRet = 0, finCnt = 0, hit5Cnt = 0, up15Cnt = 0, dartCnt = 0, newsCnt = 0;
   cookedList.forEach((c) => {
-    if (c.eod_finalized !== false) {
+    const isNews = String(c.channel || "DART") === "NEWS";
+    if (isNews) newsCnt++;
+    else dartCnt++;
+
+    const pm = Math.max(0, Number(c.post_disc_max_pct || 0));
+    const dh = Number(c.day_high_pct || 0);
+    if (c.eod_finalized !== false || pm >= 5.0) {
       finCnt++;
-      const pm = Math.max(0, Number(c.post_disc_max_pct || 0));
-      const dh = Number(c.day_high_pct || 0);
       const dp = Number(c.disc_price || c.entry_price || c.open_price || 0);
       const cp = Number(c.close_price || 0);
       const cr = (dp > 0 && cp > 0) ? ((cp - dp) / dp * 100.0) : 0.0;
       sumPost += pm;
-      sumCloseRet += cr;
+      if (c.eod_finalized !== false) sumCloseRet += cr;
+      if (pm >= 5.0) hit5Cnt++;
       if (pm >= 15.0 || dh >= 20.0) up15Cnt++;
-      if (dh >= 29.0) sangCnt++;
     }
   });
 
-  const avgPost = finCnt > 0 ? (sumPost / finCnt) : Number(stats.avg_post_disc_max_pct || 0);
-  const avgCloseRet = finCnt > 0 ? (sumCloseRet / finCnt) : 0.0;
+  const tabCntPill = document.getElementById("tabMainCountPill");
+  if (tabCntPill) {
+    tabCntPill.innerText = `포착 ${cookedList.length}건 (🏛️${dartCnt}·📰${newsCnt}) · +5.0% 그물망`;
+  }
 
-  document.getElementById("kpiAvgGain").innerText = `최고 +${avgPost.toFixed(1)}%`;
+  const avgPost = finCnt > 0 ? (sumPost / finCnt) : Number(stats.avg_post_disc_max_pct || 0);
+  const eodDoneCnt = cookedList.filter(x => x.eod_finalized !== false).length;
+  const avgCloseRet = eodDoneCnt > 0 ? (sumCloseRet / eodDoneCnt) : 0.0;
+  const hit5Rate = finCnt > 0 ? (hit5Cnt / finCnt * 100.0) : Number(stats.hit_5pct_rate || 0);
+
+  document.getElementById("kpiAvgGain").innerText =
+    `적중 ${hit5Rate.toFixed(0)}% (${hit5Cnt}/${finCnt || cookedList.length})`;
   document.getElementById("kpiAvgDayHigh").innerHTML =
-    `🏁 공시가→종가 평균 <b style="color:#4ADE80;">${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%</b>`;
-  document.getElementById("kpiSuperRatio").innerText = `${up15Cnt} / ${finCnt || cookedList.length}건`;
-  document.getElementById("kpiSangCount").innerHTML =
-    `🔥 +15%↑ 급등 <b>${up15Cnt}건</b> · 🏆 상한가권 <b>${sangCnt}건</b>`;
+    `최고평균 <b style="color:#FDE047;">+${avgPost.toFixed(1)}%</b> · 종가평균 <b style="color:#4ADE80;">${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%</b>`;
+
+  document.getElementById("kpiSuperRatio").innerText = `🏛️공시 ${dartCnt} · 📰뉴스 ${newsCnt}`;
+  if (evoDays.length > 0) {
+    const topEvo = evoDays[0];
+    document.getElementById("kpiSangCount").innerHTML =
+      `🧬 ${fmtShortDate(topEvo.date)} +5%정답: <b>🏛️공시 ${topEvo.win_dart_cnt || 0} · 📰뉴스 ${topEvo.win_pure_news_cnt || 0}종목</b>`;
+  } else {
+    document.getElementById("kpiSangCount").innerHTML =
+      `🛡️ 선공시 4분↑ 뒷북기사 자동차단 ON · 🔥+15%↑ <b>${up15Cnt}건</b>`;
+  }
 
   // 필터 & 검색어 적용
   const q = String((document.getElementById("cookedSearchInput") || {}).value || "").trim().toLowerCase();
   const filtered = cookedList.filter((c) => {
-    if (cookedFilter === "SUPER20") {
-      if (Number(c.post_disc_max_pct || 0) < 20.0 && Number(c.day_high_pct || 0) < 25.0) return false;
-    } else if (cookedFilter === "BIO") {
-      const catStr = String(c.cat || "");
-      if (!catStr.includes("임상") && !catStr.includes("기술") && !catStr.includes("허가") && !catStr.includes("바이오")) return false;
-    } else if (cookedFilter !== "ALL") {
-      if (!String(c.cat || "").includes(cookedFilter)) return false;
+    const ch = String(c.channel || "DART");
+    const catStr = `${c.cat || ""} ${c.summary || ""} ${c.rpt_title || ""}`;
+    if (cookedFilter === "HIT5") {
+      if (Number(c.post_disc_max_pct || 0) < 5.0) return false;
+    } else if (cookedFilter === "DART") {
+      if (ch === "NEWS") return false;
+    } else if (cookedFilter === "NEWS") {
+      if (ch !== "NEWS") return false;
+    } else if (cookedFilter === "수주실적") {
+      if (!/공급|수주|계약|어닝|실적|흑자|영업이익/.test(catStr)) return false;
+    } else if (cookedFilter === "자사주바이오") {
+      if (!/자사주|소각|무상|증자|임상|기술|허가|바이오|특허|FDA/i.test(catStr)) return false;
     }
     if (q) {
-      const hay = `${c.name || ""} ${c.code || ""} ${c.cat || ""} ${c.summary || ""} ${c.rpt_title || ""}`.toLowerCase();
+      const hay = `${c.name || ""} ${c.code || ""} ${catStr}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -1610,8 +1913,8 @@ function renderBapBoard(payload, forceRender) {
   if (filtered.length > 0) {
     avgEl.innerText =
       filtered.length === cookedList.length
-        ? `전체 ${cookedList.length}종목 · 공시가→최고 평균 +${avgPost.toFixed(1)}% / 공시가→종가 평균 ${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%`
-        : `필터 결과 ${filtered.length}종목 (전체 ${cookedList.length}종목 중)`;
+        ? `전체 ${cookedList.length}건 (🏛️공시 ${dartCnt} · 📰원천뉴스 ${newsCnt}) · 🎯 +5.0% 그물망 적중 ${hit5Cnt}건 (${hit5Rate.toFixed(0)}%)`
+        : `필터 결과 ${filtered.length}건 (전체 ${cookedList.length}건 중)`;
   } else {
     avgEl.innerText = "";
   }
@@ -1619,7 +1922,7 @@ function renderBapBoard(payload, forceRender) {
   const cBody = document.getElementById("cookedListBody");
   cBody.innerHTML = "";
   if (filtered.length === 0) {
-    cBody.innerHTML = `<tr><td colspan="5" style="padding:32px; color:#94A3B8;">조건에 맞는 특S급 종목이 없습니다. [전체] 필터를 눌러보세요!</td></tr>`;
+    cBody.innerHTML = `<tr><td colspan="5" style="padding:32px; color:#94A3B8;">해당 조건의 포착 종목이 없습니다. [전체] 필터 또는 [🧬 15:35 공시+뉴스 +5% 학습장] 탭을 눌러보세요!</td></tr>`;
     return;
   }
 
@@ -1630,9 +1933,11 @@ function renderBapBoard(payload, forceRender) {
     const isNewDateGroup = prevDate !== "" && prevDate !== c.date;
     prevDate = c.date;
 
+    const isNews = String(c.channel || "DART") === "NEWS";
     const openP = Number(c.open_price || 0);
     const prevCl = Number(c.prev_close || 0);
     const discP = Number(c.disc_price || c.entry_price || openP || 0);
+    const target5P = Number(c.target_5pct_price || 0) || roundKrTickJs(discP * 1.05);
     const preP = Number(c.pre_disc_price || 0);
     const highP = Number(c.post_disc_high || c.high_price || 0);
     const closeP = Number(c.close_price || 0);
@@ -1644,7 +1949,8 @@ function renderBapBoard(payload, forceRender) {
     const mcapUk = Number(c.mcap_uk || 0);
     const isFinalized = c.eod_finalized !== false;
     const beltPassed = c.belt_passed !== false;
-    const isSuperHit = isFinalized && (postMax >= 20.0 || dayHigh >= 29.0);
+    const isHit5 = postMax >= 5.0 || (target5P > 0 && highP >= target5P);
+    const isSuperHit = isFinalized && (postMax >= 15.0 || dayHigh >= 25.0);
 
     tr.className =
       `wk-${wkKey}` +
@@ -1652,18 +1958,21 @@ function renderBapBoard(payload, forceRender) {
       (isSuperHit ? " super-hit-row" : "") +
       (c.is_today_live ? " today-cooked-row" : "");
 
-    const catEmoji = c.cat === "자사주취득" ? "💎" : (c.cat === "공급계약" ? "📦" : (c.cat === "무상증자" ? "🎁" : "🧬"));
+    const chBadge = isNews
+      ? `<span class="ch-badge-news">📰원천뉴스</span>`
+      : `<span class="ch-badge-dart">🏛️선행공시</span>`;
+    const catEmoji = c.cat === "자사주취득" ? "💎" : (String(c.cat || "").includes("공급") || String(c.cat || "").includes("수주") ? "📦" : (c.cat === "무상증자" ? "🎁" : (isNews ? "⚡" : "🧬")));
     const todayStar = c.is_today_live ? `<span class="ai-crown">✨오늘포착</span>` : "";
     const beltChip = beltPassed
-      ? `<span class="cat-chip" style="border-color:rgba(34,197,94,0.45); background:rgba(22,163,74,0.14); color:#86EFAC;">🛡️ +8.5%벨트 통과</span>`
-      : `<span class="cat-chip" style="border-color:rgba(245,158,11,0.45); background:rgba(245,158,11,0.14); color:#FDE047;">👀 벨트초과(관전)</span>`;
+      ? `<span class="cat-chip" style="border-color:rgba(34,197,94,0.45); background:rgba(22,163,74,0.14); color:#86EFAC;">🕸️ +5%그물망 타점통과</span>`
+      : `<span class="cat-chip" style="border-color:rgba(245,158,11,0.45); background:rgba(245,158,11,0.14); color:#FDE047;">👀 과열초과(관전)</span>`;
     const mcapChip = mcapUk > 0 ? `<span class="cat-chip mcap">시총 ${mcapUk.toLocaleString()}억</span>` : "";
 
     let myTradeHtml = "";
     if (c.my_trade && c.my_trade.status) {
       const mt = c.my_trade;
       if (mt.status === "OPEN") {
-        myTradeHtml = `<span class="nblm-chip runner">🤖 보유중 (${Number(mt.buy_price||0).toLocaleString()}원)</span>`;
+        myTradeHtml = `<span class="nblm-chip runner">🤖 보유중 (${Number(mt.buy_price||0).toLocaleString()}원 → 🕸️+5%지정가 대기)</span>`;
       } else if (mt.status !== "BUY_FAIL") {
         const mp = Number(mt.pnl_pct || 0);
         const mk = Number(mt.pnl_krw || 0);
@@ -1671,31 +1980,35 @@ function renderBapBoard(payload, forceRender) {
       }
     }
 
-    const postColor = postMax >= 20.0 ? "#FDE047" : (postMax >= 10.0 ? "#4ADE80" : "#7DD3FC");
-    const barBg = postMax >= 20.0
+    const postColor = postMax >= 15.0 ? "#FDE047" : (isHit5 ? "#4ADE80" : "#7DD3FC");
+    const barBg = postMax >= 15.0
       ? "linear-gradient(90deg, #F59E0B, #FDE047)"
-      : (postMax >= 10.0 ? "linear-gradient(90deg, #059669, #34D399)" : "linear-gradient(90deg, #0284C7, #38BDF8)");
-    const barWidth = Math.min(100, Math.max(8, (postMax / 30.0) * 100));
+      : (isHit5 ? "linear-gradient(90deg, #059669, #34D399)" : "linear-gradient(90deg, #0284C7, #38BDF8)");
+    const barWidth = Math.min(100, Math.max(8, (postMax / 20.0) * 100));
 
-    const dhColor = dayHigh >= 29.0 ? "#FDE047" : (dayHigh >= 12.0 ? "#4ADE80" : "#E2E8F0");
-    const sangTag = dayHigh >= 29.0 ? ` <span class="ai-crown">🏆상한가</span>` : "";
+    const hitTag = dayHigh >= 29.0
+      ? ` <span class="ai-crown">🏆상한가</span>`
+      : (postMax >= 15.0
+        ? ` <span class="ai-crown">🔥+15%대박</span>`
+        : (isHit5 ? ` <span style="font-size:11.5px; font-weight:900; color:#052E16; background:#4ADE80; padding:2px 6px; border-radius:5px; margin-left:4px;">🎯+5%적중!</span>` : ""));
+
     const gtClass = isGoldenTimeStr(c.disc_time) ? "disc-time-pill gt" : "disc-time-pill";
     const wkShort = c.weekday_short || String(c.weekday || "").slice(0, 1);
     const summaryClean = cleanSummaryText(c.summary || c.rpt_title || "");
 
-    const eodHighCellHtml = isFinalized
+    const eodHighCellHtml = (isFinalized || postMax > 0)
       ? `
         <div style="font-size:17.5px; font-weight:900; color:${postColor};">
-          +${postMax.toFixed(2)}%${sangTag}
+          +${postMax.toFixed(2)}%${hitTag}
         </div>
         <div class="gain-bar-track"><div class="gain-bar-fill" style="width:${barWidth.toFixed(0)}%; background:${barBg};"></div></div>
         <div style="font-size:12px; color:#CBD5E1; margin-top:4px;">
-          최고 ${highP.toLocaleString()}원 <span style="color:#94A3B8;">(당일 +${dayHigh.toFixed(1)}%)</span>
+          최고 ${highP.toLocaleString()}원 <span style="color:#94A3B8;">${isFinalized ? `(당일 +${dayHigh.toFixed(1)}%)` : '(장중 집계중)'}</span>
         </div>
       `
       : `
-        <div style="font-size:15px; font-weight:900; color:#FDE047;">
-          ⏳ 15:31 마감후 기록
+        <div style="font-size:14.5px; font-weight:900; color:#FDE047;">
+          ⏳ 장중 추적 중 (15:31 확정)
         </div>
         <div style="font-size:12px; color:#94A3B8; margin-top:3px;">
           현재 고가 ${dayHighPx.toLocaleString()}원
@@ -1703,12 +2016,14 @@ function renderBapBoard(payload, forceRender) {
       `;
 
     const isSangClose = dayClosePct >= 29.0 || (closeP >= highP && postMax >= 20.0);
-    const closeColor = isSangClose ? "#FDE047" : (discToClosePct >= 8.0 ? "#4ADE80" : (discToClosePct > 0 ? "#7DD3FC" : "#FCA5A5"));
+    const closeColor = isSangClose ? "#FDE047" : (discToClosePct >= 5.0 ? "#4ADE80" : (discToClosePct > 0 ? "#7DD3FC" : "#FCA5A5"));
     let closeShapeBadge = "";
     if (isSangClose) {
       closeShapeBadge = `<span class="ai-crown" style="margin-left:4px;">🏆상한가잠김</span>`;
-    } else if (discToClosePct > 0 && postMax > 0 && (discToClosePct / postMax) >= 0.60) {
-      closeShapeBadge = `<span style="font-size:11px; font-weight:800; color:#6EE7B7; background:rgba(16,185,129,0.16); border:1px solid rgba(52,211,153,0.4); padding:1px 6px; border-radius:5px; margin-left:4px;">💪종가유지</span>`;
+    } else if (discToClosePct >= 5.0) {
+      closeShapeBadge = `<span style="font-size:11px; font-weight:800; color:#6EE7B7; background:rgba(16,185,129,0.16); border:1px solid rgba(52,211,153,0.4); padding:1px 6px; border-radius:5px; margin-left:4px;">💪+5%종가유지</span>`;
+    } else if (isHit5 && discToClosePct < 3.0) {
+      closeShapeBadge = `<span style="font-size:11px; font-weight:800; color:#FDE047; background:rgba(245,158,11,0.16); border:1px solid rgba(251,191,36,0.4); padding:1px 6px; border-radius:5px; margin-left:4px;">🕸️그물망수확유리</span>`;
     } else {
       closeShapeBadge = `<span style="font-size:11px; font-weight:800; color:#FDBA74; background:rgba(249,115,22,0.16); border:1px solid rgba(251,146,60,0.4); padding:1px 6px; border-radius:5px; margin-left:4px;">📉윗꼬리</span>`;
     }
@@ -1723,13 +2038,14 @@ function renderBapBoard(payload, forceRender) {
         </div>
       `
       : `
-        <div style="font-size:14.5px; font-weight:800; color:#6EE7B7;">
-          ⏳ 마감후 종가 기록
+        <div style="font-size:14px; font-weight:800; color:#6EE7B7;">
+          ⏳ 15:31 마감후 종가 확정
         </div>
       `;
 
     const cleanCode = String(c.code || "").slice(0, 6);
     const rowDocUrl = c.doc_url || `https://m.stock.naver.com/domestic/stock/${encodeURIComponent(cleanCode)}/notice`;
+    const docBtnLbl = isNews ? "📰기사원문" : "🏛️공시원문";
     tr.innerHTML = `
       <td class="day-cell">
         <div>${fmtShortDate(c.date)} <span class="wk-badge ${wkKey}">${escapeHtml(wkShort)}</span></div>
@@ -1739,17 +2055,18 @@ function renderBapBoard(payload, forceRender) {
         <div class="row-title-wrap">
           <div class="row-stock-main">
             ${todayStar}
+            ${chBadge}
             <span style="font-weight:900; font-size:17px; color:#FFFFFF;">${escapeHtml(c.name)}</span>
             <span style="font-size:13px; font-weight:700; color:#94A3B8;">${escapeHtml(cleanCode)}</span>
           </div>
           <div class="row-quick-btns">
             <span class="mini-btn copy">📋복사</span>
             <a class="mini-btn chart" href="https://finance.naver.com/item/main.naver?code=${encodeURIComponent(cleanCode)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">📈차트</a>
-            <a class="mini-btn dart" href="${escapeHtml(rowDocUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">🏛️원문</a>
+            <a class="mini-btn dart" href="${escapeHtml(rowDocUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation();">${docBtnLbl}</a>
           </div>
         </div>
         <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:7px;">
-          <span class="cat-chip">${catEmoji} ${escapeHtml(c.cat || '특S급')}</span>
+          <span class="cat-chip">${catEmoji} ${escapeHtml(c.cat || (isNews ? '단독속보' : '핵심공시'))}</span>
           ${mcapChip}
           <span class="cat-chip metric">${escapeHtml(summaryClean)}</span>
           ${beltChip}
@@ -1760,8 +2077,8 @@ function renderBapBoard(payload, forceRender) {
         <div style="font-size:17px; font-weight:900; color:#38BDF8;">
           ⚡ ${discP.toLocaleString()}원
         </div>
-        <div style="font-size:12px; color:#94A3B8; margin-top:3px;">
-          ${preP > 0 ? `직전가 ${preP.toLocaleString()}원` : `시가 ${openP.toLocaleString()}원`}
+        <div style="font-size:12px; color:#4ADE80; font-weight:800; margin-top:3px;">
+          🕸️ +5%그물망 ${target5P.toLocaleString()}원
         </div>
       </td>
       <td>${eodHighCellHtml}</td>
@@ -1772,24 +2089,26 @@ function renderBapBoard(payload, forceRender) {
       copyStockCode(cleanCode, c.name, false);
       updateQuickLinks(cleanCode, false, rowDocUrl);
       document.getElementById("mainHeroBadge").innerText =
-        `👑 ${c.date} (${c.weekday || wkShort}) ${c.disc_time || ''} 포착된 특S급 공시 상세`;
+        `🎯 ${c.date} (${c.weekday || wkShort}) ${c.disc_time || ''} [${isNews ? '📰단독원천뉴스' : '🏛️선행공시'}] 포착 상세`;
       document.getElementById("mainHeroStock").innerText = `${c.name} (${cleanCode})`;
       const pEl = document.getElementById("mainHeroPrice");
       if (isFinalized) {
         pEl.innerHTML = buildPriceStepsHtml([
-          { label: "⚡ 공시 떴을 때 가격", value: `${discP.toLocaleString()}원`, color: "#38BDF8" },
-          { label: "🔥 당일 최고가 (공시가 대비)", value: `${highP.toLocaleString()}원 (+${postMax.toFixed(2)}%)`, color: "#FDE047" },
-          { label: "🏁 정규장 마감 종가 (공시가 대비)", value: `${closeP.toLocaleString()}원 (${discToClosePct >= 0 ? '+' : ''}${discToClosePct.toFixed(2)}%)`, color: closeColor }
+          { label: "⚡ 포착 기준가", value: `${discP.toLocaleString()}원`, color: "#38BDF8" },
+          { label: "🕸️ +5.0% 그물망 지정가", value: `${target5P.toLocaleString()}원`, color: "#4ADE80" },
+          { label: "🔥 당일 최고가", value: `${highP.toLocaleString()}원 (+${postMax.toFixed(2)}%)`, color: "#FDE047" },
+          { label: "🏁 마감 종가", value: `${closeP.toLocaleString()}원 (${discToClosePct >= 0 ? '+' : ''}${discToClosePct.toFixed(2)}%)`, color: closeColor }
         ]);
       } else {
         pEl.innerHTML = buildPriceStepsHtml([
-          { label: "⚡ 공시 떴을 때 가격", value: `${discP.toLocaleString()}원`, color: "#38BDF8" },
-          { label: "⏳ 정규장 마감 최고가", value: "15:31 마감 후 1회 자동 기록", color: "#FDE047" }
+          { label: "⚡ 포착 기준가", value: `${discP.toLocaleString()}원`, color: "#38BDF8" },
+          { label: "🕸️ +5.0% 그물망 지정가", value: `${target5P.toLocaleString()}원`, color: "#4ADE80" },
+          { label: "🔥 현재 장중 고가", value: `${highP > 0 ? highP.toLocaleString() + '원 (+' + postMax.toFixed(2) + '%)' : '15:31 자동 확정'}`, color: "#FDE047" }
         ]);
       }
       document.getElementById("mainHeroBadges").innerHTML =
-        `<span class="cat-chip">${catEmoji} ${escapeHtml(c.cat)}</span>${mcapChip}<span class="cat-chip metric">${escapeHtml(summaryClean)}</span>${beltChip}`;
-      document.getElementById("mainHeroSub").innerText = `📄 원문 공시명: ${c.rpt_title || c.summary || ''}`;
+        `${chBadge}<span class="cat-chip">${catEmoji} ${escapeHtml(c.cat || '')}</span>${mcapChip}<span class="cat-chip metric">${escapeHtml(summaryClean)}</span>${beltChip}`;
+      document.getElementById("mainHeroSub").innerText = `📄 원천 제목: ${c.rpt_title || c.summary || ''}`;
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
     cBody.appendChild(tr);
@@ -1808,11 +2127,11 @@ function renderBapBoard(payload, forceRender) {
    ========================================================================= */
 function resetMainHeroToIdleRadar() {
   document.getElementById("mainHeroCard").classList.remove("sparkle-hero");
-  document.getElementById("mainHeroBadge").innerText = "📡 실시간 KIND · DART 특S급 공시 1.0초 레이더 가동 중";
-  document.getElementById("mainHeroStock").innerText = "👑 특S급 공시 터질 종목 실시간 대기 중...";
+  document.getElementById("mainHeroBadge").innerText = "📡 실시간 [KIND·DART 공시 + 네이버 원천속보] 1.0초 통합 스나이퍼 가동 중";
+  document.getElementById("mainHeroStock").innerText = "🎯 +5.0% 슈팅할 진품 공시 · 단독뉴스 사냥 대기 중...";
   const pEl = document.getElementById("mainHeroPrice");
   pEl.style.color = "#7DD3FC";
-  pEl.innerText = "아래 리스트에서 아무 종목이나 클릭하면 종목코드 자동복사 + 상세 가격 흐름이 여기에 표시됩니다!";
+  pEl.innerText = "체결 즉시 거래소(KRX)에 +5.0% 지정가 매복그물망 자동 설치! 아래 종목 클릭 시 상세 타점 흐름이 표시됩니다.";
 }
 
 function updateMainHeroFromSignal(item, isLiveArrival) {
@@ -1845,20 +2164,24 @@ function updateMainHeroFromSignal(item, isLiveArrival) {
   }
 
   if (sig === "BUY") {
-    document.getElementById("mainHeroBadge").innerText = `⚡ [${tm} 특S급 포착!! 실시간 스나이퍼 매수 체결!]`;
+    const tgtP = Number(item.target_price || 0) || roundKrTickJs(price * 1.05);
+    const stpP = Number(item.stop_price || 0) || roundKrTickJs(price * 0.97);
+    document.getElementById("mainHeroBadge").innerText = `⚡ [${tm} 공시·뉴스 포착!! 실시간 +5.0% 매복그물망 체결!]`;
     pEl.innerHTML = buildPriceStepsHtml([
       { label: "⚡ 진입 체결가", value: `${price.toLocaleString()}원${qty > 0 ? ' (' + qty + '주)' : ''}`, color: "#FDE047" },
-      { label: "🎯 1차 익절선", value: `${Number(item.target_price||0).toLocaleString()}원`, color: "#4ADE80" },
-      { label: "🛡️ 손절 방어선", value: `${Number(item.stop_price||0).toLocaleString()}원`, color: "#FCA5A5" }
+      { label: "🕸️ +5.0% 그물망 지정가", value: `${tgtP.toLocaleString()}원`, color: "#4ADE80" },
+      { label: "🛡️ -3.0% 손절 방어선", value: `${stpP.toLocaleString()}원`, color: "#FCA5A5" }
     ]);
     document.getElementById("mainHeroBadges").innerHTML =
       buildCatalystAndDirectorBadgesHtml(item.ammo_title, item.note, true);
     document.getElementById("mainHeroSub").innerText = item.note || item.ammo_title || "";
   } else if (sig === "COOKED") {
-    document.getElementById("mainHeroBadge").innerText = `✨ [${tm} 특S급 대박 호재 공시 폭발!!]`;
+    const tgtP = Number(item.target_price || 0) || roundKrTickJs(price * 1.05);
+    document.getElementById("mainHeroBadge").innerText = `✨ [${tm} 진품 공시·단독뉴스 포착!! +5% 그물망 감시!]`;
     pEl.innerHTML = buildPriceStepsHtml([
-      { label: "⚡ 공시 포착 현재가", value: `${price.toLocaleString()}원 (${Number(item.flu_rt||0)>=0?'+':''}${Number(item.flu_rt||0).toFixed(2)}%)`, color: "#FDE047" },
-      { label: "📋 자동복사 상태", value: `[${item.code}] 복사 완료`, color: "#4ADE80" }
+      { label: "⚡ 포착 현재가", value: `${price.toLocaleString()}원 (${Number(item.flu_rt||0)>=0?'+':''}${Number(item.flu_rt||0).toFixed(2)}%)`, color: "#FDE047" },
+      { label: "🕸️ +5.0% 목표가", value: `${tgtP.toLocaleString()}원`, color: "#4ADE80" },
+      { label: "📋 자동복사", value: `[${item.code}] 완료`, color: "#7DD3FC" }
     ]);
     document.getElementById("mainHeroBadges").innerHTML =
       buildCatalystAndDirectorBadgesHtml(item.ammo_title, item.note, false);
@@ -1866,9 +2189,9 @@ function updateMainHeroFromSignal(item, isLiveArrival) {
   } else if (sig === "SELL") {
     heroCard.classList.remove("sparkle-hero");
     const ev = evaluateTradeResult(pnlKrw, pnlPct);
-    document.getElementById("mainHeroBadge").innerText = ev.isSuper
-      ? `🔥 [${tm} +10%↑ 대박 익절 달성!]`
-      : (ev.isWin ? `⭕ [${tm} 세후 실수익 익절 완료!]` : `❌ [${tm} 방어 청산 완료]`);
+    document.getElementById("mainHeroBadge").innerText = ev.isHit5
+      ? `🎯 [${tm} +5.0% 매복그물망 칼익절 적중!!]`
+      : (ev.isWin ? `⭕ [${tm} 세후 실수익 익절 완료!]` : `❌ [${tm} -3% 방어선 손절·청산 완료]`);
     pEl.innerHTML = buildPriceStepsHtml([
       { label: "매수가", value: `${buyP > 0 ? buyP.toLocaleString() : '-'}원`, color: "#CBD5E1" },
       { label: "매도가", value: `${price.toLocaleString()}원`, color: "#F8FAFC" },
@@ -1896,7 +2219,7 @@ function renderMainLedger(payload) {
   if (lStamp) lastLedgerStamp = lStamp;
   const rows = payload.rows || [];
 
-  let closedCnt = 0, winCnt = 0, superCnt = 0, lossCnt = 0, totalPnlKrw = 0;
+  let closedCnt = 0, winCnt = 0, hit5WinCnt = 0, lossCnt = 0, totalPnlKrw = 0;
 
   rows.forEach((r) => {
     if (r.status === "OPEN" || r.status === "BUY_FAIL") return;
@@ -1906,10 +2229,11 @@ function renderMainLedger(payload) {
     totalPnlKrw += krw;
     const ev = evaluateTradeResult(krw, pct);
     r._isWin = ev.isWin;
+    r._isHit5 = ev.isHit5;
     r._isSuper = ev.isSuper;
     if (ev.isWin) {
       winCnt++;
-      if (ev.isSuper) superCnt++;
+      if (ev.isHit5) hit5WinCnt++;
     } else {
       lossCnt++;
     }
@@ -1919,7 +2243,7 @@ function renderMainLedger(payload) {
   document.getElementById("mainWinRatePill").innerText = `승률 ${rate.toFixed(1)}%`;
   document.getElementById("mainTotalPill").innerText = `총 ${closedCnt}전`;
   document.getElementById("mainWinPill").innerText = `⭕ 익절 ${winCnt}승`;
-  document.getElementById("mainSuperPill").innerText = `🔥 +10%↑ 대박 ${superCnt}회`;
+  document.getElementById("mainSuperPill").innerText = `🎯 +5%칼익절 ${hit5WinCnt}회`;
   document.getElementById("mainLossPill").innerText = `❌ 손절 ${lossCnt}패`;
 
   const pnlEl = document.getElementById("mainPnlPill");
@@ -1932,7 +2256,7 @@ function renderMainLedger(payload) {
   kpiPnl.innerText = pnlStr;
   kpiPnl.style.color = totalPnlKrw > 0 ? "#4ADE80" : (totalPnlKrw < 0 ? "#FCA5A5" : "#7DD3FC");
   document.getElementById("kpiMyWinSummary").innerText =
-    `승률 ${rate.toFixed(1)}% · 총 ${closedCnt}전 (${winCnt}승 ${lossCnt}패)`;
+    `승률 ${rate.toFixed(1)}% · 총 ${closedCnt}전 (${winCnt}승 ${lossCnt}패 · 🎯+5%익절 ${hit5WinCnt}회)`;
 
   const btnLedger = document.getElementById("btnBapMyTrades");
   if (btnLedger) btnLedger.innerText = `🤖 내 계좌 체결 기록 (${rows.length})`;
@@ -1947,7 +2271,7 @@ function renderMainLedger(payload) {
   const tbody = document.getElementById("mainLedgerBody");
   tbody.innerHTML = "";
   if (rows.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="5" style="padding:32px; color:#94A3B8;">⚡ 첫 실시간 특S급 공시 스나이퍼 체결을 대기 중입니다.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5" style="padding:32px; color:#94A3B8;">⚡ 실시간 공시·뉴스 +5.0% 스나이퍼 체결을 대기 중입니다.</td></tr>`;
     return;
   }
 
@@ -1961,13 +2285,14 @@ function renderMainLedger(payload) {
 
     const buyP = Number(r.buy_price || 0);
     const sellP = Number(r.sell_price || 0);
+    const tgt5P = roundKrTickJs(buyP * 1.05);
     const pct = Number(r.pnl_pct || 0);
     const krw = Number(r.pnl_krw || 0);
     const bTime = r.buy_time ? `<div style="font-size:12px; color:#94A3B8; margin-top:3px;">${escapeHtml(r.buy_time)}${r.sell_time ? ' → ' + escapeHtml(r.sell_time) : ''}</div>` : "";
 
     const priceTxt = r.status === "BUY_FAIL"
       ? `<span style="color:#94A3B8;">${buyP.toLocaleString()}원 (미체결)</span>${bTime}`
-      : `${buyP.toLocaleString()}원 → ${sellP > 0 ? sellP.toLocaleString() + '원' : '<span style="color:#FDE047;">보유중</span>'}${bTime}`;
+      : `${buyP.toLocaleString()}원 → ${sellP > 0 ? sellP.toLocaleString() + '원' : `<span style="color:#4ADE80;">🕸️+5%(${tgt5P.toLocaleString()}원) 대기</span>`}${bTime}`;
 
     const pnlColor = krw > 0 || (krw === 0 && pct > 0) ? "#4ADE80" : (krw < 0 || pct < 0 ? "#FCA5A5" : "#E2E8F0");
     let pnlTxt = r.status === "OPEN"
@@ -1976,13 +2301,13 @@ function renderMainLedger(payload) {
         ? `<span style="color:#94A3B8;">0.00% (0원)</span>`
         : `<span style="color:${pnlColor}; font-weight:900; font-size:17px;">${pct>=0?'+':''}${pct.toFixed(2)}%</span> <div style="font-size:13px; color:#CBD5E1;">(${krw>=0?'+':''}${krw.toLocaleString()}원)</div>`);
 
-    let badgeHtml = `<span class="res-wait">⏳ 보유중</span>`;
+    let badgeHtml = `<span class="res-wait">⏳ 그물망대기</span>`;
     if (r.status === "BUY_FAIL") {
       badgeHtml = `<span class="res-pass">⚠️ 미체결취소</span>`;
     } else if (r.status !== "OPEN") {
-      badgeHtml = r._isSuper
-        ? `<span class="res-super">🔥 대박성공!</span>`
-        : (r._isWin ? `<span class="res-win">⭕ 성공</span>` : `<span class="res-loss">❌ 실패</span>`);
+      badgeHtml = r._isHit5
+        ? `<span class="res-super">🎯 +5%칼익절!</span>`
+        : (r._isWin ? `<span class="res-win">⭕ 익절성공</span>` : `<span class="res-loss">❌ 손절방어</span>`);
     }
 
     const cleanCode = String(r.code || "").slice(0, 6);
@@ -2347,7 +2672,6 @@ client.on("message", (topic, payload) => {
   } catch (e) {}
 });
 </script>
-
 <!-- 📲 독립 폴더 PWA 앱 설치 스크립트 -->
 <script>
 (function() {
