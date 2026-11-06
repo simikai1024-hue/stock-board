@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:13:06",
-  "updated_at_et": "2026-11-06 06:13:06",
-  "updated_epoch_ms": 1793963586222,
+  "updated_at_kst": "2026-11-06 20:13:52",
+  "updated_at_et": "2026-11-06 06:13:52",
+  "updated_epoch_ms": 1793963632935,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:13:03"
+    "updated_kst": "20:13:48"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 10,
+    "today_hardcut": 11,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:13:47",
+      "time_kst": "20:13:47",
+      "symbol": "CHT",
+      "company_name": "CHT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:08:44",
       "time_kst": "20:08:44",
       "symbol": "EVTC",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $19330.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:07:45",
-      "time_kst": "23:07:45",
-      "symbol": "BHAV",
-      "company_name": "BHAV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $142.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
