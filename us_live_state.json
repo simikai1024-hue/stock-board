@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:11:29",
-  "updated_at_et": "2026-11-06 07:11:29",
-  "updated_epoch_ms": 1793967089888,
+  "updated_at_kst": "2026-11-06 21:12:24",
+  "updated_at_et": "2026-11-06 07:12:24",
+  "updated_epoch_ms": 1793967144775,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:11:13"
+    "updated_kst": "21:12:21"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 32,
+    "today_hardcut": 33,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:11:31",
+      "time_kst": "21:11:31",
+      "symbol": "BRNX",
+      "company_name": "BRNX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-14 [424B5])"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:11:26",
       "time_kst": "21:11:26",
       "symbol": "ENB",
@@ -2361,16 +2371,6 @@
       "time_kst": "02:37:12",
       "symbol": "TECK",
       "company_name": "TECK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "12:34:30",
-      "time_kst": "02:34:30",
-      "symbol": "STLA",
-      "company_name": "STLA",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
