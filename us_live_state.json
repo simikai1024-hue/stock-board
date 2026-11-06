@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:18:38",
-  "updated_at_et": "2026-11-06 09:18:38",
-  "updated_epoch_ms": 1793974718529,
+  "updated_at_kst": "2026-11-06 23:18:49",
+  "updated_at_et": "2026-11-06 09:18:49",
+  "updated_epoch_ms": 1793974729686,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "PWCM",
+    "company_name": "PWCM",
+    "exchange": "ND",
+    "price": 0.507,
+    "gain_pct": 8.94,
+    "mcap_m": 1.29,
+    "catalyst_hint": "[당일 SEC] 2026-11-06 [8-K] (Item 1.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:18:46",
+    "started_at_kst": "23:18:46",
+    "started_epoch_ms": 1793974726200
   },
   "halt_watch": {
     "active": false
