@@ -1,4 +1,4 @@
-// 달의검 독립 전광판 PWA Service Worker (실시간 JSON & 올드보이 OST 오디오 직통 · v4)
+// 달의검 독립 전광판 PWA Service Worker (실시간 JSON & 올드보이 OST 오디오 직통 · v5)
 const CACHE_NAME = 'moon-sword-sub-pwa-v4';
 
 self.addEventListener('install', (event) => {
