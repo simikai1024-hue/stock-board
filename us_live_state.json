@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:17:08",
-  "updated_at_et": "2026-11-06 06:17:08",
-  "updated_epoch_ms": 1793963828724,
+  "updated_at_kst": "2026-11-06 20:18:10",
+  "updated_at_et": "2026-11-06 06:18:10",
+  "updated_epoch_ms": 1793963890429,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:17:03"
+    "updated_kst": "20:18:08"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 13,
+    "today_hardcut": 14,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:17:29",
+      "time_kst": "20:17:29",
+      "symbol": "DCBO",
+      "company_name": "DCBO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $758.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:14:04",
       "time_kst": "20:14:04",
       "symbol": "PHAR",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $643.89M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:18:03",
-      "time_kst": "23:18:03",
-      "symbol": "APPS",
-      "company_name": "APPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1192.88M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
