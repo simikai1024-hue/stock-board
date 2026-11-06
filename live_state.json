@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06 10:51:20",
+  "updated_at": "2026-11-06 12:01:55",
   "history": [
     {
       "id": "1793922310108_101360_SELL",
@@ -55,10 +55,26 @@
       "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 매출 대비 비중(15.45%)이 HOLD_RUNNER 기준(19%+)에 미달하고 장비 단발 수주 특성상 파인텍·쎄노텍 표본처럼 VI 슈팅 후 윗꼬리 반납 가능성이 높아 빠른 반익절(-1.8%p 트레",
       "buy_price": 865,
       "qty": 102
+    },
+    {
+      "id": "1793934113433_128540_WATCH",
+      "type": "WATCH",
+      "auto_copy": true,
+      "time": "2026-11-06 12:01:53",
+      "name": "에코캡",
+      "code": "128540",
+      "price": 755,
+      "flu_rt": 23.16,
+      "val_uk": 0.0,
+      "target_price": 781,
+      "stop_price": 729,
+      "ammo_title": "⚡[DART 실시간공시·자사주취득] 👑[특S급] 자사주(신탁) 15.0억 (시총의 9.1%) (시총 164억)",
+      "ammo_date": "20261106",
+      "note": "👑⚡ 실시간 DART·KIND 진짜 특S급 호재 공시 포착!"
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-06 10:51:20",
+    "updated_at": "2026-11-06 12:01:55",
     "stats": {
       "total_closed": 2,
       "win_count": 0,
@@ -141,15 +157,27 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-06 10:51:20",
+    "updated_at": "2026-11-06 12:01:55",
     "stats": {
-      "cooked_count": 12,
-      "today_cooked_count": 1,
-      "avg_day_high_pct": 18.2,
-      "avg_open_to_high_pct": 18.39,
-      "avg_post_disc_max_pct": 16.33
+      "cooked_count": 13,
+      "today_cooked_count": 2,
+      "avg_day_high_pct": 19.02,
+      "avg_open_to_high_pct": 18.97,
+      "avg_post_disc_max_pct": 15.43
     },
     "preparing_list": [
+      {
+        "code": "128540",
+        "name": "에코캡",
+        "mcap_uk": 164,
+        "prep_tag": "✨ 자사주취득 폭발!",
+        "prep_detail": "👑[특S급] 자사주(신탁) 15.0억 (시총의 9.1%)",
+        "prep_date": "2026-11-06",
+        "cooked_today": true,
+        "disc_time": "12:01",
+        "day_high_pct": 28.87,
+        "open_to_high_pct": 26.0
+      },
       {
         "code": "002460",
         "name": "HS화성",
@@ -414,20 +442,38 @@
         "cur_price": 9540,
         "flu_rt": -3.54,
         "cooked_today": false
-      },
-      {
-        "code": "018000",
-        "name": "유니슨",
-        "mcap_uk": 3048,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/19] 타법인주식및출자증권취득결정 (시총 3,048억)",
-        "prep_date": "2026-10-19",
-        "cur_price": 1044,
-        "flu_rt": 0.0,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-06",
+        "weekday": "금요일",
+        "weekday_short": "금",
+        "disc_time": "12:01",
+        "code": "128540",
+        "name": "에코캡",
+        "tier": "S",
+        "belt_passed": true,
+        "cat": "자사주취득",
+        "summary": "👑[특S급] 자사주(신탁) 15.0억 (시총의 9.1%)",
+        "rpt_title": "주요사항보고서(자기주식취득신탁계약체결결정)",
+        "doc_url": "https://m.stock.naver.com/domestic/stock/128540/notice",
+        "mcap_uk": 164,
+        "prev_close": 613,
+        "pre_disc_price": 718,
+        "spike_from_pre_pct": 5.15,
+        "disc_price": 755,
+        "entry_price": 755,
+        "open_price": 627,
+        "high_price": 790,
+        "post_disc_high": 755,
+        "close_price": 755,
+        "open_to_high_pct": 26.0,
+        "day_high_pct": 28.87,
+        "post_disc_max_pct": 4.64,
+        "eod_finalized": false,
+        "is_today_live": true
+      },
       {
         "date": "2026-11-06",
         "weekday": "금요일",
@@ -787,7 +833,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-06 10:51:20",
+    "updated_at": "2026-11-06 12:01:55",
     "stats": {
       "total_evaluated": 27,
       "win_5_count": 10,
