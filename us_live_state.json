@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:01:50",
-  "updated_at_et": "2026-11-06 11:01:50",
-  "updated_epoch_ms": 1793980910961,
+  "updated_at_kst": "2026-11-07 01:02:32",
+  "updated_at_et": "2026-11-06 11:02:32",
+  "updated_epoch_ms": 1793980952063,
   "analyzing": {
-    "active": true,
-    "symbol": "ELPW",
-    "company_name": "ELPW",
-    "exchange": "ND",
-    "price": 1.1,
-    "gain_pct": -16.03,
-    "mcap_m": 1.03,
-    "catalyst_hint": "[당일 SEC] 2026-11-06 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:01:47",
-    "started_at_kst": "01:01:47",
-    "started_epoch_ms": 1793980907756
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:01:46"
+    "updated_kst": "01:02:10"
   },
   "stats": {
-    "today_total": 9,
-    "today_nblm_count": 9,
+    "today_total": 10,
+    "today_nblm_count": 10,
     "today_buy": 0,
-    "today_false": 9,
+    "today_false": 10,
     "today_hardcut": 60,
-    "total_verdicts": 101,
+    "total_verdicts": 102,
     "total_buy": 4,
-    "total_false": 97,
-    "avg_nblm_sec": 45.4
+    "total_false": 98,
+    "avg_nblm_sec": 45.1
   },
   "verdicts": [
+    {
+      "id": "v_1793980946740_ELPW_FALSE",
+      "date_et": "2026-11-06",
+      "weekday_kr": "금",
+      "time_et": "11:02:26",
+      "time_kst": "01:02:26",
+      "symbol": "ELPW",
+      "company_name": "ELPW",
+      "exchange": "ND",
+      "price": 1.1,
+      "gain_pct": -16.03,
+      "mcap_m": 1.03,
+      "decision": "FALSE",
+      "elapsed_sec": 42.4,
+      "reason": "약 $3.26M 달러 규모 워런트 행사 유도(Warrant Inducement) 신주 희석 공시 및 전일 대비 -16.03% 음봉 폭락으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-06 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ELPW (Elong Power Holding Limited) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.03M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.3100 대비 현재가 $1.1000 (-16.03% 폭락), 당일 최고가 $1.2800 (고점 대비 -14.1% 밀림)\n. 당일 누적 거래대금 $1,078,115 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 치명적 결함\n당일(11/06) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] 접수.\n원문 팩트: 첨부 EX-99.1 원문은 *\"Elong Power Holding Limited Enters into Approximately $3.26 Million Warrant Inducement...\"*\n치명적 기폭제 결함 & 워런트 신주 덤핑 악재:\n오늘 접수된 6-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존 기관 투자자들을 대상으로 기존 워런트의 즉시 행사를 유도하는 약 $3.26M 달러 규모 워런트 행사 유도 계약(Warrant Inducement Agreement) 공시입니다\n. 3.이는 워런트행사를 통해 신주 물량이 즉시 정규장에 출회되는 전형적인 주식 희석(Dilution) 및 유증 설거지 물량 출회 악재로, 연구소 전략 헌장 원문 심사 기준 1번(\"당일 6-K/8-K 실제 신주/워런트 물량 출회가 열려 있으면 FORCE_BLOCK\")에 완벽히 저해됩니다.\n[음봉 폭락 설거지 차트]: 전일 대형 수주 PR로 주가를 띄운 후 오늘 워런트 신주 물량을 덤핑하며 전일 대비 -16.03% 음봉 폭락을 기록 중이므로, 전략 헌장 기준 3번(\"설거지 차트 및 급락 차트는 100% FORCE_BLOCK\")에 의거 즉시 차단 대상입니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 워런트 신주 행사 유도(Warrant Inducement)를 통한 주식 희석 악재이고, 전일 대비 -16.03% 음봉 폭락 설거지 차트를 형성하여 전략 헌장 1번·3번 원칙에 의거 FORCE_BLOCK: ELPW 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: ELPW NOTES:\n[ELPW] 약 $3.26M 달러 규모 워런트 행사 유도(Warrant Inducement) 신주 희석 공시 및 전일 대비 -16.03% 음봉 폭락으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793979091080_SCKT_FALSE",
       "date_et": "2026-11-06",
