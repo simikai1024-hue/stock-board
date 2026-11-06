@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:46:41",
-  "updated_at_et": "2026-11-06 11:46:41",
-  "updated_epoch_ms": 1793983601950,
+  "updated_at_kst": "2026-11-07 01:47:50",
+  "updated_at_et": "2026-11-06 11:47:50",
+  "updated_epoch_ms": 1793983670407,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:46:41"
+    "updated_kst": "01:47:48"
   },
   "stats": {
     "today_total": 12,
@@ -2117,6 +2117,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "11:46:46",
+      "time_kst": "01:46:46",
+      "symbol": "CCJ",
+      "company_name": "CCJ",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "11:34:42",
       "time_kst": "01:34:42",
       "symbol": "EDN",
@@ -2601,16 +2611,6 @@
       "time_kst": "20:44:42",
       "symbol": "DEO",
       "company_name": "DEO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:42:01",
-      "time_kst": "20:42:01",
-      "symbol": "VIV",
-      "company_name": "VIV",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
