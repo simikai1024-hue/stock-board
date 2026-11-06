@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:45:48",
-  "updated_at_et": "2026-11-06 11:45:48",
-  "updated_epoch_ms": 1793983548204,
+  "updated_at_kst": "2026-11-07 01:46:41",
+  "updated_at_et": "2026-11-06 11:46:41",
+  "updated_epoch_ms": 1793983601950,
   "analyzing": {
-    "active": true,
-    "symbol": "AZIO",
-    "company_name": "AZIO AI HOLDINGS, INC.",
-    "exchange": "ND",
-    "price": 0.6759,
-    "gain_pct": 0.85,
-    "mcap_m": 11.63,
-    "catalyst_hint": "[당일 PR] Contracted Capacity, Containers on the Water: AZIO AI Moves Atlas One Into Its Equipment Phase",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:45:44",
-    "started_at_kst": "01:45:44",
-    "started_epoch_ms": 1793983544811
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:45:33"
+    "updated_kst": "01:46:41"
   },
   "stats": {
-    "today_total": 11,
-    "today_nblm_count": 11,
+    "today_total": 12,
+    "today_nblm_count": 12,
     "today_buy": 0,
-    "today_false": 11,
+    "today_false": 12,
     "today_hardcut": 60,
-    "total_verdicts": 103,
+    "total_verdicts": 104,
     "total_buy": 4,
-    "total_false": 99,
-    "avg_nblm_sec": 44.1
+    "total_false": 100,
+    "avg_nblm_sec": 45.2
   },
   "verdicts": [
+    {
+      "id": "v_1793983598718_AZIO_FALSE",
+      "date_et": "2026-11-06",
+      "weekday_kr": "금",
+      "time_et": "11:46:38",
+      "time_kst": "01:46:38",
+      "symbol": "AZIO",
+      "company_name": "AZIO AI HOLDINGS, INC.",
+      "exchange": "ND",
+      "price": 0.6759,
+      "gain_pct": 0.85,
+      "mcap_m": 11.63,
+      "decision": "FALSE",
+      "elapsed_sec": 57.4,
+      "reason": "데이터센터 구축 진행 보고(Progress Update) PR은 1급 확정 기폭제 미달 및 보합권(+0.85%)으로 전량 차단",
+      "catalyst_hint": "[당일 PR] Contracted Capacity, Containers on the Water: AZIO AI Moves Atlas One Into Its Equipment Phase",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AZIO (Azio AI Holdings, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.63M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.6702 대비 현재가 $0.6759 (+0.85% 보합), 당일 최고가 $0.6964 (고점 대비 -2.9% 밀림)\n. 당일 누적 거래대금 $172,400 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 11:36 ET) PR 원문 분석:\nPR 제목: *\"Contracted Capacity, Containers on the Water: AZIO AI Moves Atlas One Into Its Equipment Phase\"*\n원문 팩트: 텍사스 데이터센터 빌드아웃 사업 진행 상황이 장비 구축 단계(Equipment Phase)로 진입했다는 사업 진행 업데이트(Corporate/Operational Progress Update) 발표.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 당일 기업 가치를 수직 폭등시킬 확정적 1급 재료(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각 완료, 대형 M&A, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니라, 단순 **데이터센터 장비 단계 진입 및 사업 현황 진행 보고(Progress Update)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 진행보고/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 +0.85% 보합권에 갇혀 있어 세력의 실질 매집 수급 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 사업 진행 상황 보고(Equipment Phase Update)에 불과하고 장전/장중 보합권(+0.85%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AZIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 데이터센터 구축 진행 보고(Progress Update) PR은 1급 확정 기폭제 미달 및 보합권(+0.85%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793981233856_EVAX_FALSE",
       "date_et": "2026-11-06",
