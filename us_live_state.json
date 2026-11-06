@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:01:26",
-  "updated_at_et": "2026-11-06 11:01:26",
-  "updated_epoch_ms": 1793980886989,
+  "updated_at_kst": "2026-11-07 01:01:50",
+  "updated_at_et": "2026-11-06 11:01:50",
+  "updated_epoch_ms": 1793980910961,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELPW",
+    "company_name": "ELPW",
+    "exchange": "ND",
+    "price": 1.1,
+    "gain_pct": -16.03,
+    "mcap_m": 1.03,
+    "catalyst_hint": "[당일 SEC] 2026-11-06 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:01:47",
+    "started_at_kst": "01:01:47",
+    "started_epoch_ms": 1793980907756
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:01:24"
+    "updated_kst": "01:01:46"
   },
   "stats": {
     "today_total": 9,
