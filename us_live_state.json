@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:07:54",
-  "updated_at_et": "2026-11-06 07:07:54",
-  "updated_epoch_ms": 1793966874931,
+  "updated_at_kst": "2026-11-06 21:08:40",
+  "updated_at_et": "2026-11-06 07:08:40",
+  "updated_epoch_ms": 1793966920674,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:07:49"
+    "updated_kst": "21:08:26"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 30,
+    "today_hardcut": 31,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:08:38",
+      "time_kst": "21:08:38",
+      "symbol": "TU",
+      "company_name": "TU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:01:29",
       "time_kst": "21:01:29",
       "symbol": "CATX",
@@ -2364,16 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2944.51M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "12:10:36",
-      "time_kst": "02:10:36",
-      "symbol": "WSBK",
-      "company_name": "WSBK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $126.79M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
