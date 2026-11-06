@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:20:41",
-  "updated_at_et": "2026-11-06 11:20:41",
-  "updated_epoch_ms": 1793982041413,
+  "updated_at_kst": "2026-11-07 01:21:50",
+  "updated_at_et": "2026-11-06 11:21:50",
+  "updated_epoch_ms": 1793982110268,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:20:39"
+    "updated_kst": "01:21:46"
   },
   "stats": {
     "today_total": 11,
@@ -2097,6 +2097,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "11:21:15",
+      "time_kst": "01:21:15",
+      "symbol": "BTI",
+      "company_name": "BTI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "10:22:26",
       "time_kst": "00:22:26",
       "symbol": "SDA",
@@ -2581,16 +2591,6 @@
       "time_kst": "20:41:57",
       "symbol": "AQN",
       "company_name": "AQN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:40:33",
-      "time_kst": "20:40:33",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
