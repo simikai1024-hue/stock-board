@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:01:05",
-  "updated_at_et": "2026-11-06 07:01:05",
-  "updated_epoch_ms": 1793966465009,
+  "updated_at_kst": "2026-11-06 21:01:55",
+  "updated_at_et": "2026-11-06 07:01:55",
+  "updated_epoch_ms": 1793966515563,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:55"
+    "updated_kst": "21:01:50"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 27,
+    "today_hardcut": 30,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:01:29",
+      "time_kst": "21:01:29",
+      "symbol": "CATX",
+      "company_name": "CATX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $93.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "07:01:24",
+      "time_kst": "21:01:24",
+      "symbol": "GKOS",
+      "company_name": "GKOS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "07:01:18",
+      "time_kst": "21:01:18",
+      "symbol": "DTIL",
+      "company_name": "DTIL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $275.17M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:01:00",
       "time_kst": "21:01:00",
       "symbol": "IIPR",
@@ -2344,36 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $126.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "12:06:02",
-      "time_kst": "02:06:02",
-      "symbol": "CFFI",
-      "company_name": "CFFI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $362.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "12:03:10",
-      "time_kst": "02:03:10",
-      "symbol": "FSM",
-      "company_name": "FSM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "11:57:15",
-      "time_kst": "01:57:15",
-      "symbol": "BTI",
-      "company_name": "BTI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
