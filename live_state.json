@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06 12:01:59",
+  "updated_at": "2026-11-06 13:18:53",
   "history": [
     {
       "id": "1793922310108_101360_SELL",
@@ -71,18 +71,38 @@
       "ammo_title": "⚡[DART 실시간공시·자사주취득] 👑[특S급] 자사주(신탁) 15.0억 (시총의 9.1%) (시총 164억)",
       "ammo_date": "20261106",
       "note": "👑⚡ 실시간 DART·KIND 진짜 특S급 호재 공시 포착!"
+    },
+    {
+      "id": "1793938730663_455180_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-06 13:18:50",
+      "name": "케이지에이",
+      "code": "455180",
+      "price": 868,
+      "flu_rt": -0.46,
+      "val_uk": 0.0,
+      "target_price": 898,
+      "stop_price": 838,
+      "ammo_title": "💰 확정 수익: +160원 (+0.18%) | 매수 865원 → 매도 868원 (102주) [원천뉴스 +5.0%터치후 본절잠금(+0.8%) 보호청산]",
+      "ammo_date": "",
+      "note": "🎉 원천뉴스 +5.0%터치후 본절잠금(+0.8%) 보호청산 완료! 확정 수익 +160원 (+0.18%)",
+      "pnl_krw": 160,
+      "pnl_pct": 0.18,
+      "buy_price": 865,
+      "qty": 102
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-06 12:01:59",
+    "updated_at": "2026-11-06 13:18:53",
     "stats": {
-      "total_closed": 2,
-      "win_count": 0,
+      "total_closed": 3,
+      "win_count": 1,
       "super_win_count": 0,
       "loss_count": 2,
       "buy_fail_count": 0,
-      "win_rate_pct": 0.0,
-      "total_pnl_krw": -11740
+      "win_rate_pct": 33.3,
+      "total_pnl_krw": -11580
     },
     "rows": [
       {
@@ -92,15 +112,16 @@
         "code": "455180",
         "name": "케이지에이",
         "buy_price": 865,
-        "sell_price": 0,
+        "sell_price": 868,
         "qty": 102,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": 0.18,
+        "pnl_krw": 160,
+        "status": "WIN",
         "buy_time": "10:50:23",
-        "sell_time": "",
+        "sell_time": "13:18:50",
         "reason": "📰[파이낸셜뉴스 10:50:15·핵심수주·납품] 규모 약 181억 | 케이지에이, 매출 15% 규모 신규 수주…\"이차전지 넘어 물류자동화까지\" (시총 128억)",
-        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 매출 대비 비중(15.45%)이 HOLD_RUNNER 기준(19%+)에 미달하고 장비 단발 수주 특성상 파인텍·쎄노텍 표본처럼 VI 슈팅 후 윗꼬리 반납 가능성이 높아 빠른 반익절(-1.8%p 트레"
+        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 매출 대비 비중(15.45%)이 HOLD_RUNNER 기준(19%+)에 미달하고 장비 단발 수주 특성상 파인텍·쎄노텍 표본처럼 VI 슈팅 후 윗꼬리 반납 가능성이 높아 빠른 반익절(-1.8%p 트레",
+        "sell_summary": "💰 확정 수익: +160원 (+0.18%) | 매수 865원 → 매도 868원 (102주) [원천뉴스 +5.0%터치후 본절잠금(+0.8%) 보호청산]"
       },
       {
         "date": "2026-11-06",
@@ -157,7 +178,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-06 12:01:59",
+    "updated_at": "2026-11-06 13:18:53",
     "stats": {
       "cooked_count": 13,
       "today_cooked_count": 2,
@@ -833,7 +854,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-06 12:01:59",
+    "updated_at": "2026-11-06 13:18:53",
     "stats": {
       "total_evaluated": 27,
       "win_5_count": 10,
