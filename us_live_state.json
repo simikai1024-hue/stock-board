@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 22:32:56",
-  "updated_at_et": "2026-11-06 08:32:56",
-  "updated_epoch_ms": 1793971976691,
+  "updated_at_kst": "2026-11-06 22:33:54",
+  "updated_at_et": "2026-11-06 08:33:54",
+  "updated_epoch_ms": 1793972034178,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:32:53"
+    "updated_kst": "22:33:38"
   },
   "stats": {
     "today_total": 4,
@@ -1957,6 +1957,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "08:33:51",
+      "time_kst": "22:33:51",
+      "symbol": "BILI",
+      "company_name": "BILI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4915.84M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "08:30:41",
       "time_kst": "22:30:41",
       "symbol": "INLF",
@@ -1984,16 +1994,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-26 [8-K] (Item 3.02,3.03,5.03,9.01))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:15:27",
-      "time_kst": "22:15:27",
-      "symbol": "BILI",
-      "company_name": "BILI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4922.66M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-06",
