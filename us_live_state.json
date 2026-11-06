@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:05:53",
-  "updated_at_et": "2026-11-06 11:05:53",
-  "updated_epoch_ms": 1793981153657,
+  "updated_at_kst": "2026-11-07 01:06:48",
+  "updated_at_et": "2026-11-06 11:06:48",
+  "updated_epoch_ms": 1793981208898,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EVAX",
+    "company_name": "EVAX",
+    "exchange": "ND",
+    "price": 2.89,
+    "gain_pct": 3.96,
+    "mcap_m": 24.1,
+    "catalyst_hint": "[당일 PR] New phase 2 data highlight the strength of the immune response induced by personalized cancer vaccine EVX-01",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:06:43",
+    "started_at_kst": "01:06:43",
+    "started_epoch_ms": 1793981203433
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:05:50"
+    "updated_kst": "01:06:32"
   },
   "stats": {
     "today_total": 10,
