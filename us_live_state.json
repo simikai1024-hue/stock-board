@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:39:54",
-  "updated_at_et": "2026-11-06 06:39:54",
-  "updated_epoch_ms": 1793965194487,
+  "updated_at_kst": "2026-11-06 20:40:36",
+  "updated_at_et": "2026-11-06 06:40:36",
+  "updated_epoch_ms": 1793965236748,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:39:49"
+    "updated_kst": "20:40:14"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 15,
+    "today_hardcut": 17,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:40:33",
+      "time_kst": "20:40:33",
+      "symbol": "HSBC",
+      "company_name": "HSBC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "06:40:29",
+      "time_kst": "20:40:29",
+      "symbol": "BEEM",
+      "company_name": "BEEM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-07 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:36:41",
       "time_kst": "20:36:41",
       "symbol": "GTN",
@@ -2354,26 +2374,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $308.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:22:17",
-      "time_kst": "23:22:17",
-      "symbol": "CRML",
-      "company_name": "CRML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $915.77M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:18:18",
-      "time_kst": "23:18:18",
-      "symbol": "ITUB",
-      "company_name": "ITUB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
