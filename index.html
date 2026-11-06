@@ -1660,10 +1660,24 @@ function renderEvo5Board(evoDays) {
     const winners = Array.isArray(d.winners_5pct) ? d.winners_5pct : [];
     const traps = Array.isArray(d.traps_defended) ? d.traps_defended : [];
     const actualBuys = Array.isArray(d.actual_buys) ? d.actual_buys : [];
+    const tsInfo = d.timing_stats || {};
     const dirNote = String(d.director_note || "").trim();
 
     const card = document.createElement("div");
     card.className = "evo-day-card";
+
+    let timingStripHtml = "";
+    if (winners.length > 0 && tsInfo.total_winners > 0) {
+      timingStripHtml = `
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:8px 0 10px 0; padding:10px 14px; border-radius:11px; background:rgba(30,41,59,0.72); border:1px solid rgba(56,189,248,0.35); font-size:13px;">
+          <span style="font-weight:900; color:#FDE047;">⏱️ [+5.0% 도달 소요시간 관찰]: 평균 ${Number(tsInfo.avg_mins||0).toFixed(1)}분 소요</span>
+          <span class="cat-chip" style="border-color:rgba(74,222,128,0.5); color:#86EFAC;">⚡ 5분내 달성: ${tsInfo.in_5m || 0}건</span>
+          <span class="cat-chip" style="border-color:rgba(56,189,248,0.5); color:#7DD3FC;">🔟 10분내 달성: ${tsInfo.in_10m || 0}건</span>
+          <span class="cat-chip">15분내 달성: ${tsInfo.in_15m || 0}건</span>
+          <span class="cat-chip">30분내 달성: ${tsInfo.in_30m || 0}건</span>
+        </div>
+      `;
+    }
 
     const dirHtml = dirNote
       ? `<div class="evo-director-box"><div style="font-weight:900; color:#6EE7B7; margin-bottom:5px;">👑 NotebookLM 연구소장 [+5.0% 공시·뉴스 패턴] 3줄 복기 노트</div>${escapeHtml(dirNote)}</div>`
@@ -1676,17 +1690,21 @@ function renderEvo5Board(evoDays) {
           ? `<span class="ch-badge-news">📰속보 ${escapeHtml(ab.hhmm_fmt || '')}</span>`
           : `<span class="ch-badge-dart">🏛️공시 ${escapeHtml(ab.hhmm_fmt || '')}</span>`;
         const hit5Ok = Boolean(ab.hit_5pct_30m || ab.hit_5pct_eod);
-        const g30 = Number(ab.gain_30m || 0);
+        const m5v = Number(ab.mins_to_5pct);
+        const m5Txt = (hit5Ok && m5v >= 0) ? `🎯매수후 ${m5v}분만에 +5%달성!` : `❌+5%미달`;
+        const g10 = Number(ab.gain_10m || 0);
+        const r10 = Number(ab.ret_at_10m || 0);
         return `
           <div style="display:inline-flex; align-items:center; gap:7px; flex-wrap:wrap; background:rgba(30,41,59,0.75); border:1px solid rgba(56,189,248,0.35); border-radius:10px; padding:7px 11px; margin:4px 6px 0 0; cursor:pointer;" onclick="copyStockCode('${escapeHtml(ab.code)}', '${escapeHtml(ab.name)}', false)">
             ${chTag}
             <b style="color:#FFF;">${escapeHtml(ab.name)} (${escapeHtml(ab.code)})</b>
-            <span style="color:#93C5FD; font-size:12.5px;">기준 ${Number(ab.ref_entry||0).toLocaleString()}원 → 🕸️+5%그물망 ${Number(ab.target_5pct_px||0).toLocaleString()}원</span>
-            <span style="font-weight:900; color:${hit5Ok ? '#4ADE80' : '#FDE047'};">30분최고 +${g30.toFixed(1)}% ${hit5Ok ? '🎯+5%돌파' : ''}</span>
+            <span style="color:#93C5FD; font-size:12.5px;">매수 ${Number(ab.ref_entry||0).toLocaleString()}원 → 🕸️+5%그물망 ${Number(ab.target_5pct_px||0).toLocaleString()}원</span>
+            <span style="font-weight:900; color:${hit5Ok ? '#4ADE80' : '#FCA5A5'};">${m5Txt}</span>
+            <span class="cat-chip" style="font-size:11.5px;">🔟10분최고 +${g10.toFixed(1)}% (10분종가 ${r10>=0?'+':''}${r10.toFixed(1)}%)</span>
           </div>
         `;
       }).join("");
-      actualHtml = `<div style="margin-bottom:12px;"><div style="font-size:13px; font-weight:800; color:#93C5FD; margin-bottom:4px;">⚡ 당일 스나이퍼 실전 통과 타점 (${actualBuys.length}건):</div>${abBadges}</div>`;
+      actualHtml = `<div style="margin-bottom:12px;"><div style="font-size:13px; font-weight:800; color:#93C5FD; margin-bottom:4px;">⚡ 당일 내 계좌 실전 타격 종목 (도달시간 & 10분 반응 관찰):</div>${abBadges}</div>`;
     }
 
     let winRowsHtml = "";
@@ -1700,11 +1718,15 @@ function renderEvo5Board(evoDays) {
           : `<span class="ch-badge-dart">🏛️선행공시</span>`;
         const refP = Number(w.ref_entry || 0);
         const tgt5P = Number(w.target_5pct_px || 0) || roundKrTickJs(refP * 1.05);
+        const g10 = Number(w.gain_10m || 0);
+        const r10 = Number(w.ret_at_10m || 0);
         const g30 = Number(w.gain_30m || 0);
         const geod = Number(w.gain_eod || 0);
         const dd30 = Number(w.dd_30m || 0);
         const clChg = Number(w.close_chg || 0);
-        const mins5 = w.mins_to_5pct !== null && w.mins_to_5pct !== undefined ? `${w.mins_to_5pct}분만에 +5%!` : `+5% 돌파`;
+        const mins5 = (w.mins_to_5pct !== null && w.mins_to_5pct !== undefined && Number(w.mins_to_5pct) >= 0)
+          ? `⏱️${w.mins_to_5pct}분만에 +5%!`
+          : `🎯+5% 돌파`;
         const cleanCd = String(w.code || "").slice(0, 6);
         const decBadge = String(w.decision || "").startsWith("✅")
           ? `<span class="cat-chip" style="border-color:rgba(52,211,153,0.55); background:rgba(16,185,129,0.18); color:#6EE7B7;">✅ 현행필터 자동포착</span>`
@@ -1736,14 +1758,14 @@ function renderEvo5Board(evoDays) {
               <div style="font-size:12px; color:#4ADE80; font-weight:800; margin-top:3px;">🕸️ +5%그물망 ${tgt5P.toLocaleString()}원</div>
             </td>
             <td>
-              <div style="font-size:17px; font-weight:900; color:#FDE047;">+${g30.toFixed(1)}% <span class="ai-crown">🎯${escapeHtml(mins5)}</span></div>
-              <div style="font-size:12px; color:#94A3B8; margin-top:3px;">당일최고 +${geod.toFixed(1)}%</div>
+              <div style="font-size:16.5px; font-weight:900; color:#FDE047;"><span class="ai-crown">${escapeHtml(mins5)}</span> +${g30.toFixed(1)}%</div>
+              <div style="font-size:12px; color:#93C5FD; font-weight:700; margin-top:4px;">🔟10분최고 +${g10.toFixed(1)}% <span style="color:#94A3B8;">(10분종가 ${r10>=0?'+':''}${r10.toFixed(1)}%)</span></div>
             </td>
             <td>
               <div style="font-size:15.5px; font-weight:900; color:${clChg >= 3.0 ? '#4ADE80' : (clChg >= 0 ? '#7DD3FC' : '#FCA5A5')};">
                 종가 ${clChg >= 0 ? '+' : ''}${clChg.toFixed(1)}%
               </div>
-              <div style="font-size:12px; color:#CBD5E1; margin-top:3px;">초반눌림 ${dd30.toFixed(1)}%</div>
+              <div style="font-size:12px; color:#CBD5E1; margin-top:3px;">초반눌림 ${dd30.toFixed(1)}% · 최고 +${geod.toFixed(1)}%</div>
             </td>
           </tr>
         `;
@@ -1782,6 +1804,7 @@ function renderEvo5Board(evoDays) {
           <span class="res-win" style="font-size:13px; padding:4px 12px;">🎯 +5.0%↑ 진품 정답 ${winners.length}종목 (🏛️선행공시 ${Number(d.win_dart_cnt||0)} · 📰단독뉴스 ${Number(d.win_pure_news_cnt||0)})</span>
         </div>
       </div>
+      ${timingStripHtml}
       ${dirHtml}
       ${actualHtml}
       <div class="table-card" style="margin-top:8px;">
@@ -1976,12 +1999,19 @@ function renderBapBoard(payload, forceRender) {
     const wkShort = c.weekday_short || String(c.weekday || "").slice(0, 1);
     const summaryClean = cleanSummaryText(c.summary || c.rpt_title || "");
 
+    const minsTo5Val = (c.mins_to_5pct !== undefined && c.mins_to_5pct !== null) ? Number(c.mins_to_5pct) : -1;
+    const gain10mVal = Number(c.gain_10m_pct || 0);
+    const mins5Inline = (isHit5 && minsTo5Val >= 0)
+      ? `<div style="font-size:12px; color:#86EFAC; font-weight:800; margin-top:3px;">⏱️ ${minsTo5Val}분만에 +5%!${gain10mVal > 0 ? ` · 🔟10분최고 +${gain10mVal.toFixed(1)}%` : ''}</div>`
+      : (gain10mVal > 0 ? `<div style="font-size:12px; color:#93C5FD; margin-top:3px;">🔟 10분최고 +${gain10mVal.toFixed(1)}%</div>` : "");
+
     const eodHighCellHtml = (isFinalized || postMax > 0)
       ? `
         <div style="font-size:17.5px; font-weight:900; color:${postColor};">
           +${postMax.toFixed(2)}%${hitTag}
         </div>
         <div class="gain-bar-track"><div class="gain-bar-fill" style="width:${barWidth.toFixed(0)}%; background:${barBg};"></div></div>
+        ${mins5Inline}
         <div style="font-size:12px; color:#CBD5E1; margin-top:4px;">
           최고 ${highP.toLocaleString()}원 <span style="color:#94A3B8;">${isFinalized ? `(당일 +${dayHigh.toFixed(1)}%)` : '(장중 집계중)'}</span>
         </div>
@@ -2268,7 +2298,11 @@ function renderMainLedger(payload) {
     const tgt5P = roundKrTickJs(buyP * 1.05);
     const pct = Number(r.pnl_pct || 0);
     const krw = Number(r.pnl_krw || 0);
-    const bTime = r.buy_time ? `<div style="font-size:12px; color:#94A3B8; margin-top:3px;">${escapeHtml(r.buy_time)}${r.sell_time ? ' → ' + escapeHtml(r.sell_time) : ''}</div>` : "";
+    const holdM = (r.hold_mins !== undefined && r.hold_mins !== null && Number(r.hold_mins) >= 0) ? ` (${r.hold_mins}분 보유)` : "";
+    const m5Ledger = (r.mins_to_5pct !== undefined && r.mins_to_5pct !== null && Number(r.mins_to_5pct) >= 0)
+      ? `<div style="font-size:11.5px; color:#86EFAC; font-weight:800; margin-top:2px;">⏱️ 매수후 ${r.mins_to_5pct}분만에 +5%터치${r.gain_10m !== undefined ? ` · 🔟10분최고 +${Number(r.gain_10m).toFixed(1)}%` : ''}</div>`
+      : (r.gain_10m !== undefined ? `<div style="font-size:11.5px; color:#93C5FD; margin-top:2px;">🔟 매수후 10분최고 +${Number(r.gain_10m).toFixed(1)}%</div>` : "");
+    const bTime = r.buy_time ? `<div style="font-size:12px; color:#94A3B8; margin-top:3px;">${escapeHtml(r.buy_time)}${r.sell_time ? ' → ' + escapeHtml(r.sell_time) + holdM : ''}</div>${m5Ledger}` : "";
 
     const priceTxt = r.status === "BUY_FAIL"
       ? `<span style="color:#94A3B8;">${buyP.toLocaleString()}원 (미체결)</span>${bTime}`
