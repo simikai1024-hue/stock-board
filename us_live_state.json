@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:33:52",
-  "updated_at_et": "2026-11-06 11:33:52",
-  "updated_epoch_ms": 1793982832547,
+  "updated_at_kst": "2026-11-07 01:34:45",
+  "updated_at_et": "2026-11-06 11:34:45",
+  "updated_epoch_ms": 1793982885145,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:33:47"
+    "updated_kst": "01:34:29"
   },
   "stats": {
     "today_total": 11,
@@ -2097,6 +2097,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "11:34:42",
+      "time_kst": "01:34:42",
+      "symbol": "EDN",
+      "company_name": "EDN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "11:23:11",
       "time_kst": "01:23:11",
       "symbol": "TU",
@@ -2581,16 +2591,6 @@
       "time_kst": "20:42:01",
       "symbol": "VIV",
       "company_name": "VIV",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:41:57",
-      "time_kst": "20:41:57",
-      "symbol": "AQN",
-      "company_name": "AQN",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
