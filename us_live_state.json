@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:08:39",
-  "updated_at_et": "2026-11-06 10:08:39",
-  "updated_epoch_ms": 1793977719196,
+  "updated_at_kst": "2026-11-07 00:09:42",
+  "updated_at_et": "2026-11-06 10:09:42",
+  "updated_epoch_ms": 1793977782135,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:08:35"
+    "updated_kst": "00:09:39"
   },
   "stats": {
     "today_total": 8,
@@ -2037,6 +2037,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "10:09:15",
+      "time_kst": "00:09:15",
+      "symbol": "GSK",
+      "company_name": "GSK",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "10:05:30",
       "time_kst": "00:05:30",
       "symbol": "VALN",
@@ -2524,16 +2534,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $870.57M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:13:56",
-      "time_kst": "20:13:56",
-      "symbol": "VSA",
-      "company_name": "VSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
     }
   ]
 }
