@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 22:40:56",
-  "updated_at_et": "2026-11-06 08:40:56",
-  "updated_epoch_ms": 1793972456321,
+  "updated_at_kst": "2026-11-06 22:41:55",
+  "updated_at_et": "2026-11-06 08:41:55",
+  "updated_epoch_ms": 1793972515795,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:40:52"
+    "updated_kst": "22:41:52"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 0,
     "today_false": 4,
-    "today_hardcut": 52,
+    "today_hardcut": 53,
     "total_verdicts": 96,
     "total_buy": 4,
     "total_false": 92,
@@ -1957,6 +1957,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "08:41:29",
+      "time_kst": "22:41:29",
+      "symbol": "PLSE",
+      "company_name": "PLSE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3853.23M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "08:33:51",
       "time_kst": "22:33:51",
       "symbol": "BILI",
@@ -2444,16 +2454,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $50307.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:06:15",
-      "time_kst": "20:06:15",
-      "symbol": "SSEA",
-      "company_name": "SSEA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $79.49M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
