@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:12:24",
-  "updated_at_et": "2026-11-06 07:12:24",
-  "updated_epoch_ms": 1793967144775,
+  "updated_at_kst": "2026-11-06 21:13:33",
+  "updated_at_et": "2026-11-06 07:13:33",
+  "updated_epoch_ms": 1793967213380,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:12:21"
+    "updated_kst": "21:13:30"
   },
   "stats": {
     "today_total": 0,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:12:56",
+      "time_kst": "21:12:56",
+      "symbol": "TU",
+      "company_name": "TU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:11:31",
       "time_kst": "21:11:31",
       "symbol": "BRNX",
@@ -1891,16 +1901,6 @@
       "time_kst": "21:11:26",
       "symbol": "ENB",
       "company_name": "ENB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:10:28",
-      "time_kst": "21:10:28",
-      "symbol": "TU",
-      "company_name": "TU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
