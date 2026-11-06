@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:35:08",
-  "updated_at_et": "2026-11-06 06:35:08",
-  "updated_epoch_ms": 1793964908990,
+  "updated_at_kst": "2026-11-06 20:36:05",
+  "updated_at_et": "2026-11-06 06:36:05",
+  "updated_epoch_ms": 1793964965586,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:35:04"
+    "updated_kst": "20:36:04"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 14,
+    "today_hardcut": 15,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:36:02",
+      "time_kst": "20:36:02",
+      "symbol": "GTN",
+      "company_name": "GTN",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:17:29",
       "time_kst": "20:17:29",
       "symbol": "DCBO",
@@ -2364,16 +2374,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:18:07",
-      "time_kst": "23:18:07",
-      "symbol": "FBIZ",
-      "company_name": "FBIZ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $643.89M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
