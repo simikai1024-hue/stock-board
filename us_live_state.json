@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 22:00:42",
-  "updated_at_et": "2026-11-06 08:00:42",
-  "updated_epoch_ms": 1793970042182,
+  "updated_at_kst": "2026-11-06 22:01:22",
+  "updated_at_et": "2026-11-06 08:01:22",
+  "updated_epoch_ms": 1793970082715,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:00:37"
+    "updated_kst": "22:01:16"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 43,
+    "today_hardcut": 46,
     "total_verdicts": 94,
     "total_buy": 4,
     "total_false": 90,
@@ -1917,6 +1917,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "08:01:20",
+      "time_kst": "22:01:20",
+      "symbol": "FUFU",
+      "company_name": "FUFU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $142.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "08:01:16",
+      "time_kst": "22:01:16",
+      "symbol": "ACRV",
+      "company_name": "ACRV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $67.28M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
+      "time_et": "08:01:10",
+      "time_kst": "22:01:10",
+      "symbol": "USB",
+      "company_name": "USB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:49:33",
       "time_kst": "21:49:33",
       "symbol": "SUZ",
@@ -2384,36 +2414,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $490.17M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:41:27",
-      "time_kst": "04:41:27",
-      "symbol": "LYG",
-      "company_name": "LYG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:29:19",
-      "time_kst": "04:29:19",
-      "symbol": "CCJ",
-      "company_name": "CCJ",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:27:17",
-      "time_kst": "04:27:17",
-      "symbol": "TLSA",
-      "company_name": "TLSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $79.94M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
