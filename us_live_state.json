@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 22:16:37",
-  "updated_at_et": "2026-11-06 08:16:37",
-  "updated_epoch_ms": 1793970997019,
+  "updated_at_kst": "2026-11-06 22:17:35",
+  "updated_at_et": "2026-11-06 08:17:35",
+  "updated_epoch_ms": 1793971055164,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:16:34"
+    "updated_kst": "22:17:17"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 0,
     "today_false": 3,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 95,
     "total_buy": 4,
     "total_false": 91,
@@ -1937,6 +1937,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "08:17:32",
+      "time_kst": "22:17:32",
+      "symbol": "WHLR",
+      "company_name": "WHLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-26 [8-K] (Item 3.02,3.03,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "08:15:27",
       "time_kst": "22:15:27",
       "symbol": "BILI",
@@ -2421,16 +2431,6 @@
       "time_kst": "20:05:42",
       "symbol": "NMR",
       "company_name": "NMR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:58:20",
-      "time_kst": "04:58:20",
-      "symbol": "BCS",
-      "company_name": "BCS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
