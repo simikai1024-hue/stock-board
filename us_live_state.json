@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:49:21",
-  "updated_at_et": "2026-11-06 07:49:21",
-  "updated_epoch_ms": 1793969361891,
+  "updated_at_kst": "2026-11-06 21:50:21",
+  "updated_at_et": "2026-11-06 07:50:21",
+  "updated_epoch_ms": 1793969421262,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:49:18"
+    "updated_kst": "21:50:18"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 42,
+    "today_hardcut": 43,
     "total_verdicts": 94,
     "total_buy": 4,
     "total_false": 90,
@@ -1917,6 +1917,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:49:33",
+      "time_kst": "21:49:33",
+      "symbol": "SUZ",
+      "company_name": "SUZ",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:45:28",
       "time_kst": "21:45:28",
       "symbol": "TS",
@@ -2404,16 +2414,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $79.94M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:24:11",
-      "time_kst": "04:24:11",
-      "symbol": "OBE",
-      "company_name": "OBE",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $605.87M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
