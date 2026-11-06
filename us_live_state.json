@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:04:52",
-  "updated_at_et": "2026-11-06 10:04:52",
-  "updated_epoch_ms": 1793977492741,
+  "updated_at_kst": "2026-11-07 00:05:33",
+  "updated_at_et": "2026-11-06 10:05:33",
+  "updated_epoch_ms": 1793977533459,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SITC",
     "holding_qty": 279,
     "avg_price": 0.7099,
-    "current_price": 0.6952,
-    "profit_rate": -2.07,
-    "updated_kst": "00:04:50"
+    "current_price": 0.6953,
+    "profit_rate": -2.06,
+    "updated_kst": "00:05:30"
   },
   "stats": {
     "today_total": 8,
@@ -2037,6 +2037,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "10:05:30",
+      "time_kst": "00:05:30",
+      "symbol": "VALN",
+      "company_name": "VALN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $523.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "09:21:13",
       "time_kst": "23:21:13",
       "symbol": "OMAB",
@@ -2524,16 +2534,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:13:47",
-      "time_kst": "20:13:47",
-      "symbol": "CHT",
-      "company_name": "CHT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
