@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:44:53",
-  "updated_at_et": "2026-11-06 09:44:53",
-  "updated_epoch_ms": 1793976293837,
+  "updated_at_kst": "2026-11-06 23:45:49",
+  "updated_at_et": "2026-11-06 09:45:49",
+  "updated_epoch_ms": 1793976349868,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 167,
     "orderable_usd": 201.42,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "23:44:48"
+    "holding_symbol": "SITC",
+    "holding_qty": 279,
+    "avg_price": 0.7099,
+    "current_price": 0.7238,
+    "profit_rate": 1.96,
+    "updated_kst": "23:45:47"
   },
   "stats": {
     "today_total": 8,
