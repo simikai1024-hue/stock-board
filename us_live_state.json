@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 23:18:49",
-  "updated_at_et": "2026-11-06 09:18:49",
-  "updated_epoch_ms": 1793974729686,
+  "updated_at_kst": "2026-11-06 23:19:33",
+  "updated_at_et": "2026-11-06 09:19:33",
+  "updated_epoch_ms": 1793974773774,
   "analyzing": {
-    "active": true,
-    "symbol": "PWCM",
-    "company_name": "PWCM",
-    "exchange": "ND",
-    "price": 0.507,
-    "gain_pct": 8.94,
-    "mcap_m": 1.29,
-    "catalyst_hint": "[당일 SEC] 2026-11-06 [8-K] (Item 1.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:18:46",
-    "started_at_kst": "23:18:46",
-    "started_epoch_ms": 1793974726200
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:18:36"
+    "updated_kst": "23:19:16"
   },
   "stats": {
-    "today_total": 6,
-    "today_nblm_count": 6,
+    "today_total": 7,
+    "today_nblm_count": 7,
     "today_buy": 0,
-    "today_false": 6,
+    "today_false": 7,
     "today_hardcut": 59,
-    "total_verdicts": 98,
+    "total_verdicts": 99,
     "total_buy": 4,
-    "total_false": 94,
-    "avg_nblm_sec": 46.1
+    "total_false": 95,
+    "avg_nblm_sec": 46.3
   },
   "verdicts": [
+    {
+      "id": "v_1793974770410_PWCM_FALSE",
+      "date_et": "2026-11-06",
+      "weekday_kr": "금",
+      "time_et": "09:19:30",
+      "time_kst": "23:19:30",
+      "symbol": "PWCM",
+      "company_name": "PWCM",
+      "exchange": "ND",
+      "price": 0.507,
+      "gain_pct": 8.94,
+      "mcap_m": 1.29,
+      "decision": "FALSE",
+      "elapsed_sec": 47.9,
+      "reason": "담보 약속어음 대출 만기 연장 공시(Item 1.01)는 단순 부채 연장(ACH 패턴)으로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-06 [8-K] (Item 1.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 PWCM (PowerCompute Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.29M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.4654 대비 현재가 $0.5070 (+8.94% 상승), 당일 최고가 $0.5080 (고점 대비 -0.2%)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 09:18 ET) SEC 8-K (Item 1.01) 원문 분석:\nSEC 공시 현황: 2026-11-06 [8-K] (Item 1.01) 접수.\n야후 RSS 당일 PR **0건 (미수신)**.\n원문 팩트: *\"On November 2, 2026, PowerCompute Inc. entered into a Fourth Amendment to Secured Promissory Note, effective October 31, 2026, with Brown Family Enterprises LLC pursuant to which the maturity date of the Company's loan from Lender in the principal amount of $1,250,000 was extended from December 31, 2026 to December 31, 2027...\"*\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 신규 현금 유입이나 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존 대주(Brown Family Enterprises LLC)와의 **$1.25M 달러 규모 담보 약속어음(Secured Promissory Note) 대출 만기일을 1년 연장(Note Amendment)**한 단순 부채 만기 연장 공시입니다.\n이는 연구소 전략 헌장 제1장 및 심사 기준 3번 규칙에서 엄격히 차단하는 '단순 대출·신용한도·부채 만기 연장(ACH 패턴)' 범주에 정확히 속하므로 1급 기폭제 기준에 절대 미달합니다.\n당일 공식 PR 미수신 상태이며, 프리장 실질 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 대출/약속어음 만기 연장(Item 1.01)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PWCM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: PWCM NOTES:\n[PWCM] 담보 약속어음 대출 만기 연장 공시(Item 1.01)는 단순 부채 연장(ACH 패턴)으로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1793974396535_IMNN_FALSE",
       "date_et": "2026-11-06",
