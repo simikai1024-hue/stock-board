@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 21:45:08",
-  "updated_at_et": "2026-11-06 07:45:08",
-  "updated_epoch_ms": 1793969108362,
+  "updated_at_kst": "2026-11-06 21:46:05",
+  "updated_at_et": "2026-11-06 07:46:05",
+  "updated_epoch_ms": 1793969165377,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:45:03"
+    "updated_kst": "21:46:03"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 41,
+    "today_hardcut": 42,
     "total_verdicts": 94,
     "total_buy": 4,
     "total_false": 90,
@@ -1917,6 +1917,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "07:45:28",
+      "time_kst": "21:45:28",
+      "symbol": "TS",
+      "company_name": "TS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "07:36:39",
       "time_kst": "21:36:39",
       "symbol": "EHC",
@@ -2404,16 +2414,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $605.87M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "14:18:26",
-      "time_kst": "04:18:26",
-      "symbol": "TGS",
-      "company_name": "TGS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
