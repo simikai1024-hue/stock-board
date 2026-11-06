@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 01:44:50",
-  "updated_at_et": "2026-11-06 11:44:50",
-  "updated_epoch_ms": 1793983490448,
+  "updated_at_kst": "2026-11-07 01:45:48",
+  "updated_at_et": "2026-11-06 11:45:48",
+  "updated_epoch_ms": 1793983548204,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AZIO",
+    "company_name": "AZIO AI HOLDINGS, INC.",
+    "exchange": "ND",
+    "price": 0.6759,
+    "gain_pct": 0.85,
+    "mcap_m": 11.63,
+    "catalyst_hint": "[당일 PR] Contracted Capacity, Containers on the Water: AZIO AI Moves Atlas One Into Its Equipment Phase",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:45:44",
+    "started_at_kst": "01:45:44",
+    "started_epoch_ms": 1793983544811
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:44:47"
+    "updated_kst": "01:45:33"
   },
   "stats": {
     "today_total": 11,
