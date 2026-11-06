@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:05:33",
-  "updated_at_et": "2026-11-06 10:05:33",
-  "updated_epoch_ms": 1793977533459,
+  "updated_at_kst": "2026-11-07 00:06:32",
+  "updated_at_et": "2026-11-06 10:06:32",
+  "updated_epoch_ms": 1793977592979,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SITC",
     "holding_qty": 279,
     "avg_price": 0.7099,
-    "current_price": 0.6953,
-    "profit_rate": -2.06,
-    "updated_kst": "00:05:30"
+    "current_price": 0.699,
+    "profit_rate": -1.54,
+    "updated_kst": "00:06:30"
   },
   "stats": {
     "today_total": 8,
