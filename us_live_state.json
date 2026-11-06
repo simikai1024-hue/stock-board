@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-06 20:43:44",
-  "updated_at_et": "2026-11-06 06:43:44",
-  "updated_epoch_ms": 1793965424028,
+  "updated_at_kst": "2026-11-06 20:44:45",
+  "updated_at_et": "2026-11-06 06:44:45",
+  "updated_epoch_ms": 1793965485342,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:43:41"
+    "updated_kst": "20:44:26"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 19,
+    "today_hardcut": 20,
     "total_verdicts": 92,
     "total_buy": 4,
     "total_false": 88,
@@ -1877,6 +1877,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "06:44:42",
+      "time_kst": "20:44:42",
+      "symbol": "DEO",
+      "company_name": "DEO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "06:42:01",
       "time_kst": "20:42:01",
       "symbol": "VIV",
@@ -2361,16 +2371,6 @@
       "time_kst": "23:53:10",
       "symbol": "SONY",
       "company_name": "SONY",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-05",
-      "time_et": "09:46:18",
-      "time_kst": "23:46:18",
-      "symbol": "GFI",
-      "company_name": "GFI",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
