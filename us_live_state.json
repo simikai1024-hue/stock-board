@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-06",
-  "updated_at_kst": "2026-11-07 00:22:22",
-  "updated_at_et": "2026-11-06 10:22:22",
-  "updated_epoch_ms": 1793978542027,
+  "updated_at_kst": "2026-11-07 00:23:29",
+  "updated_at_et": "2026-11-06 10:23:29",
+  "updated_epoch_ms": 1793978609397,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:22:19"
+    "updated_kst": "00:23:26"
   },
   "stats": {
     "today_total": 8,
@@ -2037,6 +2037,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-06",
+      "time_et": "10:22:26",
+      "time_kst": "00:22:26",
+      "symbol": "SDA",
+      "company_name": "SDA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-06",
       "time_et": "10:21:32",
       "time_kst": "00:21:32",
       "symbol": "ELME",
@@ -2524,16 +2534,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:40:29",
-      "time_kst": "20:40:29",
-      "symbol": "BEEM",
-      "company_name": "BEEM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-07 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
