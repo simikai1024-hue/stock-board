@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:07:10",
-  "updated_at_et": "2026-11-09 07:07:10",
-  "updated_epoch_ms": 1794226030870,
+  "updated_at_kst": "2026-11-09 21:07:51",
+  "updated_at_et": "2026-11-09 07:07:51",
+  "updated_epoch_ms": 1794226071468,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.5692,
-    "profit_rate": 9.6,
-    "updated_kst": "21:07:08"
+    "current_price": 2.5685,
+    "profit_rate": 9.57,
+    "updated_kst": "21:07:51"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 1,
     "today_false": 3,
-    "today_hardcut": 53,
+    "today_hardcut": 54,
     "total_verdicts": 108,
     "total_buy": 5,
     "total_false": 103,
@@ -2197,6 +2197,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:07:48",
+      "time_kst": "21:07:48",
+      "symbol": "ZURA",
+      "company_name": "ZURA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $112.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:06:29",
       "time_kst": "21:06:29",
       "symbol": "ELTK",
@@ -2684,16 +2694,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:17",
-      "time_kst": "20:05:17",
-      "symbol": "SOHU",
-      "company_name": "SOHU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $360.53M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
