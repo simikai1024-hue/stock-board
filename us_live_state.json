@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:31:06",
-  "updated_at_et": "2026-11-09 06:31:06",
-  "updated_epoch_ms": 1794223866916,
+  "updated_at_kst": "2026-11-09 20:31:58",
+  "updated_at_et": "2026-11-09 06:31:58",
+  "updated_epoch_ms": 1794223918093,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.57,
-    "profit_rate": 9.64,
-    "updated_kst": "20:30:44"
+    "current_price": 2.5806,
+    "profit_rate": 10.09,
+    "updated_kst": "20:31:54"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 26,
+    "today_hardcut": 27,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:31:08",
+      "time_kst": "20:31:08",
+      "symbol": "SBAC",
+      "company_name": "SBAC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $19780.75M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:31:03",
       "time_kst": "20:31:03",
       "symbol": "NHP",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1267.59M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:17:32",
-      "time_kst": "22:17:32",
-      "symbol": "WHLR",
-      "company_name": "WHLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-26 [8-K] (Item 3.02,3.03,5.03,9.01))"
     }
   ]
 }
