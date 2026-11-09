@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:29:42",
-  "updated_at_et": "2026-11-09 09:29:42",
-  "updated_epoch_ms": 1794234582579,
+  "updated_at_kst": "2026-11-09 23:30:32",
+  "updated_at_et": "2026-11-09 09:30:32",
+  "updated_epoch_ms": 1794234632135,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 168,
     "orderable_usd": 210.03,
     "daily_done": false,
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:29:36"
+    "updated_kst": "23:30:18"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:30:23",
+      "time_kst": "23:30:23",
+      "symbol": "OFIX",
+      "company_name": "OFIX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $285.54M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:30:15",
+      "time_kst": "23:30:15",
+      "symbol": "QTRX",
+      "company_name": "QTRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $137.62M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:25:00",
       "time_kst": "23:25:00",
       "symbol": "XLAB",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $10632.99M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:01:17",
-      "time_kst": "22:01:17",
-      "symbol": "PROF",
-      "company_name": "PROF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $264.08M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:59:47",
-      "time_kst": "21:59:47",
-      "symbol": "ASST",
-      "company_name": "ASST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2649.82M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
