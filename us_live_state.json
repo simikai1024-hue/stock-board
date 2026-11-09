@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:05:11",
-  "updated_at_et": "2026-11-09 06:05:11",
-  "updated_epoch_ms": 1794222311511,
+  "updated_at_kst": "2026-11-09 20:05:56",
+  "updated_at_et": "2026-11-09 06:05:56",
+  "updated_epoch_ms": 1794222356751,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:05:07"
+    "updated_kst": "20:05:44"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 2,
+    "today_hardcut": 9,
     "total_verdicts": 104,
     "total_buy": 4,
     "total_false": 100,
@@ -2117,6 +2117,76 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:05:54",
+      "time_kst": "20:05:54",
+      "symbol": "CABA",
+      "company_name": "CABA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $235.72M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:46",
+      "time_kst": "20:05:46",
+      "symbol": "CTEV",
+      "company_name": "CTEV",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:30",
+      "time_kst": "20:05:30",
+      "symbol": "ARGX",
+      "company_name": "ARGX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58308.62M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:25",
+      "time_kst": "20:05:25",
+      "symbol": "ZH",
+      "company_name": "ZH",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:20",
+      "time_kst": "20:05:20",
+      "symbol": "HDB",
+      "company_name": "HDB",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:17",
+      "time_kst": "20:05:17",
+      "symbol": "SOHU",
+      "company_name": "SOHU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $360.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:13",
+      "time_kst": "20:05:13",
+      "symbol": "FTAI",
+      "company_name": "FTAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $18519.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:05:08",
       "time_kst": "20:05:08",
       "symbol": "FSHP",
@@ -2544,76 +2614,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-14 [424B5])"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:11:26",
-      "time_kst": "21:11:26",
-      "symbol": "ENB",
-      "company_name": "ENB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:01:24",
-      "time_kst": "21:01:24",
-      "symbol": "GKOS",
-      "company_name": "GKOS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:01:18",
-      "time_kst": "21:01:18",
-      "symbol": "DTIL",
-      "company_name": "DTIL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $275.17M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:01:00",
-      "time_kst": "21:01:00",
-      "symbol": "IIPR",
-      "company_name": "IIPR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:00:42",
-      "time_kst": "21:00:42",
-      "symbol": "MSLE",
-      "company_name": "MSLE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $134.72M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:00:36",
-      "time_kst": "21:00:36",
-      "symbol": "BIP",
-      "company_name": "BIP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:00:32",
-      "time_kst": "21:00:32",
-      "symbol": "BIPC",
-      "company_name": "BIPC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
