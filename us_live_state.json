@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:05:09",
-  "updated_at_et": "2026-11-09 09:05:09",
-  "updated_epoch_ms": 1794233109991,
+  "updated_at_kst": "2026-11-09 23:06:04",
+  "updated_at_et": "2026-11-09 09:06:04",
+  "updated_epoch_ms": 1794233164810,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:04:58"
+    "updated_kst": "23:06:01"
   },
   "stats": {
     "today_total": 22,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:05:42",
+      "time_kst": "23:05:42",
+      "symbol": "LU",
+      "company_name": "LU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:05:38",
+      "time_kst": "23:05:38",
+      "symbol": "IPFX",
+      "company_name": "IPFX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $257.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:05:06",
       "time_kst": "23:05:06",
       "symbol": "MANE",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $128.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:31:04",
-      "time_kst": "21:31:04",
-      "symbol": "NCPL",
-      "company_name": "NCPL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:30:50",
-      "time_kst": "21:30:50",
-      "symbol": "INO",
-      "company_name": "INO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $141.66M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
