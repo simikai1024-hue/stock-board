@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:55:46",
-  "updated_at_et": "2026-11-09 06:55:46",
-  "updated_epoch_ms": 1794225346982,
+  "updated_at_kst": "2026-11-09 20:56:29",
+  "updated_at_et": "2026-11-09 06:56:29",
+  "updated_epoch_ms": 1794225389253,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.62,
-    "profit_rate": 11.77,
-    "updated_kst": "20:55:42"
+    "current_price": 2.6588,
+    "profit_rate": 13.43,
+    "updated_kst": "20:56:19"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 34,
+    "today_hardcut": 36,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:56:23",
+      "time_kst": "20:56:23",
+      "symbol": "CVE",
+      "company_name": "CVE",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:56:20",
+      "time_kst": "20:56:20",
+      "symbol": "VIST",
+      "company_name": "VIST",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:50:18",
       "time_kst": "20:50:18",
       "symbol": "WAFD",
@@ -2654,26 +2674,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3255.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "09:08:06",
-      "time_kst": "23:08:06",
-      "symbol": "AGO",
-      "company_name": "AGO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "09:05:36",
-      "time_kst": "23:05:36",
-      "symbol": "GASS",
-      "company_name": "GASS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $296.14M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
