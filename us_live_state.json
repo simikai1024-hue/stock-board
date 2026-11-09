@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:47:37",
-  "updated_at_et": "2026-11-09 07:47:37",
-  "updated_epoch_ms": 1794228457999,
+  "updated_at_kst": "2026-11-09 21:48:04",
+  "updated_at_et": "2026-11-09 07:48:04",
+  "updated_epoch_ms": 1794228484332,
   "analyzing": {
-    "active": true,
-    "symbol": "DAVI",
-    "company_name": "DAVION HEALTHCARE PLC",
-    "exchange": "ND",
-    "price": 1.5903,
-    "gain_pct": -1.22,
-    "mcap_m": 39.76,
-    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:47:34",
-    "started_at_kst": "21:47:34",
-    "started_epoch_ms": 1794228454432
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:47:35"
+    "updated_kst": "21:47:55"
   },
   "stats": {
-    "today_total": 8,
-    "today_nblm_count": 8,
+    "today_total": 9,
+    "today_nblm_count": 9,
     "today_buy": 1,
-    "today_false": 7,
+    "today_false": 8,
     "today_hardcut": 60,
-    "total_verdicts": 112,
+    "total_verdicts": 113,
     "total_buy": 5,
-    "total_false": 107,
-    "avg_nblm_sec": 34.5
+    "total_false": 108,
+    "avg_nblm_sec": 34.0
   },
   "verdicts": [
+    {
+      "id": "v_1794228481852_DAVI_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "07:48:01",
+      "time_kst": "21:48:01",
+      "symbol": "DAVI",
+      "company_name": "DAVION HEALTHCARE PLC",
+      "exchange": "ND",
+      "price": 1.5903,
+      "gain_pct": -1.22,
+      "mcap_m": 39.76,
+      "decision": "FALSE",
+      "elapsed_sec": 30.4,
+      "reason": "당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 약보합(-1.22%)으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 DAVI (Davion Healthcare Ltd / Davi) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.76M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6100 대비 현재가 $1.5903 (-1.22% 약보합), 당일 최고가 $1.7004 (고점 대비 -6.5% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Form 6-K Report of Foreign Private Issuer) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 표지 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 -1.22% 약보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 장전 약보합(-1.22%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DAVI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: DAVI NOTES:\n[DAVI] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 약보합(-1.22%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794227605110_MDCX_FALSE",
       "date_et": "2026-11-09",
