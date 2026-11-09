@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:05:56",
-  "updated_at_et": "2026-11-09 06:05:56",
-  "updated_epoch_ms": 1794222356751,
+  "updated_at_kst": "2026-11-09 20:06:15",
+  "updated_at_et": "2026-11-09 06:06:15",
+  "updated_epoch_ms": 1794222375880,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SCNI",
+    "company_name": "Scinai Immunotherapeutics Ltd.",
+    "exchange": "ND",
+    "price": 0.441,
+    "gain_pct": -3.1,
+    "mcap_m": 0.6,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:06:12",
+    "started_at_kst": "20:06:12",
+    "started_epoch_ms": 1794222372600
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:05:44"
+    "updated_kst": "20:06:02"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 9,
+    "today_hardcut": 12,
     "total_verdicts": 104,
     "total_buy": 4,
     "total_false": 100,
@@ -2117,6 +2129,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:06:09",
+      "time_kst": "20:06:09",
+      "symbol": "KEP",
+      "company_name": "KEP",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:06:05",
+      "time_kst": "20:06:05",
+      "symbol": "TUYA",
+      "company_name": "TUYA",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:58",
+      "time_kst": "20:05:58",
+      "symbol": "VISN",
+      "company_name": "VISN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $968.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:05:54",
       "time_kst": "20:05:54",
       "symbol": "CABA",
@@ -2584,36 +2626,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3058.28M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:18:53",
-      "time_kst": "21:18:53",
-      "symbol": "SBS",
-      "company_name": "SBS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:17:47",
-      "time_kst": "21:17:47",
-      "symbol": "BAM",
-      "company_name": "BAM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:11:31",
-      "time_kst": "21:11:31",
-      "symbol": "BRNX",
-      "company_name": "BRNX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-14 [424B5])"
     }
   ]
 }
