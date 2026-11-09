@@ -1,9 +1,28 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 10:10:37",
-  "history": [],
+  "updated_at": "2026-11-09 10:46:56",
+  "history": [
+    {
+      "id": "1794188812727_032620_BUY",
+      "type": "BUY",
+      "auto_copy": true,
+      "time": "2026-11-09 10:46:52",
+      "name": "GC메디아이",
+      "code": "032620",
+      "price": 3040,
+      "flu_rt": 6.85,
+      "val_uk": 0.0,
+      "target_price": 3190,
+      "stop_price": 2945,
+      "ammo_title": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
+      "ammo_date": "20261109",
+      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0218134, 지정가:3,090원)! +5% 그물망 준비...",
+      "buy_price": 3040,
+      "qty": 29
+    }
+  ],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 10:10:37",
+    "updated_at": "2026-11-09 10:46:56",
     "stats": {
       "total_closed": 3,
       "win_count": 1,
@@ -15,6 +34,23 @@
       "total_pnl_krw": -11580
     },
     "rows": [
+      {
+        "date": "2026-11-09",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "code": "032620",
+        "name": "GC메디아이",
+        "buy_price": 3040,
+        "sell_price": 0,
+        "qty": 29,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "10:46:52",
+        "sell_time": "",
+        "reason": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
+        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0218134, 지정가:3,090원)! +5% 그물망 준비..."
+      },
       {
         "date": "2026-11-06",
         "weekday": "금요일",
@@ -93,20 +129,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 10:10:37",
+    "updated_at": "2026-11-09 10:46:56",
     "stats": {
-      "cooked_count": 16,
+      "cooked_count": 17,
       "finalized_count": 14,
       "hit_5pct_count": 12,
       "hit_5pct_rate": 85.7,
-      "dart_count": 16,
+      "dart_count": 17,
       "news_count": 0,
-      "today_cooked_count": 2,
-      "avg_day_high_pct": 17.0,
-      "avg_open_to_high_pct": 17.06,
-      "avg_post_disc_max_pct": 13.3
+      "today_cooked_count": 3,
+      "avg_day_high_pct": 16.25,
+      "avg_open_to_high_pct": 16.54,
+      "avg_post_disc_max_pct": 12.52
     },
     "preparing_list": [
+      {
+        "code": "032620",
+        "name": "GC메디아이",
+        "mcap_uk": 1485,
+        "prep_tag": "✨ 어닝서프라이즈 폭발!",
+        "prep_detail": "⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
+        "prep_date": "2026-11-09",
+        "cooked_today": true,
+        "disc_time": "10:46",
+        "day_high_pct": 4.29,
+        "open_to_high_pct": 8.19
+      },
       {
         "code": "100590",
         "name": "머큐리",
@@ -372,20 +420,49 @@
         "cur_price": 5000,
         "flu_rt": -1.19,
         "cooked_today": false
-      },
-      {
-        "code": "017860",
-        "name": "DS단석",
-        "mcap_uk": 1684,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/20] 타법인주식및출자증권취득결정 (시총 1,684억)",
-        "prep_date": "2026-10-20",
-        "cur_price": 9540,
-        "flu_rt": -3.54,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-09",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "disc_time": "10:46",
+        "code": "032620",
+        "name": "GC메디아이",
+        "channel": "DART",
+        "source_label": "KIND",
+        "tier": "A+S",
+        "belt_passed": true,
+        "cat": "어닝서프라이즈",
+        "summary": "⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
+        "rpt_title": "연결재무제표 기준 영업(잠정)실적(공정공시)",
+        "doc_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261109000159",
+        "mcap_uk": 1485,
+        "prev_close": 2915,
+        "pre_disc_price": 2890,
+        "spike_from_pre_pct": 5.19,
+        "disc_price": 3040,
+        "target_5pct_price": 3190,
+        "entry_price": 3040,
+        "open_price": 2810,
+        "high_price": 3040,
+        "post_disc_high": 3040,
+        "close_price": 3040,
+        "open_to_high_pct": 8.19,
+        "day_high_pct": 4.29,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true,
+        "my_trade": {
+          "status": "OPEN",
+          "buy_price": 3040,
+          "sell_price": 0,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0,
+          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0218134, 지정가:3,090원)! +5% 그물망 준비..."
+        }
+      },
       {
         "date": "2026-11-09",
         "weekday": "월요일",
@@ -1376,7 +1453,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 10:10:37",
+    "updated_at": "2026-11-09 10:46:56",
     "deprecated": true,
     "stats": {},
     "days": []
