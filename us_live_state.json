@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:27:53",
-  "updated_at_et": "2026-11-09 08:27:53",
-  "updated_epoch_ms": 1794230873502,
+  "updated_at_kst": "2026-11-09 22:29:01",
+  "updated_at_et": "2026-11-09 08:29:01",
+  "updated_epoch_ms": 1794230941915,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:27:47"
+    "updated_kst": "22:28:57"
   },
   "stats": {
     "today_total": 13,
@@ -2377,6 +2377,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:28:13",
+      "time_kst": "22:28:13",
+      "symbol": "EC",
+      "company_name": "EC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:22:34",
       "time_kst": "22:22:34",
       "symbol": "STM",
@@ -2864,16 +2874,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $134.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:53",
-      "time_kst": "21:02:53",
-      "symbol": "SLSR",
-      "company_name": "SLSR",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1184.54M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
