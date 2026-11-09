@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:04:00",
-  "updated_at_et": "2026-11-09 07:04:00",
-  "updated_epoch_ms": 1794225840854,
+  "updated_at_kst": "2026-11-09 21:04:33",
+  "updated_at_et": "2026-11-09 07:04:33",
+  "updated_epoch_ms": 1794225873266,
   "analyzing": {
-    "active": true,
-    "symbol": "CANF",
-    "company_name": "CANF",
-    "exchange": "AM",
-    "price": 1.62,
-    "gain_pct": 0.0,
-    "mcap_m": 4.92,
-    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:03:58",
-    "started_at_kst": "21:03:58",
-    "started_epoch_ms": 1794225838255
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.54,
-    "profit_rate": 8.36,
-    "updated_kst": "21:03:43"
+    "current_price": 2.56,
+    "profit_rate": 9.21,
+    "updated_kst": "21:04:20"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 3,
+    "today_total": 4,
+    "today_nblm_count": 4,
     "today_buy": 1,
-    "today_false": 2,
+    "today_false": 3,
     "today_hardcut": 50,
-    "total_verdicts": 107,
+    "total_verdicts": 108,
     "total_buy": 5,
-    "total_false": 102,
-    "avg_nblm_sec": 33.3
+    "total_false": 103,
+    "avg_nblm_sec": 34.2
   },
   "verdicts": [
+    {
+      "id": "v_1794225870930_CANF_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "07:04:30",
+      "time_kst": "21:04:30",
+      "symbol": "CANF",
+      "company_name": "CANF",
+      "exchange": "AM",
+      "price": 1.62,
+      "gain_pct": 0.0,
+      "mcap_m": 4.92,
+      "decision": "FALSE",
+      "elapsed_sec": 36.7,
+      "reason": "임상 2상 환자 1명 장기 생존 추적(Single Patient Survival Update) 공시는 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CANF (Can-Fite BioPharma Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.92M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.6200 대비 현재가 $1.6200 (+0.00% 보합), 당일 최고가 $1.6200 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K (EX-99.1) 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (첨부 EX-99.1 보도자료) 접수.\nPR 제목: \"Can-Fite Reports Ten-Year Survival Milestone for Advanced Liver Cancer Patient from Phase II Namodenoson Study\"\n원문 팩트: 진행성 간암 파이프라인(Namodenoson) 임상 2상에 참여했던 환자 1명의 10년 장기 생존 사례(Ten-Year Survival Milestone for Single Patient)를 발표한 보도자료입니다.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인, Pivotal 임상 3상 톱라인 성공, 구체적 현금 유입 계약/자산 매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아니라, **단순 임상 2상 참여 환자 1명의 장기 생존 추적 발표(Single Patient Case Update)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 임상 사례/개별 환자 추적/특허/IR 발표/주주서한' 범주에 정확히 속하므로 당일 기업 가치를 폭발시킬 확정적 1급 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 +0.00% 보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 개별 환자 1명 생존 추적 발표(Single Patient Case Update)에 불과하고 장전 보합(+0.00%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CANF 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: CANF NOTES:\n[CANF] 임상 2상 환자 1명 장기 생존 추적(Single Patient Survival Update) 공시는 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794222477678_EDSA_BUY",
       "date_et": "2026-11-09",
