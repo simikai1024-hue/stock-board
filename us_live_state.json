@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:54:55",
-  "updated_at_et": "2026-11-09 08:54:55",
-  "updated_epoch_ms": 1794232495663,
+  "updated_at_kst": "2026-11-09 22:55:37",
+  "updated_at_et": "2026-11-09 08:55:37",
+  "updated_epoch_ms": 1794232537583,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:54:52"
+    "updated_kst": "22:55:34"
   },
   "stats": {
     "today_total": 20,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:55:33",
+      "time_kst": "22:55:33",
+      "symbol": "COUR",
+      "company_name": "COUR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:52:42",
       "time_kst": "22:52:42",
       "symbol": "AXGN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $262.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:13:45",
-      "time_kst": "21:13:45",
-      "symbol": "DAIC",
-      "company_name": "CID Holdco, Inc.",
-      "exchange": "ND",
-      "mcap_m": 2.6,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-16 [8-K] (Item 1.02,3.02,5.02,9.01))"
     }
   ]
 }
