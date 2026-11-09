@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:30:49",
-  "updated_at_et": "2026-11-09 07:30:49",
-  "updated_epoch_ms": 1794227449383,
+  "updated_at_kst": "2026-11-09 21:31:28",
+  "updated_at_et": "2026-11-09 07:31:28",
+  "updated_epoch_ms": 1794227488497,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ADIL",
+    "company_name": "ADIL",
+    "exchange": "ND",
+    "price": 5.05,
+    "gain_pct": 36.12,
+    "mcap_m": 13.26,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 5.02,8.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:31:25",
+    "started_at_kst": "21:31:25",
+    "started_epoch_ms": 1794227485205
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:30:49"
+    "updated_kst": "21:31:07"
   },
   "stats": {
     "today_total": 6,
@@ -2237,6 +2249,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:31:09",
+      "time_kst": "21:31:09",
+      "symbol": "SLNH",
+      "company_name": "SLNH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $128.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:31:04",
+      "time_kst": "21:31:04",
+      "symbol": "NCPL",
+      "company_name": "NCPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:30:50",
+      "time_kst": "21:30:50",
+      "symbol": "INO",
+      "company_name": "INO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $141.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:30:46",
       "time_kst": "21:30:46",
       "symbol": "AVIR",
@@ -2701,36 +2743,6 @@
       "time_kst": "20:14:12",
       "symbol": "CRL",
       "company_name": "CRL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:13:31",
-      "time_kst": "20:13:31",
-      "symbol": "CHT",
-      "company_name": "CHT",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:12:40",
-      "time_kst": "20:12:40",
-      "symbol": "ZTO",
-      "company_name": "ZTO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:08:33",
-      "time_kst": "20:08:33",
-      "symbol": "PUK",
-      "company_name": "PUK",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
