@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:16:34",
-  "updated_at_et": "2026-11-09 09:16:34",
-  "updated_epoch_ms": 1794233794784,
+  "updated_at_kst": "2026-11-09 23:17:15",
+  "updated_at_et": "2026-11-09 09:17:15",
+  "updated_epoch_ms": 1794233835630,
   "analyzing": {
-    "active": true,
-    "symbol": "RGNT",
-    "company_name": "RGNT",
-    "exchange": "AM",
-    "price": 1.15,
-    "gain_pct": -0.86,
-    "mcap_m": 8.08,
-    "catalyst_hint": "[당일 PR] Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC(R) in Israel",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:16:28",
-    "started_at_kst": "23:16:28",
-    "started_epoch_ms": 1794233788591
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:16:29"
+    "updated_kst": "23:16:57"
   },
   "stats": {
-    "today_total": 23,
-    "today_nblm_count": 23,
+    "today_total": 24,
+    "today_nblm_count": 24,
     "today_buy": 1,
-    "today_false": 22,
+    "today_false": 23,
     "today_hardcut": 60,
-    "total_verdicts": 127,
+    "total_verdicts": 128,
     "total_buy": 5,
-    "total_false": 122,
-    "avg_nblm_sec": 37.4
+    "total_false": 123,
+    "avg_nblm_sec": 37.9
   },
   "verdicts": [
+    {
+      "id": "v_1794233829428_RGNT_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "09:17:09",
+      "time_kst": "23:17:09",
+      "symbol": "RGNT",
+      "company_name": "RGNT",
+      "exchange": "AM",
+      "price": 1.15,
+      "gain_pct": -0.86,
+      "mcap_m": 8.08,
+      "decision": "FALSE",
+      "elapsed_sec": 47.1,
+      "reason": "이스라엘 독점 유통 계약 PR(Exclusive Distribution Agreement)은 금액 미기재 단순 계약 발표로 1급 확정 기폭제 미달 및 장전 약보합(-0.86%)으로 전량 차단",
+      "catalyst_hint": "[당일 PR] Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC(R) in Israel",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 RGNT (Regentis Biomaterials Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.08M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.1600 대비 현재가 $1.1500 (-0.86% 약보합), 당일 최고가 $1.1500 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 09:00 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC(R) in Israel\"\n원문 팩트: 이스라엘 시장 내 GelrinC® 상업화를 위해 AMI Technologies와 독점 유통 계약(Exclusive Distribution Agreement)을 체결했다는 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 특정 국가(이스라엘) 독점 유통 계약 체결(Exclusive Distribution Agreement) 발표에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입 계약 금액 미기재 단순 유통계약/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 -0.86% 약보합권에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 이스라엘 독점 유통 계약(Exclusive Distribution Agreement) 발표에 불과하고 장전 무수급(-0.86%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: RGNT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: RGNT NOTES:\n[RGNT] 이스라엘 독점 유통 계약 PR(Exclusive Distribution Agreement)은 금액 미기재 단순 계약 발표로 1급 확정 기폭제 미달 및 장전 약보합(-0.86%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794233279102_NCEL_FALSE",
       "date_et": "2026-11-09",
@@ -2423,26 +2431,6 @@
       "catalyst_hint": "",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 전략 헌장 기준에 따라 긴급 포착 종목 **SUNE (SUNation Energy, Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.35M USD (시가총액 $50.0M 이하 소형 품절주 체급 조건 1차 통과).\n실시간 시세 및 거래량: 07:34 ET 기준 현재가 $2.0500 (-0.49% 보합/음봉), 당일 최고가 $2.0500. 장전 누적 거래대금이 $0 USD로 초기 수급 수직 유입이 전혀 관측되지 않는 상태입니다.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 밑작업: 2026-10-15 8-K (Item 1.01, 2.03)를 통해 MBB Energy와의 회전신용한도(Line of Credit) 계약 밑작업은 확인됩니다.\n당일(11/02 07:00 ET) PR 원문 분석:\nPR 제목: \"SUNation Energy Announces Confidential Submission of Draft Registration Statement on Form S-4 in Connection with Proposed Merger with Suniva\"\n원문 진위: Suniva와의 합병 추진과 관련하여 미 SEC에 **Form S-4 등록신고서 예비 초안을 비밀 제출(Confidential Submission of Draft)**했다는 내용입니다.\n기폭제 결함: Form S-4 예비 초안 제출은 합병 진행을 위한 행정적 서류 접수 단계일 뿐, 오늘 당일 기업 가치를 수직 폭등시킬 '완결된 M&A 완료/확정 현금 유입/임상 성공/특별배당/상장유지 회복' 등의 1급 확정 기폭제가 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 확정 호재가 아닌 예비 행정 절차 공시이며, 장전 거래대금($0 USD) 및 시세(-0.49%) 반응이 전무하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: SUNE NOTES:\n[SUNE] Form S-4 비밀 제출(Draft Submission)은 예비 행정 절차일 뿐 당일 확정 기폭제가 아니며 장전 대금 $0 및 -0.49% 약세로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
-      "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_071906_SUNE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "07:19:06",
-      "time_kst": "21:19:06",
-      "symbol": "SUNE",
-      "company_name": "SUNation Energy, Inc.",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 13.35,
-      "decision": "FALSE",
-      "elapsed_sec": 237.1,
-      "reason": "신규 합병 체결이나 완료가 아닌 기존 발표된 합병 건의 단순 Form S-4 초안 비공개 제출 행정 절차 안내 PR에 불과하며 주가 마이너스 및 거래대금 0달러로 매수 차단",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "구 Gmail 판정",
       "trade_action": "차단(패스)"
     }
   ],
