@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:12:29",
-  "updated_at_et": "2026-11-09 06:12:29",
-  "updated_epoch_ms": 1794222749178,
+  "updated_at_kst": "2026-11-09 20:13:31",
+  "updated_at_et": "2026-11-09 06:13:31",
+  "updated_epoch_ms": 1794222811721,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.47,
-    "profit_rate": 5.37,
-    "updated_kst": "20:12:27"
+    "current_price": 2.33,
+    "profit_rate": -0.6,
+    "updated_kst": "20:13:28"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 16,
+    "today_hardcut": 17,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:12:40",
+      "time_kst": "20:12:40",
+      "symbol": "ZTO",
+      "company_name": "ZTO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:12:24",
       "time_kst": "20:12:24",
       "symbol": "MRT",
@@ -2664,16 +2674,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:31:01",
-      "time_kst": "21:31:01",
-      "symbol": "PLAG",
-      "company_name": "PLAG",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-02 [424B5])"
     }
   ]
 }
