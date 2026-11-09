@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:24:25",
-  "updated_at_et": "2026-11-09 09:24:25",
-  "updated_epoch_ms": 1794234265759,
+  "updated_at_kst": "2026-11-09 23:25:07",
+  "updated_at_et": "2026-11-09 09:25:07",
+  "updated_epoch_ms": 1794234307120,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:24:19"
+    "updated_kst": "23:25:05"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:25:00",
+      "time_kst": "23:25:00",
+      "symbol": "XLAB",
+      "company_name": "XLAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $97.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:21:43",
       "time_kst": "23:21:43",
       "symbol": "NKTX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2649.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:49:30",
-      "time_kst": "21:49:30",
-      "symbol": "SPRC",
-      "company_name": "SPRC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 PR 없는 단순 6-K/A 행정 오타·문구 정정 차단 (2026-11-09 [6-K/A])"
     }
   ]
 }
