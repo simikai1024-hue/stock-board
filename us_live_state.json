@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:45:26",
-  "updated_at_et": "2026-11-09 06:45:26",
-  "updated_epoch_ms": 1794224726259,
+  "updated_at_kst": "2026-11-09 20:46:25",
+  "updated_at_et": "2026-11-09 06:46:25",
+  "updated_epoch_ms": 1794224785914,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.6101,
-    "profit_rate": 11.35,
-    "updated_kst": "20:45:22"
+    "current_price": 2.66,
+    "profit_rate": 13.48,
+    "updated_kst": "20:46:22"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 32,
+    "today_hardcut": 33,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:45:43",
+      "time_kst": "20:45:43",
+      "symbol": "BLSH",
+      "company_name": "BLSH",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:43:15",
       "time_kst": "20:43:15",
       "symbol": "SID",
@@ -2664,16 +2674,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "09:00:32",
-      "time_kst": "23:00:32",
-      "symbol": "AIFU",
-      "company_name": "AIFU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $436.43M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
