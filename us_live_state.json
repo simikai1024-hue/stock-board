@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:02:17",
-  "updated_at_et": "2026-11-09 07:02:17",
-  "updated_epoch_ms": 1794225737105,
+  "updated_at_kst": "2026-11-09 21:03:04",
+  "updated_at_et": "2026-11-09 07:03:04",
+  "updated_epoch_ms": 1794225784462,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.58,
-    "profit_rate": 10.06,
-    "updated_kst": "21:02:14"
+    "current_price": 2.5415,
+    "profit_rate": 8.42,
+    "updated_kst": "21:02:57"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 38,
+    "today_hardcut": 46,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:02:59",
+      "time_kst": "21:02:59",
+      "symbol": "ADAG",
+      "company_name": "ADAG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $134.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:53",
+      "time_kst": "21:02:53",
+      "symbol": "SLSR",
+      "company_name": "SLSR",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1184.54M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:46",
+      "time_kst": "21:02:46",
+      "symbol": "TLSA",
+      "company_name": "TLSA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $88.38M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:39",
+      "time_kst": "21:02:39",
+      "symbol": "MCTA",
+      "company_name": "MCTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $504.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:33",
+      "time_kst": "21:02:33",
+      "symbol": "MNDY",
+      "company_name": "MNDY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3297.38M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:25",
+      "time_kst": "21:02:25",
+      "symbol": "CGEN",
+      "company_name": "CGEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $185.67M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:21",
+      "time_kst": "21:02:21",
+      "symbol": "WD",
+      "company_name": "WD",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:02:18",
+      "time_kst": "21:02:18",
+      "symbol": "PROK",
+      "company_name": "PROK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $242.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:02:14",
       "time_kst": "21:02:14",
       "symbol": "DTIL",
@@ -2594,86 +2674,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "11:23:11",
-      "time_kst": "01:23:11",
-      "symbol": "TU",
-      "company_name": "TU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "11:21:15",
-      "time_kst": "01:21:15",
-      "symbol": "BTI",
-      "company_name": "BTI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "10:22:26",
-      "time_kst": "00:22:26",
-      "symbol": "SDA",
-      "company_name": "SDA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "10:21:32",
-      "time_kst": "00:21:32",
-      "symbol": "ELME",
-      "company_name": "ELME",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "10:21:15",
-      "time_kst": "00:21:15",
-      "symbol": "MXF",
-      "company_name": "MXF",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "10:14:58",
-      "time_kst": "00:14:58",
-      "symbol": "PUK",
-      "company_name": "PUK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "10:09:15",
-      "time_kst": "00:09:15",
-      "symbol": "GSK",
-      "company_name": "GSK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "10:05:30",
-      "time_kst": "00:05:30",
-      "symbol": "VALN",
-      "company_name": "VALN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $523.2M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
