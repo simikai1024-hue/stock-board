@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:10:11",
-  "updated_at_et": "2026-11-09 08:10:11",
-  "updated_epoch_ms": 1794229811172,
+  "updated_at_kst": "2026-11-09 22:10:45",
+  "updated_at_et": "2026-11-09 08:10:45",
+  "updated_epoch_ms": 1794229845950,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AEON",
+    "company_name": "AEON Biopharma, Inc.",
+    "exchange": "AM",
+    "price": 0.1716,
+    "gain_pct": -2.39,
+    "mcap_m": 10.14,
+    "catalyst_hint": "[당일 PR] AEON Biopharma Submits IND for Comparative Pharmacodynamic Study of ABP-450",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:10:39",
+    "started_at_kst": "22:10:39",
+    "started_epoch_ms": 1794229839938
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:10:07"
+    "updated_kst": "22:10:28"
   },
   "stats": {
     "today_total": 11,
@@ -2337,6 +2349,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:10:34",
+      "time_kst": "22:10:34",
+      "symbol": "NVO",
+      "company_name": "NVO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:06:28",
       "time_kst": "22:06:28",
       "symbol": "LKQ",
@@ -2824,16 +2846,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:18",
-      "time_kst": "21:02:18",
-      "symbol": "PROK",
-      "company_name": "PROK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $242.41M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
