@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:06:42",
-  "updated_at_et": "2026-11-09 06:06:42",
-  "updated_epoch_ms": 1794222402492,
+  "updated_at_kst": "2026-11-09 20:06:50",
+  "updated_at_et": "2026-11-09 06:06:50",
+  "updated_epoch_ms": 1794222410681,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "UK",
+    "company_name": "UK",
+    "exchange": "ND",
+    "price": 1.61,
+    "gain_pct": 0.04,
+    "mcap_m": 1.09,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:06:45",
+    "started_at_kst": "20:06:45",
+    "started_epoch_ms": 1794222405420
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:06:28"
+    "updated_kst": "20:06:47"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 12,
+    "today_hardcut": 13,
     "total_verdicts": 105,
     "total_buy": 4,
     "total_false": 101,
@@ -2137,6 +2149,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:06:48",
+      "time_kst": "20:06:48",
+      "symbol": "LI",
+      "company_name": "LI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $10057.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:06:09",
       "time_kst": "20:06:09",
       "symbol": "KEP",
@@ -2624,16 +2646,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:22:17",
-      "time_kst": "21:22:17",
-      "symbol": "KYIV",
-      "company_name": "KYIV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3058.28M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
