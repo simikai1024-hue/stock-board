@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:19:44",
-  "updated_at_et": "2026-11-09 07:19:44",
-  "updated_epoch_ms": 1794226784120,
+  "updated_at_kst": "2026-11-09 21:20:32",
+  "updated_at_et": "2026-11-09 07:20:32",
+  "updated_epoch_ms": 1794226832098,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:19:41"
+    "updated_kst": "21:20:25"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 5,
-    "today_hardcut": 59,
+    "today_hardcut": 60,
     "total_verdicts": 110,
     "total_buy": 5,
     "total_false": 105,
@@ -2237,6 +2237,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:20:29",
+      "time_kst": "21:20:29",
+      "symbol": "FTH",
+      "company_name": "FTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $467.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:18:16",
       "time_kst": "21:18:16",
       "symbol": "FACT",
@@ -2724,16 +2734,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:58",
-      "time_kst": "20:05:58",
-      "symbol": "VISN",
-      "company_name": "VISN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $968.63M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
