@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:47:19",
-  "updated_at_et": "2026-11-09 07:47:19",
-  "updated_epoch_ms": 1794228439244,
+  "updated_at_kst": "2026-11-09 21:47:37",
+  "updated_at_et": "2026-11-09 07:47:37",
+  "updated_epoch_ms": 1794228457999,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DAVI",
+    "company_name": "DAVION HEALTHCARE PLC",
+    "exchange": "ND",
+    "price": 1.5903,
+    "gain_pct": -1.22,
+    "mcap_m": 39.76,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:47:34",
+    "started_at_kst": "21:47:34",
+    "started_epoch_ms": 1794228454432
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:47:16"
+    "updated_kst": "21:47:35"
   },
   "stats": {
     "today_total": 8,
