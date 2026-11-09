@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:30:08",
-  "updated_at_et": "2026-11-09 08:30:08",
-  "updated_epoch_ms": 1794231008816,
+  "updated_at_kst": "2026-11-09 22:30:58",
+  "updated_at_et": "2026-11-09 08:30:58",
+  "updated_epoch_ms": 1794231058624,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:30:03"
+    "updated_kst": "22:30:46"
   },
   "stats": {
     "today_total": 13,
@@ -2377,6 +2377,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:30:53",
+      "time_kst": "22:30:53",
+      "symbol": "EMPD",
+      "company_name": "EMPD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:28:13",
       "time_kst": "22:28:13",
       "symbol": "EC",
@@ -2864,16 +2874,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $17425.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:59",
-      "time_kst": "21:02:59",
-      "symbol": "ADAG",
-      "company_name": "ADAG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $134.29M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
