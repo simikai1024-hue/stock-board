@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:40:59",
-  "updated_at_et": "2026-11-09 09:40:59",
-  "updated_epoch_ms": 1794235259545,
+  "updated_at_kst": "2026-11-09 23:41:30",
+  "updated_at_et": "2026-11-09 09:41:30",
+  "updated_epoch_ms": 1794235290211,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ICCM",
+    "company_name": "IceCure Medical Ltd.",
+    "exchange": "ND",
+    "price": 0.804,
+    "gain_pct": 18.11,
+    "mcap_m": 2.76,
+    "catalyst_hint": "[당일 PR] IceCure Granted New Patent in China for Its Cryogenic System Connector, Expanding Its Global IP Portfolio",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:41:26",
+    "started_at_kst": "23:41:26",
+    "started_epoch_ms": 1794235286155
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:40:53"
+    "updated_kst": "23:41:14"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:41:29",
+      "time_kst": "23:41:29",
+      "symbol": "CISS",
+      "company_name": "CISS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-09 [424B3])"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:41:09",
+      "time_kst": "23:41:09",
+      "symbol": "OWLS",
+      "company_name": "OWLS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $206.7M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:40:53",
       "time_kst": "23:40:53",
       "symbol": "FACT",
@@ -2911,26 +2943,6 @@
       "time_kst": "23:05:06",
       "symbol": "MANE",
       "company_name": "MANE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:01:25",
-      "time_kst": "23:01:25",
-      "symbol": "LUD",
-      "company_name": "LUD",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $86.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:01:10",
-      "time_kst": "23:01:10",
-      "symbol": "CCS",
-      "company_name": "CCS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
