@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:52:30",
-  "updated_at_et": "2026-11-09 06:52:30",
-  "updated_epoch_ms": 1794225150966,
+  "updated_at_kst": "2026-11-09 20:53:34",
+  "updated_at_et": "2026-11-09 06:53:34",
+  "updated_epoch_ms": 1794225214256,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.69,
-    "profit_rate": 14.76,
-    "updated_kst": "20:52:27"
+    "current_price": 2.68,
+    "profit_rate": 14.33,
+    "updated_kst": "20:53:31"
   },
   "stats": {
     "today_total": 3,
