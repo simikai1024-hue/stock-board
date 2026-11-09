@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:31:13",
-  "updated_at_et": "2026-11-09 08:31:13",
-  "updated_epoch_ms": 1794231073263,
+  "updated_at_kst": "2026-11-09 22:31:53",
+  "updated_at_et": "2026-11-09 08:31:53",
+  "updated_epoch_ms": 1794231113994,
   "analyzing": {
-    "active": true,
-    "symbol": "BDRX",
-    "company_name": "BDRX",
-    "exchange": "ND",
-    "price": 2.48,
-    "gain_pct": 0.02,
-    "mcap_m": 2.55,
-    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:31:08",
-    "started_at_kst": "22:31:08",
-    "started_epoch_ms": 1794231068777
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:31:09"
+    "updated_kst": "22:31:53"
   },
   "stats": {
-    "today_total": 13,
-    "today_nblm_count": 13,
+    "today_total": 14,
+    "today_nblm_count": 14,
     "today_buy": 1,
-    "today_false": 12,
+    "today_false": 13,
     "today_hardcut": 60,
-    "total_verdicts": 117,
+    "total_verdicts": 118,
     "total_buy": 5,
-    "total_false": 112,
-    "avg_nblm_sec": 35.5
+    "total_false": 113,
+    "avg_nblm_sec": 36.2
   },
   "verdicts": [
+    {
+      "id": "v_1794231109828_BDRX_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "08:31:49",
+      "time_kst": "22:31:49",
+      "symbol": "BDRX",
+      "company_name": "BDRX",
+      "exchange": "ND",
+      "price": 2.48,
+      "gain_pct": 0.02,
+      "mcap_m": 2.55,
+      "decision": "FALSE",
+      "elapsed_sec": 44.7,
+      "reason": "임상 3상 진행 경과 보고 PR(R&D Update)은 1급 확정 기폭제 미달 및 장전 보합(+0.02%)으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 BDRX (Biodexa Pharmaceuticals PLC) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.55M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $2.4795 대비 현재가 $2.4800 (+0.02% 보합), 당일 최고가 $2.4800 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K (EX-99.1) 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (첨부 EX-99.1 보도자료) 접수.\nPR 제목: \"Biodexa provides R&D Update - Phase 3 Serenta trial in FAP is now two-thirds recruited\"\n원문 팩트: FAP 치료제 후보물질(Serenta)의 임상 3상 환자 모집이 2/3 완료되었다는 내용 및 파이프라인 준비 상황에 관한 단순 연구개발 진행 상황 업데이트(R&D Update) 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 공시는 최종 신약 FDA 승인, 임상 3상 톱라인 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **임상 3상 환자 모집 진행률(two-thirds recruited)을 알리는 일반적인 사업/R&D 경과 보고(R&D Update)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 R&D/임상 진행보고/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 +0.02% 보합권에 갇혀 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 R&D 진행 경과 보고(R&D Update)에 불과하고 장전 보합권(+0.02%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: BDRX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: BDRX NOTES:\n[BDRX] 임상 3상 진행 경과 보고 PR(R&D Update)은 1급 확정 기폭제 미달 및 장전 보합(+0.02%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794230185496_MTEK_FALSE",
       "date_et": "2026-11-09",
@@ -2389,6 +2397,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:31:30",
+      "time_kst": "22:31:30",
+      "symbol": "ALAR",
+      "company_name": "ALAR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주주총회 소집 통지(Notice of EGM/AGM) 행정 공시 차단 (2026-11-09 [6-K])"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:30:53",
       "time_kst": "22:30:53",
       "symbol": "EMPD",
@@ -2876,16 +2894,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $15662.13M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:03:10",
-      "time_kst": "21:03:10",
-      "symbol": "KSPI",
-      "company_name": "KSPI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $17425.48M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
