@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:44:56",
-  "updated_at_et": "2026-11-09 09:44:56",
-  "updated_epoch_ms": 1794235496239,
+  "updated_at_kst": "2026-11-09 23:45:55",
+  "updated_at_et": "2026-11-09 09:45:55",
+  "updated_epoch_ms": 1794235555646,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:44:52"
+    "updated_kst": "23:45:51"
   },
   "stats": {
     "today_total": 27,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:45:11",
+      "time_kst": "23:45:11",
+      "symbol": "VBNK",
+      "company_name": "VBNK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $793.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:43:14",
       "time_kst": "23:43:14",
       "symbol": "SOHU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2440.98M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:33",
-      "time_kst": "23:37:33",
-      "symbol": "APVO",
-      "company_name": "APVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
     }
   ]
 }
