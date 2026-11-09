@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:40:17",
-  "updated_at_et": "2026-11-09 09:40:17",
-  "updated_epoch_ms": 1794235217374,
+  "updated_at_kst": "2026-11-09 23:40:59",
+  "updated_at_et": "2026-11-09 09:40:59",
+  "updated_epoch_ms": 1794235259545,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:40:13"
+    "updated_kst": "23:40:53"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:40:53",
+      "time_kst": "23:40:53",
+      "symbol": "FACT",
+      "company_name": "FACT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $262.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:40:46",
+      "time_kst": "23:40:46",
+      "symbol": "CGEM",
+      "company_name": "CGEM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $701.88M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:40:35",
+      "time_kst": "23:40:35",
+      "symbol": "OCUL",
+      "company_name": "OCUL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1336.36M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:40:28",
+      "time_kst": "23:40:28",
+      "symbol": "INO",
+      "company_name": "INO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $131.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:40:18",
+      "time_kst": "23:40:18",
+      "symbol": "AVIR",
+      "company_name": "AVIR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $348.09M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:40:10",
       "time_kst": "23:40:10",
       "symbol": "ADIL",
@@ -2881,56 +2931,6 @@
       "time_kst": "23:01:10",
       "symbol": "CCS",
       "company_name": "CCS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:00:02",
-      "time_kst": "23:00:02",
-      "symbol": "OWLS",
-      "company_name": "OWLS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $192.57M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:55:57",
-      "time_kst": "22:55:57",
-      "symbol": "SM",
-      "company_name": "SM",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:55:33",
-      "time_kst": "22:55:33",
-      "symbol": "COUR",
-      "company_name": "COUR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:45:56",
-      "time_kst": "22:45:56",
-      "symbol": "BMNR",
-      "company_name": "BMNR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:40:33",
-      "time_kst": "22:40:33",
-      "symbol": "IIPR",
-      "company_name": "IIPR",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
