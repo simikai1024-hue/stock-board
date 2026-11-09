@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:16:07",
-  "updated_at_et": "2026-11-09 09:16:07",
-  "updated_epoch_ms": 1794233767526,
+  "updated_at_kst": "2026-11-09 23:16:34",
+  "updated_at_et": "2026-11-09 09:16:34",
+  "updated_epoch_ms": 1794233794784,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "RGNT",
+    "company_name": "RGNT",
+    "exchange": "AM",
+    "price": 1.15,
+    "gain_pct": -0.86,
+    "mcap_m": 8.08,
+    "catalyst_hint": "[당일 PR] Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC(R) in Israel",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:16:28",
+    "started_at_kst": "23:16:28",
+    "started_epoch_ms": 1794233788591
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:16:03"
+    "updated_kst": "23:16:29"
   },
   "stats": {
     "today_total": 23,
