@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:42:51",
-  "updated_at_et": "2026-11-09 09:42:51",
-  "updated_epoch_ms": 1794235371180,
+  "updated_at_kst": "2026-11-09 23:43:56",
+  "updated_at_et": "2026-11-09 09:43:56",
+  "updated_epoch_ms": 1794235436249,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:42:34"
+    "updated_kst": "23:43:53"
   },
   "stats": {
     "today_total": 27,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:43:14",
+      "time_kst": "23:43:14",
+      "symbol": "SOHU",
+      "company_name": "SOHU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $338.9M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:43:07",
+      "time_kst": "23:43:07",
+      "symbol": "SCNI",
+      "company_name": "Scinai Immunotherapeutics Ltd.",
+      "exchange": "ND",
+      "mcap_m": 1.16,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:43:01",
+      "time_kst": "23:43:01",
+      "symbol": "LI",
+      "company_name": "LI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $10012.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:53",
+      "time_kst": "23:42:53",
+      "symbol": "KSPI",
+      "company_name": "KSPI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $17072.03M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:42:45",
       "time_kst": "23:42:45",
       "symbol": "ADAG",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:29",
-      "time_kst": "23:37:29",
-      "symbol": "FTH",
-      "company_name": "FTH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $328.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:23",
-      "time_kst": "23:37:23",
-      "symbol": "WMG",
-      "company_name": "WMG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $16467.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:18",
-      "time_kst": "23:37:18",
-      "symbol": "AXGN",
-      "company_name": "AXGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3057.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:11",
-      "time_kst": "23:37:11",
-      "symbol": "IPFX",
-      "company_name": "IPFX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $257.3M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
