@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:28:10",
-  "updated_at_et": "2026-11-09 07:28:10",
-  "updated_epoch_ms": 1794227290503,
+  "updated_at_kst": "2026-11-09 21:28:56",
+  "updated_at_et": "2026-11-09 07:28:56",
+  "updated_epoch_ms": 1794227336796,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:28:08"
+    "updated_kst": "21:28:46"
   },
   "stats": {
     "today_total": 6,
@@ -2237,6 +2237,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:28:50",
+      "time_kst": "21:28:50",
+      "symbol": "OCUL",
+      "company_name": "OCUL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1372.6M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:22:07",
       "time_kst": "21:22:07",
       "symbol": "CDLR",
@@ -2724,16 +2734,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:06:48",
-      "time_kst": "20:06:48",
-      "symbol": "LI",
-      "company_name": "LI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $10057.65M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
