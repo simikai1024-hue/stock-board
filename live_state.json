@@ -1,9 +1,9 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 09:49:22",
+  "updated_at": "2026-11-09 10:10:37",
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 09:49:22",
+    "updated_at": "2026-11-09 10:10:37",
     "stats": {
       "total_closed": 3,
       "win_count": 1,
@@ -93,20 +93,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 09:49:22",
+    "updated_at": "2026-11-09 10:10:37",
     "stats": {
-      "cooked_count": 15,
+      "cooked_count": 16,
       "finalized_count": 14,
       "hit_5pct_count": 12,
       "hit_5pct_rate": 85.7,
-      "dart_count": 15,
+      "dart_count": 16,
       "news_count": 0,
-      "today_cooked_count": 1,
-      "avg_day_high_pct": 17.55,
-      "avg_open_to_high_pct": 17.54,
-      "avg_post_disc_max_pct": 14.18
+      "today_cooked_count": 2,
+      "avg_day_high_pct": 17.0,
+      "avg_open_to_high_pct": 17.06,
+      "avg_post_disc_max_pct": 13.3
     },
     "preparing_list": [
+      {
+        "code": "100590",
+        "name": "머큐리",
+        "mcap_uk": 580,
+        "prep_tag": "✨ 어닝서프라이즈 폭발!",
+        "prep_detail": "⚡[실전A급·실적] 영업익 40억 흑자전환(시총비 6.8%)",
+        "prep_date": "2026-11-09",
+        "cooked_today": true,
+        "disc_time": "10:10",
+        "day_high_pct": 8.73,
+        "open_to_high_pct": 9.97
+      },
       {
         "code": "083640",
         "name": "인콘",
@@ -371,20 +383,41 @@
         "cur_price": 9540,
         "flu_rt": -3.54,
         "cooked_today": false
-      },
-      {
-        "code": "018000",
-        "name": "유니슨",
-        "mcap_uk": 3048,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/19] 타법인주식및출자증권취득결정 (시총 3,048억)",
-        "prep_date": "2026-10-19",
-        "cur_price": 1044,
-        "flu_rt": 0.0,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-09",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "disc_time": "10:10",
+        "code": "100590",
+        "name": "머큐리",
+        "channel": "DART",
+        "source_label": "DART",
+        "tier": "A+S",
+        "belt_passed": false,
+        "cat": "어닝서프라이즈",
+        "summary": "⚡[실전A급·실적] 영업익 40억 흑자전환(시총비 6.8%)",
+        "rpt_title": "연결재무제표 기준 영업(잠정)실적(공정공시)",
+        "doc_url": "https://m.stock.naver.com/domestic/stock/100590/notice",
+        "mcap_uk": 580,
+        "prev_close": 3550,
+        "pre_disc_price": 3590,
+        "spike_from_pre_pct": 7.52,
+        "disc_price": 3860,
+        "target_5pct_price": 4050,
+        "entry_price": 3860,
+        "open_price": 3510,
+        "high_price": 3860,
+        "post_disc_high": 3860,
+        "close_price": 3860,
+        "open_to_high_pct": 9.97,
+        "day_high_pct": 8.73,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true
+      },
       {
         "date": "2026-11-09",
         "weekday": "월요일",
@@ -1343,7 +1376,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 09:49:22",
+    "updated_at": "2026-11-09 10:10:37",
     "deprecated": true,
     "stats": {},
     "days": []
