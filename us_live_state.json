@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:15:38",
-  "updated_at_et": "2026-11-09 07:15:38",
-  "updated_epoch_ms": 1794226538737,
+  "updated_at_kst": "2026-11-09 21:16:11",
+  "updated_at_et": "2026-11-09 07:16:11",
+  "updated_epoch_ms": 1794226571854,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELBM",
+    "company_name": "ELBM",
+    "exchange": "ND",
+    "price": 0.42,
+    "gain_pct": 1.45,
+    "mcap_m": 44.92,
+    "catalyst_hint": "[당일 PR] Electra Reports Third Quarter 2026 Results as It Builds North America’s Battery-Grade Cobalt Refinery",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:16:06",
+    "started_at_kst": "21:16:06",
+    "started_epoch_ms": 1794226566053
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:15:35"
+    "updated_kst": "21:15:53"
   },
   "stats": {
     "today_total": 5,
