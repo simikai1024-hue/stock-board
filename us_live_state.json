@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:01:07",
-  "updated_at_et": "2026-11-09 09:01:07",
-  "updated_epoch_ms": 1794232867697,
+  "updated_at_kst": "2026-11-09 23:01:42",
+  "updated_at_et": "2026-11-09 09:01:42",
+  "updated_epoch_ms": 1794232902767,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FRGT",
+    "company_name": "Freight Technologies, Inc.",
+    "exchange": "ND",
+    "price": 0.96,
+    "gain_pct": -2.09,
+    "mcap_m": 1.61,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:01:39",
+    "started_at_kst": "23:01:39",
+    "started_epoch_ms": 1794232899017
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:01:01"
+    "updated_kst": "23:01:24"
   },
   "stats": {
     "today_total": 21,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:01:25",
+      "time_kst": "23:01:25",
+      "symbol": "LUD",
+      "company_name": "LUD",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $86.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:01:10",
+      "time_kst": "23:01:10",
+      "symbol": "CCS",
+      "company_name": "CCS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:00:02",
       "time_kst": "23:00:02",
       "symbol": "OWLS",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $345.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:28:50",
-      "time_kst": "21:28:50",
-      "symbol": "OCUL",
-      "company_name": "OCUL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1372.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:22:07",
-      "time_kst": "21:22:07",
-      "symbol": "CDLR",
-      "company_name": "CDLR",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
