@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:07:51",
-  "updated_at_et": "2026-11-09 07:07:51",
-  "updated_epoch_ms": 1794226071468,
+  "updated_at_kst": "2026-11-09 21:08:53",
+  "updated_at_et": "2026-11-09 07:08:53",
+  "updated_epoch_ms": 1794226133046,
   "analyzing": {
     "active": false
   },
@@ -14,19 +14,19 @@
     "watchlist_count": 168,
     "orderable_usd": 193.95,
     "daily_done": false,
-    "holding_symbol": "EDSA",
-    "holding_qty": 79,
-    "avg_price": 2.3441,
-    "current_price": 2.5685,
-    "profit_rate": 9.57,
-    "updated_kst": "21:07:51"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "21:08:50"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 1,
     "today_false": 3,
-    "today_hardcut": 54,
+    "today_hardcut": 55,
     "total_verdicts": 108,
     "total_buy": 5,
     "total_false": 103,
@@ -2197,6 +2197,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:07:51",
+      "time_kst": "21:07:51",
+      "symbol": "AMG",
+      "company_name": "AMG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:07:48",
       "time_kst": "21:07:48",
       "symbol": "ZURA",
@@ -2681,16 +2691,6 @@
       "time_kst": "20:05:25",
       "symbol": "ZH",
       "company_name": "ZH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:20",
-      "time_kst": "20:05:20",
-      "symbol": "HDB",
-      "company_name": "HDB",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
