@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:32:59",
-  "updated_at_et": "2026-11-09 07:32:59",
-  "updated_epoch_ms": 1794227579301,
+  "updated_at_kst": "2026-11-09 21:33:28",
+  "updated_at_et": "2026-11-09 07:33:28",
+  "updated_epoch_ms": 1794227608390,
   "analyzing": {
-    "active": true,
-    "symbol": "MDCX",
-    "company_name": "Medicus Pharma Ltd.",
-    "exchange": "ND",
-    "price": 1.87,
-    "gain_pct": 1.08,
-    "mcap_m": 0.44,
-    "catalyst_hint": "[당일 PR] Medicus Pharma to Highlight Rationale for CD228V Co-Development and License Agreement",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:32:55",
-    "started_at_kst": "21:32:55",
-    "started_epoch_ms": 1794227575736
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:32:55"
+    "updated_kst": "21:33:13"
   },
   "stats": {
-    "today_total": 7,
-    "today_nblm_count": 7,
+    "today_total": 8,
+    "today_nblm_count": 8,
     "today_buy": 1,
-    "today_false": 6,
+    "today_false": 7,
     "today_hardcut": 60,
-    "total_verdicts": 111,
+    "total_verdicts": 112,
     "total_buy": 5,
-    "total_false": 106,
-    "avg_nblm_sec": 34.2
+    "total_false": 107,
+    "avg_nblm_sec": 34.5
   },
   "verdicts": [
+    {
+      "id": "v_1794227605110_MDCX_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "07:33:25",
+      "time_kst": "21:33:25",
+      "symbol": "MDCX",
+      "company_name": "Medicus Pharma Ltd.",
+      "exchange": "ND",
+      "price": 1.87,
+      "gain_pct": 1.08,
+      "mcap_m": 0.44,
+      "decision": "FALSE",
+      "elapsed_sec": 36.6,
+      "reason": "공동개발 계약 배경 설명 PR(Highlight Rationale)은 금액 미기재 IR/설명 발표로 1급 확정 기폭제 미달 및 장전 보합(+1.08%)으로 전량 차단",
+      "catalyst_hint": "[당일 PR] Medicus Pharma to Highlight Rationale for CD228V Co-Development and License Agreement",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MDCX (Medicus Pharma Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.44M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.8500 대비 현재가 $1.8700 (+1.08% 보합), 당일 최고가 $1.8700 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 07:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Medicus Pharma to Highlight Rationale for CD228V Co-Development and License Agreement\"\n원문 팩트: CD228V 공동 개발 및 라이선스 계약의 배경과 정당성(Rationale)을 주주 및 시장에 설명/강조(Highlight Rationale)하겠다는 기업 설명회/IR 성격의 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각(오늘 EDSA의 $140M+ 계약과 같은 구체적 숫자 유입), 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **공동 개발 계약의 추진 배경 및 당위성을 설명하는 IR/기업 브리핑 발표(Highlight Rationale)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 설명/IR 발표/MOU/주주서한/진행보고' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 +1.08% 보합권에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 계약 배경 설명 보도자료(Highlight Rationale)에 불과하고 장전 보합권(+1.08%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MDCX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: MDCX NOTES:\n[MDCX] 공동개발 계약 배경 설명 PR(Highlight Rationale)은 금액 미기재 IR/설명 발표로 1급 확정 기폭제 미달 및 장전 보합(+1.08%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794227513419_ADIL_FALSE",
       "date_et": "2026-11-09",
