@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:21:49",
-  "updated_at_et": "2026-11-09 08:21:49",
-  "updated_epoch_ms": 1794230509131,
+  "updated_at_kst": "2026-11-09 22:22:33",
+  "updated_at_et": "2026-11-09 08:22:33",
+  "updated_epoch_ms": 1794230553908,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:21:43"
+    "updated_kst": "22:22:26"
   },
   "stats": {
     "today_total": 13,
@@ -2377,6 +2377,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:22:30",
+      "time_kst": "22:22:30",
+      "symbol": "SLE",
+      "company_name": "SLE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-21 [424B5])"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:16:19",
       "time_kst": "22:16:19",
       "symbol": "SHFS",
@@ -2864,16 +2874,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $88.38M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:39",
-      "time_kst": "21:02:39",
-      "symbol": "MCTA",
-      "company_name": "MCTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $504.26M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
