@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:22:48",
-  "updated_at_et": "2026-11-09 09:22:48",
-  "updated_epoch_ms": 1794234168538,
+  "updated_at_kst": "2026-11-09 23:23:38",
+  "updated_at_et": "2026-11-09 09:23:38",
+  "updated_epoch_ms": 1794234218713,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "HOWL",
+    "company_name": "HOWL",
+    "exchange": "ND",
+    "price": 0.9825,
+    "gain_pct": -2.72,
+    "mcap_m": 47.75,
+    "catalyst_hint": "[당일 PR] Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:23:35",
+    "started_at_kst": "23:23:35",
+    "started_epoch_ms": 1794234215193
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:22:42"
+    "updated_kst": "23:23:34"
   },
   "stats": {
     "today_total": 24,
