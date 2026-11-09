@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:42:14",
-  "updated_at_et": "2026-11-09 09:42:14",
-  "updated_epoch_ms": 1794235334575,
+  "updated_at_kst": "2026-11-09 23:42:51",
+  "updated_at_et": "2026-11-09 09:42:51",
+  "updated_epoch_ms": 1794235371180,
   "analyzing": {
-    "active": true,
-    "symbol": "MTEK",
-    "company_name": "Maris Tech Ltd.",
-    "exchange": "ND",
-    "price": 0.2898,
-    "gain_pct": 4.39,
-    "mcap_m": 3.06,
-    "catalyst_hint": "[당일 PR] Maris-Tech Announces Record Order Backlog of Approximately $11,000,000",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:42:11",
-    "started_at_kst": "23:42:11",
-    "started_epoch_ms": 1794235331757
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:42:14"
+    "updated_kst": "23:42:34"
   },
   "stats": {
-    "today_total": 26,
-    "today_nblm_count": 26,
+    "today_total": 27,
+    "today_nblm_count": 27,
     "today_buy": 1,
-    "today_false": 25,
+    "today_false": 26,
     "today_hardcut": 60,
-    "total_verdicts": 130,
+    "total_verdicts": 131,
     "total_buy": 5,
-    "total_false": 125,
+    "total_false": 126,
     "avg_nblm_sec": 38.4
   },
   "verdicts": [
+    {
+      "id": "v_1794235365314_MTEK_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "09:42:45",
+      "time_kst": "23:42:45",
+      "symbol": "MTEK",
+      "company_name": "Maris Tech Ltd.",
+      "exchange": "ND",
+      "price": 0.2898,
+      "gain_pct": 4.39,
+      "mcap_m": 3.06,
+      "decision": "FALSE",
+      "elapsed_sec": 36.3,
+      "reason": "누적 수주 잔고(Order Backlog) PR/6-K는 당일 신규 계약 미달 및 윗꼬리 음봉 흐름으로 전량 차단",
+      "catalyst_hint": "[당일 PR] Maris-Tech Announces Record Order Backlog of Approximately $11,000,000",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MTEK (Maris-Tech Ltd.) 09:42 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.06M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.2776 대비 현재가 $0.2898 (+4.39% 상승), 당일 최고가 $0.3245 (고점 대비 -10.7%), 당일 누적 거래대금 $348,794 USD (본장 개장 후 거래대금 유입 형성).\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:10 ET PR & SEC 6-K) 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] 접수 완료.\nPR 제목: \"Maris-Tech Announces Record Order Backlog of Approximately $11,000,000\"\n원문 팩트: 약 $11M 달러 규모의 누적 수주 잔고(Record Order Backlog)를 집계하여 알리는 보도자료.\n치명적 기폭제 결함:\n본장 거래대금($348K USD) 유입과 6-K 공시 접수가 동기화되었으나, 재료의 본질은 오늘 당일 전격 체결된 신규 확정 대형 수주/계약이 아니라 기존 수주의 누적 잔액(Order Backlog)을 집계한 실적/IR 성격 발표입니다.\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인, 구체적 $ 금액 명시 당일 신규 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"당일 신규 현금 유입 계약이 아닌 단순 수주 잔고/실적 발표/주주서한/IR 발표는 1급 확정 기폭제 미달\")에 정확히 해당합니다.\n당일 고점($0.3245) 대비 현재가가 -10.7% 밀린 윗꼬리 흐름을 보이고 있어 세력의 뉴스 소진 차익실현 덤핑 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 및 PR이 신규 계약이 아닌 누적 수주 잔고(Order Backlog) 발표에 불과하여 1급 확정 기폭제 기준에 미달하므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MTEK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: MTEK NOTES:\n[MTEK] 누적 수주 잔고(Order Backlog) PR/6-K는 당일 신규 계약 미달 및 윗꼬리 음봉 흐름으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794235320426_ICCM_FALSE",
       "date_et": "2026-11-09",
@@ -2424,29 +2432,69 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 RECT (Rectitude Holdings Ltd) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $17.98M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.2400 대비 현재가 $1.2400 (0.00% 보합), 당일 누적 거래대금 $0 USD로 수급 수직 유입 전무.\n2. SEC 제출 이력 & 당일 D-Day 공시 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 2026-10-28 [6-K] 제출 이력 확인.\n당일(11/02) D-Day 6-K 원문 분석:\n공시 내용: 2026년 10월 12일 자로 체결된 자회사(Rectitude Pte. Ltd.)와 Mr. Butler Pte. Ltd. 간의 주식매매계약서(Share Purchase Agreement, EX-10.1) 첨부.\n기폭제 결함: 과거 날짜(10월 12일) 체결 계약건의 뒤늦은 행정 공시일 뿐, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 대형 M&A 완료/확정 현금 유입, 특별배당, 상장유지 회복 등)에 해당하지 않습니다.\n3. 최종 심사 및 결재 판정\n당일 6-K 공시가 과거 계약 건의 단순 행정 서류 첨부에 불과하며, 장전 누적 거래대금($0 USD) 및 시세 변동(0.00%) 반응이 전무하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: RECT NOTES:\n[RECT] 10월 12일 자 단순 주식매매계약(EX-10.1) 첨부 공시로 당일 확정 1급 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_075317_EVGO",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "07:53:17",
-      "time_kst": "21:53:17",
-      "symbol": "EVGO",
-      "company_name": "EVGO",
-      "exchange": "ND",
-      "price": 1.7298,
-      "gain_pct": 36.87,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 47.3,
-      "reason": "13D/A 인수 제안서(Proposal) 제출은 확정 M&A 계약이 아닌 비구속적 제안에 불과하여 당일 확정 기폭제 미달로 전량 차단",
-      "catalyst_hint": "",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **EVGO (EVgo Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.0M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.2638 대비 현재가 $1.7298 (+36.87%), 당일 최고가 $1.8300 (-5.5%). 장전 누적 거래대금 $0 USD로 초기 수급 유입 불투명.\n2. SEC 제출 이력 & 당일 D-Day 공시 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 임원진 Form 4 (RSU 주식 보상 관련) 공시 확인.\n당일(11/02) D-Day SCHEDULE 13D/A 원문 분석:\n공시 핵심 내용: 주요 주주인 LS Power Equity Advisors, LLC가 이사회(Board)에 미보유 Class A 보통주 전량을 인수하겠다는 제안서(Proposal Letter)를 전달함.\n기폭제 결함: 13D/A에 명시된 내역은 대주주의 비구속적 인수 제안(Non-binding Buyout Proposal) 서한 제출 단계일 뿐, 당일 기업 가치를 최종 결정짓는 확정 M&A 체결 계약(Item 1.01/2.01 8-K)이나 인수 합의 완결 공시가 아닙니다. 이사회 승인 및 최종 계약 체결 여부가 미정인 단순 인수 제안서는 헌장 2번·3번 기준상 1급 확정 기폭제 미달에 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 13D/A 공시가 확정 M&A 계약이 아닌 단순 비구속적 인수 제안(Proposal)에 불과하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: EVGO NOTES:\n[EVGO] 13D/A 인수 제안서(Proposal) 제출은 확정 M&A 계약이 아닌 비구속적 제안에 불과하여 당일 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "차단(패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:45",
+      "time_kst": "23:42:45",
+      "symbol": "ADAG",
+      "company_name": "ADAG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $146.37M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:40",
+      "time_kst": "23:42:40",
+      "symbol": "TLSA",
+      "company_name": "TLSA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $86.56M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:32",
+      "time_kst": "23:42:32",
+      "symbol": "MCTA",
+      "company_name": "MCTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $504.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:27",
+      "time_kst": "23:42:27",
+      "symbol": "MNDY",
+      "company_name": "MNDY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3487.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:22",
+      "time_kst": "23:42:22",
+      "symbol": "CGEN",
+      "company_name": "CGEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $189.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:18",
+      "time_kst": "23:42:18",
+      "symbol": "AIIO",
+      "company_name": "AIIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2178.85M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-09",
       "time_et": "09:42:13",
@@ -2886,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $257.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:08",
-      "time_kst": "23:37:08",
-      "symbol": "SGRY",
-      "company_name": "SGRY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3344.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:03",
-      "time_kst": "23:37:03",
-      "symbol": "TMC",
-      "company_name": "TMC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1023.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:36:59",
-      "time_kst": "23:36:59",
-      "symbol": "NKTX",
-      "company_name": "NKTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $94.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:36:52",
-      "time_kst": "23:36:52",
-      "symbol": "XLAB",
-      "company_name": "XLAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $92.64M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:36:47",
-      "time_kst": "23:36:47",
-      "symbol": "CXDO",
-      "company_name": "CXDO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $172.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:31:05",
-      "time_kst": "23:31:05",
-      "symbol": "ANVS",
-      "company_name": "ANVS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
