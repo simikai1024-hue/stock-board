@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:59:25",
-  "updated_at_et": "2026-11-09 07:59:25",
-  "updated_epoch_ms": 1794229165047,
+  "updated_at_kst": "2026-11-09 22:00:33",
+  "updated_at_et": "2026-11-09 08:00:33",
+  "updated_epoch_ms": 1794229233443,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:59:21"
+    "updated_kst": "22:00:30"
   },
   "stats": {
     "today_total": 9,
@@ -2297,6 +2297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:59:47",
+      "time_kst": "21:59:47",
+      "symbol": "ASST",
+      "company_name": "ASST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2649.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:49:30",
       "time_kst": "21:49:30",
       "symbol": "SPRC",
@@ -2784,16 +2794,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:20:23",
-      "time_kst": "20:20:23",
-      "symbol": "CKX",
-      "company_name": "CKX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
     }
   ]
 }
