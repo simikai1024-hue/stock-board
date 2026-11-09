@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:05:26",
-  "updated_at_et": "2026-11-09 07:05:26",
-  "updated_epoch_ms": 1794225926568,
+  "updated_at_kst": "2026-11-09 21:06:10",
+  "updated_at_et": "2026-11-09 07:06:10",
+  "updated_epoch_ms": 1794225970085,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.45,
-    "profit_rate": 4.52,
-    "updated_kst": "21:05:21"
+    "current_price": 2.56,
+    "profit_rate": 9.21,
+    "updated_kst": "21:06:06"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 1,
     "today_false": 3,
-    "today_hardcut": 50,
+    "today_hardcut": 51,
     "total_verdicts": 108,
     "total_buy": 5,
     "total_false": 103,
@@ -2197,6 +2197,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:06:04",
+      "time_kst": "21:06:04",
+      "symbol": "AURA",
+      "company_name": "AURA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $680.3M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:03:46",
       "time_kst": "21:03:46",
       "symbol": "AIIO",
@@ -2684,16 +2694,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:02",
-      "time_kst": "20:05:02",
-      "symbol": "CRBG",
-      "company_name": "CRBG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
