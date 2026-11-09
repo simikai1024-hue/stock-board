@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 15:35:59",
+  "updated_at": "2026-11-09 16:01:28",
   "history": [
     {
       "id": "1794188850409_032620_BUY",
@@ -80,7 +80,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 15:35:59",
+    "updated_at": "2026-11-09 16:01:28",
     "stats": {
       "total_closed": 5,
       "win_count": 2,
@@ -212,7 +212,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 15:35:59",
+    "updated_at": "2026-11-09 16:01:28",
     "stats": {
       "cooked_count": 18,
       "finalized_count": 18,
@@ -532,7 +532,7 @@
         "open_price": 1603,
         "high_price": 1894,
         "post_disc_high": 1894,
-        "close_price": 1739,
+        "close_price": 1738,
         "open_to_high_pct": 18.15,
         "day_high_pct": 13.21,
         "post_disc_max_pct": 2.38,
@@ -574,7 +574,7 @@
         "open_price": 2810,
         "high_price": 3090,
         "post_disc_high": 3090,
-        "close_price": 3015,
+        "close_price": 2985,
         "open_to_high_pct": 9.96,
         "day_high_pct": 6.0,
         "post_disc_max_pct": 1.64,
@@ -2509,7 +2509,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 15:35:59",
+    "updated_at": "2026-11-09 16:01:28",
     "deprecated": true,
     "stats": {},
     "days": []
