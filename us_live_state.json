@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:12:01",
-  "updated_at_et": "2026-11-09 07:12:01",
-  "updated_epoch_ms": 1794226321169,
+  "updated_at_kst": "2026-11-09 21:13:01",
+  "updated_at_et": "2026-11-09 07:13:01",
+  "updated_epoch_ms": 1794226381609,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:11:57"
+    "updated_kst": "21:12:56"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 1,
     "today_false": 3,
-    "today_hardcut": 56,
+    "today_hardcut": 57,
     "total_verdicts": 108,
     "total_buy": 5,
     "total_false": 103,
@@ -2197,6 +2197,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:12:11",
+      "time_kst": "21:12:11",
+      "symbol": "BRC",
+      "company_name": "BRC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:10:53",
       "time_kst": "21:10:53",
       "symbol": "AKAM",
@@ -2684,16 +2694,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:30",
-      "time_kst": "20:05:30",
-      "symbol": "ARGX",
-      "company_name": "ARGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58308.62M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
