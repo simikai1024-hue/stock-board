@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:42:04",
-  "updated_at_et": "2026-11-09 09:42:04",
-  "updated_epoch_ms": 1794235324124,
+  "updated_at_kst": "2026-11-09 23:42:14",
+  "updated_at_et": "2026-11-09 09:42:14",
+  "updated_epoch_ms": 1794235334575,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MTEK",
+    "company_name": "Maris Tech Ltd.",
+    "exchange": "ND",
+    "price": 0.2898,
+    "gain_pct": 4.39,
+    "mcap_m": 3.06,
+    "catalyst_hint": "[당일 PR] Maris-Tech Announces Record Order Backlog of Approximately $11,000,000",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:42:11",
+    "started_at_kst": "23:42:11",
+    "started_epoch_ms": 1794235331757
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:41:54"
+    "updated_kst": "23:42:14"
   },
   "stats": {
     "today_total": 26,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:42:13",
+      "time_kst": "23:42:13",
+      "symbol": "ELTK",
+      "company_name": "ELTK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 실적발표 일정 예고 PR 차단 (Eltek Sets Earnings Release Date and Conference Call to Re)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:42:06",
+      "time_kst": "23:42:06",
+      "symbol": "KMDA",
+      "company_name": "KMDA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $423.48M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:41:55",
       "time_kst": "23:41:55",
       "symbol": "EVAX",
@@ -2911,26 +2943,6 @@
       "time_kst": "23:31:05",
       "symbol": "ANVS",
       "company_name": "ANVS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:30:58",
-      "time_kst": "23:30:58",
-      "symbol": "AIOT",
-      "company_name": "AIOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $414.76M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:20:05",
-      "time_kst": "23:20:05",
-      "symbol": "EC",
-      "company_name": "EC",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
