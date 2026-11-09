@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:48:59",
-  "updated_at_et": "2026-11-09 07:48:59",
-  "updated_epoch_ms": 1794228539180,
+  "updated_at_kst": "2026-11-09 21:49:55",
+  "updated_at_et": "2026-11-09 07:49:55",
+  "updated_epoch_ms": 1794228595996,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:48:53"
+    "updated_kst": "21:49:53"
   },
   "stats": {
     "today_total": 9,
@@ -2297,6 +2297,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:49:30",
+      "time_kst": "21:49:30",
+      "symbol": "SPRC",
+      "company_name": "SPRC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 PR 없는 단순 6-K/A 행정 오타·문구 정정 차단 (2026-11-09 [6-K/A])"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:40:56",
       "time_kst": "21:40:56",
       "symbol": "HRTX",
@@ -2784,16 +2794,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:19:55",
-      "time_kst": "20:19:55",
-      "symbol": "HSBC",
-      "company_name": "HSBC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
