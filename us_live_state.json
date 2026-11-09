@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:07:27",
-  "updated_at_et": "2026-11-09 09:07:27",
-  "updated_epoch_ms": 1794233247817,
+  "updated_at_kst": "2026-11-09 23:08:05",
+  "updated_at_et": "2026-11-09 09:08:05",
+  "updated_epoch_ms": 1794233285377,
   "analyzing": {
-    "active": true,
-    "symbol": "NCEL",
-    "company_name": "NCEL",
-    "exchange": "ND",
-    "price": 2.724,
-    "gain_pct": -0.01,
-    "mcap_m": 14.67,
-    "catalyst_hint": "[당일 PR] NewcelX Announces Pricing of $1.55 Million Equity Financing at 20% Premium Pricing to Market",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:07:23",
-    "started_at_kst": "23:07:23",
-    "started_epoch_ms": 1794233243520
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:07:12"
+    "updated_kst": "23:07:57"
   },
   "stats": {
-    "today_total": 22,
-    "today_nblm_count": 22,
+    "today_total": 23,
+    "today_nblm_count": 23,
     "today_buy": 1,
-    "today_false": 21,
+    "today_false": 22,
     "today_hardcut": 60,
-    "total_verdicts": 126,
+    "total_verdicts": 127,
     "total_buy": 5,
-    "total_false": 121,
+    "total_false": 122,
     "avg_nblm_sec": 37.4
   },
   "verdicts": [
+    {
+      "id": "v_1794233279102_NCEL_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "09:07:59",
+      "time_kst": "23:07:59",
+      "symbol": "NCEL",
+      "company_name": "NCEL",
+      "exchange": "ND",
+      "price": 2.724,
+      "gain_pct": -0.01,
+      "mcap_m": 14.67,
+      "decision": "FALSE",
+      "elapsed_sec": 38.5,
+      "reason": "$1.55M 유상증자(Equity Financing) 공시는 주식 희석 악재 및 1급 확정 기폭제 미달(-0.01%)로 전량 차단",
+      "catalyst_hint": "[당일 PR] NewcelX Announces Pricing of $1.55 Million Equity Financing at 20% Premium Pricing to Market",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 NCEL (NewcelX Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.67M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $2.7244 대비 현재가 $2.7240 (-0.01% 보합), 당일 최고가 $2.7240 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 유증 희석 악재 결함\n당일(11/09 09:00 ET) PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] 접수.\nPR 제목: \"NewcelX Announces Pricing of $1.55 Million Equity Financing at 20% Premium Pricing to Market\"\n원문 팩트: $1.55M USD 규모의 신주 발행 유상증자(Equity Financing) 공모/사모 발행가 책정을 알리는 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 시장가 대비 20% 프리미엄 발행(20% Premium)을 수식어로 붙였으나, 본질은 신주 및 워런트 출회로 주식 수 증가를 유발하는 유상증자/지분 금융 조달(Equity Financing) 공시입니다.\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니며, 미국 소형주 시장에서 세력 물량 덤핑을 초과 유발하는 대표적인 주식 희석(Dilution) 악재에 해당합니다.\n이는 연구소 전략 헌장 제1장 1번 및 유증 설거지 차단 원칙(\"유상증자, 신주 발행 조달, 활성 424B5/오퍼링 공시는 100% FORCE_BLOCK\")에 정면 저해됩니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 -0.01% 보합권에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 유상증자/지분 조달 발행가 발표(Equity Financing)에 불과하여 주식 희석 악재 및 1급 호재 미달에 해당하고, 장전 무수급(-0.01%) 행보를 보여 전략 헌장 1번·2번 원칙에 의거 FORCE_BLOCK: NCEL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: NCEL NOTES:\n[NCEL] $1.55M 유상증자(Equity Financing) 공시는 주식 희석 악재 및 1급 확정 기폭제 미달(-0.01%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794232927851_FRGT_FALSE",
       "date_et": "2026-11-09",
@@ -2424,29 +2432,19 @@
       "full_report": "",
       "engine": "구 Gmail 판정",
       "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_071625_CANF",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "07:16:25",
-      "time_kst": "21:16:25",
-      "symbol": "CANF",
-      "company_name": "CANF",
-      "exchange": "NY",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 147.4,
-      "reason": "최근 10월 9일 2건의 EFFECT 신주 등록 효력 승인에 따른 물량 출회 위험 및 당일 공시가 FDA나 임상 결과가 아닌 단순 유라시아 특허 허여 준비 통지에 불과하여 매수 차단",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "구 Gmail 판정",
-      "trade_action": "차단(패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:07:58",
+      "time_kst": "23:07:58",
+      "symbol": "SGI",
+      "company_name": "SGI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-09",
       "time_et": "09:05:42",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1218.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:31:09",
-      "time_kst": "21:31:09",
-      "symbol": "SLNH",
-      "company_name": "SLNH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $128.26M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
