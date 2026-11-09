@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:10:01",
-  "updated_at_et": "2026-11-09 07:10:01",
-  "updated_epoch_ms": 1794226201025,
+  "updated_at_kst": "2026-11-09 21:10:59",
+  "updated_at_et": "2026-11-09 07:10:59",
+  "updated_epoch_ms": 1794226259257,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:09:55"
+    "updated_kst": "21:10:57"
   },
   "stats": {
     "today_total": 4,
     "today_nblm_count": 4,
     "today_buy": 1,
     "today_false": 3,
-    "today_hardcut": 55,
+    "today_hardcut": 56,
     "total_verdicts": 108,
     "total_buy": 5,
     "total_false": 103,
@@ -2197,6 +2197,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:10:53",
+      "time_kst": "21:10:53",
+      "symbol": "AKAM",
+      "company_name": "AKAM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11066.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:07:51",
       "time_kst": "21:07:51",
       "symbol": "AMG",
@@ -2684,16 +2694,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $58308.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:25",
-      "time_kst": "20:05:25",
-      "symbol": "ZH",
-      "company_name": "ZH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
