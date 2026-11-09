@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:49:31",
-  "updated_at_et": "2026-11-09 06:49:31",
-  "updated_epoch_ms": 1794224971254,
+  "updated_at_kst": "2026-11-09 20:50:22",
+  "updated_at_et": "2026-11-09 06:50:22",
+  "updated_epoch_ms": 1794225022191,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.69,
-    "profit_rate": 14.76,
-    "updated_kst": "20:49:26"
+    "current_price": 2.72,
+    "profit_rate": 16.04,
+    "updated_kst": "20:50:03"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 33,
+    "today_hardcut": 34,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:50:18",
+      "time_kst": "20:50:18",
+      "symbol": "WAFD",
+      "company_name": "WAFD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2178.44M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:45:43",
       "time_kst": "20:45:43",
       "symbol": "BLSH",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $296.14M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "09:00:48",
-      "time_kst": "23:00:48",
-      "symbol": "VLRS",
-      "company_name": "VLRS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
