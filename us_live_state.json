@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:41:30",
-  "updated_at_et": "2026-11-09 09:41:30",
-  "updated_epoch_ms": 1794235290211,
+  "updated_at_kst": "2026-11-09 23:42:04",
+  "updated_at_et": "2026-11-09 09:42:04",
+  "updated_epoch_ms": 1794235324124,
   "analyzing": {
-    "active": true,
-    "symbol": "ICCM",
-    "company_name": "IceCure Medical Ltd.",
-    "exchange": "ND",
-    "price": 0.804,
-    "gain_pct": 18.11,
-    "mcap_m": 2.76,
-    "catalyst_hint": "[당일 PR] IceCure Granted New Patent in China for Its Cryogenic System Connector, Expanding Its Global IP Portfolio",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:41:26",
-    "started_at_kst": "23:41:26",
-    "started_epoch_ms": 1794235286155
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:41:14"
+    "updated_kst": "23:41:54"
   },
   "stats": {
-    "today_total": 25,
-    "today_nblm_count": 25,
+    "today_total": 26,
+    "today_nblm_count": 26,
     "today_buy": 1,
-    "today_false": 24,
+    "today_false": 25,
     "today_hardcut": 60,
-    "total_verdicts": 129,
+    "total_verdicts": 130,
     "total_buy": 5,
-    "total_false": 124,
-    "avg_nblm_sec": 38.5
+    "total_false": 125,
+    "avg_nblm_sec": 38.4
   },
   "verdicts": [
+    {
+      "id": "v_1794235320426_ICCM_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "09:42:00",
+      "time_kst": "23:42:00",
+      "symbol": "ICCM",
+      "company_name": "IceCure Medical Ltd.",
+      "exchange": "ND",
+      "price": 0.804,
+      "gain_pct": 18.11,
+      "mcap_m": 2.76,
+      "decision": "FALSE",
+      "elapsed_sec": 37.8,
+      "reason": "중국 특허 취득 PR(Granted New Patent)은 금액 미기재 단순 특허 호재로 1급 확정 기폭제 미달 및 윗꼬리 덤핑 차트(-15.4%)로 전량 차단",
+      "catalyst_hint": "[당일 PR] IceCure Granted New Patent in China for Its Cryogenic System Connector, Expanding Its Global IP Portfolio",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ICCM (IceCure Medical Ltd.) 09:41 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.76M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.6807 대비 현재가 $0.8040 (+18.11% 상승), 당일 최고가 $0.9499 (고점 대비 -15.4% 윗꼬리 급락), 당일 누적 거래대금 $210,968 USD (장 시작 후 거래량 유입 형성).\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:25 ET) PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] 접수.\nPR 제목: \"IceCure Granted New Patent in China for Its Cryogenic System Connector, Expanding Its Global IP Portfolio\"\n원문 팩트: 냉동수술 시스템 커넥터와 관련하여 중국 지식재산권국으로부터 신규 특허를 취득(Granted New Patent in China)했다는 보도자료.\n치명적 기폭제 결함 & 윗꼬리 덤핑 차트:\n본장 수급($210K USD) 및 주가 갭상승(+18.11%)이 유입되었으나, 재료의 본질은 당일 기업 가치를 폭발시킬 확정적 1급 기폭제(FDA 승인, Pivotal 임상 3상 성공, 구체적 $ 금액 명시 대형 수주/계약/자산매각, 대형 M&A, 현금 특별배당, ATM 해지 등)가 아닙니다.\n본 PR은 **구체적 현금 유입 달러 금액이 명시되지 않은 단순 해외(중국) 특허 취득 뉴스(Granted New Patent)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 특허(Patent)/MOU/샘플/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 미달합니다.\n당일 최고가($0.9499) 대비 현재가($0.8040)가 -15.4% 급등 후 밀리는 윗꼬리 덤핑 차트를 형성하고 있어, 단순 특허 뉴스를 이용한 세력의 장초반 차익실현 물량 덤핑 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구체적 금액 미기재 단순 특허 취득(Granted New Patent) 발표에 불과하여 1급 확정 기폭제 기준에 미달하고, 고점 대비 -15.4% 밀리는 윗꼬리 설거지 덤핑 차트를 형성하고 있으므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: ICCM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: ICCM NOTES:\n[ICCM] 중국 특허 취득 PR(Granted New Patent)은 금액 미기재 단순 특허 호재로 1급 확정 기폭제 미달 및 윗꼬리 덤핑 차트(-15.4%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794234262242_HOWL_FALSE",
       "date_et": "2026-11-09",
@@ -2424,29 +2432,49 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **EVGO (EVgo Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.0M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.2638 대비 현재가 $1.7298 (+36.87%), 당일 최고가 $1.8300 (-5.5%). 장전 누적 거래대금 $0 USD로 초기 수급 유입 불투명.\n2. SEC 제출 이력 & 당일 D-Day 공시 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 임원진 Form 4 (RSU 주식 보상 관련) 공시 확인.\n당일(11/02) D-Day SCHEDULE 13D/A 원문 분석:\n공시 핵심 내용: 주요 주주인 LS Power Equity Advisors, LLC가 이사회(Board)에 미보유 Class A 보통주 전량을 인수하겠다는 제안서(Proposal Letter)를 전달함.\n기폭제 결함: 13D/A에 명시된 내역은 대주주의 비구속적 인수 제안(Non-binding Buyout Proposal) 서한 제출 단계일 뿐, 당일 기업 가치를 최종 결정짓는 확정 M&A 체결 계약(Item 1.01/2.01 8-K)이나 인수 합의 완결 공시가 아닙니다. 이사회 승인 및 최종 계약 체결 여부가 미정인 단순 인수 제안서는 헌장 2번·3번 기준상 1급 확정 기폭제 미달에 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 13D/A 공시가 확정 M&A 계약이 아닌 단순 비구속적 인수 제안(Proposal)에 불과하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: EVGO NOTES:\n[EVGO] 13D/A 인수 제안서(Proposal) 제출은 확정 M&A 계약이 아닌 비구속적 제안에 불과하여 당일 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_073742_GNTA",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "07:37:42",
-      "time_kst": "21:37:42",
-      "symbol": "GNTA",
-      "company_name": "Genenta Science S.p.A.",
-      "exchange": "ND",
-      "price": 0.67,
-      "gain_pct": 8.36,
-      "mcap_m": 15.7,
-      "decision": "FALSE",
-      "elapsed_sec": 45.8,
-      "reason": "단순 사명 리브랜딩(Saentra Forge) 및 티커 변경(SAEN) 발표로 당일 확정 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 GNTA (Genenta Science S.p.A.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $15.7M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.6183 대비 현재가 $0.6700 (+8.36%), 당일 최고가 $0.7700 (-13.0%)\n. 장전 누적 거래대금 $0 USD로 수급 수직 유입 부재.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 6-K 공시 4건 및 13D/A(대주주 장내매수 $143K) 이력 확인.\n당일(11/02) D-Day 6-K 및 PR 원문 정밀 분석:\nPR 제목: \"Genenta Unveils Saentra Forge as Its New Brand, Advancing Its Transformation into a Strategic Industrial Platform\".\n원문 팩트: 상호를 'Saentra Forge'로 변경하고, 나스닥 티커 심볼을 2026년 11월 4일부터 'SAEN'으로 변경한다는 내용\n. 주주 의결권이나 정관 개정이 필요 없는 단순 브랜드 및 티커 변경 안내.\n기폭제 결함: 단순 리브랜딩 및 티커 변경(Rebranding / Ticker Change) 발표는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 확정 달러 수주/M&A 완료, 특별배당, 상장유지 회복 등)에 해당하지 않습니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 실질적 현금 유입/계약/임상 호재가 아닌 단순 **리브랜딩 및 티커 변경 홍보(Fluff 기사)**에 불과하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: GNTA NOTES:\n[GNTA] 단순 사명 리브랜딩(Saentra Forge) 및 티커 변경(SAEN) 발표로 당일 확정 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "차단(패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:41:55",
+      "time_kst": "23:41:55",
+      "symbol": "EVAX",
+      "company_name": "EVAX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-09 [F-1/A])"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:41:49",
+      "time_kst": "23:41:49",
+      "symbol": "NWGL",
+      "company_name": "NWGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $141.02M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:41:45",
+      "time_kst": "23:41:45",
+      "symbol": "ARGX",
+      "company_name": "ARGX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59346.24M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:41:40",
+      "time_kst": "23:41:40",
+      "symbol": "CNCK",
+      "company_name": "CNCK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $239.75M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-09",
       "time_et": "09:41:29",
@@ -2903,46 +2931,6 @@
       "time_kst": "23:20:05",
       "symbol": "EC",
       "company_name": "EC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:09:15",
-      "time_kst": "23:09:15",
-      "symbol": "FOX",
-      "company_name": "FOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $25097.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:07:58",
-      "time_kst": "23:07:58",
-      "symbol": "SGI",
-      "company_name": "SGI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:05:42",
-      "time_kst": "23:05:42",
-      "symbol": "LU",
-      "company_name": "LU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:05:06",
-      "time_kst": "23:05:06",
-      "symbol": "MANE",
-      "company_name": "MANE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
