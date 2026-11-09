@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 10:47:33",
+  "updated_at": "2026-11-09 10:47:45",
   "history": [
     {
       "id": "1794188850409_032620_BUY",
@@ -19,19 +19,39 @@
       "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 1,300억 초과(1,485억)로 더즌 오답패턴(셀온 매물 출회) 부합 및 누적 당기순이익(-82.43%) 대폭락 착시 함정 결합으로 그물망 취소 후 시장가 즉시 탈출 ===DART_AUDIT",
       "buy_price": 3060,
       "qty": 29
+    },
+    {
+      "id": "1794188861467_032620_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-09 10:47:41",
+      "name": "GC메디아이",
+      "code": "032620",
+      "price": 3090,
+      "flu_rt": 8.61,
+      "val_uk": 0.0,
+      "target_price": 3240,
+      "stop_price": 2995,
+      "ammo_title": "💰 확정 수익: +677원 (+0.76%) | 매수 3,060원 → 매도 3,090원 (29주) [NotebookLM DART공시 함정감지 즉시탈출(시총 1,300억 초과(1,485억)로 더즌 오답패)]",
+      "ammo_date": "",
+      "note": "🎉 NotebookLM DART공시 함정감지 즉시탈출(시총 1,300억 초과(1,485억)로 더즌 오답패) 완료! 확정 수익 +677원 (+0.76%)",
+      "pnl_krw": 677,
+      "pnl_pct": 0.76,
+      "buy_price": 3060,
+      "qty": 29
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 10:47:33",
+    "updated_at": "2026-11-09 10:47:45",
     "stats": {
-      "total_closed": 3,
-      "win_count": 1,
+      "total_closed": 4,
+      "win_count": 2,
       "hit_5pct_count": 0,
       "super_win_count": 0,
       "loss_count": 2,
       "buy_fail_count": 0,
-      "win_rate_pct": 33.3,
-      "total_pnl_krw": -11580
+      "win_rate_pct": 50.0,
+      "total_pnl_krw": -10903
     },
     "rows": [
       {
@@ -41,15 +61,17 @@
         "code": "032620",
         "name": "GC메디아이",
         "buy_price": 3060,
-        "sell_price": 0,
+        "sell_price": 3090,
         "qty": 29,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": 0.76,
+        "pnl_krw": 677,
+        "status": "WIN",
         "buy_time": "10:46:52",
-        "sell_time": "",
+        "sell_time": "10:47:41",
         "reason": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
-        "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 1,300억 초과(1,485억)로 더즌 오답패턴(셀온 매물 출회) 부합 및 누적 당기순이익(-82.43%) 대폭락 착시 함정 결합으로 그물망 취소 후 시장가 즉시 탈출 ===DART_AUDIT"
+        "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 1,300억 초과(1,485억)로 더즌 오답패턴(셀온 매물 출회) 부합 및 누적 당기순이익(-82.43%) 대폭락 착시 함정 결합으로 그물망 취소 후 시장가 즉시 탈출 ===DART_AUDIT",
+        "sell_summary": "💰 확정 수익: +677원 (+0.76%) | 매수 3,060원 → 매도 3,090원 (29주) [NotebookLM DART공시 함정감지 즉시탈출(시총 1,300억 초과(1,485억)로 더즌 오답패)]",
+        "hold_mins": 1
       },
       {
         "date": "2026-11-06",
@@ -129,7 +151,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 10:47:33",
+    "updated_at": "2026-11-09 10:47:45",
     "stats": {
       "cooked_count": 17,
       "finalized_count": 14,
@@ -455,11 +477,11 @@
         "eod_finalized": false,
         "is_today_live": true,
         "my_trade": {
-          "status": "OPEN",
+          "status": "WIN",
           "buy_price": 3060,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 3090,
+          "pnl_pct": 0.76,
+          "pnl_krw": 677,
           "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 1,300억 초과(1,485억)로 더즌 오답패턴(셀온 매물 출회) 부합 및 누적 당기순이익(-82.43%) 대폭락 착시 함정 결합으로 그물망 취소 후 시장가 즉시 탈출 ===DART_AUDIT"
         }
       },
@@ -1453,7 +1475,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 10:47:33",
+    "updated_at": "2026-11-09 10:47:45",
     "deprecated": true,
     "stats": {},
     "days": []
