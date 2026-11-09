@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:40:01",
-  "updated_at_et": "2026-11-09 08:40:01",
-  "updated_epoch_ms": 1794231601580,
+  "updated_at_kst": "2026-11-09 22:41:05",
+  "updated_at_et": "2026-11-09 08:41:05",
+  "updated_epoch_ms": 1794231665428,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:39:56"
+    "updated_kst": "22:41:01"
   },
   "stats": {
     "today_total": 20,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:40:33",
+      "time_kst": "22:40:33",
+      "symbol": "IIPR",
+      "company_name": "IIPR",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:38:41",
       "time_kst": "22:38:41",
       "symbol": "SON",
@@ -2924,16 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:07:48",
-      "time_kst": "21:07:48",
-      "symbol": "ZURA",
-      "company_name": "ZURA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $112.55M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
