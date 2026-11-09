@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:02:22",
-  "updated_at_et": "2026-11-09 08:02:22",
-  "updated_epoch_ms": 1794229342319,
+  "updated_at_kst": "2026-11-09 22:02:50",
+  "updated_at_et": "2026-11-09 08:02:50",
+  "updated_epoch_ms": 1794229370932,
   "analyzing": {
-    "active": true,
-    "symbol": "EVAX",
-    "company_name": "EVAX",
-    "exchange": "ND",
-    "price": 2.85,
-    "gain_pct": -5.0,
-    "mcap_m": 23.77,
-    "catalyst_hint": "[당일 SEC] 2026-11-09 [F-1/A], 2026-11-09 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:02:16",
-    "started_at_kst": "22:02:16",
-    "started_epoch_ms": 1794229336489
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:02:16"
+    "updated_kst": "22:02:39"
   },
   "stats": {
-    "today_total": 9,
-    "today_nblm_count": 9,
+    "today_total": 10,
+    "today_nblm_count": 10,
     "today_buy": 1,
-    "today_false": 8,
+    "today_false": 9,
     "today_hardcut": 60,
-    "total_verdicts": 113,
+    "total_verdicts": 114,
     "total_buy": 5,
-    "total_false": 108,
+    "total_false": 109,
     "avg_nblm_sec": 34.0
   },
   "verdicts": [
+    {
+      "id": "v_1794229366759_EVAX_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "08:02:46",
+      "time_kst": "22:02:46",
+      "symbol": "EVAX",
+      "company_name": "EVAX",
+      "exchange": "ND",
+      "price": 2.85,
+      "gain_pct": -5.0,
+      "mcap_m": 23.77,
+      "decision": "FALSE",
+      "elapsed_sec": 34.1,
+      "reason": "당일 SEC F-1/A(유상증자 신주 발행 수정을 통한 주식 희석/덤핑) 접수 및 1급 확정 기폭제 부재(-5.00%)로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-09 [F-1/A], 2026-11-09 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EVAX (Evaxion Biotech A/S) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.77M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $3.0000 대비 현재가 $2.8500 (-5.00% 음봉 약세), 당일 최고가 $2.8506 (-0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 공시(F-1/A & 6-K) 원문 직독 정밀 검증 & 유증 희석 악재\n당일(11/09) SEC 공시 현황 분석:\nSEC 공시 현황: 2026-11-09 [F-1/A] 및 2026-11-09 [6-K] 동시 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트 & 치명적 독소조항 (VCIG 오답 패턴 부합):\n오늘 SEC에 접수된 **F-1/A (Registration Statement Amendment)**는 신주 유상증자/증권 발행 증원 신고서 수정 공시입니다.\n이는 연구소 전략 헌장 원문 심사 기준 1번 및 오답 사례 **VCIG 패턴(F-1/A 제출을 통한 시장 신주 덤핑 및 유증 설거지 작전)**에 완벽히 부합하는 대표적인 주식 희석(Dilution) 악재 공시입니다.\n당일 기업 가치를 폭발시킬 확정적 1급 기폭제(FDA 승인, 구체적 $ 대형 계약, 대형 M&A, 현금 특별배당, ATM 해지 등) PR이 전무한 상태에서 유상증자 증권신고서(F-1/A)만 접수되었습니다.\n주가 역시 전일 대비 -5.00% 음봉 약세를 기록 중이며, 프리장 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC F-1/A(유상증자 신주 발행 증권신고서) 제출에 따른 주식 희석 덤핑 위험과 1급 확정 기폭제 부재, 장전 약세(-5.00%)가 결합되어 전략 헌장 1번·3번 원칙에 의거 FORCE_BLOCK: EVAX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: EVAX NOTES:\n[EVAX] 당일 SEC F-1/A(유상증자 신주 발행 수정을 통한 주식 희석/덤핑) 접수 및 1급 확정 기폭제 부재(-5.00%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794228481852_DAVI_FALSE",
       "date_et": "2026-11-09",
@@ -2309,6 +2317,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:02:47",
+      "time_kst": "22:02:47",
+      "symbol": "ARGX",
+      "company_name": "ARGX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59467.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:02:31",
+      "time_kst": "22:02:31",
+      "symbol": "CVI",
+      "company_name": "CVI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:02:23",
+      "time_kst": "22:02:23",
+      "symbol": "ONCO",
+      "company_name": "ONCO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "사후 뒷북 행정 8-K 차단 (실제 주식병합 효력발생일이 이미 경과한 사후 신고서 & 당일 신규 PR 0건)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:01:57",
       "time_kst": "22:01:57",
       "symbol": "NWGL",
@@ -2773,36 +2811,6 @@
       "time_kst": "20:45:43",
       "symbol": "BLSH",
       "company_name": "BLSH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:43:15",
-      "time_kst": "20:43:15",
-      "symbol": "SID",
-      "company_name": "SID",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:39:08",
-      "time_kst": "20:39:08",
-      "symbol": "IX",
-      "company_name": "IX",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:37:57",
-      "time_kst": "20:37:57",
-      "symbol": "SGI",
-      "company_name": "SGI",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
