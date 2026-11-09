@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:55:41",
-  "updated_at_et": "2026-11-09 09:55:41",
-  "updated_epoch_ms": 1794236141861,
+  "updated_at_kst": "2026-11-09 23:56:41",
+  "updated_at_et": "2026-11-09 09:56:41",
+  "updated_epoch_ms": 1794236201873,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:55:36"
+    "updated_kst": "23:56:35"
   },
   "stats": {
     "today_total": 27,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:55:54",
+      "time_kst": "23:55:54",
+      "symbol": "STEM",
+      "company_name": "STEM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:45:11",
       "time_kst": "23:45:11",
       "symbol": "VBNK",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2437.19M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:37:38",
-      "time_kst": "23:37:38",
-      "symbol": "NWL",
-      "company_name": "NWL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2440.98M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
