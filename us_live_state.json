@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:14:16",
-  "updated_at_et": "2026-11-09 06:14:16",
-  "updated_epoch_ms": 1794222856128,
+  "updated_at_kst": "2026-11-09 20:15:21",
+  "updated_at_et": "2026-11-09 06:15:21",
+  "updated_epoch_ms": 1794222921744,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.459,
-    "profit_rate": 4.9,
-    "updated_kst": "20:14:13"
+    "current_price": 2.4,
+    "profit_rate": 2.38,
+    "updated_kst": "20:15:16"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 19,
+    "today_hardcut": 20,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:14:16",
+      "time_kst": "20:14:16",
+      "symbol": "BEKE",
+      "company_name": "BEKE",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:14:12",
       "time_kst": "20:14:12",
       "symbol": "CRL",
@@ -2661,16 +2671,6 @@
       "time_kst": "21:49:33",
       "symbol": "SUZ",
       "company_name": "SUZ",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:45:28",
-      "time_kst": "21:45:28",
-      "symbol": "TS",
-      "company_name": "TS",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
