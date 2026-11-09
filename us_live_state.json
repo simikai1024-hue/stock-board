@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:19:53",
-  "updated_at_et": "2026-11-09 06:19:53",
-  "updated_epoch_ms": 1794223193355,
+  "updated_at_kst": "2026-11-09 20:20:54",
+  "updated_at_et": "2026-11-09 06:20:54",
+  "updated_epoch_ms": 1794223254817,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.4518,
-    "profit_rate": 4.59,
-    "updated_kst": "20:19:50"
+    "current_price": 2.5,
+    "profit_rate": 6.65,
+    "updated_kst": "20:20:51"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 22,
+    "today_hardcut": 24,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:20:23",
+      "time_kst": "20:20:23",
+      "symbol": "CKX",
+      "company_name": "CKX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:19:55",
+      "time_kst": "20:19:55",
+      "symbol": "HSBC",
+      "company_name": "HSBC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:16:52",
       "time_kst": "20:16:52",
       "symbol": "NESR",
@@ -2654,26 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:01:20",
-      "time_kst": "22:01:20",
-      "symbol": "FUFU",
-      "company_name": "FUFU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $142.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:01:16",
-      "time_kst": "22:01:16",
-      "symbol": "ACRV",
-      "company_name": "ACRV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $67.28M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
