@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:17:45",
-  "updated_at_et": "2026-11-09 07:17:45",
-  "updated_epoch_ms": 1794226665566,
+  "updated_at_kst": "2026-11-09 21:18:45",
+  "updated_at_et": "2026-11-09 07:18:45",
+  "updated_epoch_ms": 1794226725562,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:17:40"
+    "updated_kst": "21:18:42"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 6,
     "today_buy": 1,
     "today_false": 5,
-    "today_hardcut": 58,
+    "today_hardcut": 59,
     "total_verdicts": 110,
     "total_buy": 5,
     "total_false": 105,
@@ -2237,6 +2237,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:18:16",
+      "time_kst": "21:18:16",
+      "symbol": "FACT",
+      "company_name": "FACT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $262.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:13:45",
       "time_kst": "21:13:45",
       "symbol": "DAIC",
@@ -2724,16 +2734,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $968.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:05:54",
-      "time_kst": "20:05:54",
-      "symbol": "CABA",
-      "company_name": "CABA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $235.72M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
