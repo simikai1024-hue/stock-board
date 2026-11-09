@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:01:20",
-  "updated_at_et": "2026-11-09 08:01:20",
-  "updated_epoch_ms": 1794229280879,
+  "updated_at_kst": "2026-11-09 22:02:01",
+  "updated_at_et": "2026-11-09 08:02:01",
+  "updated_epoch_ms": 1794229321966,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:01:12"
+    "updated_kst": "22:01:54"
   },
   "stats": {
     "today_total": 9,
@@ -2297,6 +2297,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:01:57",
+      "time_kst": "22:01:57",
+      "symbol": "NWGL",
+      "company_name": "NWGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $166.62M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:01:45",
+      "time_kst": "22:01:45",
+      "symbol": "MSTR",
+      "company_name": "MSTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53380.34M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:01:37",
+      "time_kst": "22:01:37",
+      "symbol": "FVN",
+      "company_name": "FVN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $86.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:01:32",
+      "time_kst": "22:01:32",
+      "symbol": "CDT",
+      "company_name": "CDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:01:22",
+      "time_kst": "22:01:22",
+      "symbol": "SIRI",
+      "company_name": "SIRI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $10632.99M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:01:17",
       "time_kst": "22:01:17",
       "symbol": "PROF",
@@ -2744,56 +2794,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:37:53",
-      "time_kst": "20:37:53",
-      "symbol": "CNH",
-      "company_name": "CNH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:35:08",
-      "time_kst": "20:35:08",
-      "symbol": "MRT",
-      "company_name": "MRT",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $189.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:34:24",
-      "time_kst": "20:34:24",
-      "symbol": "IBRX",
-      "company_name": "IBRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $9538.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:31:08",
-      "time_kst": "20:31:08",
-      "symbol": "SBAC",
-      "company_name": "SBAC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $19780.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:31:03",
-      "time_kst": "20:31:03",
-      "symbol": "NHP",
-      "company_name": "NHP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1111.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
