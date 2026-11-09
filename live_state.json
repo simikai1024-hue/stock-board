@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 13:41:15",
+  "updated_at": "2026-11-09 15:31:08",
   "history": [
     {
       "id": "1794188850409_032620_BUY",
@@ -57,19 +57,39 @@
       "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 174억 초소형주 대비 5.75%(10억) 알짜 자사주 신탁계약 공시로 11/06 에코캡(0분만에 +5% 직행) 정답 표본과 동일하여 +5.0% 지정가 그물망 유지 적합 ===DART_AUDI",
       "buy_price": 1872,
       "qty": 48
+    },
+    {
+      "id": "1794199823644_032080_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-09 13:50:23",
+      "name": "아즈텍WB",
+      "code": "032080",
+      "price": 1868,
+      "flu_rt": 15.1,
+      "val_uk": 0.0,
+      "target_price": 1961,
+      "stop_price": 1812,
+      "ammo_title": "📘 확정 손실: -391원 (-0.44%) | 매수 1,872원 → 매도 1,868원 (48주) [DART공시 10분 미도달 무조건 칼회전 청산(-0.21%)]",
+      "ammo_date": "",
+      "note": "⏰ DART공시 10분 미도달 무조건 칼회전 청산(-0.21%) 완료 | 확정 손익 -391원 (-0.44%)",
+      "pnl_krw": -391,
+      "pnl_pct": -0.44,
+      "buy_price": 1872,
+      "qty": 48
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 13:41:15",
+    "updated_at": "2026-11-09 15:31:08",
     "stats": {
-      "total_closed": 4,
+      "total_closed": 5,
       "win_count": 2,
       "hit_5pct_count": 0,
       "super_win_count": 0,
-      "loss_count": 2,
+      "loss_count": 3,
       "buy_fail_count": 0,
-      "win_rate_pct": 50.0,
-      "total_pnl_krw": -10903
+      "win_rate_pct": 40.0,
+      "total_pnl_krw": -11294
     },
     "rows": [
       {
@@ -79,15 +99,17 @@
         "code": "032080",
         "name": "아즈텍WB",
         "buy_price": 1872,
-        "sell_price": 0,
+        "sell_price": 1868,
         "qty": 48,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": -0.44,
+        "pnl_krw": -391,
+        "status": "LOSS",
         "buy_time": "13:40:13",
-        "sell_time": "",
+        "sell_time": "13:50:23",
         "reason": "⚡[DART 실시간공시·자사주취득] ⚡[실전A급] 자사주(신탁) 10.0억 (시총의 5.7%) (시총 174억)",
-        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 174억 초소형주 대비 5.75%(10억) 알짜 자사주 신탁계약 공시로 11/06 에코캡(0분만에 +5% 직행) 정답 표본과 동일하여 +5.0% 지정가 그물망 유지 적합 ===DART_AUDI"
+        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 174억 초소형주 대비 5.75%(10억) 알짜 자사주 신탁계약 공시로 11/06 에코캡(0분만에 +5% 직행) 정답 표본과 동일하여 +5.0% 지정가 그물망 유지 적합 ===DART_AUDI",
+        "sell_summary": "📘 확정 손실: -391원 (-0.44%) | 매수 1,872원 → 매도 1,868원 (48주) [DART공시 10분 미도달 무조건 칼회전 청산(-0.21%)]",
+        "hold_mins": 10
       },
       {
         "date": "2026-11-09",
@@ -186,18 +208,18 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 13:41:15",
+    "updated_at": "2026-11-09 15:31:08",
     "stats": {
       "cooked_count": 18,
-      "finalized_count": 14,
-      "hit_5pct_count": 12,
-      "hit_5pct_rate": 85.7,
+      "finalized_count": 18,
+      "hit_5pct_count": 13,
+      "hit_5pct_rate": 72.2,
       "dart_count": 18,
       "news_count": 0,
       "today_cooked_count": 4,
-      "avg_day_high_pct": 15.94,
-      "avg_open_to_high_pct": 16.48,
-      "avg_post_disc_max_pct": 11.82
+      "avg_day_high_pct": 17.18,
+      "avg_open_to_high_pct": 17.74,
+      "avg_post_disc_max_pct": 12.97
     },
     "preparing_list": [
       {
@@ -209,8 +231,8 @@
         "prep_date": "2026-11-09",
         "cooked_today": true,
         "disc_time": "13:40",
-        "day_high_pct": 10.58,
-        "open_to_high_pct": 15.41
+        "day_high_pct": 13.21,
+        "open_to_high_pct": 18.15
       },
       {
         "code": "032620",
@@ -221,8 +243,8 @@
         "prep_date": "2026-11-09",
         "cooked_today": true,
         "disc_time": "10:46",
-        "day_high_pct": 4.29,
-        "open_to_high_pct": 8.19
+        "day_high_pct": 6.0,
+        "open_to_high_pct": 9.96
       },
       {
         "code": "100590",
@@ -233,8 +255,8 @@
         "prep_date": "2026-11-09",
         "cooked_today": true,
         "disc_time": "10:10",
-        "day_high_pct": 8.73,
-        "open_to_high_pct": 9.97
+        "day_high_pct": 23.94,
+        "open_to_high_pct": 25.36
       },
       {
         "code": "083640",
@@ -245,8 +267,8 @@
         "prep_date": "2026-11-09",
         "cooked_today": true,
         "disc_time": "09:49",
-        "day_high_pct": 7.39,
-        "open_to_high_pct": 6.8
+        "day_high_pct": 10.25,
+        "open_to_high_pct": 9.65
       },
       {
         "code": "110790",
@@ -504,20 +526,22 @@
         "target_5pct_price": 1942,
         "entry_price": 1850,
         "open_price": 1603,
-        "high_price": 1850,
-        "post_disc_high": 1850,
-        "close_price": 1850,
-        "open_to_high_pct": 15.41,
-        "day_high_pct": 10.58,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
+        "high_price": 1894,
+        "post_disc_high": 1894,
+        "close_price": 1739,
+        "open_to_high_pct": 18.15,
+        "day_high_pct": 13.21,
+        "post_disc_max_pct": 2.38,
+        "eod_finalized": true,
         "is_today_live": true,
+        "mins_to_5pct": -1,
+        "gain_10m_pct": 2.38,
         "my_trade": {
-          "status": "OPEN",
+          "status": "LOSS",
           "buy_price": 1872,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 1868,
+          "pnl_pct": -0.44,
+          "pnl_krw": -391,
           "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 시총 174억 초소형주 대비 5.75%(10억) 알짜 자사주 신탁계약 공시로 11/06 에코캡(0분만에 +5% 직행) 정답 표본과 동일하여 +5.0% 지정가 그물망 유지 적합 ===DART_AUDI"
         }
       },
@@ -544,14 +568,16 @@
         "target_5pct_price": 3190,
         "entry_price": 3040,
         "open_price": 2810,
-        "high_price": 3040,
-        "post_disc_high": 3040,
-        "close_price": 3040,
-        "open_to_high_pct": 8.19,
-        "day_high_pct": 4.29,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
+        "high_price": 3090,
+        "post_disc_high": 3090,
+        "close_price": 3015,
+        "open_to_high_pct": 9.96,
+        "day_high_pct": 6.0,
+        "post_disc_max_pct": 1.64,
+        "eod_finalized": true,
         "is_today_live": true,
+        "mins_to_5pct": -1,
+        "gain_10m_pct": 1.64,
         "my_trade": {
           "status": "WIN",
           "buy_price": 3060,
@@ -584,14 +610,16 @@
         "target_5pct_price": 4050,
         "entry_price": 3860,
         "open_price": 3510,
-        "high_price": 3860,
-        "post_disc_high": 3860,
-        "close_price": 3860,
-        "open_to_high_pct": 9.97,
-        "day_high_pct": 8.73,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
-        "is_today_live": true
+        "high_price": 4400,
+        "post_disc_high": 4400,
+        "close_price": 4400,
+        "open_to_high_pct": 25.36,
+        "day_high_pct": 23.94,
+        "post_disc_max_pct": 13.99,
+        "eod_finalized": true,
+        "is_today_live": true,
+        "mins_to_5pct": 3,
+        "gain_10m_pct": 8.68
       },
       {
         "date": "2026-11-09",
@@ -616,14 +644,16 @@
         "target_5pct_price": 5110,
         "entry_price": 4870,
         "open_price": 4560,
-        "high_price": 4870,
-        "post_disc_high": 4870,
-        "close_price": 4870,
-        "open_to_high_pct": 6.8,
-        "day_high_pct": 7.39,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
-        "is_today_live": true
+        "high_price": 5000,
+        "post_disc_high": 5000,
+        "close_price": 4480,
+        "open_to_high_pct": 9.65,
+        "day_high_pct": 10.25,
+        "post_disc_max_pct": 2.67,
+        "eod_finalized": true,
+        "is_today_live": true,
+        "mins_to_5pct": -1,
+        "gain_10m_pct": 2.67
       },
       {
         "date": "2026-11-06",
@@ -1551,7 +1581,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 13:41:15",
+    "updated_at": "2026-11-09 15:31:08",
     "deprecated": true,
     "stats": {},
     "days": []
