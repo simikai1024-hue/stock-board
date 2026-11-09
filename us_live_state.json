@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:09:09",
-  "updated_at_et": "2026-11-09 09:09:09",
-  "updated_epoch_ms": 1794233349889,
+  "updated_at_kst": "2026-11-09 23:10:15",
+  "updated_at_et": "2026-11-09 09:10:15",
+  "updated_epoch_ms": 1794233415189,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:06"
+    "updated_kst": "23:10:12"
   },
   "stats": {
     "today_total": 23,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:09:15",
+      "time_kst": "23:09:15",
+      "symbol": "FOX",
+      "company_name": "FOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $25097.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:07:58",
       "time_kst": "23:07:58",
       "symbol": "SGI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3236.4M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:32:43",
-      "time_kst": "21:32:43",
-      "symbol": "GT",
-      "company_name": "GT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1218.04M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
