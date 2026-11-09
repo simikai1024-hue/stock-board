@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:38:10",
-  "updated_at_et": "2026-11-09 09:38:10",
-  "updated_epoch_ms": 1794235090303,
+  "updated_at_kst": "2026-11-09 23:38:55",
+  "updated_at_et": "2026-11-09 09:38:55",
+  "updated_epoch_ms": 1794235135564,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:37:55"
+    "updated_kst": "23:38:52"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:38:51",
+      "time_kst": "23:38:51",
+      "symbol": "PROF",
+      "company_name": "PROF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $267.38M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:41",
+      "time_kst": "23:38:41",
+      "symbol": "WHF",
+      "company_name": "WHF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $174.93M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:36",
+      "time_kst": "23:38:36",
+      "symbol": "OFIX",
+      "company_name": "OFIX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $286.35M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:31",
+      "time_kst": "23:38:31",
+      "symbol": "EVLV",
+      "company_name": "EVLV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $844.95M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:27",
+      "time_kst": "23:38:27",
+      "symbol": "INM",
+      "company_name": "INM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $85.48M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:21",
+      "time_kst": "23:38:21",
+      "symbol": "JSPR",
+      "company_name": "JSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $516.33M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:17",
+      "time_kst": "23:38:17",
+      "symbol": "LKQ",
+      "company_name": "LKQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5078.25M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:11",
+      "time_kst": "23:38:11",
+      "symbol": "QTRX",
+      "company_name": "QTRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $138.57M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:38:06",
       "time_kst": "23:38:06",
       "symbol": "DFDV",
@@ -2614,36 +2694,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $414.76M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:30:40",
-      "time_kst": "23:30:40",
-      "symbol": "WHF",
-      "company_name": "WHF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $172.89M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:30:23",
-      "time_kst": "23:30:23",
-      "symbol": "OFIX",
-      "company_name": "OFIX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $285.54M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:30:15",
-      "time_kst": "23:30:15",
-      "symbol": "QTRX",
-      "company_name": "QTRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $137.62M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
@@ -2837,46 +2887,6 @@
     },
     {
       "date_et": "2026-11-09",
-      "time_et": "08:06:28",
-      "time_kst": "22:06:28",
-      "symbol": "LKQ",
-      "company_name": "LKQ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5060.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:05:53",
-      "time_kst": "22:05:53",
-      "symbol": "JSPR",
-      "company_name": "JSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $575.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:05:30",
-      "time_kst": "22:05:30",
-      "symbol": "INM",
-      "company_name": "INM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $85.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:03:42",
-      "time_kst": "22:03:42",
-      "symbol": "EVLV",
-      "company_name": "EVLV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $825.93M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
       "time_et": "08:03:22",
       "time_kst": "22:03:22",
       "symbol": "CNH",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "사후 뒷북 행정 8-K 차단 (실제 주식병합 효력발생일이 이미 경과한 사후 신고서 & 당일 신규 PR 0건)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:01:57",
-      "time_kst": "22:01:57",
-      "symbol": "NWGL",
-      "company_name": "NWGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $166.62M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
