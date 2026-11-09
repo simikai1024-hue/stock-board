@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:29:54",
-  "updated_at_et": "2026-11-09 07:29:54",
-  "updated_epoch_ms": 1794227394798,
+  "updated_at_kst": "2026-11-09 21:30:49",
+  "updated_at_et": "2026-11-09 07:30:49",
+  "updated_epoch_ms": 1794227449383,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:29:51"
+    "updated_kst": "21:30:49"
   },
   "stats": {
     "today_total": 6,
@@ -2237,6 +2237,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:30:46",
+      "time_kst": "21:30:46",
+      "symbol": "AVIR",
+      "company_name": "AVIR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $345.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:28:50",
       "time_kst": "21:28:50",
       "symbol": "OCUL",
@@ -2721,16 +2731,6 @@
       "time_kst": "20:08:33",
       "symbol": "PUK",
       "company_name": "PUK",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:08:30",
-      "time_kst": "20:08:30",
-      "symbol": "HE",
-      "company_name": "HE",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
