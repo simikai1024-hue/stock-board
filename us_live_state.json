@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:35:19",
-  "updated_at_et": "2026-11-09 08:35:19",
-  "updated_epoch_ms": 1794231319350,
+  "updated_at_kst": "2026-11-09 22:35:41",
+  "updated_at_et": "2026-11-09 08:35:41",
+  "updated_epoch_ms": 1794231341583,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "RMCF",
+    "company_name": "Rocky Mountain Chocolate Factory, Inc.",
+    "exchange": "ND",
+    "price": 0.83,
+    "gain_pct": 0.0,
+    "mcap_m": 7.97,
+    "catalyst_hint": "[당일 PR] Rocky Mountain Chocolate Factory Announces Houston Airport Store Opening and Aspen Lease Signing",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:35:37",
+    "started_at_kst": "22:35:37",
+    "started_epoch_ms": 1794231337691
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:35:07"
+    "updated_kst": "22:35:27"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:35:32",
+      "time_kst": "22:35:32",
+      "symbol": "NWL",
+      "company_name": "NWL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2372.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:34:41",
       "time_kst": "22:34:41",
       "symbol": "CCG",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $421.17M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:06:04",
-      "time_kst": "21:06:04",
-      "symbol": "AURA",
-      "company_name": "AURA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $680.3M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
