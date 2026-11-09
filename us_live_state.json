@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:39:28",
-  "updated_at_et": "2026-11-09 08:39:28",
-  "updated_epoch_ms": 1794231568841,
+  "updated_at_kst": "2026-11-09 22:40:01",
+  "updated_at_et": "2026-11-09 08:40:01",
+  "updated_epoch_ms": 1794231601580,
   "analyzing": {
-    "active": true,
-    "symbol": "GOVX",
-    "company_name": "GeoVax Labs, Inc.",
-    "exchange": "ND",
-    "price": 0.158,
-    "gain_pct": 0.13,
-    "mcap_m": 1.6,
-    "catalyst_hint": "[당일 PR] GeoVax Announces 1-for-24 Reverse Stock Split to Regain Compliance With Nasdaq Minimum Bid Requirement",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:39:22",
-    "started_at_kst": "22:39:22",
-    "started_epoch_ms": 1794231562978
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:39:10"
+    "updated_kst": "22:39:56"
   },
   "stats": {
-    "today_total": 19,
-    "today_nblm_count": 19,
+    "today_total": 20,
+    "today_nblm_count": 20,
     "today_buy": 1,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
-    "total_verdicts": 123,
+    "total_verdicts": 124,
     "total_buy": 5,
-    "total_false": 118,
+    "total_false": 119,
     "avg_nblm_sec": 37.6
   },
   "verdicts": [
+    {
+      "id": "v_1794231597711_GOVX_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "08:39:57",
+      "time_kst": "22:39:57",
+      "symbol": "GOVX",
+      "company_name": "GeoVax Labs, Inc.",
+      "exchange": "ND",
+      "price": 0.158,
+      "gain_pct": 0.13,
+      "mcap_m": 1.6,
+      "decision": "FALSE",
+      "elapsed_sec": 37.4,
+      "reason": "나스닥 요건 충족용 단순 주식병합 예고 PR(1-for-24 Reverse Split)은 1급 확정 기폭제 미달 및 장전 보합(+0.13%)으로 전량 차단",
+      "catalyst_hint": "[당일 PR] GeoVax Announces 1-for-24 Reverse Stock Split to Regain Compliance With Nasdaq Minimum Bid Requirement",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 GOVX (GeoVax Labs, Inc. / GeoVax, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.6M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.1578 대비 현재가 $0.1580 (+0.13% 보합), 당일 최고가 $0.1700 (고점 대비 -7.1%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"GeoVax Announces 1-for-24 Reverse Stock Split to Regain Compliance With Nasdaq Minimum Bid Requirement\"\n원문 팩트: 나스닥 최소 입찰 가격 요건($1.00 이상) 충족 및 상장 유지(Regain Compliance)를 위해 1 대 24(1-for-24) 비율의 주식병합(Reverse Stock Split)을 추진한다는 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n당일(11/09)은 병합 효력 첫 거래일(D-Day 1일차)도 아니며, 단순 나스닥 상폐 방어를 위한 **단순 주식병합 예고 PR (무호재 단독 병합)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 4번 규칙에서 엄격히 차단하는 '당일 확정 1급 호재가 결여된 무호재 단독 병합 발표 및 병합 예고(SLXN 동일 오답 패턴)' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 +0.13% 보합권에 갇혀 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 나스닥 요건 충족용 단순 주식병합 예고(1-for-24 Reverse Split)에 불과하고 장전 보합권(+0.13%) 행보를 보여 전략 헌장 2번·4번 원칙에 의거 FORCE_BLOCK: GOVX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: GOVX NOTES:\n[GOVX] 나스닥 요건 충족용 단순 주식병합 예고 PR(1-for-24 Reverse Split)은 1급 확정 기폭제 미달 및 장전 보합(+0.13%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794231417206_VTGN_FALSE",
       "date_et": "2026-11-09",
@@ -2424,26 +2432,6 @@
       "full_report": "",
       "engine": "구 Gmail 판정",
       "trade_action": "구버전 Gmail 오판 손절 (-15% · 현재 NYSE/유동화 영구차단 완료)"
-    },
-    {
-      "id": "seed_2026-11-02_062102_BLGO",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "06:21:02",
-      "time_kst": "20:21:02",
-      "symbol": "BLGO",
-      "company_name": "BLGO",
-      "exchange": "OTC",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 70.4,
-      "reason": "2박자 필수 원칙 미충족 (당일 D-Day 신규 SEC 공시 0건 및 당일 공식 PR 뉴스 0건인 무뉴스 상태이며 당일 거래대금도 0달러인 호가 공백 종목으로 매수 차단)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "구 Gmail 판정",
-      "trade_action": "차단(패스)"
     }
   ],
   "hardcuts": [
