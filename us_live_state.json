@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:59:29",
-  "updated_at_et": "2026-11-09 06:59:29",
-  "updated_epoch_ms": 1794225569711,
+  "updated_at_kst": "2026-11-09 21:00:32",
+  "updated_at_et": "2026-11-09 07:00:32",
+  "updated_epoch_ms": 1794225632179,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.7297,
-    "profit_rate": 16.45,
-    "updated_kst": "20:59:26"
+    "current_price": 2.6388,
+    "profit_rate": 12.57,
+    "updated_kst": "21:00:28"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 36,
+    "today_hardcut": 37,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:00:27",
+      "time_kst": "21:00:27",
+      "symbol": "NVCR",
+      "company_name": "NVCR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1552.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:56:23",
       "time_kst": "20:56:23",
       "symbol": "CVE",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4586.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "09:14:39",
-      "time_kst": "23:14:39",
-      "symbol": "NHC",
-      "company_name": "NHC",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3255.04M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
