@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:14:29",
-  "updated_at_et": "2026-11-09 08:14:29",
-  "updated_epoch_ms": 1794230069380,
+  "updated_at_kst": "2026-11-09 22:15:31",
+  "updated_at_et": "2026-11-09 08:15:31",
+  "updated_epoch_ms": 1794230131376,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:14:26"
+    "updated_kst": "22:15:27"
   },
   "stats": {
     "today_total": 12,
@@ -2357,6 +2357,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:15:01",
+      "time_kst": "22:15:01",
+      "symbol": "CNCK",
+      "company_name": "CNCK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $241.67M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:10:34",
       "time_kst": "22:10:34",
       "symbol": "NVO",
@@ -2844,16 +2854,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $185.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:21",
-      "time_kst": "21:02:21",
-      "symbol": "WD",
-      "company_name": "WD",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
