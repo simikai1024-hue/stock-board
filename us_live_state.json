@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:04:31",
-  "updated_at_et": "2026-11-09 06:04:31",
-  "updated_epoch_ms": 1794222271690,
+  "updated_at_kst": "2026-11-09 20:05:11",
+  "updated_at_et": "2026-11-09 06:05:11",
+  "updated_epoch_ms": 1794222311511,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:04:27"
+    "updated_kst": "20:05:07"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 2,
     "total_verdicts": 104,
     "total_buy": 4,
     "total_false": 100,
@@ -2116,6 +2116,26 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:08",
+      "time_kst": "20:05:08",
+      "symbol": "FSHP",
+      "company_name": "FSHP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 효력 미발생 단순 정관/병합 행정 8-K 차단 (실질 사업계약 1.01 및 당일 PR 부재)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:05:02",
+      "time_kst": "20:05:02",
+      "symbol": "CRBG",
+      "company_name": "CRBG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
       "date_et": "2026-11-06",
       "time_et": "12:05:48",
       "time_kst": "02:05:48",
@@ -2591,26 +2611,6 @@
       "time_kst": "21:00:32",
       "symbol": "BIPC",
       "company_name": "BIPC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:59:31",
-      "time_kst": "20:59:31",
-      "symbol": "AIRS",
-      "company_name": "AIRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $103.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "06:47:42",
-      "time_kst": "20:47:42",
-      "symbol": "ATMU",
-      "company_name": "ATMU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
