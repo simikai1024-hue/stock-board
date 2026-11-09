@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:03:44",
-  "updated_at_et": "2026-11-09 07:03:44",
-  "updated_epoch_ms": 1794225824664,
+  "updated_at_kst": "2026-11-09 21:04:00",
+  "updated_at_et": "2026-11-09 07:04:00",
+  "updated_epoch_ms": 1794225840854,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CANF",
+    "company_name": "CANF",
+    "exchange": "AM",
+    "price": 1.62,
+    "gain_pct": 0.0,
+    "mcap_m": 4.92,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:03:58",
+    "started_at_kst": "21:03:58",
+    "started_epoch_ms": 1794225838255
   },
   "halt_watch": {
     "active": false
@@ -26,7 +38,7 @@
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2189,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:03:46",
+      "time_kst": "21:03:46",
+      "symbol": "AIIO",
+      "company_name": "AIIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2201.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:03:41",
       "time_kst": "21:03:41",
       "symbol": "NRG",
@@ -2664,16 +2686,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "12:05:48",
-      "time_kst": "02:05:48",
-      "symbol": "CATX",
-      "company_name": "CATX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $97.06M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
