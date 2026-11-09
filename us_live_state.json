@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:56:22",
-  "updated_at_et": "2026-11-09 08:56:22",
-  "updated_epoch_ms": 1794232582949,
+  "updated_at_kst": "2026-11-09 22:56:56",
+  "updated_at_et": "2026-11-09 08:56:56",
+  "updated_epoch_ms": 1794232616238,
   "analyzing": {
-    "active": true,
-    "symbol": "CAPS",
-    "company_name": "Capstone Holding Corp.",
-    "exchange": "ND",
-    "price": 1.9,
-    "gain_pct": 0.0,
-    "mcap_m": 1.75,
-    "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 1.01,7.01,9.01)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:56:19",
-    "started_at_kst": "22:56:19",
-    "started_epoch_ms": 1794232579073
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:56:19"
+    "updated_kst": "22:56:41"
   },
   "stats": {
-    "today_total": 20,
-    "today_nblm_count": 20,
+    "today_total": 21,
+    "today_nblm_count": 21,
     "today_buy": 1,
-    "today_false": 19,
+    "today_false": 20,
     "today_hardcut": 60,
-    "total_verdicts": 124,
+    "total_verdicts": 125,
     "total_buy": 5,
-    "total_false": 119,
+    "total_false": 120,
     "avg_nblm_sec": 37.6
   },
   "verdicts": [
+    {
+      "id": "v_1794232612588_CAPS_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "08:56:52",
+      "time_kst": "22:56:52",
+      "symbol": "CAPS",
+      "company_name": "Capstone Holding Corp.",
+      "exchange": "ND",
+      "price": 1.9,
+      "gain_pct": 0.0,
+      "mcap_m": 1.75,
+      "decision": "FALSE",
+      "elapsed_sec": 37.9,
+      "reason": "선순위 담보 전환사채 개정 공시(Item 1.01)는 단순 채무 연장(ACH 패턴)으로 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 1.01,7.01,9.01)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CAPS (Capstone Holding Corp.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.75M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.9000 대비 현재가 $1.9000 (+0.00% 보합), 당일 최고가 $1.9000 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 8-K (Item 1.01, 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 1.01, 7.01, 9.01) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 기존 전환사채 계약 변경 (\"First Amendment to Senior Secured Convertible Note - As previously disclosed, on July 29, 2025, Capstone Holding Corp. entered into a securities purchase agreement...\").\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인, 구체적 $ 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존에 발행되어 있던 선순위 담보 전환사채(Senior Secured Convertible Note)의 조건 및 변경에 관한 **단순 채무/대출 연장 및 조건 개정 공시(ACH 패턴)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 신규 현금 유입 계약이 아닌 단순 대출·신용한도·전환사채 유동화 연장(ACH 패턴)' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 +0.00% 보합권에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 전환사채 개정/채무 연장 공시(First Amendment to Convertible Note, ACH 패턴)에 불과하고 장전 무수급(+0.00%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CAPS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: CAPS NOTES:\n[CAPS] 선순위 담보 전환사채 개정 공시(Item 1.01)는 단순 채무 연장(ACH 패턴)으로 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794231597711_GOVX_FALSE",
       "date_et": "2026-11-09",
@@ -2424,26 +2432,6 @@
       "full_report": "",
       "engine": "구 Gmail 판정",
       "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_065139_ACH",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "06:51:39",
-      "time_kst": "20:51:39",
-      "symbol": "ACH",
-      "company_name": "ACCENDRA HEALTH INC/VA/",
-      "exchange": "NY",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 23.35,
-      "decision": "BUY",
-      "elapsed_sec": 183.9,
-      "reason": "시총 23.35M 달러 및 희석 공시 전무 상태에서 당일 8-K (Item 1.01 및 EX-99.1)로 시총 6배 규모인 1.5억 달러 매출채권 유동화 프로그램 2029년 연장 본계약 체결 확정",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "구 Gmail 판정",
-      "trade_action": "구버전 Gmail 오판 손절 (-15% · 현재 NYSE/유동화 영구차단 완료)"
     }
   ],
   "hardcuts": [
