@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:13:31",
-  "updated_at_et": "2026-11-09 06:13:31",
-  "updated_epoch_ms": 1794222811721,
+  "updated_at_kst": "2026-11-09 20:14:16",
+  "updated_at_et": "2026-11-09 06:14:16",
+  "updated_epoch_ms": 1794222856128,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.33,
-    "profit_rate": -0.6,
-    "updated_kst": "20:13:28"
+    "current_price": 2.459,
+    "profit_rate": 4.9,
+    "updated_kst": "20:14:13"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 17,
+    "today_hardcut": 19,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:14:12",
+      "time_kst": "20:14:12",
+      "symbol": "CRL",
+      "company_name": "CRL",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "06:13:31",
+      "time_kst": "20:13:31",
+      "symbol": "CHT",
+      "company_name": "CHT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:12:40",
       "time_kst": "20:12:40",
       "symbol": "ZTO",
@@ -2651,26 +2671,6 @@
       "time_kst": "21:45:28",
       "symbol": "TS",
       "company_name": "TS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:36:39",
-      "time_kst": "21:36:39",
-      "symbol": "EHC",
-      "company_name": "EHC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "07:31:18",
-      "time_kst": "21:31:18",
-      "symbol": "CEPU",
-      "company_name": "CEPU",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
