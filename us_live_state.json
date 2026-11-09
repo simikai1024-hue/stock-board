@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:32:48",
-  "updated_at_et": "2026-11-09 07:32:48",
-  "updated_epoch_ms": 1794227568563,
+  "updated_at_kst": "2026-11-09 21:32:59",
+  "updated_at_et": "2026-11-09 07:32:59",
+  "updated_epoch_ms": 1794227579301,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MDCX",
+    "company_name": "Medicus Pharma Ltd.",
+    "exchange": "ND",
+    "price": 1.87,
+    "gain_pct": 1.08,
+    "mcap_m": 0.44,
+    "catalyst_hint": "[당일 PR] Medicus Pharma to Highlight Rationale for CD228V Co-Development and License Agreement",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:32:55",
+    "started_at_kst": "21:32:55",
+    "started_epoch_ms": 1794227575736
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:32:30"
+    "updated_kst": "21:32:55"
   },
   "stats": {
     "today_total": 7,
