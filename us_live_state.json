@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:36:37",
-  "updated_at_et": "2026-11-09 09:36:37",
-  "updated_epoch_ms": 1794234997276,
+  "updated_at_kst": "2026-11-09 23:37:22",
+  "updated_at_et": "2026-11-09 09:37:22",
+  "updated_epoch_ms": 1794235042153,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:36:34"
+    "updated_kst": "23:37:16"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,76 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:37:18",
+      "time_kst": "23:37:18",
+      "symbol": "AXGN",
+      "company_name": "AXGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3057.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:11",
+      "time_kst": "23:37:11",
+      "symbol": "IPFX",
+      "company_name": "IPFX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $257.3M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:08",
+      "time_kst": "23:37:08",
+      "symbol": "SGRY",
+      "company_name": "SGRY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3344.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:03",
+      "time_kst": "23:37:03",
+      "symbol": "TMC",
+      "company_name": "TMC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1023.43M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:36:59",
+      "time_kst": "23:36:59",
+      "symbol": "NKTX",
+      "company_name": "NKTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $94.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:36:52",
+      "time_kst": "23:36:52",
+      "symbol": "XLAB",
+      "company_name": "XLAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $92.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:36:47",
+      "time_kst": "23:36:47",
+      "symbol": "CXDO",
+      "company_name": "CXDO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $172.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:33:19",
       "time_kst": "23:33:19",
       "symbol": "EMPD",
@@ -2444,16 +2514,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $62.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:31:47",
-      "time_kst": "23:31:47",
-      "symbol": "CXDO",
-      "company_name": "CXDO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $172.22M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
@@ -2507,26 +2567,6 @@
     },
     {
       "date_et": "2026-11-09",
-      "time_et": "09:25:00",
-      "time_kst": "23:25:00",
-      "symbol": "XLAB",
-      "company_name": "XLAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $97.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:21:43",
-      "time_kst": "23:21:43",
-      "symbol": "NKTX",
-      "company_name": "NKTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $103.95M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
       "time_et": "09:20:05",
       "time_kst": "23:20:05",
       "symbol": "EC",
@@ -2534,26 +2574,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:17:30",
-      "time_kst": "23:17:30",
-      "symbol": "TMC",
-      "company_name": "TMC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1045.49M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:16:06",
-      "time_kst": "23:16:06",
-      "symbol": "SGRY",
-      "company_name": "SGRY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3322.4M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
@@ -2584,16 +2604,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:05:38",
-      "time_kst": "23:05:38",
-      "symbol": "IPFX",
-      "company_name": "IPFX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $257.05M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
@@ -2654,16 +2664,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:52:42",
-      "time_kst": "22:52:42",
-      "symbol": "AXGN",
-      "company_name": "AXGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2987.73M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
