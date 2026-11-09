@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:14:56",
-  "updated_at_et": "2026-11-09 09:14:56",
-  "updated_epoch_ms": 1794233696674,
+  "updated_at_kst": "2026-11-09 23:16:07",
+  "updated_at_et": "2026-11-09 09:16:07",
+  "updated_epoch_ms": 1794233767526,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:14:54"
+    "updated_kst": "23:16:03"
   },
   "stats": {
     "today_total": 23,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:16:06",
+      "time_kst": "23:16:06",
+      "symbol": "SGRY",
+      "company_name": "SGRY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3322.4M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:09:15",
       "time_kst": "23:09:15",
       "symbol": "FOX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $9834.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:33:55",
-      "time_kst": "21:33:55",
-      "symbol": "VRDN",
-      "company_name": "VRDN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3236.4M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
