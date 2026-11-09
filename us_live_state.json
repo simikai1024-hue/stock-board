@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:37:56",
-  "updated_at_et": "2026-11-09 06:37:56",
-  "updated_epoch_ms": 1794224276671,
+  "updated_at_kst": "2026-11-09 20:39:06",
+  "updated_at_et": "2026-11-09 06:39:06",
+  "updated_epoch_ms": 1794224346890,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.5709,
-    "profit_rate": 9.68,
-    "updated_kst": "20:37:38"
+    "current_price": 2.57,
+    "profit_rate": 9.64,
+    "updated_kst": "20:39:03"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 29,
+    "today_hardcut": 30,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:37:57",
+      "time_kst": "20:37:57",
+      "symbol": "SGI",
+      "company_name": "SGI",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:37:53",
       "time_kst": "20:37:53",
       "symbol": "CNH",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3853.23M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:33:51",
-      "time_kst": "22:33:51",
-      "symbol": "BILI",
-      "company_name": "BILI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4915.84M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
