@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:39:06",
-  "updated_at_et": "2026-11-09 06:39:06",
-  "updated_epoch_ms": 1794224346890,
+  "updated_at_kst": "2026-11-09 20:40:07",
+  "updated_at_et": "2026-11-09 06:40:07",
+  "updated_epoch_ms": 1794224407757,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.57,
-    "profit_rate": 9.64,
-    "updated_kst": "20:39:03"
+    "current_price": 2.5752,
+    "profit_rate": 9.86,
+    "updated_kst": "20:40:04"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 30,
+    "today_hardcut": 31,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:39:08",
+      "time_kst": "20:39:08",
+      "symbol": "IX",
+      "company_name": "IX",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:37:57",
       "time_kst": "20:37:57",
       "symbol": "SGI",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-11-02 [424B5])"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:41:29",
-      "time_kst": "22:41:29",
-      "symbol": "PLSE",
-      "company_name": "PLSE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3853.23M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
