@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:01:35",
-  "updated_at_et": "2026-11-09 07:01:35",
-  "updated_epoch_ms": 1794225695846,
+  "updated_at_kst": "2026-11-09 21:02:17",
+  "updated_at_et": "2026-11-09 07:02:17",
+  "updated_epoch_ms": 1794225737105,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 2.3441,
     "current_price": 2.58,
     "profit_rate": 10.06,
-    "updated_kst": "21:01:32"
+    "updated_kst": "21:02:14"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 37,
+    "today_hardcut": 38,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:02:14",
+      "time_kst": "21:02:14",
+      "symbol": "DTIL",
+      "company_name": "DTIL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $297.52M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:00:27",
       "time_kst": "21:00:27",
       "symbol": "NVCR",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $523.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "09:21:13",
-      "time_kst": "23:21:13",
-      "symbol": "OMAB",
-      "company_name": "OMAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4586.03M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
