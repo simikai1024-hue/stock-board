@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:00:01",
-  "updated_at_et": "2026-11-09 09:00:01",
-  "updated_epoch_ms": 1794232801897,
+  "updated_at_kst": "2026-11-09 23:01:07",
+  "updated_at_et": "2026-11-09 09:01:07",
+  "updated_epoch_ms": 1794232867697,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:59:55"
+    "updated_kst": "23:01:01"
   },
   "stats": {
     "today_total": 21,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:00:02",
+      "time_kst": "23:00:02",
+      "symbol": "OWLS",
+      "company_name": "OWLS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $192.57M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:55:57",
       "time_kst": "22:55:57",
       "symbol": "SM",
@@ -2924,16 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:21:08",
-      "time_kst": "21:21:08",
-      "symbol": "CGEM",
-      "company_name": "CGEM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $730.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
