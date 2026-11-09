@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:07:19",
-  "updated_at_et": "2026-11-09 06:07:19",
-  "updated_epoch_ms": 1794222439037,
+  "updated_at_kst": "2026-11-09 20:07:26",
+  "updated_at_et": "2026-11-09 06:07:26",
+  "updated_epoch_ms": 1794222446986,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EDSA",
+    "company_name": "EDSA",
+    "exchange": "ND",
+    "price": 2.37,
+    "gain_pct": 10.23,
+    "mcap_m": 32.02,
+    "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 1.01,1.02,7.01,9.01)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:07:21",
+    "started_at_kst": "20:07:21",
+    "started_epoch_ms": 1794222441452
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:07:07"
+    "updated_kst": "20:07:26"
   },
   "stats": {
     "today_total": 2,
