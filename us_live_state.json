@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:31:56",
-  "updated_at_et": "2026-11-09 07:31:56",
-  "updated_epoch_ms": 1794227516776,
+  "updated_at_kst": "2026-11-09 21:32:48",
+  "updated_at_et": "2026-11-09 07:32:48",
+  "updated_epoch_ms": 1794227568563,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:31:52"
+    "updated_kst": "21:32:30"
   },
   "stats": {
     "today_total": 7,
@@ -2257,6 +2257,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:32:43",
+      "time_kst": "21:32:43",
+      "symbol": "GT",
+      "company_name": "GT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1218.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:31:09",
       "time_kst": "21:31:09",
       "symbol": "SLNH",
@@ -2741,16 +2751,6 @@
       "time_kst": "20:14:16",
       "symbol": "BEKE",
       "company_name": "BEKE",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:14:12",
-      "time_kst": "20:14:12",
-      "symbol": "CRL",
-      "company_name": "CRL",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
