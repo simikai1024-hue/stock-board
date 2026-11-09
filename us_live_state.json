@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:16:06",
-  "updated_at_et": "2026-11-09 06:16:06",
-  "updated_epoch_ms": 1794222966928,
+  "updated_at_kst": "2026-11-09 20:16:58",
+  "updated_at_et": "2026-11-09 06:16:58",
+  "updated_epoch_ms": 1794223018768,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.4012,
-    "profit_rate": 2.44,
-    "updated_kst": "20:16:00"
+    "current_price": 2.4227,
+    "profit_rate": 3.35,
+    "updated_kst": "20:16:38"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 21,
+    "today_hardcut": 22,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "06:16:52",
+      "time_kst": "20:16:52",
+      "symbol": "NESR",
+      "company_name": "NESR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2051.33M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "06:16:01",
       "time_kst": "20:16:01",
       "symbol": "CNTN",
@@ -2664,16 +2674,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $67.28M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "08:01:10",
-      "time_kst": "22:01:10",
-      "symbol": "USB",
-      "company_name": "USB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
