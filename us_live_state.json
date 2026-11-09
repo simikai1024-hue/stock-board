@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-10 00:22:07",
-  "updated_at_et": "2026-11-09 10:22:07",
-  "updated_epoch_ms": 1794237727191,
+  "updated_at_kst": "2026-11-10 00:23:05",
+  "updated_at_et": "2026-11-09 10:23:05",
+  "updated_epoch_ms": 1794237785724,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "XHLD",
     "holding_qty": 216,
     "avg_price": 0.966,
-    "current_price": 0.9225,
-    "profit_rate": -4.5,
-    "updated_kst": "00:22:04"
+    "current_price": 0.9052,
+    "profit_rate": -6.29,
+    "updated_kst": "00:23:02"
   },
   "stats": {
     "today_total": 27,
