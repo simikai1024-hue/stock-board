@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 20:06:50",
-  "updated_at_et": "2026-11-09 06:06:50",
-  "updated_epoch_ms": 1794222410681,
+  "updated_at_kst": "2026-11-09 20:07:19",
+  "updated_at_et": "2026-11-09 06:07:19",
+  "updated_epoch_ms": 1794222439037,
   "analyzing": {
-    "active": true,
-    "symbol": "UK",
-    "company_name": "UK",
-    "exchange": "ND",
-    "price": 1.61,
-    "gain_pct": 0.04,
-    "mcap_m": 1.09,
-    "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:06:45",
-    "started_at_kst": "20:06:45",
-    "started_epoch_ms": 1794222405420
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:06:47"
+    "updated_kst": "20:07:07"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
     "today_buy": 0,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 13,
-    "total_verdicts": 105,
+    "total_verdicts": 106,
     "total_buy": 4,
-    "total_false": 101,
-    "avg_nblm_sec": 30.5
+    "total_false": 102,
+    "avg_nblm_sec": 30.7
   },
   "verdicts": [
+    {
+      "id": "v_1794222433437_UK_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "06:07:13",
+      "time_kst": "20:07:13",
+      "symbol": "UK",
+      "company_name": "UK",
+      "exchange": "ND",
+      "price": 1.61,
+      "gain_pct": 0.04,
+      "mcap_m": 1.09,
+      "decision": "FALSE",
+      "elapsed_sec": 30.9,
+      "reason": "당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 +0.04% 보합권으로 전량 차단",
+      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 UK (Ucommune International Ltd) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.09M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6094 대비 현재가 $1.6100 (+0.04% 보합), 당일 최고가 $1.6100 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Foreign Private Issuer Report) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시 제출.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 +0.04% 보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 시세가 +0.04% 보합권에 머물러 있어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: UK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: UK NOTES:\n[UK] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 +0.04% 보합권으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794222400143_SCNI_FALSE",
       "date_et": "2026-11-09",
