@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:03:04",
-  "updated_at_et": "2026-11-09 07:03:04",
-  "updated_epoch_ms": 1794225784462,
+  "updated_at_kst": "2026-11-09 21:03:44",
+  "updated_at_et": "2026-11-09 07:03:44",
+  "updated_epoch_ms": 1794225824664,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "EDSA",
     "holding_qty": 79,
     "avg_price": 2.3441,
-    "current_price": 2.5415,
-    "profit_rate": 8.42,
-    "updated_kst": "21:02:57"
+    "current_price": 2.54,
+    "profit_rate": 8.36,
+    "updated_kst": "21:03:43"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 3,
     "today_buy": 1,
     "today_false": 2,
-    "today_hardcut": 46,
+    "today_hardcut": 49,
     "total_verdicts": 107,
     "total_buy": 5,
     "total_false": 102,
@@ -2177,6 +2177,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:03:41",
+      "time_kst": "21:03:41",
+      "symbol": "NRG",
+      "company_name": "NRG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:03:38",
+      "time_kst": "21:03:38",
+      "symbol": "NWS",
+      "company_name": "NWS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $15662.13M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:03:10",
+      "time_kst": "21:03:10",
+      "symbol": "KSPI",
+      "company_name": "KSPI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $17425.48M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:02:59",
       "time_kst": "21:02:59",
       "symbol": "ADAG",
@@ -2644,36 +2674,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $97.06M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "12:02:12",
-      "time_kst": "02:02:12",
-      "symbol": "SNT",
-      "company_name": "SNT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "2박자 미충족 (사전 35일 SEC 밑작업 공시 및 잠복 이력 전무)"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "11:46:46",
-      "time_kst": "01:46:46",
-      "symbol": "CCJ",
-      "company_name": "CCJ",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-06",
-      "time_et": "11:34:42",
-      "time_kst": "01:34:42",
-      "symbol": "EDN",
-      "company_name": "EDN",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
