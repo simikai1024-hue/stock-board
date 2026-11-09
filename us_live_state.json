@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:38:55",
-  "updated_at_et": "2026-11-09 09:38:55",
-  "updated_epoch_ms": 1794235135564,
+  "updated_at_kst": "2026-11-09 23:39:35",
+  "updated_at_et": "2026-11-09 09:39:35",
+  "updated_epoch_ms": 1794235175848,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:38:52"
+    "updated_kst": "23:39:32"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,76 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:39:33",
+      "time_kst": "23:39:33",
+      "symbol": "BPOP",
+      "company_name": "BPOP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9814.69M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:39:28",
+      "time_kst": "23:39:28",
+      "symbol": "HRTX",
+      "company_name": "HRTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $74.69M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:39:19",
+      "time_kst": "23:39:19",
+      "symbol": "ASST",
+      "company_name": "ASST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2598.06M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:39:13",
+      "time_kst": "23:39:13",
+      "symbol": "MSTR",
+      "company_name": "MSTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51879.88M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:39:07",
+      "time_kst": "23:39:07",
+      "symbol": "FVN",
+      "company_name": "FVN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $82.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:39:03",
+      "time_kst": "23:39:03",
+      "symbol": "CDT",
+      "company_name": "CDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-09 [424B3])"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:58",
+      "time_kst": "23:38:58",
+      "symbol": "SIRI",
+      "company_name": "SIRI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $10993.03M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:38:51",
       "time_kst": "23:38:51",
       "symbol": "PROF",
@@ -2864,76 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:15:01",
-      "time_kst": "22:15:01",
-      "symbol": "CNCK",
-      "company_name": "CNCK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $241.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:10:34",
-      "time_kst": "22:10:34",
-      "symbol": "NVO",
-      "company_name": "NVO",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:03:22",
-      "time_kst": "22:03:22",
-      "symbol": "CNH",
-      "company_name": "CNH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:03:17",
-      "time_kst": "22:03:17",
-      "symbol": "RBA",
-      "company_name": "RBA",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:02:47",
-      "time_kst": "22:02:47",
-      "symbol": "ARGX",
-      "company_name": "ARGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59467.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:02:31",
-      "time_kst": "22:02:31",
-      "symbol": "CVI",
-      "company_name": "CVI",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:02:23",
-      "time_kst": "22:02:23",
-      "symbol": "ONCO",
-      "company_name": "ONCO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "사후 뒷북 행정 8-K 차단 (실제 주식병합 효력발생일이 이미 경과한 사후 신고서 & 당일 신규 PR 0건)"
     }
   ]
 }
