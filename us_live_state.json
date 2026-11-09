@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:32:43",
-  "updated_at_et": "2026-11-09 09:32:43",
-  "updated_epoch_ms": 1794234763890,
+  "updated_at_kst": "2026-11-09 23:33:23",
+  "updated_at_et": "2026-11-09 09:33:23",
+  "updated_epoch_ms": 1794234803326,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:32:38"
+    "updated_kst": "23:33:19"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:33:19",
+      "time_kst": "23:33:19",
+      "symbol": "EMPD",
+      "company_name": "EMPD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $62.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:31:47",
       "time_kst": "23:31:47",
       "symbol": "CXDO",
@@ -2764,16 +2774,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 주주총회 소집 통지(Notice of EGM/AGM) 행정 공시 차단 (2026-11-09 [6-K])"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:30:53",
-      "time_kst": "22:30:53",
-      "symbol": "EMPD",
-      "company_name": "EMPD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.05M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
