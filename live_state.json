@@ -1,28 +1,28 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 10:46:56",
+  "updated_at": "2026-11-09 10:46:59",
   "history": [
     {
-      "id": "1794188812727_032620_BUY",
+      "id": "1794188816846_032620_BUY",
       "type": "BUY",
-      "auto_copy": true,
-      "time": "2026-11-09 10:46:52",
+      "auto_copy": false,
+      "time": "2026-11-09 10:46:56",
       "name": "GC메디아이",
       "code": "032620",
-      "price": 3040,
+      "price": 3060,
       "flu_rt": 6.85,
       "val_uk": 0.0,
-      "target_price": 3190,
-      "stop_price": 2945,
+      "target_price": 3210,
+      "stop_price": 2965,
       "ammo_title": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
       "ammo_date": "20261109",
-      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0218134, 지정가:3,090원)! +5% 그물망 준비...",
-      "buy_price": 3040,
+      "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)",
+      "buy_price": 3060,
       "qty": 29
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 10:46:56",
+    "updated_at": "2026-11-09 10:46:59",
     "stats": {
       "total_closed": 3,
       "win_count": 1,
@@ -40,7 +40,7 @@
         "weekday_short": "월",
         "code": "032620",
         "name": "GC메디아이",
-        "buy_price": 3040,
+        "buy_price": 3060,
         "sell_price": 0,
         "qty": 29,
         "pnl_pct": 0.0,
@@ -49,7 +49,7 @@
         "buy_time": "10:46:52",
         "sell_time": "",
         "reason": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 59억 급증(YoY +96%·QoQ +48%) (시총 1,485억)",
-        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0218134, 지정가:3,090원)! +5% 그물망 준비..."
+        "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
       },
       {
         "date": "2026-11-06",
@@ -129,7 +129,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 10:46:56",
+    "updated_at": "2026-11-09 10:46:59",
     "stats": {
       "cooked_count": 17,
       "finalized_count": 14,
@@ -456,11 +456,11 @@
         "is_today_live": true,
         "my_trade": {
           "status": "OPEN",
-          "buy_price": 3040,
+          "buy_price": 3060,
           "sell_price": 0,
           "pnl_pct": 0.0,
           "pnl_krw": 0,
-          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0218134, 지정가:3,090원)! +5% 그물망 준비..."
+          "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
         }
       },
       {
@@ -1453,7 +1453,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 10:46:56",
+    "updated_at": "2026-11-09 10:46:59",
     "deprecated": true,
     "stats": {},
     "days": []
