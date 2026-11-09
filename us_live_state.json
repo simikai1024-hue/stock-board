@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:07:16",
-  "updated_at_et": "2026-11-09 09:07:16",
-  "updated_epoch_ms": 1794233236519,
+  "updated_at_kst": "2026-11-09 23:07:27",
+  "updated_at_et": "2026-11-09 09:07:27",
+  "updated_epoch_ms": 1794233247817,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NCEL",
+    "company_name": "NCEL",
+    "exchange": "ND",
+    "price": 2.724,
+    "gain_pct": -0.01,
+    "mcap_m": 14.67,
+    "catalyst_hint": "[당일 PR] NewcelX Announces Pricing of $1.55 Million Equity Financing at 20% Premium Pricing to Market",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:07:23",
+    "started_at_kst": "23:07:23",
+    "started_epoch_ms": 1794233243520
   },
   "halt_watch": {
     "active": false
