@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 22:15:51",
-  "updated_at_et": "2026-11-09 08:15:51",
-  "updated_epoch_ms": 1794230151443,
+  "updated_at_kst": "2026-11-09 22:16:31",
+  "updated_at_et": "2026-11-09 08:16:31",
+  "updated_epoch_ms": 1794230191450,
   "analyzing": {
-    "active": true,
-    "symbol": "MTEK",
-    "company_name": "Maris Tech Ltd.",
-    "exchange": "ND",
-    "price": 0.2527,
-    "gain_pct": -8.97,
-    "mcap_m": 2.67,
-    "catalyst_hint": "[당일 PR] Maris-Tech Announces Record Order Backlog of Approximately $11,000,000",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:15:47",
-    "started_at_kst": "22:15:47",
-    "started_epoch_ms": 1794230147684
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:15:48"
+    "updated_kst": "22:16:09"
   },
   "stats": {
-    "today_total": 12,
-    "today_nblm_count": 12,
+    "today_total": 13,
+    "today_nblm_count": 13,
     "today_buy": 1,
-    "today_false": 11,
+    "today_false": 12,
     "today_hardcut": 60,
-    "total_verdicts": 116,
+    "total_verdicts": 117,
     "total_buy": 5,
-    "total_false": 111,
-    "avg_nblm_sec": 35.1
+    "total_false": 112,
+    "avg_nblm_sec": 35.5
   },
   "verdicts": [
+    {
+      "id": "v_1794230185496_MTEK_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "08:16:25",
+      "time_kst": "22:16:25",
+      "symbol": "MTEK",
+      "company_name": "Maris Tech Ltd.",
+      "exchange": "ND",
+      "price": 0.2527,
+      "gain_pct": -8.97,
+      "mcap_m": 2.67,
+      "decision": "FALSE",
+      "elapsed_sec": 41.2,
+      "reason": "수주 잔고(Order Backlog) 발표는 1급 확정 신규 계약 미달 및 장전 음봉 약세(-8.97%, 고점대비 -22.1%)로 전량 차단",
+      "catalyst_hint": "[당일 PR] Maris-Tech Announces Record Order Backlog of Approximately $11,000,000",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MTEK (Maris-Tech Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.67M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.2776 대비 현재가 $0.2527 (-8.97% 음봉 약세), 당일 최고가 $0.3245 (고점 대비 -22.1% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:10 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Maris-Tech Announces Record Order Backlog of Approximately $11,000,000\"\n원문 팩트: 2026년 11월 8일 기준 누적 수주 잔고(Order Backlog)가 약 $11M 달러에 달했다는 수주 잔고 집계 발표 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 오늘 당일 전격 체결된 신규 확정 대형 수주/계약이 아니라, 기존에 수주하여 이행 대기 중인 누적 수주 잔고 총액(Order Backlog)을 집계하여 발표한 IR/실적 성격의 보도자료입니다.\nPR 본문에도 \"backlog is not necessarily indicative of future revenues or earnings\" (수주 잔고가 향후 매출이나 수익을 보장하지 않음)이라고 명시되어 있습니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '당일 신규 현금 유입 계약이 아닌 단순 수주잔고 발표/진행보고/주주서한/IR 발표' 범주에 속하므로 당일 기업 가치를 수직 폭등시킬 1급 확정 기폭제 기준에 미달합니다.\n[음봉 약세 & 윗꼬리 급락 차트]: 전일 대비 -8.97% 음봉 약세를 보이고 있으며, 당일 최고가($0.3245) 대비 -22.1% 밀린 윗꼬리 음봉 차트를 형성하고 있어 전략 헌장 기준 3번(\"고점 대비 급락 및 음봉 설거지 차트는 100% FORCE_BLOCK\")에 정면 저해됩니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 수주 잔고 집계 발표(Order Backlog)에 불과하고, 전일 대비 -8.97% 음봉 약세 및 고점 대비 -22.1% 급락 흐름을 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MTEK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: MTEK NOTES:\n[MTEK] 수주 잔고(Order Backlog) 발표는 1급 확정 신규 계약 미달 및 장전 음봉 약세(-8.97%, 고점대비 -22.1%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794229868919_AEON_FALSE",
       "date_et": "2026-11-09",
@@ -2369,6 +2377,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "08:16:19",
+      "time_kst": "22:16:19",
+      "symbol": "SHFS",
+      "company_name": "SHFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-30 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "08:15:53",
+      "time_kst": "22:15:53",
+      "symbol": "DFDV",
+      "company_name": "DFDV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $107.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "08:15:01",
       "time_kst": "22:15:01",
       "symbol": "CNCK",
@@ -2846,26 +2874,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $504.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:33",
-      "time_kst": "21:02:33",
-      "symbol": "MNDY",
-      "company_name": "MNDY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3297.38M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "07:02:25",
-      "time_kst": "21:02:25",
-      "symbol": "CGEN",
-      "company_name": "CGEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $185.67M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
