@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:23:38",
-  "updated_at_et": "2026-11-09 09:23:38",
-  "updated_epoch_ms": 1794234218713,
+  "updated_at_kst": "2026-11-09 23:24:25",
+  "updated_at_et": "2026-11-09 09:24:25",
+  "updated_epoch_ms": 1794234265759,
   "analyzing": {
-    "active": true,
-    "symbol": "HOWL",
-    "company_name": "HOWL",
-    "exchange": "ND",
-    "price": 0.9825,
-    "gain_pct": -2.72,
-    "mcap_m": 47.75,
-    "catalyst_hint": "[당일 PR] Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:23:35",
-    "started_at_kst": "23:23:35",
-    "started_epoch_ms": 1794234215193
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:23:34"
+    "updated_kst": "23:24:19"
   },
   "stats": {
-    "today_total": 24,
-    "today_nblm_count": 24,
+    "today_total": 25,
+    "today_nblm_count": 25,
     "today_buy": 1,
-    "today_false": 23,
+    "today_false": 24,
     "today_hardcut": 60,
-    "total_verdicts": 128,
+    "total_verdicts": 129,
     "total_buy": 5,
-    "total_false": 123,
-    "avg_nblm_sec": 37.9
+    "total_false": 124,
+    "avg_nblm_sec": 38.5
   },
   "verdicts": [
+    {
+      "id": "v_1794234262242_HOWL_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "09:24:22",
+      "time_kst": "23:24:22",
+      "symbol": "HOWL",
+      "company_name": "HOWL",
+      "exchange": "ND",
+      "price": 0.9825,
+      "gain_pct": -2.72,
+      "mcap_m": 47.75,
+      "decision": "FALSE",
+      "elapsed_sec": 53.4,
+      "reason": "학술대회(SITC 2026) 임상 데이터 발표 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.72%)로 전량 차단",
+      "catalyst_hint": "[당일 PR] Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 HOWL (Werewolf Therapeutics, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $47.75M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과, $50M 상한선 임계치 근접).\n실시간 시세 및 수급: 전일 종가 $1.0100 대비 현재가 $0.9825 (-2.72% 음봉 약세), 당일 최고가 $1.0300 (고점 대비 -4.6% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting\"\n원문 팩트: 면역항암학회(SITC 2026 Annual Meeting) 연례 학술대회에서 파이프라인(WTX-124 및 WTX-330)의 임상 데이터를 발표/공개(Presented at SITC)했다는 학술 대회 발표 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인(FDA Approval), 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **학학회/학술대회(SITC) 데이터 구두/포스터 발표(Presented at Annual Meeting)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 학회 발표/임상 포스터/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 -2.72% 음봉 약세를 보이고 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학술대회(SITC) 임상 데이터 발표에 불과하고 장전 약세(-2.72%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: HOWL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: HOWL NOTES:\n[HOWL] 학술대회(SITC 2026) 임상 데이터 발표 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.72%)로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794233829428_RGNT_FALSE",
       "date_et": "2026-11-09",
@@ -2422,26 +2430,6 @@
       "reason": "단순 사명 리브랜딩(Saentra Forge) 및 티커 변경(SAEN) 발표로 당일 확정 1급 기폭제 미달 전량 차단",
       "catalyst_hint": "",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 GNTA (Genenta Science S.p.A.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $15.7M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.6183 대비 현재가 $0.6700 (+8.36%), 당일 최고가 $0.7700 (-13.0%)\n. 장전 누적 거래대금 $0 USD로 수급 수직 유입 부재.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 6-K 공시 4건 및 13D/A(대주주 장내매수 $143K) 이력 확인.\n당일(11/02) D-Day 6-K 및 PR 원문 정밀 분석:\nPR 제목: \"Genenta Unveils Saentra Forge as Its New Brand, Advancing Its Transformation into a Strategic Industrial Platform\".\n원문 팩트: 상호를 'Saentra Forge'로 변경하고, 나스닥 티커 심볼을 2026년 11월 4일부터 'SAEN'으로 변경한다는 내용\n. 주주 의결권이나 정관 개정이 필요 없는 단순 브랜드 및 티커 변경 안내.\n기폭제 결함: 단순 리브랜딩 및 티커 변경(Rebranding / Ticker Change) 발표는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 확정 달러 수주/M&A 완료, 특별배당, 상장유지 회복 등)에 해당하지 않습니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 실질적 현금 유입/계약/임상 호재가 아닌 단순 **리브랜딩 및 티커 변경 홍보(Fluff 기사)**에 불과하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: GNTA NOTES:\n[GNTA] 단순 사명 리브랜딩(Saentra Forge) 및 티커 변경(SAEN) 발표로 당일 확정 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_073436_SUNE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "07:34:36",
-      "time_kst": "21:34:36",
-      "symbol": "SUNE",
-      "company_name": "SUNation Energy, Inc.",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 13.35,
-      "decision": "FALSE",
-      "elapsed_sec": 51.1,
-      "reason": "Form S-4 비밀 제출(Draft Submission)은 예비 행정 절차일 뿐 당일 확정 기폭제가 아니며 장전 대금 $0 및 -0.49% 약세로 전량 차단",
-      "catalyst_hint": "",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 전략 헌장 기준에 따라 긴급 포착 종목 **SUNE (SUNation Energy, Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.35M USD (시가총액 $50.0M 이하 소형 품절주 체급 조건 1차 통과).\n실시간 시세 및 거래량: 07:34 ET 기준 현재가 $2.0500 (-0.49% 보합/음봉), 당일 최고가 $2.0500. 장전 누적 거래대금이 $0 USD로 초기 수급 수직 유입이 전혀 관측되지 않는 상태입니다.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 밑작업: 2026-10-15 8-K (Item 1.01, 2.03)를 통해 MBB Energy와의 회전신용한도(Line of Credit) 계약 밑작업은 확인됩니다.\n당일(11/02 07:00 ET) PR 원문 분석:\nPR 제목: \"SUNation Energy Announces Confidential Submission of Draft Registration Statement on Form S-4 in Connection with Proposed Merger with Suniva\"\n원문 진위: Suniva와의 합병 추진과 관련하여 미 SEC에 **Form S-4 등록신고서 예비 초안을 비밀 제출(Confidential Submission of Draft)**했다는 내용입니다.\n기폭제 결함: Form S-4 예비 초안 제출은 합병 진행을 위한 행정적 서류 접수 단계일 뿐, 오늘 당일 기업 가치를 수직 폭등시킬 '완결된 M&A 완료/확정 현금 유입/임상 성공/특별배당/상장유지 회복' 등의 1급 확정 기폭제가 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 확정 호재가 아닌 예비 행정 절차 공시이며, 장전 거래대금($0 USD) 및 시세(-0.49%) 반응이 전무하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: SUNE NOTES:\n[SUNE] Form S-4 비밀 제출(Draft Submission)은 예비 행정 절차일 뿐 당일 확정 기폭제가 아니며 장전 대금 $0 및 -0.49% 약세로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "차단(패스)"
     }
