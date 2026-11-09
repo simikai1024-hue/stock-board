@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:40:21",
-  "updated_at_et": "2026-11-09 07:40:21",
-  "updated_epoch_ms": 1794228021159,
+  "updated_at_kst": "2026-11-09 21:41:02",
+  "updated_at_et": "2026-11-09 07:41:02",
+  "updated_epoch_ms": 1794228062361,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:40:17"
+    "updated_kst": "21:40:59"
   },
   "stats": {
     "today_total": 8,
@@ -2277,6 +2277,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "07:40:56",
+      "time_kst": "21:40:56",
+      "symbol": "HRTX",
+      "company_name": "HRTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $72.98M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "07:40:25",
+      "time_kst": "21:40:25",
+      "symbol": "BPOP",
+      "company_name": "BPOP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9834.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "07:33:55",
       "time_kst": "21:33:55",
       "symbol": "VRDN",
@@ -2754,26 +2774,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:16:52",
-      "time_kst": "20:16:52",
-      "symbol": "NESR",
-      "company_name": "NESR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2051.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "06:16:01",
-      "time_kst": "20:16:01",
-      "symbol": "CNTN",
-      "company_name": "CNTN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $161.91M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
