@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:19:28",
-  "updated_at_et": "2026-11-09 09:19:28",
-  "updated_epoch_ms": 1794233968184,
+  "updated_at_kst": "2026-11-09 23:20:10",
+  "updated_at_et": "2026-11-09 09:20:10",
+  "updated_epoch_ms": 1794234010828,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:19:22"
+    "updated_kst": "23:19:47"
   },
   "stats": {
     "today_total": 24,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:20:05",
+      "time_kst": "23:20:05",
+      "symbol": "EC",
+      "company_name": "EC",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:17:30",
       "time_kst": "23:17:30",
       "symbol": "TMC",
@@ -2684,16 +2694,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $59.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:28:13",
-      "time_kst": "22:28:13",
-      "symbol": "EC",
-      "company_name": "EC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     },
     {
       "date_et": "2026-11-09",
