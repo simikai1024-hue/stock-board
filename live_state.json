@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09 10:47:45",
+  "updated_at": "2026-11-09 13:40:17",
   "history": [
     {
       "id": "1794188850409_032620_BUY",
@@ -39,10 +39,28 @@
       "pnl_pct": 0.76,
       "buy_price": 3060,
       "qty": 29
+    },
+    {
+      "id": "1794199213746_032080_BUY",
+      "type": "BUY",
+      "auto_copy": true,
+      "time": "2026-11-09 13:40:13",
+      "name": "아즈텍WB",
+      "code": "032080",
+      "price": 1850,
+      "flu_rt": 13.99,
+      "val_uk": 0.0,
+      "target_price": 1942,
+      "stop_price": 1794,
+      "ammo_title": "⚡[DART 실시간공시·자사주취득] ⚡[실전A급] 자사주(신탁) 10.0억 (시총의 5.7%) (시총 174억)",
+      "ammo_date": "20261109",
+      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0334731, 지정가:1,872원)! +5% 그물망 준비...",
+      "buy_price": 1850,
+      "qty": 48
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-09 10:47:45",
+    "updated_at": "2026-11-09 13:40:17",
     "stats": {
       "total_closed": 4,
       "win_count": 2,
@@ -54,6 +72,23 @@
       "total_pnl_krw": -10903
     },
     "rows": [
+      {
+        "date": "2026-11-09",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "code": "032080",
+        "name": "아즈텍WB",
+        "buy_price": 1850,
+        "sell_price": 0,
+        "qty": 48,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "13:40:13",
+        "sell_time": "",
+        "reason": "⚡[DART 실시간공시·자사주취득] ⚡[실전A급] 자사주(신탁) 10.0억 (시총의 5.7%) (시총 174억)",
+        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0334731, 지정가:1,872원)! +5% 그물망 준비..."
+      },
       {
         "date": "2026-11-09",
         "weekday": "월요일",
@@ -151,20 +186,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-09 10:47:45",
+    "updated_at": "2026-11-09 13:40:17",
     "stats": {
-      "cooked_count": 17,
+      "cooked_count": 18,
       "finalized_count": 14,
       "hit_5pct_count": 12,
       "hit_5pct_rate": 85.7,
-      "dart_count": 17,
+      "dart_count": 18,
       "news_count": 0,
-      "today_cooked_count": 3,
-      "avg_day_high_pct": 16.25,
-      "avg_open_to_high_pct": 16.54,
-      "avg_post_disc_max_pct": 12.52
+      "today_cooked_count": 4,
+      "avg_day_high_pct": 15.94,
+      "avg_open_to_high_pct": 16.48,
+      "avg_post_disc_max_pct": 11.82
     },
     "preparing_list": [
+      {
+        "code": "032080",
+        "name": "아즈텍WB",
+        "mcap_uk": 174,
+        "prep_tag": "✨ 자사주취득 폭발!",
+        "prep_detail": "⚡[실전A급] 자사주(신탁) 10.0억 (시총의 5.7%)",
+        "prep_date": "2026-11-09",
+        "cooked_today": true,
+        "disc_time": "13:40",
+        "day_high_pct": 10.58,
+        "open_to_high_pct": 15.41
+      },
       {
         "code": "032620",
         "name": "GC메디아이",
@@ -431,20 +478,49 @@
         "cur_price": 5630,
         "flu_rt": -1.92,
         "cooked_today": false
-      },
-      {
-        "code": "115160",
-        "name": "휴맥스",
-        "mcap_uk": 329,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/22] 타법인주식및출자증권취득결정 (시총 329억)",
-        "prep_date": "2026-10-22",
-        "cur_price": 5000,
-        "flu_rt": -1.19,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-09",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "disc_time": "13:40",
+        "code": "032080",
+        "name": "아즈텍WB",
+        "channel": "DART",
+        "source_label": "DART",
+        "tier": "A+S",
+        "belt_passed": true,
+        "cat": "자사주취득",
+        "summary": "⚡[실전A급] 자사주(신탁) 10.0억 (시총의 5.7%)",
+        "rpt_title": "주요사항보고서(자기주식취득신탁계약체결결정)",
+        "doc_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000095",
+        "mcap_uk": 174,
+        "prev_close": 1673,
+        "pre_disc_price": 1750,
+        "spike_from_pre_pct": 5.71,
+        "disc_price": 1850,
+        "target_5pct_price": 1942,
+        "entry_price": 1850,
+        "open_price": 1603,
+        "high_price": 1850,
+        "post_disc_high": 1850,
+        "close_price": 1850,
+        "open_to_high_pct": 15.41,
+        "day_high_pct": 10.58,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true,
+        "my_trade": {
+          "status": "OPEN",
+          "buy_price": 1850,
+          "sell_price": 0,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0,
+          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0334731, 지정가:1,872원)! +5% 그물망 준비..."
+        }
+      },
       {
         "date": "2026-11-09",
         "weekday": "월요일",
@@ -1475,7 +1551,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-09 10:47:45",
+    "updated_at": "2026-11-09 13:40:17",
     "deprecated": true,
     "stats": {},
     "days": []
