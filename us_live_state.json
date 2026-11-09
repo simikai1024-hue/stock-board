@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 21:13:53",
-  "updated_at_et": "2026-11-09 07:13:53",
-  "updated_epoch_ms": 1794226433935,
+  "updated_at_kst": "2026-11-09 21:14:30",
+  "updated_at_et": "2026-11-09 07:14:30",
+  "updated_epoch_ms": 1794226470742,
   "analyzing": {
-    "active": true,
-    "symbol": "SLXN",
-    "company_name": "Silexion Therapeutics Corp",
-    "exchange": "ND",
-    "price": 0.1284,
-    "gain_pct": -11.57,
-    "mcap_m": 1.95,
-    "catalyst_hint": "[당일 PR] Silexion Therapeutics Announces 1-for-24 Reverse Share Split",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:13:48",
-    "started_at_kst": "21:13:48",
-    "started_epoch_ms": 1794226428375
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:13:37"
+    "updated_kst": "21:14:17"
   },
   "stats": {
-    "today_total": 4,
-    "today_nblm_count": 4,
+    "today_total": 5,
+    "today_nblm_count": 5,
     "today_buy": 1,
-    "today_false": 3,
+    "today_false": 4,
     "today_hardcut": 58,
-    "total_verdicts": 108,
+    "total_verdicts": 109,
     "total_buy": 5,
-    "total_false": 103,
-    "avg_nblm_sec": 34.2
+    "total_false": 104,
+    "avg_nblm_sec": 35.2
   },
   "verdicts": [
+    {
+      "id": "v_1794226464878_SLXN_FALSE",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "07:14:24",
+      "time_kst": "21:14:24",
+      "symbol": "SLXN",
+      "company_name": "Silexion Therapeutics Corp",
+      "exchange": "ND",
+      "price": 0.1284,
+      "gain_pct": -11.57,
+      "mcap_m": 1.95,
+      "decision": "FALSE",
+      "elapsed_sec": 39.3,
+      "reason": "당일 SEC 공시 미접수 및 단순 주식병합 예고 PR(1-for-24)은 1급 확정 기폭제 미달 및 장전 음봉 폭락(-11.57%)으로 전량 차단",
+      "catalyst_hint": "[당일 PR] Silexion Therapeutics Announces 1-for-24 Reverse Share Split",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 SLXN (Silexion Therapeutics Corp) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.95M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.1452 대비 현재가 $0.1284 (-11.57% 폭락), 당일 최고가 $0.1578 (고점 대비 -18.6% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 07:00 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Silexion Therapeutics Announces 1-for-24 Reverse Share Split\"\n원문 팩트: 1 대 24(1-for-24) 비율의 주식병합(Reverse Share Split) 추진 발표 및 2026년 11월 11일(수요일) 개장 시점부터 병합 후 효력 거래(Trading on a split-adjusted basis)가 시작된다는 단순 병합 일정 안내 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n당일(11/09)은 병합 효력 첫 거래일(D-Day 1일차)도 아니며, 단순히 이틀 뒤(11/11) 병합 효력이 발생함을 사전 예고한 **단순 주식병합 예고 PR (무호재 단독 병합)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 4번 규칙에서 엄격히 차단하는 '당일 확정 1급 호재가 결여된 무호재 단독 병합 발표 및 병합 예고' 범주에 정확히 저해됩니다.\n현재 시세 반응 역시 전일 대비 -11.57% 음봉 폭락 중이며, 장전 실질 거래대금($0 USD) 및 세력 매집 수급 모멘텀도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 주식병합 예고(1-for-24 Reverse Split)에 불과하고 장전 -11.57% 음봉 폭락 흐름을 보여 전략 헌장 2번·4번 원칙에 의거 FORCE_BLOCK: SLXN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: SLXN NOTES:\n[SLXN] 당일 SEC 공시 미접수 및 단순 주식병합 예고 PR(1-for-24)은 1급 확정 기폭제 미달 및 장전 음봉 폭락(-11.57%)으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794225870930_CANF_FALSE",
       "date_et": "2026-11-09",
