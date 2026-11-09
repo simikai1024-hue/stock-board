@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-09 23:37:22",
-  "updated_at_et": "2026-11-09 09:37:22",
-  "updated_epoch_ms": 1794235042153,
+  "updated_at_kst": "2026-11-09 23:38:10",
+  "updated_at_et": "2026-11-09 09:38:10",
+  "updated_epoch_ms": 1794235090303,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:37:16"
+    "updated_kst": "23:37:55"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,96 @@
   "hardcuts": [
     {
       "date_et": "2026-11-09",
+      "time_et": "09:38:06",
+      "time_kst": "23:38:06",
+      "symbol": "DFDV",
+      "company_name": "DFDV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $103.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:38:01",
+      "time_kst": "23:38:01",
+      "symbol": "SHFS",
+      "company_name": "SHFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:56",
+      "time_kst": "23:37:56",
+      "symbol": "SLE",
+      "company_name": "SLE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:52",
+      "time_kst": "23:37:52",
+      "symbol": "EMPD",
+      "company_name": "EMPD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $62.89M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:47",
+      "time_kst": "23:37:47",
+      "symbol": "VIR",
+      "company_name": "VIR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2437.19M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:38",
+      "time_kst": "23:37:38",
+      "symbol": "NWL",
+      "company_name": "NWL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2440.98M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:33",
+      "time_kst": "23:37:33",
+      "symbol": "APVO",
+      "company_name": "APVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:29",
+      "time_kst": "23:37:29",
+      "symbol": "FTH",
+      "company_name": "FTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $328.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
+      "time_et": "09:37:23",
+      "time_kst": "23:37:23",
+      "symbol": "WMG",
+      "company_name": "WMG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $16467.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-09",
       "time_et": "09:37:18",
       "time_kst": "23:37:18",
       "symbol": "AXGN",
@@ -2504,16 +2594,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $172.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:33:19",
-      "time_kst": "23:33:19",
-      "symbol": "EMPD",
-      "company_name": "EMPD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $62.45M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
@@ -2667,26 +2747,6 @@
     },
     {
       "date_et": "2026-11-09",
-      "time_et": "08:52:03",
-      "time_kst": "22:52:03",
-      "symbol": "WMG",
-      "company_name": "WMG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $16373.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:46:04",
-      "time_kst": "22:46:04",
-      "symbol": "FTH",
-      "company_name": "FTH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $458.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
       "time_et": "08:45:56",
       "time_kst": "22:45:56",
       "symbol": "BMNR",
@@ -2717,26 +2777,6 @@
     },
     {
       "date_et": "2026-11-09",
-      "time_et": "08:35:59",
-      "time_kst": "22:35:59",
-      "symbol": "APVO",
-      "company_name": "APVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-30 [424B5])"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:35:32",
-      "time_kst": "22:35:32",
-      "symbol": "NWL",
-      "company_name": "NWL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2372.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
       "time_et": "08:34:41",
       "time_kst": "22:34:41",
       "symbol": "CCG",
@@ -2757,16 +2797,6 @@
     },
     {
       "date_et": "2026-11-09",
-      "time_et": "08:32:38",
-      "time_kst": "22:32:38",
-      "symbol": "VIR",
-      "company_name": "VIR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2274.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
       "time_et": "08:31:30",
       "time_kst": "22:31:30",
       "symbol": "ALAR",
@@ -2784,36 +2814,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:22:30",
-      "time_kst": "22:22:30",
-      "symbol": "SLE",
-      "company_name": "SLE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 424B5(ATM) 희석 폭탄 명시 (2026-10-21 [424B5])"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:16:19",
-      "time_kst": "22:16:19",
-      "symbol": "SHFS",
-      "company_name": "SHFS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-10-30 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "08:15:53",
-      "time_kst": "22:15:53",
-      "symbol": "DFDV",
-      "company_name": "DFDV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $107.65M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-09",
