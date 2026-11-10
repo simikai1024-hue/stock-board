@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:40:25",
-  "updated_at_et": "2026-11-10 09:40:25",
-  "updated_epoch_ms": 1794321625561,
+  "updated_at_kst": "2026-11-10 23:41:15",
+  "updated_at_et": "2026-11-10 09:41:15",
+  "updated_epoch_ms": 1794321675750,
   "analyzing": {
-    "active": true,
-    "symbol": "NNOX",
-    "company_name": "NNOX",
-    "exchange": "ND",
-    "price": 0.2524,
-    "gain_pct": 7.27,
-    "mcap_m": 19.88,
-    "catalyst_hint": "[당일 PR] Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:40:20",
-    "started_at_kst": "23:40:20",
-    "started_epoch_ms": 1794321620683
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "TURB",
     "holding_qty": 198,
     "avg_price": 0.88,
-    "current_price": 0.8895,
-    "profit_rate": 1.08,
-    "updated_kst": "23:40:07"
+    "current_price": 0.8794,
+    "profit_rate": -0.07,
+    "updated_kst": "23:41:09"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 3,
+    "today_total": 4,
+    "today_nblm_count": 4,
     "today_buy": 1,
-    "today_false": 2,
+    "today_false": 3,
     "today_hardcut": 60,
-    "total_verdicts": 135,
+    "total_verdicts": 136,
     "total_buy": 7,
-    "total_false": 128,
-    "avg_nblm_sec": 58.4
+    "total_false": 129,
+    "avg_nblm_sec": 56.7
   },
   "verdicts": [
+    {
+      "id": "v_1794321668652_NNOX_FALSE",
+      "date_et": "2026-11-10",
+      "weekday_kr": "화",
+      "time_et": "09:41:08",
+      "time_kst": "23:41:08",
+      "symbol": "NNOX",
+      "company_name": "NNOX",
+      "exchange": "ND",
+      "price": 0.2524,
+      "gain_pct": 7.27,
+      "mcap_m": 19.88,
+      "decision": "FALSE",
+      "elapsed_sec": 51.6,
+      "reason": "태국 유통 협력 PR은 구매 약정이 없는(No purchase commitments) 금액 미기재 예비 협력 및 비용절감 6-K로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 NNOX (Nano-X Imaging Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $19.88M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.2353 대비 현재가 $0.2524 (+7.27%), 당일 최고가 $0.2596 (고점 대비 -2.8%), 당일 누적 거래대금 $51,452 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/10 08:10 ET) 공식 PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-10 [6-K] 접수 완료 (첨부 EX-99.1: 이사회 비용 절감 및 운영 효율화 조치 승인, \"Board Has Approved Cost Reduction and Operational Efficiency Measures\").\nPR 제목: *\"Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand\"*\n원문 팩트: 태국 헬스케어 기술 기업 Dosy Health와 자회사 Nanox.AI의 심장 영상 솔루션(HealthCCSng) 상업화 및 유통 협력(Distribution Agreement)을 추진한다는 보도자료.\n치명적 기폭제 결함:\n구체적 확정 금액 부재 및 예비 협의 한계: 원문 본문에 \"These discussions remain preliminary and do not constitute purchase commitments\" (본 논의는 예비적 성격이며 구속력 있는 구매 약정이 아님) 및 향후 본계약(definitive agreements) 체결 대상이라고 명시되어 있습니다.\n1급 기폭제 요건 결여: 확정된 대규모 달러 금액 수주, FDA 신규 승인, 대형 M&A, 현금 특별배당 등 기업 가치를 즉시 폭등시킬 확정적 1급 재료가 아니라, **'구체적 확정 현금 금액이 명시되지 않은 단순 해외 유통 협력/MOU 성격의 발표'**에 불과합니다.\nSEC 6-K 본공시 내용과의 괴리: 당일 6-K 제출 서류 역시 대규모 신규 매출 계약이 아닌 단순 비용 절감/구조조정(Cost Reduction Measures) 행정 공시입니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"금액 미기재 단순 샘플/MOU/특허/유통 협력 및 단순 구조조정 발표는 1급 확정 기폭제 미달\")에 정확히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR이 구체적 확정 금액이 없는 단순 예비 유통 협력(Commercial Collaboration without purchase commitments)에 불과하고, 6-K 역시 비용 절감 발표로 1급 확정 기폭제 기준에 미달하므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: NNOX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: NNOX NOTES:\n[NNOX] 태국 유통 협력 PR은 구매 약정이 없는(No purchase commitments) 금액 미기재 예비 협력 및 비용절감 6-K로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794321107805_CIGL_FALSE",
       "date_et": "2026-11-10",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **RBNE (Robin Energy Ltd.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.37M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.1366 대비 현재가 $0.1335 (-2.27% 약보합/음봉), 당일 고가 $0.1578 (-15.4%). 장전 누적 거래대금 $0 USD로 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n사전 SEC 이력 및 희석 위험: 최근 10/16 F-1 (외국기업 신주 발행 증권등록신고서) 제출 이력이 존재하여, 언제든 신주 유상증자 물량이 출회될 수 있는 희석 위험이 열려 있습니다 (심사 원칙 1번 위반).\n당일 D-Day 기폭제 결함: 당일(11/02) 신규 SEC 공시가 아직 미접수된 무뉴스/무공시 상태로, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 수주/M&A 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n사전 F-1 제출에 따른 신주 희석 위험이 잔존하고, 당일 확정 1급 기폭제 부재 및 장전 수급 미달($0 USD / -2.27%)을 나타내어 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: RBNE NOTES:\n[RBNE] 사전 F-1 증권등록 희석 위험 잔존 및 당일 확정 1급 기폭제 부재 + 장전 대금 $0(-2.27%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793626630866_PPCB_FALSE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "08:37:10",
-      "time_kst": "22:37:10",
-      "symbol": "PPCB",
-      "company_name": "Propanc Biopharma, Inc.",
-      "exchange": "ND",
-      "price": 1.82,
-      "gain_pct": -1.09,
-      "mcap_m": 11.52,
-      "decision": "FALSE",
-      "elapsed_sec": 37.1,
-      "reason": "사전 S-1 증권등록 희석 위험 잔존 + 나스닥 $1.00 미달 경고(3.01) 및 장전 대금 $0(-1.09%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Propanc Biopharma Reports Preclinical Data with PRP & PRP plus TGF-β Inhibitor on TGF-β Pathway in Pancreatic Cancer",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 PPCB (Propanc Biopharma, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.52M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.8400 대비 현재가 $1.8200 (-1.09% 약보합/음봉), 당일 최고가 $1.8200. 장전 누적 거래대금 $0 USD로 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n사전 SEC 이력 및 희석 위험:\n2026-10-05 S-1 (신주 발행 등록신고서): 유상증자 및 주식 처분을 위한 S-1 증권등록신고서 제출 이력이 존재하여, 언제든 신주 유상증자/워런트 물량이 출회될 수 있는 희석 위험이 열려 있습니다 (심사 원칙 1번 위반).\n2026-10-29 8-K (Item 3.01): 나스닥 최소 입찰가($1.00) 미달 경고 통지 수령 공시로, 상장유지 회복 호재가 아닌 상장폐지 위험 경고 공시입니다.\n당일 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n사전 S-1 제출로 인한 희석 덤핑 위험이 잔존하고, 당일 확정 1급 기폭제 부재 및 장전 수급 부재($0 USD / -1.09%)를 나타내어 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: PPCB NOTES:\n[PPCB] 사전 S-1 증권등록 희석 위험 잔존 + 나스닥 $1.00 미달 경고(3.01) 및 장전 대금 $0(-1.09%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:40:34",
+      "time_kst": "23:40:34",
+      "symbol": "RWTQ",
+      "company_name": "RWTQ",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-10",
       "time_et": "09:39:17",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 실적발표/일정 예고 PR 차단 (KUSTOM ENTERTAINMENT, INC. ANNOUNCES THIRD QUARTER OPERATI)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:30:46",
-      "time_kst": "21:30:46",
-      "symbol": "BWAY",
-      "company_name": "BWAY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $469.75M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
