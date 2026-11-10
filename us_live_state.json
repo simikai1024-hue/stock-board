@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:54:07",
-  "updated_at_et": "2026-11-10 09:54:07",
-  "updated_epoch_ms": 1794322447462,
+  "updated_at_kst": "2026-11-10 23:54:58",
+  "updated_at_et": "2026-11-10 09:54:58",
+  "updated_epoch_ms": 1794322498935,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.8794,
     "profit_rate": -0.07,
-    "updated_kst": "23:54:03"
+    "updated_kst": "23:54:45"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:54:50",
+      "time_kst": "23:54:50",
+      "symbol": "MERC",
+      "company_name": "MERC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 8-K 부도/기한이익상실/회계불신(1.03/2.04/4.02) 부실 폭탄 명시 (2026-11-10 [8-K] (Item 1.01,1.03,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:50:56",
       "time_kst": "23:50:56",
       "symbol": "RIBB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $10726.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:02:19",
-      "time_kst": "22:02:19",
-      "symbol": "AENT",
-      "company_name": "AENT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $228.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
