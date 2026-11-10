@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 09:48:12",
+  "updated_at": "2026-11-10 10:58:41",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -42,7 +42,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 09:48:12",
+    "updated_at": "2026-11-10 10:58:41",
     "stats": {
       "total_closed": 6,
       "win_count": 2,
@@ -193,20 +193,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 09:48:12",
+    "updated_at": "2026-11-10 10:58:41",
     "stats": {
-      "cooked_count": 19,
+      "cooked_count": 20,
       "finalized_count": 18,
       "hit_5pct_count": 13,
       "hit_5pct_rate": 72.2,
-      "dart_count": 18,
+      "dart_count": 19,
       "news_count": 1,
-      "today_cooked_count": 1,
-      "avg_day_high_pct": 16.6,
-      "avg_open_to_high_pct": 16.94,
-      "avg_post_disc_max_pct": 12.35
+      "today_cooked_count": 2,
+      "avg_day_high_pct": 16.31,
+      "avg_open_to_high_pct": 16.55,
+      "avg_post_disc_max_pct": 11.73
     },
     "preparing_list": [
+      {
+        "code": "194480",
+        "name": "데브시스터즈",
+        "mcap_uk": 1371,
+        "prep_tag": "✨ 어닝서프라이즈 폭발!",
+        "prep_detail": "⚡[실전A급·실적] 영업익 72억 흑자전환(시총비 5.3%)",
+        "prep_date": "2026-11-10",
+        "cooked_today": true,
+        "disc_time": "10:58",
+        "day_high_pct": 10.91,
+        "open_to_high_pct": 9.17
+      },
       {
         "code": "259630",
         "name": "엠플러스",
@@ -471,20 +483,41 @@
         "cur_price": 9540,
         "flu_rt": -3.54,
         "cooked_today": false
-      },
-      {
-        "code": "018000",
-        "name": "유니슨",
-        "mcap_uk": 3048,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/19] 타법인주식및출자증권취득결정 (시총 3,048억)",
-        "prep_date": "2026-10-19",
-        "cur_price": 1044,
-        "flu_rt": 0.0,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-10",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "disc_time": "10:58",
+        "code": "194480",
+        "name": "데브시스터즈",
+        "channel": "DART",
+        "source_label": "DART",
+        "tier": "A+S",
+        "belt_passed": false,
+        "cat": "어닝서프라이즈",
+        "summary": "⚡[실전A급·실적] 영업익 72억 흑자전환(시총비 5.3%)",
+        "rpt_title": "연결재무제표 기준 영업(잠정)실적(공정공시)",
+        "doc_url": "https://m.stock.naver.com/domestic/stock/194480/notice",
+        "mcap_uk": 1371,
+        "prev_close": 11270,
+        "pre_disc_price": 11510,
+        "spike_from_pre_pct": 8.6,
+        "disc_price": 12500,
+        "target_5pct_price": 13120,
+        "entry_price": 12500,
+        "open_price": 11450,
+        "high_price": 12500,
+        "post_disc_high": 12500,
+        "close_price": 12500,
+        "open_to_high_pct": 9.17,
+        "day_high_pct": 10.91,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true
+      },
       {
         "date": "2026-11-10",
         "weekday": "화요일",
@@ -2527,7 +2560,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 09:48:12",
+    "updated_at": "2026-11-10 10:58:41",
     "deprecated": true,
     "stats": {},
     "days": []
