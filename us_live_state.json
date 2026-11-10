@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:36:00",
-  "updated_at_et": "2026-11-10 09:36:00",
-  "updated_epoch_ms": 1794321360297,
+  "updated_at_kst": "2026-11-10 23:36:58",
+  "updated_at_et": "2026-11-10 09:36:58",
+  "updated_epoch_ms": 1794321418630,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "TURB",
     "holding_qty": 198,
     "avg_price": 0.88,
-    "current_price": 0.8776,
-    "profit_rate": -0.27,
-    "updated_kst": "23:35:54"
+    "current_price": 0.8792,
+    "profit_rate": -0.09,
+    "updated_kst": "23:36:52"
   },
   "stats": {
     "today_total": 3,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:36:15",
+      "time_kst": "23:36:15",
+      "symbol": "BGSF",
+      "company_name": "BGSF",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:35:16",
       "time_kst": "23:35:16",
       "symbol": "TZOO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $75.37M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:29:55",
-      "time_kst": "21:29:55",
-      "symbol": "ELOG",
-      "company_name": "ELOG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
     }
   ]
 }
