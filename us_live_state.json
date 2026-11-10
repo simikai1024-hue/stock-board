@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:37:29",
-  "updated_at_et": "2026-11-10 08:37:29",
-  "updated_epoch_ms": 1794317849977,
+  "updated_at_kst": "2026-11-10 22:38:27",
+  "updated_at_et": "2026-11-10 08:38:27",
+  "updated_epoch_ms": 1794317907545,
   "analyzing": {
     "active": true,
     "symbol": "TURB",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:37:19"
+    "updated_kst": "22:38:21"
   },
   "stats": {
     "today_total": 0,
