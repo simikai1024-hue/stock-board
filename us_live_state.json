@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:29:49",
-  "updated_at_et": "2026-11-10 09:29:49",
-  "updated_epoch_ms": 1794320989287,
+  "updated_at_kst": "2026-11-10 23:30:47",
+  "updated_at_et": "2026-11-10 09:30:47",
+  "updated_epoch_ms": 1794321047101,
   "analyzing": {
     "active": false
   },
@@ -10,16 +10,16 @@
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 1,
     "orderable_usd": 181.88,
     "daily_done": false,
     "holding_symbol": "TURB",
     "holding_qty": 198,
     "avg_price": 0.88,
-    "current_price": 0.88,
-    "profit_rate": 0.0,
-    "updated_kst": "23:29:43"
+    "current_price": 0.8776,
+    "profit_rate": -0.27,
+    "updated_kst": "23:30:41"
   },
   "stats": {
     "today_total": 2,
