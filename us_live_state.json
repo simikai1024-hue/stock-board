@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 21:31:37",
-  "updated_at_et": "2026-11-10 07:31:37",
-  "updated_epoch_ms": 1794313897350,
+  "updated_at_kst": "2026-11-10 21:32:28",
+  "updated_at_et": "2026-11-10 07:32:28",
+  "updated_epoch_ms": 1794313948299,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:31:30"
+    "updated_kst": "21:32:11"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "07:32:24",
+      "time_kst": "21:32:24",
+      "symbol": "ENTG",
+      "company_name": "ENTG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $21069.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "07:32:06",
+      "time_kst": "21:32:06",
+      "symbol": "KUST",
+      "company_name": "KUST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 실적발표/일정 예고 PR 차단 (KUSTOM ENTERTAINMENT, INC. ANNOUNCES THIRD QUARTER OPERATI)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "07:30:46",
       "time_kst": "21:30:46",
       "symbol": "BWAY",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $62.54M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:18:51",
-      "time_kst": "18:18:51",
-      "symbol": "MEDS",
-      "company_name": "MEDS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:18:26",
-      "time_kst": "18:18:26",
-      "symbol": "LIMN",
-      "company_name": "LIMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
