@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:04:08",
-  "updated_at_et": "2026-11-10 09:04:08",
-  "updated_epoch_ms": 1794319448684,
+  "updated_at_kst": "2026-11-10 23:05:05",
+  "updated_at_et": "2026-11-10 09:05:05",
+  "updated_epoch_ms": 1794319505717,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "23:04:02"
+    "updated_kst": "23:05:01"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:04:29",
+      "time_kst": "23:04:29",
+      "symbol": "ICLR",
+      "company_name": "ICLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $15732.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:00:58",
       "time_kst": "23:00:58",
       "symbol": "SPAI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4251.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:00:48",
-      "time_kst": "21:00:48",
-      "symbol": "ETOR",
-      "company_name": "ETOR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1919.94M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
