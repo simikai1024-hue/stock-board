@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:42:07",
-  "updated_at_et": "2026-11-10 09:42:07",
-  "updated_epoch_ms": 1794321727823,
+  "updated_at_kst": "2026-11-10 23:42:56",
+  "updated_at_et": "2026-11-10 09:42:56",
+  "updated_epoch_ms": 1794321776407,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.8794,
     "profit_rate": -0.07,
-    "updated_kst": "23:42:05"
+    "updated_kst": "23:42:44"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:42:50",
+      "time_kst": "23:42:50",
+      "symbol": "IH",
+      "company_name": "IH",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:40:34",
       "time_kst": "23:40:34",
       "symbol": "RWTQ",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $21069.59M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:32:06",
-      "time_kst": "21:32:06",
-      "symbol": "KUST",
-      "company_name": "KUST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 실적발표/일정 예고 PR 차단 (KUSTOM ENTERTAINMENT, INC. ANNOUNCES THIRD QUARTER OPERATI)"
     }
   ]
 }
