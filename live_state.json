@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 13:40:03",
+  "updated_at": "2026-11-10 15:31:11",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -118,7 +118,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 13:40:03",
+    "updated_at": "2026-11-10 15:31:11",
     "stats": {
       "total_closed": 8,
       "win_count": 4,
@@ -307,18 +307,18 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 13:40:03",
+    "updated_at": "2026-11-10 15:31:11",
     "stats": {
       "cooked_count": 23,
-      "finalized_count": 18,
-      "hit_5pct_count": 13,
-      "hit_5pct_rate": 72.2,
+      "finalized_count": 23,
+      "hit_5pct_count": 17,
+      "hit_5pct_rate": 73.9,
       "dart_count": 22,
       "news_count": 1,
       "today_cooked_count": 5,
-      "avg_day_high_pct": 15.26,
-      "avg_open_to_high_pct": 15.17,
-      "avg_post_disc_max_pct": 10.2
+      "avg_day_high_pct": 16.94,
+      "avg_open_to_high_pct": 16.83,
+      "avg_post_disc_max_pct": 11.75
     },
     "preparing_list": [
       {
@@ -330,8 +330,8 @@
         "prep_date": "2026-11-10",
         "cooked_today": true,
         "disc_time": "12:16",
-        "day_high_pct": 8.86,
-        "open_to_high_pct": 6.36
+        "day_high_pct": 18.08,
+        "open_to_high_pct": 15.37
       },
       {
         "code": "086900",
@@ -342,8 +342,8 @@
         "prep_date": "2026-11-10",
         "cooked_today": true,
         "disc_time": "11:15",
-        "day_high_pct": 7.44,
-        "open_to_high_pct": 3.66
+        "day_high_pct": 18.51,
+        "open_to_high_pct": 14.35
       },
       {
         "code": "013870",
@@ -354,8 +354,8 @@
         "prep_date": "2026-11-10",
         "cooked_today": true,
         "disc_time": "11:02",
-        "day_high_pct": 8.37,
-        "open_to_high_pct": 7.92
+        "day_high_pct": 19.34,
+        "open_to_high_pct": 18.85
       },
       {
         "code": "194480",
@@ -366,8 +366,8 @@
         "prep_date": "2026-11-10",
         "cooked_today": true,
         "disc_time": "10:58",
-        "day_high_pct": 10.91,
-        "open_to_high_pct": 9.17
+        "day_high_pct": 17.13,
+        "open_to_high_pct": 15.28
       },
       {
         "code": "259630",
@@ -378,8 +378,8 @@
         "prep_date": "2026-11-10",
         "cooked_today": true,
         "disc_time": "09:46",
-        "day_high_pct": 6.02,
-        "open_to_high_pct": 2.53
+        "day_high_pct": 7.33,
+        "open_to_high_pct": 3.8
       },
       {
         "code": "110790",
@@ -626,14 +626,16 @@
         "target_5pct_price": 6320,
         "entry_price": 6020,
         "open_price": 5660,
-        "high_price": 6020,
-        "post_disc_high": 6020,
-        "close_price": 6020,
-        "open_to_high_pct": 6.36,
-        "day_high_pct": 8.86,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
+        "high_price": 6530,
+        "post_disc_high": 6530,
+        "close_price": 5660,
+        "open_to_high_pct": 15.37,
+        "day_high_pct": 18.08,
+        "post_disc_max_pct": 8.47,
+        "eod_finalized": true,
         "is_today_live": true,
+        "mins_to_5pct": 2,
+        "gain_10m_pct": 8.47,
         "my_trade": {
           "status": "WIN",
           "buy_price": 6060,
@@ -666,14 +668,16 @@
         "target_5pct_price": 71200,
         "entry_price": 67900,
         "open_price": 65500,
-        "high_price": 67900,
-        "post_disc_high": 67900,
-        "close_price": 67900,
-        "open_to_high_pct": 3.66,
-        "day_high_pct": 7.44,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
+        "high_price": 74900,
+        "post_disc_high": 74900,
+        "close_price": 70800,
+        "open_to_high_pct": 14.35,
+        "day_high_pct": 18.51,
+        "post_disc_max_pct": 10.31,
+        "eod_finalized": true,
         "is_today_live": true,
+        "mins_to_5pct": 1,
+        "gain_10m_pct": 10.31,
         "my_trade": {
           "status": "WIN",
           "buy_price": 69300,
@@ -706,14 +710,16 @@
         "target_5pct_price": 4145,
         "entry_price": 3950,
         "open_price": 3660,
-        "high_price": 3950,
-        "post_disc_high": 3950,
-        "close_price": 3950,
-        "open_to_high_pct": 7.92,
-        "day_high_pct": 8.37,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
-        "is_today_live": true
+        "high_price": 4350,
+        "post_disc_high": 4350,
+        "close_price": 3715,
+        "open_to_high_pct": 18.85,
+        "day_high_pct": 19.34,
+        "post_disc_max_pct": 10.13,
+        "eod_finalized": true,
+        "is_today_live": true,
+        "mins_to_5pct": 2,
+        "gain_10m_pct": 10.13
       },
       {
         "date": "2026-11-10",
@@ -738,14 +744,16 @@
         "target_5pct_price": 13120,
         "entry_price": 12500,
         "open_price": 11450,
-        "high_price": 12500,
-        "post_disc_high": 12500,
-        "close_price": 12500,
-        "open_to_high_pct": 9.17,
-        "day_high_pct": 10.91,
-        "post_disc_max_pct": 0.0,
-        "eod_finalized": false,
-        "is_today_live": true
+        "high_price": 13200,
+        "post_disc_high": 13200,
+        "close_price": 11680,
+        "open_to_high_pct": 15.28,
+        "day_high_pct": 17.13,
+        "post_disc_max_pct": 5.6,
+        "eod_finalized": true,
+        "is_today_live": true,
+        "mins_to_5pct": 2,
+        "gain_10m_pct": 5.6
       },
       {
         "date": "2026-11-10",
@@ -770,14 +778,16 @@
         "target_5pct_price": 8410,
         "entry_price": 8010,
         "open_price": 7900,
-        "high_price": 8100,
-        "post_disc_high": 8010,
-        "close_price": 8010,
-        "open_to_high_pct": 2.53,
-        "day_high_pct": 6.02,
-        "post_disc_max_pct": 1.12,
-        "eod_finalized": false,
+        "high_price": 8200,
+        "post_disc_high": 8200,
+        "close_price": 8100,
+        "open_to_high_pct": 3.8,
+        "day_high_pct": 7.33,
+        "post_disc_max_pct": 2.37,
+        "eod_finalized": true,
         "is_today_live": true,
+        "mins_to_5pct": -1,
+        "gain_10m_pct": 0.0,
         "my_trade": {
           "status": "LOSS",
           "buy_price": 8000,
@@ -2789,7 +2799,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 13:40:03",
+    "updated_at": "2026-11-10 15:31:11",
     "deprecated": true,
     "stats": {},
     "days": []
