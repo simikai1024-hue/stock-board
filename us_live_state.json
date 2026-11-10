@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:16:34",
-  "updated_at_et": "2026-11-10 04:16:34",
-  "updated_epoch_ms": 1794302194780,
+  "updated_at_kst": "2026-11-10 18:17:21",
+  "updated_at_et": "2026-11-10 04:17:21",
+  "updated_epoch_ms": 1794302241180,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:16:20"
+    "updated_kst": "18:17:16"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 25,
+    "today_hardcut": 29,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:17:17",
+      "time_kst": "18:17:17",
+      "symbol": "HCTI",
+      "company_name": "HCTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $79.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:17:10",
+      "time_kst": "18:17:10",
+      "symbol": "TWG",
+      "company_name": "TWG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $205.77M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:17:03",
+      "time_kst": "18:17:03",
+      "symbol": "ZEO",
+      "company_name": "ZEO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:16:48",
+      "time_kst": "18:16:48",
+      "symbol": "MI",
+      "company_name": "MI",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:16:32",
       "time_kst": "18:16:32",
       "symbol": "HLSQ",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-09 [424B3])"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:41:09",
-      "time_kst": "23:41:09",
-      "symbol": "OWLS",
-      "company_name": "OWLS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $206.7M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:40:53",
-      "time_kst": "23:40:53",
-      "symbol": "FACT",
-      "company_name": "FACT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $262.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:40:46",
-      "time_kst": "23:40:46",
-      "symbol": "CGEM",
-      "company_name": "CGEM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $701.88M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:40:35",
-      "time_kst": "23:40:35",
-      "symbol": "OCUL",
-      "company_name": "OCUL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1336.36M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
