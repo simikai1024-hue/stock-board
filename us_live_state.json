@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:40:05",
-  "updated_at_et": "2026-11-10 08:40:05",
-  "updated_epoch_ms": 1794318005986,
+  "updated_at_kst": "2026-11-10 22:40:47",
+  "updated_at_et": "2026-11-10 08:40:47",
+  "updated_epoch_ms": 1794318047999,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "22:40:02"
+    "updated_kst": "22:40:43"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "08:40:44",
+      "time_kst": "22:40:44",
+      "symbol": "GFUZ",
+      "company_name": "GFUZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $412.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "08:39:21",
       "time_kst": "22:39:21",
       "symbol": "BTDR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2734.86M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:15:30",
-      "time_kst": "20:15:30",
-      "symbol": "VWAV",
-      "company_name": "VWAV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.02,3.02,9.01))"
     }
   ]
 }
