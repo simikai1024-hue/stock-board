@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 21:00:16",
-  "updated_at_et": "2026-11-10 07:00:16",
-  "updated_epoch_ms": 1794312016377,
+  "updated_at_kst": "2026-11-10 21:01:14",
+  "updated_at_et": "2026-11-10 07:01:14",
+  "updated_epoch_ms": 1794312074046,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:10"
+    "updated_kst": "21:01:10"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "07:00:48",
+      "time_kst": "21:00:48",
+      "symbol": "ETOR",
+      "company_name": "ETOR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1919.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "06:56:15",
       "time_kst": "20:56:15",
       "symbol": "SXTP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $94.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:05:09",
-      "time_kst": "18:05:09",
-      "symbol": "VBIO",
-      "company_name": "VBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
