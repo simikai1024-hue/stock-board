@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:31:12",
-  "updated_at_et": "2026-11-10 09:31:12",
-  "updated_epoch_ms": 1794321072990,
+  "updated_at_kst": "2026-11-10 23:31:52",
+  "updated_at_et": "2026-11-10 09:31:52",
+  "updated_epoch_ms": 1794321112035,
   "analyzing": {
-    "active": true,
-    "symbol": "CIGL",
-    "company_name": "CIGL",
-    "exchange": "ND",
-    "price": 0.199,
-    "gain_pct": 3.11,
-    "mcap_m": 49.17,
-    "catalyst_hint": "[당일 PR] Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:31:09",
-    "started_at_kst": "23:31:09",
-    "started_epoch_ms": 1794321069182
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.88,
     "current_price": 0.8776,
     "profit_rate": -0.27,
-    "updated_kst": "23:30:59"
+    "updated_kst": "23:31:38"
   },
   "stats": {
-    "today_total": 2,
-    "today_nblm_count": 2,
+    "today_total": 3,
+    "today_nblm_count": 3,
     "today_buy": 1,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 60,
-    "total_verdicts": 134,
+    "total_verdicts": 135,
     "total_buy": 7,
-    "total_false": 127,
-    "avg_nblm_sec": 66.2
+    "total_false": 128,
+    "avg_nblm_sec": 58.4
   },
   "verdicts": [
+    {
+      "id": "v_1794321107805_CIGL_FALSE",
+      "date_et": "2026-11-10",
+      "weekday_kr": "화",
+      "time_et": "09:31:47",
+      "time_kst": "23:31:47",
+      "symbol": "CIGL",
+      "company_name": "CIGL",
+      "exchange": "ND",
+      "price": 0.199,
+      "gain_pct": 3.11,
+      "mcap_m": 49.17,
+      "decision": "FALSE",
+      "elapsed_sec": 42.6,
+      "reason": "단순 경영진 선임 PR(Dentris See as CEO)은 1급 확정 기폭제 미달 및 고점 대비 -17.0% 윗꼬리 덤핑으로 전량 차단",
+      "catalyst_hint": "[당일 PR] Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CIGL (Concorde International Group Ltd) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $49.17M USD (시가총액 $50.0M 이하 관문은 통과했으나 상한선 임계치 근접).\n실시간 체결가 및 수급: 전일 종가 $0.1930 대비 현재가 $0.1990 (+3.11%), 당일 최고가 $0.2399 (고점 대비 -17.0% 윗꼬리 급락 밀림), 당일 누적 거래대금 $71,294 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/10 08:12 ET) 공식 PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-10 [6-K] 접수.\nPR 제목: \"Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth\"\n원문 팩트: 자회사/그룹사인 YOOV Group의 신임 CEO로 Dentris See를 선임했다는 단순 경영진/임원 인사(CEO 선임) 보도자료.\n치명적 기폭제 결함 & 윗꼬리 덤핑 차트:\n오늘 발표된 6-K 및 보도자료는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(대규모 자사주 소각, FDA 승인, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 전혀 아닙니다.\n단순 **경영진/CEO 교체 및 선임 인사 발표(Executive/CEO Appointment)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 인사/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n당일 최고가($0.2399) 대비 현재가가 -17.0% 밀린 깊은 윗꼬리 차트를 만들고 있어, 단순 인사 뉴스를 틈탄 세력의 장전 덤핑 설거지 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 CEO 선임 인사 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하고, 고점 대비 -17.0% 밀리는 윗꼬리 차트를 형성하고 있으므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CIGL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: CIGL NOTES:\n[CIGL] 단순 경영진 선임 PR(Dentris See as CEO)은 1급 확정 기폭제 미달 및 고점 대비 -17.0% 윗꼬리 덤핑으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794320325285_MNDO_FALSE",
       "date_et": "2026-11-10",
@@ -2424,29 +2432,39 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 PPCB (Propanc Biopharma, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.52M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.8400 대비 현재가 $1.8200 (-1.09% 약보합/음봉), 당일 최고가 $1.8200. 장전 누적 거래대금 $0 USD로 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n사전 SEC 이력 및 희석 위험:\n2026-10-05 S-1 (신주 발행 등록신고서): 유상증자 및 주식 처분을 위한 S-1 증권등록신고서 제출 이력이 존재하여, 언제든 신주 유상증자/워런트 물량이 출회될 수 있는 희석 위험이 열려 있습니다 (심사 원칙 1번 위반).\n2026-10-29 8-K (Item 3.01): 나스닥 최소 입찰가($1.00) 미달 경고 통지 수령 공시로, 상장유지 회복 호재가 아닌 상장폐지 위험 경고 공시입니다.\n당일 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n사전 S-1 제출로 인한 희석 덤핑 위험이 잔존하고, 당일 확정 1급 기폭제 부재 및 장전 수급 부재($0 USD / -1.09%)를 나타내어 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: PPCB NOTES:\n[PPCB] 사전 S-1 증권등록 희석 위험 잔존 + 나스닥 $1.00 미달 경고(3.01) 및 장전 대금 $0(-1.09%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793626334643_WCT_FALSE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "08:32:14",
-      "time_kst": "22:32:14",
-      "symbol": "WCT",
-      "company_name": "WCT",
-      "exchange": "ND",
-      "price": 0.295,
-      "gain_pct": -4.84,
-      "mcap_m": 13.65,
-      "decision": "FALSE",
-      "elapsed_sec": 38.1,
-      "reason": "당일 확정 1급 기폭제 부재 및 전일 대비 -4.84% 약세/장전 대금 $0(수급 부재)로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 WCT (Wellchange Holdings Company Limited) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.65M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.3100 대비 현재가 $0.2950 (-4.84% 약세/음봉), 당일 최고가 $0.3400 (-13.2%). 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 6-K 원문 직독 검증\n사전 SEC 이력: 2026-10-13 [6-K] 제출 이력 확인.\n당일(11/02) D-Day 6-K 원문 분석:\n당일 제출된 6-K 공시 원문 검증 결과, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 수주/M&A 완료, 특별배당, 상장유지 회복 등)의 실체가 부재합니다.\n또한 주가가 전일 대비 -4.84% 약세를 기록하며 음봉 진행 중이고, 장전 누적 거래대금이 $0 USD에 불과하여 세력 유동성 유입 반응이 전혀 관측되지 않습니다.\n3. 최종 심사 및 결재 판정\n당일 확정 1급 기폭제가 부재하고 주가 약세(-4.84%) 및 거래대금 미달($0 USD)을 나타내어 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: WCT NOTES:\n[WCT] 당일 확정 1급 기폭제 부재 및 전일 대비 -4.84% 약세/장전 대금 $0(수급 부재)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:31:45",
+      "time_kst": "23:31:45",
+      "symbol": "FJET",
+      "company_name": "FJET",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:31:32",
+      "time_kst": "23:31:32",
+      "symbol": "XHLD",
+      "company_name": "XHLD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:31:27",
+      "time_kst": "23:31:27",
+      "symbol": "WCT",
+      "company_name": "WCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.36M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-10",
       "time_et": "09:17:12",
@@ -2916,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $965.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:05:52",
-      "time_kst": "21:05:52",
-      "symbol": "HQ",
-      "company_name": "HQ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $751.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:05:18",
-      "time_kst": "21:05:18",
-      "symbol": "IMTX",
-      "company_name": "IMTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $962.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:02:39",
-      "time_kst": "21:02:39",
-      "symbol": "GILT",
-      "company_name": "GILT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $548.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
