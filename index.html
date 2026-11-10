@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎯 공시·뉴스 +5% 그물망 스나이퍼 & AI 종가베팅 전광판</title>
-<link rel="icon" type="image/png" sizes="192x192" href="./icons/kr-192.png">
 <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
@@ -160,16 +159,16 @@
   }
 
   /* =========================================================================
-     🗂️ 2대 메인 메뉴 탭 스위치
+     🗂️ 상단 메인 헤더 배너
      ========================================================================= */
   .nav-tabs {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
   .nav-tab {
-    padding: 15px 18px;
+    padding: 15px 20px;
     border-radius: 16px;
     border: 1.5px solid rgba(71, 85, 105, 0.45);
     background: rgba(17, 25, 44, 0.72);
@@ -179,7 +178,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
   }
   .nav-tab:hover {
@@ -193,9 +192,9 @@
     letter-spacing: -0.3px;
   }
   .nav-tab-pill {
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 800;
-    padding: 3px 9px;
+    padding: 4px 11px;
     border-radius: 999px;
     background: rgba(15, 23, 42, 0.6);
     border: 1px solid rgba(148, 163, 184, 0.28);
@@ -213,7 +212,7 @@
     color: #FEF08A;
   }
   .nav-tab.active-after {
-    background: linear-gradient(135deg, rgba(109, 40, 217, 0.92) 0%, rgba(59, 7, 100, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(109, 40, 217, 0.92) 0%, rgba(59, 7, 100, 0.95) 0%);
     border-color: #C084FC;
     color: #FFFFFF;
     box-shadow: 0 8px 24px rgba(139, 92, 246, 0.30);
@@ -225,12 +224,12 @@
   }
 
   /* =========================================================================
-     📊 상단 4칸 한눈에 보는 요약 KPI 대시보드
+     📊 상단 2칸 핵심 요약 KPI 대시보드 (적중률 & 내 계좌 성적)
      ========================================================================= */
   .kpi-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
     margin-bottom: 16px;
   }
   .kpi-card {
@@ -238,7 +237,7 @@
     backdrop-filter: blur(10px);
     border: 1px solid var(--border-subtle);
     border-radius: 16px;
-    padding: 15px 17px;
+    padding: 16px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -971,22 +970,17 @@
     </div>
     <div class="ctrl-group">
       <span class="conn-dot" id="statusLbl">🟡 서버 연결 중...</span>
-      <a class="top-btn" href="./kr/" style="text-decoration:none;border-color:#FBBF24;color:#FEF08A;">📲 앱 설치버전 열기</a>
       <button class="top-btn" onclick="manualRefreshBoard()" title="최신 데이터를 즉시 다시 불러옵니다">🔄 새로고침</button>
       <button class="top-btn on" id="autoCopyBtn" onclick="toggleAutoCopy()">📋 자동복사 켜짐</button>
       <button class="top-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 켜기</button>
     </div>
   </div>
 
-  <!-- 🗂️ 상단 2대 메인 메뉴 탭 -->
+  <!-- 🗂️ 상단 메인 헤더 배너 -->
   <div class="nav-tabs">
     <button id="tabBtnMain" class="nav-tab active-main" onclick="switchTab('main')">
       <span class="nav-tab-main-txt">🎯 공시·뉴스 +5% 그물망 스나이퍼</span>
       <span class="nav-tab-pill" id="tabMainCountPill">🏛️공시 + 📰단독뉴스 · +5.0% 그물망</span>
-    </button>
-    <button id="tabBtnAfter" class="nav-tab" onclick="switchTab('aftermarket')">
-      <span class="nav-tab-main-txt">🧬 AI 역추적 종가베팅 (19:45)</span>
-      <span class="nav-tab-pill" id="tabAfterRatePill">익일 +5%↑ 검증</span>
     </button>
   </div>
 
@@ -995,28 +989,12 @@
        ========================================================================= -->
   <div id="sectionMain">
 
-    <!-- 1. 한눈에 보는 4칸 요약 KPI 카드 -->
+    <!-- 1. 한눈에 보는 2칸 핵심 요약 KPI 카드 (포착 적중률 & 내 계좌 성적) -->
     <div class="kpi-grid">
       <div class="kpi-card clickable" onclick="setCookedFilter('HIT5')" title="클릭하면 포착 후 +5.0% 이상 적중한 종목만 모아봅니다">
         <div class="kpi-label"><span>🎯 포착가 → +5.0% 적중률</span><span>클릭 필터</span></div>
         <div class="kpi-val" id="kpiAvgGain" style="color:#4ADE80;">적중 --%</div>
         <div class="kpi-sub" id="kpiAvgDayHigh">평균 최고 +--% · 종가 +--%</div>
-      </div>
-
-      <div class="kpi-card clickable" onclick="setBapTableMode('evo5')" title="클릭하면 15:35 공시+뉴스 통합 +5% 진화 학습장을 엽니다">
-        <div class="kpi-label"><span>🏛️ 선행공시 + 📰 단독뉴스</span><span>15:35 통합학습 보기</span></div>
-        <div class="kpi-val" id="kpiSuperRatio" style="color:#FDE047; font-size:22px;">공시 - · 뉴스 -</div>
-        <div class="kpi-sub" id="kpiSangCount">🛡️ 선공시 4분↑ 뒷북기사 자동차단 ON</div>
-      </div>
-
-      <div class="kpi-card">
-        <div class="kpi-label"><span>🕸️ 오전·오후 +5% 회전 규율</span><span>09:00 ~ 15:10</span></div>
-        <div class="kpi-val" style="font-size:19px; color:#7DD3FC;">체결즉시 +5.0% 지정가</div>
-        <div class="kpi-sub">
-          <span class="gt-mini" id="gtChip1">오전 09:05~11:30</span>
-          <span class="gt-mini" id="gtChip2">오후 12:30~15:10</span>
-          <span class="gt-mini" id="gtChip3">15:35 통합진화</span>
-        </div>
       </div>
 
       <div class="kpi-card clickable" onclick="setBapTableMode('ledger')" title="클릭하면 내 계좌 체결 기록을 봅니다">
@@ -1454,18 +1432,18 @@ function switchTab(tab) {
   const secAfter = document.getElementById("sectionAfter");
   const btnMain = document.getElementById("tabBtnMain");
   const btnAfter = document.getElementById("tabBtnAfter");
-  if (tab === "aftermarket") {
-    secMain.style.display = "none";
+  if (tab === "aftermarket" && secAfter && btnAfter) {
+    if (secMain) secMain.style.display = "none";
     secAfter.style.display = "block";
-    btnMain.className = "nav-tab";
+    if (btnMain) btnMain.className = "nav-tab";
     btnAfter.className = "nav-tab active-after";
     if (cachedAfterPayload) renderAftermarketBoard(cachedAfterPayload, true);
     try { history.replaceState(null, "", "#aftermarket"); } catch (e) {}
   } else {
-    secMain.style.display = "block";
-    secAfter.style.display = "none";
-    btnMain.className = "nav-tab active-main";
-    btnAfter.className = "nav-tab";
+    if (secMain) secMain.style.display = "block";
+    if (secAfter) secAfter.style.display = "none";
+    if (btnMain) btnMain.className = "nav-tab active-main";
+    if (btnAfter) btnAfter.className = "nav-tab";
     try { history.replaceState(null, "", "#main"); } catch (e) {}
   }
 }
@@ -1874,19 +1852,27 @@ function renderBapBoard(payload, forceRender) {
   const avgCloseRet = eodDoneCnt > 0 ? (sumCloseRet / eodDoneCnt) : 0.0;
   const hit5Rate = finCnt > 0 ? (hit5Cnt / finCnt * 100.0) : Number(stats.hit_5pct_rate || 0);
 
-  document.getElementById("kpiAvgGain").innerText =
-    `적중 ${hit5Rate.toFixed(0)}% (${hit5Cnt}/${finCnt || cookedList.length})`;
-  document.getElementById("kpiAvgDayHigh").innerHTML =
-    `최고평균 <b style="color:#FDE047;">+${avgPost.toFixed(1)}%</b> · 종가평균 <b style="color:#4ADE80;">${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%</b>`;
+  const agEl = document.getElementById("kpiAvgGain");
+  if (agEl) {
+    agEl.innerText = `적중 ${hit5Rate.toFixed(0)}% (${hit5Cnt}/${finCnt || cookedList.length})`;
+  }
+  const adhEl = document.getElementById("kpiAvgDayHigh");
+  if (adhEl) {
+    adhEl.innerHTML = `최고평균 <b style="color:#FDE047;">+${avgPost.toFixed(1)}%</b> · 종가평균 <b style="color:#4ADE80;">${avgCloseRet >= 0 ? '+' : ''}${avgCloseRet.toFixed(1)}%</b>`;
+  }
 
-  document.getElementById("kpiSuperRatio").innerText = `🏛️공시 ${dartCnt} · 📰뉴스 ${newsCnt}`;
-  if (evoDays.length > 0) {
-    const topEvo = evoDays[0];
-    document.getElementById("kpiSangCount").innerHTML =
-      `🧬 ${fmtShortDate(topEvo.date)} +5%정답: <b>🏛️공시 ${topEvo.win_dart_cnt || 0} · 📰뉴스 ${topEvo.win_pure_news_cnt || 0}종목</b>`;
-  } else {
-    document.getElementById("kpiSangCount").innerHTML =
-      `🛡️ 선공시 4분↑ 뒷북기사 자동차단 ON · 🔥+15%↑ <b>${up15Cnt}건</b>`;
+  const srEl = document.getElementById("kpiSuperRatio");
+  if (srEl) srEl.innerText = `🏛️공시 ${dartCnt} · 📰뉴스 ${newsCnt}`;
+  const scEl = document.getElementById("kpiSangCount");
+  if (scEl) {
+    if (evoDays.length > 0) {
+      const topEvo = evoDays[0];
+      scEl.innerHTML =
+        `🧬 ${fmtShortDate(topEvo.date)} +5%정답: <b>🏛️공시 ${topEvo.win_dart_cnt || 0} · 📰뉴스 ${topEvo.win_pure_news_cnt || 0}종목</b>`;
+    } else {
+      scEl.innerHTML =
+        `🛡️ 선공시 4분↑ 뒷북기사 자동차단 ON · 🔥+15%↑ <b>${up15Cnt}건</b>`;
+    }
   }
 
   // 필터 & 검색어 적용
