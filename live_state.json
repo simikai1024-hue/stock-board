@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 10:58:41",
+  "updated_at": "2026-11-10 11:02:33",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -42,7 +42,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 10:58:41",
+    "updated_at": "2026-11-10 11:02:33",
     "stats": {
       "total_closed": 6,
       "win_count": 2,
@@ -193,20 +193,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 10:58:41",
+    "updated_at": "2026-11-10 11:02:33",
     "stats": {
-      "cooked_count": 20,
+      "cooked_count": 21,
       "finalized_count": 18,
       "hit_5pct_count": 13,
       "hit_5pct_rate": 72.2,
-      "dart_count": 19,
+      "dart_count": 20,
       "news_count": 1,
-      "today_cooked_count": 2,
-      "avg_day_high_pct": 16.31,
-      "avg_open_to_high_pct": 16.55,
-      "avg_post_disc_max_pct": 11.73
+      "today_cooked_count": 3,
+      "avg_day_high_pct": 15.93,
+      "avg_open_to_high_pct": 16.14,
+      "avg_post_disc_max_pct": 11.17
     },
     "preparing_list": [
+      {
+        "code": "013870",
+        "name": "지엠비코리아",
+        "mcap_uk": 695,
+        "prep_tag": "✨ 대형공급계약 폭발!",
+        "prep_detail": "👑[특S급] 수주 2,304.9억 (시총의 331.6% · 매출비 29.3%) · 키워드[현대]",
+        "prep_date": "2026-11-10",
+        "cooked_today": true,
+        "disc_time": "11:02",
+        "day_high_pct": 8.37,
+        "open_to_high_pct": 7.92
+      },
       {
         "code": "194480",
         "name": "데브시스터즈",
@@ -472,20 +484,41 @@
         "cur_price": 5000,
         "flu_rt": -1.19,
         "cooked_today": false
-      },
-      {
-        "code": "017860",
-        "name": "DS단석",
-        "mcap_uk": 1684,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/20] 타법인주식및출자증권취득결정 (시총 1,684억)",
-        "prep_date": "2026-10-20",
-        "cur_price": 9540,
-        "flu_rt": -3.54,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-10",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "disc_time": "11:02",
+        "code": "013870",
+        "name": "지엠비코리아",
+        "channel": "DART",
+        "source_label": "DART",
+        "tier": "A+S",
+        "belt_passed": false,
+        "cat": "대형공급계약",
+        "summary": "👑[특S급] 수주 2,304.9억 (시총의 331.6% · 매출비 29.3%) · 키워드[현대]",
+        "rpt_title": "단일판매ㆍ공급계약체결",
+        "doc_url": "https://m.stock.naver.com/domestic/stock/013870/notice",
+        "mcap_uk": 695,
+        "prev_close": 3645,
+        "pre_disc_price": 3655,
+        "spike_from_pre_pct": 8.07,
+        "disc_price": 3950,
+        "target_5pct_price": 4145,
+        "entry_price": 3950,
+        "open_price": 3660,
+        "high_price": 3950,
+        "post_disc_high": 3950,
+        "close_price": 3950,
+        "open_to_high_pct": 7.92,
+        "day_high_pct": 8.37,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true
+      },
       {
         "date": "2026-11-10",
         "weekday": "화요일",
@@ -2560,7 +2593,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 10:58:41",
+    "updated_at": "2026-11-10 11:02:33",
     "deprecated": true,
     "stats": {},
     "days": []
