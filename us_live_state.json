@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:03:01",
-  "updated_at_et": "2026-11-10 04:03:01",
-  "updated_epoch_ms": 1794301381696,
+  "updated_at_kst": "2026-11-10 18:03:57",
+  "updated_at_et": "2026-11-10 04:03:57",
+  "updated_epoch_ms": 1794301437792,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:02:58"
+    "updated_kst": "18:03:55"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 9,
+    "today_hardcut": 13,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:03:54",
+      "time_kst": "18:03:54",
+      "symbol": "NXXT",
+      "company_name": "NXXT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:03:34",
+      "time_kst": "18:03:34",
+      "symbol": "VJET",
+      "company_name": "VJET",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:03:15",
+      "time_kst": "18:03:15",
+      "symbol": "SCOR",
+      "company_name": "SCOR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:03:07",
+      "time_kst": "18:03:07",
+      "symbol": "BESS",
+      "company_name": "BESS",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:02:36",
       "time_kst": "18:02:36",
       "symbol": "ABTS",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $82.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:03",
-      "time_kst": "23:39:03",
-      "symbol": "CDT",
-      "company_name": "CDT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-09 [424B3])"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:38:58",
-      "time_kst": "23:38:58",
-      "symbol": "SIRI",
-      "company_name": "SIRI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $10993.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:38:51",
-      "time_kst": "23:38:51",
-      "symbol": "PROF",
-      "company_name": "PROF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $267.38M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:38:41",
-      "time_kst": "23:38:41",
-      "symbol": "WHF",
-      "company_name": "WHF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $174.93M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
