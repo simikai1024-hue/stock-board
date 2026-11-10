@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 12:16:19",
+  "updated_at": "2026-11-10 12:16:22",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -79,26 +79,26 @@
       "qty": 1
     },
     {
-      "id": "1794280576431_240550_BUY",
+      "id": "1794280582034_240550_BUY",
       "type": "BUY",
-      "auto_copy": true,
-      "time": "2026-11-10 12:16:16",
+      "auto_copy": false,
+      "time": "2026-11-10 12:16:22",
       "name": "동방메디컬",
       "code": "240550",
-      "price": 6020,
+      "price": 6060,
       "flu_rt": 7.5,
       "val_uk": 0.0,
-      "target_price": 6320,
-      "stop_price": 5830,
+      "target_price": 6360,
+      "stop_price": 5870,
       "ammo_title": "⚡[KIND 실시간공시·기술수출/허가] 👑[특S급·기술수출/허가] 기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (AN (시총 1,216억)",
       "ammo_date": "20261110",
-      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0316449, 지정가:6,200원)! +5% 그물망 준비...",
-      "buy_price": 6020,
+      "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)",
+      "buy_price": 6060,
       "qty": 14
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 12:16:19",
+    "updated_at": "2026-11-10 12:16:22",
     "stats": {
       "total_closed": 7,
       "win_count": 3,
@@ -116,7 +116,7 @@
         "weekday_short": "화",
         "code": "240550",
         "name": "동방메디컬",
-        "buy_price": 6020,
+        "buy_price": 6060,
         "sell_price": 0,
         "qty": 14,
         "pnl_pct": 0.0,
@@ -125,7 +125,7 @@
         "buy_time": "12:16:16",
         "sell_time": "",
         "reason": "⚡[KIND 실시간공시·기술수출/허가] 👑[특S급·기술수출/허가] 기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (AN (시총 1,216억)",
-        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0316449, 지정가:6,200원)! +5% 그물망 준비..."
+        "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
       },
       {
         "date": "2026-11-10",
@@ -285,7 +285,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 12:16:19",
+    "updated_at": "2026-11-10 12:16:22",
     "stats": {
       "cooked_count": 23,
       "finalized_count": 18,
@@ -614,11 +614,11 @@
         "is_today_live": true,
         "my_trade": {
           "status": "OPEN",
-          "buy_price": 6020,
+          "buy_price": 6060,
           "sell_price": 0,
           "pnl_pct": 0.0,
           "pnl_krw": 0,
-          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0316449, 지정가:6,200원)! +5% 그물망 준비..."
+          "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
         }
       },
       {
@@ -2767,7 +2767,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 12:16:19",
+    "updated_at": "2026-11-10 12:16:22",
     "deprecated": true,
     "stats": {},
     "days": []
