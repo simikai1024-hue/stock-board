@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:39:51",
-  "updated_at_et": "2026-11-10 09:39:51",
-  "updated_epoch_ms": 1794321591603,
+  "updated_at_kst": "2026-11-10 23:40:25",
+  "updated_at_et": "2026-11-10 09:40:25",
+  "updated_epoch_ms": 1794321625561,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NNOX",
+    "company_name": "NNOX",
+    "exchange": "ND",
+    "price": 0.2524,
+    "gain_pct": 7.27,
+    "mcap_m": 19.88,
+    "catalyst_hint": "[당일 PR] Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:40:20",
+    "started_at_kst": "23:40:20",
+    "started_epoch_ms": 1794321620683
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.88,
     "current_price": 0.8895,
     "profit_rate": 1.08,
-    "updated_kst": "23:39:47"
+    "updated_kst": "23:40:07"
   },
   "stats": {
     "today_total": 3,
