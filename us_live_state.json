@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:56:26",
-  "updated_at_et": "2026-11-10 04:56:26",
-  "updated_epoch_ms": 1794304586728,
+  "updated_at_kst": "2026-11-10 18:57:23",
+  "updated_at_et": "2026-11-10 04:57:23",
+  "updated_epoch_ms": 1794304643006,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:56:23"
+    "updated_kst": "18:57:20"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 43,
+    "today_hardcut": 44,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:56:37",
+      "time_kst": "18:56:37",
+      "symbol": "SRTM",
+      "company_name": "SRTM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:53:45",
       "time_kst": "18:53:45",
       "symbol": "DKI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 1.16,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:43:01",
-      "time_kst": "23:43:01",
-      "symbol": "LI",
-      "company_name": "LI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $10012.86M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
