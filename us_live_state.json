@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 20:10:24",
-  "updated_at_et": "2026-11-10 06:10:24",
-  "updated_epoch_ms": 1794309024060,
+  "updated_at_kst": "2026-11-10 20:11:18",
+  "updated_at_et": "2026-11-10 06:11:18",
+  "updated_epoch_ms": 1794309078916,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:10:18"
+    "updated_kst": "20:11:14"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 54,
+    "today_hardcut": 55,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "06:11:13",
+      "time_kst": "20:11:13",
+      "symbol": "IMOS",
+      "company_name": "IMOS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1714.96M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "06:04:45",
       "time_kst": "20:04:45",
       "symbol": "BZUN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-06 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:01:09",
-      "time_kst": "18:01:09",
-      "symbol": "NCPL",
-      "company_name": "NCPL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
     }
   ]
 }
