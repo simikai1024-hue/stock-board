@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 11:16:47",
+  "updated_at": "2026-11-10 12:16:19",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -77,10 +77,28 @@
       "pnl_pct": 2.08,
       "buy_price": 69300,
       "qty": 1
+    },
+    {
+      "id": "1794280576431_240550_BUY",
+      "type": "BUY",
+      "auto_copy": true,
+      "time": "2026-11-10 12:16:16",
+      "name": "동방메디컬",
+      "code": "240550",
+      "price": 6020,
+      "flu_rt": 7.5,
+      "val_uk": 0.0,
+      "target_price": 6320,
+      "stop_price": 5830,
+      "ammo_title": "⚡[KIND 실시간공시·기술수출/허가] 👑[특S급·기술수출/허가] 기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (AN (시총 1,216억)",
+      "ammo_date": "20261110",
+      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0316449, 지정가:6,200원)! +5% 그물망 준비...",
+      "buy_price": 6020,
+      "qty": 14
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 11:16:47",
+    "updated_at": "2026-11-10 12:16:19",
     "stats": {
       "total_closed": 7,
       "win_count": 3,
@@ -92,6 +110,23 @@
       "total_pnl_krw": -10234
     },
     "rows": [
+      {
+        "date": "2026-11-10",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "code": "240550",
+        "name": "동방메디컬",
+        "buy_price": 6020,
+        "sell_price": 0,
+        "qty": 14,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "12:16:16",
+        "sell_time": "",
+        "reason": "⚡[KIND 실시간공시·기술수출/허가] 👑[특S급·기술수출/허가] 기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (AN (시총 1,216억)",
+        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0316449, 지정가:6,200원)! +5% 그물망 준비..."
+      },
       {
         "date": "2026-11-10",
         "weekday": "화요일",
@@ -250,20 +285,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 11:16:47",
+    "updated_at": "2026-11-10 12:16:19",
     "stats": {
-      "cooked_count": 22,
+      "cooked_count": 23,
       "finalized_count": 18,
       "hit_5pct_count": 13,
       "hit_5pct_rate": 72.2,
-      "dart_count": 21,
+      "dart_count": 22,
       "news_count": 1,
-      "today_cooked_count": 4,
-      "avg_day_high_pct": 15.55,
-      "avg_open_to_high_pct": 15.57,
-      "avg_post_disc_max_pct": 10.66
+      "today_cooked_count": 5,
+      "avg_day_high_pct": 15.26,
+      "avg_open_to_high_pct": 15.17,
+      "avg_post_disc_max_pct": 10.2
     },
     "preparing_list": [
+      {
+        "code": "240550",
+        "name": "동방메디컬",
+        "mcap_uk": 1216,
+        "prep_tag": "✨ 기술수출/허가 폭발!",
+        "prep_detail": "👑[특S급·기술수출/허가] 기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (AN (시총 1,216억)",
+        "prep_date": "2026-11-10",
+        "cooked_today": true,
+        "disc_time": "12:16",
+        "day_high_pct": 8.86,
+        "open_to_high_pct": 6.36
+      },
       {
         "code": "086900",
         "name": "메디톡스",
@@ -531,20 +578,49 @@
         "cur_price": 7580,
         "flu_rt": 5.28,
         "cooked_today": false
-      },
-      {
-        "code": "033530",
-        "name": "SJG세종",
-        "mcap_uk": 1523,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/22] 타법인주식및출자증권취득결정 (시총 1,523억)",
-        "prep_date": "2026-10-22",
-        "cur_price": 5630,
-        "flu_rt": -1.92,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-10",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "disc_time": "12:16",
+        "code": "240550",
+        "name": "동방메디컬",
+        "channel": "DART",
+        "source_label": "KIND",
+        "tier": "A+S",
+        "belt_passed": true,
+        "cat": "기술수출/허가",
+        "summary": "👑[특S급·기술수출/허가] 기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (AN (시총 1,216억)",
+        "rpt_title": "기타 경영사항(자율공시)(PHD HA Filler, 브라질 국가위생감시청 (ANVISA) 에서 품목허가)",
+        "doc_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261110000252",
+        "mcap_uk": 1216,
+        "prev_close": 5530,
+        "pre_disc_price": 5840,
+        "spike_from_pre_pct": 3.08,
+        "disc_price": 6020,
+        "target_5pct_price": 6320,
+        "entry_price": 6020,
+        "open_price": 5660,
+        "high_price": 6020,
+        "post_disc_high": 6020,
+        "close_price": 6020,
+        "open_to_high_pct": 6.36,
+        "day_high_pct": 8.86,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true,
+        "my_trade": {
+          "status": "OPEN",
+          "buy_price": 6020,
+          "sell_price": 0,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0,
+          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0316449, 지정가:6,200원)! +5% 그물망 준비..."
+        }
+      },
       {
         "date": "2026-11-10",
         "weekday": "화요일",
@@ -1292,7 +1368,7 @@
           "in_15m": 15,
           "in_30m": 15
         },
-        "director_note": "  [DART 선행공시 +5% 직행 성공 공식]: DART/KIND 1차 선행공시(3자배정 유증·어닝 서프라이즈·자사주 신탁)는 공시 04분 초입 진입 시 30분 최고 **+8.2%+28.3%** 수직 폭발하며 +5.0% 직행 성공 (오가닉티코스메틱 0분 +28.3%, 노을 12분 +17.0%, 비엠티 2분 +15.4%, 메타랩스/로지시스/아이즈비전/아즈텍WB 0분 +8.2%~+10.7%).\n  [고시총·뒷북뉴스·주총 100% 설거지 차단]: 시총 1,300억 초과 실적 공시(코텍 1,657억·GC메디아이 1,485억, 최고 +0.7%+1.6%, 종가 **-1.8%-4.9%**), 선공시 후 7분 경과 뒷북 기사 및 임총 공시(루멘스바이오스, 최고 +0.1%, 종가 -9.0%~-10.0%), 약한 수주 덤핑(인콘, 종가 -8.0%)은 음봉 피뢰침 설거지 100% 출회.\n  [실전 타격·ABORT_TRAP 검수 원칙]: DART/KIND 1차 원문 공시 0~2분 초입만 매수 승인하며, 시총 1,300억 초과 실적 공시, 임총/주총 결과 공시, 5분 이상 지연된 뒷북 뉴스 및 상단 추격 매수는 **ABORT_TRAP**으로 무조건 전량 차단.",
+        "director_note": "  [DART 선행공시 +5% 직행 성공 공식]: DART/KIND 1차 선행공시(3자배정 유증·어닝 서프라이즈·자사주 신탁)는 공시 04분 초입 진입 시 30분 최고 **+8.2%+28.3%** 수직 폭발하며 +5.0% 직행 성공 (오가닉티코스메틱 0분 +28.3%, 노을 12분 +17.0%, 비엠티 2분 +15.4%, 메타랩스/로지시스/아이즈비전/아즈텍WB 0분 +8.2%~+10.7%).\n  [원문독소·뒷북뉴스·주총 설거지 차단]: 선공시 후 7분 경과 뒷북 기사 및 임총 공시(루멘스바이오스, 최고 +0.1%, 종가 -9.0%~-10.0%), 약한 수주 덤핑(인콘, 종가 -8.0%)은 음봉 피뢰침 설거지 100% 출회.\n  [실전 타격·ABORT_TRAP 검수 원칙]: DART/KIND 1차 원문 공시 0~2분 초입만 매수 승인하며, 임총/주총 결과 공시, 5분 이상 지연된 뒷북 뉴스 및 상단 추격 매수는 **ABORT_TRAP**으로 무조건 전량 차단.",
         "actual_buys": [
           {
             "ymd": "20261109",
@@ -2216,7 +2292,7 @@
           "in_15m": 4,
           "in_30m": 4
         },
-        "director_note": "  [DART 선행공시 +5% 직행 성공 공식]: DART/KIND 선행공시(자사주 신탁·어닝 서프라이즈·대형 공급계약)는 시총 200억1,100억 원 대 소형주에서 01분 초입 진입 시 30분 최고 +7.2%~+10.9% 수직 폭발하며 +5.0% 직행 성공률 100% 달성.\n  [단독뉴스·선공시 뒷북 100% 설거지 차단]: DART 원문 없는 순수 단독 찌라시 기사(엔젠바이오·플랜티넷, 종가 -2.2%~-7.3%) 및 공시 후 3040분 경과된 재탕 뒷북 기사(케이지에이·신성이엔지, 최고 +03.4%, 종가 -3.0%~-4.3%)는 종가 음봉 피뢰침 설거지 100% 출회.\n  [실전 타격·검수 원칙]: DART/KIND 1차 원문 공시 발생 0~1분 초입만 매수 승인하며, 30분 이상 지연된 뒷북 뉴스 및 시총 1,300억 초과 무반응 실적공시(더즌)는 ABORT_TRAP 무조건 전량 차단.",
+        "director_note": "  [DART 선행공시 +5% 직행 성공 공식]: DART/KIND 선행공시(자사주 신탁·어닝 서프라이즈·대형 공급계약)는 시총 200억1,100억 원 대 소형주에서 01분 초입 진입 시 30분 최고 +7.2%~+10.9% 수직 폭발하며 +5.0% 직행 성공률 100% 달성.\n  [단독뉴스·선공시 뒷북 100% 설거지 차단]: DART 원문 없는 순수 단독 찌라시 기사(엔젠바이오·플랜티넷, 종가 -2.2%~-7.3%) 및 공시 후 3040분 경과된 재탕 뒷북 기사(케이지에이·신성이엔지, 최고 +03.4%, 종가 -3.0%~-4.3%)는 종가 음봉 피뢰침 설거지 100% 출회.\n  [실전 타격·검수 원칙]: DART/KIND 1차 원문 공시 발생 0~1분 초입만 매수 승인하며, 30분 이상 지연된 뒷북 뉴스는 ABORT_TRAP 무조건 전량 차단.",
         "actual_buys": [
           {
             "ymd": "20261106",
@@ -2691,7 +2767,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 11:16:47",
+    "updated_at": "2026-11-10 12:16:19",
     "deprecated": true,
     "stats": {},
     "days": []
