@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:37:07",
-  "updated_at_et": "2026-11-10 08:37:07",
-  "updated_epoch_ms": 1794317827830,
+  "updated_at_kst": "2026-11-10 22:37:29",
+  "updated_at_et": "2026-11-10 08:37:29",
+  "updated_epoch_ms": 1794317849977,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TURB",
+    "company_name": "TURB",
+    "exchange": "ND",
+    "price": 0.879,
+    "gain_pct": 3.14,
+    "mcap_m": 11.05,
+    "catalyst_hint": "[당일 PR] TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:37:23",
+    "started_at_kst": "22:37:23",
+    "started_epoch_ms": 1794317843581
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:37:01"
+    "updated_kst": "22:37:19"
   },
   "stats": {
     "today_total": 0,
