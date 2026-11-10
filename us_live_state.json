@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 19:23:14",
-  "updated_at_et": "2026-11-10 05:23:14",
-  "updated_epoch_ms": 1794306194421,
+  "updated_at_kst": "2026-11-10 19:24:14",
+  "updated_at_et": "2026-11-10 05:24:14",
+  "updated_epoch_ms": 1794306254119,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:23:08"
+    "updated_kst": "19:24:10"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 47,
+    "today_hardcut": 48,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "05:24:08",
+      "time_kst": "19:24:08",
+      "symbol": "OPTT",
+      "company_name": "OPTT",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "05:14:19",
       "time_kst": "19:14:19",
       "symbol": "BIAF",
@@ -2921,16 +2931,6 @@
       "time_kst": "23:58:59",
       "symbol": "ANVS",
       "company_name": "ANVS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:55:54",
-      "time_kst": "23:55:54",
-      "symbol": "STEM",
-      "company_name": "STEM",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
