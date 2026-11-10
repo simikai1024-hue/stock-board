@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-11 00:21:22",
-  "updated_at_et": "2026-11-10 10:21:22",
-  "updated_epoch_ms": 1794324082499,
+  "updated_at_kst": "2026-11-11 00:22:21",
+  "updated_at_et": "2026-11-10 10:22:21",
+  "updated_epoch_ms": 1794324141572,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "TURB",
     "holding_qty": 198,
     "avg_price": 0.88,
-    "current_price": 0.8792,
-    "profit_rate": -0.09,
-    "updated_kst": "00:21:19"
+    "current_price": 0.8793,
+    "profit_rate": -0.08,
+    "updated_kst": "00:22:18"
   },
   "stats": {
     "today_total": 4,
