@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:45:39",
-  "updated_at_et": "2026-11-10 08:45:39",
-  "updated_epoch_ms": 1794318339223,
+  "updated_at_kst": "2026-11-10 22:46:35",
+  "updated_at_et": "2026-11-10 08:46:35",
+  "updated_epoch_ms": 1794318395233,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "22:45:33"
+    "updated_kst": "22:46:31"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "08:45:46",
+      "time_kst": "22:45:46",
+      "symbol": "VABK",
+      "company_name": "VABK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $293.1M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "08:44:44",
       "time_kst": "22:44:44",
       "symbol": "MGRX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:21:27",
-      "time_kst": "20:21:27",
-      "symbol": "IBIO",
-      "company_name": "IBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.1M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
