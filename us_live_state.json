@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 19:26:11",
-  "updated_at_et": "2026-11-10 05:26:11",
-  "updated_epoch_ms": 1794306371625,
+  "updated_at_kst": "2026-11-10 19:27:11",
+  "updated_at_et": "2026-11-10 05:27:11",
+  "updated_epoch_ms": 1794306431565,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:26:09"
+    "updated_kst": "19:27:05"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 48,
+    "today_hardcut": 49,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "05:26:31",
+      "time_kst": "19:26:31",
+      "symbol": "AUUD",
+      "company_name": "AUUD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "05:24:08",
       "time_kst": "19:24:08",
       "symbol": "OPTT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:58:59",
-      "time_kst": "23:58:59",
-      "symbol": "ANVS",
-      "company_name": "ANVS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
