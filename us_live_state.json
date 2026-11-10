@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:30:47",
-  "updated_at_et": "2026-11-10 09:30:47",
-  "updated_epoch_ms": 1794321047101,
+  "updated_at_kst": "2026-11-10 23:31:12",
+  "updated_at_et": "2026-11-10 09:31:12",
+  "updated_epoch_ms": 1794321072990,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CIGL",
+    "company_name": "CIGL",
+    "exchange": "ND",
+    "price": 0.199,
+    "gain_pct": 3.11,
+    "mcap_m": 49.17,
+    "catalyst_hint": "[당일 PR] Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:31:09",
+    "started_at_kst": "23:31:09",
+    "started_epoch_ms": 1794321069182
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.88,
     "current_price": 0.8776,
     "profit_rate": -0.27,
-    "updated_kst": "23:30:41"
+    "updated_kst": "23:30:59"
   },
   "stats": {
     "today_total": 2,
