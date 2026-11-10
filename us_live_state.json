@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 21:01:14",
-  "updated_at_et": "2026-11-10 07:01:14",
-  "updated_epoch_ms": 1794312074046,
+  "updated_at_kst": "2026-11-10 21:02:16",
+  "updated_at_et": "2026-11-10 07:02:16",
+  "updated_epoch_ms": 1794312136241,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:01:10"
+    "updated_kst": "21:02:10"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "07:01:52",
+      "time_kst": "21:01:52",
+      "symbol": "BNTX",
+      "company_name": "BNTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $21569.75M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "07:01:33",
+      "time_kst": "21:01:33",
+      "symbol": "REFI",
+      "company_name": "REFI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $227.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "07:01:23",
+      "time_kst": "21:01:23",
+      "symbol": "LQDA",
+      "company_name": "LQDA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4251.67M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "07:00:48",
       "time_kst": "21:00:48",
       "symbol": "ETOR",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K/A] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:15:35",
-      "time_kst": "18:15:35",
-      "symbol": "CISS",
-      "company_name": "CISS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:05:31",
-      "time_kst": "18:05:31",
-      "symbol": "ANVS",
-      "company_name": "ANVS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:05:16",
-      "time_kst": "18:05:16",
-      "symbol": "UFG",
-      "company_name": "UFG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $94.47M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
