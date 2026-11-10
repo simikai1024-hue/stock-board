@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:00:12",
-  "updated_at_et": "2026-11-10 09:00:12",
-  "updated_epoch_ms": 1794319212802,
+  "updated_at_kst": "2026-11-10 23:01:02",
+  "updated_at_et": "2026-11-10 09:01:02",
+  "updated_epoch_ms": 1794319262366,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "23:00:06"
+    "updated_kst": "23:00:45"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:00:58",
+      "time_kst": "23:00:58",
+      "symbol": "SPAI",
+      "company_name": "SPAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $67.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "08:58:34",
       "time_kst": "22:58:34",
       "symbol": "WKSP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1919.94M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:56:15",
-      "time_kst": "20:56:15",
-      "symbol": "SXTP",
-      "company_name": "SXTP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
