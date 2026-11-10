@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:43:45",
-  "updated_at_et": "2026-11-10 08:43:45",
-  "updated_epoch_ms": 1794318225325,
+  "updated_at_kst": "2026-11-10 22:44:41",
+  "updated_at_et": "2026-11-10 08:44:41",
+  "updated_epoch_ms": 1794318281975,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "22:43:39"
+    "updated_kst": "22:44:36"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "08:44:36",
+      "time_kst": "22:44:36",
+      "symbol": "CHGA",
+      "company_name": "CHGA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "08:41:38",
       "time_kst": "22:41:38",
       "symbol": "OSTX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-23 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:20:07",
-      "time_kst": "20:20:07",
-      "symbol": "WHLR",
-      "company_name": "WHLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 3.02))"
     }
   ]
 }
