@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:15:47",
-  "updated_at_et": "2026-11-10 04:15:47",
-  "updated_epoch_ms": 1794302147997,
+  "updated_at_kst": "2026-11-10 18:16:34",
+  "updated_at_et": "2026-11-10 04:16:34",
+  "updated_epoch_ms": 1794302194780,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:15:41"
+    "updated_kst": "18:16:20"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 20,
+    "today_hardcut": 25,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:16:32",
+      "time_kst": "18:16:32",
+      "symbol": "HLSQ",
+      "company_name": "HLSQ",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-23 [8-K] (Item 3.02,5.02,5.07,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:16:15",
+      "time_kst": "18:16:15",
+      "symbol": "RCT",
+      "company_name": "RCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:16:09",
+      "time_kst": "18:16:09",
+      "symbol": "VIVK",
+      "company_name": "VIVK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-04 [8-K] (Item 3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:16:00",
+      "time_kst": "18:16:00",
+      "symbol": "IPDN",
+      "company_name": "IPDN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-21 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:15:55",
+      "time_kst": "18:15:55",
+      "symbol": "RUBI",
+      "company_name": "RUBI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.02M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:15:45",
       "time_kst": "18:15:45",
       "symbol": "WFF",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1336.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:40:28",
-      "time_kst": "23:40:28",
-      "symbol": "INO",
-      "company_name": "INO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $131.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:40:18",
-      "time_kst": "23:40:18",
-      "symbol": "AVIR",
-      "company_name": "AVIR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $348.09M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:40:10",
-      "time_kst": "23:40:10",
-      "symbol": "ADIL",
-      "company_name": "ADIL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-26 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:58",
-      "time_kst": "23:39:58",
-      "symbol": "SLNH",
-      "company_name": "SLNH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $125.25M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:50",
-      "time_kst": "23:39:50",
-      "symbol": "NCPL",
-      "company_name": "NCPL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
     }
   ]
 }
