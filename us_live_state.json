@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:53:35",
-  "updated_at_et": "2026-11-10 04:53:35",
-  "updated_epoch_ms": 1794304415814,
+  "updated_at_kst": "2026-11-10 18:54:31",
+  "updated_at_et": "2026-11-10 04:54:31",
+  "updated_epoch_ms": 1794304471495,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:53:32"
+    "updated_kst": "18:54:29"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 42,
+    "today_hardcut": 43,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:53:45",
+      "time_kst": "18:53:45",
+      "symbol": "DKI",
+      "company_name": "DKI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B4])"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:46:44",
       "time_kst": "18:46:44",
       "symbol": "NCT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $10012.86M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:42:53",
-      "time_kst": "23:42:53",
-      "symbol": "KSPI",
-      "company_name": "KSPI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $17072.03M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
