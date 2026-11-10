@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:38:52",
-  "updated_at_et": "2026-11-10 09:38:52",
-  "updated_epoch_ms": 1794321532810,
+  "updated_at_kst": "2026-11-10 23:39:51",
+  "updated_at_et": "2026-11-10 09:39:51",
+  "updated_epoch_ms": 1794321591603,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.8895,
     "profit_rate": 1.08,
-    "updated_kst": "23:38:49"
+    "updated_kst": "23:39:47"
   },
   "stats": {
     "today_total": 3,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:39:17",
+      "time_kst": "23:39:17",
+      "symbol": "XGPU",
+      "company_name": "XGPU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:36:15",
       "time_kst": "23:36:15",
       "symbol": "BGSF",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $469.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:30:33",
-      "time_kst": "21:30:33",
-      "symbol": "ROC",
-      "company_name": "ROC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $75.37M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
