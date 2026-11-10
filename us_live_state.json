@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:01:15",
-  "updated_at_et": "2026-11-10 04:01:15",
-  "updated_epoch_ms": 1794301275634,
+  "updated_at_kst": "2026-11-10 18:02:09",
+  "updated_at_et": "2026-11-10 04:02:09",
+  "updated_epoch_ms": 1794301329284,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:58"
+    "updated_kst": "18:01:58"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 5,
+    "today_hardcut": 8,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:02:05",
+      "time_kst": "18:02:05",
+      "symbol": "WORX",
+      "company_name": "WORX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-26 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:01:33",
+      "time_kst": "18:01:33",
+      "symbol": "WLDS",
+      "company_name": "WLDS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-07 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:01:22",
+      "time_kst": "18:01:22",
+      "symbol": "INV",
+      "company_name": "INV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-06 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:01:09",
       "time_kst": "18:01:09",
       "symbol": "NCPL",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $286.35M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:38:31",
-      "time_kst": "23:38:31",
-      "symbol": "EVLV",
-      "company_name": "EVLV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $844.95M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:38:27",
-      "time_kst": "23:38:27",
-      "symbol": "INM",
-      "company_name": "INM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $85.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:38:21",
-      "time_kst": "23:38:21",
-      "symbol": "JSPR",
-      "company_name": "JSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $516.33M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
