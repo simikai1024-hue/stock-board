@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:15:04",
-  "updated_at_et": "2026-11-10 04:15:04",
-  "updated_epoch_ms": 1794302104426,
+  "updated_at_kst": "2026-11-10 18:15:47",
+  "updated_at_et": "2026-11-10 04:15:47",
+  "updated_epoch_ms": 1794302147997,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:15:00"
+    "updated_kst": "18:15:41"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 17,
+    "today_hardcut": 20,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:15:45",
+      "time_kst": "18:15:45",
+      "symbol": "WFF",
+      "company_name": "WFF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:15:39",
+      "time_kst": "18:15:39",
+      "symbol": "CODX",
+      "company_name": "CODX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K/A] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:15:35",
+      "time_kst": "18:15:35",
+      "symbol": "CISS",
+      "company_name": "CISS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:05:31",
       "time_kst": "18:05:31",
       "symbol": "ANVS",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:41",
-      "time_kst": "23:39:41",
-      "symbol": "GT",
-      "company_name": "GT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1226.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:36",
-      "time_kst": "23:39:36",
-      "symbol": "VRDN",
-      "company_name": "VRDN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3252.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:33",
-      "time_kst": "23:39:33",
-      "symbol": "BPOP",
-      "company_name": "BPOP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $9814.69M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
