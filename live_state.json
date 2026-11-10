@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 11:16:00",
+  "updated_at": "2026-11-10 11:16:04",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -41,26 +41,26 @@
       "qty": 10
     },
     {
-      "id": "1794276957028_086900_BUY",
+      "id": "1794276961130_086900_BUY",
       "type": "BUY",
-      "auto_copy": true,
-      "time": "2026-11-10 11:15:57",
+      "auto_copy": false,
+      "time": "2026-11-10 11:16:01",
       "name": "메디톡스",
       "code": "086900",
-      "price": 67900,
+      "price": 69300,
       "flu_rt": 6.26,
       "val_uk": 0.0,
-      "target_price": 71200,
-      "stop_price": 65800,
+      "target_price": 72700,
+      "stop_price": 67200,
       "ammo_title": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 155억 급증(YoY +74%·QoQ +226%) (시총 4,613억)",
       "ammo_date": "20261110",
-      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0276951, 지정가:69,900원)! +5% 그물망 준비...",
-      "buy_price": 67900,
+      "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)",
+      "buy_price": 69300,
       "qty": 1
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 11:16:00",
+    "updated_at": "2026-11-10 11:16:04",
     "stats": {
       "total_closed": 6,
       "win_count": 2,
@@ -78,7 +78,7 @@
         "weekday_short": "화",
         "code": "086900",
         "name": "메디톡스",
-        "buy_price": 67900,
+        "buy_price": 69300,
         "sell_price": 0,
         "qty": 1,
         "pnl_pct": 0.0,
@@ -87,7 +87,7 @@
         "buy_time": "11:15:57",
         "sell_time": "",
         "reason": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 155억 급증(YoY +74%·QoQ +226%) (시총 4,613억)",
-        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0276951, 지정가:69,900원)! +5% 그물망 준비..."
+        "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
       },
       {
         "date": "2026-11-10",
@@ -228,7 +228,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 11:16:00",
+    "updated_at": "2026-11-10 11:16:04",
     "stats": {
       "cooked_count": 22,
       "finalized_count": 18,
@@ -556,11 +556,11 @@
         "is_today_live": true,
         "my_trade": {
           "status": "OPEN",
-          "buy_price": 67900,
+          "buy_price": 69300,
           "sell_price": 0,
           "pnl_pct": 0.0,
           "pnl_krw": 0,
-          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0276951, 지정가:69,900원)! +5% 그물망 준비..."
+          "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
         }
       },
       {
@@ -2669,7 +2669,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 11:16:00",
+    "updated_at": "2026-11-10 11:16:04",
     "deprecated": true,
     "stats": {},
     "days": []
