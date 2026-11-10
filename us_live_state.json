@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:15:07",
-  "updated_at_et": "2026-11-10 09:15:07",
-  "updated_epoch_ms": 1794320107285,
+  "updated_at_kst": "2026-11-10 23:16:07",
+  "updated_at_et": "2026-11-10 09:16:07",
+  "updated_epoch_ms": 1794320167407,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "23:15:02"
+    "updated_kst": "23:16:01"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:15:11",
+      "time_kst": "23:15:11",
+      "symbol": "QNME",
+      "company_name": "QNME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:07:59",
       "time_kst": "23:07:59",
       "symbol": "SSYS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $21569.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:01:33",
-      "time_kst": "21:01:33",
-      "symbol": "REFI",
-      "company_name": "REFI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $227.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
