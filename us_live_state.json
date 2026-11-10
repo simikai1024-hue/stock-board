@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 20:21:15",
-  "updated_at_et": "2026-11-10 06:21:15",
-  "updated_epoch_ms": 1794309675796,
+  "updated_at_kst": "2026-11-10 20:22:13",
+  "updated_at_et": "2026-11-10 06:22:13",
+  "updated_epoch_ms": 1794309733002,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:21:12"
+    "updated_kst": "20:22:10"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "06:21:27",
+      "time_kst": "20:21:27",
+      "symbol": "IBIO",
+      "company_name": "IBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.1M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "06:21:12",
       "time_kst": "20:21:12",
       "symbol": "TRAW",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:03:15",
-      "time_kst": "18:03:15",
-      "symbol": "SCOR",
-      "company_name": "SCOR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.26M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
