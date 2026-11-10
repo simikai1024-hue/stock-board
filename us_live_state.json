@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:05:22",
-  "updated_at_et": "2026-11-10 04:05:22",
-  "updated_epoch_ms": 1794301522282,
+  "updated_at_kst": "2026-11-10 18:06:17",
+  "updated_at_et": "2026-11-10 04:06:17",
+  "updated_epoch_ms": 1794301577027,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:05:15"
+    "updated_kst": "18:06:13"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 16,
+    "today_hardcut": 17,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:05:31",
+      "time_kst": "18:05:31",
+      "symbol": "ANVS",
+      "company_name": "ANVS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:05:16",
       "time_kst": "18:05:16",
       "symbol": "UFG",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $9814.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:39:28",
-      "time_kst": "23:39:28",
-      "symbol": "HRTX",
-      "company_name": "HRTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $74.69M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
