@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:38:27",
-  "updated_at_et": "2026-11-10 08:38:27",
-  "updated_epoch_ms": 1794317907545,
+  "updated_at_kst": "2026-11-10 22:38:38",
+  "updated_at_et": "2026-11-10 08:38:38",
+  "updated_epoch_ms": 1794317918863,
   "analyzing": {
-    "active": true,
-    "symbol": "TURB",
-    "company_name": "TURB",
-    "exchange": "ND",
-    "price": 0.879,
-    "gain_pct": 3.14,
-    "mcap_m": 11.05,
-    "catalyst_hint": "[당일 PR] TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:37:23",
-    "started_at_kst": "22:37:23",
-    "started_epoch_ms": 1794317843581
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -34,17 +22,37 @@
     "updated_kst": "22:38:21"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
-    "today_buy": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
+    "today_buy": 1,
     "today_false": 0,
     "today_hardcut": 60,
-    "total_verdicts": 132,
-    "total_buy": 6,
+    "total_verdicts": 133,
+    "total_buy": 7,
     "total_false": 126,
-    "avg_nblm_sec": 36.0
+    "avg_nblm_sec": 72.5
   },
   "verdicts": [
+    {
+      "id": "v_1794317912529_TURB_BUY",
+      "date_et": "2026-11-10",
+      "weekday_kr": "화",
+      "time_et": "08:38:32",
+      "time_kst": "22:38:32",
+      "symbol": "TURB",
+      "company_name": "TURB",
+      "exchange": "ND",
+      "price": 0.879,
+      "gain_pct": 3.14,
+      "mcap_m": 11.05,
+      "decision": "BUY",
+      "elapsed_sec": 72.5,
+      "reason": "시총($11.05M) 대비 약 69% 규모인 $7.6M 확정 수주 6-K+공식 PR 세트 결합 및 장전 +3.14% 무결점 초입으로 즉시 매수 승인",
+      "catalyst_hint": "[당일 PR] TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TURB (Turbo Energy, S.A.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.05M USD (연구소 시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 체결가 및 수급: 전일 종가 $0.8522 대비 현재가 $0.8790 (+3.14%), 당일 최고가 $0.8899 (고점 대비 -1.2%로 고가 유지), 당일 누적 거래대금 $59,232 USD로 프리장 수급 유입 시작.\n차트 건전성: 장전 +200% 이상 폭등하여 상투를 잡는 갭소멸 설거지 차트가 전혀 아니며, 고점 대비 급락(-20%↓) 없이 시초 진입 시 강력한 추가 폭등 탄력이 살아있는 극초기 무결점 매집 구간입니다.\n2. D-Day SEC 6-K 본공시 + 공식 PR 원문 직독 정밀 검증 (트랙 1 합격)\n당일(11/10) SEC 본공시 & 공식 PR 세트 결합:\nSEC 공시 현황: 2026-11-10 [6-K] 본공시 접수 완료.\n공식 통신사 PR (08:30:00 ET): \"TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS\"\n원문 팩트 및 1급 기폭제 요건 검증:\n구체적 달러 금액 명시 대형 수주: 금액 미기재 단순 MOU/샘플/특허나 IR 주주서한이 아니라, 구체적 달러 금액인 $7.6 Million ($7,600,000 USD) 규모의 추가 저장 장치 및 에너지 관리 확정 수주(Additional Orders)가 명시된 진성 계약입니다.\n체급 대비 파괴력: 실질 시가총액($11.05M) 대비 무려 68.8%에 달하는 메가톤급 대형 수주로 당일 기업 가치를 수직 리레이팅시킬 수 있는 확실한 1급 기폭제에 해당합니다.\n주식 희석 위험 부재: 활성 424B5(ATM), 당일 신규 EFFECT, 8-K 3.02 등 신주·워런트 덤핑 창구가 일절 열려 있지 않은 무결점 상태입니다.\n사후 뒷북 병합 착시 부재: 주식병합 효력 1일차 여부가 False로 확인되어 BJDX형 행정 뒷북 병합 함정과 완전히 무관합니다.\n3. 최종 심사 및 결재 판정\n시총 $11.05M 나스닥 소형 품절주에 시총의 약 69%에 육박하는 $7.6M 확정 수주 6-K 본공시 + 공식 PR 세트가 완벽 동기화되었고, 장전 +3.14% 극초입 구간이므로 연구소 본장 트랙 1 기준에 따라 **FORCE_BUY: TURB**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: TURB FORCE_BLOCK: NONE NOTES:\n[TURB] 시총($11.05M) 대비 약 69% 규모인 $7.6M 확정 수주 6-K+공식 PR 세트 결합 및 장전 +3.14% 무결점 초입으로 즉시 매수 승인 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_manual_20261109_XHLD",
       "date_et": "2026-11-09",
@@ -2424,26 +2432,6 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 TOVX (Theriva Biologics, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.98M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.1710 대비 현재가 $0.2175 (+27.19%), 당일 최고가 $0.2491 (-12.7%). 장전 누적 거래대금 $0 USD로 수급 수직 유입 부재.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 주주총회 소집 안건(DEF 14A/PRE 14A) 외 특이 수시 공시 없음.\n당일(11/02 08:00 ET) PR 원문 정밀 분석:\nPR 제목: \"Theriva™ Biologics Announces Sale of SYN-004 (ribaxamase) and Related Antibiotic-Degrading Enzyme Portfolio to Biossil Labs Inc.\"\n원문 금액 및 조건 팩트:\n클로징 시 수령한 확정 선급금(Upfront Payment): $350,000 ($35만 달러 = 한화 약 4.8억 원의 극소액).\n마일스톤 조건: 향후 인허가 및 매출 달성 시 최대 $91.0M 조건부 수령 가능성 명시.\n기폭제 결함:\n확정 수령 현금인 선급금 $35만 달러는 시가총액 대비로도 기업 가치를 수직 폭등시키기엔 턱없이 적은 극소액 현금 유입에 불과합니다.\n제목의 '$9,100만 달러'는 미래의 조건부 임상/매출 마일스톤(Conditional Milestone)일 뿐, 오늘 당일 기업 가치로 수용되는 확정 현금 유입이나 대형 M&A 완결이 아닙니다.\n이는 AIOK($1,800만 달러 확정 현금 매각)와 같은 특S급 기폭제와 달리, '소액 선급금 + 미확정 미래 마일스톤 조합'의 전형적인 개잡주 착시 PR입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 실질 확정 현금 유입이 턱없이 적은 소액 선급금($35만) 및 미확정 조건부 마일스톤에 불과하여 전략 헌장 2번·3번 원칙에 의거 1급 확정 기폭제 미달로 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: TOVX NOTES:\n[TOVX] 확정 선급금 $35만(약 4.8억)은 극소액이며 $9,100만 마일스톤은 미확정 조건부에 불과하여 1급 확정 기폭제 미달 및 장전 대금 $0 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 모의검증",
       "trade_action": "모의검증 (주문미실행)"
-    },
-    {
-      "id": "seed_2026-11-02_080216_CRMT",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "08:02:16",
-      "time_kst": "22:02:16",
-      "symbol": "CRMT",
-      "company_name": "CRMT",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 41.7,
-      "reason": "신용한도 유예/수정(Credit Facility Waiver) 공시로 3번 원칙(단순 대출연장/유예 차단) 위반 및 장전 대금 $0(-0.48%) 전량 차단",
-      "catalyst_hint": "",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 CRMT (America's Car-Mart, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.67M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.0450 대비 현재가 $1.0400 (-0.48% 약보합), 당일 최고가 $1.0400. 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 공시 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 8-K (Item 1.01, 2.03, 8.01) 연속 공시 제출 이력 확인.\n당일(11/02) D-Day 8-K (Item 1.01) 원문 정밀 분석:\n공시 내용: Silver Point Finance, LLC와의 신용 및 보증 계약에 대한 수정 및 한시적 유예(First Amendment and Limited Waiver to Credit and Guaranty Agreement) 체결.\n기폭제 결함: 당일 제출된 8-K 공시는 기존 은행 대출/신용한도 계약 조건의 수정 및 한시적 유예(Credit Facility Waiver / Extension) 공시에 불과합니다. 이는 심사 원칙 3번에서 엄격히 금지하는 **'단순 은행 대출·신용한도 연장/유예(ACH 실패 패턴)'**에 완벽히 해당하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 확정 달러 수주/M&A 완료, 특별배당 등)가 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 8-K 공시가 단순 신용한도 계약 유예/수정 공시에 불과하고, 장전 누적 거래대금($0 USD) 및 시세(-0.48%) 반응이 전무하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: CRMT NOTES:\n[CRMT] 신용한도 유예/수정(Credit Facility Waiver) 공시로 3번 원칙(단순 대출연장/유예 차단) 위반 및 장전 대금 $0(-0.48%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "차단(패스)"
     }
   ],
   "hardcuts": [
