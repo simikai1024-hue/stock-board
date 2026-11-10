@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:47:02",
-  "updated_at_et": "2026-11-10 09:47:02",
-  "updated_epoch_ms": 1794322022889,
+  "updated_at_kst": "2026-11-10 23:47:58",
+  "updated_at_et": "2026-11-10 09:47:58",
+  "updated_epoch_ms": 1794322078821,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.8794,
     "profit_rate": -0.07,
-    "updated_kst": "23:46:59"
+    "updated_kst": "23:47:41"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:47:52",
+      "time_kst": "23:47:52",
+      "symbol": "DDC",
+      "company_name": "DDC",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B5])"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:47:36",
+      "time_kst": "23:47:36",
+      "symbol": "DCM",
+      "company_name": "DCM",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:47:32",
+      "time_kst": "23:47:32",
+      "symbol": "HDRN",
+      "company_name": "HDRN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.01M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:47:16",
+      "time_kst": "23:47:16",
+      "symbol": "UPC",
+      "company_name": "UPC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:47:13",
+      "time_kst": "23:47:13",
+      "symbol": "MYO",
+      "company_name": "MYO",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:42:50",
       "time_kst": "23:42:50",
       "symbol": "IH",
@@ -2884,56 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1638.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:54:13",
-      "time_kst": "21:54:13",
-      "symbol": "INTR",
-      "company_name": "INTR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1764.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:49:03",
-      "time_kst": "21:49:03",
-      "symbol": "CAN",
-      "company_name": "CAN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $126.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:42:07",
-      "time_kst": "21:42:07",
-      "symbol": "MIRM",
-      "company_name": "MIRM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6090.81M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:37:13",
-      "time_kst": "21:37:13",
-      "symbol": "QUCY",
-      "company_name": "QUCY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $63.77M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:32:24",
-      "time_kst": "21:32:24",
-      "symbol": "ENTG",
-      "company_name": "ENTG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $21069.59M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
