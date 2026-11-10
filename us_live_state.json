@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:07:03",
-  "updated_at_et": "2026-11-10 09:07:03",
-  "updated_epoch_ms": 1794319623050,
+  "updated_at_kst": "2026-11-10 23:08:00",
+  "updated_at_et": "2026-11-10 09:08:00",
+  "updated_epoch_ms": 1794319680011,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "23:06:59"
+    "updated_kst": "23:07:56"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:07:59",
+      "time_kst": "23:07:59",
+      "symbol": "SSYS",
+      "company_name": "SSYS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $585.75M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:04:29",
       "time_kst": "23:04:29",
       "symbol": "ICLR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $227.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:01:23",
-      "time_kst": "21:01:23",
-      "symbol": "LQDA",
-      "company_name": "LQDA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4251.67M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
