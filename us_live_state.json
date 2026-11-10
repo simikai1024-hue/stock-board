@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:27:22",
-  "updated_at_et": "2026-11-10 08:27:22",
-  "updated_epoch_ms": 1794317242054,
+  "updated_at_kst": "2026-11-10 22:28:24",
+  "updated_at_et": "2026-11-10 08:28:24",
+  "updated_epoch_ms": 1794317304942,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:27:19"
+    "updated_kst": "22:28:19"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "08:27:41",
+      "time_kst": "22:27:41",
+      "symbol": "GOAI",
+      "company_name": "GOAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "08:22:56",
       "time_kst": "22:22:56",
       "symbol": "TNON",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $184.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:04:36",
-      "time_kst": "20:04:36",
-      "symbol": "ATAT",
-      "company_name": "ATAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4033.92M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
