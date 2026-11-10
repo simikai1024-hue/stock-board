@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-09",
-  "updated_at_kst": "2026-11-10 13:39:32",
-  "updated_at_et": "2026-11-09 23:39:32",
-  "updated_epoch_ms": 1794285572857,
+  "updated_at_kst": "2026-11-10 13:40:10",
+  "updated_at_et": "2026-11-09 23:40:10",
+  "updated_epoch_ms": 1794285610691,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "13:39:29"
+    "updated_kst": "13:40:06"
   },
   "stats": {
-    "today_total": 27,
+    "today_total": 28,
     "today_nblm_count": 27,
-    "today_buy": 1,
+    "today_buy": 2,
     "today_false": 26,
     "today_hardcut": 60,
-    "total_verdicts": 131,
-    "total_buy": 5,
+    "total_verdicts": 132,
+    "total_buy": 6,
     "total_false": 126,
     "avg_nblm_sec": 38.4
   },
   "verdicts": [
+    {
+      "id": "v_manual_20261109_XHLD",
+      "date_et": "2026-11-09",
+      "weekday_kr": "월",
+      "time_et": "10:27:00",
+      "time_kst": "00:27:00",
+      "symbol": "XHLD",
+      "company_name": "Ten Holdings, Inc.",
+      "exchange": "ND",
+      "price": 0.966,
+      "gain_pct": 76.0,
+      "mcap_m": 2.8,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "본장 수동 진입 포지션 감지 -> -15% 방어 손절선 연속 확인 후 자동 보호 청산 실행",
+      "catalyst_hint": "[수동진입 -> 봇 자동손절 방어]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🛡️ 손절 청산: 216주 | 매수 $0.9660 → 매도 $0.8183 (-15.29% / -$31.90)"
+    },
     {
       "id": "v_1794235365314_MTEK_FALSE",
       "date_et": "2026-11-09",
@@ -531,7 +551,7 @@
       "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 1.01,1.02,7.01,9.01)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EDSA (Edesa Biotech, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $32.02M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $2.1500 대비 현재가 $2.3700 (+10.23% 상승), 당일 최고가 $2.6262 (고점 대비 -9.8%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 특S급 기폭제 확인\n당일(11/09) SEC 8-K (Item 1.01, 1.02, 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 1.01, 1.02, 7.01, 9.01) 접수.\n원문 팩트: 2026년 11월 8일 Edesa Biotech가 일본 Kyorin Pharmaceutical과 자사 주요 파이프라인 Paridiprubart의 일본 내 독점 개발 및 상업화 라이선스 계약(Collaboration and License Agreement)을 전격 체결함.\n[1급 확정 기폭제 무결점 검증]:\n8-K Item 1.01 확정 계약(Entry into a Material Definitive Agreement) 제출 완료.\n첨부 보도자료(EX-99.1) 원문에 **총 $140M 이상($140 Million+ in upfront, milestones, royalties)**의 구체적 달러 금액이 명시된 대형 글로벌 라이선스 계약으로 확인됨.\n당사 실질 시가총액($32.02M)의 4배가 넘는 $140M+ 대형 계약으로서 기업 가치를 수직 폭등시킬 수 있는 확정적 1급 기폭제 기준을 완벽히 충족함.\n최근 35일 SEC 공시 검수 결과 당일 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 유상증자/신주 물량 출회 희석 독소조항 0건.\n3. 최종 심사 및 결재 판정\n시가총액 $32.02M의 소형 품절주가 당일 SEC 8-K(Item 1.01)를 통해 시총의 4배를 초과하는 $140M+ 대형 독점 라이선스 계약을 확정 공시하였으며, 유증 희석 독소가 전무하므로 전략 헌장 심사 기준 2번 및 연구소 진짜대장주공식에 의거 **FORCE_BUY: EDSA**를 전격 승인 결재합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: EDSA FORCE_BLOCK: NONE NOTES:\n[EDSA] 시총 $32.02M 대비 4배가 넘는 $140M+ 대형 독점 라이선스 계약 8-K(Item 1.01) 확정 공시 및 유증 희석 0건으로 FORCE_BUY 승인 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
-      "trade_action": "🚀 실전매수 체결 완료 (79주 @ 평단 $2.3441)"
+      "trade_action": "💰 익절 완료: 79주 | 매수 $2.3441 → 매도 $2.5600 (+9.21% / +$17.05)"
     },
     {
       "id": "v_1794222433437_UK_FALSE",
@@ -2410,26 +2430,6 @@
       "reason": "신용한도 유예/수정(Credit Facility Waiver) 공시로 3번 원칙(단순 대출연장/유예 차단) 위반 및 장전 대금 $0(-0.48%) 전량 차단",
       "catalyst_hint": "",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 CRMT (America's Car-Mart, Inc.) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.67M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.0450 대비 현재가 $1.0400 (-0.48% 약보합), 당일 최고가 $1.0400. 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 공시 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 8-K (Item 1.01, 2.03, 8.01) 연속 공시 제출 이력 확인.\n당일(11/02) D-Day 8-K (Item 1.01) 원문 정밀 분석:\n공시 내용: Silver Point Finance, LLC와의 신용 및 보증 계약에 대한 수정 및 한시적 유예(First Amendment and Limited Waiver to Credit and Guaranty Agreement) 체결.\n기폭제 결함: 당일 제출된 8-K 공시는 기존 은행 대출/신용한도 계약 조건의 수정 및 한시적 유예(Credit Facility Waiver / Extension) 공시에 불과합니다. 이는 심사 원칙 3번에서 엄격히 금지하는 **'단순 은행 대출·신용한도 연장/유예(ACH 실패 패턴)'**에 완벽히 해당하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 확정 달러 수주/M&A 완료, 특별배당 등)가 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 8-K 공시가 단순 신용한도 계약 유예/수정 공시에 불과하고, 장전 누적 거래대금($0 USD) 및 시세(-0.48%) 반응이 전무하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: CRMT NOTES:\n[CRMT] 신용한도 유예/수정(Credit Facility Waiver) 공시로 3번 원칙(단순 대출연장/유예 차단) 위반 및 장전 대금 $0(-0.48%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "차단(패스)"
-    },
-    {
-      "id": "seed_2026-11-02_080132_RECT",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "08:01:32",
-      "time_kst": "22:01:32",
-      "symbol": "RECT",
-      "company_name": "RECT",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 44.2,
-      "reason": "10월 12일 자 단순 주식매매계약(EX-10.1) 첨부 공시로 당일 확정 1급 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단",
-      "catalyst_hint": "",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스에 수록된 RECT (Rectitude Holdings Ltd) 1종목에 대한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $17.98M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.2400 대비 현재가 $1.2400 (0.00% 보합), 당일 누적 거래대금 $0 USD로 수급 수직 유입 전무.\n2. SEC 제출 이력 & 당일 D-Day 공시 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 2026-10-28 [6-K] 제출 이력 확인.\n당일(11/02) D-Day 6-K 원문 분석:\n공시 내용: 2026년 10월 12일 자로 체결된 자회사(Rectitude Pte. Ltd.)와 Mr. Butler Pte. Ltd. 간의 주식매매계약서(Share Purchase Agreement, EX-10.1) 첨부.\n기폭제 결함: 과거 날짜(10월 12일) 체결 계약건의 뒤늦은 행정 공시일 뿐, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 대형 M&A 완료/확정 현금 유입, 특별배당, 상장유지 회복 등)에 해당하지 않습니다.\n3. 최종 심사 및 결재 판정\n당일 6-K 공시가 과거 계약 건의 단순 행정 서류 첨부에 불과하며, 장전 누적 거래대금($0 USD) 및 시세 변동(0.00%) 반응이 전무하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: RECT NOTES:\n[RECT] 10월 12일 자 단순 주식매매계약(EX-10.1) 첨부 공시로 당일 확정 1급 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "차단(패스)"
     }
