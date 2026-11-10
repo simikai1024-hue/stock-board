@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 20:40:52",
-  "updated_at_et": "2026-11-10 06:40:52",
-  "updated_epoch_ms": 1794310852474,
+  "updated_at_kst": "2026-11-10 20:41:56",
+  "updated_at_et": "2026-11-10 06:41:56",
+  "updated_epoch_ms": 1794310916074,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:40:50"
+    "updated_kst": "20:41:50"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "06:41:06",
+      "time_kst": "20:41:06",
+      "symbol": "WYFI",
+      "company_name": "WYFI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $444.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "06:33:26",
       "time_kst": "20:33:26",
       "symbol": "PIII",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.01,3.02,5.02,5.03,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:03:54",
-      "time_kst": "18:03:54",
-      "symbol": "NXXT",
-      "company_name": "NXXT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
     }
   ]
 }
