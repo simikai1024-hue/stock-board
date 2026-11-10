@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 18:19:34",
-  "updated_at_et": "2026-11-10 04:19:34",
-  "updated_epoch_ms": 1794302374402,
+  "updated_at_kst": "2026-11-10 18:20:38",
+  "updated_at_et": "2026-11-10 04:20:38",
+  "updated_epoch_ms": 1794302438523,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:19:29"
+    "updated_kst": "18:20:29"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 36,
+    "today_hardcut": 38,
     "total_verdicts": 132,
     "total_buy": 6,
     "total_false": 126,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "04:19:42",
+      "time_kst": "18:19:42",
+      "symbol": "AIBZ",
+      "company_name": "AIBZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $173.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "04:19:37",
+      "time_kst": "18:19:37",
+      "symbol": "TELO",
+      "company_name": "TELO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "04:19:31",
       "time_kst": "18:19:31",
       "symbol": "SXTC",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3487.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:42:22",
-      "time_kst": "23:42:22",
-      "symbol": "CGEN",
-      "company_name": "CGEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $189.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-09",
-      "time_et": "09:42:18",
-      "time_kst": "23:42:18",
-      "symbol": "AIIO",
-      "company_name": "AIIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2178.85M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
