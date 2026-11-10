@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 09:48:05",
+  "updated_at": "2026-11-10 09:48:12",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -19,19 +19,39 @@
       "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 550억 신규 수주가 아닌 P-CBO·장기차입금·사모사채 단순 빚 조달 및 과거 10월 수주 재탕 언론 플레이 함정 ===DART_AUDIT_END===",
       "buy_price": 8000,
       "qty": 10
+    },
+    {
+      "id": "1794271690546_259630_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-10 09:48:10",
+      "name": "엠플러스",
+      "code": "259630",
+      "price": 7980,
+      "flu_rt": 3.63,
+      "val_uk": 0.0,
+      "target_price": 8370,
+      "stop_price": 7740,
+      "ammo_title": "📘 확정 손실: -379원 (-0.47%) | 매수 8,000원 → 매도 7,980원 (10주) [NotebookLM 원천뉴스 함정감지 즉시탈출(550억 신규 수주가 아닌 P-CBO·장기차입금·사)]",
+      "ammo_date": "",
+      "note": "⏰ NotebookLM 원천뉴스 함정감지 즉시탈출(550억 신규 수주가 아닌 P-CBO·장기차입금·사) 완료 | 확정 손익 -379원 (-0.47%)",
+      "pnl_krw": -379,
+      "pnl_pct": -0.47,
+      "buy_price": 8000,
+      "qty": 10
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 09:48:05",
+    "updated_at": "2026-11-10 09:48:12",
     "stats": {
-      "total_closed": 5,
+      "total_closed": 6,
       "win_count": 2,
       "hit_5pct_count": 0,
       "super_win_count": 0,
-      "loss_count": 3,
+      "loss_count": 4,
       "buy_fail_count": 0,
-      "win_rate_pct": 40.0,
-      "total_pnl_krw": -11294
+      "win_rate_pct": 33.3,
+      "total_pnl_krw": -11673
     },
     "rows": [
       {
@@ -41,15 +61,17 @@
         "code": "259630",
         "name": "엠플러스",
         "buy_price": 8000,
-        "sell_price": 0,
+        "sell_price": 7980,
         "qty": 10,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": -0.47,
+        "pnl_krw": -379,
+        "status": "LOSS",
         "buy_time": "09:47:26",
-        "sell_time": "",
+        "sell_time": "09:48:10",
         "reason": "📰[머니투데이 09:46:18·핵심수주·납품] 규모 약 550억 | 엠플러스, 550억원 중장기 자금 확보… 방산·전고체 대규모 수주 채비 (시총 934억)",
-        "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 550억 신규 수주가 아닌 P-CBO·장기차입금·사모사채 단순 빚 조달 및 과거 10월 수주 재탕 언론 플레이 함정 ===DART_AUDIT_END==="
+        "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 550억 신규 수주가 아닌 P-CBO·장기차입금·사모사채 단순 빚 조달 및 과거 10월 수주 재탕 언론 플레이 함정 ===DART_AUDIT_END===",
+        "sell_summary": "📘 확정 손실: -379원 (-0.47%) | 매수 8,000원 → 매도 7,980원 (10주) [NotebookLM 원천뉴스 함정감지 즉시탈출(550억 신규 수주가 아닌 P-CBO·장기차입금·사)]",
+        "hold_mins": 1
       },
       {
         "date": "2026-11-09",
@@ -171,7 +193,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 09:48:05",
+    "updated_at": "2026-11-10 09:48:12",
     "stats": {
       "cooked_count": 19,
       "finalized_count": 18,
@@ -495,11 +517,11 @@
         "eod_finalized": false,
         "is_today_live": true,
         "my_trade": {
-          "status": "OPEN",
+          "status": "LOSS",
           "buy_price": 8000,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 7980,
+          "pnl_pct": -0.47,
+          "pnl_krw": -379,
           "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 550억 신규 수주가 아닌 P-CBO·장기차입금·사모사채 단순 빚 조달 및 과거 10월 수주 재탕 언론 플레이 함정 ===DART_AUDIT_END==="
         }
       },
@@ -2505,7 +2527,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 09:48:05",
+    "updated_at": "2026-11-10 09:48:12",
     "deprecated": true,
     "stats": {},
     "days": []
