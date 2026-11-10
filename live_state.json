@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10 11:16:41",
+  "updated_at": "2026-11-10 11:16:47",
   "history": [
     {
       "id": "1794271683212_259630_BUY",
@@ -57,19 +57,39 @@
       "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 4,613억(1,300억 초과 고시총) 실적 공시는 셀온 음봉 피뢰침 100% 출회 및 매출 역성장(-2.8%) 함정 ===DART_AUDIT_END===",
       "buy_price": 69300,
       "qty": 1
+    },
+    {
+      "id": "1794277003643_086900_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-10 11:16:43",
+      "name": "메디톡스",
+      "code": "086900",
+      "price": 70900,
+      "flu_rt": 11.89,
+      "val_uk": 0.0,
+      "target_price": 74400,
+      "stop_price": 68700,
+      "ammo_title": "💰 확정 수익: +1,439원 (+2.08%) | 매수 69,300원 → 매도 70,900원 (1주) [NotebookLM DART공시 함정감지 즉시탈출(시총 4,613억(1,300억 초과 고시총) 실적 )]",
+      "ammo_date": "",
+      "note": "🎉 NotebookLM DART공시 함정감지 즉시탈출(시총 4,613억(1,300억 초과 고시총) 실적 ) 완료! 확정 수익 +1,439원 (+2.08%)",
+      "pnl_krw": 1439,
+      "pnl_pct": 2.08,
+      "buy_price": 69300,
+      "qty": 1
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-10 11:16:41",
+    "updated_at": "2026-11-10 11:16:47",
     "stats": {
-      "total_closed": 6,
-      "win_count": 2,
+      "total_closed": 7,
+      "win_count": 3,
       "hit_5pct_count": 0,
       "super_win_count": 0,
       "loss_count": 4,
       "buy_fail_count": 0,
-      "win_rate_pct": 33.3,
-      "total_pnl_krw": -11673
+      "win_rate_pct": 42.9,
+      "total_pnl_krw": -10234
     },
     "rows": [
       {
@@ -79,15 +99,17 @@
         "code": "086900",
         "name": "메디톡스",
         "buy_price": 69300,
-        "sell_price": 0,
+        "sell_price": 70900,
         "qty": 1,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": 2.08,
+        "pnl_krw": 1439,
+        "status": "WIN",
         "buy_time": "11:15:57",
-        "sell_time": "",
+        "sell_time": "11:16:43",
         "reason": "⚡[KIND 실시간공시·어닝서프라이즈] ⚡[실전A급·실적] 영업익 155억 급증(YoY +74%·QoQ +226%) (시총 4,613억)",
-        "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 4,613억(1,300억 초과 고시총) 실적 공시는 셀온 음봉 피뢰침 100% 출회 및 매출 역성장(-2.8%) 함정 ===DART_AUDIT_END==="
+        "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 4,613억(1,300억 초과 고시총) 실적 공시는 셀온 음봉 피뢰침 100% 출회 및 매출 역성장(-2.8%) 함정 ===DART_AUDIT_END===",
+        "sell_summary": "💰 확정 수익: +1,439원 (+2.08%) | 매수 69,300원 → 매도 70,900원 (1주) [NotebookLM DART공시 함정감지 즉시탈출(시총 4,613억(1,300억 초과 고시총) 실적 )]",
+        "hold_mins": 1
       },
       {
         "date": "2026-11-10",
@@ -228,7 +250,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-10 11:16:41",
+    "updated_at": "2026-11-10 11:16:47",
     "stats": {
       "cooked_count": 22,
       "finalized_count": 18,
@@ -555,11 +577,11 @@
         "eod_finalized": false,
         "is_today_live": true,
         "my_trade": {
-          "status": "OPEN",
+          "status": "WIN",
           "buy_price": 69300,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 70900,
+          "pnl_pct": 2.08,
+          "pnl_krw": 1439,
           "note": "🧠 연구소장 검수완료 [🚨함정즉시탈출(ABORT_TRAP)]: 시총 4,613억(1,300억 초과 고시총) 실적 공시는 셀온 음봉 피뢰침 100% 출회 및 매출 역성장(-2.8%) 함정 ===DART_AUDIT_END==="
         }
       },
@@ -2669,7 +2691,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-10 11:16:41",
+    "updated_at": "2026-11-10 11:16:47",
     "deprecated": true,
     "stats": {},
     "days": []
