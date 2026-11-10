@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:17:02",
-  "updated_at_et": "2026-11-10 09:17:02",
-  "updated_epoch_ms": 1794320222193,
+  "updated_at_kst": "2026-11-10 23:17:52",
+  "updated_at_et": "2026-11-10 09:17:52",
+  "updated_epoch_ms": 1794320272374,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MNDO",
+    "company_name": "MNDO",
+    "exchange": "ND",
+    "price": 1.26,
+    "gain_pct": 44.83,
+    "mcap_m": 25.67,
+    "catalyst_hint": "[당일 PR] Enghouse Systems to Acquire MIND C.T.I. in All-Cash Transaction Expanding its Telecom and Enterprise UC Offerings",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:17:49",
+    "started_at_kst": "23:17:49",
+    "started_epoch_ms": 1794320269073
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.88,
     "current_price": 0.88,
     "profit_rate": 0.0,
-    "updated_kst": "23:16:58"
+    "updated_kst": "23:17:36"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:17:12",
+      "time_kst": "23:17:12",
+      "symbol": "OFAL",
+      "company_name": "OFAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $62.43M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:15:11",
       "time_kst": "23:15:11",
       "symbol": "QNME",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $548.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:01:52",
-      "time_kst": "21:01:52",
-      "symbol": "BNTX",
-      "company_name": "BNTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $21569.75M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
