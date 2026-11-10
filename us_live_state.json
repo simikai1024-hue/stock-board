@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 23:31:52",
-  "updated_at_et": "2026-11-10 09:31:52",
-  "updated_epoch_ms": 1794321112035,
+  "updated_at_kst": "2026-11-10 23:32:43",
+  "updated_at_et": "2026-11-10 09:32:43",
+  "updated_epoch_ms": 1794321163213,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.88,
     "current_price": 0.8776,
     "profit_rate": -0.27,
-    "updated_kst": "23:31:38"
+    "updated_kst": "23:32:39"
   },
   "stats": {
     "today_total": 3,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "09:32:39",
+      "time_kst": "23:32:39",
+      "symbol": "ATYR",
+      "company_name": "ATYR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $724.87M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:32:27",
+      "time_kst": "23:32:27",
+      "symbol": "CSTE",
+      "company_name": "CSTE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.88M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:32:18",
+      "time_kst": "23:32:18",
+      "symbol": "SILO",
+      "company_name": "SILO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:32:08",
+      "time_kst": "23:32:08",
+      "symbol": "REED",
+      "company_name": "REED",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "09:31:53",
+      "time_kst": "23:31:53",
+      "symbol": "SNT",
+      "company_name": "SNT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "09:31:45",
       "time_kst": "23:31:45",
       "symbol": "FJET",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1225.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:14:49",
-      "time_kst": "21:14:49",
-      "symbol": "HBIO",
-      "company_name": "HBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 실적발표/일정 예고 PR 차단 (Harvard Bioscience Announces Third Quarter 2026 Financial )"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:12:21",
-      "time_kst": "21:12:21",
-      "symbol": "LEGN",
-      "company_name": "LEGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4733.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:10:48",
-      "time_kst": "21:10:48",
-      "symbol": "SRRK",
-      "company_name": "SRRK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5643.52M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:07:28",
-      "time_kst": "21:07:28",
-      "symbol": "PDYN",
-      "company_name": "PDYN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $186.99M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "07:07:20",
-      "time_kst": "21:07:20",
-      "symbol": "CTY",
-      "company_name": "CTY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $965.63M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
