@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 22:32:18",
-  "updated_at_et": "2026-11-10 08:32:18",
-  "updated_epoch_ms": 1794317538562,
+  "updated_at_kst": "2026-11-10 22:33:15",
+  "updated_at_et": "2026-11-10 08:33:15",
+  "updated_epoch_ms": 1794317595330,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:32:07"
+    "updated_kst": "22:33:08"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "08:32:32",
+      "time_kst": "22:32:32",
+      "symbol": "FLEX",
+      "company_name": "FLEX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $28056.87M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "08:32:24",
+      "time_kst": "22:32:24",
+      "symbol": "OCGN",
+      "company_name": "OCGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $335.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "08:27:41",
       "time_kst": "22:27:41",
       "symbol": "GOAI",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $11282.98M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:11:13",
-      "time_kst": "20:11:13",
-      "symbol": "IMOS",
-      "company_name": "IMOS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1714.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "06:04:45",
-      "time_kst": "20:04:45",
-      "symbol": "BZUN",
-      "company_name": "BZUN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $184.75M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
