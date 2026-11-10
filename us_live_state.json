@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-10 21:53:56",
-  "updated_at_et": "2026-11-10 07:53:56",
-  "updated_epoch_ms": 1794315236833,
+  "updated_at_kst": "2026-11-10 21:54:54",
+  "updated_at_et": "2026-11-10 07:54:54",
+  "updated_epoch_ms": 1794315294407,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:53:53"
+    "updated_kst": "21:54:51"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-10",
+      "time_et": "07:54:28",
+      "time_kst": "21:54:28",
+      "symbol": "ZONE",
+      "company_name": "ZONE",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1638.43M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
+      "time_et": "07:54:13",
+      "time_kst": "21:54:13",
+      "symbol": "INTR",
+      "company_name": "INTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1764.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-10",
       "time_et": "07:49:03",
       "time_kst": "21:49:03",
       "symbol": "CAN",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:20:51",
-      "time_kst": "18:20:51",
-      "symbol": "SURG",
-      "company_name": "SURG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "04:19:42",
-      "time_kst": "18:19:42",
-      "symbol": "AIBZ",
-      "company_name": "AIBZ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $173.83M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
