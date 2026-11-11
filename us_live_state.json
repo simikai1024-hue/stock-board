@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:16:50",
-  "updated_at_et": "2026-11-11 04:16:50",
-  "updated_epoch_ms": 1794388610356,
+  "updated_at_kst": "2026-11-11 18:17:41",
+  "updated_at_et": "2026-11-11 04:17:41",
+  "updated_epoch_ms": 1794388661436,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:16:46"
+    "updated_kst": "18:17:25"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 23,
+    "today_hardcut": 27,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:17:35",
+      "time_kst": "18:17:35",
+      "symbol": "BSEM",
+      "company_name": "BSEM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:17:10",
+      "time_kst": "18:17:10",
+      "symbol": "SDEV",
+      "company_name": "SDEV",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $64.99M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:17:02",
+      "time_kst": "18:17:02",
+      "symbol": "CIGL",
+      "company_name": "CIGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.3M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:16:55",
+      "time_kst": "18:16:55",
+      "symbol": "AUUD",
+      "company_name": "AUUD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:16:44",
       "time_kst": "18:16:44",
       "symbol": "AIB",
@@ -2894,46 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $55.55M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:31:32",
-      "time_kst": "23:31:32",
-      "symbol": "XHLD",
-      "company_name": "XHLD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:31:27",
-      "time_kst": "23:31:27",
-      "symbol": "WCT",
-      "company_name": "WCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:17:12",
-      "time_kst": "23:17:12",
-      "symbol": "OFAL",
-      "company_name": "OFAL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $62.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:15:11",
-      "time_kst": "23:15:11",
-      "symbol": "QNME",
-      "company_name": "QNME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
     }
   ]
 }
