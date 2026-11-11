@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 22:21:19",
-  "updated_at_et": "2026-11-11 08:21:19",
-  "updated_epoch_ms": 1794403279376,
+  "updated_at_kst": "2026-11-11 22:22:17",
+  "updated_at_et": "2026-11-11 08:22:17",
+  "updated_epoch_ms": 1794403337700,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:21:17"
+    "updated_kst": "22:22:14"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 58,
+    "today_hardcut": 59,
     "total_verdicts": 137,
     "total_buy": 7,
     "total_false": 130,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "08:22:15",
+      "time_kst": "22:22:15",
+      "symbol": "SPAI",
+      "company_name": "SPAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $66.18M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "08:10:21",
       "time_kst": "22:10:21",
       "symbol": "MGX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 8.36,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:02:07",
-      "time_kst": "18:02:07",
-      "symbol": "APT",
-      "company_name": "APT",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $63.79M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
