@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 17:59:35",
-  "updated_at_et": "2026-11-11 03:59:35",
-  "updated_epoch_ms": 1794387575814,
+  "updated_at_kst": "2026-11-11 18:00:31",
+  "updated_at_et": "2026-11-11 04:00:31",
+  "updated_epoch_ms": 1794387631498,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "장외대기",
+    "session_label": "프리장실전",
     "watchlist_count": 182,
     "orderable_usd": 178.79,
     "daily_done": false,
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "17:59:32"
+    "updated_kst": "18:00:28"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2436,6 +2436,16 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-11",
+      "time_et": "04:00:27",
+      "time_kst": "18:00:27",
+      "symbol": "MI",
+      "company_name": "MI",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
+    },
+    {
       "date_et": "2026-11-10",
       "time_et": "09:57:09",
       "time_kst": "23:57:09",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:02:37",
-      "time_kst": "22:02:37",
-      "symbol": "NVMI",
-      "company_name": "NVMI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $10425.44M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
