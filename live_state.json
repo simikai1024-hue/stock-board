@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-11 11:37:41",
+  "updated_at": "2026-11-11 11:44:58",
   "history": [
     {
       "id": "1794364525456_002990_BUY",
@@ -35,19 +35,39 @@
       "ammo_title": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 20.0억 (시총의 3.2%) (시총 631억)",
       "ammo_date": "20261111",
       "note": "👑⚡ 실시간 DART·KIND 진짜 특S급 호재 공시 포착!"
+    },
+    {
+      "id": "1794365095517_002990_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-11 11:44:55",
+      "name": "금호건설",
+      "code": "002990",
+      "price": 8430,
+      "flu_rt": 0.12,
+      "val_uk": 0.0,
+      "target_price": 8850,
+      "stop_price": 8170,
+      "ammo_title": "📘 확정 손실: -1,635원 (-1.74%) | 매수 8,560원 → 매도 8,430원 (11주) [DART공시 10분 미도달 무조건 칼회전 청산(-1.64%)]",
+      "ammo_date": "",
+      "note": "⏰ DART공시 10분 미도달 무조건 칼회전 청산(-1.64%) 완료 | 확정 손익 -1,635원 (-1.74%)",
+      "pnl_krw": -1635,
+      "pnl_pct": -1.74,
+      "buy_price": 8560,
+      "qty": 11
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-11 11:37:41",
+    "updated_at": "2026-11-11 11:44:58",
     "stats": {
-      "total_closed": 8,
+      "total_closed": 9,
       "win_count": 4,
       "hit_5pct_count": 1,
       "super_win_count": 0,
-      "loss_count": 4,
+      "loss_count": 5,
       "buy_fail_count": 0,
-      "win_rate_pct": 50.0,
-      "total_pnl_krw": -3856
+      "win_rate_pct": 44.4,
+      "total_pnl_krw": -5491
     },
     "rows": [
       {
@@ -57,15 +77,17 @@
         "code": "002990",
         "name": "금호건설",
         "buy_price": 8560,
-        "sell_price": 0,
+        "sell_price": 8430,
         "qty": 11,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": -1.74,
+        "pnl_krw": -1635,
+        "status": "LOSS",
         "buy_time": "11:34:44",
-        "sell_time": "",
+        "sell_time": "11:44:55",
         "reason": "⚡[KIND 실시간공시·대형공급계약] 👑[특S급] 수주 3,279.3억 (시총의 104.0% · 매출비 16.2%) (시총 3,152억)",
-        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 공공기관(농진청) 발주 시총 104%(3,279억) 규모 무결점 진성 공사도급 본계약 공시로 +5.0% 그물망 유지 ===DART_AUDIT_END==="
+        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 공공기관(농진청) 발주 시총 104%(3,279억) 규모 무결점 진성 공사도급 본계약 공시로 +5.0% 그물망 유지 ===DART_AUDIT_END===",
+        "sell_summary": "📘 확정 손실: -1,635원 (-1.74%) | 매수 8,560원 → 매도 8,430원 (11주) [DART공시 10분 미도달 무조건 칼회전 청산(-1.64%)]",
+        "hold_mins": 10
       },
       {
         "date": "2026-11-10",
@@ -252,7 +274,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-11 11:37:41",
+    "updated_at": "2026-11-11 11:44:58",
     "stats": {
       "cooked_count": 25,
       "finalized_count": 23,
@@ -609,11 +631,11 @@
         "eod_finalized": false,
         "is_today_live": true,
         "my_trade": {
-          "status": "OPEN",
+          "status": "LOSS",
           "buy_price": 8560,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 8430,
+          "pnl_pct": -1.74,
+          "pnl_krw": -1635,
           "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 공공기관(농진청) 발주 시총 104%(3,279억) 규모 무결점 진성 공사도급 본계약 공시로 +5.0% 그물망 유지 ===DART_AUDIT_END==="
         }
       },
@@ -3534,7 +3556,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-11 11:37:41",
+    "updated_at": "2026-11-11 11:44:58",
     "deprecated": true,
     "stats": {},
     "days": []
