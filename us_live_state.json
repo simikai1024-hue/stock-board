@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:49:07",
-  "updated_at_et": "2026-11-11 09:49:07",
-  "updated_epoch_ms": 1794408547923,
+  "updated_at_kst": "2026-11-11 23:50:14",
+  "updated_at_et": "2026-11-11 09:50:14",
+  "updated_epoch_ms": 1794408614497,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:48:54"
+    "updated_kst": "23:50:12"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:49:21",
+      "time_kst": "23:49:21",
+      "symbol": "STEM",
+      "company_name": "STEM",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:48:11",
       "time_kst": "23:48:11",
       "symbol": "DTI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $58.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:39:46",
-      "time_kst": "18:39:46",
-      "symbol": "CABR",
-      "company_name": "CABR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
     }
   ]
 }
