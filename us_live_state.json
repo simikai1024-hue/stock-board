@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:50:14",
-  "updated_at_et": "2026-11-11 09:50:14",
-  "updated_epoch_ms": 1794408614497,
+  "updated_at_kst": "2026-11-11 23:51:13",
+  "updated_at_et": "2026-11-11 09:51:13",
+  "updated_epoch_ms": 1794408673159,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:50:12"
+    "updated_kst": "23:51:09"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:51:11",
+      "time_kst": "23:51:11",
+      "symbol": "IDAI",
+      "company_name": "IDAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:49:21",
       "time_kst": "23:49:21",
       "symbol": "STEM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:40:24",
-      "time_kst": "18:40:24",
-      "symbol": "ZSTK",
-      "company_name": "ZSTK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58.92M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
