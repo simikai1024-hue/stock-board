@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 22:09:27",
-  "updated_at_et": "2026-11-11 08:09:27",
-  "updated_epoch_ms": 1794402567570,
+  "updated_at_kst": "2026-11-11 22:10:24",
+  "updated_at_et": "2026-11-11 08:10:24",
+  "updated_epoch_ms": 1794402624106,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:09:18"
+    "updated_kst": "22:10:20"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 57,
+    "today_hardcut": 58,
     "total_verdicts": 137,
     "total_buy": 7,
     "total_false": 130,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "08:10:21",
+      "time_kst": "22:10:21",
+      "symbol": "MGX",
+      "company_name": "MGX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 학회·컨퍼런스 참가/발표 예고 PR 차단 (Metagenomi Therapeutics, Inc. to Present at the Jefferies )"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "07:52:59",
       "time_kst": "21:52:59",
       "symbol": "UCL",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $63.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:01:54",
-      "time_kst": "18:01:54",
-      "symbol": "MGRX",
-      "company_name": "MGRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
     }
   ]
 }
