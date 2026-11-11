@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:10:10",
-  "updated_at_et": "2026-11-11 09:10:10",
-  "updated_epoch_ms": 1794406210710,
+  "updated_at_kst": "2026-11-11 23:10:44",
+  "updated_at_et": "2026-11-11 09:10:44",
+  "updated_epoch_ms": 1794406244183,
   "analyzing": {
-    "active": true,
-    "symbol": "TPST",
-    "company_name": "TPST",
-    "exchange": "ND",
-    "price": 0.4068,
-    "gain_pct": 9.44,
-    "mcap_m": 8.13,
-    "catalyst_hint": "[당일 PR] Tempest Therapeutics Exercises Option to License Senlang’s CD7-Targeted Lentiviral In Vivo CAR-T Platform Following Initial Phase 1 Results with Lead BCMA/GPRC5D Candidate",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:10:04",
-    "started_at_kst": "23:10:04",
-    "started_epoch_ms": 1794406204507
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:49"
+    "updated_kst": "23:10:31"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 3,
+    "today_total": 4,
+    "today_nblm_count": 4,
     "today_buy": 0,
-    "today_false": 3,
+    "today_false": 4,
     "today_hardcut": 60,
-    "total_verdicts": 139,
+    "total_verdicts": 140,
     "total_buy": 7,
-    "total_false": 132,
-    "avg_nblm_sec": 48.2
+    "total_false": 133,
+    "avg_nblm_sec": 46.6
   },
   "verdicts": [
+    {
+      "id": "v_1794406241574_TPST_FALSE",
+      "date_et": "2026-11-11",
+      "weekday_kr": "수",
+      "time_et": "09:10:41",
+      "time_kst": "23:10:41",
+      "symbol": "TPST",
+      "company_name": "TPST",
+      "exchange": "ND",
+      "price": 0.4068,
+      "gain_pct": 9.44,
+      "mcap_m": 8.13,
+      "decision": "FALSE",
+      "elapsed_sec": 41.8,
+      "reason": "단순 라이선스 옵션 행사(플랫폼 도입) PR로 구체적 현금 유입 금액 미기재 및 나스닥 주가 경고(3.01) 종목으로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Tempest Therapeutics Exercises Option to License Senlang’s CD7-Targeted Lentiviral In Vivo CAR-T Platform Following Initial Phase 1 Results with Lead BCMA/GPRC5D Candidate",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TPST (Tempest Therapeutics, Inc.) 09:09 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.13M USD (시가총액 $50.0M 이하 소형 품절주 체급 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.3717 대비 현재가 $0.4068 (+9.44%), 당일 최고가 $0.4359 (고점 대비 -6.7%), 당일 누적 거래대금 $63,213 USD.\n공휴일 특례 적용: 금일(11/11)은 미국 연방공휴일(Veterans Day)로 SEC EDGAR 접수처 공식 휴무일이므로, 당일 8-K/6-K 미접수 사유로 차단하지 않고 **[최근 35일 SEC 무희석 이력 + 당일 공식 PR 원문의 1급 기폭제 진위]**로 정밀 심사합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/11 08:53 ET) 공식 PR 원문 분석\n:\nPR 제목: *\"Tempest Therapeutics Exercises Option to License Senlang’s CD7-Targeted Lentiviral In Vivo CAR-T Platform Following Initial Phase 1 Results with Lead BCMA/GPRC5D Candidate\"*\n원문 직독 결과 드러난 치명적 실체:\n라이선스 도입(옵션 행사)에 따른 추가 비용 지출 구조 (돈이 들어오는 수주가 아님):\n본 PR의 본질은 중국 Senlang사로부터 글로벌 독점 권리를 가져오기 위해 **기존 계약상의 '옵션을 행사(Exercises Option to License)'**했다는 발표입니다.\n이는 확정적 대규모 현금이 회사로 유입되는 대형 수주/계약(SNT형, TURB형)이나 자산 매각/M&A가 아니며, 반대로 개발 권리를 사오기 위해 마일스톤 및 개발 비용 지출(현금 유출)이 수반되는 파이프라인 도입 건입니다.\n확정 금액 미기재 및 초기 예비 결과 한계:\n구체적인 확정 달러($) 계약 금액이 명시되어 있지 않으며, 임상 1상 초기 13명 환자 대상 예비 관찰(Initial Phase 1 / Preliminary responses) 단계로 학회 발표 예정 계획(results planned for presentation) 수준에 머물러 있습니다.\n연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"구체적 금액 미기재 단순 옵션/라이선스 계약/초기 파이프라인 업데이트 및 학회 발표 예정 뉴스는 1급 확정 기폭제 미달\")에 정확히 해당합니다.\n사전 상폐 경고(3.01) 및 재무 리스크 상존:\n최근 35일 SEC 공시 이력상 2026-11-06 [8-K Item 3.01](나스닥 30일 연속 $1 미만 주가 미달 경고 서한 수령)이 제출되어 있으며\n, 원문 면책 조항에도 \"need for additional capital to fund its planned programs and operations and to continue to operate as a going concern\" (계속기업 존속 및 프로그램 자금 조달을 위한 추가 자본 조달 필요성)이 명시되어 있어 자금난에 따른 유상증자 위험이 열려 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR이 구체적 현금 유입 금액이 없는 단순 라이선스 옵션 행사(In Vivo CAR-T 플랫폼 도입) 및 초기 1상 중간 결과에 불과하여 1급 확정 기폭제 기준에 미달하고, 상폐 경고(3.01) 및 자본 조달 리스크가 상존하므로 전략 헌장 원칙에 의거 FORCE_BLOCK: TPST 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-11 FORCE_BUY: NONE FORCE_BLOCK: TPST NOTES:\n[TPST] 단순 라이선스 옵션 행사(플랫폼 도입) PR로 구체적 현금 유입 금액 미기재 및 나스닥 주가 경고(3.01) 종목으로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794404595570_BKYI_FALSE",
       "date_et": "2026-11-11",
@@ -2422,26 +2430,6 @@
       "reason": "지연된 10-Q 분기보고서의 뒤늦은 제출은 행정적 상폐방어 서류일 뿐 1급 확정 기폭제가 아니며 회계재작성(4.02) 및 상폐이력(25-NSE)으로 전량 차단",
       "catalyst_hint": "[당일 PR] SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **SEGG (Sports Entertainment Gaming Global Corporation)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.11M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.3026 대비 현재가 $1.6900 (+29.74%), 당일 고가 $1.6900 (+0.0%). 당일 누적 거래대금 $127,402 USD로 수급 유입 규모가 매우 저조한 상태입니다.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n[악성 사전 SEC 이력 적발 (회계부실 및 상폐 절차)]:\n2026-10-08 8-K (Item 4.02): 과거 재무제표 미신뢰(Non-Reliance) 및 회계 재작성 이슈 공시.\n2026-10-20 8-K (Item 3.01): 10-Q 분기보고서 미제출로 인한 나스닥 상장폐지 경고 통지 수령.\n2026-10-29 25-NSE: 나스닥 거래소 상장폐지 절차 진행 공시.\n[당일 D-Day 10-Q 제출 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/02) 제출된 10-Q 공시는 상장폐지 경고를 해소하기 위해 연체되었던 분기보고서를 뒤늦게 제출(Delayed Filing)한 행정적 절차에 불과합니다.\n이는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)가 절대 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 10-Q 제출 공시는 연체 보고서의 뒤늦은 행정 제출에 불과하며, 사전 회계재작성(4.02) 및 상폐절차(25-NSE) 리스크가 잔존하므로 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: SEGG NOTES:\n[SEGG] 지연된 10-Q 분기보고서의 뒤늦은 제출은 행정적 상폐방어 서류일 뿐 1급 확정 기폭제가 아니며 회계재작성(4.02) 및 상폐이력(25-NSE)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793631005117_CAPS_FALSE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "09:50:05",
-      "time_kst": "23:50:05",
-      "symbol": "CAPS",
-      "company_name": "Capstone Holding Corp.",
-      "exchange": "ND",
-      "price": 2.13,
-      "gain_pct": -8.58,
-      "mcap_m": 43.83,
-      "decision": "FALSE",
-      "elapsed_sec": 48.2,
-      "reason": "사전(10/30) S-1 증권등록 희석 위험 잔존 + 전일 대비 -8.58% 투매 및 당일 1급 확정 기폭제 부재로 전량 차단",
-      "catalyst_hint": "[당일 PR] Capstone Sees Improving Winter Conditions Supporting Stronger Seasonal Outlook",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **CAPS (CapStar Special Purpose Acquisition Corp. / Capricor Therapeutics, Inc. 등)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $43.83M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 차트 붕괴: 전일 종가 $2.3300 대비 현재가 $2.1300 (-8.58% 투매/폭락), 당일 고가 $2.3200 (-8.2%). -8% 이하 투매 음봉 차트로 심사 원칙 4번을 정면 위반하고 있습니다.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n[사전 S-1 증권등록신고서 희석 위험 (원칙 1 위반)]: 직전 거래일인 2026-10-30 자로 S-1 (신주 발행 증권등록신고서) 제출 이력이 존재하여, 언제든 오퍼링 및 신주 덤핑 물량이 출회될 수 있는 치명적 유상증자 희석 위험이 활성화되어 있습니다.\n[당일 1급 확정 기폭제 부재 (원칙 2·3 위반)]: 당일 신규 SEC 공시가 아직 미접수된 상태이며, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n직전 10/30 자 S-1 제출로 인한 신주 희석 위험, -8.58% 투매 붕괴 차트, 당일 1급 확정 기폭제 부재 및 저조한 거래대금($23,875 USD)에 따라 전략 헌장 1번·2번·3번·4번 원칙에 의거 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: CAPS NOTES:\n[CAPS] 사전(10/30) S-1 증권등록 희석 위험 잔존 + 전일 대비 -8.58% 투매 및 당일 1급 확정 기폭제 부재로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
