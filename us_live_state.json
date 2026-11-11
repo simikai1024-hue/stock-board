@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:37:22",
-  "updated_at_et": "2026-11-11 09:37:22",
-  "updated_epoch_ms": 1794407842393,
+  "updated_at_kst": "2026-11-11 23:38:24",
+  "updated_at_et": "2026-11-11 09:38:24",
+  "updated_epoch_ms": 1794407904645,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:37:18"
+    "updated_kst": "23:38:18"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:37:48",
+      "time_kst": "23:37:48",
+      "symbol": "CANG",
+      "company_name": "CANG",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:33:38",
       "time_kst": "23:33:38",
       "symbol": "AVD",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $59.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:16:55",
-      "time_kst": "18:16:55",
-      "symbol": "AUUD",
-      "company_name": "AUUD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
