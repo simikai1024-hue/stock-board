@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:01:42",
-  "updated_at_et": "2026-11-11 04:01:42",
-  "updated_epoch_ms": 1794387702904,
+  "updated_at_kst": "2026-11-11 18:02:31",
+  "updated_at_et": "2026-11-11 04:02:31",
+  "updated_epoch_ms": 1794387751268,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:01:31"
+    "updated_kst": "18:02:26"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 6,
+    "today_hardcut": 12,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,66 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:02:28",
+      "time_kst": "18:02:28",
+      "symbol": "HCTI",
+      "company_name": "HCTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $74.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:02:19",
+      "time_kst": "18:02:19",
+      "symbol": "SXTP",
+      "company_name": "SXTP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:02:14",
+      "time_kst": "18:02:14",
+      "symbol": "SURG",
+      "company_name": "SurgePays, Inc.",
+      "exchange": "ND",
+      "mcap_m": 8.36,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:02:07",
+      "time_kst": "18:02:07",
+      "symbol": "APT",
+      "company_name": "APT",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:01:54",
+      "time_kst": "18:01:54",
+      "symbol": "MGRX",
+      "company_name": "MGRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:01:51",
+      "time_kst": "18:01:51",
+      "symbol": "OSTX",
+      "company_name": "OSTX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:01:40",
       "time_kst": "18:01:40",
       "symbol": "AIBZ",
@@ -2874,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1660.37M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:32:32",
-      "time_kst": "22:32:32",
-      "symbol": "FLEX",
-      "company_name": "FLEX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $28056.87M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:32:24",
-      "time_kst": "22:32:24",
-      "symbol": "OCGN",
-      "company_name": "OCGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $335.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:27:41",
-      "time_kst": "22:27:41",
-      "symbol": "GOAI",
-      "company_name": "GOAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:22:56",
-      "time_kst": "22:22:56",
-      "symbol": "TNON",
-      "company_name": "TNON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [424B5])"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:20:19",
-      "time_kst": "22:20:19",
-      "symbol": "LICN",
-      "company_name": "LICN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/오퍼링/워런트 희석 PR 명시 (Lichen International Limited Announces Pricing of $3.5 )"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:11:04",
-      "time_kst": "22:11:04",
-      "symbol": "CING",
-      "company_name": "CING",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $68.25M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
