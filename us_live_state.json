@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 22:39:43",
-  "updated_at_et": "2026-11-11 08:39:43",
-  "updated_epoch_ms": 1794404383427,
+  "updated_at_kst": "2026-11-11 22:40:27",
+  "updated_at_et": "2026-11-11 08:40:27",
+  "updated_epoch_ms": 1794404427393,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "YMAT",
+    "company_name": "YMAT",
+    "exchange": "ND",
+    "price": 1.2801,
+    "gain_pct": 26.74,
+    "mcap_m": 5.79,
+    "catalyst_hint": "[당일 PR] J-Star Holding Reaffirms 50-Year Advanced Composite Craftsmanship and Executive Financial Commitment, Highlighted by Tier 1 Carbon Fiber Supplier Partnership and Automated ",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:40:23",
+    "started_at_kst": "22:40:23",
+    "started_epoch_ms": 1794404423730
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:39:40"
+    "updated_kst": "22:40:19"
   },
   "stats": {
     "today_total": 1,
