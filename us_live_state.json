@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 20:26:49",
-  "updated_at_et": "2026-11-11 06:26:49",
-  "updated_epoch_ms": 1794396409027,
+  "updated_at_kst": "2026-11-11 20:27:46",
+  "updated_at_et": "2026-11-11 06:27:46",
+  "updated_epoch_ms": 1794396466264,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:26:46"
+    "updated_kst": "20:27:43"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 47,
+    "today_hardcut": 48,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "06:26:57",
+      "time_kst": "20:26:57",
+      "symbol": "JAGX",
+      "company_name": "JAGX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "05:53:44",
       "time_kst": "19:53:44",
       "symbol": "ELOG",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 8-K 부도/기한이익상실/회계불신(1.03/2.04/4.02) 부실 폭탄 명시 (2026-11-10 [8-K] (Item 1.01,1.03,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:50:56",
-      "time_kst": "23:50:56",
-      "symbol": "RIBB",
-      "company_name": "RIBB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58.12M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
