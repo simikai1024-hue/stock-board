@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:15:08",
-  "updated_at_et": "2026-11-11 04:15:08",
-  "updated_epoch_ms": 1794388508340,
+  "updated_at_kst": "2026-11-11 18:16:09",
+  "updated_at_et": "2026-11-11 04:16:09",
+  "updated_epoch_ms": 1794388569438,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:15:06"
+    "updated_kst": "18:16:04"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 14,
+    "today_hardcut": 18,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:16:03",
+      "time_kst": "18:16:03",
+      "symbol": "INLF",
+      "company_name": "INLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:15:41",
+      "time_kst": "18:15:41",
+      "symbol": "LICN",
+      "company_name": "LICN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:15:34",
+      "time_kst": "18:15:34",
+      "symbol": "SHFS",
+      "company_name": "SHFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:15:28",
+      "time_kst": "18:15:28",
+      "symbol": "OMH",
+      "company_name": "OMH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $69.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:02:46",
       "time_kst": "18:02:46",
       "symbol": "LIMN",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $71.41M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:45:46",
-      "time_kst": "22:45:46",
-      "symbol": "VABK",
-      "company_name": "VABK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $293.1M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:44:44",
-      "time_kst": "22:44:44",
-      "symbol": "MGRX",
-      "company_name": "MGRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:44:36",
-      "time_kst": "22:44:36",
-      "symbol": "CHGA",
-      "company_name": "CHGA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:41:38",
-      "time_kst": "22:41:38",
-      "symbol": "OSTX",
-      "company_name": "OSTX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $53.89M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
