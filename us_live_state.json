@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 19:14:02",
-  "updated_at_et": "2026-11-11 05:14:02",
-  "updated_epoch_ms": 1794392042322,
+  "updated_at_kst": "2026-11-11 19:14:58",
+  "updated_at_et": "2026-11-11 05:14:58",
+  "updated_epoch_ms": 1794392098577,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:13:58"
+    "updated_kst": "19:14:55"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 42,
+    "today_hardcut": 43,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "05:14:36",
+      "time_kst": "19:14:36",
+      "symbol": "VWAV",
+      "company_name": "VWAV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.02,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "05:09:05",
       "time_kst": "19:09:05",
       "symbol": "EDVA",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:47:32",
-      "time_kst": "23:47:32",
-      "symbol": "HDRN",
-      "company_name": "HDRN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.01M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
