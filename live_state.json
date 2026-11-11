@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-11 11:44:58",
+  "updated_at": "2026-11-11 12:02:14",
   "history": [
     {
       "id": "1794364525456_002990_BUY",
@@ -55,10 +55,28 @@
       "pnl_pct": -1.74,
       "buy_price": 8560,
       "qty": 11
+    },
+    {
+      "id": "1794366129985_002900_BUY",
+      "type": "BUY",
+      "auto_copy": true,
+      "time": "2026-11-11 12:02:09",
+      "name": "TYM",
+      "code": "002900",
+      "price": 7180,
+      "flu_rt": 10.46,
+      "val_uk": 0.0,
+      "target_price": 7530,
+      "stop_price": 6960,
+      "ammo_title": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%) (시총 2,716억)",
+      "ammo_date": "20261111",
+      "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0324397, 지정가:7,390원)! +5% 그물망 준비...",
+      "buy_price": 7180,
+      "qty": 13
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-11 11:44:58",
+    "updated_at": "2026-11-11 12:02:14",
     "stats": {
       "total_closed": 9,
       "win_count": 4,
@@ -70,6 +88,23 @@
       "total_pnl_krw": -5491
     },
     "rows": [
+      {
+        "date": "2026-11-11",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "code": "002900",
+        "name": "TYM",
+        "buy_price": 7180,
+        "sell_price": 0,
+        "qty": 13,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "12:02:09",
+        "sell_time": "",
+        "reason": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%) (시총 2,716억)",
+        "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0324397, 지정가:7,390원)! +5% 그물망 준비..."
+      },
       {
         "date": "2026-11-11",
         "weekday": "수요일",
@@ -274,20 +309,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-11 11:44:58",
+    "updated_at": "2026-11-11 12:02:14",
     "stats": {
-      "cooked_count": 25,
+      "cooked_count": 26,
       "finalized_count": 23,
       "hit_5pct_count": 17,
       "hit_5pct_rate": 73.9,
-      "dart_count": 24,
+      "dart_count": 25,
       "news_count": 1,
-      "today_cooked_count": 2,
-      "avg_day_high_pct": 15.9,
-      "avg_open_to_high_pct": 15.83,
-      "avg_post_disc_max_pct": 10.81
+      "today_cooked_count": 3,
+      "avg_day_high_pct": 15.65,
+      "avg_open_to_high_pct": 15.6,
+      "avg_post_disc_max_pct": 10.4
     },
     "preparing_list": [
+      {
+        "code": "002900",
+        "name": "TYM",
+        "mcap_uk": 2716,
+        "prep_tag": "✨ 자사주취득 폭발!",
+        "prep_detail": "⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%)",
+        "prep_date": "2026-11-11",
+        "cooked_today": true,
+        "disc_time": "12:02",
+        "day_high_pct": 9.45,
+        "open_to_high_pct": 9.95
+      },
       {
         "code": "100030",
         "name": "인지소프트",
@@ -553,20 +600,49 @@
         "cur_price": 5000,
         "flu_rt": -1.19,
         "cooked_today": false
-      },
-      {
-        "code": "017860",
-        "name": "DS단석",
-        "mcap_uk": 1684,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/20] 타법인주식및출자증권취득결정 (시총 1,684억)",
-        "prep_date": "2026-10-20",
-        "cur_price": 9540,
-        "flu_rt": -3.54,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-11",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "disc_time": "12:02",
+        "code": "002900",
+        "name": "TYM",
+        "channel": "DART",
+        "source_label": "KIND",
+        "tier": "A+S",
+        "belt_passed": true,
+        "cat": "자사주취득",
+        "summary": "⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%)",
+        "rpt_title": "자기주식 취득 결정",
+        "doc_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261111000222",
+        "mcap_uk": 2716,
+        "prev_close": 6560,
+        "pre_disc_price": 6900,
+        "spike_from_pre_pct": 4.06,
+        "disc_price": 7180,
+        "target_5pct_price": 7530,
+        "entry_price": 7180,
+        "open_price": 6530,
+        "high_price": 7180,
+        "post_disc_high": 7180,
+        "close_price": 7180,
+        "open_to_high_pct": 9.95,
+        "day_high_pct": 9.45,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true,
+        "my_trade": {
+          "status": "OPEN",
+          "buy_price": 7180,
+          "sell_price": 0,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0,
+          "note": "🏛️⚡ DART·KIND 호재공시 스나이퍼 매수 접수(주문번호:0324397, 지정가:7,390원)! +5% 그물망 준비..."
+        }
+      },
       {
         "date": "2026-11-11",
         "weekday": "수요일",
@@ -3556,7 +3632,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-11 11:44:58",
+    "updated_at": "2026-11-11 12:02:14",
     "deprecated": true,
     "stats": {},
     "days": []
