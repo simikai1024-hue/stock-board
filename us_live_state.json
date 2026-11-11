@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 21:28:39",
-  "updated_at_et": "2026-11-11 07:28:39",
-  "updated_epoch_ms": 1794400119791,
+  "updated_at_kst": "2026-11-11 21:29:36",
+  "updated_at_et": "2026-11-11 07:29:36",
+  "updated_epoch_ms": 1794400176104,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:28:36"
+    "updated_kst": "21:29:33"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 54,
+    "today_hardcut": 55,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "07:28:49",
+      "time_kst": "21:28:49",
+      "symbol": "TGEN",
+      "company_name": "TGEN",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "07:25:04",
       "time_kst": "21:25:04",
       "symbol": "XXII",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $179.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:01:21",
-      "time_kst": "18:01:21",
-      "symbol": "BIAF",
-      "company_name": "BIAF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
     }
   ]
 }
