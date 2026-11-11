@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:45:05",
-  "updated_at_et": "2026-11-11 04:45:05",
-  "updated_epoch_ms": 1794390305763,
+  "updated_at_kst": "2026-11-11 18:46:06",
+  "updated_at_et": "2026-11-11 04:46:06",
+  "updated_epoch_ms": 1794390366818,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:45:02"
+    "updated_kst": "18:46:02"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 37,
+    "today_hardcut": 38,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:45:14",
+      "time_kst": "18:45:14",
+      "symbol": "MOB",
+      "company_name": "MOB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:43:21",
       "time_kst": "18:43:21",
       "symbol": "SCQC",
@@ -2924,16 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:39:17",
-      "time_kst": "23:39:17",
-      "symbol": "XGPU",
-      "company_name": "XGPU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
