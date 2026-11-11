@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 21:50:59",
-  "updated_at_et": "2026-11-11 07:50:59",
-  "updated_epoch_ms": 1794401459631,
+  "updated_at_kst": "2026-11-11 21:51:12",
+  "updated_at_et": "2026-11-11 07:51:12",
+  "updated_epoch_ms": 1794401472610,
   "analyzing": {
     "active": false
   },
@@ -11,7 +11,7 @@
   },
   "account": {
     "session_label": "프리장실전",
-    "watchlist_count": 182,
+    "watchlist_count": 0,
     "orderable_usd": 178.79,
     "daily_done": false,
     "holding_symbol": "",
