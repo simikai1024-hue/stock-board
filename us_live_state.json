@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 19:43:15",
-  "updated_at_et": "2026-11-11 05:43:15",
-  "updated_epoch_ms": 1794393795546,
+  "updated_at_kst": "2026-11-11 19:44:08",
+  "updated_at_et": "2026-11-11 05:44:08",
+  "updated_epoch_ms": 1794393848278,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:43:09"
+    "updated_kst": "19:44:06"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 45,
+    "today_hardcut": 46,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "05:43:28",
+      "time_kst": "19:43:28",
+      "symbol": "OPNW",
+      "company_name": "OPNW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "05:34:13",
       "time_kst": "19:34:13",
       "symbol": "DCM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $235.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:48:05",
-      "time_kst": "23:48:05",
-      "symbol": "JEM",
-      "company_name": "JEM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
