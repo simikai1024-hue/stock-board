@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 17:14:02",
-  "updated_at_et": "2026-11-11 03:14:02",
-  "updated_epoch_ms": 1794384842004,
+  "updated_at_kst": "2026-11-11 17:14:40",
+  "updated_at_et": "2026-11-11 03:14:40",
+  "updated_epoch_ms": 1794384880287,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "장외대기",
     "watchlist_count": 1,
-    "orderable_usd": 7.04,
+    "orderable_usd": 178.79,
     "daily_done": false,
-    "holding_symbol": "TURB",
-    "holding_qty": 198,
-    "avg_price": 0.88,
-    "current_price": 0.9,
-    "profit_rate": 2.27,
-    "updated_kst": "17:13:54"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "17:14:40"
   },
   "stats": {
     "today_total": 0,
@@ -111,7 +111,7 @@
       "catalyst_hint": "[당일 PR] TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TURB (Turbo Energy, S.A.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.05M USD (연구소 시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 체결가 및 수급: 전일 종가 $0.8522 대비 현재가 $0.8790 (+3.14%), 당일 최고가 $0.8899 (고점 대비 -1.2%로 고가 유지), 당일 누적 거래대금 $59,232 USD로 프리장 수급 유입 시작.\n차트 건전성: 장전 +200% 이상 폭등하여 상투를 잡는 갭소멸 설거지 차트가 전혀 아니며, 고점 대비 급락(-20%↓) 없이 시초 진입 시 강력한 추가 폭등 탄력이 살아있는 극초기 무결점 매집 구간입니다.\n2. D-Day SEC 6-K 본공시 + 공식 PR 원문 직독 정밀 검증 (트랙 1 합격)\n당일(11/10) SEC 본공시 & 공식 PR 세트 결합:\nSEC 공시 현황: 2026-11-10 [6-K] 본공시 접수 완료.\n공식 통신사 PR (08:30:00 ET): \"TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS\"\n원문 팩트 및 1급 기폭제 요건 검증:\n구체적 달러 금액 명시 대형 수주: 금액 미기재 단순 MOU/샘플/특허나 IR 주주서한이 아니라, 구체적 달러 금액인 $7.6 Million ($7,600,000 USD) 규모의 추가 저장 장치 및 에너지 관리 확정 수주(Additional Orders)가 명시된 진성 계약입니다.\n체급 대비 파괴력: 실질 시가총액($11.05M) 대비 무려 68.8%에 달하는 메가톤급 대형 수주로 당일 기업 가치를 수직 리레이팅시킬 수 있는 확실한 1급 기폭제에 해당합니다.\n주식 희석 위험 부재: 활성 424B5(ATM), 당일 신규 EFFECT, 8-K 3.02 등 신주·워런트 덤핑 창구가 일절 열려 있지 않은 무결점 상태입니다.\n사후 뒷북 병합 착시 부재: 주식병합 효력 1일차 여부가 False로 확인되어 BJDX형 행정 뒷북 병합 함정과 완전히 무관합니다.\n3. 최종 심사 및 결재 판정\n시총 $11.05M 나스닥 소형 품절주에 시총의 약 69%에 육박하는 $7.6M 확정 수주 6-K 본공시 + 공식 PR 세트가 완벽 동기화되었고, 장전 +3.14% 극초입 구간이므로 연구소 본장 트랙 1 기준에 따라 **FORCE_BUY: TURB**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: TURB FORCE_BLOCK: NONE NOTES:\n[TURB] 시총($11.05M) 대비 약 69% 규모인 $7.6M 확정 수주 6-K+공식 PR 세트 결합 및 장전 +3.14% 무결점 초입으로 즉시 매수 승인 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
-      "trade_action": "🚀 실전매수 체결 완료 (198주 @ 평단 $0.8800)"
+      "trade_action": "💰 익절 완료: 198주 | 매수 $0.8800 → 매도 $0.9000 (+2.27% / +3.96$)"
     },
     {
       "id": "v_manual_20261109_XHLD",
