@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:00:31",
-  "updated_at_et": "2026-11-11 04:00:31",
-  "updated_epoch_ms": 1794387631498,
+  "updated_at_kst": "2026-11-11 18:01:42",
+  "updated_at_et": "2026-11-11 04:01:42",
+  "updated_epoch_ms": 1794387702904,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:28"
+    "updated_kst": "18:01:31"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 1,
+    "today_hardcut": 6,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:01:40",
+      "time_kst": "18:01:40",
+      "symbol": "AIBZ",
+      "company_name": "AIBZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $179.36M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:01:21",
+      "time_kst": "18:01:21",
+      "symbol": "BIAF",
+      "company_name": "BIAF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:01:06",
+      "time_kst": "18:01:06",
+      "symbol": "WFF",
+      "company_name": "WFF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:00:47",
+      "time_kst": "18:00:47",
+      "symbol": "CISS",
+      "company_name": "C3is Inc.",
+      "exchange": "ND",
+      "mcap_m": 3.04,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:00:39",
+      "time_kst": "18:00:39",
+      "symbol": "ROC",
+      "company_name": "ROC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $64.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:00:27",
       "time_kst": "18:00:27",
       "symbol": "MI",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $68.25M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:08:32",
-      "time_kst": "22:08:32",
-      "symbol": "CRBP",
-      "company_name": "CRBP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $67.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:06:47",
-      "time_kst": "22:06:47",
-      "symbol": "TTRX",
-      "company_name": "TTRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $298.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:06:00",
-      "time_kst": "22:06:00",
-      "symbol": "PDSB",
-      "company_name": "PDSB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $113.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:05:53",
-      "time_kst": "22:05:53",
-      "symbol": "SGML",
-      "company_name": "SGML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $668.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:02:47",
-      "time_kst": "22:02:47",
-      "symbol": "IMRN",
-      "company_name": "IMRN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
     }
   ]
 }
