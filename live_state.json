@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-11 12:02:54",
+  "updated_at": "2026-11-11 12:04:18",
   "history": [
     {
       "id": "1794364525456_002990_BUY",
@@ -57,26 +57,26 @@
       "qty": 11
     },
     {
-      "id": "1794366171716_002900_BUY",
+      "id": "1794366256355_002900_BUY",
       "type": "BUY",
       "auto_copy": false,
-      "time": "2026-11-11 12:02:51",
+      "time": "2026-11-11 12:04:16",
       "name": "TYM",
       "code": "002900",
-      "price": 7180,
+      "price": 7210,
       "flu_rt": 10.46,
       "val_uk": 0.0,
-      "target_price": 7530,
-      "stop_price": 6960,
+      "target_price": 7570,
+      "stop_price": 6990,
       "ammo_title": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%) (시총 2,716억)",
       "ammo_date": "20261111",
-      "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 미집행 우려 없는 100억 규모 진성 장내 직접 자사주 취득 본공시로 독소조항 부재 및 +5.0% 그물망 유지 ===DART_AUDIT_END===",
-      "buy_price": 7180,
+      "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)",
+      "buy_price": 7210,
       "qty": 13
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-11 12:02:54",
+    "updated_at": "2026-11-11 12:04:18",
     "stats": {
       "total_closed": 9,
       "win_count": 4,
@@ -94,7 +94,7 @@
         "weekday_short": "수",
         "code": "002900",
         "name": "TYM",
-        "buy_price": 7180,
+        "buy_price": 7210,
         "sell_price": 0,
         "qty": 13,
         "pnl_pct": 0.0,
@@ -103,7 +103,7 @@
         "buy_time": "12:02:09",
         "sell_time": "",
         "reason": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%) (시총 2,716억)",
-        "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 미집행 우려 없는 100억 규모 진성 장내 직접 자사주 취득 본공시로 독소조항 부재 및 +5.0% 그물망 유지 ===DART_AUDIT_END==="
+        "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
       },
       {
         "date": "2026-11-11",
@@ -309,7 +309,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-11 12:02:54",
+    "updated_at": "2026-11-11 12:04:18",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 23,
@@ -636,11 +636,11 @@
         "is_today_live": true,
         "my_trade": {
           "status": "OPEN",
-          "buy_price": 7180,
+          "buy_price": 7210,
           "sell_price": 0,
           "pnl_pct": 0.0,
           "pnl_krw": 0,
-          "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 미집행 우려 없는 100억 규모 진성 장내 직접 자사주 취득 본공시로 독소조항 부재 및 +5.0% 그물망 유지 ===DART_AUDIT_END==="
+          "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
         }
       },
       {
@@ -3632,7 +3632,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-11 12:02:54",
+    "updated_at": "2026-11-11 12:04:18",
     "deprecated": true,
     "stats": {},
     "days": []
