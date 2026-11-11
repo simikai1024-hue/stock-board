@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 22:08:40",
-  "updated_at_et": "2026-11-11 08:08:40",
-  "updated_epoch_ms": 1794402520433,
+  "updated_at_kst": "2026-11-11 22:09:27",
+  "updated_at_et": "2026-11-11 08:09:27",
+  "updated_epoch_ms": 1794402567570,
   "analyzing": {
-    "active": true,
-    "symbol": "RNTZ",
-    "company_name": "RNTZ",
-    "exchange": "ND",
-    "price": 5.1001,
-    "gain_pct": 15.13,
-    "mcap_m": 14.66,
-    "catalyst_hint": "[당일 PR] Rantizo (Nasdaq: RNTZ) Advances U.S. Production of Heavy-Lift Autonomous Drones After $258.8 Million Acquisition, Targets California’s $61.2 Billion Agricultural Market",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:08:34",
-    "started_at_kst": "22:08:34",
-    "started_epoch_ms": 1794402514365
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:08:22"
+    "updated_kst": "22:09:18"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
     "today_buy": 0,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 57,
-    "total_verdicts": 136,
+    "total_verdicts": 137,
     "total_buy": 7,
-    "total_false": 129,
-    "avg_nblm_sec": 44.0
+    "total_false": 130,
+    "avg_nblm_sec": 53.9
   },
   "verdicts": [
+    {
+      "id": "v_1794402563716_RNTZ_FALSE",
+      "date_et": "2026-11-11",
+      "weekday_kr": "수",
+      "time_et": "08:09:23",
+      "time_kst": "22:09:23",
+      "symbol": "RNTZ",
+      "company_name": "RNTZ",
+      "exchange": "ND",
+      "price": 5.1001,
+      "gain_pct": 15.13,
+      "mcap_m": 14.66,
+      "decision": "FALSE",
+      "elapsed_sec": 53.9,
+      "reason": "$258.8M은 10월 과거 거래 재탕이고 $61.2B는 시장통계 인용일 뿐, 신규 확정 수주 없는 단순 진출 계획 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Rantizo (Nasdaq: RNTZ) Advances U.S. Production of Heavy-Lift Autonomous Drones After $258.8 Million Acquisition, Targets California’s $61.2 Billion Agricultural Market",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 RNTZ (Rantizo) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.66M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $4.4300 대비 현재가 $5.1001 (+15.13%), 당일 최고가 $5.6500 (고점 대비 -9.7% 밀림), 당일 누적 거래대금 $132,906 USD.\n특례 적용 확인: 금일(11/11)은 미국 연방공휴일(Veterans Day)로 SEC EDGAR 접수처 공식 휴무일이므로, 당일 8-K/6-K 미접수 사유로 자동 차단하지 않고 **[최근 35일 무희석 이력 + 당일 공식 PR 원문의 1급 기폭제 진위]**로 정밀 심사합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 (치명적 제목 착시 & 1급 기폭제 결함)\n당일(11/11 08:00 ET) 공식 PR 원문 분석\n:\nPR 제목: *\"Rantizo (Nasdaq: RNTZ) Advances U.S. Production of Heavy-Lift Autonomous Drones After $258.8 Million Acquisition, Targets California’s $61.2 Billion Agricultural Market\"*\n원문 직독 결과 드러난 치명적 실체:\n과거 재료 재탕 (\\﻿$258.8M의 실체): 제목의 $258.8 Million은 오늘 신규로 체결된 대형 수주나 신규 M&A가 아닙니다\n. 본문에 *\"The announcement comes one month after Rantizo completed its $258.8 million transaction and began trading on Nasdaq... in October 2026\"*라고 명시되어 있듯, 이미 한 달 전(10월) 완료된 구 상장 합병 거래를 제목에 재탕 표기한 것입니다.\n단순 시장 규모 인용 착시 (\\﻿$61.2B의 실체): $61.2 Billion 역시 RNTZ가 수주한 금액이 아니라, 캘리포니아 농식품부 통계상의 캘리포니아주 전체 농업 시장 규모(TAM)를 단순 인용한 마케팅 문구에 불과합니다.\n신규 확정 매출 부재: 오늘 발표된 실질 내용은 드론 파일럿 2개 팀으로 캘리포니아 센트럴 밸리 4개 카운티에 진출할 **'계획(plans to expand)'**을 밝힌 사업 홍보에 불과하며\n, 본문 하단 면책 조항에도 \"Master spray agreements do not guarantee any volume of acreage or revenue\" (기존 협약은 어떠한 면적이나 매출도 보장하지 않음)라고 명시되어 있습니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"구체적 신규 현금 유입 확정 금액 미기재, 단순 사업계획/주주서한/홍보용 IR 및 과거 완료된 거래 재탕 발표는 1급 확정 기폭제 미달\")에 정확히 부합하는 전형적인 언론 플레이 포장 찌라시입니다.\n3. 최종 심사 및 결재 판정\n제목의 $258.8M은 과거 10월 합병 건의 재탕이고 $61.2B는 단순 주(州) 농업 통계 인용일 뿐\n, 당일 기업 가치를 수직 폭등시킬 신규 확정 계약 금액이 전혀 없으므로 전략 헌장 기준에 의거 FORCE_BLOCK: RNTZ 처리합니다.\n계좌 보호 원칙에 따라 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-11 FORCE_BUY: NONE FORCE_BLOCK: RNTZ NOTES:\n[RNTZ] $258.8M은 10월 과거 거래 재탕이고 $61.2B는 시장통계 인용일 뿐, 신규 확정 수주 없는 단순 진출 계획 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794321668652_NNOX_FALSE",
       "date_et": "2026-11-10",
@@ -2422,26 +2430,6 @@
       "reason": "직전 10/30 자 F-1 신규 EFFECT(신주 희석) 발효 + 전일 대비 -11.22% 투매 및 장전 대금 $0(수급 부재)로 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **ABTS (Abits Group Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.51M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.1940 대비 현재가 $1.0600 (-11.22% 투매/폭락), 당일 고가 $1.0700. 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n[신규 EFFECT 희석 폭탄 출회 (원칙 1 위반)]: 직전 거래일인 2026-10-30 자로 F-1 신주 증권등록신고서의 신규 EFFECT (효력 발생) 공시가 최종 발행되었습니다. 이는 언제든 시장에 신주 오퍼링/워런트 덤핑 물량이 쏟아질 수 있는 치명적 유상증자 희석 폭탄이 활성화된 상태입니다.\n[시세 차트 붕괴 (원칙 4 위반)]: 현재 주가가 전일 대비 -11.22% 폭락 중으로, 원칙 4항(\"-8% 이하 투매 및 설거지 차트 차단\")을 정면으로 위반하고 있습니다.\n[당일 기폭제 결함 (원칙 2·3 위반)]: 당일 제출된 6-K 공시는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)가 아닙니다.\n3. 최종 심사 및 결재 판정\n신규 EFFECT 발효로 인한 치명적 신주 희석 위험, -11.22% 투매 붕괴 차트, 당일 1급 확정 기폭제 부재 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번·4번 원칙에 의거 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: ABTS NOTES:\n[ABTS] 직전 10/30 자 F-1 신규 EFFECT(신주 희석) 발효 + 전일 대비 -11.22% 투매 및 장전 대금 $0(수급 부재)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793629011504_RBNE_FALSE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "09:16:51",
-      "time_kst": "23:16:51",
-      "symbol": "RBNE",
-      "company_name": "Robin Energy Ltd.",
-      "exchange": "ND",
-      "price": 0.1335,
-      "gain_pct": -2.27,
-      "mcap_m": 0.37,
-      "decision": "FALSE",
-      "elapsed_sec": 50.9,
-      "reason": "사전 F-1 증권등록 희석 위험 잔존 및 당일 확정 1급 기폭제 부재 + 장전 대금 $0(-2.27%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Robin Energy Declares Special Dividend of $0.10 Per Share",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **RBNE (Robin Energy Ltd.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.37M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $0.1366 대비 현재가 $0.1335 (-2.27% 약보합/음봉), 당일 고가 $0.1578 (-15.4%). 장전 누적 거래대금 $0 USD로 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n사전 SEC 이력 및 희석 위험: 최근 10/16 F-1 (외국기업 신주 발행 증권등록신고서) 제출 이력이 존재하여, 언제든 신주 유상증자 물량이 출회될 수 있는 희석 위험이 열려 있습니다 (심사 원칙 1번 위반).\n당일 D-Day 기폭제 결함: 당일(11/02) 신규 SEC 공시가 아직 미접수된 무뉴스/무공시 상태로, 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 수주/M&A 완료, 특별배당 등)의 실체가 전무합니다.\n3. 최종 심사 및 결재 판정\n사전 F-1 제출에 따른 신주 희석 위험이 잔존하고, 당일 확정 1급 기폭제 부재 및 장전 수급 미달($0 USD / -2.27%)을 나타내어 전략 헌장 1번·2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: RBNE NOTES:\n[RBNE] 사전 F-1 증권등록 희석 위험 잔존 및 당일 확정 1급 기폭제 부재 + 장전 대금 $0(-2.27%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
