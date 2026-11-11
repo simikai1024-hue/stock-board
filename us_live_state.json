@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:27:39",
-  "updated_at_et": "2026-11-11 09:27:39",
-  "updated_epoch_ms": 1794407259751,
+  "updated_at_kst": "2026-11-11 23:28:39",
+  "updated_at_et": "2026-11-11 09:28:39",
+  "updated_epoch_ms": 1794407319493,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "프리장실전",
+    "session_label": "개장동시호가",
     "watchlist_count": 0,
     "orderable_usd": 178.79,
     "daily_done": false,
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:27:36"
+    "updated_kst": "23:28:35"
   },
   "stats": {
     "today_total": 4,
