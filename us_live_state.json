@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 19:00:37",
-  "updated_at_et": "2026-11-11 05:00:37",
-  "updated_epoch_ms": 1794391237843,
+  "updated_at_kst": "2026-11-11 19:01:36",
+  "updated_at_et": "2026-11-11 05:01:36",
+  "updated_epoch_ms": 1794391296113,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:00:35"
+    "updated_kst": "19:01:32"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 39,
+    "today_hardcut": 40,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "05:00:56",
+      "time_kst": "19:00:56",
+      "symbol": "CYAB",
+      "company_name": "CYAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:56:45",
       "time_kst": "18:56:45",
       "symbol": "HELP",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:42:50",
-      "time_kst": "23:42:50",
-      "symbol": "IH",
-      "company_name": "IH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
