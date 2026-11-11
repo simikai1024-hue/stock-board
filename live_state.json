@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-11 12:04:18",
+  "updated_at": "2026-11-11 12:14:23",
   "history": [
     {
       "id": "1794364525456_002990_BUY",
@@ -73,19 +73,39 @@
       "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)",
       "buy_price": 7210,
       "qty": 13
+    },
+    {
+      "id": "1794366859061_002900_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-11 12:14:19",
+      "name": "TYM",
+      "code": "002900",
+      "price": 7120,
+      "flu_rt": 9.69,
+      "val_uk": 0.0,
+      "target_price": 7470,
+      "stop_price": 6900,
+      "ammo_title": "📘 확정 손실: -1,374원 (-1.47%) | 매수 7,210원 → 매도 7,120원 (13주) [DART공시 10분 미도달 무조건 칼회전 청산(-1.11%)]",
+      "ammo_date": "",
+      "note": "⏰ DART공시 10분 미도달 무조건 칼회전 청산(-1.11%) 완료 | 확정 손익 -1,374원 (-1.47%)",
+      "pnl_krw": -1374,
+      "pnl_pct": -1.47,
+      "buy_price": 7210,
+      "qty": 13
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-11 12:04:18",
+    "updated_at": "2026-11-11 12:14:23",
     "stats": {
-      "total_closed": 9,
+      "total_closed": 10,
       "win_count": 4,
       "hit_5pct_count": 1,
       "super_win_count": 0,
-      "loss_count": 5,
+      "loss_count": 6,
       "buy_fail_count": 0,
-      "win_rate_pct": 44.4,
-      "total_pnl_krw": -5491
+      "win_rate_pct": 40.0,
+      "total_pnl_krw": -6865
     },
     "rows": [
       {
@@ -95,15 +115,17 @@
         "code": "002900",
         "name": "TYM",
         "buy_price": 7210,
-        "sell_price": 0,
+        "sell_price": 7120,
         "qty": 13,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0,
-        "status": "OPEN",
+        "pnl_pct": -1.47,
+        "pnl_krw": -1374,
+        "status": "LOSS",
         "buy_time": "12:02:09",
-        "sell_time": "",
+        "sell_time": "12:14:19",
         "reason": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 100.0억 (시총의 3.7%) (시총 2,716억)",
-        "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
+        "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)",
+        "sell_summary": "📘 확정 손실: -1,374원 (-1.47%) | 매수 7,210원 → 매도 7,120원 (13주) [DART공시 10분 미도달 무조건 칼회전 청산(-1.11%)]",
+        "hold_mins": 12
       },
       {
         "date": "2026-11-11",
@@ -309,7 +331,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-11 12:04:18",
+    "updated_at": "2026-11-11 12:14:23",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 23,
@@ -635,11 +657,11 @@
         "eod_finalized": false,
         "is_today_live": true,
         "my_trade": {
-          "status": "OPEN",
+          "status": "LOSS",
           "buy_price": 7210,
-          "sell_price": 0,
-          "pnl_pct": 0.0,
-          "pnl_krw": 0,
+          "sell_price": 7120,
+          "pnl_pct": -1.47,
+          "pnl_krw": -1374,
           "note": "🏛️⚡ DART·KIND 공시 스나이퍼 체결! (체결 즉시 +5.0% 지정가 매복그물망 장착 · 노트북LM 함정검수 가동)"
         }
       },
@@ -3632,7 +3654,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-11 12:04:18",
+    "updated_at": "2026-11-11 12:14:23",
     "deprecated": true,
     "stats": {},
     "days": []
