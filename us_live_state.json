@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:09:55",
-  "updated_at_et": "2026-11-11 09:09:55",
-  "updated_epoch_ms": 1794406195726,
+  "updated_at_kst": "2026-11-11 23:10:10",
+  "updated_at_et": "2026-11-11 09:10:10",
+  "updated_epoch_ms": 1794406210710,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TPST",
+    "company_name": "TPST",
+    "exchange": "ND",
+    "price": 0.4068,
+    "gain_pct": 9.44,
+    "mcap_m": 8.13,
+    "catalyst_hint": "[당일 PR] Tempest Therapeutics Exercises Option to License Senlang’s CD7-Targeted Lentiviral In Vivo CAR-T Platform Following Initial Phase 1 Results with Lead BCMA/GPRC5D Candidate",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:10:04",
+    "started_at_kst": "23:10:04",
+    "started_epoch_ms": 1794406204507
   },
   "halt_watch": {
     "active": false
