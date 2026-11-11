@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-10",
-  "updated_at_kst": "2026-11-11 10:05:45",
-  "updated_at_et": "2026-11-10 20:05:45",
-  "updated_epoch_ms": 1794359145627,
+  "updated_at_kst": "2026-11-11 10:06:45",
+  "updated_at_et": "2026-11-10 20:06:45",
+  "updated_epoch_ms": 1794359205091,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "장외대기",
     "watchlist_count": 1,
-    "orderable_usd": 7.03,
+    "orderable_usd": 7.04,
     "daily_done": false,
-    "holding_symbol": "TURB",
-    "holding_qty": 198,
-    "avg_price": 0.88,
-    "current_price": 0.91,
-    "profit_rate": 3.41,
-    "updated_kst": "10:05:43"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "10:06:38"
   },
   "stats": {
     "today_total": 4,
