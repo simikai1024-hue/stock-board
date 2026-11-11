@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:16:09",
-  "updated_at_et": "2026-11-11 04:16:09",
-  "updated_epoch_ms": 1794388569438,
+  "updated_at_kst": "2026-11-11 18:16:50",
+  "updated_at_et": "2026-11-11 04:16:50",
+  "updated_epoch_ms": 1794388610356,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:16:04"
+    "updated_kst": "18:16:46"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 18,
+    "today_hardcut": 23,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:16:44",
+      "time_kst": "18:16:44",
+      "symbol": "AIB",
+      "company_name": "AIB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:16:39",
+      "time_kst": "18:16:39",
+      "symbol": "UPXI",
+      "company_name": "UPXI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:16:29",
+      "time_kst": "18:16:29",
+      "symbol": "ZEO",
+      "company_name": "ZEO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:16:22",
+      "time_kst": "18:16:22",
+      "symbol": "SKYQ",
+      "company_name": "SKYQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "04:16:11",
+      "time_kst": "18:16:11",
+      "symbol": "VVOS",
+      "company_name": "VVOS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,2.01,3.02,3.03,5.03,7.01,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:16:03",
       "time_kst": "18:16:03",
       "symbol": "INLF",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:07:59",
-      "time_kst": "23:07:59",
-      "symbol": "SSYS",
-      "company_name": "SSYS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $585.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:04:29",
-      "time_kst": "23:04:29",
-      "symbol": "ICLR",
-      "company_name": "ICLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $15732.51M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:00:58",
-      "time_kst": "23:00:58",
-      "symbol": "SPAI",
-      "company_name": "SPAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $67.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:58:34",
-      "time_kst": "22:58:34",
-      "symbol": "WKSP",
-      "company_name": "WKSP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "08:57:50",
-      "time_kst": "22:57:50",
-      "symbol": "SLNG",
-      "company_name": "SLNG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $71.41M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
