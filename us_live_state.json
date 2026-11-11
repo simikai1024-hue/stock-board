@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 22:40:27",
-  "updated_at_et": "2026-11-11 08:40:27",
-  "updated_epoch_ms": 1794404427393,
+  "updated_at_kst": "2026-11-11 22:41:08",
+  "updated_at_et": "2026-11-11 08:41:08",
+  "updated_epoch_ms": 1794404468310,
   "analyzing": {
-    "active": true,
-    "symbol": "YMAT",
-    "company_name": "YMAT",
-    "exchange": "ND",
-    "price": 1.2801,
-    "gain_pct": 26.74,
-    "mcap_m": 5.79,
-    "catalyst_hint": "[당일 PR] J-Star Holding Reaffirms 50-Year Advanced Composite Craftsmanship and Executive Financial Commitment, Highlighted by Tier 1 Carbon Fiber Supplier Partnership and Automated ",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:40:23",
-    "started_at_kst": "22:40:23",
-    "started_epoch_ms": 1794404423730
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:40:19"
+    "updated_kst": "22:40:59"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
     "today_buy": 0,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 60,
-    "total_verdicts": 137,
+    "total_verdicts": 138,
     "total_buy": 7,
-    "total_false": 130,
-    "avg_nblm_sec": 53.9
+    "total_false": 131,
+    "avg_nblm_sec": 49.5
   },
   "verdicts": [
+    {
+      "id": "v_1794404464512_YMAT_FALSE",
+      "date_et": "2026-11-11",
+      "weekday_kr": "수",
+      "time_et": "08:41:04",
+      "time_kst": "22:41:04",
+      "symbol": "YMAT",
+      "company_name": "YMAT",
+      "exchange": "ND",
+      "price": 1.2801,
+      "gain_pct": 26.74,
+      "mcap_m": 5.79,
+      "decision": "FALSE",
+      "elapsed_sec": 45.0,
+      "reason": "금액 미기재 단순 기업 업데이트(Corporate Update) PR로 1급 확정 기폭제 미달 및 고점 대비 -16.9% 윗꼬리 덤핑으로 전량 차단",
+      "catalyst_hint": "[당일 PR] J-Star Holding Reaffirms 50-Year Advanced Composite Craftsmanship and Executive Financial Commitment, Highlighted by Tier 1 Carbon Fiber Supplier Partnership and Automated ",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 YMAT (J-Star Holding Co., Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.79M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $1.0100 대비 현재가 $1.2801 (+26.74%), 당일 최고가 $1.5400 (고점 대비 -16.9% 윗꼬리 급락 밀림), 당일 누적 거래대금 $897,530 USD.\n특례 적용 확인: 금일(11/11)은 미국 연방공휴일(Veterans Day)로 SEC EDGAR 접수처 공식 휴무일이므로, 당일 8-K/6-K 미접수 사유로 자동 차단하지 않고 **[최근 35일 무희석 이력 + 당일 공식 PR 원문의 1급 기폭제 진위]**로 정밀 심사합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 1급 기폭제 결함\n당일(11/11 08:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"J-Star Holding Reaffirms 50-Year Advanced Composite Craftsmanship and Executive Financial Commitment, Highlighted by Tier 1 Carbon Fiber Supplier Partnership and Automated U.S. UAV Production\"*\n원문 직독 결과 드러난 치명적 실체:\n단순 기업 업데이트(Corporate Update) / 홍보성 IR: 본문 첫 문장에 *\"today issued a corporate update aimed at aligning timelines with Tier 1 carbon fiber suppliers, highlighting management's financial commitment...\"*라고 명시되어 있듯, 신규 확정 대형 수주나 계약이 아닌 단순 주주서한/기업 현황 업데이트(Corporate Update) 발표입니다.\n구체적 달러 금액 부재 (No Confirmed Dollar Amount): 제목과 본문 어디에도 확정된 신규 매출, 구체적인 계약 달러 금액, 대형 수주액이 전혀 기재되어 있지 않은 단순 공급망 협력 및 일정 조율 내용에 불과합니다.\n1급 기폭제 기준 미달: FDA 승인, Pivotal 임상 성공, 구체적 달러 금액 명시 대형 수주/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 리레이팅시킬 확정적 1급 재료가 전혀 아닙니다.\n윗꼬리 차익실현 덤핑 차트: 장전 최고가 $1.5400까지 튀었다가 현재가 $1.2801로 -16.9% 급락 밀리는 전형적인 피뢰침 덤핑 차트를 형성하고 있어, 단순 홍보성 뉴스를 이용한 세력의 차익 매물 출회 구간입니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"구체적 금액 미기재 단순 파트너십/MOU/특허/주주서한/기업업데이트 및 고점 대비 급락 설거지 차트는 1급 확정 기폭제 미달\" )에 정확히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR이 구체적 확정 달러 금액이 없는 단순 기업 업데이트(Corporate Update) 및 파트너십 홍보에 불과하여 1급 기폭제 기준에 미달하고, 고점 대비 -16.9% 밀리는 윗꼬리 차트를 형성하고 있으므로 전략 헌장 원칙에 의거 FORCE_BLOCK: YMAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-11 FORCE_BUY: NONE FORCE_BLOCK: YMAT NOTES:\n[YMAT] 금액 미기재 단순 기업 업데이트(Corporate Update) PR로 1급 확정 기폭제 미달 및 고점 대비 -16.9% 윗꼬리 덤핑으로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794402563716_RNTZ_FALSE",
       "date_et": "2026-11-11",
@@ -2422,26 +2430,6 @@
       "reason": "채권단 구조조정 지원 계약(Restructuring Agreement) 파산 수순 악재 및 전일 대비 -68.68% 대폭락 차트로 전량 차단",
       "catalyst_hint": "[당일 PR] Karyopharm Therapeutics Inc. Announces Planned Merger with Ayrmid Ltd. to Strengthen Company for the Future",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **KPTI (Karyopharm Therapeutics Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.76M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 차트 붕괴: 전일 종가 $0.6706 대비 현재가 $0.2100 (-68.68% 대폭락), 당일 고가 $0.6800 대비 -69.1% 붕괴. 치명적인 투매 음봉 차트를 형성하고 있습니다 (원칙 4 위반).\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n당일(11/02) D-Day 8-K (Item 7.01) 및 EX-99.1 원문 정밀 분석:\n공시 핵심 내용: 기존 채권자/노트홀더 및 주요 관계자들과 구조조정 지원 계약(Restructuring Support Agreement)을 체결하였으며, Ayrmid Ltd.와 재무 구조개편된 Karyopharm 간의 합병(Transaction)을 추진하기 위한 법률 절차 개시 발표.\n악재 팩트 적발: 이는 기업 가치 상승 호재가 아니라, 거대한 채무 상환 불능으로 인해 법정 재무 구조조정 및 주식 소멸/극단적 희석 절차에 진입하는 대표적인 기업 파산/구조조정 대형 악재입니다.\n3. 최종 심사 및 결재 판정\n구조조정 지원 계약(Restructuring Support Agreement)에 따른 파산 수순 악재 출회 및 -68.68% 폭락 붕괴 차트로 전략 헌장 1번·2번·3번·4번 원칙을 모두 위배하여 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: KPTI NOTES:\n[KPTI] 채권단 구조조정 지원 계약(Restructuring Agreement) 파산 수순 악재 및 전일 대비 -68.68% 대폭락 차트로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793629130101_ABTS_FALSE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "09:18:50",
-      "time_kst": "23:18:50",
-      "symbol": "ABTS",
-      "company_name": "Abits Group Inc",
-      "exchange": "ND",
-      "price": 1.06,
-      "gain_pct": -11.22,
-      "mcap_m": 2.51,
-      "decision": "FALSE",
-      "elapsed_sec": 38.4,
-      "reason": "직전 10/30 자 F-1 신규 EFFECT(신주 희석) 발효 + 전일 대비 -11.22% 투매 및 장전 대금 $0(수급 부재)로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-02 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **ABTS (Abits Group Inc.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.51M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $1.1940 대비 현재가 $1.0600 (-11.22% 투매/폭락), 당일 고가 $1.0700. 장전 누적 거래대금 $0 USD로 초기 수급 유입 부재.\n2. SEC 제출 이력 & 당일 D-Day 원문 직독 검증\n[신규 EFFECT 희석 폭탄 출회 (원칙 1 위반)]: 직전 거래일인 2026-10-30 자로 F-1 신주 증권등록신고서의 신규 EFFECT (효력 발생) 공시가 최종 발행되었습니다. 이는 언제든 시장에 신주 오퍼링/워런트 덤핑 물량이 쏟아질 수 있는 치명적 유상증자 희석 폭탄이 활성화된 상태입니다.\n[시세 차트 붕괴 (원칙 4 위반)]: 현재 주가가 전일 대비 -11.22% 폭락 중으로, 원칙 4항(\"-8% 이하 투매 및 설거지 차트 차단\")을 정면으로 위반하고 있습니다.\n[당일 기폭제 결함 (원칙 2·3 위반)]: 당일 제출된 6-K 공시는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(임상 성공/FDA 승인, 구체적 달러 금액 명시 대형 M&A/계약 완료, 특별배당 등)가 아닙니다.\n3. 최종 심사 및 결재 판정\n신규 EFFECT 발효로 인한 치명적 신주 희석 위험, -11.22% 투매 붕괴 차트, 당일 1급 확정 기폭제 부재 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번·4번 원칙에 의거 FORCE_BLOCK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 09:30 정각 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: ABTS NOTES:\n[ABTS] 직전 10/30 자 F-1 신규 EFFECT(신주 희석) 발효 + 전일 대비 -11.22% 투매 및 장전 대금 $0(수급 부재)로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
