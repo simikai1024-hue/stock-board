@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 21:21:32",
-  "updated_at_et": "2026-11-11 07:21:32",
-  "updated_epoch_ms": 1794399692153,
+  "updated_at_kst": "2026-11-11 21:22:29",
+  "updated_at_et": "2026-11-11 07:22:29",
+  "updated_epoch_ms": 1794399749977,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:21:30"
+    "updated_kst": "21:22:26"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 52,
+    "today_hardcut": 53,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "07:21:41",
+      "time_kst": "21:21:41",
+      "symbol": "ACTU",
+      "company_name": "ACTU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "07:05:59",
       "time_kst": "21:05:59",
       "symbol": "QNME",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:00:47",
-      "time_kst": "18:00:47",
-      "symbol": "CISS",
-      "company_name": "C3is Inc.",
-      "exchange": "ND",
-      "mcap_m": 3.04,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
     }
   ]
 }
