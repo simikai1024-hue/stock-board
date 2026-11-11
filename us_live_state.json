@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:47:41",
-  "updated_at_et": "2026-11-11 09:47:41",
-  "updated_epoch_ms": 1794408461552,
+  "updated_at_kst": "2026-11-11 23:48:30",
+  "updated_at_et": "2026-11-11 09:48:30",
+  "updated_epoch_ms": 1794408510715,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "COSM",
+    "company_name": "COSM",
+    "exchange": "ND",
+    "price": 0.2189,
+    "gain_pct": 10.78,
+    "mcap_m": 22.03,
+    "catalyst_hint": "[당일 PR] Cosmos Health Provides U.S. E-Commerce Update for October 2026: Monthly Subscription Value Reaches $1.83 Million, Approximately $22 Million Annualized",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:48:27",
+    "started_at_kst": "23:48:27",
+    "started_epoch_ms": 1794408507045
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:47:40"
+    "updated_kst": "23:48:16"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:48:11",
+      "time_kst": "23:48:11",
+      "symbol": "DTI",
+      "company_name": "DTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.33M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "09:47:42",
+      "time_kst": "23:47:42",
+      "symbol": "JOB",
+      "company_name": "JOB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $696.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:47:37",
       "time_kst": "23:47:37",
       "symbol": "BGLC",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:37:31",
-      "time_kst": "18:37:31",
-      "symbol": "ARAI",
-      "company_name": "ARAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:37:25",
-      "time_kst": "18:37:25",
-      "symbol": "ZTG",
-      "company_name": "ZTG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
     }
   ]
 }
