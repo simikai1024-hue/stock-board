@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:46:51",
-  "updated_at_et": "2026-11-11 09:46:51",
-  "updated_epoch_ms": 1794408411244,
+  "updated_at_kst": "2026-11-11 23:47:41",
+  "updated_at_et": "2026-11-11 09:47:41",
+  "updated_epoch_ms": 1794408461552,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:46:43"
+    "updated_kst": "23:47:40"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:47:37",
+      "time_kst": "23:47:37",
+      "symbol": "BGLC",
+      "company_name": "BGLC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-07 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "09:47:13",
+      "time_kst": "23:47:13",
+      "symbol": "DKI",
+      "company_name": "DKI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B4])"
+    },
+    {
+      "date_et": "2026-11-11",
+      "time_et": "09:46:57",
+      "time_kst": "23:46:57",
+      "symbol": "OESX",
+      "company_name": "OESX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.69M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:46:47",
       "time_kst": "23:46:47",
       "symbol": "INCR",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:36:18",
-      "time_kst": "18:36:18",
-      "symbol": "DVLT",
-      "company_name": "DVLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:26:38",
-      "time_kst": "18:26:38",
-      "symbol": "OBAI",
-      "company_name": "OBAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,5.03,9.01))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:21:40",
-      "time_kst": "18:21:40",
-      "symbol": "RCT",
-      "company_name": "RCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [EFFECT] (Item ,,))"
     }
   ]
 }
