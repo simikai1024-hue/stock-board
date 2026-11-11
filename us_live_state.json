@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 18:56:09",
-  "updated_at_et": "2026-11-11 04:56:09",
-  "updated_epoch_ms": 1794390969661,
+  "updated_at_kst": "2026-11-11 18:56:52",
+  "updated_at_et": "2026-11-11 04:56:52",
+  "updated_epoch_ms": 1794391012053,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:56:06"
+    "updated_kst": "18:56:46"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 38,
+    "today_hardcut": 39,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "04:56:45",
+      "time_kst": "18:56:45",
+      "symbol": "HELP",
+      "company_name": "HELP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $713.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "04:45:14",
       "time_kst": "18:45:14",
       "symbol": "MOB",
@@ -2921,16 +2931,6 @@
       "time_kst": "23:42:50",
       "symbol": "IH",
       "company_name": "IH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:40:34",
-      "time_kst": "23:40:34",
-      "symbol": "RWTQ",
-      "company_name": "RWTQ",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
