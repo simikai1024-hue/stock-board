@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-11 11:35:27",
+  "updated_at": "2026-11-11 11:37:37",
   "history": [
     {
       "id": "1794364525456_002990_BUY",
@@ -19,10 +19,26 @@
       "note": "🧠 연구소장 검수완료 [💰단기슈팅수확(QUICK_SCALP)]: 공공기관(농진청) 발주 시총 104%(3,279억) 규모 무결점 진성 공사도급 본계약 공시로 +5.0% 그물망 유지 ===DART_AUDIT_END===",
       "buy_price": 8560,
       "qty": 11
+    },
+    {
+      "id": "1794364653042_100030_WATCH",
+      "type": "WATCH",
+      "auto_copy": true,
+      "time": "2026-11-11 11:37:33",
+      "name": "인지소프트",
+      "code": "100030",
+      "price": 20500,
+      "flu_rt": 5.51,
+      "val_uk": 0.0,
+      "target_price": 21500,
+      "stop_price": 19880,
+      "ammo_title": "⚡[KIND 실시간공시·자사주취득] ⚡[실전A급] 자사주(장내직접) 20.0억 (시총의 3.2%) (시총 631억)",
+      "ammo_date": "20261111",
+      "note": "👑⚡ 실시간 DART·KIND 진짜 특S급 호재 공시 포착!"
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-11 11:35:28",
+    "updated_at": "2026-11-11 11:37:37",
     "stats": {
       "total_closed": 8,
       "win_count": 4,
@@ -236,20 +252,32 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-11 11:35:28",
+    "updated_at": "2026-11-11 11:37:37",
     "stats": {
-      "cooked_count": 24,
+      "cooked_count": 25,
       "finalized_count": 23,
       "hit_5pct_count": 17,
       "hit_5pct_rate": 73.9,
-      "dart_count": 23,
+      "dart_count": 24,
       "news_count": 1,
-      "today_cooked_count": 1,
-      "avg_day_high_pct": 16.29,
-      "avg_open_to_high_pct": 16.2,
-      "avg_post_disc_max_pct": 11.26
+      "today_cooked_count": 2,
+      "avg_day_high_pct": 15.9,
+      "avg_open_to_high_pct": 15.83,
+      "avg_post_disc_max_pct": 10.81
     },
     "preparing_list": [
+      {
+        "code": "100030",
+        "name": "인지소프트",
+        "mcap_uk": 631,
+        "prep_tag": "✨ 자사주취득 폭발!",
+        "prep_detail": "⚡[실전A급] 자사주(장내직접) 20.0억 (시총의 3.2%)",
+        "prep_date": "2026-11-11",
+        "cooked_today": true,
+        "disc_time": "11:37",
+        "day_high_pct": 6.66,
+        "open_to_high_pct": 6.77
+      },
       {
         "code": "002990",
         "name": "금호건설",
@@ -514,20 +542,41 @@
         "cur_price": 9540,
         "flu_rt": -3.54,
         "cooked_today": false
-      },
-      {
-        "code": "018000",
-        "name": "유니슨",
-        "mcap_uk": 3048,
-        "prep_tag": "신사업 지분취득",
-        "prep_detail": "[10/19] 타법인주식및출자증권취득결정 (시총 3,048억)",
-        "prep_date": "2026-10-19",
-        "cur_price": 1044,
-        "flu_rt": 0.0,
-        "cooked_today": false
       }
     ],
     "cooked_list": [
+      {
+        "date": "2026-11-11",
+        "weekday": "수요일",
+        "weekday_short": "수",
+        "disc_time": "11:37",
+        "code": "100030",
+        "name": "인지소프트",
+        "channel": "DART",
+        "source_label": "KIND",
+        "tier": "A+S",
+        "belt_passed": true,
+        "cat": "자사주취득",
+        "summary": "⚡[실전A급] 자사주(장내직접) 20.0억 (시총의 3.2%)",
+        "rpt_title": "자기주식 취득 결정",
+        "doc_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20261111000205",
+        "mcap_uk": 631,
+        "prev_close": 19220,
+        "pre_disc_price": 19280,
+        "spike_from_pre_pct": 6.33,
+        "disc_price": 20500,
+        "target_5pct_price": 21500,
+        "entry_price": 20500,
+        "open_price": 19200,
+        "high_price": 20500,
+        "post_disc_high": 20500,
+        "close_price": 20500,
+        "open_to_high_pct": 6.77,
+        "day_high_pct": 6.66,
+        "post_disc_max_pct": 0.0,
+        "eod_finalized": false,
+        "is_today_live": true
+      },
       {
         "date": "2026-11-11",
         "weekday": "수요일",
@@ -3485,7 +3534,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-11 11:35:28",
+    "updated_at": "2026-11-11 11:37:37",
     "deprecated": true,
     "stats": {},
     "days": []
