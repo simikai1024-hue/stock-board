@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:48:30",
-  "updated_at_et": "2026-11-11 09:48:30",
-  "updated_epoch_ms": 1794408510715,
+  "updated_at_kst": "2026-11-11 23:49:07",
+  "updated_at_et": "2026-11-11 09:49:07",
+  "updated_epoch_ms": 1794408547923,
   "analyzing": {
-    "active": true,
-    "symbol": "COSM",
-    "company_name": "COSM",
-    "exchange": "ND",
-    "price": 0.2189,
-    "gain_pct": 10.78,
-    "mcap_m": 22.03,
-    "catalyst_hint": "[당일 PR] Cosmos Health Provides U.S. E-Commerce Update for October 2026: Monthly Subscription Value Reaches $1.83 Million, Approximately $22 Million Annualized",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:48:27",
-    "started_at_kst": "23:48:27",
-    "started_epoch_ms": 1794408507045
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:48:16"
+    "updated_kst": "23:48:54"
   },
   "stats": {
-    "today_total": 5,
-    "today_nblm_count": 5,
+    "today_total": 6,
+    "today_nblm_count": 6,
     "today_buy": 0,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 60,
-    "total_verdicts": 141,
+    "total_verdicts": 142,
     "total_buy": 7,
-    "total_false": 134,
-    "avg_nblm_sec": 46.6
+    "total_false": 135,
+    "avg_nblm_sec": 45.2
   },
   "verdicts": [
+    {
+      "id": "v_1794408541731_COSM_FALSE",
+      "date_et": "2026-11-11",
+      "weekday_kr": "수",
+      "time_et": "09:49:01",
+      "time_kst": "23:49:01",
+      "symbol": "COSM",
+      "company_name": "COSM",
+      "exchange": "ND",
+      "price": 0.2189,
+      "gain_pct": 10.78,
+      "mcap_m": 22.03,
+      "decision": "FALSE",
+      "elapsed_sec": 38.5,
+      "reason": "단순 10월 이커머스 매출 업데이트 PR은 1급 기폭제 미달이며 주식병합 효력일(11/13) 미도래 상태로 전량 차단",
+      "catalyst_hint": "[당일 PR] Cosmos Health Provides U.S. E-Commerce Update for October 2026: Monthly Subscription Value Reaches $1.83 Million, Approximately $22 Million Annualized",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 COSM (Cosmos Health Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.03M USD (시가총액 $50.0M 이하 소형 품절주 체급 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.1976 대비 현재가 $0.2189 (+10.78%), 당일 최고가 $0.2200 (고점 대비 -0.5%), 당일 누적 거래대금 $80,470 USD.\n공휴일 특례 적용: 금일(11/11)은 미국 연방공휴일(Veterans Day)로 SEC EDGAR 접수처 공식 휴무일이므로, 당일 8-K/6-K 미접수 사유로 자동 차단하지 않고 **[최근 35일 SEC 공시 이력 + 당일 공식 PR 원문의 1급 기폭제 진위]**로 정밀 심사합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/11 09:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"Cosmos Health Provides U.S. E-Commerce Update for October 2026: Monthly Subscription Value Reaches $1.83 Million, Approximately $22 Million Annualized\"*\n원문 직독 결과 드러난 치명적 실체:\n단순 정기 이커머스 매출 업데이트(Monthly Business Update): 본 PR은 신규 대형 수주나 확정적 계약 체결이 아니며, 10월 한 달간의 자체 DTC 이커머스 매출($1.67M) 및 월 구독 매출($1.83M) 집계를 단순 연환산(Annualized)하여 홍보한 통상적 기업 현황 보고/영업 업데이트에 불과합니다.\n1급 기폭제 기준 절대 미달: FDA 신약 승인, 확정적 대규모 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등 기업 가치를 수직 폭등시킬 수 있는 실체적 1급 재료가 전혀 아닙니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"구체적 계약 금액이 없는 단순 이커머스 지표/정기 실적/영업 업데이트/주주서한 PR은 1급 확정 기폭제 미달로 100% FORCE_BLOCK\")에 완벽히 해당합니다.\n3. 사전 SEC 공시 이력 정밀 대조: D-Day가 아닌 예고된 주식병합 착시 차단\n사전 8-K 정정 공시(2026-11-10 8-K/A) 원문 팩트:\n원문: *\"The Reverse Stock Split will be effective on November 13, 2026, and the Certificate of Amendment will be effective on November 12, 2026.\"*\n병합 효력일 미도래: 오늘(11/11)은 주식병합 효력 발생일(D-Day 1일차)이 아니며, 실제 효력발생일은 이틀 뒤인 11월 13일입니다.\n따라서 당일 실제 병합 효력 발생으로 인한 품절주 수급(AZTR형 D-Day 성공 공식)에 전혀 해당하지 않는 사전 예고 상태의 무효 수급입니다.\n4. 최종 심사 및 결재 판정\n당일 PR이 단순 10월 이커머스 영업 업데이트에 불과하여 1급 확정 기폭제에 미달하고, 주식병합 효력일 또한 11월 13일로 금일 D-Day가 아니므로 연구소 전략 헌장 원칙에 의거 FORCE_BLOCK: COSM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-11 FORCE_BUY: NONE FORCE_BLOCK: COSM NOTES:\n[COSM] 단순 10월 이커머스 매출 업데이트 PR은 1급 기폭제 미달이며 주식병합 효력일(11/13) 미도래 상태로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794407607134_TREO_FALSE",
       "date_et": "2026-11-11",
@@ -2422,26 +2430,6 @@
       "reason": "HZJL과의 SPAC 합병 계약 상호 해지(Mutual Termination) 공시로 1급 확정 기폭제가 아닌 합병 무산 악재에 해당하여 전량 차단",
       "catalyst_hint": "[당일 PR] Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 따라 긴급 포착 종목 **RDAC (Rising Dragon Acquisition Corp.)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.66M USD (시가총액 $50.0M 이하 소형 품절주 체급 조건 통과).\n실시간 시세 및 수급: 전일 종가 $4.8600 대비 현재가 $9.7991 (+101.63%), 당일 최고가 $9.9800 (-1.8%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:00 ET) PR 원문 분석:\nPR 제목: \"Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement\"\n원문 팩트: SPAC 회사인 RDAC가 피인수 대상인 HZJL Cayman Limited와의 기존 **합병 계약(Merger Agreement)을 상호 합의에 따라 공식 해지/파기(Mutual Termination)**한다고 발표함.\n치명적 결함:\n해당 공시는 M&A 합병 성사/완결 호재가 아니라, 추진 중이던 M&A 합병 계약이 최종 무산·파기(Termination)된 전형적인 합병 무산 공시입니다.\n당일 주가를 부양시킬 '확정적 1급 기폭제(완결된 M&A, FDA/임상 성공, 대형 수주, 특별배당 등)'가 전혀 아니며, 합병 파기에 따른 불확실성 증가로 진입 시 치명적인 손실을 유발할 수 있습니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 1급 확정 기폭제가 아닌 SPAC 합병 계약 무산/해지(Termination) 공시에 불과하므로 전략 헌장 2번·3번 원칙에 의거하여 FORCE_BLOCK: RDAC 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: RDAC NOTES:\n[RDAC] HZJL과의 SPAC 합병 계약 상호 해지(Mutual Termination) 공시로 1급 확정 기폭제가 아닌 합병 무산 악재에 해당하여 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793648955563_KFFB_FALSE",
-      "date_et": "2026-11-02",
-      "weekday_kr": "월",
-      "time_et": "14:49:15",
-      "time_kst": "04:49:15",
-      "symbol": "KFFB",
-      "company_name": "KFFB",
-      "exchange": "ND",
-      "price": 5.535,
-      "gain_pct": 3.26,
-      "mcap_m": 44.76,
-      "decision": "FALSE",
-      "elapsed_sec": 48.8,
-      "reason": "정기 실적 발표(Earnings Release)는 당일 확정 1급 기폭제 미달이며 거래대금($ [cite: 2, 26] [cite: 2]5,892) 극소로 전량 차단",
-      "catalyst_hint": "[당일 PR] Kentucky First Federal Bancorp Releases Earnings",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 전략 헌장 기준에 따라 긴급 포착 종목 **KFFB (Kentucky First Federal Bancorp)**에 대해 진행한 원문 직독 정밀 심사 결재 보고입니다 [cite: 2, 26].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $44.76M USD (파이썬 1차 $50.0M 이하 소형 품절주 체급 조건 통과) [cite: 2].\n실시간 시세 및 수급: 전일 종가 $5.3600 대비 현재가 $5.5350 (+3.26%), 당일 고가 $5.5350 (+0.0%). 당일 누적 거래대금이 $5,892 USD에 불과하여 세력 유동성 유입이 매우 저조한 상태입니다.\n2. SEC 제출 이력 & 당일 PR 원문 직독 검증\n사전 SEC 이력: 최근 35일 내 연례보고서(10-K) 및 주주총회 소집 안건(DEF 14A) 외 특이 수시 공시 없음.\n당일(11/02 13:51 ET) PR 원문 정밀 분석:\nPR 제목: \"Kentucky First Federal Bancorp Releases Earnings\"\n원문 진위 & 기폭제 결함: 지방 은행 지주회사의 정기 분기 실적 발표(Earnings Release) 뉴스입니다 [cite: 26].\n정기 실적 발표는 오늘 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(M&A 완료, FDA 승인/임상 성공, 구체적 달러 금액 명시 대형 계약, 특별배당 등)가 아닌 일상적 뉴스로, 심사 원칙 2번·3번 기준상 1급 확정 기폭제 미달에 해당합니다 [cite: 2, 26].\n3. 최종 심사 및 결재 판정\n당일 PR이 정기 실적 발표에 불과하여 1급 확정 기폭제 요건을 충족하지 못하고, 당일 거래대금($5,892 USD)이 극히 미달하므로 전략 헌장 2번·3번 원칙에 따라 FORCE_BLOCK 처리합니다 .\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 .\n===VERDICT_START=== DATE: 2026-11-02 FORCE_BUY: NONE FORCE_BLOCK: KFFB NOTES:\n[KFFB] 정기 실적 발표(Earnings Release)는 당일 확정 1급 기폭제 미달이며 거래대금($ [cite: 2, 26] [cite: 2]5,892) 극소로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
