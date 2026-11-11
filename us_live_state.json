@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:26:40",
-  "updated_at_et": "2026-11-11 09:26:40",
-  "updated_epoch_ms": 1794407200451,
+  "updated_at_kst": "2026-11-11 23:27:39",
+  "updated_at_et": "2026-11-11 09:27:39",
+  "updated_epoch_ms": 1794407259751,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:26:34"
+    "updated_kst": "23:27:36"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:26:46",
+      "time_kst": "23:26:46",
+      "symbol": "FJET",
+      "company_name": "FJET",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.8M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:11:57",
       "time_kst": "23:11:57",
       "symbol": "BURU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $69.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:02:46",
-      "time_kst": "18:02:46",
-      "symbol": "LIMN",
-      "company_name": "LIMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
