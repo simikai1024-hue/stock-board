@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 19:08:26",
-  "updated_at_et": "2026-11-11 05:08:26",
-  "updated_epoch_ms": 1794391706956,
+  "updated_at_kst": "2026-11-11 19:09:09",
+  "updated_at_et": "2026-11-11 05:09:09",
+  "updated_epoch_ms": 1794391749092,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:08:24"
+    "updated_kst": "19:09:01"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 41,
+    "today_hardcut": 42,
     "total_verdicts": 136,
     "total_buy": 7,
     "total_false": 129,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "05:09:05",
+      "time_kst": "19:09:05",
+      "symbol": "EDVA",
+      "company_name": "Endovia Health Sciences, Inc.",
+      "exchange": "AM",
+      "mcap_m": 1.94,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "05:01:51",
       "time_kst": "19:01:51",
       "symbol": "OLOX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $51.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-10",
-      "time_et": "09:47:16",
-      "time_kst": "23:47:16",
-      "symbol": "UPC",
-      "company_name": "UPC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
     }
   ]
 }
