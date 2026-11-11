@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-11",
-  "updated_at_kst": "2026-11-11 23:32:03",
-  "updated_at_et": "2026-11-11 09:32:03",
-  "updated_epoch_ms": 1794407523190,
+  "updated_at_kst": "2026-11-11 23:32:47",
+  "updated_at_et": "2026-11-11 09:32:47",
+  "updated_epoch_ms": 1794407567092,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TREO",
+    "company_name": "TREO",
+    "exchange": "ND",
+    "price": 2.8518,
+    "gain_pct": 7.78,
+    "mcap_m": 38.81,
+    "catalyst_hint": "[당일 PR] What Makes Heavy Rare Earths A Critical Element For America?",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:32:44",
+    "started_at_kst": "23:32:44",
+    "started_epoch_ms": 1794407564756
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:31:48"
+    "updated_kst": "23:32:44"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-11",
+      "time_et": "09:32:04",
+      "time_kst": "23:32:04",
+      "symbol": "CKX",
+      "company_name": "CKX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-11",
       "time_et": "09:32:00",
       "time_kst": "23:32:00",
       "symbol": "SILO",
@@ -2924,16 +2946,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $55.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:16:39",
-      "time_kst": "18:16:39",
-      "symbol": "UPXI",
-      "company_name": "UPXI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.94M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
