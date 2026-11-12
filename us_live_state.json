@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:55:56",
-  "updated_at_et": "2026-11-12 09:55:56",
-  "updated_epoch_ms": 1794495356383,
+  "updated_at_kst": "2026-11-12 23:56:59",
+  "updated_at_et": "2026-11-12 09:56:59",
+  "updated_epoch_ms": 1794495419278,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 142.4,
+    "orderable_usd": 2.74,
     "daily_done": false,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:55:52"
+    "updated_kst": "23:56:55"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:56:05",
+      "time_kst": "23:56:05",
+      "symbol": "MGN",
+      "company_name": "MGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [424B4])"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:53:02",
       "time_kst": "23:53:02",
       "symbol": "SQNS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $163.59M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:51:01",
-      "time_kst": "22:51:01",
-      "symbol": "FRBT",
-      "company_name": "FRBT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1017.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
