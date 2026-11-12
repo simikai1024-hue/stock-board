@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:50:37",
-  "updated_at_et": "2026-11-12 09:50:37",
-  "updated_epoch_ms": 1794495037526,
+  "updated_at_kst": "2026-11-12 23:50:43",
+  "updated_at_et": "2026-11-12 09:50:43",
+  "updated_epoch_ms": 1794495043767,
   "analyzing": {
     "active": true,
     "symbol": "MBRX",
@@ -31,7 +31,7 @@
     "avg_price": 5.931,
     "current_price": 4.84,
     "profit_rate": -18.39,
-    "updated_kst": "23:50:18"
+    "updated_kst": "23:50:37"
   },
   "stats": {
     "today_total": 1,
