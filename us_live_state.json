@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-13 00:26:53",
-  "updated_at_et": "2026-11-12 10:26:53",
-  "updated_epoch_ms": 1794497213856,
+  "updated_at_kst": "2026-11-13 00:27:45",
+  "updated_at_et": "2026-11-12 10:27:45",
+  "updated_epoch_ms": 1794497265961,
   "analyzing": {
     "active": false
   },
@@ -12,27 +12,47 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 9.23,
+    "orderable_usd": 116.95,
     "daily_done": false,
-    "holding_symbol": "POAS",
-    "holding_qty": 36,
-    "avg_price": 3.69,
-    "current_price": 3.53,
-    "profit_rate": -4.34,
-    "updated_kst": "00:26:50"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "00:27:45"
   },
   "stats": {
-    "today_total": 4,
+    "today_total": 5,
     "today_nblm_count": 3,
-    "today_buy": 1,
+    "today_buy": 2,
     "today_false": 3,
     "today_hardcut": 60,
-    "total_verdicts": 146,
-    "total_buy": 8,
+    "total_verdicts": 147,
+    "total_buy": 9,
     "total_false": 138,
     "avg_nblm_sec": 46.3
   },
   "verdicts": [
+    {
+      "id": "v_manual_1794497263576_POAS",
+      "date_et": "2026-11-12",
+      "weekday_kr": "목",
+      "time_et": "10:27:43",
+      "time_kst": "00:27:43",
+      "symbol": "POAS",
+      "company_name": "POAS",
+      "exchange": "NY",
+      "price": 3.0,
+      "gain_pct": -18.7,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🛡️ 손절 청산: 36주 | 매수 $3.6900 → 매도 $3.0000 (-18.70% / -24.84$)"
+    },
     {
       "id": "v_1794495276423_VTIX_FALSE",
       "date_et": "2026-11-12",
@@ -2410,26 +2430,6 @@
       "reason": "당일 8-K(Item 7.01) IR자료(Investor Presentation) 게시는 1급 확정 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-03 [8-K] (Item 7.01,9.01)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 MAMO (Massimo Group) 정밀 직독 결재 보고입니다 [cite: 2, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.98M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2, 4].\n실시간 시세 및 수급: 전일 종가 $0.9601 대비 현재가 $0.9601 (0.00% 보합), 당일 최고가 $0.9601. 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day SEC 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 핵심 내용: \"On November 3, 2026, Massimo Group posted an investor presentation on its website at www.massimomotor.com (Exhibit 99.1).\"\n원문 팩트: 회사의 공식 웹사이트에 투자자 설명회 자료(Investor Presentation, EX-99.1)를 게재했다는 단순 IR 홍보성 정보 공개(Regulation FD Disclosure) [cite: 46].\n치명적 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시키는 확정적 비즈니스 호재가 아니라, 단순 투자자 설명회(IR) 자료 업데이트 및 홈페이지 게재 재탕 기사에 불과합니다 [cite: 46].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 주주서한/IR 자료/정기 발표' 범주에 정확히 속하며, 당일 주가를 부양할 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 46].\n개장 전 유동성 반응($0 USD) 및 초기 세력 수급 유입이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 8-K(Item 7.01) 공시가 단순 IR 자료(Investor Presentation) 게재에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MAMO 처리합니다 [cite: 46].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 294].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: MAMO NOTES:\n[MAMO] 당일 8-K(Item 7.01) IR자료(Investor Presentation) 게시는 1급 확정 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793711628689_WKSP_FALSE",
-      "date_et": "2026-11-03",
-      "weekday_kr": "화",
-      "time_et": "08:13:48",
-      "time_kst": "22:13:48",
-      "symbol": "WKSP",
-      "company_name": "WKSP",
-      "exchange": "ND",
-      "price": 0.29,
-      "gain_pct": 2.44,
-      "mcap_m": 4.44,
-      "decision": "FALSE",
-      "elapsed_sec": 60.6,
-      "reason": "10/13 자 S-3 EFFECT 증약 희석 위험 잔존 + 당일 3분기 잠정 실적 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+2.44%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.2",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷에 수록된 원문 팩트를 바탕으로 진행한 WKSP (Worksport Ltd.) 정밀 직독 결재 보고입니다 [cite: 1, 19, 320].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.44M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 1, 320].\n실시간 시세 및 수급: 전일 종가 $0.2831 대비 현재가 $0.2900 (+2.44%), 당일 최고가 $0.3001 (-3.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 320].\n2. SEC 희석 위험 & D-Day PR 원문 직독 정밀 검증\n[사전 SEC 유상증자 희석 위험 잔존 (원칙 1 위반)]:\n사전 35일 SEC 제출 이력상 2026-10-13 EFFECT (S-3 증권등록신고서 효력 발생) 제출 기록이 존재하여, 언제든 장내 오퍼링/신주 유상증자 덤핑 물량이 출회될 수 있는 희석 위험이 열려 있습니다 [cite: 19].\n[당일 D-Day 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/03 07:01 ET) 발표 PR 제목: \"Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.24 Million\"\n원문 팩트: 3분기 잠정 실적 발표(Preliminary Q3 Results) 기사로, 매출액 $7.24M 및 영업현금 사용 감소 성과 발표 [cite: 19].\n치명적 기폭제 결함:\n정기/잠정 실적 발표(Earnings/Preliminary Results)는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 정기실적/주주서한' 범주에 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 특별배당 등)가 절대 아닙니다 [cite: 19].\n개장 전 수급 유입 반응($0 USD)이 전무하여 시장 참여자들의 폭발적인 주도주 매집이 형성되지 않았습니다.\n3. 최종 심사 및 결재 판정\n10/13 자 S-3 EFFECT 발효에 따른 희석 위험 잔존, 3분기 잠정 실적 발표의 1급 확정 기폭제 미달 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: WKSP 처리합니다 [cite: 19, 21].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 1].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: WKSP NOTES:\n[WKSP] 10/13 자 S-3 EFFECT 증약 희석 위험 잔존 + 당일 3분기 잠정 실적 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+2.44%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
