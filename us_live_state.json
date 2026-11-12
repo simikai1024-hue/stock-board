@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:54:04",
-  "updated_at_et": "2026-11-12 09:54:04",
-  "updated_epoch_ms": 1794495244391,
+  "updated_at_kst": "2026-11-12 23:54:40",
+  "updated_at_et": "2026-11-12 09:54:40",
+  "updated_epoch_ms": 1794495280497,
   "analyzing": {
-    "active": true,
-    "symbol": "VTIX",
-    "company_name": "VTIX",
-    "exchange": "ND",
-    "price": 0.6687,
-    "gain_pct": 5.27,
-    "mcap_m": 22.72,
-    "catalyst_hint": "[당일 PR] Virtuix to acquire defense contractor STS International in $12M deal",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:54:02",
-    "started_at_kst": "23:54:02",
-    "started_epoch_ms": 1794495242094
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:53:54"
+    "updated_kst": "23:54:35"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 2,
+    "today_total": 4,
+    "today_nblm_count": 3,
     "today_buy": 1,
-    "today_false": 2,
+    "today_false": 3,
     "today_hardcut": 60,
-    "total_verdicts": 145,
+    "total_verdicts": 146,
     "total_buy": 8,
-    "total_false": 137,
-    "avg_nblm_sec": 48.5
+    "total_false": 138,
+    "avg_nblm_sec": 46.3
   },
   "verdicts": [
+    {
+      "id": "v_1794495276423_VTIX_FALSE",
+      "date_et": "2026-11-12",
+      "weekday_kr": "목",
+      "time_et": "09:54:36",
+      "time_kst": "23:54:36",
+      "symbol": "VTIX",
+      "company_name": "VTIX",
+      "exchange": "ND",
+      "price": 0.6687,
+      "gain_pct": 5.27,
+      "mcap_m": 22.72,
+      "decision": "FALSE",
+      "elapsed_sec": 41.8,
+      "reason": "법적 구속력 없는 단순 인수의향서(Non-binding LOI, Item 7.01)로 확정 본계약이 아니며 인수자금 조달 증자 리스크로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Virtuix to acquire defense contractor STS International in $12M deal",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 VTIX (Virtuix Holdings Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.72M USD (연구소 시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.6352 대비 현재가 $0.6687 (+5.27%), 당일 최고가 $0.7438 (고점 대비 -10.1% 밀림), 당일 누적 거래대금 $141,711 USD.\n주식병합 효력 1일차 여부: False (품절주 병합 D-Day 수급 아님).\n2. D-Day SEC 8-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/12) 공식 PR 및 SEC 8-K 원문 분석:\nSEC 공시 현황: 2026-11-12 [8-K] (Item 7.01 Regulation FD Disclosure, 9.01) 접수.\nPR 제목: *\"Virtuix Signs LOI to Acquire Defense Contractor STS International, Reporting $40 Million in Unaudited Cash-Basis Revenue Through October 2026\"*\n원문 직독 결과 드러난 치명적 실체:\n법적 구속력 없는 단순 투자의향서(Non-binding LOI)에 불과: 본 계약은 확정된 M&A 본계약(Definitive Merger Agreement)이 아니며, *\"signed a non-binding letter of intent (LOI)\"*\n, *\"The LOI is non-binding with respect to the proposed acquisition, and there can be no assurance that the parties will enter into definitive agreements\"*\n라고 원문에 명시되어 있습니다.\n취소·결렬 가능성 및 선결 조건 미충족: 실사(Due Diligence), STS 재무제표 회계감사 완료, 제3자 공정성 평가(Fairness opinion), 본계약 체결 등 넘어야 할 관문이 산적해 있는 초기 협의 단계입니다.\n신주 발행에 따른 추가 지분 희석(Dilution) 및 자금 조달 리스크: 인수 대금($12M) 중 일부는 신주 사모발행(Private Placement) 주식으로 지급되며\n, 현금 지급분에 대해서도 *\"Virtuix obtaining financing for the cash portion of the consideration (for which Virtuix has no committed financing)\"*\n라고 명시되어 있어, 인수 자금 마련을 위한 유상증자나 신주 발행이 필수적으로 수반되는 부메랑 구조입니다.\nSEC 8-K 본공시 규격 결함: 중대 확정 계약(Item 1.01)이나 실제 자산 취득 완료(Item 2.01)가 아닌, 보도자료를 단순 전달하는 **행정용 Item 7.01(Regulation FD Disclosure)**로 제출되었습니다.\n이는 연구소 전략 헌장 제1장 2번 및 직독 심사 기준 3번 규칙(\"구속력 없는 단순 MOU/LOI/의향서 발표, 신주 발행 지분 희석 동반 및 구체적 확정 현금 유입이 없는 예비 건은 1급 확정 기폭제 미달로 100% FORCE_BLOCK\")에 정확히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 8-K(Item 7.01)는 법적 구속력이 없는 단순 인수 의향서(Non-binding LOI)이며, 인수 자금 마련을 위한 잠재적 증자 및 신주 발행 희석 리스크가 존재하여 1급 확정 기폭제 요건에 미달하므로 전략 헌장 원칙에 의거 FORCE_BLOCK: VTIX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-12 FORCE_BUY: NONE FORCE_BLOCK: VTIX NOTES:\n[VTIX] 법적 구속력 없는 단순 인수의향서(Non-binding LOI, Item 7.01)로 확정 본계약이 아니며 인수자금 조달 증자 리스크로 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_manual_1794495147030_ADXN",
       "date_et": "2026-11-12",
@@ -2422,26 +2430,6 @@
       "reason": "10/13 자 S-3 EFFECT 증약 희석 위험 잔존 + 당일 3분기 잠정 실적 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+2.44%) 전량 차단",
       "catalyst_hint": "[당일 PR] Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.2",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷에 수록된 원문 팩트를 바탕으로 진행한 WKSP (Worksport Ltd.) 정밀 직독 결재 보고입니다 [cite: 1, 19, 320].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.44M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 1, 320].\n실시간 시세 및 수급: 전일 종가 $0.2831 대비 현재가 $0.2900 (+2.44%), 당일 최고가 $0.3001 (-3.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 320].\n2. SEC 희석 위험 & D-Day PR 원문 직독 정밀 검증\n[사전 SEC 유상증자 희석 위험 잔존 (원칙 1 위반)]:\n사전 35일 SEC 제출 이력상 2026-10-13 EFFECT (S-3 증권등록신고서 효력 발생) 제출 기록이 존재하여, 언제든 장내 오퍼링/신주 유상증자 덤핑 물량이 출회될 수 있는 희석 위험이 열려 있습니다 [cite: 19].\n[당일 D-Day 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/03 07:01 ET) 발표 PR 제목: \"Worksport Reports Preliminary Q3 Results, Reduces Operating Cash Use 89% from Second Quarter to Approximately $0.37 Million; Delivers Record Net Sales of Approximately $7.24 Million\"\n원문 팩트: 3분기 잠정 실적 발표(Preliminary Q3 Results) 기사로, 매출액 $7.24M 및 영업현금 사용 감소 성과 발표 [cite: 19].\n치명적 기폭제 결함:\n정기/잠정 실적 발표(Earnings/Preliminary Results)는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 정기실적/주주서한' 범주에 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 특별배당 등)가 절대 아닙니다 [cite: 19].\n개장 전 수급 유입 반응($0 USD)이 전무하여 시장 참여자들의 폭발적인 주도주 매집이 형성되지 않았습니다.\n3. 최종 심사 및 결재 판정\n10/13 자 S-3 EFFECT 발효에 따른 희석 위험 잔존, 3분기 잠정 실적 발표의 1급 확정 기폭제 미달 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: WKSP 처리합니다 [cite: 19, 21].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 1].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: WKSP NOTES:\n[WKSP] 10/13 자 S-3 EFFECT 증약 희석 위험 잔존 + 당일 3분기 잠정 실적 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+2.44%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793711549552_TNMG_FALSE",
-      "date_et": "2026-11-03",
-      "weekday_kr": "화",
-      "time_et": "08:12:29",
-      "time_kst": "22:12:29",
-      "symbol": "TNMG",
-      "company_name": "TNMG",
-      "exchange": "ND",
-      "price": 4.01,
-      "gain_pct": -3.61,
-      "mcap_m": 10.25,
-      "decision": "FALSE",
-      "elapsed_sec": 59.7,
-      "reason": "사전(10월) 발표된 $6.25M 사모 지분투자 완료(Completion) 재탕 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-3.61%) 전량 차단",
-      "catalyst_hint": "[당일 PR] TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 TNMG (TNL Mediagene) 정밀 직독 결재 보고입니다 [cite: 2, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.25M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2, 4].\n실시간 시세 및 수급: 전일 종가 $4.1600 대비 현재가 $4.0100 (-3.61% 약세), 당일 최고가 $4.8500 (-17.3%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:00 ET) PR 원문 분석:\nPR 제목: \"TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director\"\n원문 팩트: 지난 10월 21일 자로 사전 체결되었던 Vector Advisory Partners LLC와의 $6.25M 규모 전략적 지분 투자 계약(Securities Purchase Agreement)의 단순 완결(Completion) 및 신임 이사 선임 발표 [cite: 4].\n치명적 기폭제 결함:\n오늘 당일 새롭게 유입된 신규 비즈니스 호재가 아니라, 기존(10월)에 이미 유입 발표가 끝난 사모 유상증자/지분 투자 계약의 단순 이행 및 완결(Completion) 재탕 소식에 불과합니다 [cite: 4].\n이는 신주 발행을 동반한 유상증자 건의 뒤늦은 종결 통지로, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주, 대형 M&A 완료, 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 27].\n전일 대비 주가가 -3.61% 약세를 기록하고 있으며 장전 누적 거래대금($0 USD) 및 초기 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 10월 자 사모 지분투자 완료(Completion) 재탕 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: TNMG 처리합니다 [cite: 27].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 254].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: TNMG NOTES:\n[TNMG] 사전(10월) 발표된 $6.25M 사모 지분투자 완료(Completion) 재탕 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-3.61%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
