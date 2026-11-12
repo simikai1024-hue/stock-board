@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 18:16:15",
-  "updated_at_et": "2026-11-12 04:16:15",
-  "updated_epoch_ms": 1794474975501,
+  "updated_at_kst": "2026-11-12 18:17:18",
+  "updated_at_et": "2026-11-12 04:17:18",
+  "updated_epoch_ms": 1794475038137,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:15:55"
+    "updated_kst": "18:17:14"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 24,
+    "today_hardcut": 29,
     "total_verdicts": 142,
     "total_buy": 7,
     "total_false": 135,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "04:16:44",
+      "time_kst": "18:16:44",
+      "symbol": "OPTT",
+      "company_name": "OPTT",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:16:38",
+      "time_kst": "18:16:38",
+      "symbol": "ZSTK",
+      "company_name": "ZSTK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $65.24M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:16:31",
+      "time_kst": "18:16:31",
+      "symbol": "AIB",
+      "company_name": "AIB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:16:28",
+      "time_kst": "18:16:28",
+      "symbol": "DKI",
+      "company_name": "DKI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B4])"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:16:21",
+      "time_kst": "18:16:21",
+      "symbol": "HYFT",
+      "company_name": "HYFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.33M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "04:16:11",
       "time_kst": "18:16:11",
       "symbol": "BRNX",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:31:13",
-      "time_kst": "23:31:13",
-      "symbol": "AIRS",
-      "company_name": "AIRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.18M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:31:00",
-      "time_kst": "23:31:00",
-      "symbol": "RDIB",
-      "company_name": "RDIB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $257.74M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:30:48",
-      "time_kst": "23:30:48",
-      "symbol": "CCG",
-      "company_name": "CCG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $267.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:26:46",
-      "time_kst": "23:26:46",
-      "symbol": "FJET",
-      "company_name": "FJET",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:11:57",
-      "time_kst": "23:11:57",
-      "symbol": "BURU",
-      "company_name": "BURU",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
     }
   ]
 }
