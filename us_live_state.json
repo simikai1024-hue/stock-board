@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:32:16",
-  "updated_at_et": "2026-11-12 09:32:16",
-  "updated_epoch_ms": 1794493936492,
+  "updated_at_kst": "2026-11-12 23:33:05",
+  "updated_at_et": "2026-11-12 09:33:05",
+  "updated_epoch_ms": 1794493985893,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CLGN",
+    "company_name": "CLGN",
+    "exchange": "ND",
+    "price": 4.1,
+    "gain_pct": 3.54,
+    "mcap_m": 7.75,
+    "catalyst_hint": "[당일 PR] CollPlant to Begin Trading on Nasdaq Under New Ticker Symbol “OPHI”",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:33:01",
+    "started_at_kst": "23:33:01",
+    "started_epoch_ms": 1794493981431
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:32:10"
+    "updated_kst": "23:32:49"
   },
   "stats": {
     "today_total": 0,
