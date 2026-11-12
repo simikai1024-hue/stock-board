@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 18:01:51",
-  "updated_at_et": "2026-11-12 04:01:51",
-  "updated_epoch_ms": 1794474111896,
+  "updated_at_kst": "2026-11-12 18:02:50",
+  "updated_at_et": "2026-11-12 04:02:50",
+  "updated_epoch_ms": 1794474170837,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:01:48"
+    "updated_kst": "18:02:47"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 11,
+    "today_hardcut": 16,
     "total_verdicts": 142,
     "total_buy": 7,
     "total_false": 135,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "04:02:25",
+      "time_kst": "18:02:25",
+      "symbol": "AVD",
+      "company_name": "AVD",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:02:19",
+      "time_kst": "18:02:19",
+      "symbol": "AZI",
+      "company_name": "AZI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:02:08",
+      "time_kst": "18:02:08",
+      "symbol": "TGEN",
+      "company_name": "TGEN",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.32M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:01:58",
+      "time_kst": "18:01:58",
+      "symbol": "PLUR",
+      "company_name": "PLUR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "04:01:54",
+      "time_kst": "18:01:54",
+      "symbol": "ZEO",
+      "company_name": "ZEO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "04:01:48",
       "time_kst": "18:01:48",
       "symbol": "CABR",
@@ -2884,56 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $52.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "07:25:04",
-      "time_kst": "21:25:04",
-      "symbol": "XXII",
-      "company_name": "XXII",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "07:21:41",
-      "time_kst": "21:21:41",
-      "symbol": "ACTU",
-      "company_name": "ACTU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "07:05:59",
-      "time_kst": "21:05:59",
-      "symbol": "QNME",
-      "company_name": "QNME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "07:05:54",
-      "time_kst": "21:05:54",
-      "symbol": "FFR",
-      "company_name": "FFR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.01,3.02,5.02,5.03,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "07:05:27",
-      "time_kst": "21:05:27",
-      "symbol": "NMAD",
-      "company_name": "NMAD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.4M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
