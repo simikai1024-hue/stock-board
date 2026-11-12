@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:34:33",
-  "updated_at_et": "2026-11-12 09:34:33",
-  "updated_epoch_ms": 1794494073160,
+  "updated_at_kst": "2026-11-12 23:35:42",
+  "updated_at_et": "2026-11-12 09:35:42",
+  "updated_epoch_ms": 1794494142713,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:34:24"
+    "updated_kst": "23:35:39"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,66 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:35:04",
+      "time_kst": "23:35:04",
+      "symbol": "AHT",
+      "company_name": "AHT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:35:00",
+      "time_kst": "23:35:00",
+      "symbol": "SOS",
+      "company_name": "SOS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:34:56",
+      "time_kst": "23:34:56",
+      "symbol": "SPRU",
+      "company_name": "SPRU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:34:48",
+      "time_kst": "23:34:48",
+      "symbol": "JOB",
+      "company_name": "JOB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $706.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:34:42",
+      "time_kst": "23:34:42",
+      "symbol": "IDAI",
+      "company_name": "IDAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:34:37",
+      "time_kst": "23:34:37",
+      "symbol": "HOST",
+      "company_name": "HOST",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:34:29",
       "time_kst": "23:34:29",
       "symbol": "CYAB",
@@ -2874,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1299.32M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:31:49",
-      "time_kst": "22:31:49",
-      "symbol": "NEXN",
-      "company_name": "NEXN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $530.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:31:32",
-      "time_kst": "22:31:32",
-      "symbol": "VANI",
-      "company_name": "VANI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $103.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:31:26",
-      "time_kst": "22:31:26",
-      "symbol": "TLN",
-      "company_name": "TLN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $16053.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:31:18",
-      "time_kst": "22:31:18",
-      "symbol": "GTBP",
-      "company_name": "GTBP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:25:57",
-      "time_kst": "22:25:57",
-      "symbol": "SGP",
-      "company_name": "SGP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1169.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:23:18",
-      "time_kst": "22:23:18",
-      "symbol": "ARAY",
-      "company_name": "ARAY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $420.04M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
