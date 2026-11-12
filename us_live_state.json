@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:05:41",
-  "updated_at_et": "2026-11-12 09:05:41",
-  "updated_epoch_ms": 1794492341042,
+  "updated_at_kst": "2026-11-12 23:06:39",
+  "updated_at_et": "2026-11-12 09:06:39",
+  "updated_epoch_ms": 1794492399165,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:05:37"
+    "updated_kst": "23:06:35"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:06:16",
+      "time_kst": "23:06:16",
+      "symbol": "CIVB",
+      "company_name": "CIVB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $598.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:03:30",
       "time_kst": "23:03:30",
       "symbol": "PLMR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $295.55M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:52:12",
-      "time_kst": "21:52:12",
-      "symbol": "FWRG",
-      "company_name": "FWRG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $837.01M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
