@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:01:46",
-  "updated_at_et": "2026-11-12 09:01:46",
-  "updated_epoch_ms": 1794492106258,
+  "updated_at_kst": "2026-11-12 23:02:38",
+  "updated_at_et": "2026-11-12 09:02:38",
+  "updated_epoch_ms": 1794492158184,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:01:40"
+    "updated_kst": "23:02:38"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:02:32",
+      "time_kst": "23:02:32",
+      "symbol": "ALPS",
+      "company_name": "ALPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $204.67M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:00:19",
       "time_kst": "23:00:19",
       "symbol": "VCTR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:49:28",
-      "time_kst": "21:49:28",
-      "symbol": "SGMT",
-      "company_name": "SGMT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $815.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
