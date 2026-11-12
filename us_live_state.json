@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 18:31:03",
-  "updated_at_et": "2026-11-12 04:31:03",
-  "updated_epoch_ms": 1794475863014,
+  "updated_at_kst": "2026-11-12 18:31:58",
+  "updated_at_et": "2026-11-12 04:31:58",
+  "updated_epoch_ms": 1794475918782,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:30:59"
+    "updated_kst": "18:31:56"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 33,
+    "today_hardcut": 34,
     "total_verdicts": 142,
     "total_buy": 7,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "04:31:37",
+      "time_kst": "18:31:37",
+      "symbol": "CRIS",
+      "company_name": "CRIS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "04:29:09",
       "time_kst": "18:29:09",
       "symbol": "TRAW",
@@ -2924,16 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:32:04",
-      "time_kst": "23:32:04",
-      "symbol": "CKX",
-      "company_name": "CKX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
