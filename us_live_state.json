@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 22:31:36",
-  "updated_at_et": "2026-11-12 08:31:36",
-  "updated_epoch_ms": 1794490296224,
+  "updated_at_kst": "2026-11-12 22:32:46",
+  "updated_at_et": "2026-11-12 08:32:46",
+  "updated_epoch_ms": 1794490366702,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:31:28"
+    "updated_kst": "22:32:44"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "08:32:05",
+      "time_kst": "22:32:05",
+      "symbol": "SLGL",
+      "company_name": "SLGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $206.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "08:31:57",
+      "time_kst": "22:31:57",
+      "symbol": "DRTS",
+      "company_name": "DRTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1299.32M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "08:31:49",
+      "time_kst": "22:31:49",
+      "symbol": "NEXN",
+      "company_name": "NEXN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $530.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "08:31:32",
       "time_kst": "22:31:32",
       "symbol": "VANI",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3413.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:16:36",
-      "time_kst": "21:16:36",
-      "symbol": "AIIR",
-      "company_name": "AIIR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1215.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:16:13",
-      "time_kst": "21:16:13",
-      "symbol": "MGRX",
-      "company_name": "MGRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:16:06",
-      "time_kst": "21:16:06",
-      "symbol": "USIO",
-      "company_name": "USIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.4M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
