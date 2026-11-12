@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 21:44:18",
-  "updated_at_et": "2026-11-12 07:44:18",
-  "updated_epoch_ms": 1794487458126,
+  "updated_at_kst": "2026-11-12 21:45:18",
+  "updated_at_et": "2026-11-12 07:45:18",
+  "updated_epoch_ms": 1794487518453,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:44:12"
+    "updated_kst": "21:45:12"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "07:44:45",
+      "time_kst": "21:44:45",
+      "symbol": "NWS",
+      "company_name": "NWS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $15759.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "07:43:21",
       "time_kst": "21:43:21",
       "symbol": "IPDN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $266.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "06:36:04",
-      "time_kst": "20:36:04",
-      "symbol": "NUAI",
-      "company_name": "NUAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $262.73M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
