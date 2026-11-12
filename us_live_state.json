@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 22:40:38",
-  "updated_at_et": "2026-11-12 08:40:38",
-  "updated_epoch_ms": 1794490838090,
+  "updated_at_kst": "2026-11-12 22:41:21",
+  "updated_at_et": "2026-11-12 08:41:21",
+  "updated_epoch_ms": 1794490881674,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:40:32"
+    "updated_kst": "22:41:12"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "08:41:16",
+      "time_kst": "22:41:16",
+      "symbol": "PYPD",
+      "company_name": "PYPD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $135.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "08:38:42",
       "time_kst": "22:38:42",
       "symbol": "BCIC",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:25:21",
-      "time_kst": "21:25:21",
-      "symbol": "SKYQ",
-      "company_name": "SKYQ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
