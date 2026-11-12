@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 20:09:02",
-  "updated_at_et": "2026-11-12 06:09:02",
-  "updated_epoch_ms": 1794481742464,
+  "updated_at_kst": "2026-11-12 20:09:43",
+  "updated_at_et": "2026-11-12 06:09:43",
+  "updated_epoch_ms": 1794481783335,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:08:49"
+    "updated_kst": "20:09:26"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "06:09:37",
+      "time_kst": "20:09:37",
+      "symbol": "ESLT",
+      "company_name": "ESLT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $34663.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "06:09:03",
+      "time_kst": "20:09:03",
+      "symbol": "IMXI",
+      "company_name": "IMXI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $207.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "06:08:59",
       "time_kst": "20:08:59",
       "symbol": "TTEK",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:15:30",
-      "time_kst": "18:15:30",
-      "symbol": "PARA",
-      "company_name": "PARA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B4])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:02:25",
-      "time_kst": "18:02:25",
-      "symbol": "AVD",
-      "company_name": "AVD",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
