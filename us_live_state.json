@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 21:20:29",
-  "updated_at_et": "2026-11-12 07:20:29",
-  "updated_epoch_ms": 1794486029850,
+  "updated_at_kst": "2026-11-12 21:21:30",
+  "updated_at_et": "2026-11-12 07:21:30",
+  "updated_epoch_ms": 1794486090601,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:20:26"
+    "updated_kst": "21:21:24"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "07:20:58",
+      "time_kst": "21:20:58",
+      "symbol": "ALVO",
+      "company_name": "ALVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1756.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "07:17:10",
       "time_kst": "21:17:10",
       "symbol": "CANF",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $225.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "06:12:02",
-      "time_kst": "20:12:02",
-      "symbol": "QFIN",
-      "company_name": "QFIN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $647.35M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
