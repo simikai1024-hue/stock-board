@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 20:06:00",
-  "updated_at_et": "2026-11-12 06:06:00",
-  "updated_epoch_ms": 1794481560301,
+  "updated_at_kst": "2026-11-12 20:06:46",
+  "updated_at_et": "2026-11-12 06:06:46",
+  "updated_epoch_ms": 1794481606309,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:05:56"
+    "updated_kst": "20:06:36"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 47,
+    "today_hardcut": 52,
     "total_verdicts": 142,
     "total_buy": 7,
     "total_false": 135,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "06:06:42",
+      "time_kst": "20:06:42",
+      "symbol": "IPHA",
+      "company_name": "IPHA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $177.6M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "06:06:36",
+      "time_kst": "20:06:36",
+      "symbol": "PLBL",
+      "company_name": "PLBL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2068.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "06:06:23",
+      "time_kst": "20:06:23",
+      "symbol": "RDCM",
+      "company_name": "RDCM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $187.28M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "06:06:18",
+      "time_kst": "20:06:18",
+      "symbol": "VFS",
+      "company_name": "VFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $7486.52M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "06:06:06",
+      "time_kst": "20:06:06",
+      "symbol": "INMD",
+      "company_name": "INMD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $791.81M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "05:49:12",
       "time_kst": "19:49:12",
       "symbol": "PCSA",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:00:20",
-      "time_kst": "18:00:20",
-      "symbol": "INLF",
-      "company_name": "INLF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [424B5])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:00:14",
-      "time_kst": "18:00:14",
-      "symbol": "SHFS",
-      "company_name": "SHFS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:57:56",
-      "time_kst": "23:57:56",
-      "symbol": "MTRI",
-      "company_name": "MTRI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:52:06",
-      "time_kst": "23:52:06",
-      "symbol": "IPM",
-      "company_name": "IPM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-23 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "09:51:11",
-      "time_kst": "23:51:11",
-      "symbol": "IDAI",
-      "company_name": "IDAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
     }
   ]
 }
