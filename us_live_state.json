@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:13:41",
-  "updated_at_et": "2026-11-12 09:13:41",
-  "updated_epoch_ms": 1794492821276,
+  "updated_at_kst": "2026-11-12 23:14:30",
+  "updated_at_et": "2026-11-12 09:14:30",
+  "updated_epoch_ms": 1794492870460,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:13:35"
+    "updated_kst": "23:14:13"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:14:26",
+      "time_kst": "23:14:26",
+      "symbol": "CARE",
+      "company_name": "CARE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $649.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:12:38",
       "time_kst": "23:12:38",
       "symbol": "MRVL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5676.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:01:29",
-      "time_kst": "22:01:29",
-      "symbol": "CNL",
-      "company_name": "CNL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1124.74M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
