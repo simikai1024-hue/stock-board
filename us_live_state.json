@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 20:27:16",
-  "updated_at_et": "2026-11-12 06:27:16",
-  "updated_epoch_ms": 1794482836100,
+  "updated_at_kst": "2026-11-12 20:28:06",
+  "updated_at_et": "2026-11-12 06:28:06",
+  "updated_epoch_ms": 1794482886809,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:27:12"
+    "updated_kst": "20:27:52"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "06:28:04",
+      "time_kst": "20:28:04",
+      "symbol": "PFSA",
+      "company_name": "PFSA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "06:25:10",
       "time_kst": "20:25:10",
       "symbol": "ALLT",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:16:38",
-      "time_kst": "18:16:38",
-      "symbol": "ZSTK",
-      "company_name": "ZSTK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $65.24M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
