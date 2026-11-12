@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:49:44",
-  "updated_at_et": "2026-11-12 09:49:44",
-  "updated_epoch_ms": 1794494984653,
+  "updated_at_kst": "2026-11-12 23:50:37",
+  "updated_at_et": "2026-11-12 09:50:37",
+  "updated_epoch_ms": 1794495037526,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MBRX",
+    "company_name": "MBRX",
+    "exchange": "ND",
+    "price": 8.5913,
+    "gain_pct": 6.72,
+    "mcap_m": 9.02,
+    "catalyst_hint": "[당일 PR] Moleculin Secures Australian Patent for Annamycin Formulation Technology",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:50:37",
+    "started_at_kst": "23:50:37",
+    "started_epoch_ms": 1794495037447
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 5.931,
     "current_price": 4.84,
     "profit_rate": -18.39,
-    "updated_kst": "23:49:38"
+    "updated_kst": "23:50:18"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:50:31",
+      "time_kst": "23:50:31",
+      "symbol": "YTRA",
+      "company_name": "YTRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.78M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:47:40",
       "time_kst": "23:47:40",
       "symbol": "BODI",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $31743.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:46:21",
-      "time_kst": "22:46:21",
-      "symbol": "KAZR",
-      "company_name": "KAZR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
