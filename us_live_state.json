@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:53:38",
-  "updated_at_et": "2026-11-12 09:53:38",
-  "updated_epoch_ms": 1794495218232,
+  "updated_at_kst": "2026-11-12 23:54:04",
+  "updated_at_et": "2026-11-12 09:54:04",
+  "updated_epoch_ms": 1794495244391,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "VTIX",
+    "company_name": "VTIX",
+    "exchange": "ND",
+    "price": 0.6687,
+    "gain_pct": 5.27,
+    "mcap_m": 22.72,
+    "catalyst_hint": "[당일 PR] Virtuix to acquire defense contractor STS International in $12M deal",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:54:02",
+    "started_at_kst": "23:54:02",
+    "started_epoch_ms": 1794495242094
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:53:34"
+    "updated_kst": "23:53:54"
   },
   "stats": {
     "today_total": 3,
