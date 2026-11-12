@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 22:51:05",
-  "updated_at_et": "2026-11-12 08:51:05",
-  "updated_epoch_ms": 1794491465288,
+  "updated_at_kst": "2026-11-12 22:52:05",
+  "updated_at_et": "2026-11-12 08:52:05",
+  "updated_epoch_ms": 1794491525223,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:51:02"
+    "updated_kst": "22:52:02"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "08:51:35",
+      "time_kst": "22:51:35",
+      "symbol": "CAE",
+      "company_name": "CAE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9040.06M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "08:51:06",
+      "time_kst": "22:51:06",
+      "symbol": "CURI",
+      "company_name": "CURI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $163.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "08:51:01",
       "time_kst": "22:51:01",
       "symbol": "FRBT",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $601.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:35:48",
-      "time_kst": "21:35:48",
-      "symbol": "CAPS",
-      "company_name": "CAPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:34:23",
-      "time_kst": "21:34:23",
-      "symbol": "NYAX",
-      "company_name": "NYAX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1915.78M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
