@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:52:22",
-  "updated_at_et": "2026-11-12 09:52:22",
-  "updated_epoch_ms": 1794495142337,
+  "updated_at_kst": "2026-11-12 23:53:38",
+  "updated_at_et": "2026-11-12 09:53:38",
+  "updated_epoch_ms": 1794495218232,
   "analyzing": {
     "active": false
   },
@@ -12,27 +12,47 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 179.53,
+    "orderable_usd": 142.4,
     "daily_done": false,
-    "holding_symbol": "ADXN",
-    "holding_qty": 30,
-    "avg_price": 5.931,
-    "current_price": 4.84,
-    "profit_rate": -18.39,
-    "updated_kst": "23:52:18"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "23:53:34"
   },
   "stats": {
-    "today_total": 2,
+    "today_total": 3,
     "today_nblm_count": 2,
-    "today_buy": 0,
+    "today_buy": 1,
     "today_false": 2,
     "today_hardcut": 60,
-    "total_verdicts": 144,
-    "total_buy": 7,
+    "total_verdicts": 145,
+    "total_buy": 8,
     "total_false": 137,
     "avg_nblm_sec": 48.5
   },
   "verdicts": [
+    {
+      "id": "v_manual_1794495147030_ADXN",
+      "date_et": "2026-11-12",
+      "weekday_kr": "목",
+      "time_et": "09:52:27",
+      "time_kst": "23:52:27",
+      "symbol": "ADXN",
+      "company_name": "ADXN",
+      "exchange": "ND",
+      "price": 4.8929,
+      "gain_pct": -17.5,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🛡️ 손절 청산: 30주 | 매수 $5.9310 → 매도 $4.8929 (-17.50% / -31.14$)"
+    },
     {
       "id": "v_1794495082116_MBRX_FALSE",
       "date_et": "2026-11-12",
@@ -2412,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 TNMG (TNL Mediagene) 정밀 직독 결재 보고입니다 [cite: 2, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.25M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2, 4].\n실시간 시세 및 수급: 전일 종가 $4.1600 대비 현재가 $4.0100 (-3.61% 약세), 당일 최고가 $4.8500 (-17.3%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:00 ET) PR 원문 분석:\nPR 제목: \"TNL Mediagene Announces Completion of $6.25 Million Strategic Investment from Vector Advisory Partners and Appointment of New Director\"\n원문 팩트: 지난 10월 21일 자로 사전 체결되었던 Vector Advisory Partners LLC와의 $6.25M 규모 전략적 지분 투자 계약(Securities Purchase Agreement)의 단순 완결(Completion) 및 신임 이사 선임 발표 [cite: 4].\n치명적 기폭제 결함:\n오늘 당일 새롭게 유입된 신규 비즈니스 호재가 아니라, 기존(10월)에 이미 유입 발표가 끝난 사모 유상증자/지분 투자 계약의 단순 이행 및 완결(Completion) 재탕 소식에 불과합니다 [cite: 4].\n이는 신주 발행을 동반한 유상증자 건의 뒤늦은 종결 통지로, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주, 대형 M&A 완료, 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 27].\n전일 대비 주가가 -3.61% 약세를 기록하고 있으며 장전 누적 거래대금($0 USD) 및 초기 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 10월 자 사모 지분투자 완료(Completion) 재탕 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: TNMG 처리합니다 [cite: 27].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 254].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: TNMG NOTES:\n[TNMG] 사전(10월) 발표된 $6.25M 사모 지분투자 완료(Completion) 재탕 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-3.61%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793710451787_MDRR_FALSE",
-      "date_et": "2026-11-03",
-      "weekday_kr": "화",
-      "time_et": "07:54:11",
-      "time_kst": "21:54:11",
-      "symbol": "MDRR",
-      "company_name": "Medalist Diversified, Inc.",
-      "exchange": "ND",
-      "price": 11.74,
-      "gain_pct": 0.0,
-      "mcap_m": 19.12,
-      "decision": "FALSE",
-      "elapsed_sec": 48.4,
-      "reason": "단순 Zacks 애널리스트 블로그 언급 홍보 기사로 1급 확정 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단",
-      "catalyst_hint": "[당일 PR] The Zacks Analyst Blog Highlights Seagate, Chubb, Intercontinental and Medalist Diversified",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 MDRR (Medalist Diversified REIT, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $19.12M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $11.7400 대비 현재가 $11.7400 (0.00% 보합), 당일 최고가 $11.7400. 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 06:41 ET) PR 원문 분석:\nPR 제목: \"The Zacks Analyst Blog Highlights Seagate, Chubb, Intercontinental and Medalist Diversified\"\n원문 팩트: 외부 주식 분석 매체인 Zacks Equity Research의 일일 애널리스트 블로그 게시글에서 MDRR을 언급했다는 단순 홍보성 기사(Analyst Blog Highlight).\n치명적 기폭제 결함:\n회사의 본질적 기업가치를 수직 폭등시키는 공식 계약/임상/실적 공시가 아니라, 외부 매체의 단순 종목 언급 및 홍보성 재탕 기사에 불과합니다.\n이는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 주주서한/재탕 홍보/언론 보도' 범주에 정확히 속하며, 당일 기업 가치를 결정짓는 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주, 대형 M&A 완료, 특별배당 등)가 절대 아닙니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 외부 애널리스트 블로그의 단순 홍보 기사에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MDRR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: MDRR NOTES:\n[MDRR] 단순 Zacks 애널리스트 블로그 언급 홍보 기사로 1급 확정 기폭제 미달 및 장전 대금 $0(0.00%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:53:02",
+      "time_kst": "23:53:02",
+      "symbol": "SQNS",
+      "company_name": "SQNS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
     {
       "date_et": "2026-11-12",
       "time_et": "09:50:31",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1017.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:47:40",
-      "time_kst": "22:47:40",
-      "symbol": "GMAB",
-      "company_name": "GMAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $31743.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
