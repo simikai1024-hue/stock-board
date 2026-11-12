@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:42:35",
-  "updated_at_et": "2026-11-12 09:42:35",
-  "updated_epoch_ms": 1794494555288,
+  "updated_at_kst": "2026-11-12 23:43:48",
+  "updated_at_et": "2026-11-12 09:43:48",
+  "updated_epoch_ms": 1794494628225,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 179.53,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "23:42:31"
+    "holding_symbol": "ADXN",
+    "holding_qty": 29,
+    "avg_price": 5.93,
+    "current_price": 5.9601,
+    "profit_rate": 0.51,
+    "updated_kst": "23:43:44"
   },
   "stats": {
     "today_total": 1,
