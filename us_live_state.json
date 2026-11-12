@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:24:22",
-  "updated_at_et": "2026-11-12 09:24:22",
-  "updated_epoch_ms": 1794493462490,
+  "updated_at_kst": "2026-11-12 23:25:23",
+  "updated_at_et": "2026-11-12 09:25:23",
+  "updated_epoch_ms": 1794493523461,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:24:16"
+    "updated_kst": "23:25:19"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:24:29",
+      "time_kst": "23:24:29",
+      "symbol": "NBIS",
+      "company_name": "NBIS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $33588.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:21:55",
       "time_kst": "23:21:55",
       "symbol": "BRUN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $85.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:04:52",
-      "time_kst": "22:04:52",
-      "symbol": "PTLE",
-      "company_name": "PTLE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.83M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
