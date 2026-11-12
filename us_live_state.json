@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 23:46:41",
-  "updated_at_et": "2026-11-12 09:46:41",
-  "updated_epoch_ms": 1794494801816,
+  "updated_at_kst": "2026-11-12 23:47:43",
+  "updated_at_et": "2026-11-12 09:47:43",
+  "updated_epoch_ms": 1794494863513,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "ADXN",
     "holding_qty": 30,
     "avg_price": 5.931,
-    "current_price": 6.1925,
-    "profit_rate": 4.41,
-    "updated_kst": "23:46:40"
+    "current_price": 4.84,
+    "profit_rate": -18.39,
+    "updated_kst": "23:47:40"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "09:47:40",
+      "time_kst": "23:47:40",
+      "symbol": "BODI",
+      "company_name": "BODI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-12 [424B3])"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:47:11",
+      "time_kst": "23:47:11",
+      "symbol": "BTLN",
+      "company_name": "BTLN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "09:46:45",
+      "time_kst": "23:46:45",
+      "symbol": "INCR",
+      "company_name": "INCR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.23M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "09:46:36",
       "time_kst": "23:46:36",
       "symbol": "CHGA",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:41:16",
-      "time_kst": "22:41:16",
-      "symbol": "PYPD",
-      "company_name": "PYPD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $135.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:38:42",
-      "time_kst": "22:38:42",
-      "symbol": "BCIC",
-      "company_name": "BCIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $65.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:38:33",
-      "time_kst": "22:38:33",
-      "symbol": "ONEW",
-      "company_name": "ONEW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $162.49M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
