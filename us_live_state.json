@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 22:05:59",
-  "updated_at_et": "2026-11-12 08:05:59",
-  "updated_epoch_ms": 1794488759278,
+  "updated_at_kst": "2026-11-12 22:06:42",
+  "updated_at_et": "2026-11-12 08:06:42",
+  "updated_epoch_ms": 1794488802408,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:05:39"
+    "updated_kst": "22:06:39"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "08:06:40",
+      "time_kst": "22:06:40",
+      "symbol": "VOXR",
+      "company_name": "VOXR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $326.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "08:06:09",
+      "time_kst": "22:06:09",
+      "symbol": "PRME",
+      "company_name": "PRME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $761.78M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "08:05:56",
       "time_kst": "22:05:56",
       "symbol": "LUCD",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:02:04",
-      "time_kst": "21:02:04",
-      "symbol": "QBTS",
-      "company_name": "QBTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3948.12M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:01:53",
-      "time_kst": "21:01:53",
-      "symbol": "OKYO",
-      "company_name": "OKYO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $74.52M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
