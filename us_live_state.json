@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 17:59:32",
-  "updated_at_et": "2026-11-12 03:59:32",
-  "updated_epoch_ms": 1794473972298,
+  "updated_at_kst": "2026-11-12 18:00:18",
+  "updated_at_et": "2026-11-12 04:00:18",
+  "updated_epoch_ms": 1794474018712,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "장외대기",
+    "session_label": "프리장실전",
     "watchlist_count": 0,
     "orderable_usd": 179.53,
     "daily_done": false,
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "17:59:29"
+    "updated_kst": "18:00:14"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 142,
     "total_buy": 7,
     "total_false": 135,
@@ -2436,6 +2436,16 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-12",
+      "time_et": "04:00:14",
+      "time_kst": "18:00:14",
+      "symbol": "SHFS",
+      "company_name": "SHFS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 3.02))"
+    },
+    {
       "date_et": "2026-11-11",
       "time_et": "09:57:56",
       "time_kst": "23:57:56",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-11",
-      "time_et": "04:56:45",
-      "time_kst": "18:56:45",
-      "symbol": "HELP",
-      "company_name": "HELP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $713.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
