@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 22:16:12",
-  "updated_at_et": "2026-11-12 08:16:12",
-  "updated_epoch_ms": 1794489372359,
+  "updated_at_kst": "2026-11-12 22:17:13",
+  "updated_at_et": "2026-11-12 08:17:13",
+  "updated_epoch_ms": 1794489433433,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:16:06"
+    "updated_kst": "22:17:09"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "08:16:35",
+      "time_kst": "22:16:35",
+      "symbol": "OFAL",
+      "company_name": "OFAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "08:16:20",
+      "time_kst": "22:16:20",
+      "symbol": "TRMK",
+      "company_name": "TRMK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2638.49M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "08:13:01",
       "time_kst": "22:13:01",
       "symbol": "PNBK",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $917.88M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:06:20",
-      "time_kst": "21:06:20",
-      "symbol": "STEP",
-      "company_name": "STEP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3987.72M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:04:40",
-      "time_kst": "21:04:40",
-      "symbol": "ALKS",
-      "company_name": "ALKS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8047.63M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
