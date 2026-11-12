@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 22:36:36",
-  "updated_at_et": "2026-11-12 08:36:36",
-  "updated_epoch_ms": 1794490596130,
+  "updated_at_kst": "2026-11-12 22:37:37",
+  "updated_at_et": "2026-11-12 08:37:37",
+  "updated_epoch_ms": 1794490657675,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:36:32"
+    "updated_kst": "22:37:31"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "08:36:47",
+      "time_kst": "22:36:47",
+      "symbol": "EDTK",
+      "company_name": "EDTK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 임원·이사회 인사발령 PR 차단 (Skillful Craftsman Education Appoints U.S.-Based Chief Fin)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "08:34:37",
       "time_kst": "22:34:37",
       "symbol": "STIM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (DEFSEC TECHNOLOGIES INC. ANNOUNCES SHARE CONSOLIDATION)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "07:24:00",
-      "time_kst": "21:24:00",
-      "symbol": "HCTI",
-      "company_name": "HCTI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $83.15M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
