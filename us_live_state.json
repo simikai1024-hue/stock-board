@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 20:30:47",
-  "updated_at_et": "2026-11-12 06:30:47",
-  "updated_epoch_ms": 1794483047728,
+  "updated_at_kst": "2026-11-12 20:31:54",
+  "updated_at_et": "2026-11-12 06:31:54",
+  "updated_epoch_ms": 1794483114526,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:30:30"
+    "updated_kst": "20:31:50"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "06:30:48",
+      "time_kst": "20:30:48",
+      "symbol": "ARKO",
+      "company_name": "ARKO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $481.23M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "06:30:44",
       "time_kst": "20:30:44",
       "symbol": "APC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:18:03",
-      "time_kst": "18:18:03",
-      "symbol": "TNON",
-      "company_name": "TNON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [424B5])"
     }
   ]
 }
