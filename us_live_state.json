@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 20:15:43",
-  "updated_at_et": "2026-11-12 06:15:43",
-  "updated_epoch_ms": 1794482143152,
+  "updated_at_kst": "2026-11-12 20:16:25",
+  "updated_at_et": "2026-11-12 06:16:25",
+  "updated_epoch_ms": 1794482185839,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:15:24"
+    "updated_kst": "20:16:23"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "06:16:22",
+      "time_kst": "20:16:22",
+      "symbol": "VWAV",
+      "company_name": "VWAV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.02,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "06:15:49",
+      "time_kst": "20:15:49",
+      "symbol": "LKFT",
+      "company_name": "LKFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2264.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "06:15:37",
       "time_kst": "20:15:37",
       "symbol": "ENGN",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $52.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:16:11",
-      "time_kst": "18:16:11",
-      "symbol": "BRNX",
-      "company_name": "BRNX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [424B5])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "04:16:01",
-      "time_kst": "18:16:01",
-      "symbol": "AIRS",
-      "company_name": "AIRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.73M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
