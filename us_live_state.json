@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 21:24:44",
-  "updated_at_et": "2026-11-12 07:24:44",
-  "updated_epoch_ms": 1794486284058,
+  "updated_at_kst": "2026-11-12 21:25:25",
+  "updated_at_et": "2026-11-12 07:25:25",
+  "updated_epoch_ms": 1794486325774,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:24:40"
+    "updated_kst": "21:25:19"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "07:25:21",
+      "time_kst": "21:25:21",
+      "symbol": "SKYQ",
+      "company_name": "SKYQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "07:25:14",
+      "time_kst": "21:25:14",
+      "symbol": "MEDS",
+      "company_name": "MEDS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
+    },
+    {
+      "date_et": "2026-11-12",
+      "time_et": "07:25:06",
+      "time_kst": "21:25:06",
+      "symbol": "DFSC",
+      "company_name": "DFSC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (DEFSEC TECHNOLOGIES INC. ANNOUNCES SHARE CONSOLIDATION)"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "07:24:00",
       "time_kst": "21:24:00",
       "symbol": "HCTI",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.02,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "06:15:49",
-      "time_kst": "20:15:49",
-      "symbol": "LKFT",
-      "company_name": "LKFT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2264.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "06:15:37",
-      "time_kst": "20:15:37",
-      "symbol": "ENGN",
-      "company_name": "ENGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $126.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "06:15:20",
-      "time_kst": "20:15:20",
-      "symbol": "XNET",
-      "company_name": "XNET",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $223.73M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
