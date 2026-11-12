@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-12",
-  "updated_at_kst": "2026-11-12 21:42:35",
-  "updated_at_et": "2026-11-12 07:42:35",
-  "updated_epoch_ms": 1794487355634,
+  "updated_at_kst": "2026-11-12 21:43:25",
+  "updated_at_et": "2026-11-12 07:43:25",
+  "updated_epoch_ms": 1794487405393,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:42:32"
+    "updated_kst": "21:43:11"
   },
   "stats": {
     "today_total": 0,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-12",
+      "time_et": "07:43:21",
+      "time_kst": "21:43:21",
+      "symbol": "IPDN",
+      "company_name": "IPDN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-21 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-12",
       "time_et": "07:36:40",
       "time_kst": "21:36:40",
       "symbol": "SSYS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $262.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "06:30:48",
-      "time_kst": "20:30:48",
-      "symbol": "ARKO",
-      "company_name": "ARKO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $481.23M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
