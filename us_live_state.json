@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 04:42:07",
-  "updated_at_et": "2026-11-13 14:42:07",
-  "updated_epoch_ms": 1794598927762,
+  "updated_at_kst": "2026-11-14 04:42:16",
+  "updated_at_et": "2026-11-13 14:42:16",
+  "updated_epoch_ms": 1794598936964,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 0.31,
+    "orderable_usd": 581.09,
     "daily_done": true,
-    "holding_symbol": "AKAN",
-    "holding_qty": 425,
-    "avg_price": 1.0503,
-    "current_price": 1.39,
-    "profit_rate": 32.34,
-    "updated_kst": "04:42:04"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 1.375,
+    "profit_rate": 30.91,
+    "updated_kst": "04:42:12"
   },
   "stats": {
     "today_total": 17,
@@ -71,7 +71,7 @@
       "catalyst_hint": "[실전 체결 기록]",
       "full_report": "",
       "engine": "실전 포지션 정산",
-      "trade_action": "💰 익절 완료: 425주 | 매수 $1.0503 → 매도 $1.0699 (+1.87% / +8.33$)"
+      "trade_action": "💰 익절 완료: 425주 | 매수 $1.0503 → 매도 $1.3750 (+30.91% / +138.00$)"
     },
     {
       "id": "v_1794585526517_CNSY_BUY",
