@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:24:52",
-  "updated_at_et": "2026-11-13 09:24:52",
-  "updated_epoch_ms": 1794579892944,
+  "updated_at_kst": "2026-11-13 23:25:39",
+  "updated_at_et": "2026-11-13 09:25:39",
+  "updated_epoch_ms": 1794579939935,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BCG",
+    "company_name": "BCG",
+    "exchange": "ND",
+    "price": 1.2,
+    "gain_pct": 9.09,
+    "mcap_m": 20.47,
+    "catalyst_hint": "[당일 PR] Binah Capital Group Reports Results for Third Quarter of 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:25:36",
+    "started_at_kst": "23:25:36",
+    "started_epoch_ms": 1794579936096
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:24:45"
+    "updated_kst": "23:25:24"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:25:33",
+      "time_kst": "23:25:33",
+      "symbol": "LFWD",
+      "company_name": "LFWD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Lifeward Reports Third Quarter 2026 Financial Results and )"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:25:19",
+      "time_kst": "23:25:19",
+      "symbol": "PTON",
+      "company_name": "PTON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2514.6M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:24:49",
       "time_kst": "23:24:49",
       "symbol": "GLND",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:14:48",
-      "time_kst": "22:14:48",
-      "symbol": "NNOX",
-      "company_name": "NNOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:12:52",
-      "time_kst": "22:12:52",
-      "symbol": "ITRN",
-      "company_name": "ITRN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $980.59M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
