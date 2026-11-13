@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:03:48",
-  "updated_at_et": "2026-11-13 08:03:48",
-  "updated_epoch_ms": 1794575028116,
+  "updated_at_kst": "2026-11-13 22:04:29",
+  "updated_at_et": "2026-11-13 08:04:29",
+  "updated_epoch_ms": 1794575069481,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:03:34"
+    "updated_kst": "22:04:16"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:04:23",
+      "time_kst": "22:04:23",
+      "symbol": "GAME",
+      "company_name": "GAME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 2.01,3.02,5.02,5.07,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:04:14",
+      "time_kst": "22:04:14",
+      "symbol": "RMIX",
+      "company_name": "RMIX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $609.93M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:04:00",
+      "time_kst": "22:04:00",
+      "symbol": "LUCD",
+      "company_name": "LUCD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $83.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:03:52",
+      "time_kst": "22:03:52",
+      "symbol": "PAVM",
+      "company_name": "PAVM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (PAVmed Provides Business Update and Reports Preliminary Th)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:03:44",
       "time_kst": "22:03:44",
       "symbol": "CNVS",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:55:19",
-      "time_kst": "19:55:19",
-      "symbol": "DVLT",
-      "company_name": "DVLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.71M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:52:26",
-      "time_kst": "19:52:26",
-      "symbol": "SXTC",
-      "company_name": "SXTC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:39:05",
-      "time_kst": "19:39:05",
-      "symbol": "MGN",
-      "company_name": "MGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [424B4])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:22:56",
-      "time_kst": "19:22:56",
-      "symbol": "ARAI",
-      "company_name": "ARAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $117.22M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
