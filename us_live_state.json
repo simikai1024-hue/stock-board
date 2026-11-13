@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:37:00",
-  "updated_at_et": "2026-11-13 07:37:00",
-  "updated_epoch_ms": 1794573420205,
+  "updated_at_kst": "2026-11-13 21:37:57",
+  "updated_at_et": "2026-11-13 07:37:57",
+  "updated_epoch_ms": 1794573477625,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:36:56"
+    "updated_kst": "21:37:53"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:37:28",
+      "time_kst": "21:37:28",
+      "symbol": "BOF",
+      "company_name": "BOF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:35:31",
       "time_kst": "21:35:31",
       "symbol": "ACRV",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:41:03",
-      "time_kst": "18:41:03",
-      "symbol": "SRAD",
-      "company_name": "SRAD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4006.77M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
