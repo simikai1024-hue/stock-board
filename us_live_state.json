@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 20:15:20",
-  "updated_at_et": "2026-11-13 06:15:20",
-  "updated_epoch_ms": 1794568520871,
+  "updated_at_kst": "2026-11-13 20:16:19",
+  "updated_at_et": "2026-11-13 06:16:19",
+  "updated_epoch_ms": 1794568579736,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:15:18"
+    "updated_kst": "20:16:16"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "06:15:23",
+      "time_kst": "20:15:23",
+      "symbol": "CTNT",
+      "company_name": "CTNT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "06:15:18",
       "time_kst": "20:15:18",
       "symbol": "OFAL",
@@ -2921,16 +2931,6 @@
       "time_kst": "18:17:43",
       "symbol": "PN",
       "company_name": "PN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:17:38",
-      "time_kst": "18:17:38",
-      "symbol": "SNAL",
-      "company_name": "SNAL",
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
