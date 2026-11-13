@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 20:35:29",
-  "updated_at_et": "2026-11-13 06:35:29",
-  "updated_epoch_ms": 1794569729269,
+  "updated_at_kst": "2026-11-13 20:36:28",
+  "updated_at_et": "2026-11-13 06:36:28",
+  "updated_epoch_ms": 1794569788557,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:35:25"
+    "updated_kst": "20:36:24"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "06:36:08",
+      "time_kst": "20:36:08",
+      "symbol": "DDC",
+      "company_name": "DDC",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "06:33:03",
       "time_kst": "20:33:03",
       "symbol": "SBC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:18:50",
-      "time_kst": "18:18:50",
-      "symbol": "YDDL",
-      "company_name": "YDDL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
