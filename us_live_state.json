@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:39:12",
-  "updated_at_et": "2026-11-13 08:39:12",
-  "updated_epoch_ms": 1794577152291,
+  "updated_at_kst": "2026-11-13 22:40:13",
+  "updated_at_et": "2026-11-13 08:40:13",
+  "updated_epoch_ms": 1794577213402,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:39:08"
+    "updated_kst": "22:40:09"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:39:34",
+      "time_kst": "22:39:34",
+      "symbol": "EMAT",
+      "company_name": "EMAT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $639.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:35:12",
       "time_kst": "22:35:12",
       "symbol": "TNDM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $81.74M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:03:45",
-      "time_kst": "21:03:45",
-      "symbol": "JBIO",
-      "company_name": "JBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1041.41M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
