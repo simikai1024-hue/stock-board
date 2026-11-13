@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 19:20:30",
-  "updated_at_et": "2026-11-13 05:20:30",
-  "updated_epoch_ms": 1794565230608,
+  "updated_at_kst": "2026-11-13 19:21:26",
+  "updated_at_et": "2026-11-13 05:21:26",
+  "updated_epoch_ms": 1794565286287,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:20:28"
+    "updated_kst": "19:21:24"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "05:21:00",
+      "time_kst": "19:21:00",
+      "symbol": "NCPL",
+      "company_name": "NCPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "05:20:57",
+      "time_kst": "19:20:57",
+      "symbol": "VJET",
+      "company_name": "VJET",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "05:04:03",
       "time_kst": "19:04:03",
       "symbol": "IPW",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $56.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:04:09",
-      "time_kst": "18:04:09",
-      "symbol": "VIDA",
-      "company_name": "VIDA",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:03:55",
-      "time_kst": "18:03:55",
-      "symbol": "RCT",
-      "company_name": "RCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [EFFECT] (Item ,,))"
     }
   ]
 }
