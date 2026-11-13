@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 20:06:34",
-  "updated_at_et": "2026-11-13 06:06:34",
-  "updated_epoch_ms": 1794567994604,
+  "updated_at_kst": "2026-11-13 20:07:16",
+  "updated_at_et": "2026-11-13 06:07:16",
+  "updated_epoch_ms": 1794568036778,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:06:20"
+    "updated_kst": "20:06:59"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "06:07:14",
+      "time_kst": "20:07:14",
+      "symbol": "CLLS",
+      "company_name": "CLLS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $82.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "06:07:10",
+      "time_kst": "20:07:10",
+      "symbol": "IRTC",
+      "company_name": "IRTC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3145.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "06:06:32",
       "time_kst": "20:06:32",
       "symbol": "DAIC",
@@ -2914,26 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:07:16",
-      "time_kst": "18:07:16",
-      "symbol": "VOC",
-      "company_name": "VOC",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:06:58",
-      "time_kst": "18:06:58",
-      "symbol": "NFE",
-      "company_name": "NFE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1048.28M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
