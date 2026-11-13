@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:08:21",
-  "updated_at_et": "2026-11-13 09:08:21",
-  "updated_epoch_ms": 1794578901941,
+  "updated_at_kst": "2026-11-13 23:09:19",
+  "updated_at_et": "2026-11-13 09:09:19",
+  "updated_epoch_ms": 1794578959676,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:08:18"
+    "updated_kst": "23:09:16"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:08:52",
+      "time_kst": "23:08:52",
+      "symbol": "ABTS",
+      "company_name": "ABTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:07:01",
       "time_kst": "23:07:01",
       "symbol": "RENX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $430.95M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:05:07",
-      "time_kst": "22:05:07",
-      "symbol": "FBIO",
-      "company_name": "FBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $65.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
