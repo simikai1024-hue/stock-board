@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:24:39",
-  "updated_at_et": "2026-11-13 08:24:39",
-  "updated_epoch_ms": 1794576279601,
+  "updated_at_kst": "2026-11-13 22:25:38",
+  "updated_at_et": "2026-11-13 08:25:38",
+  "updated_epoch_ms": 1794576338942,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:24:36"
+    "updated_kst": "22:25:35"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:24:47",
+      "time_kst": "22:24:47",
+      "symbol": "NSPR",
+      "company_name": "NSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:23:53",
       "time_kst": "22:23:53",
       "symbol": "COLB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:36:08",
-      "time_kst": "20:36:08",
-      "symbol": "DDC",
-      "company_name": "DDC",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B5])"
     }
   ]
 }
