@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:26:25",
-  "updated_at_et": "2026-11-13 04:26:25",
-  "updated_epoch_ms": 1794561985522,
+  "updated_at_kst": "2026-11-13 18:26:57",
+  "updated_at_et": "2026-11-13 04:26:57",
+  "updated_epoch_ms": 1794562017782,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:26:13"
+    "updated_kst": "18:26:54"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 57,
+    "today_hardcut": 58,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:26:29",
+      "time_kst": "18:26:29",
+      "symbol": "BIVI",
+      "company_name": "BIVI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:26:21",
       "time_kst": "18:26:21",
       "symbol": "OPTT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:01:49",
-      "time_kst": "18:01:49",
-      "symbol": "TRT",
-      "company_name": "TRT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.8M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
