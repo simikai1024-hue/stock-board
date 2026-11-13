@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:55:02",
-  "updated_at_et": "2026-11-13 08:55:02",
-  "updated_epoch_ms": 1794578102530,
+  "updated_at_kst": "2026-11-13 22:55:18",
+  "updated_at_et": "2026-11-13 08:55:18",
+  "updated_epoch_ms": 1794578118715,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FTCI",
+    "company_name": "FTCI",
+    "exchange": "ND",
+    "price": 1.2001,
+    "gain_pct": 0.01,
+    "mcap_m": 21.95,
+    "catalyst_hint": "[당일 PR] FTC Solar Introduces SUNCARE™ Preventive Maintenance Program for Long-Term Tracker Performance",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:55:14",
+    "started_at_kst": "22:55:14",
+    "started_epoch_ms": 1794578114973
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:54:58"
+    "updated_kst": "22:55:18"
   },
   "stats": {
     "today_total": 9,
