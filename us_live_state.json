@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:45:50",
-  "updated_at_et": "2026-11-13 09:45:50",
-  "updated_epoch_ms": 1794581150702,
+  "updated_at_kst": "2026-11-13 23:46:27",
+  "updated_at_et": "2026-11-13 09:46:27",
+  "updated_epoch_ms": 1794581187100,
   "analyzing": {
-    "active": true,
-    "symbol": "ACCS",
-    "company_name": "ACCS",
-    "exchange": "AM",
-    "price": 4.0,
-    "gain_pct": 14.61,
-    "mcap_m": 15.08,
-    "catalyst_hint": "[당일 PR] ACCESS Newswire Continues to Repurchase its Shares",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:45:46",
-    "started_at_kst": "23:45:46",
-    "started_epoch_ms": 1794581146559
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:45:41"
+    "updated_kst": "23:46:22"
   },
   "stats": {
-    "today_total": 12,
-    "today_nblm_count": 12,
+    "today_total": 13,
+    "today_nblm_count": 13,
     "today_buy": 1,
-    "today_false": 11,
+    "today_false": 12,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 10,
     "total_false": 140,
-    "avg_nblm_sec": 40.9
+    "avg_nblm_sec": 41.0
   },
   "verdicts": [
+    {
+      "id": "v_1794581183201_ACCS_FALSE",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "09:46:23",
+      "time_kst": "23:46:23",
+      "symbol": "ACCS",
+      "company_name": "ACCS",
+      "exchange": "AM",
+      "price": 4.0,
+      "gain_pct": 14.61,
+      "mcap_m": 15.08,
+      "decision": "FALSE",
+      "elapsed_sec": 41.3,
+      "reason": "자사주 매입 금액이 고작 $250,000(시총 대비 1.6%)에 불과한 극소액 연장 PR로 1급 대규모 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] ACCESS Newswire Continues to Repurchase its Shares",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ACCS (ACCESS Newswire Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $15.08M USD (연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 검증: 당일 자사주 매입 승인 금액은 **최대 $250,000 USD ($0.25M)**로, 실질 시가총액($15.08M) 대비 **단 1.66%**에 불과한 극소액 규모입니다.\n실시간 체결가 및 수급: 전일 종가 $3.4900 대비 현재가 $4.0000 (+14.61%), 당일 최고가 $4.0000 (+0.0%), 당일 누적 거래대금 $4,396 USD.\n당일 SEC 공시 현황: 2026-11-13 [8-K] (Item 8.01 Other Events, 9.01) 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 09:05 ET) 공식 PR 원문 분석:\nPR 제목: \"ACCESS Newswire Continues to Repurchase its Shares\"\n원문 직독 결과 드러난 치명적 실체:\n'대규모' 자사주 매입이 아닌 시총 대비 1.6% 미미한 소액 프로그램 ($250,000):\n원문 본문에 *\"approved an additional share repurchase program up to $250,000 of its common stock\"*라고 명시되어 있습니다.\n연구소 심사 헌법 제2조에서 FORCE_BUY 대상으로 규정한 '자사주 매입/소각'은 시총을 압도하거나 유통물량을 말려버리는 **'대규모(시총 20%~50%+ 이상) 자사주 매입/소각(SDA형)'**을 의미하며, 시총 $15M짜리 기업의 고작 $250,000(25만 달러, 시총의 약 1.6%) 추가 매입은 단타 주가를 폭발시킬 수 없는 미미한 통상적 주주환원 흉내에 불과합니다.\n과거 프로그램의 단순 연장/재탕 성격 (Continues Repurchase):\n제목 자체에서 *\"Continues to Repurchase\"*라고 표기하고 있으며, 직전 프로그램에서 15만 주(발행주식의 4%)를 소각한 뒤 남은 잉여 현금 일부로 소액 매입을 이어간다는 내용으로 시장 수급을 뒤흔들 수 있는 퀀텀 점프 기폭제가 아닙니다.\n직전 분기 실적 역성장 및 1급 확정 호재 결여:\n과거 이력상 11월 10일 발표된 3분기 실적에서 매출이 4% 감소(Q3 revenue falls 4%)하는 등 펀더멘털 모멘텀이 정체되어 있으며, 확정적 거액 신규 수주(AIMD형)나 FDA 승인, 대형 M&A 등 실체적 1급 금융 기폭제가 결여되어 있습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '시총 대비 비중이 매우 작은 소액 프로그램/기존 정책 연장 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 8-K(Item 8.01)는 자사주 매입 키워드를 포함하고 있으나, 실제 승인 금액이 $250,000(시총 대비 1.6%)에 불과한 극소액 연장 발표로 1급 확정 기폭제 기준에 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ACCS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: ACCS NOTES:\n[ACCS] 자사주 매입 금액이 고작 $250,000(시총 대비 1.6%)에 불과한 극소액 연장 PR로 1급 대규모 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794580559748_SEGG_FALSE",
       "date_et": "2026-11-13",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 PLCE (The Children's Place, Inc.) 정밀 직독 결재 보고입니다 [cite: 226].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.0M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 226].\n실시간 시세 및 수급: 전일 종가 $0.2720 대비 현재가 $0.2700 (-0.74% 약보합), 당일 최고가 $0.2800 (-3.6%) [cite: 226]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 226].\n2. D-Day SEC 8-K(Item 5.02) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 5.02) 원문 분석:\n공시 핵심 내용: \"On October 30, 2026, Kim Roy notified The Children's Place, Inc. of her resignation from the Company's board of directors, effective immediately...\" [cite: 227]\n원문 팩트: 이사회 이사(Kim Roy)의 사임 통보 및 이사회 직위 물러남을 알리는 단순 임원 사임/경영진 변경(Departure of Directors) 행정 공시입니다 [cite: 227].\n치명적 기폭제 결함:\n오늘 당일 공식 PR 보도자료 수신이 **0건(미수신)**이며, 제출된 8-K 공시 또한 단순 이사 사임 보고서에 불과합니다 [cite: 227].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아니며, 전략 헌장 원칙(\"단순 임원 사임/경영진 교체/행정 공시는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 12, 15].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무하며 시세가 약보합(-0.74%) 상태입니다 [cite: 226].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 이사 사임(Item 5.02) 행정 공시이고 공식 PR 뉴스가 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PLCE 처리합니다 [cite: 12, 15, 227].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 12].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PLCE NOTES:\n[PLCE] 단순 이사 사임(Item 5.02) 행정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 장전 대금 $0(-0.74%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793797420828_DKI_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:03:40",
-      "time_kst": "22:03:40",
-      "symbol": "DKI",
-      "company_name": "DarkIris Inc.",
-      "exchange": "ND",
-      "price": 2.19,
-      "gain_pct": 45.06,
-      "mcap_m": 2.07,
-      "decision": "FALSE",
-      "elapsed_sec": 79.2,
-      "reason": "당일 6-K/A 단순 행정 정정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 고점 대비 -21.5% 윗꼬리 밀림 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K/A]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 DKI (DarkIris Inc.) 정밀 직독 결재 보고입니다 [cite: 218, 219].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.07M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 218].\n실시간 시세 및 수급: 전일 종가 $1.5100 대비 현재가 $2.1900 (+45.03%), 당일 최고가 $2.7897 (고점 대비 -21.5% 급락 발생) [cite: 218].\n2. D-Day SEC 6-K/A 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K/A 원문 분석:\n공시 핵심 내용: Form 6-K/A (Report of Foreign Private Issuer Amendment) [cite: 219]\n원문 팩트: 기존에 제출된 6-K 문서의 내용 일부를 보완·수정하여 재제출한 **단순 행정 정정 공시(Administrative Amendment)**에 불과합니다 [cite: 219].\n치명적 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료 수신이 **0건(미수신)**이며, 제출된 6-K/A 공시 또한 단순 행정 정정 서류에 불과합니다 [cite: 219].\n이는 당일 주가를 부양할 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 16, 219].\n당일 최고가($2.7897) 대비 -21.5%에 달하는 강한 윗꼬리 매물 차트가 발생하여 전형적인 설거지 매도세가 출회되었습니다 [cite: 16, 218].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K/A 공시가 단순 행정 정정 서류이고 공식 PR 뉴스가 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DKI 처리합니다 [cite: 16, 219].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 15].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: DKI NOTES:\n[DKI] 당일 6-K/A 단순 행정 정정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 고점 대비 -21.5% 윗꼬리 밀림 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:45:53",
+      "time_kst": "23:45:53",
+      "symbol": "FUSE",
+      "company_name": "FUSE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
     {
       "date_et": "2026-11-13",
       "time_et": "09:41:30",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:39:34",
-      "time_kst": "22:39:34",
-      "symbol": "EMAT",
-      "company_name": "EMAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $639.74M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
