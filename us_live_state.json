@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:45:05",
-  "updated_at_et": "2026-11-13 08:45:05",
-  "updated_epoch_ms": 1794577505692,
+  "updated_at_kst": "2026-11-13 22:45:52",
+  "updated_at_et": "2026-11-13 08:45:52",
+  "updated_epoch_ms": 1794577552590,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:44:45"
+    "updated_kst": "22:45:47"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,66 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:45:49",
+      "time_kst": "22:45:49",
+      "symbol": "XGPU",
+      "company_name": "XGPU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Reliance Global Group Schedules Third Quarter 2026 Financi)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:45:43",
+      "time_kst": "22:45:43",
+      "symbol": "NEOV",
+      "company_name": "NEOV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $188.54M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:45:34",
+      "time_kst": "22:45:34",
+      "symbol": "KYNB",
+      "company_name": "KYNB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Kyntra Bio to Report Third Quarter 2026 Financial Results)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:45:25",
+      "time_kst": "22:45:25",
+      "symbol": "KNDI",
+      "company_name": "KNDI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Kandi Technologies to Report Third Quarter 2026 Financial )"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:45:16",
+      "time_kst": "22:45:16",
+      "symbol": "OBAI",
+      "company_name": "OBAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:45:07",
+      "time_kst": "22:45:07",
+      "symbol": "AGPU",
+      "company_name": "AGPU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $95.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:45:01",
       "time_kst": "22:45:01",
       "symbol": "IDAI",
@@ -2874,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $665.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:21:07",
-      "time_kst": "21:21:07",
-      "symbol": "AIRE",
-      "company_name": "AIRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-04 [424B4])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:18:27",
-      "time_kst": "21:18:27",
-      "symbol": "BESS",
-      "company_name": "BESS",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:13:46",
-      "time_kst": "21:13:46",
-      "symbol": "WFRD",
-      "company_name": "WFRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6196.94M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:13:37",
-      "time_kst": "21:13:37",
-      "symbol": "MIST",
-      "company_name": "MIST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $89.02M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:06:34",
-      "time_kst": "21:06:34",
-      "symbol": "RGS",
-      "company_name": "RGS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:04:02",
-      "time_kst": "21:04:02",
-      "symbol": "CRSR",
-      "company_name": "CRSR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1311.02M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
