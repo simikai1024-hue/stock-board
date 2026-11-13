@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:52:59",
-  "updated_at_et": "2026-11-13 07:52:59",
-  "updated_epoch_ms": 1794574379053,
+  "updated_at_kst": "2026-11-13 21:53:55",
+  "updated_at_et": "2026-11-13 07:53:55",
+  "updated_epoch_ms": 1794574435564,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:52:53"
+    "updated_kst": "21:53:51"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:53:27",
+      "time_kst": "21:53:27",
+      "symbol": "HURA",
+      "company_name": "HURA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $97.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:52:29",
       "time_kst": "21:52:29",
       "symbol": "SIRI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:01:48",
-      "time_kst": "19:01:48",
-      "symbol": "IBKR",
-      "company_name": "IBKR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $36792.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
