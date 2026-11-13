@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:34:36",
-  "updated_at_et": "2026-11-13 09:34:36",
-  "updated_epoch_ms": 1794580476984,
+  "updated_at_kst": "2026-11-13 23:35:35",
+  "updated_at_et": "2026-11-13 09:35:35",
+  "updated_epoch_ms": 1794580535200,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SEGG",
+    "company_name": "SEGG",
+    "exchange": "ND",
+    "price": 1.11,
+    "gain_pct": 0.91,
+    "mcap_m": 4.67,
+    "catalyst_hint": "[당일 PR] Sports.com-Backed Team Miami Takes Pole for E1 Season Finale",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:35:31",
+    "started_at_kst": "23:35:31",
+    "started_epoch_ms": 1794580531448
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:34:33"
+    "updated_kst": "23:35:13"
   },
   "stats": {
     "today_total": 11,
