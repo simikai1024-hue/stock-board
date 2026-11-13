@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:06:23",
-  "updated_at_et": "2026-11-13 08:06:23",
-  "updated_epoch_ms": 1794575183694,
+  "updated_at_kst": "2026-11-13 22:06:54",
+  "updated_at_et": "2026-11-13 08:06:54",
+  "updated_epoch_ms": 1794575214209,
   "analyzing": {
-    "active": true,
-    "symbol": "BODI",
-    "company_name": "BODI",
-    "exchange": "ND",
-    "price": 3.31,
-    "gain_pct": 2.48,
-    "mcap_m": 24.11,
-    "catalyst_hint": "[당일 PR] BODi Unleashes Brand New “INSANITY: Unhinged”, an Intense 100-Day Training Program Developed by HYROX World Champion Hunter McIntyre and Executive Produced by Shaun T",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:06:19",
-    "started_at_kst": "22:06:19",
-    "started_epoch_ms": 1794575179891
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:06:16"
+    "updated_kst": "22:06:38"
   },
   "stats": {
-    "today_total": 7,
-    "today_nblm_count": 7,
+    "today_total": 8,
+    "today_nblm_count": 8,
     "today_buy": 1,
-    "today_false": 6,
+    "today_false": 7,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 10,
     "total_false": 140,
-    "avg_nblm_sec": 46.6
+    "avg_nblm_sec": 44.8
   },
   "verdicts": [
+    {
+      "id": "v_1794575207863_BODI_FALSE",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "08:06:47",
+      "time_kst": "22:06:47",
+      "symbol": "BODI",
+      "company_name": "BODI",
+      "exchange": "ND",
+      "price": 3.31,
+      "gain_pct": 2.48,
+      "mcap_m": 24.11,
+      "decision": "FALSE",
+      "elapsed_sec": 31.6,
+      "reason": "확정 계약 금액 없는 단순 신규 피트니스 운동 프로그램 런칭 마케팅 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] BODi Unleashes Brand New “INSANITY: Unhinged”, an Intense 100-Day Training Program Developed by HYROX World Champion Hunter McIntyre and Executive Produced by Shaun T",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BODI (The Beachbody Company, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.11M USD (연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약 금액 일절 미감지 (확정 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $3.2300 대비 현재가 $3.3100 (+2.48%), 당일 최고가 $3.3100 (+0.0%), 당일 누적 거래대금 $36 USD (프리장 극초입 단계).\n최근 SEC 공시 현황: 2026-11-12 [424B3] 2건(구주 리세일), 2026-11-10 [10-Q] 및 [8-K Item 2.02] 접수 완료 상태.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"BODi Unleashes Brand New “INSANITY: Unhinged”, an Intense 100-Day Training Program Developed by HYROX World Champion Hunter McIntyre and Executive Produced by Shaun T\"\n원문 직독 결과 드러난 치명적 실체:\n단순 피트니스 신규 운동 프로그램 런칭 홍보 (Product Launch PR):\n본 PR의 본질은 자사 디지털 피트니스 플랫폼에 신규 100일 홈트레이닝/하이브리드 운동 프로그램인 *\"INSANITY: Unhinged\"*를 출시한다는 단순 소비재/콘텐츠 상품 런칭 마케팅 보도자료입니다.\n구체적 확정 달러 금액 및 실체적 현금 유입 전무 (No Confirmed Dollar Inflow):\n기업 가치를 폭발적으로 재평가할 수 있는 확정된 대형 B2B 공급계약, 수주액, 거액 현금 선급금(deposit), 대형 M&A, 자사주 매입/소각, 특별배당 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '금액 미기재 단순 상품 런칭/제휴/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 없는 단순 홈트레이닝 피트니스 프로그램 런칭 마케팅 홍보에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: BODI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: BODI NOTES:\n[BODI] 확정 계약 금액 없는 단순 신규 피트니스 운동 프로그램 런칭 마케팅 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794575168294_BIRD_FALSE",
       "date_et": "2026-11-13",
@@ -2422,26 +2430,6 @@
       "reason": "10/13 자 S-3 EFFECT 유증 희석 위험 잔존 + 단순 인수의향서(Term Sheet/MOU) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+1.83%) 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 WKSP (Worksport Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.01M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.2951 대비 현재가 $0.3005 (+1.83%), 당일 최고가 $0.3111 (-3.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. SEC 희석 위험 & D-Day 8-K(Item 7.01) 원문 직독 정밀 검증\n[사전 SEC 유상증자 희석 위험 잔존 (원칙 1 위반)]:\n사전 35일 SEC 제출 이력상 2026-10-13 EFFECT (S-3 증권등록신고서 효력 발생) 공시가 제출 및 유지되고 있어, 언제든 장내 신주 오퍼링/유상증자 덤핑 물량이 출회될 수 있는 희석 위험이 지속되고 있습니다.\n[당일 D-Day 기폭제 결함 (원칙 2·3 위반)]:\n당일(11/04) SEC 8-K (Item 7.01) 및 PR 원문 분석:\n\"Worksport Signs Term Sheet to Acquire U.S.-Manufactured Truck Bed Accessory Business Accompanying IP Portfolio\"\n원문 팩트: 트럭 관련 용품 사업체 및 IP 포트폴리오 인수를 위한 구속력 없는 단초적 인수의향서(Term Sheet) 체결 발표.\n치명적 기폭제 결함:\n확정된 M&A 완결 계약이나 구체적 달러($) 현금 거래 규모가 명시된 최종 계약이 아니라, 인수 검토 단계의 단순 인수의향서(Term Sheet / MOU) 체결 소식에 불과합니다.\n이는 심사 원칙 3번에서 엄격히 차단하는 '금액 미기재 단순 MOU/Term Sheet/샘플/특허' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 최종 완결, 현금 특별배당, ATM 해지 등)가 절대 아닙니다.\n개장 전 유동성 유입($0 USD) 및 세력 매집 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n10/13 자 S-3 EFFECT 증약 희석 위험 잔존, 단순 인수의향서(Term Sheet) 발표의 1급 확정 기폭제 미달 및 장전 대금 미달($0 USD)에 따라 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: WKSP 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: WKSP NOTES:\n[WKSP] 10/13 자 S-3 EFFECT 유증 희석 위험 잔존 + 단순 인수의향서(Term Sheet/MOU) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+1.83%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793793895457_GNPX_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "07:04:55",
-      "time_kst": "21:04:55",
-      "symbol": "GNPX",
-      "company_name": "GNPX",
-      "exchange": "ND",
-      "price": 2.4,
-      "gain_pct": 4.8,
-      "mcap_m": 1.97,
-      "decision": "FALSE",
-      "elapsed_sec": 84.5,
-      "reason": "2026 EORTC-NCI-AACR 학회 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(+4.80%) 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 8.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 GNPX (Genprex, Inc.) 정밀 직독 결재 보고입니다 [cite: 319, 320].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.97M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 319].\n실시간 시세 및 수급: 전일 종가 $2.2900 대비 현재가 $2.4000 (+4.80%), 당일 최고가 $2.7129 (-11.5%) [cite: 319]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 319].\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 8.01) 원문 분석:\n공시 핵심 내용: \"On November 4, 2026, Genprex, Inc. issued a press release announcing that new research identifying TROP2 expression as a potential predictive biomarker... will be presented at the 2026 EORTC-NCI-AACR Symposium on Molecular Targets and Cancer Therapeutics...\" [cite: 320]\n원문 팩트: 2026 EORTC-NCI-AACR 학회/심포지엄에서 주력 파이프라인(Reqorsa) 바이오마커 연구 결과를 발표(Presentation)한다는 소식 [cite: 320].\n치명적 기폭제 결함:\n학회/심포지엄 참석 및 단순 연구 발표(Conference/Symposium Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/포스터 발표에 불과합니다 [cite: 32].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 최종 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 학회·컨퍼런스 발표·주주서한은 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 32].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 319].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 학회/심포지엄 연구 발표(Conference Presentation)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GNPX 처리합니다 [cite: 32, 320].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 323].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: GNPX NOTES:\n[GNPX] 2026 EORTC-NCI-AACR 학회 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(+4.80%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
