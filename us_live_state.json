@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:45:11",
-  "updated_at_et": "2026-11-13 09:45:11",
-  "updated_epoch_ms": 1794581111659,
+  "updated_at_kst": "2026-11-13 23:45:50",
+  "updated_at_et": "2026-11-13 09:45:50",
+  "updated_epoch_ms": 1794581150702,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ACCS",
+    "company_name": "ACCS",
+    "exchange": "AM",
+    "price": 4.0,
+    "gain_pct": 14.61,
+    "mcap_m": 15.08,
+    "catalyst_hint": "[당일 PR] ACCESS Newswire Continues to Repurchase its Shares",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:45:46",
+    "started_at_kst": "23:45:46",
+    "started_epoch_ms": 1794581146559
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:45:05"
+    "updated_kst": "23:45:41"
   },
   "stats": {
     "today_total": 12,
