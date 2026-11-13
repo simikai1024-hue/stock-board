@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:25:37",
-  "updated_at_et": "2026-11-13 04:25:37",
-  "updated_epoch_ms": 1794561937719,
+  "updated_at_kst": "2026-11-13 18:26:25",
+  "updated_at_et": "2026-11-13 04:26:25",
+  "updated_epoch_ms": 1794561985522,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:25:29"
+    "updated_kst": "18:26:13"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 54,
+    "today_hardcut": 57,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:26:21",
+      "time_kst": "18:26:21",
+      "symbol": "OPTT",
+      "company_name": "OPTT",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:25:49",
+      "time_kst": "18:25:49",
+      "symbol": "AERT",
+      "company_name": "AERT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $192.85M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:25:39",
+      "time_kst": "18:25:39",
+      "symbol": "AIXI",
+      "company_name": "AIXI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $103.34M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:25:31",
       "time_kst": "18:25:31",
       "symbol": "CITR",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $57.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:01:44",
-      "time_kst": "18:01:44",
-      "symbol": "ITOC",
-      "company_name": "ITOC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:01:32",
-      "time_kst": "18:01:32",
-      "symbol": "TGHL",
-      "company_name": "TGHL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:01:20",
-      "time_kst": "18:01:20",
-      "symbol": "CENN",
-      "company_name": "CENN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
     }
   ]
 }
