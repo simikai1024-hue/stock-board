@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:47:35",
-  "updated_at_et": "2026-11-13 11:47:35",
-  "updated_epoch_ms": 1794588455004,
+  "updated_at_kst": "2026-11-14 01:48:35",
+  "updated_at_et": "2026-11-13 11:48:35",
+  "updated_epoch_ms": 1794588515114,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CNSY",
     "holding_qty": 445,
     "avg_price": 1.03,
-    "current_price": 1.0703,
-    "profit_rate": 3.91,
-    "updated_kst": "01:47:31"
+    "current_price": 1.07,
+    "profit_rate": 3.88,
+    "updated_kst": "01:48:31"
   },
   "stats": {
     "today_total": 15,
