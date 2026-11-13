@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:29:07",
-  "updated_at_et": "2026-11-13 04:29:07",
-  "updated_epoch_ms": 1794562147424,
+  "updated_at_kst": "2026-11-13 18:30:09",
+  "updated_at_et": "2026-11-13 04:30:09",
+  "updated_epoch_ms": 1794562209022,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:29:05"
+    "updated_kst": "18:30:05"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:29:38",
+      "time_kst": "18:29:38",
+      "symbol": "BIVI",
+      "company_name": "BIVI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:29:01",
       "time_kst": "18:29:01",
       "symbol": "CITR",
@@ -2444,16 +2454,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $68.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:26:29",
-      "time_kst": "18:26:29",
-      "symbol": "BIVI",
-      "company_name": "BIVI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,7.01,9.01))"
     },
     {
       "date_et": "2026-11-13",
