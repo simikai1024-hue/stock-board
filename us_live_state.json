@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:04:13",
-  "updated_at_et": "2026-11-13 04:04:13",
-  "updated_epoch_ms": 1794560653269,
+  "updated_at_kst": "2026-11-13 18:05:07",
+  "updated_at_et": "2026-11-13 04:05:07",
+  "updated_epoch_ms": 1794560707511,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:04:03"
+    "updated_kst": "18:05:03"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 19,
+    "today_hardcut": 22,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:04:39",
+      "time_kst": "18:04:39",
+      "symbol": "VBIO",
+      "company_name": "VBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:04:28",
+      "time_kst": "18:04:28",
+      "symbol": "CABR",
+      "company_name": "CABR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:04:20",
+      "time_kst": "18:04:20",
+      "symbol": "HCTI",
+      "company_name": "HCTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:04:09",
       "time_kst": "18:04:09",
       "symbol": "VIDA",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:31:20",
-      "time_kst": "23:31:20",
-      "symbol": "YOUL",
-      "company_name": "YOUL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:30:38",
-      "time_kst": "23:30:38",
-      "symbol": "BTCS",
-      "company_name": "BTCS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:29:44",
-      "time_kst": "23:29:44",
-      "symbol": "TWFG",
-      "company_name": "TWFG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $348.77M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
