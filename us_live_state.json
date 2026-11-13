@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:43:36",
-  "updated_at_et": "2026-11-13 07:43:36",
-  "updated_epoch_ms": 1794573816818,
+  "updated_at_kst": "2026-11-13 21:44:25",
+  "updated_at_et": "2026-11-13 07:44:25",
+  "updated_epoch_ms": 1794573865881,
   "analyzing": {
-    "active": true,
-    "symbol": "YFOR",
-    "company_name": "YFOR",
-    "exchange": "ND",
-    "price": 0.0446,
-    "gain_pct": 1.36,
-    "mcap_m": 0.57,
-    "catalyst_hint": "[당일 PR] YYForce (NASDAQ: YFOR) Wins Major UAE Hospitality Contracts as Middle East Expansion Accelerates",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:43:34",
-    "started_at_kst": "21:43:34",
-    "started_epoch_ms": 1794573814414
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:43:16"
+    "updated_kst": "21:44:14"
   },
   "stats": {
-    "today_total": 4,
-    "today_nblm_count": 4,
+    "today_total": 5,
+    "today_nblm_count": 5,
     "today_buy": 1,
-    "today_false": 3,
+    "today_false": 4,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
-    "avg_nblm_sec": 48.5
+    "avg_nblm_sec": 49.4
   },
   "verdicts": [
+    {
+      "id": "v_1794573861832_YFOR_FALSE",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "07:44:21",
+      "time_kst": "21:44:21",
+      "symbol": "YFOR",
+      "company_name": "YFOR",
+      "exchange": "ND",
+      "price": 0.0446,
+      "gain_pct": 1.36,
+      "mcap_m": 0.57,
+      "decision": "FALSE",
+      "elapsed_sec": 52.7,
+      "reason": "구체적 계약 달러 금액 미기재 단순 UAE 호텔 인력 배치 및 사업 확장 홍보 PR로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] YYForce (NASDAQ: YFOR) Wins Major UAE Hospitality Contracts as Middle East Expansion Accelerates",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YFOR (YYForce Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.57M USD (연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 발표 규모: 당일 PR 내 백만 달러($M) 이상 확정 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.0440 대비 현재가 $0.0446 (+1.36%), 당일 최고가 $0.0464 (고점 대비 -3.9%), 당일 누적 거래대금 $274,206 USD.\n선발표 규정 확인: 계약 후 4영업일 이내 8-K/6-K 제출 유예 규정에 따른 순수 PR 선발표 구간이므로 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 07:35 ET) 공식 PR 원문 분석\n:\nPR 제목: *\"YYForce (NASDAQ: YFOR) Wins Major UAE Hospitality Contracts as Middle East Expansion Accelerates\"*\n원문 직독 결과 드러난 치명적 실체:\n구체적 계약 달러 금액 미기재 (No Confirmed Dollar Amount):\nUAE 두바이 및 푸자이라 지역 럭셔리 리조트(Address Beach Resort, Palace Beach Resort)에 인력 배치 및 벤더 등록(vendor registration)을 마쳤다는 내용이나, 확정된 총 계약 금액, 최소 보장 수주액, 현금 계약금(deposit) 등 실체적 달러($) 수치가 제목과 본문 어디에도 전혀 명시되지 않은 단순 사업 확장 홍보 PR입니다.\n1급 확정 기폭제 요건 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 시총 100%+ 창사 최대 본계약), FDA 승인/임상 성공, 대형 M&A 완료, 특별배당\" 등 기업 가치를 수직 폭등시킬 수 있는 실체적 현금 흐름이 전혀 없습니다.\n과거 홍보성 뉴스 남발 패턴 (우려먹기 IR):\n최근 180일 이력 대조 결과, 싱가포르 100+ 레스토랑 인력 배치(11/12), 2026년 가이던스 홍보(11/11), 11대 로봇 배치(10/29) 등 금액 실체가 불분명한 마케팅용 보도자료를 단발성으로 연일 배포해 온 전형적인 테마 편승형 홍보 패턴입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '금액 미기재 제휴/단순 계약/홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 명시되지 않은 단순 해외 진출 및 인력 배치 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: YFOR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: YFOR NOTES:\n[YFOR] 구체적 계약 달러 금액 미기재 단순 UAE 호텔 인력 배치 및 사업 확장 홍보 PR로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 장전 프리마켓 시간 동안 나스닥·아멕스 $50.0M 이하 종목 중 AIMD처럼 구체적 달러 금액과 현금 선급금이 수반된 진짜 대형 계약이 포착되면 즉시 정밀 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794572635841_EXOZ_FALSE",
       "date_et": "2026-11-13",
@@ -2422,26 +2430,6 @@
       "reason": "SITC 2026 학회 데이터 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(-1.33%) 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 EVAX (Evaxion A/S) 정밀 직독 결재 보고입니다 [cite: 282, 283].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.69M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 282].\n실시간 시세 및 수급: 전일 종가 $3.0000 대비 현재가 $2.9600 (-1.33% 약보합), 당일 최고가 $2.9600 [cite: 282]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 282].\n2. D-Day SEC 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K 및 11/03 PR 원문 분석:\n공시/뉴스 핵심 내용: \"Evaxion to present broad biomarker data from phase 2 trial with personalized cancer vaccine EVX-01 at the SITC 2026 Annual Meeting\" [cite: 86, 284]\n원문 팩트: SITC 2026(Society for Immunotherapy of Cancer, 암학회) 학회에서 맞춤형 암 백신(EVX-01) 임상 2상 바이오마커 연구 데이터를 구두 및 포스터로 발표(Presentation)한다는 내용 [cite: 86, 284].\n치명적 기폭제 결함:\n학회/컨퍼런스 참석 및 단순 데이터 발표(Conference/SITC Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/포스터 발표에 해당합니다 [cite: 24].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 최종 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 학회·컨퍼런스 발표·주주서한은 100% FORCE_BLOCK\")에 의거 정식 차단 대상입니다 [cite: 24].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 282].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K/PR 내용이 단순 SITC 2026 학회 발표(Conference Presentation)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: EVAX 처리합니다 [cite: 24, 283].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 287].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: EVAX NOTES:\n[EVAX] SITC 2026 학회 데이터 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(-1.33%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793724750219_KAPA_FALSE",
-      "date_et": "2026-11-03",
-      "weekday_kr": "화",
-      "time_et": "11:52:30",
-      "time_kst": "01:52:30",
-      "symbol": "KAPA",
-      "company_name": "KAPA",
-      "exchange": "AM",
-      "price": 0.4751,
-      "gain_pct": 0.23,
-      "mcap_m": 11.26,
-      "decision": "FALSE",
-      "elapsed_sec": 69.3,
-      "reason": "단순 학회/컨퍼런스 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 누적 대금($75,747) 미달로 전량 차단",
-      "catalyst_hint": "[당일 PR] Kairos Pharma Presents at United Scientific Group’s 11th International Conference on Cancer Research & Drug Development",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문 팩트를 바탕으로 진행한 KAPA (Kairos Pharma, Ltd.) 정밀 직독 결재 보고입니다 [cite: 4, 43].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.26M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 42].\n실시간 시세 및 수급: 전일 종가 $0.4740 대비 현재가 $0.4751 (+0.23%), 당일 최고가 $0.5300 (-10.4%). 당일 누적 거래대금 $75,747 USD로 세력 수급 유입 반응이 매우 저조합니다.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 11:45 ET) PR 원문 분석:\nPR 제목: \"Kairos Pharma Presents at United Scientific Group’s 11th International Conference on Cancer Research & Drug Development\"\n원문 팩트: 회사의 경영진(Neil Bhowmick)이 암 연구 및 약물 개발 관련 국제 학회/컨퍼런스에서 발표(Presentation)를 진행한다는 단순 발표 소식.\n치명적 기폭제 결함:\n학회/컨퍼런스 참석 및 단순 발표(Conference Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/컨퍼런스/주주서한 발표에 불과합니다 [cite: 43].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 주주서한·컨퍼런스 발표·설문조사는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 43].\n거래대금 수급 반응($75,747 USD)이 극히 약하고 주가 반응(+0.23%) 역시 미미합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학회/컨퍼런스 발표 소식에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: KAPA 처리합니다 [cite: 43].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: KAPA NOTES:\n[KAPA] 단순 학회/컨퍼런스 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 누적 대금($75,747) 미달로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
