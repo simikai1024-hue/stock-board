@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:17:23",
-  "updated_at_et": "2026-11-13 04:17:23",
-  "updated_epoch_ms": 1794561443716,
+  "updated_at_kst": "2026-11-13 18:18:10",
+  "updated_at_et": "2026-11-13 04:18:10",
+  "updated_epoch_ms": 1794561490346,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:17:11"
+    "updated_kst": "18:17:52"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 34,
+    "today_hardcut": 37,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:18:04",
+      "time_kst": "18:18:04",
+      "symbol": "VIVK",
+      "company_name": "VIVK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:17:43",
+      "time_kst": "18:17:43",
+      "symbol": "PN",
+      "company_name": "PN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:17:38",
+      "time_kst": "18:17:38",
+      "symbol": "SNAL",
+      "company_name": "SNAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:17:17",
       "time_kst": "18:17:17",
       "symbol": "SHFS",
@@ -2904,36 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:35:00",
-      "time_kst": "23:35:00",
-      "symbol": "SOS",
-      "company_name": "SOS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:34:56",
-      "time_kst": "23:34:56",
-      "symbol": "SPRU",
-      "company_name": "SPRU",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:34:48",
-      "time_kst": "23:34:48",
-      "symbol": "JOB",
-      "company_name": "JOB",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $706.47M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
