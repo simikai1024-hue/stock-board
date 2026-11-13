@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 20:57:58",
-  "updated_at_et": "2026-11-13 06:57:58",
-  "updated_epoch_ms": 1794571078010,
+  "updated_at_kst": "2026-11-13 20:59:04",
+  "updated_at_et": "2026-11-13 06:59:04",
+  "updated_epoch_ms": 1794571144533,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:57:54"
+    "updated_kst": "20:58:59"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "06:58:18",
+      "time_kst": "20:58:18",
+      "symbol": "BILI",
+      "company_name": "BILI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4561.87M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "06:45:47",
       "time_kst": "20:45:47",
       "symbol": "KGEI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,3.02))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:19:41",
-      "time_kst": "18:19:41",
-      "symbol": "CDT",
-      "company_name": "CDT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
     }
   ]
 }
