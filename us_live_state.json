@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:01:00",
-  "updated_at_et": "2026-11-13 04:01:00",
-  "updated_epoch_ms": 1794560460160,
+  "updated_at_kst": "2026-11-13 18:01:47",
+  "updated_at_et": "2026-11-13 04:01:47",
+  "updated_epoch_ms": 1794560507678,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:51"
+    "updated_kst": "18:01:29"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 2,
+    "today_hardcut": 7,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:01:44",
+      "time_kst": "18:01:44",
+      "symbol": "ITOC",
+      "company_name": "ITOC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:01:32",
+      "time_kst": "18:01:32",
+      "symbol": "TGHL",
+      "company_name": "TGHL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:01:20",
+      "time_kst": "18:01:20",
+      "symbol": "CENN",
+      "company_name": "CENN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:01:14",
+      "time_kst": "18:01:14",
+      "symbol": "CRMN",
+      "company_name": "CRMN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:01:07",
+      "time_kst": "18:01:07",
+      "symbol": "ADXN",
+      "company_name": "ADXN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $782.03M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:00:54",
       "time_kst": "18:00:54",
       "symbol": "PARA",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $134.23M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:02:32",
-      "time_kst": "23:02:32",
-      "symbol": "ALPS",
-      "company_name": "ALPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $204.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:00:19",
-      "time_kst": "23:00:19",
-      "symbol": "VCTR",
-      "company_name": "VCTR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7655.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:00:13",
-      "time_kst": "23:00:13",
-      "symbol": "NNDM",
-      "company_name": "NNDM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $269.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:53:42",
-      "time_kst": "22:53:42",
-      "symbol": "NVDA",
-      "company_name": "NVDA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3740512.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "08:52:23",
-      "time_kst": "22:52:23",
-      "symbol": "PODC",
-      "company_name": "PODC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.75M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
