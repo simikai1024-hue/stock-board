@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:36:36",
-  "updated_at_et": "2026-11-13 11:36:36",
-  "updated_epoch_ms": 1794587796037,
+  "updated_at_kst": "2026-11-14 01:37:38",
+  "updated_at_et": "2026-11-13 11:37:38",
+  "updated_epoch_ms": 1794587858540,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CNSY",
     "holding_qty": 445,
     "avg_price": 1.03,
-    "current_price": 1.085,
-    "profit_rate": 5.34,
-    "updated_kst": "01:36:35"
+    "current_price": 1.0823,
+    "profit_rate": 5.08,
+    "updated_kst": "01:37:35"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "11:36:43",
+      "time_kst": "01:36:43",
+      "symbol": "NVCR",
+      "company_name": "NVCR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1341.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "11:36:38",
+      "time_kst": "01:36:38",
+      "symbol": "KELYA",
+      "company_name": "KELYA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $476.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "11:36:32",
       "time_kst": "01:36:32",
       "symbol": "GFS",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $178.9M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:11:47",
-      "time_kst": "23:11:47",
-      "symbol": "WSE",
-      "company_name": "WSE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $11763.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:11:27",
-      "time_kst": "23:11:27",
-      "symbol": "NTWK",
-      "company_name": "NTWK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $71.24M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
