@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:43:42",
-  "updated_at_et": "2026-11-13 04:43:42",
-  "updated_epoch_ms": 1794563022537,
+  "updated_at_kst": "2026-11-13 18:44:38",
+  "updated_at_et": "2026-11-13 04:44:38",
+  "updated_epoch_ms": 1794563078676,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:43:36"
+    "updated_kst": "18:44:36"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:43:56",
+      "time_kst": "18:43:56",
+      "symbol": "JDZG",
+      "company_name": "JDZG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:42:49",
       "time_kst": "18:42:49",
       "symbol": "GYGY",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:02:58",
-      "time_kst": "18:02:58",
-      "symbol": "JYD",
-      "company_name": "JYD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
