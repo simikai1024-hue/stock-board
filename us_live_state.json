@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:53:27",
-  "updated_at_et": "2026-11-13 11:53:27",
-  "updated_epoch_ms": 1794588807087,
+  "updated_at_kst": "2026-11-14 01:54:14",
+  "updated_at_et": "2026-11-13 11:54:14",
+  "updated_epoch_ms": 1794588854851,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CNSY",
     "holding_qty": 445,
     "avg_price": 1.03,
-    "current_price": 1.08,
-    "profit_rate": 4.85,
-    "updated_kst": "01:53:23"
+    "current_price": 1.0801,
+    "profit_rate": 4.86,
+    "updated_kst": "01:54:01"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "11:54:12",
+      "time_kst": "01:54:12",
+      "symbol": "JBDI",
+      "company_name": "JBDI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "11:51:20",
       "time_kst": "01:51:20",
       "symbol": "TELO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $98.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:17:32",
-      "time_kst": "23:17:32",
-      "symbol": "HSAI",
-      "company_name": "HSAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1853.83M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
