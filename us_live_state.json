@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:33:35",
-  "updated_at_et": "2026-11-13 08:33:35",
-  "updated_epoch_ms": 1794576815423,
+  "updated_at_kst": "2026-11-13 22:34:25",
+  "updated_at_et": "2026-11-13 08:34:25",
+  "updated_epoch_ms": 1794576865056,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:33:32"
+    "updated_kst": "22:34:09"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:34:19",
+      "time_kst": "22:34:19",
+      "symbol": "PATK",
+      "company_name": "PATK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2654.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:34:11",
+      "time_kst": "22:34:11",
+      "symbol": "MTVA",
+      "company_name": "MTVA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (MetaVia Reports Third Quarter 2026 Financial Results and P)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:33:49",
+      "time_kst": "22:33:49",
+      "symbol": "XBIO",
+      "company_name": "XBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Xenetic Biosciences Reports Third Quarter 2026 Financial R)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:31:35",
       "time_kst": "22:31:35",
       "symbol": "CVLT",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1976.06M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:02:21",
-      "time_kst": "21:02:21",
-      "symbol": "TUSK",
-      "company_name": "TUSK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $156.9M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:01:12",
-      "time_kst": "21:01:12",
-      "symbol": "SGML",
-      "company_name": "SGML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $588.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:58:18",
-      "time_kst": "20:58:18",
-      "symbol": "BILI",
-      "company_name": "BILI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4561.87M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
