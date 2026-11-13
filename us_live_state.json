@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:39:50",
-  "updated_at_et": "2026-11-13 10:39:50",
-  "updated_epoch_ms": 1794584390598,
+  "updated_at_kst": "2026-11-14 00:40:53",
+  "updated_at_et": "2026-11-13 10:40:53",
+  "updated_epoch_ms": 1794584453035,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:39:43"
+    "updated_kst": "00:40:46"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "10:40:08",
+      "time_kst": "00:40:08",
+      "symbol": "PRT",
+      "company_name": "PRT",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "10:39:53",
+      "time_kst": "00:39:53",
+      "symbol": "CMMB",
+      "company_name": "CMMB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "10:39:49",
       "time_kst": "00:39:49",
       "symbol": "NXTS",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $176.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:04:18",
-      "time_kst": "23:04:18",
-      "symbol": "VVVV",
-      "company_name": "VVVV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:04:12",
-      "time_kst": "23:04:12",
-      "symbol": "JAGX",
-      "company_name": "JAGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
     }
   ]
 }
