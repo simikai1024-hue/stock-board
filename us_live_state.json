@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:44:09",
-  "updated_at_et": "2026-11-13 08:44:09",
-  "updated_epoch_ms": 1794577449868,
+  "updated_at_kst": "2026-11-13 22:45:05",
+  "updated_at_et": "2026-11-13 08:45:05",
+  "updated_epoch_ms": 1794577505692,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:44:07"
+    "updated_kst": "22:44:45"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:45:01",
+      "time_kst": "22:45:01",
+      "symbol": "IDAI",
+      "company_name": "IDAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:41:46",
       "time_kst": "22:41:46",
       "symbol": "HCWB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1311.02M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:03:57",
-      "time_kst": "21:03:57",
-      "symbol": "TVRD",
-      "company_name": "TVRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Tvardi Therapeutics Announces Third Quarter 2026 Results a)"
     }
   ]
 }
