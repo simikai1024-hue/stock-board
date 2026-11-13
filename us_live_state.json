@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:05:34",
-  "updated_at_et": "2026-11-13 09:05:34",
-  "updated_epoch_ms": 1794578734521,
+  "updated_at_kst": "2026-11-13 23:06:30",
+  "updated_at_et": "2026-11-13 09:06:30",
+  "updated_epoch_ms": 1794578790733,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:05:21"
+    "updated_kst": "23:06:21"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:06:27",
+      "time_kst": "23:06:27",
+      "symbol": "NEGG",
+      "company_name": "NEGG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $184.57M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:06:02",
+      "time_kst": "23:06:02",
+      "symbol": "MRVL",
+      "company_name": "MRVL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $143636.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:05:55",
+      "time_kst": "23:05:55",
+      "symbol": "BETR",
+      "company_name": "BETR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $298.49M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:05:35",
+      "time_kst": "23:05:35",
+      "symbol": "ALOY",
+      "company_name": "ALOY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $412.43M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:05:30",
       "time_kst": "23:05:30",
       "symbol": "GRDX",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $317.14M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:04:53",
-      "time_kst": "22:04:53",
-      "symbol": "AARD",
-      "company_name": "AARD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Aardvark Therapeutics Reports Third Quarter 2026 Financial)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:04:23",
-      "time_kst": "22:04:23",
-      "symbol": "GAME",
-      "company_name": "GAME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 2.01,3.02,5.02,5.07,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:04:14",
-      "time_kst": "22:04:14",
-      "symbol": "RMIX",
-      "company_name": "RMIX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $609.93M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:04:00",
-      "time_kst": "22:04:00",
-      "symbol": "LUCD",
-      "company_name": "LUCD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $83.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
