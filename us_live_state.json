@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 15:42:23",
-  "updated_at_et": "2026-11-13 01:42:23",
-  "updated_epoch_ms": 1794552143518,
+  "updated_at_kst": "2026-11-13 15:43:03",
+  "updated_at_et": "2026-11-13 01:43:03",
+  "updated_epoch_ms": 1794552183181,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AIMD",
+    "company_name": "AIMD",
+    "exchange": "ND",
+    "price": 0.507,
+    "gain_pct": 4.58,
+    "mcap_m": 3.8,
+    "catalyst_hint": "[당일 PR] Ainos Secures Largest Order in Company History: $9 Million ASE Agreement for 5,000 Additional AI Nose Systems",
+    "queue_remaining": 0,
+    "mode_label": "모의 검증 분석 중",
+    "started_at_et": "01:42:58",
+    "started_at_kst": "15:42:58",
+    "started_epoch_ms": 1794552178514
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "15:42:17"
+    "updated_kst": "15:42:57"
   },
   "stats": {
     "today_total": 0,
