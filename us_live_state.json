@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:09:29",
-  "updated_at_et": "2026-11-13 10:09:29",
-  "updated_epoch_ms": 1794582569448,
+  "updated_at_kst": "2026-11-14 00:10:29",
+  "updated_at_et": "2026-11-13 10:10:29",
+  "updated_epoch_ms": 1794582629674,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:09:27"
+    "updated_kst": "00:10:23"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "10:09:37",
+      "time_kst": "00:09:37",
+      "symbol": "VALN",
+      "company_name": "VALN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $555.54M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "10:03:42",
       "time_kst": "00:03:42",
       "symbol": "IMCC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $625.57M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:46:14",
-      "time_kst": "22:46:14",
-      "symbol": "VCEL",
-      "company_name": "VCEL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2929.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
