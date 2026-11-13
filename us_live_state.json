@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 15:43:24",
-  "updated_at_et": "2026-11-13 01:43:24",
-  "updated_epoch_ms": 1794552204148,
+  "updated_at_kst": "2026-11-13 15:43:46",
+  "updated_at_et": "2026-11-13 01:43:46",
+  "updated_epoch_ms": 1794552226171,
   "analyzing": {
-    "active": true,
-    "symbol": "AIMD",
-    "company_name": "AIMD",
-    "exchange": "ND",
-    "price": 0.507,
-    "gain_pct": 4.58,
-    "mcap_m": 3.8,
-    "catalyst_hint": "[당일 PR] Ainos Secures Largest Order in Company History: $9 Million ASE Agreement for 5,000 Additional AI Nose Systems",
-    "queue_remaining": 0,
-    "mode_label": "모의 검증 분석 중",
-    "started_at_et": "01:42:58",
-    "started_at_kst": "15:42:58",
-    "started_epoch_ms": 1794552178514
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "15:43:18"
+    "updated_kst": "15:43:39"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
-    "today_buy": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
+    "today_buy": 1,
     "today_false": 0,
     "today_hardcut": 0,
-    "total_verdicts": 148,
-    "total_buy": 10,
+    "total_verdicts": 149,
+    "total_buy": 11,
     "total_false": 138,
-    "avg_nblm_sec": 31.1
+    "avg_nblm_sec": 49.9
   },
   "verdicts": [
+    {
+      "id": "v_1794552219812_AIMD_BUY",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "01:43:39",
+      "time_kst": "15:43:39",
+      "symbol": "AIMD",
+      "company_name": "AIMD",
+      "exchange": "ND",
+      "price": 0.507,
+      "gain_pct": 4.58,
+      "mcap_m": 3.8,
+      "decision": "BUY",
+      "elapsed_sec": 49.9,
+      "reason": "시총 236% 규모($9.0M) 창사 최대 수주 및 $4.5M 확정 현금선급금이 결합된 진성 체급점프 대박 PR로 즉시 매수 승인",
+      "catalyst_hint": "[당일 PR] Ainos Secures Largest Order in Company History: $9 Million ASE Agreement for 5,000 Additional AI Nose Systems",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 AIMD (Ainos, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.80M USD (연구소 시가총액 $50.0M 이하 소형 품절주 관문 무희석 통과).\n체급 대비 발표 규모: 확정 계약 금액 $9.00M USD로 실질 시가총액($3.80M) 대비 무려 **236.8%**에 달하는 초대형 규모.\n실시간 체결가: 전일 종가 $0.4848 대비 현재가 $0.5070 (+4.58%), 당일 최고가 $0.5200 (고점 대비 -2.5%).\n선발표 규정 확인: 계약 체결 후 4영업일 이내 8-K 제출 유예 규정(Item 1.01) 구간으로 당일 8-K 미제출이나 프리장 극초입 거래량은 정상 선취매 구간에 해당합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증: 단순 재탕 vs 체급 점프 본계약\n당일(11/12 08:30 ET) 공식 PR 원문 분석\n:\nPR 제목: *\"Ainos Secures Largest Order in Company History: $9 Million ASE Agreement for 5,000 Additional AI Nose Systems\"*\n원문 직독 및 과거 180일 이력 대조 결과 (재탕 쪼개기 아님, 창사 최대 체급 점프):\n과거 이력과의 명확한 구분: 과거(2026-09-29) 발표되었던 $2.1M 계약(1,400대 납품)은 이미 납품이 완료된 파일럿/초도 물량이었으며\n, 금번 건은 이를 바탕으로 체결된 **5,000대 추가 공급 확정 구매계약(Purchase Agreement)**입니다.\n창사 이래 최대 규모 확정 (4.3배 퀀텀 점프): 원문에서 \"The agreement represents the largest single purchase order by value in Ainos' history\" (창사 이래 최대 단일 수주)이자 기존 계약 가치 대비 약 **4.3배에 달하는 본격 상업화 채택 단계(scaled commercial adoption)**임을 명시하고 있습니다.\n거액 현금 선급금(Cash Deposit) 조건: 단순 외상이나 미확정 LOI가 아니라, 계약 체결 후 60일 이내에 50%인 $4.5 Million의 현금 계약금(deposit)을 즉시 지급받는 구조로 회사 운영자금 및 유동성을 완전히 해결하는 실체적 현금 흐름을 갖추고 있습니다.\n희석 폭탄 부재: 최근 35일 SEC 공시 목록상 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 신주 출회 창구가 열려 있지 않습니다.\n3. 최종 심사 및 결재 판정\n시가총액($3.8M)의 2.3배가 넘는 $9.0M 창사 이래 최대 공급계약 및 $4.5M 확정 현금 선급금이 결합된 확실한 1급 기폭제이며, 과거 소액 납품을 4.3배 뛰어넘은 진성 상업화 체급 점프이므로 '무결점 대박 PR' 헌법 제2조에 의거 **FORCE_BUY: AIMD**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-12 FORCE_BUY: AIMD FORCE_BLOCK: NONE NOTES:\n[AIMD] 시총 236% 규모($9.0M) 창사 최대 수주 및 $4.5M 확정 현금선급금이 결합된 진성 체급점프 대박 PR로 즉시 매수 승인 ===VERDICT_END===",
+      "engine": "NotebookLM 모의검증",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_manual_1794520089663_GP",
       "date_et": "2026-11-12",
@@ -2422,26 +2430,6 @@
       "reason": "신임 CFO 선임(경영진 변경) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(-3.03%) 전량 차단",
       "catalyst_hint": "[당일 PR] STAK Inc. Announces Changes in Management",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 STAK (STAK Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $30.74M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6500 대비 현재가 $1.6000 (-3.03% 약세), 당일 최고가 $1.6400 (-2.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 07:00 ET) PR 원문 분석:\nPR 제목: \"STAK Inc. Announces Changes in Management\"\n원문 팩트: 신임 최고재무책임자(CFO)로 한샤오페이(Xiaofei Han)를 선임했다는 단순 경영진 변경(Changes in Management) 발표.\n치명적 기폭제 결함:\n임원/경영진 교체(CFO 선임) 소식은 기업의 본질적 가치를 당일 수직 폭등시키는 비즈니스 기폭제가 아니라 일반적인 정기 경영 행정 발표에 불과합니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 경영진 변경/주주서한/홍보' 범주에 정확히 속하며, 당일 주가를 유의미하게 부양할 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다.\n개장 전 유동성 유입($0 USD) 및 초기 세력 수급 반응이 전무하며 주가가 약세(-3.03%) 상태입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 CFO 선임(경영진 변경) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: STAK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: STAK NOTES:\n[STAK] 신임 CFO 선임(경영진 변경) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(-3.03%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793711783579_VIVS_FALSE",
-      "date_et": "2026-11-03",
-      "weekday_kr": "화",
-      "time_et": "08:16:23",
-      "time_kst": "22:16:23",
-      "symbol": "VIVS",
-      "company_name": "VivoSim Labs, INC.",
-      "exchange": "ND",
-      "price": 0.1525,
-      "gain_pct": 2.15,
-      "mcap_m": 2.26,
-      "decision": "FALSE",
-      "elapsed_sec": 80.9,
-      "reason": "구체적 달러($) 금액이 미기재된 단순 파트너십/MOU 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-0.46%) 전량 차단",
-      "catalyst_hint": "[당일 PR] VivoSim Labs and Chemveda Life Sciences Join Forces to Put AI-Designed Drug Candidates to the Human Test",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문 팩트를 바탕으로 진행한 VIVS (VivoSim Labs, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.26M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.1532 대비 현재가 $0.1525 (-0.46% 약보합), 당일 최고가 $0.1649 (-7.5%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 08:05 ET) PR 원문 분석:\nPR 제목: \"VivoSim Labs and Chemveda Life Sciences Join Forces to Put AI-Designed Drug Candidates to the Human Test\"\n원문 팩트: Chemveda Life Sciences와의 AI 신약 후보물질 검증을 위한 단순 기술 협력 및 파트너십(Collaboration) 체결 발표.\n치명적 기폭제 결함:\n구체적인 달러($) 현금 수주/계약 금액이 명시되지 않은 단순 연구 협력 및 MOU 성격의 파트너십 뉴스입니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 샘플/MOU/특허/기술협력' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다.\n개장 전 유동성 유입($0 USD) 및 초기 수급 반응이 전무하며 주가가 약보합(-0.46%) 상태입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구체적 달러 금액이 부재한 단순 기술협력/MOU에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: VIVS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: VIVS NOTES:\n[VIVS] 구체적 달러($) 금액이 미기재된 단순 파트너십/MOU 발표로 1급 확정 기폭제 미달 및 장전 대금 $0(-0.46%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
