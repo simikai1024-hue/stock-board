@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:03:28",
-  "updated_at_et": "2026-11-13 10:03:28",
-  "updated_epoch_ms": 1794582208164,
+  "updated_at_kst": "2026-11-14 00:04:27",
+  "updated_at_et": "2026-11-13 10:04:27",
+  "updated_epoch_ms": 1794582267273,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:03:23"
+    "updated_kst": "00:04:23"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "10:03:42",
+      "time_kst": "00:03:42",
+      "symbol": "IMCC",
+      "company_name": "IMCC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:57:55",
       "time_kst": "23:57:55",
       "symbol": "JSPR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2929.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:46:01",
-      "time_kst": "22:46:01",
-      "symbol": "SNAL",
-      "company_name": "SNAL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $87.56M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
