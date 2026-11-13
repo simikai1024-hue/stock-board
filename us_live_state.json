@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:10:06",
-  "updated_at_et": "2026-11-13 08:10:06",
-  "updated_epoch_ms": 1794575406189,
+  "updated_at_kst": "2026-11-13 22:11:02",
+  "updated_at_et": "2026-11-13 08:11:02",
+  "updated_epoch_ms": 1794575462226,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:09:59"
+    "updated_kst": "22:10:58"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:10:19",
+      "time_kst": "22:10:19",
+      "symbol": "TDTH",
+      "company_name": "TDTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:06:13",
       "time_kst": "22:06:13",
       "symbol": "MDRN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $72.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:07:58",
-      "time_kst": "20:07:58",
-      "symbol": "DKI",
-      "company_name": "DKI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B4])"
     }
   ]
 }
