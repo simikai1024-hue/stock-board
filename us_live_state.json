@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 03:56:43",
-  "updated_at_et": "2026-11-13 13:56:43",
-  "updated_epoch_ms": 1794596203470,
+  "updated_at_kst": "2026-11-14 03:57:42",
+  "updated_at_et": "2026-11-13 13:57:42",
+  "updated_epoch_ms": 1794596262396,
   "analyzing": {
     "active": false
   },
@@ -12,27 +12,47 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 447.83,
+    "orderable_usd": 0.31,
     "daily_done": true,
-    "holding_symbol": "AKAN",
-    "holding_qty": 425,
-    "avg_price": 1.0503,
-    "current_price": 1.0539,
-    "profit_rate": 0.34,
-    "updated_kst": "03:56:41"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 1.0699,
+    "profit_rate": 1.87,
+    "updated_kst": "03:57:36"
   },
   "stats": {
-    "today_total": 15,
+    "today_total": 16,
     "today_nblm_count": 15,
-    "today_buy": 2,
+    "today_buy": 3,
     "today_false": 13,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 11,
-    "total_false": 139,
+    "total_buy": 12,
+    "total_false": 138,
     "avg_nblm_sec": 37.7
   },
   "verdicts": [
+    {
+      "id": "v_manual_1794596256321_AKAN",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "13:57:36",
+      "time_kst": "03:57:36",
+      "symbol": "AKAN",
+      "company_name": "AKAN",
+      "exchange": "ND",
+      "price": 1.0699,
+      "gain_pct": 1.87,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "💰 익절 완료: 425주 | 매수 $1.0503 → 매도 $1.0699 (+1.87% / +8.33$)"
+    },
     {
       "id": "v_1794585526517_CNSY_BUY",
       "date_et": "2026-11-13",
@@ -2410,26 +2430,6 @@
       "reason": "단순 ATF 규제 분류 결정(ATF Classification) 발표는 구체적 수주 금액이 부재한 인허가성 뉴스로 1급 확정 기폭제 미달 및 장전 대금 $0(+2.58%) 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 DFSC (DEFSEC Technologies Inc.) 정밀 직독 결재 보고입니다 [cite: 226, 227].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.74M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 226].\n실시간 시세 및 수급: 전일 종가 $0.5808 대비 현재가 $0.5958 (+2.58%), 당일 최고가 $0.5958 (+0.0%) [cite: 226]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 226].\n2. D-Day SEC 6-K 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K (EX-99.1) 원문 분석:\nPR 제목: \"DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market\" [cite: 227]\n원문 팩트: 미국 총포비행물청(ATF)으로부터 자사 제품(ARWEN Micro)이 파괴적 장치가 아니라는 단순 규제 분류 판정(ATF Classification Determination) 수신 발표 [cite: 227].\n치명적 기폭제 결함:\n오늘 제출된 재료는 구체적인 달러($) 수주 계약이나 현금 유입이 명시된 거래가 아니라, 제품의 **단순 규제 분류/인허가 성격의 보도자료(ATF Classification Notice)**입니다 [cite: 13, 227].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '구체적 금액 미기재 단순 인허가/규제분류/MOU/샘플' 범주에 정확히 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 13].\n[달의검] 족보집 과거 부검 성적표에서도 동일 ATF 뉴스 출회 당일 최고 상승률이 +7.8%에 그쳐 💀 실패·설거지 패턴으로 검증되었습니다 [cite: 18].\n개장 전 세력 매집 유동성($0 USD) 및 초기 수급 반응도 전무합니다 [cite: 226].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시 내용이 단순 ATF 규제 분류 통보(ATF Classification)에 불과하고 구체적 수주 금액이 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DFSC 처리합니다 [cite: 13, 227].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 13, 229].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: DFSC NOTES:\n[DFSC] 단순 ATF 규제 분류 결정(ATF Classification) 발표는 구체적 수주 금액이 부재한 인허가성 뉴스로 1급 확정 기폭제 미달 및 장전 대금 $0(+2.58%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793798004236_JSPR_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:13:24",
-      "time_kst": "22:13:24",
-      "symbol": "JSPR",
-      "company_name": "JSPR",
-      "exchange": "ND",
-      "price": 0.4089,
-      "gain_pct": -14.53,
-      "mcap_m": 13.61,
-      "decision": "FALSE",
-      "elapsed_sec": 52.0,
-      "reason": "단순 1-for-30 주식병합 예고 발표(효력 1일차 미발효) 및 전일 대비 -14.53%(-19.8% 밀림) 구주 실망 투매로 전량 차단",
-      "catalyst_hint": "[당일 PR] Jasper Therapeutics Announces 1-for-30 Reverse Stock Split",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 JSPR (Jasper Therapeutics, Inc.) 정밀 직독 결재 보고입니다 [cite: 320, 321].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.61M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 320].\n실시간 시세 및 수급: 전일 종가 $0.4784 대비 현재가 $0.4089 (-14.53% 급락), 당일 최고가 $0.5100 (고점 대비 -19.8% 윗꼬리 밀림) [cite: 320]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 320].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:00 ET) PR 원문 분석:\nPR 제목: \"Jasper Therapeutics Announces 1-for-30 Reverse Stock Split\" [cite: 320]\n원문 팩트: 보통주 1-for-30 주식병합(Reverse Stock Split)을 추진한다는 단순 주식병합 계획 예고 발표입니다 [cite: 320].\n치명적 기폭제 결함:\n오늘 당일 PR은 주식병합 효력이 정식 발효되어 거래되는 '병합 D-Day 1일차(False)'가 아니며, 단지 향후 병합 진행을 알리는 단순 주식병합 예고 발표에 불과합니다 [cite: 320].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 2, 320].\n실질 호재 없이 단독 병합 예정 발표만 출회되면서 구주 실망 매물로 인해 현재가 -14.53% 급락 및 당일 고점 대비 -19.8% 투매 차트가 형성되어 전형적인 구주 설거지 차트 패턴을 보이고 있습니다 [cite: 320].\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 주식병합 예고 발표(효력 1일차 미발효)에 불과하고, 실질 호재 부재 및 -14.53% 투매 출회로 인해 전략 헌장 2번·3번·4번 원칙에 의거 FORCE_BLOCK: JSPR 처리합니다 [cite: 2, 320].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: JSPR NOTES:\n[JSPR] 단순 1-for-30 주식병합 예고 발표(효력 1일차 미발효) 및 전일 대비 -14.53%(-19.8% 밀림) 구주 실망 투매로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
