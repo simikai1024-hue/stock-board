@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:14:52",
-  "updated_at_et": "2026-11-13 08:14:52",
-  "updated_epoch_ms": 1794575692648,
+  "updated_at_kst": "2026-11-13 22:16:00",
+  "updated_at_et": "2026-11-13 08:16:00",
+  "updated_epoch_ms": 1794575760559,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:14:35"
+    "updated_kst": "22:15:55"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:15:03",
+      "time_kst": "22:15:03",
+      "symbol": "BFRI",
+      "company_name": "BFRI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Biofrontera Inc. Reports Strong Third Quarter 2026 Financi)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:14:55",
+      "time_kst": "22:14:55",
+      "symbol": "ALLR",
+      "company_name": "ALLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:14:48",
       "time_kst": "22:14:48",
       "symbol": "NNOX",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $615.28M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:32:30",
-      "time_kst": "20:32:30",
-      "symbol": "IMUX",
-      "company_name": "IMUX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $106.97M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:27:45",
-      "time_kst": "20:27:45",
-      "symbol": "RZLT",
-      "company_name": "RZLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $413.03M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
