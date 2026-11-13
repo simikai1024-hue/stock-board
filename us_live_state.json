@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:03:30",
-  "updated_at_et": "2026-11-13 04:03:30",
-  "updated_epoch_ms": 1794560610412,
+  "updated_at_kst": "2026-11-13 18:04:13",
+  "updated_at_et": "2026-11-13 04:04:13",
+  "updated_epoch_ms": 1794560653269,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:03:24"
+    "updated_kst": "18:04:03"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 17,
+    "today_hardcut": 19,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:04:09",
+      "time_kst": "18:04:09",
+      "symbol": "VIDA",
+      "company_name": "VIDA",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:03:55",
+      "time_kst": "18:03:55",
+      "symbol": "RCT",
+      "company_name": "RCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:03:27",
       "time_kst": "18:03:27",
       "symbol": "YOUL",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $348.77M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:29:00",
-      "time_kst": "23:29:00",
-      "symbol": "EDRY",
-      "company_name": "EDRY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $113.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:24:29",
-      "time_kst": "23:24:29",
-      "symbol": "NBIS",
-      "company_name": "NBIS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $33588.21M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
