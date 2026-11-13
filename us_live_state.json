@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:35:10",
-  "updated_at_et": "2026-11-13 08:35:10",
-  "updated_epoch_ms": 1794576910861,
+  "updated_at_kst": "2026-11-13 22:36:16",
+  "updated_at_et": "2026-11-13 08:36:16",
+  "updated_epoch_ms": 1794576976747,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:35:10"
+    "updated_kst": "22:36:12"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:35:12",
+      "time_kst": "22:35:12",
+      "symbol": "TNDM",
+      "company_name": "TNDM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1333.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:35:04",
       "time_kst": "22:35:04",
       "symbol": "INTA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1041.41M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:03:38",
-      "time_kst": "21:03:38",
-      "symbol": "GCT",
-      "company_name": "GCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2305.2M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
