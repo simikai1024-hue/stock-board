@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:00:23",
-  "updated_at_et": "2026-11-13 07:00:23",
-  "updated_epoch_ms": 1794571223378,
+  "updated_at_kst": "2026-11-13 21:01:16",
+  "updated_at_et": "2026-11-13 07:01:16",
+  "updated_epoch_ms": 1794571276120,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:19"
+    "updated_kst": "21:00:57"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:01:12",
+      "time_kst": "21:01:12",
+      "symbol": "SGML",
+      "company_name": "SGML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $588.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "06:58:18",
       "time_kst": "20:58:18",
       "symbol": "BILI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:19:48",
-      "time_kst": "18:19:48",
-      "symbol": "CIIT",
-      "company_name": "CIIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,3.02))"
     }
   ]
 }
