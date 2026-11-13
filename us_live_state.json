@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:46:27",
-  "updated_at_et": "2026-11-13 09:46:27",
-  "updated_epoch_ms": 1794581187100,
+  "updated_at_kst": "2026-11-13 23:47:25",
+  "updated_at_et": "2026-11-13 09:47:25",
+  "updated_epoch_ms": 1794581245768,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:46:22"
+    "updated_kst": "23:47:22"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:47:23",
+      "time_kst": "23:47:23",
+      "symbol": "NIKI",
+      "company_name": "NIKI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:45:53",
       "time_kst": "23:45:53",
       "symbol": "FUSE",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:41:46",
-      "time_kst": "22:41:46",
-      "symbol": "HCWB",
-      "company_name": "HCWB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
     }
   ]
 }
