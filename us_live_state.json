@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:47:25",
-  "updated_at_et": "2026-11-13 09:47:25",
-  "updated_epoch_ms": 1794581245768,
+  "updated_at_kst": "2026-11-13 23:48:16",
+  "updated_at_et": "2026-11-13 09:48:16",
+  "updated_epoch_ms": 1794581296769,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:47:22"
+    "updated_kst": "23:48:00"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:48:10",
+      "time_kst": "23:48:10",
+      "symbol": "CTOR",
+      "company_name": "CTOR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:47:51",
+      "time_kst": "23:47:51",
+      "symbol": "CLNN",
+      "company_name": "CLNN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:47:23",
       "time_kst": "23:47:23",
       "symbol": "NIKI",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,5.03,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:45:07",
-      "time_kst": "22:45:07",
-      "symbol": "AGPU",
-      "company_name": "AGPU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $95.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:45:01",
-      "time_kst": "22:45:01",
-      "symbol": "IDAI",
-      "company_name": "IDAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
     }
   ]
 }
