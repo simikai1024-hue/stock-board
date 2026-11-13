@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 20:07:16",
-  "updated_at_et": "2026-11-13 06:07:16",
-  "updated_epoch_ms": 1794568036778,
+  "updated_at_kst": "2026-11-13 20:08:04",
+  "updated_at_et": "2026-11-13 06:08:04",
+  "updated_epoch_ms": 1794568084498,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:06:59"
+    "updated_kst": "20:08:03"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "06:07:58",
+      "time_kst": "20:07:58",
+      "symbol": "DKI",
+      "company_name": "DKI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B4])"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "06:07:47",
+      "time_kst": "20:07:47",
+      "symbol": "PAYP",
+      "company_name": "PAYP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9507.85M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "06:07:38",
+      "time_kst": "20:07:38",
+      "symbol": "VINP",
+      "company_name": "VINP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $577.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "06:07:26",
+      "time_kst": "20:07:26",
+      "symbol": "GRVY",
+      "company_name": "GRVY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $468.43M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "06:07:21",
+      "time_kst": "20:07:21",
+      "symbol": "NKTR",
+      "company_name": "NKTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1242.81M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "06:07:14",
       "time_kst": "20:07:14",
       "symbol": "CLLS",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.01,3.02))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:17:08",
-      "time_kst": "18:17:08",
-      "symbol": "SLSN",
-      "company_name": "SLSN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $88.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:16:50",
-      "time_kst": "18:16:50",
-      "symbol": "RAIN",
-      "company_name": "RAIN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:07:35",
-      "time_kst": "18:07:35",
-      "symbol": "STG",
-      "company_name": "STG",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:07:31",
-      "time_kst": "18:07:31",
-      "symbol": "STRR",
-      "company_name": "STRR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-28 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:07:22",
-      "time_kst": "18:07:22",
-      "symbol": "ZEPP",
-      "company_name": "ZEPP",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
