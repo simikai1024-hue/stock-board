@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:50:35",
-  "updated_at_et": "2026-11-13 11:50:35",
-  "updated_epoch_ms": 1794588635516,
+  "updated_at_kst": "2026-11-14 01:51:27",
+  "updated_at_et": "2026-11-13 11:51:27",
+  "updated_epoch_ms": 1794588687268,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CNSY",
     "holding_qty": 445,
     "avg_price": 1.03,
-    "current_price": 1.0901,
-    "profit_rate": 5.83,
-    "updated_kst": "01:50:31"
+    "current_price": 1.095,
+    "profit_rate": 6.31,
+    "updated_kst": "01:51:09"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "11:51:20",
+      "time_kst": "01:51:20",
+      "symbol": "TELO",
+      "company_name": "TELO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "11:46:35",
       "time_kst": "01:46:35",
       "symbol": "APLM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1853.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:15:26",
-      "time_kst": "23:15:26",
-      "symbol": "RETO",
-      "company_name": "RETO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.32M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
