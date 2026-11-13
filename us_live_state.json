@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:37:10",
-  "updated_at_et": "2026-11-13 10:37:10",
-  "updated_epoch_ms": 1794584230084,
+  "updated_at_kst": "2026-11-14 00:38:03",
+  "updated_at_et": "2026-11-13 10:38:03",
+  "updated_epoch_ms": 1794584283644,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:37:04"
+    "updated_kst": "00:37:47"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "10:37:56",
+      "time_kst": "00:37:56",
+      "symbol": "RIBB",
+      "company_name": "RIBB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.27M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "10:37:17",
+      "time_kst": "00:37:17",
+      "symbol": "ALPS",
+      "company_name": "ALPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $214.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "10:27:56",
       "time_kst": "00:27:56",
       "symbol": "AQB",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $232.94M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:00:59",
-      "time_kst": "23:00:59",
-      "symbol": "HTLM",
-      "company_name": "HTLM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $94.17M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:56:48",
-      "time_kst": "22:56:48",
-      "symbol": "SUIG",
-      "company_name": "SUIG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $66.28M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
