@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:18:53",
-  "updated_at_et": "2026-11-13 04:18:53",
-  "updated_epoch_ms": 1794561533602,
+  "updated_at_kst": "2026-11-13 18:19:45",
+  "updated_at_et": "2026-11-13 04:19:45",
+  "updated_epoch_ms": 1794561585886,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:18:52"
+    "updated_kst": "18:19:31"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 40,
+    "today_hardcut": 43,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:19:41",
+      "time_kst": "18:19:41",
+      "symbol": "CDT",
+      "company_name": "CDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:19:20",
+      "time_kst": "18:19:20",
+      "symbol": "INLF",
+      "company_name": "INLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:19:13",
+      "time_kst": "18:19:13",
+      "symbol": "OPNW",
+      "company_name": "OPNW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:18:50",
       "time_kst": "18:18:50",
       "symbol": "YDDL",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:44:45",
-      "time_kst": "23:44:45",
-      "symbol": "DSWL",
-      "company_name": "DSWL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:44:36",
-      "time_kst": "23:44:36",
-      "symbol": "APWC",
-      "company_name": "APWC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 실적발표/일정 예고 PR 차단 (APWC Announces Financial Results for the Third Quarter of )"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:40:44",
-      "time_kst": "23:40:44",
-      "symbol": "LITB",
-      "company_name": "LITB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
