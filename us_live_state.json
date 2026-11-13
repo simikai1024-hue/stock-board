@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:22:58",
-  "updated_at_et": "2026-11-13 04:22:58",
-  "updated_epoch_ms": 1794561778678,
+  "updated_at_kst": "2026-11-13 18:23:56",
+  "updated_at_et": "2026-11-13 04:23:56",
+  "updated_epoch_ms": 1794561836034,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:22:50"
+    "updated_kst": "18:23:52"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 51,
+    "today_hardcut": 53,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:23:54",
+      "time_kst": "18:23:54",
+      "symbol": "TRAW",
+      "company_name": "TRAW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-23 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:23:01",
+      "time_kst": "18:23:01",
+      "symbol": "CJMB",
+      "company_name": "CJMB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:22:52",
       "time_kst": "18:22:52",
       "symbol": "WSHP",
@@ -2911,26 +2931,6 @@
       "time_kst": "18:01:14",
       "symbol": "CRMN",
       "company_name": "CRMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:01:07",
-      "time_kst": "18:01:07",
-      "symbol": "ADXN",
-      "company_name": "ADXN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $782.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:00:54",
-      "time_kst": "18:00:54",
-      "symbol": "PARA",
-      "company_name": "PARA",
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
