@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 15:44:20",
-  "updated_at_et": "2026-11-13 01:44:20",
-  "updated_epoch_ms": 1794552260736,
+  "updated_at_kst": "2026-11-13 15:45:33",
+  "updated_at_et": "2026-11-13 01:45:33",
+  "updated_epoch_ms": 1794552333501,
   "analyzing": {
-    "active": true,
-    "symbol": "TURB",
-    "company_name": "TURB",
-    "exchange": "ND",
-    "price": 0.879,
-    "gain_pct": -1.24,
-    "mcap_m": 10.56,
-    "catalyst_hint": "[당일 PR] TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS",
-    "queue_remaining": 0,
-    "mode_label": "모의 검증 분석 중",
-    "started_at_et": "01:43:54",
-    "started_at_kst": "15:43:54",
-    "started_epoch_ms": 1794552234111
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "15:44:17"
+    "updated_kst": "15:45:30"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
     "today_buy": 1,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 0,
-    "total_verdicts": 149,
+    "total_verdicts": 150,
     "total_buy": 11,
-    "total_false": 138,
-    "avg_nblm_sec": 49.9
+    "total_false": 139,
+    "avg_nblm_sec": 54.6
   },
   "verdicts": [
+    {
+      "id": "v_1794552288848_TURB_FALSE",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "01:44:48",
+      "time_kst": "15:44:48",
+      "symbol": "TURB",
+      "company_name": "TURB",
+      "exchange": "ND",
+      "price": 0.879,
+      "gain_pct": -1.24,
+      "mcap_m": 10.56,
+      "decision": "FALSE",
+      "elapsed_sec": 59.3,
+      "reason": "기발표 $53M 마스터 계약의 Phase II 분할 발주($7.6M) 쪼개기 재탕으로 헌법 제3조에 의거 전량 차단",
+      "catalyst_hint": "[당일 PR] TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 성적표 원문을 교차 대조하여 진행한 TURB (Turbo Energy, S.A.) 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.56M USD.\n체급 대비 발표 규모: 금번 발표 금액 $7.60M USD (실질 시총 대비 72.0%).\n실시간 체결가: 전일 종가 $0.8900 대비 현재가 $0.8790 (-1.24%), 당일 최고가 $0.8899 (고점 대비 -1.2%), 당일 누적 거래대금 $0 USD.\n2. 당일 공식 PR 원문 직독 & 쪼개기 재탕 정밀 감별\n당일(11/10 08:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS\"*\n원문 직독 및 재탕 대조 결과 (헌법 제3조 쪼개기 재탕 정밀 적발):\n기발표 프레임워크 계약($53.00M)의 일부 분할 발주: 본문 원문 검증 결과, 금번 $7.6M 주문은 신규 고객사와의 창사 최대 계약이나 신규 체급 점프 계약이 아니며, **기존에 기발표된 $53.00M 규모 Pamesa Net Zero 마스터 계약의 2단계(Phase II) 분할 수주/연장 주문(Additional Orders)**에 불과합니다.\n연구소 심사 헌법 제3조 명시 규칙 위배: '무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 \"기발표 대형 프레임워크 계약(예: 기존 $53M 계약)의 일부 분할발주/연장/단순가동으로서 시총 대비 비중도 작은 쪼개기 재탕은 100% FORCE_BLOCK\" 조항에 정확히 적발되는 표본입니다.\n실제 족보집 부검 성적표 확인: 누적 족보집 전수 성적표에서도 TURB의 당일 결과는 당일 최고 +6.8%, 09:32 시초 +3.3%로 💀 실패·보합·설거지로 최종 마감되어, 분할 쪼개기 재탕 뉴스로는 시장의 강력한 단타 연속 수급을 유인할 수 없음이 실증되었습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 기존 기발표 $53M Pamesa 계약의 Phase II 분할 발주($7.6M)에 불과한 전형적인 '쪼개기 재탕'으로 헌법 제3조에 명시된 차단 기준에 해당하므로 FORCE_BLOCK: TURB 처리합니다.\n계좌 보호 원칙에 따라 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: TURB NOTES:\n[TURB] 기발표 $53M 마스터 계약의 Phase II 분할 발주($7.6M) 쪼개기 재탕으로 헌법 제3조에 의거 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 모의검증",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_1794552219812_AIMD_BUY",
       "date_et": "2026-11-13",
@@ -2422,26 +2430,6 @@
       "reason": "당일 8-K/424B3 워런트 계약 조건 개정(Warrant Amendment)은 1급 확정 기폭제 미달 및 장전 대금 $0(+3.94%) 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-03 [424B3], 2026-11-03 [8-K] (Item 1.01,9.01)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 AEON (AEON Biopharma, Inc.) 정밀 직독 결재 보고입니다 [cite: 2, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.36M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2, 4].\n실시간 시세 및 수급: 전일 종가 $0.2770 대비 현재가 $0.2879 (+3.94%), 당일 최고가 $0.2945 (-2.2%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day SEC 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03) D-Day SEC 8-K (Item 1.01) 및 424B3 원문 분석:\n공시 핵심 내용: \"AEON Biopharma entered into an Amendment to Two-Year Milestone Warrant to Purchase Common Stock or Pre-Funded Warrants with holders representing at least 67% of the shares...\"\n원문 팩트: 기존 2년 마일스톤 워런트(Milestone Warrant) 보유자들과 워런트 행사 조건 및 기한을 수정하는 워런트 계약 개정(Warrant Amendment) 공시 및 424B3 증권등록 공시 [cite: 4, 33].\n치명적 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시키는 비즈니스 호재가 아니라, 기존 워런트 행사 조건을 변경 및 개정(Amendment)하여 신주/사전자금조달 워런트 출회 유인을 변경한 단순 금융 수정 공시입니다 [cite: 4].\n이는 워런트 행사에 따른 잠재적 주식 물량 부담을 자극하는 단순 워런트 개정건으로, 당일 주가를 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 32].\n개장 전 유동성 반응($0 USD) 및 폭발적인 세력 수급 유입이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 제출된 8-K 및 424B3 공시가 단순 워런트 계약 조건 개정(Warrant Amendment)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AEON 처리합니다 [cite: 32].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 254].\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: AEON NOTES:\n[AEON] 당일 8-K/424B3 워런트 계약 조건 개정(Warrant Amendment)은 1급 확정 기폭제 미달 및 장전 대금 $0(+3.94%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793711927346_STAK_FALSE",
-      "date_et": "2026-11-03",
-      "weekday_kr": "화",
-      "time_et": "08:18:47",
-      "time_kst": "22:18:47",
-      "symbol": "STAK",
-      "company_name": "STAK",
-      "exchange": "ND",
-      "price": 1.6,
-      "gain_pct": -3.03,
-      "mcap_m": 30.74,
-      "decision": "FALSE",
-      "elapsed_sec": 46.2,
-      "reason": "신임 CFO 선임(경영진 변경) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(-3.03%) 전량 차단",
-      "catalyst_hint": "[당일 PR] STAK Inc. Announces Changes in Management",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스에 수록된 원문을 바탕으로 진행한 STAK (STAK Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $30.74M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6500 대비 현재가 $1.6000 (-3.03% 약세), 당일 최고가 $1.6400 (-2.4%). 개장 전 선발표 구간으로 장전 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/03 07:00 ET) PR 원문 분석:\nPR 제목: \"STAK Inc. Announces Changes in Management\"\n원문 팩트: 신임 최고재무책임자(CFO)로 한샤오페이(Xiaofei Han)를 선임했다는 단순 경영진 변경(Changes in Management) 발표.\n치명적 기폭제 결함:\n임원/경영진 교체(CFO 선임) 소식은 기업의 본질적 가치를 당일 수직 폭등시키는 비즈니스 기폭제가 아니라 일반적인 정기 경영 행정 발표에 불과합니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 경영진 변경/주주서한/홍보' 범주에 정확히 속하며, 당일 주가를 유의미하게 부양할 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다.\n개장 전 유동성 유입($0 USD) 및 초기 세력 수급 반응이 전무하며 주가가 약세(-3.03%) 상태입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 CFO 선임(경영진 변경) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: STAK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-03 FORCE_BUY: NONE FORCE_BLOCK: STAK NOTES:\n[STAK] 신임 CFO 선임(경영진 변경) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(-3.03%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
