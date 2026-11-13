@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:45:39",
-  "updated_at_et": "2026-11-13 11:45:39",
-  "updated_epoch_ms": 1794588339516,
+  "updated_at_kst": "2026-11-14 01:46:36",
+  "updated_at_et": "2026-11-13 11:46:36",
+  "updated_epoch_ms": 1794588396414,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 1.03,
     "current_price": 1.07,
     "profit_rate": 3.88,
-    "updated_kst": "01:45:35"
+    "updated_kst": "01:46:32"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "11:46:35",
+      "time_kst": "01:46:35",
+      "symbol": "APLM",
+      "company_name": "APLM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "11:36:43",
       "time_kst": "01:36:43",
       "symbol": "NVCR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.32M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:14:32",
-      "time_kst": "23:14:32",
-      "symbol": "GPAT",
-      "company_name": "GPAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $178.9M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
