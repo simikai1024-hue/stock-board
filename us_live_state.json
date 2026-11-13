@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:21:20",
-  "updated_at_et": "2026-11-13 04:21:20",
-  "updated_epoch_ms": 1794561680009,
+  "updated_at_kst": "2026-11-13 18:22:16",
+  "updated_at_et": "2026-11-13 04:22:16",
+  "updated_epoch_ms": 1794561736211,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:21:14"
+    "updated_kst": "18:22:10"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 47,
+    "today_hardcut": 49,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:22:10",
+      "time_kst": "18:22:10",
+      "symbol": "HPAI",
+      "company_name": "HPAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:21:41",
+      "time_kst": "18:21:41",
+      "symbol": "HRTX",
+      "company_name": "HRTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $62.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:21:14",
       "time_kst": "18:21:14",
       "symbol": "AUUD",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [424B4])"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:53:02",
-      "time_kst": "23:53:02",
-      "symbol": "SQNS",
-      "company_name": "SQNS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:50:31",
-      "time_kst": "23:50:31",
-      "symbol": "YTRA",
-      "company_name": "YTRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.78M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
