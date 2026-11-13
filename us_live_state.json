@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:05:39",
-  "updated_at_et": "2026-11-13 08:05:39",
-  "updated_epoch_ms": 1794575139307,
+  "updated_at_kst": "2026-11-13 22:06:12",
+  "updated_at_et": "2026-11-13 08:06:12",
+  "updated_epoch_ms": 1794575172929,
   "analyzing": {
-    "active": true,
-    "symbol": "BIRD",
-    "company_name": "BIRD",
-    "exchange": "ND",
-    "price": 1.22,
-    "gain_pct": 10.41,
-    "mcap_m": 14.41,
-    "catalyst_hint": "[당일 PR] Letter to Shareholders from Smartbird CEO Nadia Carlsten",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:05:35",
-    "started_at_kst": "22:05:35",
-    "started_epoch_ms": 1794575135009
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:05:34"
+    "updated_kst": "22:05:56"
   },
   "stats": {
-    "today_total": 6,
-    "today_nblm_count": 6,
+    "today_total": 7,
+    "today_nblm_count": 7,
     "today_buy": 1,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 11,
-    "total_false": 139,
-    "avg_nblm_sec": 48.1
+    "total_buy": 10,
+    "total_false": 140,
+    "avg_nblm_sec": 46.6
   },
   "verdicts": [
+    {
+      "id": "v_1794575168294_BIRD_FALSE",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "08:06:08",
+      "time_kst": "22:06:08",
+      "symbol": "BIRD",
+      "company_name": "BIRD",
+      "exchange": "ND",
+      "price": 1.22,
+      "gain_pct": 10.41,
+      "mcap_m": 14.41,
+      "decision": "FALSE",
+      "elapsed_sec": 37.9,
+      "reason": "확정 계약 금액 없는 단순 CEO 주주서한(Letter to Shareholders) 및 전일 데이터센터 뉴스 재탕 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Letter to Shareholders from Smartbird CEO Nadia Carlsten",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BIRD (Smartbird, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.41M USD (연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 금액 일절 미감지 (확정 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $1.1050 대비 현재가 $1.2200 (+10.41%), 당일 최고가 $1.3295 (고점 대비 -8.2% 밀림), 당일 누적 거래대금 $30,909 USD.\n당일 SEC 공시 현황: 2026-11-13 [10-Q](정기 분기보고서) 및 [8-K](Item 8.01 Other Events, 9.01) 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Letter to Shareholders from Smartbird CEO Nadia Carlsten\"\n원문 직독 결과 드러난 치명적 실체:\n확정 금액 없는 단순 주주서한 (Letter to Shareholders):\n본 PR은 신규 확정 대형 수주나 실체적 계약 체결이 아니며, CEO가 주주들에게 보낸 **단순 비전 설명 및 정기 사업 현황 공유용 주주서한(Letter to Shareholders)**입니다.\n과거 재료 단순 재언급 (기발표 내용 우려먹기):\n본문에서 언급된 데이터센터 용량 확보 및 파트너십 내용은 이미 전일(11/12) 발표된 데이터센터 뉴스 및 11/05 슈퍼마이크로 파트너십 발표 내용을 요약·재언급한 것에 불과합니다.\n1급 확정 기폭제 요건 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 시총 100%+ 창사 최대 본계약), FDA 승인/임상 성공, 대형 M&A 완료, 특별배당\" 등 기업 가치를 수직 폭등시킬 수 있는 실체적 현금 흐름이 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '금액 미기재 단순 주주서한(Letter to Shareholders)/제휴/정기실적/재홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 명시되지 않은 단순 CEO 주주서한 및 기발표 재료 재탕에 불과하여 1급 확정 기폭제 기준에 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: BIRD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: BIRD NOTES:\n[BIRD] 확정 계약 금액 없는 단순 CEO 주주서한(Letter to Shareholders) 및 전일 데이터센터 뉴스 재탕 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794573924662_YFOR_FALSE",
       "date_et": "2026-11-13",
@@ -2424,29 +2432,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 GNPX (Genprex, Inc.) 정밀 직독 결재 보고입니다 [cite: 319, 320].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.97M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 319].\n실시간 시세 및 수급: 전일 종가 $2.2900 대비 현재가 $2.4000 (+4.80%), 당일 최고가 $2.7129 (-11.5%) [cite: 319]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 319].\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 8.01) 원문 분석:\n공시 핵심 내용: \"On November 4, 2026, Genprex, Inc. issued a press release announcing that new research identifying TROP2 expression as a potential predictive biomarker... will be presented at the 2026 EORTC-NCI-AACR Symposium on Molecular Targets and Cancer Therapeutics...\" [cite: 320]\n원문 팩트: 2026 EORTC-NCI-AACR 학회/심포지엄에서 주력 파이프라인(Reqorsa) 바이오마커 연구 결과를 발표(Presentation)한다는 소식 [cite: 320].\n치명적 기폭제 결함:\n학회/심포지엄 참석 및 단순 연구 발표(Conference/Symposium Presentation) 소식은 전략 헌장 2번·3번 기준상 단순 학회/포스터 발표에 불과합니다 [cite: 32].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 최종 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 헌장 원칙(\"단순 학회·컨퍼런스 발표·주주서한은 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 32].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 319].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 학회/심포지엄 연구 발표(Conference Presentation)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GNPX 처리합니다 [cite: 32, 320].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 323].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: GNPX NOTES:\n[GNPX] 2026 EORTC-NCI-AACR 학회 발표(Conference Presentation)는 1급 확정 기폭제 미달 및 장전 대금 $0(+4.80%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793792039921_BJDX_BUY",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "06:33:59",
-      "time_kst": "20:33:59",
-      "symbol": "BJDX",
-      "company_name": "BJDX",
-      "exchange": "ND",
-      "price": 2.23,
-      "gain_pct": 2.76,
-      "mcap_m": 9.96,
-      "decision": "BUY",
-      "elapsed_sec": 69.1,
-      "reason": "8-K(Item 3.03,5.03) 1-for-4 주식병합 효력 1일차(D-Day) 확정 + 유증 희석 0건의 무결점 초소형 품절주로 시초 매수 최종 승인",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 3.03,5.03,5.07,8.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 BJDX (Bluejay Diagnostics, Inc.) 정밀 직독 결재 보고입니다 [cite: 18, 274, 275].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.96M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과) [cite: 274].\n실시간 시세 및 수급: 전일 종가 $2.1700 대비 현재가 $2.2300 (+2.76%), 당일 최고가 $2.2300 (+0.0%) [cite: 274].\n개장 전 선발표 구간으로 장전 거래대금 $0 USD이나, 전략 헌장 2번 지침(\"병합 D-Day 및 1급 기폭제 조건 충족 시 장전 거래대금이 $0이라도 과감히 FORCE_BUY\")에 부합합니다 [cite: 16, 274].\n2. D-Day SEC 8-K(Item 3.03, 5.03) 주식병합 효력 1일차 정밀 검증\n주식병합 D-Day 효력 발생 (True):\n당일 제출 8-K (Item 3.03, 5.03, 5.07, 8.01, 9.01) 및 첨부 EX-99.1 원문 확인 결과, 보통주 1-for-4 주식병합(Reverse Stock Split) 효력이 오늘(11/04) 정식 발효되었습니다 [cite: 275].\n이는 연구소 승격 공식인 8-K Item 3.03/5.03 주식병합 D-Day에 정확히 해당하며, 극단적 유통물량 축소에 따른 품절주 숏스퀴즈(Float Squeeze)가 발동되는 최상위 세력작전 기폭제입니다 [cite: 18, 44, 257].\n사전/당일 SEC 유증 희석 위험 0건 (완전 무결점):\n최근 35일간 활성 424B5(ATM 유증), 신규 EFFECT, 8-K 3.02 등 신주 물량 덤핑 요소가 전혀 없는 완전 무결점 주주구조를 유지하고 있습니다 [cite: 16, 276].\n족보 대조: 성공 표본인 AZTR (1-for-10 병합 D-Day ➔ +195.8% 폭등) 및 PARA (1-for-10 병합 D-Day ➔ +426.5% 대폭등)와 동일한 무결점 주식병합 1일차 폭등 메커니즘을 공유합니다 [cite: 18, 44, 257].\n3. 최종 심사 및 결재 판정\n8-K(Item 3.03, 5.03) 1-for-4 주식병합 효력 1일차(D-Day) 확정, 신주 유증 희석 0건, 차트 붕괴 없는 무결점 품절주 조건에 따라 오늘 개장 직후 시초가 매수를 **FORCE_BUY: BJDX**로 최종 승인 결재합니다 [cite: 16, 18, 275].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: BJDX FORCE_BLOCK: NONE NOTES:\n[BJDX] 8-K(Item 3.03,5.03) 1-for-4 주식병합 효력 1일차(D-Day) 확정 + 유증 희석 0건의 무결점 초소형 품절주로 시초 매수 최종 승인 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🚀 실전매수 체결 완료 (16주 @ 평단 $2.2600)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:06:00",
+      "time_kst": "22:06:00",
+      "symbol": "BKYI",
+      "company_name": "BKYI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 투매 급락 구간 방어 차단 (현재 -10.5% <= -8.0%)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:05:53",
+      "time_kst": "22:05:53",
+      "symbol": "SRZN",
+      "company_name": "SRZN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $605.4M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-13",
       "time_et": "08:05:37",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $9507.85M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:07:38",
-      "time_kst": "20:07:38",
-      "symbol": "VINP",
-      "company_name": "VINP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $577.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:07:26",
-      "time_kst": "20:07:26",
-      "symbol": "GRVY",
-      "company_name": "GRVY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $468.43M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
