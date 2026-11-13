@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:14:19",
-  "updated_at_et": "2026-11-13 09:14:19",
-  "updated_epoch_ms": 1794579259567,
+  "updated_at_kst": "2026-11-13 23:15:17",
+  "updated_at_et": "2026-11-13 09:15:17",
+  "updated_epoch_ms": 1794579317157,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:14:13"
+    "updated_kst": "23:15:13"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:14:32",
+      "time_kst": "23:14:32",
+      "symbol": "GPAT",
+      "company_name": "GPAT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $178.9M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:11:47",
       "time_kst": "23:11:47",
       "symbol": "WSE",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 투매 급락 구간 방어 차단 (현재 -10.5% <= -8.0%)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:05:53",
-      "time_kst": "22:05:53",
-      "symbol": "SRZN",
-      "company_name": "SRZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $605.4M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
