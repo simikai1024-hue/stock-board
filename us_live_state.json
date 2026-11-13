@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:02:59",
-  "updated_at_et": "2026-11-13 11:02:59",
-  "updated_epoch_ms": 1794585779176,
+  "updated_at_kst": "2026-11-14 01:03:47",
+  "updated_at_et": "2026-11-13 11:03:47",
+  "updated_epoch_ms": 1794585827727,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CNSY",
     "holding_qty": 445,
     "avg_price": 1.03,
-    "current_price": 1.05,
-    "profit_rate": 1.94,
-    "updated_kst": "01:02:56"
+    "current_price": 1.0401,
+    "profit_rate": 0.98,
+    "updated_kst": "01:03:34"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "11:03:44",
+      "time_kst": "01:03:44",
+      "symbol": "YRD",
+      "company_name": "YRD",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "10:56:22",
       "time_kst": "00:56:22",
       "symbol": "CABO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $412.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:05:30",
-      "time_kst": "23:05:30",
-      "symbol": "GRDX",
-      "company_name": "GRDX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-28 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
