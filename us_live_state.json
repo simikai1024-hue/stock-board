@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 04:07:02",
-  "updated_at_et": "2026-11-13 14:07:02",
-  "updated_epoch_ms": 1794596822249,
+  "updated_at_kst": "2026-11-14 04:07:40",
+  "updated_at_et": "2026-11-13 14:07:40",
+  "updated_epoch_ms": 1794596860204,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ONFO",
+    "company_name": "ONFO",
+    "exchange": "ND",
+    "price": 0.42,
+    "gain_pct": 19.66,
+    "mcap_m": 1.03,
+    "catalyst_hint": "[당일 PR] Onfolio Holdings Reports Stockholders’ Equity Above Nasdaq Minimum and No Outstanding Convertible Notes",
+    "queue_remaining": 0,
+    "mode_label": "모의 검증 분석 중",
+    "started_at_et": "14:07:36",
+    "started_at_kst": "04:07:36",
+    "started_epoch_ms": 1794596856413
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:06:58"
+    "updated_kst": "04:07:36"
   },
   "stats": {
     "today_total": 16,
