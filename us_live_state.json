@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 19:51:59",
-  "updated_at_et": "2026-11-13 05:51:59",
-  "updated_epoch_ms": 1794567119510,
+  "updated_at_kst": "2026-11-13 19:52:51",
+  "updated_at_et": "2026-11-13 05:52:51",
+  "updated_epoch_ms": 1794567171655,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:51:53"
+    "updated_kst": "19:52:48"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "05:52:26",
+      "time_kst": "19:52:26",
+      "symbol": "SXTC",
+      "company_name": "SXTC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "05:39:05",
       "time_kst": "19:39:05",
       "symbol": "MGN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $130.28M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:04:39",
-      "time_kst": "18:04:39",
-      "symbol": "VBIO",
-      "company_name": "VBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
