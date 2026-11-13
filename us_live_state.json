@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 19:54:52",
-  "updated_at_et": "2026-11-13 05:54:52",
-  "updated_epoch_ms": 1794567292103,
+  "updated_at_kst": "2026-11-13 19:55:51",
+  "updated_at_et": "2026-11-13 05:55:51",
+  "updated_epoch_ms": 1794567351204,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:54:49"
+    "updated_kst": "19:55:45"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "05:55:19",
+      "time_kst": "19:55:19",
+      "symbol": "DVLT",
+      "company_name": "DVLT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "05:52:26",
       "time_kst": "19:52:26",
       "symbol": "SXTC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:05:16",
-      "time_kst": "18:05:16",
-      "symbol": "FTFT",
-      "company_name": "FTFT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $130.28M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
