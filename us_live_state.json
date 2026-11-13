@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:58:13",
-  "updated_at_et": "2026-11-13 10:58:13",
-  "updated_epoch_ms": 1794585493535,
+  "updated_at_kst": "2026-11-14 00:58:52",
+  "updated_at_et": "2026-11-13 10:58:52",
+  "updated_epoch_ms": 1794585532840,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:58:11"
+    "updated_kst": "00:58:49"
   },
   "stats": {
-    "today_total": 14,
-    "today_nblm_count": 14,
-    "today_buy": 1,
+    "today_total": 15,
+    "today_nblm_count": 15,
+    "today_buy": 2,
     "today_false": 13,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 10,
-    "total_false": 140,
-    "avg_nblm_sec": 40.4
+    "total_buy": 11,
+    "total_false": 139,
+    "avg_nblm_sec": 37.7
   },
   "verdicts": [
+    {
+      "id": "v_1794585526517_CNSY_BUY",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "10:58:46",
+      "time_kst": "00:58:46",
+      "symbol": "CNSY",
+      "company_name": "CNSY",
+      "exchange": "ND",
+      "price": 1.0798,
+      "gain_pct": 32.2,
+      "mcap_m": 8.2,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 본장 첫 +30% 점화 포착] 시가대비 +32.2% · 기준가대비 +40.1%(>$0.850 PM고점돌파) | 1분대금 $292K | 회전율 46%(7.5M주) | 누적 $3.60M",
+      "catalyst_hint": "[Track 3 본장 첫 점화] 시가대비 +32.2% | 1분 $291.7K | 회전율 45.5%",
+      "full_report": "[Track 3: 본장 첫 +30% 점화 돌파 스나이퍼 실시간 포착]\n- 종목: CNSY (NASDAQ) | 시총: $8.20M\n- 시초가 대비: +32.20% ($0.8168 -> $1.0798)\n- 기준가(전일종가) 대비: +40.14% (기준가 $0.7705)\n- 프리마켓 고점 돌파: PM고점 $0.8500 돌파 완료 (프리장 분당 $20만 이력 0건)\n- 실시간 수급 화살표: 1분 거래대금 $291.7K (>= $200K)\n- 회전율 & 누적대금: 유통 회전율 45.5% (7.5M주) / 누적 $3.60M\n- 전략 집행: 즉시 선점 지정가 매수 및 +51% 그물망 익절 / -20% 방어 손절 자동 세팅!",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_1794581389742_MLSS_FALSE",
       "date_et": "2026-11-13",
@@ -2410,26 +2430,6 @@
       "reason": "단순 1-for-30 주식병합 예고 발표(효력 1일차 미발효) 및 전일 대비 -14.53%(-19.8% 밀림) 구주 실망 투매로 전량 차단",
       "catalyst_hint": "[당일 PR] Jasper Therapeutics Announces 1-for-30 Reverse Stock Split",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 JSPR (Jasper Therapeutics, Inc.) 정밀 직독 결재 보고입니다 [cite: 320, 321].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.61M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 320].\n실시간 시세 및 수급: 전일 종가 $0.4784 대비 현재가 $0.4089 (-14.53% 급락), 당일 최고가 $0.5100 (고점 대비 -19.8% 윗꼬리 밀림) [cite: 320]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 320].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:00 ET) PR 원문 분석:\nPR 제목: \"Jasper Therapeutics Announces 1-for-30 Reverse Stock Split\" [cite: 320]\n원문 팩트: 보통주 1-for-30 주식병합(Reverse Stock Split)을 추진한다는 단순 주식병합 계획 예고 발표입니다 [cite: 320].\n치명적 기폭제 결함:\n오늘 당일 PR은 주식병합 효력이 정식 발효되어 거래되는 '병합 D-Day 1일차(False)'가 아니며, 단지 향후 병합 진행을 알리는 단순 주식병합 예고 발표에 불과합니다 [cite: 320].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 2, 320].\n실질 호재 없이 단독 병합 예정 발표만 출회되면서 구주 실망 매물로 인해 현재가 -14.53% 급락 및 당일 고점 대비 -19.8% 투매 차트가 형성되어 전형적인 구주 설거지 차트 패턴을 보이고 있습니다 [cite: 320].\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 주식병합 예고 발표(효력 1일차 미발효)에 불과하고, 실질 호재 부재 및 -14.53% 투매 출회로 인해 전략 헌장 2번·3번·4번 원칙에 의거 FORCE_BLOCK: JSPR 처리합니다 [cite: 2, 320].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: JSPR NOTES:\n[JSPR] 단순 1-for-30 주식병합 예고 발표(효력 1일차 미발효) 및 전일 대비 -14.53%(-19.8% 밀림) 구주 실망 투매로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793797947129_PCSA_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:12:27",
-      "time_kst": "22:12:27",
-      "symbol": "PCSA",
-      "company_name": "PCSA",
-      "exchange": "ND",
-      "price": 1.92,
-      "gain_pct": 0.26,
-      "mcap_m": 5.37,
-      "decision": "FALSE",
-      "elapsed_sec": 58.7,
-      "reason": "주요 임원진 인사발령(Leadership Appointments) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+0.26%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Processa Pharmaceuticals Announces Key Leadership Appointments",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 PCSA (Processa Pharmaceuticals, Inc.) 정밀 직독 결재 보고입니다 [cite: 269, 270].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.37M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 269].\n실시간 시세 및 수급: 전일 종가 $1.9150 대비 현재가 $1.9200 (+0.26%), 당일 최고가 $1.9200 (+0.0%) [cite: 269]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 269].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:00 ET) PR 원문 분석:\nPR 제목: \"Processa Pharmaceuticals Announces Key Leadership Appointments\" [cite: 270]\n원문 팩트: COO(Gregory J. Flesher), 연구총괄 EVP(Craig Coburn), 개발총괄 EVP(Ashley Hall), 사업운영 EVP(Michael P. Cruse) 등 주요 임원진 인사발령 및 경영진 선임(Leadership Appointments) 발표 [cite: 270, 271].\n치명적 기폭제 결함:\n오늘 당일 발표된 재료는 신약 임상 성공이나 확정적 현금 계약이 아니라, 단순 임원진 구성 및 인사발령(Leadership Appointments) 행정 공시입니다 [cite: 270].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 경영진 교체/인사발령/행정 공시' 범주에 정확히 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 270].\n과거 STAK(CFO 선임) 및 PLCE(이사 사임) 심사례와 동일하게 전량 차단 대상이며, 개장 전 세력 매집 유동성($0 USD) 반응도 전무합니다 [cite: 269].\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 임원진 인사발령(Leadership Appointments) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PCSA 처리합니다 [cite: 270].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PCSA NOTES:\n[PCSA] 주요 임원진 인사발령(Leadership Appointments) 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+0.26%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
