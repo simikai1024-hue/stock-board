@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 01:30:45",
-  "updated_at_et": "2026-11-13 11:30:45",
-  "updated_epoch_ms": 1794587445357,
+  "updated_at_kst": "2026-11-14 01:31:43",
+  "updated_at_et": "2026-11-13 11:31:43",
+  "updated_epoch_ms": 1794587503829,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CNSY",
     "holding_qty": 445,
     "avg_price": 1.03,
-    "current_price": 1.0796,
-    "profit_rate": 4.82,
-    "updated_kst": "01:30:42"
+    "current_price": 1.0799,
+    "profit_rate": 4.84,
+    "updated_kst": "01:31:39"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "11:30:50",
+      "time_kst": "01:30:50",
+      "symbol": "PGIM",
+      "company_name": "PGIM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "11:16:15",
       "time_kst": "01:16:15",
       "symbol": "HCAC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:08:52",
-      "time_kst": "23:08:52",
-      "symbol": "ABTS",
-      "company_name": "ABTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
     }
   ]
 }
