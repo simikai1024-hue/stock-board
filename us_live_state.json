@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:56:20",
-  "updated_at_et": "2026-11-13 10:56:20",
-  "updated_epoch_ms": 1794585380535,
+  "updated_at_kst": "2026-11-14 00:57:15",
+  "updated_at_et": "2026-11-13 10:57:15",
+  "updated_epoch_ms": 1794585435608,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:56:14"
+    "updated_kst": "00:57:12"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "10:56:22",
+      "time_kst": "00:56:22",
+      "symbol": "CABO",
+      "company_name": "CABO",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "10:47:58",
       "time_kst": "00:47:58",
       "symbol": "ANVS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-28 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:05:19",
-      "time_kst": "23:05:19",
-      "symbol": "ARQT",
-      "company_name": "ARQT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3448.43M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
