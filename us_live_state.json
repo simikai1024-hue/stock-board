@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:30:44",
-  "updated_at_et": "2026-11-13 09:30:44",
-  "updated_epoch_ms": 1794580244079,
+  "updated_at_kst": "2026-11-13 23:31:40",
+  "updated_at_et": "2026-11-13 09:31:40",
+  "updated_epoch_ms": 1794580300535,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:30:34"
+    "updated_kst": "23:31:40"
   },
   "stats": {
     "today_total": 11,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:31:34",
+      "time_kst": "23:31:34",
+      "symbol": "CHGA",
+      "company_name": "CHGA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:31:04",
+      "time_kst": "23:31:04",
+      "symbol": "REED",
+      "company_name": "REED",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:30:38",
       "time_kst": "23:30:38",
       "symbol": "GMM",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (MetaVia Reports Third Quarter 2026 Financial Results and P)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:33:49",
-      "time_kst": "22:33:49",
-      "symbol": "XBIO",
-      "company_name": "XBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Xenetic Biosciences Reports Third Quarter 2026 Financial R)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:31:35",
-      "time_kst": "22:31:35",
-      "symbol": "CVLT",
-      "company_name": "CVLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6778.81M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
