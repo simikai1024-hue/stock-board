@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:45:52",
-  "updated_at_et": "2026-11-13 08:45:52",
-  "updated_epoch_ms": 1794577552590,
+  "updated_at_kst": "2026-11-13 22:46:49",
+  "updated_at_et": "2026-11-13 08:46:49",
+  "updated_epoch_ms": 1794577609951,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:45:47"
+    "updated_kst": "22:46:47"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:46:21",
+      "time_kst": "22:46:21",
+      "symbol": "ZEO",
+      "company_name": "ZEO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:46:17",
+      "time_kst": "22:46:17",
+      "symbol": "WVE",
+      "company_name": "WVE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $625.57M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:46:14",
+      "time_kst": "22:46:14",
+      "symbol": "VCEL",
+      "company_name": "VCEL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2929.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:46:01",
+      "time_kst": "22:46:01",
+      "symbol": "SNAL",
+      "company_name": "SNAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $87.56M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:45:57",
+      "time_kst": "22:45:57",
+      "symbol": "SSII",
+      "company_name": "SSII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $270.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:45:49",
       "time_kst": "22:45:49",
       "symbol": "XGPU",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:37:28",
-      "time_kst": "21:37:28",
-      "symbol": "BOF",
-      "company_name": "BOF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:35:31",
-      "time_kst": "21:35:31",
-      "symbol": "ACRV",
-      "company_name": "ACRV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $67.71M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:33:22",
-      "time_kst": "21:33:22",
-      "symbol": "DGXX",
-      "company_name": "DGXX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $255.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:33:17",
-      "time_kst": "21:33:17",
-      "symbol": "PTN",
-      "company_name": "PTN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Palatin to Report First Quarter Fiscal Year 2027 Results)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "07:31:36",
-      "time_kst": "21:31:36",
-      "symbol": "MAKO",
-      "company_name": "MAKO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $665.8M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
