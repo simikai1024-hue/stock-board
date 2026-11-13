@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:22:42",
-  "updated_at_et": "2026-11-13 07:22:42",
-  "updated_epoch_ms": 1794572562413,
+  "updated_at_kst": "2026-11-13 21:23:26",
+  "updated_at_et": "2026-11-13 07:23:26",
+  "updated_epoch_ms": 1794572606077,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EXOZ",
+    "company_name": "EXOZ",
+    "exchange": "ND",
+    "price": 4.0,
+    "gain_pct": 0.0,
+    "mcap_m": 37.13,
+    "catalyst_hint": "[당일 PR] eXoZymes to Host Third Quarter 2026 update Conference Call on Thursday, November 19, 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:23:21",
+    "started_at_kst": "21:23:21",
+    "started_epoch_ms": 1794572601906
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:22:36"
+    "updated_kst": "21:23:17"
   },
   "stats": {
     "today_total": 3,
