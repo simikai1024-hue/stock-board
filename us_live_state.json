@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:01:47",
-  "updated_at_et": "2026-11-13 04:01:47",
-  "updated_epoch_ms": 1794560507678,
+  "updated_at_kst": "2026-11-13 18:02:39",
+  "updated_at_et": "2026-11-13 04:02:39",
+  "updated_epoch_ms": 1794560559523,
   "analyzing": {
     "active": false
   },
@@ -12,21 +12,21 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 0,
-    "orderable_usd": 117.41,
+    "orderable_usd": 472.77,
     "daily_done": false,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:01:29"
+    "updated_kst": "18:02:28"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 7,
+    "today_hardcut": 12,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:02:35",
+      "time_kst": "18:02:35",
+      "symbol": "PCSA",
+      "company_name": "PCSA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:02:19",
+      "time_kst": "18:02:19",
+      "symbol": "XCH",
+      "company_name": "XCH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:02:10",
+      "time_kst": "18:02:10",
+      "symbol": "MYPS",
+      "company_name": "MYPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:02:00",
+      "time_kst": "18:02:00",
+      "symbol": "USEA",
+      "company_name": "USEA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:01:49",
+      "time_kst": "18:01:49",
+      "symbol": "TRT",
+      "company_name": "TRT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.8M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:01:44",
       "time_kst": "18:01:44",
       "symbol": "ITOC",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $649.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:12:38",
-      "time_kst": "23:12:38",
-      "symbol": "MRVL",
-      "company_name": "MRVL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $138550.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:07:43",
-      "time_kst": "23:07:43",
-      "symbol": "AMCI",
-      "company_name": "AMCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:06:16",
-      "time_kst": "23:06:16",
-      "symbol": "CIVB",
-      "company_name": "CIVB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $598.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:03:30",
-      "time_kst": "23:03:30",
-      "symbol": "PLMR",
-      "company_name": "PLMR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4220.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:02:44",
-      "time_kst": "23:02:44",
-      "symbol": "JXG",
-      "company_name": "JXG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $134.23M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
