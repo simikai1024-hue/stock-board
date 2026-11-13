@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 04:07:40",
-  "updated_at_et": "2026-11-13 14:07:40",
-  "updated_epoch_ms": 1794596860204,
+  "updated_at_kst": "2026-11-14 04:08:14",
+  "updated_at_et": "2026-11-13 14:08:14",
+  "updated_epoch_ms": 1794596894530,
   "analyzing": {
-    "active": true,
-    "symbol": "ONFO",
-    "company_name": "ONFO",
-    "exchange": "ND",
-    "price": 0.42,
-    "gain_pct": 19.66,
-    "mcap_m": 1.03,
-    "catalyst_hint": "[당일 PR] Onfolio Holdings Reports Stockholders’ Equity Above Nasdaq Minimum and No Outstanding Convertible Notes",
-    "queue_remaining": 0,
-    "mode_label": "모의 검증 분석 중",
-    "started_at_et": "14:07:36",
-    "started_at_kst": "04:07:36",
-    "started_epoch_ms": 1794596856413
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "04:07:36"
+    "updated_kst": "04:08:08"
   },
   "stats": {
-    "today_total": 16,
-    "today_nblm_count": 15,
-    "today_buy": 3,
+    "today_total": 17,
+    "today_nblm_count": 16,
+    "today_buy": 4,
     "today_false": 13,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 12,
-    "total_false": 138,
+    "total_buy": 13,
+    "total_false": 137,
     "avg_nblm_sec": 37.7
   },
   "verdicts": [
+    {
+      "id": "v_1794596886649_ONFO_BUY",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "14:08:06",
+      "time_kst": "04:08:06",
+      "symbol": "ONFO",
+      "company_name": "ONFO",
+      "exchange": "ND",
+      "price": 0.42,
+      "gain_pct": 19.66,
+      "mcap_m": 1.03,
+      "decision": "BUY",
+      "elapsed_sec": 36.9,
+      "reason": "나스닥 최소 자기자본($2.5M+) 공식 충족 상폐위기 탈출 및 잔여 전환사채 0원 오버행 소멸 구조적 턴어라운드(헌법 2조)로 즉시 매수 승인",
+      "catalyst_hint": "[당일 PR] Onfolio Holdings Reports Stockholders’ Equity Above Nasdaq Minimum and No Outstanding Convertible Notes",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 ONFO (Onfolio Holdings, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.03M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 나스닥 상장 유지 최소 자기자본 기준인 $2.50M USD 돌파 (현재 실질 시총 약 $1.03M 대비 **242.7%**에 달하는 자기자본 규모 회복).\n실시간 체결가 및 수급: 전일 종가 $0.3510 대비 현재가 $0.4200 (+19.66%), 당일 최고가 $0.4500 (고점 대비 -6.7%), 당일 누적 거래대금 $45,000 USD.\n선발표 규정 확인: 8-K 제출 전 4영업일 유예 규정 구간으로, 당일 8-K 미접수 사유는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증: 1급 구조적 턴어라운드 공식 충족\n당일(11/13 10:48 ET) 공식 PR 원문 분석:\nPR 제목: \"Onfolio Holdings Reports Stockholders’ Equity Above Nasdaq Minimum and No Outstanding Convertible Notes\"\n원문 직독 결과 드러난 핵심 팩트:\n나스닥 상장폐지 위기 공식 탈출 (자기자본 $2.5M+ 상회):\n원문 본문에 *\"announced that its stockholders' equity has risen above the $2.5 million minimum required for continued listing on the Nasdaq Capital Market\"*라고 명시되어 있습니다.\n나스닥 캐피탈 마켓 상장유지 필수 요건인 '최소 자기자본 $2.5M' 기준을 공식 충족함으로써, 초소형 페니주들의 가장 치명적인 악재인 상장폐지(Delisting) 리스크를 완전히 해소했습니다.\n잠재 희석 물량 0원 (잔여 전환사채 전액 소멸, No Outstanding Notes):\n원문 제목 및 본문에 *\"No Outstanding Convertible Notes\"*를 명시했습니다.\n주가 상승 시 매물 폭탄으로 쏟아지는 악성 오버행 요인인 전환사채 잔액이 0원으로 전액 해소되었음을 공식 확정했습니다.\n심사 헌법 제2조 ②항 [ONFO형 구조적 턴어라운드 1급 기폭제] 완벽 부합:\n연구소 심사 헌법 제2조 ②항: \"초소형 품절주(시총 $15M 이하)가 [나스닥 최소 자기자본($2.5M+) 요건 공식 충족(상폐위기 졸업) + 잔여 전환사채(Convertible Notes) 0원(악성 오버행 전액 소멸)]을 동시에 공식 발표한 구조적 턴어라운드(ONFO형)도 1급 기폭제이므로 FORCE_BUY!\" 공식에 100% 정밀 부합합니다.\n희석 폭탄 부재:\n당일 활성 424B5(ATM) 출회나 신규 EFFECT 및 8-K 3.02 신주 물량 투하가 일절 열려 있지 않습니다.\n3. 최종 심사 및 결재 판정\n시가총액 약 $1.03M의 초소형 품절주로서 나스닥 상폐 방어선인 자기자본 $2.5M 상회 충족과 전환사채 전액 소멸(오버행 제로)을 공식 확정 발표한 진성 구조적 턴어라운드 표본이므로, 연구소 4대 심사 헌법 제2조에 의거 **FORCE_BUY: ONFO**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: ONFO FORCE_BLOCK: NONE NOTES:\n[ONFO] 나스닥 최소 자기자본($2.5M+) 공식 충족 상폐위기 탈출 및 잔여 전환사채 0원 오버행 소멸 구조적 턴어라운드(헌법 2조)로 즉시 매수 승인 ===VERDICT_END===",
+      "engine": "NotebookLM 모의검증",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_manual_1794596256321_AKAN",
       "date_et": "2026-11-13",
@@ -2422,26 +2430,6 @@
       "reason": "구속력 없는 LOI(의향서) 단계의 제안형 M&A + 동시 유상증자(Concurrent Financing) 희석 위험으로 1급 확정 기폭제 미달 및 전량 차단",
       "catalyst_hint": "[당일 PR] Medicus Pharma Announces Proposed SkinJect® Business Combination and Concurrent Financing",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 MDCX (Medicus Pharma Ltd.) 정밀 직독 결재 보고입니다 [cite: 266, 267].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.51M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 266].\n실시간 시세 및 수급: 전일 종가 $2.0100 대비 현재가 $2.1485 (+6.89%), 당일 최고가 $2.5000 (고점 대비 -14.1% 윗꼬리 밀림) [cite: 266]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 266].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Medicus Pharma Announces Proposed SkinJect® Business Combination and Concurrent Financing\" [cite: 267]\n원문 팩트: 자회사(Skinject, Inc.)를 SPAC과 기업결합(Business Combination)하기 위해 **구속력 없는 의향서(non-binding LOI)**를 체결하였으며, 본 거래와 동시에 **주식 유상증자 자금조달(Concurrent Financing)**을 추진한다는 발표 [cite: 268, 270].\n치명적 기폭제 결함:\n[LOI 구속력 부재]: M&A 계약 확정이 아닌 'non-binding LOI(구속력 없는 의향서)' 및 'Proposed(제안 단계)' 발표에 불과합니다 [cite: 268, 270]. 원문에도 *\"terms are non-binding... There can be no assurance that definitive agreements will be signed\"*가 명시되어 있어 실체 없는 단순 MOU/LOI 범주에 속합니다 [cite: 270].\n[유상증자 희석 위험 동반]: PR 제목과 본문에 명시된 'Concurrent Financing(동시 유상증자 자금조달)' 및 'potentially dilutive securities' 문구는 신주 발행에 따른 주식 가치 희석 및 오퍼링 물량 출회 위험을 직접적으로 내포합니다 (원칙 1·3 위반) [cite: 267, 270].\n[차트 윗꼬리 밀림]: 당일 최고가($2.5000) 대비 -14.1% 매물이 출회되며 주가 탄력이 둔화되었습니다 [cite: 266].\n3. 최종 심사 및 결재 판정\n당일 PR이 구속력 없는 LOI(의향서) 단계의 제안형 M&A 발표에 불과하고, 동시 유상증자(Concurrent Financing) 희석 위험이 동반되어 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: MDCX 처리합니다 [cite: 268, 270].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: MDCX NOTES:\n[MDCX] 구속력 없는 LOI(의향서) 단계의 제안형 M&A + 동시 유상증자(Concurrent Financing) 희석 위험으로 1급 확정 기폭제 미달 및 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793799539335_DFSC_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:38:59",
-      "time_kst": "22:38:59",
-      "symbol": "DFSC",
-      "company_name": "DEFSEC Technologies Inc.",
-      "exchange": "ND",
-      "price": 0.5958,
-      "gain_pct": 2.58,
-      "mcap_m": 2.74,
-      "decision": "FALSE",
-      "elapsed_sec": 78.3,
-      "reason": "단순 ATF 규제 분류 결정(ATF Classification) 발표는 구체적 수주 금액이 부재한 인허가성 뉴스로 1급 확정 기폭제 미달 및 장전 대금 $0(+2.58%) 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 DFSC (DEFSEC Technologies Inc.) 정밀 직독 결재 보고입니다 [cite: 226, 227].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.74M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 226].\n실시간 시세 및 수급: 전일 종가 $0.5808 대비 현재가 $0.5958 (+2.58%), 당일 최고가 $0.5958 (+0.0%) [cite: 226]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 226].\n2. D-Day SEC 6-K 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K (EX-99.1) 원문 분석:\nPR 제목: \"DEFSEC Receives Favorable ATF Classification for Arwen Micro Non-Lethal Irritant Launcher, Clearing Path to U.S. Civilian Market\" [cite: 227]\n원문 팩트: 미국 총포비행물청(ATF)으로부터 자사 제품(ARWEN Micro)이 파괴적 장치가 아니라는 단순 규제 분류 판정(ATF Classification Determination) 수신 발표 [cite: 227].\n치명적 기폭제 결함:\n오늘 제출된 재료는 구체적인 달러($) 수주 계약이나 현금 유입이 명시된 거래가 아니라, 제품의 **단순 규제 분류/인허가 성격의 보도자료(ATF Classification Notice)**입니다 [cite: 13, 227].\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '구체적 금액 미기재 단순 인허가/규제분류/MOU/샘플' 범주에 정확히 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 13].\n[달의검] 족보집 과거 부검 성적표에서도 동일 ATF 뉴스 출회 당일 최고 상승률이 +7.8%에 그쳐 💀 실패·설거지 패턴으로 검증되었습니다 [cite: 18].\n개장 전 세력 매집 유동성($0 USD) 및 초기 수급 반응도 전무합니다 [cite: 226].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시 내용이 단순 ATF 규제 분류 통보(ATF Classification)에 불과하고 구체적 수주 금액이 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DFSC 처리합니다 [cite: 13, 227].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 13, 229].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: DFSC NOTES:\n[DFSC] 단순 ATF 규제 분류 결정(ATF Classification) 발표는 구체적 수주 금액이 부재한 인허가성 뉴스로 1급 확정 기폭제 미달 및 장전 대금 $0(+2.58%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
