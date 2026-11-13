@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:10:18",
-  "updated_at_et": "2026-11-13 09:10:18",
-  "updated_epoch_ms": 1794579018328,
+  "updated_at_kst": "2026-11-13 23:11:13",
+  "updated_at_et": "2026-11-13 09:11:13",
+  "updated_epoch_ms": 1794579073984,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:10:14"
+    "updated_kst": "23:11:09"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:10:42",
+      "time_kst": "23:10:42",
+      "symbol": "NCT",
+      "company_name": "NCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:08:52",
       "time_kst": "23:08:52",
       "symbol": "ABTS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $9909.52M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:05:16",
-      "time_kst": "22:05:16",
-      "symbol": "IRLA",
-      "company_name": "IRLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $430.95M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
