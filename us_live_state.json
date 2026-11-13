@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:29:59",
-  "updated_at_et": "2026-11-13 09:29:59",
-  "updated_epoch_ms": 1794580199308,
+  "updated_at_kst": "2026-11-13 23:30:44",
+  "updated_at_et": "2026-11-13 09:30:44",
+  "updated_epoch_ms": 1794580244079,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 0,
     "orderable_usd": 472.77,
     "daily_done": false,
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:29:55"
+    "updated_kst": "23:30:34"
   },
   "stats": {
     "today_total": 11,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:30:38",
+      "time_kst": "23:30:38",
+      "symbol": "GMM",
+      "company_name": "GMM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:30:33",
+      "time_kst": "23:30:33",
+      "symbol": "PASW",
+      "company_name": "PASW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:30:21",
+      "time_kst": "23:30:21",
+      "symbol": "ELOG",
+      "company_name": "ELOG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:25:55",
       "time_kst": "23:25:55",
       "symbol": "PMCB",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $6778.81M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:30:50",
-      "time_kst": "22:30:50",
-      "symbol": "GT",
-      "company_name": "GT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1166.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:24:47",
-      "time_kst": "22:24:47",
-      "symbol": "NSPR",
-      "company_name": "NSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:23:53",
-      "time_kst": "22:23:53",
-      "symbol": "COLB",
-      "company_name": "COLB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8726.09M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
