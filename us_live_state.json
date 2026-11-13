@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:01:16",
-  "updated_at_et": "2026-11-13 07:01:16",
-  "updated_epoch_ms": 1794571276120,
+  "updated_at_kst": "2026-11-13 21:02:22",
+  "updated_at_et": "2026-11-13 07:02:22",
+  "updated_epoch_ms": 1794571342912,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:57"
+    "updated_kst": "21:02:16"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:02:21",
+      "time_kst": "21:02:21",
+      "symbol": "TUSK",
+      "company_name": "TUSK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $156.9M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:01:12",
       "time_kst": "21:01:12",
       "symbol": "SGML",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:20:24",
-      "time_kst": "18:20:24",
-      "symbol": "BBCI",
-      "company_name": "BBCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
