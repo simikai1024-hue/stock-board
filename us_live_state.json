@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:40:43",
-  "updated_at_et": "2026-11-13 04:40:43",
-  "updated_epoch_ms": 1794562843016,
+  "updated_at_kst": "2026-11-13 18:41:33",
+  "updated_at_et": "2026-11-13 04:41:33",
+  "updated_epoch_ms": 1794562893765,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:40:39"
+    "updated_kst": "18:41:17"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:41:30",
+      "time_kst": "18:41:30",
+      "symbol": "ZTG",
+      "company_name": "ZTG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:41:03",
+      "time_kst": "18:41:03",
+      "symbol": "SRAD",
+      "company_name": "SRAD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4006.77M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:38:55",
       "time_kst": "18:38:55",
       "symbol": "OPTT",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:02:35",
-      "time_kst": "18:02:35",
-      "symbol": "PCSA",
-      "company_name": "PCSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:02:19",
-      "time_kst": "18:02:19",
-      "symbol": "XCH",
-      "company_name": "XCH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
