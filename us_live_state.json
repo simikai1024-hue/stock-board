@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:48:16",
-  "updated_at_et": "2026-11-13 09:48:16",
-  "updated_epoch_ms": 1794581296769,
+  "updated_at_kst": "2026-11-13 23:49:26",
+  "updated_at_et": "2026-11-13 09:49:26",
+  "updated_epoch_ms": 1794581366650,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MLSS",
+    "company_name": "MLSS",
+    "exchange": "AM",
+    "price": 0.3114,
+    "gain_pct": 6.21,
+    "mcap_m": 28.23,
+    "catalyst_hint": "[당일 PR] Milestone Scientific Reports Financial Results for Third Quarter 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:49:20",
+    "started_at_kst": "23:49:20",
+    "started_epoch_ms": 1794581360663
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:48:00"
+    "updated_kst": "23:49:20"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:48:24",
+      "time_kst": "23:48:24",
+      "symbol": "AIRS",
+      "company_name": "AIRS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:48:10",
       "time_kst": "23:48:10",
       "symbol": "CTOR",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Kandi Technologies to Report Third Quarter 2026 Financial )"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:45:16",
-      "time_kst": "22:45:16",
-      "symbol": "OBAI",
-      "company_name": "OBAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,5.03,9.01))"
     }
   ]
 }
