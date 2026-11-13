@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:13:26",
-  "updated_at_et": "2026-11-13 07:13:26",
-  "updated_epoch_ms": 1794572006539,
+  "updated_at_kst": "2026-11-13 21:14:24",
+  "updated_at_et": "2026-11-13 07:14:24",
+  "updated_epoch_ms": 1794572064216,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:13:22"
+    "updated_kst": "21:14:21"
   },
   "stats": {
     "today_total": 3,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:13:46",
+      "time_kst": "21:13:46",
+      "symbol": "WFRD",
+      "company_name": "WFRD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6196.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "07:13:37",
+      "time_kst": "21:13:37",
+      "symbol": "MIST",
+      "company_name": "MIST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $89.02M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:06:34",
       "time_kst": "21:06:34",
       "symbol": "RGS",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $192.85M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:25:39",
-      "time_kst": "18:25:39",
-      "symbol": "AIXI",
-      "company_name": "AIXI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $103.34M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:23:54",
-      "time_kst": "18:23:54",
-      "symbol": "TRAW",
-      "company_name": "TRAW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-23 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
