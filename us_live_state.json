@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:18:10",
-  "updated_at_et": "2026-11-13 04:18:10",
-  "updated_epoch_ms": 1794561490346,
+  "updated_at_kst": "2026-11-13 18:18:53",
+  "updated_at_et": "2026-11-13 04:18:53",
+  "updated_epoch_ms": 1794561533602,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:17:52"
+    "updated_kst": "18:18:52"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 37,
+    "today_hardcut": 40,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:18:50",
+      "time_kst": "18:18:50",
+      "symbol": "YDDL",
+      "company_name": "YDDL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:18:44",
+      "time_kst": "18:18:44",
+      "symbol": "EDVA",
+      "company_name": "EDVA",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:18:37",
+      "time_kst": "18:18:37",
+      "symbol": "OMH",
+      "company_name": "OMH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $107.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:18:04",
       "time_kst": "18:18:04",
       "symbol": "VIVK",
@@ -2901,36 +2931,6 @@
       "time_kst": "23:40:44",
       "symbol": "LITB",
       "company_name": "LITB",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:36:43",
-      "time_kst": "23:36:43",
-      "symbol": "LOCL",
-      "company_name": "LOCL",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:36:34",
-      "time_kst": "23:36:34",
-      "symbol": "ACH",
-      "company_name": "ACH",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:35:04",
-      "time_kst": "23:35:04",
-      "symbol": "AHT",
-      "company_name": "AHT",
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
