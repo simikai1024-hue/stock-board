@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:31:40",
-  "updated_at_et": "2026-11-13 09:31:40",
-  "updated_epoch_ms": 1794580300535,
+  "updated_at_kst": "2026-11-13 23:32:45",
+  "updated_at_et": "2026-11-13 09:32:45",
+  "updated_epoch_ms": 1794580365181,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:31:40"
+    "updated_kst": "23:32:39"
   },
   "stats": {
     "today_total": 11,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:32:13",
+      "time_kst": "23:32:13",
+      "symbol": "SPRU",
+      "company_name": "SPRU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:32:07",
+      "time_kst": "23:32:07",
+      "symbol": "SMX",
+      "company_name": "SMX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-13 [424B3])"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:31:43",
+      "time_kst": "23:31:43",
+      "symbol": "GOAI",
+      "company_name": "GOAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:31:34",
       "time_kst": "23:31:34",
       "symbol": "CHGA",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1333.76M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:35:04",
-      "time_kst": "22:35:04",
-      "symbol": "INTA",
-      "company_name": "INTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3487.64M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:34:19",
-      "time_kst": "22:34:19",
-      "symbol": "PATK",
-      "company_name": "PATK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2654.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:34:11",
-      "time_kst": "22:34:11",
-      "symbol": "MTVA",
-      "company_name": "MTVA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (MetaVia Reports Third Quarter 2026 Financial Results and P)"
     }
   ]
 }
