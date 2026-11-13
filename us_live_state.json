@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:08:19",
-  "updated_at_et": "2026-11-13 07:08:19",
-  "updated_epoch_ms": 1794571699336,
+  "updated_at_kst": "2026-11-13 21:08:26",
+  "updated_at_et": "2026-11-13 07:08:26",
+  "updated_epoch_ms": 1794571706009,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "QNTM",
+    "company_name": "QNTM",
+    "exchange": "ND",
+    "price": 1.7878,
+    "gain_pct": 2.16,
+    "mcap_m": 14.46,
+    "catalyst_hint": "[당일 PR] Quantum BioPharma achieve 91% increase in Shareholder Equity and Liquidity in Q3 2026 as Lucid-MS Phase 2 Trial Advances into Study Start-Up",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:08:21",
+    "started_at_kst": "21:08:21",
+    "started_epoch_ms": 1794571701926
   },
   "halt_watch": {
     "active": false
