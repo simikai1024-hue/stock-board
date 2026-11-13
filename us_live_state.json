@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:05:07",
-  "updated_at_et": "2026-11-13 04:05:07",
-  "updated_epoch_ms": 1794560707511,
+  "updated_at_kst": "2026-11-13 18:06:05",
+  "updated_at_et": "2026-11-13 04:06:05",
+  "updated_epoch_ms": 1794560765056,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:05:03"
+    "updated_kst": "18:06:01"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 22,
+    "today_hardcut": 24,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:05:40",
+      "time_kst": "18:05:40",
+      "symbol": "AMCI",
+      "company_name": "AMCI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:05:16",
+      "time_kst": "18:05:16",
+      "symbol": "FTFT",
+      "company_name": "FTFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $130.28M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:04:39",
       "time_kst": "18:04:39",
       "symbol": "VBIO",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:33:22",
-      "time_kst": "23:33:22",
-      "symbol": "ELOG",
-      "company_name": "ELOG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:33:12",
-      "time_kst": "23:33:12",
-      "symbol": "WHLR",
-      "company_name": "WHLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 3.02))"
     }
   ]
 }
