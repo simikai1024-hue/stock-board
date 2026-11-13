@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:35:03",
-  "updated_at_et": "2026-11-13 07:35:03",
-  "updated_epoch_ms": 1794573303667,
+  "updated_at_kst": "2026-11-13 21:36:02",
+  "updated_at_et": "2026-11-13 07:36:02",
+  "updated_epoch_ms": 1794573362427,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:35:01"
+    "updated_kst": "21:36:00"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:35:31",
+      "time_kst": "21:35:31",
+      "symbol": "ACRV",
+      "company_name": "ACRV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $67.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:33:22",
       "time_kst": "21:33:22",
       "symbol": "DGXX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4006.77M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:38:55",
-      "time_kst": "18:38:55",
-      "symbol": "OPTT",
-      "company_name": "OPTT",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,9.01))"
     }
   ]
 }
