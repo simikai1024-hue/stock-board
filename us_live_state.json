@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:58:52",
-  "updated_at_et": "2026-11-13 10:58:52",
-  "updated_epoch_ms": 1794585532840,
+  "updated_at_kst": "2026-11-14 00:59:06",
+  "updated_at_et": "2026-11-13 10:59:06",
+  "updated_epoch_ms": 1794585546880,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 472.77,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "00:58:49"
+    "holding_symbol": "CNSY",
+    "holding_qty": 445,
+    "avg_price": 1.03,
+    "current_price": 1.04,
+    "profit_rate": 0.97,
+    "updated_kst": "00:59:06"
   },
   "stats": {
     "today_total": 15,
@@ -51,7 +51,7 @@
       "catalyst_hint": "[Track 3 본장 첫 점화] 시가대비 +32.2% | 1분 $291.7K | 회전율 45.5%",
       "full_report": "[Track 3: 본장 첫 +30% 점화 돌파 스나이퍼 실시간 포착]\n- 종목: CNSY (NASDAQ) | 시총: $8.20M\n- 시초가 대비: +32.20% ($0.8168 -> $1.0798)\n- 기준가(전일종가) 대비: +40.14% (기준가 $0.7705)\n- 프리마켓 고점 돌파: PM고점 $0.8500 돌파 완료 (프리장 분당 $20만 이력 0건)\n- 실시간 수급 화살표: 1분 거래대금 $291.7K (>= $200K)\n- 회전율 & 누적대금: 유통 회전율 45.5% (7.5M주) / 누적 $3.60M\n- 전략 집행: 즉시 선점 지정가 매수 및 +51% 그물망 익절 / -20% 방어 손절 자동 세팅!",
       "engine": "NotebookLM 직통",
-      "trade_action": "🚀 즉시 선점매수 승인!"
+      "trade_action": "🚀 실전매수 체결 완료 (445주 @ 평단 $1.0300)"
     },
     {
       "id": "v_1794581389742_MLSS_FALSE",
