@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-14 00:47:02",
-  "updated_at_et": "2026-11-13 10:47:02",
-  "updated_epoch_ms": 1794584822876,
+  "updated_at_kst": "2026-11-14 00:48:01",
+  "updated_at_et": "2026-11-13 10:48:01",
+  "updated_epoch_ms": 1794584881275,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:46:59"
+    "updated_kst": "00:47:58"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "10:47:58",
+      "time_kst": "00:47:58",
+      "symbol": "ANVS",
+      "company_name": "ANVS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "10:40:08",
       "time_kst": "00:40:08",
       "symbol": "PRT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3448.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:05:07",
-      "time_kst": "23:05:07",
-      "symbol": "ABAT",
-      "company_name": "ABAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $176.67M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
