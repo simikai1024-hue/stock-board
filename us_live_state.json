@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:11:13",
-  "updated_at_et": "2026-11-13 09:11:13",
-  "updated_epoch_ms": 1794579073984,
+  "updated_at_kst": "2026-11-13 23:12:17",
+  "updated_at_et": "2026-11-13 09:12:17",
+  "updated_epoch_ms": 1794579137822,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:11:09"
+    "updated_kst": "23:12:12"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "09:11:47",
+      "time_kst": "23:11:47",
+      "symbol": "WSE",
+      "company_name": "WSE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11763.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:11:27",
+      "time_kst": "23:11:27",
+      "symbol": "NTWK",
+      "company_name": "NTWK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $71.24M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "09:10:42",
       "time_kst": "23:10:42",
       "symbol": "NCT",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $605.4M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:05:37",
-      "time_kst": "22:05:37",
-      "symbol": "PDSB",
-      "company_name": "PDSB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $104.99M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:05:29",
-      "time_kst": "22:05:29",
-      "symbol": "MDGL",
-      "company_name": "MDGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $9909.52M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
