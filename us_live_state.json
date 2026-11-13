@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:33:08",
-  "updated_at_et": "2026-11-13 07:33:08",
-  "updated_epoch_ms": 1794573188226,
+  "updated_at_kst": "2026-11-13 21:34:04",
+  "updated_at_et": "2026-11-13 07:34:04",
+  "updated_epoch_ms": 1794573244866,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:02"
+    "updated_kst": "21:34:01"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:33:22",
+      "time_kst": "21:33:22",
+      "symbol": "DGXX",
+      "company_name": "DGXX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $255.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "07:33:17",
+      "time_kst": "21:33:17",
+      "symbol": "PTN",
+      "company_name": "PTN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Palatin to Report First Quarter Fiscal Year 2027 Results)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:31:36",
       "time_kst": "21:31:36",
       "symbol": "MAKO",
@@ -2914,26 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:31:25",
-      "time_kst": "18:31:25",
-      "symbol": "III",
-      "company_name": "III",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $297.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:30:24",
-      "time_kst": "18:30:24",
-      "symbol": "OLOX",
-      "company_name": "OLOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
