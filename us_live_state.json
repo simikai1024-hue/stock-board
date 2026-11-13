@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:53:55",
-  "updated_at_et": "2026-11-13 07:53:55",
-  "updated_epoch_ms": 1794574435564,
+  "updated_at_kst": "2026-11-13 21:54:51",
+  "updated_at_et": "2026-11-13 07:54:51",
+  "updated_epoch_ms": 1794574491161,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:53:51"
+    "updated_kst": "21:54:47"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "07:53:55",
+      "time_kst": "21:53:55",
+      "symbol": "CNCK",
+      "company_name": "CNCK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $210.98M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "07:53:27",
       "time_kst": "21:53:27",
       "symbol": "HURA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-04 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:01:56",
-      "time_kst": "19:01:56",
-      "symbol": "ANT",
-      "company_name": "ANT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
