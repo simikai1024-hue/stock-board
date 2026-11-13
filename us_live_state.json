@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:14:00",
-  "updated_at_et": "2026-11-13 08:14:00",
-  "updated_epoch_ms": 1794575640803,
+  "updated_at_kst": "2026-11-13 22:14:52",
+  "updated_at_et": "2026-11-13 08:14:52",
+  "updated_epoch_ms": 1794575692648,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:13:57"
+    "updated_kst": "22:14:35"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:14:48",
+      "time_kst": "22:14:48",
+      "symbol": "NNOX",
+      "company_name": "NNOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:12:52",
       "time_kst": "22:12:52",
       "symbol": "ITRN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $413.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:15:23",
-      "time_kst": "20:15:23",
-      "symbol": "CTNT",
-      "company_name": "CTNT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-09 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
