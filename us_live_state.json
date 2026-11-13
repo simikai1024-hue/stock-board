@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 22:04:29",
-  "updated_at_et": "2026-11-13 08:04:29",
-  "updated_epoch_ms": 1794575069481,
+  "updated_at_kst": "2026-11-13 22:05:13",
+  "updated_at_et": "2026-11-13 08:05:13",
+  "updated_epoch_ms": 1794575113094,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:04:16"
+    "updated_kst": "22:04:54"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "08:05:07",
+      "time_kst": "22:05:07",
+      "symbol": "FBIO",
+      "company_name": "FBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $65.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:05:01",
+      "time_kst": "22:05:01",
+      "symbol": "BNTC",
+      "company_name": "BNTC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $317.14M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "08:04:53",
+      "time_kst": "22:04:53",
+      "symbol": "AARD",
+      "company_name": "AARD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Aardvark Therapeutics Reports Third Quarter 2026 Financial)"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "08:04:23",
       "time_kst": "22:04:23",
       "symbol": "GAME",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3145.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:06:32",
-      "time_kst": "20:06:32",
-      "symbol": "DAIC",
-      "company_name": "DAIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.02,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "06:02:09",
-      "time_kst": "20:02:09",
-      "symbol": "ZBAO",
-      "company_name": "ZBAO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Zhibao Technology Inc. Reports Fiscal Year 2026 Financial )"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "05:56:36",
-      "time_kst": "19:56:36",
-      "symbol": "WKSP",
-      "company_name": "WKSP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
     }
   ]
 }
