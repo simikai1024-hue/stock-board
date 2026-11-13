@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:02:39",
-  "updated_at_et": "2026-11-13 04:02:39",
-  "updated_epoch_ms": 1794560559523,
+  "updated_at_kst": "2026-11-13 18:03:30",
+  "updated_at_et": "2026-11-13 04:03:30",
+  "updated_epoch_ms": 1794560610412,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:02:28"
+    "updated_kst": "18:03:24"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 12,
+    "today_hardcut": 17,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:03:27",
+      "time_kst": "18:03:27",
+      "symbol": "YOUL",
+      "company_name": "YOUL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:03:13",
+      "time_kst": "18:03:13",
+      "symbol": "MTRI",
+      "company_name": "MTRI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:03:05",
+      "time_kst": "18:03:05",
+      "symbol": "NXB",
+      "company_name": "NXB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:02:58",
+      "time_kst": "18:02:58",
+      "symbol": "JYD",
+      "company_name": "JYD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:02:52",
+      "time_kst": "18:02:52",
+      "symbol": "ACTU",
+      "company_name": "ACTU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:02:35",
       "time_kst": "18:02:35",
       "symbol": "PCSA",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $33588.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:21:55",
-      "time_kst": "23:21:55",
-      "symbol": "BRUN",
-      "company_name": "BRUN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $491.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:21:47",
-      "time_kst": "23:21:47",
-      "symbol": "TILE",
-      "company_name": "TILE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1841.52M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:18:50",
-      "time_kst": "23:18:50",
-      "symbol": "ARAI",
-      "company_name": "ARAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $159.99M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:18:43",
-      "time_kst": "23:18:43",
-      "symbol": "TRT",
-      "company_name": "TRT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $62.34M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:14:26",
-      "time_kst": "23:14:26",
-      "symbol": "CARE",
-      "company_name": "CARE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $649.22M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
