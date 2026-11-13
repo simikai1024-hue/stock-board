@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 23:25:39",
-  "updated_at_et": "2026-11-13 09:25:39",
-  "updated_epoch_ms": 1794579939935,
+  "updated_at_kst": "2026-11-13 23:26:15",
+  "updated_at_et": "2026-11-13 09:26:15",
+  "updated_epoch_ms": 1794579975113,
   "analyzing": {
-    "active": true,
-    "symbol": "BCG",
-    "company_name": "BCG",
-    "exchange": "ND",
-    "price": 1.2,
-    "gain_pct": 9.09,
-    "mcap_m": 20.47,
-    "catalyst_hint": "[당일 PR] Binah Capital Group Reports Results for Third Quarter of 2026",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:25:36",
-    "started_at_kst": "23:25:36",
-    "started_epoch_ms": 1794579936096
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:25:24"
+    "updated_kst": "23:26:07"
   },
   "stats": {
-    "today_total": 10,
-    "today_nblm_count": 10,
+    "today_total": 11,
+    "today_nblm_count": 11,
     "today_buy": 1,
-    "today_false": 9,
+    "today_false": 10,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 10,
     "total_false": 140,
-    "avg_nblm_sec": 42.2
+    "avg_nblm_sec": 41.7
   },
   "verdicts": [
+    {
+      "id": "v_1794579968218_BCG_FALSE",
+      "date_et": "2026-11-13",
+      "weekday_kr": "금",
+      "time_et": "09:26:08",
+      "time_kst": "23:26:08",
+      "symbol": "BCG",
+      "company_name": "BCG",
+      "exchange": "ND",
+      "price": 1.2,
+      "gain_pct": 9.09,
+      "mcap_m": 20.47,
+      "decision": "FALSE",
+      "elapsed_sec": 36.4,
+      "reason": "신규 수주가 아닌 단순 Q3 정기 실적 발표이며 AuM $31.4B는 운용잔고 착시로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Binah Capital Group Reports Results for Third Quarter of 2026",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BCG (Binah Capital Group, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $20.47M USD (나스닥 상장, 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증: 발표 수치 **$31.4 Billion($31,400.00M)**은 회사가 새로 벌어들인 신규 수주나 매출 계약이 아니며, 금융투자/자산운용 자회사가 관리 중인 단순 총 운용자산 잔고(Assets Under Management, AuM) 집계치에 불과합니다.\n실시간 체결가 및 수급: 전일 종가 $1.1000 대비 현재가 $1.2000 (+9.09%), 당일 최고가 $1.2000 (+0.0%), 당일 누적 거래대금 $896 USD.\n선발표 규정 확인: 전일(11/12) 정기 분기보고서 **[10-Q]**가 SEC에 이미 제출된 상태에서 당일 장전 보도자료를 배포한 정기 실적 PR 발표 구간입니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 09:19 ET) 공식 PR 원문 분석:\nPR 제목: \"Binah Capital Group Reports Results for Third Quarter of 2026\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적 정기 분기 실적 발표 (Regular Quarterly Earnings):\n본 PR의 본질은 제목과 본문에 명시되었듯 **2026년 3분기 정기 실적 발표(Q3 Results)**입니다.\n총 매출 $50.6M, 순이익 $2.6M, EBITDA $4.7M 등은 통상적인 지난 분기 영업 집계 결과입니다.\nAuM $31.4B의 실체 (자산운용 잔고 표기 착시):\n수치상 $31.4 Billion이라는 거액이 기재되어 있으나, 이는 금융 자회사가 위탁 운용하는 총 고객 자산(AuM)이 전년 대비 5% 증가했다는 금융업 특유의 지표일 뿐, 회사로 직접 유입되는 신규 현금 계약금이 전혀 아닙니다.\n1급 확정 기폭제 기준 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 신규 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), FDA 승인/임상 성공, 대형 M&A 완료, 특별배당\" 등 기업 가치를 수직 폭등시킬 수 있는 실체적 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/영업 업데이트/AuM 잔고 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 2026년 3분기 정기 실적 발표이며, $31.4B 또한 단순 자산운용 잔고(AuM) 집계에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BCG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: BCG NOTES:\n[BCG] 신규 수주가 아닌 단순 Q3 정기 실적 발표이며 AuM $31.4B는 운용잔고 착시로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794578142131_FTCI_FALSE",
       "date_et": "2026-11-13",
@@ -2424,29 +2432,39 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 UZX (Linkage Global Inc) 정밀 직독 결재 보고입니다 [cite: 207, 208].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.34M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 207].\n실시간 시세 및 수급: 전일 종가 $1.0276 대비 현재가 $1.0000 (-2.69% 약보합), 당일 최고가 $1.0000 (+0.0%) [cite: 207]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 207].\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) SEC 6-K 및 사전 6-K 원문 분석:\n공시 핵심 내용: \"Notice and Proxy Statement of the Extraordinary General Meeting of Shareholders (EGM)\" [cite: 210]\n원문 팩트: UZX(Linkage Global Inc)가 제출한 6-K 공시는 임시주주총회 개최 및 안건에 관한 단순 주주총회 소집 통지 및 위임장 수여(Notice & Proxy Statement of EGM) 행정 공시입니다 [cite: 210].\n치명적 기폭제 결함:\n오늘 당일 제출된 공시는 주주총회 안내 등 정기/비정기 행정 공시에 불과하며, 당일 공식 PR 뉴스 수신도 0건입니다 [cite: 208, 210].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아니며, 전략 헌장 원칙(\"단순 주주총회 소집통지·주주서한·행정공시는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 8, 210].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 207].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시 내용이 단순 임시주주총회 소집 통지(Notice of EGM)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: UZX 처리합니다 [cite: 8, 210].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: UZX NOTES:\n[UZX] 단순 임시주주총회 소집 통지(Notice of EGM) 공시에 불과하여 1급 확정 기폭제 미달 및 장전 대금 $0(-2.69%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793795656699_POLA_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "07:34:16",
-      "time_kst": "21:34:16",
-      "symbol": "POLA",
-      "company_name": "Polar Power, Inc.",
-      "exchange": "ND",
-      "price": 0.5541,
-      "gain_pct": 6.07,
-      "mcap_m": 2.39,
-      "decision": "FALSE",
-      "elapsed_sec": 133.4,
-      "reason": "단순 나스닥 자기자본 상장유지 요건 충족 통보 및 구조조정 진행 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+6.07%) 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 POLA (Polar Power, Inc.) 정밀 직독 결재 보고입니다 [cite: 317, 318].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.39M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 317].\n실시간 시세 및 수급: 전일 종가 $0.5224 대비 현재가 $0.5541 (+6.07%), 당일 최고가 $0.5541 (+0.0%) [cite: 317]. 개장 전 선발표 구간으로 장전 거래대금 $0 USD [cite: 317].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 핵심 내용: \"On November 4, 2026, the Company issued a press release announcing that it has received a letter from Nasdaq stating that it is in compliance with Nasdaq s minimum stockholders equity requirement and announcing that it is beginning Phase 2 of its restructuring...\" [cite: 318]\n원문 팩트: 나스닥 상장유지 자기자본 요건(Stockholders' Equity Requirement) 충족 공식 확인서 수신 및 구조조정 2단계(Phase 2 Restructuring) 진입 발표 [cite: 318].\n치명적 기폭제 결함:\n오늘 당일 공시는 나스닥 규정 준수 확인서 수신 및 경영 재정비 경과를 보고하는 단순 **행정적 상장유지 통보 및 구조조정 경과 보고(Compliance Notice / Corporate Restructuring Update)**에 불과합니다 [cite: 318].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 최종 완결, 현금 특별배당, 주식병합 D-Day 등)가 절대 아니며, 전략 헌장 원칙(\"단순 행정보고·주주서한·구조조정 경과는 100% FORCE_BLOCK\")에 따라 정식 차단 대상입니다 [cite: 8].\n개장 전 세력 유동성 유입($0 USD) 및 초기 수급 반응이 전무합니다 [cite: 317].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 나스닥 상장유지 요건 충족 통보 및 구조조정 경과 보고에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: POLA 처리합니다 [cite: 8, 318].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 321].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: POLA NOTES:\n[POLA] 단순 나스닥 자기자본 상장유지 요건 충족 통보 및 구조조정 진행 발표는 1급 확정 기폭제 미달 및 장전 대금 $0(+6.07%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:25:55",
+      "time_kst": "23:25:55",
+      "symbol": "PMCB",
+      "company_name": "PMCB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $82.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:25:48",
+      "time_kst": "23:25:48",
+      "symbol": "SURG",
+      "company_name": "SURG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "09:25:43",
+      "time_kst": "23:25:43",
+      "symbol": "ONFO",
+      "company_name": "ONFO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 급등(+105.8%) 후 고점($0.6987) 대비 -21.3% 윗꼬리 설거지 차단"
+    },
     {
       "date_et": "2026-11-13",
       "time_et": "09:25:33",
@@ -2916,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $8726.09M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:22:53",
-      "time_kst": "22:22:53",
-      "symbol": "GHRS",
-      "company_name": "GHRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1279.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:15:03",
-      "time_kst": "22:15:03",
-      "symbol": "BFRI",
-      "company_name": "BFRI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Biofrontera Inc. Reports Strong Third Quarter 2026 Financi)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "08:14:55",
-      "time_kst": "22:14:55",
-      "symbol": "ALLR",
-      "company_name": "ALLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
     }
   ]
 }
