@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 21:43:00",
-  "updated_at_et": "2026-11-13 07:43:00",
-  "updated_epoch_ms": 1794573780895,
+  "updated_at_kst": "2026-11-13 21:43:36",
+  "updated_at_et": "2026-11-13 07:43:36",
+  "updated_epoch_ms": 1794573816818,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "YFOR",
+    "company_name": "YFOR",
+    "exchange": "ND",
+    "price": 0.0446,
+    "gain_pct": 1.36,
+    "mcap_m": 0.57,
+    "catalyst_hint": "[당일 PR] YYForce (NASDAQ: YFOR) Wins Major UAE Hospitality Contracts as Middle East Expansion Accelerates",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:43:34",
+    "started_at_kst": "21:43:34",
+    "started_epoch_ms": 1794573814414
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:42:56"
+    "updated_kst": "21:43:16"
   },
   "stats": {
     "today_total": 4,
