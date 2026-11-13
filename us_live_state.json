@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-13",
-  "updated_at_kst": "2026-11-13 18:22:16",
-  "updated_at_et": "2026-11-13 04:22:16",
-  "updated_epoch_ms": 1794561736211,
+  "updated_at_kst": "2026-11-13 18:22:58",
+  "updated_at_et": "2026-11-13 04:22:58",
+  "updated_epoch_ms": 1794561778678,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:22:10"
+    "updated_kst": "18:22:50"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 1,
     "today_false": 1,
-    "today_hardcut": 49,
+    "today_hardcut": 51,
     "total_verdicts": 150,
     "total_buy": 11,
     "total_false": 139,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-13",
+      "time_et": "04:22:52",
+      "time_kst": "18:22:52",
+      "symbol": "WSHP",
+      "company_name": "WSHP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-13",
+      "time_et": "04:22:43",
+      "time_kst": "18:22:43",
+      "symbol": "XXII",
+      "company_name": "XXII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-13",
       "time_et": "04:22:10",
       "time_kst": "18:22:10",
       "symbol": "HPAI",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "04:00:45",
-      "time_kst": "18:00:45",
-      "symbol": "POAS",
-      "company_name": "POAS",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-12",
-      "time_et": "09:56:05",
-      "time_kst": "23:56:05",
-      "symbol": "MGN",
-      "company_name": "MGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [424B4])"
     }
   ]
 }
