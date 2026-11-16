@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:42:38",
-  "updated_at_et": "2026-11-16 07:42:38",
-  "updated_epoch_ms": 1794832958704,
+  "updated_at_kst": "2026-11-16 21:42:47",
+  "updated_at_et": "2026-11-16 07:42:47",
+  "updated_epoch_ms": 1794832967778,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELAB",
+    "company_name": "ELAB",
+    "exchange": "ND",
+    "price": 1.6132,
+    "gain_pct": 2.1,
+    "mcap_m": 1.31,
+    "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total As",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:42:44",
+    "started_at_kst": "21:42:44",
+    "started_epoch_ms": 1794832964863
   },
   "halt_watch": {
     "active": false
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:42:45",
+      "time_kst": "21:42:45",
+      "symbol": "CNSP",
+      "company_name": "CNSP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (CNS Pharmaceuticals Reports Third Quarter 2026 Financial R)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:42:35",
       "time_kst": "21:42:35",
       "symbol": "RNTX",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1489.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:10",
-      "time_kst": "21:03:10",
-      "symbol": "DUKR",
-      "company_name": "DUKR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Duke Robotics Reports Third Quarter 2026 Financial Results)"
     }
   ]
 }
