@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:10:35",
-  "updated_at_et": "2026-11-16 07:10:35",
-  "updated_epoch_ms": 1794831035150,
+  "updated_at_kst": "2026-11-16 21:11:27",
+  "updated_at_et": "2026-11-16 07:11:27",
+  "updated_epoch_ms": 1794831087238,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0792,
-    "profit_rate": -0.99,
-    "updated_kst": "21:10:31"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "21:11:12"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:11:22",
+      "time_kst": "21:11:22",
+      "symbol": "TTRX",
+      "company_name": "TTRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $285.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:11:17",
+      "time_kst": "21:11:17",
+      "symbol": "SVIA",
+      "company_name": "SVIA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $205.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:11:09",
+      "time_kst": "21:11:09",
+      "symbol": "NSIT",
+      "company_name": "NSIT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4465.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:11:04",
+      "time_kst": "21:11:04",
+      "symbol": "FTH",
+      "company_name": "FTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $265.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:10:58",
+      "time_kst": "21:10:58",
+      "symbol": "CMCT",
+      "company_name": "CMCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Creative Media & Community Trust Corporation Reports 2026 )"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:10:49",
+      "time_kst": "21:10:49",
+      "symbol": "ELOX",
+      "company_name": "ELOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:10:43",
+      "time_kst": "21:10:43",
+      "symbol": "CYPH",
+      "company_name": "CYPH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $187.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:10:38",
+      "time_kst": "21:10:38",
+      "symbol": "TIL",
+      "company_name": "TIL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Instil Bio Reports Third Quarter 2026 Financial Results an)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:08:30",
       "time_kst": "21:08:30",
       "symbol": "DPZ",
@@ -2574,16 +2654,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $254.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:33",
-      "time_kst": "21:03:33",
-      "symbol": "TIL",
-      "company_name": "TIL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Instil Bio Reports Third Quarter 2026 Financial Results an)"
     },
     {
       "date_et": "2026-11-16",
@@ -2864,76 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5223.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:47:03",
-      "time_kst": "20:47:03",
-      "symbol": "NSIT",
-      "company_name": "NSIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4878.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:44:53",
-      "time_kst": "20:44:53",
-      "symbol": "MESO",
-      "company_name": "MESO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1726.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:37:28",
-      "time_kst": "20:37:28",
-      "symbol": "AQST",
-      "company_name": "AQST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $526.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:33:42",
-      "time_kst": "20:33:42",
-      "symbol": "HZN",
-      "company_name": "HZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:32:56",
-      "time_kst": "20:32:56",
-      "symbol": "TOYO",
-      "company_name": "TOYO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $176.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:32:51",
-      "time_kst": "20:32:51",
-      "symbol": "ATOM",
-      "company_name": "ATOM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $107.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:30:25",
-      "time_kst": "20:30:25",
-      "symbol": "DFSC",
-      "company_name": "DFSC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (DEFSEC TECHNOLOGIES INC. ANNOUNCES COMPLETION OF SHARE )"
     }
   ]
 }
