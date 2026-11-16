@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:13:22",
-  "updated_at_et": "2026-11-16 08:13:22",
-  "updated_epoch_ms": 1794834802283,
+  "updated_at_kst": "2026-11-16 22:14:05",
+  "updated_at_et": "2026-11-16 08:14:05",
+  "updated_epoch_ms": 1794834845881,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1298,
-    "profit_rate": 3.65,
-    "updated_kst": "22:13:13"
+    "current_price": 1.12,
+    "profit_rate": 2.75,
+    "updated_kst": "22:13:51"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:14:01",
+      "time_kst": "22:14:01",
+      "symbol": "HONA",
+      "company_name": "HONA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51682.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:13:52",
+      "time_kst": "22:13:52",
+      "symbol": "INTC",
+      "company_name": "INTC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $301041.6M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:13:37",
+      "time_kst": "22:13:37",
+      "symbol": "SGC",
+      "company_name": "SGC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $222.39M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:13:28",
+      "time_kst": "22:13:28",
+      "symbol": "POWW",
+      "company_name": "POWW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $285.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:13:15",
       "time_kst": "22:13:15",
       "symbol": "XRTX",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4914.19M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:00:34",
-      "time_kst": "22:00:34",
-      "symbol": "CIGL",
-      "company_name": "CIGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.24M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:00:14",
-      "time_kst": "22:00:14",
-      "symbol": "ASST",
-      "company_name": "ASST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2473.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:59:36",
-      "time_kst": "21:59:36",
-      "symbol": "WMT",
-      "company_name": "WMT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1024247.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:56:18",
-      "time_kst": "21:56:18",
-      "symbol": "LULU",
-      "company_name": "LULU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $11845.97M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
