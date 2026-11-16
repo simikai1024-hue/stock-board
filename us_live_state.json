@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:15:38",
-  "updated_at_et": "2026-11-16 06:15:38",
-  "updated_epoch_ms": 1794827738778,
+  "updated_at_kst": "2026-11-16 20:16:21",
+  "updated_at_et": "2026-11-16 06:16:21",
+  "updated_epoch_ms": 1794827781523,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ODYS",
+    "company_name": "ODYS",
+    "exchange": "ND",
+    "price": 1.78,
+    "gain_pct": -0.56,
+    "mcap_m": 36.04,
+    "catalyst_hint": "[당일 PR] Odysight.ai Reports Financial Results for the Nine Months Ended September 30, 2026, and Provides Business Update",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:16:14",
+    "started_at_kst": "20:16:14",
+    "started_epoch_ms": 1794827774832
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.8,
-    "profit_rate": -3.03,
-    "updated_kst": "20:15:23"
+    "current_price": 4.85,
+    "profit_rate": -2.02,
+    "updated_kst": "20:16:18"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:16:04",
+      "time_kst": "20:16:04",
+      "symbol": "DRTS",
+      "company_name": "DRTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1405.67M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "06:15:41",
+      "time_kst": "20:15:41",
+      "symbol": "MEDS",
+      "company_name": "MEDS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:15:32",
       "time_kst": "20:15:32",
       "symbol": "KALA",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:18:36",
-      "time_kst": "18:18:36",
-      "symbol": "CENN",
-      "company_name": "CENN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:18:32",
-      "time_kst": "18:18:32",
-      "symbol": "BZFD",
-      "company_name": "BZFD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.51M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
