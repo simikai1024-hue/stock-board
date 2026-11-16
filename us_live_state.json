@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:34:50",
-  "updated_at_et": "2026-11-16 07:34:50",
-  "updated_epoch_ms": 1794832490354,
+  "updated_at_kst": "2026-11-16 21:35:00",
+  "updated_at_et": "2026-11-16 07:35:00",
+  "updated_epoch_ms": 1794832500946,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "YFOR",
+    "company_name": "YFOR",
+    "exchange": "ND",
+    "price": 0.042,
+    "gain_pct": 5.53,
+    "mcap_m": 0.54,
+    "catalyst_hint": "[당일 PR] YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:34:57",
+    "started_at_kst": "21:34:57",
+    "started_epoch_ms": 1794832497338
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.01,
-    "profit_rate": -7.34,
-    "updated_kst": "21:34:32"
+    "current_price": 1.0299,
+    "profit_rate": -5.51,
+    "updated_kst": "21:34:54"
   },
   "stats": {
     "today_total": 17,
