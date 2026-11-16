@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:23:17",
-  "updated_at_et": "2026-11-16 11:23:17",
-  "updated_epoch_ms": 1794846197492,
+  "updated_at_kst": "2026-11-17 01:24:10",
+  "updated_at_et": "2026-11-16 11:24:10",
+  "updated_epoch_ms": 1794846250987,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1601,
-    "profit_rate": 6.43,
-    "updated_kst": "01:23:13"
+    "current_price": 1.16,
+    "profit_rate": 6.42,
+    "updated_kst": "01:23:52"
   },
   "stats": {
     "today_total": 64,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:24:06",
+      "time_kst": "01:24:06",
+      "symbol": "YTRA",
+      "company_name": "YTRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.93M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:22:32",
       "time_kst": "01:22:32",
       "symbol": "PMI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $56.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:31:53",
-      "time_kst": "23:31:53",
-      "symbol": "NXB",
-      "company_name": "NXB",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
     }
   ]
 }
