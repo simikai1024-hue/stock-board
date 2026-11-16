@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:55:44",
-  "updated_at_et": "2026-11-16 08:55:44",
-  "updated_epoch_ms": 1794837344929,
+  "updated_at_kst": "2026-11-16 22:56:25",
+  "updated_at_et": "2026-11-16 08:56:25",
+  "updated_epoch_ms": 1794837385761,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "22:55:40"
+    "current_price": 1.03,
+    "profit_rate": -5.5,
+    "updated_kst": "22:56:20"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:56:23",
+      "time_kst": "22:56:23",
+      "symbol": "QXL",
+      "company_name": "QXL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.39M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:49:28",
       "time_kst": "22:49:28",
       "symbol": "SLND",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $15921.87M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:14:14",
-      "time_kst": "22:14:14",
-      "symbol": "SRZN",
-      "company_name": "SRZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $616.65M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
