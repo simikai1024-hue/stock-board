@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:16:22",
-  "updated_at_et": "2026-11-16 04:16:22",
-  "updated_epoch_ms": 1794820582935,
+  "updated_at_kst": "2026-11-16 18:17:13",
+  "updated_at_et": "2026-11-16 04:17:13",
+  "updated_epoch_ms": 1794820633568,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:16:13"
+    "updated_kst": "18:17:10"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 22,
+    "today_hardcut": 26,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:17:07",
+      "time_kst": "18:17:07",
+      "symbol": "CYCU",
+      "company_name": "CYCU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:16:50",
+      "time_kst": "18:16:50",
+      "symbol": "DAIC",
+      "company_name": "DAIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.02,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:16:36",
+      "time_kst": "18:16:36",
+      "symbol": "SRTM",
+      "company_name": "SRTM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:16:24",
+      "time_kst": "18:16:24",
+      "symbol": "SCNI",
+      "company_name": "SCNI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:16:18",
       "time_kst": "18:16:18",
       "symbol": "HELP",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $555.54M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "10:03:42",
-      "time_kst": "00:03:42",
-      "symbol": "IMCC",
-      "company_name": "IMCC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:57:55",
-      "time_kst": "23:57:55",
-      "symbol": "JSPR",
-      "company_name": "JSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $484.33M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:56:08",
-      "time_kst": "23:56:08",
-      "symbol": "TWG",
-      "company_name": "TWG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $165.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:53:42",
-      "time_kst": "23:53:42",
-      "symbol": "CCG",
-      "company_name": "CCG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $277.6M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
