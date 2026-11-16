@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:07:36",
-  "updated_at_et": "2026-11-16 07:07:36",
-  "updated_epoch_ms": 1794830856270,
+  "updated_at_kst": "2026-11-16 21:08:32",
+  "updated_at_et": "2026-11-16 07:08:32",
+  "updated_epoch_ms": 1794830912622,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.05,
-    "profit_rate": -3.67,
-    "updated_kst": "21:07:32"
+    "current_price": 1.1013,
+    "profit_rate": 1.04,
+    "updated_kst": "21:08:30"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:08:30",
+      "time_kst": "21:08:30",
+      "symbol": "DPZ",
+      "company_name": "DPZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11350.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:07:34",
       "time_kst": "21:07:34",
       "symbol": "UNCY",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (DEFSEC TECHNOLOGIES INC. ANNOUNCES COMPLETION OF SHARE )"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:27:32",
-      "time_kst": "20:27:32",
-      "symbol": "SKHY",
-      "company_name": "SKHY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $913192.21M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
