@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:50:57",
-  "updated_at_et": "2026-11-16 09:50:57",
-  "updated_epoch_ms": 1794840657261,
+  "updated_at_kst": "2026-11-16 23:52:00",
+  "updated_at_et": "2026-11-16 09:52:00",
+  "updated_epoch_ms": 1794840720821,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 0.9995,
-    "profit_rate": -8.3,
-    "updated_kst": "23:50:42"
+    "current_price": 0.9991,
+    "profit_rate": -8.34,
+    "updated_kst": "23:51:59"
   },
   "stats": {
     "today_total": 61,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:51:58",
+      "time_kst": "23:51:58",
+      "symbol": "ABVC",
+      "company_name": "ABVC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B4])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:51:29",
+      "time_kst": "23:51:29",
+      "symbol": "ACTU",
+      "company_name": "ACTU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:51:01",
+      "time_kst": "23:51:01",
+      "symbol": "ECOR",
+      "company_name": "ECOR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:50:52",
       "time_kst": "23:50:52",
       "symbol": "TENX",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:03:58",
-      "time_kst": "23:03:58",
-      "symbol": "PSQL",
-      "company_name": "PSQL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $784.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:03:49",
-      "time_kst": "23:03:49",
-      "symbol": "ALAB",
-      "company_name": "ALAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $36452.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:03:41",
-      "time_kst": "23:03:41",
-      "symbol": "LNTH",
-      "company_name": "LNTH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6572.84M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
