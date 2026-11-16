@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>👑 달의 검 — ISI 1등 대장주 종가베팅 전광판</title>
-<meta name="theme-color" content="#070B14">
+<meta name="theme-color" content="#BAE6FD">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="종가베팅전광판">
 <link rel="manifest" href="./manifest-kr.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="./icons/kr-192.png">
@@ -16,20 +16,35 @@
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
   :root {
-    --bg-deep: #070B14;
-    --bg-card: rgba(15, 23, 42, 0.88);
-    --bg-elevated: #111B30;
-    --bg-row-sticky: #0E172A;
-    --border-subtle: rgba(148, 163, 184, 0.16);
-    --border-gold: rgba(251, 191, 36, 0.65);
-    --gold: #FBBF24;
-    --gold-bright: #FDE047;
-    --emerald: #34D399;
-    --sky: #38BDF8;
-    --rose: #FB7185;
-    --text-main: #F8FAFC;
-    --text-sub: #CBD5E1;
-    --text-muted: #94A3B8;
+    color-scheme: light;
+    accent-color: #0284C7;
+    --bg-sky-top: #BAE6FD;
+    --bg-sky-mid: #D8F0FE;
+    --bg-sky-bot: #E0F2FE;
+    --bg-card: rgba(255, 255, 255, 0.94);
+    --bg-elevated: #F0F9FF;
+    --bg-row-sticky: #F8FCFF;
+    --border-subtle: #7DD3FC;
+    --border-strong: #0284C7;
+    --cobalt: #0369A1;
+    --sky-vivid: #0284C7;
+    --amber-text: #92400E;
+    --amber-bg: #FEF3C7;
+    --amber-border: #F59E0B;
+    --emerald: #047857;
+    --emerald-bg: #ECFDF5;
+    --emerald-border: #10B981;
+    --rose: #BE123C;
+    --rose-bg: #FFF1F2;
+    --rose-border: #F43F5E;
+    --text-main: #0F172A;
+    --text-sub: #1E3A5F;
+    --text-muted: #475569;
+  }
+
+  ::selection {
+    background-color: #0284C7;
+    color: #FFFFFF;
   }
 
   * {
@@ -41,10 +56,11 @@
   }
 
   body {
-    background-color: var(--bg-deep);
+    background-color: var(--bg-sky-mid);
     background-image:
-      radial-gradient(circle at 14% 0%, rgba(245, 158, 11, 0.12) 0%, transparent 40%),
-      radial-gradient(circle at 86% 6%, rgba(56, 189, 248, 0.12) 0%, transparent 40%);
+      radial-gradient(circle at 15% 0%, rgba(255, 255, 255, 0.78) 0%, transparent 44%),
+      radial-gradient(circle at 88% 8%, rgba(56, 189, 248, 0.32) 0%, transparent 42%),
+      linear-gradient(180deg, var(--bg-sky-top) 0%, var(--bg-sky-mid) 45%, var(--bg-sky-bot) 100%);
     background-attachment: fixed;
     color: var(--text-main);
     padding: 16px 16px 48px;
@@ -59,14 +75,14 @@
     inset-block-start: 20px;
     inset-inline-start: 50%;
     transform: translateX(-50%) translateY(-160%);
-    background: linear-gradient(135deg, #FDE047 0%, #F59E0B 100%);
-    color: #0F172A;
+    background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 900;
     padding: 12px 24px;
     border-radius: 999px;
-    border: 2px solid #FEF9C3;
-    box-shadow: 0 12px 30px rgba(245, 158, 11, 0.45);
+    border: 2px solid #E0F2FE;
+    box-shadow: 0 12px 28px rgba(3, 105, 161, 0.32);
     z-index: 9999;
     transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
     pointer-events: none;
@@ -81,12 +97,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 11px 16px;
+    padding: 12px 16px;
     margin-block-end: 16px;
-    background: rgba(15, 23, 42, 0.82);
+    background: rgba(255, 255, 255, 0.90);
     backdrop-filter: blur(12px);
-    border: 1px solid var(--border-subtle);
+    border: 1.5px solid #38BDF8;
     border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(3, 105, 161, 0.09);
   }
   .brand-group {
     display: flex;
@@ -95,9 +112,9 @@
     flex-wrap: wrap;
   }
   .brand-title {
-    font-size: 16px;
+    font-size: 16.5px;
     font-weight: 900;
-    color: var(--gold-bright);
+    color: var(--cobalt);
     letter-spacing: -0.3px;
   }
   .live-clock {
@@ -110,19 +127,19 @@
     font-weight: 800;
     padding: 4px 11px;
     border-radius: 999px;
-    background: rgba(51, 65, 85, 0.65);
-    border: 1px solid rgba(148, 163, 184, 0.3);
-    color: #E2E8F0;
+    background: #E0F2FE;
+    border: 1px solid #0284C7;
+    color: #075985;
   }
   .phase-pill.entry {
-    background: rgba(245, 158, 11, 0.24);
-    border-color: var(--gold);
-    color: #FEF08A;
+    background: var(--amber-bg);
+    border-color: #D97706;
+    color: var(--amber-text);
   }
   .phase-pill.harvest {
-    background: rgba(16, 185, 129, 0.20);
+    background: var(--emerald-bg);
     border-color: var(--emerald);
-    color: #6EE7B7;
+    color: var(--emerald);
   }
   .ctrl-group {
     display: flex;
@@ -135,29 +152,32 @@
     color: var(--emerald);
   }
   .btn-sm {
-    background: rgba(30, 41, 59, 0.9);
-    color: var(--text-main);
-    border: 1px solid rgba(148, 163, 184, 0.28);
+    background: #F0F9FF;
+    color: var(--cobalt);
+    border: 1.5px solid #0284C7;
     padding: 6px 12px;
     border-radius: 9px;
     font-size: 13px;
     font-weight: 800;
     cursor: pointer;
-    transition: background 0.15s;
+    transition: background-color 0.15s, color 0.15s;
   }
-  .btn-sm:hover { background: rgba(51, 65, 85, 0.95); }
+  .btn-sm:hover {
+    background: #0284C7;
+    color: #FFFFFF;
+  }
 
   /* 1. 메인 종가베팅 히어로 카드 */
   .hero-card {
-    background: linear-gradient(145deg, rgba(17, 27, 48, 0.95), rgba(11, 18, 34, 0.95));
-    border: 1.5px solid rgba(251, 191, 36, 0.42);
+    background: linear-gradient(150deg, #FFFFFF 0%, #F0F9FF 100%);
+    border: 2px solid #0284C7;
     border-radius: 18px;
     padding: 22px 22px 20px;
     margin-block-end: 22px;
-    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    box-shadow: 0 14px 32px rgba(3, 105, 161, 0.13), inset 0 1px 0 #FFFFFF;
   }
   .hero-card.tracking-mode {
-    border-color: rgba(56, 189, 248, 0.42);
+    border-color: #0369A1;
   }
   .hero-head {
     display: flex;
@@ -174,15 +194,15 @@
     font-weight: 800;
     padding: 5px 12px;
     border-radius: 999px;
-    background: rgba(245, 158, 11, 0.18);
-    border: 1px solid rgba(251, 191, 36, 0.45);
-    color: var(--gold-bright);
+    background: #E0F2FE;
+    border: 1px solid #0284C7;
+    color: #075985;
     margin-block-end: 10px;
   }
   .hero-card.tracking-mode .hero-badge {
-    background: rgba(56, 189, 248, 0.16);
-    border-color: rgba(56, 189, 248, 0.45);
-    color: #7DD3FC;
+    background: #F0F9FF;
+    border-color: #0369A1;
+    color: #0369A1;
   }
   .hero-stock-row {
     display: flex;
@@ -193,11 +213,11 @@
   .hero-stock-name {
     font-size: 30px;
     font-weight: 900;
-    color: #FFFFFF;
+    color: var(--text-main);
     letter-spacing: -0.6px;
     cursor: pointer;
   }
-  .hero-stock-name:hover { color: var(--gold-bright); }
+  .hero-stock-name:hover { color: var(--sky-vivid); }
   .hero-stock-code {
     font-size: 16px;
     font-weight: 800;
@@ -208,9 +228,9 @@
     font-weight: 800;
     padding: 3px 10px;
     border-radius: 8px;
-    background: rgba(52, 211, 153, 0.16);
-    border: 1px solid rgba(52, 211, 153, 0.4);
-    color: #6EE7B7;
+    background: var(--emerald-bg);
+    border: 1px solid var(--emerald);
+    color: var(--emerald);
   }
   .hero-actions {
     display: flex;
@@ -227,17 +247,22 @@
     font-weight: 800;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid transparent;
+    border: 1.5px solid transparent;
+    transition: transform 0.12s, box-shadow 0.12s;
+  }
+  .action-btn:hover {
+    transform: translateY(-1px);
   }
   .action-btn.copy {
-    background: linear-gradient(135deg, #2563EB, #1D4ED8);
-    color: #FFF;
-    border-color: #93C5FD;
+    background: linear-gradient(135deg, #0284C7, #0369A1);
+    color: #FFFFFF;
+    border-color: #0369A1;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
   }
   .action-btn.naver {
-    background: rgba(16, 185, 129, 0.16);
-    color: #6EE7B7;
-    border-color: rgba(52, 211, 153, 0.45);
+    background: var(--emerald-bg);
+    color: var(--emerald);
+    border-color: var(--emerald);
   }
 
   .price-grid {
@@ -247,18 +272,18 @@
     margin-block-start: 16px;
   }
   .price-box {
-    background: rgba(7, 11, 20, 0.65);
-    border: 1px solid var(--border-subtle);
+    background: #F0F9FF;
+    border: 1.5px solid #7DD3FC;
     border-radius: 12px;
     padding: 12px 14px;
   }
   .price-box.highlight-tp {
-    background: rgba(16, 185, 129, 0.11);
-    border-color: rgba(52, 211, 153, 0.45);
+    background: var(--emerald-bg);
+    border-color: var(--emerald-border);
   }
   .price-lbl {
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 12.5px;
+    font-weight: 800;
     color: var(--text-muted);
     margin-block-end: 4px;
   }
@@ -267,11 +292,12 @@
     font-weight: 900;
     color: var(--text-main);
   }
-  .price-box.highlight-tp .price-val { color: #4ADE80; }
-  .price-val.sl { color: #FDA4AF; }
+  .price-box.highlight-tp .price-val { color: var(--emerald); }
+  .price-val.sl { color: var(--rose); }
   .hero-foot {
     margin-block-start: 12px;
-    font-size: 13px;
+    font-size: 13.5px;
+    font-weight: 700;
     color: var(--text-sub);
   }
 
@@ -285,15 +311,15 @@
     margin-block-end: 10px;
   }
   .section-title {
-    font-size: 18px;
+    font-size: 18.5px;
     font-weight: 900;
-    color: #F8FAFC;
+    color: #0C4A6E;
     letter-spacing: -0.3px;
   }
   .section-sub {
     font-size: 13px;
-    font-weight: 700;
-    color: var(--text-muted);
+    font-weight: 800;
+    color: #1E3A5F;
   }
 
   /* 2. 실시간 자금 집중 테마 TOP 3 아코디언 (modern-web-guidance: accordion) */
@@ -305,14 +331,16 @@
   }
   .theme-accordion > details {
     background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
+    border: 1.5px solid #38BDF8;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 6px 18px rgba(3, 105, 161, 0.08);
     transition: border-color 0.2s, background-color 0.2s;
   }
   .theme-accordion > details[open] {
-    border-color: rgba(251, 191, 36, 0.55);
-    background: rgba(19, 29, 52, 0.95);
+    border-color: #0284C7;
+    background: #FFFFFF;
+    box-shadow: 0 10px 26px rgba(3, 105, 161, 0.15);
   }
   .theme-accordion > details > summary {
     list-style: none;
@@ -321,13 +349,12 @@
     gap: 10px;
     padding: 15px 18px;
     cursor: pointer;
-    user-select: none;
   }
   .theme-accordion > details > summary::-webkit-details-marker {
     display: none;
   }
   .theme-accordion > details > summary:hover {
-    background: rgba(30, 41, 59, 0.55);
+    background: #F0F9FF;
   }
   /* 왼쪽 직관적 회전 화살표 (라벨 바로 옆 배치) */
   .theme-accordion > details > summary::before {
@@ -335,7 +362,7 @@
     inline-size: 0.95em;
     block-size: 0.95em;
     flex-shrink: 0;
-    background-color: var(--gold-bright);
+    background-color: var(--cobalt);
     mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat center / contain;
     -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat center / contain;
     rotate: -90deg;
@@ -386,33 +413,33 @@
     font-weight: 900;
     padding: 4px 10px;
     border-radius: 8px;
-    background: rgba(251, 191, 36, 0.16);
-    border: 1px solid rgba(251, 191, 36, 0.45);
-    color: var(--gold-bright);
+    background: var(--amber-bg);
+    border: 1px solid #D97706;
+    color: var(--amber-text);
   }
   .rank-medal.r2 {
-    background: rgba(148, 163, 184, 0.18);
-    border-color: rgba(203, 213, 225, 0.4);
-    color: #E2E8F0;
+    background: #E0F2FE;
+    border-color: #0284C7;
+    color: #075985;
   }
   .rank-medal.r3 {
-    background: rgba(217, 119, 6, 0.18);
-    border-color: rgba(251, 146, 60, 0.4);
-    color: #FDBA74;
+    background: #F1F5F9;
+    border-color: #64748B;
+    color: #334155;
   }
   .theme-name-txt {
     font-size: 17.5px;
     font-weight: 900;
-    color: #FFFFFF;
+    color: var(--text-main);
   }
   .surging-tag {
     font-size: 12px;
     font-weight: 800;
     padding: 3px 8px;
     border-radius: 6px;
-    background: rgba(244, 63, 94, 0.18);
-    border: 1px solid rgba(251, 113, 133, 0.45);
-    color: #FDA4AF;
+    background: var(--rose-bg);
+    border: 1px solid var(--rose-border);
+    color: var(--rose);
   }
   .theme-right {
     display: flex;
@@ -423,19 +450,19 @@
   .theme-money-pill {
     font-size: 14px;
     font-weight: 900;
-    color: #7DD3FC;
-    background: rgba(56, 189, 248, 0.12);
-    border: 1px solid rgba(56, 189, 248, 0.32);
+    color: var(--cobalt);
+    background: #E0F2FE;
+    border: 1px solid #38BDF8;
     padding: 5px 11px;
     border-radius: 9px;
   }
   .click-hint {
     font-size: 12.5px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--text-muted);
   }
   .theme-accordion > details[open] .click-hint {
-    color: var(--gold-bright);
+    color: var(--cobalt);
   }
 
   /* 펼쳐진 패널 & 우리 기준 대장주 깜박깜박 하이라이트 */
@@ -445,25 +472,26 @@
     flex-direction: column;
     gap: 10px;
   }
-  @keyframes leaderBeacon {
+  @keyframes leaderBeaconSky {
     0%, 100% {
-      border-color: rgba(253, 224, 71, 0.95);
-      box-shadow: 0 0 0 1px rgba(253, 224, 71, 0.35), 0 0 22px rgba(251, 191, 36, 0.38);
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(16, 185, 129, 0.14));
+      border-color: #0284C7;
+      box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.28), 0 8px 24px rgba(2, 132, 199, 0.22);
+      background: linear-gradient(135deg, #E0F2FE 0%, #FEF9C3 100%);
     }
     50% {
-      border-color: rgba(52, 211, 153, 0.95);
-      box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.45), 0 0 30px rgba(52, 211, 153, 0.45);
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.09), rgba(16, 185, 129, 0.06));
+      border-color: #D97706;
+      box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.36), 0 8px 26px rgba(245, 158, 11, 0.28);
+      background: linear-gradient(135deg, #FEF3C7 0%, #E0F2FE 100%);
     }
   }
   @keyframes dotBlink {
-    0%, 100% { opacity: 1; transform: scale(1.15); }
-    50% { opacity: 0.25; transform: scale(0.85); }
+    0%, 100% { opacity: 1; transform: scale(1.18); }
+    50% { opacity: 0.25; transform: scale(0.82); }
   }
 
   .leader-spotlight {
-    border: 2px solid var(--gold-bright);
+    background: linear-gradient(135deg, #E0F2FE 0%, #FEF9C3 100%);
+    border: 2px solid #0284C7;
     border-radius: 13px;
     padding: 14px 16px;
     display: flex;
@@ -475,7 +503,7 @@
   }
   @media (prefers-reduced-motion: no-preference) {
     .theme-accordion > details[open] .leader-spotlight {
-      animation: leaderBeacon 1.35s ease-in-out infinite;
+      animation: leaderBeaconSky 1.35s ease-in-out infinite;
     }
     .blink-dot {
       animation: dotBlink 0.9s ease-in-out infinite;
@@ -487,7 +515,7 @@
     block-size: 9px;
     border-radius: 50%;
     background: #FDE047;
-    box-shadow: 0 0 10px #FDE047;
+    box-shadow: 0 0 8px #FDE047;
     margin-inline-end: 4px;
   }
   .leader-tag {
@@ -496,9 +524,9 @@
     gap: 5px;
     font-size: 12.5px;
     font-weight: 900;
-    color: #0F172A;
-    background: linear-gradient(90deg, #FDE047, #34D399);
-    padding: 3px 10px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #0369A1, #0284C7);
+    padding: 4px 11px;
     border-radius: 999px;
     margin-block-end: 6px;
   }
@@ -511,20 +539,25 @@
   .leader-name {
     font-size: 21px;
     font-weight: 900;
-    color: #FFFFFF;
+    color: var(--text-main);
+  }
+  .leader-code {
+    font-size: 13.5px;
+    color: var(--text-sub);
+    font-weight: 800;
   }
   .leader-rate {
     font-size: 18px;
     font-weight: 900;
-    color: #4ADE80;
+    color: var(--emerald);
   }
   .leader-meta {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     font-size: 13px;
-    font-weight: 700;
-    color: #E2E8F0;
+    font-weight: 800;
+    color: var(--text-sub);
     margin-block-start: 4px;
   }
   .sub-stocks-list {
@@ -533,8 +566,8 @@
     gap: 8px;
   }
   .sub-stock-card {
-    background: rgba(9, 14, 26, 0.72);
-    border: 1px solid rgba(148, 163, 184, 0.18);
+    background: #F0F9FF;
+    border: 1px solid #7DD3FC;
     border-radius: 10px;
     padding: 10px 13px;
     display: flex;
@@ -542,9 +575,11 @@
     align-items: center;
     gap: 8px;
     cursor: pointer;
+    transition: border-color 0.15s, background-color 0.15s;
   }
   .sub-stock-card:hover {
-    border-color: rgba(148, 163, 184, 0.45);
+    border-color: #0284C7;
+    background: #E0F2FE;
   }
   .sub-stock-nm {
     font-size: 14.5px;
@@ -553,10 +588,11 @@
   }
   .sub-stock-sub {
     font-size: 12px;
+    font-weight: 700;
     color: var(--text-muted);
   }
-  .up-txt { color: #4ADE80; font-weight: 800; }
-  .dn-txt { color: #FB7185; font-weight: 800; }
+  .up-txt { color: var(--emerald); font-weight: 800; }
+  .dn-txt { color: var(--rose); font-weight: 800; }
 
   /* 3. KPI 요약 2칸 + 반응형 종가베팅 성적표 (modern-web-guidance: responsive-table) */
   .kpi-row {
@@ -567,9 +603,10 @@
   }
   .kpi-box {
     background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
+    border: 1.5px solid #38BDF8;
     border-radius: 14px;
     padding: 15px 18px;
+    box-shadow: 0 6px 18px rgba(3, 105, 161, 0.08);
   }
   .kpi-lbl {
     font-size: 13px;
@@ -580,7 +617,7 @@
   .kpi-val {
     font-size: 24px;
     font-weight: 900;
-    color: #F8FAFC;
+    color: var(--text-main);
   }
   .kpi-sub {
     font-size: 12.5px;
@@ -594,9 +631,11 @@
     max-inline-size: 100%;
     max-block-size: min(520px, 78vh);
     container-type: inline-size;
+    scrollbar-color: #0284C7 #E0F2FE;
     background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
+    border: 1.5px solid #38BDF8;
     border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(3, 105, 161, 0.08);
   }
   table {
     inline-size: 100%;
@@ -619,15 +658,15 @@
     position: sticky;
     inset-block-start: 0;
     z-index: 2;
-    background: #111B30;
+    background: #E0F2FE;
   }
   thead th {
     padding: 12px 14px;
     font-size: 13px;
-    font-weight: 800;
-    color: var(--text-muted);
+    font-weight: 900;
+    color: #075985;
     text-align: start;
-    border-block-end: 1px solid var(--border-subtle);
+    border-block-end: 1.5px solid #7DD3FC;
     white-space: nowrap;
   }
   tbody tr {
@@ -636,7 +675,7 @@
   }
   tbody tr:hover th,
   tbody tr:hover td {
-    background: #16233D;
+    background: #F0F9FF;
   }
   tbody th {
     position: sticky;
@@ -647,8 +686,8 @@
     text-align: start;
     font-size: 15px;
     font-weight: 900;
-    color: #FFFFFF;
-    border-block-end: 1px solid rgba(148, 163, 184, 0.10);
+    color: var(--text-main);
+    border-block-end: 1px solid #BAE6FD;
     white-space: nowrap;
   }
   tbody td {
@@ -656,7 +695,7 @@
     font-size: 14px;
     font-weight: 700;
     color: var(--text-sub);
-    border-block-end: 1px solid rgba(148, 163, 184, 0.10);
+    border-block-end: 1px solid #BAE6FD;
     white-space: nowrap;
   }
   .st-badge {
@@ -667,19 +706,19 @@
     font-weight: 900;
   }
   .st-badge.hold {
-    background: rgba(245, 158, 11, 0.2);
-    border: 1px solid rgba(251, 191, 36, 0.5);
-    color: var(--gold-bright);
+    background: var(--amber-bg);
+    border: 1px solid #D97706;
+    color: var(--amber-text);
   }
   .st-badge.win {
-    background: rgba(16, 185, 129, 0.2);
-    border: 1px solid rgba(52, 211, 153, 0.5);
-    color: #6EE7B7;
+    background: var(--emerald-bg);
+    border: 1px solid var(--emerald);
+    color: var(--emerald);
   }
   .st-badge.loss {
-    background: rgba(244, 63, 94, 0.18);
-    border: 1px solid rgba(251, 113, 133, 0.45);
-    color: #FDA4AF;
+    background: var(--rose-bg);
+    border: 1px solid var(--rose-border);
+    color: var(--rose);
   }
 
   @container (width < 600px) {
@@ -691,16 +730,17 @@
     }
     tbody tr {
       margin: 10px;
-      border: 1px solid var(--border-subtle);
+      border: 1.5px solid #7DD3FC;
       border-radius: 12px;
       overflow: hidden;
+      background: #FFFFFF;
     }
     tbody th {
       position: sticky;
       inset-block-start: 0;
       z-index: 2;
-      background: #15223C;
-      border-block-end: 1px solid var(--border-subtle);
+      background: #E0F2FE;
+      border-block-end: 1px solid #7DD3FC;
     }
     tbody td {
       display: flex;
@@ -714,6 +754,15 @@
     tbody td:nth-child(3)::before { content: var(--label-3) ": "; color: var(--text-muted); font-size: 12.5px; }
     tbody td:nth-child(4)::before { content: var(--label-4) ": "; color: var(--text-muted); font-size: 12.5px; }
     tbody td:nth-child(5)::before { content: var(--label-5) ": "; color: var(--text-muted); font-size: 12.5px; }
+  }
+
+  @media (forced-colors: active) {
+    .top-bar, .hero-card, .theme-accordion > details, .leader-spotlight, .kpi-box, .table-wrapper {
+      border: 1px solid CanvasText;
+    }
+    .leader-spotlight {
+      outline: 2px solid Highlight;
+    }
   }
 
   @media (max-width: 680px) {
@@ -788,7 +837,7 @@
     </div>
 
     <div class="theme-accordion" id="top3Container">
-      <div style="padding:24px; text-align:center; color:#94A3B8; background:var(--bg-card); border-radius:14px; border:1px solid var(--border-subtle);">
+      <div style="padding:24px; text-align:center; color:var(--text-muted); font-weight:700; background:var(--bg-card); border-radius:14px; border:1.5px solid #38BDF8;">
         주도 테마 데이터를 불러오는 중입니다...
       </div>
     </div>
@@ -1002,7 +1051,7 @@
     });
 
     if (!themes.length) {
-      wrap.innerHTML = `<div style="padding:22px; text-align:center; color:#94A3B8; background:var(--bg-card); border-radius:14px; border:1px solid var(--border-subtle);">표시할 주도 테마 데이터가 없습니다.</div>`;
+      wrap.innerHTML = `<div style="padding:22px; text-align:center; color:var(--text-muted); font-weight:700; background:var(--bg-card); border-radius:14px; border:1.5px solid #38BDF8;">표시할 주도 테마 데이터가 없습니다.</div>`;
       return;
     }
 
@@ -1026,7 +1075,7 @@
         return `
           <div class="sub-stock-card" onclick="copyStockCode('${escHtml(s.code)}', '${escHtml(s.name)}')">
             <div>
-              <div class="sub-stock-nm">${escHtml(s.name)} <span style="font-size:12px; color:#94A3B8;">${escHtml(s.code)}</span></div>
+              <div class="sub-stock-nm">${escHtml(s.name)} <span style="font-size:12px; color:var(--text-muted);">${escHtml(s.code)}</span></div>
               <div class="sub-stock-sub">거래대금 ${Number(s.money_eok || 0).toLocaleString("ko-KR")}억 · VWAP ${fmtWon(s.vwap)}${secTag}</div>
             </div>
             <div class="${sCls}">${sr >= 0 ? "+" : ""}${sr.toFixed(1)}%</div>
@@ -1055,7 +1104,7 @@
                 <div class="leader-tag"><span class="blink-dot"></span>👑 우리 기준 1등 대장주</div>
                 <div class="leader-name-line">
                   <span class="leader-name">${escHtml(ld.name || "-")}</span>
-                  <span style="font-size:13.5px; color:#CBD5E1; font-weight:800;">(${escHtml(ld.code || "")})</span>
+                  <span class="leader-code">(${escHtml(ld.code || "")})</span>
                   <span class="leader-rate">${ldSign}${ldRate.toFixed(1)}%</span>
                 </div>
                 <div class="leader-meta">
@@ -1083,7 +1132,7 @@
     const totPnl = Number(st.total_pnl_krw || 0);
     const pnlEl = document.getElementById("kpiPnl");
     pnlEl.textContent = `${totPnl >= 0 ? "+" : ""}${totPnl.toLocaleString("ko-KR")}원`;
-    pnlEl.style.color = totPnl >= 0 ? "#4ADE80" : "#FB7185";
+    pnlEl.style.color = totPnl >= 0 ? "#047857" : "#BE123C";
 
     document.getElementById("kpiWinRate").textContent = `${Number(st.win_rate_pct || 0).toFixed(1)}%`;
     document.getElementById("kpiRecord").textContent =
@@ -1110,7 +1159,7 @@
         : `${fmtWon(r.buy_price)} → ${fmtWon(r.sell_price)} (${r.qty}주)`;
 
       const pnlCell = isHold
-        ? `<span style="color:#FDE047;">익일 +6.0% 그물망 대기</span>`
+        ? `<span style="color:#0369A1; font-weight:800;">익일 +6.0% 그물망 대기</span>`
         : `<span class="${pnlKrw >= 0 ? 'up-txt' : 'dn-txt'}">${pnlKrw >= 0 ? "+" : ""}${pnlKrw.toLocaleString("ko-KR")}원 (${pnlPct >= 0 ? "+" : ""}${pnlPct.toFixed(2)}%)</span>`;
 
       const badgeHtml = isHold
@@ -1120,8 +1169,8 @@
       return `
         <tr onclick="copyStockCode('${escHtml(r.code)}', '${escHtml(r.name)}')">
           <th scope="row">
-            ${escHtml(r.name)} <span style="font-size:12px; color:#94A3B8; font-weight:700;">${escHtml(r.code)}</span>
-            ${r.theme_name ? `<div style="font-size:12px; color:#7DD3FC; font-weight:700; margin-top:2px;">${escHtml(r.theme_name)}</div>` : ``}
+            ${escHtml(r.name)} <span style="font-size:12px; color:var(--text-muted); font-weight:700;">${escHtml(r.code)}</span>
+            ${r.theme_name ? `<div style="font-size:12px; color:#0369A1; font-weight:800; margin-top:2px;">${escHtml(r.theme_name)}</div>` : ``}
           </th>
           <td>${dateFlow}</td>
           <td>${pxFlow}</td>
@@ -1166,12 +1215,12 @@
     const connEl = document.getElementById("connStatus");
     client.on("connect", () => {
       connEl.textContent = "🟢 실시간 연결됨";
-      connEl.style.color = "#34D399";
+      connEl.style.color = "#047857";
       client.subscribe([TOPIC_ISI, TOPIC_LIVE]);
     });
     client.on("reconnect", () => {
       connEl.textContent = "🟡 재연결 중...";
-      connEl.style.color = "#FBBF24";
+      connEl.style.color = "#B45309";
     });
     client.on("message", (topic, payload) => {
       try {
