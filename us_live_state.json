@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:11:19",
-  "updated_at_et": "2026-11-16 09:11:19",
-  "updated_epoch_ms": 1794838279702,
+  "updated_at_kst": "2026-11-16 23:11:39",
+  "updated_at_et": "2026-11-16 09:11:39",
+  "updated_epoch_ms": 1794838299103,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DARE",
+    "company_name": "DARE",
+    "exchange": "ND",
+    "price": 0.676,
+    "gain_pct": 2.83,
+    "mcap_m": 13.3,
+    "catalyst_hint": "[당일 PR] Daré Bioscience Receives Approximately $852,000 in Additional Grant Funding",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:11:31",
+    "started_at_kst": "23:11:31",
+    "started_epoch_ms": 1794838291175
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0502,
-    "profit_rate": -3.65,
-    "updated_kst": "23:11:11"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "23:11:30"
   },
   "stats": {
     "today_total": 50,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:11:33",
+      "time_kst": "23:11:33",
+      "symbol": "YSWY",
+      "company_name": "YSWY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1569.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:11:24",
+      "time_kst": "23:11:24",
+      "symbol": "IVF",
+      "company_name": "IVF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (INVO Fertility Reports Third Quarter 2026 Results Highligh)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:09:57",
       "time_kst": "23:09:57",
       "symbol": "NEGG",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $268.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:37:14",
-      "time_kst": "22:37:14",
-      "symbol": "SCNX",
-      "company_name": "SCNX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (SCIENTURE Reports Q3 2026 Results with Approximately 265% )"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:37:01",
-      "time_kst": "22:37:01",
-      "symbol": "MBOT",
-      "company_name": "MBOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 투매 급락 구간 방어 차단 (현재 -31.5% <= -8.0%)"
     }
   ]
 }
