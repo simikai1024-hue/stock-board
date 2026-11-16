@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:45:50",
-  "updated_at_et": "2026-11-16 06:45:50",
-  "updated_epoch_ms": 1794829550057,
+  "updated_at_kst": "2026-11-16 20:46:48",
+  "updated_at_et": "2026-11-16 06:46:48",
+  "updated_epoch_ms": 1794829608524,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.8871,
-    "profit_rate": -1.27,
-    "updated_kst": "20:45:46"
+    "current_price": 4.9,
+    "profit_rate": -1.01,
+    "updated_kst": "20:46:44"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:46:20",
+      "time_kst": "20:46:20",
+      "symbol": "FANG",
+      "company_name": "FANG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51380.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:44:53",
       "time_kst": "20:44:53",
       "symbol": "MESO",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:22:16",
-      "time_kst": "18:22:16",
-      "symbol": "LINK",
-      "company_name": "LINK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
     }
   ]
 }
