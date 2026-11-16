@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:31:34",
-  "updated_at_et": "2026-11-16 09:31:34",
-  "updated_epoch_ms": 1794839494445,
+  "updated_at_kst": "2026-11-16 23:32:18",
+  "updated_at_et": "2026-11-16 09:32:18",
+  "updated_epoch_ms": 1794839538936,
   "analyzing": {
-    "active": true,
-    "symbol": "DTST",
-    "company_name": "DTST",
-    "exchange": "ND",
-    "price": 2.75,
-    "gain_pct": -2.61,
-    "mcap_m": 6.43,
-    "catalyst_hint": "[당일 PR] Data Storage Corporation Provides Third Quarter 2026 Business Update",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:31:31",
-    "started_at_kst": "23:31:31",
-    "started_epoch_ms": 1794839491745
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,15 +17,15 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.06,
-    "profit_rate": -2.75,
-    "updated_kst": "23:31:16"
+    "current_price": 1.04,
+    "profit_rate": -4.59,
+    "updated_kst": "23:32:13"
   },
   "stats": {
-    "today_total": 60,
-    "today_nblm_count": 60,
+    "today_total": 61,
+    "today_nblm_count": 61,
     "today_buy": 5,
-    "today_false": 55,
+    "today_false": 56,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
@@ -45,6 +33,26 @@
     "avg_nblm_sec": 42.9
   },
   "verdicts": [
+    {
+      "id": "v_1794839530814_DTST_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:32:10",
+      "time_kst": "23:32:10",
+      "symbol": "DTST",
+      "company_name": "DTST",
+      "exchange": "ND",
+      "price": 2.75,
+      "gain_pct": -2.61,
+      "mcap_m": 6.43,
+      "decision": "FALSE",
+      "elapsed_sec": 44.0,
+      "reason": "신규 확정 수주가 아닌 단순 Q3 정기 실적 및 비즈니스 업데이트(재무제표 수치 $29.3M 착시) PR로 1급 기폭제 미달 및 정규장 음봉 하락(-3.17%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Data Storage Corporation Provides Third Quarter 2026 Business Update",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DTST (Data Storage Corporation) 09:31 ET 정규장 개장 직후 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.43M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 455.7% 적발):\n본문 핵심 금액으로 감지된 약 $29.30M USD(시총 대비 455.7%)는 외부 고객사로부터 새롭게 유입되는 확정 수주나 신규 계약금이 아닙니다.\n회사의 3분기 누적 재무제표(매출액/총자산 등)에 포함된 **단순 내부 회계 수치(Periodic Financials Metric)**에 불과합니다.\n보도자료 부제에 명시된 실질 보유 현금 및 유가증권 역시 $9.5M 수준의 기존 잔고 현황일 뿐입니다.\n실시간 체결가 및 수급 (정규장 개장 직후 음봉 하락 심화):\n전일 종가 $2.8400 대비 현재가 $2.7500 (-3.17%).\n당일 최고가 $3.0600 찍은 후 장전 고점 대비 -10.1% 급락하며 마이너스 파란불 음봉 확대.\n당일 누적 거래대금 $41,836 USD.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:20 ET) 공식 PR 원문 분석:\nPR 제목: \"Data Storage Corporation Provides Third Quarter 2026 Business Update\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주가 아닌 통상적인 3분기 정기 실적 및 사업 현황 업데이트 (Routine Q3 Business Update PR):\n본 PR의 본질은 회사가 2026년 9월 30일로 마감된 3분기 정기 재무 실적을 보고하고, AI 연속성 플랫폼 개발 현황 및 보유 현금($9.5M)을 알리는 **단순 정기 실적 보도자료(today reported financial results for the third quarter ended September 30, 2026...)**입니다.\n외부 대기업이나 기관으로부터 확정된 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n족보집 심사 원칙상 \"단순 주주서한·기업현황(Business Update)·컨퍼런스콜 일정은 100% FORCE_BLOCK\" 규정에 완벽히 해당합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n11월 5일 실적 발표 일정 예고에 이은 예정된 일정 소진 (통상 분기 루틴):\n과거 이력 대조 결과, 회사는 이미 2026년 11월 5일에 \"Data Storage Corporation Schedules Third Quarter 2026 Business Update Call\" 보도자료를 통해 오늘 11:00 AM ET 컨퍼런스콜 및 실적 발표를 공식 예고한 바 있습니다.\n사전에 예고된 정기 IR 일정에 따라 숫자를 공개한 것에 불과하며, 시장에 서프라이즈를 주는 신규 기폭제가 아닙니다.\n심사 헌법 제3조 위배 및 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/기업 현황 업데이트/보유현금 나열은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n정규장 개장(09:30 ET) 이후에도 장전 고점 대비 -10.1% 밀리며 -3.17% 마이너스 파란불 음봉으로 하락 궤적이 지속되고 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 3분기 정기 실적(재무제표 수치 $29.3M 착시) 및 비즈니스 업데이트 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장중 -3.17% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: DTST 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: DTST NOTES:\n[DTST] 신규 확정 수주가 아닌 단순 Q3 정기 실적 및 비즈니스 업데이트(재무제표 수치 $29.3M 착시) PR로 1급 기폭제 미달 및 정규장 음봉 하락(-3.17%) 전량 차단 ===VERDICT_END===\n💡 오늘 정규장 개장 시점에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 골든타임(~10:00 ET) 중 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794839477292_CWD_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EDSA (Edesa Biotech, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $32.02M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $2.1500 대비 현재가 $2.3700 (+10.23% 상승), 당일 최고가 $2.6262 (고점 대비 -9.8%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 특S급 기폭제 확인\n당일(11/09) SEC 8-K (Item 1.01, 1.02, 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 1.01, 1.02, 7.01, 9.01) 접수.\n원문 팩트: 2026년 11월 8일 Edesa Biotech가 일본 Kyorin Pharmaceutical과 자사 주요 파이프라인 Paridiprubart의 일본 내 독점 개발 및 상업화 라이선스 계약(Collaboration and License Agreement)을 전격 체결함.\n[1급 확정 기폭제 무결점 검증]:\n8-K Item 1.01 확정 계약(Entry into a Material Definitive Agreement) 제출 완료.\n첨부 보도자료(EX-99.1) 원문에 **총 $140M 이상($140 Million+ in upfront, milestones, royalties)**의 구체적 달러 금액이 명시된 대형 글로벌 라이선스 계약으로 확인됨.\n당사 실질 시가총액($32.02M)의 4배가 넘는 $140M+ 대형 계약으로서 기업 가치를 수직 폭등시킬 수 있는 확정적 1급 기폭제 기준을 완벽히 충족함.\n최근 35일 SEC 공시 검수 결과 당일 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 유상증자/신주 물량 출회 희석 독소조항 0건.\n3. 최종 심사 및 결재 판정\n시가총액 $32.02M의 소형 품절주가 당일 SEC 8-K(Item 1.01)를 통해 시총의 4배를 초과하는 $140M+ 대형 독점 라이선스 계약을 확정 공시하였으며, 유증 희석 독소가 전무하므로 전략 헌장 심사 기준 2번 및 연구소 진짜대장주공식에 의거 **FORCE_BUY: EDSA**를 전격 승인 결재합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: EDSA FORCE_BLOCK: NONE NOTES:\n[EDSA] 시총 $32.02M 대비 4배가 넘는 $140M+ 대형 독점 라이선스 계약 8-K(Item 1.01) 확정 공시 및 유증 희석 0건으로 FORCE_BUY 승인 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "💰 익절 완료: 79주 | 매수 $2.3441 → 매도 $2.5600 (+9.21% / +$17.05)"
-    },
-    {
-      "id": "v_1794222433437_UK_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "06:07:13",
-      "time_kst": "20:07:13",
-      "symbol": "UK",
-      "company_name": "UK",
-      "exchange": "ND",
-      "price": 1.61,
-      "gain_pct": 0.04,
-      "mcap_m": 1.09,
-      "decision": "FALSE",
-      "elapsed_sec": 30.9,
-      "reason": "당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 +0.04% 보합권으로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 UK (Ucommune International Ltd) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.09M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6094 대비 현재가 $1.6100 (+0.04% 보합), 당일 최고가 $1.6100 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Foreign Private Issuer Report) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시 제출.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 +0.04% 보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 시세가 +0.04% 보합권에 머물러 있어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: UK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: UK NOTES:\n[UK] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 +0.04% 보합권으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:32:01",
+      "time_kst": "23:32:01",
+      "symbol": "TREO",
+      "company_name": "TREO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:31:53",
+      "time_kst": "23:31:53",
+      "symbol": "NXB",
+      "company_name": "NXB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "09:31:24",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Phunware Reports Third Quarter 2026 Financial Results)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:40:37",
-      "time_kst": "22:40:37",
-      "symbol": "CLBK",
-      "company_name": "CLBK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3008.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:39:42",
-      "time_kst": "22:39:42",
-      "symbol": "HIT",
-      "company_name": "HIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-15 [EFFECT] (Item ,,))"
     }
   ]
 }
