@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:02:15",
-  "updated_at_et": "2026-11-16 04:02:15",
-  "updated_epoch_ms": 1794819735586,
+  "updated_at_kst": "2026-11-16 18:03:12",
+  "updated_at_et": "2026-11-16 04:03:12",
+  "updated_epoch_ms": 1794819792414,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:02:12"
+    "updated_kst": "18:03:11"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 7,
+    "today_hardcut": 11,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:03:09",
+      "time_kst": "18:03:09",
+      "symbol": "ARAI",
+      "company_name": "ARAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $118.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:02:42",
+      "time_kst": "18:02:42",
+      "symbol": "RAIN",
+      "company_name": "RAIN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,3.03,5.07,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:02:29",
+      "time_kst": "18:02:29",
+      "symbol": "BOF",
+      "company_name": "BOF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:02:18",
+      "time_kst": "18:02:18",
+      "symbol": "CNVS",
+      "company_name": "CNVS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:01:48",
       "time_kst": "18:01:48",
       "symbol": "NTWK",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:31:34",
-      "time_kst": "23:31:34",
-      "symbol": "CHGA",
-      "company_name": "CHGA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:31:04",
-      "time_kst": "23:31:04",
-      "symbol": "REED",
-      "company_name": "REED",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:30:38",
-      "time_kst": "23:30:38",
-      "symbol": "GMM",
-      "company_name": "GMM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:30:33",
-      "time_kst": "23:30:33",
-      "symbol": "PASW",
-      "company_name": "PASW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
     }
   ]
 }
