@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:52:00",
-  "updated_at_et": "2026-11-16 09:52:00",
-  "updated_epoch_ms": 1794840720821,
+  "updated_at_kst": "2026-11-16 23:53:02",
+  "updated_at_et": "2026-11-16 09:53:02",
+  "updated_epoch_ms": 1794840782659,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 0.9991,
-    "profit_rate": -8.34,
-    "updated_kst": "23:51:59"
+    "current_price": 0.9907,
+    "profit_rate": -9.11,
+    "updated_kst": "23:52:57"
   },
   "stats": {
     "today_total": 61,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:53:00",
+      "time_kst": "23:53:00",
+      "symbol": "CCEP",
+      "company_name": "CCEP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52356.98M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:52:35",
+      "time_kst": "23:52:35",
+      "symbol": "YOUL",
+      "company_name": "YOUL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:52:30",
+      "time_kst": "23:52:30",
+      "symbol": "IMRN",
+      "company_name": "IMRN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:51:58",
       "time_kst": "23:51:58",
       "symbol": "ABVC",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:07:09",
-      "time_kst": "23:07:09",
-      "symbol": "AMD",
-      "company_name": "AMD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $833985.77M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:06:38",
-      "time_kst": "23:06:38",
-      "symbol": "MMED",
-      "company_name": "MMED",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5292.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:06:03",
-      "time_kst": "23:06:03",
-      "symbol": "SPWR",
-      "company_name": "SPWR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
     }
   ]
 }
