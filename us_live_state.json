@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:30:07",
-  "updated_at_et": "2026-11-16 05:30:07",
-  "updated_epoch_ms": 1794825007022,
+  "updated_at_kst": "2026-11-16 19:30:29",
+  "updated_at_et": "2026-11-16 05:30:29",
+  "updated_epoch_ms": 1794825029886,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:30:03"
+    "updated_kst": "19:30:23"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
-    "today_buy": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
+    "today_buy": 1,
     "today_false": 0,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 13,
-    "total_false": 137,
-    "avg_nblm_sec": 27.6
+    "total_buy": 14,
+    "total_false": 136,
+    "avg_nblm_sec": 0.3
   },
   "verdicts": [
+    {
+      "id": "v_1794825026390_CLRO_BUY",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "05:30:26",
+      "time_kst": "19:30:26",
+      "symbol": "CLRO",
+      "company_name": "CLRO",
+      "exchange": "ND",
+      "price": 5.06,
+      "gain_pct": 50.15,
+      "mcap_m": 2.99,
+      "decision": "BUY",
+      "elapsed_sec": 0.3,
+      "reason": "🔥 [순수 무뉴스 초품절 숏스퀴즈 점화 확정] 유통총액 $2.99M(0.89M주) | 공매도 44.0% | 회전율 3.94x($14.77M) | 공식PR·SEC공시 0건",
+      "catalyst_hint": "[Track B 초품절 숏스퀴즈] 유통총액 $2.993M | 공매도 44.05% | 회전율 3.94x",
+      "full_report": "[Track B: 초품절 숏스퀴즈 스나이퍼 실시간 점화 포착]\n- 종목: CLRO (NASDAQ)\n- 현재가: $5.06 (+50.15%, 전일종가 $3.3700)\n- 유통주식총액: $2.993M (유통주식수 0.888M주)\n- 공매도 잔고 비중: 44.05%\n- 실시간 마진콜 점화: 누적거래대금 $14.77M / 회전율 3.94배\n- 당일(D-Day) 오퍼링·희석 폭탄: 0건 확인 완료 -> 즉시 선점 매수 및 +51% 매복 익절 발주!",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_1794596886649_ONFO_BUY",
       "date_et": "2026-11-13",
@@ -2410,26 +2430,6 @@
       "reason": "단순 3분기 실적 발표 일정 예고(Earnings Call Schedule Notice)는 1급 확정 기폭제 미달 및 전일 대비 -13.42% 약세로 전량 차단",
       "catalyst_hint": "[당일 PR] Nuwellis to Report Third Quarter 2026 Financial Results on November 12",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 NUWE (Nuwellis, Inc.) 정밀 직독 결재 보고입니다 [cite: 12, 322].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $19.15M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 14].\n실시간 시세 및 수급: 전일 종가 $6.0635 대비 현재가 $5.2500 (-13.42% 약세), 당일 최고가 $5.4200 (고점 대비 -3.1%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Nuwellis to Report Third Quarter 2026 Financial Results on November 12\"\n원문 팩트: 2026년 3분기 실적 발표(Earnings Release) 및 컨퍼런스 콜을 오는 11월 12일에 진행한다는 단순 정기 실적 발표 일정 예고(Earnings Release Date Announcement) 보도자료입니다.\n치명적 기폭제 결함:\n오늘 당일 발표된 재료는 실질적인 현금 매출 확정이나 신약/수주/M&A 호재가 아니라, 단지 실적 발표 날짜를 안내하는 단순 정기 행정 일정 공지에 불과합니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 정기실적 발표 예고/주주서한/컨퍼런스 일정 안내' 범주에 정확히 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 12, 15].\n구체적 기폭제 부재 및 -13.42% 음봉 하락 흐름이 나타나고 있으며 장전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 3분기 실적 발표 일정 예고(Earnings Release Date Announcement)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: NUWE 처리합니다 [cite: 12].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: NUWE NOTES:\n[NUWE] 단순 3분기 실적 발표 일정 예고(Earnings Call Schedule Notice)는 1급 확정 기폭제 미달 및 전일 대비 -13.42% 약세로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793799728273_MDCX_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:42:08",
-      "time_kst": "22:42:08",
-      "symbol": "MDCX",
-      "company_name": "Medicus Pharma Ltd.",
-      "exchange": "ND",
-      "price": 2.1485,
-      "gain_pct": 6.89,
-      "mcap_m": 0.51,
-      "decision": "FALSE",
-      "elapsed_sec": 50.7,
-      "reason": "구속력 없는 LOI(의향서) 단계의 제안형 M&A + 동시 유상증자(Concurrent Financing) 희석 위험으로 1급 확정 기폭제 미달 및 전량 차단",
-      "catalyst_hint": "[당일 PR] Medicus Pharma Announces Proposed SkinJect® Business Combination and Concurrent Financing",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 MDCX (Medicus Pharma Ltd.) 정밀 직독 결재 보고입니다 [cite: 266, 267].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.51M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 266].\n실시간 시세 및 수급: 전일 종가 $2.0100 대비 현재가 $2.1485 (+6.89%), 당일 최고가 $2.5000 (고점 대비 -14.1% 윗꼬리 밀림) [cite: 266]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 266].\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Medicus Pharma Announces Proposed SkinJect® Business Combination and Concurrent Financing\" [cite: 267]\n원문 팩트: 자회사(Skinject, Inc.)를 SPAC과 기업결합(Business Combination)하기 위해 **구속력 없는 의향서(non-binding LOI)**를 체결하였으며, 본 거래와 동시에 **주식 유상증자 자금조달(Concurrent Financing)**을 추진한다는 발표 [cite: 268, 270].\n치명적 기폭제 결함:\n[LOI 구속력 부재]: M&A 계약 확정이 아닌 'non-binding LOI(구속력 없는 의향서)' 및 'Proposed(제안 단계)' 발표에 불과합니다 [cite: 268, 270]. 원문에도 *\"terms are non-binding... There can be no assurance that definitive agreements will be signed\"*가 명시되어 있어 실체 없는 단순 MOU/LOI 범주에 속합니다 [cite: 270].\n[유상증자 희석 위험 동반]: PR 제목과 본문에 명시된 'Concurrent Financing(동시 유상증자 자금조달)' 및 'potentially dilutive securities' 문구는 신주 발행에 따른 주식 가치 희석 및 오퍼링 물량 출회 위험을 직접적으로 내포합니다 (원칙 1·3 위반) [cite: 267, 270].\n[차트 윗꼬리 밀림]: 당일 최고가($2.5000) 대비 -14.1% 매물이 출회되며 주가 탄력이 둔화되었습니다 [cite: 266].\n3. 최종 심사 및 결재 판정\n당일 PR이 구속력 없는 LOI(의향서) 단계의 제안형 M&A 발표에 불과하고, 동시 유상증자(Concurrent Financing) 희석 위험이 동반되어 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: MDCX 처리합니다 [cite: 268, 270].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: MDCX NOTES:\n[MDCX] 구속력 없는 LOI(의향서) 단계의 제안형 M&A + 동시 유상증자(Concurrent Financing) 희석 위험으로 1급 확정 기폭제 미달 및 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
