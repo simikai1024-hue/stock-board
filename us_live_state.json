@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:33:25",
-  "updated_at_et": "2026-11-16 07:33:25",
-  "updated_epoch_ms": 1794832405630,
+  "updated_at_kst": "2026-11-16 21:34:00",
+  "updated_at_et": "2026-11-16 07:34:00",
+  "updated_epoch_ms": 1794832440647,
   "analyzing": {
-    "active": true,
-    "symbol": "CNSY",
-    "company_name": "CNSY",
-    "exchange": "ND",
-    "price": 0.96,
-    "gain_pct": 1.34,
-    "mcap_m": 7.29,
-    "catalyst_hint": "[당일 PR] Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:33:23",
-    "started_at_kst": "21:33:23",
-    "started_epoch_ms": 1794832403161
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "21:33:08"
+    "current_price": 1.0199,
+    "profit_rate": -6.43,
+    "updated_kst": "21:33:46"
   },
   "stats": {
-    "today_total": 15,
-    "today_nblm_count": 15,
+    "today_total": 16,
+    "today_nblm_count": 16,
     "today_buy": 3,
-    "today_false": 12,
+    "today_false": 13,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 16,
     "total_false": 134,
-    "avg_nblm_sec": 31.5
+    "avg_nblm_sec": 31.9
   },
   "verdicts": [
+    {
+      "id": "v_1794832436895_CNSY_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "07:33:56",
+      "time_kst": "21:33:56",
+      "symbol": "CNSY",
+      "company_name": "CNSY",
+      "exchange": "ND",
+      "price": 0.96,
+      "gain_pct": 1.34,
+      "mcap_m": 7.29,
+      "decision": "FALSE",
+      "elapsed_sec": 37.2,
+      "reason": "FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.6% 윗꼬리 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CNSY (Cerenome, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.29M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.9502 대비 현재가 $0.9600 (+1.03%), 당일 최고가 $1.1800 (장전 고점 대비 -18.6% 급격한 윗꼬리 덤핑), 당일 누적 거래대금 $25,131 USD.\n선발표 규정 확인: 학회 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 신약 성공이 아닌 단순 학회 중간 데이터 발표 (Interim Conference Data PR):\n본 PR의 본질은 신경종양학회(2026 SNO Annual Meeting)에서 연수막 전이(LM) 대상 REYOBIQ™의 진행 중인 임상 중간 데이터(Interim ReSPECT-LM Data)를 단순 구두/포스터 발표했다는 학회 발표 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 'FDA 최종 승인(Approval)'이나 '임상 최종 1차 평가지표 입증(Endpoint Met)'이 아니며, 진행 중인 임상의 단순 중간 경과 보고에 불과합니다.\n직전 3분기 실적 발표(11/13)의 판박이 3일 만의 재탕 (SNO 학회 우려먹기 IR):\n과거 180일 이력 대조 결과, 회사는 불과 3영업일 전(2026-11-13) 3분기 실적 발표 PR에서 이미 *\"Featuring REYOBIQ ReSPECT-LM Data...\"*라며 해당 임상 데이터를 핵심 하이라이트로 공개한 바 있습니다.\n즉, 3일 전에 이미 시장에 노출된 임상 데이터를 주말 직후 SNO 학회 일정에 맞춰 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 전무:\n빅파마 거액 독점 라이선스 계약, 확정 수주금액 및 현금선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 회복+전환사채 0원(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 피뢰침 설거지:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터/기발표 임상 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.1800까지 반짝 상승 후 고점 대비 -18.6% 급락하며 시초가 부근($0.96)까지 곤두박질친 전형적인 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터 발표이자 불과 3일 전 3분기 실적 발표에서 기언급된 데이터의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -18.6% 급락 덤핑 수급이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CNSY 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CNSY NOTES:\n[CNSY] FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.6% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794832392665_ELAB_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,29 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793869681033_ELPW_BUY",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "04:08:01",
-      "time_kst": "18:08:01",
-      "symbol": "ELPW",
-      "company_name": "Elong Power Holding Ltd.",
-      "exchange": "ND",
-      "price": 2.9905,
-      "gain_pct": 17.05,
-      "mcap_m": 2.79,
-      "decision": "BUY",
-      "elapsed_sec": 41.8,
-      "reason": "시총 $2.79M 초소형주가 $300M(3억 달러) 대형 에너지 저장 장비 공급 계약 체결 발표로 시초 매수 승인",
-      "catalyst_hint": "[당일 PR] Elong Power Holding Limited (NASDAQ: ELPW) Announces Subsidiary’s Entry into a Three-Year Cooperation Agreement Worth at least RMB2 Billion (～US$300 Million), Achieving a M",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ELPW (Elong Power Holding Limited) 정밀 직독 결재 보고입니다 [cite: 343, 344].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.79M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과) [cite: 343].\n실시간 시세 및 수급: 전일 종가 $2.5550 대비 현재가 $2.9905 (+17.05%), 당일 최고가 $3.2400 (-7.7%) [cite: 343].\n프리마켓(04:00 ET) 선발표 구간으로 장전 거래대금 $0 USD이나, 전략 헌장 2번 지침(\"시총 $50M 이하 품절주로서 확정적 1급 대형 수주/계약 등 기폭제 충족 시 프리장 거래대금이 $0이라도 과감히 FORCE_BUY\")에 완벽 부합합니다 [cite: 13, 343].\n2. D-Day PR 원문 직독 정밀 검증 & 무결점 1급 기폭제\n당일(11/05 04:00 ET) PR 원문 분석:\nPR 제목: \"Elong Power Holding Limited (NASDAQ: ELPW) Announces Subsidiary’s Entry into a Three-Year Cooperation Agreement Worth at least RMB2 Billion (～US$300 Million), Achieving a Major Breakthrough in Domestic Grid-Side Energy Storage Supply\" [cite: 344]\n원문 팩트 1 (초대형 대형 수주/계약 체결): 100% 자회사(Elong Power (Beijing) Co., Ltd.)가 그리드측 에너지 저장 장비 공급과 관련하여 3년 총 최소 20억 위안 (약 미화 3억 달러 / US$300 Million) 규모의 협력 공급 계약(Cooperation Agreement)을 서명 즉시 효력 발효 조건으로 체결했습니다 [cite: 344].\n원문 팩트 2 (1차 이행 확정 수주금액 명시): 2027년 1월 첫 이행 차수 세부 이행 계약만 최소 3억 위안 (약 미화 4,500만 달러 / US$45 Million) 수준으로 확정 명시되었습니다 [cite: 344, 346].\n원문 팩트 3 (기업가치 폭발 모멘텀): 시가총액 단 $2.79M 초소형 품절주가 시총의 100배가 넘는 US$300M(3억 달러) 확정 공급 계약을 전격 발표하여 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(구체적 $ 금액 명시 대형 수주/계약) 조건에 완벽히 충족합니다 [cite: 13, 343, 344].\n사전/당일 SEC 유증 희석 위험 0건 (완전 무결점):\n최근 35일간 6-K 단순 행정 서류만 제출되었을 뿐, 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 신주 덤핑 유증 요인이 단 1건도 없는 완전 무결점 주주구조를 유지 중입니다 [cite: 13, 350-352].\n족보 대조: 성공 표본인 AIOK 및 MERC와 동일하게, 유상증자 희석 위험이 전무한 상태에서 실체적 대형 확정 계약을 발표한 무결점 1급 기폭제 메커니즘을 공유합니다 [cite: 18, 27].\n3. 최종 심사 및 결재 판정\n시가총액 $2.79M 초소형주가 시총의 100배에 달하는 $300M 대형 에너지 저장 장비 공급 계약을 전격 수주·발표한 확정적 1급 기폭제 조건에 따라 오늘 개장 직후 시초가 매수를 **FORCE_BUY: ELPW**로 최종 승인 결재합니다 [cite: 13, 343, 344].\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: ELPW FORCE_BLOCK: NONE NOTES:\n[ELPW] 시총 $2.79M 초소형주가 $300M(3억 달러) 대형 에너지 저장 장비 공급 계약 체결 발표로 시초 매수 승인 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🚀 실전매수 체결 완료 (50주 @ 평단 $3.0000)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:33:44",
+      "time_kst": "21:33:44",
+      "symbol": "BLDP",
+      "company_name": "BLDP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $459.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:33:35",
+      "time_kst": "21:33:35",
+      "symbol": "SGRY",
+      "company_name": "SGRY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3482.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "07:33:03",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $88.24M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:02:56",
-      "time_kst": "21:02:56",
-      "symbol": "IVVD",
-      "company_name": "IVVD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $165.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:02:50",
-      "time_kst": "21:02:50",
-      "symbol": "PRLD",
-      "company_name": "PRLD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $270.51M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
