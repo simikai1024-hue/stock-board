@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:40:16",
-  "updated_at_et": "2026-11-16 08:40:16",
-  "updated_epoch_ms": 1794836416272,
+  "updated_at_kst": "2026-11-16 22:41:02",
+  "updated_at_et": "2026-11-16 08:41:02",
+  "updated_epoch_ms": 1794836462036,
   "analyzing": {
-    "active": true,
-    "symbol": "EHLD",
-    "company_name": "EHLD",
-    "exchange": "ND",
-    "price": 11.3,
-    "gain_pct": 0.0,
-    "mcap_m": 31.83,
-    "catalyst_hint": "[당일 PR] Euroholdings Ltd Reports Results for the Quarter and Nine-Month Period Ended September 30, 2026",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:40:08",
-    "started_at_kst": "22:40:08",
-    "started_epoch_ms": 1794836408755
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.03,
+    "current_price": 1.0301,
     "profit_rate": -5.5,
-    "updated_kst": "22:40:07"
+    "updated_kst": "22:40:45"
   },
   "stats": {
-    "today_total": 45,
-    "today_nblm_count": 45,
+    "today_total": 46,
+    "today_nblm_count": 46,
     "today_buy": 5,
-    "today_false": 40,
+    "today_false": 41,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 16,
-    "total_false": 134,
-    "avg_nblm_sec": 39.2
+    "total_buy": 15,
+    "total_false": 135,
+    "avg_nblm_sec": 39.5
   },
   "verdicts": [
+    {
+      "id": "v_1794836457305_EHLD_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:40:57",
+      "time_kst": "22:40:57",
+      "symbol": "EHLD",
+      "company_name": "EHLD",
+      "exchange": "ND",
+      "price": 11.3,
+      "gain_pct": 0.0,
+      "mcap_m": 31.83,
+      "decision": "FALSE",
+      "elapsed_sec": 52.5,
+      "reason": "신규 확정 수주가 아닌 단순 Q3 정기 실적 발표(11월 9일 기예고 루틴) PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Euroholdings Ltd Reports Results for the Quarter and Nine-Month Period Ended September 30, 2026",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 EHLD (Euroholdings Ltd) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $31.83M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 적발):\n본문 핵심 금액으로 감지된 약 $8.30M USD(시총 대비 26.1%)는 외부에서 신규 유입되는 확정 수주나 신규 계약금이 아닙니다.\n해운 선사 정기 실적 보고서상의 3분기 분기 순이익, 영업이익 또는 특정 부문 매출 등 **내부 정기 재무제표 수치(Q3 Earnings Financial Metric)**에 불과합니다.\n실시간 체결가 및 수급 (거래량 실종 바닥 구간):\n전일 종가 $11.3000 대비 현재가 $11.3000 (+0.00%), 당일 최고가 $11.3000 (+0.00%).\n당일 누적 거래대금 $0 USD (프리마켓 거래량 전무한 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 6-K 분기 실적 제출 관련 4영업일 이내 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:37 ET) 공식 PR 원문 분석:\nPR 제목: \"Euroholdings Ltd Reports Results for the Quarter and Nine-Month Period Ended September 30, 2026\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적인 3분기 및 9개월 누적 정기 실적 발표 (Routine Q3 Earnings PR):\n본 PR의 본질은 컨테이너선 및 탱커선 선주/운항사인 Euroholdings가 2026년 9월 30일로 마감된 3분기 및 9개월 누적 재무 실적을 공시한 **단순 정기 실적 보도자료(announced today its results for the three and nine-month periods ended September 30, 2026)**입니다.\n외부 신규 고객사와의 대규모 선박 장기 용선 계약, 확정 수주/매각 대금, 거액 현금 선급금 유입 등 신규 사업 확정 호재가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 주가를 수직 견인할 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n11월 9일 실적 예고에 이은 예정된 일정 소진 (통상 분기 루틴):\n과거 이력 대조 결과, 회사는 이미 2026년 11월 9일에 \"EuroHoldings Ltd. Sets Date for the Release of Third Quarter 2026 Results, Conference Call and Webcast\" 보도자료를 통해 오늘 실적 발표 일정을 사전 공지한 바 있습니다.\n사전에 예고된 정기 IR 일정에 따라 숫자를 공개한 것에 불과하며, 시장에 서프라이즈를 주는 신규 기폭제가 아닙니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/매출 보고/통상 IR 뉴스는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 3분기 정기 실적 발표이자 11월 9일 예고된 정기 IR 일정 소진에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: EHLD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: EHLD NOTES:\n[EHLD] 신규 확정 수주가 아닌 단순 Q3 정기 실적 발표(11월 9일 기예고 루틴) PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794836391047_HIND_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 VRM (Vroom, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $34.91M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $7.0000 대비 현재가 $6.6700 (-4.71% 약보합), 당일 최고가 $7.1100 (고점 대비 -6.2% 밀림)\n. 당일 누적 거래대금 $32,603 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함\n당일(11/05 13:50 ET) PR 원문 분석:\nPR 제목: *\"Robert J. Mylod, Jr. Elected a Director of Graham Holdings Company\"*\n원문 팩트: 타기업인 그레이엄 홀딩스(Graham Holdings Company, NYSE: GHC)에서 Robert J. Mylod, Jr.를 자사 이사회 이사로 선출했다는 타법인 보도자료입니다.\n치명적 기폭제 결함:\n[타기업 이사 선출 관련 뉴스 착시]: VRM 본체의 확정적 기업 가치 상승이나 현금 유입, 대형 수주/계약이 아니라, 타법인(GHC)의 이사 선임 소식에 VRM 관련 인물이 포함되어 태그로 수신된 타법인 단순 인사 보도자료 착시입니다.\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 임원/이사 선임, 타법인 뉴스, 주주서한' 범주에 정확히 속하므로 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다.\n현재 주가 반응 역시 전일 대비 -4.71% 음봉 약세를 기록하고 있으며, 당일 거래대금($32,603 USD)도 극히 빈약하여 세력 매집 유동성이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 타기업 이사 선출 관련 소식에 불과하고 VRM 본체의 확정 1급 재료가 부재하며, 전일 대비 -4.71% 음봉 약세를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: VRM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: VRM NOTES:\n[VRM] 타기업(Graham Holdings Company) 이사 선출 단순 홍보 뉴스 및 -4.71% 음봉 약세로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793898615604_GYRO_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "12:10:15",
-      "time_kst": "02:10:15",
-      "symbol": "GYRO",
-      "company_name": "GYRO",
-      "exchange": "ND",
-      "price": 4.16,
-      "gain_pct": 0.97,
-      "mcap_m": 9.15,
-      "decision": "FALSE",
-      "elapsed_sec": 40.3,
-      "reason": "정기 주주총회 CEO 연설문 제출 공시(Item 7.01)는 1급 확정 기폭제 미달 및 장전 보합(+0.97%)으로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 GYRO (Gyrodyne, LLC) 정밀 직독 결재 보고입니다 [cite: 403, 404].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.15M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 403].\n실시간 시세 및 수급: 전일 종가 $4.1200 대비 현재가 $4.1600 (+0.97% 보합), 당일 최고가 $4.2000 (고점 대비 -1.0%) [cite: 403]. 당일 누적 거래대금 $6,861 USD [cite: 403].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 12:09 ET) SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 404].\n원문 팩트: \"Gary Fitlin, President, Chief Executive Officer... presented remarks at the Company's 2026 Annual Shareholders Meeting held on November 5, 2026. The text of Mr. Fitlin's remarks is attached hereto as Exhibit 99.1...\" [cite: 404]\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니라, 단순 정기 주주총회 경영진 연설문/주주서한(CEO Remarks at Annual Shareholders Meeting) 제출에 불과합니다 [cite: 24, 404].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 주주서한/주주총회 연설문/IR 자료' 범주에 정확히 속합니다 [cite: 24].\n주가 반응 역시 전일 대비 +0.97% 보합권에 갇혀 있으며, 거래대금($6,861 USD)도 빈약하여 세력 수급 유입 모멘텀이 전무합니다 [cite: 403].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 주주총회 CEO 연설문(Item 7.01) 제출에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GYRO 처리합니다 [cite: 24, 404].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 24].\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: GYRO NOTES:\n[GYRO] 정기 주주총회 CEO 연설문 제출 공시(Item 7.01)는 1급 확정 기폭제 미달 및 장전 보합(+0.97%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:40:37",
+      "time_kst": "22:40:37",
+      "symbol": "CLBK",
+      "company_name": "CLBK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3008.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:39:42",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $222.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:13:28",
-      "time_kst": "22:13:28",
-      "symbol": "POWW",
-      "company_name": "POWW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $285.51M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
