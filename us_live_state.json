@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:01:25",
-  "updated_at_et": "2026-11-16 04:01:25",
-  "updated_epoch_ms": 1794819685774,
+  "updated_at_kst": "2026-11-16 18:02:15",
+  "updated_at_et": "2026-11-16 04:02:15",
+  "updated_epoch_ms": 1794819735586,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:01:15"
+    "updated_kst": "18:02:12"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 5,
+    "today_hardcut": 7,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:01:48",
+      "time_kst": "18:01:48",
+      "symbol": "NTWK",
+      "company_name": "NTWK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.32M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:01:44",
+      "time_kst": "18:01:44",
+      "symbol": "PARA",
+      "company_name": "PARA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B4])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:01:22",
       "time_kst": "18:01:22",
       "symbol": "OPNW",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:30:21",
-      "time_kst": "23:30:21",
-      "symbol": "ELOG",
-      "company_name": "ELOG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:25:55",
-      "time_kst": "23:25:55",
-      "symbol": "PMCB",
-      "company_name": "PMCB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $82.66M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
