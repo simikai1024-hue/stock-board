@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:51:23",
-  "updated_at_et": "2026-11-16 11:51:23",
-  "updated_epoch_ms": 1794847883912,
+  "updated_at_kst": "2026-11-17 01:52:26",
+  "updated_at_et": "2026-11-16 11:52:26",
+  "updated_epoch_ms": 1794847946171,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.14,
-    "profit_rate": 4.59,
-    "updated_kst": "01:51:19"
+    "current_price": 1.145,
+    "profit_rate": 5.05,
+    "updated_kst": "01:52:21"
   },
   "stats": {
     "today_total": 65,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:51:52",
+      "time_kst": "01:51:52",
+      "symbol": "BETR",
+      "company_name": "BETR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $290.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:49:30",
       "time_kst": "01:49:30",
       "symbol": "SORA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:46:01",
-      "time_kst": "23:46:01",
-      "symbol": "HOST",
-      "company_name": "HOST",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $53.24M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
