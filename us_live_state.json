@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:51:22",
-  "updated_at_et": "2026-11-16 07:51:22",
-  "updated_epoch_ms": 1794833482482,
+  "updated_at_kst": "2026-11-16 21:52:21",
+  "updated_at_et": "2026-11-16 07:52:21",
+  "updated_epoch_ms": 1794833541659,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.12,
-    "profit_rate": 2.75,
-    "updated_kst": "21:51:16"
+    "current_price": 1.13,
+    "profit_rate": 3.67,
+    "updated_kst": "21:52:15"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:51:47",
+      "time_kst": "21:51:47",
+      "symbol": "VCTR",
+      "company_name": "VCTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $7738.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:51:32",
+      "time_kst": "21:51:32",
+      "symbol": "ALLR",
+      "company_name": "ALLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:46:24",
       "time_kst": "21:46:24",
       "symbol": "LNZA",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $61.5M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:52",
-      "time_kst": "21:03:52",
-      "symbol": "BOT",
-      "company_name": "BOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $434.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:48",
-      "time_kst": "21:03:48",
-      "symbol": "AIRJ",
-      "company_name": "AIRJ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $165.46M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
