@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:08:03",
-  "updated_at_et": "2026-11-16 09:08:03",
-  "updated_epoch_ms": 1794838083400,
+  "updated_at_kst": "2026-11-16 23:08:52",
+  "updated_at_et": "2026-11-16 09:08:52",
+  "updated_epoch_ms": 1794838132918,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "UPLD",
+    "company_name": "UPLD",
+    "exchange": "ND",
+    "price": 2.94,
+    "gain_pct": 0.0,
+    "mcap_m": 8.35,
+    "catalyst_hint": "[당일 PR] Upland RightAnswers Gains AI-Powered Knowledge on Amazon Bedrock",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:08:45",
+    "started_at_kst": "23:08:45",
+    "started_epoch_ms": 1794838125868
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0412,
-    "profit_rate": -4.48,
-    "updated_kst": "23:07:59"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "23:08:37"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2449,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:08:51",
+      "time_kst": "23:08:51",
+      "symbol": "JBHT",
+      "company_name": "JBHT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $22021.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:08:38",
+      "time_kst": "23:08:38",
+      "symbol": "GPRE",
+      "company_name": "GPRE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $932.18M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:08:34",
+      "time_kst": "23:08:34",
+      "symbol": "ACAD",
+      "company_name": "ACAD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3128.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:08:07",
+      "time_kst": "23:08:07",
+      "symbol": "JAGX",
+      "company_name": "JAGX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:07:59",
       "time_kst": "23:07:59",
       "symbol": "WEN",
@@ -2894,46 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $120.87M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:35:48",
-      "time_kst": "22:35:48",
-      "symbol": "ALTO",
-      "company_name": "ALTO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $290.89M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:35:42",
-      "time_kst": "22:35:42",
-      "symbol": "MTSI",
-      "company_name": "MTSI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $16851.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:35:28",
-      "time_kst": "22:35:28",
-      "symbol": "CLIK",
-      "company_name": "CLIK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Click Holdings (NASDAQ: CLIK) Reports Strong Q1 FY2026/27 )"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:35:18",
-      "time_kst": "22:35:18",
-      "symbol": "NDAQ",
-      "company_name": "NDAQ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60173.53M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
