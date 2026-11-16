@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:14:00",
-  "updated_at_et": "2026-11-16 05:14:00",
-  "updated_epoch_ms": 1794824040001,
+  "updated_at_kst": "2026-11-16 19:15:00",
+  "updated_at_et": "2026-11-16 05:15:00",
+  "updated_epoch_ms": 1794824100720,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:13:56"
+    "updated_kst": "19:14:54"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 57,
+    "today_hardcut": 58,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "05:14:13",
+      "time_kst": "19:14:13",
+      "symbol": "DWSN",
+      "company_name": "DWSN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "05:00:50",
       "time_kst": "19:00:50",
       "symbol": "EEFT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:02:18",
-      "time_kst": "18:02:18",
-      "symbol": "CNVS",
-      "company_name": "CNVS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
