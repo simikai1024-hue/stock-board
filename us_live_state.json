@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:04:44",
-  "updated_at_et": "2026-11-16 07:04:44",
-  "updated_epoch_ms": 1794830684356,
+  "updated_at_kst": "2026-11-16 21:05:14",
+  "updated_at_et": "2026-11-16 07:05:14",
+  "updated_epoch_ms": 1794830714950,
   "analyzing": {
-    "active": true,
-    "symbol": "HIHO",
-    "company_name": "HIHO",
-    "exchange": "ND",
-    "price": 1.0285,
-    "gain_pct": 31.02,
-    "mcap_m": 4.76,
-    "catalyst_hint": "[당일 PR] HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:04:40",
-    "started_at_kst": "21:04:40",
-    "started_epoch_ms": 1794830680499
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:04:27"
+    "updated_kst": "21:05:09"
   },
   "stats": {
-    "today_total": 11,
-    "today_nblm_count": 11,
-    "today_buy": 2,
+    "today_total": 12,
+    "today_nblm_count": 12,
+    "today_buy": 3,
     "today_false": 9,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 15,
-    "total_false": 135,
-    "avg_nblm_sec": 30.1
+    "total_buy": 16,
+    "total_false": 134,
+    "avg_nblm_sec": 30.2
   },
   "verdicts": [
+    {
+      "id": "v_1794830708855_HIHO_BUY",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "07:05:08",
+      "time_kst": "21:05:08",
+      "symbol": "HIHO",
+      "company_name": "HIHO",
+      "exchange": "ND",
+      "price": 1.0285,
+      "gain_pct": 31.02,
+      "mcap_m": 4.76,
+      "decision": "BUY",
+      "elapsed_sec": 31.6,
+      "reason": "주당 $0.43228(총 $2.0M, 시총 대비 42%/수익률 55%) 현금 특별배당 공식 결의 및 100만불 수급 동반 대박 PR(헌법 2조)로 즉시 매수 승인",
+      "catalyst_hint": "[당일 PR] HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 HIHO (Highway Holdings Limited) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.76M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 (압도적 현금 배당 비율):\n금번 특별현금배당 총액은 $2.00M USD로, 실질 시가총액($4.76M) 대비 무려 **42.0%**에 달하는 초대형 현금 환원입니다.\n1주당 배당금은 $0.43228 USD로, 전일 종가($0.7850) 대비 배당수익률만 **+55.07%**에 달하는 파격적인 현금 직지급 확정입니다.\n실시간 체결가 및 수급: 전일 종가 $0.7850 대비 현재가 $1.0285 (+31.02%), 당일 최고가 $1.0500 (고점 대비 -2.0% 초강세 유지), 당일 누적 거래대금 $1,031,924 USD (장전 100만 달러 이상 진성 거래대금 폭발 유입).\n선발표 규정 확인: 배당 결의 후 4영업일 이내 6-K 제출 유예 규정 구간으로, 당일 6-K 미접수 사유는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증: 1급 특급 시그널(특별배당) 공식 충족\n당일(11/16 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND\"\n원문 직독 결과 드러난 핵심 팩트:\n주당 $0.43228 현금 특별배당 공식 선언 (Special Cash Dividend):\n원문 본문에 *\"announced declaration by the Special Committee of the Board of Directors of a US$0.43228 per common share cash special dividend payable on November 30, 2026. The amount equals US$2.0 million payable pro rata to holders of the Company's common shares as of November 27, 2026\"*라고 명시되어 있습니다.\n이사회 특별위원회가 주당 $0.43228 현금 배당(기준일 11월 27일, 지급일 11월 30일)을 전격 결의 확정했습니다.\n체급 대비 압도적 배당 규모 (시총의 42%, 주가의 55%):\n총 배당금 $2.0M은 시총($4.76M)의 42%에 달하며, 주당 배당금 $0.43228은 주가 0.7달러선 페니주에게 이론상 주가 하방을 완전히 지지하고 폭등을 유발하는 1급 실체적 현금 기폭제입니다.\n재탕이 아닌 직전 David Lazar $7.0M 투자 완료 후속 실체적 주주환원:\n과거 이력(11/05)의 David Lazar $7.0M 전략적 투자 유치 완료 이후 유입된 풍부한 현금을 기반으로 실행된 신규 확정 주주환원(특별배당) 1급 공시입니다.\n심사 헌법 제2조 ①항 완벽 부합:\n연구소 심사 헌법 제2조: \"시총($50.0M 이하) 대비 압도적인 확정 달러 수주/계약+현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주매입/소각, 특별배당이면 FORCE_BUY!\" 규칙에 100% 정밀 부합합니다.\n희석 폭탄 부재:\n당일 활성 424B5(ATM) 출회나 신규 EFFECT 및 8-K 3.02 신주 물량 투하가 일절 없습니다.\n3. 최종 심사 및 결재 판정\n시총 약 $4.76M의 초소형 품절주가 시총의 42%에 달하는 총 $2.0M(주당 $0.43228, 배당률 +55%)의 현금 특별배당을 공식 확정 발표하였으며, 장전 100만 달러 이상의 대규모 수급이 동반된 무결점 1급 대장주 표본이므로 연구소 4대 심사 헌법 제2조에 의거 **FORCE_BUY: HIHO**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: HIHO FORCE_BLOCK: NONE NOTES:\n[HIHO] 주당 $0.43228(총 $2.0M, 시총 대비 42%/수익률 55%) 현금 특별배당 공식 결의 및 100만불 수급 동반 대박 PR(헌법 2조)로 즉시 매수 승인 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_1794830657165_YMAT_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 CWD (CaliberCos Inc.) 정밀 직독 결재 보고입니다 [cite: 264].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.53M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 264].\n실시간 시세 및 수급: 전일 종가 $0.4499 대비 현재가 $0.4361 (-3.07% 약보합), 당일 최고가 $0.4570 (고점 대비 -4.6%) [cite: 264]. 당일 프리장 누적 거래대금 $37,877 USD [cite: 264].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-04 [8-K] (Item 7.01, 9.01) 접수 [cite: 265].\n원문 팩트: \"On November 4, 2026, CaliberCos Inc. issued a press release today announcing that it has gone live with three additional tokenized real estate investment offerings: Caliber-Hyatt Studios Steamboat, Caliber-Hyatt Studios Phoenix/TSMC and the Caliber-HS Feeder Fund. Combined, the three offerings represent up to $85 million in offered equity...\" [cite: 265]\n치명적 기폭제 결함:\n오늘 제출된 재료는 회사로 확정적 현금이 유입되는 대형 수주/자산매각 계약이나 M&A 완료가 아니라, 총 $85M 규모의 **토큰화 부동산 투자 상품 3종 출시 및 투자자 모집 공시(Tokenized Real Estate Offerings Launch)**에 불과합니다 [cite: 265].\n이는 전략 헌장 3번 규칙에서 차단하는 '구체적 현금 수주/계약 금액 미명시 단순 상품 출시/펀드 모집/토큰화 프로젝트 홍보' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 6, 265].\n과거 [달의검] 족보집 CWD 부검 성적표(2026-10-30 8-K 출회 건)에서도 최고 상승률이 +2.9%에 그쳐 💀 실패·보합·설거지 패턴으로 검증된 바 있습니다 [cite: 133, 134].\n현재 시세가 전일 대비 -3.07% 음봉 약세를 기록하고 있어 장전 세력 매집 유동성 모멘텀도 약합니다 [cite: 264].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 토큰화 부동산 투자 상품 출시(Item 7.01)에 불과하고 음봉 약세(-3.07%) 흐름이 나타나 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CWD 처리합니다 [cite: 6, 264, 265].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 6].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 단순 토큰화 부동산 투자 상품 출시(Item 7.01) 공시는 1급 확정 기폭제 미달 및 음봉 약세(-3.07%)로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793814808473_ENSC_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "12:53:28",
-      "time_kst": "02:53:28",
-      "symbol": "ENSC",
-      "company_name": "ENSC",
-      "exchange": "ND",
-      "price": 0.3719,
-      "gain_pct": -1.22,
-      "mcap_m": 7.24,
-      "decision": "FALSE",
-      "elapsed_sec": 40.0,
-      "reason": "단순 이사 사임(Item 5.02) 행정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 음봉 약세(-1.22%) 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 5.02,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 ENSC (Ensysce Biosciences, Inc.) 정밀 직독 결재 보고입니다 [cite: 309, 310].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.24M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 309].\n실시간 시세 및 수급: 전일 종가 $0.3765 대비 현재가 $0.3719 (-1.22% 약보합), 당일 최고가 $0.3999 (고점 대비 -7.0%) [cite: 309]. 당일 누적 거래대금 $45,501 USD [cite: 309].\n2. D-Day SEC 8-K(Item 5.02) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 5.02) 원문 분석:\nSEC 공시 현황: 2026-11-04 [8-K] (Item 5.02, 9.01) 접수 [cite: 310].\n원문 팩트: \"Mr. Will Chang, a member of the Company's Board of Directors, that he intends to resign as a Director of the Company following the next annual meeting of stockholders...\" [cite: 310]\n치명적 기폭제 결함:\n오늘 당일 제출된 공시는 이사회 이사(Will Chang)가 다음 정기 주주총회 이후 사임할 의사를 통보했다는 단순 이사 사임/경영진 변경(Departure of Directors) 행정 보고입니다 [cite: 310].\n당일 기업 가치를 폭발시킬 공식 PR 보도자료 미수신(0건) 상태이며, 단순 임원/이사 사임 공시는 전략 헌장 3번 규칙(\"단순 임원 사임/경영진 교체/행정 보고 공시는 100% FORCE_BLOCK\")에 정확히 저해됩니다 [cite: 6, 310].\n이는 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 6, 310].\n거래대금이 $4.5만 달러 수준에 그치며 음봉 약세(-1.22%)가 유지되어 수급 모멘텀이 전무합니다 [cite: 309].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 이사 사임(Item 5.02) 행정 공시이고 공식 PR 뉴스가 미수신되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: ENSC 처리합니다 [cite: 6, 310].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 6].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: ENSC NOTES:\n[ENSC] 단순 이사 사임(Item 5.02) 행정 공시 및 PR 미수신으로 1급 확정 기폭제 미달 및 음봉 약세(-1.22%) 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:05:07",
+      "time_kst": "21:05:07",
+      "symbol": "SGML",
+      "company_name": "SGML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $554.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "07:04:43",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1405.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:15:41",
-      "time_kst": "20:15:41",
-      "symbol": "MEDS",
-      "company_name": "MEDS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
     }
   ]
 }
