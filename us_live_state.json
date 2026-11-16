@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:59:16",
-  "updated_at_et": "2026-11-16 11:59:16",
-  "updated_epoch_ms": 1794848356387,
+  "updated_at_kst": "2026-11-17 02:00:10",
+  "updated_at_et": "2026-11-16 12:00:10",
+  "updated_epoch_ms": 1794848410955,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.155,
-    "profit_rate": 5.96,
-    "updated_kst": "01:59:09"
+    "current_price": 1.15,
+    "profit_rate": 5.5,
+    "updated_kst": "02:00:06"
   },
   "stats": {
     "today_total": 65,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:59:20",
+      "time_kst": "01:59:20",
+      "symbol": "TDTH",
+      "company_name": "TDTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:56:54",
       "time_kst": "01:56:54",
       "symbol": "APP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:48:17",
-      "time_kst": "23:48:17",
-      "symbol": "CABR",
-      "company_name": "CABR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
     }
   ]
 }
