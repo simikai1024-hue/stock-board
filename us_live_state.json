@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:56:25",
-  "updated_at_et": "2026-11-16 08:56:25",
-  "updated_epoch_ms": 1794837385761,
+  "updated_at_kst": "2026-11-16 22:57:22",
+  "updated_at_et": "2026-11-16 08:57:22",
+  "updated_epoch_ms": 1794837442309,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 1.09,
     "current_price": 1.03,
     "profit_rate": -5.5,
-    "updated_kst": "22:56:20"
+    "updated_kst": "22:57:18"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:56:27",
+      "time_kst": "22:56:27",
+      "symbol": "LPLA",
+      "company_name": "LPLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $22773.39M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:56:23",
       "time_kst": "22:56:23",
       "symbol": "QXL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $74.38M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:14:29",
-      "time_kst": "22:14:29",
-      "symbol": "NWS",
-      "company_name": "NWS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $15921.87M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
