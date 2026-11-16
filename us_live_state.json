@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 00:00:16",
-  "updated_at_et": "2026-11-16 10:00:16",
-  "updated_epoch_ms": 1794841216927,
+  "updated_at_kst": "2026-11-17 00:01:33",
+  "updated_at_et": "2026-11-16 10:01:33",
+  "updated_epoch_ms": 1794841293800,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.015,
-    "profit_rate": -6.88,
-    "updated_kst": "00:00:12"
+    "current_price": 1.0399,
+    "profit_rate": -4.6,
+    "updated_kst": "00:01:31"
   },
   "stats": {
     "today_total": 62,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "10:01:30",
+      "time_kst": "00:01:30",
+      "symbol": "MWYN",
+      "company_name": "MWYN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "10:00:21",
+      "time_kst": "00:00:21",
+      "symbol": "LKFT",
+      "company_name": "LKFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2280.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:53:00",
       "time_kst": "23:53:00",
       "symbol": "CCEP",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $11979.76M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:07:42",
-      "time_kst": "23:07:42",
-      "symbol": "EYE",
-      "company_name": "EYE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1443.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:07:18",
-      "time_kst": "23:07:18",
-      "symbol": "CJMB",
-      "company_name": "CJMB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,8.01,9.01))"
     }
   ]
 }
