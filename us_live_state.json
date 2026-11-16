@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:35:06",
-  "updated_at_et": "2026-11-16 08:35:06",
-  "updated_epoch_ms": 1794836106518,
+  "updated_at_kst": "2026-11-16 22:36:06",
+  "updated_at_et": "2026-11-16 08:36:06",
+  "updated_epoch_ms": 1794836166101,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0303,
-    "profit_rate": -5.48,
-    "updated_kst": "22:34:55"
+    "current_price": 1.0203,
+    "profit_rate": -6.39,
+    "updated_kst": "22:35:52"
   },
   "stats": {
-    "today_total": 41,
-    "today_nblm_count": 41,
+    "today_total": 42,
+    "today_nblm_count": 42,
     "today_buy": 5,
-    "today_false": 36,
+    "today_false": 37,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 16,
     "total_false": 134,
-    "avg_nblm_sec": 38.5
+    "avg_nblm_sec": 38.8
   },
   "verdicts": [
+    {
+      "id": "v_1794836161922_SPCB_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:36:01",
+      "time_kst": "22:36:01",
+      "symbol": "SPCB",
+      "company_name": "SPCB",
+      "exchange": "ND",
+      "price": 6.28,
+      "gain_pct": 1.78,
+      "mcap_m": 39.44,
+      "decision": "FALSE",
+      "elapsed_sec": 51.4,
+      "reason": "법인 자사주 매입이 아닌 의장 개인의 12만 달러 소액 장내매수(19,600주) 홍보 PR로 1급 기폭제 미달 및 장전 고점대비 -9.8% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] SuperCom Chairman Purchases 19,600 Ordinary Shares and Plans to Purchase Up to 150,000 Shares in Total",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SPCB (SuperCom Ltd.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.44M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (내부자 소액 매수 규모 착시 검증):\n회사의 이사회 의장(Arie Trabelsi)이 장내 매수한 주식 수는 19,600주에 불과합니다.\n전일 종가($6.17) 기준 실질 매수 집행 금액은 약 $120,932 USD (약 12만 달러) 수준으로, 시가총액($39.44M) 대비 0.3%에 불과한 지극히 미미한 소액 매수입니다.\n향후 최대 150,000주까지 추가 매수할 계획(plan)이라고 덧붙였으나, 이는 구속력 없는 단순 개인 의향 표명이며 이를 전부 합쳐도 약 $90만 달러(시총 대비 2.3%)에 그칩니다.\n실시간 체결가 및 수급 (장전 윗꼬리 덤핑):\n전일 종가 $6.1700 대비 현재가 $6.2800 (+1.78%).\n당일 최고가 $6.9600 찍은 후 장전 고점 대비 -9.8% 밀리며 상승폭을 대부분 반납.\n당일 누적 거래대금 $1,312 USD (1천 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 내부자 지분 변동 공시 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"SuperCom Chairman Purchases 19,600 Ordinary Shares and Plans to Purchase Up to 150,000 Shares in Total\"\n원문 직독 결과 드러난 치명적 실체:\n회사의 대규모 자사주 매입/소각(Company Buyback)이 아닌 임원 개인의 소액 장내매수 (Insider Retail Purchase PR):\n연구소 심사 헌법 제2조에서 FORCE_BUY로 규정한 호재는 **'법인 차원의 대규모 자사주 매입 및 소각(예: 오늘 앞서 승인된 PXLW의 시총 대비 27.3%인 $10M 자사주 매입 이사회 결의)'**입니다.\n본 PR은 법인의 자기자본을 투입하는 자사주 매입이 전혀 아니며, 이사회 의장 개인이 장내에서 고작 12만 달러어치(19,600주)를 샀다는 단순 내부자 거래 통지 홍보물에 불과합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 법인 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n직전 3분기 실적 발표(11/12) 직후의 전형적인 방어용 주가 부양 언론 플레이:\n과거 이력 대조 결과 회사는 11월 12일 3분기 실적(매출 21% 증가)을 발표한 직후, 추가 상승 동력이 부재하자 의장의 12만 달러 소액 매수를 언론에 배포하여 개인 투자자를 유인하려는 전형적인 방어적 IR 뉴스입니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 법인 자사주 매입이 결여된 임원 개인 소액 매수/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $6.9600까지 반짝 상승 후 고점 대비 -9.8% 급락하며 +1.78% 보합권으로 주저앉은 전형적인 윗꼬리 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 법인 대규모 자사주 매입이 아닌 이사회 의장 개인의 12만 달러 소액 장내매수(19,600주) 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -9.8% 덤핑이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SPCB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: SPCB NOTES:\n[SPCB] 법인 자사주 매입이 아닌 의장 개인의 12만 달러 소액 장내매수(19,600주) 홍보 PR로 1급 기폭제 미달 및 장전 고점대비 -9.8% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794836103284_IDAI_FALSE",
       "date_et": "2026-11-16",
@@ -2412,29 +2432,69 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TOON (Kartoon Studios, Inc.) 정밀 직독 결재 보고입니다 [cite: 4, 404].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.02M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 404].\n실시간 시세 및 수급: 전일 종가 $0.5121 대비 현재가 $0.5309 (+3.67% 보합), 당일 최고가 $0.5500 (고점 대비 -3.5% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05) SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 404].\n원문 팩트: \"Kartoon Studios Acquisition Corp. (KSAC), a corporation organized as a special purpose acquisition company, filed a Registration Statement on Form S-1...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 회사 본체로 직접 유입되는 확정적 현금 매출 수주나 자산 매각/M&A 완료, FDA 승인 등의 1급 재료가 아니며, 단지 자회사인 SPAC 법인(KSAC)의 증권거래위원회 예비 등록신고서(Form S-1) 제출 소식에 불과합니다 [cite: 4].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 예비등록(Form S-1)/SPAC 홍보/주주서한' 범주에 정확히 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 4].\n주가 반응 역시 전일 대비 +3.67% 보합권 수준에 갇혀 있고 고점 대비 -3.5% 밀림이 발생하여 개장 전 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 자회사 SPAC의 단순 Form S-1 예비 등록신고서 제출(Item 7.01)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: TOON 처리합니다 [cite: 4].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: TOON NOTES:\n[TOON] 자회사 SPAC(KSAC)의 Form S-1 예비 등록신고서 제출 공시(Item 7.01)는 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793888286325_MTVA_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "09:18:06",
-      "time_kst": "23:18:06",
-      "symbol": "MTVA",
-      "company_name": "MTVA",
-      "exchange": "ND",
-      "price": 1.29,
-      "gain_pct": -3.01,
-      "mcap_m": 8.5,
-      "decision": "FALSE",
-      "elapsed_sec": 41.2,
-      "reason": "DA-1726 임상 1상 Part 3B 중간 데이터(Interim Data) 발표는 1급 확정 기폭제 미달 및 전일 대비 -3.01% 약세로 전량 차단",
-      "catalyst_hint": "[당일 PR] MetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MTVA (MetaVia) 정밀 직독 결재 보고입니다 [cite: 1, 10].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.5M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $1.3300 대비 현재가 $1.2900 (-3.01% 약보합), 당일 최고가 $1.4200 (고점 대비 -9.2% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 08:55 ET) PR 및 SEC 8-K (Item 7.01, 8.01, 9.01) 원문 분석:\nPR 제목: \"MetaVia Announces Statistically Significant 68% Reduction in Liver Fat from DA-1726 Phase 1 Part 3B Interim Data\"\n원문 팩트: DA-1726의 임상 1상 Part 3B 중간 데이터(Interim Data) 분석 결과 통계적으로 유의미한 지방간 68% 감소 효과를 확인했다는 보도자료 [cite: 10].\n치명적 기폭제 결함:\n오늘 제출된 재료는 FDA 신약 최종 승인이나 Pivotal 임상 3상 톱라인(Top-line) 최종 성공 결과가 아니며, 단지 **초기 임상 1상 단계의 중간 결과 발표(Phase 1 Part 3B Interim Data)**에 불과합니다 [cite: 10].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액이 미기재된 단순 중간/탐색적 임상 데이터 발표' 범주에 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 10].\n현재 시세 반응 역시 전일 대비 -3.01% 음봉 약보합에 갇혀 있고 고점 대비 -9.2% 밀림이 발생하여 개장 전 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 임상 1상 중간 데이터(Interim Data) 발표에 불과하고 시세가 -3.01% 약세 흐름을 나타내어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MTVA 처리합니다 [cite: 10].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: MTVA NOTES:\n[MTVA] DA-1726 임상 1상 Part 3B 중간 데이터(Interim Data) 발표는 1급 확정 기폭제 미달 및 전일 대비 -3.01% 약세로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:36:02",
+      "time_kst": "22:36:02",
+      "symbol": "EMPD",
+      "company_name": "EMPD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.72M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:35:54",
+      "time_kst": "22:35:54",
+      "symbol": "USDE",
+      "company_name": "USDE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $120.87M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:35:48",
+      "time_kst": "22:35:48",
+      "symbol": "ALTO",
+      "company_name": "ALTO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $290.89M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:35:42",
+      "time_kst": "22:35:42",
+      "symbol": "MTSI",
+      "company_name": "MTSI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $16851.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:35:28",
+      "time_kst": "22:35:28",
+      "symbol": "CLIK",
+      "company_name": "CLIK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Click Holdings (NASDAQ: CLIK) Reports Strong Q1 FY2026/27 )"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:35:18",
+      "time_kst": "22:35:18",
+      "symbol": "NDAQ",
+      "company_name": "NDAQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60173.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:35:00",
@@ -2874,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $151.15M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:08:44",
-      "time_kst": "22:08:44",
-      "symbol": "GEHC",
-      "company_name": "GEHC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $35718.89M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:08:25",
-      "time_kst": "22:08:25",
-      "symbol": "CORT",
-      "company_name": "CORT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8073.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:08:12",
-      "time_kst": "22:08:12",
-      "symbol": "DMRC",
-      "company_name": "DMRC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $192.59M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:08:02",
-      "time_kst": "22:08:02",
-      "symbol": "AMKR",
-      "company_name": "AMKR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8475.1M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:07:49",
-      "time_kst": "22:07:49",
-      "symbol": "KDK",
-      "company_name": "KDK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $224.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:07:29",
-      "time_kst": "22:07:29",
-      "symbol": "GAME",
-      "company_name": "GAME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 2.01,3.02,5.02,5.07,7.01,9.01))"
     }
   ]
 }
