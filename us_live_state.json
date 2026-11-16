@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:38:32",
-  "updated_at_et": "2026-11-16 07:38:32",
-  "updated_epoch_ms": 1794832712512,
+  "updated_at_kst": "2026-11-16 21:39:01",
+  "updated_at_et": "2026-11-16 07:39:01",
+  "updated_epoch_ms": 1794832741773,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CMND",
+    "company_name": "CMND",
+    "exchange": "ND",
+    "price": 4.36,
+    "gain_pct": -3.75,
+    "mcap_m": 0.28,
+    "catalyst_hint": "[당일 PR] Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:38:55",
+    "started_at_kst": "21:38:55",
+    "started_epoch_ms": 1794832735676
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.045,
-    "profit_rate": -4.13,
-    "updated_kst": "21:38:26"
+    "current_price": 1.0685,
+    "profit_rate": -1.97,
+    "updated_kst": "21:38:44"
   },
   "stats": {
     "today_total": 18,
