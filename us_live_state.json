@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:10:26",
-  "updated_at_et": "2026-11-16 08:10:26",
-  "updated_epoch_ms": 1794834626095,
+  "updated_at_kst": "2026-11-16 22:11:20",
+  "updated_at_et": "2026-11-16 08:11:20",
+  "updated_epoch_ms": 1794834680705,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0902,
-    "profit_rate": 0.02,
-    "updated_kst": "22:10:18"
+    "current_price": 1.1,
+    "profit_rate": 0.92,
+    "updated_kst": "22:11:17"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:11:16",
+      "time_kst": "22:11:16",
+      "symbol": "HSAI",
+      "company_name": "HSAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1798.96M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:10:57",
+      "time_kst": "22:10:57",
+      "symbol": "ANIP",
+      "company_name": "ANIP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1623.81M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:10:41",
+      "time_kst": "22:10:41",
+      "symbol": "MSTR",
+      "company_name": "MSTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $43227.96M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:10:30",
+      "time_kst": "22:10:30",
+      "symbol": "RLMD",
+      "company_name": "RLMD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $416.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:10:06",
       "time_kst": "22:10:06",
       "symbol": "SLE",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:46:24",
-      "time_kst": "21:46:24",
-      "symbol": "LNZA",
-      "company_name": "LNZA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:46:19",
-      "time_kst": "21:46:19",
-      "symbol": "RCEL",
-      "company_name": "RCEL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $388.29M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:46:06",
-      "time_kst": "21:46:06",
-      "symbol": "BRAI",
-      "company_name": "BRAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $356.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:44:47",
-      "time_kst": "21:44:47",
-      "symbol": "MARA",
-      "company_name": "MARA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2522.01M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
