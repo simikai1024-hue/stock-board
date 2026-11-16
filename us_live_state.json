@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:00:05",
-  "updated_at_et": "2026-11-16 05:00:05",
-  "updated_epoch_ms": 1794823205438,
+  "updated_at_kst": "2026-11-16 19:00:53",
+  "updated_at_et": "2026-11-16 05:00:53",
+  "updated_epoch_ms": 1794823253967,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:00:02"
+    "updated_kst": "19:00:40"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 56,
+    "today_hardcut": 57,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "05:00:50",
+      "time_kst": "19:00:50",
+      "symbol": "EEFT",
+      "company_name": "EEFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2612.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:52:09",
       "time_kst": "18:52:09",
       "symbol": "CRIS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $60.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:01:48",
-      "time_kst": "18:01:48",
-      "symbol": "NTWK",
-      "company_name": "NTWK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.32M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
