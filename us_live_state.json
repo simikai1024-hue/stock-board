@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:19:20",
-  "updated_at_et": "2026-11-16 09:19:20",
-  "updated_epoch_ms": 1794838760461,
+  "updated_at_kst": "2026-11-16 23:20:03",
+  "updated_at_et": "2026-11-16 09:20:03",
+  "updated_epoch_ms": 1794838803469,
   "analyzing": {
-    "active": true,
-    "symbol": "FABC",
-    "company_name": "FABC",
-    "exchange": "ND",
-    "price": 1.55,
-    "gain_pct": -3.73,
-    "mcap_m": 10.86,
-    "catalyst_hint": "[당일 PR] Fabric.AI Provides Corporate Update, Reports Over $20 Million in Cash",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:19:13",
-    "started_at_kst": "23:19:13",
-    "started_epoch_ms": 1794838753301
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.05,
-    "profit_rate": -3.67,
-    "updated_kst": "23:19:02"
+    "current_price": 1.0491,
+    "profit_rate": -3.75,
+    "updated_kst": "23:20:03"
   },
   "stats": {
-    "today_total": 53,
-    "today_nblm_count": 53,
+    "today_total": 54,
+    "today_nblm_count": 54,
     "today_buy": 5,
-    "today_false": 48,
+    "today_false": 49,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 41.6
+    "avg_nblm_sec": 41.7
   },
   "verdicts": [
+    {
+      "id": "v_1794838795993_FABC_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:19:55",
+      "time_kst": "23:19:55",
+      "symbol": "FABC",
+      "company_name": "FABC",
+      "exchange": "ND",
+      "price": 1.55,
+      "gain_pct": -3.73,
+      "mcap_m": 10.86,
+      "decision": "FALSE",
+      "elapsed_sec": 47.4,
+      "reason": "신규 수주가 아닌 단순 기업 업데이트(Corporate Update) 및 보유 현금 나열 PR로 1급 기폭제 미달 및 장전 음봉 하락(-3.73%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Fabric.AI Provides Corporate Update, Reports Over $20 Million in Cash",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 FABC (Fabric.AI) 09:19 ET 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.86M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 184.2% 적발):\n본문 핵심 금액으로 감지된 약 $20.00M USD(시총 대비 184.2%)는 외부 고객사로부터 새롭게 유입되는 확정 수주나 대형 계약금이 아닙니다.\n회사의 기존 현금성 자산 잔고를 알리는 단순 보유 현금 현황(highlighting the Company’s cash position of over $20 million) 수치에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 음봉 덤핑 지속):\n전일 종가 $1.6100 대비 현재가 $1.5500 (-3.73%).\n당일 최고가 $1.8439 찍은 후 장전 고점 대비 -15.9% 급락하며 마이너스 파란불로 꺾인 전형적인 설거지 차트.\n당일 누적 거래대금 $2,699 USD (2천 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 기업 현황 업데이트 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:15 ET) 공식 PR 원문 분석:\nPR 제목: \"Fabric.AI Provides Corporate Update, Reports Over $20 Million in Cash\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주가 아닌 통상적인 주주서한/기업 업데이트 (Corporate Update PR):\n본 PR의 본질은 회사가 주주들에게 보유 현금($20M+), 상업화 진행 경과, 최근 지식재산권(특허) 출원 현황 등을 나열한 **단순 기업 현황 업데이트 및 주주서한 보도자료(today provided shareholders a corporate update...)**입니다.\n족보집 심사 원칙상 \"단순 주주서한(Shareholder/Corporate Update)·컨퍼런스·설문조사는 100% FORCE_BLOCK\" 규정에 완벽히 해당합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 연속된 자금 유입 없는 특허 출원 홍보의 연장선:\n과거 이력 대조 결과 회사는 10월 19일(코핀 협력 모델링 홍보), 11월 11일(GPU 동기화 특허 출원) 등 확정 매출이 없는 기술/특허 마케팅 보도자료를 낸 바 있으며, 이번 PR 역시 기존 내용을 망라해 정리한 것에 불과합니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 보유현금 나열/주주서한/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.8439까지 반짝 튀었다가 즉각 고점 대비 -15.9% 폭락하여 -3.73% 마이너스 파란불로 전락한 전형적인 윗꼬리 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 기업 업데이트(Corporate Update) 및 보유 현금($20M) 나열 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -15.9% 밀려 -3.73% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: FABC 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: FABC NOTES:\n[FABC] 신규 수주가 아닌 단순 기업 업데이트(Corporate Update) 및 보유 현금 나열 PR로 1급 기폭제 미달 및 장전 음봉 하락(-3.73%) 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794838742301_QCLS_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 GAUZ (Gauzy Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.46M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $6.5300 대비 현재가 $6.5300 (-0.00% 보합), 당일 최고가 $6.5300 (+0.0%)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] (Foreign Private Issuer Report) 접수.\n야후 RSS 당일 PR **0건 (미수신)**.\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 수록된 단순 행정 서류 보고용 공시 제출.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 -0.00% 보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 시세가 보합(-0.00%)을 기록하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GAUZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: GAUZ NOTES:\n[GAUZ] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 보합(-0.00%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793974770410_PWCM_FALSE",
-      "date_et": "2026-11-06",
-      "weekday_kr": "금",
-      "time_et": "09:19:30",
-      "time_kst": "23:19:30",
-      "symbol": "PWCM",
-      "company_name": "PWCM",
-      "exchange": "ND",
-      "price": 0.507,
-      "gain_pct": 8.94,
-      "mcap_m": 1.29,
-      "decision": "FALSE",
-      "elapsed_sec": 47.9,
-      "reason": "담보 약속어음 대출 만기 연장 공시(Item 1.01)는 단순 부채 연장(ACH 패턴)으로 1급 확정 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-06 [8-K] (Item 1.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 PWCM (PowerCompute Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.29M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.4654 대비 현재가 $0.5070 (+8.94% 상승), 당일 최고가 $0.5080 (고점 대비 -0.2%)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 09:18 ET) SEC 8-K (Item 1.01) 원문 분석:\nSEC 공시 현황: 2026-11-06 [8-K] (Item 1.01) 접수.\n야후 RSS 당일 PR **0건 (미수신)**.\n원문 팩트: *\"On November 2, 2026, PowerCompute Inc. entered into a Fourth Amendment to Secured Promissory Note, effective October 31, 2026, with Brown Family Enterprises LLC pursuant to which the maturity date of the Company's loan from Lender in the principal amount of $1,250,000 was extended from December 31, 2026 to December 31, 2027...\"*\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 신규 현금 유입이나 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존 대주(Brown Family Enterprises LLC)와의 **$1.25M 달러 규모 담보 약속어음(Secured Promissory Note) 대출 만기일을 1년 연장(Note Amendment)**한 단순 부채 만기 연장 공시입니다.\n이는 연구소 전략 헌장 제1장 및 심사 기준 3번 규칙에서 엄격히 차단하는 '단순 대출·신용한도·부채 만기 연장(ACH 패턴)' 범주에 정확히 속하므로 1급 기폭제 기준에 절대 미달합니다.\n당일 공식 PR 미수신 상태이며, 프리장 실질 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 대출/약속어음 만기 연장(Item 1.01)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PWCM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: PWCM NOTES:\n[PWCM] 담보 약속어음 대출 만기 연장 공시(Item 1.01)는 단순 부채 연장(ACH 패턴)으로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:19:32",
+      "time_kst": "23:19:32",
+      "symbol": "WWD",
+      "company_name": "WWD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $19475.67M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "09:19:04",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $442.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:37:47",
-      "time_kst": "22:37:47",
-      "symbol": "APVO",
-      "company_name": "APVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
     }
   ]
 }
