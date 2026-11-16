@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:53:02",
-  "updated_at_et": "2026-11-16 09:53:02",
-  "updated_epoch_ms": 1794840782659,
+  "updated_at_kst": "2026-11-16 23:53:58",
+  "updated_at_et": "2026-11-16 09:53:58",
+  "updated_epoch_ms": 1794840838920,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SLMT",
+    "company_name": "SLMT",
+    "exchange": "ND",
+    "price": 3.1,
+    "gain_pct": -1.59,
+    "mcap_m": 34.13,
+    "catalyst_hint": "[당일 PR] Solmate Infrastructure Plans to Expand into Global AI Compute with a GPU-as-a-Service asset-light Model",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:53:53",
+    "started_at_kst": "23:53:53",
+    "started_epoch_ms": 1794840833235
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 0.9907,
-    "profit_rate": -9.11,
-    "updated_kst": "23:52:57"
+    "current_price": 0.9971,
+    "profit_rate": -8.52,
+    "updated_kst": "23:53:58"
   },
   "stats": {
     "today_total": 61,
