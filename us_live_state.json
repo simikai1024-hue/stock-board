@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:32:24",
-  "updated_at_et": "2026-11-16 07:32:24",
-  "updated_epoch_ms": 1794832344426,
+  "updated_at_kst": "2026-11-16 21:32:41",
+  "updated_at_et": "2026-11-16 07:32:41",
+  "updated_epoch_ms": 1794832361385,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELAB",
+    "company_name": "ELAB",
+    "exchange": "ND",
+    "price": 1.6398,
+    "gain_pct": 1.27,
+    "mcap_m": 1.33,
+    "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total As",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:32:35",
+    "started_at_kst": "21:32:35",
+    "started_epoch_ms": 1794832355049
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0509,
-    "profit_rate": -3.59,
-    "updated_kst": "21:32:09"
+    "current_price": 1.0413,
+    "profit_rate": -4.47,
+    "updated_kst": "21:32:30"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:32:33",
+      "time_kst": "21:32:33",
+      "symbol": "FTLF",
+      "company_name": "FTLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $79.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:32:21",
       "time_kst": "21:32:21",
       "symbol": "MDCX",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $55.9M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:01:28",
-      "time_kst": "21:01:28",
-      "symbol": "CYTK",
-      "company_name": "CYTK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7834.4M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
