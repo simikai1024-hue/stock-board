@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:24:28",
-  "updated_at_et": "2026-11-16 09:24:28",
-  "updated_epoch_ms": 1794839068532,
+  "updated_at_kst": "2026-11-16 23:25:19",
+  "updated_at_et": "2026-11-16 09:25:19",
+  "updated_epoch_ms": 1794839119443,
   "analyzing": {
-    "active": true,
-    "symbol": "SDA",
-    "company_name": "SDA",
-    "exchange": "ND",
-    "price": 0.2589,
-    "gain_pct": 3.07,
-    "mcap_m": 26.41,
-    "catalyst_hint": "[당일 PR] EVelution Energy Engages Bank of America to Assist in Structuring Proposed U.S. EXIM Financing",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:24:25",
-    "started_at_kst": "23:24:25",
-    "started_epoch_ms": 1794839065599
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0487,
-    "profit_rate": -3.79,
-    "updated_kst": "23:24:23"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "23:25:02"
   },
   "stats": {
-    "today_total": 57,
-    "today_nblm_count": 57,
+    "today_total": 58,
+    "today_nblm_count": 58,
     "today_buy": 5,
-    "today_false": 52,
+    "today_false": 53,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.2
+    "avg_nblm_sec": 42.3
   },
   "verdicts": [
+    {
+      "id": "v_1794839112000_SDA_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:25:12",
+      "time_kst": "23:25:12",
+      "symbol": "SDA",
+      "company_name": "SDA",
+      "exchange": "ND",
+      "price": 0.2589,
+      "gain_pct": 3.07,
+      "mcap_m": 26.41,
+      "decision": "FALSE",
+      "elapsed_sec": 50.6,
+      "reason": "신규 수주가 아닌 타사(EVelution Energy)의 BoA 금융 자문사 선임 PR(BoA $250B 펀드 착시) 및 단순 주총 6-K로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] EVelution Energy Engages Bank of America to Assist in Structuring Proposed U.S. EXIM Financing",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 SDA (SunCar Technology Group Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.41M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 946,611% 적발):\n본문 핵심 금액으로 감지된 약 **$250,000.00M USD (2,500억 달러)**는 회사에 신규 유입되는 계약금이나 수주액이 절대 아닙니다.\n뱅크오브아메리카(Bank of America)가 올해 초 발표한 전체 18개월짜리 미국 핵심 인프라 금융 지원 프로그램의 총예산 한도(Earlier this year, Bank of America announced an 18-month, $250 billion Critical Infrastructure Finance Initiative...) 수치에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 정체):\n전일 종가 $0.2512 대비 현재가 **$0.2589 (+3.07%)**.\n당일 최고가 $0.2799 찍은 후 장전 고점 대비 -7.5% 밀리며 상승 탄력 둔화.\n당일 누적 거래대금 $19,556 USD.\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수 완료 (단, 임시주총 소집 통지서에 불과함).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:12 ET) 공식 PR 원문 분석:\nPR 제목: *\"EVelution Energy Engages Bank of America to Assist in Structuring Proposed U.S. EXIM Financing\"*\n원문 직독 결과 드러난 치명적 실체:\n상장사 본업 수주가 아닌 타사(EVelution Energy)의 단순 자문사 고용 보도자료 (Advisory Engagement PR):\n본 PR의 주체는 코발트 가공 시설을 개발 중인 비상장사 'EVelution Energy LLC'이며, 미국 수출입은행(EXIM) 대출 자금 조달을 위해 Bank of America를 금융 자문사로 고용(engaged Bank of America to advise the Company and assist in structuring a potential debt transaction)했다는 단순 자문 계약 보도자료입니다.\nSunCar(SDA) 본업에 외부로부터 확정된 매출이나 대규모 현금 수주가 유입되는 것이 전혀 아닙니다.\n확정 자금 조달도 아닌 구속력 없는 투자의향서(LOI) 기반의 잠재적 부채 조달:\n본문상 *\"non-binding Letters of Interest from EXIM\"*를 바탕으로 향후 프로젝트 파이낸싱 승인 및 실행을 추진하기 위한 초기 자문 단계일 뿐, 실제로 대출이나 자금 조달이 확정된 상태도 아닙니다.\n당일 신규 제출된 6-K는 단순 주총 소집 통지서 (무호재 공시):\n당일 SEC에 접수된 6-K EX-99.1 원문은 *\"MEETING NOTICE FOR THE EXTRAORDINARY GENERAL MEETING OF THE SHAREHOLDERS\"*로, 자금 유입 호재가 없는 단순 임시주총 소집 공시입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 금융 자문사 선임/인프라 계획 발표(BoA $250B 프로그램 착시)는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 타사(EVelution Energy)의 BoA 금융 자문사 선임 보도자료(BoA 인프라 펀드 $250B 착시)에 불과하며, 당일 6-K 역시 단순 주총 소집 통지서로 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SDA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: SDA NOTES:\n[SDA] 신규 수주가 아닌 타사(EVelution Energy)의 BoA 금융 자문사 선임 PR(BoA $250B 펀드 착시) 및 단순 주총 6-K로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794838977685_DTST_FALSE",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "데이터센터 구축 진행 보고(Progress Update) PR은 1급 확정 기폭제 미달 및 보합권(+0.85%)으로 전량 차단",
       "catalyst_hint": "[당일 PR] Contracted Capacity, Containers on the Water: AZIO AI Moves Atlas One Into Its Equipment Phase",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AZIO (Azio AI Holdings, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.63M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.6702 대비 현재가 $0.6759 (+0.85% 보합), 당일 최고가 $0.6964 (고점 대비 -2.9% 밀림)\n. 당일 누적 거래대금 $172,400 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 11:36 ET) PR 원문 분석:\nPR 제목: *\"Contracted Capacity, Containers on the Water: AZIO AI Moves Atlas One Into Its Equipment Phase\"*\n원문 팩트: 텍사스 데이터센터 빌드아웃 사업 진행 상황이 장비 구축 단계(Equipment Phase)로 진입했다는 사업 진행 업데이트(Corporate/Operational Progress Update) 발표.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 당일 기업 가치를 수직 폭등시킬 확정적 1급 재료(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각 완료, 대형 M&A, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니라, 단순 **데이터센터 장비 단계 진입 및 사업 현황 진행 보고(Progress Update)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 진행보고/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 +0.85% 보합권에 갇혀 있어 세력의 실질 매집 수급 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 사업 진행 상황 보고(Equipment Phase Update)에 불과하고 장전/장중 보합권(+0.85%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AZIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 데이터센터 구축 진행 보고(Progress Update) PR은 1급 확정 기폭제 미달 및 보합권(+0.85%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793981233856_EVAX_FALSE",
-      "date_et": "2026-11-06",
-      "weekday_kr": "금",
-      "time_et": "11:07:13",
-      "time_kst": "01:07:13",
-      "symbol": "EVAX",
-      "company_name": "EVAX",
-      "exchange": "ND",
-      "price": 2.89,
-      "gain_pct": 3.96,
-      "mcap_m": 24.1,
-      "decision": "FALSE",
-      "elapsed_sec": 34.2,
-      "reason": "암백신(EVX-01) 임상 2상 중간 데이터(Phase 2 data) 발표는 1급 확정 기폭제 미달 및 보합권(+3.96%)으로 전량 차단",
-      "catalyst_hint": "[당일 PR] New phase 2 data highlight the strength of the immune response induced by personalized cancer vaccine EVX-01",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EVAX (Evaxion Biotech A/S) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.1M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $2.7800 대비 현재가 $2.8900 (+3.96% 보합), 당일 최고가 $3.2100 (고점 대비 -10.0% 밀림). 당일 누적 거래대금 $237,637 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 11:00 ET) PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] 접수.\nPR 제목: \"New phase 2 data highlight the strength of the immune response induced by personalized cancer vaccine EVX-01\"\n원문 팩트: 맞춤형 암 백신 후보물질(EVX-01)의 임상 2상 면역 반응(Immune Response) 신규 면역학적 데이터(Phase 2 Data) 발표 보도자료 및 SEC 6-K 공시.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인이나 파이프라인 매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아니라, 단순 **맞춤형 암백신(EVX-01) 임상 2상 중간 면역 데이터 발표(Phase 2 Data)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 임상 2상/중간 데이터/특허/IR 발표' 범주에 정확히 속하므로 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 +3.96% 보합권에 갇혀 있고 고점 대비 -10.0% 밀림이 발생하여 세력 매집 모멘텀 및 지속적 수급 유입이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 임상 2상 면역 데이터 발표(Phase 2 Data)에 불과하고 보합권(+3.96%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: EVAX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: EVAX NOTES:\n[EVAX] 암백신(EVX-01) 임상 2상 중간 데이터(Phase 2 data) 발표는 1급 확정 기폭제 미달 및 보합권(+3.96%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
