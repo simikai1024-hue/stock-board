@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:15:35",
-  "updated_at_et": "2026-11-16 04:15:35",
-  "updated_epoch_ms": 1794820535615,
+  "updated_at_kst": "2026-11-16 18:16:22",
+  "updated_at_et": "2026-11-16 04:16:22",
+  "updated_epoch_ms": 1794820582935,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:15:32"
+    "updated_kst": "18:16:13"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 18,
+    "today_hardcut": 22,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:16:18",
+      "time_kst": "18:16:18",
+      "symbol": "HELP",
+      "company_name": "HELP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $767.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:16:08",
+      "time_kst": "18:16:08",
+      "symbol": "XXII",
+      "company_name": "XXII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:16:04",
+      "time_kst": "18:16:04",
+      "symbol": "QNME",
+      "company_name": "QNME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:15:46",
+      "time_kst": "18:15:46",
+      "symbol": "TRAW",
+      "company_name": "TRAW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:04:15",
       "time_kst": "18:04:15",
       "symbol": "BIDU",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $277.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:51:04",
-      "time_kst": "23:51:04",
-      "symbol": "MOBX",
-      "company_name": "MOBX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:49:34",
-      "time_kst": "23:49:34",
-      "symbol": "FXNC",
-      "company_name": "FXNC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $273.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:48:24",
-      "time_kst": "23:48:24",
-      "symbol": "AIRS",
-      "company_name": "AIRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.68M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:48:10",
-      "time_kst": "23:48:10",
-      "symbol": "CTOR",
-      "company_name": "CTOR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $53.91M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
