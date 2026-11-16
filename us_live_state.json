@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:45:58",
-  "updated_at_et": "2026-11-16 07:45:58",
-  "updated_epoch_ms": 1794833158393,
+  "updated_at_kst": "2026-11-16 21:46:28",
+  "updated_at_et": "2026-11-16 07:46:28",
+  "updated_epoch_ms": 1794833188158,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "HTOO",
+    "company_name": "HTOO",
+    "exchange": "ND",
+    "price": 1.2,
+    "gain_pct": 0.0,
+    "mcap_m": 9.02,
+    "catalyst_hint": "[당일 PR] Fusion Fuel Highlights Third Quarter 2026 Financial Results of Majority-Owned Subsidiary Quality Industrial Corp., Including Third Consecutive Quarter of Operating Income a",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:46:21",
+    "started_at_kst": "21:46:21",
+    "started_epoch_ms": 1794833181877
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0812,
-    "profit_rate": -0.81,
-    "updated_kst": "21:45:48"
+    "current_price": 1.1012,
+    "profit_rate": 1.03,
+    "updated_kst": "21:46:26"
   },
   "stats": {
     "today_total": 22,
@@ -2437,6 +2449,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:46:24",
+      "time_kst": "21:46:24",
+      "symbol": "LNZA",
+      "company_name": "LNZA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:46:19",
+      "time_kst": "21:46:19",
+      "symbol": "RCEL",
+      "company_name": "RCEL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $388.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:46:06",
+      "time_kst": "21:46:06",
+      "symbol": "BRAI",
+      "company_name": "BRAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $356.62M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:44:47",
       "time_kst": "21:44:47",
       "symbol": "MARA",
@@ -2904,36 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $165.46M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:43",
-      "time_kst": "21:03:43",
-      "symbol": "LXEO",
-      "company_name": "LXEO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $254.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:27",
-      "time_kst": "21:03:27",
-      "symbol": "WSHP",
-      "company_name": "WSHP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:22",
-      "time_kst": "21:03:22",
-      "symbol": "GTBP",
-      "company_name": "GTBP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
     }
   ]
 }
