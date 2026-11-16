@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 00:53:08",
-  "updated_at_et": "2026-11-16 10:53:08",
-  "updated_epoch_ms": 1794844388789,
+  "updated_at_kst": "2026-11-17 00:54:08",
+  "updated_at_et": "2026-11-16 10:54:08",
+  "updated_epoch_ms": 1794844448058,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1602,
-    "profit_rate": 6.44,
-    "updated_kst": "00:53:01"
+    "current_price": 1.1653,
+    "profit_rate": 6.91,
+    "updated_kst": "00:54:00"
   },
   "stats": {
     "today_total": 64,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "10:53:36",
+      "time_kst": "00:53:36",
+      "symbol": "ELOG",
+      "company_name": "ELOG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "10:48:40",
       "time_kst": "00:48:40",
       "symbol": "DH",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1034.49M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:29:49",
-      "time_kst": "23:29:49",
-      "symbol": "AAPG",
-      "company_name": "AAPG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1306.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
