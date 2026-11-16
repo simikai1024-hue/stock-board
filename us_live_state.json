@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:17:52",
-  "updated_at_et": "2026-11-16 08:17:52",
-  "updated_epoch_ms": 1794835072110,
+  "updated_at_kst": "2026-11-16 22:18:37",
+  "updated_at_et": "2026-11-16 08:18:37",
+  "updated_epoch_ms": 1794835117387,
   "analyzing": {
-    "active": true,
-    "symbol": "RADX",
-    "company_name": "RADX",
-    "exchange": "ND",
-    "price": 0.76,
-    "gain_pct": 0.0,
-    "mcap_m": 11.93,
-    "catalyst_hint": "[당일 PR] Radiopharm Theranostics Presents Interim Analysis from Phase 2b Imaging Study of RAD101 in Suspected Recurrent Brain Metastases Following Radiotherapy at the Society for Ne",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:17:45",
-    "started_at_kst": "22:17:45",
-    "started_epoch_ms": 1794835065344
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "22:17:41"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "22:18:20"
   },
   "stats": {
-    "today_total": 36,
-    "today_nblm_count": 36,
+    "today_total": 37,
+    "today_nblm_count": 37,
     "today_buy": 4,
-    "today_false": 32,
+    "today_false": 33,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 37.3
+    "avg_nblm_sec": 37.6
   },
   "verdicts": [
+    {
+      "id": "v_1794835110057_RADX_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:18:30",
+      "time_kst": "22:18:30",
+      "symbol": "RADX",
+      "company_name": "RADX",
+      "exchange": "ND",
+      "price": 0.76,
+      "gain_pct": 0.0,
+      "mcap_m": 11.93,
+      "decision": "FALSE",
+      "elapsed_sec": 48.2,
+      "reason": "FDA 최종 승인이 아닌 단순 SNO 학회 임상 2b상 중간 분석 발표이자 9월 14일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Radiopharm Theranostics Presents Interim Analysis from Phase 2b Imaging Study of RAD101 in Suspected Recurrent Brain Metastases Following Radiotherapy at the Society for Ne",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 RADX (Radiopharm Theranostics Ltd) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.93M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (바닥 거래량 구간):\n전일 종가 $0.7600 대비 현재가 $0.7600 (+0.00%), 당일 최고가 $0.7799 (고점 대비 -2.6%), 당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수 완료 (EX-99.1 SNO 학회 발표 첨부).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"Radiopharm Theranostics Presents Interim Analysis from Phase 2b Imaging Study of RAD101 in Suspected Recurrent Brain Metastases Following Radiotherapy at the Society for Neuro-Oncology Annual Meeting\"*\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 정기 학회(SNO) 임상 2b상 중간 분석 발표 (Interim Conference Data PR):\n본 PR의 본질은 신경종양학회(SNO Annual Meeting, 11월 12~15일)에서 방사선 치료 후 재발 의심 뇌전이암 환자 32명을 대상으로 한 RAD101의 임상 2b상 중간 분석 데이터(Interim Analysis, 일치율 93.5%, 예비 민감도 85.7% 등)를 구두/포스터로 발표했다는 학회 결과 공유 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며\n, 오늘 앞서 차단된 BLRX, CNSY, INAB, ESLA와 동일한 정기 학회 시즌 맞춤형 중간 데이터 알림에 불과합니다.\n과거 180일 이력 및 족보집 대조 시 설거지 패턴 재탕 (심사 헌법 제3조 ②항 위배):\n과거 180일 이력 대조 결과, 회사는 이미 2026년 9월 14일에 *\"Radiopharm Theranostics Selected for Late-Breaking Oral Presentation of Positive Data from Interim Analysis of U.S. Phase 2b Imaging Trial of RAD101 at 2026 Society of Neuro-Oncology Annual Meeting\"*이라는 제목으로 해당 학회 발표 및 긍정적 중간 데이터 구두 발표 선정을 공식 발표한 바 있습니다.\n또한 11월 4일에도 임상 3상 설계 합의 PR을 냈으나\n, 당일 실제 주가는 **당일 최고 +16.8% 반짝 상승 후 시초가 +2.4%로 주저앉으며 족보집상 '💀 실패·보합·설거지'로 마감한 이력([186]번)**이 명확히 박혀 있습니다.\n이미 9월에 사전 예고되고 11월 초에 소모된 학회 발표 일정을 실제 학회 주간 직후 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약(기술수출), 시총을 압도하는 확정 달러 수주/선급금(AIMD형)\n, 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등\n 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터 발표/기발표 학회 일정 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 승인이 아닌 단순 SNO 학회 임상 2b상 중간 분석 데이터 발표이자 9월 14일 기발표된 학회 발표의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: RADX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: RADX NOTES:\n[RADX] FDA 최종 승인이 아닌 단순 SNO 학회 임상 2b상 중간 분석 발표이자 9월 14일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 승인 8-K) 2종목이 진성 대장주로 유지되고 있으며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794835044188_EOCN_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,39 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 SNWV (Sanuwave Health, Inc.) 정밀 직독 결재 보고입니다 [cite: 1, 9].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $49.29M USD (파이썬 1차 시가총액 $50.0M 이하 소형 품절주 관문 턱걸이 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $5.8300 대비 현재가 $5.7300 (-1.72% 약보합), 당일 최고가 $5.7300 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:08 ET) PR 원문 분석:\nPR 제목: \"Sanuwave Health Comments on 2027 Medicare Physician Fee Schedule Rate for Ultramist\"\n원문 팩트: 미국 보건후생부 산하 메디케어·메디케이드 서비스 센터(CMS)의 2027년 메디케어 의사 수가표(Physician Fee Schedule) 확정에 따른 자사 제품(Ultramist) CPT 코드 97610의 환급 수가($314.54) 관련 기업 코멘트 및 정책 수가 안내 보도자료입니다.\n치명적 기폭제 결함:\n오늘 당일 발표된 재료는 회사로 직접 유입되는 확정적 현금 수주/계약이나 대형 M&A, FDA 신약 승인 결과가 아니며, 단지 **정부 기관(CMS)의 메디케어 환급 수가 정책 결정에 대한 입장을 발표한 단순 수가 안내/코멘트(Comments/Update)**에 불과합니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '구체적 달러($) 계약 금액 미기재 단순 주주서한/공지/코멘트/정책 안내' 범주에 정확히 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 10].\n현재 시세 반응 역시 전일 대비 -1.72% 음봉 약보합에 갇혀 있으며, 개장 전 세력 매집 유동성($0 USD) 및 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 메디케어 2027년 수가(CMS Fee Schedule Rate) 공지 및 기업 코멘트에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: SNWV 처리합니다 [cite: 10].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: SNWV NOTES:\n[SNWV] Medicare 2027 수가(CMS Fee Schedule Rate) 관련 단순 공지·코멘트 PR은 1급 확정 기폭제 미달 및 전일 대비 -1.72% 약세로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793887859586_BOSC_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "09:10:59",
-      "time_kst": "23:10:59",
-      "symbol": "BOSC",
-      "company_name": "BOS BETTER ONLINE SOLUTIONS LTD",
-      "exchange": "ND",
-      "price": 4.24,
-      "gain_pct": -0.09,
-      "mcap_m": 30.12,
-      "decision": "FALSE",
-      "elapsed_sec": 35.4,
-      "reason": "$65만 달러($0.65M) 소규모 수주 발표는 시총 대비 1급 확정 대형 수주 기폭제 미달 및 장전 대금 미달(-0.09%)로 전량 차단",
-      "catalyst_hint": "[당일 PR] BOS Robotics Division Secures $650,000 Order for a Robotic Munitions Packing Line at a New Site of a Leading Israeli Defense Customer",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 BOSC (B.O.S. Better Online Solutions Ltd.) 정밀 직독 결재 보고입니다 [cite: 1, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $30.12M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2].\n실시간 시세 및 수급: 전일 종가 $4.2439 대비 현재가 $4.2400 (-0.09% 약보합), 당일 최고가 $4.2400 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:00 ET) PR 원문 분석:\nPR 제목: \"BOS Robotics Division Secures $650,000 Order for a Robotic Munitions Packing Line at a New Site of a Leading Israeli Defense Customer\"\n원문 팩트: 이스라엘 방산 고객사 신규 사업장에 $650,000(65만 달러 / 약 $0.65M USD) 규모의 로봇 탄약 포장 라인 수주 계약 체결 발표.\n치명적 기폭제 결함:\n[소규모 수주 금액 한계]: 시가총액 $30.12M 규모 기업 대비 당일 발표된 수주 금액은 **단 $65만 달러($0.65M, 시총 대비 약 2.15%)**에 불과한 소규모 수주입니다.\n이는 당일 주가와 기업 가치를 수직 폭등시킬 확정적 1급 대형 수주/계약 기폭제(FDA 승인/임상 성공, 시총 급 대형 $ 수주/계약/매각, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등) 기준에 현저히 미달합니다 [cite: 8].\n수주 공시 발표에도 불구하고 프리장 시세 반응이 -0.09% 보합권에 갇혀 있고, 장전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 시총 대비 소규모 수주($65만 달러) 공시에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: BOSC 처리합니다 [cite: 8].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: BOSC NOTES:\n[BOSC] $65만 달러($0.65M) 소규모 수주 발표는 시총 대비 1급 확정 대형 수주 기폭제 미달 및 장전 대금 미달(-0.09%)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:18:23",
+      "time_kst": "22:18:23",
+      "symbol": "ACNB",
+      "company_name": "ACNB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $683.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:18:13",
+      "time_kst": "22:18:13",
+      "symbol": "CNTN",
+      "company_name": "CNTN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $138.97M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:17:55",
+      "time_kst": "22:17:55",
+      "symbol": "HCWB",
+      "company_name": "HCWB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (HCW Biologics Reports Third Quarter 2026 Business and Clin)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:17:47",
@@ -2916,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $141.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:03:21",
-      "time_kst": "22:03:21",
-      "symbol": "VIVO",
-      "company_name": "VIVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $67.51M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:02:59",
-      "time_kst": "22:02:59",
-      "symbol": "NIVF",
-      "company_name": "NIVF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:02:31",
-      "time_kst": "22:02:31",
-      "symbol": "SIMO",
-      "company_name": "SIMO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5446.68M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
