@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:24:04",
-  "updated_at_et": "2026-11-16 09:24:04",
-  "updated_epoch_ms": 1794839044925,
+  "updated_at_kst": "2026-11-16 23:24:28",
+  "updated_at_et": "2026-11-16 09:24:28",
+  "updated_epoch_ms": 1794839068532,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SDA",
+    "company_name": "SDA",
+    "exchange": "ND",
+    "price": 0.2589,
+    "gain_pct": 3.07,
+    "mcap_m": 26.41,
+    "catalyst_hint": "[당일 PR] EVelution Energy Engages Bank of America to Assist in Structuring Proposed U.S. EXIM Financing",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:24:25",
+    "started_at_kst": "23:24:25",
+    "started_epoch_ms": 1794839065599
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.05,
-    "profit_rate": -3.67,
-    "updated_kst": "23:24:02"
+    "current_price": 1.0487,
+    "profit_rate": -3.79,
+    "updated_kst": "23:24:23"
   },
   "stats": {
     "today_total": 57,
