@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:12:36",
-  "updated_at_et": "2026-11-16 08:12:36",
-  "updated_epoch_ms": 1794834756253,
+  "updated_at_kst": "2026-11-16 22:13:22",
+  "updated_at_et": "2026-11-16 08:13:22",
+  "updated_epoch_ms": 1794834802283,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.13,
-    "profit_rate": 3.67,
-    "updated_kst": "22:12:34"
+    "current_price": 1.1298,
+    "profit_rate": 3.65,
+    "updated_kst": "22:13:13"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:13:15",
+      "time_kst": "22:13:15",
+      "symbol": "XRTX",
+      "company_name": "XRTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 투매 급락 구간 방어 차단 (현재 -11.8% <= -8.0%)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:13:02",
+      "time_kst": "22:13:02",
+      "symbol": "VEON",
+      "company_name": "VEON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5507.25M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:12:29",
       "time_kst": "22:12:29",
       "symbol": "GYGY",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $11845.97M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:53:21",
-      "time_kst": "21:53:21",
-      "symbol": "TIGO",
-      "company_name": "TIGO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $13353.02M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:51:47",
-      "time_kst": "21:51:47",
-      "symbol": "VCTR",
-      "company_name": "VCTR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7738.47M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
