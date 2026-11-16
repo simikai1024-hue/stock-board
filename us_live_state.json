@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 17:59:58",
-  "updated_at_et": "2026-11-16 03:59:58",
-  "updated_epoch_ms": 1794819598475,
+  "updated_at_kst": "2026-11-16 18:00:42",
+  "updated_at_et": "2026-11-16 04:00:42",
+  "updated_epoch_ms": 1794819642908,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "장외대기",
+    "session_label": "프리장실전",
     "watchlist_count": 0,
     "orderable_usd": 937.45,
     "daily_done": false,
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "17:59:55"
+    "updated_kst": "18:00:37"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 1,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2436,6 +2436,16 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-16",
+      "time_et": "04:00:39",
+      "time_kst": "18:00:39",
+      "symbol": "VTSI",
+      "company_name": "VTSI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.95M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
       "date_et": "2026-11-13",
       "time_et": "11:54:12",
       "time_kst": "01:54:12",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2514.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:24:49",
-      "time_kst": "23:24:49",
-      "symbol": "GLND",
-      "company_name": "GLND",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $98.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
