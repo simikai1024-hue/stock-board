@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:43:44",
-  "updated_at_et": "2026-11-16 05:43:44",
-  "updated_epoch_ms": 1794825824768,
+  "updated_at_kst": "2026-11-16 19:45:40",
+  "updated_at_et": "2026-11-16 05:45:40",
+  "updated_epoch_ms": 1794825940681,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.831,
-    "profit_rate": -2.4,
-    "updated_kst": "19:43:39"
+    "current_price": 4.85,
+    "profit_rate": -2.02,
+    "updated_kst": "19:45:21"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
-    "today_buy": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
+    "today_buy": 2,
     "today_false": 0,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 14,
-    "total_false": 136,
+    "total_buy": 15,
+    "total_false": 135,
     "avg_nblm_sec": 0.3
   },
   "verdicts": [
+    {
+      "id": "v_1794825934425_GOVX_BUY",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "05:45:34",
+      "time_kst": "19:45:34",
+      "symbol": "GOVX",
+      "company_name": "GOVX",
+      "exchange": "ND",
+      "price": 2.3,
+      "gain_pct": 34.9,
+      "mcap_m": 0.61,
+      "decision": "BUY",
+      "elapsed_sec": 0.3,
+      "reason": "🔥 [순수 무뉴스 초품절 숏스퀴즈 점화 확정] 유통총액 $0.61M(0.36M주) | 공매도 49.4% | 회전율 2.10x($1.50M) | 공식PR·SEC공시 0건",
+      "catalyst_hint": "[Track B 초품절 숏스퀴즈] 유통총액 $0.607M | 공매도 49.42% | 회전율 2.1x",
+      "full_report": "[Track B: 초품절 숏스퀴즈 스나이퍼 실시간 점화 포착]\n- 종목: GOVX (NASDAQ)\n- 현재가: $2.3 (+34.90%, 전일종가 $1.7050)\n- 유통주식총액: $0.607M (유통주식수 0.356M주)\n- 공매도 잔고 비중: 49.42%\n- 실시간 마진콜 점화: 누적거래대금 $1.5M / 회전율 2.1배\n- 당일(D-Day) 오퍼링·희석 폭탄: 0건 확인 완료 -> 즉시 선점 매수 및 +51% 매복 익절 발주!",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_1794825026390_CLRO_BUY",
       "date_et": "2026-11-16",
@@ -2410,26 +2430,6 @@
       "reason": "당일 SEC 424B4 및 8-K(Item 1.01) 공모 유상증자(Public Offering) 신주 희석 출회로 전량 FORCE_BLOCK 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 1.01,8.01,9.01), 2026-11-04 [424B4]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AIRE (reAlpha Tech Corp.) 정밀 직독 결재 보고입니다 [cite: 263, 274].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.37M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.3951 대비 현재가 $0.3951 (+0.00% 보합), 당일 최고가 $0.4070 (고점 대비 -2.9%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 공시 원문 직독 정밀 검증 & 치명적 유증 희석 폭탄\n당일(11/04) D-Day SEC 424B4 및 8-K(Item 1.01) 원문 분석:\nSEC 공시 현황: 2026-11-04 [424B4] 및 2026-11-04 [8-K] (Item 1.01, 8.01, 9.01) 최종 접수 [cite: 263].\n원문 팩트: \"On November 3, 2026, reAlpha Tech Corp. commenced a best efforts public offering of 1,361,028 shares of its common stock...\" [cite: 264]\n치명적 유증 희석 결함 (원칙 1·3 위반):\n[공모 유상증자 424B4 최종 출회]: 오늘 당일 접수된 424B4는 신주 공모 유상증자(Public Offering)의 최종 매수모집 투자설명서로, 대규모 신주 물량이 장내에 쏟아지는 최악의 악재성 유상증자 희석 폭탄입니다 [cite: 7, 263, 264].\n[족보집 과거 오답지 부검 검증]: [달의검] 족보집 부검 성적표에서도 AIRE는 유상증자 공모(Public Offering) 발표 직후 당일 최고 -38.6% (시초가 -48.0%) 폭락하며 투자자의 계좌를 파괴한 대표적 유증 설거지 오답사례로 검증되었습니다 [cite: 263].\n이는 전략 헌장 1번·3번 규칙(\"활성 424B4/424B5/8-K 3.02 신주 유증 희석 출회 시 100% FORCE_BLOCK\")에 정확히 저해됩니다 [cite: 7].\n3. 최종 심사 및 결재 판정\n당일 SEC 424B4 및 8-K(Item 1.01) 공모 유상증자(Public Offering) 신주 물량 출회가 확정되어 전략 헌장 1번·2번·3번 원칙에 의거 FORCE_BLOCK: AIRE 처리합니다 [cite: 7, 263, 264].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 8].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: AIRE NOTES:\n[AIRE] 당일 SEC 424B4 및 8-K(Item 1.01) 공모 유상증자(Public Offering) 신주 희석 출회로 전량 FORCE_BLOCK 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793799788730_NUWE_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:43:08",
-      "time_kst": "22:43:08",
-      "symbol": "NUWE",
-      "company_name": "Nuwellis, Inc.",
-      "exchange": "ND",
-      "price": 5.25,
-      "gain_pct": -13.42,
-      "mcap_m": 19.15,
-      "decision": "FALSE",
-      "elapsed_sec": 49.3,
-      "reason": "단순 3분기 실적 발표 일정 예고(Earnings Call Schedule Notice)는 1급 확정 기폭제 미달 및 전일 대비 -13.42% 약세로 전량 차단",
-      "catalyst_hint": "[당일 PR] Nuwellis to Report Third Quarter 2026 Financial Results on November 12",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 NUWE (Nuwellis, Inc.) 정밀 직독 결재 보고입니다 [cite: 12, 322].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $19.15M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 14].\n실시간 시세 및 수급: 전일 종가 $6.0635 대비 현재가 $5.2500 (-13.42% 약세), 당일 최고가 $5.4200 (고점 대비 -3.1%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Nuwellis to Report Third Quarter 2026 Financial Results on November 12\"\n원문 팩트: 2026년 3분기 실적 발표(Earnings Release) 및 컨퍼런스 콜을 오는 11월 12일에 진행한다는 단순 정기 실적 발표 일정 예고(Earnings Release Date Announcement) 보도자료입니다.\n치명적 기폭제 결함:\n오늘 당일 발표된 재료는 실질적인 현금 매출 확정이나 신약/수주/M&A 호재가 아니라, 단지 실적 발표 날짜를 안내하는 단순 정기 행정 일정 공지에 불과합니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 정기실적 발표 예고/주주서한/컨퍼런스 일정 안내' 범주에 정확히 속하며, 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 12, 15].\n구체적 기폭제 부재 및 -13.42% 음봉 하락 흐름이 나타나고 있으며 장전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 3분기 실적 발표 일정 예고(Earnings Release Date Announcement)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: NUWE 처리합니다 [cite: 12].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: NUWE NOTES:\n[NUWE] 단순 3분기 실적 발표 일정 예고(Earnings Call Schedule Notice)는 1급 확정 기폭제 미달 및 전일 대비 -13.42% 약세로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
