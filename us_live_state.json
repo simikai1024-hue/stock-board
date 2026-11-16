@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:33:19",
-  "updated_at_et": "2026-11-16 09:33:19",
-  "updated_epoch_ms": 1794839599290,
+  "updated_at_kst": "2026-11-16 23:34:12",
+  "updated_at_et": "2026-11-16 09:34:12",
+  "updated_epoch_ms": 1794839652085,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0001,
-    "profit_rate": -8.25,
-    "updated_kst": "23:33:12"
+    "current_price": 1.0091,
+    "profit_rate": -7.42,
+    "updated_kst": "23:34:11"
   },
   "stats": {
     "today_total": 61,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:34:05",
+      "time_kst": "23:34:05",
+      "symbol": "CHGA",
+      "company_name": "CHGA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:33:45",
+      "time_kst": "23:33:45",
+      "symbol": "EDVA",
+      "company_name": "EDVA",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:33:36",
+      "time_kst": "23:33:36",
+      "symbol": "CIIT",
+      "company_name": "CIIT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,3.02))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:33:17",
       "time_kst": "23:33:17",
       "symbol": "GMHS",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:01:23",
-      "time_kst": "23:01:23",
-      "symbol": "TBLA",
-      "company_name": "TBLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $593.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:56:27",
-      "time_kst": "22:56:27",
-      "symbol": "LPLA",
-      "company_name": "LPLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $22773.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:56:23",
-      "time_kst": "22:56:23",
-      "symbol": "QXL",
-      "company_name": "QXL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
