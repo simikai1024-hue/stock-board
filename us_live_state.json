@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:57:22",
-  "updated_at_et": "2026-11-16 08:57:22",
-  "updated_epoch_ms": 1794837442309,
+  "updated_at_kst": "2026-11-16 22:57:31",
+  "updated_at_et": "2026-11-16 08:57:31",
+  "updated_epoch_ms": 1794837451743,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SQFT",
+    "company_name": "SQFT",
+    "exchange": "ND",
+    "price": 0.81,
+    "gain_pct": 0.0,
+    "mcap_m": 1.16,
+    "catalyst_hint": "[당일 PR] Presidio Property Trust, Inc. Announces Earnings for the Quarter Ended September 30, 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:57:27",
+    "started_at_kst": "22:57:27",
+    "started_epoch_ms": 1794837447639
   },
   "halt_watch": {
     "active": false
