@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:23:05",
-  "updated_at_et": "2026-11-16 09:23:05",
-  "updated_epoch_ms": 1794838985421,
+  "updated_at_kst": "2026-11-16 23:24:04",
+  "updated_at_et": "2026-11-16 09:24:04",
+  "updated_epoch_ms": 1794839044925,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "23:23:03"
+    "current_price": 1.05,
+    "profit_rate": -3.67,
+    "updated_kst": "23:24:02"
   },
   "stats": {
     "today_total": 57,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:23:20",
+      "time_kst": "23:23:20",
+      "symbol": "TGL",
+      "company_name": "TGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:19:32",
       "time_kst": "23:19:32",
       "symbol": "WWD",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:37:54",
-      "time_kst": "22:37:54",
-      "symbol": "GLAD",
-      "company_name": "GLAD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $442.05M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
