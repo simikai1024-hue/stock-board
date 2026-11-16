@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:39:01",
-  "updated_at_et": "2026-11-16 07:39:01",
-  "updated_epoch_ms": 1794832741773,
+  "updated_at_kst": "2026-11-16 21:39:34",
+  "updated_at_et": "2026-11-16 07:39:34",
+  "updated_epoch_ms": 1794832774629,
   "analyzing": {
-    "active": true,
-    "symbol": "CMND",
-    "company_name": "CMND",
-    "exchange": "ND",
-    "price": 4.36,
-    "gain_pct": -3.75,
-    "mcap_m": 0.28,
-    "catalyst_hint": "[당일 PR] Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:38:55",
-    "started_at_kst": "21:38:55",
-    "started_epoch_ms": 1794832735676
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0685,
-    "profit_rate": -1.97,
-    "updated_kst": "21:38:44"
+    "current_price": 1.07,
+    "profit_rate": -1.83,
+    "updated_kst": "21:39:23"
   },
   "stats": {
-    "today_total": 18,
-    "today_nblm_count": 18,
+    "today_total": 19,
+    "today_nblm_count": 19,
     "today_buy": 3,
-    "today_false": 15,
+    "today_false": 16,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 16,
     "total_false": 134,
-    "avg_nblm_sec": 32.2
+    "avg_nblm_sec": 32.4
   },
   "verdicts": [
+    {
+      "id": "v_1794832767607_CMND_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "07:39:27",
+      "time_kst": "21:39:27",
+      "symbol": "CMND",
+      "company_name": "CMND",
+      "exchange": "ND",
+      "price": 4.36,
+      "gain_pct": -3.75,
+      "mcap_m": 0.28,
+      "decision": "FALSE",
+      "elapsed_sec": 35.5,
+      "reason": "FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 홍보 PR로 1급 확정 기폭제 미달 및 장전 음봉 하락 전량 차단",
+      "catalyst_hint": "[당일 PR] Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CMND (Clearmind Medicine Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.28M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/라이선스 수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $4.5300 대비 현재가 $4.3600 (-3.75%), 당일 최고가 $4.7850 (고점 대비 -8.9% 음봉 밀림), 당일 누적 거래대금 $2,222 USD (장전 프리마켓 거래량 미미한 바닥 구간).\n선발표 규정 확인: 임상 환자 등록 완료 등은 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:37 ET) 공식 PR 원문 분석:\nPR 제목: \"Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 임상 완료가 아닌 단순 초기 임상 '환자 등록 완료' 공지 (Patient Enrollment Milestone PR):\n본 PR의 본질은 알코올 사용 장애(AUD) 치료제 후보물질인 CMND-100의 임상 1/2a상 Part C 코호트에서 '환자 모집/등록을 완료(Achieves Full Enrollment)'했다는 단순 임상 중간 진행 단계 보도자료입니다.\n연구소 심사 헌법 제2조에서 FORCE_BUY 대상으로 규정한 **'FDA 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 약효 검증이나 승인이 아닌 단순히 임상 시험 대상 환자를 다 채웠다는 실체 없는 중간 일정 알림에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 음봉 밀림 차트:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 임상 환자 등록(Enrollment)/중간 일정 공유 마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $4.7850까지 반짝 상승 후 고점 대비 -8.9% 밀리며 현재가 -3.75% 마이너스 파란불로 곤두박질친 전형적인 무수급 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 공지에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -3.75% 음봉으로 밀리고 있으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CMND 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CMND NOTES:\n[CMND] FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 홍보 PR로 1급 확정 기폭제 미달 및 장전 음봉 하락 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794832531246_YFOR_FALSE",
       "date_et": "2026-11-16",
@@ -2420,26 +2428,6 @@
       "decision": "FALSE",
       "elapsed_sec": 0.0,
       "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([CRMT] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793882415762_MDCX_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "07:40:15",
-      "time_kst": "21:40:15",
-      "symbol": "MDCX",
-      "company_name": "Medicus Pharma Ltd.",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 3.57,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([MDCX] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
       "catalyst_hint": "",
       "full_report": "",
       "engine": "NotebookLM 직통",
