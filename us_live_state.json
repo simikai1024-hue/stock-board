@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:01:57",
-  "updated_at_et": "2026-11-16 08:01:57",
-  "updated_epoch_ms": 1794834117011,
+  "updated_at_kst": "2026-11-16 22:02:33",
+  "updated_at_et": "2026-11-16 08:02:33",
+  "updated_epoch_ms": 1794834153531,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "INAB",
+    "company_name": "INAB",
+    "exchange": "ND",
+    "price": 0.8201,
+    "gain_pct": 0.01,
+    "mcap_m": 8.86,
+    "catalyst_hint": "[당일 PR] IN8bio Reports Updated Glioblastoma Data at SNO 2026 Demonstrating Median Overall Survival of 20.9 Months and 50% Two-Year Survival with Gamma-Delta T Cell Therapy",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:02:30",
+    "started_at_kst": "22:02:30",
+    "started_epoch_ms": 1794834150862
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0797,
-    "profit_rate": -0.94,
-    "updated_kst": "22:01:40"
+    "current_price": 1.07,
+    "profit_rate": -1.83,
+    "updated_kst": "22:02:19"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2449,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:02:31",
+      "time_kst": "22:02:31",
+      "symbol": "SIMO",
+      "company_name": "SIMO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5446.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:02:26",
+      "time_kst": "22:02:26",
+      "symbol": "CRBP",
+      "company_name": "CRBP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $71.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:02:11",
+      "time_kst": "22:02:11",
+      "symbol": "ZJK",
+      "company_name": "ZJK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $74.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:02:07",
+      "time_kst": "22:02:07",
+      "symbol": "CGON",
+      "company_name": "CGON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9010.14M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:01:58",
+      "time_kst": "22:01:58",
+      "symbol": "NMRA",
+      "company_name": "NMRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $84.97M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:01:52",
       "time_kst": "22:01:52",
       "symbol": "AKBA",
@@ -2884,56 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Creative Media & Community Trust Corporation Reports 2026 )"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:10:49",
-      "time_kst": "21:10:49",
-      "symbol": "ELOX",
-      "company_name": "ELOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $53.08M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:10:43",
-      "time_kst": "21:10:43",
-      "symbol": "CYPH",
-      "company_name": "CYPH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $187.51M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:10:38",
-      "time_kst": "21:10:38",
-      "symbol": "TIL",
-      "company_name": "TIL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Instil Bio Reports Third Quarter 2026 Financial Results an)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:08:30",
-      "time_kst": "21:08:30",
-      "symbol": "DPZ",
-      "company_name": "DPZ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $11350.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:07:34",
-      "time_kst": "21:07:34",
-      "symbol": "UNCY",
-      "company_name": "UNCY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $96.38M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
