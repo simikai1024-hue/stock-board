@@ -8,8 +8,8 @@
   "scope": "/stock-board/kr/",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#070B14",
-  "theme_color": "#070B14",
+  "background_color": "#D8F0FE",
+  "theme_color": "#BAE6FD",
   "icons": [
     {
       "src": "../icons/kr-192.png",
