@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:27:24",
-  "updated_at_et": "2026-11-16 09:27:24",
-  "updated_epoch_ms": 1794839244744,
+  "updated_at_kst": "2026-11-16 23:27:36",
+  "updated_at_et": "2026-11-16 09:27:36",
+  "updated_epoch_ms": 1794839256062,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CWD",
+    "company_name": "CWD",
+    "exchange": "ND",
+    "price": 0.3801,
+    "gain_pct": -0.99,
+    "mcap_m": 3.95,
+    "catalyst_hint": "[당일 PR] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:27:31",
+    "started_at_kst": "23:27:31",
+    "started_epoch_ms": 1794839251677
   },
   "halt_watch": {
     "active": false
