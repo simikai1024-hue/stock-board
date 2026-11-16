@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:07:13",
-  "updated_at_et": "2026-11-16 08:07:13",
-  "updated_epoch_ms": 1794834433194,
+  "updated_at_kst": "2026-11-16 22:07:48",
+  "updated_at_et": "2026-11-16 08:07:48",
+  "updated_epoch_ms": 1794834468794,
   "analyzing": {
-    "active": true,
-    "symbol": "INAB",
-    "company_name": "INAB",
-    "exchange": "ND",
-    "price": 1.0173,
-    "gain_pct": 0.01,
-    "mcap_m": 11.0,
-    "catalyst_hint": "[당일 PR] IN8bio Reports Updated Glioblastoma Data at SNO 2026 Demonstrating Median Overall Survival of 20.9 Months and 50% Two-Year Survival with Gamma-Delta T Cell Therapy",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:07:05",
-    "started_at_kst": "22:07:05",
-    "started_epoch_ms": 1794834425850
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.19,
-    "profit_rate": 9.17,
-    "updated_kst": "22:06:56"
+    "current_price": 1.12,
+    "profit_rate": 2.75,
+    "updated_kst": "22:07:36"
   },
   "stats": {
-    "today_total": 29,
-    "today_nblm_count": 29,
+    "today_total": 30,
+    "today_nblm_count": 30,
     "today_buy": 3,
-    "today_false": 26,
+    "today_false": 27,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 36.0
+    "avg_nblm_sec": 36.1
   },
   "verdicts": [
+    {
+      "id": "v_1794834461743_INAB_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:07:41",
+      "time_kst": "22:07:41",
+      "symbol": "INAB",
+      "company_name": "INAB",
+      "exchange": "ND",
+      "price": 1.0173,
+      "gain_pct": 0.01,
+      "mcap_m": 11.0,
+      "decision": "FALSE",
+      "elapsed_sec": 39.0,
+      "reason": "FDA 최종 승인 없는 단순 SNO 학회 임상 업데이트 및 거래대금 $8K 얇은 호가 장전 펌핑으로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] IN8bio Reports Updated Glioblastoma Data at SNO 2026 Demonstrating Median Overall Survival of 20.9 Months and 50% Two-Year Survival with Gamma-Delta T Cell Therapy",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 INAB (IN8bio, Inc.) 08:06 ET 가격 변동(+24.06%) 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.0M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 호가 펌핑):\n전일 종가 $0.8200 대비 현재가 $1.0173 (+24.06%).\n당일 최고가 $1.0500 (고점 대비 -3.1%).\n당일 누적 거래대금 $8,149 USD (가격만 +24% 띄웠을 뿐, 누적 거래대금이 8천 달러 수준에 불과한 전형적인 얇은 호가 갭상승 펌핑).\n선발표 규정 확인: 학회 발표 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"IN8bio Reports Updated Glioblastoma Data at SNO 2026 Demonstrating Median Overall Survival of 20.9 Months and 50% Two-Year Survival with Gamma-Delta T Cell Therapy\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 학회(SNO 2026) 임상 중간 데이터 업데이트 (Conference Update PR):\n신경종양학회(SNO 2026)에서 교모세포종 대상 감마-델타 T세포 치료제의 중간 임상 데이터(전체생존기간 중앙값 20.9개월, 2년 생존율 50% 등)를 발표한 단순 학회 포스터/구두 발표 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 오늘 앞서 차단된 BLRX, CNSY와 동일한 SNO 2026 정기 학회 시즌 맞춤형 경과 공유에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약, 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n거래대금 8천불짜리 얇은 호가 장전 개미 유인용 펌핑:\n실체적 현금 계약이나 FDA 승인이 없음에도 불구하고 얇은 호가를 이용해 장전 주가를 +24% 끌어올렸으나, 거래대금이 겨우 $8,149에 불과하여 본장 개장 시 급격한 윗꼬리 덤핑 설거지로 이어질 전형적인 함정 수급 패턴입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터 업데이트는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 최종 승인이 아닌 단순 SNO 2026 학회 교모세포종 임상 업데이트 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 거래대금 $8,149에 불과한 얇은 호가 장전 펌핑이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: INAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: INAB NOTES:\n[INAB] FDA 최종 승인 없는 단순 SNO 학회 임상 업데이트 및 거래대금 $8K 얇은 호가 장전 펌핑으로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794834409470_FGC_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,29 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793886142921_DRMA_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:42:22",
-      "time_kst": "22:42:22",
-      "symbol": "DRMA",
-      "company_name": "Dermata Therapeutics, Inc.",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 4.24,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([DRMA] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:07:29",
+      "time_kst": "22:07:29",
+      "symbol": "GAME",
+      "company_name": "GAME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 2.01,3.02,5.02,5.07,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:07:14",
+      "time_kst": "22:07:14",
+      "symbol": "AIOT",
+      "company_name": "AIOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $323.9M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:07:00",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $79.64M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:32:21",
-      "time_kst": "21:32:21",
-      "symbol": "MDCX",
-      "company_name": "MDCX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-16 [8-K] (Item 1.01,3.02,3.03,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:31:30",
-      "time_kst": "21:31:30",
-      "symbol": "OPRX",
-      "company_name": "OPRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $138.63M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
