@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:18:04",
-  "updated_at_et": "2026-11-16 09:18:04",
-  "updated_epoch_ms": 1794838684865,
+  "updated_at_kst": "2026-11-16 23:18:17",
+  "updated_at_et": "2026-11-16 09:18:17",
+  "updated_epoch_ms": 1794838697193,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "QCLS",
+    "company_name": "QCLS",
+    "exchange": "ND",
+    "price": 0.3045,
+    "gain_pct": 6.42,
+    "mcap_m": 2.49,
+    "catalyst_hint": "[당일 PR] Q/C Technologies Reports Over $10 Million in Cash and Investments to Fund Development of Its Optical Processing Unit",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:18:13",
+    "started_at_kst": "23:18:13",
+    "started_epoch_ms": 1794838693144
   },
   "halt_watch": {
     "active": false
