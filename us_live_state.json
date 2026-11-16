@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:39:58",
-  "updated_at_et": "2026-11-16 08:39:58",
-  "updated_epoch_ms": 1794836398148,
+  "updated_at_kst": "2026-11-16 22:40:16",
+  "updated_at_et": "2026-11-16 08:40:16",
+  "updated_epoch_ms": 1794836416272,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EHLD",
+    "company_name": "EHLD",
+    "exchange": "ND",
+    "price": 11.3,
+    "gain_pct": 0.0,
+    "mcap_m": 31.83,
+    "catalyst_hint": "[당일 PR] Euroholdings Ltd Reports Results for the Quarter and Nine-Month Period Ended September 30, 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:40:08",
+    "started_at_kst": "22:40:08",
+    "started_epoch_ms": 1794836408755
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.01,
-    "profit_rate": -7.34,
-    "updated_kst": "22:39:47"
+    "current_price": 1.03,
+    "profit_rate": -5.5,
+    "updated_kst": "22:40:07"
   },
   "stats": {
     "today_total": 45,
