@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:39:09",
-  "updated_at_et": "2026-11-16 09:39:09",
-  "updated_epoch_ms": 1794839949708,
+  "updated_at_kst": "2026-11-16 23:40:09",
+  "updated_at_et": "2026-11-16 09:40:09",
+  "updated_epoch_ms": 1794840009085,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.07,
-    "profit_rate": -1.83,
-    "updated_kst": "23:39:05"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "23:40:04"
   },
   "stats": {
     "today_total": 61,
