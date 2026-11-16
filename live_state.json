@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updated_at": "2026-11-16 10:33:29",
+  "updated_at": "2026-11-16 15:19:45",
   "history": [
     {
       "id": "1794788127972_007660_BUY",
@@ -39,10 +39,28 @@
       "pnl_pct": -4.79,
       "buy_price": 87450,
       "qty": 2
+    },
+    {
+      "id": "1794809981096_089590_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-16 15:19:41",
+      "name": "제주항공",
+      "code": "089590",
+      "price": 7300,
+      "flu_rt": 6.42,
+      "val_uk": 69.0,
+      "target_price": 7660,
+      "stop_price": 7080,
+      "ammo_title": "👑 [ISI 종가베팅] 항공/저가 항공사(LCC) 1등 대장주 | 매수 7,300원(13주) → 익일 +6.0%(7,730원) 매복 타깃 (VWAP 7,149원)",
+      "ammo_date": "2026-11-16",
+      "note": "🌙 익일 +6.0%(7,730원) 그물망 익절 대기 | 방어선 6,970원",
+      "buy_price": 7300,
+      "qty": 13
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-16 10:33:29",
+    "updated_at": "2026-11-16 15:19:45",
     "stats": {
       "total_closed": 14,
       "win_count": 6,
@@ -54,6 +72,23 @@
       "total_pnl_krw": -9533
     },
     "rows": [
+      {
+        "date": "2026-11-16",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "code": "089590",
+        "name": "제주항공",
+        "buy_price": 7300,
+        "sell_price": 0,
+        "qty": 13,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "15:19:41",
+        "sell_time": "",
+        "reason": "👑 [ISI 종가베팅] 항공/저가 항공사(LCC) 1등 대장주 | 매수 7,300원(13주) → 익일 +6.0%(7,730원) 매복 타깃 (VWAP 7,149원)",
+        "note": "🌙 익일 +6.0%(7,730원) 그물망 익절 대기 | 방어선 6,970원"
+      },
       {
         "date": "2026-11-16",
         "weekday": "월요일",
@@ -403,7 +438,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-16 10:33:29",
+    "updated_at": "2026-11-16 15:19:45",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4334,7 +4369,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-16 10:33:29",
+    "updated_at": "2026-11-16 15:19:45",
     "deprecated": true,
     "stats": {},
     "days": []
