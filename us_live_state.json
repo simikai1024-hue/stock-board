@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:05:29",
-  "updated_at_et": "2026-11-16 09:05:29",
-  "updated_epoch_ms": 1794837929041,
+  "updated_at_kst": "2026-11-16 23:06:29",
+  "updated_at_et": "2026-11-16 09:06:29",
+  "updated_epoch_ms": 1794837989727,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0715,
-    "profit_rate": -1.7,
-    "updated_kst": "23:05:24"
+    "current_price": 1.04,
+    "profit_rate": -4.59,
+    "updated_kst": "23:06:22"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:06:03",
+      "time_kst": "23:06:03",
+      "symbol": "SPWR",
+      "company_name": "SPWR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:03:58",
       "time_kst": "23:03:58",
       "symbol": "PSQL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $110.77M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:31:54",
-      "time_kst": "22:31:54",
-      "symbol": "GOAI",
-      "company_name": "GOAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
     }
   ]
 }
