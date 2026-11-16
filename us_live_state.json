@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:30:33",
-  "updated_at_et": "2026-11-16 09:30:33",
-  "updated_epoch_ms": 1794839433037,
+  "updated_at_kst": "2026-11-16 23:31:21",
+  "updated_at_et": "2026-11-16 09:31:21",
+  "updated_epoch_ms": 1794839481567,
   "analyzing": {
-    "active": true,
-    "symbol": "CWD",
-    "company_name": "CWD",
-    "exchange": "ND",
-    "price": 0.3726,
-    "gain_pct": -0.99,
-    "mcap_m": 3.87,
-    "catalyst_hint": "[당일 PR] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:30:25",
-    "started_at_kst": "23:30:25",
-    "started_epoch_ms": 1794839425940
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.07,
-    "profit_rate": -1.83,
-    "updated_kst": "23:30:18"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "23:31:16"
   },
   "stats": {
-    "today_total": 59,
-    "today_nblm_count": 59,
+    "today_total": 60,
+    "today_nblm_count": 60,
     "today_buy": 5,
-    "today_false": 54,
+    "today_false": 55,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.7
+    "avg_nblm_sec": 42.9
   },
   "verdicts": [
+    {
+      "id": "v_1794839477292_CWD_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:31:17",
+      "time_kst": "23:31:17",
+      "symbol": "CWD",
+      "company_name": "CWD",
+      "exchange": "ND",
+      "price": 0.3726,
+      "gain_pct": -0.99,
+      "mcap_m": 3.87,
+      "decision": "FALSE",
+      "elapsed_sec": 54.7,
+      "reason": "스폰서 펀드의 브릿지 론 기반 $9M 아파트 매입(자금 지출 및 AUM 확대) PR로 매출/수주 유입 없는 단순 부동산 취득 1급 기폭제 미달 및 음봉 하락(-2.94%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CWD (Caliber / CaliberCos Inc.) 09:30 ET 정규장 개장 직후 실시간 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.87M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 232.6% 적발):\n본문 핵심 금액으로 감지된 약 $9.00M USD(시총 대비 232.6%)는 상장사로 신규 유입되는 확정 수주나 매출 계약금이 아닙니다.\n회사가 운용하는 스폰서 투자 펀드가 브릿지 대출을 활용하여 45세대 아파트(Tonto Oaks Apartments)를 900만 달러에 매입(자금 지출 및 AUM 확대)했다는 단순 부동산 자산 취득 보도자료 수치에 불과합니다.\n실시간 체결가 및 수급 (개장 직후 음봉 하락 심화):\n전일 종가 $0.3839 대비 현재가 $0.3726 (-2.94%).\n당일 최고가 $0.4051 찍은 후 장전 고점 대비 -8.0% 밀리며 마이너스 파란불 음봉 확대.\n당일 누적 거래대금 $38,704 USD.\n선발표 규정 확인: 자산 취득 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:25 ET) 공식 PR 원문 분석:\nPR 제목: \"Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 스폰서 펀드의 단순 부동산 매입 지출 (Real Estate Acquisition PR):\n본 PR의 본질은 대체자산운용사인 Caliber가 관리하는 투자 펀드가 브릿지 론을 끼고 45세대짜리 공동주택을 900만 달러에 사들였다는 사모 펀드 차원의 일상적인 부동산 자산 매입 뉴스입니다.\n상장법인(CWD)으로 거액의 현금이 입금되는 계약이나 창사 최대 수주가 아니라, 오히려 자금을 들여 부동산을 매입한 지출 건으로 주가를 폭등시키는 금융 기폭제가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 연간 가이던스 하향(11/12) 직후의 단순 포트폴리오 홍보:\n과거 이력 대조 결과 회사는 11월 12일 3분기 실적 발표와 함께 *\"연간 플랫폼 매출 가이던스를 하향(cuts FY platform revenue outlook)\"*한 바 있습니다.\n가이던스 하향 직후 배포된 펀드의 단순 아파트 매입 뉴스는 주가 반전을 이끌 수 없는 통상적인 IR에 불과합니다.\n심사 헌법 제3조 위배 및 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 부동산 매입/자산 취득/펀드 AUM 홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n정규장 개장(09:30 ET) 이후에도 고점 대비 -8.0% 밀리며 -2.94% 마이너스 파란불 음봉으로 하락 궤적이 지속되고 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 상장사 매출 유입이 아닌 스폰서 펀드의 브릿지 론 기반 900만 달러 아파트 매입(자금 지출 및 AUM 확대) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장중 -2.94% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CWD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 스폰서 펀드의 브릿지 론 기반 $9M 아파트 매입(자금 지출 및 AUM 확대) PR로 매출/수주 유입 없는 단순 부동산 취득 1급 기폭제 미달 및 음봉 하락(-2.94%) 전량 차단 ===VERDICT_END===\n💡 오늘 정규장 개장 시점에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 골든타임(~10:00 ET) 중 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794839311878_CWD_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 UK (Ucommune International Ltd) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.09M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6094 대비 현재가 $1.6100 (+0.04% 보합), 당일 최고가 $1.6100 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Foreign Private Issuer Report) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시 제출.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 +0.04% 보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 시세가 +0.04% 보합권에 머물러 있어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: UK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: UK NOTES:\n[UK] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 +0.04% 보합권으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794222400143_SCNI_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "06:06:40",
-      "time_kst": "20:06:40",
-      "symbol": "SCNI",
-      "company_name": "Scinai Immunotherapeutics Ltd.",
-      "exchange": "ND",
-      "price": 0.441,
-      "gain_pct": -3.1,
-      "mcap_m": 0.6,
-      "decision": "FALSE",
-      "elapsed_sec": 30.5,
-      "reason": "당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 -3.10% 약보합으로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 SCNI (Scinai Immunotherapeutics Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.6M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.4551 대비 현재가 $0.4410 (-3.10% 약보합), 당일 최고가 $0.4410 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Foreign Private Issuer Report) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시 제출.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 -3.10% 약보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 시세가 -3.10% 약세를 기록하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: SCNI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: SCNI NOTES:\n[SCNI] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 -3.10% 약보합으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:31:04",
+      "time_kst": "23:31:04",
+      "symbol": "WETH",
+      "company_name": "WETH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (WeTouch Technology Inc. Reports Third Quarter Fiscal Year )"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:30:59",
+      "time_kst": "23:30:59",
+      "symbol": "UNIT",
+      "company_name": "UNIT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1154.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "09:29:59",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $340.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:38:52",
-      "time_kst": "22:38:52",
-      "symbol": "QNST",
-      "company_name": "QNST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1087.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:38:35",
-      "time_kst": "22:38:35",
-      "symbol": "EFSI",
-      "company_name": "EFSI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $249.06M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
