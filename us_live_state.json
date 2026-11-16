@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:01:16",
-  "updated_at_et": "2026-11-16 09:01:16",
-  "updated_epoch_ms": 1794837676544,
+  "updated_at_kst": "2026-11-16 23:02:09",
+  "updated_at_et": "2026-11-16 09:02:09",
+  "updated_epoch_ms": 1794837729794,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.03,
-    "profit_rate": -5.5,
-    "updated_kst": "23:01:12"
+    "current_price": 1.02,
+    "profit_rate": -6.42,
+    "updated_kst": "23:02:09"
   },
   "stats": {
     "today_total": 47,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:02:02",
+      "time_kst": "23:02:02",
+      "symbol": "QTEX",
+      "company_name": "QTEX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $82.5M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:01:47",
+      "time_kst": "23:01:47",
+      "symbol": "CYAB",
+      "company_name": "CYAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:01:38",
+      "time_kst": "23:01:38",
+      "symbol": "NNDM",
+      "company_name": "NNDM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $257.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:01:29",
+      "time_kst": "23:01:29",
+      "symbol": "FNGR",
+      "company_name": "FNGR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:01:23",
+      "time_kst": "23:01:23",
+      "symbol": "TBLA",
+      "company_name": "TBLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $593.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:56:27",
       "time_kst": "22:56:27",
       "symbol": "LPLA",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:16:08",
-      "time_kst": "22:16:08",
-      "symbol": "PERI",
-      "company_name": "PERI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $367.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:16:01",
-      "time_kst": "22:16:01",
-      "symbol": "NCPL",
-      "company_name": "NCPL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:15:52",
-      "time_kst": "22:15:52",
-      "symbol": "NTHI",
-      "company_name": "NTHI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $142.52M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:15:37",
-      "time_kst": "22:15:37",
-      "symbol": "APMD",
-      "company_name": "APMD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $704.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:15:27",
-      "time_kst": "22:15:27",
-      "symbol": "AFCG",
-      "company_name": "AFCG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $74.38M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
