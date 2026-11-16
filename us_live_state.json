@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:09:33",
-  "updated_at_et": "2026-11-16 07:09:33",
-  "updated_epoch_ms": 1794830973405,
+  "updated_at_kst": "2026-11-16 21:10:04",
+  "updated_at_et": "2026-11-16 07:10:04",
+  "updated_epoch_ms": 1794831004370,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BLRX",
+    "company_name": "BLRX",
+    "exchange": "ND",
+    "price": 1.32,
+    "gain_pct": 1.54,
+    "mcap_m": 6.57,
+    "catalyst_hint": "[당일 PR] BioLineRx and Hemispherian Present Phase 1/2a Clinical Study and Pre-Clinical Updates, Including Brain PK/PD Data, at SNO 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:10:01",
+    "started_at_kst": "21:10:01",
+    "started_epoch_ms": 1794831001715
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.07,
-    "profit_rate": -1.83,
-    "updated_kst": "21:09:27"
+    "current_price": 1.1,
+    "profit_rate": 0.92,
+    "updated_kst": "21:09:46"
   },
   "stats": {
     "today_total": 12,
