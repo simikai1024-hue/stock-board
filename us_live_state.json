@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:01:07",
-  "updated_at_et": "2026-11-16 08:01:07",
-  "updated_epoch_ms": 1794834067174,
+  "updated_at_kst": "2026-11-16 22:01:57",
+  "updated_at_et": "2026-11-16 08:01:57",
+  "updated_epoch_ms": 1794834117011,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.08,
-    "profit_rate": -0.92,
-    "updated_kst": "22:01:02"
+    "current_price": 1.0797,
+    "profit_rate": -0.94,
+    "updated_kst": "22:01:40"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:01:52",
+      "time_kst": "22:01:52",
+      "symbol": "AKBA",
+      "company_name": "AKBA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $132.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:01:46",
+      "time_kst": "22:01:46",
+      "symbol": "BIVI",
+      "company_name": "BIVI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:01:41",
+      "time_kst": "22:01:41",
+      "symbol": "WFRD",
+      "company_name": "WFRD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6127.36M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:01:32",
+      "time_kst": "22:01:32",
+      "symbol": "LKQ",
+      "company_name": "LKQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4914.19M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:00:34",
       "time_kst": "22:00:34",
       "symbol": "CIGL",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $96.38M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:06:43",
-      "time_kst": "21:06:43",
-      "symbol": "NSPR",
-      "company_name": "NSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-16 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:05:07",
-      "time_kst": "21:05:07",
-      "symbol": "SGML",
-      "company_name": "SGML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $554.08M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:04:43",
-      "time_kst": "21:04:43",
-      "symbol": "NERV",
-      "company_name": "NERV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $114.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:04:34",
-      "time_kst": "21:04:34",
-      "symbol": "BRKR",
-      "company_name": "BRKR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $9406.15M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
