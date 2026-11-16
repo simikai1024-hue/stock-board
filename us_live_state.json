@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:53:58",
-  "updated_at_et": "2026-11-16 09:53:58",
-  "updated_epoch_ms": 1794840838920,
+  "updated_at_kst": "2026-11-16 23:55:11",
+  "updated_at_et": "2026-11-16 09:55:11",
+  "updated_epoch_ms": 1794840911491,
   "analyzing": {
-    "active": true,
-    "symbol": "SLMT",
-    "company_name": "SLMT",
-    "exchange": "ND",
-    "price": 3.1,
-    "gain_pct": -1.59,
-    "mcap_m": 34.13,
-    "catalyst_hint": "[당일 PR] Solmate Infrastructure Plans to Expand into Global AI Compute with a GPU-as-a-Service asset-light Model",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:53:53",
-    "started_at_kst": "23:53:53",
-    "started_epoch_ms": 1794840833235
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 0.9971,
-    "profit_rate": -8.52,
-    "updated_kst": "23:53:58"
+    "current_price": 0.9907,
+    "profit_rate": -9.11,
+    "updated_kst": "23:54:59"
   },
   "stats": {
-    "today_total": 61,
-    "today_nblm_count": 61,
+    "today_total": 62,
+    "today_nblm_count": 62,
     "today_buy": 5,
-    "today_false": 56,
+    "today_false": 57,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.9
+    "avg_nblm_sec": 43.6
   },
   "verdicts": [
+    {
+      "id": "v_1794840906581_SLMT_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:55:06",
+      "time_kst": "23:55:06",
+      "symbol": "SLMT",
+      "company_name": "SLMT",
+      "exchange": "ND",
+      "price": 3.1,
+      "gain_pct": -1.59,
+      "mcap_m": 34.13,
+      "decision": "FALSE",
+      "elapsed_sec": 89.6,
+      "reason": "확정 수주/계약 금액 전무한 단순 GPU-as-a-Service 사업 진출 계획(Plans) 홍보 PR로 1급 기폭제 미달 및 음봉 하락(-1.59%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Solmate Infrastructure Plans to Expand into Global AI Compute with a GPU-as-a-Service asset-light Model",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SLMT (Solmate Infrastructure PLC) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $34.13M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/공급 계약/매출 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장중 음봉 하락 전환):\n전일 종가 $3.1500 대비 현재가 $3.1000 (-1.59%).\n당일 최고가 $3.2650 찍은 후 장중 고점 대비 -5.1% 밀리며 마이너스 파란불 음봉 전락.\n당일 누적 거래대금 $11,052 USD.\n선발표 규정 및 공시 확인: 당일 6-K 제출 여부와 무관하게 PR 원문의 실체적 금융 기폭제 검증이 핵심입니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:43 ET) 공식 PR 원문 분석:\nPR 제목: \"Solmate Infrastructure Plans to Expand into Global AI Compute with a GPU-as-a-Service asset-light Model\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 계약이 아닌 단순 미래 사업 진출 계획 표명 (Vague Business Plan PR):\n본 PR의 본질은 회사가 GPU-as-a-Service 경량화 모델을 통해 글로벌 AI 연산 시장에 진출할 **계획(announced its planned expansion...)**이라는 단순 사업 구상 보도자료입니다.\n원문 본문에도 *\"With anticipated access to GPUs in the UAE, the Nasdaq-listed company plans to connect businesses worldwide...\"*와 같이 **'예상되는(anticipated)', '계획이다(plans)'**라는 추상적 문구만 가득할 뿐, 실제로 구매를 확정한 고객사나 체결된 구속력 있는 계약서가 단 한 건도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n사명 변경(10/28) 및 이사회 변경(11/02) 이후 나온 전형적인 테마 편승용 언론 플레이:\n과거 180일 이력 대조 결과 회사는 10월 28일 사명 변경(Legal Name Change), 11월 2일 이사회 교체(Board Changes) 등 경영권/외형 변경 작업을 거친 후, 주가 부양을 위해 알맹이(확정 매출) 없는 AI 및 GPU 테마 편승성 계획 보도자료를 배포한 전형적인 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 위배 및 음봉 꺾임:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 미래 사업 계획/AI 테마 편승/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 정규장 개장 후 $3.2650에서 고점 대비 -5.1% 밀리며 -1.59% 음봉 파란불로 주저앉은 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약이나 고객사 수주가 전무한 단순 GPU-as-a-Service 사업 진출 계획(Plan) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장중 주가가 -1.59% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SLMT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: SLMT NOTES:\n[SLMT] 확정 수주/계약 금액 전무한 단순 GPU-as-a-Service 사업 진출 계획(Plans) 홍보 PR로 1급 기폭제 미달 및 음봉 하락(-1.59%) 전량 차단 ===VERDICT_END===\n💡 오늘 장중 프리마켓~본장 초반 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794839530814_DTST_FALSE",
       "date_et": "2026-11-16",
@@ -2424,26 +2432,6 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CANF (Can-Fite BioPharma Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.92M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.6200 대비 현재가 $1.6200 (+0.00% 보합), 당일 최고가 $1.6200 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K (EX-99.1) 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (첨부 EX-99.1 보도자료) 접수.\nPR 제목: \"Can-Fite Reports Ten-Year Survival Milestone for Advanced Liver Cancer Patient from Phase II Namodenoson Study\"\n원문 팩트: 진행성 간암 파이프라인(Namodenoson) 임상 2상에 참여했던 환자 1명의 10년 장기 생존 사례(Ten-Year Survival Milestone for Single Patient)를 발표한 보도자료입니다.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인, Pivotal 임상 3상 톱라인 성공, 구체적 현금 유입 계약/자산 매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아니라, **단순 임상 2상 참여 환자 1명의 장기 생존 추적 발표(Single Patient Case Update)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 임상 사례/개별 환자 추적/특허/IR 발표/주주서한' 범주에 정확히 속하므로 당일 기업 가치를 폭발시킬 확정적 1급 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 +0.00% 보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 개별 환자 1명 생존 추적 발표(Single Patient Case Update)에 불과하고 장전 보합(+0.00%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CANF 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: CANF NOTES:\n[CANF] 임상 2상 환자 1명 장기 생존 추적(Single Patient Survival Update) 공시는 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794222477678_EDSA_BUY",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "06:07:57",
-      "time_kst": "20:07:57",
-      "symbol": "EDSA",
-      "company_name": "EDSA",
-      "exchange": "ND",
-      "price": 2.37,
-      "gain_pct": 10.23,
-      "mcap_m": 32.02,
-      "decision": "BUY",
-      "elapsed_sec": 38.6,
-      "reason": "시총 $32.02M 대비 4배가 넘는 $140M+ 대형 독점 라이선스 계약 8-K(Item 1.01) 확정 공시 및 유증 희석 0건으로 FORCE_BUY 승인",
-      "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 1.01,1.02,7.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EDSA (Edesa Biotech, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $32.02M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $2.1500 대비 현재가 $2.3700 (+10.23% 상승), 당일 최고가 $2.6262 (고점 대비 -9.8%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 특S급 기폭제 확인\n당일(11/09) SEC 8-K (Item 1.01, 1.02, 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 1.01, 1.02, 7.01, 9.01) 접수.\n원문 팩트: 2026년 11월 8일 Edesa Biotech가 일본 Kyorin Pharmaceutical과 자사 주요 파이프라인 Paridiprubart의 일본 내 독점 개발 및 상업화 라이선스 계약(Collaboration and License Agreement)을 전격 체결함.\n[1급 확정 기폭제 무결점 검증]:\n8-K Item 1.01 확정 계약(Entry into a Material Definitive Agreement) 제출 완료.\n첨부 보도자료(EX-99.1) 원문에 **총 $140M 이상($140 Million+ in upfront, milestones, royalties)**의 구체적 달러 금액이 명시된 대형 글로벌 라이선스 계약으로 확인됨.\n당사 실질 시가총액($32.02M)의 4배가 넘는 $140M+ 대형 계약으로서 기업 가치를 수직 폭등시킬 수 있는 확정적 1급 기폭제 기준을 완벽히 충족함.\n최근 35일 SEC 공시 검수 결과 당일 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 유상증자/신주 물량 출회 희석 독소조항 0건.\n3. 최종 심사 및 결재 판정\n시가총액 $32.02M의 소형 품절주가 당일 SEC 8-K(Item 1.01)를 통해 시총의 4배를 초과하는 $140M+ 대형 독점 라이선스 계약을 확정 공시하였으며, 유증 희석 독소가 전무하므로 전략 헌장 심사 기준 2번 및 연구소 진짜대장주공식에 의거 **FORCE_BUY: EDSA**를 전격 승인 결재합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: EDSA FORCE_BLOCK: NONE NOTES:\n[EDSA] 시총 $32.02M 대비 4배가 넘는 $140M+ 대형 독점 라이선스 계약 8-K(Item 1.01) 확정 공시 및 유증 희석 0건으로 FORCE_BUY 승인 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "💰 익절 완료: 79주 | 매수 $2.3441 → 매도 $2.5600 (+9.21% / +$17.05)"
     }
   ],
   "hardcuts": [
