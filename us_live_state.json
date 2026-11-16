@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:19:56",
-  "updated_at_et": "2026-11-16 06:19:56",
-  "updated_epoch_ms": 1794827996356,
+  "updated_at_kst": "2026-11-16 20:20:54",
+  "updated_at_et": "2026-11-16 06:20:54",
+  "updated_epoch_ms": 1794828054793,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.9103,
-    "profit_rate": -0.8,
-    "updated_kst": "20:19:50"
+    "current_price": 4.92,
+    "profit_rate": -0.6,
+    "updated_kst": "20:20:48"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:20:49",
+      "time_kst": "20:20:49",
+      "symbol": "ACRV",
+      "company_name": "ACRV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $62.49M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:16:04",
       "time_kst": "20:16:04",
       "symbol": "DRTS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $58.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:18:39",
-      "time_kst": "18:18:39",
-      "symbol": "INTZ",
-      "company_name": "INTZ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 3.02,9.01))"
     }
   ]
 }
