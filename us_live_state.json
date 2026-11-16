@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:30:29",
-  "updated_at_et": "2026-11-16 05:30:29",
-  "updated_epoch_ms": 1794825029886,
+  "updated_at_kst": "2026-11-16 19:30:42",
+  "updated_at_et": "2026-11-16 05:30:42",
+  "updated_epoch_ms": 1794825042960,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 937.45,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
+    "holding_symbol": "CLRO",
+    "holding_qty": 182,
+    "avg_price": 4.9498,
+    "current_price": 4.95,
     "profit_rate": 0.0,
-    "updated_kst": "19:30:23"
+    "updated_kst": "19:30:42"
   },
   "stats": {
     "today_total": 1,
@@ -51,7 +51,7 @@
       "catalyst_hint": "[Track B 초품절 숏스퀴즈] 유통총액 $2.993M | 공매도 44.05% | 회전율 3.94x",
       "full_report": "[Track B: 초품절 숏스퀴즈 스나이퍼 실시간 점화 포착]\n- 종목: CLRO (NASDAQ)\n- 현재가: $5.06 (+50.15%, 전일종가 $3.3700)\n- 유통주식총액: $2.993M (유통주식수 0.888M주)\n- 공매도 잔고 비중: 44.05%\n- 실시간 마진콜 점화: 누적거래대금 $14.77M / 회전율 3.94배\n- 당일(D-Day) 오퍼링·희석 폭탄: 0건 확인 완료 -> 즉시 선점 매수 및 +51% 매복 익절 발주!",
       "engine": "NotebookLM 직통",
-      "trade_action": "🚀 즉시 선점매수 승인!"
+      "trade_action": "🚀 실전매수 체결 완료 (182주 @ 평단 $4.9498)"
     },
     {
       "id": "v_1794596886649_ONFO_BUY",
