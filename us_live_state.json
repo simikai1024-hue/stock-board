@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:06:38",
-  "updated_at_et": "2026-11-16 07:06:38",
-  "updated_epoch_ms": 1794830798500,
+  "updated_at_kst": "2026-11-16 21:07:36",
+  "updated_at_et": "2026-11-16 07:07:36",
+  "updated_epoch_ms": 1794830856270,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0613,
-    "profit_rate": -2.63,
-    "updated_kst": "21:06:36"
+    "current_price": 1.05,
+    "profit_rate": -3.67,
+    "updated_kst": "21:07:32"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:07:34",
+      "time_kst": "21:07:34",
+      "symbol": "UNCY",
+      "company_name": "UNCY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $96.38M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:06:43",
+      "time_kst": "21:06:43",
+      "symbol": "NSPR",
+      "company_name": "NSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-16 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:05:07",
       "time_kst": "21:05:07",
       "symbol": "SGML",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $913192.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:20:49",
-      "time_kst": "20:20:49",
-      "symbol": "ACRV",
-      "company_name": "ACRV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $62.49M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:16:04",
-      "time_kst": "20:16:04",
-      "symbol": "DRTS",
-      "company_name": "DRTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1405.67M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
