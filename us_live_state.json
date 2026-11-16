@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 00:34:35",
-  "updated_at_et": "2026-11-16 10:34:35",
-  "updated_epoch_ms": 1794843275506,
+  "updated_at_kst": "2026-11-17 00:35:51",
+  "updated_at_et": "2026-11-16 10:35:51",
+  "updated_epoch_ms": 1794843351912,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1801,
-    "profit_rate": 8.27,
-    "updated_kst": "00:34:31"
+    "current_price": 1.17,
+    "profit_rate": 7.34,
+    "updated_kst": "00:35:47"
   },
   "stats": {
     "today_total": 63,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "10:35:16",
+      "time_kst": "00:35:16",
+      "symbol": "RUBI",
+      "company_name": "RUBI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-19 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "10:30:26",
       "time_kst": "00:30:26",
       "symbol": "PCLA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Reading International Reports Third Quarter 2026 Results)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:23:20",
-      "time_kst": "23:23:20",
-      "symbol": "TGL",
-      "company_name": "TGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
     }
   ]
 }
