@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:56:21",
-  "updated_at_et": "2026-11-16 11:56:21",
-  "updated_epoch_ms": 1794848181750,
+  "updated_at_kst": "2026-11-17 01:57:17",
+  "updated_at_et": "2026-11-16 11:57:17",
+  "updated_epoch_ms": 1794848237564,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.14,
-    "profit_rate": 4.59,
-    "updated_kst": "01:56:13"
+    "current_price": 1.1301,
+    "profit_rate": 3.68,
+    "updated_kst": "01:57:11"
   },
   "stats": {
     "today_total": 65,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:56:54",
+      "time_kst": "01:56:54",
+      "symbol": "APP",
+      "company_name": "APP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $138161.27M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:56:15",
       "time_kst": "01:56:15",
       "symbol": "FLNC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:48:02",
-      "time_kst": "23:48:02",
-      "symbol": "NXL",
-      "company_name": "NXL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-15 [EFFECT] (Item ,,))"
     }
   ]
 }
