@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 00:03:41",
-  "updated_at_et": "2026-11-16 10:03:41",
-  "updated_epoch_ms": 1794841421137,
+  "updated_at_kst": "2026-11-17 00:04:48",
+  "updated_at_et": "2026-11-16 10:04:48",
+  "updated_epoch_ms": 1794841488540,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0688,
-    "profit_rate": -1.94,
-    "updated_kst": "00:03:26"
+    "current_price": 1.135,
+    "profit_rate": 4.13,
+    "updated_kst": "00:04:43"
   },
   "stats": {
     "today_total": 62,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "10:03:46",
+      "time_kst": "00:03:46",
+      "symbol": "MAT",
+      "company_name": "MAT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4298.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "10:03:36",
       "time_kst": "00:03:36",
       "symbol": "JKHY",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3128.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:08:07",
-      "time_kst": "23:08:07",
-      "symbol": "JAGX",
-      "company_name": "JAGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
     }
   ]
 }
