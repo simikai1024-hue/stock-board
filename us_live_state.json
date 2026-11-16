@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 00:26:11",
-  "updated_at_et": "2026-11-16 10:26:11",
-  "updated_epoch_ms": 1794842771770,
+  "updated_at_kst": "2026-11-17 00:29:28",
+  "updated_at_et": "2026-11-16 10:29:28",
+  "updated_epoch_ms": 1794842968802,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.19,
-    "profit_rate": 9.17,
-    "updated_kst": "00:26:07"
+    "current_price": 1.18,
+    "profit_rate": 8.26,
+    "updated_kst": "00:29:23"
   },
   "stats": {
     "today_total": 62,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "10:27:20",
+      "time_kst": "00:27:20",
+      "symbol": "ALPS",
+      "company_name": "ALPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $214.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "10:27:10",
+      "time_kst": "00:27:10",
+      "symbol": "GDHG",
+      "company_name": "GDHG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $123.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "10:27:04",
+      "time_kst": "00:27:04",
+      "symbol": "CDZI",
+      "company_name": "CDZI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $274.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "10:26:58",
+      "time_kst": "00:26:58",
+      "symbol": "SEZL",
+      "company_name": "SEZL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5418.01M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "10:13:08",
       "time_kst": "00:13:08",
       "symbol": "WYHG",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $19475.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:19:04",
-      "time_kst": "23:19:04",
-      "symbol": "DASH",
-      "company_name": "DASH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $74779.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:18:52",
-      "time_kst": "23:18:52",
-      "symbol": "IVF",
-      "company_name": "IVF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (INVO Fertility Reports Third Quarter 2026 Results Highligh)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:18:38",
-      "time_kst": "23:18:38",
-      "symbol": "KOPN",
-      "company_name": "KOPN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $582.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:12:32",
-      "time_kst": "23:12:32",
-      "symbol": "DFNS",
-      "company_name": "DFNS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
     }
   ]
 }
