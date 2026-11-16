@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:38:03",
-  "updated_at_et": "2026-11-16 08:38:03",
-  "updated_epoch_ms": 1794836283320,
+  "updated_at_kst": "2026-11-16 22:38:17",
+  "updated_at_et": "2026-11-16 08:38:17",
+  "updated_epoch_ms": 1794836297649,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "IDAI",
+    "company_name": "IDAI",
+    "exchange": "ND",
+    "price": 2.62,
+    "gain_pct": 2.75,
+    "mcap_m": 14.89,
+    "catalyst_hint": "[당일 PR] Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-mo",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:38:13",
+    "started_at_kst": "22:38:13",
+    "started_epoch_ms": 1794836293055
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 1.09,
     "current_price": 1.05,
     "profit_rate": -3.67,
-    "updated_kst": "22:37:49"
+    "updated_kst": "22:38:08"
   },
   "stats": {
     "today_total": 43,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:38:08",
+      "time_kst": "22:38:08",
+      "symbol": "NAGE",
+      "company_name": "NAGE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $163.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:38:03",
+      "time_kst": "22:38:03",
+      "symbol": "RENX",
+      "company_name": "RENX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:37:54",
       "time_kst": "22:37:54",
       "symbol": "GLAD",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $43227.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:10:30",
-      "time_kst": "22:10:30",
-      "symbol": "RLMD",
-      "company_name": "RLMD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $416.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:10:06",
-      "time_kst": "22:10:06",
-      "symbol": "SLE",
-      "company_name": "SLE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
     }
   ]
 }
