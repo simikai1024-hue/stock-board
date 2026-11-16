@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:17:13",
-  "updated_at_et": "2026-11-16 04:17:13",
-  "updated_epoch_ms": 1794820633568,
+  "updated_at_kst": "2026-11-16 18:17:57",
+  "updated_at_et": "2026-11-16 04:17:57",
+  "updated_epoch_ms": 1794820677129,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:17:10"
+    "updated_kst": "18:17:47"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 26,
+    "today_hardcut": 31,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:17:53",
+      "time_kst": "18:17:53",
+      "symbol": "DFNS",
+      "company_name": "DFNS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:17:40",
+      "time_kst": "18:17:40",
+      "symbol": "FFAI",
+      "company_name": "FFAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:17:32",
+      "time_kst": "18:17:32",
+      "symbol": "ARBE",
+      "company_name": "ARBE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.69M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:17:27",
+      "time_kst": "18:17:27",
+      "symbol": "HRTX",
+      "company_name": "HRTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:17:19",
+      "time_kst": "18:17:19",
+      "symbol": "ICU",
+      "company_name": "ICU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:17:07",
       "time_kst": "18:17:07",
       "symbol": "CYCU",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $50.27M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "10:37:17",
-      "time_kst": "00:37:17",
-      "symbol": "ALPS",
-      "company_name": "ALPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $214.64M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "10:27:56",
-      "time_kst": "00:27:56",
-      "symbol": "AQB",
-      "company_name": "AQB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "10:24:59",
-      "time_kst": "00:24:59",
-      "symbol": "MEDS",
-      "company_name": "MEDS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "10:24:53",
-      "time_kst": "00:24:53",
-      "symbol": "SRTM",
-      "company_name": "SRTM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "10:09:37",
-      "time_kst": "00:09:37",
-      "symbol": "VALN",
-      "company_name": "VALN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $555.54M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
