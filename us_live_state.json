@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:48:48",
-  "updated_at_et": "2026-11-16 08:48:48",
-  "updated_epoch_ms": 1794836928344,
+  "updated_at_kst": "2026-11-16 22:49:33",
+  "updated_at_et": "2026-11-16 08:49:33",
+  "updated_epoch_ms": 1794836973264,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.03,
-    "profit_rate": -5.5,
-    "updated_kst": "22:48:44"
+    "current_price": 1.0202,
+    "profit_rate": -6.4,
+    "updated_kst": "22:49:24"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:49:28",
+      "time_kst": "22:49:28",
+      "symbol": "SLND",
+      "company_name": "SLND",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.79M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:47:45",
       "time_kst": "22:47:45",
       "symbol": "WENN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $616.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:14:01",
-      "time_kst": "22:14:01",
-      "symbol": "HONA",
-      "company_name": "HONA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51682.53M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
