@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:26:08",
-  "updated_at_et": "2026-11-16 07:26:08",
-  "updated_epoch_ms": 1794831968931,
+  "updated_at_kst": "2026-11-16 21:27:04",
+  "updated_at_et": "2026-11-16 07:27:04",
+  "updated_epoch_ms": 1794832024923,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.12,
-    "profit_rate": 2.75,
-    "updated_kst": "21:26:02"
+    "current_price": 1.0885,
+    "profit_rate": -0.14,
+    "updated_kst": "21:27:01"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:26:30",
+      "time_kst": "21:26:30",
+      "symbol": "IBIO",
+      "company_name": "IBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:16:17",
       "time_kst": "21:16:17",
       "symbol": "LRMR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:00:29",
-      "time_kst": "21:00:29",
-      "symbol": "OPTX",
-      "company_name": "OPTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $280.34M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
