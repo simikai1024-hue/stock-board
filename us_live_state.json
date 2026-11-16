@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:16:14",
-  "updated_at_et": "2026-11-16 07:16:14",
-  "updated_epoch_ms": 1794831374806,
+  "updated_at_kst": "2026-11-16 21:17:07",
+  "updated_at_et": "2026-11-16 07:17:07",
+  "updated_epoch_ms": 1794831427482,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0302,
-    "profit_rate": -5.49,
-    "updated_kst": "21:16:03"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "21:17:01"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:16:17",
+      "time_kst": "21:16:17",
+      "symbol": "LRMR",
+      "company_name": "LRMR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $323.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:16:08",
       "time_kst": "21:16:08",
       "symbol": "MPLT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $280.34M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:00:25",
-      "time_kst": "21:00:25",
-      "symbol": "RDZN",
-      "company_name": "RDZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $90.27M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
