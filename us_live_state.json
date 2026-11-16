@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:19:05",
-  "updated_at_et": "2026-11-16 09:19:05",
-  "updated_epoch_ms": 1794838745030,
+  "updated_at_kst": "2026-11-16 23:19:20",
+  "updated_at_et": "2026-11-16 09:19:20",
+  "updated_epoch_ms": 1794838760461,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FABC",
+    "company_name": "FABC",
+    "exchange": "ND",
+    "price": 1.55,
+    "gain_pct": -3.73,
+    "mcap_m": 10.86,
+    "catalyst_hint": "[당일 PR] Fabric.AI Provides Corporate Update, Reports Over $20 Million in Cash",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:19:13",
+    "started_at_kst": "23:19:13",
+    "started_epoch_ms": 1794838753301
   },
   "halt_watch": {
     "active": false
