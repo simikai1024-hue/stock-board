@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:30:42",
-  "updated_at_et": "2026-11-16 05:30:42",
-  "updated_epoch_ms": 1794825042960,
+  "updated_at_kst": "2026-11-16 19:31:39",
+  "updated_at_et": "2026-11-16 05:31:39",
+  "updated_epoch_ms": 1794825099711,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.95,
-    "profit_rate": 0.0,
-    "updated_kst": "19:30:42"
+    "current_price": 4.94,
+    "profit_rate": -0.2,
+    "updated_kst": "19:31:34"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "05:30:48",
+      "time_kst": "19:30:48",
+      "symbol": "VANI",
+      "company_name": "VANI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $92.01M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "05:26:13",
       "time_kst": "19:26:13",
       "symbol": "VHUB",
@@ -2924,16 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:03:18",
-      "time_kst": "18:03:18",
-      "symbol": "RENX",
-      "company_name": "RENX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
