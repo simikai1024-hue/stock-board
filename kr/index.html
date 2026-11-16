@@ -740,6 +740,147 @@
   .up-txt { color: var(--emerald); font-weight: 800; }
   .dn-txt { color: var(--rose); font-weight: 800; }
 
+  /* 2-B. 🧪 본장 대장주 실험실 (모의 검증 전용 박스) */
+  .lab-card {
+    background: linear-gradient(150deg, #FFFFFF 0%, #F5FBFF 100%);
+    border: 1.5px dashed #0284C7;
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin-block-end: 28px;
+    box-shadow: 0 8px 22px rgba(3, 105, 161, 0.08);
+  }
+  .lab-safety-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #E0F2FE;
+    border: 1px solid #0284C7;
+    color: #075985;
+  }
+  .lab-kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin-block-end: 12px;
+  }
+  .lab-kpi-mini {
+    background: #F0F9FF;
+    border: 1px solid #7DD3FC;
+    border-radius: 11px;
+    padding: 10px 13px;
+  }
+  .lab-kpi-lbl {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--text-muted);
+    margin-block-end: 2px;
+  }
+  .lab-kpi-val {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--text-main);
+  }
+  .lab-kpi-rule {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--cobalt);
+    line-height: 1.35;
+  }
+  .lab-live-box {
+    background: #FFFFFF;
+    border: 1.5px solid #7DD3FC;
+    border-radius: 12px;
+    padding: 13px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .lab-live-box.armed {
+    background: linear-gradient(135deg, #F0F9FF 0%, #FEF9C3 100%);
+    border-color: #0284C7;
+  }
+  .lab-live-box.holding {
+    background: linear-gradient(135deg, #ECFDF5 0%, #E0F2FE 100%);
+    border-color: var(--emerald);
+  }
+  .lab-status-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: #E0F2FE;
+    color: #075985;
+    border: 1px solid #38BDF8;
+    margin-block-end: 4px;
+  }
+  .lab-status-tag.holding {
+    background: var(--emerald-bg);
+    color: var(--emerald);
+    border-color: var(--emerald);
+  }
+  .lab-status-tag.armed {
+    background: var(--amber-bg);
+    color: var(--amber-text);
+    border-color: var(--amber-border);
+  }
+  .lab-hist-details {
+    margin-block-start: 10px;
+    border-block-start: 1px dashed #BAE6FD;
+    padding-block-start: 8px;
+  }
+  .lab-hist-details > summary {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--cobalt);
+    cursor: pointer;
+    padding: 4px 2px;
+  }
+  .lab-hist-details > summary::-webkit-details-marker { display: none; }
+  .lab-hist-details > summary::before {
+    content: "";
+    inline-size: 0.85em;
+    block-size: 0.85em;
+    background-color: var(--cobalt);
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat center / contain;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat center / contain;
+    rotate: -90deg;
+  }
+  .lab-hist-details[open] > summary::before { rotate: 0deg; }
+  .lab-hist-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-block-start: 8px;
+  }
+  .lab-hist-row {
+    background: #F8FCFF;
+    border: 1px solid #BAE6FD;
+    border-radius: 9px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .lab-hist-row:hover { background: #E0F2FE; }
+
   /* 3. KPI 요약 2칸 + 반응형 종가베팅 성적표 */
   .kpi-row {
     display: grid;
@@ -931,6 +1072,7 @@
     .price-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .hero-stock-name { font-size: 24px; }
     .kpi-row { grid-template-columns: 1fr; }
+    .lab-kpi-strip { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -1007,6 +1149,54 @@
       <div style="padding:24px; text-align:center; color:var(--text-muted); font-weight:700; background:var(--bg-card); border-radius:14px; border:1.5px solid #38BDF8;">
         주도 테마 데이터를 불러오는 중입니다...
       </div>
+    </div>
+  </section>
+
+  <!-- 2-B. 🧪 본장 대장주 실험실 (실시간 모의 검증 전용 박스 · 실계좌 주문 OFF) -->
+  <section aria-labelledby="lab-heading">
+    <div class="section-head">
+      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
+        <h2 class="section-title" id="lab-heading">🧪 본장 대장주 실험실</h2>
+        <span class="lab-safety-pill">🛡️ 모의 검증 전용 · 실계좌 주문 0원</span>
+      </div>
+      <span class="section-sub">검증 완료 후 자동매매 모듈로 전환 가능</span>
+    </div>
+
+    <div class="lab-card">
+      <div class="lab-kpi-strip">
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">📈 실험실 누적 수익률 (세후)</div>
+          <div class="lab-kpi-val" id="labCumRet">+0.00%</div>
+        </div>
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">🎯 실험실 승률 · 모의 전적</div>
+          <div class="lab-kpi-val" id="labWinStats">0.0% (0전 0승 0패)</div>
+        </div>
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">⚙️ 실험실 검증 공식</div>
+          <div class="lab-kpi-rule">1위 대장주(+9%↑) VWAP 첫 눌림 → 14:50 홀딩 (-3% 손절)</div>
+        </div>
+      </div>
+
+      <div class="lab-live-box" id="labLiveBox">
+        <div>
+          <div class="lab-status-tag" id="labStatusTag">🕒 평일 09:25~13:30 감시 대기</div>
+          <div style="font-size:14.5px; font-weight:800; color:var(--text-main);" id="labMainTxt">
+            평일 정규장 중 1위 진성급등 테마의 1등 대장주(+9%↑)가 세력본전(VWAP)으로 내려오면 자동 모의 포착합니다.
+          </div>
+          <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="labSubTxt">
+            모든 모의 검증 성적은 실제 KRX 거래세·수수료·슬리피지(0.23%)를 차감해 냉정하게 기록됩니다.
+          </div>
+        </div>
+        <div id="labRightAction"></div>
+      </div>
+
+      <details class="lab-hist-details" id="labHistDetails">
+        <summary><span id="labHistSummaryLbl">실험실 일자별 모의 검증 기록 보기 (0건)</span></summary>
+        <div class="lab-hist-list" id="labHistList">
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">내일 본장(09:25~)부터 첫 모의 검증 기록이 자동으로 쌓입니다.</div>
+        </div>
+      </details>
     </div>
   </section>
 
@@ -1415,11 +1605,108 @@
     }).join("");
   }
 
+  function renderIntradayLab(isi) {
+    const lab = isi?.intraday_lab || {};
+    const st = lab.stats || {};
+    const tot = Number(st.total_closed || 0);
+    const wins = Number(st.win_count || 0);
+    const losses = Number(st.loss_count || 0);
+    const wr = Number(st.win_rate_pct || 0);
+    const compRet = Number(st.comp_return_pct || 0);
+
+    const cumEl = document.getElementById("labCumRet");
+    if (cumEl) {
+      cumEl.textContent = `${compRet >= 0 ? "+" : ""}${compRet.toFixed(2)}%`;
+      cumEl.style.color = compRet > 0 ? "#047857" : (compRet < 0 ? "#BE123C" : "#0F172A");
+    }
+    const winEl = document.getElementById("labWinStats");
+    if (winEl) {
+      winEl.textContent = `${wr.toFixed(1)}% (${tot}전 ${wins}승 ${losses}패)`;
+    }
+
+    const boxEl = document.getElementById("labLiveBox");
+    const tagEl = document.getElementById("labStatusTag");
+    const mainEl = document.getElementById("labMainTxt");
+    const subEl = document.getElementById("labSubTxt");
+    const rightEl = document.getElementById("labRightAction");
+
+    const tStatus = lab.today_status || "IDLE";
+    const pos = lab.active_pos;
+    const armed = lab.armed_candidate;
+    const closed = lab.today_closed;
+
+    if (tStatus === "HOLDING" && pos && pos.code) {
+      boxEl.className = "lab-live-box holding";
+      tagEl.className = "lab-status-tag holding";
+      tagEl.textContent = `🎣 모의 탑승 중 (${pos.entry_time || ""} 체결)`;
+      const netP = Number(pos.cur_net_pct || 0);
+      const pCls = netP >= 0 ? "up-txt" : "dn-txt";
+      mainEl.innerHTML = `[${escHtml(pos.theme_name)}] <strong>${escHtml(pos.name)}</strong> (${escHtml(pos.code)}) · 진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} <span class="${pCls}">(${netP >= 0 ? "+" : ""}${netP.toFixed(2)}%)</span>`;
+      subEl.textContent = `세력VWAP ${fmtWon(pos.vwap_price)} · 🛡️ 손절방패 ${fmtWon(pos.stop_loss_px)}(-3.0%) · ⏰ 14:50 자동청산 대기`;
+      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(pos.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+    } else if (tStatus === "ARMED" && armed && armed.code) {
+      boxEl.className = "lab-live-box armed";
+      tagEl.className = "lab-status-tag armed";
+      tagEl.textContent = "🕸️ VWAP 그물망 장전 완료";
+      mainEl.innerHTML = `[${escHtml(armed.theme_name)}] <strong>${escHtml(armed.name)}</strong> (${escHtml(armed.code)}) · 현재 ${fmtWon(armed.cur_price)} (${Number(armed.cur_rate || 0) >= 0 ? "+" : ""}${Number(armed.cur_rate || 0).toFixed(1)}%)`;
+      subEl.textContent = `🎯 세력본전 낚시 대기선: ${fmtWon(armed.limit_buy_px)} (VWAP ${fmtWon(armed.vwap_price)} · 현재 이격 +${Number(armed.gap_to_vwap_pct || 0).toFixed(1)}%)`;
+      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(armed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+    } else if (tStatus === "DONE" && closed && closed.code) {
+      boxEl.className = "lab-live-box";
+      tagEl.className = "lab-status-tag";
+      tagEl.textContent = "✅ 오늘 실험실 모의 검증 완료";
+      const np = Number(closed.net_pnl_pct || 0);
+      const cls = np >= 0 ? "up-txt" : "dn-txt";
+      mainEl.innerHTML = `[${escHtml(closed.theme_name)}] <strong>${escHtml(closed.name)}</strong> (${escHtml(closed.code)}) · ${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) <span class="${cls}">(${np >= 0 ? "+" : ""}${np.toFixed(2)}%)</span>`;
+      subEl.textContent = `청산 사유: ${closed.exit_reason || "14:50 마감"} (왕복 세금·수수료 0.23% 차감 완료)`;
+      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(closed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+    } else {
+      boxEl.className = "lab-live-box";
+      tagEl.className = "lab-status-tag";
+      tagEl.textContent = "🕒 평일 09:25~13:30 감시 대기";
+      mainEl.textContent = "평일 본장 중 1위 진성급등 테마의 1등 대장주(+9%↑)가 세력본전(VWAP)으로 내려오면 자동 모의 포착합니다.";
+      subEl.textContent = "실전 돈은 1원도 투입되지 않으며, 세금·수수료(0.23%)까지 뺀 순수익으로 실전성을 먼저 증명합니다.";
+      rightEl.innerHTML = "";
+    }
+
+    const hist = lab.history || [];
+    const sumLbl = document.getElementById("labHistSummaryLbl");
+    if (sumLbl) {
+      sumLbl.textContent = `실험실 일자별 모의 검증 기록 보기 (${hist.length}건)`;
+    }
+    const listEl = document.getElementById("labHistList");
+    if (listEl) {
+      if (!hist.length) {
+        listEl.innerHTML = `<div style="padding:10px; font-size:13px; color:var(--text-muted);">내일 본장(09:25~)부터 조건 충족 시 첫 모의 검증 기록이 자동으로 쌓입니다.</div>`;
+      } else {
+        listEl.innerHTML = hist.map(h => {
+          const np = Number(h.net_pnl_pct || 0);
+          const cls = np >= 0 ? "up-txt" : "dn-txt";
+          return `
+            <div class="lab-hist-row" onclick="copyStockCode('${escHtml(h.code)}', '${escHtml(h.name)}')">
+              <div>
+                <span style="color:var(--text-muted);">${escHtml(h.date)}(${escHtml(h.weekday || '')})</span> ·
+                <strong>${escHtml(h.name)}</strong> <span style="font-size:12px; color:var(--text-muted);">(${escHtml(h.code)})</span>
+                ${h.theme_name ? `<span style="font-size:12px; color:#0369A1;">[${escHtml(h.theme_name)}]</span>` : ``}
+              </div>
+              <div>
+                <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
+                <span class="${cls}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>
+                <span style="font-size:12px; color:var(--text-muted);">(${escHtml(h.exit_reason || '')})</span>
+              </div>
+            </div>
+          `;
+        }).join("");
+      }
+    }
+  }
+
   function applyIsiBoard(isi) {
     if (!isi) return;
     currentIsiData = isi;
     renderHero(isi);
     renderTop3Themes(isi);
+    renderIntradayLab(isi);
     renderLedger(isi);
   }
 
