@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:00:04",
-  "updated_at_et": "2026-11-16 07:00:04",
-  "updated_epoch_ms": 1794830404722,
+  "updated_at_kst": "2026-11-16 21:00:58",
+  "updated_at_et": "2026-11-16 07:00:58",
+  "updated_epoch_ms": 1794830458931,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:59:59"
+    "updated_kst": "21:00:44"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,96 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:00:54",
+      "time_kst": "21:00:54",
+      "symbol": "HELP",
+      "company_name": "HELP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $766.4M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:48",
+      "time_kst": "21:00:48",
+      "symbol": "AVR",
+      "company_name": "AVR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $534.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:43",
+      "time_kst": "21:00:43",
+      "symbol": "ALMR",
+      "company_name": "ALMR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2140.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:36",
+      "time_kst": "21:00:36",
+      "symbol": "XXII",
+      "company_name": "XXII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:29",
+      "time_kst": "21:00:29",
+      "symbol": "OPTX",
+      "company_name": "OPTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $280.34M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:25",
+      "time_kst": "21:00:25",
+      "symbol": "RDZN",
+      "company_name": "RDZN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $90.27M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:21",
+      "time_kst": "21:00:21",
+      "symbol": "AKAM",
+      "company_name": "AKAM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $12290.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:16",
+      "time_kst": "21:00:16",
+      "symbol": "FANG",
+      "company_name": "FANG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50864.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:00:12",
+      "time_kst": "21:00:12",
+      "symbol": "MDLN",
+      "company_name": "MDLN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $32510.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:47:38",
       "time_kst": "20:47:38",
       "symbol": "NWE",
@@ -2454,16 +2544,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4878.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:46:20",
-      "time_kst": "20:46:20",
-      "symbol": "FANG",
-      "company_name": "FANG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51380.79M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-16",
@@ -2514,26 +2594,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $107.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:31:18",
-      "time_kst": "20:31:18",
-      "symbol": "AKAM",
-      "company_name": "AKAM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $12285.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:31:00",
-      "time_kst": "20:31:00",
-      "symbol": "RDZN",
-      "company_name": "RDZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $82.78M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-16",
@@ -2657,16 +2717,6 @@
     },
     {
       "date_et": "2026-11-16",
-      "time_et": "06:12:14",
-      "time_kst": "20:12:14",
-      "symbol": "OPTX",
-      "company_name": "OPTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $290.02M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
       "time_et": "06:02:53",
       "time_kst": "20:02:53",
       "symbol": "HSIC",
@@ -2697,16 +2747,6 @@
     },
     {
       "date_et": "2026-11-16",
-      "time_et": "06:02:30",
-      "time_kst": "20:02:30",
-      "symbol": "AVR",
-      "company_name": "AVR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $528.41M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
       "time_et": "06:02:23",
       "time_kst": "20:02:23",
       "symbol": "ZYME",
@@ -2724,16 +2764,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1708.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:02:01",
-      "time_kst": "20:02:01",
-      "symbol": "ALMR",
-      "company_name": "ALMR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2140.73M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-16",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:37:13",
-      "time_kst": "18:37:13",
-      "symbol": "LIMN",
-      "company_name": "LIMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:33:19",
-      "time_kst": "18:33:19",
-      "symbol": "TNXP",
-      "company_name": "TNXP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.71M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:27:14",
-      "time_kst": "18:27:14",
-      "symbol": "WSHP",
-      "company_name": "WSHP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
     }
   ]
 }
