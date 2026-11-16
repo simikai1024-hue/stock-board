@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:34:48",
-  "updated_at_et": "2026-11-16 06:34:48",
-  "updated_epoch_ms": 1794828888272,
+  "updated_at_kst": "2026-11-16 20:35:21",
+  "updated_at_et": "2026-11-16 06:35:21",
+  "updated_epoch_ms": 1794828921504,
   "analyzing": {
-    "active": true,
-    "symbol": "TNMG",
-    "company_name": "TNMG",
-    "exchange": "ND",
-    "price": 2.95,
-    "gain_pct": 4.64,
-    "mcap_m": 2.24,
-    "catalyst_hint": "[당일 PR] TNL Mediagene's Premium Newsletter TNL Daily Completes Launch Campaign with NT$1.39 Million in Subscription Pre-Sales from 924 Supporters",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:34:41",
-    "started_at_kst": "20:34:41",
-    "started_epoch_ms": 1794828881693
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 5.009,
-    "profit_rate": 1.2,
-    "updated_kst": "20:34:35"
+    "current_price": 4.9979,
+    "profit_rate": 0.97,
+    "updated_kst": "20:35:14"
   },
   "stats": {
-    "today_total": 7,
-    "today_nblm_count": 7,
+    "today_total": 8,
+    "today_nblm_count": 8,
     "today_buy": 2,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 27.6
+    "avg_nblm_sec": 29.0
   },
   "verdicts": [
+    {
+      "id": "v_1794828917014_TNMG_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "06:35:17",
+      "time_kst": "20:35:17",
+      "symbol": "TNMG",
+      "company_name": "TNMG",
+      "exchange": "ND",
+      "price": 2.95,
+      "gain_pct": 4.64,
+      "mcap_m": 2.24,
+      "decision": "FALSE",
+      "elapsed_sec": 38.4,
+      "reason": "미화 환산 시 고작 약 $43,000(NT$1.39M)에 불과한 924명 뉴스레터 사전구독 완료 마케팅 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] TNL Mediagene's Premium Newsletter TNL Daily Completes Launch Campaign with NT$1.39 Million in Subscription Pre-Sales from 924 Supporters",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 TNMG (TNL Mediagene) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.24M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 착시 적발):\n파이썬 1차 자동 추출에서 수치가 $1.39M으로 오인식되었으나, 실제 당일 공식 PR 원문의 단위는 미 달러($ USD)가 아니라 **대만 달러(NT$ / New Taiwan Dollar)**인 NT$1.39 Million입니다.\n**NT$1.39 Million을 미 달러로 환산하면 고작 약 $43,000 USD(약 4만 3천 달러, 한화 약 6천만 원 수준)**에 불과합니다.\n즉, 시가총액 대비 62.1%가 아니라 실제 시가총액($2.24M) 대비 고작 1.9% 수준에 불과한 극소액 사전 예약금입니다.\n실시간 체결가 및 수급: 전일 종가 $2.6950 대비 현재가 $2.9500 (+9.46%), 당일 최고가 $2.9700 (고점 대비 -0.7%), 당일 누적 거래대금 $301 USD (장전 프리마켓 극초입 바닥 수급).\n선발표 규정 확인: 계약 후 4영업일 이내 6-K 제출 유예 규정에 따른 순수 PR 선발표 구간으로 당일 6-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 06:30 ET) 공식 PR 원문 분석:\nPR 제목: \"TNL Mediagene's Premium Newsletter TNL Daily Completes Launch Campaign with NT$1.39 Million in Subscription Pre-Sales from 924 Supporters\"\n원문 직독 결과 드러난 치명적 실체:\n대만 달러(NT$) 표기 착시 및 극소액 크라우드펀딩/사전구독 완료 홍보:\n본 PR의 본질은 자사 프리미엄 뉴스레터인 'TNL Daily' 런칭 캠페인을 통해 924명의 후원자로부터 NT$1.39 Million (미화 약 $43,000 USD) 규모의 구독 사전 판매(Pre-Sales)를 완료했다는 단순 디지털 미디어 구독 마케팅 보도자료입니다.\n미 달러($1.39M)로 오인하기 쉬운 'NT$1.39M' 표기 착시를 노린 전형적인 홍보성 자료입니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 거액 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당, 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '금액 미기재/미미한 소액 마케팅 홍보/단순 구독·캠페인 완료 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 미화 약 $43,000 수준(NT$1.39M)의 단순 뉴스레터 924명 사전 구독 완료 마케팅 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: TNMG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: TNMG NOTES:\n[TNMG] 미화 환산 시 고작 약 $43,000(NT$1.39M)에 불과한 924명 뉴스레터 사전구독 완료 마케팅 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 프리마켓 장중 AIMD($9.0M 창사 최대 수주+선급금)나 ONFO(나스닥 자본요건 충족+CB 소멸) 수준의 1급 확정 기폭제 세트가 감지되는 즉시 정밀 직독 결재를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794828865294_AMST_FALSE",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "SITC 2026 학회 발표 중과적 데이터(Translational Data) 공시는 1급 확정 기폭제 미달로 전량 차단",
       "catalyst_hint": "[당일 PR] Translational Data from Anal Cancer Patients Show Pelareorep Drives HPV-Specific Immune Responses, Supporting its Potential Across HPV-Driven Cancers",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 ONCY (Oncolytics Biotech Inc.) 정밀 직독 결재 보고입니다 [cite: 281, 282].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $40.99M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 281].\n실시간 시세 및 수급: 전일 종가 $0.3902 대비 현재가 $0.4084 (+4.66%), 당일 최고가 $0.4200 (고점 대비 -2.8%) [cite: 281]. 당일 프리장 누적 거래대금 $28,023 USD [cite: 281].\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04 09:30 ET) PR 및 SEC 8-K (Item 8.01) 원문 분석:\nPR 제목: \"Translational Data from Anal Cancer Patients Show Pelareorep Drives HPV-Specific Immune Responses, Supporting its Potential Across HPV-Driven Cancers\" [cite: 282]\n원문 팩트: 면역항암학회(SITC 2026)에서 항항암 파이프라인(Pelareorep)의 편평세포 항문암(SCAC) 환자 대상 HPV-16 특이적 T세포 및 종양 침윤 리포구(TIL) 증가 등의 중과적 연구 데이터(Translational Data / Biomarker Data) 발표 [cite: 283].\n치명적 기폭제 결함:\n오늘 제출된 재료는 FDA 신약 승인이나 Pivotal 임상 3상 톱라인 성공 결과가 아니며, 학회(SITC)에서 발표되는 초기·중간 단계의 중과적/바이오마커 데이터(Translational / Biomarker Data) 발표에 불과합니다 [cite: 283, 291].\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 계약 금액이 미기재된 단순 학회 발표/포스터/중과적·탐색적 임상 데이터' 범주에 속하므로, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 9, 283].\n거래대금이 $2.8만 달러 수준에 그쳐 개장 전 강력한 세력 수급 유입 반응이 부재합니다 [cite: 281].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 학회 발표용 중과적 연구 데이터(Translational Data) 공시에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: ONCY 처리합니다 [cite: 9, 282, 291].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: ONCY NOTES:\n[ONCY] SITC 2026 학회 발표 중과적 데이터(Translational Data) 공시는 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793802822517_JBDI_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "09:33:42",
-      "time_kst": "23:33:42",
-      "symbol": "JBDI",
-      "company_name": "JBDI Holdings Ltd",
-      "exchange": "ND",
-      "price": 2.49,
-      "gain_pct": 3.32,
-      "mcap_m": 49.27,
-      "decision": "FALSE",
-      "elapsed_sec": 44.2,
-      "reason": "당일 6-K 단순 행정 서류 공시 및 PR 미수신으로 1급 확정 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 JBDI (JBDI Holdings Limited) 정밀 직독 결재 보고입니다 [cite: 253, 254].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $49.27M USD (파이썬 1차 시가총액 $50.0M 이하 소형 품절주 관문 턱걸이 통과) [cite: 253].\n실시간 시세 및 수급: 전일 종가 $2.4100 대비 현재가 $2.4900 (+3.32%), 당일 최고가 $2.6400 (고점 대비 -5.7% 밀림) [cite: 253]. 당일 프리장 누적 거래대금 $90,617 USD [cite: 253].\n2. D-Day SEC 6-K 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K 원문 분석:\n공시 현황: 2026-11-04 [6-K] 접수 [cite: 254].\n원문 팩트: Regulation S-K 관련 단순 서명란(Item 601(a)(5) / 601(b)(10) Signatures, 대표이사 Lim Chwee Poh 서명)만 수록된 단순 행정 제출용 6-K 공시입니다 [cite: 254].\n치명적 기폭제 결함:\n오늘 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료 미수신(0건) 상태이며, 제출된 6-K 공시 역시 단순 행정 서류에 불과합니다 [cite: 254].\n이는 전략 헌장 2번·3번 원칙에 따른 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 9, 254].\n[달의검] 족보집 과거 부검 기록상으로도 JBDI는 단순 6-K 출회 당일 최고 상승률이 +5.6%(시초가 -2.1%)에 그쳐 💀 실패·보합·설거지 패턴으로 검증된 바 있습니다 [cite: 21].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 서류이고 공식 PR 뉴스가 미수신되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: JBDI 처리합니다 [cite: 9, 254].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 9].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: JBDI NOTES:\n[JBDI] 당일 6-K 단순 행정 서류 공시 및 PR 미수신으로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
