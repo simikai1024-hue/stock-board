@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:04:59",
-  "updated_at_et": "2026-11-16 08:04:59",
-  "updated_epoch_ms": 1794834299458,
+  "updated_at_kst": "2026-11-16 22:05:41",
+  "updated_at_et": "2026-11-16 08:05:41",
+  "updated_epoch_ms": 1794834341407,
   "analyzing": {
     "active": true,
     "symbol": "CETX",
@@ -29,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.061,
-    "profit_rate": -2.66,
-    "updated_kst": "22:04:59"
+    "current_price": 1.0612,
+    "profit_rate": -2.64,
+    "updated_kst": "22:05:40"
   },
   "stats": {
     "today_total": 27,
@@ -2449,6 +2449,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:05:37",
+      "time_kst": "22:05:37",
+      "symbol": "GALT",
+      "company_name": "GALT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $332.81M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:05:30",
+      "time_kst": "22:05:30",
+      "symbol": "NTWO",
+      "company_name": "NTWO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $100.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:05:08",
+      "time_kst": "22:05:08",
+      "symbol": "ENPH",
+      "company_name": "ENPH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3376.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:04:57",
       "time_kst": "22:04:57",
       "symbol": "CMRC",
@@ -2916,36 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $412.37M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:15:59",
-      "time_kst": "21:15:59",
-      "symbol": "NGEN",
-      "company_name": "NGEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $202.32M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:15:38",
-      "time_kst": "21:15:38",
-      "symbol": "POCI",
-      "company_name": "POCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.35M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:15:30",
-      "time_kst": "21:15:30",
-      "symbol": "AMCI",
-      "company_name": "AMCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
     }
   ]
 }
