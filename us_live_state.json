@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:05:41",
-  "updated_at_et": "2026-11-16 08:05:41",
-  "updated_epoch_ms": 1794834341407,
+  "updated_at_kst": "2026-11-16 22:06:08",
+  "updated_at_et": "2026-11-16 08:06:08",
+  "updated_epoch_ms": 1794834368894,
   "analyzing": {
-    "active": true,
-    "symbol": "CETX",
-    "company_name": "CETX",
-    "exchange": "ND",
-    "price": 0.6355,
-    "gain_pct": 4.18,
-    "mcap_m": 2.02,
-    "catalyst_hint": "[당일 PR] Cemtrex’s AIS Secures Approximately $2.1 Million in New Awards, Expanding Its Position in Wastewater Infrastructure",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:04:54",
-    "started_at_kst": "22:04:54",
-    "started_epoch_ms": 1794834294861
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0612,
-    "profit_rate": -2.64,
-    "updated_kst": "22:05:40"
+    "current_price": 1.07,
+    "profit_rate": -1.83,
+    "updated_kst": "22:06:00"
   },
   "stats": {
-    "today_total": 27,
-    "today_nblm_count": 27,
+    "today_total": 28,
+    "today_nblm_count": 28,
     "today_buy": 3,
-    "today_false": 24,
+    "today_false": 25,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 34.7
+    "avg_nblm_sec": 36.1
   },
   "verdicts": [
+    {
+      "id": "v_1794834363825_CETX_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:06:03",
+      "time_kst": "22:06:03",
+      "symbol": "CETX",
+      "company_name": "CETX",
+      "exchange": "ND",
+      "price": 0.6355,
+      "gain_pct": 4.18,
+      "mcap_m": 2.02,
+      "decision": "FALSE",
+      "elapsed_sec": 72.4,
+      "reason": "현금 선급금(deposit) 없는 일상적 소규모 공사 쪼개기 묶음($1.1M+$0.7M+PES) 수주 PR로 1급 대박 수주(AIMD형) 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Cemtrex’s AIS Secures Approximately $2.1 Million in New Awards, Expanding Its Position in Wastewater Infrastructure",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 CETX (Cemtrex, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.02M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 착시 검증 (표면적 104%의 실체 적발):\n발표 금액 합산 수치는 약 $2.10M USD로 표면상 실질 시총($2.02M) 대비 104.0%로 계산됩니다.\n그러나 원문 직독 결과, 이는 단일 대형 고객의 창사 최대 수주가 아니라 지자체 하수처리장 2곳 개보수($1.1M) + 산업 플랜트 1곳($700,000) + 기존 PES 후속 주문(follow-on orders) 등 일상적인 여러 소규모 현장 공사들을 한데 모아놓은 번들링(Bundling) 홍보입니다.\n실시간 체결가 및 수급:\n전일 종가 $0.6100 대비 현재가 $0.6355 (+4.18%).\n당일 최고가 $0.6954 대비 고점 대비 -8.6% 윗꼬리 정체.\n당일 누적 거래대금 $152,671 USD (진성 수주 대장주들의 폭발적 100만 달러대 프리마켓 거래대금 대비 미온적 흐름).\n선발표 규정 확인: 계약 후 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Cemtrex’s AIS Secures Approximately $2.1 Million in New Awards, Expanding Its Position in Wastewater Infrastructure\"\n**원문 직독 결과 드러난 결정적 결함 (AIMD형 1급 수주 불발)**\n:\n'창사 이래 최대 수주(Largest Order in Company History)' 문구 전무:\n연구소 족보집의 1급 수주 표본인 **AIMD (시총 $4.23M 대비 $9.0M 창사 최대 수주 + 60일 내 $4.5M(50%) 현금 선급금 deposit 확정)**와 달리\n, CETX는 창사 최대 수주라는 표현이 일절 없습니다.\n과거 180일 이력(2026-09-17) 대조 시, 회사는 이미 불과 두 달 전에도 또 다른 자회사 Vicon을 통해 $2.8M 수주 PR(Cemtrex's Vicon Secures Approximately $2.8 Million in New Orders)을 낸 바 있습니다. 연간 수천만 달러 매출을 영위하는 지주사 구조상 $2M대 수주는 분기마다 발생하는 일상적인 영업활동의 일환입니다.\n'현금 선급금(Upfront Cash / Deposit)' 0원:\n헌법 제2조 ①항의 대박 PR 필수 요건인 **'확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사최대 수주 등)'**에서 현금 선급금(deposit) 조건이 원문 어디에도 전혀 명시되어 있지 않습니다.\n소규모 프로젝트 쪼개기 묶음 발표 (심사 헌법 제3조 ①항 위배):\n원문 부제에 *\"​$1.1 million in awards on two treatment plant upgrades, a $700,000 industrial plant project, and follow-on orders at PES\"*라고 명시되어 있듯, 건당 수십만 달러 수준의 소액 개보수 및 기존 수주의 단순 후속 연장(follow-on) 주문들을 단순 합산한 홍보성 뉴스입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '창사 최대 수주 및 거액 현금 선급금이 결여된 일상적 소규모 공사 번들링 및 후속주문(follow-on) 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 단일 창사 최대 수주가 아닌 지자체 하수처리장 등 소규모 공사 3~4건의 단순 묶음($1.1M+$0.7M+PES) 발표이며, 확정 현금 선급금(deposit)이 없고 분기마다 반복되는 통상적 수주 PR에 불과하여 헌법 제2조(AIMD형) 기준에 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CETX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CETX NOTES:\n[CETX] 현금 선급금(deposit) 없는 일상적 소규모 공사 쪼개기 묶음($1.1M+$0.7M+PES) 수주 PR로 1급 대박 수주(AIMD형) 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794834232246_SMX_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793885535559_WAVE_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:32:15",
-      "time_kst": "22:32:15",
-      "symbol": "WAVE",
-      "company_name": "WAVE",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([WAVE] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:05:42",
+      "time_kst": "22:05:42",
+      "symbol": "HUMA",
+      "company_name": "HUMA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $155.84M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:05:37",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $323.59M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:16:08",
-      "time_kst": "21:16:08",
-      "symbol": "MPLT",
-      "company_name": "MPLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $412.37M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
