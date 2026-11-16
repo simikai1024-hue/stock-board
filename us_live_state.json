@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:10:04",
-  "updated_at_et": "2026-11-16 07:10:04",
-  "updated_epoch_ms": 1794831004370,
+  "updated_at_kst": "2026-11-16 21:10:35",
+  "updated_at_et": "2026-11-16 07:10:35",
+  "updated_epoch_ms": 1794831035150,
   "analyzing": {
-    "active": true,
-    "symbol": "BLRX",
-    "company_name": "BLRX",
-    "exchange": "ND",
-    "price": 1.32,
-    "gain_pct": 1.54,
-    "mcap_m": 6.57,
-    "catalyst_hint": "[당일 PR] BioLineRx and Hemispherian Present Phase 1/2a Clinical Study and Pre-Clinical Updates, Including Brain PK/PD Data, at SNO 2026",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:10:01",
-    "started_at_kst": "21:10:01",
-    "started_epoch_ms": 1794831001715
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1,
-    "profit_rate": 0.92,
-    "updated_kst": "21:09:46"
+    "current_price": 1.0792,
+    "profit_rate": -0.99,
+    "updated_kst": "21:10:31"
   },
   "stats": {
-    "today_total": 12,
-    "today_nblm_count": 12,
+    "today_total": 13,
+    "today_nblm_count": 13,
     "today_buy": 3,
-    "today_false": 9,
+    "today_false": 10,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 16,
     "total_false": 134,
-    "avg_nblm_sec": 30.2
+    "avg_nblm_sec": 30.4
   },
   "verdicts": [
+    {
+      "id": "v_1794831030847_BLRX_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "07:10:30",
+      "time_kst": "21:10:30",
+      "symbol": "BLRX",
+      "company_name": "BLRX",
+      "exchange": "ND",
+      "price": 1.32,
+      "gain_pct": 1.54,
+      "mcap_m": 6.57,
+      "decision": "FALSE",
+      "elapsed_sec": 32.7,
+      "reason": "FDA 최종 승인이 아닌 단순 SNO 학회 임상 1/2a상 중간 데이터 발표 PR로 1급 기폭제 미달 및 장전 고점 대비 -15.4% 밀림으로 전량 차단",
+      "catalyst_hint": "[당일 PR] BioLineRx and Hemispherian Present Phase 1/2a Clinical Study and Pre-Clinical Updates, Including Brain PK/PD Data, at SNO 2026",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BLRX (BioLineRx Ltd.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.57M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/라이선스 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $1.3000 대비 현재가 $1.3200 (+1.54%), 당일 최고가 $1.5600 (장전 고점 대비 -15.4% 윗꼬리 덤핑), 당일 누적 거래대금 $59 USD (극소액 체결 상태).\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"BioLineRx and Hemispherian Present Phase 1/2a Clinical Study and Pre-Clinical Updates, Including Brain PK/PD Data, at SNO 2026\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 신약 성공이 아닌 단순 학회 발표/임상 중간 데이터 업데이트 (Conference Presentation PR):\n본 PR의 본질은 신경종양학회(SNO 2026)에서 파트너사 Hemispherian과 함께 GLIX1의 임상 1/2a상 4번째 코호트 개시 및 전임상 뇌 PK/PD 데이터를 구두/포스터 발표(Present Updates)한다는 단순 학회 발표 보도자료입니다.\n연구소 심사 헌법 제2조에서 FORCE_BUY 대상으로 규정한 'FDA 정식 품목 허가 승인(Approval)'이나 '임상 최종 성공(Endpoint Met)'이 아니며, 초기 단계(임상 1/2a상)의 단순 진행 현황 공유에 불과합니다.\n과거 학회 발표의 반복성 재탕 패턴 (ESMO → SNO):\n과거 180일 이력(2026-10-23) 대조 결과, 불과 3주 전에도 ESMO 2026 학회에서 GLIX1 전임상 데이터를 발표했다는 유사 보도자료를 낸 바 있으며, 이번 SNO 2026 발표 역시 정기 학회 시즌마다 반복되는 우려먹기성 IR 데이터 발표에 해당합니다.\n확정 현금 유입 및 1급 금융 기폭제 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 확정 달러 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 설거지:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 진행 업데이트는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.5600까지 반짝 상승 후 고점 대비 -15.4% 밀리며 거래대금이 59달러에 불과한 전형적인 무수급 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 최종 승인이나 확정 계약이 아닌 단순 학회(SNO 2026) 임상 1/2a상 중간 업데이트 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -15.4% 밀리는 윗꼬리 수급이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BLRX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: BLRX NOTES:\n[BLRX] FDA 최종 승인이 아닌 단순 SNO 학회 임상 1/2a상 중간 데이터 발표 PR로 1급 기폭제 미달 및 장전 고점 대비 -15.4% 밀림으로 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 방금 07:04 ET에 승인된 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42%/배당률 55% 확정, 거래대금 100만불 돌파)**가 유일한 진성 대장주로 확정되었으며, 추가 1급 기폭제 출현 시 즉시 정밀 직독 결재를 진행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794830708855_HIHO_BUY",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "3종 특허 매수 계약($2.3M) 발표는 단기 매출 미발생 장기 R&D용에 불과하며, 전일 대비 -16.33%(-16.6% 밀림) 음봉 투매 차트로 전량 차단",
       "catalyst_hint": "[당일 PR] Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 PASW (Ping An Biomedical Co., Ltd.) 정밀 직독 결재 보고입니다 [cite: 277].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.71M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 277].\n실시간 시세 및 수급: 전일 종가 $4.9600 대비 현재가 $4.1500 (-16.33% 급락), 당일 최고가 $4.9778 (고점 대비 -16.6% 윗꼬리 밀림) [cite: 277]. 당일 누적 거래대금 $615,090 USD [cite: 277].\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함\n당일(11/04 13:30 ET) PR 원문 분석:\nPR 제목: \"Ping An Biomedical Enters into Patent Purchase Agreement with Future Biotechnology Group for Tumor Cell Technologies\" [cite: 278]\n원문 팩트: Future Biotechnology Group으로부터 암 진단·치료 관련 의료 기술 특허 3건을 $2.3M에 인수하는 확정 계약(Definitive Purchase Agreement) 체결 [cite: 279].\n치명적 기폭제 결함 및 차트 파괴:\n[단기 매출 미발생 장기 R&D용 특허 인수]: 회사 스스로 *\"not positioning the Acquisition as a near-term revenue driver, but as a capacity-building move for its biomedical agenda over a longer horizon\"*이라 명시하여, 당일 즉각적인 실적이나 현금 유입을 창출하는 확정 재료가 아닌 장기 연구개발(R&D)용 단순 특허 자산 매입임을 시인했습니다 [cite: 281].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 3상 성공, 구체적 $ 수주/매각 완료, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 4, 281].\n[강한 음봉 투매 차트]: 뉴스 출회 직후 시장의 실망 매물이 쏟아지며 전일 대비 -16.33% 급락 및 당일 고점 대비 -16.6% 윗꼬리 투매 차트가 형성되어 전형적인 설거지/음봉 차트 패턴을 보이고 있습니다 [cite: 4, 277].\n3. 최종 심사 및 결재 판정\n당일 PR이 단기 매출 미발생 장기 R&D용 특허 인수에 불과하고, 전일 대비 -16.33% 급락 투매 차트가 출회되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PASW 처리합니다 [cite: 4, 277, 281].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PASW NOTES:\n[PASW] 3종 특허 매수 계약($2.3M) 발표는 단기 매출 미발생 장기 R&D용에 불과하며, 전일 대비 -16.33%(-16.6% 밀림) 음봉 투매 차트로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793817297357_CWD_FALSE",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "13:34:57",
-      "time_kst": "03:34:57",
-      "symbol": "CWD",
-      "company_name": "CWD",
-      "exchange": "ND",
-      "price": 0.4361,
-      "gain_pct": -3.07,
-      "mcap_m": 4.53,
-      "decision": "FALSE",
-      "elapsed_sec": 41.7,
-      "reason": "단순 토큰화 부동산 투자 상품 출시(Item 7.01) 공시는 1급 확정 기폭제 미달 및 음봉 약세(-3.07%)로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-04 [8-K] (Item 7.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 CWD (CaliberCos Inc.) 정밀 직독 결재 보고입니다 [cite: 264].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.53M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 264].\n실시간 시세 및 수급: 전일 종가 $0.4499 대비 현재가 $0.4361 (-3.07% 약보합), 당일 최고가 $0.4570 (고점 대비 -4.6%) [cite: 264]. 당일 프리장 누적 거래대금 $37,877 USD [cite: 264].\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 8-K (Item 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-04 [8-K] (Item 7.01, 9.01) 접수 [cite: 265].\n원문 팩트: \"On November 4, 2026, CaliberCos Inc. issued a press release today announcing that it has gone live with three additional tokenized real estate investment offerings: Caliber-Hyatt Studios Steamboat, Caliber-Hyatt Studios Phoenix/TSMC and the Caliber-HS Feeder Fund. Combined, the three offerings represent up to $85 million in offered equity...\" [cite: 265]\n치명적 기폭제 결함:\n오늘 제출된 재료는 회사로 확정적 현금이 유입되는 대형 수주/자산매각 계약이나 M&A 완료가 아니라, 총 $85M 규모의 **토큰화 부동산 투자 상품 3종 출시 및 투자자 모집 공시(Tokenized Real Estate Offerings Launch)**에 불과합니다 [cite: 265].\n이는 전략 헌장 3번 규칙에서 차단하는 '구체적 현금 수주/계약 금액 미명시 단순 상품 출시/펀드 모집/토큰화 프로젝트 홍보' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 6, 265].\n과거 [달의검] 족보집 CWD 부검 성적표(2026-10-30 8-K 출회 건)에서도 최고 상승률이 +2.9%에 그쳐 💀 실패·보합·설거지 패턴으로 검증된 바 있습니다 [cite: 133, 134].\n현재 시세가 전일 대비 -3.07% 음봉 약세를 기록하고 있어 장전 세력 매집 유동성 모멘텀도 약합니다 [cite: 264].\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시 내용이 단순 토큰화 부동산 투자 상품 출시(Item 7.01)에 불과하고 음봉 약세(-3.07%) 흐름이 나타나 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CWD 처리합니다 [cite: 6, 264, 265].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 6].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 단순 토큰화 부동산 투자 상품 출시(Item 7.01) 공시는 1급 확정 기폭제 미달 및 음봉 약세(-3.07%)로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
