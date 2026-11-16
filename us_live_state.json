@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:50:03",
-  "updated_at_et": "2026-11-16 09:50:03",
-  "updated_epoch_ms": 1794840603663,
+  "updated_at_kst": "2026-11-16 23:50:57",
+  "updated_at_et": "2026-11-16 09:50:57",
+  "updated_epoch_ms": 1794840657261,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 0.9801,
-    "profit_rate": -10.08,
-    "updated_kst": "23:50:02"
+    "current_price": 0.9995,
+    "profit_rate": -8.3,
+    "updated_kst": "23:50:42"
   },
   "stats": {
     "today_total": 61,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:50:52",
+      "time_kst": "23:50:52",
+      "symbol": "TENX",
+      "company_name": "TENX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $72.86M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:50:20",
+      "time_kst": "23:50:20",
+      "symbol": "VIDA",
+      "company_name": "VIDA",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Vida Global Announces Third Quarter 2026 Financial Results)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:49:56",
       "time_kst": "23:49:56",
       "symbol": "XPON",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $6572.84M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:03:30",
-      "time_kst": "23:03:30",
-      "symbol": "OMDA",
-      "company_name": "OMDA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $902.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:03:21",
-      "time_kst": "23:03:21",
-      "symbol": "SWRD",
-      "company_name": "SWRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $562.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
