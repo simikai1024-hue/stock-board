@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:03:17",
-  "updated_at_et": "2026-11-16 06:03:17",
-  "updated_epoch_ms": 1794826997240,
+  "updated_at_kst": "2026-11-16 20:03:51",
+  "updated_at_et": "2026-11-16 06:03:51",
+  "updated_epoch_ms": 1794827031448,
   "analyzing": {
-    "active": true,
-    "symbol": "ELWT",
-    "company_name": "ELWT",
-    "exchange": "ND",
-    "price": 2.8451,
-    "gain_pct": 0.0,
-    "mcap_m": 18.83,
-    "catalyst_hint": "[당일 PR] Elauwit Connection Q3 2026: The Recurring Revenue Engine Is Accelerating",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:03:13",
-    "started_at_kst": "20:03:13",
-    "started_epoch_ms": 1794826993960
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 5.1,
+    "current_price": 5.0997,
     "profit_rate": 3.03,
-    "updated_kst": "20:03:06"
+    "updated_kst": "20:03:43"
   },
   "stats": {
-    "today_total": 3,
-    "today_nblm_count": 3,
+    "today_total": 4,
+    "today_nblm_count": 4,
     "today_buy": 2,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 11.0
+    "avg_nblm_sec": 17.1
   },
   "verdicts": [
+    {
+      "id": "v_1794827025400_ELWT_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "06:03:45",
+      "time_kst": "20:03:45",
+      "symbol": "ELWT",
+      "company_name": "ELWT",
+      "exchange": "ND",
+      "price": 2.8451,
+      "gain_pct": 0.0,
+      "mcap_m": 18.83,
+      "decision": "FALSE",
+      "elapsed_sec": 35.4,
+      "reason": "신규 확정 수주가 아닌 단순 Q3 2026 정기 실적 및 운영 지표 발표 PR로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Elauwit Connection Q3 2026: The Recurring Revenue Engine Is Accelerating",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ELWT (Elauwit Connection Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $18.83M USD (연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $2.8451 대비 현재가 $2.8451 (+0.00%), 당일 최고가 $2.8451 (+0.0%), 당일 누적 거래대금 $0 USD (프리마켓 극초입 바닥 구간).\n선발표 규정 확인: 계약 체결 후 4영업일 이내 8-K 제출 유예 규정에 따른 순수 PR 선발표 구간이므로 당일 8-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 06:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Elauwit Connection Q3 2026: The Recurring Revenue Engine Is Accelerating\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적 2026년 3분기 정기 실적 발표 (Quarterly Earnings PR):\n원문 본문 첫 문장에 *\"Most earnings releases open with the same ritual: revenue, net income or loss and a carefully worded sentence...\"*라고 명시되어 있듯, 본 PR의 본질은 2026년 3분기(Q3 2026) 정기 실적 및 운영 업데이트 보도자료입니다.\n청구 유닛(Billed Units) 전년 대비 140% 증가, 순차적 매출 104% 증가, 2분기 대비 운영비용 19% 감소 등은 회사의 지난 분기 자체 실적 수치에 불과합니다.\n1급 확정 금융 기폭제 전무 (No Confirmed 1st-Class Catalyst):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당, 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/영업 업데이트/실적발표 홍보물은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 2026년 3분기 정기 실적 발표 PR에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: ELWT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: ELWT NOTES:\n[ELWT] 신규 확정 수주가 아닌 단순 Q3 2026 정기 실적 및 운영 지표 발표 PR로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794826986579_EUDA_FALSE",
       "date_et": "2026-11-16",
@@ -2424,26 +2432,6 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 소스 및 동기화 스냅샷 원문 팩트를 바탕으로 진행한 PSHG (Performance Shipping Inc.) 정밀 직독 결재 보고입니다 [cite: 252, 253].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.0M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 252].\n실시간 시세 및 수급: 전일 종가 $1.8401 대비 현재가 $1.8500 (+0.54%), 당일 최고가 $1.8500 (+0.0%) [cite: 252]. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD [cite: 252].\n2. D-Day SEC 6-K 공시 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/04) D-Day SEC 6-K 원문 분석:\n공시 현황: 2026-11-04 [6-K] 접수 [cite: 253].\n원문 팩트: 당일 기업 가치를 수직 폭등시킬 주요 PR 보도자료 미수신(0건) 상태에서 제출된 단순 정기 행정 보고용 6-K 공시에 불과합니다 [cite: 253].\n치명적 기폭제 결함:\n당일 공식 PR 보도자료가 발송되지 않았으며 제출된 6-K 공시 또한 단순 행정 서류에 불과합니다 [cite: 253].\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 절대 아닙니다 [cite: 13, 253].\n개장 전 세력 매집 유동성($0 USD) 및 수급 반응도 전무합니다 [cite: 252].\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 제출용 서류이고 공식 PR 뉴스가 부재하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: PSHG 처리합니다 [cite: 13, 253].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 13].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: NONE FORCE_BLOCK: PSHG NOTES:\n[PSHG] 공식 PR 뉴스가 미수신된 6-K 단순 행정 공시로 1급 확정 기폭제 미달 및 장전 대금 $0(+0.54%) 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793799932337_EZRA_BUY",
-      "date_et": "2026-11-04",
-      "weekday_kr": "수",
-      "time_et": "08:45:32",
-      "time_kst": "22:45:32",
-      "symbol": "EZRA",
-      "company_name": "Reliance Global Group, Inc.",
-      "exchange": "ND",
-      "price": 2.41,
-      "gain_pct": 3.43,
-      "mcap_m": 4.05,
-      "decision": "BUY",
-      "elapsed_sec": 52.0,
-      "reason": "시총 $4.05M 초소형주가 $3.0M 현금 전액(신주 발행 0주, 무부채)으로 AI GPU 클라우드 기업 Oblivus M&A 인수 완료 확정으로 시초 매수 승인",
-      "catalyst_hint": "[당일 PR] Reliance Global Group Completes Acquisition of Oblivus, Marking Its Entry Into the AI Infrastructure Market",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EZRA (Reliance Global Group, Inc.) 정밀 직독 결재 보고입니다 [cite: 274].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.05M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과) [cite: 274].\n실시간 시세 및 수급: 전일 종가 $2.3300 대비 현재가 $2.4100 (+3.43%), 당일 최고가 $2.4799 (-2.8%) [cite: 274].\n개장 전 선발표 구간으로 장전 거래대금 $0 USD이나, 전략 헌장 2번 지침(\"시총 $50M 이하 품절주로서 확정적 대형 M&A 인수 완료 등 1급 기폭제 조건 충족 시 장전 거래대금이 $0이라도 과감히 FORCE_BUY\")에 완벽히 부합합니다 [cite: 3, 274].\n2. D-Day PR 원문 직독 정밀 검증 & 무결점 1급 기폭제\n당일(11/04 08:30 ET) PR 원문 분석:\nPR 제목: \"Reliance Global Group Completes Acquisition of Oblivus, Marking Its Entry Into the AI Infrastructure Market\" [cite: 275]\n원문 팩트 1 (M&A 최종 인수 완료): 구속력 없는 LOI나 단순 MOU 제안 단계가 아닌, **Oblivus 자산 인수 최종 완료(Completes Acquisition / Closed on Nov 3, 2026)**를 정식 발표했습니다 [cite: 276].\n원문 팩트 2 (전액 현금 결제 & 신주 희석 0주): 총 인수대금 $3,000,000 현금 전액 결제(추가 성과금 $750,000)로 신주 발행(Stock Issuance)이 전혀 없는 100% 무희석 전액 현금 인수이며, 거래 완료 후에도 회사는 완전 무부채(Debt-Free) 상태를 유지합니다 [cite: 276, 277].\n원문 팩트 3 (기업가치 폭발 모멘텀): 시가총액 $4.05M 초소형주가 연 매출 $1.5M 규모의 AI GPU 클라우드/마켓플레이스 기업을 전격 인수하여 AI 인프라 및 GPU 클라우드 시장 진출을 확정지었으며, 사명 DBA 'GPU Exchange' 및 나스닥 티커 'XGPU' 변경을 추진합니다 [cite: 276, 278].\n사전/당일 SEC 유증 희석 위험 0건 (완전 무결점):\n최근 35일간 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 신주 물량 덤핑 요소가 단 1건도 없는 완전 무결점 주주구조를 유지하고 있습니다 [cite: 3, 284].\n족보 대조: 성공 표본인 AIOK ($18M 자산매각+특별배당 ➔ +266.8% 폭등) 및 MERC (재구조화 확정 ➔ +184.1% 폭등)와 동일하게, 신주 유증 희석이 전무한 상태에서 실체적 대형 M&A 자산 인수를 완료한 무결점 1급 기폭제 메커니즘을 공유합니다 [cite: 5, 6].\n3. 최종 심사 및 결재 판정\n시가총액 $4.05M 초소형주가 $3.0M 현금 전액(신주 발행 0주, 무부채)으로 AI GPU 클라우드 기업 M&A 인수를 최종 완료한 확정적 1급 기폭제 조건에 따라 오늘 개장 직후 시초가 매수를 **FORCE_BUY: EZRA**로 최종 승인 결재합니다 [cite: 3, 274, 276].\n===VERDICT_START=== DATE: 2026-11-04 FORCE_BUY: EZRA FORCE_BLOCK: NONE NOTES:\n[EZRA] 시총 $4.05M 초소형주가 $3.0M 현금 전액(신주 발행 0주, 무부채)으로 AI GPU 클라우드 기업 Oblivus M&A 인수 완료 확정으로 시초 매수 승인 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🚀 실전매수 체결 완료 (25주 @ 평단 $2.4564)"
     }
   ],
   "hardcuts": [
