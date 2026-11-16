@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:20:56",
-  "updated_at_et": "2026-11-16 09:20:56",
-  "updated_epoch_ms": 1794838856729,
+  "updated_at_kst": "2026-11-16 23:21:06",
+  "updated_at_et": "2026-11-16 09:21:06",
+  "updated_epoch_ms": 1794838866901,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "QCLS",
+    "company_name": "QCLS",
+    "exchange": "ND",
+    "price": 0.305,
+    "gain_pct": 2.16,
+    "mcap_m": 2.5,
+    "catalyst_hint": "[당일 PR] Q/C Technologies Reports Over $10 Million in Cash and Investments to Fund Development of Its Optical Processing Unit",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:21:04",
+    "started_at_kst": "23:21:04",
+    "started_epoch_ms": 1794838864148
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0599,
-    "profit_rate": -2.76,
-    "updated_kst": "23:20:41"
+    "current_price": 1.06,
+    "profit_rate": -2.75,
+    "updated_kst": "23:21:01"
   },
   "stats": {
     "today_total": 55,
