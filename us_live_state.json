@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:13:53",
-  "updated_at_et": "2026-11-16 06:13:53",
-  "updated_epoch_ms": 1794827633436,
+  "updated_at_kst": "2026-11-16 20:14:51",
+  "updated_at_et": "2026-11-16 06:14:51",
+  "updated_epoch_ms": 1794827691196,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.784,
-    "profit_rate": -3.35,
-    "updated_kst": "20:13:49"
+    "current_price": 4.81,
+    "profit_rate": -2.82,
+    "updated_kst": "20:14:45"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:14:25",
+      "time_kst": "20:14:25",
+      "symbol": "OMAB",
+      "company_name": "OMAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4603.27M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "06:14:11",
+      "time_kst": "20:14:11",
+      "symbol": "HCM",
+      "company_name": "HCM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2592.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:12:24",
       "time_kst": "20:12:24",
       "symbol": "NNVC",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:32",
-      "time_kst": "18:17:32",
-      "symbol": "ARBE",
-      "company_name": "ARBE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.69M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:27",
-      "time_kst": "18:17:27",
-      "symbol": "HRTX",
-      "company_name": "HRTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58.22M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
