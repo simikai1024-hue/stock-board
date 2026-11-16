@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:27:11",
-  "updated_at_et": "2026-11-16 11:27:11",
-  "updated_epoch_ms": 1794846431756,
+  "updated_at_kst": "2026-11-17 01:28:11",
+  "updated_at_et": "2026-11-16 11:28:11",
+  "updated_epoch_ms": 1794846491819,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.155,
-    "profit_rate": 5.96,
-    "updated_kst": "01:27:09"
+    "current_price": 1.135,
+    "profit_rate": 4.13,
+    "updated_kst": "01:28:07"
   },
   "stats": {
     "today_total": 64,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:27:41",
+      "time_kst": "01:27:41",
+      "symbol": "CHOW",
+      "company_name": "CHOW",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $124.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:24:06",
       "time_kst": "01:24:06",
       "symbol": "YTRA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $59.17M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:32:01",
-      "time_kst": "23:32:01",
-      "symbol": "TREO",
-      "company_name": "TREO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $56.11M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
