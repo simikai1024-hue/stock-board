@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:42:47",
-  "updated_at_et": "2026-11-16 07:42:47",
-  "updated_epoch_ms": 1794832967778,
+  "updated_at_kst": "2026-11-16 21:43:20",
+  "updated_at_et": "2026-11-16 07:43:20",
+  "updated_epoch_ms": 1794833000401,
   "analyzing": {
-    "active": true,
-    "symbol": "ELAB",
-    "company_name": "ELAB",
-    "exchange": "ND",
-    "price": 1.6132,
-    "gain_pct": 2.1,
-    "mcap_m": 1.31,
-    "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total As",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:42:44",
-    "started_at_kst": "21:42:44",
-    "started_epoch_ms": 1794832964863
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.09,
-    "profit_rate": 0.0,
-    "updated_kst": "21:42:36"
+    "current_price": 1.1013,
+    "profit_rate": 1.04,
+    "updated_kst": "21:43:13"
   },
   "stats": {
-    "today_total": 20,
-    "today_nblm_count": 20,
+    "today_total": 21,
+    "today_nblm_count": 21,
     "today_buy": 3,
-    "today_false": 17,
+    "today_false": 18,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 32.4
+    "avg_nblm_sec": 32.6
   },
   "verdicts": [
+    {
+      "id": "v_1794832995913_ELAB_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "07:43:15",
+      "time_kst": "21:43:15",
+      "symbol": "ELAB",
+      "company_name": "ELAB",
+      "exchange": "ND",
+      "price": 1.6132,
+      "gain_pct": 2.1,
+      "mcap_m": 1.31,
+      "decision": "FALSE",
+      "elapsed_sec": 37.1,
+      "reason": "신규 확정 수주가 아닌 단순 Q3 10-Q 실적 발표 및 SPAC 신탁계좌 총자산 착시 PR로 장전 고점 대비 -17.9% 윗꼬리 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total As",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ELAB (PMGC Holdings Inc.) 07:42 ET 수급 변동 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.31M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 총자산 표기 착시 재확인):\n제목에 노출된 핵심 금액 $133.10M USD는 외부로부터 회사에 새로 유입되는 신규 수주나 매출 계약이 아닙니다.\nPR 제목 자체에 *\"Total Assets of $133.1 Million Include $100.4 Million Held in Trust by Sponsored SPAC\"*라고 명시되어 있듯, 회사가 스폰서로 참여 중인 SPAC(기업인수목적회사) 신탁 계정에 묶여 있는 자금 $100.4M 등을 포함한 단순 장부상 총자산(Total Assets) 집계치에 불과합니다.\n회사의 실제 3분기 분기 매출은 $2.53M이며, 실질 시총 대비 10000%의 신규 확정 현금 유입 계약이 절대 아닙니다.\n실시간 체결가 및 수급 (장전 윗꼬리 덤핑 심화):\n전일 종가 $1.5800 대비 현재가 $1.6132 (+2.10%).\n당일 최고가 $1.9644 찍은 후 장전 고점 대비 -17.9% 수직 덤핑 발생.\n당일 누적 거래대금 $785,906 USD (장전 거래대금이 78만 달러 이상 터졌으나, 고점에서 물량을 대량 투하하며 윗꼬리를 길게 단 전형적인 설거지 수급 형태).\n선발표 규정 확인: 10-Q 제출에 맞춘 정기 실적 PR 선발표 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total Assets of $133.1 Million Include $100.4 Million Held in Trust by Sponsored SPAC\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적 2026년 3분기 정기 실적 발표 (Form 10-Q Periodic Earnings):\n본 PR의 본질은 2026년 3분기(Q3 2026) 정기 10-Q 보고서 제출에 따른 분기 실적 발표입니다.\n외부로부터 새로운 확정 계약금이 들어오는 1급 금융 기폭제가 아닙니다.\n$133.1M 자산 표기 착시 (SPAC 신탁 자금 포함):\n거액의 $133.1M은 자사 운영 자금이나 확정 수주가 아니라, 스폰서 SPAC 신탁 계정($100.4M) 등이 합산된 단순 회계상 총자산 항목입니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 고점 설거지 수급:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/10-Q 제출/SPAC 신탁자산 표기 착시 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 거래대금이 78만 달러 이상 터졌음에도 최고가 $1.9644에서 -17.9%나 급락 덤핑되며 $1.61대까지 밀려난 전형적인 피뢰침 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 2026년 3분기 정기 실적(10-Q) 발표이며, $133.1M 역시 SPAC 신탁 계좌 등이 포함된 회계상 총자산 표기 착시에 불과하고 장전 고점 대비 -17.9%의 덤핑 수급이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ELAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: ELAB NOTES:\n[ELAB] 신규 확정 수주가 아닌 단순 Q3 10-Q 실적 발표 및 SPAC 신탁계좌 총자산 착시 PR로 장전 고점 대비 -17.9% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794832954410_CNSY_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793884016105_WCT_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:06:56",
-      "time_kst": "22:06:56",
-      "symbol": "WCT",
-      "company_name": "WCT",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([WCT] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:42:56",
+      "time_kst": "21:42:56",
+      "symbol": "SAFX",
+      "company_name": "SAFX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (XCF Global Reports Third Quarter 2026 Financial Results & )"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "07:42:45",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $886.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:14",
-      "time_kst": "21:03:14",
-      "symbol": "LMRI",
-      "company_name": "LMRI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1489.91M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
