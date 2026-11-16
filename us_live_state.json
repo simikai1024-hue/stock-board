@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:34:31",
-  "updated_at_et": "2026-11-16 06:34:31",
-  "updated_epoch_ms": 1794828871998,
+  "updated_at_kst": "2026-11-16 20:34:48",
+  "updated_at_et": "2026-11-16 06:34:48",
+  "updated_epoch_ms": 1794828888272,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TNMG",
+    "company_name": "TNMG",
+    "exchange": "ND",
+    "price": 2.95,
+    "gain_pct": 4.64,
+    "mcap_m": 2.24,
+    "catalyst_hint": "[당일 PR] TNL Mediagene's Premium Newsletter TNL Daily Completes Launch Campaign with NT$1.39 Million in Subscription Pre-Sales from 924 Supporters",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:34:41",
+    "started_at_kst": "20:34:41",
+    "started_epoch_ms": 1794828881693
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.9583,
-    "profit_rate": 0.17,
-    "updated_kst": "20:34:16"
+    "current_price": 5.009,
+    "profit_rate": 1.2,
+    "updated_kst": "20:34:35"
   },
   "stats": {
     "today_total": 7,
