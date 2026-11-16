@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:21:17",
-  "updated_at_et": "2026-11-16 11:21:17",
-  "updated_epoch_ms": 1794846077470,
+  "updated_at_kst": "2026-11-17 01:22:12",
+  "updated_at_et": "2026-11-16 11:22:12",
+  "updated_epoch_ms": 1794846132729,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1801,
-    "profit_rate": 8.27,
-    "updated_kst": "01:21:13"
+    "current_price": 1.17,
+    "profit_rate": 7.34,
+    "updated_kst": "01:22:12"
   },
   "stats": {
     "today_total": 64,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:22:05",
+      "time_kst": "01:22:05",
+      "symbol": "ROP",
+      "company_name": "ROP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $48077.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "11:21:50",
+      "time_kst": "01:21:50",
+      "symbol": "WASH",
+      "company_name": "WASH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $738.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:01:40",
       "time_kst": "01:01:40",
       "symbol": "NVDA",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:31:04",
-      "time_kst": "23:31:04",
-      "symbol": "WETH",
-      "company_name": "WETH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (WeTouch Technology Inc. Reports Third Quarter Fiscal Year )"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:30:59",
-      "time_kst": "23:30:59",
-      "symbol": "UNIT",
-      "company_name": "UNIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1154.64M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
