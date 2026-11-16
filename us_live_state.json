@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:31:21",
-  "updated_at_et": "2026-11-16 08:31:21",
-  "updated_epoch_ms": 1794835881282,
+  "updated_at_kst": "2026-11-16 22:32:34",
+  "updated_at_et": "2026-11-16 08:32:34",
+  "updated_epoch_ms": 1794835954307,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "JCSE",
+    "company_name": "JCSE",
+    "exchange": "ND",
+    "price": 1.6,
+    "gain_pct": 0.0,
+    "mcap_m": 8.97,
+    "catalyst_hint": "[당일 PR] JE Cleantech Holdings Limited Announces Declaration of Cash Dividend",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:32:31",
+    "started_at_kst": "22:32:31",
+    "started_epoch_ms": 1794835951806
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.13,
-    "profit_rate": 3.67,
-    "updated_kst": "22:31:18"
+    "current_price": 1.08,
+    "profit_rate": -0.92,
+    "updated_kst": "22:32:15"
   },
   "stats": {
     "today_total": 38,
@@ -2437,6 +2449,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:32:00",
+      "time_kst": "22:32:00",
+      "symbol": "DPRO",
+      "company_name": "DPRO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $110.77M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:31:54",
+      "time_kst": "22:31:54",
+      "symbol": "GOAI",
+      "company_name": "GOAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:31:47",
+      "time_kst": "22:31:47",
+      "symbol": "MBOT",
+      "company_name": "MBOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 투매 급락 구간 방어 차단 (현재 -29.6% <= -8.0%)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:31:37",
+      "time_kst": "22:31:37",
+      "symbol": "HTCR",
+      "company_name": "HTCR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (HeartCore Reports Third Quarter 2026 Financial Results)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:31:27",
+      "time_kst": "22:31:27",
+      "symbol": "NANO",
+      "company_name": "NANO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $550.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:30:35",
       "time_kst": "22:30:35",
       "symbol": "WWB",
@@ -2884,56 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $606.73M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:05:42",
-      "time_kst": "22:05:42",
-      "symbol": "HUMA",
-      "company_name": "HUMA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $155.84M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:05:37",
-      "time_kst": "22:05:37",
-      "symbol": "GALT",
-      "company_name": "GALT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $332.81M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:05:30",
-      "time_kst": "22:05:30",
-      "symbol": "NTWO",
-      "company_name": "NTWO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $100.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:05:08",
-      "time_kst": "22:05:08",
-      "symbol": "ENPH",
-      "company_name": "ENPH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3376.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:04:57",
-      "time_kst": "22:04:57",
-      "symbol": "CMRC",
-      "company_name": "CMRC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $295.9M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
