@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:41:23",
-  "updated_at_et": "2026-11-16 07:41:23",
-  "updated_epoch_ms": 1794832883026,
+  "updated_at_kst": "2026-11-16 21:42:07",
+  "updated_at_et": "2026-11-16 07:42:07",
+  "updated_epoch_ms": 1794832927130,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CNSY",
+    "company_name": "CNSY",
+    "exchange": "ND",
+    "price": 0.9629,
+    "gain_pct": 1.34,
+    "mcap_m": 7.31,
+    "catalyst_hint": "[당일 PR] Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:42:05",
+    "started_at_kst": "21:42:05",
+    "started_epoch_ms": 1794832925167
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.02,
-    "profit_rate": -6.42,
-    "updated_kst": "21:41:20"
+    "current_price": 1.0385,
+    "profit_rate": -4.72,
+    "updated_kst": "21:41:57"
   },
   "stats": {
     "today_total": 19,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:42:03",
+      "time_kst": "21:42:03",
+      "symbol": "CREX",
+      "company_name": "CREX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Creative Realities Reports Fiscal 2026 Third Quarter Resul)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:33:44",
       "time_kst": "21:33:44",
       "symbol": "BLDP",
@@ -2514,16 +2536,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-16 [8-K] (Item 1.01,3.02,3.03,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:32:11",
-      "time_kst": "21:32:11",
-      "symbol": "CREX",
-      "company_name": "CREX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Creative Realities Reports Fiscal 2026 Third Quarter Resul)"
     },
     {
       "date_et": "2026-11-16",
