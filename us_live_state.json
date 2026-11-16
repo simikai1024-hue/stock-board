@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:03:02",
-  "updated_at_et": "2026-11-16 07:03:02",
-  "updated_epoch_ms": 1794830582382,
+  "updated_at_kst": "2026-11-16 21:03:47",
+  "updated_at_et": "2026-11-16 07:03:47",
+  "updated_epoch_ms": 1794830627021,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:02:43"
+    "updated_kst": "21:03:46"
   },
   "stats": {
     "today_total": 10,
@@ -2437,6 +2437,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:03:43",
+      "time_kst": "21:03:43",
+      "symbol": "LXEO",
+      "company_name": "LXEO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $254.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:33",
+      "time_kst": "21:03:33",
+      "symbol": "TIL",
+      "company_name": "TIL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Instil Bio Reports Third Quarter 2026 Financial Results an)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:27",
+      "time_kst": "21:03:27",
+      "symbol": "WSHP",
+      "company_name": "WSHP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:22",
+      "time_kst": "21:03:22",
+      "symbol": "GTBP",
+      "company_name": "GTBP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:18",
+      "time_kst": "21:03:18",
+      "symbol": "MGTX",
+      "company_name": "MGTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $886.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:14",
+      "time_kst": "21:03:14",
+      "symbol": "LMRI",
+      "company_name": "LMRI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1489.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:10",
+      "time_kst": "21:03:10",
+      "symbol": "DUKR",
+      "company_name": "DUKR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Duke Robotics Reports Third Quarter 2026 Financial Results)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:03:03",
+      "time_kst": "21:03:03",
+      "symbol": "NWCL",
+      "company_name": "NWCL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $88.24M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:02:56",
       "time_kst": "21:02:56",
       "symbol": "IVVD",
@@ -2854,86 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Armlogi Holding Corp. Reports First Quarter Fiscal 2027 Fi)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:02:23",
-      "time_kst": "20:02:23",
-      "symbol": "ZYME",
-      "company_name": "ZYME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1829.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:01:50",
-      "time_kst": "20:01:50",
-      "symbol": "VEON",
-      "company_name": "VEON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6056.79M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:01:33",
-      "time_kst": "20:01:33",
-      "symbol": "CSHR",
-      "company_name": "CSHR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $467.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "05:56:37",
-      "time_kst": "19:56:37",
-      "symbol": "CDT",
-      "company_name": "CDT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "05:42:10",
-      "time_kst": "19:42:10",
-      "symbol": "IPDN",
-      "company_name": "IPDN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-21 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "05:35:54",
-      "time_kst": "19:35:54",
-      "symbol": "FUSE",
-      "company_name": "FUSE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "05:26:13",
-      "time_kst": "19:26:13",
-      "symbol": "VHUB",
-      "company_name": "VHUB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "05:22:11",
-      "time_kst": "19:22:11",
-      "symbol": "CAPS",
-      "company_name": "CAPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
     }
   ]
 }
