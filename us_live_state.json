@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:08:01",
-  "updated_at_et": "2026-11-16 08:08:01",
-  "updated_epoch_ms": 1794834481296,
+  "updated_at_kst": "2026-11-16 22:08:46",
+  "updated_at_et": "2026-11-16 08:08:46",
+  "updated_epoch_ms": 1794834526507,
   "analyzing": {
-    "active": true,
-    "symbol": "PXLW",
-    "company_name": "PXLW",
-    "exchange": "ND",
-    "price": 6.14,
-    "gain_pct": 10.83,
-    "mcap_m": 36.67,
-    "catalyst_hint": "[당일 PR] Pixelworks Announces Board Authorization of Expanded Stock Repurchase Program",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:07:57",
-    "started_at_kst": "22:07:57",
-    "started_epoch_ms": 1794834477341
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1199,
-    "profit_rate": 2.74,
-    "updated_kst": "22:07:55"
+    "current_price": 1.11,
+    "profit_rate": 1.83,
+    "updated_kst": "22:08:34"
   },
   "stats": {
-    "today_total": 30,
-    "today_nblm_count": 30,
-    "today_buy": 3,
+    "today_total": 31,
+    "today_nblm_count": 31,
+    "today_buy": 4,
     "today_false": 27,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 15,
-    "total_false": 135,
-    "avg_nblm_sec": 36.1
+    "total_buy": 16,
+    "total_false": 134,
+    "avg_nblm_sec": 36.4
   },
   "verdicts": [
+    {
+      "id": "v_1794834520812_PXLW_BUY",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:08:40",
+      "time_kst": "22:08:40",
+      "symbol": "PXLW",
+      "company_name": "PXLW",
+      "exchange": "ND",
+      "price": 6.14,
+      "gain_pct": 10.83,
+      "mcap_m": 36.67,
+      "decision": "BUY",
+      "elapsed_sec": 46.8,
+      "reason": "시총 대비 27.3% 규모인 총 $10M(500만불 증액) 자사주 매입 이사회 공식 승인 및 당일 8-K 제출로 헌법 2조 충족 매수 승인",
+      "catalyst_hint": "[당일 PR] Pixelworks Announces Board Authorization of Expanded Stock Repurchase Program",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 PXLW (Pixelworks, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.67M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (자사주 매입 프로그램 증액):\n총 승인 한도는 $10.00M USD (기존 프로그램 $5.0M + 금번 증액 $5.0M)로, 실질 시총($36.67M) 대비 **27.3%**에 달하는 주주환원 규모입니다.\n이번에 이사회가 신규 승인한 순증 금액은 $5.00M USD입니다.\n실시간 체결가 및 수급:\n전일 종가 $5.5400 대비 현재가 **$6.1400 (+10.83%)**.\n당일 최고가 $6.2000 찍은 후 고점 대비 -1.0% 수준의 견고한 상단 유지.\n당일 누적 거래대금 $54,108 USD.\n당일 SEC 공시 현황: 2026-11-16 [8-K] (Item 8.01, 9.01) 정식 접수 완료.\n2. 당일 공식 PR 및 SEC 8-K 원문 직독 정밀 검증: 자사주 매입(Buyback) 기폭제 충족 여부\n당일(11/16 08:00 ET) 공식 PR 및 SEC 8-K 원문 분석:\nPR 제목: \"Pixelworks Announces Board Authorization of Expanded Stock Repurchase Program\"\n당일 8-K (Item 8.01): *\"approved to increase Company's previously announced stock repurchase program by $5 million, bringing the total amount authorized under the program to $10 million of the Company's common stock.\"*\n원문 직독 결과 드러난 실체 및 심사 헌법 제2조·제3조 대조:\n심사 헌법 제2조 ①항 명문화 요건(자사주 매입) 부합:\n연구소 심사 헌법 제2조: \"시총($50.0M 이하) 대비 압도적인 확정 달러 수주/계약+현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주매입/소각, 특별배당이면 FORCE_BUY!\" 규칙상 자사주 매입은 1급 호재 카테고리에 명시되어 있습니다.\n시총 $36.67M 대비 총 $10.0M(27.3%)의 자사주 매입 한도는 회사의 발행주식 상당수를 장내에서 흡수할 수 있는 실체적 자본배치 계획입니다.\n희석 폭탄 부재 (무희석 클린 상태):\n활성 424B5(ATM), 신규 EFFECT 효력발생, 8-K 3.02 신주 투하가 전혀 없으며 무희석 상태가 유지되고 있습니다.\n재탕 우려먹기가 아닌 '한도 증액(Expansion)' 8-K 본공시 결합:\n단순 과거 이력 재안내가 아니라 11월 10일 이사회 결의를 통해 기존 프로그램을 2배($5M → $10M)로 확대 승인하고 당일 SEC 8-K(Item 8.01)로 공식 제출한 신규 유효 공시입니다.\n수급 강도와 대장주 위계:\n오늘 앞서 07:04 ET에 승인된 보통주 특별현금배당 대장주 **HIHO (시총 대비 42% 확정, 배당수익률 +55%, 프리마켓 거래대금 100만불 돌파)**의 폭발적인 현금 직지급 파괴력과 비교할 때, PXLW의 자사주 매입은 향후 분할 매수 집행 방식이라는 차이가 있으나 헌법 제2조의 자사주매입 기준을 정석 충족합니다.\n3. 최종 심사 및 결재 판정\nPXLW는 시총 $36.67M의 소형주 체급에서 시총의 27.3%에 달하는 총 $10M(신규 $5M 증액)의 자사주 매입 프로그램을 이사회에서 공식 승인하고 당일 SEC 8-K(Item 8.01)와 공식 PR을 동시 배포하여 연구소 심사 헌법 제2조 ①항(대규모 자사주 매입) 조건을 충족하였으므로 **FORCE_BUY: PXLW**로 승인합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: PXLW FORCE_BLOCK: NONE NOTES:\n[PXLW] 시총 대비 27.3% 규모인 총 $10M(500만불 증액) 자사주 매입 이사회 공식 승인 및 당일 8-K 제출로 헌법 2조 충족 매수 승인 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (현금 특별배당 대장주)**와 PXLW (대규모 자사주 매입 승인주) 2종목으로 압축되었으며, 본장 개장 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_1794834461743_INAB_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,49 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793886453795_NTRP_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:47:33",
-      "time_kst": "22:47:33",
-      "symbol": "NTRP",
-      "company_name": "NTRP",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 0.0,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([NTRP] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:08:44",
+      "time_kst": "22:08:44",
+      "symbol": "GEHC",
+      "company_name": "GEHC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $35718.89M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:08:25",
+      "time_kst": "22:08:25",
+      "symbol": "CORT",
+      "company_name": "CORT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $8073.61M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:08:12",
+      "time_kst": "22:08:12",
+      "symbol": "DMRC",
+      "company_name": "DMRC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $192.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:08:02",
+      "time_kst": "22:08:02",
+      "symbol": "AMKR",
+      "company_name": "AMKR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $8475.1M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:07:49",
@@ -2906,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3482.74M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:33:03",
-      "time_kst": "21:33:03",
-      "symbol": "MNTK",
-      "company_name": "MNTK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $124.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:32:56",
-      "time_kst": "21:32:56",
-      "symbol": "NNBR",
-      "company_name": "NNBR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $280.3M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:32:49",
-      "time_kst": "21:32:49",
-      "symbol": "EDBL",
-      "company_name": "EDBL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:32:41",
-      "time_kst": "21:32:41",
-      "symbol": "IESC",
-      "company_name": "IESC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6444.75M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
