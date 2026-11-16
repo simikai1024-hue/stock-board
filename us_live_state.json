@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:08:59",
-  "updated_at_et": "2026-11-16 08:08:59",
-  "updated_epoch_ms": 1794834539361,
+  "updated_at_kst": "2026-11-16 22:09:35",
+  "updated_at_et": "2026-11-16 08:09:35",
+  "updated_epoch_ms": 1794834575329,
   "analyzing": {
-    "active": true,
-    "symbol": "ESLA",
-    "company_name": "ESLA",
-    "exchange": "ND",
-    "price": 0.5381,
-    "gain_pct": 4.69,
-    "mcap_m": 23.41,
-    "catalyst_hint": "[당일 PR] Estrella Immunopharma Highlights ARTEMIS® T-Cell Therapy Data Selected for ASH 2026, Demonstrating Deep and Durable Leukemia Responses and Superior Extramedullary Disease C",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:08:55",
-    "started_at_kst": "22:08:55",
-    "started_epoch_ms": 1794834535196
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0995,
-    "profit_rate": 0.87,
-    "updated_kst": "22:08:56"
+    "current_price": 1.0997,
+    "profit_rate": 0.89,
+    "updated_kst": "22:09:17"
   },
   "stats": {
-    "today_total": 31,
-    "today_nblm_count": 31,
+    "today_total": 32,
+    "today_nblm_count": 32,
     "today_buy": 4,
-    "today_false": 27,
+    "today_false": 28,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 16,
     "total_false": 134,
-    "avg_nblm_sec": 36.4
+    "avg_nblm_sec": 36.6
   },
   "verdicts": [
+    {
+      "id": "v_1794834571533_ESLA_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:09:31",
+      "time_kst": "22:09:31",
+      "symbol": "ESLA",
+      "company_name": "ESLA",
+      "exchange": "ND",
+      "price": 0.5381,
+      "gain_pct": 4.69,
+      "mcap_m": 23.41,
+      "decision": "FALSE",
+      "elapsed_sec": 40.3,
+      "reason": "FDA 최종 승인이 아닌 단순 ASH 2026 학회 전임상 포스터 초록 채택 홍보 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Estrella Immunopharma Highlights ARTEMIS® T-Cell Therapy Data Selected for ASH 2026, Demonstrating Deep and Durable Leukemia Responses and Superior Extramedullary Disease C",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ESLA (Estrella Immunopharma, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.41M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 윗꼬리 정체):\n전일 종가 $0.5140 대비 현재가 $0.5381 (+4.69%).\n당일 최고가 $0.5692 찍은 후 고점 대비 -5.5% 윗꼬리 정체.\n당일 누적 거래대금 $11,119 USD (1만 달러 수준의 극소액 프리마켓 거래량).\n당일 SEC 공시 현황: 2026-11-16 [10-Q] 정기 분기보고서 제출.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Estrella Immunopharma Highlights ARTEMIS® T-Cell Therapy Data Selected for ASH 2026, Demonstrating Deep and Durable Leukemia Responses and Superior Extramedullary Disease Clearance Versus Conventional CAR-T in Preclinical Models\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 학회 포스터 초록 채택 홍보 (Poster Abstract Selection PR):\n본 PR의 본질은 혈액학회(ASH 2026)에서 전임상 모델(Preclinical Models) 기반 ARTEMIS T세포 치료제 초록이 '포스터 발표로 채택(accepted for poster presentation)'되었다는 단순 학회 포스터 발표 선정 알림 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며\n, 오늘 앞서 차단된 BLRX, CNSY, INAB와 동일한 정기 학회 시즌 맞춤형 전임상 초록 채택 보도자료에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약(기술수출), 시총을 압도하는 확정 달러 수주/선급금(AIMD형)\n, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n단순 정기 10-Q 제출 일정 결합:\n당일 SEC에 접수된 공시 역시 통상적인 3분기 정기 보고서인 **[10-Q]**로, 자본 구조의 극적 턴어라운드(8-K 3.01 상장폐지 방어 등)가 아닌 일상적인 회계 분기 마감 서류입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 포스터 발표 채택/전임상 데이터 공유/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 ASH 2026 학회 포스터 발표 선정(Abstract Accepted) 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로\n, 심사 헌법 제3조에 의거 FORCE_BLOCK: ESLA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: ESLA NOTES:\n[ESLA] FDA 최종 승인이 아닌 단순 ASH 2026 학회 전임상 포스터 초록 채택 홍보 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 공식 승인 8-K) 2종목이 진성 대장주로 확정 승인되었으며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794834520812_PXLW_BUY",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,49 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793886458831_PASW_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:47:38",
-      "time_kst": "22:47:38",
-      "symbol": "PASW",
-      "company_name": "Ping An Biomedical Co., Ltd.",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 8.27,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([PASW] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:09:25",
+      "time_kst": "22:09:25",
+      "symbol": "CPP",
+      "company_name": "CPP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:09:20",
+      "time_kst": "22:09:20",
+      "symbol": "ASML",
+      "company_name": "ASML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $555005.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:09:15",
+      "time_kst": "22:09:15",
+      "symbol": "DFDV",
+      "company_name": "DFDV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $116.15M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:09:06",
+      "time_kst": "22:09:06",
+      "symbol": "ERAS",
+      "company_name": "ERAS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5176.6M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:08:55",
@@ -2906,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (CNS Pharmaceuticals Reports Third Quarter 2026 Financial R)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:42:35",
-      "time_kst": "21:42:35",
-      "symbol": "RNTX",
-      "company_name": "RNTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Rein Therapeutics Announces Preliminary Blinded Phase 2 RE)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:42:27",
-      "time_kst": "21:42:27",
-      "symbol": "NSAI",
-      "company_name": "NSAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $192.62M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:42:14",
-      "time_kst": "21:42:14",
-      "symbol": "MBRX",
-      "company_name": "MBRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Moleculin Biotech Reports Third Quarter 2026 Financial Res)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:42:03",
-      "time_kst": "21:42:03",
-      "symbol": "CREX",
-      "company_name": "CREX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Creative Realities Reports Fiscal 2026 Third Quarter Resul)"
     }
   ]
 }
