@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:12:00",
-  "updated_at_et": "2026-11-16 06:12:00",
-  "updated_epoch_ms": 1794827520089,
+  "updated_at_kst": "2026-11-16 20:12:56",
+  "updated_at_et": "2026-11-16 06:12:56",
+  "updated_epoch_ms": 1794827576741,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.73,
-    "profit_rate": -4.44,
-    "updated_kst": "20:11:53"
+    "current_price": 4.829,
+    "profit_rate": -2.44,
+    "updated_kst": "20:12:52"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:12:24",
+      "time_kst": "20:12:24",
+      "symbol": "NNVC",
+      "company_name": "NNVC",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "06:12:14",
+      "time_kst": "20:12:14",
+      "symbol": "OPTX",
+      "company_name": "OPTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $290.02M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:02:53",
       "time_kst": "20:02:53",
       "symbol": "HSIC",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $58.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:19",
-      "time_kst": "18:17:19",
-      "symbol": "ICU",
-      "company_name": "ICU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:07",
-      "time_kst": "18:17:07",
-      "symbol": "CYCU",
-      "company_name": "CYCU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
