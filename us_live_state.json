@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:59:10",
-  "updated_at_et": "2026-11-16 07:59:10",
-  "updated_epoch_ms": 1794833950272,
+  "updated_at_kst": "2026-11-16 22:00:09",
+  "updated_at_et": "2026-11-16 08:00:09",
+  "updated_epoch_ms": 1794834009188,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0887,
-    "profit_rate": -0.12,
-    "updated_kst": "21:59:06"
+    "current_price": 1.07,
+    "profit_rate": -1.83,
+    "updated_kst": "22:00:05"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:59:36",
+      "time_kst": "21:59:36",
+      "symbol": "WMT",
+      "company_name": "WMT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1024247.92M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:56:18",
       "time_kst": "21:56:18",
       "symbol": "LULU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $115.7M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:04:07",
-      "time_kst": "21:04:07",
-      "symbol": "WRAP",
-      "company_name": "WRAP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $86.18M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
