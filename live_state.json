@@ -1,41 +1,78 @@
 {
   "date": "2026-11-16",
-  "updated_at": "2026-11-16 09:11:04",
+  "updated_at": "2026-11-16 10:33:29",
   "history": [
     {
-      "id": "1794787860351_007660_SELL",
-      "type": "SELL",
+      "id": "1794788127972_007660_BUY",
+      "type": "BUY",
       "auto_copy": false,
-      "time": "2026-11-16 09:11:00",
+      "time": "2026-11-16 09:15:27",
       "name": "이수페타시스",
       "code": "007660",
-      "price": 84400,
-      "flu_rt": -4.63,
+      "price": 86400,
+      "flu_rt": -2.6,
       "val_uk": 0.0,
-      "target_price": 88600,
-      "stop_price": 81800,
-      "ammo_title": "📘 확정 손실: -4,288원 (-4.85%) | 매수 88,500원 → 매도 84,400원 (1주) [ISI 종가베팅 세력평단·방어선(84,500원) 이탈 보호손절]",
-      "ammo_date": "",
-      "note": "⏰ ISI 종가베팅 세력평단·방어선(84,500원) 이탈 보호손절 완료 | 확정 손익 -4,288원 (-4.85%)",
-      "pnl_krw": -4288,
-      "pnl_pct": -4.85,
-      "buy_price": 88500,
+      "target_price": 90700,
+      "stop_price": 83800,
+      "ammo_title": "🔄👑 [이수페타시스 재진입] 매수 86,400원(1주) → 지정가 93,800원 매도 대기",
+      "ammo_date": "20261116",
+      "note": "🕸️ KRX 93,800원(주문 #0100080) 매복 완료 | 방어선 82,500원",
+      "buy_price": 86400,
       "qty": 1
+    },
+    {
+      "id": "1794792805573_007660_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-16 10:33:25",
+      "name": "이수페타시스",
+      "code": "007660",
+      "price": 83450,
+      "flu_rt": -6.78,
+      "val_uk": 0.0,
+      "target_price": 87600,
+      "stop_price": 80900,
+      "ammo_title": "📘 확정 손실: -8,372원 (-4.79%) | 매수 87,450원 → 매도 83,450원 (2주) [ISI 종가베팅 세력평단·방어선(82,500원) 이탈 보호손절]",
+      "ammo_date": "",
+      "note": "⏰ ISI 종가베팅 세력평단·방어선(82,500원) 이탈 보호손절 완료 | 확정 손익 -8,372원 (-4.79%)",
+      "pnl_krw": -8372,
+      "pnl_pct": -4.79,
+      "buy_price": 87450,
+      "qty": 2
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-16 09:11:04",
+    "updated_at": "2026-11-16 10:33:29",
     "stats": {
-      "total_closed": 13,
+      "total_closed": 14,
       "win_count": 6,
       "hit_5pct_count": 3,
       "super_win_count": 0,
-      "loss_count": 7,
+      "loss_count": 8,
       "buy_fail_count": 0,
-      "win_rate_pct": 46.2,
-      "total_pnl_krw": -1161
+      "win_rate_pct": 42.9,
+      "total_pnl_krw": -9533
     },
     "rows": [
+      {
+        "date": "2026-11-16",
+        "weekday": "월요일",
+        "weekday_short": "월",
+        "code": "007660",
+        "name": "이수페타시스",
+        "buy_price": 87450,
+        "sell_price": 83450,
+        "qty": 2,
+        "pnl_pct": -4.79,
+        "pnl_krw": -8372,
+        "status": "LOSS",
+        "buy_time": "09:15:27",
+        "sell_time": "10:33:25",
+        "reason": "🔄👑 [이수페타시스 재진입] 매수 86,400원(1주) → 지정가 93,800원 매도 대기",
+        "note": "🕸️ KRX 93,800원(주문 #0100080) 매복 완료 | 방어선 82,500원",
+        "sell_summary": "📘 확정 손실: -8,372원 (-4.79%) | 매수 87,450원 → 매도 83,450원 (2주) [ISI 종가베팅 세력평단·방어선(82,500원) 이탈 보호손절]",
+        "hold_mins": 78
+      },
       {
         "date": "2026-11-16",
         "weekday": "월요일",
@@ -366,7 +403,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-16 09:11:04",
+    "updated_at": "2026-11-16 10:33:29",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4297,7 +4334,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-16 09:11:04",
+    "updated_at": "2026-11-16 10:33:29",
     "deprecated": true,
     "stats": {},
     "days": []
