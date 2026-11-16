@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:00:58",
-  "updated_at_et": "2026-11-16 07:00:58",
-  "updated_epoch_ms": 1794830458931,
+  "updated_at_kst": "2026-11-16 21:01:45",
+  "updated_at_et": "2026-11-16 07:01:45",
+  "updated_epoch_ms": 1794830505517,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "VTSI",
+    "company_name": "VTSI",
+    "exchange": "ND",
+    "price": 4.3292,
+    "gain_pct": 2.1,
+    "mcap_m": 49.2,
+    "catalyst_hint": "[당일 PR] VirTra Appoints Caleb Rauch as Director of Operations",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:01:41",
+    "started_at_kst": "21:01:41",
+    "started_epoch_ms": 1794830501340
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:44"
+    "updated_kst": "21:01:26"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2449,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:01:43",
+      "time_kst": "21:01:43",
+      "symbol": "AMZN",
+      "company_name": "AMZN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2875419.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:38",
+      "time_kst": "21:01:38",
+      "symbol": "DWSN",
+      "company_name": "DWSN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.9M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:28",
+      "time_kst": "21:01:28",
+      "symbol": "CYTK",
+      "company_name": "CYTK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $7834.4M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:22",
+      "time_kst": "21:01:22",
+      "symbol": "EEFT",
+      "company_name": "EEFT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2612.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:17",
+      "time_kst": "21:01:17",
+      "symbol": "VANI",
+      "company_name": "VANI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $92.01M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:11",
+      "time_kst": "21:01:11",
+      "symbol": "EGAN",
+      "company_name": "EGAN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $156.94M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:06",
+      "time_kst": "21:01:06",
+      "symbol": "MWH",
+      "company_name": "MWH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3441.36M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:01:02",
+      "time_kst": "21:01:02",
+      "symbol": "KMTS",
+      "company_name": "KMTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1816.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:00:54",
       "time_kst": "21:00:54",
       "symbol": "HELP",
@@ -2737,16 +2829,6 @@
     },
     {
       "date_et": "2026-11-16",
-      "time_et": "06:02:37",
-      "time_kst": "20:02:37",
-      "symbol": "MWH",
-      "company_name": "MWH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3441.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
       "time_et": "06:02:23",
       "time_kst": "20:02:23",
       "symbol": "ZYME",
@@ -2754,16 +2836,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1829.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:02:10",
-      "time_kst": "20:02:10",
-      "symbol": "KMTS",
-      "company_name": "KMTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1708.83M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-16",
@@ -2784,16 +2856,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $467.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:01:25",
-      "time_kst": "20:01:25",
-      "symbol": "EGAN",
-      "company_name": "EGAN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $156.94M (기준 <= $50.0M USD 초과/미확인)"
     },
     {
       "date_et": "2026-11-16",
@@ -2827,16 +2889,6 @@
     },
     {
       "date_et": "2026-11-16",
-      "time_et": "05:30:48",
-      "time_kst": "19:30:48",
-      "symbol": "VANI",
-      "company_name": "VANI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $92.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
       "time_et": "05:26:13",
       "time_kst": "19:26:13",
       "symbol": "VHUB",
@@ -2867,26 +2919,6 @@
     },
     {
       "date_et": "2026-11-16",
-      "time_et": "05:14:13",
-      "time_kst": "19:14:13",
-      "symbol": "DWSN",
-      "company_name": "DWSN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $56.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "05:00:50",
-      "time_kst": "19:00:50",
-      "symbol": "EEFT",
-      "company_name": "EEFT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2612.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
       "time_et": "04:52:09",
       "time_kst": "18:52:09",
       "symbol": "CRIS",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.01,1.02,2.03,3.02,3.03,5.03,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:41:40",
-      "time_kst": "18:41:40",
-      "symbol": "GRDX",
-      "company_name": "GRDX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-28 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:38:07",
-      "time_kst": "18:38:07",
-      "symbol": "SPWR",
-      "company_name": "SPWR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.61M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
