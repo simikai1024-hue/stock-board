@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:06:08",
-  "updated_at_et": "2026-11-16 08:06:08",
-  "updated_epoch_ms": 1794834368894,
+  "updated_at_kst": "2026-11-16 22:06:22",
+  "updated_at_et": "2026-11-16 08:06:22",
+  "updated_epoch_ms": 1794834382294,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FGC",
+    "company_name": "FGC",
+    "exchange": "ND",
+    "price": 5.97,
+    "gain_pct": 0.0,
+    "mcap_m": 27.31,
+    "catalyst_hint": "[당일 PR] FG Communities Holdings Inc. Declares Cash Dividend on Its 8.00% Cumulative Preferred Stock, Series A",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:06:18",
+    "started_at_kst": "22:06:18",
+    "started_epoch_ms": 1794834378330
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.07,
-    "profit_rate": -1.83,
-    "updated_kst": "22:06:00"
+    "current_price": 1.13,
+    "profit_rate": 3.67,
+    "updated_kst": "22:06:18"
   },
   "stats": {
     "today_total": 28,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:06:19",
+      "time_kst": "22:06:19",
+      "symbol": "JSPR",
+      "company_name": "JSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $455.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:06:12",
+      "time_kst": "22:06:12",
+      "symbol": "IAM",
+      "company_name": "IAM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $606.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:05:42",
       "time_kst": "22:05:42",
       "symbol": "HUMA",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:26:30",
-      "time_kst": "21:26:30",
-      "symbol": "IBIO",
-      "company_name": "IBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:16:17",
-      "time_kst": "21:16:17",
-      "symbol": "LRMR",
-      "company_name": "LRMR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $323.59M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
