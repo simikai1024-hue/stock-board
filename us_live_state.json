@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:56:13",
-  "updated_at_et": "2026-11-16 07:56:13",
-  "updated_epoch_ms": 1794833773117,
+  "updated_at_kst": "2026-11-16 21:57:13",
+  "updated_at_et": "2026-11-16 07:57:13",
+  "updated_epoch_ms": 1794833833635,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.109,
-    "profit_rate": 1.74,
-    "updated_kst": "21:56:09"
+    "current_price": 1.1399,
+    "profit_rate": 4.58,
+    "updated_kst": "21:57:07"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:56:18",
+      "time_kst": "21:56:18",
+      "symbol": "LULU",
+      "company_name": "LULU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11845.97M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:53:21",
       "time_kst": "21:53:21",
       "symbol": "TIGO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $86.18M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:04:02",
-      "time_kst": "21:04:02",
-      "symbol": "POET",
-      "company_name": "POET",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $430.04M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
