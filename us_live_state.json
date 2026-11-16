@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:33:15",
-  "updated_at_et": "2026-11-16 07:33:15",
-  "updated_epoch_ms": 1794832395051,
+  "updated_at_kst": "2026-11-16 21:33:25",
+  "updated_at_et": "2026-11-16 07:33:25",
+  "updated_epoch_ms": 1794832405630,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CNSY",
+    "company_name": "CNSY",
+    "exchange": "ND",
+    "price": 0.96,
+    "gain_pct": 1.34,
+    "mcap_m": 7.29,
+    "catalyst_hint": "[당일 PR] Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:33:23",
+    "started_at_kst": "21:33:23",
+    "started_epoch_ms": 1794832403161
   },
   "halt_watch": {
     "active": false
