@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:03:58",
-  "updated_at_et": "2026-11-16 04:03:58",
-  "updated_epoch_ms": 1794819838052,
+  "updated_at_kst": "2026-11-16 18:04:51",
+  "updated_at_et": "2026-11-16 04:04:51",
+  "updated_epoch_ms": 1794819891667,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:03:49"
+    "updated_kst": "18:04:47"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 14,
+    "today_hardcut": 18,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:04:15",
+      "time_kst": "18:04:15",
+      "symbol": "BIDU",
+      "company_name": "BIDU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $21261.3M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:04:11",
+      "time_kst": "18:04:11",
+      "symbol": "NIU",
+      "company_name": "NIU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $120.4M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:04:06",
+      "time_kst": "18:04:06",
+      "symbol": "IQ",
+      "company_name": "IQ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $426.48M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "04:04:01",
+      "time_kst": "18:04:01",
+      "symbol": "THCH",
+      "company_name": "THCH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Tims China to Announce Third Quarter 2026 Financial Result)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:03:54",
       "time_kst": "18:03:54",
       "symbol": "CYTK",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $53.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:47:51",
-      "time_kst": "23:47:51",
-      "symbol": "CLNN",
-      "company_name": "CLNN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:47:23",
-      "time_kst": "23:47:23",
-      "symbol": "NIKI",
-      "company_name": "NIKI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:45:53",
-      "time_kst": "23:45:53",
-      "symbol": "FUSE",
-      "company_name": "FUSE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "09:41:30",
-      "time_kst": "23:41:30",
-      "symbol": "GROV",
-      "company_name": "GROV",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
     }
   ]
 }
