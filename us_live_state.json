@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:46:52",
-  "updated_at_et": "2026-11-16 08:46:52",
-  "updated_epoch_ms": 1794836812086,
+  "updated_at_kst": "2026-11-16 22:47:49",
+  "updated_at_et": "2026-11-16 08:47:49",
+  "updated_epoch_ms": 1794836869438,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "22:46:49"
+    "current_price": 1.0397,
+    "profit_rate": -4.61,
+    "updated_kst": "22:47:47"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:47:45",
+      "time_kst": "22:47:45",
+      "symbol": "WENN",
+      "company_name": "WENN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $393.2M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:47:08",
+      "time_kst": "22:47:08",
+      "symbol": "IQST",
+      "company_name": "IQST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:47:03",
+      "time_kst": "22:47:03",
+      "symbol": "PHUN",
+      "company_name": "PHUN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Phunware Reports Third Quarter 2026 Financial Results)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:40:37",
       "time_kst": "22:40:37",
       "symbol": "CLBK",
@@ -2687,16 +2717,6 @@
     },
     {
       "date_et": "2026-11-16",
-      "time_et": "08:34:53",
-      "time_kst": "22:34:53",
-      "symbol": "PHUN",
-      "company_name": "PHUN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Phunware Reports Third Quarter 2026 Financial Results)"
-    },
-    {
-      "date_et": "2026-11-16",
       "time_et": "08:33:38",
       "time_kst": "22:33:38",
       "symbol": "BULL",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $51682.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:13:52",
-      "time_kst": "22:13:52",
-      "symbol": "INTC",
-      "company_name": "INTC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $301041.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:13:37",
-      "time_kst": "22:13:37",
-      "symbol": "SGC",
-      "company_name": "SGC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $222.39M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
