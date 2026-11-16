@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:03:59",
-  "updated_at_et": "2026-11-16 08:03:59",
-  "updated_epoch_ms": 1794834239761,
+  "updated_at_kst": "2026-11-16 22:04:42",
+  "updated_at_et": "2026-11-16 08:04:42",
+  "updated_epoch_ms": 1794834282699,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.08,
-    "profit_rate": -0.92,
-    "updated_kst": "22:03:59"
+    "current_price": 1.0687,
+    "profit_rate": -1.95,
+    "updated_kst": "22:04:39"
   },
   "stats": {
     "today_total": 27,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "08:04:38",
+      "time_kst": "22:04:38",
+      "symbol": "OBAI",
+      "company_name": "OBAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:04:27",
+      "time_kst": "22:04:27",
+      "symbol": "ALXO",
+      "company_name": "ALXO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $141.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "08:03:21",
       "time_kst": "22:03:21",
       "symbol": "VIVO",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $285.55M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:11:17",
-      "time_kst": "21:11:17",
-      "symbol": "SVIA",
-      "company_name": "SVIA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $205.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:11:09",
-      "time_kst": "21:11:09",
-      "symbol": "NSIT",
-      "company_name": "NSIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4465.63M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
