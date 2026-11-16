@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:30:10",
-  "updated_at_et": "2026-11-16 11:30:10",
-  "updated_epoch_ms": 1794846610669,
+  "updated_at_kst": "2026-11-17 01:31:05",
+  "updated_at_et": "2026-11-16 11:31:05",
+  "updated_epoch_ms": 1794846665093,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.105,
-    "profit_rate": 1.38,
-    "updated_kst": "01:30:05"
+    "current_price": 1.125,
+    "profit_rate": 3.21,
+    "updated_kst": "01:31:02"
   },
   "stats": {
     "today_total": 64,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:30:14",
+      "time_kst": "01:30:14",
+      "symbol": "AVNW",
+      "company_name": "AVNW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $212.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:27:41",
       "time_kst": "01:27:41",
       "symbol": "CHOW",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:32:28",
-      "time_kst": "23:32:28",
-      "symbol": "AIRS",
-      "company_name": "AIRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.17M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
