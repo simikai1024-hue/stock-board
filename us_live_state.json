@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 19:56:25",
-  "updated_at_et": "2026-11-16 05:56:25",
-  "updated_epoch_ms": 1794826585334,
+  "updated_at_kst": "2026-11-16 19:57:22",
+  "updated_at_et": "2026-11-16 05:57:22",
+  "updated_epoch_ms": 1794826642461,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 5.05,
-    "profit_rate": 2.02,
-    "updated_kst": "19:56:21"
+    "current_price": 5.02,
+    "profit_rate": 1.42,
+    "updated_kst": "19:57:19"
   },
   "stats": {
     "today_total": 2,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "05:56:37",
+      "time_kst": "19:56:37",
+      "symbol": "CDT",
+      "company_name": "CDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "05:42:10",
       "time_kst": "19:42:10",
       "symbol": "IPDN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $426.48M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:04:01",
-      "time_kst": "18:04:01",
-      "symbol": "THCH",
-      "company_name": "THCH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Tims China to Announce Third Quarter 2026 Financial Result)"
     }
   ]
 }
