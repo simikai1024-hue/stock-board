@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:34:18",
-  "updated_at_et": "2026-11-16 08:34:18",
-  "updated_epoch_ms": 1794836058169,
+  "updated_at_kst": "2026-11-16 22:34:31",
+  "updated_at_et": "2026-11-16 08:34:31",
+  "updated_epoch_ms": 1794836071280,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "IDAI",
+    "company_name": "IDAI",
+    "exchange": "ND",
+    "price": 2.62,
+    "gain_pct": 2.75,
+    "mcap_m": 14.89,
+    "catalyst_hint": "[당일 PR] Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-mo",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:34:27",
+    "started_at_kst": "22:34:27",
+    "started_epoch_ms": 1794836067137
   },
   "halt_watch": {
     "active": false
