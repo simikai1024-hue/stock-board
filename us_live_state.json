@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:16:41",
-  "updated_at_et": "2026-11-16 08:16:41",
-  "updated_epoch_ms": 1794835001941,
+  "updated_at_kst": "2026-11-16 22:17:31",
+  "updated_at_et": "2026-11-16 08:17:31",
+  "updated_epoch_ms": 1794835051355,
   "analyzing": {
-    "active": true,
-    "symbol": "EOCN",
-    "company_name": "EOCN",
-    "exchange": "ND",
-    "price": 2.85,
-    "gain_pct": 14.92,
-    "mcap_m": 2.97,
-    "catalyst_hint": "[당일 PR] Eocene and Barcode Nanotech Report Progress in the Development of Tumor Microenvironment-Targeted Lipid Nanoparticles Formulation of Aramchol",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:16:34",
-    "started_at_kst": "22:16:34",
-    "started_epoch_ms": 1794834994966
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0787,
-    "profit_rate": -1.04,
-    "updated_kst": "22:16:23"
+    "current_price": 1.08,
+    "profit_rate": -0.92,
+    "updated_kst": "22:17:23"
   },
   "stats": {
-    "today_total": 35,
-    "today_nblm_count": 35,
+    "today_total": 36,
+    "today_nblm_count": 36,
     "today_buy": 4,
-    "today_false": 31,
+    "today_false": 32,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 36.9
+    "avg_nblm_sec": 37.3
   },
   "verdicts": [
+    {
+      "id": "v_1794835044188_EOCN_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:17:24",
+      "time_kst": "22:17:24",
+      "symbol": "EOCN",
+      "company_name": "EOCN",
+      "exchange": "ND",
+      "price": 2.85,
+      "gain_pct": 14.92,
+      "mcap_m": 2.97,
+      "decision": "FALSE",
+      "elapsed_sec": 53.0,
+      "reason": "FDA 승인 없는 단순 Aramchol LNP 제형 개발 진척 보고 PR로 1급 기폭제 미달 및 거래대금 $5K 얇은 호가 펌핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Eocene and Barcode Nanotech Report Progress in the Development of Tumor Microenvironment-Targeted Lipid Nanoparticles Formulation of Aramchol",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 EOCN (Eocene Systems Ltd.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.97M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 (치명적 금액 미기재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 호가 갭상승 착시):\n전일 종가 $2.4800 대비 현재가 $2.8500 (+14.92%), 당일 최고가 $2.8500.\n당일 누적 거래대금 $5,634 USD (거래대금이 5천 달러 수준에 불과한 전형적인 얇은 호가 장전 착시 수급).\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Eocene and Barcode Nanotech Report Progress in the Development of Tumor Microenvironment-Targeted Lipid Nanoparticles Formulation of Aramchol\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 승인이나 임상 성공이 아닌 단순 신약 제형 개발 진척 보고 (Formulation Development Progress PR):\n본 PR의 본질은 Barcode Nanotech와 공동으로 아람콜(Aramchol)의 종양 미세환경 표적 지질나노입자(LNP) 신규 제형을 개발 중이며 이에 대한 '개발 진척을 보고(Report Progress in the Development)'했다는 초기 R&D 경과 공유 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 동물/전임상 단계의 제형 연구 개발 진행 단계 알림에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 시총을 압도하는 확정 달러 수주/선급금(AIMD형), 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 거래대금 5천불 얇은 호가 펌핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 개발 진척 보고/제형 개발/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n실체적 확정 현금이나 승인이 없는 상태에서 거래대금 $5,634에 불과한 얇은 호가로 가격만 +14.9% 띄워놓았으므로, 본장 개장 시 급격한 덤핑 위험이 매우 높습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 승인이 아닌 단순 LNP 제형 개발 진척 보고에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: EOCN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: EOCN NOTES:\n[EOCN] FDA 승인 없는 단순 Aramchol LNP 제형 개발 진척 보고 PR로 1급 기폭제 미달 및 거래대금 $5K 얇은 호가 펌핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 승인 8-K) 2종목이 진성 대장주로 유지되고 있으며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794834963760_VIVS_FALSE",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "$65만 달러($0.65M) 소규모 수주 발표는 시총 대비 1급 확정 대형 수주 기폭제 미달 및 장전 대금 미달(-0.09%)로 전량 차단",
       "catalyst_hint": "[당일 PR] BOS Robotics Division Secures $650,000 Order for a Robotic Munitions Packing Line at a New Site of a Leading Israeli Defense Customer",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 BOSC (B.O.S. Better Online Solutions Ltd.) 정밀 직독 결재 보고입니다 [cite: 1, 4].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $30.12M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 2].\n실시간 시세 및 수급: 전일 종가 $4.2439 대비 현재가 $4.2400 (-0.09% 약보합), 당일 최고가 $4.2400 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:00 ET) PR 원문 분석:\nPR 제목: \"BOS Robotics Division Secures $650,000 Order for a Robotic Munitions Packing Line at a New Site of a Leading Israeli Defense Customer\"\n원문 팩트: 이스라엘 방산 고객사 신규 사업장에 $650,000(65만 달러 / 약 $0.65M USD) 규모의 로봇 탄약 포장 라인 수주 계약 체결 발표.\n치명적 기폭제 결함:\n[소규모 수주 금액 한계]: 시가총액 $30.12M 규모 기업 대비 당일 발표된 수주 금액은 **단 $65만 달러($0.65M, 시총 대비 약 2.15%)**에 불과한 소규모 수주입니다.\n이는 당일 주가와 기업 가치를 수직 폭등시킬 확정적 1급 대형 수주/계약 기폭제(FDA 승인/임상 성공, 시총 급 대형 $ 수주/계약/매각, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등) 기준에 현저히 미달합니다 [cite: 8].\n수주 공시 발표에도 불구하고 프리장 시세 반응이 -0.09% 보합권에 갇혀 있고, 장전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 시총 대비 소규모 수주($65만 달러) 공시에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: BOSC 처리합니다 [cite: 8].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: BOSC NOTES:\n[BOSC] $65만 달러($0.65M) 소규모 수주 발표는 시총 대비 1급 확정 대형 수주 기폭제 미달 및 장전 대금 미달(-0.09%)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793887815412_IVF_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "09:10:15",
-      "time_kst": "23:10:15",
-      "symbol": "IVF",
-      "company_name": "INVO Fertility, Inc.",
-      "exchange": "ND",
-      "price": 2.06,
-      "gain_pct": 0.49,
-      "mcap_m": 9.83,
-      "decision": "FALSE",
-      "elapsed_sec": 35.5,
-      "reason": "PatientFi 제휴 환자 파이낸싱 옵션 발표는 구체적 수주 금액이 부재한 단순 파트너십 공시로 1급 확정 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] INVO Fertility Partners with PatientFi to Help Make Fertility Treatment More Affordable",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 IVF (INVO Fertility, Inc.) 정밀 직독 결재 보고입니다 [cite: 10, 13].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.83M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $2.0500 대비 현재가 $2.0600 (+0.49% 보합), 당일 최고가 $2.1700 (고점 대비 -5.1% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:00 ET) PR 원문 분석:\nPR 제목: \"INVO Fertility Partners with PatientFi to Help Make Fertility Treatment More Affordable\"\n원문 팩트: 환자 대상 시술비 할부/결제 파이낸싱 옵션을 제공하기 위해 PatientFi와 제휴(Partnership)를 체결했다는 발표.\n치명적 기폭제 결함:\n오늘 제출된 재료는 회사로 직접 유입되는 확정적 매출 수주액이나 대형 자산 매각/M&A 계약이 아니라, 단순 고객 결제 편의용 금융 플랫폼 제휴/파트너십(Financing Partnering) 소식입니다.\n이는 전략 헌장 3번 규칙에서 엄격히 차단하는 '구체적 달러($) 금액 미기재 단순 MOU/제휴/특허/주주서한' 범주에 정확히 속하며, 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 전액 현금 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다 [cite: 10, 13].\n현재 시세 반응도 +0.49% 보합권으로 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구체적 달러($) 수주/계약 금액이 부재한 단순 고객 파이낸싱 제휴 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: IVF 처리합니다 [cite: 10, 13].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: IVF NOTES:\n[IVF] PatientFi 제휴 환자 파이낸싱 옵션 발표는 구체적 수주 금액이 부재한 단순 파트너십 공시로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
