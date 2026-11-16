@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:42:06",
-  "updated_at_et": "2026-11-16 06:42:06",
-  "updated_epoch_ms": 1794829326830,
+  "updated_at_kst": "2026-11-16 20:42:26",
+  "updated_at_et": "2026-11-16 06:42:26",
+  "updated_epoch_ms": 1794829346339,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "HKPD",
+    "company_name": "HKPD",
+    "exchange": "ND",
+    "price": 1.65,
+    "gain_pct": 1.85,
+    "mcap_m": 18.15,
+    "catalyst_hint": "[당일 PR] CELLYAN BIOTECHNOLOGY CO., LTD REGAINS COMPLIANCE WITH NASDAQ MINIMUM BID PRICE REQUIREMENT",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:42:19",
+    "started_at_kst": "20:42:19",
+    "started_epoch_ms": 1794829339713
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.9495,
-    "profit_rate": -0.01,
-    "updated_kst": "20:42:00"
+    "current_price": 4.921,
+    "profit_rate": -0.58,
+    "updated_kst": "20:42:20"
   },
   "stats": {
     "today_total": 8,
