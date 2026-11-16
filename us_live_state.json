@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:06:29",
-  "updated_at_et": "2026-11-16 09:06:29",
-  "updated_epoch_ms": 1794837989727,
+  "updated_at_kst": "2026-11-16 23:07:16",
+  "updated_at_et": "2026-11-16 09:07:16",
+  "updated_epoch_ms": 1794838036251,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "23:06:22"
+    "current_price": 1.049,
+    "profit_rate": -3.76,
+    "updated_kst": "23:07:01"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:07:09",
+      "time_kst": "23:07:09",
+      "symbol": "AMD",
+      "company_name": "AMD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $833985.77M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:06:38",
+      "time_kst": "23:06:38",
+      "symbol": "MMED",
+      "company_name": "MMED",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5292.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:06:03",
       "time_kst": "23:06:03",
       "symbol": "SPWR",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:32:37",
-      "time_kst": "22:32:37",
-      "symbol": "WTW",
-      "company_name": "WTW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $31440.19M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:32:00",
-      "time_kst": "22:32:00",
-      "symbol": "DPRO",
-      "company_name": "DPRO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $110.77M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
