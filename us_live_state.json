@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:11:39",
-  "updated_at_et": "2026-11-16 09:11:39",
-  "updated_epoch_ms": 1794838299103,
+  "updated_at_kst": "2026-11-16 23:12:53",
+  "updated_at_et": "2026-11-16 09:12:53",
+  "updated_epoch_ms": 1794838373775,
   "analyzing": {
-    "active": true,
-    "symbol": "DARE",
-    "company_name": "DARE",
-    "exchange": "ND",
-    "price": 0.676,
-    "gain_pct": 2.83,
-    "mcap_m": 13.3,
-    "catalyst_hint": "[당일 PR] Daré Bioscience Receives Approximately $852,000 in Additional Grant Funding",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:11:31",
-    "started_at_kst": "23:11:31",
-    "started_epoch_ms": 1794838291175
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.06,
-    "profit_rate": -2.75,
-    "updated_kst": "23:11:30"
+    "current_price": 1.0512,
+    "profit_rate": -3.56,
+    "updated_kst": "23:12:48"
   },
   "stats": {
-    "today_total": 50,
-    "today_nblm_count": 50,
+    "today_total": 51,
+    "today_nblm_count": 51,
     "today_buy": 5,
-    "today_false": 45,
+    "today_false": 46,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 40.4
+    "avg_nblm_sec": 41.3
   },
   "verdicts": [
+    {
+      "id": "v_1794838368493_DARE_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:12:48",
+      "time_kst": "23:12:48",
+      "symbol": "DARE",
+      "company_name": "DARE",
+      "exchange": "ND",
+      "price": 0.676,
+      "gain_pct": 2.83,
+      "mcap_m": 13.3,
+      "decision": "FALSE",
+      "elapsed_sec": 84.8,
+      "reason": "신규 계약이 아닌 2024년 11월 기발표 $10.7M 보조금의 단순 쪼개기 분할 지급분($85만불) 수령 PR로 헌법 3조 1항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Daré Bioscience Receives Approximately $852,000 in Additional Grant Funding",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 DARE (Daré Bioscience, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.3M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 적발):\n본문 핵심 금액으로 추출된 약 $10.70M USD(시총 대비 80.5%)는 오늘 새롭게 체결된 신규 확정 계약금이 아닙니다.\n이는 **2024년 11월에 이미 체결된 총 $10.7M 규모의 기존 보조금 협약(existing grant agreement originally announced in November 2024)**의 전체 프레임워크 총액에 불과합니다.\n금번 당일 실제로 수령한 금액은 해당 기존 협약에 따른 끝에서 두 번째 분할 지급분인 **고작 $851,796 USD (약 $0.85M)**에 그칩니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.6574 대비 현재가 $0.6760 (+2.83%), 당일 최고가 $0.6950 (고점 대비 -2.7%).\n당일 누적 거래대금 $235 USD (300달러 미만의 극소액 거래량 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:09 ET) 공식 PR 원문 분석:\nPR 제목: *\"Daré Bioscience Receives Approximately $852,000 in Additional Grant Funding\"*\n원문 직독 결과 드러난 치명적 실체:\n2024년 11월 기체결 보조금의 단순 쪼개기 분할 수령 (심사 헌법 제3조 ①항 정면 위배):\n원문 본문에 *\"today announced that it has received an additional payment of $851,796 under its existing grant agreement. This payment represents the second-to-last anticipated tranche under the up to approximately $10.7 million grant agreement originally announced in November 2024\"*라고 명시되어 있습니다.\n회사는 이미 2024년에 약 $5.4M, 2025년 11월에 약 $3.6M을 수령했으며, 이번 발표는 잔여 트랜치 중 고작 $85만 달러를 분할 수령했다는 기존 계약의 단순 잔여분 입금 알림에 불과합니다.\n이는 심사 헌법 제3조 ①항인 **'기발표 대형 프레임워크 계약(기존 $10.7M 계약)의 일부 분할발주/분할지급으로서 시총 대비 비중도 작은 쪼개기 재탕'**에 100% 해당하는 대표적 오답 패턴입니다.\n체급을 점프시키는 신규 창사 최대 수주가 아님:\n과거 소액 수령 후 시총을 압도하는 신규 대형 본계약 점프(AIMD형)가 아니며, 2년 전 발표된 기존 한도 내의 잔여 소액 지급분 입금 보도자료입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '기발표 기존 보조금 협약의 잔여 쪼개기 분할 지급 PR은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 2024년 11월 기발표된 $10.7M 기존 보조금 협약의 단순 분할 지급분($85만 달러) 수령 알림에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DARE 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: DARE NOTES:\n[DARE] 신규 계약이 아닌 2024년 11월 기발표 $10.7M 보조금의 단순 쪼개기 분할 지급분($85만불) 수령 PR로 헌법 3조 1항 위배 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794838271932_REVB_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 GMHS (Gamehaus Holdings Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.14M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.6682 대비 현재가 $0.6890 (+3.11% 보합), 당일 최고가 $0.6890 (+0.0%)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] 접수.\n야후 RSS 당일 PR **0건 (미수신)**.\n원문 팩트: 첨부 EX-99.1 원문은 \"Gamehaus Outlines Vision for an AI-Native Entertainment Group in Founder's Letter to Shareholders...\" (창립자의 주주 서한 - Founder's Letter).\n치명적 기폭제 결함:\n오늘 제출된 6-K 공시는 당일 기업 가치를 수직 폭등시킬 신규 확정 현금 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지 등의 1급 기폭제가 아니라, 단순 창립자의 비전 제시용 주주 서한(Founder's Letter to Shareholders) 제출에 불과합니다.\n이는 전략 헌장 제1장 2번 규칙(\"구체적 현금 계약 금액 미기재 단순 주주서한(Shareholder/Founder's Letter)·IR 비전 발표는 100% FORCE_BLOCK\")에 정확히 해당합니다.\n현재 시세 반응 역시 +3.11% 보합권에 갇혀 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 창립자 주주 서한(Founder's Letter) 제출에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: GMHS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: GMHS NOTES:\n[GMHS] 단순 창립자 주주 서한(Founder's Letter) 공시는 1급 확정 기폭제 미달 및 장전 보합(+3.11%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793971921023_BCDA_FALSE",
-      "date_et": "2026-11-06",
-      "weekday_kr": "금",
-      "time_et": "08:32:01",
-      "time_kst": "22:32:01",
-      "symbol": "BCDA",
-      "company_name": "BCDA",
-      "exchange": "ND",
-      "price": 0.89,
-      "gain_pct": -2.2,
-      "mcap_m": 13.47,
-      "decision": "FALSE",
-      "elapsed_sec": 47.9,
-      "reason": "일본 PMDA 임상 상담 완료 단순 공시(Item 8.01)는 1급 확정 기폭제 미달 및 전일 대비 -2.20% 약세로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-06 [8-K] (Item 8.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 BCDA (BioCardia, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.47M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.9100 대비 현재가 $0.8900 (-2.20% 약보합), 당일 최고가 $0.8900 (+0.0%)\n. 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 08:31 ET) SEC 8-K (Item 8.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-06 [8-K] (Item 8.01, 9.01) 접수.\n야후 RSS 당일 PR **0건 (미수신)**.\n원문 팩트: 일본 의약품의료기기종합기구(PMDA)와 CardiAMP 세포 치료 시스템에 대한 임상 상담(Clinical Consultation) 절차를 완료하고 시판 승인 신청서 제출을 향해 진전 중이라는 보도자료 첨부 공시.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 시판 승인(FDA/PMDA Final Approval)이나 Pivotal 임상 성공, 구체적 현금 유입 계약이 아니며, 단순 **일본 PMDA와의 임상 상담 완료 및 승인 신청 준비 과정 발표(Consultation Completion & Preparation Update)**에 불과합니다.\n이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 인허가 상담/준비 공지, 주주서한, IR 발표' 범주에 정확히 속하므로 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA/PMDA 최종 승인, 임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등) 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 -2.20% 약보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 PMDA 임상 상담 완료 공시(Item 8.01)에 불과하고 시세가 -2.20% 약세를 기록하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: BCDA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: BCDA NOTES:\n[BCDA] 일본 PMDA 임상 상담 완료 단순 공시(Item 8.01)는 1급 확정 기폭제 미달 및 전일 대비 -2.20% 약세로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:12:32",
+      "time_kst": "23:12:32",
+      "symbol": "DFNS",
+      "company_name": "DFNS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "09:11:33",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $31289.81M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:37:26",
-      "time_kst": "22:37:26",
-      "symbol": "ORBS",
-      "company_name": "ORBS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $268.21M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
