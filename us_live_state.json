@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 18:33:00",
-  "updated_at_et": "2026-11-16 04:33:00",
-  "updated_epoch_ms": 1794821580619,
+  "updated_at_kst": "2026-11-16 18:33:59",
+  "updated_at_et": "2026-11-16 04:33:59",
+  "updated_epoch_ms": 1794821639644,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:32:56"
+    "updated_kst": "18:33:57"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 150,
     "total_buy": 13,
     "total_false": 137,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "04:33:19",
+      "time_kst": "18:33:19",
+      "symbol": "TNXP",
+      "company_name": "TNXP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "04:27:14",
       "time_kst": "18:27:14",
       "symbol": "WSHP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $51.95M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-13",
-      "time_et": "11:54:12",
-      "time_kst": "01:54:12",
-      "symbol": "JBDI",
-      "company_name": "JBDI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.45M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
