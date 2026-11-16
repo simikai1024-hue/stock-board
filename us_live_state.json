@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:07:16",
-  "updated_at_et": "2026-11-16 09:07:16",
-  "updated_epoch_ms": 1794838036251,
+  "updated_at_kst": "2026-11-16 23:08:03",
+  "updated_at_et": "2026-11-16 09:08:03",
+  "updated_epoch_ms": 1794838083400,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.049,
-    "profit_rate": -3.76,
-    "updated_kst": "23:07:01"
+    "current_price": 1.0412,
+    "profit_rate": -4.48,
+    "updated_kst": "23:07:59"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:07:59",
+      "time_kst": "23:07:59",
+      "symbol": "WEN",
+      "company_name": "WEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1584.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:07:53",
+      "time_kst": "23:07:53",
+      "symbol": "VELO",
+      "company_name": "VELO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $129.04M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:07:47",
+      "time_kst": "23:07:47",
+      "symbol": "COO",
+      "company_name": "COO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11979.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:07:42",
+      "time_kst": "23:07:42",
+      "symbol": "EYE",
+      "company_name": "EYE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1443.46M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:07:18",
+      "time_kst": "23:07:18",
+      "symbol": "CJMB",
+      "company_name": "CJMB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:07:09",
       "time_kst": "23:07:09",
       "symbol": "AMD",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $60173.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:35:00",
-      "time_kst": "22:35:00",
-      "symbol": "CYCU",
-      "company_name": "CYCU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:33:38",
-      "time_kst": "22:33:38",
-      "symbol": "BULL",
-      "company_name": "BULL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2719.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:33:04",
-      "time_kst": "22:33:04",
-      "symbol": "PRE",
-      "company_name": "PRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $279.64M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:32:54",
-      "time_kst": "22:32:54",
-      "symbol": "GMM",
-      "company_name": "GMM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:32:45",
-      "time_kst": "22:32:45",
-      "symbol": "ZTG",
-      "company_name": "ZTG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
     }
   ]
 }
