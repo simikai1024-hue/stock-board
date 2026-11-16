@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:32:34",
-  "updated_at_et": "2026-11-16 08:32:34",
-  "updated_epoch_ms": 1794835954307,
+  "updated_at_kst": "2026-11-16 22:33:18",
+  "updated_at_et": "2026-11-16 08:33:18",
+  "updated_epoch_ms": 1794835998607,
   "analyzing": {
-    "active": true,
-    "symbol": "JCSE",
-    "company_name": "JCSE",
-    "exchange": "ND",
-    "price": 1.6,
-    "gain_pct": 0.0,
-    "mcap_m": 8.97,
-    "catalyst_hint": "[당일 PR] JE Cleantech Holdings Limited Announces Declaration of Cash Dividend",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:32:31",
-    "started_at_kst": "22:32:31",
-    "started_epoch_ms": 1794835951806
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.08,
-    "profit_rate": -0.92,
-    "updated_kst": "22:32:15"
+    "current_price": 1.0712,
+    "profit_rate": -1.72,
+    "updated_kst": "22:33:13"
   },
   "stats": {
-    "today_total": 38,
-    "today_nblm_count": 38,
-    "today_buy": 4,
+    "today_total": 39,
+    "today_nblm_count": 39,
+    "today_buy": 5,
     "today_false": 34,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 15,
-    "total_false": 135,
-    "avg_nblm_sec": 38.0
+    "total_buy": 16,
+    "total_false": 134,
+    "avg_nblm_sec": 38.2
   },
   "verdicts": [
+    {
+      "id": "v_1794835993770_JCSE_BUY",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:33:13",
+      "time_kst": "22:33:13",
+      "symbol": "JCSE",
+      "company_name": "JCSE",
+      "exchange": "ND",
+      "price": 1.6,
+      "gain_pct": 0.0,
+      "mcap_m": 8.97,
+      "decision": "BUY",
+      "elapsed_sec": 47.2,
+      "reason": "보통주 주당 $0.20(수익률 12.5%) 현금배당 이사회 승인 및 당일 6-K 제출로 헌법 2조(배당 기폭제) 충족 매수 승인",
+      "catalyst_hint": "[당일 PR] JE Cleantech Holdings Limited Announces Declaration of Cash Dividend",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 JCSE (JE Cleantech Holdings Limited) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.97M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 (파격적인 현금배당 수익률 검증):\n보통주 1주당 현금배당액: US$0.20 per ordinary share.\n실시간 체결가 $1.6000 기준 **순수 현금배당수익률은 무려 +12.5%**에 달하며, 시가총액 대비 현금 직접 환원 규모가 압도적입니다.\n실시간 체결가 및 수급 (최적의 선취매 바닥 구간):\n전일 종가 $1.6000 대비 현재가 $1.6000 (+0.00%), 당일 최고가 $1.6100 (고점 대비 -0.6%), 당일 누적 거래대금 $0 USD.\n헌법 제1조 명문화 규정: \"거래량/상승률이 아직 0에 가까운 바닥 구간이어도 절대 감점·차단 사유가 아니며 오히려 최적의 선취매 타점임!\" 원칙에 완벽히 부합합니다.\n당일 SEC 공시 현황: 2026-11-16 [6-K] 정식 접수 완료 (EX-99.1 현금배당 공시 원문 결합).\n2. 당일 공식 PR 및 SEC 6-K 원문 직독 정밀 검증: 1급 배당 기폭제 충족\n당일(11/16 08:30 ET) 공식 PR 및 SEC 6-K 원문 분석:\nPR 제목: *\"JE Cleantech Holdings Limited Announces Declaration of Cash Dividend\"*\n본문 핵심: *\"Board of Directors approved a cash dividend of US$0.20 per ordinary share, to be funded out of the Company's share premium account. The dividend is payable to shareholders of record at the close of business on November 30, 2026... payment date is expected to be on or around December 11, 2026.\"*\n원문 직독 결과 드러난 1급 호재 실체:\n심사 헌법 제2조 ①항 명문화 요건(특별/현금배당) 정석 부합:\n연구소 심사 헌법 제2조: *\"시총($50.0M 이하) 대비 압도적인 확정 달러 수주/계약+현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주매입/소각, 특별배당이면 FORCE_BUY!\"*.\n앞서 차단된 FGC(우선주 8% 정기 배당)와 달리, JCSE는 **보통주 주주(per ordinary share)에게 전액 지급되는 순수 현금 배당(Cash Dividend)**입니다.\n회사의 주식발행초과금(share premium account) 계정에서 인출하여 주당 $0.20(현재가 대비 12.5% 수익률)를 직접 지급하는 구조적 주주환원 기폭제입니다.\n과거 180일 재탕 대조 무결점 (완전 신규 공시):\n과거 180일 이력(10/20 H1 실적 흑자전환 발표, 10/16 주총 소집 통지) 대조 시, 현금 배당 결의는 이번에 최초로 발표된 신규 호재입니다.\n분기 루틴 배당이 아니라 상반기 흑자전환 달성 후 잉여 자본을 환원하는 성격입니다.\n희석 폭탄 부재 (무희석 클린 상태):\n최근 35일 SEC 제출 이력상 활성 ATM(424B5), 신규 EFFECT 효력발생, 신주 투하가 전혀 없는 깨끗한 품절주 상태입니다.\n오늘 장전 배당 대장주 라인업 형성:\n오늘 07:04 ET에 승인된 **HIHO (주당 $0.43228 보통주 특별현금배당)**에 이어, JCSE (주당 $0.20 보통주 현금배당, 배당수익률 12.5%) 역시 헌법 제2조의 배당 호재 요건을 충족합니다.\n3. 최종 심사 및 결재 판정\nJCSE는 실질 시총 $8.97M의 초소형 품절주 체급에서 주당 $0.20(수익률 12.5%)에 달하는 보통주 현금배당을 이사회에서 공식 승인하고 당일 SEC 6-K를 동시 접수하여 연구소 심사 헌법 제2조 ①항(배당 기폭제) 및 제1조(바닥 구간 선취매) 조건을 정석 충족하였으므로 **FORCE_BUY: JCSE**로 승인합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: JCSE FORCE_BLOCK: NONE NOTES:\n[JCSE] 보통주 주당 $0.20(수익률 12.5%) 현금배당 이사회 승인 및 당일 6-K 제출로 헌법 2조(배당 기폭제) 충족 매수 승인 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 HIHO (특별현금배당 대장주), **PXLW (총 $10M 자사주 매입 승인주)**에 이어 **JCSE (보통주 현금배당 승인주)**까지 3종목으로 압축되었으며, 본장 개장 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🚀 즉시 선점매수 승인!"
+    },
     {
       "id": "v_1794835184740_SNSC_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,49 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AIM (AIM ImmunoTech Inc.) 정밀 직독 결재 보고입니다 [cite: 14].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.77M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 13].\n실시간 시세 및 수급: 전일 종가 $0.1640 대비 현재가 $0.1696 (+3.41% 보합), 당일 최고가 $0.1749 (고점 대비 -3.0% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:15 ET) SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 14].\n원문 팩트: \"Item 7.01 Regulation FD Disclosure. Furnished herewith as Exhibits 99.1 and 99.2, respectively, are a Corporate Presentation of AIM ImmunoTech Inc. titled 'The Ampligen Opportunity' and a press release issued by the Company on November 5, 2026...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시 및 첨부 PR은 당일 기업 가치를 수직 폭등시킬 확정적 1급 재료(FDA 승인/임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 14].\n단순 기업 설명회 자료(Corporate Presentation - \"The Ampligen Opportunity\") 및 IR 발표용 보도자료 제출에 불과하며, 이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액이 미기재된 단순 IR 기업 설명회/주주서한/홍보 발표' 범주에 정확히 속합니다 [cite: 14].\n주가 반응 역시 전일 대비 +3.41% 보합권에 갇혀 있고, 개장 전 세력 매집 수급($0 USD) 유입 모멘텀도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 IR 기업 설명회 자료(Corporate Presentation) 제출에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AIM 처리합니다 [cite: 14].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 14].\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: AIM NOTES:\n[AIM] Item 7.01 단순 기업 설명회(Corporate Presentation) 자료 제출은 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793888116676_CISS_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "09:15:16",
-      "time_kst": "23:15:16",
-      "symbol": "CISS",
-      "company_name": "CISS",
-      "exchange": "ND",
-      "price": 0.4769,
-      "gain_pct": -1.99,
-      "mcap_m": 0.71,
-      "decision": "FALSE",
-      "elapsed_sec": 23.7,
-      "reason": "D-Day 미발효 미래 주식병합 예고(11/09 발효 예정) 발표는 1급 확정 기폭제 미달 및 전일 대비 -1.99% 약세로 전량 차단",
-      "catalyst_hint": "[당일 PR] C3is Inc. Announces Reverse Stock Split",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CISS (C3is Inc.) 정밀 직독 결재 보고입니다 [cite: 1, 9].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.71M USD (파이썬 1차 시가총액 $50.0M 이하 초소형 품절주 관문 통과) [cite: 9].\n실시간 시세 및 수급: 전일 종가 $0.4866 대비 현재가 $0.4769 (-1.99% 약보합), 당일 최고가 $0.4914 (고점 대비 -3.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 치명적 결함 (미발효 미래 예정 병합)\n당일(11/05 09:00 ET) PR 원문 분석:\nPR 제목: \"C3is Inc. Announces Reverse Stock Split\"\n원문 팩트: 나스닥 상장 유지 최소 입찰가 요건 충족을 위해 주식병합(Reverse Stock Split)을 실시하며, 효력 발생일은 **2026년 11월 9일 (To be effective November 9, 2026)**입니다.\n치명적 기폭제 결함:\n[D-Day 미발효 미래 예정 병합]: 오늘(11/05) 당일 실제 주식병합 효력이 발생하는 D-Day 1일차가 아니며, 4일 뒤(11/09) 발효될 예정인 단독 주식병합 예고 보도자료에 불과합니다 [cite: 10].\n성공 표본인 PARA (+426.5% 폭등)의 경우 당일 실제 정관 변경 및 주식병합 효력이 발효되어 유통물량이 극단적으로 줄어든 D-Day 1일차였던 반면, CISS처럼 당일 효력이 없는 단순 미래 주식병합 예고는 숏스퀴즈 모멘텀을 형성하지 못합니다 [cite: 10].\n이는 전략 헌장 4번 규칙 및 오답 교본(\"무호재 단순 주식병합 예고 및 D-Day 미발효 미래 병합 발표는 100% FORCE_BLOCK\")에 정확히 저해됩니다 [cite: 10].\n현재 시세 역시 전일 대비 -1.99% 음봉 약세를 기록하고 있으며, 개장 전 수급 유입($0 USD)도 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 효력이 발생하지 않은 단순 미래 주식병합 예고(11월 9일 발효 예정)에 불과하여 전략 헌장 2번·4번 원칙에 의거 FORCE_BLOCK: CISS 처리합니다 [cite: 10].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: CISS NOTES:\n[CISS] D-Day 미발효 미래 주식병합 예고(11/09 발효 예정) 발표는 1급 확정 기폭제 미달 및 전일 대비 -1.99% 약세로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:33:04",
+      "time_kst": "22:33:04",
+      "symbol": "PRE",
+      "company_name": "PRE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $279.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:32:54",
+      "time_kst": "22:32:54",
+      "symbol": "GMM",
+      "company_name": "GMM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:32:45",
+      "time_kst": "22:32:45",
+      "symbol": "ZTG",
+      "company_name": "ZTG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:32:37",
+      "time_kst": "22:32:37",
+      "symbol": "WTW",
+      "company_name": "WTW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $31440.19M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:32:00",
@@ -2906,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $12577.05M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:06:42",
-      "time_kst": "22:06:42",
-      "symbol": "VTIX",
-      "company_name": "VTIX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "구속력 없는 단순 LOI/MOU(Non-binding) 설익은 PR 차단 (Virtuix Reports Second Quarter Fiscal 2027 Results, Inc)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:06:32",
-      "time_kst": "22:06:32",
-      "symbol": "NATR",
-      "company_name": "NATR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $179.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:06:19",
-      "time_kst": "22:06:19",
-      "symbol": "JSPR",
-      "company_name": "JSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $455.2M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:06:12",
-      "time_kst": "22:06:12",
-      "symbol": "IAM",
-      "company_name": "IAM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $606.73M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
