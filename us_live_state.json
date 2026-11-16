@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:15:28",
-  "updated_at_et": "2026-11-16 07:15:28",
-  "updated_epoch_ms": 1794831328143,
+  "updated_at_kst": "2026-11-16 21:16:14",
+  "updated_at_et": "2026-11-16 07:16:14",
+  "updated_epoch_ms": 1794831374806,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0397,
-    "profit_rate": -4.61,
-    "updated_kst": "21:15:24"
+    "current_price": 1.0302,
+    "profit_rate": -5.49,
+    "updated_kst": "21:16:03"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:16:08",
+      "time_kst": "21:16:08",
+      "symbol": "MPLT",
+      "company_name": "MPLT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $412.37M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:15:59",
+      "time_kst": "21:15:59",
+      "symbol": "NGEN",
+      "company_name": "NGEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $202.32M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:15:38",
+      "time_kst": "21:15:38",
+      "symbol": "POCI",
+      "company_name": "POCI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.35M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:15:30",
+      "time_kst": "21:15:30",
+      "symbol": "AMCI",
+      "company_name": "AMCI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:11:22",
       "time_kst": "21:11:22",
       "symbol": "TTRX",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $90.27M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:00:21",
-      "time_kst": "21:00:21",
-      "symbol": "AKAM",
-      "company_name": "AKAM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $12290.47M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:00:16",
-      "time_kst": "21:00:16",
-      "symbol": "FANG",
-      "company_name": "FANG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50864.41M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:00:12",
-      "time_kst": "21:00:12",
-      "symbol": "MDLN",
-      "company_name": "MDLN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $32510.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:47:38",
-      "time_kst": "20:47:38",
-      "symbol": "NWE",
-      "company_name": "NWE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5223.96M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
