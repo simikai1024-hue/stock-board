@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:04:23",
-  "updated_at_et": "2026-11-16 07:04:23",
-  "updated_epoch_ms": 1794830663667,
+  "updated_at_kst": "2026-11-16 21:04:44",
+  "updated_at_et": "2026-11-16 07:04:44",
+  "updated_epoch_ms": 1794830684356,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "HIHO",
+    "company_name": "HIHO",
+    "exchange": "ND",
+    "price": 1.0285,
+    "gain_pct": 31.02,
+    "mcap_m": 4.76,
+    "catalyst_hint": "[당일 PR] HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:04:40",
+    "started_at_kst": "21:04:40",
+    "started_epoch_ms": 1794830680499
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:04:05"
+    "updated_kst": "21:04:27"
   },
   "stats": {
     "today_total": 11,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:04:43",
+      "time_kst": "21:04:43",
+      "symbol": "NERV",
+      "company_name": "NERV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $114.62M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "07:04:34",
+      "time_kst": "21:04:34",
+      "symbol": "BRKR",
+      "company_name": "BRKR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9406.15M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:04:20",
       "time_kst": "21:04:20",
       "symbol": "VNET",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.01,3.01,3.02))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:15:32",
-      "time_kst": "20:15:32",
-      "symbol": "KALA",
-      "company_name": "KALA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $80.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "06:15:25",
-      "time_kst": "20:15:25",
-      "symbol": "ACRS",
-      "company_name": "ACRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $507.56M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
