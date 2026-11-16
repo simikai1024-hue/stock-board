@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:06:22",
-  "updated_at_et": "2026-11-16 08:06:22",
-  "updated_epoch_ms": 1794834382294,
+  "updated_at_kst": "2026-11-16 22:06:57",
+  "updated_at_et": "2026-11-16 08:06:57",
+  "updated_epoch_ms": 1794834417313,
   "analyzing": {
-    "active": true,
-    "symbol": "FGC",
-    "company_name": "FGC",
-    "exchange": "ND",
-    "price": 5.97,
-    "gain_pct": 0.0,
-    "mcap_m": 27.31,
-    "catalyst_hint": "[당일 PR] FG Communities Holdings Inc. Declares Cash Dividend on Its 8.00% Cumulative Preferred Stock, Series A",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:06:18",
-    "started_at_kst": "22:06:18",
-    "started_epoch_ms": 1794834378330
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.13,
-    "profit_rate": 3.67,
-    "updated_kst": "22:06:18"
+    "current_price": 1.19,
+    "profit_rate": 9.17,
+    "updated_kst": "22:06:56"
   },
   "stats": {
-    "today_total": 28,
-    "today_nblm_count": 28,
+    "today_total": 29,
+    "today_nblm_count": 29,
     "today_buy": 3,
-    "today_false": 25,
+    "today_false": 26,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 36.1
+    "avg_nblm_sec": 36.0
   },
   "verdicts": [
+    {
+      "id": "v_1794834409470_FGC_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:06:49",
+      "time_kst": "22:06:49",
+      "symbol": "FGC",
+      "company_name": "FGC",
+      "exchange": "ND",
+      "price": 5.97,
+      "gain_pct": 0.0,
+      "mcap_m": 27.31,
+      "decision": "FALSE",
+      "elapsed_sec": 34.6,
+      "reason": "보통주 특별배당이 아닌 단순 시리즈 A 8% 누적 우선주(FGCPP) 정기 분기 배당 공지로 1급 확정 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] FG Communities Holdings Inc. Declares Cash Dividend on Its 8.00% Cumulative Preferred Stock, Series A",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 FGC (FG Communities Holdings Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $27.31M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (배당 착시 적발):\n당일 PR 내 보통주 대상 신규 확정 계약이나 백만 달러($M) 단위 특별 현금 배당 금액 일절 미감지.\n오늘 앞서 승인된 **HIHO (시총 대비 42%, 주가 대비 +55%의 파격적 보통주 특별현금배당)**와 달리, FGC는 보통주(FGC) 주주를 위한 특별배당이 전혀 아닙니다.\n실시간 체결가 및 수급:\n전일 종가 $5.9700 대비 현재가 $5.9700 (+0.00%).\n당일 최고가 $6.1800 (고점 대비 -3.4%), 당일 누적 거래대금 $0 USD (프리마켓 거래량 전무한 바닥 구간).\n선발표 규정 확인: 배당 결의 후 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"FG Communities Holdings Inc. Declares Cash Dividend on Its 8.00% Cumulative Preferred Stock, Series A\"\n원문 직독 결과 드러난 치명적 실체:\n보통주 호재가 아닌 우선주(Series A Preferred Stock) 정기 고정 배당 (Routine Preferred Dividend PR):\n본 PR의 본질은 제목과 본문에서 명시하듯 보통주(FGC) 대상의 특별 현금 배당이 아니라, 기발행된 '시리즈 A 8.00% 누적 우선주(FGCPP)'에 대한 계약상 의무 지급 정기 분기 현금 배당(quarterly cash dividend on its 8.00% Cumulative Preferred Stock) 공지입니다.\n부동산/지주회사가 우선주 발행 시 약정된 연 8% 배당금을 정기 지급하는 통상적 재무 일정일 뿐이며, 보통주 주주에게 귀속되는 신규 현금 유입이나 기업가치 폭등 기폭제가 전혀 아닙니다. 오히려 우선주 배당 지급은 보통주 입장에서 현금 유출 요인입니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 보통주 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 보통주 기폭제가 없는 우선주 통상 정기 배당/분기 루틴 공시는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 보통주 특별배당이 아닌 단순 '시리즈 A 우선주(FGCPP)' 대상 8% 정기 분기 배당 공지에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: FGC 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: FGC NOTES:\n[FGC] 보통주 특별배당이 아닌 단순 시리즈 A 8% 누적 우선주(FGCPP) 정기 분기 배당 공지로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 보통주 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794834363825_CETX_FALSE",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,39 @@
       "full_report": "",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793886011000_NUWE_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:40:11",
-      "time_kst": "22:40:11",
-      "symbol": "NUWE",
-      "company_name": "Nuwellis, Inc.",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 2.14,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([NUWE] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:06:54",
+      "time_kst": "22:06:54",
+      "symbol": "CSGP",
+      "company_name": "CSGP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $12577.05M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:06:42",
+      "time_kst": "22:06:42",
+      "symbol": "VTIX",
+      "company_name": "VTIX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "구속력 없는 단순 LOI/MOU(Non-binding) 설익은 PR 차단 (Virtuix Reports Second Quarter Fiscal 2027 Results, Inc)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:06:32",
+      "time_kst": "22:06:32",
+      "symbol": "NATR",
+      "company_name": "NATR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $179.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:06:19",
@@ -2916,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $278743.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:31:21",
-      "time_kst": "21:31:21",
-      "symbol": "WING",
-      "company_name": "WING",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4155.09M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:30:03",
-      "time_kst": "21:30:03",
-      "symbol": "DAIC",
-      "company_name": "DAIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-16 [8-K] (Item 1.02,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:27:22",
-      "time_kst": "21:27:22",
-      "symbol": "PCSA",
-      "company_name": "PCSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
     }
   ]
 }
