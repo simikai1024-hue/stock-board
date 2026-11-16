@@ -1642,7 +1642,7 @@
       const netP = Number(pos.cur_net_pct || 0);
       const pCls = netP >= 0 ? "up-txt" : "dn-txt";
       mainEl.innerHTML = `[${escHtml(pos.theme_name)}] <strong>${escHtml(pos.name)}</strong> (${escHtml(pos.code)}) · 진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} <span class="${pCls}">(${netP >= 0 ? "+" : ""}${netP.toFixed(2)}%)</span>`;
-      subEl.textContent = `세력VWAP ${fmtWon(pos.vwap_price)} · 🛡️ 손절방패 ${fmtWon(pos.stop_loss_px)}(-3.0%) · ⏰ 14:50 자동청산 대기`;
+      subEl.textContent = `세력VWAP ${fmtWon(pos.vwap_price)} · 장중최고 +${Number(pos.max_raw_pct || 0).toFixed(1)}% · 🛡️ 손절 ${fmtWon(pos.stop_loss_px)}(-3%) · ⏰ 14:50 청산`;
       rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(pos.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else if (tStatus === "ARMED" && armed && armed.code) {
       boxEl.className = "lab-live-box armed";
@@ -1658,7 +1658,7 @@
       const np = Number(closed.net_pnl_pct || 0);
       const cls = np >= 0 ? "up-txt" : "dn-txt";
       mainEl.innerHTML = `[${escHtml(closed.theme_name)}] <strong>${escHtml(closed.name)}</strong> (${escHtml(closed.code)}) · ${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) <span class="${cls}">(${np >= 0 ? "+" : ""}${np.toFixed(2)}%)</span>`;
-      subEl.textContent = `청산 사유: ${closed.exit_reason || "14:50 마감"} (왕복 세금·수수료 0.23% 차감 완료)`;
+      subEl.textContent = `장중최고 +${Number(closed.max_raw_pct || 0).toFixed(1)}% 도달 · 청산: ${closed.exit_reason || "14:50 마감"} (세금·수수료 0.23% 차감)`;
       rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(closed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else {
       boxEl.className = "lab-live-box";
@@ -1690,6 +1690,7 @@
                 ${h.theme_name ? `<span style="font-size:12px; color:#0369A1;">[${escHtml(h.theme_name)}]</span>` : ``}
               </div>
               <div>
+                <span style="font-size:12px; color:#0369A1; font-weight:800;">최고 +${Number(h.max_raw_pct || 0).toFixed(1)}%</span> ·
                 <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
                 <span class="${cls}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>
                 <span style="font-size:12px; color:var(--text-muted);">(${escHtml(h.exit_reason || '')})</span>
