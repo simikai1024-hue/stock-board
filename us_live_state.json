@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:21:06",
-  "updated_at_et": "2026-11-16 09:21:06",
-  "updated_epoch_ms": 1794838866901,
+  "updated_at_kst": "2026-11-16 23:21:46",
+  "updated_at_et": "2026-11-16 09:21:46",
+  "updated_epoch_ms": 1794838906936,
   "analyzing": {
-    "active": true,
-    "symbol": "QCLS",
-    "company_name": "QCLS",
-    "exchange": "ND",
-    "price": 0.305,
-    "gain_pct": 2.16,
-    "mcap_m": 2.5,
-    "catalyst_hint": "[당일 PR] Q/C Technologies Reports Over $10 Million in Cash and Investments to Fund Development of Its Optical Processing Unit",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:21:04",
-    "started_at_kst": "23:21:04",
-    "started_epoch_ms": 1794838864148
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,13 +19,13 @@
     "avg_price": 1.09,
     "current_price": 1.06,
     "profit_rate": -2.75,
-    "updated_kst": "23:21:01"
+    "updated_kst": "23:21:42"
   },
   "stats": {
-    "today_total": 55,
-    "today_nblm_count": 55,
+    "today_total": 56,
+    "today_nblm_count": 56,
     "today_buy": 5,
-    "today_false": 50,
+    "today_false": 51,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
@@ -45,6 +33,26 @@
     "avg_nblm_sec": 41.8
   },
   "verdicts": [
+    {
+      "id": "v_1794838903033_QCLS_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:21:43",
+      "time_kst": "23:21:43",
+      "symbol": "QCLS",
+      "company_name": "QCLS",
+      "exchange": "ND",
+      "price": 0.305,
+      "gain_pct": 2.16,
+      "mcap_m": 2.5,
+      "decision": "FALSE",
+      "elapsed_sec": 42.8,
+      "reason": "신규 확정 수주가 아닌 단순 보유 현금($10M 착시) 나열 및 OPU 개발 계획 PR로 1급 기폭제 미달 및 장전 음봉 하락(-1.64%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Q/C Technologies Reports Over $10 Million in Cash and Investments to Fund Development of Its Optical Processing Unit",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 QCLS (Q/C Technologies Inc.) 09:20 ET 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.5M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 400.0% 적발):\n본문 핵심 금액으로 감지된 약 $10.00M USD(시총 대비 400.0%)는 외부 고객사로부터 새롭게 유입되는 확정 수주나 대형 계약금이 아닙니다.\n회사의 기존 현금 및 단기 투자자산 잔고를 알리는 단순 보유 현금 및 투자자산 현황(Reports Over $10 Million in Cash and Investments to Fund Development...) 수치에 불과합니다.\n실시간 체결가 및 수급 (장전 피뢰침 음봉 덤핑 지속):\n전일 종가 $0.3101 대비 현재가 $0.3050 (-1.64%).\n당일 최고가 $0.3579 찍은 후 장전 고점 대비 -14.8% 급락하며 마이너스 파란불로 꺾인 전형적인 설거지 차트.\n당일 누적 거래대금 $37,737 USD.\n당일 SEC 공시 현황: 2026-11-16 [10-Q] 정기 분기보고서 제출.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:15 ET) 공식 PR 원문 분석:\nPR 제목: \"Q/C Technologies Reports Over $10 Million in Cash and Investments to Fund Development of Its Optical Processing Unit\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주가 아닌 단순 보유 현금($10M) 나열 및 개발 계획 홍보 (Cash & Product Development PR):\n본 PR의 본질은 회사가 자체 광학 프로세싱 유닛(OPU) 개발을 위해 1천만 달러 이상의 현금 및 투자를 보유하고 있으며, 초기 기기 설계를 연말 전에 공개할 예정이라는 단순 R&D 계획 및 보유 현금 현황 발표 보도자료입니다.\n외부 대기업이나 기관으로부터 확정된 구매 수주액, 최소 보장 구매 수량(MOQ), 거액 현금 선급금(deposit, AIMD형) 등 실체적 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n족보집 심사 원칙상 \"단순 주주서한·기업현황·보유현금 나열은 100% FORCE_BLOCK\" 규정에 완벽히 해당합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 미 국립연구소 협력(10/01)에 이은 자금 유입 없는 마케팅 언론 플레이:\n과거 이력 대조 결과 회사는 10월 1일에도 샌디아 국립연구소와의 연구 협력을 발표했으나 구체적 매출 계약이 아니었으며, 이번에도 10-Q 정기보고서 제출 일정에 맞춰 보유 현금과 OPU 로드맵을 단순 재홍보한 것에 불과합니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 보유현금 나열/제품 개발 계획/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.3579까지 반짝 튀었다가 즉각 고점 대비 -14.8% 급락하여 -1.64% 마이너스 파란불로 전락한 전형적인 윗꼬리 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 10-Q는 신규 수주 계약이 아닌 단순 보유 현금($10M) 나열 및 OPU 개발 계획 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -14.8% 밀려 -1.64% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: QCLS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: QCLS NOTES:\n[QCLS] 신규 확정 수주가 아닌 단순 보유 현금($10M 착시) 나열 및 OPU 개발 계획 PR로 1급 기폭제 미달 및 장전 음봉 하락(-1.64%) 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794838852123_DARE_FALSE",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "약 $3.26M 달러 규모 워런트 행사 유도(Warrant Inducement) 신주 희석 공시 및 전일 대비 -16.03% 음봉 폭락으로 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-06 [6-K]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ELPW (Elong Power Holding Limited) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.03M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.3100 대비 현재가 $1.1000 (-16.03% 폭락), 당일 최고가 $1.2800 (고점 대비 -14.1% 밀림)\n. 당일 누적 거래대금 $1,078,115 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 치명적 결함\n당일(11/06) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] 접수.\n원문 팩트: 첨부 EX-99.1 원문은 *\"Elong Power Holding Limited Enters into Approximately $3.26 Million Warrant Inducement...\"*\n치명적 기폭제 결함 & 워런트 신주 덤핑 악재:\n오늘 접수된 6-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존 기관 투자자들을 대상으로 기존 워런트의 즉시 행사를 유도하는 약 $3.26M 달러 규모 워런트 행사 유도 계약(Warrant Inducement Agreement) 공시입니다\n. 3.이는 워런트행사를 통해 신주 물량이 즉시 정규장에 출회되는 전형적인 주식 희석(Dilution) 및 유증 설거지 물량 출회 악재로, 연구소 전략 헌장 원문 심사 기준 1번(\"당일 6-K/8-K 실제 신주/워런트 물량 출회가 열려 있으면 FORCE_BLOCK\")에 완벽히 저해됩니다.\n[음봉 폭락 설거지 차트]: 전일 대형 수주 PR로 주가를 띄운 후 오늘 워런트 신주 물량을 덤핑하며 전일 대비 -16.03% 음봉 폭락을 기록 중이므로, 전략 헌장 기준 3번(\"설거지 차트 및 급락 차트는 100% FORCE_BLOCK\")에 의거 즉시 차단 대상입니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 워런트 신주 행사 유도(Warrant Inducement)를 통한 주식 희석 악재이고, 전일 대비 -16.03% 음봉 폭락 설거지 차트를 형성하여 전략 헌장 1번·3번 원칙에 의거 FORCE_BLOCK: ELPW 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: ELPW NOTES:\n[ELPW] 약 $3.26M 달러 규모 워런트 행사 유도(Warrant Inducement) 신주 희석 공시 및 전일 대비 -16.03% 음봉 폭락으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793979091080_SCKT_FALSE",
-      "date_et": "2026-11-06",
-      "weekday_kr": "금",
-      "time_et": "10:31:31",
-      "time_kst": "00:31:31",
-      "symbol": "SCKT",
-      "company_name": "SOCKET MOBILE, INC.",
-      "exchange": "ND",
-      "price": 0.2915,
-      "gain_pct": 5.96,
-      "mcap_m": 2.42,
-      "decision": "FALSE",
-      "elapsed_sec": 42.4,
-      "reason": "정기 분기 실적 녹취록(Q3 Earnings Call Transcript) 공시는 1급 확정 기폭제 미달 및 나스닥 자진 상장철회(Item 3.01) 악재로 전량 차단",
-      "catalyst_hint": "[당일 PR] Socket Mobile (SCKT) Q3 2026 Earnings Call Transcript",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 SCKT (Socket Mobile, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.42M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.2751 대비 현재가 $0.2915 (+5.96% 보합), 당일 최고가 $0.3090 (고점 대비 -5.7% 밀림)\n. 당일 누적 거래대금 $8,467 USD.\n2. D-Day PR & 사전 SEC 원문 직독 정밀 검증 & 치명적 결함\n당일(11/06 10:16 ET) PR 및 사전 SEC 공시 원문 분석:\nPR 제목: *\"Socket Mobile (SCKT) Q3 2026 Earnings Call Transcript\"*\n원문 팩트: 2026년 3분기 정기 실적 발표(11/04 8-K Item 2.02)에 따른 실적 컨퍼런스 콜 녹취록(Earnings Call Transcript) 보도자료.\n치명적 기폭제 결함 & 상폐 악재 유입:\n오늘 제출된 재료는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아니라, 단순 **정기 분기 실적 발표 및 녹취록(Q3 Earnings Call Transcript)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '금액 미기재 단순 정기실적(10-Q/Item 2.02/Earnings Call Transcript) 및 주주서한/IR 발표' 범주에 정확히 속합니다.\n[나스닥 자진 철회/상폐 악재]: 사전 35일 공시(10/27 8-K Item 3.01)에서 나스닥 자진 상장철회 및 이탈(Voluntary Withdrawal from Nasdaq) 결정을 이미 공식 공시하여, 기관 및 세력 자금 유입이 불가능한 구조적 리스크가 존재합니다.\n주가 반응 역시 +5.96% 보합권에 갇혀 있고, 당일 거래대금($8,467 USD)도 극히 미미하여 세력 매집 모멘텀이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 정기 실적 녹취록(Earnings Call Transcript) 발표에 불과하고, 나스닥 자진 상장철회(Item 3.01) 악재가 결합되어 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: SCKT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: SCKT NOTES:\n[SCKT] 정기 분기 실적 녹취록(Q3 Earnings Call Transcript) 공시는 1급 확정 기폭제 미달 및 나스닥 자진 상장철회(Item 3.01) 악재로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
