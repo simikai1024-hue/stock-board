@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:47:07",
-  "updated_at_et": "2026-11-16 07:47:07",
-  "updated_epoch_ms": 1794833227922,
+  "updated_at_kst": "2026-11-16 21:47:15",
+  "updated_at_et": "2026-11-16 07:47:15",
+  "updated_epoch_ms": 1794833235479,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "YFOR",
+    "company_name": "YFOR",
+    "exchange": "ND",
+    "price": 0.0411,
+    "gain_pct": 3.27,
+    "mcap_m": 0.53,
+    "catalyst_hint": "[당일 PR] YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:47:11",
+    "started_at_kst": "21:47:11",
+    "started_epoch_ms": 1794833231446
   },
   "halt_watch": {
     "active": false
