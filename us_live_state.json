@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 05:02:57",
-  "updated_at_et": "2026-11-16 15:02:57",
-  "updated_epoch_ms": 1794859377958,
+  "updated_at_kst": "2026-11-17 05:03:49",
+  "updated_at_et": "2026-11-16 15:03:49",
+  "updated_epoch_ms": 1794859429321,
   "analyzing": {
     "active": false
   },
@@ -13,13 +13,13 @@
     "session_label": "정규장실전",
     "watchlist_count": 2,
     "orderable_usd": 1056.46,
-    "daily_done": false,
+    "daily_done": true,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
-    "current_price": 1.2701,
-    "profit_rate": 16.52,
-    "updated_kst": "05:02:50"
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "05:03:42"
   },
   "stats": {
     "today_total": 65,
