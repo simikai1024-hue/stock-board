@@ -1,25 +1,37 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:29:41",
-  "updated_at_et": "2026-11-16 09:29:41",
-  "updated_epoch_ms": 1794839381655,
+  "updated_at_kst": "2026-11-16 23:30:33",
+  "updated_at_et": "2026-11-16 09:30:33",
+  "updated_epoch_ms": 1794839433037,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CWD",
+    "company_name": "CWD",
+    "exchange": "ND",
+    "price": 0.3726,
+    "gain_pct": -0.99,
+    "mcap_m": 3.87,
+    "catalyst_hint": "[당일 PR] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:30:25",
+    "started_at_kst": "23:30:25",
+    "started_epoch_ms": 1794839425940
   },
   "halt_watch": {
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 2,
     "orderable_usd": 915.65,
     "daily_done": false,
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.09,
-    "profit_rate": 0.0,
-    "updated_kst": "23:29:37"
+    "current_price": 1.07,
+    "profit_rate": -1.83,
+    "updated_kst": "23:30:18"
   },
   "stats": {
     "today_total": 59,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:29:59",
+      "time_kst": "23:29:59",
+      "symbol": "IGIC",
+      "company_name": "IGIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1034.49M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:29:49",
+      "time_kst": "23:29:49",
+      "symbol": "AAPG",
+      "company_name": "AAPG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1306.11M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:29:39",
       "time_kst": "23:29:39",
       "symbol": "RPID",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $249.06M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:38:29",
-      "time_kst": "22:38:29",
-      "symbol": "JMSB",
-      "company_name": "JMSB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $327.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:38:22",
-      "time_kst": "22:38:22",
-      "symbol": "ACOG",
-      "company_name": "ACOG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $128.91M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
