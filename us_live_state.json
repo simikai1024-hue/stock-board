@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:46:14",
-  "updated_at_et": "2026-11-16 11:46:14",
-  "updated_epoch_ms": 1794847574032,
+  "updated_at_kst": "2026-11-17 01:47:09",
+  "updated_at_et": "2026-11-16 11:47:09",
+  "updated_epoch_ms": 1794847629465,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CVRX",
+    "company_name": "CVRX",
+    "exchange": "ND",
+    "price": 0.5663,
+    "gain_pct": -6.77,
+    "mcap_m": 16.13,
+    "catalyst_hint": "[당일 PR] CVRX INVESTOR ALERT: Securities Class Action Filed, Hagens Berman Urges CVRx, Inc. Investors with Substantial Losses to Contact Firm Ahead of January 8, 2027 Lead Plaintiff",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:47:02",
+    "started_at_kst": "01:47:02",
+    "started_epoch_ms": 1794847622225
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1599,
-    "profit_rate": 6.41,
-    "updated_kst": "01:46:10"
+    "current_price": 1.1588,
+    "profit_rate": 6.31,
+    "updated_kst": "01:47:09"
   },
   "stats": {
     "today_total": 64,
