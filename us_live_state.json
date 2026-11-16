@@ -1,50 +1,58 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 22:33:36",
-  "updated_at_et": "2026-11-16 08:33:36",
-  "updated_epoch_ms": 1794836016457,
+  "updated_at_kst": "2026-11-16 22:34:18",
+  "updated_at_et": "2026-11-16 08:34:18",
+  "updated_epoch_ms": 1794836058169,
   "analyzing": {
-    "active": true,
-    "symbol": "NAMM",
-    "company_name": "NAMM",
-    "exchange": "ND",
-    "price": 0.7006,
-    "gain_pct": -3.6,
-    "mcap_m": 39.13,
-    "catalyst_hint": "[당일 PR] Namib Minerals Reports Strong Initial Operating Leverage From Expanded How Mine Mill",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:33:33",
-    "started_at_kst": "22:33:33",
-    "started_epoch_ms": 1794836013434
+    "active": false
   },
   "halt_watch": {
     "active": false
   },
   "account": {
     "session_label": "프리장실전",
-    "watchlist_count": 1,
+    "watchlist_count": 2,
     "orderable_usd": 915.65,
     "daily_done": false,
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0712,
-    "profit_rate": -1.72,
-    "updated_kst": "22:33:13"
+    "current_price": 1.05,
+    "profit_rate": -3.67,
+    "updated_kst": "22:34:16"
   },
   "stats": {
-    "today_total": 39,
-    "today_nblm_count": 39,
+    "today_total": 40,
+    "today_nblm_count": 40,
     "today_buy": 5,
-    "today_false": 34,
+    "today_false": 35,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 16,
     "total_false": 134,
-    "avg_nblm_sec": 38.2
+    "avg_nblm_sec": 38.5
   },
   "verdicts": [
+    {
+      "id": "v_1794836054286_NAMM_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "08:34:14",
+      "time_kst": "22:34:14",
+      "symbol": "NAMM",
+      "company_name": "NAMM",
+      "exchange": "ND",
+      "price": 0.7006,
+      "gain_pct": -3.6,
+      "mcap_m": 39.13,
+      "decision": "FALSE",
+      "elapsed_sec": 48.4,
+      "reason": "확정 계약 금액 없는 단순 기존 How Mine 제련 설비 초기 가동 경과 보고(기발표 언급 재탕) 및 장전 음봉 하락(-3.60%)으로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Namib Minerals Reports Strong Initial Operating Leverage From Expanded How Mine Mill",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 NAMM (Namib Minerals) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.13M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 달러 금액 미기재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 수주/공급 계약/판매 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 음봉 덤핑 흐름):\n전일 종가 $0.7268 대비 현재가 $0.7006 (-3.60%).\n당일 최고가 $0.8120 찍은 후 장전 고점 대비 -13.7% 급락하며 마이너스 파란불 궤적.\n당일 누적 거래대금 $11,053 USD.\n선발표 규정 확인: 운영 업데이트 관련 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Namib Minerals Reports Strong Initial Operating Leverage From Expanded How Mine Mill\"\n원문 직독 결과 드러난 치명적 실체:\n확정 계약/매출 유입이 없는 단순 기존 설비 가동 업데이트 (Operational Update PR):\n본 PR의 본질은 회사가 짐바브웨에 위치한 하우 광산(How Mine)에서 최근 시운전 및 설치를 완료했다고 과거에 이미 발표했던 분쇄 공장 확장 설비(Expanded Mill)의 초기 운영 레버리지 및 가동 성과를 업데이트(provided an update on the performance of the recently commissioned expanded milling plant)했다는 단순 사내 운영 경과 보고 보도자료입니다.\n원문 첫 문단에 *\"As previously announced, the Company installed and com...\"*라고 명시적으로 적혀 있듯, 과거 이미 발표된 설비 증설 사실을 바탕으로 초기 운영 상황을 전하는 전형적인 기존 가동성 뉴스입니다.\n확정 달러 수주 및 1급 금융 기폭제 절대 결여 (심사 헌법 제3조 ①항 위배):\n심사 헌법 제3조 ①항: \"기발표 대형 프레임워크 계약/설비의 단순가동/연장 등 시총 대비 비중도 작은 쪼개기 재탕 및 금액 미기재 단순 홍보는 100% FORCE_BLOCK\" 규칙에 직결됩니다.\n외부 글로벌 대기업이나 기관으로부터 확정된 거액 현금 수주 계약(AIMD형), 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 소멸(ONFO형) 등 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n장전 고점 대비 -13.7% 피뢰침 덤핑 차트:\n실체적 확정 현금 계약이 없는 단순 운영 업데이트임이 확인되자마자 장전 최고가 $0.8120에서 -13.7% 급락하여 -3.60% 음봉으로 꺾인 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 없는 단순 기존 설비 가동 경과 보고(기발표 언급 재탕)에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -13.7% 밀리며 -3.60% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: NAMM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: NAMM NOTES:\n[NAMM] 확정 계약 금액 없는 단순 기존 How Mine 제련 설비 초기 가동 경과 보고(기발표 언급 재탕) 및 장전 음봉 하락(-3.60%)으로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228 확정, 수익률 +55%), PXLW (총 $10M 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794835993770_JCSE_BUY",
       "date_et": "2026-11-16",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 KAPA (Kairos Pharma, Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.69M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과)\n실시간 시세 및 수급: 전일 종가 $0.4897 대비 현재가 $0.5000 (+2.10% 보합), 당일 최고가 $0.5000 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05) SEC 8-K (Item 8.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-05 [8-K] (Item 8.01, 9.01) 접수\n원문 팩트: \"On November 5, 2026, Kairos Pharma, Ltd. issued a press release announcing that the Company has been named a winner of the 2026 Biotech Breakthrough Awards in the category of Cancer Immunology Solution of the Year for its work with ENV-105 (carotuximab)...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 암 면역 치료 파이프라인(ENV-105)이 '2026 바이오텍 브레이크스루 어워드'를 수상(Winner)했다는 단순 어워드/상 수상 홍보성 발표에 불과합니다.\n이는 FDA 신약 최종 승인이나 Pivotal 임상 성공, 구체적 현금 유입 계약이 아니며, 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 $ 계약 금액 미기재 단순 수상/상장/특허/주주서한/홍보' 범주에 정확히 속하므로 당일 주가를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인/임상 성공, 구체적 $ 수주/계약/매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)에 절대 미달합니다.\n주가 반응 역시 전일 대비 +2.10% 보합권에 갇혀 있어 개장 전 세력 매집 수급($0 USD) 유입 모멘텀도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 어워드 수상(Biotech Breakthrough Awards Winner) 발표에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: KAPA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: KAPA NOTES:\n[KAPA] 단순 어워드 수상(2026 Biotech Breakthrough Awards) 발표는 1급 확정 기폭제 미달 및 장전 보합(+2.10%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793888200952_AIM_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "09:16:40",
-      "time_kst": "23:16:40",
-      "symbol": "AIM",
-      "company_name": "AIM",
-      "exchange": "AM",
-      "price": 0.1696,
-      "gain_pct": 3.41,
-      "mcap_m": 6.77,
-      "decision": "FALSE",
-      "elapsed_sec": 44.9,
-      "reason": "Item 7.01 단순 기업 설명회(Corporate Presentation) 자료 제출은 1급 확정 기폭제 미달로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-05 [8-K] (Item 7.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AIM (AIM ImmunoTech Inc.) 정밀 직독 결재 보고입니다 [cite: 14].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.77M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과) [cite: 13].\n실시간 시세 및 수급: 전일 종가 $0.1640 대비 현재가 $0.1696 (+3.41% 보합), 당일 최고가 $0.1749 (고점 대비 -3.0% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 7.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/05 09:15 ET) SEC 8-K (Item 7.01, 9.01) 원문 분석:\n공시 현황: 2026-11-05 [8-K] (Item 7.01, 9.01) 접수 [cite: 14].\n원문 팩트: \"Item 7.01 Regulation FD Disclosure. Furnished herewith as Exhibits 99.1 and 99.2, respectively, are a Corporate Presentation of AIM ImmunoTech Inc. titled 'The Ampligen Opportunity' and a press release issued by the Company on November 5, 2026...\"\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시 및 첨부 PR은 당일 기업 가치를 수직 폭등시킬 확정적 1급 재료(FDA 승인/임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등)가 절대 아닙니다 [cite: 14].\n단순 기업 설명회 자료(Corporate Presentation - \"The Ampligen Opportunity\") 및 IR 발표용 보도자료 제출에 불과하며, 이는 전략 헌장 2번·3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액이 미기재된 단순 IR 기업 설명회/주주서한/홍보 발표' 범주에 정확히 속합니다 [cite: 14].\n주가 반응 역시 전일 대비 +3.41% 보합권에 갇혀 있고, 개장 전 세력 매집 수급($0 USD) 유입 모멘텀도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 IR 기업 설명회 자료(Corporate Presentation) 제출에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AIM 처리합니다 [cite: 14].\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 14].\n===VERDICT_START=== DATE: 2026-11-05 FORCE_BUY: NONE FORCE_BLOCK: AIM NOTES:\n[AIM] Item 7.01 단순 기업 설명회(Corporate Presentation) 자료 제출은 1급 확정 기폭제 미달로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-16",
+      "time_et": "08:33:38",
+      "time_kst": "22:33:38",
+      "symbol": "BULL",
+      "company_name": "BULL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2719.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-16",
       "time_et": "08:33:04",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $144.49M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:06:54",
-      "time_kst": "22:06:54",
-      "symbol": "CSGP",
-      "company_name": "CSGP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $12577.05M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
