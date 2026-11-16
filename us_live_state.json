@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:14:51",
-  "updated_at_et": "2026-11-16 06:14:51",
-  "updated_epoch_ms": 1794827691196,
+  "updated_at_kst": "2026-11-16 20:15:38",
+  "updated_at_et": "2026-11-16 06:15:38",
+  "updated_epoch_ms": 1794827738778,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.81,
-    "profit_rate": -2.82,
-    "updated_kst": "20:14:45"
+    "current_price": 4.8,
+    "profit_rate": -3.03,
+    "updated_kst": "20:15:23"
   },
   "stats": {
     "today_total": 4,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:15:32",
+      "time_kst": "20:15:32",
+      "symbol": "KALA",
+      "company_name": "KALA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $80.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "06:15:25",
+      "time_kst": "20:15:25",
+      "symbol": "ACRS",
+      "company_name": "ACRS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $507.56M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "06:15:17",
+      "time_kst": "20:15:17",
+      "symbol": "RZLT",
+      "company_name": "RZLT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $372.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "06:15:07",
+      "time_kst": "20:15:07",
+      "symbol": "SMMT",
+      "company_name": "SMMT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9142.22M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:14:25",
       "time_kst": "20:14:25",
       "symbol": "OMAB",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $60.51M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:18:22",
-      "time_kst": "18:18:22",
-      "symbol": "IQST",
-      "company_name": "IQST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:58",
-      "time_kst": "18:17:58",
-      "symbol": "JAGX",
-      "company_name": "JAGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:53",
-      "time_kst": "18:17:53",
-      "symbol": "DFNS",
-      "company_name": "DFNS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:17:40",
-      "time_kst": "18:17:40",
-      "symbol": "FFAI",
-      "company_name": "FFAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
     }
   ]
 }
