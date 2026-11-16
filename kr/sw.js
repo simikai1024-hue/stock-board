@@ -1,5 +1,5 @@
 // 달의검 독립 전광판 PWA Service Worker (실시간 JSON 무캐시 직통)
-const CACHE_NAME = 'moon-sword-sub-pwa-v2';
+const CACHE_NAME = 'stock-board-skyblue-v7';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
