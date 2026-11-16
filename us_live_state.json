@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:17:11",
-  "updated_at_et": "2026-11-16 09:17:11",
-  "updated_epoch_ms": 1794838631460,
+  "updated_at_kst": "2026-11-16 23:17:25",
+  "updated_at_et": "2026-11-16 09:17:25",
+  "updated_epoch_ms": 1794838645398,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FABC",
+    "company_name": "FABC",
+    "exchange": "ND",
+    "price": 1.55,
+    "gain_pct": -3.73,
+    "mcap_m": 10.86,
+    "catalyst_hint": "[당일 PR] Fabric.AI Provides Corporate Update, Reports Over $20 Million in Cash",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:17:18",
+    "started_at_kst": "23:17:18",
+    "started_epoch_ms": 1794838638361
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.06,
-    "profit_rate": -2.75,
-    "updated_kst": "23:17:04"
+    "current_price": 1.07,
+    "profit_rate": -1.83,
+    "updated_kst": "23:17:24"
   },
   "stats": {
     "today_total": 51,
