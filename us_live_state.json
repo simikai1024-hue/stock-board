@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:37:14",
-  "updated_at_et": "2026-11-16 06:37:14",
-  "updated_epoch_ms": 1794829034735,
+  "updated_at_kst": "2026-11-16 20:38:10",
+  "updated_at_et": "2026-11-16 06:38:10",
+  "updated_epoch_ms": 1794829090424,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 4.999,
-    "profit_rate": 0.99,
-    "updated_kst": "20:37:08"
+    "current_price": 4.9653,
+    "profit_rate": 0.31,
+    "updated_kst": "20:38:06"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:37:28",
+      "time_kst": "20:37:28",
+      "symbol": "AQST",
+      "company_name": "AQST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $526.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:33:42",
       "time_kst": "20:33:42",
       "symbol": "HZN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:19:58",
-      "time_kst": "18:19:58",
-      "symbol": "ASPS",
-      "company_name": "ASPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $70.43M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
