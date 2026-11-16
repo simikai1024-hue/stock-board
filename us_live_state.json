@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:22:12",
-  "updated_at_et": "2026-11-16 09:22:12",
-  "updated_epoch_ms": 1794838932815,
+  "updated_at_kst": "2026-11-16 23:23:05",
+  "updated_at_et": "2026-11-16 09:23:05",
+  "updated_epoch_ms": 1794838985421,
   "analyzing": {
-    "active": true,
-    "symbol": "DTST",
-    "company_name": "DTST",
-    "exchange": "ND",
-    "price": 2.7659,
-    "gain_pct": -2.61,
-    "mcap_m": 6.47,
-    "catalyst_hint": "[당일 PR] Data Storage Corporation Provides Third Quarter 2026 Business Update",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:22:06",
-    "started_at_kst": "23:22:06",
-    "started_epoch_ms": 1794838926936
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0499,
-    "profit_rate": -3.68,
-    "updated_kst": "23:22:03"
+    "current_price": 1.04,
+    "profit_rate": -4.59,
+    "updated_kst": "23:23:03"
   },
   "stats": {
-    "today_total": 56,
-    "today_nblm_count": 56,
+    "today_total": 57,
+    "today_nblm_count": 57,
     "today_buy": 5,
-    "today_false": 51,
+    "today_false": 52,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 41.8
+    "avg_nblm_sec": 42.2
   },
   "verdicts": [
+    {
+      "id": "v_1794838977685_DTST_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "09:22:57",
+      "time_kst": "23:22:57",
+      "symbol": "DTST",
+      "company_name": "DTST",
+      "exchange": "ND",
+      "price": 2.7659,
+      "gain_pct": -2.61,
+      "mcap_m": 6.47,
+      "decision": "FALSE",
+      "elapsed_sec": 62.7,
+      "reason": "신규 확정 수주가 아닌 단순 Q3 정기 실적 및 비즈니스 업데이트(재무제표 수치 $29.3M 착시) PR로 1급 기폭제 미달 및 장전 음봉 하락(-2.61%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Data Storage Corporation Provides Third Quarter 2026 Business Update",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DTST (Data Storage Corporation) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.47M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 452.9% 적발):\n본문 핵심 금액으로 감지된 약 $29.30M USD(시총 대비 452.9%)는 외부 고객사로부터 새롭게 유입되는 확정 수주나 신규 계약금이 아닙니다.\n회사의 3분기 누적 매출액, 총자산 또는 대차대조표상 지표 등 정기 분기 실적 보고서(10-Q/Earnings)에 포함된 단순 내부 재무 수치에 불과합니다.\n원문 부제에 적힌 실질 보유 현금 및 유가증권 역시 $9.5M 수준의 기존 잔고 현황일 뿐입니다.\n실시간 체결가 및 수급 (장전 음봉 덤핑 흐름):\n전일 종가 $2.8400 대비 현재가 $2.7659 (-2.61%).\n당일 최고가 $3.0600 찍은 후 장전 고점 대비 -9.6% 급락하며 마이너스 파란불로 하락 전환.\n당일 누적 거래대금 $809 USD (1천 달러 미만의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:20 ET) 공식 PR 원문 분석:\nPR 제목: \"Data Storage Corporation Provides Third Quarter 2026 Business Update\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주가 아닌 통상적인 3분기 정기 실적 및 사업 현황 업데이트 (Routine Q3 Business Update PR):\n본 PR의 본질은 회사가 2026년 9월 30일로 마감된 3분기 정기 재무 실적을 보고하고, 규제 산업을 위한 AI 연속성 플랫폼 개발 현황 및 보유 현금($9.5M, 무차입 경영)을 알리는 **단순 정기 실적 보도자료(today reported financial results for the third quarter ended September 30, 2026...)**입니다.\n외부 대기업이나 기관으로부터 확정된 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n족보집 심사 원칙상 \"단순 주주서한·기업현황(Business Update)·컨퍼런스콜 일정은 100% FORCE_BLOCK\" 규정에 직결됩니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n11월 5일 실적 발표 컨퍼런스콜 예고에 이은 예정된 일정 소진 (통상 분기 루틴):\n과거 이력 대조 결과, 회사는 이미 2026년 11월 5일에 \"Data Storage Corporation Schedules Third Quarter 2026 Business Update Call\" 보도자료를 통해 오늘 11:00 AM ET 컨퍼런스콜 및 실적 발표를 공식 예고한 바 있습니다.\n11월 13일 로이터 실적 프리뷰를 거쳐 예정된 일정에 맞춰 배포된 통상적인 정기 IR 뉴스입니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/기업 현황 업데이트/보유현금 나열은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $3.0600까지 반짝 튀었다가 즉각 고점 대비 -9.6% 밀리며 -2.61% 마이너스 파란불 음봉으로 전락한 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 3분기 정기 실적(재무제표 수치 $29.3M 착시) 및 비즈니스 업데이트 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -9.6% 밀려 -2.61% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: DTST 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: DTST NOTES:\n[DTST] 신규 확정 수주가 아닌 단순 Q3 정기 실적 및 비즈니스 업데이트(재무제표 수치 $29.3M 착시) PR로 1급 기폭제 미달 및 장전 음봉 하락(-2.61%) 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794838903033_QCLS_FALSE",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "암백신(EVX-01) 임상 2상 중간 데이터(Phase 2 data) 발표는 1급 확정 기폭제 미달 및 보합권(+3.96%)으로 전량 차단",
       "catalyst_hint": "[당일 PR] New phase 2 data highlight the strength of the immune response induced by personalized cancer vaccine EVX-01",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EVAX (Evaxion Biotech A/S) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.1M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $2.7800 대비 현재가 $2.8900 (+3.96% 보합), 당일 최고가 $3.2100 (고점 대비 -10.0% 밀림). 당일 누적 거래대금 $237,637 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/06 11:00 ET) PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] 접수.\nPR 제목: \"New phase 2 data highlight the strength of the immune response induced by personalized cancer vaccine EVX-01\"\n원문 팩트: 맞춤형 암 백신 후보물질(EVX-01)의 임상 2상 면역 반응(Immune Response) 신규 면역학적 데이터(Phase 2 Data) 발표 보도자료 및 SEC 6-K 공시.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인이나 파이프라인 매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아니라, 단순 **맞춤형 암백신(EVX-01) 임상 2상 중간 면역 데이터 발표(Phase 2 Data)**에 불과합니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 임상 2상/중간 데이터/특허/IR 발표' 범주에 정확히 속하므로 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 +3.96% 보합권에 갇혀 있고 고점 대비 -10.0% 밀림이 발생하여 세력 매집 모멘텀 및 지속적 수급 유입이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 임상 2상 면역 데이터 발표(Phase 2 Data)에 불과하고 보합권(+3.96%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: EVAX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: EVAX NOTES:\n[EVAX] 암백신(EVX-01) 임상 2상 중간 데이터(Phase 2 data) 발표는 1급 확정 기폭제 미달 및 보합권(+3.96%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793980946740_ELPW_FALSE",
-      "date_et": "2026-11-06",
-      "weekday_kr": "금",
-      "time_et": "11:02:26",
-      "time_kst": "01:02:26",
-      "symbol": "ELPW",
-      "company_name": "ELPW",
-      "exchange": "ND",
-      "price": 1.1,
-      "gain_pct": -16.03,
-      "mcap_m": 1.03,
-      "decision": "FALSE",
-      "elapsed_sec": 42.4,
-      "reason": "약 $3.26M 달러 규모 워런트 행사 유도(Warrant Inducement) 신주 희석 공시 및 전일 대비 -16.03% 음봉 폭락으로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-06 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ELPW (Elong Power Holding Limited) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.03M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.3100 대비 현재가 $1.1000 (-16.03% 폭락), 당일 최고가 $1.2800 (고점 대비 -14.1% 밀림)\n. 당일 누적 거래대금 $1,078,115 USD.\n2. D-Day SEC 6-K (EX-99.1) 원문 직독 정밀 검증 & 치명적 결함\n당일(11/06) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-06 [6-K] 접수.\n원문 팩트: 첨부 EX-99.1 원문은 *\"Elong Power Holding Limited Enters into Approximately $3.26 Million Warrant Inducement...\"*\n치명적 기폭제 결함 & 워런트 신주 덤핑 악재:\n오늘 접수된 6-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존 기관 투자자들을 대상으로 기존 워런트의 즉시 행사를 유도하는 약 $3.26M 달러 규모 워런트 행사 유도 계약(Warrant Inducement Agreement) 공시입니다\n. 3.이는 워런트행사를 통해 신주 물량이 즉시 정규장에 출회되는 전형적인 주식 희석(Dilution) 및 유증 설거지 물량 출회 악재로, 연구소 전략 헌장 원문 심사 기준 1번(\"당일 6-K/8-K 실제 신주/워런트 물량 출회가 열려 있으면 FORCE_BLOCK\")에 완벽히 저해됩니다.\n[음봉 폭락 설거지 차트]: 전일 대형 수주 PR로 주가를 띄운 후 오늘 워런트 신주 물량을 덤핑하며 전일 대비 -16.03% 음봉 폭락을 기록 중이므로, 전략 헌장 기준 3번(\"설거지 차트 및 급락 차트는 100% FORCE_BLOCK\")에 의거 즉시 차단 대상입니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 워런트 신주 행사 유도(Warrant Inducement)를 통한 주식 희석 악재이고, 전일 대비 -16.03% 음봉 폭락 설거지 차트를 형성하여 전략 헌장 1번·3번 원칙에 의거 FORCE_BLOCK: ELPW 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-06 FORCE_BUY: NONE FORCE_BLOCK: ELPW NOTES:\n[ELPW] 약 $3.26M 달러 규모 워런트 행사 유도(Warrant Inducement) 신주 희석 공시 및 전일 대비 -16.03% 음봉 폭락으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
