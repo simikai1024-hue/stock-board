@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 00:01:33",
-  "updated_at_et": "2026-11-16 10:01:33",
-  "updated_epoch_ms": 1794841293800,
+  "updated_at_kst": "2026-11-17 00:03:41",
+  "updated_at_et": "2026-11-16 10:03:41",
+  "updated_epoch_ms": 1794841421137,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0399,
-    "profit_rate": -4.6,
-    "updated_kst": "00:01:31"
+    "current_price": 1.0688,
+    "profit_rate": -1.94,
+    "updated_kst": "00:03:26"
   },
   "stats": {
     "today_total": 62,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "10:03:36",
+      "time_kst": "00:03:36",
+      "symbol": "JKHY",
+      "company_name": "JKHY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $12502.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "10:02:42",
+      "time_kst": "00:02:42",
+      "symbol": "QDEL",
+      "company_name": "QDEL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $733.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "10:01:58",
+      "time_kst": "00:01:58",
+      "symbol": "PASW",
+      "company_name": "PASW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "10:01:30",
       "time_kst": "00:01:30",
       "symbol": "MWYN",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:07:59",
-      "time_kst": "23:07:59",
-      "symbol": "WEN",
-      "company_name": "WEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1584.31M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:07:53",
-      "time_kst": "23:07:53",
-      "symbol": "VELO",
-      "company_name": "VELO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $129.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:07:47",
-      "time_kst": "23:07:47",
-      "symbol": "COO",
-      "company_name": "COO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $11979.76M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
