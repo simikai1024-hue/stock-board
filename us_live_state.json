@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:43:20",
-  "updated_at_et": "2026-11-16 07:43:20",
-  "updated_epoch_ms": 1794833000401,
+  "updated_at_kst": "2026-11-16 21:43:36",
+  "updated_at_et": "2026-11-16 07:43:36",
+  "updated_epoch_ms": 1794833016913,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "REKR",
+    "company_name": "REKR",
+    "exchange": "ND",
+    "price": 0.2492,
+    "gain_pct": -2.16,
+    "mcap_m": 34.32,
+    "catalyst_hint": "[당일 PR] Rekor Commits to Mandatory Privacy Protections, Offering Communities a New Path to Adopt or Restore ALPR",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:43:32",
+    "started_at_kst": "21:43:32",
+    "started_epoch_ms": 1794833012491
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1013,
-    "profit_rate": 1.04,
-    "updated_kst": "21:43:13"
+    "current_price": 1.1,
+    "profit_rate": 0.92,
+    "updated_kst": "21:43:33"
   },
   "stats": {
     "today_total": 21,
