@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:34:00",
-  "updated_at_et": "2026-11-16 07:34:00",
-  "updated_epoch_ms": 1794832440647,
+  "updated_at_kst": "2026-11-16 21:34:20",
+  "updated_at_et": "2026-11-16 07:34:20",
+  "updated_epoch_ms": 1794832460001,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SPRC",
+    "company_name": "SPRC",
+    "exchange": "ND",
+    "price": 0.38,
+    "gain_pct": 7.62,
+    "mcap_m": 0.78,
+    "catalyst_hint": "[당일 PR] SciSparc: Former National Security Advisor to Prime Minister Benjamin Netanyahu Renowned AI Prof. Jacob Nagel Joins the Company’s SAB",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:34:17",
+    "started_at_kst": "21:34:17",
+    "started_epoch_ms": 1794832457772
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.0199,
-    "profit_rate": -6.43,
-    "updated_kst": "21:33:46"
+    "current_price": 1.0098,
+    "profit_rate": -7.36,
+    "updated_kst": "21:34:13"
   },
   "stats": {
     "today_total": 16,
