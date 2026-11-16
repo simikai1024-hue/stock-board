@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-17 01:48:52",
-  "updated_at_et": "2026-11-16 11:48:52",
-  "updated_epoch_ms": 1794847732761,
+  "updated_at_kst": "2026-11-17 01:49:34",
+  "updated_at_et": "2026-11-16 11:49:34",
+  "updated_epoch_ms": 1794847774805,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.14,
-    "profit_rate": 4.59,
-    "updated_kst": "01:48:45"
+    "current_price": 1.145,
+    "profit_rate": 5.05,
+    "updated_kst": "01:49:23"
   },
   "stats": {
     "today_total": 65,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "11:49:30",
+      "time_kst": "01:49:30",
+      "symbol": "SORA",
+      "company_name": "SORA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.92M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "11:42:01",
       "time_kst": "01:42:01",
       "symbol": "PUSA",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $53.24M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:36:36",
-      "time_kst": "23:36:36",
-      "symbol": "PEP",
-      "company_name": "PEP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $200643.02M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
