@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:49:47",
-  "updated_at_et": "2026-11-16 06:49:47",
-  "updated_epoch_ms": 1794829787236,
+  "updated_at_kst": "2026-11-16 21:00:04",
+  "updated_at_et": "2026-11-16 07:00:04",
+  "updated_epoch_ms": 1794830404722,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 0,
-    "orderable_usd": 937.45,
+    "orderable_usd": 915.65,
     "daily_done": false,
-    "holding_symbol": "CLRO",
-    "holding_qty": 182,
-    "avg_price": 4.9498,
-    "current_price": 4.86,
-    "profit_rate": -1.81,
-    "updated_kst": "20:49:43"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "20:59:59"
   },
   "stats": {
     "today_total": 9,
