@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:33:24",
-  "updated_at_et": "2026-11-16 06:33:24",
-  "updated_epoch_ms": 1794828804754,
+  "updated_at_kst": "2026-11-16 20:34:01",
+  "updated_at_et": "2026-11-16 06:34:01",
+  "updated_epoch_ms": 1794828841551,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AMST",
+    "company_name": "AMST",
+    "exchange": "ND",
+    "price": 0.5369,
+    "gain_pct": 11.88,
+    "mcap_m": 3.52,
+    "catalyst_hint": "[당일 PR] Amesite Signs New 2,000-Patient NurseMagic® Enterprise Customer, Extending Growth Among Large Healthcare Organizations",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:33:54",
+    "started_at_kst": "20:33:54",
+    "started_epoch_ms": 1794828834733
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 182,
     "avg_price": 4.9498,
-    "current_price": 5.01,
-    "profit_rate": 1.22,
-    "updated_kst": "20:33:20"
+    "current_price": 4.97,
+    "profit_rate": 0.41,
+    "updated_kst": "20:33:58"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "06:33:42",
+      "time_kst": "20:33:42",
+      "symbol": "HZN",
+      "company_name": "HZN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (NYSE 본장 종목 제외 (나스닥·아멕스 전용 정책 — 거래소=NYQ))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "06:32:56",
       "time_kst": "20:32:56",
       "symbol": "TOYO",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $70.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "04:19:42",
-      "time_kst": "18:19:42",
-      "symbol": "MDRN",
-      "company_name": "MDRN",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
