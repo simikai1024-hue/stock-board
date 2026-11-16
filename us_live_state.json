@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:43:36",
-  "updated_at_et": "2026-11-16 07:43:36",
-  "updated_epoch_ms": 1794833016913,
+  "updated_at_kst": "2026-11-16 21:44:08",
+  "updated_at_et": "2026-11-16 07:44:08",
+  "updated_epoch_ms": 1794833048191,
   "analyzing": {
-    "active": true,
-    "symbol": "REKR",
-    "company_name": "REKR",
-    "exchange": "ND",
-    "price": 0.2492,
-    "gain_pct": -2.16,
-    "mcap_m": 34.32,
-    "catalyst_hint": "[당일 PR] Rekor Commits to Mandatory Privacy Protections, Offering Communities a New Path to Adopt or Restore ALPR",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:43:32",
-    "started_at_kst": "21:43:32",
-    "started_epoch_ms": 1794833012491
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.1,
-    "profit_rate": 0.92,
-    "updated_kst": "21:43:33"
+    "current_price": 1.11,
+    "profit_rate": 1.83,
+    "updated_kst": "21:43:53"
   },
   "stats": {
-    "today_total": 21,
-    "today_nblm_count": 21,
+    "today_total": 22,
+    "today_nblm_count": 22,
     "today_buy": 3,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 32.6
+    "avg_nblm_sec": 32.8
   },
   "verdicts": [
+    {
+      "id": "v_1794833041526_REKR_FALSE",
+      "date_et": "2026-11-16",
+      "weekday_kr": "월",
+      "time_et": "07:44:01",
+      "time_kst": "21:44:01",
+      "symbol": "REKR",
+      "company_name": "REKR",
+      "exchange": "ND",
+      "price": 0.2492,
+      "gain_pct": -2.16,
+      "mcap_m": 34.32,
+      "decision": "FALSE",
+      "elapsed_sec": 36.1,
+      "reason": "확정 계약 금액 없는 단순 ALPR 프라이버시 의무 기준 채택 홍보 PR로 1급 기폭제 미달 및 장전 음봉 하락(-2.16%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Rekor Commits to Mandatory Privacy Protections, Offering Communities a New Path to Adopt or Restore ALPR",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 REKR (Rekor Systems, Inc.) 07:43 ET 수급 갱신 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $34.32M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (음봉 하락세 지속):\n전일 종가 $0.2547 대비 현재가 $0.2492 (-2.16%).\n당일 최고가 $0.2702 대비 -7.8% 밀리며 장전 마이너스 음봉 하락 궤적.\n당일 누적 거래대금 $9,948 USD (1만 달러 미만의 거래량 실종 바닥 구간).\n선발표 규정 확인: 사내 정책 의무 채택 등은 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Rekor Commits to Mandatory Privacy Protections, Offering Communities a New Path to Adopt or Restore ALPR\"\n원문 직독 결과 드러난 치명적 실체:\n확정 계약 금액 없는 단순 사내 보안/프라이버시 표준 채택 공지 (Policy Standard PR):\n이사회가 사법기관 대상 ALPR(자동 번호판 인식) 솔루션에 적용할 프라이버시 및 보안 표준을 의무 채택(formally adopted a mandatory privacy, security, and accountability standard)했다는 단순 기업 내부 정책/윤리 가이드라인 홍보 보도자료입니다.\n외부 기관이나 지자체로부터 신규 자금이 유입되는 대규모 B2G 공급 계약 수주액, 최소 보장 구매액, 거액 현금 선급금(deposit, AIMD형) 등 실체적 달러($) 수치가 제목과 본문 어디에도 전혀 없습니다.\n직전 3분기 실적 발표(11/12~11/13) 직후의 전형적인 방어적 IR 언론 플레이:\n며칠 전 3분기 실적 발표를 마친 후 공공 시장 규제 리스크 방어 및 기업 이미지 쇄신을 위해 배포된 통상적인 정책 홍보 보도자료에 불과합니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배 및 음봉 덤핑 흐름:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정책 채택/보안 기준 발표/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n프리마켓 거래량이 실종된 가운데 주가가 -2.16% 마이너스 파란불로 밀리는 전형적인 무수급 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 명시되지 않은 단순 사내 ALPR 프라이버시 보호 기준 의무 채택 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -2.16% 음봉으로 하향 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: REKR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: REKR NOTES:\n[REKR] 확정 계약 금액 없는 단순 ALPR 프라이버시 의무 기준 채택 홍보 PR로 1급 기폭제 미달 및 장전 음봉 하락(-2.16%) 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794832995913_ELAB_FALSE",
       "date_et": "2026-11-16",
@@ -2420,26 +2428,6 @@
       "decision": "FALSE",
       "elapsed_sec": 0.0,
       "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([NUR] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
-      "catalyst_hint": "",
-      "full_report": "",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1793884075790_ABTS_FALSE",
-      "date_et": "2026-11-05",
-      "weekday_kr": "목",
-      "time_et": "08:07:55",
-      "time_kst": "22:07:55",
-      "symbol": "ABTS",
-      "company_name": "Abits Group Inc",
-      "exchange": "ND",
-      "price": 0.0,
-      "gain_pct": 0.0,
-      "mcap_m": 1.25,
-      "decision": "FALSE",
-      "elapsed_sec": 0.0,
-      "reason": "시스템 안전핀: 심문 예외 2회 누적으로 대기열 병목 방지를 위해 자동 패스 ([ABTS] 실시간 긴급결재 원문서류철 구글 문서(1YMjlKEPCeSYZLEAbcxYWBHOdF9d3t3WEFIttK3VhoCg) 동기화 실패)",
       "catalyst_hint": "",
       "full_report": "",
       "engine": "NotebookLM 직통",
