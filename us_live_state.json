@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 20:03:09",
-  "updated_at_et": "2026-11-16 06:03:09",
-  "updated_epoch_ms": 1794826989956,
+  "updated_at_kst": "2026-11-16 20:03:17",
+  "updated_at_et": "2026-11-16 06:03:17",
+  "updated_epoch_ms": 1794826997240,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELWT",
+    "company_name": "ELWT",
+    "exchange": "ND",
+    "price": 2.8451,
+    "gain_pct": 0.0,
+    "mcap_m": 18.83,
+    "catalyst_hint": "[당일 PR] Elauwit Connection Q3 2026: The Recurring Revenue Engine Is Accelerating",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:03:13",
+    "started_at_kst": "20:03:13",
+    "started_epoch_ms": 1794826993960
   },
   "halt_watch": {
     "active": false
