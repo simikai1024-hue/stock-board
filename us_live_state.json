@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:28:34",
-  "updated_at_et": "2026-11-16 09:28:34",
-  "updated_epoch_ms": 1794839314680,
+  "updated_at_kst": "2026-11-16 23:29:41",
+  "updated_at_et": "2026-11-16 09:29:41",
+  "updated_epoch_ms": 1794839381655,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.04,
-    "profit_rate": -4.59,
-    "updated_kst": "23:28:16"
+    "current_price": 1.09,
+    "profit_rate": 0.0,
+    "updated_kst": "23:29:37"
   },
   "stats": {
     "today_total": 59,
@@ -2437,8 +2437,18 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
-      "time_et": "09:26:15",
-      "time_kst": "23:26:15",
+      "time_et": "09:29:39",
+      "time_kst": "23:29:39",
+      "symbol": "RPID",
+      "company_name": "RPID",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 급등(+82.8%) 후 고점($1.1900) 대비 -38.1% 윗꼬리 설거지 차단 (기준 <= -35%)"
+    },
+    {
+      "date_et": "2026-11-16",
+      "time_et": "09:28:44",
+      "time_kst": "23:28:44",
       "symbol": "RDI",
       "company_name": "RDI",
       "exchange": "ND",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $128.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "08:38:08",
-      "time_kst": "22:38:08",
-      "symbol": "NAGE",
-      "company_name": "NAGE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $163.94M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
