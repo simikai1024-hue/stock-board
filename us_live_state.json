@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 23:49:07",
-  "updated_at_et": "2026-11-16 09:49:07",
-  "updated_epoch_ms": 1794840547557,
+  "updated_at_kst": "2026-11-16 23:50:03",
+  "updated_at_et": "2026-11-16 09:50:03",
+  "updated_epoch_ms": 1794840603663,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 0.9969,
-    "profit_rate": -8.54,
-    "updated_kst": "23:49:03"
+    "current_price": 0.9801,
+    "profit_rate": -10.08,
+    "updated_kst": "23:50:02"
   },
   "stats": {
     "today_total": 61,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "09:49:56",
+      "time_kst": "23:49:56",
+      "symbol": "XPON",
+      "company_name": "XPON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "09:48:17",
       "time_kst": "23:48:17",
       "symbol": "CABR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $562.45M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:02:19",
-      "time_kst": "23:02:19",
-      "symbol": "VTRS",
-      "company_name": "VTRS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $24059.51M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
