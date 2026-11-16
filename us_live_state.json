@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-16",
-  "updated_at_kst": "2026-11-16 21:53:17",
-  "updated_at_et": "2026-11-16 07:53:17",
-  "updated_epoch_ms": 1794833597262,
+  "updated_at_kst": "2026-11-16 21:54:17",
+  "updated_at_et": "2026-11-16 07:54:17",
+  "updated_epoch_ms": 1794833657904,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "HIHO",
     "holding_qty": 808,
     "avg_price": 1.09,
-    "current_price": 1.09,
-    "profit_rate": 0.0,
-    "updated_kst": "21:53:12"
+    "current_price": 1.1199,
+    "profit_rate": 2.74,
+    "updated_kst": "21:54:11"
   },
   "stats": {
     "today_total": 25,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-16",
+      "time_et": "07:53:21",
+      "time_kst": "21:53:21",
+      "symbol": "TIGO",
+      "company_name": "TIGO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $13353.02M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-16",
       "time_et": "07:51:47",
       "time_kst": "21:51:47",
       "symbol": "VCTR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $430.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "07:03:56",
-      "time_kst": "21:03:56",
-      "symbol": "CRDF",
-      "company_name": "CRDF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $61.5M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
