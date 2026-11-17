@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:01:43",
-  "updated_at_et": "2026-11-17 07:01:43",
-  "updated_epoch_ms": 1794916903099,
+  "updated_at_kst": "2026-11-17 21:01:48",
+  "updated_at_et": "2026-11-17 07:01:48",
+  "updated_epoch_ms": 1794916908923,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SMTK",
+    "company_name": "SMTK",
+    "exchange": "ND",
+    "price": 0.2081,
+    "gain_pct": 26.97,
+    "mcap_m": 0.22,
+    "catalyst_hint": "[당일 PR] Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:01:44",
+    "started_at_kst": "21:01:44",
+    "started_epoch_ms": 1794916904237
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:01:22"
+    "updated_kst": "21:01:43"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:01:43",
+      "time_kst": "21:01:43",
+      "symbol": "SLS",
+      "company_name": "SLS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1522.83M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:01:39",
       "time_kst": "21:01:39",
       "symbol": "NTRB",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:30:54",
-      "time_kst": "18:30:54",
-      "symbol": "HTLM",
-      "company_name": "HTLM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $101.35M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
