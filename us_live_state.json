@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:33:43",
-  "updated_at_et": "2026-11-17 07:33:43",
-  "updated_epoch_ms": 1794918823181,
+  "updated_at_kst": "2026-11-17 21:34:00",
+  "updated_at_et": "2026-11-17 07:34:00",
+  "updated_epoch_ms": 1794918840264,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FRTT",
+    "company_name": "FRTT",
+    "exchange": "ND",
+    "price": 0.4,
+    "gain_pct": 18.68,
+    "mcap_m": 3.74,
+    "catalyst_hint": "[당일 PR] Fort Technology Reports Record Year-to-Date Revenues of $12 Million, Up 49%, and Record Year-to-Date Gross Profit of $2.1 Million",
+    "queue_remaining": 3,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:33:55",
+    "started_at_kst": "21:33:55",
+    "started_epoch_ms": 1794918835712
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:31"
+    "updated_kst": "21:33:50"
   },
   "stats": {
     "today_total": 10,
