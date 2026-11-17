@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 01:55:27",
-  "updated_at_et": "2026-11-17 11:55:27",
-  "updated_epoch_ms": 1794934527757,
+  "updated_at_kst": "2026-11-18 01:56:26",
+  "updated_at_et": "2026-11-17 11:56:26",
+  "updated_epoch_ms": 1794934586977,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:55:22"
+    "updated_kst": "01:56:26"
   },
   "stats": {
     "today_total": 56,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "11:56:24",
+      "time_kst": "01:56:24",
+      "symbol": "FCHL",
+      "company_name": "FCHL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "11:53:35",
       "time_kst": "01:53:35",
       "symbol": "VIAV",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $535.57M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:17:48",
-      "time_kst": "23:17:48",
-      "symbol": "KRUS",
-      "company_name": "KRUS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $301.17M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
