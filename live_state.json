@@ -1,8 +1,8 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18 03:58:07",
+  "updated_at": "2026-11-18 06:09:02",
   "isi_board": {
-    "updated_at": "2026-11-18 03:58:07",
+    "updated_at": "2026-11-18 06:09:02",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
     "theme_updated_at": "15:34:52",
@@ -251,53 +251,22 @@
     ],
     "intraday_lab": {
       "mode": "PAPER_ONLY",
-      "rule_summary": "09:25~13:30 1위 급등테마 1등 대장주(+9%↑) 세력본전(VWAP) 첫 눌림 진입 → -3.0% 손절방패 · 14:50 추세홀딩 청산 (세금·수수료 0.23% 차감)",
-      "today_date": "2026-11-17",
-      "today_status": "DONE",
+      "lab_version": "ZERO_OPEN_CLIMBER_V2",
+      "rule_summary": "시초 0% 이하(보합·음봉) 출발 → 09:45~13:00 3단 계단식 상승(VWAP 체류 88%+) 포착 → VWAP 이탈 트레일링 익절 · 14:55 마감",
+      "today_date": "2026-11-18",
+      "today_status": "IDLE",
       "armed_candidate": null,
       "active_pos": null,
-      "today_closed": {
-        "date": "2026-11-17",
-        "weekday": "화",
-        "code": "399720",
-        "name": "가온칩스",
-        "theme_name": "온디바이스 AI",
-        "entry_time": "09:51",
-        "exit_time": "11:24",
-        "entry_price": 41550,
-        "vwap_at_entry": 41280,
-        "exit_price": 40300,
-        "max_raw_pct": 0.24,
-        "net_pnl_pct": -3.24,
-        "exit_reason": "🛡️ -3.0% 손절방패",
-        "status": "LOSS"
-      },
+      "today_closed": null,
       "stats": {
-        "total_closed": 1,
+        "total_closed": 0,
         "win_count": 0,
-        "loss_count": 1,
+        "loss_count": 0,
         "win_rate_pct": 0.0,
-        "sum_return_pct": -3.24,
-        "comp_return_pct": -3.24
+        "sum_return_pct": 0,
+        "comp_return_pct": 0.0
       },
-      "history": [
-        {
-          "date": "2026-11-17",
-          "weekday": "화",
-          "code": "399720",
-          "name": "가온칩스",
-          "theme_name": "온디바이스 AI",
-          "entry_time": "09:51",
-          "exit_time": "11:24",
-          "entry_price": 41550,
-          "vwap_at_entry": 41280,
-          "exit_price": 40300,
-          "max_raw_pct": 0.24,
-          "net_pnl_pct": -3.24,
-          "exit_reason": "🛡️ -3.0% 손절방패",
-          "status": "LOSS"
-        }
-      ]
+      "history": []
     },
     "index_radar": {
       "today_date": "",
@@ -581,7 +550,7 @@
   },
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-18 03:58:07",
+    "updated_at": "2026-11-18 06:09:03",
     "stats": {
       "total_closed": 15,
       "win_count": 7,
@@ -993,7 +962,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-18 03:58:07",
+    "updated_at": "2026-11-18 06:09:03",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4924,7 +4893,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-18 03:58:07",
+    "updated_at": "2026-11-18 06:09:03",
     "deprecated": true,
     "stats": {},
     "days": []
