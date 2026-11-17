@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:31:58",
-  "updated_at_et": "2026-11-17 07:31:58",
-  "updated_epoch_ms": 1794918718618,
+  "updated_at_kst": "2026-11-17 21:32:42",
+  "updated_at_et": "2026-11-17 07:32:42",
+  "updated_epoch_ms": 1794918762106,
   "analyzing": {
     "active": true,
     "symbol": "DAVI",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:31:49"
+    "updated_kst": "21:32:31"
   },
   "stats": {
     "today_total": 8,
@@ -2449,6 +2449,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:32:37",
+      "time_kst": "21:32:37",
+      "symbol": "TCX",
+      "company_name": "TCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $128.48M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:32:25",
+      "time_kst": "21:32:25",
+      "symbol": "BBIO",
+      "company_name": "BBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $15069.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:32:03",
+      "time_kst": "21:32:03",
+      "symbol": "WW",
+      "company_name": "WW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $94.59M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:31:59",
+      "time_kst": "21:31:59",
+      "symbol": "NCNO",
+      "company_name": "NCNO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2408.67M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:26:41",
       "time_kst": "21:26:41",
       "symbol": "AIRE",
@@ -2906,46 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1369.33M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:32:03",
-      "time_kst": "20:32:03",
-      "symbol": "WLFC",
-      "company_name": "WLFC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1054.19M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:31:41",
-      "time_kst": "20:31:41",
-      "symbol": "BURU",
-      "company_name": "BURU",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:31:36",
-      "time_kst": "20:31:36",
-      "symbol": "BRNX",
-      "company_name": "BRNX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [424B5])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:25:37",
-      "time_kst": "20:25:37",
-      "symbol": "ESLT",
-      "company_name": "ESLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $31913.7M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
