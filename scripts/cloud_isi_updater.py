@@ -487,18 +487,26 @@ def main():
         json.dump(state, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    # EMQX 실시간 브로커에도 즉시 송출 (전광판 열어둔 브라우저 즉시 반응)
+    # EMQX 실시간 브로커에도 즉시 송출 (4초 타임아웃 가드)
     try:
+        import threading
         import paho.mqtt.publish as publish
-        publish.single(
-            TOPIC_ISI,
-            payload=json.dumps(isi_board, ensure_ascii=False),
-            qos=1,
-            retain=True,
-            hostname=BROKER_HOST,
-            port=BROKER_PORT,
-        )
-        print("[OK] EMQX 웹소켓 실시간 푸시 완료")
+        def _pub():
+            try:
+                publish.single(
+                    TOPIC_ISI,
+                    payload=json.dumps(isi_board, ensure_ascii=False),
+                    qos=1,
+                    retain=True,
+                    hostname=BROKER_HOST,
+                    port=BROKER_PORT,
+                )
+            except Exception:
+                pass
+        th = threading.Thread(target=_pub, daemon=True)
+        th.start()
+        th.join(timeout=4.0)
+        print("[OK] EMQX 웹소켓 실시간 푸시 시도 완료")
     except Exception as e:
         print(f"[WARN] EMQX 푸시 생략: {e}")
 
