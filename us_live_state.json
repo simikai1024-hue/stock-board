@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:19:37",
-  "updated_at_et": "2026-11-17 07:19:37",
-  "updated_epoch_ms": 1794917977898,
+  "updated_at_kst": "2026-11-17 21:20:41",
+  "updated_at_et": "2026-11-17 07:20:41",
+  "updated_epoch_ms": 1794918041444,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:19:33"
+    "updated_kst": "21:20:34"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:19:49",
+      "time_kst": "21:19:49",
+      "symbol": "NRXP",
+      "company_name": "NRXP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $93.84M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:15:30",
       "time_kst": "21:15:30",
       "symbol": "MYPS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $13059.95M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:19:08",
-      "time_kst": "20:19:08",
-      "symbol": "GPUS",
-      "company_name": "GPUS",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B5])"
     }
   ]
 }
