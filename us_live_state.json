@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:50:37",
-  "updated_at_et": "2026-11-17 08:50:37",
-  "updated_epoch_ms": 1794923437089,
+  "updated_at_kst": "2026-11-17 22:51:33",
+  "updated_at_et": "2026-11-17 08:51:33",
+  "updated_epoch_ms": 1794923493631,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:50:29"
+    "updated_kst": "22:51:29"
   },
   "stats": {
     "today_total": 41,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:51:31",
+      "time_kst": "22:51:31",
+      "symbol": "VTRS",
+      "company_name": "VTRS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $23777.37M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:46:46",
       "time_kst": "22:46:46",
       "symbol": "MDB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2816.51M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:05:20",
-      "time_kst": "22:05:20",
-      "symbol": "ATRO",
-      "company_name": "ATRO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2397.76M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
