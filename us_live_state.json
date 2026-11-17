@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:01:12",
-  "updated_at_et": "2026-11-17 10:01:12",
-  "updated_epoch_ms": 1794927672549,
+  "updated_at_kst": "2026-11-18 00:01:35",
+  "updated_at_et": "2026-11-17 10:01:35",
+  "updated_epoch_ms": 1794927695691,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SCWO",
+    "company_name": "SCWO",
+    "exchange": "ND",
+    "price": 2.16,
+    "gain_pct": 3.35,
+    "mcap_m": 38.07,
+    "catalyst_hint": "[당일 PR] 374Water reports 83% revenue growth as operating cash burn falls 59%",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "10:01:30",
+    "started_at_kst": "00:01:30",
+    "started_epoch_ms": 1794927690577
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:00:51"
+    "updated_kst": "00:01:34"
   },
   "stats": {
     "today_total": 54,
