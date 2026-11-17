@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:25:48",
-  "updated_at_et": "2026-11-17 09:25:48",
-  "updated_epoch_ms": 1794925548252,
+  "updated_at_kst": "2026-11-17 23:26:36",
+  "updated_at_et": "2026-11-17 09:26:36",
+  "updated_epoch_ms": 1794925596679,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:25:43"
+    "updated_kst": "23:26:24"
   },
   "stats": {
     "today_total": 50,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:26:28",
+      "time_kst": "23:26:28",
+      "symbol": "EDBL",
+      "company_name": "EDBL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:25:05",
       "time_kst": "23:25:05",
       "symbol": "MIST",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1097.73M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:37:02",
-      "time_kst": "22:37:02",
-      "symbol": "QTI",
-      "company_name": "QTI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 학회·컨퍼런스 참가/발표 예고 PR 차단 (QT Imaging to Participate in the 17th Annual Craig-Hallum )"
     }
   ]
 }
