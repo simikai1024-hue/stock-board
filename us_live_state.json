@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:01:55",
-  "updated_at_et": "2026-11-17 09:01:55",
-  "updated_epoch_ms": 1794924115915,
+  "updated_at_kst": "2026-11-17 23:02:36",
+  "updated_at_et": "2026-11-17 09:02:36",
+  "updated_epoch_ms": 1794924156259,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MTVA",
+    "company_name": "MTVA",
+    "exchange": "ND",
+    "price": 1.2813,
+    "gain_pct": 6.33,
+    "mcap_m": 8.44,
+    "catalyst_hint": "[당일 PR] MetaVia Announces Completion of Last Patient Visit in Extended 24-Week Phase 1 Part 3A Study of DA-1726",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:02:31",
+    "started_at_kst": "23:02:31",
+    "started_epoch_ms": 1794924151146
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:01:52"
+    "updated_kst": "23:02:34"
   },
   "stats": {
     "today_total": 42,
