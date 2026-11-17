@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:17:33",
-  "updated_at_et": "2026-11-17 04:17:33",
-  "updated_epoch_ms": 1794907053277,
+  "updated_at_kst": "2026-11-17 18:18:25",
+  "updated_at_et": "2026-11-17 04:18:25",
+  "updated_epoch_ms": 1794907105052,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:17:25"
+    "updated_kst": "18:18:04"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 27,
+    "today_hardcut": 30,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:18:20",
+      "time_kst": "18:18:20",
+      "symbol": "AZI",
+      "company_name": "AZI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:17:58",
+      "time_kst": "18:17:58",
+      "symbol": "APVO",
+      "company_name": "APVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:17:43",
+      "time_kst": "18:17:43",
+      "symbol": "VHUB",
+      "company_name": "VHUB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:17:05",
       "time_kst": "18:17:05",
       "symbol": "WNW",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $144.13M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:44:39",
-      "time_kst": "00:44:39",
-      "symbol": "AMSS",
-      "company_name": "AMSS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-26 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:35:16",
-      "time_kst": "00:35:16",
-      "symbol": "RUBI",
-      "company_name": "RUBI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-19 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:30:26",
-      "time_kst": "00:30:26",
-      "symbol": "PCLA",
-      "company_name": "PCLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $61.43M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
