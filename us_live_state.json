@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:54:49",
-  "updated_at_et": "2026-11-17 07:54:49",
-  "updated_epoch_ms": 1794920089282,
+  "updated_at_kst": "2026-11-17 21:55:02",
+  "updated_at_et": "2026-11-17 07:55:02",
+  "updated_epoch_ms": 1794920102331,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AIFF",
+    "company_name": "AIFF",
+    "exchange": "ND",
+    "price": 0.88,
+    "gain_pct": -0.6,
+    "mcap_m": 13.86,
+    "catalyst_hint": "[당일 PR] Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:54:58",
+    "started_at_kst": "21:54:58",
+    "started_epoch_ms": 1794920098464
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:54:35"
+    "updated_kst": "21:54:55"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:55:01",
+      "time_kst": "21:55:01",
+      "symbol": "SYPR",
+      "company_name": "SYPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Sypris Reports Third Quarter Results)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:54:44",
       "time_kst": "21:54:44",
       "symbol": "CHAI",
@@ -2444,16 +2466,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Core AI Reports Third Quarter 2026 Results, with Revenue G)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:51:20",
-      "time_kst": "21:51:20",
-      "symbol": "SYPR",
-      "company_name": "SYPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Sypris Reports Third Quarter Results)"
     },
     {
       "date_et": "2026-11-17",
