@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:55:02",
-  "updated_at_et": "2026-11-17 07:55:02",
-  "updated_epoch_ms": 1794920102331,
+  "updated_at_kst": "2026-11-17 21:55:48",
+  "updated_at_et": "2026-11-17 07:55:48",
+  "updated_epoch_ms": 1794920148664,
   "analyzing": {
-    "active": true,
-    "symbol": "AIFF",
-    "company_name": "AIFF",
-    "exchange": "ND",
-    "price": 0.88,
-    "gain_pct": -0.6,
-    "mcap_m": 13.86,
-    "catalyst_hint": "[당일 PR] Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:54:58",
-    "started_at_kst": "21:54:58",
-    "started_epoch_ms": 1794920098464
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:54:55"
+    "updated_kst": "21:55:35"
   },
   "stats": {
-    "today_total": 17,
-    "today_nblm_count": 17,
+    "today_total": 18,
+    "today_nblm_count": 18,
     "today_buy": 0,
-    "today_false": 17,
+    "today_false": 18,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.0
+    "avg_nblm_sec": 42.2
   },
   "verdicts": [
+    {
+      "id": "v_1794920141009_AIFF_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "07:55:41",
+      "time_kst": "21:55:41",
+      "symbol": "AIFF",
+      "company_name": "AIFF",
+      "exchange": "ND",
+      "price": 0.88,
+      "gain_pct": -0.6,
+      "mcap_m": 13.86,
+      "decision": "FALSE",
+      "elapsed_sec": 45.9,
+      "reason": "확정 수주/매출 전무한 단순 소아청소년 ADHD 뇌파 스캔 건수 증가(373% 착시) 마케팅 PR로 헌법 3조 4항 위배 및 장전 음봉 전환(-12.0% 덤핑) 전량 차단",
+      "catalyst_hint": "[당일 PR] Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 AIFF (Firefly Neuroscience, Inc.) 2026-11-17 07:54 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.86M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주/계약 금액 부재 재확인):\n본문 핵심 수치인 **\"373% YoY Increase (4.7-fold gain)\"**는 외부 대기업이나 기관으로부터 유입된 확정 수주액이나 달러($) 계약금이 아닙니다.\n18세 미만 ADHD 환자 대상 Evoke™ 뇌파 스캔 건수 증가율을 나타낸 **단순 상업적 운영 활동량 지표(Commercial Utilization Metric)**에 불과하며, 당일 PR 내 백만 달러($M) 이상 확정 계약 금액은 일절 미감지(전무) 상태입니다.\n실시간 체결가 및 수급 (장전 윗꼬리 -12.0% 덤핑 및 마이너스 음봉 전환):\n전일 종가 $0.8853 대비 현재가 **$0.8800 (-0.60%)**.\n당일 최고가 $0.9999 찍은 후 장전 고점 대비 -12.0% 밀리며 마이너스 파란불 음봉으로 완전히 주저앉음.\n당일 누적 거래대금 $12,939 USD (1만 2천 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:50 ET) 공식 PR 원문 분석:\nPR 제목: *\"Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 자체 스캔 건수 증가율 홍보 (Operating Utilization PR):\n본 PR의 본질은 Firefly Neuroscience가 소아청소년 ADHD 관련 Evoke™ 뇌파 스캔 건수가 전년 대비 373%(4.7배) 증가했다는 **단순 내부 운영/임상 이용 실적 홍보 보도자료(today announced a 373% YoY increase in commercial utilization of its Evoke™ platform...)**입니다.\n외부 글로벌 제약사나 대형 병원 체인으로부터 확정된 대규모 소프트웨어/장비 독점 라이선스 계약액, 최소 보장 구매 수량(MOQ), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 반복된 언론 플레이(9/25, 10/27)의 연장선상 마케팅 뉴스:\n과거 이력 대조 결과 회사는 9월 25일(NeuroSigma 제휴), 10월 27일(Versus 플랫폼 상업화) 등 지속적으로 보도자료를 냈으나\n, 실체적 수주 계약 없이 상업화 추진 과정의 단순 스캔 건수 통계를 포장한 전형적인 마케팅성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑(-12.0%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 운영 통계/이용 건수 증가 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.9999까지 반짝 상승 후 즉각 고점 대비 -12.0% 폭락하며 -0.60% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 단순 소아청소년 ADHD 뇌파 스캔 건수 증가율(373% YoY 착시) 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 고점 대비 -12.0% 밀려 마이너스 음봉(-0.60%)으로 하락 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: AIFF 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: AIFF NOTES:\n[AIFF] 확정 수주/매출 전무한 단순 소아청소년 ADHD 뇌파 스캔 건수 증가(373% 착시) 마케팅 PR로 헌법 3조 4항 위배 및 장전 음봉 전환(-12.0% 덤핑) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 초입부터 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열로 확인되어 안전하게 전량 차단되었습니다\n. 08:00~09:30 ET 본장 직전 피크 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794919901744_AIFF_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 HOWL (Werewolf Therapeutics, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $47.75M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과, $50M 상한선 임계치 근접).\n실시간 시세 및 수급: 전일 종가 $1.0100 대비 현재가 $0.9825 (-2.72% 음봉 약세), 당일 최고가 $1.0300 (고점 대비 -4.6% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting\"\n원문 팩트: 면역항암학회(SITC 2026 Annual Meeting) 연례 학술대회에서 파이프라인(WTX-124 및 WTX-330)의 임상 데이터를 발표/공개(Presented at SITC)했다는 학술 대회 발표 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인(FDA Approval), 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **학학회/학술대회(SITC) 데이터 구두/포스터 발표(Presented at Annual Meeting)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 학회 발표/임상 포스터/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 -2.72% 음봉 약세를 보이고 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학술대회(SITC) 임상 데이터 발표에 불과하고 장전 약세(-2.72%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: HOWL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: HOWL NOTES:\n[HOWL] 학술대회(SITC 2026) 임상 데이터 발표 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.72%)로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794233829428_RGNT_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "09:17:09",
-      "time_kst": "23:17:09",
-      "symbol": "RGNT",
-      "company_name": "RGNT",
-      "exchange": "AM",
-      "price": 1.15,
-      "gain_pct": -0.86,
-      "mcap_m": 8.08,
-      "decision": "FALSE",
-      "elapsed_sec": 47.1,
-      "reason": "이스라엘 독점 유통 계약 PR(Exclusive Distribution Agreement)은 금액 미기재 단순 계약 발표로 1급 확정 기폭제 미달 및 장전 약보합(-0.86%)으로 전량 차단",
-      "catalyst_hint": "[당일 PR] Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC(R) in Israel",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 RGNT (Regentis Biomaterials Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.08M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.1600 대비 현재가 $1.1500 (-0.86% 약보합), 당일 최고가 $1.1500 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 09:00 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Regentis Signs Exclusive Distribution Agreement with AMI Technologies to Commercialize GelrinC(R) in Israel\"\n원문 팩트: 이스라엘 시장 내 GelrinC® 상업화를 위해 AMI Technologies와 독점 유통 계약(Exclusive Distribution Agreement)을 체결했다는 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 특정 국가(이스라엘) 독점 유통 계약 체결(Exclusive Distribution Agreement) 발표에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입 계약 금액 미기재 단순 유통계약/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 -0.86% 약보합권에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 이스라엘 독점 유통 계약(Exclusive Distribution Agreement) 발표에 불과하고 장전 무수급(-0.86%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: RGNT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: RGNT NOTES:\n[RGNT] 이스라엘 독점 유통 계약 PR(Exclusive Distribution Agreement)은 금액 미기재 단순 계약 발표로 1급 확정 기폭제 미달 및 장전 약보합(-0.86%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:55:23",
+      "time_kst": "21:55:23",
+      "symbol": "VAI",
+      "company_name": "VAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 3.02))"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "07:55:01",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $410.31M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:09",
-      "time_kst": "21:02:09",
-      "symbol": "AUUD",
-      "company_name": "AUUD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
