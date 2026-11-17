@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:28:50",
-  "updated_at_et": "2026-11-17 08:28:50",
-  "updated_epoch_ms": 1794922130354,
+  "updated_at_kst": "2026-11-17 22:29:45",
+  "updated_at_et": "2026-11-17 08:29:45",
+  "updated_epoch_ms": 1794922185203,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:28:43"
+    "updated_kst": "22:29:41"
   },
   "stats": {
     "today_total": 30,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:29:19",
+      "time_kst": "22:29:19",
+      "symbol": "OESX",
+      "company_name": "OESX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.27M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:24:29",
       "time_kst": "22:24:29",
       "symbol": "ARBE",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Palatin Reports Fiscal First Quarter 2027 Financial Result)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:33:38",
-      "time_kst": "21:33:38",
-      "symbol": "API",
-      "company_name": "API",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $298.61M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
