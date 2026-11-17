@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:57:59",
-  "updated_at_et": "2026-11-17 07:57:59",
-  "updated_epoch_ms": 1794920279247,
+  "updated_at_kst": "2026-11-17 21:59:00",
+  "updated_at_et": "2026-11-17 07:59:00",
+  "updated_epoch_ms": 1794920340759,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:57:55"
+    "updated_kst": "21:58:56"
   },
   "stats": {
     "today_total": 19,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:58:17",
+      "time_kst": "21:58:17",
+      "symbol": "MMED",
+      "company_name": "MMED",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5247.18M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:56:14",
       "time_kst": "21:56:14",
       "symbol": "PPBT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1616.65M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:18",
-      "time_kst": "21:02:18",
-      "symbol": "FACT",
-      "company_name": "FACT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $264.98M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
