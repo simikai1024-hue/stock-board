@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:34:45",
-  "updated_at_et": "2026-11-17 07:34:45",
-  "updated_epoch_ms": 1794918885450,
+  "updated_at_kst": "2026-11-17 21:35:01",
+  "updated_at_et": "2026-11-17 07:35:01",
+  "updated_epoch_ms": 1794918901175,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "STEX",
+    "company_name": "STEX",
+    "exchange": "ND",
+    "price": 0.31,
+    "gain_pct": 3.44,
+    "mcap_m": 36.52,
+    "catalyst_hint": "[당일 PR] Streamex Corp. Announces October 2026 Yield Dividend Distribution for GLDY",
+    "queue_remaining": 2,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:34:56",
+    "started_at_kst": "21:34:56",
+    "started_epoch_ms": 1794918896487
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:34:30"
+    "updated_kst": "21:34:49"
   },
   "stats": {
     "today_total": 11,
