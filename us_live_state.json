@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:35:01",
-  "updated_at_et": "2026-11-17 07:35:01",
-  "updated_epoch_ms": 1794918901175,
+  "updated_at_kst": "2026-11-17 21:35:41",
+  "updated_at_et": "2026-11-17 07:35:41",
+  "updated_epoch_ms": 1794918941949,
   "analyzing": {
-    "active": true,
-    "symbol": "STEX",
-    "company_name": "STEX",
-    "exchange": "ND",
-    "price": 0.31,
-    "gain_pct": 3.44,
-    "mcap_m": 36.52,
-    "catalyst_hint": "[당일 PR] Streamex Corp. Announces October 2026 Yield Dividend Distribution for GLDY",
-    "queue_remaining": 2,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:34:56",
-    "started_at_kst": "21:34:56",
-    "started_epoch_ms": 1794918896487
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:34:49"
+    "updated_kst": "21:35:29"
   },
   "stats": {
-    "today_total": 11,
-    "today_nblm_count": 11,
+    "today_total": 12,
+    "today_nblm_count": 12,
     "today_buy": 0,
-    "today_false": 11,
+    "today_false": 12,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
@@ -45,6 +33,26 @@
     "avg_nblm_sec": 40.9
   },
   "verdicts": [
+    {
+      "id": "v_1794918934178_STEX_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "07:35:34",
+      "time_kst": "21:35:34",
+      "symbol": "STEX",
+      "company_name": "STEX",
+      "exchange": "ND",
+      "price": 0.31,
+      "gain_pct": 3.44,
+      "mcap_m": 36.52,
+      "decision": "FALSE",
+      "elapsed_sec": 41.2,
+      "reason": "보통주 특별배당이 아닌 토큰화 금 상품(GLDY)의 8번째 정기 수익분배 PR로 배당요건(25%+) 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Streamex Corp. Announces October 2026 Yield Dividend Distribution for GLDY",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 STEX (Streamex Corp.) 2026-11-17 07:34 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.52M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 배당 착시 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 수주 달러 금액 전무).\n배당 관련 핵심 수치: 보통주 주주 대상 특별배당이 아니며, 추정 보통주 배당수익률 0.0% / 시총 대비 0.0%의 자체 상품 배당 공지에 불과함.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.2997 대비 현재가 $0.3100 (+3.44%), 당일 최고가 $0.3240 (고점 대비 -4.3%).\n당일 누적 거래대금 $31 USD (31달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Streamex Corp. Announces October 2026 Yield Dividend Distribution for GLDY\"\n원문 직독 결과 드러난 치명적 실체:\n보통주 특별현금배당이 아닌 토큰화 금 자산(GLDY)의 정기 이자/수익 분배 (Tokenized Asset Distribution PR):\n본 PR의 본질은 STEX 상장사 보통주 주주들에게 현금을 지급하는 기업 차원의 특별배당(Special Dividend)이 아닙니다.\n회사가 발행/운용하는 토큰화 금 상품인 'GLDY' 보유자들을 대상으로 10월분 8번째 정기 수익(eighth yield payment for GLDY, its yield-bearing gold asset)을 분배한다는 단순 자산 운용 안내 보도자료입니다.\n연구소 배당 헌법 제2조 및 제3조 ②항 정량 요건 완전 미달 (JCSE 오답교본형):\n연구소 심사 헌법 제2조(대박 PR / FORCE_BUY)의 배당 승인 조건은 **\"보통주 특별배당(Special Dividend)으로서 배당수익률 25% 이상 또는 배당총액 시총 대비 30% 이상의 파격 현금 살포(HIHO, RBNE, AIOK형)\"**이어야 합니다.\n반면 STEX의 발표는 보통주 배당수익률 **0.0%**이며, 헌법 제3조 ②항의 '배당수익률 25% 미만 소액 배당 및 일반/상품 정기 분배는 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초소형주 시총 40%+ 확정가 공개매수·즉시소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ②·④항 위배:\n상장사 주주 가치 제고와 무관한 단순 GLDY 토큰 상품 정기 분배 홍보 PR로 1급 확정 기폭제 기준에 미달합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 STEX 보통주 주주 대상 특별현금배당이 아닌 자체 토큰화 금 상품(GLDY)의 8번째 정기 이자 분배(추정 보통주 배당수익률 0.0%)에 불과하여 헌법 제2조 배당 요건(25%+)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: STEX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: STEX NOTES:\n[STEX] 보통주 특별배당이 아닌 토큰화 금 상품(GLDY)의 8번째 정기 수익분배 PR로 배당요건(25%+) 미달 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 8개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX) 전수가 실체적 확정 현금 유입이나 1급 금융 기폭제가 없는 껍데기 IR·정기 분배로 확인되어 안전하게 전량 차단되었습니다\n. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794918881274_FRTT_FALSE",
       "date_et": "2026-11-17",
@@ -2422,26 +2430,6 @@
       "reason": "FDA Type C 미팅 규제 업데이트(Regulatory Update) 공시는 단순 진행 경과 보고로 1급 확정 기폭제 미달 및 장전 무수급(+4.24%)으로 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 8.01,9.01)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 VTGN (Vistagen Therapeutics, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.63M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.1650 대비 현재가 $0.1720 (+4.24% 소폭 상승), 당일 최고가 $0.1740 (고점 대비 -1.1%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 8-K (Item 8.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 8.01, 9.01) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 미 FDA와의 사전 미팅 경과 발표 (\"announced a regulatory update from its recent, productive Type C meeting with the U.S. Food and Drug Administration (FDA)\").\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 최종 신약 FDA 승인(FDA Approval), Pivotal 임상 3상 톱라인 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **FDA와의 Type C 미팅 결과 및 규제 관련 진행 경과 보고(Regulatory Update from Type C Meeting)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 당국 미팅/진행 보고/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 +4.24% 미미한 흐름에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 FDA Type C 미팅 규제 업데이트(Regulatory Update)에 불과하고 장전 무수급(+4.24%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: VTGN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: VTGN NOTES:\n[VTGN] FDA Type C 미팅 규제 업데이트(Regulatory Update) 공시는 단순 진행 경과 보고로 1급 확정 기폭제 미달 및 장전 무수급(+4.24%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794231372472_RMCF_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "08:36:12",
-      "time_kst": "22:36:12",
-      "symbol": "RMCF",
-      "company_name": "Rocky Mountain Chocolate Factory, Inc.",
-      "exchange": "ND",
-      "price": 0.83,
-      "gain_pct": 0.0,
-      "mcap_m": 7.97,
-      "decision": "FALSE",
-      "elapsed_sec": 37.6,
-      "reason": "매장 개점 및 임대 계약 PR(Store Opening & Lease Signing)은 금액 미기재 단순 뉴스 발표로 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단",
-      "catalyst_hint": "[당일 PR] Rocky Mountain Chocolate Factory Announces Houston Airport Store Opening and Aspen Lease Signing",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 RMCF (Rocky Mountain Chocolate Factory, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.97M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.8300 대비 현재가 $0.8300 (+0.00% 보합), 당일 최고가 $0.8300 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Rocky Mountain Chocolate Factory Announces Houston Airport Store Opening and Aspen Lease Signing\"\n원문 팩트: 휴스턴 공항 내 신규 매장 개점(Houston Airport Store Opening) 및 애스펀 지역 임대 계약 체결(Aspen Lease Signing)을 알리는 일반적인 매장 확장 및 부동산 임대 관련 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 신규 매장 오픈 및 임대 계약(Store Opening & Lease Signing) 발표에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 매장 개점/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 +0.00% 보합권에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 매장 개점 및 임대 계약 보도자료(Store Opening & Lease Signing)에 불과하고 장전 무수급(+0.00%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: RMCF 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: RMCF NOTES:\n[RMCF] 매장 개점 및 임대 계약 PR(Store Opening & Lease Signing)은 금액 미기재 단순 뉴스 발표로 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
