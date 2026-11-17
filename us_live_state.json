@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:11:56",
-  "updated_at_et": "2026-11-17 09:11:56",
-  "updated_epoch_ms": 1794924716613,
+  "updated_at_kst": "2026-11-17 23:12:57",
+  "updated_at_et": "2026-11-17 09:12:57",
+  "updated_epoch_ms": 1794924777901,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:11:50"
+    "updated_kst": "23:12:49"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:12:29",
+      "time_kst": "23:12:29",
+      "symbol": "ALLR",
+      "company_name": "ALLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-17 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:08:51",
       "time_kst": "23:08:51",
       "symbol": "MYGN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $68.13M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:31:57",
-      "time_kst": "22:31:57",
-      "symbol": "ELMT",
-      "company_name": "ELMT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $583.78M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
