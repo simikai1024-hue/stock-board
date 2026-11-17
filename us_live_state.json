@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:56:04",
-  "updated_at_et": "2026-11-17 07:56:04",
-  "updated_epoch_ms": 1794920164005,
+  "updated_at_kst": "2026-11-17 21:56:50",
+  "updated_at_et": "2026-11-17 07:56:50",
+  "updated_epoch_ms": 1794920210326,
   "analyzing": {
-    "active": true,
-    "symbol": "KIDZ",
-    "company_name": "KIDZ",
-    "exchange": "ND",
-    "price": 1.05,
-    "gain_pct": -0.48,
-    "mcap_m": 0.9,
-    "catalyst_hint": "[당일 PR] KIDZ AI Announces Strategic Collaboration with Synestria to Optimize AI Infrastructure Performance",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:55:56",
-    "started_at_kst": "21:55:56",
-    "started_epoch_ms": 1794920156320
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:55:56"
+    "updated_kst": "21:56:35"
   },
   "stats": {
-    "today_total": 18,
-    "today_nblm_count": 18,
+    "today_total": 19,
+    "today_nblm_count": 19,
     "today_buy": 0,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.2
+    "avg_nblm_sec": 42.6
   },
   "verdicts": [
+    {
+      "id": "v_1794920202328_KIDZ_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "07:56:42",
+      "time_kst": "21:56:42",
+      "symbol": "KIDZ",
+      "company_name": "KIDZ",
+      "exchange": "ND",
+      "price": 1.05,
+      "gain_pct": -0.48,
+      "mcap_m": 0.9,
+      "decision": "FALSE",
+      "elapsed_sec": 49.3,
+      "reason": "확정 수주/매출 전무한 단순 AI 인프라 전략적 협력(Collaboration) PR로 헌법 3조 4항 위배 및 고점대비 -19.2% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] KIDZ AI Announces Strategic Collaboration with Synestria to Optimize AI Infrastructure Performance",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 KIDZ (KIDZ AI Inc.) 2026-11-17 07:55 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.90M USD (연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 -19.2% 피뢰침 덤핑):\n전일 종가 $1.0450 대비 현재가 $1.0500 (+0.48%).\n당일 최고가 $1.3000 찍은 후 장전 고점 대비 -19.2% 폭락하며 상승폭을 거의 전량 반납.\n당일 누적 거래대금 $374,726 USD.\n헌법 제1조에 따라 8-K 미접수 및 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:45 ET) 공식 PR 원문 분석:\nPR 제목: \"KIDZ AI Announces Strategic Collaboration with Synestria to Optimize AI Infrastructure Performance\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 기회 탐색용 비구속 전략적 협력 (Strategic Collaboration PR):\n본 PR의 본질은 신규 매출 계약이나 수주가 아니라, Synestria와 함께 AI 인프라 성능 최적화 기회를 탐색하겠다는 **단순 업무 제휴/협력 보도자료(today announced a strategic collaboration with Synestria, Inc. to explore opportunities in AI infrastructure...)**입니다.\n외부 고객사나 빅테크로부터 확정된 GPU 납품 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 정기 실적 발표(11/12) 직후 배포된 전형적인 AI 테마 편승 언론 플레이:\n과거 이력 대조 결과 회사는 불과 5일 전인 2026년 11월 12일에 3분기 실적을 발표한 바 있습니다.\n실적 발표 이후 주가 부양을 위해 교육(EdTech) 기업이 알맹이(확정 매출) 없는 AI 인프라 최적화 협력 뉴스를 띄운 전형적인 테마 편승성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배 및 장전 -19.2% 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 제휴/협력(Collaboration)/기회 탐색 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.3000까지 띄워 개미들에게 물량을 넘긴 후 고점 대비 -19.2% 급락하여 +0.48% 보합선까지 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 Synestria와의 단순 기회 탐색용 전략적 협력(Strategic Collaboration) 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 $1.3000 고점 대비 -19.2% 폭락하여 덤핑 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: KIDZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: KIDZ NOTES:\n[KIDZ] 확정 수주/매출 전무한 단순 AI 인프라 전략적 협력(Collaboration) PR로 헌법 3조 4항 위배 및 고점대비 -19.2% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴로 확인되어 안전하게 전량 차단되었습니다. 08:00~09:30 ET 본장 직전 피크 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794920141009_AIFF_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ICCM (IceCure Medical Ltd.) 09:41 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.76M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.6807 대비 현재가 $0.8040 (+18.11% 상승), 당일 최고가 $0.9499 (고점 대비 -15.4% 윗꼬리 급락), 당일 누적 거래대금 $210,968 USD (장 시작 후 거래량 유입 형성).\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:25 ET) PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] 접수.\nPR 제목: \"IceCure Granted New Patent in China for Its Cryogenic System Connector, Expanding Its Global IP Portfolio\"\n원문 팩트: 냉동수술 시스템 커넥터와 관련하여 중국 지식재산권국으로부터 신규 특허를 취득(Granted New Patent in China)했다는 보도자료.\n치명적 기폭제 결함 & 윗꼬리 덤핑 차트:\n본장 수급($210K USD) 및 주가 갭상승(+18.11%)이 유입되었으나, 재료의 본질은 당일 기업 가치를 폭발시킬 확정적 1급 기폭제(FDA 승인, Pivotal 임상 3상 성공, 구체적 $ 금액 명시 대형 수주/계약/자산매각, 대형 M&A, 현금 특별배당, ATM 해지 등)가 아닙니다.\n본 PR은 **구체적 현금 유입 달러 금액이 명시되지 않은 단순 해외(중국) 특허 취득 뉴스(Granted New Patent)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 특허(Patent)/MOU/샘플/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 미달합니다.\n당일 최고가($0.9499) 대비 현재가($0.8040)가 -15.4% 급등 후 밀리는 윗꼬리 덤핑 차트를 형성하고 있어, 단순 특허 뉴스를 이용한 세력의 장초반 차익실현 물량 덤핑 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 구체적 금액 미기재 단순 특허 취득(Granted New Patent) 발표에 불과하여 1급 확정 기폭제 기준에 미달하고, 고점 대비 -15.4% 밀리는 윗꼬리 설거지 덤핑 차트를 형성하고 있으므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: ICCM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: ICCM NOTES:\n[ICCM] 중국 특허 취득 PR(Granted New Patent)은 금액 미기재 단순 특허 호재로 1급 확정 기폭제 미달 및 윗꼬리 덤핑 차트(-15.4%)로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794234262242_HOWL_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "09:24:22",
-      "time_kst": "23:24:22",
-      "symbol": "HOWL",
-      "company_name": "HOWL",
-      "exchange": "ND",
-      "price": 0.9825,
-      "gain_pct": -2.72,
-      "mcap_m": 47.75,
-      "decision": "FALSE",
-      "elapsed_sec": 53.4,
-      "reason": "학술대회(SITC 2026) 임상 데이터 발표 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.72%)로 전량 차단",
-      "catalyst_hint": "[당일 PR] Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 HOWL (Werewolf Therapeutics, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $47.75M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과, $50M 상한선 임계치 근접).\n실시간 시세 및 수급: 전일 종가 $1.0100 대비 현재가 $0.9825 (-2.72% 음봉 약세), 당일 최고가 $1.0300 (고점 대비 -4.6% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Werewolf Therapeutics’ Clinical Data for WTX-124 and WTX-330 Presented at the Society for Immunotherapy of Cancer’s (SITC) 2026 Annual Meeting\"\n원문 팩트: 면역항암학회(SITC 2026 Annual Meeting) 연례 학술대회에서 파이프라인(WTX-124 및 WTX-330)의 임상 데이터를 발표/공개(Presented at SITC)했다는 학술 대회 발표 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 최종 신약 FDA 승인(FDA Approval), 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **학학회/학술대회(SITC) 데이터 구두/포스터 발표(Presented at Annual Meeting)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 학회 발표/임상 포스터/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 -2.72% 음봉 약세를 보이고 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 학술대회(SITC) 임상 데이터 발표에 불과하고 장전 약세(-2.72%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: HOWL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: HOWL NOTES:\n[HOWL] 학술대회(SITC 2026) 임상 데이터 발표 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.72%)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:56:14",
+      "time_kst": "21:56:14",
+      "symbol": "PPBT",
+      "company_name": "PPBT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "07:55:23",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $264.98M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:13",
-      "time_kst": "21:02:13",
-      "symbol": "CD",
-      "company_name": "CD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $410.31M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
