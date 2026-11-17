@@ -309,6 +309,66 @@ def extract_isi_top3_themes() -> tuple:
     return latest_date_iso, merged_themes
 
 
+def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
+    idx_out = dict(prev_idx) if isinstance(prev_idx, dict) else {}
+    etfs = [
+        ("069500", "KODEX 200", "KOSPI", "UP", "코스피 상승"),
+        ("114800", "KODEX 인버스", "KOSPI", "DN", "코스피 하락"),
+        ("229200", "KODEX 코스닥150", "KOSDAQ", "UP", "코스닥 상승"),
+        ("251340", "KODEX 코스닥150선물인버스", "KOSDAQ", "DN", "코스닥 하락"),
+    ]
+    try:
+        r = requests.get(
+            "https://polling.finance.naver.com/api/realtime?query=SERVICE_ITEM:069500,114800,229200,251340",
+            headers=HEADERS,
+            timeout=5,
+        )
+        datas = r.json().get("result", {}).get("areas", [{}])[0].get("datas", [])
+        mm = {c: (nm, mk, dr, dl) for c, nm, mk, dr, dl in etfs}
+        snaps = {}
+        for d in datas:
+            cd = str(d.get("cd") or "").strip()
+            if cd not in mm:
+                continue
+            nv = abs(int(d.get("nv") or 0))
+            pcv = abs(int(d.get("pcv") or 0))
+            ov = abs(int(d.get("ov") or nv))
+            aq = int(d.get("aq") or 0)
+            aa = float(d.get("aa") or 0.0)
+            if nv <= 0 or pcv <= 0:
+                continue
+            val_won = (aa * 1_000_000.0 if (aq > 0 and aa / aq < nv * 0.05) else aa) if (aq > 0 and aa > 0) else 0.0
+            vwap = int(round(val_won / aq)) if (aq > 0 and val_won > 0) else nv
+            nm, mk, dr, dl = mm[cd]
+            snaps[cd] = {
+                "code": cd,
+                "name": nm,
+                "market": mk,
+                "dir": dr,
+                "dir_label": dl,
+                "cur_price": nv,
+                "open_price": ov,
+                "prev_close": pcv,
+                "vwap": vwap,
+                "vwap_gap_pct": round((nv / max(1, vwap) - 1.0) * 100.0, 2),
+                "chg_prev_pct": round((nv / pcv - 1.0) * 100.0, 2),
+                "above_vwap": bool(nv > vwap),
+                "is_bull_candle": bool(nv > ov),
+            }
+        if "069500" in snaps and "114800" in snaps:
+            w = snaps["069500"] if snaps["069500"]["vwap_gap_pct"] >= snaps["114800"]["vwap_gap_pct"] else snaps["114800"]
+            o = snaps["114800"] if w is snaps["069500"] else snaps["069500"]
+            idx_out["kospi_pair"] = {"winner": w, "other": o}
+        if "229200" in snaps and "251340" in snaps:
+            w2 = snaps["229200"] if snaps["229200"]["vwap_gap_pct"] >= snaps["251340"]["vwap_gap_pct"] else snaps["251340"]
+            o2 = snaps["251340"] if w2 is snaps["229200"] else snaps["229200"]
+            idx_out["kosdaq_pair"] = {"winner": w2, "other": o2}
+        idx_out["updated_at"] = f"{now_kst.strftime('%H:%M:%S')} (☁️깃허브 자동)"
+    except Exception:
+        pass
+    return idx_out
+
+
 def main():
     force = "--force" in sys.argv or os.environ.get("FORCE_UPDATE", "").lower() == "true"
     dry_run = "--dry-run" in sys.argv
@@ -355,6 +415,7 @@ def main():
     isi_board["theme_date"] = latest_date_iso
     isi_board["theme_updated_at"] = f"{now_kst.strftime('%H:%M:%S')} (☁️깃허브 자동)"
     isi_board["top3_themes"] = top3_themes
+    isi_board["index_radar"] = update_index_radar_snapshot(isi_board.get("index_radar"), now_kst)
 
     state["updated_at"] = now_kst.strftime("%Y-%m-%d %H:%M:%S")
     state["isi_board"] = isi_board
