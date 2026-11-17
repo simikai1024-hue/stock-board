@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:57:36",
-  "updated_at_et": "2026-11-17 09:57:36",
-  "updated_epoch_ms": 1794927456358,
+  "updated_at_kst": "2026-11-17 23:58:28",
+  "updated_at_et": "2026-11-17 09:58:28",
+  "updated_epoch_ms": 1794927508561,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:57:15"
+    "updated_kst": "23:58:23"
   },
   "stats": {
     "today_total": 54,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:58:07",
+      "time_kst": "23:58:07",
+      "symbol": "GLPI",
+      "company_name": "GLPI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11444.91M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:57:55",
+      "time_kst": "23:57:55",
+      "symbol": "ALPS",
+      "company_name": "ALPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $191.36M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:55:24",
       "time_kst": "23:55:24",
       "symbol": "EMPD",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $12723.12M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:07:29",
-      "time_kst": "23:07:29",
-      "symbol": "PENG",
-      "company_name": "PENG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2663.87M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:07:15",
-      "time_kst": "23:07:15",
-      "symbol": "CXDO",
-      "company_name": "CXDO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $158.53M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
