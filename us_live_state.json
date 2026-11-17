@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:30:23",
-  "updated_at_et": "2026-11-17 04:30:23",
-  "updated_epoch_ms": 1794907823029,
+  "updated_at_kst": "2026-11-17 18:31:20",
+  "updated_at_et": "2026-11-17 04:31:20",
+  "updated_epoch_ms": 1794907880320,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:30:16"
+    "updated_kst": "18:31:16"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 37,
+    "today_hardcut": 38,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:30:54",
+      "time_kst": "18:30:54",
+      "symbol": "HTLM",
+      "company_name": "HTLM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $101.35M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:22:25",
       "time_kst": "18:22:25",
       "symbol": "NCPL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $212.82M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:27:41",
-      "time_kst": "01:27:41",
-      "symbol": "CHOW",
-      "company_name": "CHOW",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $124.22M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
