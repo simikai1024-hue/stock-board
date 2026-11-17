@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:27:54",
-  "updated_at_et": "2026-11-17 09:27:54",
-  "updated_epoch_ms": 1794925674758,
+  "updated_at_kst": "2026-11-17 23:28:47",
+  "updated_at_et": "2026-11-17 09:28:47",
+  "updated_epoch_ms": 1794925727564,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "프리장실전",
+    "session_label": "개장동시호가",
     "watchlist_count": 0,
     "orderable_usd": 1056.71,
     "daily_done": false,
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:27:45"
+    "updated_kst": "23:28:43"
   },
   "stats": {
     "today_total": 51,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:28:40",
+      "time_kst": "23:28:40",
+      "symbol": "ELVR",
+      "company_name": "ELVR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $453.98M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:27:54",
+      "time_kst": "23:27:54",
+      "symbol": "SVCC",
+      "company_name": "SVCC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $231.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:27:47",
       "time_kst": "23:27:47",
       "symbol": "ONMD",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1135.99M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:41:28",
-      "time_kst": "22:41:28",
-      "symbol": "SVC",
-      "company_name": "SVC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $754.22M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:37:23",
-      "time_kst": "22:37:23",
-      "symbol": "TIGO",
-      "company_name": "TIGO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $13872.39M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
