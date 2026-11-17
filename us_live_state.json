@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:48:00",
-  "updated_at_et": "2026-11-17 07:48:00",
-  "updated_epoch_ms": 1794919680101,
+  "updated_at_kst": "2026-11-17 21:48:49",
+  "updated_at_et": "2026-11-17 07:48:49",
+  "updated_epoch_ms": 1794919729622,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NEXR",
+    "company_name": "NEXR",
+    "exchange": "ND",
+    "price": 1.32,
+    "gain_pct": -2.22,
+    "mcap_m": 0.7,
+    "catalyst_hint": "[당일 PR] Nexera: Subsidiary Fort Technology Reports 49% Growth with Record $12 Million Year-to-Date Revenues, Advancing Toward Milestones for Additional Fort Shares",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:48:47",
+    "started_at_kst": "21:48:47",
+    "started_epoch_ms": 1794919727102
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:47:52"
+    "updated_kst": "21:48:31"
   },
   "stats": {
     "today_total": 15,
