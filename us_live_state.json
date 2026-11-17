@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:06:31",
-  "updated_at_et": "2026-11-17 09:06:31",
-  "updated_epoch_ms": 1794924391746,
+  "updated_at_kst": "2026-11-17 23:07:15",
+  "updated_at_et": "2026-11-17 09:07:15",
+  "updated_epoch_ms": 1794924435950,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:06:26"
+    "updated_kst": "23:07:06"
   },
   "stats": {
     "today_total": 45,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:07:08",
+      "time_kst": "23:07:08",
+      "symbol": "OCTV",
+      "company_name": "OCTV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5717.72M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:07:05",
+      "time_kst": "23:07:05",
+      "symbol": "CNTY",
+      "company_name": "CNTY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Century Casinos, Inc. Announces Restatement of Previously )"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:03:39",
       "time_kst": "23:03:39",
       "symbol": "ACMR",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 임원·이사회 인사발령 PR 차단 (SenesTech Appoints JoAnna Abrams to Board of Directors)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:11:47",
-      "time_kst": "22:11:47",
-      "symbol": "ESEA",
-      "company_name": "ESEA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $429.74M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:07:19",
-      "time_kst": "22:07:19",
-      "symbol": "PULM",
-      "company_name": "PULM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
     }
   ]
 }
