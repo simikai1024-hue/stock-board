@@ -1152,38 +1152,59 @@
     </div>
   </section>
 
-  <!-- 2-A2. 🧭 오늘의 지수 방향 예측 (VWAP 우위 지수 ETF 추천) -->
+  <!-- 2-A2. 🧭 오늘의 지수 방향 예측 (VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독) -->
   <section aria-labelledby="idx-radar-heading">
     <div class="section-head">
       <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
         <h2 class="section-title" id="idx-radar-heading">🧭 오늘의 지수 방향 예측</h2>
-        <span class="lab-safety-pill">📊 VWAP 우위 지수 추천 · 거래세 0%</span>
+        <span class="lab-safety-pill">📊 VWAP·자금 + 🌍 외인·환율 + 📰 시황뉴스</span>
       </div>
-      <span class="section-sub" id="idxUpdateLbl">09:30 VWAP 체류비중(67%+) 확정 · 클릭 시 종목코드 복사</span>
+      <span class="section-sub" id="idxUpdateLbl">3박자 종합 판독 · 09:30 공식 확정 · 클릭 시 코드 복사</span>
     </div>
 
     <div class="lab-card" style="border-style:solid; border-color:#38BDF8;">
-      <div class="lab-live-box" id="idxSignalBanner" style="margin-block-end:12px;">
+      <!-- 상단 대표 시그널 배너 -->
+      <div class="lab-live-box" id="idxSignalBanner" style="margin-block-end:10px;">
         <div>
-          <div class="lab-status-tag" id="idxStatusTag">🕒 실시간 VWAP 체류비중 분석 중</div>
+          <div class="lab-status-tag" id="idxStatusTag">🕒 3박자 지수 데이터 분석 중</div>
           <div style="font-size:15px; font-weight:900; color:var(--text-main);" id="idxMainTxt">
-            정방향 지수 ETF와 인버스 ETF 중 당일 평균가(VWAP) 위에 오래 머문 우위 지수를 실시간 추적합니다.
+            정방향·인버스 자금 쏠림과 외국인 수급·환율·시황 속보를 결합해 지수 방향을 분석합니다.
           </div>
           <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="idxSubTxt">
-            09:05~09:30 구간 VWAP 상단 체류비중 67% 이상 & 현재 VWAP 위 안착 지수 추천 → 15:15 정산 (8~11월 4개월 연속 수익 · 복리 +24.1%)
+            09:30 기준 VWAP 체류비중(67%+) 및 외국인·매크로 동조 지수 추천 → 15:15 종가 정산 (거래세 0%)
           </div>
         </div>
         <div id="idxRightAction"></div>
       </div>
 
+      <!-- AI 2줄 종합 배경 브리핑 박스 -->
+      <div id="idxAiBriefBox" style="background:#F0F9FF; border:1.5px solid #7DD3FC; border-radius:12px; padding:11px 14px; margin-block-end:10px;">
+        <div style="font-size:12px; font-weight:900; color:#0369A1; margin-bottom:4px;" id="idxAiGradeBadge">🧠 AI 3박자 시황·수급 종합 브리핑</div>
+        <div style="font-size:13px; font-weight:800; color:#0F172A; line-height:1.5;" id="idxAiLine1">외국인 수급·환율·시황 뉴스를 불러오는 중입니다...</div>
+        <div style="font-size:12.5px; font-weight:800; color:#075985; line-height:1.5; margin-top:3px;" id="idxAiLine2"></div>
+      </div>
+
+      <!-- 코스피200 / 코스닥150 정방향 vs 인버스 자금·VWAP 대결 카드 -->
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;" id="idxPairGrid">
         <div class="lab-kpi-mini" id="idxKospiBox" style="background:#FFFFFF;">
-          <div class="lab-kpi-lbl">🏛️ 코스피 200 · 현재 VWAP 우위 ETF</div>
+          <div class="lab-kpi-lbl">🏛️ 코스피 200 · 정방향 vs 인버스</div>
           <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
         </div>
         <div class="lab-kpi-mini" id="idxKosdaqBox" style="background:#FFFFFF;">
-          <div class="lab-kpi-lbl">🚀 코스닥 150 · 현재 VWAP 우위 ETF</div>
+          <div class="lab-kpi-lbl">🚀 코스닥 150 · 정방향 vs 인버스</div>
           <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
+        </div>
+      </div>
+
+      <!-- 외국인·환율·미증시 + 실시간 지수 핵심 뉴스 2단 그리드 -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;">
+        <div class="lab-kpi-mini" id="idxMacroBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">🌍 외국인·기관 수급 & 환율·미증시</div>
+          <div style="font-size:13px; font-weight:800; color:var(--text-muted); margin-top:4px;">수급·매크로 집계 중...</div>
+        </div>
+        <div class="lab-kpi-mini" id="idxNewsBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">📰 지수 영향 실시간 핵심 시황뉴스</div>
+          <div style="font-size:13px; font-weight:800; color:var(--text-muted); margin-top:4px;">시황 뉴스 수집 중...</div>
         </div>
       </div>
 
@@ -1746,6 +1767,18 @@
     }
   }
 
+  function fmtSignedEok(val) {
+    const n = Math.round(Number(val || 0));
+    const sign = n > 0 ? "+" : (n < 0 ? "-" : "");
+    const a = Math.abs(n);
+    if (a >= 10000) {
+      const jo = Math.floor(a / 10000);
+      const rem = a % 10000;
+      return rem > 0 ? `${sign}${jo}조 ${rem.toLocaleString("ko-KR")}억` : `${sign}${jo}조`;
+    }
+    return `${sign}${a.toLocaleString("ko-KR")}억`;
+  }
+
   function renderIndexRadar(isi) {
     const idx = isi?.index_radar || {};
     const bannerEl = document.getElementById("idxSignalBanner");
@@ -1753,15 +1786,45 @@
     const mainEl = document.getElementById("idxMainTxt");
     const subEl = document.getElementById("idxSubTxt");
     const rightEl = document.getElementById("idxRightAction");
+    const aiGradeEl = document.getElementById("idxAiGradeBadge");
+    const aiLine1El = document.getElementById("idxAiLine1");
+    const aiLine2El = document.getElementById("idxAiLine2");
+    const aiBoxEl = document.getElementById("idxAiBriefBox");
     const kospiBox = document.getElementById("idxKospiBox");
     const kosdaqBox = document.getElementById("idxKosdaqBox");
+    const macroBox = document.getElementById("idxMacroBox");
+    const newsBox = document.getElementById("idxNewsBox");
     const updEl = document.getElementById("idxUpdateLbl");
     const histSumEl = document.getElementById("idxHistSummaryLbl");
     const histListEl = document.getElementById("idxHistList");
 
     if (!bannerEl) return;
     if (updEl && idx.updated_at) {
-      updEl.textContent = `기준: ${idx.updated_at} · 09:30 VWAP 체류비중(67%+) 확정 · 클릭 시 코드 복사`;
+      updEl.textContent = `기준: ${idx.updated_at} · 3박자(VWAP·수급·뉴스) 판독 · 클릭 시 코드 복사`;
+    }
+
+    const syn = idx.synthesis || {};
+    const macro = idx.macro_news || {};
+
+    // AI 2줄 브리핑 렌더링
+    if (aiLine1El && syn.line1) {
+      if (aiGradeEl) {
+        aiGradeEl.textContent = `🧠 AI 3박자 종합 판독 · ${syn.badge || "실시간 분석 중"}`;
+      }
+      aiLine1El.textContent = syn.line1;
+      if (aiLine2El) aiLine2El.textContent = syn.line2 || "";
+      if (aiBoxEl) {
+        if (syn.grade === "CONFLICT") {
+          aiBoxEl.style.background = "#FFFBEB";
+          aiBoxEl.style.borderColor = "#F59E0B";
+        } else if (syn.grade === "STRONG") {
+          aiBoxEl.style.background = "#ECFDF5";
+          aiBoxEl.style.borderColor = "#10B981";
+        } else {
+          aiBoxEl.style.background = "#F0F9FF";
+          aiBoxEl.style.borderColor = "#7DD3FC";
+        }
+      }
     }
 
     const st = idx.signal_status || "WAITING";
@@ -1776,11 +1839,12 @@
       const isUpDir = act.dir === "UP";
       const icon = isUpDir ? "📈" : "📉";
       const mp = Number(act.morn_above_pct || 0).toFixed(0);
+      const fm = Number(act.flow_surge_mult || 1.0).toFixed(2);
       bannerEl.classList.add("holding");
       tagEl.classList.add("holding");
-      tagEl.textContent = `${icon} 09:30 추천 확정 · ${act.dir_label} (체류비중 ${mp}%)`;
-      mainEl.innerHTML = `VWAP 우위 추천 ETF: <strong style="color:#0369A1;">${escHtml(act.name)} (${escHtml(act.code)})</strong> · 현재 <strong>${fmtWon(act.cur_price)}</strong>`;
-      subEl.textContent = `09:30 기준가 ${fmtWon(act.entry_price)} (오전 VWAP 상단 체류 ${mp}% · 현재 VWAP ${fmtWon(act.vwap)}) · 15:15 종가 기준 정산`;
+      tagEl.textContent = `${icon} 09:30 추천 확정 · ${act.dir_label} (체류 ${mp}% · 자금 ${fm}배)`;
+      mainEl.innerHTML = `추천 지수 ETF: <strong style="color:#0369A1;">${escHtml(act.name)} (${escHtml(act.code)})</strong> · 현재 <strong>${fmtWon(act.cur_price)}</strong>`;
+      subEl.textContent = `09:30 기준가 ${fmtWon(act.entry_price)} (오전 VWAP 체류 ${mp}% · 현재 VWAP ${fmtWon(act.vwap)}) · 15:15 종가 기준 정산`;
       rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(act.code)}', '${escHtml(act.name)}')">📋 ${escHtml(act.name)} · 실시간 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</button>`;
     } else if (st === "CLOSED" && clsToday) {
       const np = Number(clsToday.net_pnl_pct || 0);
@@ -1790,21 +1854,20 @@
       subEl.innerHTML = `금일 확정 성적: <strong class="${np >= 0 ? "up-txt" : "dn-txt"}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</strong> (${escHtml(clsToday.exit_reason || "")})`;
       rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(clsToday.code)}', '${escHtml(clsToday.name)}')">📋 종목코드 복사</button>`;
     } else if (st === "NEUTRAL") {
-      tagEl.textContent = "⏸️ 금일 지수 혼조 구간 (관망 권장)";
-      mainEl.textContent = "09:05~09:30 구간 동안 정방향·인버스 모두 VWAP 상단 체류비중 67% 기준에 미달하여 팽팽한 혼조 구간입니다.";
-      subEl.textContent = "아래 카드에서 현재 실시간 VWAP 상단 체류비중 우위 지수 ETF 현황은 계속 확인하실 수 있습니다.";
+      tagEl.textContent = "⏸️ 금일 지수 혼조·엇갈림 (관망 권장)";
+      mainEl.textContent = "09:30 기준 VWAP 체류비중(67%+) 미달 또는 외국인 수급과 차트 방향이 충돌하여 관망을 권장합니다.";
+      subEl.textContent = "아래 카드에서 정방향·인버스 자금 쏠림과 실시간 외국인 수급·시황 뉴스 흐름을 계속 확인하실 수 있습니다.";
     } else {
-      const kw = idx.kospi_pair?.winner;
-      const qkw = idx.kosdaq_pair?.winner;
-      const bestNow = (qkw && Number(qkw.day_above_pct || 0) > Number(kw?.day_above_pct || 0)) ? qkw : kw;
+      const bestNow = syn.lead_etf || idx.kosdaq_pair?.winner || idx.kospi_pair?.winner;
       if (bestNow) {
         const icon = bestNow.dir === "UP" ? "📈" : "📉";
         const dp = Number(bestNow.day_above_pct || 0).toFixed(0);
+        const fm = Number(bestNow.flow_surge_mult || 1.0).toFixed(2);
         bannerEl.classList.add("armed");
         tagEl.classList.add("armed");
-        tagEl.textContent = `🧭 현재 VWAP 체류 1위: ${bestNow.dir_label} (${dp}% 점유)`;
-        mainEl.innerHTML = `${icon} 현재 VWAP 상단 점유율 1위: <strong style="color:#0369A1;">${escHtml(bestNow.name)} (${escHtml(bestNow.code)})</strong> · 현재 <strong>${fmtWon(bestNow.cur_price)}</strong>`;
-        subEl.textContent = `당일 VWAP(${fmtWon(bestNow.vwap)}) 상단 체류비중 ${dp}% · 평일 오전 09:30 정각에 체류비중(67%+)으로 공식 방향을 확정합니다.`;
+        tagEl.textContent = syn.badge || `🧭 현재 우위: ${bestNow.dir_label} (체류 ${dp}%)`;
+        mainEl.innerHTML = `${icon} 종합 우위 지수: <strong style="color:#0369A1;">${escHtml(bestNow.name)} (${escHtml(bestNow.code)})</strong> · 현재 <strong>${fmtWon(bestNow.cur_price)}</strong>`;
+        subEl.textContent = `당일 VWAP(${fmtWon(bestNow.vwap)}) 상단 체류 ${dp}% · 평소 대비 자금 집중도 ${fm}배 · 평일 09:30 공식 확정`;
         rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(bestNow.code)}', '${escHtml(bestNow.name)}')">📋 ${escHtml(bestNow.code)} 복사</button>`;
       }
     }
@@ -1820,6 +1883,8 @@
       const wPct = Number(w.day_above_pct ?? 50).toFixed(0);
       const wmPct = Number(w.morn_above_pct ?? wPct).toFixed(0);
       const oPct = Number(o.day_above_pct ?? 50).toFixed(0);
+      const fm = Number(w.flow_surge_mult ?? 1.0).toFixed(2);
+      const mShare = Number(w.pair_money_share_pct ?? 50).toFixed(0);
       const arrow = isUp ? "📈 상승 우위" : "📉 하락(인버스) 우위";
       boxEl.style.cursor = "pointer";
       boxEl.onclick = () => copyStockCode(w.code, w.name);
@@ -1841,14 +1906,80 @@
         <div style="font-size:12.5px; font-weight:800; color:var(--text-muted); margin-top:4px;">
           VWAP 체류 <strong style="color:#0369A1;">당일 ${wPct}%</strong> (09:30기준 <strong>${wmPct}%</strong>) · VWAP <strong>${fmtWon(w.vwap)}</strong> (<strong class="${w.vwap_gap_pct >= 0 ? "up-txt" : "dn-txt"}">${w.vwap_gap_pct >= 0 ? "+" : ""}${Number(w.vwap_gap_pct).toFixed(2)}%</strong>)
         </div>
+        <div style="font-size:12px; font-weight:800; color:#075985; margin-top:3px;">
+          💰 자금 쏠림: 평소 대비 <strong>${fm}배</strong> 집중 (양방향 중 거래대금 <strong>${mShare}%</strong> 차지)
+        </div>
         <div style="font-size:11.5px; font-weight:700; color:#64748B; margin-top:4px; padding-top:4px; border-top:1px dashed #BAE6FD;">
           반대편: ${escHtml(o.name)} ${fmtWon(o.cur_price)} (당일 VWAP 상단 체류 ${oPct}%)
         </div>
       `;
     }
 
-    renderPairBox(kospiBox, "🏛️ 코스피 200 · VWAP 체류 우위", idx.kospi_pair);
-    renderPairBox(kosdaqBox, "🚀 코스닥 150 · VWAP 체류 우위", idx.kosdaq_pair);
+    renderPairBox(kospiBox, "🏛️ 코스피 200 · 정방향 vs 인버스", idx.kospi_pair);
+    renderPairBox(kosdaqBox, "🚀 코스닥 150 · 정방향 vs 인버스", idx.kosdaq_pair);
+
+    // 외국인·기관 수급 + 환율 + 미 증시 카드 렌더링
+    if (macroBox && macro && ("kospi_foreign_eok" in macro)) {
+      const kpf = Number(macro.kospi_foreign_eok || 0);
+      const kpi = Number(macro.kospi_inst_eok || 0);
+      const kqf = Number(macro.kosdaq_foreign_eok || 0);
+      const kqi = Number(macro.kosdaq_inst_eok || 0);
+      const fx = Number(macro.usdkrw || 0);
+      const fxc = Number(macro.usdkrw_chg || 0);
+      const ndx = Number(macro.nasdaq_pct || 0);
+      const sox = Number(macro.sox_pct || 0);
+      const mDir = macro.macro_dir || "NEUTRAL";
+      const mBg = mDir === "UP" ? "#ECFDF5" : (mDir === "DN" ? "#FFF1F2" : "#F1F5F9");
+      const mCol = mDir === "UP" ? "#047857" : (mDir === "DN" ? "#BE123C" : "#475569");
+      macroBox.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
+          <span class="lab-kpi-lbl" style="margin:0;">🌍 외국인·기관 수급 & 환율·미증시</span>
+          <span style="font-size:11px; font-weight:900; padding:2px 8px; border-radius:999px; background:${mBg}; color:${mCol};">
+            ${escHtml(macro.macro_label || "수급 분석")}
+          </span>
+        </div>
+        <div style="font-size:12.5px; font-weight:800; color:var(--text-main); line-height:1.6;">
+          • 코스피 수급: 외인 <strong class="${kpf >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kpf)}</strong> · 기관 <strong class="${kpi >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kpi)}</strong><br>
+          • 코스닥 수급: 외인 <strong class="${kqf >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kqf)}</strong> · 기관 <strong class="${kqi >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kqi)}</strong><br>
+          • 환율·미증시: 원/달러 <strong>${fx > 0 ? fx.toFixed(1) + "원" : "-"}</strong> (${fxc >= 0 ? "+" : ""}${fxc.toFixed(1)}) · 나스닥 <strong class="${ndx >= 0 ? "up-txt" : "dn-txt"}">${ndx >= 0 ? "+" : ""}${ndx.toFixed(2)}%</strong> · 반도체 <strong class="${sox >= 0 ? "up-txt" : "dn-txt"}">${sox >= 0 ? "+" : ""}${sox.toFixed(2)}%</strong>
+        </div>
+      `;
+    }
+
+    // 실시간 시황 핵심 뉴스 카드 렌더링
+    if (newsBox && macro) {
+      const hls = Array.isArray(macro.headlines) ? macro.headlines : [];
+      const nDir = macro.news_dir || "NEUTRAL";
+      const nBg = nDir === "UP" ? "#ECFDF5" : (nDir === "DN" ? "#FFF1F2" : "#F1F5F9");
+      const nCol = nDir === "UP" ? "#047857" : (nDir === "DN" ? "#BE123C" : "#475569");
+      if (!hls.length) {
+        newsBox.innerHTML = `
+          <div class="lab-kpi-lbl">📰 지수 영향 실시간 핵심 시황뉴스</div>
+          <div style="font-size:12.5px; color:var(--text-muted); margin-top:6px;">현재 집계된 주요 시황 속보가 없습니다.</div>
+        `;
+      } else {
+        newsBox.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
+            <span class="lab-kpi-lbl" style="margin:0;">📰 지수 영향 실시간 핵심 시황뉴스</span>
+            <span style="font-size:11px; font-weight:900; padding:2px 8px; border-radius:999px; background:${nBg}; color:${nCol};">
+              ${escHtml(macro.news_label || "시황 브리핑")}
+            </span>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:5px;">
+            ${hls.map(n => {
+              const tPill = n.tone === "UP"
+                ? `<span style="color:#BE123C; font-weight:900;">[강세]</span>`
+                : (n.tone === "DN" ? `<span style="color:#1D4ED8; font-weight:900;">[경계]</span>` : `<span style="color:#0369A1; font-weight:900;">[시황]</span>`);
+              return `
+                <a href="${escHtml(n.url || '#')}" target="_blank" rel="noopener" style="text-decoration:none; font-size:12.5px; font-weight:800; color:#0F172A; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                  ${tPill} ${escHtml(n.title)} <span style="font-size:11px; color:#64748B; font-weight:700;">(${escHtml(n.time || "")})</span>
+                </a>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }
+    }
 
     const stats = idx.stats || {};
     const hist = Array.isArray(idx.history) ? idx.history : [];
@@ -1856,7 +1987,7 @@
       const sr = Number(stats.sum_return_pct || 0);
       histSumEl.textContent = hist.length > 0
         ? `지수 방향 예측 누적 성적: ${sr >= 0 ? "+" : ""}${sr.toFixed(2)}% · 승률 ${Number(stats.win_rate_pct || 0).toFixed(1)}% (${hist.length}건 보기)`
-        : `지수 방향 예측 일자별 기록 보기 (8~11월 4개월 연속 수익 · 복리 +24.1%)`;
+        : `지수 방향 예측 일자별 기록 보기 (3박자 검증 공식 · 09:30 확정 ~ 15:15 정산)`;
     }
     if (histListEl && hist.length > 0) {
       histListEl.innerHTML = hist.map((h) => {
