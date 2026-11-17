@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:31:20",
-  "updated_at_et": "2026-11-17 04:31:20",
-  "updated_epoch_ms": 1794907880320,
+  "updated_at_kst": "2026-11-17 18:32:01",
+  "updated_at_et": "2026-11-17 04:32:01",
+  "updated_epoch_ms": 1794907921886,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:31:16"
+    "updated_kst": "18:31:55"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 38,
+    "today_hardcut": 40,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:31:54",
+      "time_kst": "18:31:54",
+      "symbol": "AXG",
+      "company_name": "AXG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $184.65M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:31:24",
+      "time_kst": "18:31:24",
+      "symbol": "SPWR",
+      "company_name": "SPWR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:30:54",
       "time_kst": "18:30:54",
       "symbol": "HTLM",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $227737.39M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:31:37",
-      "time_kst": "01:31:37",
-      "symbol": "STBA",
-      "company_name": "STBA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1798.6M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:30:14",
-      "time_kst": "01:30:14",
-      "symbol": "AVNW",
-      "company_name": "AVNW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $212.82M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
