@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:54:00",
-  "updated_at_et": "2026-11-17 07:54:00",
-  "updated_epoch_ms": 1794920040453,
+  "updated_at_kst": "2026-11-17 21:54:49",
+  "updated_at_et": "2026-11-17 07:54:49",
+  "updated_epoch_ms": 1794920089282,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:53:55"
+    "updated_kst": "21:54:35"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:54:44",
+      "time_kst": "21:54:44",
+      "symbol": "CHAI",
+      "company_name": "CHAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Core AI Reports Third Quarter 2026 Results, with Revenue G)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:51:20",
       "time_kst": "21:51:20",
       "symbol": "SYPR",
@@ -2444,16 +2454,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Sypris Reports Third Quarter Results)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:50:53",
-      "time_kst": "21:50:53",
-      "symbol": "CHAI",
-      "company_name": "CHAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Core AI Reports Third Quarter 2026 Results, with Revenue G)"
     },
     {
       "date_et": "2026-11-17",
