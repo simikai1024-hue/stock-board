@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:15:44",
-  "updated_at_et": "2026-11-17 10:15:44",
-  "updated_epoch_ms": 1794928544401,
+  "updated_at_kst": "2026-11-18 00:16:36",
+  "updated_at_et": "2026-11-17 10:16:36",
+  "updated_epoch_ms": 1794928596492,
   "analyzing": {
-    "active": true,
-    "symbol": "SMX",
-    "company_name": "SMX",
-    "exchange": "ND",
-    "price": 5.18,
-    "gain_pct": 41.53,
-    "mcap_m": 5.64,
-    "catalyst_hint": "[당일 PR] SMX Aims to Close the Verification Gap in Global Gold Trading With trueGold",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "10:15:27",
-    "started_at_kst": "00:15:27",
-    "started_epoch_ms": 1794928527619
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:15:43"
+    "updated_kst": "00:16:21"
   },
   "stats": {
-    "today_total": 55,
-    "today_nblm_count": 55,
+    "today_total": 56,
+    "today_nblm_count": 56,
     "today_buy": 0,
-    "today_false": 55,
+    "today_false": 56,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
-    "avg_nblm_sec": 47.8
+    "avg_nblm_sec": 48.2
   },
   "verdicts": [
+    {
+      "id": "v_1794928590859_SMX_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "10:16:30",
+      "time_kst": "00:16:30",
+      "symbol": "SMX",
+      "company_name": "SMX",
+      "exchange": "ND",
+      "price": 5.18,
+      "gain_pct": 41.53,
+      "mcap_m": 5.64,
+      "decision": "FALSE",
+      "elapsed_sec": 67.3,
+      "reason": "확정 수주 전무 및 전일(11/16) 기공시된 trueGold 홍보를 제목만 바꾼 100% 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 및 장중 -23.5% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] SMX Aims to Close the Verification Gap in Global Gold Trading With trueGold",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SMX (SMX (Security Matters) Public Limited Company) 2026-11-17 10:15 ET 본장 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.64M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 **일절 미감지 (구체적 계약 달러 금액 전무)**.\n발표된 실체는 현금 선급금이 발생하는 상업 계약이 아니라, 단순 금 감별/추적 자회사 trueGold 기술 홍보 및 콘퍼런스 참가 언급에 불과합니다.\n실시간 체결가 및 수급 (장중 고점 $6.7700 찍은 후 고점 대비 -23.5% 급락 덤핑):\n전일 종가 $3.6600 대비 현재가 $5.1800 (+41.53%), 당일 최고가 $6.7700 (고점 대비 -23.5%).\n당일 누적 거래대금 $9,563,181 USD (약 956만 달러의 대량 거래량이 회전되며 윗꼬리 장대음봉 출회).\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 10:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"SMX Aims to Close the Verification Gap in Global Gold Trading With trueGold\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 기술 개발 및 콘퍼런스 참가 홍보물 (trueGold PR):\n원문 본문에 *\"SMX is developing technology to authenticate physical gold and connect it with secure records throughout its lifecycle... SMX is highlighting the technology in connection with the 2026 Dubai Precious Metals Conference, held November 16-17...\"*라고 명시되어 있습니다.\n이는 글로벌 정련소나 거래소와의 확정된 거액 상업 공급 계약이나 라이선스 체결이 아니라, 두바이 귀금속 콘퍼런스(11/16~17) 일정에 맞춰 자회사 trueGold의 금 분자 마킹 기술을 소개하고 상용화를 목표로 한다는 단순 기술 개발/행사 홍보 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n전일(11/16) 배포된 금 추적 PR 및 6-K(EX-99.1)의 문구만 바꾼 100% 재탕 쪼개기 언론플레이:\n과거 180일 원장 대조 결과 회사는 이미 전일인 2026년 11월 16일에 다음과 같은 동일 주제의 PR 3건을 배포하고 6-K(EX-99.1)로 공시했습니다\n:\n*[11/16 09:30 ET] \"SMX Targets the Missing Link in Global Gold Markets: Proof\"*\n*[11/16] \"SMX Brings a New Level of Transparency to Gold Trading Through trueGold Technology\"*\n*[11/16] \"SMX: The Future of Gold Will Be Defined by What We Know About It — Powering Verified Trade and Tokenisation\"*\n전일 6-K에 첨부된 *\"The future of gold will not only be defined by what it is worth. It will also be defined by what we know about it\"*라는 문구를 오늘 보도자료(11/17 10:00 ET) 본문에서도 토씨 하나 틀리지 않고 그대로 재인용하고 있습니다.\n즉, 당일 발표는 신규 호재가 아니라 **전일 발표했던 trueGold 홍보 보도자료를 두바이 행사 2일 차에 맞춰 제목만 살짝 비틀어 다시 살포한 전형적인 쪼개기 우려먹기 재탕(Spin PR)**입니다.\n잠재적 대량 주식 희석 리스크 상존 (424B3 리세일 오퍼링 대기):\nSEC 제출 이력 대조 결과 회사는 2026년 11월 9일 2.8:1 주식병합 직후인 11월 12일과 11월 13일에 연달아 424B3(최대 9,076,535주 매각 보충서)를 제출했습니다.\n주가가 튈 때마다 기존 투자자들의 매도 물량이 쏟아질 수 있는 구조적 오버행 함정이 열려 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장중 -23.5% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 전일 기발표된 trueGold 홍보의 노골적인 쪼개기 재탕 및 ④ 신규 확정 계약 금액 및 현금 유입이 없는 단순 콘퍼런스 참가/기술 개발 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장중 $6.7700까지 급등을 유도하여 $9.5M의 거래량을 터뜨린 후 고점 대비 -23.5% 급락하며 개미들에게 물량을 덤핑 중인 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무하고, 전일(11/16) 기발표된 trueGold 홍보 및 6-K 공시를 두바이 행사 2일 차에 맞춰 제목만 바꾼 100% 쪼개기 재탕 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장중 고점 대비 -23.5% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SMX 처리합니다.\n계좌 보호 원칙에 의거하여 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SMX NOTES:\n[SMX] 확정 수주 전무 및 전일(11/16) 기공시된 trueGold 홍보를 제목만 바꾼 100% 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 및 장중 -23.5% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 장전 및 본장 10:15 ET 구간까지 접수된 총 35개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI, SPCB, EDSA, CDIO, TOPS, SCWO, SMX) 전수가 껍데기 IR, 단순 실적/지표 재포장, 쪼개기 재탕으로 정밀 감별되어 안전하게 전량 방어되었습니다. 본장 중 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794927754358_SCWO_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,19 @@
       "full_report": "[Track B: 초품절 숏스퀴즈 스나이퍼 실시간 점화 포착]\n- 종목: GOVX (NASDAQ)\n- 현재가: $2.3 (+34.90%, 전일종가 $1.7050)\n- 유통주식총액: $0.607M (유통주식수 0.356M주)\n- 공매도 잔고 비중: 49.42%\n- 실시간 마진콜 점화: 누적거래대금 $1.5M / 회전율 2.1배\n- 당일(D-Day) 오퍼링·희석 폭탄: 0건 확인 완료 -> 즉시 선점 매수 및 +51% 매복 익절 발주!",
       "engine": "NotebookLM 직통",
       "trade_action": "🚀 즉시 선점매수 승인!"
-    },
-    {
-      "id": "v_1794825026390_CLRO_BUY",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "05:30:26",
-      "time_kst": "19:30:26",
-      "symbol": "CLRO",
-      "company_name": "CLRO",
-      "exchange": "ND",
-      "price": 5.06,
-      "gain_pct": 50.15,
-      "mcap_m": 2.99,
-      "decision": "BUY",
-      "elapsed_sec": 0.3,
-      "reason": "🔥 [순수 무뉴스 초품절 숏스퀴즈 점화 확정] 유통총액 $2.99M(0.89M주) | 공매도 44.0% | 회전율 3.94x($14.77M) | 공식PR·SEC공시 0건",
-      "catalyst_hint": "[Track B 초품절 숏스퀴즈] 유통총액 $2.993M | 공매도 44.05% | 회전율 3.94x",
-      "full_report": "[Track B: 초품절 숏스퀴즈 스나이퍼 실시간 점화 포착]\n- 종목: CLRO (NASDAQ)\n- 현재가: $5.06 (+50.15%, 전일종가 $3.3700)\n- 유통주식총액: $2.993M (유통주식수 0.888M주)\n- 공매도 잔고 비중: 44.05%\n- 실시간 마진콜 점화: 누적거래대금 $14.77M / 회전율 3.94배\n- 당일(D-Day) 오퍼링·희석 폭탄: 0건 확인 완료 -> 즉시 선점 매수 및 +51% 매복 익절 발주!",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🚀 실전매수 체결 완료 (182주 @ 평단 $4.9498)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "10:16:01",
+      "time_kst": "00:16:01",
+      "symbol": "DENN",
+      "company_name": "DENN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "10:14:11",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $7039.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:08:28",
-      "time_kst": "23:08:28",
-      "symbol": "WSFS",
-      "company_name": "WSFS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4014.35M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
