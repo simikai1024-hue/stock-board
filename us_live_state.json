@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:09:44",
-  "updated_at_et": "2026-11-17 09:09:44",
-  "updated_epoch_ms": 1794924584775,
+  "updated_at_kst": "2026-11-17 23:09:56",
+  "updated_at_et": "2026-11-17 09:09:56",
+  "updated_epoch_ms": 1794924596774,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SPCB",
+    "company_name": "SPCB",
+    "exchange": "ND",
+    "price": 7.14,
+    "gain_pct": 2.15,
+    "mcap_m": 44.84,
+    "catalyst_hint": "[당일 PR] SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:09:52",
+    "started_at_kst": "23:09:52",
+    "started_epoch_ms": 1794924592049
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:27"
+    "updated_kst": "23:09:48"
   },
   "stats": {
     "today_total": 47,
