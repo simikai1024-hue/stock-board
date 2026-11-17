@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:36:24",
-  "updated_at_et": "2026-11-17 08:36:24",
-  "updated_epoch_ms": 1794922584514,
+  "updated_at_kst": "2026-11-17 22:37:05",
+  "updated_at_et": "2026-11-17 08:37:05",
+  "updated_epoch_ms": 1794922625827,
   "analyzing": {
-    "active": true,
-    "symbol": "TOMZ",
-    "company_name": "TOMZ",
-    "exchange": "ND",
-    "price": 2.57,
-    "gain_pct": 4.9,
-    "mcap_m": 20.93,
-    "catalyst_hint": "[당일 PR] TOMI Environmental Solutions Regains Compliance with Nasdaq Minimum Bid Price and Stockholders’ Equity Requirements",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:36:22",
-    "started_at_kst": "22:36:22",
-    "started_epoch_ms": 1794922582018
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:36:05"
+    "updated_kst": "22:36:46"
   },
   "stats": {
-    "today_total": 33,
-    "today_nblm_count": 33,
+    "today_total": 34,
+    "today_nblm_count": 34,
     "today_buy": 0,
-    "today_false": 33,
+    "today_false": 34,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 14,
     "total_false": 136,
-    "avg_nblm_sec": 45.4
+    "avg_nblm_sec": 45.2
   },
   "verdicts": [
+    {
+      "id": "v_1794922617822_TOMZ_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "08:36:57",
+      "time_kst": "22:36:57",
+      "symbol": "TOMZ",
+      "company_name": "TOMZ",
+      "exchange": "ND",
+      "price": 2.57,
+      "gain_pct": 4.9,
+      "mcap_m": 20.93,
+      "decision": "FALSE",
+      "elapsed_sec": 39.4,
+      "reason": "수주/매출 전무 및 11/12 기준 경과한 나스닥 요건회복 사후 뒷북 PR(BJDX형)이며 ONFO형(시총 $15M 이하+CB 0원 소멸) 미달로 전량 차단",
+      "catalyst_hint": "[당일 PR] TOMI Environmental Solutions Regains Compliance with Nasdaq Minimum Bid Price and Stockholders’ Equity Requirements",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 TOMZ (TOMI Environmental Solutions, Inc.) 2026-11-17 08:36 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $20.93M USD (나스닥 상장, 연구소 1차 시가총액 $50.0M 이하 체급 관문 통과).\n⚠️ 체급 주의 요건: 연구소 헌법 제2조 ②항의 상장폐지 방어/자기자본 충족 특례(FORCE_BUY) 체급 기준인 \"시가총액 $15.0M 이하 초소형 품절주\" 관문 초과 ($20.93M > $15.0M).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 외부 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.4500 대비 현재가 $2.5700 (+4.90%), 당일 최고가 $2.5700 (고점 대비 +0.0%).\n당일 누적 거래대금 $18 USD (18달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 사후 뒷북 공시 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-17 [10-Q], [NT 10-Q] 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"TOMI Environmental Solutions Regains Compliance with Nasdaq Minimum Bid Price and Stockholders’ Equity Requirements\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n이미 5일 전(11/12) 효력이 경과한 행정 통보의 사후 뒷북 보도자료 (BJDX형 사후 뒷북 8-K/PR 오답 패턴):\n원문 본문에 *\"today announced that as of November 12, 2026, the Company has regained compliance with the minimum closing bid price and stockholders’ equity requirements under Nasdaq Listing Rules 5550(a)(2) and 5550(b)(1)...\"*라고 명시되어 있습니다.\n이는 오늘 실시간으로 터진 호재가 아니라, 이미 지난주 목요일인 **2026년 11월 12일 기준(as of November 12, 2026)으로 충족 완료되어 시세가 소멸된 과거 사건을 5일 뒤 사후에 뒤늦게 보도자료로 배포한 전형적인 '사후 뒷북 PR(BJDX형 실전 오답 교본)'**입니다.\nONFO형 진짜 대장주 요건(시총 $15M 이하 + CB 0원 소멸) 미달:\n연구소 헌법 제2조 ②항에 따른 자기자본 충족 승인 공식(ONFO형)은 **\"① 시총 $15M 이하 초소형 품절주 + ② 나스닥 최소 자기자본 충족 + ③ 잔여 전환사채(CB) 0원 전액 소멸\"**이 동시에 증명되어야 합니다.\nTOMZ는 실질 시총이 $20.93M으로 $15M 기준을 초과할 뿐만 아니라, 원문 어디에도 잔여 전환사채(CB) 오버행이 0원으로 전액 영구 소멸되었다는 확정 증빙이 결여되어 있습니다.\n확정 매출/현금 유입 전무 (단순 규정 준수 통보):\n외부 고객사나 정부로부터 유입되는 확정 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 및 사후 뒷북 차단 규칙 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 인허가/유예/규정 준수(Compliance) 통보 및 이미 효력이 경과한 사후 뒷북 홍보물은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 유입이 전무하고, 이미 11월 12일 자로 효력이 경과한 나스닥 요건 충족(최소 입찰가 및 자기자본) 결과를 5일 만에 사후 배포한 뒷북 홍보물(BJDX형)에 불과하며, 시총 $15M 초과 및 전환사채 0원 소멸 미증빙으로 ONFO형 대박 조건에 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: TOMZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: TOMZ NOTES:\n[TOMZ] 수주/매출 전무 및 11/12 기준 경과한 나스닥 요건회복 사후 뒷북 PR(BJDX형)이며 ONFO형(시총 $15M 이하+CB 0원 소멸) 미달로 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794922504247_IDAI_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,49 @@
       "full_report": "",
       "engine": "실전 포지션 정산",
       "trade_action": "🛡️ 손절 청산: 30주 | 매수 $5.9310 → 매도 $4.8929 (-17.50% / -31.14$)"
-    },
-    {
-      "id": "v_1794495082116_MBRX_FALSE",
-      "date_et": "2026-11-12",
-      "weekday_kr": "목",
-      "time_et": "09:51:22",
-      "time_kst": "23:51:22",
-      "symbol": "MBRX",
-      "company_name": "MBRX",
-      "exchange": "ND",
-      "price": 8.5913,
-      "gain_pct": 6.72,
-      "mcap_m": 9.02,
-      "decision": "FALSE",
-      "elapsed_sec": 49.4,
-      "reason": "금액 미기재 단순 호주 특허 취득(Item 7.01) PR은 실체적 현금 유입 없는 1급 기폭제 미달로 전량 차단",
-      "catalyst_hint": "[당일 PR] Moleculin Secures Australian Patent for Annamycin Formulation Technology",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MBRX (Moleculin Biotech, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.02M USD (연구소 시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $8.0500 대비 현재가 $8.5913 (+6.72%), 당일 최고가 $8.7107 (고점 대비 -1.4%), 당일 누적 거래대금 $52,271 USD.\n주식병합 효력 1일차 여부: False (품절주 병합 D-Day 수급 아님).\n2. D-Day SEC 8-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/12 08:37 ET) 공식 PR 및 SEC 8-K 원문 분석:\nSEC 공시 현황: 2026-11-12 [8-K] (Item 7.01 Regulation FD Disclosure, 9.01) 접수.\nPR 제목: *\"Moleculin Secures Australian Patent for Annamycin Formulation Technology\"*\n원문 팩트:\n호주 특허청으로부터 리포좀 안나마이신 동결건조 제형 기술에 관한 특허(Australian Patent No. 2020303572)를 승인받았다는 단순 해외 특허 취득(Patent Grant) 발표입니다.\nSEC 8-K 공시 또한 신규 대형 수주(1.01)나 병합(5.03)이 아닌, 언론 보도자료를 첨부하는 **단순 행정 보고용 Item 7.01(Regulation FD Disclosure)**입니다.\n치명적 기폭제 결함 (1급 확정 기폭제 절대 미달):\n구체적 현금 유입 및 확정 금액 전무: FDA 최종 신약 승인, 확정적 달러 수주/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지 등 기업 가치를 수직 폭등시킬 수 있는 실체적 계약이 전혀 없습니다.\n재무 조달 리스크 상존: 원문 면책 조항에 \"Moleculin will require significant additional financing, for which the Company has no commitments, in order to conduct its clinical trials\" (임상 진행을 위해 확약되지 않은 상당한 추가 자금 조달이 필요함)라고 명시되어 있어 유상증자 잠재 리스크가 열려 있습니다.\n전략 헌장 제1장 2번 및 심사 기준 3번 위배: 족보집 헌장상 '구체적 금액 미기재 단순 샘플/MOU/특허/주주서한/정기실적은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 정확히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 발표된 8-K(Item 7.01) 및 공식 PR은 구체적 현금 유입이 없는 단순 호주 특허 취득 안내에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 전략 헌장 원칙에 의거 FORCE_BLOCK: MBRX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-12 FORCE_BUY: NONE FORCE_BLOCK: MBRX NOTES:\n[MBRX] 금액 미기재 단순 호주 특허 취득(Item 7.01) PR은 실체적 현금 유입 없는 1급 기폭제 미달로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:37:02",
+      "time_kst": "22:37:02",
+      "symbol": "QTI",
+      "company_name": "QTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 학회·컨퍼런스 참가/발표 예고 PR 차단 (QT Imaging to Participate in the 17th Annual Craig-Hallum )"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:36:49",
+      "time_kst": "22:36:49",
+      "symbol": "MANH",
+      "company_name": "MANH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $14975.91M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:36:41",
+      "time_kst": "22:36:41",
+      "symbol": "FBYD",
+      "company_name": "FBYD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $260.17M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:36:34",
+      "time_kst": "22:36:34",
+      "symbol": "APEI",
+      "company_name": "APEI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $737.23M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "08:36:04",
@@ -2906,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1164.28M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:01:44",
-      "time_kst": "22:01:44",
-      "symbol": "ADUR",
-      "company_name": "ADUR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $339.17M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:01:39",
-      "time_kst": "22:01:39",
-      "symbol": "ALGM",
-      "company_name": "ALGM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5242.04M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:01:29",
-      "time_kst": "22:01:29",
-      "symbol": "FLY",
-      "company_name": "FLY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3861.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:01:22",
-      "time_kst": "22:01:22",
-      "symbol": "ADAG",
-      "company_name": "ADAG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $107.43M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
