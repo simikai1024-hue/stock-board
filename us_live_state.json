@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:31:29",
-  "updated_at_et": "2026-11-17 06:31:29",
-  "updated_epoch_ms": 1794915089577,
+  "updated_at_kst": "2026-11-17 20:32:14",
+  "updated_at_et": "2026-11-17 06:32:14",
+  "updated_epoch_ms": 1794915134115,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:31:25"
+    "updated_kst": "20:32:06"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "06:32:11",
+      "time_kst": "20:32:11",
+      "symbol": "MRX",
+      "company_name": "MRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5078.32M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "06:32:07",
+      "time_kst": "20:32:07",
+      "symbol": "OPRA",
+      "company_name": "OPRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1369.33M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "06:32:03",
+      "time_kst": "20:32:03",
+      "symbol": "WLFC",
+      "company_name": "WLFC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1054.19M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "06:31:41",
+      "time_kst": "20:31:41",
+      "symbol": "BURU",
+      "company_name": "BURU",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "06:31:36",
+      "time_kst": "20:31:36",
+      "symbol": "BRNX",
+      "company_name": "BRNX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:25:37",
       "time_kst": "20:25:37",
       "symbol": "ESLT",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:17:58",
-      "time_kst": "18:17:58",
-      "symbol": "APVO",
-      "company_name": "APVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:17:43",
-      "time_kst": "18:17:43",
-      "symbol": "VHUB",
-      "company_name": "VHUB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:17:05",
-      "time_kst": "18:17:05",
-      "symbol": "WNW",
-      "company_name": "WNW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58.08M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:16:57",
-      "time_kst": "18:16:57",
-      "symbol": "AQB",
-      "company_name": "AQB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:16:48",
-      "time_kst": "18:16:48",
-      "symbol": "CENN",
-      "company_name": "CENN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
     }
   ]
 }
