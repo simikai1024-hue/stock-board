@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:44:01",
-  "updated_at_et": "2026-11-17 10:44:01",
-  "updated_epoch_ms": 1794930241958,
+  "updated_at_kst": "2026-11-18 00:44:45",
+  "updated_at_et": "2026-11-17 10:44:45",
+  "updated_epoch_ms": 1794930285943,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:43:56"
+    "updated_kst": "00:44:36"
   },
   "stats": {
     "today_total": 56,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "10:44:31",
+      "time_kst": "00:44:31",
+      "symbol": "PRSO",
+      "company_name": "PRSO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "10:36:57",
       "time_kst": "00:36:57",
       "symbol": "PRE",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-17 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:08:51",
-      "time_kst": "23:08:51",
-      "symbol": "MYGN",
-      "company_name": "MYGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $534.29M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
