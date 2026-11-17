@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:24:44",
-  "updated_at_et": "2026-11-17 09:24:44",
-  "updated_epoch_ms": 1794925484690,
+  "updated_at_kst": "2026-11-17 23:25:48",
+  "updated_at_et": "2026-11-17 09:25:48",
+  "updated_epoch_ms": 1794925548252,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:24:39"
+    "updated_kst": "23:25:43"
   },
   "stats": {
     "today_total": 50,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:25:05",
+      "time_kst": "23:25:05",
+      "symbol": "MIST",
+      "company_name": "MIST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.55M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:20:49",
       "time_kst": "23:20:49",
       "symbol": "RDHL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "단순 학회·컨퍼런스 참가/발표 예고 PR 차단 (QT Imaging to Participate in the 17th Annual Craig-Hallum )"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:36:49",
-      "time_kst": "22:36:49",
-      "symbol": "MANH",
-      "company_name": "MANH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $14975.91M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
