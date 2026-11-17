@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 19:08:27",
-  "updated_at_et": "2026-11-17 05:08:27",
-  "updated_epoch_ms": 1794910107603,
+  "updated_at_kst": "2026-11-17 19:09:25",
+  "updated_at_et": "2026-11-17 05:09:25",
+  "updated_epoch_ms": 1794910165480,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:08:23"
+    "updated_kst": "19:09:23"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 51,
+    "today_hardcut": 52,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "05:08:40",
+      "time_kst": "19:08:40",
+      "symbol": "CVU",
+      "company_name": "CVU",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $61.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "05:00:52",
       "time_kst": "19:00:52",
       "symbol": "NVDA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $64.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:00:33",
-      "time_kst": "18:00:33",
-      "symbol": "CYAB",
-      "company_name": "CYAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,8.01,9.01))"
     }
   ]
 }
