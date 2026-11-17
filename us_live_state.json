@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:27:03",
-  "updated_at_et": "2026-11-17 08:27:03",
-  "updated_epoch_ms": 1794922023659,
+  "updated_at_kst": "2026-11-17 22:27:51",
+  "updated_at_et": "2026-11-17 08:27:51",
+  "updated_epoch_ms": 1794922071427,
   "analyzing": {
-    "active": true,
-    "symbol": "PFAI",
-    "company_name": "PFAI",
-    "exchange": "ND",
-    "price": 2.8361,
-    "gain_pct": 5.63,
-    "mcap_m": 33.37,
-    "catalyst_hint": "[당일 PR] Pinnacle Food Group Limited Achieves Laboratory-Scale Astaxanthin Extraction in Haematococcus pluvialis Program",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:26:58",
-    "started_at_kst": "22:26:58",
-    "started_epoch_ms": 1794922018991
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:26:44"
+    "updated_kst": "22:27:43"
   },
   "stats": {
-    "today_total": 29,
-    "today_nblm_count": 29,
+    "today_total": 30,
+    "today_nblm_count": 30,
     "today_buy": 0,
-    "today_false": 29,
+    "today_false": 30,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 14,
     "total_false": 136,
-    "avg_nblm_sec": 44.2
+    "avg_nblm_sec": 44.3
   },
   "verdicts": [
+    {
+      "id": "v_1794922063239_PFAI_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "08:27:43",
+      "time_kst": "22:27:43",
+      "symbol": "PFAI",
+      "company_name": "PFAI",
+      "exchange": "ND",
+      "price": 2.8361,
+      "gain_pct": 5.63,
+      "mcap_m": 33.37,
+      "decision": "FALSE",
+      "elapsed_sec": 47.8,
+      "reason": "확정 수주/매출 전무한 단순 실험실 규모(Laboratory-Scale) 아스타잔틴 추출 R&D 홍보 PR로 헌법 3조 4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Pinnacle Food Group Limited Achieves Laboratory-Scale Astaxanthin Extraction in Haematococcus pluvialis Program",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 PFAI (Pinnacle Food Group Limited) 2026-11-17 08:26 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.37M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.6850 대비 현재가 $2.8361 (+5.63%), 당일 최고가 $2.8361 (고점 대비 +0.0%).\n당일 누적 거래대금 $3,598 USD (3천5백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:15 ET) 공식 PR 원문 분석:\nPR 제목: \"Pinnacle Food Group Limited Achieves Laboratory-Scale Astaxanthin Extraction in Haematococcus pluvialis Program\"\n원문 직독 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 실험실 규모 추출 성공 발표 (Laboratory-Scale R&D PR):\n본 PR의 본질은 글로벌 식품/제약 기업과의 상업적 공급 계약이나 거액 수주가 아니라, 헤마토코쿠스 플루비알리스 미세조류 프로그램에서 **실험실 규모(laboratory scale)의 아스타잔틴 추출을 달성했다는 초기 R&D 연구 단계 발표 보도자료(Achieves Laboratory-Scale Astaxanthin Extraction... Research workflow advances... at laboratory scale)**에 불과합니다.\n외부 고객사로부터 유입되는 확정된 구매 주문액(PO), 최소 구매 수량(MOQ), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 M&A 자문사 선임(10/27) 이후 배포된 연구단계 홍보성 뉴스:\n과거 이력 대조 결과 회사는 10월 27일 M&A 자문사 선임 발표 등 외형 확장을 시도했으나, 이번 발표 역시 상업화 이전 단계인 '실험실 수준(Laboratory-scale)' 연구 진척을 포장한 전형적인 R&D 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 연구개발/실험실 단위(Laboratory-Scale) 기술 진척 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 미세조류 아스타잔틴의 실험실 단위(Laboratory-Scale) 추출 성공 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: PFAI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: PFAI NOTES:\n[PFAI] 확정 수주/매출 전무한 단순 실험실 규모(Laboratory-Scale) 아스타잔틴 추출 R&D 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 22개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 자회사 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D로 확인되어 안전하게 전량 차단되었습니다\n. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794922004864_TURB_FALSE",
       "date_et": "2026-11-17",
@@ -2422,26 +2430,6 @@
       "reason": "Simply Wall St 마케팅 대행 홍보 기사(스폰서 콘텐츠)로 신규 확정 계약 금액 없는 초기 탐사 단계 PR로 1급 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] What Makes Heavy Rare Earths A Critical Element For America?",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TREO (Tactical Resources Corp.) 09:32 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $38.81M USD (연구소 시가총액 $50.0M 이하 소형 품절주 체급 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $2.6460 대비 현재가 $2.8518 (+7.78%), 당일 최고가 $2.8900 (고점 대비 -1.3%), 당일 누적 거래대금 $50,601 USD.\n공휴일 특례 적용: 금일(11/11)은 미국 연방공휴일(Veterans Day)로 SEC EDGAR 접수처 공식 휴무일이므로, 당일 8-K/6-K 미접수 사유로 자동 차단하지 않고 **[최근 35일 SEC 무희석 이력 + 당일 공식 PR 원문의 1급 기폭제 진위]**로 정밀 심사합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/11 04:30 ET) 기사/PR 원문 분석:\n제목: *\"What Makes Heavy Rare Earths A Critical Element For America?\"*\n원문 직독 결과 드러난 치명적 실체:\n스폰서 마케팅 홍보성 기사의 실체 (Paid Sponsored Narrative):\n원문 말미에 *\"Tactical Resources has a marketing services agreement with Simply Wall St. Details on compensation and other important information can be found in the disclosure and disclaimer at the end of the narrative\"*라고 명시되어 있습니다.\n즉, 회사의 공식적 규제 발표가 아니라 Simply Wall St와의 유료 마케팅 용역 계약(스폰서십)에 의해 작성·배포된 홍보용 기사/내러티브에 불과합니다.\n구체적 확정 달러 금액 및 상업화 실체 전무 (No Commercial Reality):\n텍사스 Peak Project의 희토류 샘플 40개 분석 및 잠재력을 언급하고 있으나, 원문 자체에서 \"While promising, the project remains at an early stage, with a resource estimate and commercial-scale processing yet to be proven\" (유망하나 프로젝트는 초기 단계이며, 자원 매장량 추정 및 상업적 규모 가공은 아직 입증되지 않음)이라고 자인하고 있습니다.\n확정된 대규모 달러 금액 수주, 자산 매각, M&A 완료, 현금 특별배당 등 회사의 기업 가치를 즉시 리레이팅시킬 수 있는 실체적 현금 흐름이 전혀 없습니다.\n1급 기폭제 기준 절대 미달:\n연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"구체적 계약 달러 금액 미기재, 단순 샘플/MOU/초기 탐사/주주서한 및 외부 마케팅 홍보 기사는 1급 확정 기폭제 미달로 100% FORCE_BLOCK\")에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 기사는 Simply Wall St와의 마케팅 계약에 따른 홍보성 스폰서 기사에 불과하며, 상업성이 입증되지 않은 초기 탐사 단계 언급으로 구체적 신규 현금 유입 계약이 전혀 없으므로 전략 헌장 원칙에 의거 FORCE_BLOCK: TREO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-11 FORCE_BUY: NONE FORCE_BLOCK: TREO NOTES:\n[TREO] Simply Wall St 마케팅 대행 홍보 기사(스폰서 콘텐츠)로 신규 확정 계약 금액 없는 초기 탐사 단계 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794406241574_TPST_FALSE",
-      "date_et": "2026-11-11",
-      "weekday_kr": "수",
-      "time_et": "09:10:41",
-      "time_kst": "23:10:41",
-      "symbol": "TPST",
-      "company_name": "TPST",
-      "exchange": "ND",
-      "price": 0.4068,
-      "gain_pct": 9.44,
-      "mcap_m": 8.13,
-      "decision": "FALSE",
-      "elapsed_sec": 41.8,
-      "reason": "단순 라이선스 옵션 행사(플랫폼 도입) PR로 구체적 현금 유입 금액 미기재 및 나스닥 주가 경고(3.01) 종목으로 1급 확정 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Tempest Therapeutics Exercises Option to License Senlang’s CD7-Targeted Lentiviral In Vivo CAR-T Platform Following Initial Phase 1 Results with Lead BCMA/GPRC5D Candidate",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 TPST (Tempest Therapeutics, Inc.) 09:09 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.13M USD (시가총액 $50.0M 이하 소형 품절주 체급 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.3717 대비 현재가 $0.4068 (+9.44%), 당일 최고가 $0.4359 (고점 대비 -6.7%), 당일 누적 거래대금 $63,213 USD.\n공휴일 특례 적용: 금일(11/11)은 미국 연방공휴일(Veterans Day)로 SEC EDGAR 접수처 공식 휴무일이므로, 당일 8-K/6-K 미접수 사유로 차단하지 않고 **[최근 35일 SEC 무희석 이력 + 당일 공식 PR 원문의 1급 기폭제 진위]**로 정밀 심사합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/11 08:53 ET) 공식 PR 원문 분석\n:\nPR 제목: *\"Tempest Therapeutics Exercises Option to License Senlang’s CD7-Targeted Lentiviral In Vivo CAR-T Platform Following Initial Phase 1 Results with Lead BCMA/GPRC5D Candidate\"*\n원문 직독 결과 드러난 치명적 실체:\n라이선스 도입(옵션 행사)에 따른 추가 비용 지출 구조 (돈이 들어오는 수주가 아님):\n본 PR의 본질은 중국 Senlang사로부터 글로벌 독점 권리를 가져오기 위해 **기존 계약상의 '옵션을 행사(Exercises Option to License)'**했다는 발표입니다.\n이는 확정적 대규모 현금이 회사로 유입되는 대형 수주/계약(SNT형, TURB형)이나 자산 매각/M&A가 아니며, 반대로 개발 권리를 사오기 위해 마일스톤 및 개발 비용 지출(현금 유출)이 수반되는 파이프라인 도입 건입니다.\n확정 금액 미기재 및 초기 예비 결과 한계:\n구체적인 확정 달러($) 계약 금액이 명시되어 있지 않으며, 임상 1상 초기 13명 환자 대상 예비 관찰(Initial Phase 1 / Preliminary responses) 단계로 학회 발표 예정 계획(results planned for presentation) 수준에 머물러 있습니다.\n연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"구체적 금액 미기재 단순 옵션/라이선스 계약/초기 파이프라인 업데이트 및 학회 발표 예정 뉴스는 1급 확정 기폭제 미달\")에 정확히 해당합니다.\n사전 상폐 경고(3.01) 및 재무 리스크 상존:\n최근 35일 SEC 공시 이력상 2026-11-06 [8-K Item 3.01](나스닥 30일 연속 $1 미만 주가 미달 경고 서한 수령)이 제출되어 있으며\n, 원문 면책 조항에도 \"need for additional capital to fund its planned programs and operations and to continue to operate as a going concern\" (계속기업 존속 및 프로그램 자금 조달을 위한 추가 자본 조달 필요성)이 명시되어 있어 자금난에 따른 유상증자 위험이 열려 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR이 구체적 현금 유입 금액이 없는 단순 라이선스 옵션 행사(In Vivo CAR-T 플랫폼 도입) 및 초기 1상 중간 결과에 불과하여 1급 확정 기폭제 기준에 미달하고, 상폐 경고(3.01) 및 자본 조달 리스크가 상존하므로 전략 헌장 원칙에 의거 FORCE_BLOCK: TPST 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-11 FORCE_BUY: NONE FORCE_BLOCK: TPST NOTES:\n[TPST] 단순 라이선스 옵션 행사(플랫폼 도입) PR로 구체적 현금 유입 금액 미기재 및 나스닥 주가 경고(3.01) 종목으로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
