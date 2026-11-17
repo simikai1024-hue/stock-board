@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:23:54",
-  "updated_at_et": "2026-11-17 06:23:54",
-  "updated_epoch_ms": 1794914634860,
+  "updated_at_kst": "2026-11-17 20:24:48",
+  "updated_at_et": "2026-11-17 06:24:48",
+  "updated_epoch_ms": 1794914688515,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:23:52"
+    "updated_kst": "20:24:29"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "06:24:41",
+      "time_kst": "20:24:41",
+      "symbol": "WSE",
+      "company_name": "WSE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11663.09M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "06:23:58",
+      "time_kst": "20:23:58",
+      "symbol": "TNON",
+      "company_name": "TNON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:21:16",
       "time_kst": "20:21:16",
       "symbol": "MESO",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $72.88M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:16:35",
-      "time_kst": "18:16:35",
-      "symbol": "NIVF",
-      "company_name": "NIVF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:16:09",
-      "time_kst": "18:16:09",
-      "symbol": "CIGL",
-      "company_name": "CIGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $62.01M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
