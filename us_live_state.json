@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:56:04",
-  "updated_at_et": "2026-11-17 06:56:04",
-  "updated_epoch_ms": 1794916564245,
+  "updated_at_kst": "2026-11-17 20:57:04",
+  "updated_at_et": "2026-11-17 06:57:04",
+  "updated_epoch_ms": 1794916624141,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:55:59"
+    "updated_kst": "20:57:00"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "06:56:19",
+      "time_kst": "20:56:19",
+      "symbol": "FIP",
+      "company_name": "FIP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $444.36M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:53:02",
       "time_kst": "20:53:02",
       "symbol": "CTRN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $94.0M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:20:59",
-      "time_kst": "18:20:59",
-      "symbol": "ZEO",
-      "company_name": "ZEO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
     }
   ]
 }
