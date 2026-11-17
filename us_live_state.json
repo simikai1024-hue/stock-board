@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:13:27",
-  "updated_at_et": "2026-11-17 10:13:27",
-  "updated_epoch_ms": 1794928407518,
+  "updated_at_kst": "2026-11-18 00:14:16",
+  "updated_at_et": "2026-11-17 10:14:16",
+  "updated_epoch_ms": 1794928456436,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:13:22"
+    "updated_kst": "00:14:02"
   },
   "stats": {
     "today_total": 55,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "10:14:11",
+      "time_kst": "00:14:11",
+      "symbol": "ELOG",
+      "company_name": "ELOG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "10:08:30",
       "time_kst": "00:08:30",
       "symbol": "GLOO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4014.35M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:08:20",
-      "time_kst": "23:08:20",
-      "symbol": "IA",
-      "company_name": "IA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $358.34M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
