@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:01:08",
-  "updated_at_et": "2026-11-17 08:01:08",
-  "updated_epoch_ms": 1794920468601,
+  "updated_at_kst": "2026-11-17 22:01:48",
+  "updated_at_et": "2026-11-17 08:01:48",
+  "updated_epoch_ms": 1794920508837,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:00:57"
+    "updated_kst": "22:01:36"
   },
   "stats": {
     "today_total": 19,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:01:44",
+      "time_kst": "22:01:44",
+      "symbol": "ADUR",
+      "company_name": "ADUR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $339.17M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:01:39",
+      "time_kst": "22:01:39",
+      "symbol": "ALGM",
+      "company_name": "ALGM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5242.04M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:01:29",
+      "time_kst": "22:01:29",
+      "symbol": "FLY",
+      "company_name": "FLY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3861.07M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:01:22",
+      "time_kst": "22:01:22",
+      "symbol": "ADAG",
+      "company_name": "ADAG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $107.43M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:58:17",
       "time_kst": "21:58:17",
       "symbol": "MMED",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $98507.68M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:50",
-      "time_kst": "21:02:50",
-      "symbol": "BKNG",
-      "company_name": "BKNG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $117155.22M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:32",
-      "time_kst": "21:02:32",
-      "symbol": "SCNI",
-      "company_name": "SCNI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:27",
-      "time_kst": "21:02:27",
-      "symbol": "GILT",
-      "company_name": "GILT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $403.64M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:22",
-      "time_kst": "21:02:22",
-      "symbol": "CNOB",
-      "company_name": "CNOB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1616.65M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
