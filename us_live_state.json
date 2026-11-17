@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:55:48",
-  "updated_at_et": "2026-11-17 07:55:48",
-  "updated_epoch_ms": 1794920148664,
+  "updated_at_kst": "2026-11-17 21:56:04",
+  "updated_at_et": "2026-11-17 07:56:04",
+  "updated_epoch_ms": 1794920164005,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "KIDZ",
+    "company_name": "KIDZ",
+    "exchange": "ND",
+    "price": 1.05,
+    "gain_pct": -0.48,
+    "mcap_m": 0.9,
+    "catalyst_hint": "[당일 PR] KIDZ AI Announces Strategic Collaboration with Synestria to Optimize AI Infrastructure Performance",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:55:56",
+    "started_at_kst": "21:55:56",
+    "started_epoch_ms": 1794920156320
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:55:35"
+    "updated_kst": "21:55:56"
   },
   "stats": {
     "today_total": 18,
