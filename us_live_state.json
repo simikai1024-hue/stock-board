@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:02:14",
-  "updated_at_et": "2026-11-17 04:02:14",
-  "updated_epoch_ms": 1794906134143,
+  "updated_at_kst": "2026-11-17 18:03:00",
+  "updated_at_et": "2026-11-17 04:03:00",
+  "updated_epoch_ms": 1794906180357,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:02:06"
+    "updated_kst": "18:02:45"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 3,
+    "today_hardcut": 8,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:02:57",
+      "time_kst": "18:02:57",
+      "symbol": "IMDX",
+      "company_name": "IMDX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.63M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:02:47",
+      "time_kst": "18:02:47",
+      "symbol": "IQST",
+      "company_name": "IQST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:02:41",
+      "time_kst": "18:02:41",
+      "symbol": "FFAI",
+      "company_name": "FFAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:02:32",
+      "time_kst": "18:02:32",
+      "symbol": "NXL",
+      "company_name": "NXL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-15 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:02:17",
+      "time_kst": "18:02:17",
+      "symbol": "JSPR",
+      "company_name": "JSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $391.64M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:01:17",
       "time_kst": "18:01:17",
       "symbol": "RTB",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $52356.98M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:52:35",
-      "time_kst": "23:52:35",
-      "symbol": "YOUL",
-      "company_name": "YOUL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:52:30",
-      "time_kst": "23:52:30",
-      "symbol": "IMRN",
-      "company_name": "IMRN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:51:58",
-      "time_kst": "23:51:58",
-      "symbol": "ABVC",
-      "company_name": "ABVC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B4])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:51:29",
-      "time_kst": "23:51:29",
-      "symbol": "ACTU",
-      "company_name": "ACTU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:51:01",
-      "time_kst": "23:51:01",
-      "symbol": "ECOR",
-      "company_name": "ECOR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.16M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
