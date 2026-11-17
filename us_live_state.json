@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:40:54",
-  "updated_at_et": "2026-11-17 04:40:54",
-  "updated_epoch_ms": 1794908454511,
+  "updated_at_kst": "2026-11-17 18:41:48",
+  "updated_at_et": "2026-11-17 04:41:48",
+  "updated_epoch_ms": 1794908508548,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:40:46"
+    "updated_kst": "18:41:43"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 43,
+    "today_hardcut": 44,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:41:24",
+      "time_kst": "18:41:24",
+      "symbol": "APPN",
+      "company_name": "APPN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3967.49M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:37:51",
       "time_kst": "18:37:51",
       "symbol": "MI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $250.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:33:20",
-      "time_kst": "01:33:20",
-      "symbol": "NCT",
-      "company_name": "NCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $136.98M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
