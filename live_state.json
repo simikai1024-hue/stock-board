@@ -1,8 +1,8 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18 03:37:51",
+  "updated_at": "2026-11-18 03:58:07",
   "isi_board": {
-    "updated_at": "2026-11-18 03:37:51",
+    "updated_at": "2026-11-18 03:58:07",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
     "theme_updated_at": "15:34:52",
@@ -301,7 +301,7 @@
     },
     "index_radar": {
       "today_date": "",
-      "updated_at": "03:32:56",
+      "updated_at": "03:57:58",
       "signal_status": "WAITING",
       "active_signal": null,
       "today_closed": null,
@@ -321,10 +321,14 @@
           "vwap_gap_pct": 1.19,
           "chg_prev_pct": 2.64,
           "money_eok": 17606,
+          "inav": 1362.21,
+          "inav_gap_pct": -0.24,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 26.9,
-          "day_above_pct": 54.4
+          "day_above_pct": 54.4,
+          "pair_money_share_pct": 50.6,
+          "flow_surge_mult": 1.41
         },
         "other": {
           "code": "069500",
@@ -341,10 +345,14 @@
           "vwap_gap_pct": -1.07,
           "chg_prev_pct": -2.65,
           "money_eok": 17195,
+          "inav": 77857.31,
+          "inav_gap_pct": -0.1,
           "above_vwap": false,
           "is_bull_candle": false,
           "morn_above_pct": 76.9,
-          "day_above_pct": 44.5
+          "day_above_pct": 44.5,
+          "pair_money_share_pct": 49.4,
+          "flow_surge_mult": 0.77
         }
       },
       "kosdaq_pair": {
@@ -363,10 +371,14 @@
           "vwap_gap_pct": 1.5,
           "chg_prev_pct": 2.0,
           "money_eok": 1958,
+          "inav": 3070.65,
+          "inav_gap_pct": -0.51,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 15.4,
-          "day_above_pct": 60.0
+          "day_above_pct": 60.0,
+          "pair_money_share_pct": 25.6,
+          "flow_surge_mult": 1.23
         },
         "other": {
           "code": "229200",
@@ -383,13 +395,90 @@
           "vwap_gap_pct": -1.66,
           "chg_prev_pct": -2.22,
           "money_eok": 5682,
+          "inav": 10571.78,
+          "inav_gap_pct": -0.11,
           "above_vwap": false,
           "is_bull_candle": false,
           "morn_above_pct": 80.8,
-          "day_above_pct": 36.0
+          "day_above_pct": 36.0,
+          "pair_money_share_pct": 74.4,
+          "flow_surge_mult": 0.94
         }
       },
-      "backtest_badge": "60거래일 검증(8·9·10·11월 전월 수익) 복리 +24.1% · 승률 62.3%",
+      "macro_news": {
+        "bizdate": "20261117",
+        "kospi_foreign_eok": -14190,
+        "kospi_inst_eok": 5134,
+        "kospi_personal_eok": 4310,
+        "kosdaq_foreign_eok": -882,
+        "kosdaq_inst_eok": -265,
+        "usdkrw": 1335.6,
+        "usdkrw_chg": -0.9,
+        "usdkrw_pct": -0.07,
+        "nasdaq_pct": -1.1,
+        "sox_pct": -0.9,
+        "macro_score": -4,
+        "macro_dir": "DN",
+        "macro_label": "수급·매크로 하방 압력",
+        "news_dir": "NEUTRAL",
+        "news_label": "호악재 혼조",
+        "headlines": [
+          {
+            "title": "젠슨황, 사임 닷새 만에 CEO 복귀 의사 공식화",
+            "press": "한국경제TV",
+            "time": "02:59",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/215/0001273067"
+          },
+          {
+            "title": "반도체주 추풍낙엽… 연초로 돌아간 코스피, 5000 무너졌다",
+            "press": "국민일보",
+            "time": "00:21",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/005/0001885783"
+          },
+          {
+            "title": "엔비디아, 젠슨황 사퇴 후 첫 실적…경영 불확실성 해소하나",
+            "press": "이데일리",
+            "time": "00:02",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/018/0006411433"
+          }
+        ]
+      },
+      "synthesis": {
+        "grade": "GOOD",
+        "badge": "🔵 수급·VWAP 동조 · 코스닥 하락 우위",
+        "agree_count": 2,
+        "conflict_macro": false,
+        "lead_etf": {
+          "code": "251340",
+          "name": "KODEX 코스닥150선물인버스",
+          "market": "KOSDAQ",
+          "dir": "DN",
+          "dir_label": "코스닥 하락",
+          "cur_price": 3055,
+          "open_price": 3035,
+          "prev_close": 2995,
+          "high_price": 3055,
+          "low_price": 2965,
+          "vwap": 3010,
+          "vwap_gap_pct": 1.5,
+          "chg_prev_pct": 2.0,
+          "money_eok": 1958,
+          "inav": 3070.65,
+          "inav_gap_pct": -0.51,
+          "above_vwap": true,
+          "is_bull_candle": true,
+          "morn_above_pct": 15.4,
+          "day_above_pct": 60.0,
+          "pair_money_share_pct": 25.6,
+          "flow_surge_mult": 1.23
+        },
+        "line1": "외국인이 코스피 -1조 4,190억(코스닥 -882억) 대량 순매도 출회 중이며, 미 나스닥(-1.10%)·반도체(-0.90%) 및 원/달러 1,335.6원(-0.9원) 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
+        "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 평소 대비 1.23배 자금이 집중되며 당일 VWAP 상단 체류 60%를 기록해 수급·시황·차트 방향이 일치합니다."
+      },
+      "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
       "stats": {
         "total_closed": 0,
         "win_count": 0,
@@ -492,7 +581,7 @@
   },
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-18 03:37:51",
+    "updated_at": "2026-11-18 03:58:07",
     "stats": {
       "total_closed": 15,
       "win_count": 7,
@@ -904,7 +993,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-18 03:37:51",
+    "updated_at": "2026-11-18 03:58:07",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4835,7 +4924,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-18 03:37:51",
+    "updated_at": "2026-11-18 03:58:07",
     "deprecated": true,
     "stats": {},
     "days": []
