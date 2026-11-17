@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 01:52:07",
-  "updated_at_et": "2026-11-17 11:52:07",
-  "updated_epoch_ms": 1794934327159,
+  "updated_at_kst": "2026-11-18 01:53:28",
+  "updated_at_et": "2026-11-17 11:53:28",
+  "updated_epoch_ms": 1794934408294,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:52:01"
+    "updated_kst": "01:53:18"
   },
   "stats": {
     "today_total": 56,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "11:52:40",
+      "time_kst": "01:52:40",
+      "symbol": "NTRA",
+      "company_name": "NTRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $41831.04M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "11:52:21",
+      "time_kst": "01:52:21",
+      "symbol": "INVE",
+      "company_name": "INVE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $61.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "11:42:17",
       "time_kst": "01:42:17",
       "symbol": "MGN",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-17 [S-1/A])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:16:40",
-      "time_kst": "23:16:40",
-      "symbol": "LAES",
-      "company_name": "LAES",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $264.41M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:16:33",
-      "time_kst": "23:16:33",
-      "symbol": "LOT",
-      "company_name": "LOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $133.9M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
