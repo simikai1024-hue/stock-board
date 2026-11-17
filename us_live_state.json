@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:31:16",
-  "updated_at_et": "2026-11-17 07:31:16",
-  "updated_epoch_ms": 1794918676101,
+  "updated_at_kst": "2026-11-17 21:31:58",
+  "updated_at_et": "2026-11-17 07:31:58",
+  "updated_epoch_ms": 1794918718618,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DAVI",
+    "company_name": "DAVI",
+    "exchange": "ND",
+    "price": 1.0299,
+    "gain_pct": 0.97,
+    "mcap_m": 25.75,
+    "catalyst_hint": "[당일 PR] Davion Healthcare Plc Provides Shareholders with Guidance on Direct Registration and Confirmation of Share Ownership",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:31:53",
+    "started_at_kst": "21:31:53",
+    "started_epoch_ms": 1794918713701
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:31:08"
+    "updated_kst": "21:31:49"
   },
   "stats": {
     "today_total": 8,
