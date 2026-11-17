@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:07:25",
-  "updated_at_et": "2026-11-17 10:07:25",
-  "updated_epoch_ms": 1794928045042,
+  "updated_at_kst": "2026-11-18 00:08:20",
+  "updated_at_et": "2026-11-17 10:08:20",
+  "updated_epoch_ms": 1794928100626,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:07:18"
+    "updated_kst": "00:08:16"
   },
   "stats": {
     "today_total": 55,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "10:08:15",
+      "time_kst": "00:08:15",
+      "symbol": "NFE",
+      "company_name": "NFE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.33M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "10:05:54",
       "time_kst": "00:05:54",
       "symbol": "OSTX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $158.45M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:07:59",
-      "time_kst": "23:07:59",
-      "symbol": "ERII",
-      "company_name": "ERII",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $364.99M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
