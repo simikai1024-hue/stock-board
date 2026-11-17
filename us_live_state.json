@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:13:40",
-  "updated_at_et": "2026-11-17 07:13:40",
-  "updated_epoch_ms": 1794917620572,
+  "updated_at_kst": "2026-11-17 21:14:43",
+  "updated_at_et": "2026-11-17 07:14:43",
+  "updated_epoch_ms": 1794917683682,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:13:36"
+    "updated_kst": "21:14:36"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:14:02",
+      "time_kst": "21:14:02",
+      "symbol": "MIDD",
+      "company_name": "MIDD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5927.47M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:11:42",
       "time_kst": "21:11:42",
       "symbol": "LUNG",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $58.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:06:43",
-      "time_kst": "20:06:43",
-      "symbol": "VOD",
-      "company_name": "VOD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $35471.13M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
