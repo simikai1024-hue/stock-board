@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:03:19",
-  "updated_at_et": "2026-11-17 08:03:19",
-  "updated_epoch_ms": 1794920599052,
+  "updated_at_kst": "2026-11-17 22:03:31",
+  "updated_at_et": "2026-11-17 08:03:31",
+  "updated_epoch_ms": 1794920611704,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MIRA",
+    "company_name": "MIRA",
+    "exchange": "ND",
+    "price": 0.631,
+    "gain_pct": 0.0,
+    "mcap_m": 26.52,
+    "catalyst_hint": "[당일 PR] MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:03:26",
+    "started_at_kst": "22:03:26",
+    "started_epoch_ms": 1794920606635
   },
   "halt_watch": {
     "active": false
