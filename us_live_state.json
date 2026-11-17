@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:02:30",
-  "updated_at_et": "2026-11-17 06:02:30",
-  "updated_epoch_ms": 1794913350398,
+  "updated_at_kst": "2026-11-17 20:02:58",
+  "updated_at_et": "2026-11-17 06:02:58",
+  "updated_epoch_ms": 1794913378584,
   "analyzing": {
-    "active": true,
-    "symbol": "SAEN",
-    "company_name": "SAEN",
-    "exchange": "ND",
-    "price": 0.5821,
-    "gain_pct": -2.98,
-    "mcap_m": 28.07,
-    "catalyst_hint": "[당일 PR] Sòphia High Tech Joins the LANSSET Committee of the Italian Chamber of Commerce in Singapore to Support Asia-Pacific Expansion",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:02:25",
-    "started_at_kst": "20:02:25",
-    "started_epoch_ms": 1794913345993
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:02:28"
+    "updated_kst": "20:02:48"
   },
   "stats": {
-    "today_total": 2,
-    "today_nblm_count": 2,
+    "today_total": 3,
+    "today_nblm_count": 3,
     "today_buy": 0,
-    "today_false": 2,
+    "today_false": 3,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 39.0
+    "avg_nblm_sec": 36.4
   },
   "verdicts": [
+    {
+      "id": "v_1794913374483_SAEN_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "06:02:54",
+      "time_kst": "20:02:54",
+      "symbol": "SAEN",
+      "company_name": "SAEN",
+      "exchange": "ND",
+      "price": 0.5821,
+      "gain_pct": -2.98,
+      "mcap_m": 28.07,
+      "decision": "FALSE",
+      "elapsed_sec": 31.4,
+      "reason": "확정 수주/계약 금액 전무한 자회사의 단순 상공회의소 위원회 가입 홍보 PR로 헌법 3조 4항 위배 및 장전 음봉 하락(-2.98%) 전량 차단",
+      "catalyst_hint": "[당일 PR] Sòphia High Tech Joins the LANSSET Committee of the Italian Chamber of Commerce in Singapore to Support Asia-Pacific Expansion",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SAEN (Saentra Forge) 2026-11-17 06:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $28.07M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/공급 계약/매출 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 음봉 하락 덤핑):\n전일 종가 $0.6000 대비 현재가 $0.5821 (-2.98%).\n당일 최고가 $0.6300 찍은 후 장전 고점 대비 -7.6% 밀리며 마이너스 파란불 음봉으로 전환.\n당일 누적 거래대금 $2,190 USD (2천 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 협회/위원회 가입 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 06:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Sòphia High Tech Joins the LANSSET Committee of the Italian Chamber of Commerce in Singapore to Support Asia-Pacific Expansion\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 자회사의 단순 상공회의소 산하 위원회 가입 (Committee Membership PR):\n본 PR의 본질은 Saentra Forge의 자회사인 Sòphia High Tech S.r.l.이 싱가포르 이탈리아 상공회의소 산하 'LANSSET 위원회'에 합류했다는 **단순 협회/위원회 가입 및 아시아-태평양 진출 지원 목적의 대외 네트워크 홍보 보도자료(today announced that Sòphia High Tech S.r.l. joins the LANSSET Committee...)**입니다.\n외부 대기업이나 정부 기관으로부터 확정된 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사최대 수주 등), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 제휴/협회·위원회 가입/해외 진출 지원 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.6300까지 반짝 상승 후 고점 대비 -7.6% 밀리며 -2.98% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 자회사의 단순 싱가포르 상공회의소 위원회 가입 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -2.98% 음봉으로 하락 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: SAEN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SAEN NOTES:\n[SAEN] 확정 수주/계약 금액 전무한 자회사의 단순 상공회의소 위원회 가입 홍보 PR로 헌법 3조 4항 위배 및 장전 음봉 하락(-2.98%) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 초입에 검토된 HUIZ(단순 9개월 운영지표), BEEM(단순 배터리 신제품 출시), SAEN(단순 위원회 가입) 모두 확정 매출이 없는 껍데기 IR로 안전하게 전량 차단되었으며, 장전 및 본장 개장 전까지 헌법 제2조를 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794913335574_BEEM_FALSE",
       "date_et": "2026-11-17",
@@ -2422,26 +2430,6 @@
       "reason": "당일 SEC F-1/A(유상증자 신주 발행 수정을 통한 주식 희석/덤핑) 접수 및 1급 확정 기폭제 부재(-5.00%)로 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-09 [F-1/A], 2026-11-09 [6-K]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 EVAX (Evaxion Biotech A/S) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.77M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $3.0000 대비 현재가 $2.8500 (-5.00% 음봉 약세), 당일 최고가 $2.8506 (-0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 공시(F-1/A & 6-K) 원문 직독 정밀 검증 & 유증 희석 악재\n당일(11/09) SEC 공시 현황 분석:\nSEC 공시 현황: 2026-11-09 [F-1/A] 및 2026-11-09 [6-K] 동시 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트 & 치명적 독소조항 (VCIG 오답 패턴 부합):\n오늘 SEC에 접수된 **F-1/A (Registration Statement Amendment)**는 신주 유상증자/증권 발행 증원 신고서 수정 공시입니다.\n이는 연구소 전략 헌장 원문 심사 기준 1번 및 오답 사례 **VCIG 패턴(F-1/A 제출을 통한 시장 신주 덤핑 및 유증 설거지 작전)**에 완벽히 부합하는 대표적인 주식 희석(Dilution) 악재 공시입니다.\n당일 기업 가치를 폭발시킬 확정적 1급 기폭제(FDA 승인, 구체적 $ 대형 계약, 대형 M&A, 현금 특별배당, ATM 해지 등) PR이 전무한 상태에서 유상증자 증권신고서(F-1/A)만 접수되었습니다.\n주가 역시 전일 대비 -5.00% 음봉 약세를 기록 중이며, 프리장 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC F-1/A(유상증자 신주 발행 증권신고서) 제출에 따른 주식 희석 덤핑 위험과 1급 확정 기폭제 부재, 장전 약세(-5.00%)가 결합되어 전략 헌장 1번·3번 원칙에 의거 FORCE_BLOCK: EVAX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: EVAX NOTES:\n[EVAX] 당일 SEC F-1/A(유상증자 신주 발행 수정을 통한 주식 희석/덤핑) 접수 및 1급 확정 기폭제 부재(-5.00%)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794228481852_DAVI_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "07:48:01",
-      "time_kst": "21:48:01",
-      "symbol": "DAVI",
-      "company_name": "DAVION HEALTHCARE PLC",
-      "exchange": "ND",
-      "price": 1.5903,
-      "gain_pct": -1.22,
-      "mcap_m": 39.76,
-      "decision": "FALSE",
-      "elapsed_sec": 30.4,
-      "reason": "당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 약보합(-1.22%)으로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 DAVI (Davion Healthcare Ltd / Davi) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.76M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $1.6100 대비 현재가 $1.5903 (-1.22% 약보합), 당일 최고가 $1.7004 (고점 대비 -6.5% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Form 6-K Report of Foreign Private Issuer) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 표지 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 -1.22% 약보합에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응이 전무합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 장전 약보합(-1.22%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: DAVI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: DAVI NOTES:\n[DAVI] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 약보합(-1.22%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
