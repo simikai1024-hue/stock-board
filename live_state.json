@@ -1,8 +1,8 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-17 09:51:11",
+  "updated_at": "2026-11-17 09:51:33",
   "isi_board": {
-    "updated_at": "2026-11-17 09:51:11",
+    "updated_at": "2026-11-17 09:51:33",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
     "theme_updated_at": "09:51:09",
@@ -269,21 +269,23 @@
       "mode": "PAPER_ONLY",
       "rule_summary": "09:25~13:30 1위 급등테마 1등 대장주(+9%↑) 세력본전(VWAP) 첫 눌림 진입 → -3.0% 손절방패 · 14:50 추세홀딩 청산 (세금·수수료 0.23% 차감)",
       "today_date": "2026-11-17",
-      "today_status": "ARMED",
-      "armed_candidate": {
+      "today_status": "HOLDING",
+      "armed_candidate": null,
+      "active_pos": {
         "code": "399720",
         "name": "가온칩스",
         "theme_name": "온디바이스 AI",
-        "theme_money": 8942,
-        "cur_price": 42050,
-        "vwap_price": 41269,
-        "limit_buy_px": 41550,
-        "cur_rate": 21.36,
-        "high_rate": 25.11,
-        "gap_to_vwap_pct": 1.89,
-        "updated_at": "09:46:40"
+        "entry_time": "09:51",
+        "entry_price": 41550,
+        "vwap_at_entry": 41280,
+        "vwap_price": 41280,
+        "stop_loss_px": 40300,
+        "cur_price": 41550,
+        "cur_raw_pct": 0.0,
+        "cur_net_pct": -0.23,
+        "max_raw_pct": 0.0,
+        "updated_at": "09:51:27"
       },
-      "active_pos": null,
       "today_closed": null,
       "stats": {
         "total_closed": 0,
@@ -372,7 +374,7 @@
   },
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-17 09:51:11",
+    "updated_at": "2026-11-17 09:51:33",
     "stats": {
       "total_closed": 14,
       "win_count": 6,
@@ -750,7 +752,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-17 09:51:11",
+    "updated_at": "2026-11-17 09:51:33",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4681,7 +4683,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-17 09:51:11",
+    "updated_at": "2026-11-17 09:51:33",
     "deprecated": true,
     "stats": {},
     "days": []
