@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:22:23",
-  "updated_at_et": "2026-11-17 04:22:23",
-  "updated_epoch_ms": 1794907343766,
+  "updated_at_kst": "2026-11-17 18:23:21",
+  "updated_at_et": "2026-11-17 04:23:21",
+  "updated_epoch_ms": 1794907401181,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:22:19"
+    "updated_kst": "18:23:18"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 36,
+    "today_hardcut": 37,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:22:25",
+      "time_kst": "18:22:25",
+      "symbol": "NCPL",
+      "company_name": "NCPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:21:32",
       "time_kst": "18:21:32",
       "symbol": "GDHG",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $124.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:24:06",
-      "time_kst": "01:24:06",
-      "symbol": "YTRA",
-      "company_name": "YTRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.93M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
