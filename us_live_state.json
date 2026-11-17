@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:39:11",
-  "updated_at_et": "2026-11-17 07:39:11",
-  "updated_epoch_ms": 1794919151605,
+  "updated_at_kst": "2026-11-17 21:39:53",
+  "updated_at_et": "2026-11-17 07:39:53",
+  "updated_epoch_ms": 1794919193851,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:39:07"
+    "updated_kst": "21:39:47"
   },
   "stats": {
     "today_total": 15,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:39:46",
+      "time_kst": "21:39:46",
+      "symbol": "AMSS",
+      "company_name": "AMSS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-26 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:36:07",
       "time_kst": "21:36:07",
       "symbol": "ALM",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "당일 투매 급락 구간 방어 차단 (현재 -12.0% <= -8.0%)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:47:04",
-      "time_kst": "20:47:04",
-      "symbol": "TH",
-      "company_name": "TH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1136.0M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
