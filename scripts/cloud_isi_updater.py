@@ -353,6 +353,120 @@ def _fetch_residency_map(ymd_compact: str) -> dict:
     return out
 
 
+def _fetch_macro_and_news_cloud() -> dict:
+    kw_rel = (
+        "코스피", "코스닥", "증시", "장중", "마감", "출발", "외국인", "외인", "기관",
+        "환율", "달러", "금리", "연준", "파월", "나스닥", "뉴욕", "월가", "다우", "S&P",
+        "반도체", "엔비디아", "삼성전자", "SK하이닉스", "관세", "수출", "선물", "옵션", "시황", "지수",
+    )
+    bull_kw = ("상승", "반등", "급등", "강세", "돌파", "회복", "순매수", "사자", "훈풍", "최고", "호실적", "인하", "완화", "복귀", "기대", "랠리")
+    bear_kw = ("하락", "급락", "약세", "무너", "붕괴", "순매도", "팔자", "투매", "우려", "규제", "관세", "하향", "충격", "경계", "인플레", "후퇴")
+    urls = {
+        "kp": "https://m.stock.naver.com/api/index/KOSPI/trend",
+        "kq": "https://m.stock.naver.com/api/index/KOSDAQ/trend",
+        "fx": "https://api.stock.naver.com/marketindex/exchange/FX_USDKRW",
+        "ndx": "https://api.stock.naver.com/index/.IXIC/basic",
+        "sox": "https://api.stock.naver.com/index/.SOX/basic",
+        "news": "https://m.stock.naver.com/api/news/list?category=mainnews&pageSize=15",
+    }
+    def _gj(u):
+        try:
+            r = requests.get(u, headers=HEADERS, timeout=4)
+            return r.json() if r.status_code == 200 and r.text.strip() else None
+        except Exception:
+            return None
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        raw = dict(zip(urls.keys(), ex.map(_gj, urls.values())))
+    kp = raw.get("kp") or {}
+    kq = raw.get("kq") or {}
+    fx_info = (raw.get("fx") or {}).get("exchangeInfo") or {}
+    ndx = raw.get("ndx") or {}
+    sox = raw.get("sox") or {}
+    news_raw = raw.get("news") if isinstance(raw.get("news"), list) else []
+
+    kp_for = _parse_int(kp.get("foreignValue"))
+    kp_inst = _parse_int(kp.get("institutionalValue"))
+    kq_for = _parse_int(kq.get("foreignValue"))
+    kq_inst = _parse_int(kq.get("institutionalValue"))
+    usdkrw = round(_parse_float(fx_info.get("calcPrice")), 1)
+    usdkrw_chg = round(_parse_float(fx_info.get("fluctuations")), 1)
+    ndx_pct = round(_parse_float(ndx.get("fluctuationsRatio")), 2)
+    if str((ndx.get("compareToPreviousPrice") or {}).get("name")) == "FALLING" and ndx_pct > 0:
+        ndx_pct = -ndx_pct
+    sox_pct = round(_parse_float(sox.get("fluctuationsRatio")), 2)
+    if str((sox.get("compareToPreviousPrice") or {}).get("name")) == "FALLING" and sox_pct > 0:
+        sox_pct = -sox_pct
+
+    picked, bh, brh = [], 0, 0
+    for it in news_raw:
+        tit = re.sub(r"<[^>]+>", "", str(it.get("tit") or "")).strip()
+        sub = re.sub(r"<[^>]+>", "", str(it.get("subcontent") or "")).strip()
+        if not tit:
+            continue
+        txt = f"{tit} {sub}"
+        if not any(k in txt for k in kw_rel):
+            continue
+        bp = sum(1 for k in bull_kw if k in txt)
+        bn = sum(1 for k in bear_kw if k in txt)
+        bh += bp
+        brh += bn
+        tone = "UP" if bp > bn else ("DN" if bn > bp else "NEUTRAL")
+        dt_s = str(it.get("dt") or "")
+        hm = f"{dt_s[8:10]}:{dt_s[10:12]}" if len(dt_s) >= 12 else ""
+        oid, aid = str(it.get("oid") or ""), str(it.get("aid") or "")
+        picked.append({
+            "title": tit,
+            "press": str(it.get("ohnm") or ""),
+            "time": hm,
+            "tone": tone,
+            "url": f"https://n.news.naver.com/mnews/article/{oid}/{aid}" if (oid and aid) else "https://m.stock.naver.com/investment/news/mainnews",
+        })
+        if len(picked) >= 3:
+            break
+
+    news_dir = "UP" if bh >= brh + 2 else ("DN" if brh >= bh + 2 else "NEUTRAL")
+    news_lbl = "호재·반등 재료 우위" if news_dir == "UP" else ("경계·하방 재료 우위" if news_dir == "DN" else "호악재 혼조")
+
+    m_sc = 0
+    if kp_for >= 1000: m_sc += 2
+    elif kp_for <= -1000: m_sc -= 2
+    elif kp_for >= 300: m_sc += 1
+    elif kp_for <= -300: m_sc -= 1
+    if (kq_for + kq_inst) >= 400: m_sc += 1
+    elif (kq_for + kq_inst) <= -400: m_sc -= 1
+    if usdkrw_chg <= -3.0: m_sc += 1
+    elif usdkrw_chg >= 3.0: m_sc -= 1
+    if (ndx_pct + sox_pct) / 2.0 >= 0.7: m_sc += 1
+    elif (ndx_pct + sox_pct) / 2.0 <= -0.7: m_sc -= 1
+
+    m_dir = "UP" if m_sc >= 2 else ("DN" if m_sc <= -2 else "NEUTRAL")
+    m_lbl = "수급·매크로 상승 우호" if m_dir == "UP" else ("수급·매크로 하방 압력" if m_dir == "DN" else "수급·매크로 중립")
+    return {
+        "kospi_foreign_eok": kp_for,
+        "kospi_inst_eok": kp_inst,
+        "kosdaq_foreign_eok": kq_for,
+        "kosdaq_inst_eok": kq_inst,
+        "usdkrw": usdkrw,
+        "usdkrw_chg": usdkrw_chg,
+        "nasdaq_pct": ndx_pct,
+        "sox_pct": sox_pct,
+        "macro_dir": m_dir,
+        "macro_label": m_lbl,
+        "news_dir": news_dir,
+        "news_label": news_lbl,
+        "headlines": picked,
+    }
+
+
+def _fmt_eok_s(v: int) -> str:
+    s = "+" if v > 0 else ("-" if v < 0 else "")
+    a = abs(int(v))
+    if a >= 10000:
+        j, rm = a // 10000, a % 10000
+        return f"{s}{j}조 {rm:,}억" if rm > 0 else f"{s}{j}조"
+    return f"{s}{a:,}억"
+
+
 def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
     idx_out = dict(prev_idx) if isinstance(prev_idx, dict) else {}
     etfs = [
@@ -370,8 +484,11 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
         datas = r.json().get("result", {}).get("areas", [{}])[0].get("datas", [])
         res_map = _fetch_residency_map(now_kst.strftime("%Y%m%d"))
         if not res_map:
-            prev_ymd = (now_kst - datetime.timedelta(days=1)).strftime("%Y%m%d")
-            res_map = _fetch_residency_map(prev_ymd)
+            for bd in range(1, 5):
+                prev_ymd = (now_kst - datetime.timedelta(days=bd)).strftime("%Y%m%d")
+                res_map = _fetch_residency_map(prev_ymd)
+                if res_map:
+                    break
         mm = {c: (nm, mk, dr, dl) for c, nm, mk, dr, dl in etfs}
         snaps = {}
         for d in datas:
@@ -387,6 +504,7 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
                 continue
             val_won = (aa * 1_000_000.0 if (aq > 0 and aa / aq < nv * 0.05) else aa) if (aq > 0 and aa > 0) else 0.0
             vwap = int(round(val_won / aq)) if (aq > 0 and val_won > 0) else nv
+            money_eok = int(round(val_won / 1e8)) if val_won > 0 else 0
             nm, mk, dr, dl = mm[cd]
             ri = res_map.get(cd) or {}
             snaps[cd] = {
@@ -399,13 +517,26 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
                 "open_price": ov,
                 "prev_close": pcv,
                 "vwap": vwap,
+                "money_eok": money_eok,
                 "vwap_gap_pct": round((nv / max(1, vwap) - 1.0) * 100.0, 2),
                 "chg_prev_pct": round((nv / pcv - 1.0) * 100.0, 2),
                 "above_vwap": bool(nv > vwap),
                 "is_bull_candle": bool(nv > ov),
-                "morn_above_pct": float(ri.get("morn_above_pct") or (100.0 if nv > vwap else 0.0)),
-                "day_above_pct": float(ri.get("day_above_pct") or (100.0 if nv > vwap else 0.0)),
+                "morn_above_pct": float(ri.get("morn_above_pct") if "morn_above_pct" in ri else (100.0 if nv > vwap else 0.0)),
+                "day_above_pct": float(ri.get("day_above_pct") if "day_above_pct" in ri else (100.0 if nv > vwap else 0.0)),
+                "pair_money_share_pct": 50.0,
+                "flow_surge_mult": 1.0,
             }
+        for cu, cdn, ndn in (("069500", "114800", 0.45), ("229200", "251340", 0.30)):
+            if cu in snaps and cdn in snaps:
+                mu, md = max(1, snaps[cu]["money_eok"]), max(1, snaps[cdn]["money_eok"])
+                tm = mu + md
+                ds, us = md / tm, mu / tm
+                snaps[cdn]["pair_money_share_pct"] = round(ds * 100.0, 1)
+                snaps[cu]["pair_money_share_pct"] = round(us * 100.0, 1)
+                snaps[cdn]["flow_surge_mult"] = round(ds / ndn, 2)
+                snaps[cu]["flow_surge_mult"] = round(us / (1.0 - ndn), 2)
+
         if "069500" in snaps and "114800" in snaps:
             ku = (snaps["069500"]["day_above_pct"], snaps["069500"]["vwap_gap_pct"])
             kd = (snaps["114800"]["day_above_pct"], snaps["114800"]["vwap_gap_pct"])
@@ -418,6 +549,25 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
             w2 = snaps["229200"] if ku2 >= kd2 else snaps["251340"]
             o2 = snaps["251340"] if w2 is snaps["229200"] else snaps["229200"]
             idx_out["kosdaq_pair"] = {"winner": w2, "other": o2}
+
+        macro = _fetch_macro_and_news_cloud()
+        idx_out["macro_news"] = macro
+        cands = [x for x in ((idx_out.get("kospi_pair") or {}).get("winner"), (idx_out.get("kosdaq_pair") or {}).get("winner")) if x]
+        if cands:
+            cands.sort(key=lambda x: (float(x.get("day_above_pct") or 0.0), float(x.get("flow_surge_mult") or 1.0)), reverse=True)
+            lead = cands[0]
+            cdir = lead["dir"]
+            mdir = macro.get("macro_dir", "NEUTRAL")
+            ndir = macro.get("news_dir", "NEUTRAL")
+            ag = 1 + (1 if mdir == cdir else 0) + (1 if ndir == cdir else 0)
+            conf = (mdir != "NEUTRAL" and mdir != cdir)
+            grade = "CONFLICT" if conf else ("STRONG" if ag >= 3 else ("GOOD" if ag >= 2 else "WATCH"))
+            badge = "🟡 차트·수급 엇갈림 (가짜 움직임 주의)" if conf else (f"🟢 3박자 일치 · {lead['dir_label']} 강력 우위" if ag >= 3 else (f"🔵 수급·VWAP 동조 · {lead['dir_label']} 우위" if ag >= 2 else "⚪ 방향 탐색 구간"))
+            kpf, kqf = int(macro.get("kospi_foreign_eok") or 0), int(macro.get("kosdaq_foreign_eok") or 0)
+            fd = "순매수 유입" if kpf > 300 else ("대량 순매도 출회" if kpf < -1000 else ("순매도 우위" if kpf < -200 else "중립 탐색"))
+            l1 = f"외국인이 코스피 {_fmt_eok_s(kpf)}(코스닥 {_fmt_eok_s(kqf)}) {fd} 중이며, 미 나스닥({macro.get('nasdaq_pct',0):+.2f}%)·반도체({macro.get('sox_pct',0):+.2f}%) 및 원/달러 {macro.get('usdkrw',0):,.1f}원 흐름 속에 시황 뉴스는 '{macro.get('news_label','혼조')}' 분위기입니다."
+            l2 = f"정방향·인버스 대결에서도 [{lead['name']}] 쪽으로 평소 대비 {lead.get('flow_surge_mult',1.0):.2f}배 자금이 집중되며 당일 VWAP 상단 체류 {lead.get('day_above_pct',0):.0f}%를 기록 중입니다."
+            idx_out["synthesis"] = {"grade": grade, "badge": badge, "agree_count": ag, "conflict_macro": conf, "lead_etf": lead, "line1": l1, "line2": l2}
         idx_out["updated_at"] = f"{now_kst.strftime('%H:%M:%S')} (☁️깃허브 자동)"
     except Exception:
         pass
