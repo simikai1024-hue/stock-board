@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:05:25",
-  "updated_at_et": "2026-11-17 04:05:25",
-  "updated_epoch_ms": 1794906325651,
+  "updated_at_kst": "2026-11-17 18:06:06",
+  "updated_at_et": "2026-11-17 04:06:06",
+  "updated_epoch_ms": 1794906366291,
   "analyzing": {
-    "active": true,
-    "symbol": "HUIZ",
-    "company_name": "HUIZ",
-    "exchange": "ND",
-    "price": 2.36,
-    "gain_pct": 0.0,
-    "mcap_m": 20.3,
-    "catalyst_hint": "[당일 PR] Huize Holding Limited Announces Select Operating Metrics for the First Nine Months of 2026",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "04:05:20",
-    "started_at_kst": "18:05:20",
-    "started_epoch_ms": 1794906320892
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:05:08"
+    "updated_kst": "18:05:49"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
     "today_buy": 0,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 15,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 57.8
+    "avg_nblm_sec": 41.8
   },
   "verdicts": [
+    {
+      "id": "v_1794906358863_HUIZ_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "04:05:58",
+      "time_kst": "18:05:58",
+      "symbol": "HUIZ",
+      "company_name": "HUIZ",
+      "exchange": "ND",
+      "price": 2.36,
+      "gain_pct": 0.0,
+      "mcap_m": 20.3,
+      "decision": "FALSE",
+      "elapsed_sec": 41.8,
+      "reason": "신규 수주/계약 금액 전무한 단순 9개월 정기 운영 지표(Operating Metrics) 나열 PR로 1급 기폭제 미달 전량 차단",
+      "catalyst_hint": "[당일 PR] Huize Holding Limited Announces Select Operating Metrics for the First Nine Months of 2026",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 HUIZ (Huize Holding Limited) 2026-11-17 04:05 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $20.3M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/매출 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (바닥 정체 구간):\n전일 종가 $2.3600 대비 현재가 $2.3600 (+0.00%), 당일 최고가 $2.4087 (고점 대비 -2.0%).\n당일 누적 거래대금 $1,624 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 04:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"Huize Holding Limited Announces Select Operating Metrics for the First Nine Months of 2026\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 정기 운영 지표 발표 (Operating Metrics PR):\n본 PR의 본질은 회사가 2026년 9월 30일로 마감된 9개월간의 13개월/25개월 보험 유지율(persistency ratios) 등 **단순 정기 운영 지표를 선공개한 통상 IR 보도자료(today announced select operating metrics for the nine months ended September 30, 2026...)**입니다.\n외부 대기업이나 기관으로부터 유입되는 확정 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시소각, 나스닥 최소 자기자본 충족+전환사채 0원 오버행 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 정기 패턴 반복 (통상 분기 루틴 쪼개기/재탕):\n과거 이력 대조 결과 회사는 2026년 5월 20일에도 *\"Huize Holding Limited Announces Select Operating Metrics for the First Quarter of 2026\"*를 배포한 바 있습니다.\n이는 정기 실적 발표 전후로 특정 운영 지표만 발췌해 배포하는 통상적인 분기별 루틴 PR에 불과합니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 운영 지표/정기 실적 지표/기업 현황 나열 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주나 현금 유입 계약이 아닌 단순 2026년 9개월간의 정기 운영 지표(Select Operating Metrics) 공개 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: HUIZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: HUIZ NOTES:\n[HUIZ] 신규 수주/계약 금액 전무한 단순 9개월 정기 운영 지표(Operating Metrics) 나열 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 초입(~09:30 ET) 구간에서 추가로 헌법 제2조(AIMD형 창사 최대 수주/선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 1급 무결점 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794847661510_CVRX_FALSE",
       "date_et": "2026-11-16",
@@ -2422,26 +2430,6 @@
       "reason": "공동개발 계약 배경 설명 PR(Highlight Rationale)은 금액 미기재 IR/설명 발표로 1급 확정 기폭제 미달 및 장전 보합(+1.08%)으로 전량 차단",
       "catalyst_hint": "[당일 PR] Medicus Pharma to Highlight Rationale for CD228V Co-Development and License Agreement",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MDCX (Medicus Pharma Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.44M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.8500 대비 현재가 $1.8700 (+1.08% 보합), 당일 최고가 $1.8700 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 07:30 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Medicus Pharma to Highlight Rationale for CD228V Co-Development and License Agreement\"\n원문 팩트: CD228V 공동 개발 및 라이선스 계약의 배경과 정당성(Rationale)을 주주 및 시장에 설명/강조(Highlight Rationale)하겠다는 기업 설명회/IR 성격의 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인, Pivotal 임상 3상 성공, 구체적 달러 금액 명시 대형 수주/계약/자산매각(오늘 EDSA의 $140M+ 계약과 같은 구체적 숫자 유입), 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **공동 개발 계약의 추진 배경 및 당위성을 설명하는 IR/기업 브리핑 발표(Highlight Rationale)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 설명/IR 발표/MOU/주주서한/진행보고' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 +1.08% 보합권에 갇혀 있고, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 계약 배경 설명 보도자료(Highlight Rationale)에 불과하고 장전 보합권(+1.08%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MDCX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: MDCX NOTES:\n[MDCX] 공동개발 계약 배경 설명 PR(Highlight Rationale)은 금액 미기재 IR/설명 발표로 1급 확정 기폭제 미달 및 장전 보합(+1.08%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794227513419_ADIL_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "07:31:53",
-      "time_kst": "21:31:53",
-      "symbol": "ADIL",
-      "company_name": "ADIL",
-      "exchange": "ND",
-      "price": 5.05,
-      "gain_pct": 36.12,
-      "mcap_m": 13.26,
-      "decision": "FALSE",
-      "elapsed_sec": 31.3,
-      "reason": "신임 이사 선임 공시(Item 5.02)는 단순 인사 행정 공시로 1급 확정 기폭제 미달 및 무수급 갭상승 착시로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 5.02,8.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 ADIL (Adial Pharmaceuticals, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.26M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $3.7100 대비 현재가 $5.0500 (+36.12% 상승), 당일 최고가 $5.0500 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 5.02, 8.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 8-K (Item 5.02, 8.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 5.02, 8.01, 9.01) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: Item 5.02 \"Appointment of New Directors - On November 3, 2026, each of Aida Habtezion, M.D. was appointed to the Board of Directors...\" (신임 이사 선임 공시).\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 호재(FDA 승인/임상 성공, 구체적 $ 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n이사회 신임 이사(Aida Habtezion 등) 선임을 알리는 **단순 임원/이사 선임 인사 행정 공시(Item 5.02)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 인사·임원 영입/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n장전 +36.12% 갭상승 착시를 보이고 있으나, 실질 거래대금($0 USD)이 형성되지 않은 선발표 착시 구간으로 개장 후 세력의 덤핑 및 설거지 음봉으로 전환될 위험이 매우 큽니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 신임 이사 선임 인사 행정 공시(Item 5.02)에 불과하여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: ADIL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: ADIL NOTES:\n[ADIL] 신임 이사 선임 공시(Item 5.02)는 단순 인사 행정 공시로 1급 확정 기폭제 미달 및 무수급 갭상승 착시로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
