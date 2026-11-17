@@ -1,11 +1,11 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-17 12:19:17",
+  "updated_at": "2026-11-17 12:24:20",
   "isi_board": {
-    "updated_at": "2026-11-17 12:19:17",
+    "updated_at": "2026-11-17 12:24:20",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
-    "theme_updated_at": "12:19:14",
+    "theme_updated_at": "12:24:18",
     "overnight_holding": {
       "active": true,
       "code": "089590",
@@ -33,16 +33,167 @@
     "top3_themes": [
       {
         "rank": 1,
-        "theme_name": "방위산업/전쟁 및 테러",
-        "theme_money": 5422,
+        "theme_name": "소캠(SOCAMM)",
+        "theme_money": 40705,
+        "is_surging": true,
+        "leader": {
+          "code": "007810",
+          "name": "코리아써키트",
+          "close": 93300,
+          "rate": 5.0,
+          "money_eok": 858,
+          "vwap": 92006,
+          "vol_ratio": 87,
+          "upper_wick": 25.3,
+          "prog_money": 11
+        },
+        "second": {
+          "code": "356860",
+          "name": "티엘비",
+          "close": 40050,
+          "rate": 6.8,
+          "money_eok": 319,
+          "vwap": 39606,
+          "vol_ratio": 70,
+          "upper_wick": 23.5,
+          "prog_money": -64
+        },
+        "stocks": [
+          {
+            "code": "007810",
+            "name": "코리아써키트",
+            "close": 93300,
+            "rate": 5.0,
+            "money_eok": 858,
+            "vwap": 92006,
+            "vol_ratio": 87,
+            "upper_wick": 25.3,
+            "prog_money": 11,
+            "is_our_leader": true,
+            "is_second": false
+          },
+          {
+            "code": "000660",
+            "name": "SK하이닉스",
+            "close": 1143000,
+            "rate": 2.0,
+            "money_eok": 21221,
+            "vwap": 1118344,
+            "vol_ratio": 49,
+            "upper_wick": 13.0,
+            "prog_money": -9546,
+            "is_our_leader": false,
+            "is_second": false
+          },
+          {
+            "code": "005930",
+            "name": "삼성전자",
+            "close": 193200,
+            "rate": -1.8,
+            "money_eok": 18626,
+            "vwap": 192578,
+            "vol_ratio": 57,
+            "upper_wick": 49.1,
+            "prog_money": -4393,
+            "is_our_leader": false,
+            "is_second": false
+          },
+          {
+            "code": "356860",
+            "name": "티엘비",
+            "close": 40050,
+            "rate": 6.8,
+            "money_eok": 319,
+            "vwap": 39606,
+            "vol_ratio": 70,
+            "upper_wick": 23.5,
+            "prog_money": -64,
+            "is_our_leader": false,
+            "is_second": true
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "theme_name": "2026 하반기 신규상장",
+        "theme_money": 5745,
         "is_surging": true,
         "leader": {
           "code": "493260",
           "name": "옵토닉스",
-          "close": 31850,
-          "rate": 165.4,
-          "money_eok": 4726,
-          "vwap": 29362,
+          "close": 31600,
+          "rate": 163.3,
+          "money_eok": 4797,
+          "vwap": 29395,
+          "vol_ratio": 150,
+          "upper_wick": 15.0,
+          "prog_money": 0
+        },
+        "second": {
+          "code": "0039P0",
+          "name": "매드업",
+          "close": 7000,
+          "rate": 11.8,
+          "money_eok": 304,
+          "vwap": 6859,
+          "vol_ratio": 258,
+          "upper_wick": 15.5,
+          "prog_money": 2
+        },
+        "stocks": [
+          {
+            "code": "493260",
+            "name": "옵토닉스",
+            "close": 31600,
+            "rate": 163.3,
+            "money_eok": 4797,
+            "vwap": 29395,
+            "vol_ratio": 150,
+            "upper_wick": 15.0,
+            "prog_money": 0,
+            "is_our_leader": true,
+            "is_second": false
+          },
+          {
+            "code": "345290",
+            "name": "영광와이케이엠씨",
+            "close": 9250,
+            "rate": 0.5,
+            "money_eok": 644,
+            "vwap": 9120,
+            "vol_ratio": 19,
+            "upper_wick": 36.0,
+            "prog_money": -53,
+            "is_our_leader": false,
+            "is_second": false
+          },
+          {
+            "code": "0039P0",
+            "name": "매드업",
+            "close": 7000,
+            "rate": 11.8,
+            "money_eok": 304,
+            "vwap": 6859,
+            "vol_ratio": 258,
+            "upper_wick": 15.5,
+            "prog_money": 2,
+            "is_our_leader": false,
+            "is_second": true
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "theme_name": "방위산업/전쟁 및 테러",
+        "theme_money": 5501,
+        "is_surging": true,
+        "leader": {
+          "code": "493260",
+          "name": "옵토닉스",
+          "close": 31600,
+          "rate": 163.3,
+          "money_eok": 4797,
+          "vwap": 29395,
           "vol_ratio": 150,
           "upper_wick": 15.0,
           "prog_money": 0
@@ -50,22 +201,22 @@
         "second": {
           "code": "218410",
           "name": "RFHIC",
-          "close": 56700,
-          "rate": 5.8,
-          "money_eok": 210,
-          "vwap": 56331,
-          "vol_ratio": 50,
-          "upper_wick": 22.9,
+          "close": 56600,
+          "rate": 5.6,
+          "money_eok": 212,
+          "vwap": 56336,
+          "vol_ratio": 51,
+          "upper_wick": 25.0,
           "prog_money": 5
         },
         "stocks": [
           {
             "code": "493260",
             "name": "옵토닉스",
-            "close": 31850,
-            "rate": 165.4,
-            "money_eok": 4726,
-            "vwap": 29362,
+            "close": 31600,
+            "rate": 163.3,
+            "money_eok": 4797,
+            "vwap": 29395,
             "vol_ratio": 150,
             "upper_wick": 15.0,
             "prog_money": 0,
@@ -77,8 +228,8 @@
             "name": "대한항공",
             "close": 32150,
             "rate": 1.4,
-            "money_eok": 404,
-            "vwap": 31855,
+            "money_eok": 409,
+            "vwap": 31858,
             "vol_ratio": 35,
             "upper_wick": 7.1,
             "prog_money": 114,
@@ -88,12 +239,12 @@
           {
             "code": "010170",
             "name": "대한광통신",
-            "close": 13100,
-            "rate": 1.5,
-            "money_eok": 292,
-            "vwap": 12931,
-            "vol_ratio": 48,
-            "upper_wick": 13.4,
+            "close": 13090,
+            "rate": 1.4,
+            "money_eok": 295,
+            "vwap": 12933,
+            "vol_ratio": 49,
+            "upper_wick": 14.9,
             "prog_money": -27,
             "is_our_leader": false,
             "is_second": false
@@ -101,150 +252,12 @@
           {
             "code": "218410",
             "name": "RFHIC",
-            "close": 56700,
-            "rate": 5.8,
-            "money_eok": 210,
-            "vwap": 56331,
-            "vol_ratio": 50,
-            "upper_wick": 22.9,
-            "prog_money": 5,
-            "is_our_leader": false,
-            "is_second": true
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "theme_name": "2026 하반기 신규상장",
-        "theme_money": 5182,
-        "is_surging": true,
-        "leader": {
-          "code": "493260",
-          "name": "옵토닉스",
-          "close": 31850,
-          "rate": 165.4,
-          "money_eok": 4726,
-          "vwap": 29362,
-          "vol_ratio": 150,
-          "upper_wick": 15.0,
-          "prog_money": 0
-        },
-        "second": {
-          "code": "0039P0",
-          "name": "매드업",
-          "close": 7020,
-          "rate": 12.1,
-          "money_eok": 301,
-          "vwap": 6858,
-          "vol_ratio": 255,
-          "upper_wick": 12.7,
-          "prog_money": 2
-        },
-        "stocks": [
-          {
-            "code": "493260",
-            "name": "옵토닉스",
-            "close": 31850,
-            "rate": 165.4,
-            "money_eok": 4726,
-            "vwap": 29362,
-            "vol_ratio": 150,
-            "upper_wick": 15.0,
-            "prog_money": 0,
-            "is_our_leader": true,
-            "is_second": false
-          },
-          {
-            "code": "0039P0",
-            "name": "매드업",
-            "close": 7020,
-            "rate": 12.1,
-            "money_eok": 301,
-            "vwap": 6858,
-            "vol_ratio": 255,
-            "upper_wick": 12.7,
-            "prog_money": 2,
-            "is_our_leader": false,
-            "is_second": true
-          },
-          {
-            "code": "0158S0",
-            "name": "엘리스",
-            "close": 57600,
-            "rate": 0.2,
-            "money_eok": 155,
-            "vwap": 57414,
-            "vol_ratio": 22,
-            "upper_wick": 42.6,
-            "prog_money": -22,
-            "is_our_leader": false,
-            "is_second": false
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "theme_name": "광통신(광케이블/광섬유 등)",
-        "theme_money": 812,
-        "is_surging": true,
-        "leader": {
-          "code": "043260",
-          "name": "성호전자",
-          "close": 23350,
-          "rate": 7.6,
-          "money_eok": 310,
-          "vwap": 22892,
-          "vol_ratio": 83,
-          "upper_wick": 21.2,
-          "prog_money": -14
-        },
-        "second": {
-          "code": "218410",
-          "name": "RFHIC",
-          "close": 56700,
-          "rate": 5.8,
-          "money_eok": 210,
-          "vwap": 56331,
-          "vol_ratio": 50,
-          "upper_wick": 22.9,
-          "prog_money": 5
-        },
-        "stocks": [
-          {
-            "code": "043260",
-            "name": "성호전자",
-            "close": 23350,
-            "rate": 7.6,
-            "money_eok": 310,
-            "vwap": 22892,
-            "vol_ratio": 83,
-            "upper_wick": 21.2,
-            "prog_money": -14,
-            "is_our_leader": true,
-            "is_second": false
-          },
-          {
-            "code": "010170",
-            "name": "대한광통신",
-            "close": 13100,
-            "rate": 1.5,
-            "money_eok": 292,
-            "vwap": 12931,
-            "vol_ratio": 48,
-            "upper_wick": 13.4,
-            "prog_money": -27,
-            "is_our_leader": false,
-            "is_second": false
-          },
-          {
-            "code": "218410",
-            "name": "RFHIC",
-            "close": 56700,
-            "rate": 5.8,
-            "money_eok": 210,
-            "vwap": 56331,
-            "vol_ratio": 50,
-            "upper_wick": 22.9,
+            "close": 56600,
+            "rate": 5.6,
+            "money_eok": 212,
+            "vwap": 56336,
+            "vol_ratio": 51,
+            "upper_wick": 25.0,
             "prog_money": 5,
             "is_our_leader": false,
             "is_second": true
@@ -379,7 +392,7 @@
   },
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-17 12:19:17",
+    "updated_at": "2026-11-17 12:24:20",
     "stats": {
       "total_closed": 14,
       "win_count": 6,
@@ -757,7 +770,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-17 12:19:17",
+    "updated_at": "2026-11-17 12:24:20",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4688,7 +4701,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-17 12:19:17",
+    "updated_at": "2026-11-17 12:24:20",
     "deprecated": true,
     "stats": {},
     "days": []
