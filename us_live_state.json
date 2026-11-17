@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:52:05",
-  "updated_at_et": "2026-11-17 09:52:05",
-  "updated_epoch_ms": 1794927125379,
+  "updated_at_kst": "2026-11-17 23:53:13",
+  "updated_at_et": "2026-11-17 09:53:13",
+  "updated_epoch_ms": 1794927193959,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:51:54"
+    "updated_kst": "23:52:35"
   },
   "stats": {
     "today_total": 54,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:53:06",
+      "time_kst": "23:53:06",
+      "symbol": "VRCA",
+      "company_name": "VRCA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:49:31",
       "time_kst": "23:49:31",
       "symbol": "ACTU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3080.49M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:03:23",
-      "time_kst": "23:03:23",
-      "symbol": "FRNM",
-      "company_name": "FRNM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1125.04M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
