@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 19:12:23",
-  "updated_at_et": "2026-11-17 05:12:23",
-  "updated_epoch_ms": 1794910343443,
+  "updated_at_kst": "2026-11-17 19:13:22",
+  "updated_at_et": "2026-11-17 05:13:22",
+  "updated_epoch_ms": 1794910402996,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:12:19"
+    "updated_kst": "19:13:18"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 52,
+    "today_hardcut": 53,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "05:12:28",
+      "time_kst": "19:12:28",
+      "symbol": "TELO",
+      "company_name": "TELO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "05:08:40",
       "time_kst": "19:08:40",
       "symbol": "CVU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $391.64M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:01:17",
-      "time_kst": "18:01:17",
-      "symbol": "RTB",
-      "company_name": "RTB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.07M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
