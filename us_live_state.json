@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:37:47",
-  "updated_at_et": "2026-11-17 07:37:47",
-  "updated_epoch_ms": 1794919067797,
+  "updated_at_kst": "2026-11-17 21:38:20",
+  "updated_at_et": "2026-11-17 07:38:20",
+  "updated_epoch_ms": 1794919100331,
   "analyzing": {
-    "active": true,
-    "symbol": "ELAB",
-    "company_name": "ELAB",
-    "exchange": "ND",
-    "price": 1.6355,
-    "gain_pct": -2.36,
-    "mcap_m": 1.32,
-    "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and O",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:37:42",
-    "started_at_kst": "21:37:42",
-    "started_epoch_ms": 1794919062938
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:37:30"
+    "updated_kst": "21:38:09"
   },
   "stats": {
-    "today_total": 14,
-    "today_nblm_count": 14,
+    "today_total": 15,
+    "today_nblm_count": 15,
     "today_buy": 0,
-    "today_false": 14,
+    "today_false": 15,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 41.7
+    "avg_nblm_sec": 41.3
   },
   "verdicts": [
+    {
+      "id": "v_1794919095483_ELAB_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "07:38:15",
+      "time_kst": "21:38:15",
+      "symbol": "ELAB",
+      "company_name": "ELAB",
+      "exchange": "ND",
+      "price": 1.6355,
+      "gain_pct": -2.36,
+      "mcap_m": 1.32,
+      "decision": "FALSE",
+      "elapsed_sec": 36.2,
+      "reason": "신규 수주/계약 전무한 기인수 자회사들의 단순 캘리포니아 공장 통폐합(이전) 홍보 PR로 헌법 3조 위배 및 장전 음봉(-1.48%) 전량 차단",
+      "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and O",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 ELAB (PMGC Holdings Inc.) 2026-11-17 07:37 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.32M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 음봉 하락 심화):\n전일 종가 $1.6600 대비 현재가 $1.6355 (-1.48%).\n당일 최고가 $1.7903 찍은 후 장전 고점 대비 -8.6% 밀리며 마이너스 파란불 음봉 유지.\n당일 누적 거래대금 $42,959 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and Operational Efficiency and Reducing Costs\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 과거 기인수 자회사들의 내부 생산시설 통폐합 완료 안내 (Internal Facility Consolidation PR):\n본 PR의 본질은 외부 신규 수주 계약이 아니라, 과거 2025년 7월과 2026년 5월에 각각 인수한 AGA Precision Systems와 A&B Aerospace의 제조 시설을 캘리포니아 아주사(Azusa) 단일 사업장으로 이전·통폐합 완료했다는 단순 내부 생산 공장 통합 및 원가 절감 기대 홍보 보도자료입니다.\n외부 대기업이나 방산 기관으로부터 확정된 대규모 신규 납품 계약액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 정기 실적 발표(11/16) 직후 배포된 쪼개기 IR 언론 플레이:\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 *\"3분기 매출 785% 급증($2.53M) 및 10-Q 제출\"*을 이미 발표한 바 있습니다.\n실적 발표 다음 날 주가 부양을 위해 기존 기인수 사업장의 단순 설비 이전 완료 사실을 포장하여 배포한 전형적인 사후 쪼개기/재홍보성 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 인수합병 사업장의 단순 설비 가동/이전 쪼개기 재탕 및 ④ 금액 미기재 단순 효율화/통폐합 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.7903까지 튀었다가 즉각 고점 대비 -8.6% 밀리며 -1.48% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 신규 매출 계약이 전무한 기존 기인수 자회사들의 단순 캘리포니아 공장 통폐합 이전 완료 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -1.48% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ELAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: ELAB NOTES:\n[ELAB] 신규 수주/계약 전무한 기인수 자회사들의 단순 캘리포니아 공장 통폐합(이전) 홍보 PR로 헌법 3조 위배 및 장전 음봉(-1.48%) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM) 전수가 확정 현금 유입이 없는 정기 지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 안내문, 공장 통폐합, 단순 협력 확대로 확인되어 안전하게 전량 차단되었습니다. 장전 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794919048777_ELBM_FALSE",
       "date_et": "2026-11-17",
@@ -2422,26 +2430,6 @@
       "reason": "당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 약보합(-2.09%)으로 전량 차단",
       "catalyst_hint": "[당일 SEC] 2026-11-09 [6-K]",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 FRGT (Freightos Limited) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.61M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.9805 대비 현재가 $0.9600 (-2.09% 약보합), 당일 최고가 $0.9795 (고점 대비 -2.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 6-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] (Form 6-K Report of Foreign Private Issuer) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 외국 법인 정기보고서 표지(Form 6-K Report of Foreign Private Issuer)만 제출된 단순 행정 서류 보고용 공시.\n치명적 기폭제 결함:\n오늘 제출된 SEC 6-K 공시에는 당일 기업 가치를 수직 폭등시킬 공식 PR 보도자료(0건)가 미수신 상태입니다.\n공시 내용 역시 구체적인 현금 유입/대형 수주/계약/자산매각/M&A 완료, FDA 승인, 특별배당, ATM 해지, 당일 주식병합 D-Day 등의 확정적 실체가 전혀 없는 단순 행정 보고용 6-K 표지 공시에 불과합니다.\n이는 연구소 전략 헌장 2번·3번 원칙(\"당일 확정 1급 기폭제 PR/공시가 부재하거나 단순 행정 서류 6-K/8-K만 제출된 경우 100% FORCE_BLOCK\")에 정확히 저해됩니다.\n주가 반응 역시 전일 대비 -2.09% 약보합에 갇혀 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 반응도 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 공시가 단순 행정 보고용 표지 공시(PR 미수신)에 불과하고 장전 약보합(-2.09%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: FRGT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: FRGT NOTES:\n[FRGT] 당일 6-K 단순 행정 표지 공시(PR 미수신)는 1급 확정 기폭제 미달 및 장전 약보합(-2.09%)으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794232612588_CAPS_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "08:56:52",
-      "time_kst": "22:56:52",
-      "symbol": "CAPS",
-      "company_name": "Capstone Holding Corp.",
-      "exchange": "ND",
-      "price": 1.9,
-      "gain_pct": 0.0,
-      "mcap_m": 1.75,
-      "decision": "FALSE",
-      "elapsed_sec": 37.9,
-      "reason": "선순위 담보 전환사채 개정 공시(Item 1.01)는 단순 채무 연장(ACH 패턴)으로 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단",
-      "catalyst_hint": "[당일 SEC] 2026-11-09 [8-K] (Item 1.01,7.01,9.01)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CAPS (Capstone Holding Corp.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.75M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $1.9000 대비 현재가 $1.9000 (+0.00% 보합), 당일 최고가 $1.9000 (+0.0%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day SEC 8-K(Item 1.01) 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09) SEC 8-K (Item 1.01, 7.01, 9.01) 원문 분석:\nSEC 공시 현황: 2026-11-09 [8-K] (Item 1.01, 7.01, 9.01) 접수.\n야후 RSS 당일 PR 0건 (미수신).\n원문 팩트: 기존 전환사채 계약 변경 (\"First Amendment to Senior Secured Convertible Note - As previously disclosed, on July 29, 2025, Capstone Holding Corp. entered into a securities purchase agreement...\").\n치명적 기폭제 결함:\n오늘 제출된 8-K 공시는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인, 구체적 $ 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n기존에 발행되어 있던 선순위 담보 전환사채(Senior Secured Convertible Note)의 조건 및 변경에 관한 **단순 채무/대출 연장 및 조건 개정 공시(ACH 패턴)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 신규 현금 유입 계약이 아닌 단순 대출·신용한도·전환사채 유동화 연장(ACH 패턴)' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 프리장 거래대금($0 USD)의 무수급 상태에서 +0.00% 보합권에 갇혀 있어 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 8-K 공시가 단순 전환사채 개정/채무 연장 공시(First Amendment to Convertible Note, ACH 패턴)에 불과하고 장전 무수급(+0.00%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CAPS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: CAPS NOTES:\n[CAPS] 선순위 담보 전환사채 개정 공시(Item 1.01)는 단순 채무 연장(ACH 패턴)으로 1급 확정 기폭제 미달 및 장전 보합(+0.00%)으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
