@@ -1159,18 +1159,18 @@
         <h2 class="section-title" id="idx-radar-heading">🧭 오늘의 지수 방향 예측</h2>
         <span class="lab-safety-pill">📊 VWAP 우위 지수 추천 · 거래세 0%</span>
       </div>
-      <span class="section-sub" id="idxUpdateLbl">10:00 VWAP 안착 기준 · 카드 클릭 시 종목코드 복사</span>
+      <span class="section-sub" id="idxUpdateLbl">09:30 VWAP 체류비중(67%+) 확정 · 클릭 시 종목코드 복사</span>
     </div>
 
     <div class="lab-card" style="border-style:solid; border-color:#38BDF8;">
       <div class="lab-live-box" id="idxSignalBanner" style="margin-block-end:12px;">
         <div>
-          <div class="lab-status-tag" id="idxStatusTag">🕒 실시간 VWAP 우위 분석 중</div>
+          <div class="lab-status-tag" id="idxStatusTag">🕒 실시간 VWAP 체류비중 분석 중</div>
           <div style="font-size:15px; font-weight:900; color:var(--text-main);" id="idxMainTxt">
-            정방향 지수 ETF와 인버스 ETF 중 당일 평균가(VWAP) 위에 안착한 우위 방향을 실시간 추적합니다.
+            정방향 지수 ETF와 인버스 ETF 중 당일 평균가(VWAP) 위에 오래 머문 우위 지수를 실시간 추적합니다.
           </div>
           <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="idxSubTxt">
-            오전 10:00 정각 VWAP +0.20% 이상 & 양봉 안착 방향 확정 → 15:15 종가 기준 정산 (60거래일 검증 승률 67.6% · 하락장 80%)
+            09:05~09:30 구간 VWAP 상단 체류비중 67% 이상 & 현재 VWAP 위 안착 지수 추천 → 15:15 정산 (8~11월 4개월 연속 수익 · 복리 +24.1%)
           </div>
         </div>
         <div id="idxRightAction"></div>
@@ -1190,7 +1190,7 @@
       <details class="lab-hist-details" id="idxHistDetails">
         <summary><span id="idxHistSummaryLbl">지수 방향 예측 누적 성적 & 일자별 기록 보기 (0건)</span></summary>
         <div class="lab-hist-list" id="idxHistList">
-          <div style="padding:10px; font-size:13px; color:var(--text-muted);">평일 10:00 지수 방향 확정 시 일자별 기록이 자동으로 누적됩니다.</div>
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">평일 09:30 지수 방향 확정 및 15:15 정산 시 일자별 기록이 자동으로 누적됩니다.</div>
         </div>
       </details>
     </div>
@@ -1761,7 +1761,7 @@
 
     if (!bannerEl) return;
     if (updEl && idx.updated_at) {
-      updEl.textContent = `기준: ${idx.updated_at} · 10:00 VWAP 안착 확정 · 클릭 시 코드 복사`;
+      updEl.textContent = `기준: ${idx.updated_at} · 09:30 VWAP 체류비중(67%+) 확정 · 클릭 시 코드 복사`;
     }
 
     const st = idx.signal_status || "WAITING";
@@ -1775,11 +1775,12 @@
       const np = Number(act.cur_net_pct || 0);
       const isUpDir = act.dir === "UP";
       const icon = isUpDir ? "📈" : "📉";
+      const mp = Number(act.morn_above_pct || 0).toFixed(0);
       bannerEl.classList.add("holding");
       tagEl.classList.add("holding");
-      tagEl.textContent = `${icon} 10:00 추천 확정 · ${act.dir_label} 우위`;
+      tagEl.textContent = `${icon} 09:30 추천 확정 · ${act.dir_label} (체류비중 ${mp}%)`;
       mainEl.innerHTML = `VWAP 우위 추천 ETF: <strong style="color:#0369A1;">${escHtml(act.name)} (${escHtml(act.code)})</strong> · 현재 <strong>${fmtWon(act.cur_price)}</strong>`;
-      subEl.textContent = `10:00 기준가 ${fmtWon(act.entry_price)} (당일 VWAP ${fmtWon(act.vwap)} 대비 ${act.vwap_gap_pct >= 0 ? "+" : ""}${Number(act.vwap_gap_pct || 0).toFixed(2)}%) · 15:15 종가 기준 정산`;
+      subEl.textContent = `09:30 기준가 ${fmtWon(act.entry_price)} (오전 VWAP 상단 체류 ${mp}% · 현재 VWAP ${fmtWon(act.vwap)}) · 15:15 종가 기준 정산`;
       rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(act.code)}', '${escHtml(act.name)}')">📋 ${escHtml(act.name)} · 실시간 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</button>`;
     } else if (st === "CLOSED" && clsToday) {
       const np = Number(clsToday.net_pnl_pct || 0);
@@ -1790,18 +1791,21 @@
       rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(clsToday.code)}', '${escHtml(clsToday.name)}')">📋 종목코드 복사</button>`;
     } else if (st === "NEUTRAL") {
       tagEl.textContent = "⏸️ 금일 지수 혼조 구간 (관망 권장)";
-      mainEl.textContent = "10:00 기준 정방향·인버스 모두 진성 VWAP 우위(+0.20% & 양봉) 기준에 미달하여 방향성 관망 구간입니다.";
-      subEl.textContent = "아래 카드에서 현재 실시간 VWAP 상단 우위 지수 ETF 현황은 계속 확인하실 수 있습니다.";
+      mainEl.textContent = "09:05~09:30 구간 동안 정방향·인버스 모두 VWAP 상단 체류비중 67% 기준에 미달하여 팽팽한 혼조 구간입니다.";
+      subEl.textContent = "아래 카드에서 현재 실시간 VWAP 상단 체류비중 우위 지수 ETF 현황은 계속 확인하실 수 있습니다.";
     } else {
       const kw = idx.kospi_pair?.winner;
-      if (kw) {
-        const icon = kw.dir === "UP" ? "📈" : "📉";
+      const qkw = idx.kosdaq_pair?.winner;
+      const bestNow = (qkw && Number(qkw.day_above_pct || 0) > Number(kw?.day_above_pct || 0)) ? qkw : kw;
+      if (bestNow) {
+        const icon = bestNow.dir === "UP" ? "📈" : "📉";
+        const dp = Number(bestNow.day_above_pct || 0).toFixed(0);
         bannerEl.classList.add("armed");
         tagEl.classList.add("armed");
-        tagEl.textContent = `🧭 현재 VWAP 우위: ${kw.dir_label}`;
-        mainEl.innerHTML = `${icon} 현재 평균가(VWAP) 상단 지수 ETF: <strong style="color:#0369A1;">${escHtml(kw.name)} (${escHtml(kw.code)})</strong> · 현재 <strong>${fmtWon(kw.cur_price)}</strong>`;
-        subEl.textContent = `당일 VWAP ${fmtWon(kw.vwap)} 대비 ${kw.vwap_gap_pct >= 0 ? "+" : ""}${Number(kw.vwap_gap_pct).toFixed(2)}% 우위 · 평일 오전 10:00 정각에 당일 공식 방향을 확정합니다.`;
-        rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(kw.code)}', '${escHtml(kw.name)}')">📋 ${escHtml(kw.code)} 복사</button>`;
+        tagEl.textContent = `🧭 현재 VWAP 체류 1위: ${bestNow.dir_label} (${dp}% 점유)`;
+        mainEl.innerHTML = `${icon} 현재 VWAP 상단 점유율 1위: <strong style="color:#0369A1;">${escHtml(bestNow.name)} (${escHtml(bestNow.code)})</strong> · 현재 <strong>${fmtWon(bestNow.cur_price)}</strong>`;
+        subEl.textContent = `당일 VWAP(${fmtWon(bestNow.vwap)}) 상단 체류비중 ${dp}% · 평일 오전 09:30 정각에 체류비중(67%+)으로 공식 방향을 확정합니다.`;
+        rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(bestNow.code)}', '${escHtml(bestNow.name)}')">📋 ${escHtml(bestNow.code)} 복사</button>`;
       }
     }
 
@@ -1813,6 +1817,9 @@
       const badgeBg = isUp ? "#ECFDF5" : "#FFF1F2";
       const badgeBorder = isUp ? "#10B981" : "#F43F5E";
       const badgeTxt = isUp ? "#047857" : "#BE123C";
+      const wPct = Number(w.day_above_pct ?? 50).toFixed(0);
+      const wmPct = Number(w.morn_above_pct ?? wPct).toFixed(0);
+      const oPct = Number(o.day_above_pct ?? 50).toFixed(0);
       const arrow = isUp ? "📈 상승 우위" : "📉 하락(인버스) 우위";
       boxEl.style.cursor = "pointer";
       boxEl.onclick = () => copyStockCode(w.code, w.name);
@@ -1820,7 +1827,7 @@
         <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
           <span class="lab-kpi-lbl" style="margin:0;">${marketTitle}</span>
           <span style="font-size:11.5px; font-weight:900; padding:2px 8px; border-radius:999px; background:${badgeBg}; border:1px solid ${badgeBorder}; color:${badgeTxt};">
-            ${arrow} · VWAP 위
+            ${arrow} · 체류 ${wPct}%
           </span>
         </div>
         <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
@@ -1832,16 +1839,16 @@
           </div>
         </div>
         <div style="font-size:12.5px; font-weight:800; color:var(--text-muted); margin-top:4px;">
-          당일 VWAP <strong>${fmtWon(w.vwap)}</strong> (VWAP 대비 <strong class="${w.vwap_gap_pct >= 0 ? "up-txt" : "dn-txt"}">${w.vwap_gap_pct >= 0 ? "+" : ""}${Number(w.vwap_gap_pct).toFixed(2)}%</strong> · 전일대비 ${w.chg_prev_pct >= 0 ? "+" : ""}${Number(w.chg_prev_pct).toFixed(2)}%)
+          VWAP 체류 <strong style="color:#0369A1;">당일 ${wPct}%</strong> (09:30기준 <strong>${wmPct}%</strong>) · VWAP <strong>${fmtWon(w.vwap)}</strong> (<strong class="${w.vwap_gap_pct >= 0 ? "up-txt" : "dn-txt"}">${w.vwap_gap_pct >= 0 ? "+" : ""}${Number(w.vwap_gap_pct).toFixed(2)}%</strong>)
         </div>
         <div style="font-size:11.5px; font-weight:700; color:#64748B; margin-top:4px; padding-top:4px; border-top:1px dashed #BAE6FD;">
-          반대편: ${escHtml(o.name)} ${fmtWon(o.cur_price)} (VWAP ${fmtWon(o.vwap)} 대비 ${o.vwap_gap_pct >= 0 ? "+" : ""}${Number(o.vwap_gap_pct).toFixed(2)}%)
+          반대편: ${escHtml(o.name)} ${fmtWon(o.cur_price)} (당일 VWAP 상단 체류 ${oPct}%)
         </div>
       `;
     }
 
-    renderPairBox(kospiBox, "🏛️ 코스피 200 · VWAP 우위 지수", idx.kospi_pair);
-    renderPairBox(kosdaqBox, "🚀 코스닥 150 · VWAP 우위 지수", idx.kosdaq_pair);
+    renderPairBox(kospiBox, "🏛️ 코스피 200 · VWAP 체류 우위", idx.kospi_pair);
+    renderPairBox(kosdaqBox, "🚀 코스닥 150 · VWAP 체류 우위", idx.kosdaq_pair);
 
     const stats = idx.stats || {};
     const hist = Array.isArray(idx.history) ? idx.history : [];
@@ -1849,7 +1856,7 @@
       const sr = Number(stats.sum_return_pct || 0);
       histSumEl.textContent = hist.length > 0
         ? `지수 방향 예측 누적 성적: ${sr >= 0 ? "+" : ""}${sr.toFixed(2)}% · 승률 ${Number(stats.win_rate_pct || 0).toFixed(1)}% (${hist.length}건 보기)`
-        : `지수 방향 예측 일자별 기록 보기 (60거래일 백테스트 승률 67.6% · +21.5%)`;
+        : `지수 방향 예측 일자별 기록 보기 (8~11월 4개월 연속 수익 · 복리 +24.1%)`;
     }
     if (histListEl && hist.length > 0) {
       histListEl.innerHTML = hist.map((h) => {
