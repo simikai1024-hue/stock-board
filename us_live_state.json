@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:20:56",
-  "updated_at_et": "2026-11-17 06:20:56",
-  "updated_epoch_ms": 1794914456046,
+  "updated_at_kst": "2026-11-17 20:21:57",
+  "updated_at_et": "2026-11-17 06:21:57",
+  "updated_epoch_ms": 1794914517962,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:20:51"
+    "updated_kst": "20:21:53"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "06:21:16",
+      "time_kst": "20:21:16",
+      "symbol": "MESO",
+      "company_name": "MESO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1619.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:19:55",
       "time_kst": "20:19:55",
       "symbol": "GRAB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $62.01M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:16:01",
-      "time_kst": "18:16:01",
-      "symbol": "TAOX",
-      "company_name": "TAOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
     }
   ]
 }
