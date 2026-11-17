@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:14:52",
-  "updated_at_et": "2026-11-17 09:14:52",
-  "updated_epoch_ms": 1794924892961,
+  "updated_at_kst": "2026-11-17 23:15:57",
+  "updated_at_et": "2026-11-17 09:15:57",
+  "updated_epoch_ms": 1794924957430,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:14:48"
+    "updated_kst": "23:15:49"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:15:50",
+      "time_kst": "23:15:50",
+      "symbol": "RCT",
+      "company_name": "RCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $224.0M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:14:09",
       "time_kst": "23:14:09",
       "symbol": "QTEX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $337.68M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:32:22",
-      "time_kst": "22:32:22",
-      "symbol": "AENT",
-      "company_name": "AENT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $266.62M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
