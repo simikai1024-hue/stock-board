@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:20:28",
-  "updated_at_et": "2026-11-17 04:20:28",
-  "updated_epoch_ms": 1794907228496,
+  "updated_at_kst": "2026-11-17 18:21:26",
+  "updated_at_et": "2026-11-17 04:21:26",
+  "updated_epoch_ms": 1794907286365,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:20:24"
+    "updated_kst": "18:21:24"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 33,
+    "today_hardcut": 35,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:20:59",
+      "time_kst": "18:20:59",
+      "symbol": "ZEO",
+      "company_name": "ZEO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:20:39",
+      "time_kst": "18:20:39",
+      "symbol": "BKR",
+      "company_name": "BKR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $47608.16M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:18:48",
       "time_kst": "18:18:48",
       "symbol": "SHFS",
@@ -2914,26 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:22:05",
-      "time_kst": "01:22:05",
-      "symbol": "ROP",
-      "company_name": "ROP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $48077.22M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:21:50",
-      "time_kst": "01:21:50",
-      "symbol": "WASH",
-      "company_name": "WASH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $738.05M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
