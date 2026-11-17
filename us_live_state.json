@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:02:58",
-  "updated_at_et": "2026-11-17 06:02:58",
-  "updated_epoch_ms": 1794913378584,
+  "updated_at_kst": "2026-11-17 20:03:53",
+  "updated_at_et": "2026-11-17 06:03:53",
+  "updated_epoch_ms": 1794913433285,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:02:48"
+    "updated_kst": "20:03:46"
   },
   "stats": {
     "today_total": 3,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "06:03:30",
+      "time_kst": "20:03:30",
+      "symbol": "QUCY",
+      "company_name": "QUCY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.27M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:02:15",
       "time_kst": "20:02:15",
       "symbol": "OCSL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $337.02M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:05:22",
-      "time_kst": "18:05:22",
-      "symbol": "WB",
-      "company_name": "WB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $947.11M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
