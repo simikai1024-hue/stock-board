@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:13:12",
-  "updated_at_et": "2026-11-17 06:13:12",
-  "updated_epoch_ms": 1794913992708,
+  "updated_at_kst": "2026-11-17 20:13:23",
+  "updated_at_et": "2026-11-17 06:13:23",
+  "updated_epoch_ms": 1794914003051,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SAEN",
+    "company_name": "SAEN",
+    "exchange": "ND",
+    "price": 0.5821,
+    "gain_pct": -2.98,
+    "mcap_m": 28.07,
+    "catalyst_hint": "[당일 PR] Sòphia High Tech Joins the LANSSET Committee of the Italian Chamber of Commerce in Singapore to Support Asia-Pacific Expansion",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:13:18",
+    "started_at_kst": "20:13:18",
+    "started_epoch_ms": 1794913998252
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:12:58"
+    "updated_kst": "20:13:18"
   },
   "stats": {
     "today_total": 4,
