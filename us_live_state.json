@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:00:29",
-  "updated_at_et": "2026-11-17 04:00:29",
-  "updated_epoch_ms": 1794906029098,
+  "updated_at_kst": "2026-11-17 18:01:24",
+  "updated_at_et": "2026-11-17 04:01:24",
+  "updated_epoch_ms": 1794906084163,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:28"
+    "updated_kst": "18:01:07"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 1,
+    "today_hardcut": 3,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:01:17",
+      "time_kst": "18:01:17",
+      "symbol": "RTB",
+      "company_name": "RTB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $64.07M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:00:33",
+      "time_kst": "18:00:33",
+      "symbol": "CYAB",
+      "company_name": "CYAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:00:24",
       "time_kst": "18:00:24",
       "symbol": "GMM",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $51.16M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:50:52",
-      "time_kst": "23:50:52",
-      "symbol": "TENX",
-      "company_name": "TENX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $72.86M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "09:50:20",
-      "time_kst": "23:50:20",
-      "symbol": "VIDA",
-      "company_name": "VIDA",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Vida Global Announces Third Quarter 2026 Financial Results)"
     }
   ]
 }
