@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:28:47",
-  "updated_at_et": "2026-11-17 09:28:47",
-  "updated_epoch_ms": 1794925727564,
+  "updated_at_kst": "2026-11-17 23:29:41",
+  "updated_at_et": "2026-11-17 09:29:41",
+  "updated_epoch_ms": 1794925781603,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:28:43"
+    "updated_kst": "23:29:39"
   },
   "stats": {
     "today_total": 51,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:29:11",
+      "time_kst": "23:29:11",
+      "symbol": "SUIG",
+      "company_name": "SUIG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $62.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:28:40",
       "time_kst": "23:28:40",
       "symbol": "ELVR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:43:52",
-      "time_kst": "22:43:52",
-      "symbol": "DJT",
-      "company_name": "DJT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1135.99M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
