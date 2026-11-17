@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:01:48",
-  "updated_at_et": "2026-11-17 07:01:48",
-  "updated_epoch_ms": 1794916908923,
+  "updated_at_kst": "2026-11-17 21:02:27",
+  "updated_at_et": "2026-11-17 07:02:27",
+  "updated_epoch_ms": 1794916947128,
   "analyzing": {
-    "active": true,
-    "symbol": "SMTK",
-    "company_name": "SMTK",
-    "exchange": "ND",
-    "price": 0.2081,
-    "gain_pct": 26.97,
-    "mcap_m": 0.22,
-    "catalyst_hint": "[당일 PR] Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:01:44",
-    "started_at_kst": "21:01:44",
-    "started_epoch_ms": 1794916904237
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:01:43"
+    "updated_kst": "21:02:23"
   },
   "stats": {
-    "today_total": 5,
-    "today_nblm_count": 5,
+    "today_total": 6,
+    "today_nblm_count": 6,
     "today_buy": 0,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 35.3
+    "avg_nblm_sec": 36.9
   },
   "verdicts": [
+    {
+      "id": "v_1794916944366_SMTK_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "07:02:24",
+      "time_kst": "21:02:24",
+      "symbol": "SMTK",
+      "company_name": "SMTK",
+      "exchange": "ND",
+      "price": 0.2081,
+      "gain_pct": 26.97,
+      "mcap_m": 0.22,
+      "decision": "FALSE",
+      "elapsed_sec": 45.1,
+      "reason": "확정 수주/매출 전무한 합병 파트너사(Ferrox)의 비구속 MOU(Heads of Terms) 단순 가동 PR로 헌법 3조 위배 및 고점대비 -14.1% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SMTK (Smartkem, Inc.) 2026-11-17 07:01 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.22M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 극초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/공급 계약/매출 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 -14.1% 덤핑):\n전일 종가 $0.1639 대비 현재가 **$0.2081 (+26.97%)**.\n당일 최고가 $0.2423 찍은 후 장전 고점 대비 -14.1% 밀리며 상승 탄력 둔화.\n당일 누적 거래대금 $231,071 USD.\n헌법 제1조에 따라 8-K 미접수 및 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 합병 파트너사의 구속력 없는 MOU(Heads of Terms) 가동 (Non-binding Collaboration PR):\n본 PR의 본질은 Smartkem 본업의 매출이 아니라, 합병 추진 상대방인 'Ferrox Critical Minerals' 및 그 자회사(Tivani)가 광물 트레이더인 Wogen과 체결했던 구속력 없는 기본합의서(non-binding Heads of Terms)를 가동(activated)하여 시제품 샘플을 전달하고 시장 반응을 보겠다는 단순 사전 마케팅 협력 보도자료입니다.\n원문 본문에도 명시적으로 \"The Heads of Terms entered into in January 2026 are non-binding and are subject to a binding long-form agreement... There is no assurance that a binding agreement will be concluded\" 및 *\"There can be no assurance that prospective customer evaluations will result in purchase commitments or future revenues\"*라고 적혀 있어, 확정된 구매 주문(Purchase commitments)이나 미래 매출(Future revenues)이 전혀 없는 상태입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 합병 발표(8/3) 및 시연 생산 계획(8/26)에 이은 쪼개기 언론 플레이:\n과거 이력 대조 결과 회사는 2026년 8월 3일 Ferrox와의 주식 교환 합병 발표\n, 8월 26일 티바니 프로젝트 4분기 시연 생산 계획 발표 등 지속적으로 Ferrox 관련 재료를 홍보해 왔습니다.\n이번 보도자료 역시 기존에 발표된 1월 비구속 기본합의서를 바탕으로 한 단순 업무 가동(Heads of Terms 활성화) 형태의 전형적인 쪼개기/재홍보 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 윗꼬리 피뢰침:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 합병/프로젝트의 일부 연장/단순 가동 쪼개기 재탕 및 ④ 금액 미기재 단순 제휴/비구속 협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.2423까지 튀었다가 즉각 고점 대비 -14.1% 밀리며 긴 윗꼬리를 달고 덤핑되는 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 구매 주문이나 매출 유입이 전무한 합병 파트너사(Ferrox)의 비구속 기본합의서(Heads of Terms) 단순 가동 및 시제품 마케팅 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며\n, 장전 고점 대비 -14.1% 밀려 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SMTK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SMTK NOTES:\n[SMTK] 확정 수주/매출 전무한 합병 파트너사(Ferrox)의 비구속 MOU(Heads of Terms) 단순 가동 PR로 헌법 3조 위배 및 고점대비 -14.1% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 HUIZ, BEEM, SAEN, SMTK 모두 실체적 확정 현금 유입이 없는 껍데기 IR로 안전하게 전량 차단되었습니다. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 통과하는 진성 대박 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794914027232_SAEN_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,69 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MTEK (Maris-Tech Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.67M USD (시가총액 $50.0M 이하 초소형 품절주 관문 통과).\n실시간 시세 및 수급: 전일 종가 $0.2776 대비 현재가 $0.2527 (-8.97% 음봉 약세), 당일 최고가 $0.3245 (고점 대비 -22.1% 밀림). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:10 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"Maris-Tech Announces Record Order Backlog of Approximately $11,000,000\"\n원문 팩트: 2026년 11월 8일 기준 누적 수주 잔고(Order Backlog)가 약 $11M 달러에 달했다는 수주 잔고 집계 발표 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 보도자료는 오늘 당일 전격 체결된 신규 확정 대형 수주/계약이 아니라, 기존에 수주하여 이행 대기 중인 누적 수주 잔고 총액(Order Backlog)을 집계하여 발표한 IR/실적 성격의 보도자료입니다.\nPR 본문에도 \"backlog is not necessarily indicative of future revenues or earnings\" (수주 잔고가 향후 매출이나 수익을 보장하지 않음)이라고 명시되어 있습니다.\n이는 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '당일 신규 현금 유입 계약이 아닌 단순 수주잔고 발표/진행보고/주주서한/IR 발표' 범주에 속하므로 당일 기업 가치를 수직 폭등시킬 1급 확정 기폭제 기준에 미달합니다.\n[음봉 약세 & 윗꼬리 급락 차트]: 전일 대비 -8.97% 음봉 약세를 보이고 있으며, 당일 최고가($0.3245) 대비 -22.1% 밀린 윗꼬리 음봉 차트를 형성하고 있어 전략 헌장 기준 3번(\"고점 대비 급락 및 음봉 설거지 차트는 100% FORCE_BLOCK\")에 정면 저해됩니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 수주 잔고 집계 발표(Order Backlog)에 불과하고, 전일 대비 -8.97% 음봉 약세 및 고점 대비 -22.1% 급락 흐름을 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MTEK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: MTEK NOTES:\n[MTEK] 수주 잔고(Order Backlog) 발표는 1급 확정 신규 계약 미달 및 장전 음봉 약세(-8.97%, 고점대비 -22.1%)로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794229868919_AEON_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "08:11:08",
-      "time_kst": "22:11:08",
-      "symbol": "AEON",
-      "company_name": "AEON Biopharma, Inc.",
-      "exchange": "AM",
-      "price": 0.1716,
-      "gain_pct": -2.39,
-      "mcap_m": 10.14,
-      "decision": "FALSE",
-      "elapsed_sec": 31.4,
-      "reason": "단순 임상시험계획서(IND) 제출 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.39%)로 전량 차단",
-      "catalyst_hint": "[당일 PR] AEON Biopharma Submits IND for Comparative Pharmacodynamic Study of ABP-450",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 AEON (AEON Biopharma, Inc.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.14M USD (시가총액 $50.0M 이하 소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.1758 대비 현재가 $0.1716 (-2.39% 약세), 당일 최고가 $0.1738 (고점 대비 -1.3%). 개장 전 선발표 구간으로 장전 누적 거래대금 $0 USD.\n2. D-Day PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:00 ET) PR 원문 분석:\nSEC 공시 현황: 당일 SEC 공시 아직 미접수.\nPR 제목: \"AEON Biopharma Submits IND for Comparative Pharmacodynamic Study of ABP-450\"\n원문 팩트: 보툴리눔 톡신 후보물질(ABP-450) 바이오시밀러 개발 프로그램을 위해 비교 약동학 임상시험계획서(IND, Investigational New Drug application)를 제출(Submits IND)했다는 보도자료.\n치명적 기폭제 결함:\n오늘 발표된 재료는 최종 신약 FDA 승인, 임상 성공/탑라인 발표, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등 기업 가치를 수직 폭등시킬 확정적 1급 재료가 아닙니다.\n단순 **임상시험 개시를 위한 신청서 제출 단계(Submits IND)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 계약 금액 미기재 단순 IND 제출/임상 신청/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n현재 시세 반응 역시 전일 대비 -2.39% 약세를 보이고 있으며, 프리장 거래대금($0 USD) 및 세력 매집 수급 모멘텀이 부재합니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 임상시험계획서 제출(Submits IND)에 불과하고 장전 약세(-2.39%) 행보를 보여 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: AEON 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: AEON NOTES:\n[AEON] 단순 임상시험계획서(IND) 제출 PR은 1급 확정 기폭제 미달 및 장전 약세(-2.39%)로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:22",
+      "time_kst": "21:02:22",
+      "symbol": "CNOB",
+      "company_name": "CNOB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1616.65M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:18",
+      "time_kst": "21:02:18",
+      "symbol": "FACT",
+      "company_name": "FACT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $264.98M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:13",
+      "time_kst": "21:02:13",
+      "symbol": "CD",
+      "company_name": "CD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $410.31M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:09",
+      "time_kst": "21:02:09",
+      "symbol": "AUUD",
+      "company_name": "AUUD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:06",
+      "time_kst": "21:02:06",
+      "symbol": "WRAP",
+      "company_name": "WRAP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $78.74M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:02",
+      "time_kst": "21:02:02",
+      "symbol": "KYIV",
+      "company_name": "KYIV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2765.99M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "07:01:43",
@@ -2886,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $33121.38M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:41:24",
-      "time_kst": "18:41:24",
-      "symbol": "APPN",
-      "company_name": "APPN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3967.49M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:37:51",
-      "time_kst": "18:37:51",
-      "symbol": "MI",
-      "company_name": "MI",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:34:29",
-      "time_kst": "18:34:29",
-      "symbol": "AIIO",
-      "company_name": "AIIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1104.19M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:33:59",
-      "time_kst": "18:33:59",
-      "symbol": "HELP",
-      "company_name": "HELP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $560.37M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:31:54",
-      "time_kst": "18:31:54",
-      "symbol": "AXG",
-      "company_name": "AXG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $184.65M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:31:24",
-      "time_kst": "18:31:24",
-      "symbol": "SPWR",
-      "company_name": "SPWR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
     }
   ]
 }
