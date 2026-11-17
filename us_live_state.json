@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:15:19",
-  "updated_at_et": "2026-11-17 10:15:19",
-  "updated_epoch_ms": 1794928519524,
+  "updated_at_kst": "2026-11-18 00:15:44",
+  "updated_at_et": "2026-11-17 10:15:44",
+  "updated_epoch_ms": 1794928544401,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SMX",
+    "company_name": "SMX",
+    "exchange": "ND",
+    "price": 5.18,
+    "gain_pct": 41.53,
+    "mcap_m": 5.64,
+    "catalyst_hint": "[당일 PR] SMX Aims to Close the Verification Gap in Global Gold Trading With trueGold",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "10:15:27",
+    "started_at_kst": "00:15:27",
+    "started_epoch_ms": 1794928527619
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:15:02"
+    "updated_kst": "00:15:43"
   },
   "stats": {
     "today_total": 55,
