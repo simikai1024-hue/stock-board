@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:54:58",
-  "updated_at_et": "2026-11-17 09:54:58",
-  "updated_epoch_ms": 1794927298721,
+  "updated_at_kst": "2026-11-17 23:55:40",
+  "updated_at_et": "2026-11-17 09:55:40",
+  "updated_epoch_ms": 1794927340992,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:54:53"
+    "updated_kst": "23:55:35"
   },
   "stats": {
     "today_total": 54,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:55:24",
+      "time_kst": "23:55:24",
+      "symbol": "EMPD",
+      "company_name": "EMPD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.39M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:54:41",
       "time_kst": "23:54:41",
       "symbol": "INMB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $158.53M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:07:08",
-      "time_kst": "23:07:08",
-      "symbol": "OCTV",
-      "company_name": "OCTV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5717.72M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
