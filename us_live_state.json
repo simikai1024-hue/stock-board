@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:22:41",
-  "updated_at_et": "2026-11-17 07:22:41",
-  "updated_epoch_ms": 1794918161399,
+  "updated_at_kst": "2026-11-17 21:23:34",
+  "updated_at_et": "2026-11-17 07:23:34",
+  "updated_epoch_ms": 1794918214713,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:22:34"
+    "updated_kst": "21:23:32"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:23:04",
+      "time_kst": "21:23:04",
+      "symbol": "WHLR",
+      "company_name": "WHLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:19:49",
       "time_kst": "21:19:49",
       "symbol": "NRXP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1619.87M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:19:55",
-      "time_kst": "20:19:55",
-      "symbol": "GRAB",
-      "company_name": "GRAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $13059.95M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
