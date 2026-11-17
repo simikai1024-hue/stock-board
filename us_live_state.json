@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:09:56",
-  "updated_at_et": "2026-11-17 09:09:56",
-  "updated_epoch_ms": 1794924596774,
+  "updated_at_kst": "2026-11-17 23:10:47",
+  "updated_at_et": "2026-11-17 09:10:47",
+  "updated_epoch_ms": 1794924647469,
   "analyzing": {
-    "active": true,
-    "symbol": "SPCB",
-    "company_name": "SPCB",
-    "exchange": "ND",
-    "price": 7.14,
-    "gain_pct": 2.15,
-    "mcap_m": 44.84,
-    "catalyst_hint": "[당일 PR] SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:09:52",
-    "started_at_kst": "23:09:52",
-    "started_epoch_ms": 1794924592049
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:48"
+    "updated_kst": "23:10:28"
   },
   "stats": {
-    "today_total": 47,
-    "today_nblm_count": 47,
+    "today_total": 48,
+    "today_nblm_count": 48,
     "today_buy": 0,
-    "today_false": 47,
+    "today_false": 48,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 14,
     "total_false": 136,
-    "avg_nblm_sec": 46.7
+    "avg_nblm_sec": 46.8
   },
   "verdicts": [
+    {
+      "id": "v_1794924642302_SPCB_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "09:10:42",
+      "time_kst": "23:10:42",
+      "symbol": "SPCB",
+      "company_name": "SPCB",
+      "exchange": "ND",
+      "price": 7.14,
+      "gain_pct": 2.15,
+      "mcap_m": 44.84,
+      "decision": "FALSE",
+      "elapsed_sec": 53.4,
+      "reason": "$12.1M은 과거 EBITDA 착시이며 확정 계약금액 미기재 및 인디애나 단일 카운티 소액 납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SPCB (SuperCom Ltd.) 2026-11-17 09:09 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $44.84M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주/신규 계약 착시 적발):\n본문 핵심 금액으로 언급된 **약 $12.10M USD (시총 대비 27.0%)**는 당일 발표된 인디애나 카운티 수주 계약 금액이 아닙니다.\n이는 CEO(Ordan Trabelsi)가 인터뷰 문구에서 자사의 과거 실적을 과시하기 위해 언급한 **과거 12개월 누적 EBITDA 수치(trailing twelve-month EBITDA reaching approximately $12.1 million through the third quarter of 2026)**에 불과합니다.\n정작 당일 발표된 인디애나 카운티 교정국 계약의 확정 달러 총액은 원문 어디에도 단 1달러도 기재되지 않은 금액 미기재(일일 활성 기기당 반복 수익 모델) 계약입니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $6.9900 대비 현재가 $7.1400 (+2.15%), 당일 최고가 $7.2400 (고점 대비 -1.4%).\n당일 누적 거래대금 $20,029 USD (2만 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:06 ET) 공식 PR 원문 분석:\nPR 제목: *\"SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 메가 계약 금액 미기재 및 일상적인 지방 카운티 단위 쪼개기 계약 (County-level Contract PR):\n원문 본문에 *\"secured a direct county-level electronic monitoring contract with a community corrections agency in Indiana... The contract will follow a recurring revenue model based on daily active units\"*라고 명시되어 있습니다.\n이는 주 정부나 연방 단위의 거액 메가 수주가 아니라, 인디애나주 내 한 개 카운티(County) 단위 교정국에 PureOne 전자발찌를 납품하는 일상적 영업 수주이며, 확정된 총 계약 달러 금액($M) 및 즉각 가용한 현금 선급금(AIMD형)이 일절 기재되지 않은 전형적인 금액 미기재 PR입니다.\n과거 180일 반복된 '기존 사업자 밀어내기(Displacing Incumbent)' 쪼개기 홍보 패턴의 재탕:\n과거 이력 대조 결과 회사는 이미 2026년 10월 13일에도 \"SuperCom Wins 7th New York Electronic Monitoring Contract, Fully Displacing the Incumbent\" 보도자료를 낸 바 있습니다.\n또한 본문 스스로 *\"With more than 50 new electronic monitoring contracts secured across the U.S. since mid-2024...\"*라고 밝혔듯이\n, 이번 발표 역시 전국에서 수시로 체결되는 50여 개 자잘한 카운티 계약 중 하나를 **'기존 사업자 대체(2nd contract in Indiana, displacing incumbent)'라는 동일한 문구 템플릿으로 포장하여 배포한 전형적인 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표된 영업 수주의 소규모 카운티 단위 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M)이 미기재된 단순 반복적 지방 교정국 납품 홍보물은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 메가 수주 계약 금액이나 현금 선급금이 전무하고 ($12.1M은 과거 EBITDA 수치 착시)\n, 인디애나주 단일 카운티 단위의 일상적 교정국 전자발찌 공급을 기존 수주 템플릿으로 포장한 소규모 쪼개기 재탕 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SPCB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SPCB NOTES:\n[SPCB] $12.1M은 과거 EBITDA 착시이며 확정 계약금액 미기재 및 인디애나 단일 카운티 소액 납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 31개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI, SPCB) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품/소프트웨어 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장, 분할납품 현장배치, 상폐위기 주주서한, 로봇 1대 납품, 임상 환자방문 완료, 단순 특허 등록, 단순 CEO 간담회, 누적 수주잔고 홍보, 카운티 소액 수주 쪼개기로 확인되어 안전하게 전량 차단되었습니다\n. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794924579393_PPSI_FALSE",
       "date_et": "2026-11-17",
@@ -2422,26 +2430,6 @@
       "reason": "신규 수주가 아닌 단순 Q3 정기 실적 발표이며 AuM $31.4B는 운용잔고 착시로 1급 확정 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] Binah Capital Group Reports Results for Third Quarter of 2026",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BCG (Binah Capital Group, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $20.47M USD (나스닥 상장, 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증: 발표 수치 **$31.4 Billion($31,400.00M)**은 회사가 새로 벌어들인 신규 수주나 매출 계약이 아니며, 금융투자/자산운용 자회사가 관리 중인 단순 총 운용자산 잔고(Assets Under Management, AuM) 집계치에 불과합니다.\n실시간 체결가 및 수급: 전일 종가 $1.1000 대비 현재가 $1.2000 (+9.09%), 당일 최고가 $1.2000 (+0.0%), 당일 누적 거래대금 $896 USD.\n선발표 규정 확인: 전일(11/12) 정기 분기보고서 **[10-Q]**가 SEC에 이미 제출된 상태에서 당일 장전 보도자료를 배포한 정기 실적 PR 발표 구간입니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 09:19 ET) 공식 PR 원문 분석:\nPR 제목: \"Binah Capital Group Reports Results for Third Quarter of 2026\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적 정기 분기 실적 발표 (Regular Quarterly Earnings):\n본 PR의 본질은 제목과 본문에 명시되었듯 **2026년 3분기 정기 실적 발표(Q3 Results)**입니다.\n총 매출 $50.6M, 순이익 $2.6M, EBITDA $4.7M 등은 통상적인 지난 분기 영업 집계 결과입니다.\nAuM $31.4B의 실체 (자산운용 잔고 표기 착시):\n수치상 $31.4 Billion이라는 거액이 기재되어 있으나, 이는 금융 자회사가 위탁 운용하는 총 고객 자산(AuM)이 전년 대비 5% 증가했다는 금융업 특유의 지표일 뿐, 회사로 직접 유입되는 신규 현금 계약금이 전혀 아닙니다.\n1급 확정 기폭제 기준 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 신규 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), FDA 승인/임상 성공, 대형 M&A 완료, 특별배당\" 등 기업 가치를 수직 폭등시킬 수 있는 실체적 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/영업 업데이트/AuM 잔고 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 2026년 3분기 정기 실적 발표이며, $31.4B 또한 단순 자산운용 잔고(AuM) 집계에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BCG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: BCG NOTES:\n[BCG] 신규 수주가 아닌 단순 Q3 정기 실적 발표이며 AuM $31.4B는 운용잔고 착시로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794578142131_FTCI_FALSE",
-      "date_et": "2026-11-13",
-      "weekday_kr": "금",
-      "time_et": "08:55:42",
-      "time_kst": "22:55:42",
-      "symbol": "FTCI",
-      "company_name": "FTCI",
-      "exchange": "ND",
-      "price": 1.2001,
-      "gain_pct": 0.01,
-      "mcap_m": 21.95,
-      "decision": "FALSE",
-      "elapsed_sec": 31.6,
-      "reason": "확정 계약 금액 없는 단순 태양광 유지보수 서비스 프로그램(SUNCARE™) 출시 마케팅 PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] FTC Solar Introduces SUNCARE™ Preventive Maintenance Program for Long-Term Tracker Performance",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 FTCI (FTC Solar, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $21.95M USD (나스닥 상장, 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $1.2000 대비 현재가 $1.2001 (+0.01%), 당일 최고가 $1.2200 (고점 대비 -1.6%), 당일 누적 거래대금 $2,315 USD.\n선발표 규정 확인: 계약 후 4영업일 이내 8-K 제출 유예 규정에 따른 순수 PR 선발표 구간이므로, 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/13 08:45 ET) 공식 PR 원문 분석:\nPR 제목: \"FTC Solar Introduces SUNCARE™ Preventive Maintenance Program for Long-Term Tracker Performance\"\n원문 직독 결과 드러난 치명적 실체:\n단순 유지보수 서비스 프로그램 출시 홍보 (Product/Service Launch PR):\n본 PR의 본질은 자사 태양광 트래커 고객을 대상으로 정기 점검, 성능 모니터링, 캘리브레이션을 결합한 예방 유지보수 서비스 프로그램인 \"SUNCARE™\"를 출시(Introduces)했다는 단순 B2B 서비스 상품 런칭 마케팅 보도자료입니다.\n구체적 확정 달러 금액 및 신규 현금 유입 전무 (No Confirmed Dollar Inflow):\n기업 가치를 폭발적으로 리레이팅시킬 수 있는 신규 대형 수주 계약, 확정된 수주 금액, 거액 현금 계약금(deposit), 대형 M&A 체결, FDA 승인, 특별배당 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '금액 미기재 단순 서비스/상품 런칭/제휴/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 명시되지 않은 단순 태양광 트래커 유지보수 프로그램(SUNCARE™) 런칭 홍보에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: FTCI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-13 FORCE_BUY: NONE FORCE_BLOCK: FTCI NOTES:\n[FTCI] 확정 계약 금액 없는 단순 태양광 유지보수 서비스 프로그램(SUNCARE™) 출시 마케팅 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
