@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:43:01",
-  "updated_at_et": "2026-11-17 08:43:01",
-  "updated_epoch_ms": 1794922981572,
+  "updated_at_kst": "2026-11-17 22:44:00",
+  "updated_at_et": "2026-11-17 08:44:00",
+  "updated_epoch_ms": 1794923040242,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:42:57"
+    "updated_kst": "22:43:58"
   },
   "stats": {
     "today_total": 39,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:43:52",
+      "time_kst": "22:43:52",
+      "symbol": "DJT",
+      "company_name": "DJT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1135.99M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:41:28",
       "time_kst": "22:41:28",
       "symbol": "SVC",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $130.98M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:02:36",
-      "time_kst": "22:02:36",
-      "symbol": "ZENA",
-      "company_name": "ZENA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $116.99M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
