@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:23:34",
-  "updated_at_et": "2026-11-17 07:23:34",
-  "updated_epoch_ms": 1794918214713,
+  "updated_at_kst": "2026-11-17 21:24:20",
+  "updated_at_et": "2026-11-17 07:24:20",
+  "updated_epoch_ms": 1794918260624,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:23:32"
+    "updated_kst": "21:24:11"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:24:16",
+      "time_kst": "21:24:16",
+      "symbol": "CFBK",
+      "company_name": "CFBK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $236.35M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:23:04",
       "time_kst": "21:23:04",
       "symbol": "WHLR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [424B5])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:21:16",
-      "time_kst": "20:21:16",
-      "symbol": "MESO",
-      "company_name": "MESO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1619.87M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
