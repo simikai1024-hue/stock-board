@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:07:15",
-  "updated_at_et": "2026-11-17 08:07:15",
-  "updated_epoch_ms": 1794920835378,
+  "updated_at_kst": "2026-11-17 22:08:01",
+  "updated_at_et": "2026-11-17 08:08:01",
+  "updated_epoch_ms": 1794920881324,
   "analyzing": {
-    "active": true,
-    "symbol": "MNTS",
-    "company_name": "MNTS",
-    "exchange": "ND",
-    "price": 2.0,
-    "gain_pct": -1.09,
-    "mcap_m": 43.93,
-    "catalyst_hint": "[당일 PR] Momentus to Fly NASA Payloads on Vigoride-8 Spacecraft During Bandwagon-6 Rideshare Mission with SpaceX",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:07:07",
-    "started_at_kst": "22:07:07",
-    "started_epoch_ms": 1794920827414
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:06:58"
+    "updated_kst": "22:07:56"
   },
   "stats": {
-    "today_total": 23,
-    "today_nblm_count": 23,
+    "today_total": 24,
+    "today_nblm_count": 24,
     "today_buy": 0,
-    "today_false": 23,
+    "today_false": 24,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.8
+    "avg_nblm_sec": 43.0
   },
   "verdicts": [
+    {
+      "id": "v_1794920873163_MNTS_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "08:07:53",
+      "time_kst": "22:07:53",
+      "symbol": "MNTS",
+      "company_name": "MNTS",
+      "exchange": "ND",
+      "price": 2.0,
+      "gain_pct": -1.09,
+      "mcap_m": 43.93,
+      "decision": "FALSE",
+      "elapsed_sec": 49.1,
+      "reason": "시총 대비 11.6%($5.10M)에 불과한 2027년 SpaceX 라이드셰어 발사 일정 PR로 헌법 2조 수주요건(100%+) 미달 및 3조 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Momentus to Fly NASA Payloads on Vigoride-8 Spacecraft During Bandwagon-6 Rideshare Mission with SpaceX",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MNTS (Momentus Inc.) 2026-11-17 08:06 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $43.93M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주 착시 적발):\n본문 핵심 금액으로 언급된 약 $5.10M USD는 실질 시총($43.93M) 대비 **11.6%**에 불과합니다.\n연구소 심사 헌법 제2조 ①항(FORCE_BUY)의 수주 승인 기준인 \"시총 대비 100%+ 압도적 창사 최대 수주 + 거액 현금 선급금(AIMD형)\" 정량 요건에 턱없이 미달합니다.\n실시간 체결가 및 수급 (미미한 반응 구간):\n전일 종가 $1.9500 대비 현재가 $2.0000 (+2.56%), 당일 최고가 $2.0799 (고점 대비 -3.8%).\n당일 누적 거래대금 $34,498 USD (3만 4천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Momentus to Fly NASA Payloads on Vigoride-8 Spacecraft During Bandwagon-6 Rideshare Mission with SpaceX\"\n원문 직독 결과 드러난 치명적 실체:\n압도적 창사 최대 수주가 아닌 2027년 목표의 단순 탑재체 발사 계획 안내 (Future Launch Schedule PR):\n본 PR의 본질은 회사의 궤도 서비스 우주선(Vigoride-8)에 NASA 탑재체 등을 싣고 2027년을 목표로 스페이스X의 Bandwagon-6 라이드셰어 미션을 통해 발사할 예정이라는 미래 일정 홍보 보도자료입니다.\n체급 대비 규모가 $5.10M(시총 대비 11.6%) 수준의 소액 미션/예정치에 불과하며, 당장 시총을 압도하는 거액 확정 계약금이나 즉시 가용한 현금 선급금(AIMD형)이 결여되어 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 전혀 없습니다.\n과거 180일 우주 로봇/위성 마케팅(11/12)의 연장선상 미래 일정 발표:\n과거 이력 대조 결과 회사는 불과 5일 전인 2026년 11월 12일에도 \"Momentus Reports Strong Progress of in-Space Robotic Arm\" 보도자료를 배포한 바 있습니다.\n이번 보도자료 역시 기존에 추진 중이던 NASA/SpaceX 연계 라이드셰어 발사 일정을 포장하여 배포한 전형적인 미래(2027년) 목표성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 우주 프로젝트의 발사 일정 쪼개기 재탕 및 시총 대비 11.6%에 불과한 소규모 계약, ④ 금액 미기재/미래 목표성 협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 시총($43.93M)을 압도하지 못하는 소규모 금액($5.10M, 시총 대비 11.6%)이자 2027년 목표의 SpaceX 라이드셰어 발사 일정 안내에 불과하여 헌법 제2조 수주 요건(시총 100%+ 및 선급금)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MNTS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: MNTS NOTES:\n[MNTS] 시총 대비 11.6%($5.10M)에 불과한 2027년 SpaceX 라이드셰어 발사 일정 PR로 헌법 2조 수주요건(100%+) 미달 및 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정으로 확인되어 안전하게 전량 차단되었습니다\n. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794920814823_MIRA_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CIGL (Concorde International Group Ltd) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $49.17M USD (시가총액 $50.0M 이하 관문은 통과했으나 상한선 임계치 근접).\n실시간 체결가 및 수급: 전일 종가 $0.1930 대비 현재가 $0.1990 (+3.11%), 당일 최고가 $0.2399 (고점 대비 -17.0% 윗꼬리 급락 밀림), 당일 누적 거래대금 $71,294 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/10 08:12 ET) 공식 PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-10 [6-K] 접수.\nPR 제목: \"Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth\"\n원문 팩트: 자회사/그룹사인 YOOV Group의 신임 CEO로 Dentris See를 선임했다는 단순 경영진/임원 인사(CEO 선임) 보도자료.\n치명적 기폭제 결함 & 윗꼬리 덤핑 차트:\n오늘 발표된 6-K 및 보도자료는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(대규모 자사주 소각, FDA 승인, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 전혀 아닙니다.\n단순 **경영진/CEO 교체 및 선임 인사 발표(Executive/CEO Appointment)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 인사/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n당일 최고가($0.2399) 대비 현재가가 -17.0% 밀린 깊은 윗꼬리 차트를 만들고 있어, 단순 인사 뉴스를 틈탄 세력의 장전 덤핑 설거지 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 CEO 선임 인사 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하고, 고점 대비 -17.0% 밀리는 윗꼬리 차트를 형성하고 있으므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CIGL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: CIGL NOTES:\n[CIGL] 단순 경영진 선임 PR(Dentris See as CEO)은 1급 확정 기폭제 미달 및 고점 대비 -17.0% 윗꼬리 덤핑으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794320325285_MNDO_FALSE",
-      "date_et": "2026-11-10",
-      "weekday_kr": "화",
-      "time_et": "09:18:45",
-      "time_kst": "23:18:45",
-      "symbol": "MNDO",
-      "company_name": "MNDO",
-      "exchange": "ND",
-      "price": 1.26,
-      "gain_pct": 44.83,
-      "mcap_m": 25.67,
-      "decision": "FALSE",
-      "elapsed_sec": 60.0,
-      "reason": "주당 $1.30 전액 현금 피인수(All-Cash M&A)로 상방 가격이 고정되어 추가 폭등이 불가능하며, $1.50 오버슈팅 후 -16% 밀린 차익거래 덫으로 전량 차단",
-      "catalyst_hint": "[당일 PR] Enghouse Systems to Acquire MIND C.T.I. in All-Cash Transaction Expanding its Telecom and Enterprise UC Offerings",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MNDO (MIND C.T.I. Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $25.67M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.8700 대비 현재가 $1.2600 (+44.83%), 당일 최고가 $1.5000 (고점 대비 -16.0% 급락 밀림)\n, 당일 누적 거래대금 $1,361,664 USD.\n2. D-Day 공식 PR & SEC 6-K 원문 직독 정밀 검증 (상방 $1.30 캡 & 오버슈팅 덫)\n당일(11/10 06:35 ET) 공식 PR 및 SEC 6-K 원문 분석\n:\nSEC 공시 현황: 2026-11-10 [6-K] 접수.\nPR 제목: *\"Enghouse Systems to Acquire MIND C.T.I. in All-Cash Transaction Expanding its Telecom and Enterprise UC Offerings\"*\n원문 팩트: 캐나다 Enghouse Systems가 MIND C.T.I.의 발행 보통주 전량을 **주당 $1.30 전액 현금(All-Cash Transaction, 총액 약 $25.4M)**에 인수합병(Merger Agreement) 체결.\n치명적 기폭제 결함 & 차익거래 덫:\n주가 상단 $1.30 완전 고정 (Upside Capped): 본 계약은 피인수 기업의 주식을 전액 현금 주당 $1.30에 매수하는 구조입니다\n. 따라서 현재가 $1.2600 기준 남은 이론상 기대 수익률은 불과 **+3.17%($0.04)**에 불과하며\n, 연구소 목표 익절 기준인 +58%~+266% 실질 대폭등은 수학적으로 원천 불가능합니다.\n$1.5000 오버슈팅 후 -16.0% 덤핑 함정: 장초반 PR 제목만 본 추격 매수세가 인수 단가($1.30)를 훌쩍 넘겨 $1.5000까지 비이성적 오버슈팅을 냈다가\n, 인수 확정 단가($1.30)로 회귀 수렴하며 고점 대비 -16.0% 밀리는 윗꼬리 설거지 덤핑 차트를 만들고 있습니다.\n이는 연구소 전략 헌장 제1장 2·3번 규칙(\"당일 대폭등 지속성이 결여된 재료 및 고점 대비 급락 차트 차단\")에 저촉되는 전형적인 **피인수 차익거래 덫(Arbitrage Trap)**입니다.\n3. 최종 심사 및 결재 판정\n주당 $1.30 전액 현금 피인수 계약으로 상방 가격이 $1.30에 물리적으로 제한되어 있어 단타 대폭등이 불가능하고, 최고가($1.50) 대비 -16.0% 밀린 오버슈팅 덤핑 구간이므로 전략 헌장에 의거 FORCE_BLOCK: MNDO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: MNDO NOTES:\n[MNDO] 주당 $1.30 전액 현금 피인수(All-Cash M&A)로 상방 가격이 고정되어 추가 폭등이 불가능하며, $1.50 오버슈팅 후 -16% 밀린 차익거래 덫으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:07:19",
+      "time_kst": "22:07:19",
+      "symbol": "PULM",
+      "company_name": "PULM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "08:07:01",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $236.35M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:23:04",
-      "time_kst": "21:23:04",
-      "symbol": "WHLR",
-      "company_name": "WHLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 3.02))"
     }
   ]
 }
