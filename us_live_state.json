@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:20:38",
-  "updated_at_et": "2026-11-17 09:20:38",
-  "updated_epoch_ms": 1794925238669,
+  "updated_at_kst": "2026-11-17 23:21:39",
+  "updated_at_et": "2026-11-17 09:21:39",
+  "updated_epoch_ms": 1794925299377,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:20:33"
+    "updated_kst": "23:21:34"
   },
   "stats": {
     "today_total": 50,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:20:49",
+      "time_kst": "23:20:49",
+      "symbol": "RDHL",
+      "company_name": "RDHL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:18:29",
       "time_kst": "23:18:29",
       "symbol": "IQMX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $14975.91M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:36:41",
-      "time_kst": "22:36:41",
-      "symbol": "FBYD",
-      "company_name": "FBYD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $260.17M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
