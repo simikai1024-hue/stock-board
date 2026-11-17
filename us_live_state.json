@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:47:07",
-  "updated_at_et": "2026-11-17 09:47:07",
-  "updated_epoch_ms": 1794926827506,
+  "updated_at_kst": "2026-11-17 23:48:01",
+  "updated_at_et": "2026-11-17 09:48:01",
+  "updated_epoch_ms": 1794926881156,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:47:02"
+    "updated_kst": "23:47:44"
   },
   "stats": {
     "today_total": 53,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:47:53",
+      "time_kst": "23:47:53",
+      "symbol": "RIME",
+      "company_name": "RIME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Algorhythm Holdings Reports Third Quarter 2026 Financial R)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:37:50",
       "time_kst": "23:37:50",
       "symbol": "CLMB",
@@ -2444,16 +2454,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $791.29M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:33:42",
-      "time_kst": "23:33:42",
-      "symbol": "RIME",
-      "company_name": "RIME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Algorhythm Holdings Reports Third Quarter 2026 Financial R)"
     },
     {
       "date_et": "2026-11-17",
