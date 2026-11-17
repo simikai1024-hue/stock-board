@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:03:31",
-  "updated_at_et": "2026-11-17 08:03:31",
-  "updated_epoch_ms": 1794920611704,
+  "updated_at_kst": "2026-11-17 22:04:15",
+  "updated_at_et": "2026-11-17 08:04:15",
+  "updated_epoch_ms": 1794920655907,
   "analyzing": {
-    "active": true,
-    "symbol": "MIRA",
-    "company_name": "MIRA",
-    "exchange": "ND",
-    "price": 0.631,
-    "gain_pct": 0.0,
-    "mcap_m": 26.52,
-    "catalyst_hint": "[당일 PR] MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:03:26",
-    "started_at_kst": "22:03:26",
-    "started_epoch_ms": 1794920606635
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:03:16"
+    "updated_kst": "22:03:55"
   },
   "stats": {
-    "today_total": 20,
-    "today_nblm_count": 20,
+    "today_total": 21,
+    "today_nblm_count": 21,
     "today_buy": 0,
-    "today_false": 20,
+    "today_false": 21,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 42.8
+    "avg_nblm_sec": 43.1
   },
   "verdicts": [
+    {
+      "id": "v_1794920647449_MIRA_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "08:04:07",
+      "time_kst": "22:04:07",
+      "symbol": "MIRA",
+      "company_name": "MIRA",
+      "exchange": "ND",
+      "price": 0.631,
+      "gain_pct": 0.0,
+      "mcap_m": 26.52,
+      "decision": "FALSE",
+      "elapsed_sec": 48.4,
+      "reason": "확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 MIRA (MIRA Pharmaceuticals, Inc.) 2026-11-17 08:03 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.52M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $0.6310 대비 현재가 $0.6310 (+0.00%), 당일 최고가 $0.6649 (고점 대비 -5.1%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 빅파마 기술이전 계약이 아닌 초기 전임상 연구 결과 발표 (Preclinical Findings PR):\n본 PR의 본질은 FDA 시판 승인이나 임상 3상 성공, 또는 글로벌 대형 제약사와의 거액 독점 라이선스 계약이 아닙니다.\nMIRA-55 파이프라인의 비마약성 통증 완화 기전과 관련하여 CB2 수용체 활성화 및 500배 이상의 선택성 차이를 확인했다는 **초기 전임상(Preclinical) 실험실 약리 데이터 발표 보도자료(New Findings Highlight MIRA-55's Potent CB2 Activation... With Encouraging Preclinical Pain Relief...)**에 불과합니다.\n빅파마로부터 유입되는 확정 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 3상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 전임상 홍보(10/29)의 연장선상 학술 발표:\n과거 이력 대조 결과 회사는 2026년 10월 29일에도 MIRA-55 전임상 결과 보도자료를 배포한 바 있습니다.\n이번 보도자료 역시 기존 파이프라인의 추가 시험관/동물 실험 수준 약리 데이터에 불과한 전형적인 임상 이전 단계의 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 전임상(Preclinical) 연구 결과/약리 기전 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 정식 승인이 전무한 MIRA-55의 단순 초기 전임상(Preclinical) 선택성 약리 결과 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MIRA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: MIRA NOTES:\n[MIRA] 확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 08:00 ET 기준 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 피크 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794920593530_DXR_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,19 @@
       "full_report": "",
       "engine": "실전 포지션 정산",
       "trade_action": "🛡️ 손절 청산: 216주 | 매수 $0.9660 → 매도 $0.8183 (-15.29% / -$31.90)"
-    },
-    {
-      "id": "v_1794235365314_MTEK_FALSE",
-      "date_et": "2026-11-09",
-      "weekday_kr": "월",
-      "time_et": "09:42:45",
-      "time_kst": "23:42:45",
-      "symbol": "MTEK",
-      "company_name": "Maris Tech Ltd.",
-      "exchange": "ND",
-      "price": 0.2898,
-      "gain_pct": 4.39,
-      "mcap_m": 3.06,
-      "decision": "FALSE",
-      "elapsed_sec": 36.3,
-      "reason": "누적 수주 잔고(Order Backlog) PR/6-K는 당일 신규 계약 미달 및 윗꼬리 음봉 흐름으로 전량 차단",
-      "catalyst_hint": "[당일 PR] Maris-Tech Announces Record Order Backlog of Approximately $11,000,000",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 MTEK (Maris-Tech Ltd.) 09:42 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.06M USD (시가총액 $50.0M 이하 초소형 품절주 관문 완벽 통과).\n실시간 시세 및 수급: 전일 종가 $0.2776 대비 현재가 $0.2898 (+4.39% 상승), 당일 최고가 $0.3245 (고점 대비 -10.7%), 당일 누적 거래대금 $348,794 USD (본장 개장 후 거래대금 유입 형성).\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/09 08:10 ET PR & SEC 6-K) 원문 분석:\nSEC 공시 현황: 2026-11-09 [6-K] 접수 완료.\nPR 제목: \"Maris-Tech Announces Record Order Backlog of Approximately $11,000,000\"\n원문 팩트: 약 $11M 달러 규모의 누적 수주 잔고(Record Order Backlog)를 집계하여 알리는 보도자료.\n치명적 기폭제 결함:\n본장 거래대금($348K USD) 유입과 6-K 공시 접수가 동기화되었으나, 재료의 본질은 오늘 당일 전격 체결된 신규 확정 대형 수주/계약이 아니라 기존 수주의 누적 잔액(Order Backlog)을 집계한 실적/IR 성격 발표입니다.\n이는 당일 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(FDA 승인, 구체적 $ 금액 명시 당일 신규 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 아닙니다.\n연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"당일 신규 현금 유입 계약이 아닌 단순 수주 잔고/실적 발표/주주서한/IR 발표는 1급 확정 기폭제 미달\")에 정확히 해당합니다.\n당일 고점($0.3245) 대비 현재가가 -10.7% 밀린 윗꼬리 흐름을 보이고 있어 세력의 뉴스 소진 차익실현 덤핑 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 SEC 6-K 및 PR이 신규 계약이 아닌 누적 수주 잔고(Order Backlog) 발표에 불과하여 1급 확정 기폭제 기준에 미달하므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: MTEK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-09 FORCE_BUY: NONE FORCE_BLOCK: MTEK NOTES:\n[MTEK] 누적 수주 잔고(Order Backlog) PR/6-K는 당일 신규 계약 미달 및 윗꼬리 음봉 흐름으로 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:04:03",
+      "time_kst": "22:04:03",
+      "symbol": "SNES",
+      "company_name": "SNES",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 임원·이사회 인사발령 PR 차단 (SenesTech Appoints JoAnna Abrams to Board of Directors)"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "08:03:13",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $151.66M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:04:19",
-      "time_kst": "21:04:19",
-      "symbol": "NXT",
-      "company_name": "NXT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $13447.9M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
