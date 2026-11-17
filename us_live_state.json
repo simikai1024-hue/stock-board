@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:04:56",
-  "updated_at_et": "2026-11-17 07:04:56",
-  "updated_epoch_ms": 1794917096484,
+  "updated_at_kst": "2026-11-17 21:05:53",
+  "updated_at_et": "2026-11-17 07:05:53",
+  "updated_epoch_ms": 1794917153887,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:04:48"
+    "updated_kst": "21:05:49"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:05:07",
+      "time_kst": "21:05:07",
+      "symbol": "ELTK",
+      "company_name": "ELTK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Eltek Ltd. Reports Third-Quarter 2026 Results)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:04:37",
       "time_kst": "21:04:37",
       "symbol": "CLMT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1059.67M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:02:11",
-      "time_kst": "20:02:11",
-      "symbol": "CAST",
-      "company_name": "CAST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 임원·이사회 인사발령 PR 차단 (FreeCast Appoints Public-Company Financial Executive Amy M)"
     }
   ]
 }
