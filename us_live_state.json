@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:50:37",
-  "updated_at_et": "2026-11-17 07:50:37",
-  "updated_epoch_ms": 1794919837404,
+  "updated_at_kst": "2026-11-17 21:51:04",
+  "updated_at_et": "2026-11-17 07:51:04",
+  "updated_epoch_ms": 1794919864217,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AIFF",
+    "company_name": "AIFF",
+    "exchange": "ND",
+    "price": 0.9424,
+    "gain_pct": 6.45,
+    "mcap_m": 14.84,
+    "catalyst_hint": "[당일 PR] Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:50:56",
+    "started_at_kst": "21:50:56",
+    "started_epoch_ms": 1794919856630
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:50:33"
+    "updated_kst": "21:50:53"
   },
   "stats": {
     "today_total": 16,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:50:53",
+      "time_kst": "21:50:53",
+      "symbol": "CHAI",
+      "company_name": "CHAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Core AI Reports Third Quarter 2026 Results, with Revenue G)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:49:06",
       "time_kst": "21:49:06",
       "symbol": "TWG",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $78.74M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:02",
-      "time_kst": "21:02:02",
-      "symbol": "KYIV",
-      "company_name": "KYIV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2765.99M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
