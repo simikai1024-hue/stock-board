@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:32:47",
-  "updated_at_et": "2026-11-17 07:32:47",
-  "updated_epoch_ms": 1794918767841,
+  "updated_at_kst": "2026-11-17 21:33:03",
+  "updated_at_et": "2026-11-17 07:33:03",
+  "updated_epoch_ms": 1794918783738,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "YAAS",
+    "company_name": "YAAS",
+    "exchange": "ND",
+    "price": 0.9009,
+    "gain_pct": 6.36,
+    "mcap_m": 14.16,
+    "catalyst_hint": "[당일 PR] Youxin Technology Launches Youxin Cloud 6.0 and Youxin AIP, Enabling Natural Language-Driven Development of Enterprise Applications and AI Agents",
+    "queue_remaining": 3,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:32:58",
+    "started_at_kst": "21:32:58",
+    "started_epoch_ms": 1794918778656
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:32:31"
+    "updated_kst": "21:32:51"
   },
   "stats": {
     "today_total": 9,
