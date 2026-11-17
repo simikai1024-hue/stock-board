@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:46:27",
-  "updated_at_et": "2026-11-17 08:46:27",
-  "updated_epoch_ms": 1794923187991,
+  "updated_at_kst": "2026-11-17 22:46:53",
+  "updated_at_et": "2026-11-17 08:46:53",
+  "updated_epoch_ms": 1794923213426,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "PMEC",
+    "company_name": "PMEC",
+    "exchange": "ND",
+    "price": 0.354,
+    "gain_pct": 4.83,
+    "mcap_m": 13.7,
+    "catalyst_hint": "[당일 PR] Primech Holdings (Nasdaq: PMEC) Advances HYTRON Commercialisation with Completed Sale and Delivery for Singapore Public-Sector Property",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:46:50",
+    "started_at_kst": "22:46:50",
+    "started_epoch_ms": 1794923210789
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:46:20"
+    "updated_kst": "22:46:39"
   },
   "stats": {
     "today_total": 40,
@@ -2437,6 +2449,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:46:46",
+      "time_kst": "22:46:46",
+      "symbol": "MDB",
+      "company_name": "MDB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $25529.9M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:46:33",
+      "time_kst": "22:46:33",
+      "symbol": "ITRI",
+      "company_name": "ITRI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4193.49M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:46:28",
+      "time_kst": "22:46:28",
+      "symbol": "TRNR",
+      "company_name": "TRNR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.01,1.02,2.03,3.02,3.03,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:46:23",
       "time_kst": "22:46:23",
       "symbol": "WMT",
@@ -2904,36 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2397.76M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:04:37",
-      "time_kst": "22:04:37",
-      "symbol": "BIAF",
-      "company_name": "BIAF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:03:13",
-      "time_kst": "22:03:13",
-      "symbol": "SNTI",
-      "company_name": "SNTI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:03:01",
-      "time_kst": "22:03:01",
-      "symbol": "QNME",
-      "company_name": "QNME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
     }
   ]
 }
