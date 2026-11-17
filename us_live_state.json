@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:56:54",
-  "updated_at_et": "2026-11-17 04:56:54",
-  "updated_epoch_ms": 1794909414063,
+  "updated_at_kst": "2026-11-17 18:57:43",
+  "updated_at_et": "2026-11-17 04:57:43",
+  "updated_epoch_ms": 1794909463039,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:56:49"
+    "updated_kst": "18:57:28"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:57:38",
+      "time_kst": "18:57:38",
+      "symbol": "BNR",
+      "company_name": "BNR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $111.93M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:56:50",
       "time_kst": "18:56:50",
       "symbol": "RUBI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "11:59:20",
-      "time_kst": "01:59:20",
-      "symbol": "TDTH",
-      "company_name": "TDTH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.83M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
