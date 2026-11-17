@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:10:59",
-  "updated_at_et": "2026-11-17 07:10:59",
-  "updated_epoch_ms": 1794917459482,
+  "updated_at_kst": "2026-11-17 21:11:49",
+  "updated_at_et": "2026-11-17 07:11:49",
+  "updated_epoch_ms": 1794917509894,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:10:52"
+    "updated_kst": "21:11:32"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:11:42",
+      "time_kst": "21:11:42",
+      "symbol": "LUNG",
+      "company_name": "LUNG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $121.94M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:11:25",
+      "time_kst": "21:11:25",
+      "symbol": "DTCX",
+      "company_name": "DTCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.92M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:05:07",
       "time_kst": "21:05:07",
       "symbol": "ELTK",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $35471.13M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:03:30",
-      "time_kst": "20:03:30",
-      "symbol": "QUCY",
-      "company_name": "QUCY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.27M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:02:15",
-      "time_kst": "20:02:15",
-      "symbol": "OCSL",
-      "company_name": "OCSL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1059.67M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
