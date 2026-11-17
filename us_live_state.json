@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:01:35",
-  "updated_at_et": "2026-11-17 10:01:35",
-  "updated_epoch_ms": 1794927695691,
+  "updated_at_kst": "2026-11-18 00:02:24",
+  "updated_at_et": "2026-11-17 10:02:24",
+  "updated_epoch_ms": 1794927744994,
   "analyzing": {
     "active": true,
     "symbol": "SCWO",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:01:34"
+    "updated_kst": "00:02:16"
   },
   "stats": {
     "today_total": 54,
@@ -2449,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "10:02:15",
+      "time_kst": "00:02:15",
+      "symbol": "MBWM",
+      "company_name": "MBWM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1046.64M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "10:01:10",
       "time_kst": "00:01:10",
       "symbol": "PMI",
@@ -2936,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2787076.52M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:07:47",
-      "time_kst": "23:07:47",
-      "symbol": "ACAD",
-      "company_name": "ACAD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3226.72M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
