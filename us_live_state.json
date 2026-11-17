@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:00:09",
-  "updated_at_et": "2026-11-17 07:00:09",
-  "updated_epoch_ms": 1794916809112,
+  "updated_at_kst": "2026-11-17 21:01:00",
+  "updated_at_et": "2026-11-17 07:01:00",
+  "updated_epoch_ms": 1794916860048,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:01"
+    "updated_kst": "21:00:40"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:00:55",
+      "time_kst": "21:00:55",
+      "symbol": "AMOD",
+      "company_name": "AMOD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.71M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:56:19",
       "time_kst": "20:56:19",
       "symbol": "FIP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:21:32",
-      "time_kst": "18:21:32",
-      "symbol": "GDHG",
-      "company_name": "GDHG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $94.0M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
