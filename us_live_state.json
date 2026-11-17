@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:14:43",
-  "updated_at_et": "2026-11-17 07:14:43",
-  "updated_epoch_ms": 1794917683682,
+  "updated_at_kst": "2026-11-17 21:15:34",
+  "updated_at_et": "2026-11-17 07:15:34",
+  "updated_epoch_ms": 1794917734302,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:14:36"
+    "updated_kst": "21:15:14"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:15:30",
+      "time_kst": "21:15:30",
+      "symbol": "MYPS",
+      "company_name": "MYPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.02M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:14:49",
+      "time_kst": "21:14:49",
+      "symbol": "REED",
+      "company_name": "REED",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:14:02",
       "time_kst": "21:14:02",
       "symbol": "MIDD",
@@ -2914,26 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B5])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:12:05",
-      "time_kst": "20:12:05",
-      "symbol": "PBK",
-      "company_name": "PBK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "06:07:45",
-      "time_kst": "20:07:45",
-      "symbol": "GLBS",
-      "company_name": "GLBS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $58.92M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
