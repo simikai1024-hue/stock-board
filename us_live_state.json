@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 20:01:29",
-  "updated_at_et": "2026-11-17 06:01:29",
-  "updated_epoch_ms": 1794913289248,
+  "updated_at_kst": "2026-11-17 20:01:49",
+  "updated_at_et": "2026-11-17 06:01:49",
+  "updated_epoch_ms": 1794913309128,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BEEM",
+    "company_name": "BEEM",
+    "exchange": "ND",
+    "price": 0.65,
+    "gain_pct": 2.62,
+    "mcap_m": 15.57,
+    "catalyst_hint": "[당일 PR] Beam Global Launches Patent-Pending BeamHeat™, a Portable Battery-Powered Unit for Heating, Cooking, Lighting, and Device Charging During Grid Outages",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:01:44",
+    "started_at_kst": "20:01:44",
+    "started_epoch_ms": 1794913304307
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:01:28"
+    "updated_kst": "20:01:47"
   },
   "stats": {
     "today_total": 1,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "06:01:41",
+      "time_kst": "20:01:41",
+      "symbol": "ONFO",
+      "company_name": "ONFO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Onfolio Holdings Announces Q3 2026 Financial Results and P)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "06:01:22",
       "time_kst": "20:01:22",
       "symbol": "EIKN",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $78.6M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:04:52",
-      "time_kst": "18:04:52",
-      "symbol": "MDCX",
-      "company_name": "MDCX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,3.03,8.01,9.01))"
     }
   ]
 }
