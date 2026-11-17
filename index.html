@@ -1217,14 +1217,14 @@
     </div>
   </section>
 
-  <!-- 2-B. 🧪 본장 대장주 실험실 (실시간 모의 검증 전용 박스 · 실계좌 주문 OFF) -->
+  <!-- 2-B. 🧪 제로출발 계단주 실험실 (시초 0% 이하 출발 → 3단 계단식 상승 포착 · 실계좌 주문 OFF) -->
   <section aria-labelledby="lab-heading">
     <div class="section-head">
       <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
-        <h2 class="section-title" id="lab-heading">🧪 본장 대장주 실험실</h2>
-        <span class="lab-safety-pill">🛡️ 모의 검증 전용 · 실계좌 주문 0원</span>
+        <h2 class="section-title" id="lab-heading">🧪 제로출발 계단주 실험실</h2>
+        <span class="lab-safety-pill">🪜 시초 0% 이하 → 계단식 상승 · 실주문 0원</span>
       </div>
-      <span class="section-sub">검증 완료 후 자동매매 모듈로 전환 가능</span>
+      <span class="section-sub">미친 수직급등 배제 · 천천히 오르는 진성 계단주 포착</span>
     </div>
 
     <div class="lab-card">
@@ -1238,28 +1238,28 @@
           <div class="lab-kpi-val" id="labWinStats">0.0% (0전 0승 0패)</div>
         </div>
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">⚙️ 실험실 검증 공식</div>
-          <div class="lab-kpi-rule">1위 대장주(+9%↑) VWAP 첫 눌림 → 14:50 홀딩 (-3% 손절)</div>
+          <div class="lab-kpi-lbl">⚙️ 계단주 검증 공식</div>
+          <div class="lab-kpi-rule">시초 0% 이하 → 3단 계단 상승(VWAP 체류 88%+) → VWAP 이탈 익절</div>
         </div>
       </div>
 
       <div class="lab-live-box" id="labLiveBox">
         <div>
-          <div class="lab-status-tag" id="labStatusTag">🕒 평일 09:25~13:30 감시 대기</div>
+          <div class="lab-status-tag" id="labStatusTag">🕒 평일 09:12~13:00 계단주 스캔 대기</div>
           <div style="font-size:14.5px; font-weight:800; color:var(--text-main);" id="labMainTxt">
-            평일 정규장 중 1위 진성급등 테마의 1등 대장주(+9%↑)가 세력본전(VWAP)으로 내려오면 자동 모의 포착합니다.
+            시초가 0% 이하에서 과열 없이 출발해 VWAP 위를 지키며 천천히 3단 계단식으로 오르는 종목과 급등 원인을 실시간 포착합니다.
           </div>
           <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="labSubTxt">
-            모든 모의 검증 성적은 실제 KRX 거래세·수수료·슬리피지(0.23%)를 차감해 냉정하게 기록됩니다.
+            장 초반 15분 설거지 급등을 배제하고, 수익 +4% 이후 VWAP 이탈 트레일링 익절로 상한가 추세는 끝까지 타고 윗꼬리는 방어합니다.
           </div>
         </div>
         <div id="labRightAction"></div>
       </div>
 
       <details class="lab-hist-details" id="labHistDetails">
-        <summary><span id="labHistSummaryLbl">실험실 일자별 모의 검증 기록 보기 (0건)</span></summary>
+        <summary><span id="labHistSummaryLbl">계단주 실험실 일자별 모의 검증 기록 보기 (0건)</span></summary>
         <div class="lab-hist-list" id="labHistList">
-          <div style="padding:10px; font-size:13px; color:var(--text-muted);">내일 본장(09:25~)부터 첫 모의 검증 기록이 자동으로 쌓입니다.</div>
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">오늘 본장(09:45~)부터 조건 충족 시 첫 계단주 포착 기록이 자동으로 쌓입니다.</div>
         </div>
       </details>
     </div>
@@ -1703,34 +1703,37 @@
     if (tStatus === "HOLDING" && pos && pos.code) {
       boxEl.className = "lab-live-box holding";
       tagEl.className = "lab-status-tag holding";
-      tagEl.textContent = `🎣 모의 탑승 중 (${pos.entry_time || ""} 체결)`;
+      const opTxt = pos.open_pct !== undefined ? `시초 ${Number(pos.open_pct) >= 0 ? "+" : ""}${Number(pos.open_pct).toFixed(1)}% 출발` : "제로출발";
+      tagEl.textContent = `🪜 계단주 모의 탑승 중 (${pos.entry_time || ""} 체결 · ${opTxt})`;
       const netP = Number(pos.cur_net_pct || 0);
       const pCls = netP >= 0 ? "up-txt" : "dn-txt";
-      mainEl.innerHTML = `[${escHtml(pos.theme_name)}] <strong>${escHtml(pos.name)}</strong> (${escHtml(pos.code)}) · 진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} <span class="${pCls}">(${netP >= 0 ? "+" : ""}${netP.toFixed(2)}%)</span>`;
-      subEl.textContent = `세력VWAP ${fmtWon(pos.vwap_price)} · 장중최고 +${Number(pos.max_raw_pct || 0).toFixed(1)}% · 🛡️ 손절 ${fmtWon(pos.stop_loss_px)}(-3%) · ⏰ 14:50 청산`;
-      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(pos.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+      const trStatus = pos.trail_armed ? "🟢 수익잠금(VWAP 트레일링 ON)" : `🛡️ 손절방패 ${fmtWon(pos.stop_loss_px)}(-2.8%)`;
+      mainEl.innerHTML = `${escHtml(pos.theme_name || "💰 계단매집")} · <strong>${escHtml(pos.name)}</strong> (${escHtml(pos.code)}) · 진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} <span class="${pCls}">(${netP >= 0 ? "+" : ""}${netP.toFixed(2)}%)</span>`;
+      subEl.textContent = `당일 VWAP ${fmtWon(pos.vwap_price)} · 최고 +${Number(pos.max_raw_pct || 0).toFixed(1)}% · ${trStatus} · ⏰ 미이탈 시 14:55 홀딩`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(pos.code)}', '${escHtml(pos.name)}')">📋 코드 복사</button> <a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(pos.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else if (tStatus === "ARMED" && armed && armed.code) {
       boxEl.className = "lab-live-box armed";
       tagEl.className = "lab-status-tag armed";
-      tagEl.textContent = "🕸️ VWAP 그물망 장전 완료";
-      mainEl.innerHTML = `[${escHtml(armed.theme_name)}] <strong>${escHtml(armed.name)}</strong> (${escHtml(armed.code)}) · 현재 ${fmtWon(armed.cur_price)} (${Number(armed.cur_rate || 0) >= 0 ? "+" : ""}${Number(armed.cur_rate || 0).toFixed(1)}%)`;
-      subEl.textContent = `🎯 세력본전 낚시 대기선: ${fmtWon(armed.limit_buy_px)} (VWAP ${fmtWon(armed.vwap_price)} · 현재 이격 +${Number(armed.gap_to_vwap_pct || 0).toFixed(1)}%)`;
-      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(armed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+      const opA = Number(armed.open_pct || 0);
+      tagEl.textContent = `🕵️ 제로출발 계단 형성 감시 중 (시초 ${opA >= 0 ? "+" : ""}${opA.toFixed(1)}%)`;
+      mainEl.innerHTML = `${escHtml(armed.theme_name || "💰 계단매집")} · <strong>${escHtml(armed.name)}</strong> (${escHtml(armed.code)}) · 현재 ${fmtWon(armed.cur_price)} (+${Number(armed.cur_rate || 0).toFixed(1)}%)`;
+      subEl.textContent = `VWAP 상단 체류 ${Number(armed.vwap_stay_pct || 0).toFixed(0)}% (VWAP ${fmtWon(armed.vwap_price)}) · 거래대금 ${Number(armed.money_eok || 0).toFixed(0)}억 · 09:45 이후 3단 계단 확정 시 자동 탑승`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(armed.code)}', '${escHtml(armed.name)}')">📋 코드 복사</button> <a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(armed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else if (tStatus === "DONE" && closed && closed.code) {
       boxEl.className = "lab-live-box";
       tagEl.className = "lab-status-tag";
-      tagEl.textContent = "✅ 오늘 실험실 모의 검증 완료";
+      tagEl.textContent = "✅ 금일 계단주 모의 검증 완료";
       const np = Number(closed.net_pnl_pct || 0);
       const cls = np >= 0 ? "up-txt" : "dn-txt";
-      mainEl.innerHTML = `[${escHtml(closed.theme_name)}] <strong>${escHtml(closed.name)}</strong> (${escHtml(closed.code)}) · ${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) <span class="${cls}">(${np >= 0 ? "+" : ""}${np.toFixed(2)}%)</span>`;
-      subEl.textContent = `장중최고 +${Number(closed.max_raw_pct || 0).toFixed(1)}% 도달 · 청산: ${closed.exit_reason || "14:50 마감"} (세금·수수료 0.23% 차감)`;
+      mainEl.innerHTML = `${escHtml(closed.theme_name || "")} · <strong>${escHtml(closed.name)}</strong> (${escHtml(closed.code)}) · ${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) <span class="${cls}">(${np >= 0 ? "+" : ""}${np.toFixed(2)}%)</span>`;
+      subEl.textContent = `시초 ${Number(closed.open_pct || 0).toFixed(1)}% 출발 · 장중최고 +${Number(closed.max_raw_pct || 0).toFixed(1)}% 도달 · 청산: ${closed.exit_reason || "14:55 마감"} (세금·수수료 0.23% 차감)`;
       rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(closed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else {
       boxEl.className = "lab-live-box";
       tagEl.className = "lab-status-tag";
-      tagEl.textContent = "🕒 평일 09:25~13:30 감시 대기";
-      mainEl.textContent = "평일 본장 중 1위 진성급등 테마의 1등 대장주(+9%↑)가 세력본전(VWAP)으로 내려오면 자동 모의 포착합니다.";
-      subEl.textContent = "실전 돈은 1원도 투입되지 않으며, 세금·수수료(0.23%)까지 뺀 순수익으로 실전성을 먼저 증명합니다.";
+      tagEl.textContent = "🕒 평일 09:12~13:00 계단주 스캔 대기";
+      mainEl.textContent = "시초가 0% 이하(보합·음봉)로 출발한 뒤 초반 급등 없이 VWAP 위(88%+)를 지키며 천천히 3단 계단식으로 오르는 종목을 실시간 추적합니다.";
+      subEl.textContent = "포착 시 급등 원인(🔥주도테마 동반 / 📢공시 / 📰개별뉴스 / 💰조용한 TWAP 매집)을 자동 판독해 함께 띄워드립니다.";
       rightEl.innerHTML = "";
     }
 
