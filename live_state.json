@@ -1,11 +1,11 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-17 14:32:31",
+  "updated_at": "2026-11-17 14:37:07",
   "isi_board": {
-    "updated_at": "2026-11-17 14:32:31",
+    "updated_at": "2026-11-17 14:37:07",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
-    "theme_updated_at": "14:32:30",
+    "theme_updated_at": "14:37:06",
     "overnight_holding": {
       "active": true,
       "code": "089590",
@@ -33,110 +33,41 @@
     "top3_themes": [
       {
         "rank": 1,
-        "theme_name": "뉴로모픽 반도체",
-        "theme_money": 24671,
-        "is_surging": false,
-        "leader": {
-          "code": "394280",
-          "name": "오픈엣지테크놀로지",
-          "close": 7560,
-          "rate": 4.4,
-          "money_eok": 79,
-          "vwap": 8038,
-          "vol_ratio": 671,
-          "upper_wick": 99.1,
-          "prog_money": -3
-        },
-        "second": {
-          "code": "394280",
-          "name": "오픈엣지테크놀로지",
-          "close": 7560,
-          "rate": 4.4,
-          "money_eok": 79,
-          "vwap": 8038,
-          "vol_ratio": 671,
-          "upper_wick": 99.1,
-          "prog_money": -3
-        },
-        "stocks": [
-          {
-            "code": "394280",
-            "name": "오픈엣지테크놀로지",
-            "close": 7560,
-            "rate": 4.4,
-            "money_eok": 79,
-            "vwap": 8038,
-            "vol_ratio": 671,
-            "upper_wick": 99.1,
-            "prog_money": -3,
-            "is_our_leader": true,
-            "is_second": false
-          },
-          {
-            "code": "005930",
-            "name": "삼성전자",
-            "close": 192000,
-            "rate": -2.4,
-            "money_eok": 24559,
-            "vwap": 192395,
-            "vol_ratio": 76,
-            "upper_wick": 70.9,
-            "prog_money": -4393,
-            "is_our_leader": false,
-            "is_second": false
-          },
-          {
-            "code": "330860",
-            "name": "네패스아크",
-            "close": 17910,
-            "rate": -3.8,
-            "money_eok": 33,
-            "vwap": 18040,
-            "vol_ratio": 133,
-            "upper_wick": 82.9,
-            "prog_money": -5,
-            "is_our_leader": false,
-            "is_second": false
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "theme_name": "바이오시밀러(복제 바이오의약품)",
-        "theme_money": 1234,
+        "theme_money": 1245,
         "is_surging": false,
         "leader": {
           "code": "196170",
           "name": "알테오젠",
-          "close": 175100,
-          "rate": 2.0,
-          "money_eok": 369,
-          "vwap": 174217,
+          "close": 175000,
+          "rate": 1.9,
+          "money_eok": 372,
+          "vwap": 174225,
           "vol_ratio": 24,
-          "upper_wick": 22.2,
+          "upper_wick": 23.3,
           "prog_money": 2
         },
         "second": {
           "code": "0126Z0",
           "name": "삼성에피스홀딩스",
-          "close": 372000,
-          "rate": 4.3,
-          "money_eok": 290,
-          "vwap": 371988,
-          "vol_ratio": 150,
-          "upper_wick": 23.5,
+          "close": 371500,
+          "rate": 4.2,
+          "money_eok": 293,
+          "vwap": 371981,
+          "vol_ratio": 151,
+          "upper_wick": 25.5,
           "prog_money": 84
         },
         "stocks": [
           {
             "code": "196170",
             "name": "알테오젠",
-            "close": 175100,
-            "rate": 2.0,
-            "money_eok": 369,
-            "vwap": 174217,
+            "close": 175000,
+            "rate": 1.9,
+            "money_eok": 372,
+            "vwap": 174225,
             "vol_ratio": 24,
-            "upper_wick": 22.2,
+            "upper_wick": 23.3,
             "prog_money": 2,
             "is_our_leader": true,
             "is_second": false
@@ -146,9 +77,9 @@
             "name": "셀트리온",
             "close": 214000,
             "rate": -0.2,
-            "money_eok": 535,
-            "vwap": 214029,
-            "vol_ratio": 41,
+            "money_eok": 540,
+            "vwap": 214025,
+            "vol_ratio": 42,
             "upper_wick": 45.5,
             "prog_money": 216,
             "is_our_leader": false,
@@ -157,12 +88,12 @@
           {
             "code": "128940",
             "name": "한미약품",
-            "close": 452000,
-            "rate": 1.2,
-            "money_eok": 330,
-            "vwap": 456557,
-            "vol_ratio": 48,
-            "upper_wick": 66.7,
+            "close": 451000,
+            "rate": 1.0,
+            "money_eok": 333,
+            "vwap": 456516,
+            "vol_ratio": 49,
+            "upper_wick": 72.2,
             "prog_money": 35,
             "is_our_leader": false,
             "is_second": false
@@ -170,12 +101,12 @@
           {
             "code": "0126Z0",
             "name": "삼성에피스홀딩스",
-            "close": 372000,
-            "rate": 4.3,
-            "money_eok": 290,
-            "vwap": 371988,
-            "vol_ratio": 150,
-            "upper_wick": 23.5,
+            "close": 371500,
+            "rate": 4.2,
+            "money_eok": 293,
+            "vwap": 371981,
+            "vol_ratio": 151,
+            "upper_wick": 25.5,
             "prog_money": 84,
             "is_our_leader": false,
             "is_second": true
@@ -183,42 +114,42 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "theme_name": "항공/저가 항공사(LCC)",
-        "theme_money": 1141,
+        "theme_money": 1161,
         "is_surging": false,
         "leader": {
           "code": "089590",
           "name": "제주항공",
-          "close": 7430,
-          "rate": 2.8,
-          "money_eok": 60,
+          "close": 7460,
+          "rate": 3.2,
+          "money_eok": 61,
           "vwap": 7456,
           "vol_ratio": 49,
-          "upper_wick": 55.3,
+          "upper_wick": 47.4,
           "prog_money": 19
         },
         "second": {
           "code": "180640",
           "name": "한진칼",
-          "close": 219500,
-          "rate": 1.9,
-          "money_eok": 461,
-          "vwap": 213185,
+          "close": 220000,
+          "rate": 2.1,
+          "money_eok": 475,
+          "vwap": 213393,
           "vol_ratio": 23,
-          "upper_wick": 6.2,
+          "upper_wick": 8.8,
           "prog_money": 206
         },
         "stocks": [
           {
             "code": "089590",
             "name": "제주항공",
-            "close": 7430,
-            "rate": 2.8,
-            "money_eok": 60,
+            "close": 7460,
+            "rate": 3.2,
+            "money_eok": 61,
             "vwap": 7456,
             "vol_ratio": 49,
-            "upper_wick": 55.3,
+            "upper_wick": 47.4,
             "prog_money": 19,
             "is_our_leader": true,
             "is_second": false
@@ -226,12 +157,12 @@
           {
             "code": "003490",
             "name": "대한항공",
-            "close": 32100,
-            "rate": 1.3,
-            "money_eok": 620,
-            "vwap": 31935,
+            "close": 32050,
+            "rate": 1.1,
+            "money_eok": 625,
+            "vwap": 31936,
             "vol_ratio": 54,
-            "upper_wick": 25.0,
+            "upper_wick": 31.2,
             "prog_money": 114,
             "is_our_leader": false,
             "is_second": false
@@ -239,13 +170,82 @@
           {
             "code": "180640",
             "name": "한진칼",
-            "close": 219500,
-            "rate": 1.9,
-            "money_eok": 461,
-            "vwap": 213185,
+            "close": 220000,
+            "rate": 2.1,
+            "money_eok": 475,
+            "vwap": 213393,
             "vol_ratio": 23,
-            "upper_wick": 6.2,
+            "upper_wick": 8.8,
             "prog_money": 206,
+            "is_our_leader": false,
+            "is_second": true
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "theme_name": "남북경협",
+        "theme_money": 759,
+        "is_surging": false,
+        "leader": {
+          "code": "014990",
+          "name": "인디에프",
+          "close": 3020,
+          "rate": 29.9,
+          "money_eok": 86,
+          "vwap": 2929,
+          "vol_ratio": 1350,
+          "upper_wick": 0.0,
+          "prog_money": 1
+        },
+        "second": {
+          "code": "047770",
+          "name": "코데즈컴바인",
+          "close": 2930,
+          "rate": 12.7,
+          "money_eok": 297,
+          "vwap": 2958,
+          "vol_ratio": 2046,
+          "upper_wick": 45.6,
+          "prog_money": -1
+        },
+        "stocks": [
+          {
+            "code": "014990",
+            "name": "인디에프",
+            "close": 3020,
+            "rate": 29.9,
+            "money_eok": 86,
+            "vwap": 2929,
+            "vol_ratio": 1350,
+            "upper_wick": 0.0,
+            "prog_money": 1,
+            "is_our_leader": true,
+            "is_second": false
+          },
+          {
+            "code": "025980",
+            "name": "아난티",
+            "close": 4070,
+            "rate": 5.3,
+            "money_eok": 376,
+            "vwap": 4155,
+            "vol_ratio": 1143,
+            "upper_wick": 76.1,
+            "prog_money": 4,
+            "is_our_leader": false,
+            "is_second": false
+          },
+          {
+            "code": "047770",
+            "name": "코데즈컴바인",
+            "close": 2930,
+            "rate": 12.7,
+            "money_eok": 297,
+            "vwap": 2958,
+            "vol_ratio": 2046,
+            "upper_wick": 45.6,
+            "prog_money": -1,
             "is_our_leader": false,
             "is_second": true
           }
@@ -379,7 +379,7 @@
   },
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-17 14:32:31",
+    "updated_at": "2026-11-17 14:37:07",
     "stats": {
       "total_closed": 14,
       "win_count": 6,
@@ -757,7 +757,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-17 14:32:31",
+    "updated_at": "2026-11-17 14:37:07",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4688,7 +4688,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-17 14:32:31",
+    "updated_at": "2026-11-17 14:37:07",
     "deprecated": true,
     "stats": {},
     "days": []
