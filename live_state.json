@@ -1,13 +1,31 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-17 15:18:33",
+  "updated_at": "2026-11-17 15:19:33",
   "isi_board": {
-    "updated_at": "2026-11-17 15:18:33",
+    "updated_at": "2026-11-17 15:19:33",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
     "theme_updated_at": "15:18:32",
     "overnight_holding": {
-      "active": false
+      "active": true,
+      "code": "009420",
+      "name": "한올바이오파마",
+      "buy_date": "2026-11-17",
+      "strategy": "ISI_LEADER_OVERNIGHT",
+      "theme_name": "바이오시밀러(복제 바이오의약품)",
+      "rank_type": "방송 1위테마 키맞추기 2등주 (바이오시밀러(복제 바이오의약품))",
+      "init_qty": 1,
+      "buy_price": 53800,
+      "vwap_price": 53700,
+      "target_tp_pct": 6.0,
+      "target_sell_px": 57000,
+      "stop_loss_px": 51300,
+      "ambush_sell_ord_no": "",
+      "ambush_stex": "",
+      "ambush_sell_px": 0,
+      "ambush_buy_p": 53800.0,
+      "ambush_init_qty": 1,
+      "weekday_short": "화"
     },
     "top3_themes": [
       {
@@ -277,6 +295,23 @@
     },
     "trades": [
       {
+        "status": "HOLDING",
+        "buy_date": "2026-11-17",
+        "buy_weekday": "화",
+        "sell_date": "",
+        "sell_time": "",
+        "code": "009420",
+        "name": "한올바이오파마",
+        "theme_name": "바이오시밀러(복제 바이오의약품)",
+        "qty": 1,
+        "buy_price": 53800,
+        "sell_price": 57000,
+        "vwap_price": 53700,
+        "stop_loss_px": 51300,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0
+      },
+      {
         "status": "WIN",
         "buy_date": "2026-11-16",
         "buy_weekday": "월",
@@ -362,10 +397,28 @@
       "pnl_pct": 1.83,
       "buy_price": 7300,
       "qty": 13
+    },
+    {
+      "id": "1794896370890_009420_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-17 15:19:30",
+      "name": "한올바이오파마",
+      "code": "009420",
+      "price": 53800,
+      "flu_rt": 5.91,
+      "val_uk": 0.0,
+      "target_price": 56400,
+      "stop_price": 52100,
+      "ammo_title": "👑 [ISI 종가베팅] 바이오시밀러(복제 바이오의약품) 1등 대장주 | 매수 53,800원(1주) → 익일 +6.0%(57,000원) 매복 타깃 (VWAP 53,700원)",
+      "ammo_date": "2026-11-17",
+      "note": "🌙 익일 +6.0%(57,000원) 그물망 익절 대기 | 방어선 51,300원",
+      "buy_price": 53800,
+      "qty": 1
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-17 15:18:33",
+    "updated_at": "2026-11-17 15:19:33",
     "stats": {
       "total_closed": 15,
       "win_count": 7,
@@ -377,6 +430,23 @@
       "total_pnl_krw": -7796
     },
     "rows": [
+      {
+        "date": "2026-11-17",
+        "weekday": "화요일",
+        "weekday_short": "화",
+        "code": "009420",
+        "name": "한올바이오파마",
+        "buy_price": 53800,
+        "sell_price": 0,
+        "qty": 1,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "15:19:30",
+        "sell_time": "",
+        "reason": "👑 [ISI 종가베팅] 바이오시밀러(복제 바이오의약품) 1등 대장주 | 매수 53,800원(1주) → 익일 +6.0%(57,000원) 매복 타깃 (VWAP 53,700원)",
+        "note": "🌙 익일 +6.0%(57,000원) 그물망 익절 대기 | 방어선 51,300원"
+      },
       {
         "date": "2026-11-17",
         "weekday": "화요일",
@@ -760,7 +830,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-17 15:18:33",
+    "updated_at": "2026-11-17 15:19:33",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4691,7 +4761,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-17 15:18:33",
+    "updated_at": "2026-11-17 15:19:33",
     "deprecated": true,
     "stats": {},
     "days": []
