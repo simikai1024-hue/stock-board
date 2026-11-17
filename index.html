@@ -1152,6 +1152,50 @@
     </div>
   </section>
 
+  <!-- 2-A2. 🧭 오늘의 지수 방향 예측 (VWAP 우위 지수 ETF 추천) -->
+  <section aria-labelledby="idx-radar-heading">
+    <div class="section-head">
+      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
+        <h2 class="section-title" id="idx-radar-heading">🧭 오늘의 지수 방향 예측</h2>
+        <span class="lab-safety-pill">📊 VWAP 우위 지수 추천 · 거래세 0%</span>
+      </div>
+      <span class="section-sub" id="idxUpdateLbl">10:00 VWAP 안착 기준 · 카드 클릭 시 종목코드 복사</span>
+    </div>
+
+    <div class="lab-card" style="border-style:solid; border-color:#38BDF8;">
+      <div class="lab-live-box" id="idxSignalBanner" style="margin-block-end:12px;">
+        <div>
+          <div class="lab-status-tag" id="idxStatusTag">🕒 실시간 VWAP 우위 분석 중</div>
+          <div style="font-size:15px; font-weight:900; color:var(--text-main);" id="idxMainTxt">
+            정방향 지수 ETF와 인버스 ETF 중 당일 평균가(VWAP) 위에 안착한 우위 방향을 실시간 추적합니다.
+          </div>
+          <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="idxSubTxt">
+            오전 10:00 정각 VWAP +0.20% 이상 & 양봉 안착 방향 확정 → 15:15 종가 기준 정산 (60거래일 검증 승률 67.6% · 하락장 80%)
+          </div>
+        </div>
+        <div id="idxRightAction"></div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;" id="idxPairGrid">
+        <div class="lab-kpi-mini" id="idxKospiBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">🏛️ 코스피 200 · 현재 VWAP 우위 ETF</div>
+          <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
+        </div>
+        <div class="lab-kpi-mini" id="idxKosdaqBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">🚀 코스닥 150 · 현재 VWAP 우위 ETF</div>
+          <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
+        </div>
+      </div>
+
+      <details class="lab-hist-details" id="idxHistDetails">
+        <summary><span id="idxHistSummaryLbl">지수 방향 예측 누적 성적 & 일자별 기록 보기 (0건)</span></summary>
+        <div class="lab-hist-list" id="idxHistList">
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">평일 10:00 지수 방향 확정 시 일자별 기록이 자동으로 누적됩니다.</div>
+        </div>
+      </details>
+    </div>
+  </section>
+
   <!-- 2-B. 🧪 본장 대장주 실험실 (실시간 모의 검증 전용 박스 · 실계좌 주문 OFF) -->
   <section aria-labelledby="lab-heading">
     <div class="section-head">
@@ -1702,11 +1746,137 @@
     }
   }
 
+  function renderIndexRadar(isi) {
+    const idx = isi?.index_radar || {};
+    const bannerEl = document.getElementById("idxSignalBanner");
+    const tagEl = document.getElementById("idxStatusTag");
+    const mainEl = document.getElementById("idxMainTxt");
+    const subEl = document.getElementById("idxSubTxt");
+    const rightEl = document.getElementById("idxRightAction");
+    const kospiBox = document.getElementById("idxKospiBox");
+    const kosdaqBox = document.getElementById("idxKosdaqBox");
+    const updEl = document.getElementById("idxUpdateLbl");
+    const histSumEl = document.getElementById("idxHistSummaryLbl");
+    const histListEl = document.getElementById("idxHistList");
+
+    if (!bannerEl) return;
+    if (updEl && idx.updated_at) {
+      updEl.textContent = `기준: ${idx.updated_at} · 10:00 VWAP 안착 확정 · 클릭 시 코드 복사`;
+    }
+
+    const st = idx.signal_status || "WAITING";
+    const act = idx.active_signal;
+    const clsToday = idx.today_closed;
+    bannerEl.className = "lab-live-box";
+    tagEl.className = "lab-status-tag";
+    rightEl.innerHTML = "";
+
+    if (st === "ACTIVE" && act) {
+      const np = Number(act.cur_net_pct || 0);
+      const isUpDir = act.dir === "UP";
+      const icon = isUpDir ? "📈" : "📉";
+      bannerEl.classList.add("holding");
+      tagEl.classList.add("holding");
+      tagEl.textContent = `${icon} 10:00 추천 확정 · ${act.dir_label} 우위`;
+      mainEl.innerHTML = `VWAP 우위 추천 ETF: <strong style="color:#0369A1;">${escHtml(act.name)} (${escHtml(act.code)})</strong> · 현재 <strong>${fmtWon(act.cur_price)}</strong>`;
+      subEl.textContent = `10:00 기준가 ${fmtWon(act.entry_price)} (당일 VWAP ${fmtWon(act.vwap)} 대비 ${act.vwap_gap_pct >= 0 ? "+" : ""}${Number(act.vwap_gap_pct || 0).toFixed(2)}%) · 15:15 종가 기준 정산`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(act.code)}', '${escHtml(act.name)}')">📋 ${escHtml(act.name)} · 실시간 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</button>`;
+    } else if (st === "CLOSED" && clsToday) {
+      const np = Number(clsToday.net_pnl_pct || 0);
+      tagEl.classList.add(np >= 0 ? "holding" : "");
+      tagEl.textContent = `✅ 금일 정산 완료 (${clsToday.dir_label})`;
+      mainEl.innerHTML = `${escHtml(clsToday.name)} (${escHtml(clsToday.code)}) · ${fmtWon(clsToday.entry_price)}(${escHtml(clsToday.entry_time)}) → ${fmtWon(clsToday.exit_price)}(${escHtml(clsToday.exit_time)})`;
+      subEl.innerHTML = `금일 확정 성적: <strong class="${np >= 0 ? "up-txt" : "dn-txt"}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</strong> (${escHtml(clsToday.exit_reason || "")})`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(clsToday.code)}', '${escHtml(clsToday.name)}')">📋 종목코드 복사</button>`;
+    } else if (st === "NEUTRAL") {
+      tagEl.textContent = "⏸️ 금일 지수 혼조 구간 (관망 권장)";
+      mainEl.textContent = "10:00 기준 정방향·인버스 모두 진성 VWAP 우위(+0.20% & 양봉) 기준에 미달하여 방향성 관망 구간입니다.";
+      subEl.textContent = "아래 카드에서 현재 실시간 VWAP 상단 우위 지수 ETF 현황은 계속 확인하실 수 있습니다.";
+    } else {
+      const kw = idx.kospi_pair?.winner;
+      if (kw) {
+        const icon = kw.dir === "UP" ? "📈" : "📉";
+        bannerEl.classList.add("armed");
+        tagEl.classList.add("armed");
+        tagEl.textContent = `🧭 현재 VWAP 우위: ${kw.dir_label}`;
+        mainEl.innerHTML = `${icon} 현재 평균가(VWAP) 상단 지수 ETF: <strong style="color:#0369A1;">${escHtml(kw.name)} (${escHtml(kw.code)})</strong> · 현재 <strong>${fmtWon(kw.cur_price)}</strong>`;
+        subEl.textContent = `당일 VWAP ${fmtWon(kw.vwap)} 대비 ${kw.vwap_gap_pct >= 0 ? "+" : ""}${Number(kw.vwap_gap_pct).toFixed(2)}% 우위 · 평일 오전 10:00 정각에 당일 공식 방향을 확정합니다.`;
+        rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(kw.code)}', '${escHtml(kw.name)}')">📋 ${escHtml(kw.code)} 복사</button>`;
+      }
+    }
+
+    function renderPairBox(boxEl, marketTitle, pairObj) {
+      if (!boxEl || !pairObj || !pairObj.winner || !pairObj.other) return;
+      const w = pairObj.winner;
+      const o = pairObj.other;
+      const isUp = w.dir === "UP";
+      const badgeBg = isUp ? "#ECFDF5" : "#FFF1F2";
+      const badgeBorder = isUp ? "#10B981" : "#F43F5E";
+      const badgeTxt = isUp ? "#047857" : "#BE123C";
+      const arrow = isUp ? "📈 상승 우위" : "📉 하락(인버스) 우위";
+      boxEl.style.cursor = "pointer";
+      boxEl.onclick = () => copyStockCode(w.code, w.name);
+      boxEl.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
+          <span class="lab-kpi-lbl" style="margin:0;">${marketTitle}</span>
+          <span style="font-size:11.5px; font-weight:900; padding:2px 8px; border-radius:999px; background:${badgeBg}; border:1px solid ${badgeBorder}; color:${badgeTxt};">
+            ${arrow} · VWAP 위
+          </span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
+          <div style="font-size:16px; font-weight:900; color:var(--text-main);">
+            👑 ${escHtml(w.name)} <span style="font-size:12px; color:var(--text-muted);">(${escHtml(w.code)})</span>
+          </div>
+          <div style="font-size:16px; font-weight:900; color:#0369A1;">
+            ${fmtWon(w.cur_price)}
+          </div>
+        </div>
+        <div style="font-size:12.5px; font-weight:800; color:var(--text-muted); margin-top:4px;">
+          당일 VWAP <strong>${fmtWon(w.vwap)}</strong> (VWAP 대비 <strong class="${w.vwap_gap_pct >= 0 ? "up-txt" : "dn-txt"}">${w.vwap_gap_pct >= 0 ? "+" : ""}${Number(w.vwap_gap_pct).toFixed(2)}%</strong> · 전일대비 ${w.chg_prev_pct >= 0 ? "+" : ""}${Number(w.chg_prev_pct).toFixed(2)}%)
+        </div>
+        <div style="font-size:11.5px; font-weight:700; color:#64748B; margin-top:4px; padding-top:4px; border-top:1px dashed #BAE6FD;">
+          반대편: ${escHtml(o.name)} ${fmtWon(o.cur_price)} (VWAP ${fmtWon(o.vwap)} 대비 ${o.vwap_gap_pct >= 0 ? "+" : ""}${Number(o.vwap_gap_pct).toFixed(2)}%)
+        </div>
+      `;
+    }
+
+    renderPairBox(kospiBox, "🏛️ 코스피 200 · VWAP 우위 지수", idx.kospi_pair);
+    renderPairBox(kosdaqBox, "🚀 코스닥 150 · VWAP 우위 지수", idx.kosdaq_pair);
+
+    const stats = idx.stats || {};
+    const hist = Array.isArray(idx.history) ? idx.history : [];
+    if (histSumEl) {
+      const sr = Number(stats.sum_return_pct || 0);
+      histSumEl.textContent = hist.length > 0
+        ? `지수 방향 예측 누적 성적: ${sr >= 0 ? "+" : ""}${sr.toFixed(2)}% · 승률 ${Number(stats.win_rate_pct || 0).toFixed(1)}% (${hist.length}건 보기)`
+        : `지수 방향 예측 일자별 기록 보기 (60거래일 백테스트 승률 67.6% · +21.5%)`;
+    }
+    if (histListEl && hist.length > 0) {
+      histListEl.innerHTML = hist.map((h) => {
+        const np = Number(h.net_pnl_pct || 0);
+        const cls = np >= 0 ? "up-txt" : "dn-txt";
+        return `
+          <div class="lab-hist-row" onclick="copyStockCode('${escHtml(h.code)}', '${escHtml(h.name)}')">
+            <div>
+              <span style="color:var(--text-muted);">${escHtml(h.date)}(${escHtml(h.weekday || "")})</span> ·
+              <strong>${escHtml(h.name)}</strong> <span style="font-size:12px; color:#0369A1;">[${escHtml(h.dir_label || "")}]</span>
+            </div>
+            <div>
+              <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
+              <span class="${cls}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+  }
+
   function applyIsiBoard(isi) {
     if (!isi) return;
     currentIsiData = isi;
     renderHero(isi);
     renderTop3Themes(isi);
+    renderIndexRadar(isi);
     renderIntradayLab(isi);
     renderLedger(isi);
   }
