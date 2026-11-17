@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:16:39",
-  "updated_at_et": "2026-11-17 04:16:39",
-  "updated_epoch_ms": 1794906999804,
+  "updated_at_kst": "2026-11-17 18:17:33",
+  "updated_at_et": "2026-11-17 04:17:33",
+  "updated_epoch_ms": 1794907053277,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:16:25"
+    "updated_kst": "18:17:25"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 23,
+    "today_hardcut": 27,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:17:05",
+      "time_kst": "18:17:05",
+      "symbol": "WNW",
+      "company_name": "WNW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:16:57",
+      "time_kst": "18:16:57",
+      "symbol": "AQB",
+      "company_name": "AQB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:16:48",
+      "time_kst": "18:16:48",
+      "symbol": "CENN",
+      "company_name": "CENN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:16:39",
+      "time_kst": "18:16:39",
+      "symbol": "ZYBT",
+      "company_name": "ZYBT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $72.88M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:16:35",
       "time_kst": "18:16:35",
       "symbol": "NIVF",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $61.43M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:27:20",
-      "time_kst": "00:27:20",
-      "symbol": "ALPS",
-      "company_name": "ALPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $214.66M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:27:10",
-      "time_kst": "00:27:10",
-      "symbol": "GDHG",
-      "company_name": "GDHG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $123.74M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:27:04",
-      "time_kst": "00:27:04",
-      "symbol": "CDZI",
-      "company_name": "CDZI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $274.11M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:26:58",
-      "time_kst": "00:26:58",
-      "symbol": "SEZL",
-      "company_name": "SEZL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5418.01M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
