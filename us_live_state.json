@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:15:57",
-  "updated_at_et": "2026-11-17 09:15:57",
-  "updated_epoch_ms": 1794924957430,
+  "updated_at_kst": "2026-11-17 23:16:40",
+  "updated_at_et": "2026-11-17 09:16:40",
+  "updated_epoch_ms": 1794925000910,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:15:49"
+    "updated_kst": "23:16:29"
   },
   "stats": {
     "today_total": 48,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:16:33",
+      "time_kst": "23:16:33",
+      "symbol": "LOT",
+      "company_name": "LOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $133.9M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:16:25",
+      "time_kst": "23:16:25",
+      "symbol": "ONMD",
+      "company_name": "ONMD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (OneMedNet Reports Third Quarter 2026 Financial Results and)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:16:09",
+      "time_kst": "23:16:09",
+      "symbol": "TGL",
+      "company_name": "TGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "09:15:50",
       "time_kst": "23:15:50",
       "symbol": "RCT",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:34:01",
-      "time_kst": "22:34:01",
-      "symbol": "PGY",
-      "company_name": "PGY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1346.12M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:33:57",
-      "time_kst": "22:33:57",
-      "symbol": "YFOR",
-      "company_name": "YFOR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (YYForce Announces Effective Date of 1-for-50 Reverse St)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:32:30",
-      "time_kst": "22:32:30",
-      "symbol": "PCT",
-      "company_name": "PCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $337.68M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
