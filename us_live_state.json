@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 19:24:18",
-  "updated_at_et": "2026-11-17 05:24:18",
-  "updated_epoch_ms": 1794911058443,
+  "updated_at_kst": "2026-11-17 19:25:15",
+  "updated_at_et": "2026-11-17 05:25:15",
+  "updated_epoch_ms": 1794911115453,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:24:14"
+    "updated_kst": "19:25:12"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 56,
+    "today_hardcut": 57,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "05:25:08",
+      "time_kst": "19:25:08",
+      "symbol": "LIMN",
+      "company_name": "LIMN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "05:18:17",
       "time_kst": "19:18:17",
       "symbol": "CABR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $55.63M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:02:47",
-      "time_kst": "18:02:47",
-      "symbol": "IQST",
-      "company_name": "IQST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
     }
   ]
 }
