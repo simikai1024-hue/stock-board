@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:44:41",
-  "updated_at_et": "2026-11-17 08:44:41",
-  "updated_epoch_ms": 1794923081288,
+  "updated_at_kst": "2026-11-17 22:45:29",
+  "updated_at_et": "2026-11-17 08:45:29",
+  "updated_epoch_ms": 1794923129985,
   "analyzing": {
     "active": true,
     "symbol": "GIPR",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:44:38"
+    "updated_kst": "22:45:19"
   },
   "stats": {
     "today_total": 39,
@@ -2449,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:45:25",
+      "time_kst": "22:45:25",
+      "symbol": "TRAW",
+      "company_name": "TRAW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:43:52",
       "time_kst": "22:43:52",
       "symbol": "DJT",
@@ -2936,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1623.03M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:02:43",
-      "time_kst": "22:02:43",
-      "symbol": "NTHI",
-      "company_name": "NTHI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $130.98M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
