@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 00:29:55",
-  "updated_at_et": "2026-11-17 10:29:55",
-  "updated_epoch_ms": 1794929395978,
+  "updated_at_kst": "2026-11-18 00:30:48",
+  "updated_at_et": "2026-11-17 10:30:48",
+  "updated_epoch_ms": 1794929448999,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:29:51"
+    "updated_kst": "00:30:31"
   },
   "stats": {
     "today_total": 56,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "10:30:43",
+      "time_kst": "00:30:43",
+      "symbol": "CTOR",
+      "company_name": "CTOR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.32M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "10:16:01",
       "time_kst": "00:16:01",
       "symbol": "DENN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $673.13M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:08:36",
-      "time_kst": "23:08:36",
-      "symbol": "XMTR",
-      "company_name": "XMTR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7039.32M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
