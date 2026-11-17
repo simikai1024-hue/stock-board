@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:35:41",
-  "updated_at_et": "2026-11-17 07:35:41",
-  "updated_epoch_ms": 1794918941949,
+  "updated_at_kst": "2026-11-17 21:35:59",
+  "updated_at_et": "2026-11-17 07:35:59",
+  "updated_epoch_ms": 1794918959386,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELAB",
+    "company_name": "ELAB",
+    "exchange": "ND",
+    "price": 1.6403,
+    "gain_pct": 1.2,
+    "mcap_m": 1.33,
+    "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and O",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:35:51",
+    "started_at_kst": "21:35:51",
+    "started_epoch_ms": 1794918951852
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:35:29"
+    "updated_kst": "21:35:48"
   },
   "stats": {
     "today_total": 12,
