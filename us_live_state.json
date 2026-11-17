@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:01:14",
-  "updated_at_et": "2026-11-17 09:01:14",
-  "updated_epoch_ms": 1794924074851,
+  "updated_at_kst": "2026-11-17 23:01:55",
+  "updated_at_et": "2026-11-17 09:01:55",
+  "updated_epoch_ms": 1794924115915,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:01:12"
+    "updated_kst": "23:01:52"
   },
   "stats": {
     "today_total": 42,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "09:01:51",
+      "time_kst": "23:01:51",
+      "symbol": "DSWL",
+      "company_name": "DSWL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.99M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:01:46",
+      "time_kst": "23:01:46",
+      "symbol": "FLNC",
+      "company_name": "FLNC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $614.17M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "09:01:38",
+      "time_kst": "23:01:38",
+      "symbol": "HWKN",
+      "company_name": "HWKN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3090.95M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:52:35",
       "time_kst": "22:52:35",
       "symbol": "OBAI",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5434.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:05:51",
-      "time_kst": "22:05:51",
-      "symbol": "HON",
-      "company_name": "HON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $69168.39M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:05:47",
-      "time_kst": "22:05:47",
-      "symbol": "GEHC",
-      "company_name": "GEHC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $37509.35M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:05:43",
-      "time_kst": "22:05:43",
-      "symbol": "CPRT",
-      "company_name": "CPRT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $29718.21M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
