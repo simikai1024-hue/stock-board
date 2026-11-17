@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:04:15",
-  "updated_at_et": "2026-11-17 08:04:15",
-  "updated_epoch_ms": 1794920655907,
+  "updated_at_kst": "2026-11-17 22:05:21",
+  "updated_at_et": "2026-11-17 08:05:21",
+  "updated_epoch_ms": 1794920721926,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DXR",
+    "company_name": "DXR",
+    "exchange": "ND",
+    "price": 8.355,
+    "gain_pct": 0.0,
+    "mcap_m": 48.78,
+    "catalyst_hint": "[당일 PR] Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:05:21",
+    "started_at_kst": "22:05:21",
+    "started_epoch_ms": 1794920721597
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:03:55"
+    "updated_kst": "22:05:17"
   },
   "stats": {
     "today_total": 21,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:05:20",
+      "time_kst": "22:05:20",
+      "symbol": "ATRO",
+      "company_name": "ATRO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2397.76M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:04:37",
+      "time_kst": "22:04:37",
+      "symbol": "BIAF",
+      "company_name": "BIAF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:04:03",
       "time_kst": "22:04:03",
       "symbol": "SNES",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $512.64M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:04:27",
-      "time_kst": "21:04:27",
-      "symbol": "OUST",
-      "company_name": "OUST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2279.7M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:04:23",
-      "time_kst": "21:04:23",
-      "symbol": "ONEW",
-      "company_name": "ONEW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $151.66M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
