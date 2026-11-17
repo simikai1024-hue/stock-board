@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:01:48",
-  "updated_at_et": "2026-11-17 08:01:48",
-  "updated_epoch_ms": 1794920508837,
+  "updated_at_kst": "2026-11-17 22:02:36",
+  "updated_at_et": "2026-11-17 08:02:36",
+  "updated_epoch_ms": 1794920556298,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DXR",
+    "company_name": "DXR",
+    "exchange": "ND",
+    "price": 8.355,
+    "gain_pct": 0.0,
+    "mcap_m": 48.78,
+    "catalyst_hint": "[당일 PR] Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:02:31",
+    "started_at_kst": "22:02:31",
+    "started_epoch_ms": 1794920551780
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:01:36"
+    "updated_kst": "22:02:35"
   },
   "stats": {
     "today_total": 19,
@@ -2437,6 +2449,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "08:02:28",
+      "time_kst": "22:02:28",
+      "symbol": "MCHP",
+      "company_name": "MCHP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $31913.3M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:02:24",
+      "time_kst": "22:02:24",
+      "symbol": "LIME",
+      "company_name": "LIME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1318.89M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:02:12",
+      "time_kst": "22:02:12",
+      "symbol": "VERX",
+      "company_name": "VERX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2985.73M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:01:55",
+      "time_kst": "22:01:55",
+      "symbol": "NUTX",
+      "company_name": "NUTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1164.28M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "08:01:44",
       "time_kst": "22:01:44",
       "symbol": "ADUR",
@@ -2894,46 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1924.99M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:03:06",
-      "time_kst": "21:03:06",
-      "symbol": "ZBIO",
-      "company_name": "ZBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1894.15M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:03:02",
-      "time_kst": "21:03:02",
-      "symbol": "MFP",
-      "company_name": "MFP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1964.36M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:57",
-      "time_kst": "21:02:57",
-      "symbol": "PLUG",
-      "company_name": "PLUG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1496.79M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "07:02:55",
-      "time_kst": "21:02:55",
-      "symbol": "REGN",
-      "company_name": "REGN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $98507.68M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
