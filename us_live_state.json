@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 01:41:29",
-  "updated_at_et": "2026-11-17 11:41:29",
-  "updated_epoch_ms": 1794933689598,
+  "updated_at_kst": "2026-11-18 01:42:19",
+  "updated_at_et": "2026-11-17 11:42:19",
+  "updated_epoch_ms": 1794933739348,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:29:07"
+    "updated_kst": "01:42:14"
   },
   "stats": {
     "today_total": 56,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "11:42:17",
+      "time_kst": "01:42:17",
+      "symbol": "MGN",
+      "company_name": "MGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [424B4])"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "11:28:53",
       "time_kst": "01:28:53",
       "symbol": "SXTP",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $133.9M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:16:09",
-      "time_kst": "23:16:09",
-      "symbol": "TGL",
-      "company_name": "TGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
     }
   ]
 }
