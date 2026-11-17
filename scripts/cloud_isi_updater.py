@@ -309,6 +309,50 @@ def extract_isi_top3_themes() -> tuple:
     return latest_date_iso, merged_themes
 
 
+def _fetch_residency_map(ymd_compact: str) -> dict:
+    codes = ["069500", "114800", "229200", "251340"]
+    out = {}
+    for cd in codes:
+        try:
+            u = f"https://api.stock.naver.com/chart/domestic/item/{cd}/minute?startDateTime={ymd_compact}090000&endDateTime={ymd_compact}153000"
+            r = requests.get(u, headers=HEADERS, timeout=4)
+            if r.status_code != 200:
+                continue
+            bars = r.json()
+            if not isinstance(bars, list) or not bars:
+                continue
+            cum_v, cum_pv = 0, 0.0
+            morn_tot, morn_above, day_tot, day_above = 0, 0, 0, 0
+            for b in bars:
+                tm = str(b.get("localDateTime") or "")[8:12]
+                if tm < "0900" or tm > "1520":
+                    continue
+                h = int(b.get("highPrice") or 0)
+                l = int(b.get("lowPrice") or 0)
+                c = int(b.get("currentPrice") or 0)
+                dv = max(1, int(b.get("accumulatedTradingVolume") or 0))
+                if c <= 0:
+                    continue
+                cum_v += dv
+                cum_pv += ((h + l + c) / 3.0) * dv
+                vw = cum_pv / cum_v
+                if tm >= "0905":
+                    day_tot += 1
+                    if c > vw:
+                        day_above += 1
+                    if tm <= "0930":
+                        morn_tot += 1
+                        if c > vw:
+                            morn_above += 1
+            out[cd] = {
+                "morn_above_pct": round((morn_above / morn_tot) * 100.0, 1) if morn_tot > 0 else 0.0,
+                "day_above_pct": round((day_above / day_tot) * 100.0, 1) if day_tot > 0 else 0.0,
+            }
+        except Exception:
+            pass
+    return out
+
+
 def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
     idx_out = dict(prev_idx) if isinstance(prev_idx, dict) else {}
     etfs = [
@@ -324,6 +368,10 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
             timeout=5,
         )
         datas = r.json().get("result", {}).get("areas", [{}])[0].get("datas", [])
+        res_map = _fetch_residency_map(now_kst.strftime("%Y%m%d"))
+        if not res_map:
+            prev_ymd = (now_kst - datetime.timedelta(days=1)).strftime("%Y%m%d")
+            res_map = _fetch_residency_map(prev_ymd)
         mm = {c: (nm, mk, dr, dl) for c, nm, mk, dr, dl in etfs}
         snaps = {}
         for d in datas:
@@ -340,6 +388,7 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
             val_won = (aa * 1_000_000.0 if (aq > 0 and aa / aq < nv * 0.05) else aa) if (aq > 0 and aa > 0) else 0.0
             vwap = int(round(val_won / aq)) if (aq > 0 and val_won > 0) else nv
             nm, mk, dr, dl = mm[cd]
+            ri = res_map.get(cd) or {}
             snaps[cd] = {
                 "code": cd,
                 "name": nm,
@@ -354,13 +403,19 @@ def update_index_radar_snapshot(prev_idx: dict, now_kst) -> dict:
                 "chg_prev_pct": round((nv / pcv - 1.0) * 100.0, 2),
                 "above_vwap": bool(nv > vwap),
                 "is_bull_candle": bool(nv > ov),
+                "morn_above_pct": float(ri.get("morn_above_pct") or (100.0 if nv > vwap else 0.0)),
+                "day_above_pct": float(ri.get("day_above_pct") or (100.0 if nv > vwap else 0.0)),
             }
         if "069500" in snaps and "114800" in snaps:
-            w = snaps["069500"] if snaps["069500"]["vwap_gap_pct"] >= snaps["114800"]["vwap_gap_pct"] else snaps["114800"]
+            ku = (snaps["069500"]["day_above_pct"], snaps["069500"]["vwap_gap_pct"])
+            kd = (snaps["114800"]["day_above_pct"], snaps["114800"]["vwap_gap_pct"])
+            w = snaps["069500"] if ku >= kd else snaps["114800"]
             o = snaps["114800"] if w is snaps["069500"] else snaps["069500"]
             idx_out["kospi_pair"] = {"winner": w, "other": o}
         if "229200" in snaps and "251340" in snaps:
-            w2 = snaps["229200"] if snaps["229200"]["vwap_gap_pct"] >= snaps["251340"]["vwap_gap_pct"] else snaps["251340"]
+            ku2 = (snaps["229200"]["day_above_pct"], snaps["229200"]["vwap_gap_pct"])
+            kd2 = (snaps["251340"]["day_above_pct"], snaps["251340"]["vwap_gap_pct"])
+            w2 = snaps["229200"] if ku2 >= kd2 else snaps["251340"]
             o2 = snaps["251340"] if w2 is snaps["229200"] else snaps["229200"]
             idx_out["kosdaq_pair"] = {"winner": w2, "other": o2}
         idx_out["updated_at"] = f"{now_kst.strftime('%H:%M:%S')} (☁️깃허브 자동)"
