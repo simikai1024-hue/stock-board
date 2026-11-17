@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 18:15:10",
-  "updated_at_et": "2026-11-17 04:15:10",
-  "updated_epoch_ms": 1794906910428,
+  "updated_at_kst": "2026-11-17 18:15:53",
+  "updated_at_et": "2026-11-17 04:15:53",
+  "updated_epoch_ms": 1794906953549,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:15:08"
+    "updated_kst": "18:15:46"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 16,
+    "today_hardcut": 19,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "04:15:49",
+      "time_kst": "18:15:49",
+      "symbol": "IPDN",
+      "company_name": "IPDN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-21 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:15:29",
+      "time_kst": "18:15:29",
+      "symbol": "SDOT",
+      "company_name": "SDOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "04:15:20",
+      "time_kst": "18:15:20",
+      "symbol": "SPAI",
+      "company_name": "SPAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.14M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "04:10:29",
       "time_kst": "18:10:29",
       "symbol": "EGHT",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $289.95M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:10:11",
-      "time_kst": "00:10:11",
-      "symbol": "CMCSA",
-      "company_name": "CMCSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $90745.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:08:22",
-      "time_kst": "00:08:22",
-      "symbol": "CKX",
-      "company_name": "CKX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-16",
-      "time_et": "10:08:04",
-      "time_kst": "00:08:04",
-      "symbol": "FCFS",
-      "company_name": "FCFS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7790.98M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
