@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:08:18",
-  "updated_at_et": "2026-11-17 08:08:18",
-  "updated_epoch_ms": 1794920898694,
+  "updated_at_kst": "2026-11-17 22:08:58",
+  "updated_at_et": "2026-11-17 08:08:58",
+  "updated_epoch_ms": 1794920938778,
   "analyzing": {
-    "active": true,
-    "symbol": "YFOR",
-    "company_name": "YFOR",
-    "exchange": "ND",
-    "price": 0.0447,
-    "gain_pct": 16.62,
-    "mcap_m": 0.57,
-    "catalyst_hint": "[당일 PR] YYForce 明确 AI 劳动力、机器人及设施管理领域的运营优先事项",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:08:13",
-    "started_at_kst": "22:08:13",
-    "started_epoch_ms": 1794920893837
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:08:17"
+    "updated_kst": "22:08:58"
   },
   "stats": {
-    "today_total": 24,
-    "today_nblm_count": 24,
+    "today_total": 25,
+    "today_nblm_count": 25,
     "today_buy": 0,
-    "today_false": 24,
+    "today_false": 25,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 15,
     "total_false": 135,
-    "avg_nblm_sec": 43.0
+    "avg_nblm_sec": 43.1
   },
   "verdicts": [
+    {
+      "id": "v_1794920933791_YFOR_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "08:08:53",
+      "time_kst": "22:08:53",
+      "symbol": "YFOR",
+      "company_name": "YFOR",
+      "exchange": "ND",
+      "price": 0.0447,
+      "gain_pct": 16.62,
+      "mcap_m": 0.57,
+      "decision": "FALSE",
+      "elapsed_sec": 43.4,
+      "reason": "전일(11/16) 기발표 영문 운영우선순위 PR을 24시간만 중국어로 번역 재배포한 100% 껍데기 재탕 및 고점대비 -17.2% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] YYForce 明确 AI 劳动力、机器人及设施管理领域的运营优先事项",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YFOR (YYForce Inc.) 2026-11-17 08:08 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.57M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 거래대금 $5.23M 터지며 고점 대비 -17.2% 덤핑):\n전일 종가 $0.0385 대비 현재가 $0.0447 (+16.10%).\n당일 최고가 $0.0540 찍은 후 장전 고점 대비 -17.2% 폭락하며 윗꼬리를 달고 덤핑 중.\n당일 누적 거래대금 $5,232,692 USD (523만 달러 규모의 대량 거래가 회전되며 개미에게 물량 전가 중).\n헌법 제1조에 따라 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성과 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"YYForce 明确 AI 劳动力、机器人及设施管理领域的运营优先事项\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n어제(11/16) 발표한 영문 PR을 24시간 만에 중국어로 번역만 바꿔 재배포한 100% 번역 재탕 (Exact Translation Trap):\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 GlobeNewswire를 통해 \"YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management\" 영문 보도자료를 배포했습니다.\n오늘 발표된 보도자료는 어제 배포된 운영 우선순위 설정 영문 PR을 **단순 중국어(简体中文)로 직역하여 24시간 만에 다시 전송한 껍데기 번역 재탕(Translation Re-hash)**에 불과합니다.\n확정 수주/현금 유입이 아닌 단순 자체 사업 운영 우선순위 나열 (Routine Operating Priorities PR):\n본 PR의 본질은 대규모 수주 계약이 아니라, 인력 배치 최적화 및 상용 로봇 도입 검토 등 내부 경영 방침을 설명한 단순 주주 서한/운영 방침 홍보문입니다.\n외부 대기업이나 글로벌 고객사로부터 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 -17.2% 설거지 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 보도자료의 24시간만 번역 재홍보 쪼개기 재탕 및 ④ 금액 미기재 단순 운영 방침 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.0540까지 띄워 $5.23M의 대량 거래대금을 터뜨리며 개미들에게 물량을 떠넘긴 후 고점 대비 -17.2% 폭락한 전형적인 껍데기 재탕 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 어제(11/16) 기발표된 영문 운영 우선순위 PR을 단순 중국어로 번역하여 재배포한 100% 번역 재탕 홍보물에 불과하고, 신규 확정 수주/매출이 전무하며 장전 고점 대비 -17.2% 폭락하여 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: YFOR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: YFOR NOTES:\n[YFOR] 전일(11/16) 기발표 영문 운영우선순위 PR을 24시간만 중국어로 번역 재배포한 100% 껍데기 재탕 및 고점대비 -17.2% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕으로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794920873163_MNTS_FALSE",
       "date_et": "2026-11-17",
@@ -2422,26 +2430,6 @@
       "reason": "태국 유통 협력 PR은 구매 약정이 없는(No purchase commitments) 금액 미기재 예비 협력 및 비용절감 6-K로 1급 확정 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 NNOX (Nano-X Imaging Ltd.) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $19.88M USD (시가총액 $50.0M 이하 소형 품절주 관문 통과).\n실시간 체결가 및 수급: 전일 종가 $0.2353 대비 현재가 $0.2524 (+7.27%), 당일 최고가 $0.2596 (고점 대비 -2.8%), 당일 누적 거래대금 $51,452 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/10 08:10 ET) 공식 PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-10 [6-K] 접수 완료 (첨부 EX-99.1: 이사회 비용 절감 및 운영 효율화 조치 승인, \"Board Has Approved Cost Reduction and Operational Efficiency Measures\").\nPR 제목: *\"Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand\"*\n원문 팩트: 태국 헬스케어 기술 기업 Dosy Health와 자회사 Nanox.AI의 심장 영상 솔루션(HealthCCSng) 상업화 및 유통 협력(Distribution Agreement)을 추진한다는 보도자료.\n치명적 기폭제 결함:\n구체적 확정 금액 부재 및 예비 협의 한계: 원문 본문에 \"These discussions remain preliminary and do not constitute purchase commitments\" (본 논의는 예비적 성격이며 구속력 있는 구매 약정이 아님) 및 향후 본계약(definitive agreements) 체결 대상이라고 명시되어 있습니다.\n1급 기폭제 요건 결여: 확정된 대규모 달러 금액 수주, FDA 신규 승인, 대형 M&A, 현금 특별배당 등 기업 가치를 즉시 폭등시킬 확정적 1급 재료가 아니라, **'구체적 확정 현금 금액이 명시되지 않은 단순 해외 유통 협력/MOU 성격의 발표'**에 불과합니다.\nSEC 6-K 본공시 내용과의 괴리: 당일 6-K 제출 서류 역시 대규모 신규 매출 계약이 아닌 단순 비용 절감/구조조정(Cost Reduction Measures) 행정 공시입니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙(\"금액 미기재 단순 샘플/MOU/특허/유통 협력 및 단순 구조조정 발표는 1급 확정 기폭제 미달\")에 정확히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR이 구체적 확정 금액이 없는 단순 예비 유통 협력(Commercial Collaboration without purchase commitments)에 불과하고, 6-K 역시 비용 절감 발표로 1급 확정 기폭제 기준에 미달하므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: NNOX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: NNOX NOTES:\n[NNOX] 태국 유통 협력 PR은 구매 약정이 없는(No purchase commitments) 금액 미기재 예비 협력 및 비용절감 6-K로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794321107805_CIGL_FALSE",
-      "date_et": "2026-11-10",
-      "weekday_kr": "화",
-      "time_et": "09:31:47",
-      "time_kst": "23:31:47",
-      "symbol": "CIGL",
-      "company_name": "CIGL",
-      "exchange": "ND",
-      "price": 0.199,
-      "gain_pct": 3.11,
-      "mcap_m": 49.17,
-      "decision": "FALSE",
-      "elapsed_sec": 42.6,
-      "reason": "단순 경영진 선임 PR(Dentris See as CEO)은 1급 확정 기폭제 미달 및 고점 대비 -17.0% 윗꼬리 덤핑으로 전량 차단",
-      "catalyst_hint": "[당일 PR] Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 동기화 스냅샷 소스 원문 팩트를 바탕으로 진행한 CIGL (Concorde International Group Ltd) 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $49.17M USD (시가총액 $50.0M 이하 관문은 통과했으나 상한선 임계치 근접).\n실시간 체결가 및 수급: 전일 종가 $0.1930 대비 현재가 $0.1990 (+3.11%), 당일 최고가 $0.2399 (고점 대비 -17.0% 윗꼬리 급락 밀림), 당일 누적 거래대금 $71,294 USD.\n2. D-Day SEC 6-K & PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/10 08:12 ET) 공식 PR 및 SEC 6-K 원문 분석:\nSEC 공시 현황: 2026-11-10 [6-K] 접수.\nPR 제목: \"Concorde International Group Announces Dentris See as CEO of YOOV Group to Lead Next Phase of Growth\"\n원문 팩트: 자회사/그룹사인 YOOV Group의 신임 CEO로 Dentris See를 선임했다는 단순 경영진/임원 인사(CEO 선임) 보도자료.\n치명적 기폭제 결함 & 윗꼬리 덤핑 차트:\n오늘 발표된 6-K 및 보도자료는 기업 가치를 수직 폭등시킬 확정적 1급 기폭제(대규모 자사주 소각, FDA 승인, 구체적 달러 금액 명시 대형 수주/계약/자산매각, 대형 M&A 완료, 현금 특별배당, ATM 해지, 당일 주식병합 D-Day 등)가 전혀 아닙니다.\n단순 **경영진/CEO 교체 및 선임 인사 발표(Executive/CEO Appointment)**에 불과합니다.\n이는 연구소 전략 헌장 제1장 2번 및 심사 기준 3번 규칙에서 엄격히 차단하는 '구체적 현금 유입/계약 금액 미기재 단순 인사/MOU/특허/주주서한/IR 발표' 범주에 정확히 속하므로 1급 확정 기폭제 기준에 절대 미달합니다.\n당일 최고가($0.2399) 대비 현재가가 -17.0% 밀린 깊은 윗꼬리 차트를 만들고 있어, 단순 인사 뉴스를 틈탄 세력의 장전 덤핑 설거지 구간입니다.\n3. 최종 심사 및 결재 판정\n당일 PR이 단순 CEO 선임 인사 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하고, 고점 대비 -17.0% 밀리는 윗꼬리 차트를 형성하고 있으므로 전략 헌장 2번·3번 원칙에 의거 FORCE_BLOCK: CIGL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: CIGL NOTES:\n[CIGL] 단순 경영진 선임 PR(Dentris See as CEO)은 1급 확정 기폭제 미달 및 고점 대비 -17.0% 윗꼬리 덤핑으로 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
