@@ -1,11 +1,11 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-17 10:43:35",
+  "updated_at": "2026-11-17 10:49:25",
   "isi_board": {
-    "updated_at": "2026-11-17 10:43:35",
+    "updated_at": "2026-11-17 10:49:25",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-17",
-    "theme_updated_at": "10:43:34",
+    "theme_updated_at": "10:49:24",
     "overnight_holding": {
       "active": true,
       "code": "089590",
@@ -33,85 +33,16 @@
     "top3_themes": [
       {
         "rank": 1,
-        "theme_name": "반도체 기판(FC-BGA/PCB/MLB 등)",
-        "theme_money": 3235,
-        "is_surging": true,
-        "leader": {
-          "code": "007810",
-          "name": "코리아써키트",
-          "close": 94200,
-          "rate": 6.0,
-          "money_eok": 629,
-          "vwap": 91805,
-          "vol_ratio": 64,
-          "upper_wick": 15.4,
-          "prog_money": 11
-        },
-        "second": {
-          "code": "007660",
-          "name": "이수페타시스",
-          "close": 86400,
-          "rate": 6.0,
-          "money_eok": 616,
-          "vwap": 84716,
-          "vol_ratio": 57,
-          "upper_wick": 18.0,
-          "prog_money": -145
-        },
-        "stocks": [
-          {
-            "code": "007810",
-            "name": "코리아써키트",
-            "close": 94200,
-            "rate": 6.0,
-            "money_eok": 629,
-            "vwap": 91805,
-            "vol_ratio": 64,
-            "upper_wick": 15.4,
-            "prog_money": 11,
-            "is_our_leader": true,
-            "is_second": false
-          },
-          {
-            "code": "009150",
-            "name": "삼성전기",
-            "close": 779000,
-            "rate": -0.8,
-            "money_eok": 1990,
-            "vwap": 773100,
-            "vol_ratio": 31,
-            "upper_wick": 29.7,
-            "prog_money": -1757,
-            "is_our_leader": false,
-            "is_second": false
-          },
-          {
-            "code": "007660",
-            "name": "이수페타시스",
-            "close": 86400,
-            "rate": 6.0,
-            "money_eok": 616,
-            "vwap": 84716,
-            "vol_ratio": 57,
-            "upper_wick": 18.0,
-            "prog_money": -145,
-            "is_our_leader": false,
-            "is_second": true
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "theme_name": "2026 하반기 신규상장",
-        "theme_money": 2695,
+        "theme_money": 2729,
         "is_surging": true,
         "leader": {
           "code": "493260",
           "name": "옵토닉스",
-          "close": 24550,
-          "rate": 104.6,
-          "money_eok": 2340,
-          "vwap": 28227,
+          "close": 25500,
+          "rate": 112.5,
+          "money_eok": 2370,
+          "vwap": 28182,
           "vol_ratio": 150,
           "upper_wick": 15.0,
           "prog_money": 0
@@ -121,9 +52,9 @@
           "name": "매드업",
           "close": 6910,
           "rate": 10.4,
-          "money_eok": 236,
-          "vwap": 6819,
-          "vol_ratio": 201,
+          "money_eok": 238,
+          "vwap": 6820,
+          "vol_ratio": 203,
           "upper_wick": 25.0,
           "prog_money": 2
         },
@@ -131,10 +62,10 @@
           {
             "code": "493260",
             "name": "옵토닉스",
-            "close": 24550,
-            "rate": 104.6,
-            "money_eok": 2340,
-            "vwap": 28227,
+            "close": 25500,
+            "rate": 112.5,
+            "money_eok": 2370,
+            "vwap": 28182,
             "vol_ratio": 150,
             "upper_wick": 15.0,
             "prog_money": 0,
@@ -146,9 +77,9 @@
             "name": "매드업",
             "close": 6910,
             "rate": 10.4,
-            "money_eok": 236,
-            "vwap": 6819,
-            "vol_ratio": 201,
+            "money_eok": 238,
+            "vwap": 6820,
+            "vol_ratio": 203,
             "upper_wick": 25.0,
             "prog_money": 2,
             "is_our_leader": false,
@@ -157,12 +88,12 @@
           {
             "code": "0158S0",
             "name": "엘리스",
-            "close": 57200,
-            "rate": -0.5,
-            "money_eok": 119,
-            "vwap": 57715,
+            "close": 57000,
+            "rate": -0.9,
+            "money_eok": 121,
+            "vwap": 57706,
             "vol_ratio": 17,
-            "upper_wick": 50.0,
+            "upper_wick": 53.7,
             "prog_money": -22,
             "is_our_leader": false,
             "is_second": false
@@ -170,42 +101,42 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "theme_name": "온디바이스 AI",
-        "theme_money": 16002,
+        "theme_money": 16543,
         "is_surging": false,
         "leader": {
           "code": "222800",
           "name": "심텍",
-          "close": 111700,
-          "rate": 3.3,
-          "money_eok": 554,
-          "vwap": 111068,
-          "vol_ratio": 42,
-          "upper_wick": 39.1,
+          "close": 110700,
+          "rate": 2.4,
+          "money_eok": 571,
+          "vwap": 111080,
+          "vol_ratio": 43,
+          "upper_wick": 53.6,
           "prog_money": -261
         },
         "second": {
           "code": "054450",
           "name": "텔레칩스",
-          "close": 7990,
-          "rate": 5.0,
+          "close": 7960,
+          "rate": 4.6,
           "money_eok": 37,
-          "vwap": 8594,
-          "vol_ratio": 791,
-          "upper_wick": 73.1,
+          "vwap": 8593,
+          "vol_ratio": 792,
+          "upper_wick": 74.6,
           "prog_money": -3
         },
         "stocks": [
           {
             "code": "222800",
             "name": "심텍",
-            "close": 111700,
-            "rate": 3.3,
-            "money_eok": 554,
-            "vwap": 111068,
-            "vol_ratio": 42,
-            "upper_wick": 39.1,
+            "close": 110700,
+            "rate": 2.4,
+            "money_eok": 571,
+            "vwap": 111080,
+            "vol_ratio": 43,
+            "upper_wick": 53.6,
             "prog_money": -261,
             "is_our_leader": true,
             "is_second": false
@@ -213,12 +144,12 @@
           {
             "code": "000660",
             "name": "SK하이닉스",
-            "close": 1121000,
-            "rate": 0.1,
-            "money_eok": 13458,
-            "vwap": 1112605,
-            "vol_ratio": 31,
-            "upper_wick": 40.5,
+            "close": 1120000,
+            "rate": 0.0,
+            "money_eok": 13926,
+            "vwap": 1112885,
+            "vol_ratio": 32,
+            "upper_wick": 42.9,
             "prog_money": -9546,
             "is_our_leader": false,
             "is_second": false
@@ -226,12 +157,12 @@
           {
             "code": "009150",
             "name": "삼성전기",
-            "close": 779000,
-            "rate": -0.8,
-            "money_eok": 1990,
-            "vwap": 773100,
-            "vol_ratio": 31,
-            "upper_wick": 29.7,
+            "close": 777000,
+            "rate": -1.0,
+            "money_eok": 2046,
+            "vwap": 773273,
+            "vol_ratio": 32,
+            "upper_wick": 35.1,
             "prog_money": -1757,
             "is_our_leader": false,
             "is_second": false
@@ -239,13 +170,95 @@
           {
             "code": "054450",
             "name": "텔레칩스",
-            "close": 7990,
-            "rate": 5.0,
+            "close": 7960,
+            "rate": 4.6,
             "money_eok": 37,
-            "vwap": 8594,
-            "vol_ratio": 791,
-            "upper_wick": 73.1,
+            "vwap": 8593,
+            "vol_ratio": 792,
+            "upper_wick": 74.6,
             "prog_money": -3,
+            "is_our_leader": false,
+            "is_second": true
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "theme_name": "스페이스X(SpaceX)",
+        "theme_money": 698,
+        "is_surging": false,
+        "leader": {
+          "code": "042700",
+          "name": "한미반도체",
+          "close": 170400,
+          "rate": 0.4,
+          "money_eok": 315,
+          "vwap": 169900,
+          "vol_ratio": 29,
+          "upper_wick": 35.2,
+          "prog_money": -79
+        },
+        "second": {
+          "code": "347700",
+          "name": "스피어",
+          "close": 15060,
+          "rate": 2.8,
+          "money_eok": 54,
+          "vwap": 14964,
+          "vol_ratio": 47,
+          "upper_wick": 26.8,
+          "prog_money": -20
+        },
+        "stocks": [
+          {
+            "code": "042700",
+            "name": "한미반도체",
+            "close": 170400,
+            "rate": 0.4,
+            "money_eok": 315,
+            "vwap": 169900,
+            "vol_ratio": 29,
+            "upper_wick": 35.2,
+            "prog_money": -79,
+            "is_our_leader": true,
+            "is_second": false
+          },
+          {
+            "code": "373220",
+            "name": "LG에너지솔루션",
+            "close": 316000,
+            "rate": -0.8,
+            "money_eok": 193,
+            "vwap": 317501,
+            "vol_ratio": 20,
+            "upper_wick": 83.3,
+            "prog_money": -29,
+            "is_our_leader": false,
+            "is_second": false
+          },
+          {
+            "code": "100790",
+            "name": "미래에셋벤처투자",
+            "close": 14320,
+            "rate": -2.6,
+            "money_eok": 190,
+            "vwap": 13714,
+            "vol_ratio": 82,
+            "upper_wick": 19.0,
+            "prog_money": -98,
+            "is_our_leader": false,
+            "is_second": false
+          },
+          {
+            "code": "347700",
+            "name": "스피어",
+            "close": 15060,
+            "rate": 2.8,
+            "money_eok": 54,
+            "vwap": 14964,
+            "vol_ratio": 47,
+            "upper_wick": 26.8,
+            "prog_money": -20,
             "is_our_leader": false,
             "is_second": true
           }
@@ -265,13 +278,13 @@
         "entry_time": "09:51",
         "entry_price": 41550,
         "vwap_at_entry": 41280,
-        "vwap_price": 41239,
+        "vwap_price": 41238,
         "stop_loss_px": 40300,
-        "cur_price": 41350,
-        "cur_raw_pct": -0.48,
-        "cur_net_pct": -0.71,
+        "cur_price": 41150,
+        "cur_raw_pct": -0.96,
+        "cur_net_pct": -1.19,
         "max_raw_pct": 0.24,
-        "updated_at": "10:43:33"
+        "updated_at": "10:49:23"
       },
       "today_closed": null,
       "stats": {
@@ -361,7 +374,7 @@
   },
   "history": [],
   "intraday_ledger": {
-    "updated_at": "2026-11-17 10:43:35",
+    "updated_at": "2026-11-17 10:49:25",
     "stats": {
       "total_closed": 14,
       "win_count": 6,
@@ -739,7 +752,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-17 10:43:35",
+    "updated_at": "2026-11-17 10:49:25",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4670,7 +4683,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-17 10:43:35",
+    "updated_at": "2026-11-17 10:49:25",
     "deprecated": true,
     "stats": {},
     "days": []
