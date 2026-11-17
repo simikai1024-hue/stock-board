@@ -1,16 +1,28 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 23:29:41",
-  "updated_at_et": "2026-11-17 09:29:41",
-  "updated_epoch_ms": 1794925781603,
+  "updated_at_kst": "2026-11-17 23:30:25",
+  "updated_at_et": "2026-11-17 09:30:25",
+  "updated_epoch_ms": 1794925825117,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CDIO",
+    "company_name": "CDIO",
+    "exchange": "ND",
+    "price": 1.9123,
+    "gain_pct": 3.35,
+    "mcap_m": 5.66,
+    "catalyst_hint": "[당일 PR] Cardio Diagnostics to Unveil Non-Obstructive Coronary Artery Disease Data, FDA Breakthrough Device Designation Strategy, and India Launch Update on December 10 Investor Cal",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:30:17",
+    "started_at_kst": "23:30:17",
+    "started_epoch_ms": 1794925817079
   },
   "halt_watch": {
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 0,
     "orderable_usd": 1056.71,
     "daily_done": false,
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:29:39"
+    "updated_kst": "23:30:18"
   },
   "stats": {
     "today_total": 51,
