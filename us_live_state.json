@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 21:02:27",
-  "updated_at_et": "2026-11-17 07:02:27",
-  "updated_epoch_ms": 1794916947128,
+  "updated_at_kst": "2026-11-17 21:02:43",
+  "updated_at_et": "2026-11-17 07:02:43",
+  "updated_epoch_ms": 1794916963274,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DXLG",
+    "company_name": "DXLG",
+    "exchange": "ND",
+    "price": 0.4,
+    "gain_pct": 0.0,
+    "mcap_m": 22.21,
+    "catalyst_hint": "[당일 PR] Destination XL Group Files Definitive Proxy Statement and Mails Letter to Stockholders",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:02:40",
+    "started_at_kst": "21:02:40",
+    "started_epoch_ms": 1794916960732
   },
   "halt_watch": {
     "active": false
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "07:02:32",
+      "time_kst": "21:02:32",
+      "symbol": "SCNI",
+      "company_name": "SCNI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-17",
+      "time_et": "07:02:27",
+      "time_kst": "21:02:27",
+      "symbol": "GILT",
+      "company_name": "GILT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $403.64M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "07:02:22",
       "time_kst": "21:02:22",
       "symbol": "CNOB",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:48:02",
-      "time_kst": "18:48:02",
-      "symbol": "FNGR",
-      "company_name": "FNGR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "04:46:51",
-      "time_kst": "18:46:51",
-      "symbol": "JD",
-      "company_name": "JD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $33121.38M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
