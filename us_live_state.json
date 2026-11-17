@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 01:12:02",
-  "updated_at_et": "2026-11-17 11:12:02",
-  "updated_epoch_ms": 1794931922823,
+  "updated_at_kst": "2026-11-18 01:13:05",
+  "updated_at_et": "2026-11-17 11:13:05",
+  "updated_epoch_ms": 1794931985098,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "01:11:59"
+    "updated_kst": "01:13:01"
   },
   "stats": {
     "today_total": 56,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-17",
+      "time_et": "11:12:55",
+      "time_kst": "01:12:55",
+      "symbol": "DWSN",
+      "company_name": "DWSN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.28M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-17",
       "time_et": "11:11:18",
       "time_kst": "01:11:18",
       "symbol": "CITR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $224.0M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:14:09",
-      "time_kst": "23:14:09",
-      "symbol": "QTEX",
-      "company_name": "QTEX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $77.14M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
