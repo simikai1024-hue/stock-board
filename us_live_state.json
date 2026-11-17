@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:41:03",
-  "updated_at_et": "2026-11-17 08:41:03",
-  "updated_epoch_ms": 1794922863762,
+  "updated_at_kst": "2026-11-17 22:41:49",
+  "updated_at_et": "2026-11-17 08:41:49",
+  "updated_epoch_ms": 1794922909570,
   "analyzing": {
-    "active": true,
-    "symbol": "GIXI",
-    "company_name": "GIXI",
-    "exchange": "ND",
-    "price": 3.36,
-    "gain_pct": 5.66,
-    "mcap_m": 8.37,
-    "catalyst_hint": "[당일 PR] Gix Deploys New Advanced AI-Powered L4 Autonomous Robot with Multi-Environment Navigation and Smart Access Capabilities at One of the World’s Top Hospitals",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:40:58",
-    "started_at_kst": "22:40:58",
-    "started_epoch_ms": 1794922858802
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:40:52"
+    "updated_kst": "22:41:34"
   },
   "stats": {
-    "today_total": 38,
-    "today_nblm_count": 38,
+    "today_total": 39,
+    "today_nblm_count": 39,
     "today_buy": 0,
-    "today_false": 38,
+    "today_false": 39,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 14,
@@ -45,6 +33,26 @@
     "avg_nblm_sec": 45.3
   },
   "verdicts": [
+    {
+      "id": "v_1794922902586_GIXI_FALSE",
+      "date_et": "2026-11-17",
+      "weekday_kr": "화",
+      "time_et": "08:41:42",
+      "time_kst": "22:41:42",
+      "symbol": "GIXI",
+      "company_name": "GIXI",
+      "exchange": "ND",
+      "price": 3.36,
+      "gain_pct": 5.66,
+      "mcap_m": 8.37,
+      "decision": "FALSE",
+      "elapsed_sec": 47.0,
+      "reason": "신규 계약금액 전무 및 기발표 로봇주문의 Sheba병원 현장배치 분할납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Gix Deploys New Advanced AI-Powered L4 Autonomous Robot with Multi-Environment Navigation and Smart Access Capabilities at One of the World’s Top Hospitals",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 GIXI (Gix Internet Ltd.) 2026-11-17 08:40 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.37M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $3.1800 대비 현재가 $3.3600 (+5.66%), 당일 최고가 $3.3600 (고점 대비 +0.0%).\n당일 누적 거래대금 $1,570 USD (1천5백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성과 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:39 ET) 공식 PR 원문 분석:\nPR 제목: \"Gix Deploys New Advanced AI-Powered L4 Autonomous Robot with Multi-Environment Navigation and Smart Access Capabilities at One of the World’s Top Hospitals\"\n원문 직독 결과 드러난 치명적 실체:\n기발표 주문에 따른 단순 후속 현장 배치 및 소규모 분할납품 쪼개기 재탕 (Follow-on Deployment Trap):\n원문 부제에 *\"The Ottonomy autonomous delivery robot joins Sheba’s existing fleet, following previously announced robot orders...\"*라고 명시되어 있습니다.\n이는 신규 메가 수주가 아니라, 이미 과거에 발표되었던 로봇 주문(following previously announced robot orders)에 따라 기존에 운영 중이던 셰바(Sheba) 병원 플릿에 로봇을 현장 추가 배치했다는 전형적인 사후 이행/쪼개기 재탕 보도자료입니다.\n창사 최대 본계약 점프가 아닌 금액 미기재 단순 홍보물:\n연구소 심사 예외 규정인 *\"소액 초도납품 후 시총을 압도하는 창사 최대 본계약 + 현금 선급금 점프\"*가 성립하려면 구체적인 대규모 확정 달러 금액($M)과 선급금이 명시되어야 합니다.\n그러나 본 PR에는 확정 계약 금액이나 현금 유입액이 단 1달러도 기재되지 않은 단순 기술 도입 홍보문에 불과합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 계약의 현장 배치/분할납품 쪼개기 재탕 및 ④ 금액 미기재 단순 병원 로봇 배치 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 확정 계약 금액이 전무하고, 기발표되었던 주문(previously announced orders)에 따른 기존 병원 플릿 내 로봇 현장 배치에 불과한 100% 분할납품 쪼개기 재탕 PR이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: GIXI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: GIXI NOTES:\n[GIXI] 신규 계약금액 전무 및 기발표 로봇주문의 Sheba병원 현장배치 분할납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1794922842308_BXBL_FALSE",
       "date_et": "2026-11-17",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 성적표 원문을 교차 대조하여 진행한 TURB (Turbo Energy, S.A.) 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.56M USD.\n체급 대비 발표 규모: 금번 발표 금액 $7.60M USD (실질 시총 대비 72.0%).\n실시간 체결가: 전일 종가 $0.8900 대비 현재가 $0.8790 (-1.24%), 당일 최고가 $0.8899 (고점 대비 -1.2%), 당일 누적 거래대금 $0 USD.\n2. 당일 공식 PR 원문 직독 & 쪼개기 재탕 정밀 감별\n당일(11/10 08:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"TURBO ENERGY EXPANDS PAMESA NET ZERO CONTRACT WITH $7.6 MILLION IN ADDITIONAL STORAGE AND ENERGY MANAGEMENT ORDERS\"*\n원문 직독 및 재탕 대조 결과 (헌법 제3조 쪼개기 재탕 정밀 적발):\n기발표 프레임워크 계약($53.00M)의 일부 분할 발주: 본문 원문 검증 결과, 금번 $7.6M 주문은 신규 고객사와의 창사 최대 계약이나 신규 체급 점프 계약이 아니며, **기존에 기발표된 $53.00M 규모 Pamesa Net Zero 마스터 계약의 2단계(Phase II) 분할 수주/연장 주문(Additional Orders)**에 불과합니다.\n연구소 심사 헌법 제3조 명시 규칙 위배: '무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 \"기발표 대형 프레임워크 계약(예: 기존 $53M 계약)의 일부 분할발주/연장/단순가동으로서 시총 대비 비중도 작은 쪼개기 재탕은 100% FORCE_BLOCK\" 조항에 정확히 적발되는 표본입니다.\n실제 족보집 부검 성적표 확인: 누적 족보집 전수 성적표에서도 TURB의 당일 결과는 당일 최고 +6.8%, 09:32 시초 +3.3%로 💀 실패·보합·설거지로 최종 마감되어, 분할 쪼개기 재탕 뉴스로는 시장의 강력한 단타 연속 수급을 유인할 수 없음이 실증되었습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 기존 기발표 $53M Pamesa 계약의 Phase II 분할 발주($7.6M)에 불과한 전형적인 '쪼개기 재탕'으로 헌법 제3조에 명시된 차단 기준에 해당하므로 FORCE_BLOCK: TURB 처리합니다.\n계좌 보호 원칙에 따라 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-10 FORCE_BUY: NONE FORCE_BLOCK: TURB NOTES:\n[TURB] 기발표 $53M 마스터 계약의 Phase II 분할 발주($7.6M) 쪼개기 재탕으로 헌법 제3조에 의거 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 모의검증",
       "trade_action": "모의검증 (주문미실행)"
-    },
-    {
-      "id": "v_1794552219812_AIMD_BUY",
-      "date_et": "2026-11-13",
-      "weekday_kr": "금",
-      "time_et": "01:43:39",
-      "time_kst": "15:43:39",
-      "symbol": "AIMD",
-      "company_name": "AIMD",
-      "exchange": "ND",
-      "price": 0.507,
-      "gain_pct": 4.58,
-      "mcap_m": 3.8,
-      "decision": "BUY",
-      "elapsed_sec": 49.9,
-      "reason": "시총 236% 규모($9.0M) 창사 최대 수주 및 $4.5M 확정 현금선급금이 결합된 진성 체급점프 대박 PR로 즉시 매수 승인",
-      "catalyst_hint": "[당일 PR] Ainos Secures Largest Order in Company History: $9 Million ASE Agreement for 5,000 Additional AI Nose Systems",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 AIMD (Ainos, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.80M USD (연구소 시가총액 $50.0M 이하 소형 품절주 관문 무희석 통과).\n체급 대비 발표 규모: 확정 계약 금액 $9.00M USD로 실질 시가총액($3.80M) 대비 무려 **236.8%**에 달하는 초대형 규모.\n실시간 체결가: 전일 종가 $0.4848 대비 현재가 $0.5070 (+4.58%), 당일 최고가 $0.5200 (고점 대비 -2.5%).\n선발표 규정 확인: 계약 체결 후 4영업일 이내 8-K 제출 유예 규정(Item 1.01) 구간으로 당일 8-K 미제출이나 프리장 극초입 거래량은 정상 선취매 구간에 해당합니다.\n2. 당일 공식 PR 원문 직독 정밀 검증: 단순 재탕 vs 체급 점프 본계약\n당일(11/12 08:30 ET) 공식 PR 원문 분석\n:\nPR 제목: *\"Ainos Secures Largest Order in Company History: $9 Million ASE Agreement for 5,000 Additional AI Nose Systems\"*\n원문 직독 및 과거 180일 이력 대조 결과 (재탕 쪼개기 아님, 창사 최대 체급 점프):\n과거 이력과의 명확한 구분: 과거(2026-09-29) 발표되었던 $2.1M 계약(1,400대 납품)은 이미 납품이 완료된 파일럿/초도 물량이었으며\n, 금번 건은 이를 바탕으로 체결된 **5,000대 추가 공급 확정 구매계약(Purchase Agreement)**입니다.\n창사 이래 최대 규모 확정 (4.3배 퀀텀 점프): 원문에서 \"The agreement represents the largest single purchase order by value in Ainos' history\" (창사 이래 최대 단일 수주)이자 기존 계약 가치 대비 약 **4.3배에 달하는 본격 상업화 채택 단계(scaled commercial adoption)**임을 명시하고 있습니다.\n거액 현금 선급금(Cash Deposit) 조건: 단순 외상이나 미확정 LOI가 아니라, 계약 체결 후 60일 이내에 50%인 $4.5 Million의 현금 계약금(deposit)을 즉시 지급받는 구조로 회사 운영자금 및 유동성을 완전히 해결하는 실체적 현금 흐름을 갖추고 있습니다.\n희석 폭탄 부재: 최근 35일 SEC 공시 목록상 활성 424B5(ATM), 신규 EFFECT, 8-K 3.02 등 신주 출회 창구가 열려 있지 않습니다.\n3. 최종 심사 및 결재 판정\n시가총액($3.8M)의 2.3배가 넘는 $9.0M 창사 이래 최대 공급계약 및 $4.5M 확정 현금 선급금이 결합된 확실한 1급 기폭제이며, 과거 소액 납품을 4.3배 뛰어넘은 진성 상업화 체급 점프이므로 '무결점 대박 PR' 헌법 제2조에 의거 **FORCE_BUY: AIMD**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-12 FORCE_BUY: AIMD FORCE_BLOCK: NONE NOTES:\n[AIMD] 시총 236% 규모($9.0M) 창사 최대 수주 및 $4.5M 확정 현금선급금이 결합된 진성 체급점프 대박 PR로 즉시 매수 승인 ===VERDICT_END===",
-      "engine": "NotebookLM 모의검증",
-      "trade_action": "모의검증 (주문미실행)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-17",
+      "time_et": "08:41:28",
+      "time_kst": "22:41:28",
+      "symbol": "SVC",
+      "company_name": "SVC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $754.22M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-17",
       "time_et": "08:37:23",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $116.99M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "08:02:28",
-      "time_kst": "22:02:28",
-      "symbol": "MCHP",
-      "company_name": "MCHP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $31913.3M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
