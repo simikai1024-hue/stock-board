@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-17 22:37:58",
-  "updated_at_et": "2026-11-17 08:37:58",
-  "updated_epoch_ms": 1794922678369,
+  "updated_at_kst": "2026-11-17 22:38:11",
+  "updated_at_et": "2026-11-17 08:38:11",
+  "updated_epoch_ms": 1794922691843,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "VERU",
+    "company_name": "VERU",
+    "exchange": "ND",
+    "price": 2.15,
+    "gain_pct": 3.37,
+    "mcap_m": 36.66,
+    "catalyst_hint": "[당일 PR] Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:38:07",
+    "started_at_kst": "22:38:07",
+    "started_epoch_ms": 1794922687068
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:37:45"
+    "updated_kst": "22:38:06"
   },
   "stats": {
     "today_total": 35,
