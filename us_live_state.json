@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:05:54",
-  "updated_at_et": "2026-11-18 08:05:54",
-  "updated_epoch_ms": 1795007154369,
+  "updated_at_kst": "2026-11-18 22:06:26",
+  "updated_at_et": "2026-11-18 08:06:26",
+  "updated_epoch_ms": 1795007186341,
   "analyzing": {
-    "active": true,
-    "symbol": "SEGG",
-    "company_name": "SEGG",
-    "exchange": "ND",
-    "price": 0.6945,
-    "gain_pct": -4.38,
-    "mcap_m": 2.92,
-    "catalyst_hint": "[당일 PR] SEGG Media Relaunches Lottery.com Worldwide, Built for Advertising, Sponsorship and Affiliate Revenue",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:05:46",
-    "started_at_kst": "22:05:46",
-    "started_epoch_ms": 1795007146114
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:05:40"
+    "updated_kst": "22:06:21"
   },
   "stats": {
-    "today_total": 21,
-    "today_nblm_count": 21,
+    "today_total": 22,
+    "today_nblm_count": 22,
     "today_buy": 0,
-    "today_false": 21,
+    "today_false": 22,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 47.0
+    "avg_nblm_sec": 46.5
   },
   "verdicts": [
+    {
+      "id": "v_1795007177973_SEGG_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "08:06:17",
+      "time_kst": "22:06:17",
+      "symbol": "SEGG",
+      "company_name": "SEGG",
+      "exchange": "ND",
+      "price": 0.6945,
+      "gain_pct": -4.38,
+      "mcap_m": 2.92,
+      "decision": "FALSE",
+      "elapsed_sec": 34.8,
+      "reason": "실질 시가총액: 약 $2.92M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문",
+      "catalyst_hint": "[당일 PR] SEGG Media Relaunches Lottery.com Worldwide, Built for Advertising, Sponsorship and Affiliate Revenue",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SEGG (SEGG Media Corporation / 구 Lottery.com) 2026-11-18 08:05:38 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.92M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795007134253_DXR_FALSE",
       "date_et": "2026-11-18",
@@ -2422,26 +2430,6 @@
       "reason": "확정 수주 금액 없는 단순 AI·로보틱스 운영 우선순위 나열 및 과거 비전 발표 재탕 PR로 장전 고점 대비 -14.0% 윗꼬리 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YFOR (YYForce Inc.) 07:47 ET 수급 변동 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.53M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (윗꼬리 덤핑 심화):\n전일 종가 $0.0398 대비 현재가 $0.0411 (+3.27%).\n당일 최고가 $0.0478 대비 장전 고점 대비 -14.0% 급락 덤핑 진행 중.\n당일 누적 거래대금 $1,248,399 USD (124만 달러 이상의 대량 거래가 터졌으나 고점에서 물량을 대거 털어낸 전형적인 피뢰침 설거지 수급).\n선발표 규정 확인: 운영 우선순위 발표 등은 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management\"\n원문 직독 결과 드러난 치명적 실체:\n구체적 확정 계약 달러 금액 없는 단순 경영 목표/우선순위 발표 (Operating Priorities PR):\n본 PR의 본질은 AI 인력 배치, 시설 관리, 상업용 로봇 배치에 걸친 운영 우선순위(Operating Priorities)를 정리해 발표했다는 단순 기업 운영 방향성 나열 홍보 보도자료입니다.\n외부 기관이나 글로벌 대기업으로부터 신규 자금이 유입되는 확정 수주 계약, 최소 보장 구매액, 거액 현금 선급금(deposit, AIMD형) 등 실체적 달러($) 수치가 원문 어디에도 전혀 없습니다.\n과거 IR 발표의 반복성 재탕 패턴 (우려먹기 IR):\n과거 180일 이력 대조 결과, 회사는 11월 2일에도 \"YYForce Highlights US$21.9 Million in Reported Net Assets and Outlines Commercial Robotics and AI Platform Priorities\", 11월 5일에도 \"YYForce Publishes Updated Corporate Presentation Outlining Operating Businesses, Commercial Robotics and 2030 Priorities\" 등 유사한 로봇·AI 사업 우선순위 발표를 지속적으로 배포해 온 바 있습니다.\n금번 발표 역시 신규 확정 계약이 아닌 기존에 지속적으로 발표해 온 기업 비전 및 운영 우선순위의 반복적 재탕 홍보물에 불과합니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 피뢰침 설거지:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 경영 우선순위 설정/운영 업데이트/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 124만 달러 이상의 대량 거래량이 터졌으나, 최고가 $0.0478에서 -14.0% 급락하며 밀려난 전형적인 피뢰침 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 명시되지 않은 단순 AI/로보틱스 운영 우선순위 발표이자 과거 유사 비전 발표의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -14.0% 덤핑이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: YFOR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: YFOR NOTES:\n[YFOR] 확정 수주 금액 없는 단순 AI·로보틱스 운영 우선순위 나열 및 과거 비전 발표 재탕 PR로 장전 고점 대비 -14.0% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794833220139_HTOO_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:47:00",
-      "time_kst": "21:47:00",
-      "symbol": "HTOO",
-      "company_name": "HTOO",
-      "exchange": "ND",
-      "price": 1.2,
-      "gain_pct": 0.0,
-      "mcap_m": 9.02,
-      "decision": "FALSE",
-      "elapsed_sec": 41.8,
-      "reason": "자회사 Q3 정기 실적 발표이자 10월 28일 기발표된 $5.2M 수주잔고 재탕 언급 PR로 장전 고점 대비 -15.5% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Fusion Fuel Highlights Third Quarter 2026 Financial Results of Majority-Owned Subsidiary Quality Industrial Corp., Including Third Consecutive Quarter of Operating Income a",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 HTOO (Fusion Fuel Green PLC) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $9.02M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주잔고 재탕 적발):\n본문 및 헤드라인에 언급된 핵심 금액 $5.20M USD는 당일 새로 체결된 신규 수주가 아닙니다.\n이는 과거 180일 이력(2026-10-28)에 이미 배포되었던 *\"Fusion Fuel Announces Al Shola Gas Contracted Engineering Project Portfolio of $5.2 Million Across 87 Projects\"*의 기발표 수주잔고 포트폴리오를 3분기 실적 보도자료 본문에서 단순 재인용(우려먹기)한 것에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 덤핑):\n전일 종가 $1.2000 대비 현재가 $1.2000 (+0.00%).\n당일 최고가 $1.4200 찍은 후 장전 고점 대비 -15.5% 수직 덤핑 발생하며 상승폭 전액 반납.\n당일 누적 거래대금 $0 USD (프리마켓 바닥 구간).\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:45 ET) 공식 PR 원문 분석:\nPR 제목: \"Fusion Fuel Highlights Third Quarter 2026 Financial Results of Majority-Owned Subsidiary Quality Industrial Corp., Including Third Consecutive Quarter of Operating Income and Return to Year-Over-Year Revenue Growth\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 자회사 2026년 3분기 정기 실적 발표 (Subsidiary Q3 Earnings PR):\n본 PR의 본질은 자회사(Quality Industrial Corp., QIND)의 2026년 3분기 정기 재무 실적 및 9개월 누적 영업이익(약 $348,000) 달성 등을 홍보하는 단순 정기 실적 하이라이트 보도자료입니다.\n10월 28일 기발표 $5.2M 수주잔고의 100% 노골적 재탕 (심사 헌법 제3조 ②항 정면 위배):\n원문 본문에 4분기 매출 전망을 뒷받침하는 근거로 인용한 $5.2M 계약은 이미 **2026년 10월 28일 공식 발표가 완료된 Al Shola Gas의 87개 프로젝트 수주잔고($5.2 Million)**입니다.\n연구소 심사 헌법 제3조: \"과거 이미 완료·발표한 합병/수주잔고 재홍보는 100% FORCE_BLOCK\" 규칙에 정확히 적발되는 전형적인 수주잔고 우려먹기입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 신규 확정 달러 수주/계약 + 거액 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n전형적인 장전 피뢰침 덤핑 차트:\n장전 프리마켓에서 $1.4200까지 반짝 튀어 올랐으나, 신규 호재가 아닌 실적 및 재탕 수주임이 확인되자마자 고점 대비 -15.5% 급락하며 시초가($1.2000, +0.00%)로 주저앉은 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 신규 수주가 아닌 자회사 Q3 정기 실적 발표이며, $5.2M 역시 10월 28일에 기발표된 기존 수주잔고의 노골적인 재탕 홍보물에 불과하고 장전 고점 대비 -15.5% 덤핑이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: HTOO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: HTOO NOTES:\n[HTOO] 자회사 Q3 정기 실적 발표이자 10월 28일 기발표된 $5.2M 수주잔고 재탕 언급 PR로 장전 고점 대비 -15.5% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
