@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:31:54",
-  "updated_at_et": "2026-11-18 07:31:54",
-  "updated_epoch_ms": 1795005114489,
+  "updated_at_kst": "2026-11-18 21:32:31",
+  "updated_at_et": "2026-11-18 07:32:31",
+  "updated_epoch_ms": 1795005151415,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "STEX",
+    "company_name": "STEX",
+    "exchange": "ND",
+    "price": 0.289,
+    "gain_pct": 1.19,
+    "mcap_m": 34.05,
+    "catalyst_hint": "[당일 PR] Streamex Corp. Announces GLDY Is Now Live at Equity Trust Company, Its First Tokenized Asset for Self-Directed IRAs",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:32:23",
+    "started_at_kst": "21:32:23",
+    "started_epoch_ms": 1795005143009
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:31:46"
+    "updated_kst": "21:32:27"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2449,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:32:24",
+      "time_kst": "21:32:24",
+      "symbol": "IMRX",
+      "company_name": "IMRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $224.08M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:32:16",
+      "time_kst": "21:32:16",
+      "symbol": "SGRY",
+      "company_name": "SGRY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3514.15M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:32:02",
+      "time_kst": "21:32:02",
+      "symbol": "TTEC",
+      "company_name": "TTEC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $160.0M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:31:54",
       "time_kst": "21:31:54",
       "symbol": "ZVRA",
@@ -2904,36 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "05:28:44",
-      "time_kst": "19:28:44",
-      "symbol": "LOBO",
-      "company_name": "LOBO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $55.75M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "05:15:06",
-      "time_kst": "19:15:06",
-      "symbol": "WYHG",
-      "company_name": "WYHG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $96.42M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "05:06:33",
-      "time_kst": "19:06:33",
-      "symbol": "TGL",
-      "company_name": "TGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
     }
   ]
 }
