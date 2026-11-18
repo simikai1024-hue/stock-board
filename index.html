@@ -1854,7 +1854,7 @@
       rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(act.code)}', '${escHtml(act.name)}')">📋 ${escHtml(act.name)} · 실시간 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</button>`;
     } else if (st === "CLOSED" && clsToday) {
       const np = Number(clsToday.net_pnl_pct || 0);
-      tagEl.classList.add(np >= 0 ? "holding" : "");
+      if (np >= 0) tagEl.classList.add("holding");
       tagEl.textContent = `✅ 금일 정산 완료 (${clsToday.dir_label})`;
       mainEl.innerHTML = `${escHtml(clsToday.name)} (${escHtml(clsToday.code)}) · ${fmtWon(clsToday.entry_price)}(${escHtml(clsToday.entry_time)}) → ${fmtWon(clsToday.exit_price)}(${escHtml(clsToday.exit_time)})`;
       subEl.innerHTML = `금일 확정 성적: <strong class="${np >= 0 ? "up-txt" : "dn-txt"}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</strong> (${escHtml(clsToday.exit_reason || "")})`;
@@ -2018,11 +2018,13 @@
   function applyIsiBoard(isi) {
     if (!isi) return;
     currentIsiData = isi;
-    renderHero(isi);
-    renderTop3Themes(isi);
-    renderIndexRadar(isi);
-    renderIntradayLab(isi);
-    renderLedger(isi);
+    for (const fn of [renderHero, renderTop3Themes, renderIndexRadar, renderIntradayLab, renderLedger]) {
+      try {
+        fn(isi);
+      } catch (err) {
+        console.error("[Board Render Error]", fn.name, err);
+      }
+    }
   }
 
   window.fetchRemoteState = async function(manual = false) {
