@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:12:12",
-  "updated_at_et": "2026-11-18 09:12:12",
-  "updated_epoch_ms": 1795011132328,
+  "updated_at_kst": "2026-11-18 23:12:57",
+  "updated_at_et": "2026-11-18 09:12:57",
+  "updated_epoch_ms": 1795011177139,
   "analyzing": {
-    "active": true,
-    "symbol": "AZIO",
-    "company_name": "AZIO",
-    "exchange": "ND",
-    "price": 0.4437,
-    "gain_pct": -3.1,
-    "mcap_m": 7.64,
-    "catalyst_hint": "[당일 PR] AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:12:03",
-    "started_at_kst": "23:12:03",
-    "started_epoch_ms": 1795011123651
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:12:08"
+    "updated_kst": "23:12:50"
   },
   "stats": {
-    "today_total": 34,
-    "today_nblm_count": 34,
+    "today_total": 35,
+    "today_nblm_count": 35,
     "today_buy": 0,
-    "today_false": 34,
+    "today_false": 35,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 49.0
+    "avg_nblm_sec": 49.1
   },
   "verdicts": [
+    {
+      "id": "v_1795011172553_AZIO_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "09:12:52",
+      "time_kst": "23:12:52",
+      "symbol": "AZIO",
+      "company_name": "AZIO",
+      "exchange": "ND",
+      "price": 0.4437,
+      "gain_pct": -3.1,
+      "mcap_m": 7.64,
+      "decision": "FALSE",
+      "elapsed_sec": 52.5,
+      "reason": "정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AZIO (AZIO AI Holdings, Inc.) 2026-11-18 09:12 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.64M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과\n).\n체급 대비 규모 (헤드라인 $75,000.00M 수치의 치명적 허상 및 숫자 왜곡 적발):\n언뜻 시총($7.64M) 대비 수십만%에 달하는 수백억 달러($75B) 규모의 천문학적 숫자가 감지되었으나, 이는 AZIO가 수주한 계약 금액이 아니라 **\"미국 의회가 통과시킨 NASA 예산 244억 달러, 탐사 예산 77억 달러 등 미국 정부의 우주 예산 규모를 보도자료에 단순 인용\"**한 것에 불과합니다.\nAZIO 회사 금고로 유입되는 확정 계약 달러($)는 단 1달러도 없습니다 (확정 수주액 0원).\n실시간 체결가 및 수급 (장전 최고가 대비 -13.0% 급락 음봉 덤핑):\n전일 종가 $0.4579 대비 현재가 $0.4437 (-3.10%).\n당일 프리마켓 최고가 $0.5100 (+11.4%)을 찍은 직후 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 장대음봉으로 주저앉음.\n당일 누적 거래대금 $4,334 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 09:10 ET) 공식 PR 원문 분석:\nPR 제목: \"AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 정부 수주가 아닌 단순 '우주·방산 전담팀 신설 및 입찰 참여 희망' 언론플레이 (Team Formation PR):\n원문 본문에 *\"has formed a dedicated space and government power team to pursue power and infrastructure work on the Moon, in space and for defense customers, including NASA and DARPA programs the company intends to compete for\"*라고 명시되어 있습니다.\n이는 NASA나 DARPA로부터 실제 수주를 따낸 계약(AIMD형)이 전혀 아닙니다.\n단지 정부 입찰에 뛰어들기 위해 사내 전담팀을 하나 꾸렸다는 구속력과 실체성이 0%인 내부 조직 개편/포부 발표에 불과합니다.\nPR 하단 법적 고지(Disclaimer)에서 '수주 실적 0건' 스스로 실토:\n원문 말미의 면책 조항(Forward-Looking Statements)을 보면 **\"AZIO has not been awarded any NASA or DARPA contract and may never be (AZIO는 NASA나 DARPA 계약을 전혀 수주한 바 없으며, 앞으로도 결코 수주하지 못할 수 있다)\"**라고 명백히 자인하고 있습니다.\n정부 예산 수치를 나열해 개미들을 현혹하는 전형적인 테마성 껍데기 IR 수법입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -13.0% 덤핑 (-3.10% 음봉 전락):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/팀 신설/입찰 의향 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.5100까지 반짝 띄운 뒤 시장이 껍데기 팀 신설 실체를 확인하자마자 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 음봉으로 내리꽂힌 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 NASA/DARPA 확정 수주나 현금 선급금이 전무(본문상 계약 0건 자인)한 단순 우주/정부 전담팀 신설 포부 홍보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 최고가 대비 -13.0% 급락 음봉 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AZIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG에 이어 AZIO까지 총 26개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 단순 팀 신설로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 17분 남은 핵심 승부처입니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795010860085_ICG_FALSE",
       "date_et": "2026-11-18",
@@ -2422,26 +2430,6 @@
       "reason": "FDA 최종 승인이 아닌 단순 SNO 학회 임상 2b상 중간 분석 발표이자 9월 14일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] Radiopharm Theranostics Presents Interim Analysis from Phase 2b Imaging Study of RAD101 in Suspected Recurrent Brain Metastases Following Radiotherapy at the Society for Ne",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 RADX (Radiopharm Theranostics Ltd) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.93M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (바닥 거래량 구간):\n전일 종가 $0.7600 대비 현재가 $0.7600 (+0.00%), 당일 최고가 $0.7799 (고점 대비 -2.6%), 당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수 완료 (EX-99.1 SNO 학회 발표 첨부).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"Radiopharm Theranostics Presents Interim Analysis from Phase 2b Imaging Study of RAD101 in Suspected Recurrent Brain Metastases Following Radiotherapy at the Society for Neuro-Oncology Annual Meeting\"*\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 정기 학회(SNO) 임상 2b상 중간 분석 발표 (Interim Conference Data PR):\n본 PR의 본질은 신경종양학회(SNO Annual Meeting, 11월 12~15일)에서 방사선 치료 후 재발 의심 뇌전이암 환자 32명을 대상으로 한 RAD101의 임상 2b상 중간 분석 데이터(Interim Analysis, 일치율 93.5%, 예비 민감도 85.7% 등)를 구두/포스터로 발표했다는 학회 결과 공유 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며\n, 오늘 앞서 차단된 BLRX, CNSY, INAB, ESLA와 동일한 정기 학회 시즌 맞춤형 중간 데이터 알림에 불과합니다.\n과거 180일 이력 및 족보집 대조 시 설거지 패턴 재탕 (심사 헌법 제3조 ②항 위배):\n과거 180일 이력 대조 결과, 회사는 이미 2026년 9월 14일에 *\"Radiopharm Theranostics Selected for Late-Breaking Oral Presentation of Positive Data from Interim Analysis of U.S. Phase 2b Imaging Trial of RAD101 at 2026 Society of Neuro-Oncology Annual Meeting\"*이라는 제목으로 해당 학회 발표 및 긍정적 중간 데이터 구두 발표 선정을 공식 발표한 바 있습니다.\n또한 11월 4일에도 임상 3상 설계 합의 PR을 냈으나\n, 당일 실제 주가는 **당일 최고 +16.8% 반짝 상승 후 시초가 +2.4%로 주저앉으며 족보집상 '💀 실패·보합·설거지'로 마감한 이력([186]번)**이 명확히 박혀 있습니다.\n이미 9월에 사전 예고되고 11월 초에 소모된 학회 발표 일정을 실제 학회 주간 직후 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약(기술수출), 시총을 압도하는 확정 달러 수주/선급금(AIMD형)\n, 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등\n 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터 발표/기발표 학회 일정 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 승인이 아닌 단순 SNO 학회 임상 2b상 중간 분석 데이터 발표이자 9월 14일 기발표된 학회 발표의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: RADX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: RADX NOTES:\n[RADX] FDA 최종 승인이 아닌 단순 SNO 학회 임상 2b상 중간 분석 발표이자 9월 14일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 승인 8-K) 2종목이 진성 대장주로 유지되고 있으며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794835044188_EOCN_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "08:17:24",
-      "time_kst": "22:17:24",
-      "symbol": "EOCN",
-      "company_name": "EOCN",
-      "exchange": "ND",
-      "price": 2.85,
-      "gain_pct": 14.92,
-      "mcap_m": 2.97,
-      "decision": "FALSE",
-      "elapsed_sec": 53.0,
-      "reason": "FDA 승인 없는 단순 Aramchol LNP 제형 개발 진척 보고 PR로 1급 기폭제 미달 및 거래대금 $5K 얇은 호가 펌핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Eocene and Barcode Nanotech Report Progress in the Development of Tumor Microenvironment-Targeted Lipid Nanoparticles Formulation of Aramchol",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 EOCN (Eocene Systems Ltd.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.97M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 (치명적 금액 미기재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 호가 갭상승 착시):\n전일 종가 $2.4800 대비 현재가 $2.8500 (+14.92%), 당일 최고가 $2.8500.\n당일 누적 거래대금 $5,634 USD (거래대금이 5천 달러 수준에 불과한 전형적인 얇은 호가 장전 착시 수급).\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Eocene and Barcode Nanotech Report Progress in the Development of Tumor Microenvironment-Targeted Lipid Nanoparticles Formulation of Aramchol\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 승인이나 임상 성공이 아닌 단순 신약 제형 개발 진척 보고 (Formulation Development Progress PR):\n본 PR의 본질은 Barcode Nanotech와 공동으로 아람콜(Aramchol)의 종양 미세환경 표적 지질나노입자(LNP) 신규 제형을 개발 중이며 이에 대한 '개발 진척을 보고(Report Progress in the Development)'했다는 초기 R&D 경과 공유 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 동물/전임상 단계의 제형 연구 개발 진행 단계 알림에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 시총을 압도하는 확정 달러 수주/선급금(AIMD형), 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 거래대금 5천불 얇은 호가 펌핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 개발 진척 보고/제형 개발/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n실체적 확정 현금이나 승인이 없는 상태에서 거래대금 $5,634에 불과한 얇은 호가로 가격만 +14.9% 띄워놓았으므로, 본장 개장 시 급격한 덤핑 위험이 매우 높습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 승인이 아닌 단순 LNP 제형 개발 진척 보고에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: EOCN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: EOCN NOTES:\n[EOCN] FDA 승인 없는 단순 Aramchol LNP 제형 개발 진척 보고 PR로 1급 기폭제 미달 및 거래대금 $5K 얇은 호가 펌핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 승인 8-K) 2종목이 진성 대장주로 유지되고 있으며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
