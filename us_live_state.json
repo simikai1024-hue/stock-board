@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:03:38",
-  "updated_at_et": "2026-11-18 07:03:38",
-  "updated_epoch_ms": 1795003418019,
+  "updated_at_kst": "2026-11-18 21:03:54",
+  "updated_at_et": "2026-11-18 07:03:54",
+  "updated_epoch_ms": 1795003434575,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "WKHS",
+    "company_name": "WKHS",
+    "exchange": "ND",
+    "price": 2.08,
+    "gain_pct": 9.47,
+    "mcap_m": 22.73,
+    "catalyst_hint": "[당일 PR] Workhorse Expands Canadian Dealer Network, Partners with BDS Fleet Service to Sell and Service All-electric W56 Step Vans in Ontario",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:03:46",
+    "started_at_kst": "21:03:46",
+    "started_epoch_ms": 1795003426395
   },
   "halt_watch": {
     "active": false
