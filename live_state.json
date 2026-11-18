@@ -1,11 +1,11 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18 23:49:15",
+  "updated_at": "2026-11-19 01:24:42",
   "isi_board": {
-    "updated_at": "2026-11-18 23:49:15",
+    "updated_at": "2026-11-19 01:24:42",
     "updater_source": "GITHUB_CLOUD",
     "theme_date": "2026-11-18",
-    "theme_updated_at": "23:49:15 (☁️깃허브 자동)",
+    "theme_updated_at": "01:24:42 (☁️깃허브 자동)",
     "overnight_holding": {
       "active": true,
       "code": "058610",
@@ -289,7 +289,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-18",
-      "updated_at": "23:49:15 (☁️깃허브 자동)",
+      "updated_at": "01:24:42 (☁️깃허브 자동)",
       "signal_status": "CLOSED",
       "active_signal": null,
       "today_closed": {
@@ -397,35 +397,35 @@
         "kospi_inst_eok": 4926,
         "kosdaq_foreign_eok": -497,
         "kosdaq_inst_eok": 1794,
-        "usdkrw": 1332.3,
-        "usdkrw_chg": -3.2,
-        "nasdaq_pct": -0.11,
-        "sox_pct": -0.97,
+        "usdkrw": 1333.0,
+        "usdkrw_chg": -2.5,
+        "nasdaq_pct": 0.09,
+        "sox_pct": -0.62,
         "macro_dir": "NEUTRAL",
         "macro_label": "수급·매크로 중립",
         "news_dir": "NEUTRAL",
         "news_label": "호악재 혼조",
         "headlines": [
           {
-            "title": "“불장 땐 선수 아닌 사람 있나”…액티브 ETF, 하락장엔 지수만도 못했다",
-            "press": "매일경제",
-            "time": "22:03",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/009/0005765882"
+            "title": "월러 Fed 이사 \"시장에 충격 줘야\"…12월 빅스텝 인상 주장",
+            "press": "아시아경제",
+            "time": "01:04",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/277/0005844726"
           },
           {
-            "title": "반도체 끝물이라는데 1만피 간다?…개미들 혼란 빠뜨린 전망 [분석+]",
-            "press": "한국경제",
-            "time": "22:01",
+            "title": "젠슨 황·저커버그 운명 가른 ‘차등 의결권’",
+            "press": "조선일보",
+            "time": "00:36",
             "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/015/0005355543"
+            "url": "https://n.news.naver.com/mnews/article/023/0004010425"
           },
           {
-            "title": "구심점 사라진 AI 생태계…앤트로픽·삼전닉스가 구해낼까 [최재원의 마켓워치]",
-            "press": "매일경제",
-            "time": "21:54",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/009/0005765881"
+            "title": "엔비디아 호실적도 안 통하나…美증시 반등 ‘주춤’",
+            "press": "이데일리",
+            "time": "00:05",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/018/0006412131"
           }
         ]
       },
@@ -454,7 +454,7 @@
           "pair_money_share_pct": 26.3,
           "flow_surge_mult": 0.88
         },
-        "line1": "외국인이 코스피 -3,405억(코스닥 -497억) 대량 순매도 출회 중이며, 미 나스닥(-0.11%)·반도체(-0.97%) 및 원/달러 1,332.3원 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
+        "line1": "외국인이 코스피 -3,405억(코스닥 -497억) 대량 순매도 출회 중이며, 미 나스닥(+0.09%)·반도체(-0.62%) 및 원/달러 1,333.0원 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 평소 대비 0.88배 자금이 집중되며 당일 VWAP 상단 체류 68%를 기록 중입니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
