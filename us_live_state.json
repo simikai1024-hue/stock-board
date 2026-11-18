@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:05:38",
-  "updated_at_et": "2026-11-18 08:05:38",
-  "updated_epoch_ms": 1795007138759,
+  "updated_at_kst": "2026-11-18 22:05:54",
+  "updated_at_et": "2026-11-18 08:05:54",
+  "updated_epoch_ms": 1795007154369,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SEGG",
+    "company_name": "SEGG",
+    "exchange": "ND",
+    "price": 0.6945,
+    "gain_pct": -4.38,
+    "mcap_m": 2.92,
+    "catalyst_hint": "[당일 PR] SEGG Media Relaunches Lottery.com Worldwide, Built for Advertising, Sponsorship and Affiliate Revenue",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:05:46",
+    "started_at_kst": "22:05:46",
+    "started_epoch_ms": 1795007146114
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:05:19"
+    "updated_kst": "22:05:40"
   },
   "stats": {
     "today_total": 21,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:05:52",
+      "time_kst": "22:05:52",
+      "symbol": "LTRN",
+      "company_name": "LTRN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Lantern Pharma Reports Third Quarter 2026 Financial Result)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:05:41",
+      "time_kst": "22:05:41",
+      "symbol": "ARVN",
+      "company_name": "ARVN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $446.61M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:05:37",
       "time_kst": "22:05:37",
       "symbol": "WGS",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3903.9M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:17:35",
-      "time_kst": "21:17:35",
-      "symbol": "LINK",
-      "company_name": "LINK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:16:30",
-      "time_kst": "21:16:30",
-      "symbol": "IMDX",
-      "company_name": "IMDX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $61.06M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
