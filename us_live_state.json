@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:33:10",
-  "updated_at_et": "2026-11-18 07:33:10",
-  "updated_epoch_ms": 1795005190015,
+  "updated_at_kst": "2026-11-18 21:33:17",
+  "updated_at_et": "2026-11-18 07:33:17",
+  "updated_epoch_ms": 1795005197529,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "OPTH",
+    "company_name": "OPTH",
+    "exchange": "ND",
+    "price": 2.1,
+    "gain_pct": 0.0,
+    "mcap_m": 12.02,
+    "catalyst_hint": "[당일 PR] Optimi Health Outlines 2027 Plans for OPTI-101 Phase 2b in Major Depressive Disorder and OPTI-201 Phase 3 in PTSD; Announces Shares-for-Debt Settlement",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:33:14",
+    "started_at_kst": "21:33:14",
+    "started_epoch_ms": 1795005194044
   },
   "halt_watch": {
     "active": false
