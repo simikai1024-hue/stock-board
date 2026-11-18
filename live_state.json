@@ -1,11 +1,11 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18 15:24:42",
+  "updated_at": "2026-11-18 15:30:24",
   "isi_board": {
-    "updated_at": "2026-11-18 15:24:42",
+    "updated_at": "2026-11-18 15:30:24",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-18",
-    "theme_updated_at": "15:24:42",
+    "theme_updated_at": "15:30:24",
     "overnight_holding": {
       "active": false
     },
@@ -284,7 +284,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-18",
-      "updated_at": "15:24:36",
+      "updated_at": "15:30:18",
       "signal_status": "CLOSED",
       "active_signal": null,
       "today_closed": {
@@ -310,23 +310,23 @@
           "market": "KOSPI",
           "dir": "DN",
           "dir_label": "코스피 하락",
-          "cur_price": 1328,
+          "cur_price": 1329,
           "open_price": 1322,
           "prev_close": 1359,
           "high_price": 1365,
           "low_price": 1307,
           "vwap": 1335,
-          "vwap_gap_pct": -0.52,
-          "chg_prev_pct": -2.28,
-          "money_eok": 13003,
-          "inav": 1328.52,
+          "vwap_gap_pct": -0.45,
+          "chg_prev_pct": -2.21,
+          "money_eok": 13180,
+          "inav": 1329.59,
           "inav_gap_pct": -0.04,
           "above_vwap": false,
           "is_bull_candle": true,
           "morn_above_pct": 34.6,
           "day_above_pct": 65.3,
-          "pair_money_share_pct": 45.3,
-          "flow_surge_mult": 1.26
+          "pair_money_share_pct": 45.7,
+          "flow_surge_mult": 1.27
         },
         "other": {
           "code": "069500",
@@ -343,13 +343,13 @@
           "vwap_gap_pct": 0.47,
           "chg_prev_pct": 2.26,
           "money_eok": 15690,
-          "inav": 79511.27,
-          "inav_gap_pct": 0.03,
+          "inav": 79465.15,
+          "inav_gap_pct": 0.09,
           "above_vwap": true,
           "is_bull_candle": false,
           "morn_above_pct": 69.2,
           "day_above_pct": 33.9,
-          "pair_money_share_pct": 54.7,
+          "pair_money_share_pct": 54.3,
           "flow_surge_mult": 0.85
         }
       },
@@ -360,22 +360,22 @@
           "market": "KOSDAQ",
           "dir": "DN",
           "dir_label": "코스닥 하락",
-          "cur_price": 2990,
+          "cur_price": 2980,
           "open_price": 2995,
           "prev_close": 3055,
           "high_price": 3075,
           "low_price": 2910,
           "vwap": 2996,
-          "vwap_gap_pct": -0.2,
-          "chg_prev_pct": -2.13,
-          "money_eok": 1958,
-          "inav": 2991.75,
-          "inav_gap_pct": -0.06,
+          "vwap_gap_pct": -0.53,
+          "chg_prev_pct": -2.45,
+          "money_eok": 1971,
+          "inav": 2995.21,
+          "inav_gap_pct": -0.51,
           "above_vwap": false,
           "is_bull_candle": false,
           "morn_above_pct": 50.0,
           "day_above_pct": 67.5,
-          "pair_money_share_pct": 26.3,
+          "pair_money_share_pct": 26.4,
           "flow_surge_mult": 1.27
         },
         "other": {
@@ -384,22 +384,22 @@
           "market": "KOSDAQ",
           "dir": "UP",
           "dir_label": "코스닥 상승",
-          "cur_price": 10795,
+          "cur_price": 10825,
           "open_price": 10800,
           "prev_close": 10560,
           "high_price": 11060,
           "low_price": 10500,
           "vwap": 10782,
-          "vwap_gap_pct": 0.12,
-          "chg_prev_pct": 2.23,
-          "money_eok": 5474,
+          "vwap_gap_pct": 0.4,
+          "chg_prev_pct": 2.51,
+          "money_eok": 5506,
           "inav": 10787.47,
-          "inav_gap_pct": 0.07,
+          "inav_gap_pct": 0.35,
           "above_vwap": true,
-          "is_bull_candle": false,
+          "is_bull_candle": true,
           "morn_above_pct": 46.2,
           "day_above_pct": 26.4,
-          "pair_money_share_pct": 73.7,
+          "pair_money_share_pct": 73.6,
           "flow_surge_mult": 0.93
         }
       },
@@ -410,9 +410,9 @@
         "kospi_personal_eok": -6148,
         "kosdaq_foreign_eok": -376,
         "kosdaq_inst_eok": 1716,
-        "usdkrw": 1333.1,
-        "usdkrw_chg": -2.4,
-        "usdkrw_pct": -0.18,
+        "usdkrw": 1333.2,
+        "usdkrw_chg": -2.3,
+        "usdkrw_pct": -0.17,
         "nasdaq_pct": -0.74,
         "sox_pct": 0.34,
         "macro_score": -1,
@@ -421,6 +421,13 @@
         "news_dir": "DN",
         "news_label": "경계·하방 재료 우위",
         "headlines": [
+          {
+            "title": "6만2000달러 급락 주간, 최대 매수자 스트래티지는 우선주를 샀다[엠블록레터]",
+            "press": "매일경제",
+            "time": "15:12",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/009/0005765530"
+          },
           {
             "title": "증권가 눈높이 낮췄다지만…삼전닉스 '희망고문' 여전",
             "press": "한국경제TV",
@@ -434,13 +441,6 @@
             "time": "14:56",
             "tone": "NEUTRAL",
             "url": "https://n.news.naver.com/mnews/article/008/0005442975"
-          },
-          {
-            "title": "\"코스피 1만2000 간다\"던 골드만삭스...\"7500피\" 목표치 낮춘 이유",
-            "press": "머니투데이",
-            "time": "14:39",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/008/0005442958"
           }
         ]
       },
@@ -455,25 +455,25 @@
           "market": "KOSDAQ",
           "dir": "DN",
           "dir_label": "코스닥 하락",
-          "cur_price": 2990,
+          "cur_price": 2980,
           "open_price": 2995,
           "prev_close": 3055,
           "high_price": 3075,
           "low_price": 2910,
           "vwap": 2996,
-          "vwap_gap_pct": -0.2,
-          "chg_prev_pct": -2.13,
-          "money_eok": 1958,
-          "inav": 2991.75,
-          "inav_gap_pct": -0.06,
+          "vwap_gap_pct": -0.53,
+          "chg_prev_pct": -2.45,
+          "money_eok": 1971,
+          "inav": 2995.21,
+          "inav_gap_pct": -0.51,
           "above_vwap": false,
           "is_bull_candle": false,
           "morn_above_pct": 50.0,
           "day_above_pct": 67.5,
-          "pair_money_share_pct": 26.3,
+          "pair_money_share_pct": 26.4,
           "flow_surge_mult": 1.27
         },
-        "line1": "외국인이 코스피 -4,216억(코스닥 -376억) 대량 순매도 출회 중이며, 미 나스닥(-0.74%)·반도체(+0.34%) 및 원/달러 1,333.1원(-2.4원) 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
+        "line1": "외국인이 코스피 -4,216억(코스닥 -376억) 대량 순매도 출회 중이며, 미 나스닥(-0.74%)·반도체(+0.34%) 및 원/달러 1,333.2원(-2.3원) 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 평소 대비 1.27배 자금이 집중되며 당일 VWAP 상단 체류 68%를 기록해 수급·시황·차트 방향이 일치합니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
@@ -616,7 +616,7 @@
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-18 15:24:42",
+    "updated_at": "2026-11-18 15:30:25",
     "stats": {
       "total_closed": 16,
       "win_count": 7,
@@ -1045,7 +1045,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-18 15:24:42",
+    "updated_at": "2026-11-18 15:30:25",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4976,7 +4976,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-18 15:24:42",
+    "updated_at": "2026-11-18 15:30:25",
     "deprecated": true,
     "stats": {},
     "days": []
