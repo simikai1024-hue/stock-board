@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:20:29",
-  "updated_at_et": "2026-11-18 07:20:29",
-  "updated_epoch_ms": 1795004429579,
+  "updated_at_kst": "2026-11-18 21:21:30",
+  "updated_at_et": "2026-11-18 07:21:30",
+  "updated_epoch_ms": 1795004490848,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:20:21"
+    "updated_kst": "21:21:21"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:20:37",
+      "time_kst": "21:20:37",
+      "symbol": "SLS",
+      "company_name": "SLS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3903.9M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:17:35",
       "time_kst": "21:17:35",
       "symbol": "LINK",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $55.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:23:32",
-      "time_kst": "18:23:32",
-      "symbol": "CAPS",
-      "company_name": "CAPS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
     }
   ]
 }
