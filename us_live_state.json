@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:34:01",
-  "updated_at_et": "2026-11-18 07:34:01",
-  "updated_epoch_ms": 1795005241577,
+  "updated_at_kst": "2026-11-18 21:34:06",
+  "updated_at_et": "2026-11-18 07:34:06",
+  "updated_epoch_ms": 1795005246885,
   "analyzing": {
     "active": false
   },
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:34:01",
+      "time_kst": "21:34:01",
+      "symbol": "TGTX",
+      "company_name": "TGTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $9478.49M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:33:56",
       "time_kst": "21:33:56",
       "symbol": "IMNM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5904.49M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:01:06",
-      "time_kst": "20:01:06",
-      "symbol": "CSHR",
-      "company_name": "CSHR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $415.11M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
