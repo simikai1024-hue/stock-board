@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 20:52:30",
-  "updated_at_et": "2026-11-18 06:52:30",
-  "updated_epoch_ms": 1795002750142,
+  "updated_at_kst": "2026-11-18 20:53:27",
+  "updated_at_et": "2026-11-18 06:53:27",
+  "updated_epoch_ms": 1795002807560,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:52:16"
+    "updated_kst": "20:53:21"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "06:53:26",
+      "time_kst": "20:53:26",
+      "symbol": "MLCO",
+      "company_name": "MLCO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1510.4M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "06:52:42",
+      "time_kst": "20:52:42",
+      "symbol": "CG",
+      "company_name": "CG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $13519.55M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "06:46:57",
       "time_kst": "20:46:57",
       "symbol": "TZOO",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1412.84M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:05:01",
-      "time_kst": "18:05:01",
-      "symbol": "IBO",
-      "company_name": "IBO",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.72M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:04:54",
-      "time_kst": "18:04:54",
-      "symbol": "AIRE",
-      "company_name": "AIRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-04 [424B4])"
     }
   ]
 }
