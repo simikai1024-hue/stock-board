@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:01:49",
-  "updated_at_et": "2026-11-18 08:01:49",
-  "updated_epoch_ms": 1795006909286,
+  "updated_at_kst": "2026-11-18 22:02:35",
+  "updated_at_et": "2026-11-18 08:02:35",
+  "updated_epoch_ms": 1795006955755,
   "analyzing": {
-    "active": true,
-    "symbol": "DXR",
-    "company_name": "DXR",
-    "exchange": "ND",
-    "price": 8.095,
-    "gain_pct": 0.0,
-    "mcap_m": 47.26,
-    "catalyst_hint": "[당일 PR] Major Memphis Health System Expands BVA® Adoption to New Hospital Outpatient Site",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:01:43",
-    "started_at_kst": "22:01:43",
-    "started_epoch_ms": 1795006903986
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:01:39"
+    "updated_kst": "22:02:18"
   },
   "stats": {
-    "today_total": 18,
-    "today_nblm_count": 18,
+    "today_total": 19,
+    "today_nblm_count": 19,
     "today_buy": 0,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 47.2
+    "avg_nblm_sec": 47.3
   },
   "verdicts": [
+    {
+      "id": "v_1795006948251_DXR_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "08:02:28",
+      "time_kst": "22:02:28",
+      "symbol": "DXR",
+      "company_name": "DXR",
+      "exchange": "ND",
+      "price": 8.095,
+      "gain_pct": 0.0,
+      "mcap_m": 47.26,
+      "decision": "FALSE",
+      "elapsed_sec": 49.1,
+      "reason": "확정 수주 전무 및 전일 캔자스 병원에 이은 멤피스 외래사이트 1곳 확장 쪼개기 홍보 PR로 헌법 3조 1항·4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Major Memphis Health System Expands BVA® Adoption to New Hospital Outpatient Site",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DXR (Daxor Corporation) 2026-11-18 08:01 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $47.26M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 시총을 압도하는 창사 최대 메가 수주가 아니라, 단순 멤피스(Memphis) 지역 특정 헬스케어 시스템의 **병원 외래 사이트 1곳에 기존 BVA 혈액량 분석 진단 프로그램을 추가 도입했다는 병원 1곳 확장 홍보(Expands BVA Adoption to New Hospital Outpatient Site)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간):\n전일 종가 $8.0950 대비 현재가 $8.0950 (+0.00%), 당일 최고가 $8.2900 (고점 대비 -2.4%).\n당일 누적 거래대금 $0 USD (프리마켓 거래량 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Major Memphis Health System Expands BVA® Adoption to New Hospital Outpatient Site\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 메가 수주가 아닌 단순 병원 외래 1곳 사이트 추가 쪼개기 재탕 (Hospital Site 쪼개기 PR):\n원문 본문에 *\"Major Memphis health system has expanded its Blood Volume Analysis (BVA) program to a new hospital outpatient location... Daxor’s ezBVA Lab Diagnostic Service Delivers 24-hour Turnaround Under Established Reimbursement Pathways\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 일시에 꽂히는 대형 상업 공급 계약(AIMD형)이 아니라, 기존에 도입되어 있던 특정 병원 시스템 내에서 외래 사이트 한 곳을 추가로 열었다는 전형적인 금액 미기재 병원 납품 경과 쪼개기 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약 총액, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 기재되어 있지 않습니다.\n어제(11/17) 캔자스 병원에 이은 24시간 만의 병원 이름만 바꾼 쪼개기 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 바로 어제인 2026년 11월 17일에도 GlobeNewswire를 통해 \"Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center\" 보도자료를 낸 바 있습니다.\n어제는 캔자스 대학병원, 오늘은 멤피스 병원 외래 사이트로 **지역과 병원 이름만 바꾸어 매일 한 편씩 소액 납품/도입 사실을 거창하게 포장 배포하는 전형적인 상습 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (병원 쪼개기 재탕 및 금액 미기재 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 기존 솔루션의 병원별/지점별 소규모 분할 도입 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 도입/제휴 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 앞서 차단된 DRIO, NUR와 동일한 소액 쪼개기 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 전일(11/17) 캔자스 병원에 이어 멤피스 병원 외래 사이트 1곳 확장을 재포장한 전형적인 쪼개기 언론플레이에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DXR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: DXR NOTES:\n[DXR] 확정 수주 전무 및 전일 캔자스 병원에 이은 멤피스 외래사이트 1곳 확장 쪼개기 홍보 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK에 이어 DXR까지 총 15개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 단순 규제 행정 통보로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795006322090_MASK_FALSE",
       "date_et": "2026-11-18",
@@ -2424,29 +2432,59 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ELAB (PMGC Holdings Inc.) 07:42 ET 수급 변동 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.31M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 총자산 표기 착시 재확인):\n제목에 노출된 핵심 금액 $133.10M USD는 외부로부터 회사에 새로 유입되는 신규 수주나 매출 계약이 아닙니다.\nPR 제목 자체에 *\"Total Assets of $133.1 Million Include $100.4 Million Held in Trust by Sponsored SPAC\"*라고 명시되어 있듯, 회사가 스폰서로 참여 중인 SPAC(기업인수목적회사) 신탁 계정에 묶여 있는 자금 $100.4M 등을 포함한 단순 장부상 총자산(Total Assets) 집계치에 불과합니다.\n회사의 실제 3분기 분기 매출은 $2.53M이며, 실질 시총 대비 10000%의 신규 확정 현금 유입 계약이 절대 아닙니다.\n실시간 체결가 및 수급 (장전 윗꼬리 덤핑 심화):\n전일 종가 $1.5800 대비 현재가 $1.6132 (+2.10%).\n당일 최고가 $1.9644 찍은 후 장전 고점 대비 -17.9% 수직 덤핑 발생.\n당일 누적 거래대금 $785,906 USD (장전 거래대금이 78만 달러 이상 터졌으나, 고점에서 물량을 대량 투하하며 윗꼬리를 길게 단 전형적인 설거지 수급 형태).\n선발표 규정 확인: 10-Q 제출에 맞춘 정기 실적 PR 선발표 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total Assets of $133.1 Million Include $100.4 Million Held in Trust by Sponsored SPAC\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적 2026년 3분기 정기 실적 발표 (Form 10-Q Periodic Earnings):\n본 PR의 본질은 2026년 3분기(Q3 2026) 정기 10-Q 보고서 제출에 따른 분기 실적 발표입니다.\n외부로부터 새로운 확정 계약금이 들어오는 1급 금융 기폭제가 아닙니다.\n$133.1M 자산 표기 착시 (SPAC 신탁 자금 포함):\n거액의 $133.1M은 자사 운영 자금이나 확정 수주가 아니라, 스폰서 SPAC 신탁 계정($100.4M) 등이 합산된 단순 회계상 총자산 항목입니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 고점 설거지 수급:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/10-Q 제출/SPAC 신탁자산 표기 착시 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 거래대금이 78만 달러 이상 터졌음에도 최고가 $1.9644에서 -17.9%나 급락 덤핑되며 $1.61대까지 밀려난 전형적인 피뢰침 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 2026년 3분기 정기 실적(10-Q) 발표이며, $133.1M 역시 SPAC 신탁 계좌 등이 포함된 회계상 총자산 표기 착시에 불과하고 장전 고점 대비 -17.9%의 덤핑 수급이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ELAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: ELAB NOTES:\n[ELAB] 신규 확정 수주가 아닌 단순 Q3 10-Q 실적 발표 및 SPAC 신탁계좌 총자산 착시 PR로 장전 고점 대비 -17.9% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794832954410_CNSY_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:42:34",
-      "time_kst": "21:42:34",
-      "symbol": "CNSY",
-      "company_name": "CNSY",
-      "exchange": "ND",
-      "price": 0.9629,
-      "gain_pct": 1.34,
-      "mcap_m": 7.31,
-      "decision": "FALSE",
-      "elapsed_sec": 32.9,
-      "reason": "FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.4% 윗꼬리 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CNSY (Cerenome, Inc.) 07:42 ET 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.31M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/수주/라이선스 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.9502 대비 현재가 $0.9629 (+1.34%), 당일 최고가 $1.1800 (장전 고점 대비 -18.4% 급격한 윗꼬리 덤핑 지속), 당일 누적 거래대금 $25,965 USD.\n선발표 규정 확인: 학회 발표 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 신약 성공이 아닌 단순 학회 중간 데이터 발표 (Interim Conference Data PR):\n신경종양학회(2026 SNO Annual Meeting)에서 연수막 전이(LM) 대상 REYOBIQ™의 진행 중인 임상 중간 데이터(Interim ReSPECT-LM Data)를 발표한 단순 학회 포스터/구두 발표 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 'FDA 최종 품목 승인(Approval)'이나 '임상 3상 최종 평가지표 입증(Endpoint Met)'이 아니며, 진행 중인 임상의 단순 중간 경과 공유에 불과합니다.\n직전 3분기 실적 발표(11/13)의 판박이 3일 만의 재탕 (SNO 학회 우려먹기 IR):\n과거 180일 이력 대조 결과, 회사는 불과 3영업일 전(2026-11-13) 3분기 실적 발표 PR에서 이미 *\"Featuring REYOBIQ ReSPECT-LM Data...\"*라며 해당 임상 데이터를 핵심 하이라이트로 공개한 바 있습니다.\n3일 전에 이미 시장에 노출된 임상 데이터를 주말 직후 SNO 학회 일정에 맞춰 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약, 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 피뢰침 설거지 차트:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터/기발표 임상 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.1800까지 반짝 상승 후 고점 대비 -18.4% 급락하며 시초가 부근($0.96)까지 곤두박질친 전형적인 피뢰침 설거지 수급입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터 발표이자 불과 3일 전 3분기 실적 발표에서 기언급된 데이터의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -18.4% 급락 덤핑 수급이 지속되고 있으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CNSY 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CNSY NOTES:\n[CNSY] FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.4% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:02:35",
+      "time_kst": "22:02:35",
+      "symbol": "ROC",
+      "company_name": "ROC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $70.34M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:02:27",
+      "time_kst": "22:02:27",
+      "symbol": "ACTU",
+      "company_name": "ACTU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:02:13",
+      "time_kst": "22:02:13",
+      "symbol": "RTSN",
+      "company_name": "RTSN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $95.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:02:10",
+      "time_kst": "22:02:10",
+      "symbol": "RNTZ",
+      "company_name": "RNTZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 투매 급락 구간 방어 차단 (현재 -8.9% <= -8.0%)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:01:52",
+      "time_kst": "22:01:52",
+      "symbol": "SCTX",
+      "company_name": "SCTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $298.64M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-18",
       "time_et": "08:01:47",
@@ -2896,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $529.93M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:01:11",
-      "time_kst": "21:01:11",
-      "symbol": "OCTV",
-      "company_name": "OCTV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5575.45M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:01:03",
-      "time_kst": "21:01:03",
-      "symbol": "AQST",
-      "company_name": "AQST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $465.05M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:59:00",
-      "time_kst": "20:59:00",
-      "symbol": "CNL",
-      "company_name": "CNL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1015.81M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:55:25",
-      "time_kst": "20:55:25",
-      "symbol": "GLNG",
-      "company_name": "GLNG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4282.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:53:26",
-      "time_kst": "20:53:26",
-      "symbol": "MLCO",
-      "company_name": "MLCO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1510.4M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
