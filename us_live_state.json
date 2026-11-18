@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:34:40",
-  "updated_at_et": "2026-11-18 08:34:40",
-  "updated_epoch_ms": 1795008880246,
+  "updated_at_kst": "2026-11-18 22:35:23",
+  "updated_at_et": "2026-11-18 08:35:23",
+  "updated_epoch_ms": 1795008923498,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TOMZ",
+    "company_name": "TOMZ",
+    "exchange": "ND",
+    "price": 2.27,
+    "gain_pct": 0.0,
+    "mcap_m": 18.48,
+    "catalyst_hint": "[당일 PR] TOMI Environmental Solutions Expands SteraMist iHP in Meat, Poultry and Dairy Processing as Enterprise Food Producers Evaluate Multi-Facility Standardization",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:35:21",
+    "started_at_kst": "22:35:21",
+    "started_epoch_ms": 1795008921603
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:34:37"
+    "updated_kst": "22:35:18"
   },
   "stats": {
     "today_total": 27,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:35:18",
+      "time_kst": "22:35:18",
+      "symbol": "OLOX",
+      "company_name": "OLOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:35:14",
+      "time_kst": "22:35:14",
+      "symbol": "FEAM",
+      "company_name": "FEAM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $75.94M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:33:28",
       "time_kst": "22:33:28",
       "symbol": "WNW",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:50:13",
-      "time_kst": "21:50:13",
-      "symbol": "CLRO",
-      "company_name": "CLRO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-17 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:45:25",
-      "time_kst": "21:45:25",
-      "symbol": "SCNI",
-      "company_name": "SCNI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
     }
   ]
 }
