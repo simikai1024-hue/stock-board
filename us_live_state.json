@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:03:58",
-  "updated_at_et": "2026-11-18 04:03:58",
-  "updated_epoch_ms": 1794992638639,
+  "updated_at_kst": "2026-11-18 18:04:41",
+  "updated_at_et": "2026-11-18 04:04:41",
+  "updated_epoch_ms": 1794992681651,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:03:53"
+    "updated_kst": "18:04:35"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 12,
+    "today_hardcut": 15,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:04:36",
+      "time_kst": "18:04:36",
+      "symbol": "INVZ",
+      "company_name": "INVZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:04:18",
+      "time_kst": "18:04:18",
+      "symbol": "REED",
+      "company_name": "REED",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.07M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:03:59",
+      "time_kst": "18:03:59",
+      "symbol": "SDOT",
+      "company_name": "SDOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:03:53",
       "time_kst": "18:03:53",
       "symbol": "EDBL",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $62.56M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:31:50",
-      "time_kst": "23:31:50",
-      "symbol": "RAIN",
-      "company_name": "RAIN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,3.03,5.07,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:31:35",
-      "time_kst": "23:31:35",
-      "symbol": "NORD",
-      "company_name": "NORD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $55.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:31:02",
-      "time_kst": "23:31:02",
-      "symbol": "TDTH",
-      "company_name": "TDTH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.65M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
