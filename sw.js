@@ -1,10 +1,16 @@
-const CACHE_NAME = 'stock-board-skyblue-v13';
-const ASSETS = ['./manifest.json', './icon-192.png', './icon-512.png'];
+// 달의검 한·미 전광판 통합 PWA Service Worker (실시간 데이터·오디오 스트리밍 무간섭 보장)
+const CACHE_NAME = 'stock-board-skyblue-v14';
+const SHELL_ASSETS = [
+  './icons/kr-192.png',
+  './icons/kr-512.png',
+  './icons/us-192.png',
+  './icons/us-512.png'
+];
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)).catch(() => {})
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_ASSETS)).catch(() => {})
   );
 });
 
@@ -21,27 +27,28 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
 
-  // Network-only / no-cache for live JSON state
-  if (url.pathname.endsWith('live_state.json')) {
-    event.respondWith(fetch(req, { cache: 'no-store' }));
+  // 실시간 JSON, OST 오디오 Range 스트리밍 및 외부 API는 항상 100% 브라우저 네트워크 직통
+  if (
+    url.pathname.endsWith('.json') ||
+    url.pathname.endsWith('.m4a') ||
+    url.pathname.endsWith('.mp3') ||
+    url.origin !== self.location.origin
+  ) {
     return;
   }
 
-  // Network-first for HTML navigation so fixes apply immediately without stale cache
-  if (req.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('.html')) {
+  if (req.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
     event.respondWith(
-      fetch(req, { cache: 'no-store' })
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE_NAME).then((c) => c.put(req, copy)).catch(() => {});
-          return res;
-        })
-        .catch(() => caches.match(req))
+      fetch(req, { cache: 'no-store' }).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE_NAME).then((c) => c.put(req, copy)).catch(() => {});
+        return res;
+      }).catch(() => caches.match(req))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(req).then((cached) => cached || fetch(req))
+    fetch(req).catch(() => caches.match(req))
   );
 });
