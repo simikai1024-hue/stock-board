@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:02:42",
-  "updated_at_et": "2026-11-18 09:02:42",
-  "updated_epoch_ms": 1795010562976,
+  "updated_at_kst": "2026-11-18 23:03:40",
+  "updated_at_et": "2026-11-18 09:03:40",
+  "updated_epoch_ms": 1795010620716,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:02:34"
+    "updated_kst": "23:03:36"
   },
   "stats": {
     "today_total": 32,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:03:02",
+      "time_kst": "23:03:02",
+      "symbol": "QLYS",
+      "company_name": "QLYS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6097.62M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:02:54",
+      "time_kst": "23:02:54",
+      "symbol": "RDZN",
+      "company_name": "RDZN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $84.32M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:02:50",
+      "time_kst": "23:02:50",
+      "symbol": "SZZL",
+      "company_name": "SZZL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $329.86M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:01:44",
       "time_kst": "23:01:44",
       "symbol": "SEZL",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $135.79M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:05:25",
-      "time_kst": "22:05:25",
-      "symbol": "HLIT",
-      "company_name": "HLIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1101.36M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:05:18",
-      "time_kst": "22:05:18",
-      "symbol": "CBRL",
-      "company_name": "CBRL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1555.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:05:10",
-      "time_kst": "22:05:10",
-      "symbol": "BKNG",
-      "company_name": "BKNG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $114872.06M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
