@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:00:07",
-  "updated_at_et": "2026-11-18 04:00:07",
-  "updated_epoch_ms": 1794992407513,
+  "updated_at_kst": "2026-11-18 18:00:52",
+  "updated_at_et": "2026-11-18 04:00:52",
+  "updated_epoch_ms": 1794992452633,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "장외대기",
+    "session_label": "프리장실전",
     "watchlist_count": 0,
     "orderable_usd": 1057.54,
     "daily_done": false,
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:03"
+    "updated_kst": "18:00:46"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 2,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2436,6 +2436,26 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-18",
+      "time_et": "04:00:47",
+      "time_kst": "18:00:47",
+      "symbol": "BURU",
+      "company_name": "BURU",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:00:37",
+      "time_kst": "18:00:37",
+      "symbol": "SPAI",
+      "company_name": "SPAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
       "date_et": "2026-11-17",
       "time_et": "11:57:07",
       "time_kst": "01:57:07",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $50.55M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:20:49",
-      "time_kst": "23:20:49",
-      "symbol": "RDHL",
-      "company_name": "RDHL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:18:29",
-      "time_kst": "23:18:29",
-      "symbol": "IQMX",
-      "company_name": "IQMX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1216.57M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
