@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:39:08",
-  "updated_at_et": "2026-11-18 07:39:08",
-  "updated_epoch_ms": 1795005548406,
+  "updated_at_kst": "2026-11-18 21:39:59",
+  "updated_at_et": "2026-11-18 07:39:59",
+  "updated_epoch_ms": 1795005599433,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NUR",
+    "company_name": "NUR",
+    "exchange": "ND",
+    "price": 0.4299,
+    "gain_pct": 15.01,
+    "mcap_m": 5.63,
+    "catalyst_hint": "[당일 PR] NuRAN Wireless Raises First Two Towers in Benin as 4G Rollout Beats Expectations in Cameroon and Ivory Coast",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:39:55",
+    "started_at_kst": "21:39:55",
+    "started_epoch_ms": 1795005595465
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:39:00"
+    "updated_kst": "21:39:40"
   },
   "stats": {
     "today_total": 16,
