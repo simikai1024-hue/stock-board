@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:58:54",
-  "updated_at_et": "2026-11-18 08:58:54",
-  "updated_epoch_ms": 1795010334255,
+  "updated_at_kst": "2026-11-18 22:59:49",
+  "updated_at_et": "2026-11-18 08:59:49",
+  "updated_epoch_ms": 1795010389184,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:58:46"
+    "updated_kst": "22:59:46"
   },
   "stats": {
     "today_total": 32,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:59:42",
+      "time_kst": "22:59:42",
+      "symbol": "AKAM",
+      "company_name": "AKAM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $12207.54M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:58:56",
+      "time_kst": "22:58:56",
+      "symbol": "RAIN",
+      "company_name": "RAIN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,3.03,5.07,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:58:47",
       "time_kst": "22:58:47",
       "symbol": "ZTG",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $51.36M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:03:05",
-      "time_kst": "22:03:05",
-      "symbol": "FRVO",
-      "company_name": "FRVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3357.22M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:02:57",
-      "time_kst": "22:02:57",
-      "symbol": "QSI",
-      "company_name": "QSI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $221.94M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
