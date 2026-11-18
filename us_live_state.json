@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:25:57",
-  "updated_at_et": "2026-11-18 09:25:57",
-  "updated_epoch_ms": 1795011957830,
+  "updated_at_kst": "2026-11-18 23:26:50",
+  "updated_at_et": "2026-11-18 09:26:50",
+  "updated_epoch_ms": 1795012010589,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:25:55"
+    "updated_kst": "23:26:32"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:26:45",
+      "time_kst": "23:26:45",
+      "symbol": "DFNS",
+      "company_name": "DFNS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:21:05",
       "time_kst": "23:21:05",
       "symbol": "SPWR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3192.92M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:32:26",
-      "time_kst": "22:32:26",
-      "symbol": "SAIC",
-      "company_name": "SAIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6063.84M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
