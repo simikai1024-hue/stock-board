@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:32:31",
-  "updated_at_et": "2026-11-18 07:32:31",
-  "updated_epoch_ms": 1795005151415,
+  "updated_at_kst": "2026-11-18 21:33:10",
+  "updated_at_et": "2026-11-18 07:33:10",
+  "updated_epoch_ms": 1795005190015,
   "analyzing": {
-    "active": true,
-    "symbol": "STEX",
-    "company_name": "STEX",
-    "exchange": "ND",
-    "price": 0.289,
-    "gain_pct": 1.19,
-    "mcap_m": 34.05,
-    "catalyst_hint": "[당일 PR] Streamex Corp. Announces GLDY Is Now Live at Equity Trust Company, Its First Tokenized Asset for Self-Directed IRAs",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:32:23",
-    "started_at_kst": "21:32:23",
-    "started_epoch_ms": 1795005143009
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:32:27"
+    "updated_kst": "21:33:07"
   },
   "stats": {
-    "today_total": 13,
-    "today_nblm_count": 13,
+    "today_total": 14,
+    "today_nblm_count": 14,
     "today_buy": 0,
-    "today_false": 13,
+    "today_false": 14,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 46.6
+    "avg_nblm_sec": 46.5
   },
   "verdicts": [
+    {
+      "id": "v_1795005184734_STEX_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "07:33:04",
+      "time_kst": "21:33:04",
+      "symbol": "STEX",
+      "company_name": "STEX",
+      "exchange": "ND",
+      "price": 0.289,
+      "gain_pct": 1.19,
+      "mcap_m": 34.05,
+      "decision": "FALSE",
+      "elapsed_sec": 45.8,
+      "reason": "확정 수주/매출 전무한 단순 Equity Trust 퇴직계좌(IRA) 내 GLDY 자산 런칭 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -10.5% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Streamex Corp. Announces GLDY Is Now Live at Equity Trust Company, Its First Tokenized Asset for Self-Directed IRAs",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 STEX (Streamex Corp.) 2026-11-18 07:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $34.05M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 발생하는 상업 수주 계약이 아니라, 단순 Equity Trust Company의 자가운용 개인퇴직계좌(IRA) 플랫폼에 자사 토큰화 금 자산(GLDY)이 **거래 가능 자산으로 추가 오픈되었다는 유통 채널 등록 홍보(Is Now Live at Equity Trust Company)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -10.5% 윗꼬리 덤핑 출회):\n전일 종가 $0.2856 대비 현재가 $0.2890 (+1.19%).\n당일 최고가 $0.3230을 기록한 뒤 고점 대비 -10.5% 급락하며 장전 프리마켓 윗꼬리 출회 중.\n당일 누적 거래대금 $17,057 USD (1만7천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Streamex Corp. Announces GLDY Is Now Live at Equity Trust Company, Its First Tokenized Asset for Self-Directed IRAs\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 금융 플랫폼 내 자산 리스팅 홍보물 (Asset Listing PR):\n원문 본문에 *\"today announced that GLDY, the Company’s yield bearing gold asset, has launched as an available asset to IRA account holders of Equity Trust Company... enables eligible clients to diversify into tokenized physical gold within a tax-advantaged retirement account\"*라고 명시되어 있습니다.\n이는 기관 고객사로부터 대규모 확정 수주를 따냈거나 현금 선급금이 입금되는 계약이 아니라, 암호화폐 거래소에 코인이 신규 상장되거나 위탁기관 플랫폼에 자산이 등록되었다는 식의 단순 유통 채널 등록/마케팅 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n가상자산/토큰화 테마 엮기 및 애널리스트 목표가 하향 압박:\n과거 이력 대조 결과 바로 전일(11/17) \"Streamex Stock Fair Value Moves Lower After Analysts Cut Growth Expectations\" 등 펀더멘털 악화와 성장률 둔화 리포트가 출회된 상태입니다.\n이번 보도자료는 최근 침체된 주가를 부양하기 위해 'IRA 연금 + 금 토큰화(RWA)' 키워드를 결합해 배포한 **전형적인 금액 미기재 언론 플레이(Spin PR)**입니다.\n심사 헌법 제3조 ④항 위배 및 장전 -10.5% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 플랫폼 런칭/자산 리스팅/제휴 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.3230까지 반짝 상승 후 고점 대비 -10.5% 급락하며 매물대 덤핑이 진행 중입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무한 단순 IRA 수탁 플랫폼 내 자체 토큰화 금 자산(GLDY) 런칭 홍보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -10.5% 급락 윗꼬리가 출회되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: STEX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: STEX NOTES:\n[STEX] 확정 수주/매출 전무한 단순 Equity Trust 퇴직계좌(IRA) 내 GLDY 자산 런칭 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -10.5% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS에 이어 STEX까지 총 10개 종목 전수가 껍데기 제휴, 단순 자산 런칭, 실적 재포장으로 정밀 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795003762945_BLRX_FALSE",
       "date_et": "2026-11-18",
@@ -2422,26 +2430,6 @@
       "reason": "FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.6% 윗꼬리 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CNSY (Cerenome, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.29M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.9502 대비 현재가 $0.9600 (+1.03%), 당일 최고가 $1.1800 (장전 고점 대비 -18.6% 급격한 윗꼬리 덤핑), 당일 누적 거래대금 $25,131 USD.\n선발표 규정 확인: 학회 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 신약 성공이 아닌 단순 학회 중간 데이터 발표 (Interim Conference Data PR):\n본 PR의 본질은 신경종양학회(2026 SNO Annual Meeting)에서 연수막 전이(LM) 대상 REYOBIQ™의 진행 중인 임상 중간 데이터(Interim ReSPECT-LM Data)를 단순 구두/포스터 발표했다는 학회 발표 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 'FDA 최종 승인(Approval)'이나 '임상 최종 1차 평가지표 입증(Endpoint Met)'이 아니며, 진행 중인 임상의 단순 중간 경과 보고에 불과합니다.\n직전 3분기 실적 발표(11/13)의 판박이 3일 만의 재탕 (SNO 학회 우려먹기 IR):\n과거 180일 이력 대조 결과, 회사는 불과 3영업일 전(2026-11-13) 3분기 실적 발표 PR에서 이미 *\"Featuring REYOBIQ ReSPECT-LM Data...\"*라며 해당 임상 데이터를 핵심 하이라이트로 공개한 바 있습니다.\n즉, 3일 전에 이미 시장에 노출된 임상 데이터를 주말 직후 SNO 학회 일정에 맞춰 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 전무:\n빅파마 거액 독점 라이선스 계약, 확정 수주금액 및 현금선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 회복+전환사채 0원(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 피뢰침 설거지:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터/기발표 임상 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.1800까지 반짝 상승 후 고점 대비 -18.6% 급락하며 시초가 부근($0.96)까지 곤두박질친 전형적인 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터 발표이자 불과 3일 전 3분기 실적 발표에서 기언급된 데이터의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -18.6% 급락 덤핑 수급이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CNSY 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CNSY NOTES:\n[CNSY] FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.6% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794832392665_ELAB_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:33:12",
-      "time_kst": "21:33:12",
-      "symbol": "ELAB",
-      "company_name": "ELAB",
-      "exchange": "ND",
-      "price": 1.6398,
-      "gain_pct": 1.27,
-      "mcap_m": 1.33,
-      "decision": "FALSE",
-      "elapsed_sec": 42.2,
-      "reason": "신규 확정 수주가 아닌 단순 Q3 10-Q 실적 발표 및 SPAC 신탁계좌 포함 총자산($133.1M) 표기 착시 PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total As",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ELAB (PMGC Holdings Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.33M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 자산 표기 착시 적발):\n헤드라인에 언급된 핵심 금액 $133.10M USD는 외부에서 회사로 새로 유입되는 신규 수주나 매출 계약이 아닙니다.\nPR 제목 자체에 *\"Total Assets of $133.1 Million Include $100.4 Million Held in Trust by Sponsored SPAC\"*라고 명시되어 있듯, 이는 회사가 스폰서로 참여 중인 SPAC(기업인수목적회사) 신탁 계좌에 묶여 있는 자금 $100.4M 등을 포함한 단순 장부상 총자산(Total Assets) 집계치에 불과합니다.\n회사의 실제 3분기 분기 매출은 $2.53M에 불과하며, 실질 시총 대비 10000%의 신규 확정 현금 유입 계약이 절대 아닙니다.\n실시간 체결가 및 수급: 전일 종가 $1.5800 대비 현재가 $1.6398 (+3.78%), 당일 최고가 $1.8000 (장전 고점 대비 -8.9% 윗꼬리 밀림), 당일 누적 거래대금 $29,175 USD.\n선발표 규정 확인: 10-Q 제출에 맞춘 정기 실적 PR 선발표 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"PMGC Holdings Inc. [NASDAQ: ELAB] Reports Record Q3 Revenue, Up 785% Year-over-Year to $2.53 Million and Up 94% From Previous Quarter; Files Form 10-Q for Q3 2026; Total Assets of $133.1 Million Include $100.4 Million Held in Trust by Sponsored SPAC\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적 2026년 3분기 정기 실적 발표 (Form 10-Q Periodic Earnings):\n본 PR의 본질은 제목과 본문에 명시되었듯 2026년 3분기(Q3 2026) 정기 10-Q 보고서 제출에 따른 분기 실적 발표입니다.\n매출 $2.53M 달성 등은 과거 분기의 통상적 영업 집계일 뿐이며, 외부로부터 새로운 확정 계약금이 들어오는 1급 금융 기폭제가 아닙니다.\n$133.1M 자산 표기 착시 (SPAC 신탁 자금 포함):\n거액의 $133.1M은 자사 운영 자금이나 확정 수주가 아니라, 스폰서 SPAC 신탁 계정($100.4M) 등이 합산된 단순 회계상 총자산 항목입니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/10-Q 제출/SPAC 신탁자산 표기 착시 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 2026년 3분기 정기 실적(10-Q) 발표이며, $133.1M 역시 SPAC 신탁 계좌 등이 포함된 회계상 총자산 표기 착시에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: ELAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: ELAB NOTES:\n[ELAB] 신규 확정 수주가 아닌 단순 Q3 10-Q 실적 발표 및 SPAC 신탁계좌 포함 총자산($133.1M) 표기 착시 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일한 진성 대장주로 확인되었으며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
