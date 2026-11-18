@@ -1,8 +1,8 @@
 {
-  "today_et": "2026-11-17",
-  "updated_at_kst": "2026-11-18 13:56:28",
-  "updated_at_et": "2026-11-17 23:56:28",
-  "updated_epoch_ms": 1794977788853,
+  "today_et": "2026-11-18",
+  "updated_at_kst": "2026-11-18 14:14:39",
+  "updated_at_et": "2026-11-18 00:14:39",
+  "updated_epoch_ms": 1794978879633,
   "analyzing": {
     "active": false
   },
@@ -19,18 +19,18 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "13:54:14"
+    "updated_kst": "14:14:31"
   },
   "stats": {
-    "today_total": 56,
-    "today_nblm_count": 56,
+    "today_total": 0,
+    "today_nblm_count": 0,
     "today_buy": 0,
-    "today_false": 56,
-    "today_hardcut": 60,
+    "today_false": 0,
+    "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
-    "avg_nblm_sec": 48.2
+    "avg_nblm_sec": 56.8
   },
   "verdicts": [
     {
