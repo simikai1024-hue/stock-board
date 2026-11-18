@@ -1309,7 +1309,10 @@
 
 <script>
 (() => {
-  const STATE_URL = "https://raw.githubusercontent.com/simikai1024-hue/stock-board/main/live_state.json";
+  const STATE_URL_PRIMARY = window.location.protocol === "file:"
+    ? "https://simikai1024-hue.github.io/stock-board/live_state.json"
+    : "./live_state.json";
+  const STATE_URL_FALLBACK = "https://raw.githubusercontent.com/simikai1024-hue/stock-board/main/live_state.json";
   const TOPIC_ISI = "kr_whale_detector_vip_family_2026/isi";
   const TOPIC_LIVE = "kr_whale_detector_vip_family_2026/live";
 
@@ -2023,15 +2026,21 @@
   }
 
   window.fetchRemoteState = async function(manual = false) {
-    try {
-      const res = await fetch(`${STATE_URL}?t=${Date.now()}`, { cache: "no-store" });
-      if (!res.ok) return;
-      const data = await res.json();
-      if (data && data.isi_board) {
-        applyIsiBoard(data.isi_board);
-        if (manual) showToast("🔄 최신 전광판 동기화 완료!");
-      }
-    } catch (e) {}
+    for (const baseUrl of [STATE_URL_PRIMARY, STATE_URL_FALLBACK]) {
+      try {
+        const ctrl = new AbortController();
+        const tid = setTimeout(() => ctrl.abort(), 4500);
+        const res = await fetch(`${baseUrl}?t=${Date.now()}`, { cache: "no-store", signal: ctrl.signal });
+        clearTimeout(tid);
+        if (!res.ok) continue;
+        const data = await res.json();
+        if (data && data.isi_board) {
+          applyIsiBoard(data.isi_board);
+          if (manual) showToast("🔄 최신 전광판 동기화 완료!");
+          return;
+        }
+      } catch (e) {}
+    }
   };
 
   // 초기 즉시 로드 + 30초 백업 폴링
