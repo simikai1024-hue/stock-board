@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:47:48",
-  "updated_at_et": "2026-11-18 08:47:48",
-  "updated_epoch_ms": 1795009668818,
+  "updated_at_kst": "2026-11-18 22:48:05",
+  "updated_at_et": "2026-11-18 08:48:05",
+  "updated_epoch_ms": 1795009685562,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "PMEC",
+    "company_name": "PMEC",
+    "exchange": "ND",
+    "price": 0.474,
+    "gain_pct": 8.33,
+    "mcap_m": 18.34,
+    "catalyst_hint": "[당일 PR] Primech Holdings (Nasdaq: PMEC) Announces HYTRON Showcase at BUILDING MAINTENANCE & CLEAN EXPO 2026 in Japan",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:47:57",
+    "started_at_kst": "22:47:57",
+    "started_epoch_ms": 1795009677457
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:47:43"
+    "updated_kst": "22:48:04"
   },
   "stats": {
     "today_total": 31,
