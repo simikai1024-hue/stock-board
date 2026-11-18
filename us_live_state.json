@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:09:52",
-  "updated_at_et": "2026-11-18 04:09:52",
-  "updated_epoch_ms": 1794992992083,
+  "updated_at_kst": "2026-11-18 18:10:49",
+  "updated_at_et": "2026-11-18 04:10:49",
+  "updated_epoch_ms": 1794993049341,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:09:44"
+    "updated_kst": "18:10:45"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 19,
+    "today_hardcut": 20,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:10:19",
+      "time_kst": "18:10:19",
+      "symbol": "III",
+      "company_name": "III",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $289.47M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:05:18",
       "time_kst": "18:05:18",
       "symbol": "PONY",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1163.14M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:33:16",
-      "time_kst": "23:33:16",
-      "symbol": "LXEH",
-      "company_name": "LXEH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-04 [EFFECT] (Item ,,))"
     }
   ]
 }
