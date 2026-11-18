@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:31:52",
-  "updated_at_et": "2026-11-18 04:31:52",
-  "updated_epoch_ms": 1794994312915,
+  "updated_at_kst": "2026-11-18 18:32:17",
+  "updated_at_et": "2026-11-18 04:32:17",
+  "updated_epoch_ms": 1794994337808,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "WBUY",
+    "company_name": "WBUY",
+    "exchange": "ND",
+    "price": 0.55,
+    "gain_pct": 5.97,
+    "mcap_m": 3.01,
+    "catalyst_hint": "[당일 PR] WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "04:32:15",
+    "started_at_kst": "18:32:15",
+    "started_epoch_ms": 1794994335003
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:31:50"
+    "updated_kst": "18:32:09"
   },
   "stats": {
     "today_total": 0,
