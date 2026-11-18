@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 00:06:31",
-  "updated_at_et": "2026-11-18 10:06:31",
-  "updated_epoch_ms": 1795014391762,
+  "updated_at_kst": "2026-11-19 00:07:30",
+  "updated_at_et": "2026-11-18 10:07:30",
+  "updated_epoch_ms": 1795014450333,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:06:23"
+    "updated_kst": "00:07:25"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "10:07:25",
+      "time_kst": "00:07:25",
+      "symbol": "ROP",
+      "company_name": "ROP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $46737.26M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:58:40",
       "time_kst": "23:58:40",
       "symbol": "TGHL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5211.09M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:01:38",
-      "time_kst": "23:01:38",
-      "symbol": "BL",
-      "company_name": "BL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1533.37M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
