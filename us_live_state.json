@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 01:30:33",
-  "updated_at_et": "2026-11-18 11:30:33",
-  "updated_epoch_ms": 1795019433045,
+  "updated_at_kst": "2026-11-19 01:31:15",
+  "updated_at_et": "2026-11-18 11:31:15",
+  "updated_epoch_ms": 1795019475285,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.47,
-    "profit_rate": -5.14,
-    "updated_kst": "01:30:28"
+    "current_price": 7.57,
+    "profit_rate": -3.87,
+    "updated_kst": "01:31:06"
   },
   "stats": {
     "today_total": 39,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "11:31:07",
+      "time_kst": "01:31:07",
+      "symbol": "TRMK",
+      "company_name": "TRMK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2697.38M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "11:30:52",
+      "time_kst": "01:30:52",
+      "symbol": "TDTH",
+      "company_name": "TDTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $68.51M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "11:27:19",
       "time_kst": "01:27:19",
       "symbol": "JSPR",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $60.61M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:13:24",
-      "time_kst": "23:13:24",
-      "symbol": "PDYN",
-      "company_name": "PDYN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $147.46M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:11:49",
-      "time_kst": "23:11:49",
-      "symbol": "ROOT",
-      "company_name": "ROOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $676.51M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
