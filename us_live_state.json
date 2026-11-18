@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:05:36",
-  "updated_at_et": "2026-11-18 07:05:36",
-  "updated_epoch_ms": 1795003536591,
+  "updated_at_kst": "2026-11-18 21:06:42",
+  "updated_at_et": "2026-11-18 07:06:42",
+  "updated_epoch_ms": 1795003602571,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:05:18"
+    "updated_kst": "21:06:38"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:06:01",
+      "time_kst": "21:06:01",
+      "symbol": "NWCL",
+      "company_name": "NWCL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $83.85M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:05:53",
+      "time_kst": "21:05:53",
+      "symbol": "KRNT",
+      "company_name": "KRNT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $711.53M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:02:52",
       "time_kst": "21:02:52",
       "symbol": "JJSF",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $64.8M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:17:13",
-      "time_kst": "18:17:13",
-      "symbol": "NIVF",
-      "company_name": "NIVF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:17:09",
-      "time_kst": "18:17:09",
-      "symbol": "PFSA",
-      "company_name": "PFSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,2.03,3.02,9.01))"
     }
   ]
 }
