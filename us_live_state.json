@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:00:45",
-  "updated_at_et": "2026-11-18 09:00:45",
-  "updated_epoch_ms": 1795010445284,
+  "updated_at_kst": "2026-11-18 23:01:33",
+  "updated_at_et": "2026-11-18 09:01:33",
+  "updated_epoch_ms": 1795010493703,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:00:26"
+    "updated_kst": "23:01:29"
   },
   "stats": {
     "today_total": 32,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:01:28",
+      "time_kst": "23:01:28",
+      "symbol": "SWRD",
+      "company_name": "SWRD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $528.43M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:01:17",
+      "time_kst": "23:01:17",
+      "symbol": "APUS",
+      "company_name": "APUS",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Apimeds Pharmaceuticals US Reports Third Quarter 2026 Resu)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:00:40",
       "time_kst": "23:00:40",
       "symbol": "NEXN",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $22244.62M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:03:48",
-      "time_kst": "22:03:48",
-      "symbol": "PRE",
-      "company_name": "PRE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $276.59M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:03:26",
-      "time_kst": "22:03:26",
-      "symbol": "IMRN",
-      "company_name": "IMRN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
     }
   ]
 }
