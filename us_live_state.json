@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:43:20",
-  "updated_at_et": "2026-11-18 08:43:20",
-  "updated_epoch_ms": 1795009400475,
+  "updated_at_kst": "2026-11-18 22:44:24",
+  "updated_at_et": "2026-11-18 08:44:24",
+  "updated_epoch_ms": 1795009464433,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:43:16"
+    "updated_kst": "22:44:19"
   },
   "stats": {
     "today_total": 29,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:44:20",
+      "time_kst": "22:44:20",
+      "symbol": "SSTI",
+      "company_name": "SSTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $109.1M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:35:23",
       "time_kst": "22:35:23",
       "symbol": "OSIS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $139.67M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:51:39",
-      "time_kst": "21:51:39",
-      "symbol": "ALLR",
-      "company_name": "ALLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-17 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
     }
   ]
 }
