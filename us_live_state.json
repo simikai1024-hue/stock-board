@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:06:16",
-  "updated_at_et": "2026-11-18 09:06:16",
-  "updated_epoch_ms": 1795010776633,
+  "updated_at_kst": "2026-11-18 23:06:51",
+  "updated_at_et": "2026-11-18 09:06:51",
+  "updated_epoch_ms": 1795010811079,
   "analyzing": {
-    "active": true,
-    "symbol": "DLPN",
-    "company_name": "DLPN",
-    "exchange": "ND",
-    "price": 0.9896,
-    "gain_pct": 0.0,
-    "mcap_m": 12.9,
-    "catalyst_hint": "[당일 PR] Dolphin Congratulates Shore Fire Media and Its Clients on 20 GRAMMY(R) Nominations, Including 10 Best Album Nods Across Diverse Genres",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:06:11",
-    "started_at_kst": "23:06:11",
-    "started_epoch_ms": 1795010771518
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:05:59"
+    "updated_kst": "23:06:41"
   },
   "stats": {
-    "today_total": 32,
-    "today_nblm_count": 32,
+    "today_total": 33,
+    "today_nblm_count": 33,
     "today_buy": 0,
-    "today_false": 32,
+    "today_false": 33,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 49.4
+    "avg_nblm_sec": 49.0
   },
   "verdicts": [
+    {
+      "id": "v_1795010805828_DLPN_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "09:06:45",
+      "time_kst": "23:06:45",
+      "symbol": "DLPN",
+      "company_name": "DLPN",
+      "exchange": "ND",
+      "price": 0.9896,
+      "gain_pct": 0.0,
+      "mcap_m": 12.9,
+      "decision": "FALSE",
+      "elapsed_sec": 37.5,
+      "reason": "확정 수주 전무한 단순 자회사 고객 그래미 어워드 노미네이트 축하 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Dolphin Congratulates Shore Fire Media and Its Clients on 20 GRAMMY(R) Nominations, Including 10 Best Album Nods Across Diverse Genres",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DLPN (Dolphin Entertainment, Inc.) 2026-11-18 09:06 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $12.9M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 상업 공급 계약이 아니라, 단순 자회사(Shore Fire Media) 고객들이 **그래미 어워드 20개 부문 후보에 오른 것을 축하한다는 마케팅성 의례 보도자료(Congratulates on GRAMMY Nominations)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간):\n전일 종가 $0.9896 대비 현재가 $0.9896 (+0.00%), 당일 최고가 $0.9900 (고점 대비 -0.0%).\n당일 누적 거래대금 $0 USD (09:30 본장 개장 24분 전 극단적 거래량 0).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Dolphin Congratulates Shore Fire Media and Its Clients on 20 GRAMMY(R) Nominations, Including 10 Best Album Nods Across Diverse Genres\"\n원문 직독 및 족보집 과거 이력 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '자회사 고객 시상식 노미네이트 축하' 홍보물 (Congratulatory PR):\n원문 본문에 *\"Dolphin congratulates its subsidiary Shore Fire Media as well as the clients and projects the creative communications agency has represented over the past year, which collectively received 20 nominations for the upcoming GRAMMY Awards®...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n단지 자회사가 대행하는 아티스트들이 그래미상 후보에 올랐다는 연례 시상식 노미네이트를 축하하는 전형적인 금액 미기재 엔터테인먼트 마케팅/의례성 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 의례 축하 PR 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 시상식 노미네이트·수상·축하·마케팅 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 차단된 PMEC 박람회 부스 전시, SEGG 사이트 리뉴얼과 동일한 단순 마케팅 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 단순 자회사 고객의 그래미상 20개 부문 후보 지명을 축하하는 마케팅성 의례 보도자료에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DLPN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: DLPN NOTES:\n[DLPN] 확정 수주 전무한 단순 자회사 고객 그래미 어워드 노미네이트 축하 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC에 이어 DLPN까지 총 24개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 단순 축하 홍보로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795009714541_PMEC_FALSE",
       "date_et": "2026-11-18",
@@ -2424,29 +2432,59 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 VIVS (VivoSim Labs, Inc.) 08:15 ET 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.24M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 금액 미기재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (거래량 실종 바닥 구간):\n전일 종가 $0.1271 대비 현재가 $0.1350 (+6.22%).\n당일 최고가 $0.1379 (고점 대비 -2.1%).\n당일 누적 거래대금 $940 USD (1천 달러 미만의 극소액 거래량).\n선발표 규정 확인: 학회 발표 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"VivoSim Labs to Showcase Breakthrough Multiparametric NAMkind™ Liver and Intestine Data at the 2026 American College of Toxicology (ACT) Annual Meeting\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 학회(ACT 2026) 전임상 데이터 발표 (Conference Showcase PR):\n본 PR의 본질은 미국독성학회(2026 ACT Annual Meeting, 11월 15~18일)에서 자체 전임상 플랫폼인 NAMkind™ Liver 및 Intestine 데이터를 **학회에서 구두/포스터 발표(showcase/presenting landmark studies at ACT)**한다는 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 오늘 앞서 차단된 BLRX, CNSY, INAB, ESLA와 동일한 정기 학회 발표용 경과 공유 보도자료에 불과합니다.\n불과 6일 전 기발표(11/10) 학회 예고 PR의 100% 노골적 재탕 (심사 헌법 제3조 ②항 위배):\n과거 180일 이력 대조 결과, 회사는 불과 **6일 전(2026-11-10)**에도 동일 통신사(GlobeNewswire)를 통해 *\"VivoSim Labs to Showcase Multiparametric Human 3D Tissue Safety Data at the American College of Toxicology (ACT) 47th Annual Meeting\"*이라는 제목으로 동일 학회 발표를 사전 홍보한 바 있습니다.\n6일 전에 낸 학회 참가 예고 PR을 학회 개최 주간에 맞춰 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약, 시총을 압도하는 확정 달러 수주/선급금(AIMD형), 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/기발표 학회 일정 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 ACT 2026 학회 전임상 데이터 발표이자 불과 6일 전(11/10) 기발표된 학회 참가 PR의 노골적인 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: VIVS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: VIVS NOTES:\n[VIVS] FDA 승인이 아닌 단순 ACT 2026 학회 발표이자 11월 10일 기발표 학회 PR의 노골적 재탕 홍보물로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 승인 8-K) 2종목이 진성 대장주로 유지되고 있으며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794834887206_VIVS_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "08:14:47",
-      "time_kst": "22:14:47",
-      "symbol": "VIVS",
-      "company_name": "VIVS",
-      "exchange": "ND",
-      "price": 0.135,
-      "gain_pct": 6.22,
-      "mcap_m": 2.24,
-      "decision": "FALSE",
-      "elapsed_sec": 43.2,
-      "reason": "FDA 승인이 아닌 단순 ACT 2026 학회 발표이자 11월 10일 기발표 학회 PR의 노골적 재탕 홍보물로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] VivoSim Labs to Showcase Breakthrough Multiparametric NAMkind™ Liver and Intestine Data at the 2026 American College of Toxicology (ACT) Annual Meeting",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 VIVS (VivoSim Labs, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.24M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급:\n전일 종가 $0.1271 대비 현재가 **$0.1350 (+6.22%)**.\n당일 최고가 $0.1379 (고점 대비 -2.1%).\n당일 누적 거래대금 $940 USD (1천 달러 미만의 거래량 실종 바닥 구간).\n선발표 규정 확인: 학회 발표 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:05 ET) 공식 PR 원문 분석:\nPR 제목: *\"VivoSim Labs to Showcase Breakthrough Multiparametric NAMkind™ Liver and Intestine Data at the 2026 American College of Toxicology (ACT) Annual Meeting\"*\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 학회(ACT 2026) 전임상 데이터 발표 (Conference Showcase PR):\n본 PR의 본질은 미국독성학회(2026 ACT Annual Meeting, 11월 15~18일)에서 자체 전임상 플랫폼인 NAMkind™ Liver 및 Intestine의 데이터 2건을 **학회에서 발표(presenting two landmark studies at ACT)**한다는 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 오늘 앞서 차단된 BLRX, CNSY, INAB, ESLA와 동일한 정기 학회 발표용 경과 공유 보도자료에 불과합니다.\n불과 6일 전 기발표(11/10) 학회 예고 PR의 100% 노골적 재탕 (심사 헌법 제3조 ②항 위배):\n과거 180일 이력 대조 결과, 회사는 불과 **6일 전(2026-11-10)**에도 동일 통신사(GlobeNewswire)를 통해 *\"VivoSim Labs to Showcase Multiparametric Human 3D Tissue Safety Data at the American College of Toxicology (ACT) 47th Annual Meeting\"*이라는 제목으로 동일 학회 발표를 사전 홍보한 바 있습니다.\n6일 전에 낸 학회 참가 예고 PR을 학회 개최 주간에 맞춰 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약, 시총을 압도하는 확정 달러 수주/선급금(AIMD형), 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/기발표 학회 일정 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 ACT 2026 학회 전임상 데이터 발표이자 불과 6일 전(11/10) 기발표된 학회 참가 PR의 노골적인 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: VIVS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: VIVS NOTES:\n[VIVS] FDA 승인이 아닌 단순 ACT 2026 학회 발표이자 11월 10일 기발표 학회 PR의 노골적 재탕 홍보물로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 **HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정)**와 PXLW (총 $10M 자사주 매입 승인 8-K) 2종목이 진성 대장주로 유지되고 있으며, 본장 개장 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:06:41",
+      "time_kst": "23:06:41",
+      "symbol": "VSTM",
+      "company_name": "VSTM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $933.77M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:06:36",
+      "time_kst": "23:06:36",
+      "symbol": "RMNI",
+      "company_name": "RMNI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $503.34M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:06:30",
+      "time_kst": "23:06:30",
+      "symbol": "NEGG",
+      "company_name": "NEGG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $163.18M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:06:28",
+      "time_kst": "23:06:28",
+      "symbol": "GEHC",
+      "company_name": "GEHC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $37002.96M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:06:18",
+      "time_kst": "23:06:18",
+      "symbol": "AFRM",
+      "company_name": "AFRM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $20151.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-18",
       "time_et": "09:06:13",
@@ -2896,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1418.5M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:16:02",
-      "time_kst": "22:16:02",
-      "symbol": "HSAI",
-      "company_name": "HSAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1644.8M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:15:29",
-      "time_kst": "22:15:29",
-      "symbol": "CCLDO",
-      "company_name": "CCLDO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:15:23",
-      "time_kst": "22:15:23",
-      "symbol": "CCLD",
-      "company_name": "CCLD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $95.74M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:14:52",
-      "time_kst": "22:14:52",
-      "symbol": "NIXX",
-      "company_name": "NIXX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Nixxy Announces 1-for-20 Reverse Stock Split)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:12:10",
-      "time_kst": "22:12:10",
-      "symbol": "NNOX",
-      "company_name": "NNOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
     }
   ]
 }
