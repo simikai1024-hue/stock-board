@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:50:06",
-  "updated_at_et": "2026-11-18 07:50:06",
-  "updated_epoch_ms": 1795006206603,
+  "updated_at_kst": "2026-11-18 21:51:07",
+  "updated_at_et": "2026-11-18 07:51:07",
+  "updated_epoch_ms": 1795006267018,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:49:56"
+    "updated_kst": "21:50:58"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:50:13",
+      "time_kst": "21:50:13",
+      "symbol": "CLRO",
+      "company_name": "CLRO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-17 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:45:25",
       "time_kst": "21:45:25",
       "symbol": "SCNI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $56.42M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:12:24",
-      "time_kst": "20:12:24",
-      "symbol": "MEDS",
-      "company_name": "MEDS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
     }
   ]
 }
