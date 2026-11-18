@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 19:27:53",
-  "updated_at_et": "2026-11-18 05:27:53",
-  "updated_epoch_ms": 1794997673440,
+  "updated_at_kst": "2026-11-18 19:28:52",
+  "updated_at_et": "2026-11-18 05:28:52",
+  "updated_epoch_ms": 1794997732411,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:27:45"
+    "updated_kst": "19:28:45"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 50,
+    "today_hardcut": 51,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "05:28:44",
+      "time_kst": "19:28:44",
+      "symbol": "LOBO",
+      "company_name": "LOBO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.75M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "05:15:06",
       "time_kst": "19:15:06",
       "symbol": "WYHG",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:00:37",
-      "time_kst": "18:00:37",
-      "symbol": "SPAI",
-      "company_name": "SPAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.41M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
