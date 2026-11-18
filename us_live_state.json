@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 05:58:06",
-  "updated_at_et": "2026-11-18 15:58:06",
-  "updated_epoch_ms": 1795035486294,
+  "updated_at_kst": "2026-11-19 05:58:25",
+  "updated_at_et": "2026-11-18 15:58:25",
+  "updated_epoch_ms": 1795035505240,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "애프터마감",
     "watchlist_count": 0,
-    "orderable_usd": 23.4,
+    "orderable_usd": 926.48,
     "daily_done": true,
-    "holding_symbol": "CLRO",
-    "holding_qty": 131,
-    "avg_price": 7.8745,
-    "current_price": 7.05,
-    "profit_rate": -10.47,
-    "updated_kst": "05:57:58"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "05:58:25"
   },
   "stats": {
     "today_total": 41,
@@ -51,7 +51,7 @@
       "catalyst_hint": "[실전 체결 기록]",
       "full_report": "",
       "engine": "실전 포지션 정산",
-      "trade_action": "🛡️ 손절 청산: 131주 | 매수 $7.8745 → 매도 $7.3500 (-6.66% / -68.71$)"
+      "trade_action": "🛡️ 손절 청산: 131주 | 매수 $7.8745 → 매도 $6.9750 (-11.42% / -117.83$)"
     },
     {
       "id": "v_1795019677646_ICMB_FALSE",
