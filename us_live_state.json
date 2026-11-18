@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:20:57",
-  "updated_at_et": "2026-11-18 09:20:57",
-  "updated_epoch_ms": 1795011657055,
+  "updated_at_kst": "2026-11-18 23:21:57",
+  "updated_at_et": "2026-11-18 09:21:57",
+  "updated_epoch_ms": 1795011717690,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:20:48"
+    "updated_kst": "23:21:49"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:21:05",
+      "time_kst": "23:21:05",
+      "symbol": "SPWR",
+      "company_name": "SPWR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1085.18M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:18:45",
       "time_kst": "23:18:45",
       "symbol": "RCT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $6063.84M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:31:44",
-      "time_kst": "22:31:44",
-      "symbol": "ZOAR",
-      "company_name": "ZOAR",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
