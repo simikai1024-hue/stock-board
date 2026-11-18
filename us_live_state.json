@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:11:56",
-  "updated_at_et": "2026-11-18 09:11:56",
-  "updated_epoch_ms": 1795011116070,
+  "updated_at_kst": "2026-11-18 23:12:12",
+  "updated_at_et": "2026-11-18 09:12:12",
+  "updated_epoch_ms": 1795011132328,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AZIO",
+    "company_name": "AZIO",
+    "exchange": "ND",
+    "price": 0.4437,
+    "gain_pct": -3.1,
+    "mcap_m": 7.64,
+    "catalyst_hint": "[당일 PR] AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:12:03",
+    "started_at_kst": "23:12:03",
+    "started_epoch_ms": 1795011123651
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:11:47"
+    "updated_kst": "23:12:08"
   },
   "stats": {
     "today_total": 34,
