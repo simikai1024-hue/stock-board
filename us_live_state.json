@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 20:33:06",
-  "updated_at_et": "2026-11-18 06:33:06",
-  "updated_epoch_ms": 1795001586082,
+  "updated_at_kst": "2026-11-18 20:33:22",
+  "updated_at_et": "2026-11-18 06:33:22",
+  "updated_epoch_ms": 1795001602319,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TNMG",
+    "company_name": "TNMG",
+    "exchange": "ND",
+    "price": 2.57,
+    "gain_pct": 3.21,
+    "mcap_m": 1.95,
+    "catalyst_hint": "[당일 PR] TNL Mediagene Regains Compliance with Nasdaq's Equity Rule",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:33:17",
+    "started_at_kst": "20:33:17",
+    "started_epoch_ms": 1795001597297
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:32:52"
+    "updated_kst": "20:33:13"
   },
   "stats": {
     "today_total": 7,
