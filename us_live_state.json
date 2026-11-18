@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:02:23",
-  "updated_at_et": "2026-11-18 04:02:23",
-  "updated_epoch_ms": 1794992543599,
+  "updated_at_kst": "2026-11-18 18:03:15",
+  "updated_at_et": "2026-11-18 04:03:15",
+  "updated_epoch_ms": 1794992595850,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:02:10"
+    "updated_kst": "18:03:11"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 7,
+    "today_hardcut": 10,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:02:54",
+      "time_kst": "18:02:54",
+      "symbol": "DTCX",
+      "company_name": "DTCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.45M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:02:48",
+      "time_kst": "18:02:48",
+      "symbol": "PULM",
+      "company_name": "PULM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:02:34",
+      "time_kst": "18:02:34",
+      "symbol": "TAOX",
+      "company_name": "TAOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:02:19",
       "time_kst": "18:02:19",
       "symbol": "MIST",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:29:11",
-      "time_kst": "23:29:11",
-      "symbol": "SUIG",
-      "company_name": "SUIG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $62.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:28:40",
-      "time_kst": "23:28:40",
-      "symbol": "ELVR",
-      "company_name": "ELVR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $453.98M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:27:54",
-      "time_kst": "23:27:54",
-      "symbol": "SVCC",
-      "company_name": "SVCC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $231.06M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
