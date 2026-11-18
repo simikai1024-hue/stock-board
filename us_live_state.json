@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:10:55",
-  "updated_at_et": "2026-11-18 09:10:55",
-  "updated_epoch_ms": 1795011055046,
+  "updated_at_kst": "2026-11-18 23:11:56",
+  "updated_at_et": "2026-11-18 09:11:56",
+  "updated_epoch_ms": 1795011116070,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:10:47"
+    "updated_kst": "23:11:47"
   },
   "stats": {
     "today_total": 34,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:11:49",
+      "time_kst": "23:11:49",
+      "symbol": "ROOT",
+      "company_name": "ROOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $676.51M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:06:58",
       "time_kst": "23:06:58",
       "symbol": "AXON",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $382.01M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:19:24",
-      "time_kst": "22:19:24",
-      "symbol": "FCHL",
-      "company_name": "FCHL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
     }
   ]
 }
