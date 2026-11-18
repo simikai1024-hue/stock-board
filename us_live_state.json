@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:46:28",
-  "updated_at_et": "2026-11-18 09:46:28",
-  "updated_epoch_ms": 1795013188180,
+  "updated_at_kst": "2026-11-18 23:47:21",
+  "updated_at_et": "2026-11-18 09:47:21",
+  "updated_epoch_ms": 1795013241699,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:46:12"
+    "updated_kst": "23:47:17"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:47:18",
+      "time_kst": "23:47:18",
+      "symbol": "RIME",
+      "company_name": "RIME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Algorhythm Announces Reverse Stock Split)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:46:56",
+      "time_kst": "23:46:56",
+      "symbol": "OBAI",
+      "company_name": "OBAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:46:28",
+      "time_kst": "23:46:28",
+      "symbol": "KALA",
+      "company_name": "KALA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $66.34M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:46:23",
       "time_kst": "23:46:23",
       "symbol": "SILO",
@@ -2474,16 +2504,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $71.58M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:32:10",
-      "time_kst": "23:32:10",
-      "symbol": "RIME",
-      "company_name": "RIME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Algorhythm Announces Reverse Stock Split)"
     },
     {
       "date_et": "2026-11-18",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:57:20",
-      "time_kst": "22:57:20",
-      "symbol": "UFG",
-      "company_name": "UFG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $70.12M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:56:40",
-      "time_kst": "22:56:40",
-      "symbol": "CALM",
-      "company_name": "CALM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3047.4M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
