@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:45:37",
-  "updated_at_et": "2026-11-18 09:45:37",
-  "updated_epoch_ms": 1795013137589,
+  "updated_at_kst": "2026-11-18 23:46:28",
+  "updated_at_et": "2026-11-18 09:46:28",
+  "updated_epoch_ms": 1795013188180,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:45:32"
+    "updated_kst": "23:46:12"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:46:23",
+      "time_kst": "23:46:23",
+      "symbol": "SILO",
+      "company_name": "SILO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:46:07",
+      "time_kst": "23:46:07",
+      "symbol": "ELOG",
+      "company_name": "ELOG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:36:32",
       "time_kst": "23:36:32",
       "symbol": "CDW",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3047.4M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:56:32",
-      "time_kst": "22:56:32",
-      "symbol": "LPLA",
-      "company_name": "LPLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $21920.73M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:56:14",
-      "time_kst": "22:56:14",
-      "symbol": "BGDE",
-      "company_name": "BGDE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [EFFECT] (Item ,,))"
     }
   ]
 }
