@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 19:14:40",
-  "updated_at_et": "2026-11-18 05:14:40",
-  "updated_epoch_ms": 1794996880882,
+  "updated_at_kst": "2026-11-18 19:15:39",
+  "updated_at_et": "2026-11-18 05:15:39",
+  "updated_epoch_ms": 1794996939655,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:14:35"
+    "updated_kst": "19:15:34"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "05:15:06",
+      "time_kst": "19:15:06",
+      "symbol": "WYHG",
+      "company_name": "WYHG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $96.42M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "05:06:33",
       "time_kst": "19:06:33",
       "symbol": "TGL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $59.41M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "11:57:07",
-      "time_kst": "01:57:07",
-      "symbol": "VWAV",
-      "company_name": "VWAV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.02,3.02,9.01))"
     }
   ]
 }
