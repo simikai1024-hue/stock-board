@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 01:19:47",
-  "updated_at_et": "2026-11-18 11:19:47",
-  "updated_epoch_ms": 1795018787901,
+  "updated_at_kst": "2026-11-19 01:20:38",
+  "updated_at_et": "2026-11-18 11:20:38",
+  "updated_epoch_ms": 1795018838805,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AYTU",
+    "company_name": "AYTU",
+    "exchange": "ND",
+    "price": 2.65,
+    "gain_pct": -0.38,
+    "mcap_m": 28.8,
+    "catalyst_hint": "[당일 PR] $HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:20:33",
+    "started_at_kst": "01:20:33",
+    "started_epoch_ms": 1795018833699
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.33,
-    "profit_rate": -6.91,
-    "updated_kst": "01:19:45"
+    "current_price": 7.3,
+    "profit_rate": -7.3,
+    "updated_kst": "01:20:21"
   },
   "stats": {
     "today_total": 37,
