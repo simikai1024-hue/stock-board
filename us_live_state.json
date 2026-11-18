@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:20:45",
-  "updated_at_et": "2026-11-18 04:20:45",
-  "updated_epoch_ms": 1794993645114,
+  "updated_at_kst": "2026-11-18 18:21:39",
+  "updated_at_et": "2026-11-18 04:21:39",
+  "updated_epoch_ms": 1794993699959,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:20:35"
+    "updated_kst": "18:21:33"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 35,
+    "today_hardcut": 36,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:21:34",
+      "time_kst": "18:21:34",
+      "symbol": "FNGR",
+      "company_name": "FNGR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:19:33",
       "time_kst": "18:19:33",
       "symbol": "FFAI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "10:08:30",
-      "time_kst": "00:08:30",
-      "symbol": "GLOO",
-      "company_name": "GLOO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $262.69M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
