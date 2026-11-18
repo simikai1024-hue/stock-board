@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:39:59",
-  "updated_at_et": "2026-11-18 07:39:59",
-  "updated_epoch_ms": 1795005599433,
+  "updated_at_kst": "2026-11-18 21:40:44",
+  "updated_at_et": "2026-11-18 07:40:44",
+  "updated_epoch_ms": 1795005644908,
   "analyzing": {
-    "active": true,
-    "symbol": "NUR",
-    "company_name": "NUR",
-    "exchange": "ND",
-    "price": 0.4299,
-    "gain_pct": 15.01,
-    "mcap_m": 5.63,
-    "catalyst_hint": "[당일 PR] NuRAN Wireless Raises First Two Towers in Benin as 4G Rollout Beats Expectations in Cameroon and Ivory Coast",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:39:55",
-    "started_at_kst": "21:39:55",
-    "started_epoch_ms": 1795005595465
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:39:40"
+    "updated_kst": "21:40:40"
   },
   "stats": {
-    "today_total": 16,
-    "today_nblm_count": 16,
+    "today_total": 17,
+    "today_nblm_count": 17,
     "today_buy": 0,
-    "today_false": 16,
+    "today_false": 17,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 47.1
+    "avg_nblm_sec": 46.9
   },
   "verdicts": [
+    {
+      "id": "v_1795005636324_NUR_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "07:40:36",
+      "time_kst": "21:40:36",
+      "symbol": "NUR",
+      "company_name": "NUR",
+      "exchange": "ND",
+      "price": 0.4299,
+      "gain_pct": 15.01,
+      "mcap_m": 5.63,
+      "decision": "FALSE",
+      "elapsed_sec": 43.9,
+      "reason": "확정 신규 수주 전무한 기발표 MTN 베냉 200개 타워 중 2개 구축 경과 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] NuRAN Wireless Raises First Two Towers in Benin as 4G Rollout Beats Expectations in Cameroon and Ivory Coast",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 NUR (NuRAN Wireless Inc.) 2026-11-18 07:39:52 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.63M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 시총을 압도하는 창사 최대 메가 신규 수주가 아니라, 과거 기발표된 MTN 베냉(Benin) 200개 타워 NaaS 계약 중 **첫 2개 타워 완공 및 카메룬/코트디부아르 4G 롤아웃 진행 경과 홍보(Raises First Two Towers in Benin)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $0.3738 대비 현재가 $0.4299 (+15.01%), 당일 최고가 $0.4499 (고점 대비 -4.4%).\n당일 누적 거래대금 $9,690 USD (9천6백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-18 [6-K] 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"NuRAN Wireless Raises First Two Towers in Benin as 4G Rollout Beats Expectations in Cameroon and Ivory Coast\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n신규 메가 수주가 아닌 기존 200개 계약 중 2개 타워 단순 설치 쪼개기 재탕 (2/200 쪼개기 PR):\n원문 본문에 *\"The first two towers are the initial sites built under NuRAN's previously announced Network-as-a-Service ('NaaS') agreement with MTN Benin for the deployment of 200 rural telecommunications towers... 48 towers validated for installation\"*라고 명시되어 있습니다.\n이는 새로운 대형 고객사로부터 거액 현금 선급금이 꽂히는 본계약(AIMD형)이 아니라, 이미 시장에 공시된 '기존 MTN 베냉 200개 타워 계약'의 실행 과정에서 **단 2개의 타워가 세워졌다는 진행 경과를 보도자료로 포장한 전형적인 쪼개기 재탕(Progress Update PR)**입니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 신규 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 16일 우선주 리스트럭처링 및 나스닥 결함 통보 후속의 지속적 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 불과 이틀 전인 11월 16일에 GlobeNewswire/6-K를 통해 *\"Eliminates Floating-Price Preferred Overhang and Locks In Fixed C$1.20 Conversion Price\"*를 발표하여 당일 주가가 +30.9% 반짝 상승 후 윗꼬리 마감한 바 있습니다.\n또한 11월 13일 나스닥 $1 입찰가 미달 결함 통보(Deficiency Letter)를 수령하고, 11월 11일~12일 5,092개 타워 포트폴리오를 홍보하는 등 기존 계약 자산을 반복적으로 우려먹으며 밈 수급을 유도해 온 상습적 쪼개기 이력이 확인됩니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (기존 계약 쪼개기 재탕 및 금액 미기재 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 계약의 소규모 분할설치/경과보고 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 경과 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 신규 상업 수주가 아닌 기발표된 MTN 베냉 200개 타워 계약 중 첫 2개 타워 구축 경과를 알리는 단순 쪼개기 재탕(Progress PR)에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: NUR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: NUR NOTES:\n[NUR] 확정 신규 수주 전무한 기발표 MTN 베냉 200개 타워 중 2개 구축 경과 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR까지 총 13개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 지분 희석으로 정밀 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795005298215_DRIO_FALSE",
       "date_et": "2026-11-18",
@@ -2422,26 +2430,6 @@
       "reason": "FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 홍보 PR로 1급 확정 기폭제 미달 및 장전 음봉 하락 전량 차단",
       "catalyst_hint": "[당일 PR] Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CMND (Clearmind Medicine Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.28M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/라이선스 수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $4.5300 대비 현재가 $4.3600 (-3.75%), 당일 최고가 $4.7850 (고점 대비 -8.9% 음봉 밀림), 당일 누적 거래대금 $2,222 USD (장전 프리마켓 거래량 미미한 바닥 구간).\n선발표 규정 확인: 임상 환자 등록 완료 등은 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:37 ET) 공식 PR 원문 분석:\nPR 제목: \"Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 임상 완료가 아닌 단순 초기 임상 '환자 등록 완료' 공지 (Patient Enrollment Milestone PR):\n본 PR의 본질은 알코올 사용 장애(AUD) 치료제 후보물질인 CMND-100의 임상 1/2a상 Part C 코호트에서 '환자 모집/등록을 완료(Achieves Full Enrollment)'했다는 단순 임상 중간 진행 단계 보도자료입니다.\n연구소 심사 헌법 제2조에서 FORCE_BUY 대상으로 규정한 **'FDA 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 약효 검증이나 승인이 아닌 단순히 임상 시험 대상 환자를 다 채웠다는 실체 없는 중간 일정 알림에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 음봉 밀림 차트:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 임상 환자 등록(Enrollment)/중간 일정 공유 마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $4.7850까지 반짝 상승 후 고점 대비 -8.9% 밀리며 현재가 -3.75% 마이너스 파란불로 곤두박질친 전형적인 무수급 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 공지에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -3.75% 음봉으로 밀리고 있으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CMND 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CMND NOTES:\n[CMND] FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 홍보 PR로 1급 확정 기폭제 미달 및 장전 음봉 하락 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794832531246_YFOR_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:35:31",
-      "time_kst": "21:35:31",
-      "symbol": "YFOR",
-      "company_name": "YFOR",
-      "exchange": "ND",
-      "price": 0.042,
-      "gain_pct": 5.53,
-      "mcap_m": 0.54,
-      "decision": "FALSE",
-      "elapsed_sec": 37.4,
-      "reason": "확정 수주 금액 없는 단순 AI·로보틱스 운영 우선순위 나열 및 과거 비전 발표 재탕 PR로 1급 확정 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YFOR (YYForce Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.54M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.0398 대비 현재가 $0.0420 (+5.53%), 당일 최고가 $0.0478 (장전 고점 대비 -12.1%), 당일 누적 거래대금 $1,214,759 USD.\n선발표 규정 확인: 계약 후 4영업일 이내 8-K/6-K 제출 유예 규정에 따른 순수 PR 선발표 구간이므로 당일 8-K/6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management\"*\n원문 직독 결과 드러난 치명적 실체:\n구체적 확정 계약 달러 금액 없는 단순 경영 목표/우선순위 발표 (Operating Priorities PR):\n본 PR의 본질은 AI 인력 배치, 시설 관리, 상업용 로봇 배치에 걸친 운영 우선순위(Operating Priorities)를 정리해 발표했다는 단순 기업 운영 방향성 나열 홍보 보도자료입니다.\n외부 기관이나 글로벌 대기업으로부터 신규 자금이 유입되는 확정 수주 계약, 최소 보장 구매액, 거액 현금 선급금(deposit, AIMD형) 등 실체적 달러($) 수치가 원문 어디에도 전혀 없습니다.\n과거 IR 발표의 반복성 재탕 패턴 (우려먹기 IR):\n과거 180일 이력 대조 결과, 회사는 11월 2일에도 \"YYForce Highlights US$21.9 Million in Reported Net Assets and Outlines Commercial Robotics and AI Platform Priorities\", 11월 5일에도 \"YYForce Publishes Updated Corporate Presentation Outlining Operating Businesses, Commercial Robotics and 2030 Priorities\" 등 유사한 로봇·AI 사업 우선순위 발표를 지속적으로 배포해 온 바 있습니다.\n금번 발표 역시 신규 확정 계약이 아닌 기존에 지속적으로 발표해 온 기업 비전 및 운영 우선순위의 반복적 재탕 홍보물에 불과합니다.\n1급 확정 금융 기폭제 절대 미달:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 경영 우선순위 설정/운영 업데이트/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 명시되지 않은 단순 AI/로보틱스 운영 우선순위 발표이자 과거 유사 비전 발표의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: YFOR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: YFOR NOTES:\n[YFOR] 확정 수주 금액 없는 단순 AI·로보틱스 운영 우선순위 나열 및 과거 비전 발표 재탕 PR로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
