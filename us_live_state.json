@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:14:48",
-  "updated_at_et": "2026-11-18 08:14:48",
-  "updated_epoch_ms": 1795007688765,
+  "updated_at_kst": "2026-11-18 22:14:58",
+  "updated_at_et": "2026-11-18 08:14:58",
+  "updated_epoch_ms": 1795007698526,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ETS",
+    "company_name": "ETS",
+    "exchange": "ND",
+    "price": 1.695,
+    "gain_pct": 0.0,
+    "mcap_m": 21.27,
+    "catalyst_hint": "[당일 PR] Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:14:55",
+    "started_at_kst": "22:14:55",
+    "started_epoch_ms": 1795007695946
   },
   "halt_watch": {
     "active": false
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:14:52",
+      "time_kst": "22:14:52",
+      "symbol": "NIXX",
+      "company_name": "NIXX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Nixxy Announces 1-for-20 Reverse Stock Split)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:12:10",
       "time_kst": "22:12:10",
       "symbol": "NNOX",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:23:36",
-      "time_kst": "21:23:36",
-      "symbol": "CPB",
-      "company_name": "CPB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7032.38M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
