@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:09:28",
-  "updated_at_et": "2026-11-18 07:09:28",
-  "updated_epoch_ms": 1795003768625,
+  "updated_at_kst": "2026-11-18 21:10:26",
+  "updated_at_et": "2026-11-18 07:10:26",
+  "updated_epoch_ms": 1795003826817,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:09:22"
+    "updated_kst": "21:10:22"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:09:35",
+      "time_kst": "21:09:35",
+      "symbol": "PSIG",
+      "company_name": "PSIG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.83M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:06:01",
       "time_kst": "21:06:01",
       "symbol": "NWCL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:17:23",
-      "time_kst": "18:17:23",
-      "symbol": "NFE",
-      "company_name": "NFE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.8M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
