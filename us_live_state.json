@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:34:06",
-  "updated_at_et": "2026-11-18 07:34:06",
-  "updated_epoch_ms": 1795005246885,
+  "updated_at_kst": "2026-11-18 21:34:16",
+  "updated_at_et": "2026-11-18 07:34:16",
+  "updated_epoch_ms": 1795005256282,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DRIO",
+    "company_name": "DRIO",
+    "exchange": "ND",
+    "price": 1.1615,
+    "gain_pct": 1.0,
+    "mcap_m": 13.11,
+    "catalyst_hint": "[당일 PR] Dario Secures Second Women's Health Contract in Just Weeks with The Minnesota Star Tribune",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:34:11",
+    "started_at_kst": "21:34:11",
+    "started_epoch_ms": 1795005251298
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:50"
+    "updated_kst": "21:34:11"
   },
   "stats": {
     "today_total": 15,
