@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 01:20:38",
-  "updated_at_et": "2026-11-18 11:20:38",
-  "updated_epoch_ms": 1795018838805,
+  "updated_at_kst": "2026-11-19 01:21:19",
+  "updated_at_et": "2026-11-18 11:21:19",
+  "updated_epoch_ms": 1795018879971,
   "analyzing": {
-    "active": true,
-    "symbol": "AYTU",
-    "company_name": "AYTU",
-    "exchange": "ND",
-    "price": 2.65,
-    "gain_pct": -0.38,
-    "mcap_m": 28.8,
-    "catalyst_hint": "[당일 PR] $HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:20:33",
-    "started_at_kst": "01:20:33",
-    "started_epoch_ms": 1795018833699
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,42 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.3,
-    "profit_rate": -7.3,
-    "updated_kst": "01:20:21"
+    "current_price": 7.31,
+    "profit_rate": -7.17,
+    "updated_kst": "01:21:18"
   },
   "stats": {
-    "today_total": 37,
-    "today_nblm_count": 37,
+    "today_total": 38,
+    "today_nblm_count": 38,
     "today_buy": 0,
-    "today_false": 37,
+    "today_false": 38,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 48.7
+    "avg_nblm_sec": 48.5
   },
   "verdicts": [
+    {
+      "id": "v_1795018871272_AYTU_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "11:21:11",
+      "time_kst": "01:21:11",
+      "symbol": "AYTU",
+      "company_name": "AYTU",
+      "exchange": "ND",
+      "price": 2.65,
+      "gain_pct": -0.38,
+      "mcap_m": 28.8,
+      "decision": "FALSE",
+      "elapsed_sec": 41.6,
+      "reason": "확정 수주 전무한 외부 로펌 M&A 집단소송 조사 착수 스팸 PR로 헌법 3조 4항 위배 및 어제 투자의견 강등 연동 악재 전량 차단",
+      "catalyst_hint": "[당일 PR] $HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AYTU (Aytu BioPharma, Inc.) 2026-11-18 11:20 ET 정규장 장중 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $28.8M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 AYTU 회사 금고로 직통 유입되는 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 기업 가치를 폭등시키는 호재성 발표가 아니라, 로펌(Monteverde & Associates PC)이 주주들을 선동하여 집단소송을 제기하기 위해 낸 **치명적 악재성 주주 경고/조사 착수 공지($HAREHOLDER ALERT / Investigation PR)**에 불과합니다.\n실시간 체결가 및 수급 (음봉 정체 및 거래대금 $52.9만 돌파):\n전일 종가 $2.6600 대비 현재가 $2.6500 (-0.38%), 당일 최고가 $2.6700 (고점 대비 -0.7%).\n당일 누적 거래대금 $529,528 USD (약 53만 달러의 기관/개인 거래 발생 중이나 마이너스권 억눌림 지속).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 11:18 ET) 공식 PR 원문 분석:\nPR 제목: \"$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n회사 공식 호재가 아닌 외부 로펌의 집단소송 원고 모집 스팸 (Lawsuit Alert PR):\n원문 본문에 *\"Class Action Attorney Juan Monteverde with Monteverde & Associates PC... has recovered millions of dollars for shareholders... Announces An Investigation of Aytu BioPharma, Inc.\"*라고 명시되어 있습니다.\n이는 회사가 발표한 상업 수주, 라이선스, 승인 공시가 아니라 외부 소송 전문 로펌이 원고인단을 모집하기 위해 유료 배포망(PRNewswire)을 통해 살포한 **전형적인 로펌 스팸(Lawsuit / Investigation Alert)**입니다.\n회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n어제(11/17) 주요 투자은행(Maxim, Lake Street) 연속 투자의견 강등 악재와 연동:\n과거 이력 대조 결과 바로 전일인 2026년 11월 17일에 Maxim Group 및 Lake Street 등 주요 월가 증권사들이 일제히 AYTU에 대해 **'Buy(매수)'에서 'Hold(보유)'로 투자의견을 강등(Downgrade)**했습니다.\n애널리스트 투자의견 강등 악재에 이어 오늘은 로펌의 M&A 집단소송 조사 착수 경고까지 떨어진 전형적인 하방 압력 악재 구간입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 로펌 소송 홍보 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 로펌 소송 조사/주주 경고 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 상업 계약이나 현금 선급금이 전무한 외부 로펌의 집단소송 조사 착수(Investigation) 및 원고 모집 스팸에 불과하며, 어제 투자의견 연속 강등에 이은 악재성 PR이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AYTU 처리합니다.\n계좌 보호 원칙에 의거하여 정규장 장중 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AYTU NOTES:\n[AYTU] 확정 수주 전무한 외부 로펌 M&A 집단소송 조사 착수 스팸 PR로 헌법 3조 4항 위배 및 어제 투자의견 강등 연동 악재 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 장중 구간까지 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG, AZIO, CANF에 이어 AYTU까지 총 28개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 로펌 소송 스팸으로 감별되어 전량 안전하게 방어되었습니다. 정규장 마감까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795011407467_AZIO_FALSE",
       "date_et": "2026-11-18",
@@ -2424,26 +2432,6 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 NAMM (Namib Minerals) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.13M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 달러 금액 미기재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 수주/공급 계약/판매 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 음봉 덤핑 흐름):\n전일 종가 $0.7268 대비 현재가 $0.7006 (-3.60%).\n당일 최고가 $0.8120 찍은 후 장전 고점 대비 -13.7% 급락하며 마이너스 파란불 궤적.\n당일 누적 거래대금 $11,053 USD.\n선발표 규정 확인: 운영 업데이트 관련 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Namib Minerals Reports Strong Initial Operating Leverage From Expanded How Mine Mill\"\n원문 직독 결과 드러난 치명적 실체:\n확정 계약/매출 유입이 없는 단순 기존 설비 가동 업데이트 (Operational Update PR):\n본 PR의 본질은 회사가 짐바브웨에 위치한 하우 광산(How Mine)에서 최근 시운전 및 설치를 완료했다고 과거에 이미 발표했던 분쇄 공장 확장 설비(Expanded Mill)의 초기 운영 레버리지 및 가동 성과를 업데이트(provided an update on the performance of the recently commissioned expanded milling plant)했다는 단순 사내 운영 경과 보고 보도자료입니다.\n원문 첫 문단에 *\"As previously announced, the Company installed and com...\"*라고 명시적으로 적혀 있듯, 과거 이미 발표된 설비 증설 사실을 바탕으로 초기 운영 상황을 전하는 전형적인 기존 가동성 뉴스입니다.\n확정 달러 수주 및 1급 금융 기폭제 절대 결여 (심사 헌법 제3조 ①항 위배):\n심사 헌법 제3조 ①항: \"기발표 대형 프레임워크 계약/설비의 단순가동/연장 등 시총 대비 비중도 작은 쪼개기 재탕 및 금액 미기재 단순 홍보는 100% FORCE_BLOCK\" 규칙에 직결됩니다.\n외부 글로벌 대기업이나 기관으로부터 확정된 거액 현금 수주 계약(AIMD형), 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 소멸(ONFO형) 등 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n장전 고점 대비 -13.7% 피뢰침 덤핑 차트:\n실체적 확정 현금 계약이 없는 단순 운영 업데이트임이 확인되자마자 장전 최고가 $0.8120에서 -13.7% 급락하여 -3.60% 음봉으로 꺾인 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 없는 단순 기존 설비 가동 경과 보고(기발표 언급 재탕)에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -13.7% 밀리며 -3.60% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: NAMM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: NAMM NOTES:\n[NAMM] 확정 계약 금액 없는 단순 기존 How Mine 제련 설비 초기 가동 경과 보고(기발표 언급 재탕) 및 장전 음봉 하락(-3.60%)으로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228 확정, 수익률 +55%), PXLW (총 $10M 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794835993770_JCSE_BUY",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "08:33:13",
-      "time_kst": "22:33:13",
-      "symbol": "JCSE",
-      "company_name": "JCSE",
-      "exchange": "ND",
-      "price": 1.6,
-      "gain_pct": 0.0,
-      "mcap_m": 8.97,
-      "decision": "BUY",
-      "elapsed_sec": 47.2,
-      "reason": "보통주 주당 $0.20(수익률 12.5%) 현금배당 이사회 승인 및 당일 6-K 제출로 헌법 2조(배당 기폭제) 충족 매수 승인",
-      "catalyst_hint": "[당일 PR] JE Cleantech Holdings Limited Announces Declaration of Cash Dividend",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 JCSE (JE Cleantech Holdings Limited) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.97M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 (파격적인 현금배당 수익률 검증):\n보통주 1주당 현금배당액: US$0.20 per ordinary share.\n실시간 체결가 $1.6000 기준 **순수 현금배당수익률은 무려 +12.5%**에 달하며, 시가총액 대비 현금 직접 환원 규모가 압도적입니다.\n실시간 체결가 및 수급 (최적의 선취매 바닥 구간):\n전일 종가 $1.6000 대비 현재가 $1.6000 (+0.00%), 당일 최고가 $1.6100 (고점 대비 -0.6%), 당일 누적 거래대금 $0 USD.\n헌법 제1조 명문화 규정: \"거래량/상승률이 아직 0에 가까운 바닥 구간이어도 절대 감점·차단 사유가 아니며 오히려 최적의 선취매 타점임!\" 원칙에 완벽히 부합합니다.\n당일 SEC 공시 현황: 2026-11-16 [6-K] 정식 접수 완료 (EX-99.1 현금배당 공시 원문 결합).\n2. 당일 공식 PR 및 SEC 6-K 원문 직독 정밀 검증: 1급 배당 기폭제 충족\n당일(11/16 08:30 ET) 공식 PR 및 SEC 6-K 원문 분석:\nPR 제목: *\"JE Cleantech Holdings Limited Announces Declaration of Cash Dividend\"*\n본문 핵심: *\"Board of Directors approved a cash dividend of US$0.20 per ordinary share, to be funded out of the Company's share premium account. The dividend is payable to shareholders of record at the close of business on November 30, 2026... payment date is expected to be on or around December 11, 2026.\"*\n원문 직독 결과 드러난 1급 호재 실체:\n심사 헌법 제2조 ①항 명문화 요건(특별/현금배당) 정석 부합:\n연구소 심사 헌법 제2조: *\"시총($50.0M 이하) 대비 압도적인 확정 달러 수주/계약+현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주매입/소각, 특별배당이면 FORCE_BUY!\"*.\n앞서 차단된 FGC(우선주 8% 정기 배당)와 달리, JCSE는 **보통주 주주(per ordinary share)에게 전액 지급되는 순수 현금 배당(Cash Dividend)**입니다.\n회사의 주식발행초과금(share premium account) 계정에서 인출하여 주당 $0.20(현재가 대비 12.5% 수익률)를 직접 지급하는 구조적 주주환원 기폭제입니다.\n과거 180일 재탕 대조 무결점 (완전 신규 공시):\n과거 180일 이력(10/20 H1 실적 흑자전환 발표, 10/16 주총 소집 통지) 대조 시, 현금 배당 결의는 이번에 최초로 발표된 신규 호재입니다.\n분기 루틴 배당이 아니라 상반기 흑자전환 달성 후 잉여 자본을 환원하는 성격입니다.\n희석 폭탄 부재 (무희석 클린 상태):\n최근 35일 SEC 제출 이력상 활성 ATM(424B5), 신규 EFFECT 효력발생, 신주 투하가 전혀 없는 깨끗한 품절주 상태입니다.\n오늘 장전 배당 대장주 라인업 형성:\n오늘 07:04 ET에 승인된 **HIHO (주당 $0.43228 보통주 특별현금배당)**에 이어, JCSE (주당 $0.20 보통주 현금배당, 배당수익률 12.5%) 역시 헌법 제2조의 배당 호재 요건을 충족합니다.\n3. 최종 심사 및 결재 판정\nJCSE는 실질 시총 $8.97M의 초소형 품절주 체급에서 주당 $0.20(수익률 12.5%)에 달하는 보통주 현금배당을 이사회에서 공식 승인하고 당일 SEC 6-K를 동시 접수하여 연구소 심사 헌법 제2조 ①항(배당 기폭제) 및 제1조(바닥 구간 선취매) 조건을 정석 충족하였으므로 **FORCE_BUY: JCSE**로 승인합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: JCSE FORCE_BLOCK: NONE NOTES:\n[JCSE] 보통주 주당 $0.20(수익률 12.5%) 현금배당 이사회 승인 및 당일 6-K 제출로 헌법 2조(배당 기폭제) 충족 매수 승인 ===VERDICT_END===\n💡 오늘 장전 확정 승인 포트폴리오는 HIHO (특별현금배당 대장주), **PXLW (총 $10M 자사주 매입 승인주)**에 이어 **JCSE (보통주 현금배당 승인주)**까지 3종목으로 압축되었으며, 본장 개장 전후 추가 1급 기폭제 포착 시 즉시 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🚀 즉시 선점매수 승인!"
     }
   ],
   "hardcuts": [
