@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 19:02:47",
-  "updated_at_et": "2026-11-18 05:02:47",
-  "updated_epoch_ms": 1794996167716,
+  "updated_at_kst": "2026-11-18 19:06:45",
+  "updated_at_et": "2026-11-18 05:06:45",
+  "updated_epoch_ms": 1794996405291,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:02:39"
+    "updated_kst": "19:06:42"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 48,
+    "today_hardcut": 49,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "05:06:33",
+      "time_kst": "19:06:33",
+      "symbol": "TGL",
+      "company_name": "TGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "05:01:05",
       "time_kst": "19:01:05",
       "symbol": "CNXU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-13 [8-K] (Item 1.02,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "11:56:24",
-      "time_kst": "01:56:24",
-      "symbol": "FCHL",
-      "company_name": "FCHL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
     }
   ]
 }
