@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:55:08",
-  "updated_at_et": "2026-11-18 08:55:08",
-  "updated_epoch_ms": 1795010108891,
+  "updated_at_kst": "2026-11-18 22:56:03",
+  "updated_at_et": "2026-11-18 08:56:03",
+  "updated_epoch_ms": 1795010163498,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:55:00"
+    "updated_kst": "22:56:00"
   },
   "stats": {
     "today_total": 32,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:55:31",
+      "time_kst": "22:55:31",
+      "symbol": "GASS",
+      "company_name": "GASS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $295.39M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:55:28",
+      "time_kst": "22:55:28",
+      "symbol": "INTA",
+      "company_name": "INTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3451.61M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:48:25",
       "time_kst": "22:48:25",
       "symbol": "DCM",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $298.64M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:01:47",
-      "time_kst": "22:01:47",
-      "symbol": "INLF",
-      "company_name": "INLF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:01:43",
-      "time_kst": "22:01:43",
-      "symbol": "IAM",
-      "company_name": "IAM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $674.04M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
