@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:36:06",
-  "updated_at_et": "2026-11-18 08:36:06",
-  "updated_epoch_ms": 1795008966934,
+  "updated_at_kst": "2026-11-18 22:36:36",
+  "updated_at_et": "2026-11-18 08:36:36",
+  "updated_epoch_ms": 1795008996733,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MBRX",
+    "company_name": "MBRX",
+    "exchange": "ND",
+    "price": 6.83,
+    "gain_pct": 0.0,
+    "mcap_m": 7.25,
+    "catalyst_hint": "[당일 PR] Moleculin Strengthens Global Intellectual Property Portfolio Around Annamycin, Secures Korean Patent Allowance",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:36:31",
+    "started_at_kst": "22:36:31",
+    "started_epoch_ms": 1795008991428
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:35:58"
+    "updated_kst": "22:36:19"
   },
   "stats": {
     "today_total": 28,
