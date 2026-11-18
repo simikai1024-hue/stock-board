@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:22:33",
-  "updated_at_et": "2026-11-18 04:22:33",
-  "updated_epoch_ms": 1794993753529,
+  "updated_at_kst": "2026-11-18 18:23:37",
+  "updated_at_et": "2026-11-18 04:23:37",
+  "updated_epoch_ms": 1794993817443,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:22:16"
+    "updated_kst": "18:23:36"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 37,
+    "today_hardcut": 38,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:23:32",
+      "time_kst": "18:23:32",
+      "symbol": "CAPS",
+      "company_name": "CAPS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:22:31",
       "time_kst": "18:22:31",
       "symbol": "APVO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $53.32M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "10:16:01",
-      "time_kst": "00:16:01",
-      "symbol": "DENN",
-      "company_name": "DENN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
     }
   ]
 }
