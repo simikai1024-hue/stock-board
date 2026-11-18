@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:50:29",
-  "updated_at_et": "2026-11-18 09:50:29",
-  "updated_epoch_ms": 1795013429103,
+  "updated_at_kst": "2026-11-18 23:51:28",
+  "updated_at_et": "2026-11-18 09:51:28",
+  "updated_epoch_ms": 1795013488938,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:50:23"
+    "updated_kst": "23:51:28"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:51:23",
+      "time_kst": "23:51:23",
+      "symbol": "OSTX",
+      "company_name": "OSTX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:47:18",
       "time_kst": "23:47:18",
       "symbol": "RIME",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-13 [8-K] (Item 1.01,3.02,3.03,5.07,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:58:47",
-      "time_kst": "22:58:47",
-      "symbol": "ZTG",
-      "company_name": "ZTG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [424B5])"
     }
   ]
 }
