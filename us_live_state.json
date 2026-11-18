@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 20:46:06",
-  "updated_at_et": "2026-11-18 06:46:06",
-  "updated_epoch_ms": 1795002366964,
+  "updated_at_kst": "2026-11-18 20:47:02",
+  "updated_at_et": "2026-11-18 06:47:02",
+  "updated_epoch_ms": 1795002422733,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:46:01"
+    "updated_kst": "20:46:44"
   },
   "stats": {
     "today_total": 8,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "06:46:57",
+      "time_kst": "20:46:57",
+      "symbol": "TZOO",
+      "company_name": "TZOO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.53M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "06:40:13",
       "time_kst": "20:40:13",
       "symbol": "ZSTK",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-04 [424B4])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:04:43",
-      "time_kst": "18:04:43",
-      "symbol": "TRAW",
-      "company_name": "TRAW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
     }
   ]
 }
