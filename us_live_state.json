@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:14:58",
-  "updated_at_et": "2026-11-18 08:14:58",
-  "updated_epoch_ms": 1795007698526,
+  "updated_at_kst": "2026-11-18 22:15:36",
+  "updated_at_et": "2026-11-18 08:15:36",
+  "updated_epoch_ms": 1795007736175,
   "analyzing": {
-    "active": true,
-    "symbol": "ETS",
-    "company_name": "ETS",
-    "exchange": "ND",
-    "price": 1.695,
-    "gain_pct": 0.0,
-    "mcap_m": 21.27,
-    "catalyst_hint": "[당일 PR] Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:14:55",
-    "started_at_kst": "22:14:55",
-    "started_epoch_ms": 1795007695946
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:14:46"
+    "updated_kst": "22:15:26"
   },
   "stats": {
-    "today_total": 23,
-    "today_nblm_count": 23,
+    "today_total": 24,
+    "today_nblm_count": 24,
     "today_buy": 0,
-    "today_false": 23,
+    "today_false": 24,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 49.6
+    "avg_nblm_sec": 48.9
   },
   "verdicts": [
+    {
+      "id": "v_1795007727753_ETS_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "08:15:27",
+      "time_kst": "22:15:27",
+      "symbol": "ETS",
+      "company_name": "ETS",
+      "exchange": "ND",
+      "price": 1.695,
+      "gain_pct": 0.0,
+      "mcap_m": 21.27,
+      "decision": "FALSE",
+      "elapsed_sec": 35.0,
+      "reason": "확정 M&A 전무한 단순 잠재 인수대상 물색 계획(Plans to Pursue) 홍보 PR로 헌법 3조 4항 위배 및 장전 -15.9% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ETS (Elite Express Holding Inc.) 2026-11-18 08:14:52 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $21.27M USD (나스닥 Capital Market 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (헤드라인 $30.00M 수치의 치명적 허상 적발):\n언뜻 시총 대비 141.0%에 달하는 $30.00M 규모로 포장되었으나, 이는 회사 금고로 즉각 유입되는 확정 수주나 현금 선급금이 아니라 **\"향후 최대 $30M 규모의 잠재적 인수 대상을 물색·추진할 계획(Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets)\"**이라는 **단순 희망성 M&A 탐색 의향(Plans/Intention)**에 불과합니다.\n구속력 있는 확정 인수 본계약(Definitive Merger Agreement)이 전혀 아닙니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -15.9% 윗꼬리 덤핑 지속):\n전일 종가 $1.6950 대비 현재가 $1.6950 (+0.00%).\n당일 프리마켓 최고가 $2.0150을 찍은 직후 고점 대비 -15.9% 급락하며 프리마켓 윗꼬리 덤핑 출회 중.\n당일 누적 거래대금 $0 USD (09:30 정규장 개장 직전 극단적 호가 공백).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 M&A 본계약이 아닌 단순 '잠재적 인수 대상 탐색 계획(Plans to Pursue)' 언론플레이:\n원문 본문에 *\"today announced that it is seeking potential acquisition targets as part of its strategy to expand its business through strategic acquisitions. The Company plans to evaluate opportunities...\"*라고 명시되어 있습니다.\n이는 대상 기업과 최종 합의서에 서명한 '확정 M&A(Definitive Agreement)'가 전혀 아닙니다.\n단지 앞으로 인수 대상을 찾아보겠다는 **구속력과 실체성이 0%인 단순 의향/계획 발표(Expression of Intent)**에 불과합니다.\n외부 고객사로부터 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n향후 인수 자금 조달을 위한 신주 발행 유상증자(지분 희석) 위험 내포:\n시총 $21M 수준의 소형 적자 물류회사가 $30M 규모의 인수를 추진하겠다는 것은 향후 필연적으로 대규모 신주 발행, 전환사채(CB) 발행, 공모 유상증자(S-1/S-3 오퍼링)를 통해 주주 지분을 대규모 희석시킬 수밖에 없는 구조입니다.\n족보집 실전 교본상 '실체 없는 M&A 탐색 발표 후 주가 띄우기 -> 유증 덤핑'은 전형적인 소형주 설거지 수법으로 분류됩니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -15.9% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 M&A 탐색/계획(Plans/LOI/MOU) 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $2.0150까지 띄운 뒤 시장이 껍데기 계획임을 인지하자마자 고점 대비 -15.9% 급락하며 개미들에게 물량을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 M&A 본계약이나 현금 유입이 전무한 단순 잠재 인수 대상 탐색 계획(Plans to Pursue Acquisitions) 언론플레이에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -15.9% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ETS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: ETS NOTES:\n[ETS] 확정 M&A 전무한 단순 잠재 인수대상 물색 계획(Plans to Pursue) 홍보 PR로 헌법 3조 4항 위배 및 장전 -15.9% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS까지 총 17개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 지분 희석으로 정밀 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795007327549_ETS_FALSE",
       "date_et": "2026-11-18",
@@ -2424,29 +2432,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 INAB (IN8bio, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.86M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.8200 대비 현재가 $0.8201 (+0.01%), 당일 최고가 $0.8881 (장전 고점 대비 -7.7%), 당일 누적 거래대금 $2 USD (장전 거래량 실종 바닥 구간).\n선발표 규정 확인: 학회 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"IN8bio Reports Updated Glioblastoma Data at SNO 2026 Demonstrating Median Overall Survival of 20.9 Months and 50% Two-Year Survival with Gamma-Delta T Cell Therapy\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 학회(SNO 2026) 임상 데이터 업데이트 (Conference Update PR):\n본 PR의 본질은 신경종양학회(SNO 2026)에서 교모세포종 대상 감마-델타 T세포 치료제의 생존율 중간 업데이트 데이터(전체생존기간 중앙값 20.9개월 등)를 단순 구두/포스터 발표했다는 학회 발표 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 앞서 차단된 BLRX, CNSY와 동일한 SNO 2026 정기 학회 시즌 맞춤형 단순 경과 공유에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약, 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 실적 부진 및 자금 조달 리스크 잔존:\n과거 이력(11/05) 대조 결과, 회사는 3분기 순손실 확대(net loss widens)를 기록한 전형적인 자금 소진 바이오텍으로, 실체적 라이선스 아웃이나 현금 유입 없이는 지속적인 유상증자 오버행 위험에 노출되어 있습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터 업데이트는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 최종 승인이 아닌 단순 SNO 2026 학회 교모세포종 임상 업데이트 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: INAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: INAB NOTES:\n[INAB] FDA 최종 승인이 아닌 단순 SNO 2026 학회 임상 업데이트 발표로 1급 확정 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794833475103_DAVI_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:51:15",
-      "time_kst": "21:51:15",
-      "symbol": "DAVI",
-      "company_name": "DAVI",
-      "exchange": "ND",
-      "price": 1.0,
-      "gain_pct": 0.0,
-      "mcap_m": 25.0,
-      "decision": "FALSE",
-      "elapsed_sec": 60.0,
-      "reason": "실사·본계약 미체결 잠정 조건 합의(LOI) 및 신주발행 희석 수반, $17M은 피인수사 과거매출 착시로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Davion Healthcare Plc Agrees to Terms in Acquisition of Independence Care Homecare Network",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DAVI (Davion Healthcare Plc) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $25.0M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 매출 착시 적발):\n자동 추출된 핵심 금액 $17.00M USD는 외부에서 다비온(DAVI)으로 새로 유입되는 확정 수주 계약금이나 현금 매출이 아닙니다.\n원문 본문에 *\"The 14 businesses identified for acquisition generated combined revenues of approximately US$17 million in 2025\"*라고 명시되어 있듯, 이는 인수 대상 업체들(Independence Care 14개 사업체)의 과거 2025년도 합산 매출 수치에 불과합니다.\n실제 DAVI가 지급해야 할 대가는 **최대 $10M(현금 + DAVI 신주 발행 + 성과연동 어닝아웃)**으로, 오히려 회사 자금 지출 및 신주 발행에 따른 지분 희석 요인입니다.\n실시간 체결가 및 수급 (장전 피뢰침 덤핑):\n전일 종가 $1.0000 대비 현재가 **$1.0000 (+0.00%)**.\n당일 최고가 $1.1948까지 반짝 상승 후 장전 고점 대비 -16.3% 수직 덤핑 발생하며 상승폭을 전부 반납하고 보합선으로 추락.\n당일 누적 거래대금 $22,755 USD (거래량 극도로 부진).\n선발표 규정 확인: M&A 조건 합의 발표는 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:48 ET) 공식 PR 원문 분석:\nPR 제목: *\"Davion Healthcare Plc Agrees to Terms in Acquisition of Independence Care Homecare Network\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 종결된 M&A가 아닌 잠정 조건 합의(Agrees to Terms) 및 실사 전 단계:\n원문 본문에서 *\"The transaction remains subject to satisfactory due diligence, definitive agreements and required regulatory approvals... There can be no assurance that the transaction will proceed on the terms described or at all.\"*라고 명시적으로 경고하고 있습니다.\n즉, 법적 구속력을 갖춘 최종 본계약(Definitive Agreement) 체결이나 거래 완료(Closing)가 아니라, **실사(Due Diligence) 및 본계약 체결을 전제로 한 잠정 조건 합의(LOI 성격)**에 불과합니다.\nDAVI 신주 발행(Shares Issuance) 수반에 따른 잠재적 희석 위험:\n인수 대가 최대 $10M 중 상당 부분이 DAVI 신주(Davion shares) 발행 및 성과급으로 구성되어 있어 유통 주식 수 증가로 인한 희석 오버행을 수반합니다.\n과거 180일 연속된 M&A/인수자금 IR 재탕 패턴:\n과거 이력 대조 결과, 회사는 10월 26일($25M 기술 IP 인수), 10월 29일($13.5M 홈헬스케어 인수 합의), 11월 6일(비엔나 캐피탈과 $100M 인수 자금 조달 자문 계약) 등 인수 추진 명목의 홍보성 보도자료를 지속적으로 남발해 왔습니다.\n족보집 이력상 11월 9일에도 장전 반짝 상승(+13.2%) 후 -1.9% 설거지 하락 마감한 전형적인 재탕성 IR 패턴을 보였습니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)의 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+오버행 해소(ONFO형)\" 기준에 부합하는 확정 호재가 일절 없습니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '확정 종결이 아닌 잠정 조건 합의/반복적 인수 추진 발표 및 장전 고점 대비 급락은 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정 종결된 M&A가 아닌 단순 실사·본계약 조건부 잠정 합의에 불과하며, $17M은 피인수 업체의 과거 매출 착시이고 장전 최고가 $1.1948에서 -16.3% 급락하여 보합($1.0000)으로 주저앉았으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: DAVI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: DAVI NOTES:\n[DAVI] 실사·본계약 미체결 잠정 조건 합의(LOI) 및 신주발행 희석 수반, $17M은 피인수사 과거매출 착시로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:15:29",
+      "time_kst": "22:15:29",
+      "symbol": "CCLDO",
+      "company_name": "CCLDO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:15:23",
+      "time_kst": "22:15:23",
+      "symbol": "CCLD",
+      "company_name": "CCLD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $95.74M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-18",
       "time_et": "08:14:52",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3463.96M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:24:23",
-      "time_kst": "21:24:23",
-      "symbol": "TELO",
-      "company_name": "TELO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:23:42",
-      "time_kst": "21:23:42",
-      "symbol": "BRNX",
-      "company_name": "BRNX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [424B5])"
     }
   ]
 }
