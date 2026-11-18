@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:30:23",
-  "updated_at_et": "2026-11-18 09:30:23",
-  "updated_epoch_ms": 1795012223486,
+  "updated_at_kst": "2026-11-18 23:31:10",
+  "updated_at_et": "2026-11-18 09:31:10",
+  "updated_epoch_ms": 1795012270407,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 0,
     "orderable_usd": 1057.54,
     "daily_done": false,
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:30:05"
+    "updated_kst": "23:31:05"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:31:05",
+      "time_kst": "23:31:05",
+      "symbol": "CITR",
+      "company_name": "CITR",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:30:55",
+      "time_kst": "23:30:55",
+      "symbol": "VTSI",
+      "company_name": "VTSI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:30:44",
+      "time_kst": "23:30:44",
+      "symbol": "AMCI",
+      "company_name": "AMCI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:30:15",
       "time_kst": "23:30:15",
       "symbol": "VAI",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $109.1M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:35:23",
-      "time_kst": "22:35:23",
-      "symbol": "OSIS",
-      "company_name": "OSIS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2941.65M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:35:18",
-      "time_kst": "22:35:18",
-      "symbol": "OLOX",
-      "company_name": "OLOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:35:14",
-      "time_kst": "22:35:14",
-      "symbol": "FEAM",
-      "company_name": "FEAM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $75.94M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
