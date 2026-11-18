@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:32:09",
-  "updated_at_et": "2026-11-18 09:32:09",
-  "updated_epoch_ms": 1795012329907,
+  "updated_at_kst": "2026-11-18 23:33:13",
+  "updated_at_et": "2026-11-18 09:33:13",
+  "updated_epoch_ms": 1795012393551,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:32:04"
+    "updated_kst": "23:33:05"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:32:40",
+      "time_kst": "23:32:40",
+      "symbol": "RSSS",
+      "company_name": "RSSS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $71.58M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:32:10",
+      "time_kst": "23:32:10",
+      "symbol": "RIME",
+      "company_name": "RIME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Algorhythm Announces Reverse Stock Split)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:31:43",
       "time_kst": "23:31:43",
       "symbol": "NCT",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $295.39M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:55:28",
-      "time_kst": "22:55:28",
-      "symbol": "INTA",
-      "company_name": "INTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3451.61M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:48:25",
-      "time_kst": "22:48:25",
-      "symbol": "DCM",
-      "company_name": "DCM",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
     }
   ]
 }
