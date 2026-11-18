@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:01:41",
-  "updated_at_et": "2026-11-18 08:01:41",
-  "updated_epoch_ms": 1795006901316,
+  "updated_at_kst": "2026-11-18 22:01:49",
+  "updated_at_et": "2026-11-18 08:01:49",
+  "updated_epoch_ms": 1795006909286,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DXR",
+    "company_name": "DXR",
+    "exchange": "ND",
+    "price": 8.095,
+    "gain_pct": 0.0,
+    "mcap_m": 47.26,
+    "catalyst_hint": "[당일 PR] Major Memphis Health System Expands BVA® Adoption to New Hospital Outpatient Site",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:01:43",
+    "started_at_kst": "22:01:43",
+    "started_epoch_ms": 1795006903986
   },
   "halt_watch": {
     "active": false
@@ -2437,6 +2449,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:01:47",
+      "time_kst": "22:01:47",
+      "symbol": "INLF",
+      "company_name": "INLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:01:43",
+      "time_kst": "22:01:43",
+      "symbol": "IAM",
+      "company_name": "IAM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $674.04M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:01:41",
+      "time_kst": "22:01:41",
+      "symbol": "ZJK",
+      "company_name": "ZJK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $68.18M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:01:38",
       "time_kst": "22:01:38",
       "symbol": "CRNC",
@@ -2904,36 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1510.4M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:52:42",
-      "time_kst": "20:52:42",
-      "symbol": "CG",
-      "company_name": "CG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $13519.55M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:46:57",
-      "time_kst": "20:46:57",
-      "symbol": "TZOO",
-      "company_name": "TZOO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.53M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:40:13",
-      "time_kst": "20:40:13",
-      "symbol": "ZSTK",
-      "company_name": "ZSTK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.15M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
