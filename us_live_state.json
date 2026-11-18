@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 20:55:30",
-  "updated_at_et": "2026-11-18 06:55:30",
-  "updated_epoch_ms": 1795002930838,
+  "updated_at_kst": "2026-11-18 20:55:56",
+  "updated_at_et": "2026-11-18 06:55:56",
+  "updated_epoch_ms": 1795002956638,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "GIXI",
+    "company_name": "GIXI",
+    "exchange": "ND",
+    "price": 3.06,
+    "gain_pct": 0.0,
+    "mcap_m": 7.63,
+    "catalyst_hint": "[당일 PR] Gix Internet: Quantum X Labs Achieves 99.93% Data Recovery in Qatacomb Quantum Cybersecurity Validation Using IonQ’s Quantum Computing Infrastructure",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:55:52",
+    "started_at_kst": "20:55:52",
+    "started_epoch_ms": 1795002952037
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:55:26"
+    "updated_kst": "20:55:48"
   },
   "stats": {
     "today_total": 8,
