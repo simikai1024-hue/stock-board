@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 00:07:30",
-  "updated_at_et": "2026-11-18 10:07:30",
-  "updated_epoch_ms": 1795014450333,
+  "updated_at_kst": "2026-11-19 00:08:33",
+  "updated_at_et": "2026-11-18 10:08:33",
+  "updated_epoch_ms": 1795014513394,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:07:25"
+    "updated_kst": "00:08:28"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "10:08:03",
+      "time_kst": "00:08:03",
+      "symbol": "NXTS",
+      "company_name": "NXTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 3.02))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "10:07:30",
+      "time_kst": "00:07:30",
+      "symbol": "PRTH",
+      "company_name": "PRTH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $653.16M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "10:07:25",
       "time_kst": "00:07:25",
       "symbol": "ROP",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $84.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:02:50",
-      "time_kst": "23:02:50",
-      "symbol": "SZZL",
-      "company_name": "SZZL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $329.86M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:01:44",
-      "time_kst": "23:01:44",
-      "symbol": "SEZL",
-      "company_name": "SEZL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5211.09M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
