@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:07:47",
-  "updated_at_et": "2026-11-18 07:07:47",
-  "updated_epoch_ms": 1795003667334,
+  "updated_at_kst": "2026-11-18 21:08:43",
+  "updated_at_et": "2026-11-18 07:08:43",
+  "updated_epoch_ms": 1795003723831,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BLRX",
+    "company_name": "BLRX",
+    "exchange": "ND",
+    "price": 1.07,
+    "gain_pct": -4.46,
+    "mcap_m": 5.33,
+    "catalyst_hint": "[당일 PR] BioLineRx Enters into $5.6 Million Royalty Monetization Transaction with Soleus Capital",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:08:35",
+    "started_at_kst": "21:08:35",
+    "started_epoch_ms": 1795003715470
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:07:39"
+    "updated_kst": "21:08:39"
   },
   "stats": {
     "today_total": 12,
