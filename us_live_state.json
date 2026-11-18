@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 20:58:31",
-  "updated_at_et": "2026-11-18 06:58:31",
-  "updated_epoch_ms": 1795003111857,
+  "updated_at_kst": "2026-11-18 20:59:36",
+  "updated_at_et": "2026-11-18 06:59:36",
+  "updated_epoch_ms": 1795003176818,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:58:29"
+    "updated_kst": "20:59:28"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "06:59:00",
+      "time_kst": "20:59:00",
+      "symbol": "CNL",
+      "company_name": "CNL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1015.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "06:55:25",
       "time_kst": "20:55:25",
       "symbol": "GLNG",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $74.97M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:10:19",
-      "time_kst": "18:10:19",
-      "symbol": "III",
-      "company_name": "III",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $289.47M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
