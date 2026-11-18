@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:51:07",
-  "updated_at_et": "2026-11-18 07:51:07",
-  "updated_epoch_ms": 1795006267018,
+  "updated_at_kst": "2026-11-18 21:51:22",
+  "updated_at_et": "2026-11-18 07:51:22",
+  "updated_epoch_ms": 1795006282997,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MASK",
+    "company_name": "MASK",
+    "exchange": "ND",
+    "price": 1.9523,
+    "gain_pct": 6.68,
+    "mcap_m": 7.24,
+    "catalyst_hint": "[당일 PR] 3 E Network Technology Group Limited Regains Compliance with Nasdaq Listing Requirements",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:51:14",
+    "started_at_kst": "21:51:14",
+    "started_epoch_ms": 1795006274708
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:50:58"
+    "updated_kst": "21:51:19"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:51:22",
+      "time_kst": "21:51:22",
+      "symbol": "NCPL",
+      "company_name": "NCPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:50:13",
       "time_kst": "21:50:13",
       "symbol": "CLRO",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $118.63M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:22:03",
-      "time_kst": "20:22:03",
-      "symbol": "RGS",
-      "company_name": "RGS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $56.42M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
