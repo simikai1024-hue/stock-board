@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:01:33",
-  "updated_at_et": "2026-11-18 09:01:33",
-  "updated_epoch_ms": 1795010493703,
+  "updated_at_kst": "2026-11-18 23:02:42",
+  "updated_at_et": "2026-11-18 09:02:42",
+  "updated_epoch_ms": 1795010562976,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:01:29"
+    "updated_kst": "23:02:34"
   },
   "stats": {
     "today_total": 32,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:01:44",
+      "time_kst": "23:01:44",
+      "symbol": "SEZL",
+      "company_name": "SEZL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5211.09M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:01:38",
+      "time_kst": "23:01:38",
+      "symbol": "BL",
+      "company_name": "BL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1533.37M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:01:33",
+      "time_kst": "23:01:33",
+      "symbol": "TENB",
+      "company_name": "TENB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4034.01M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:01:28",
       "time_kst": "23:01:28",
       "symbol": "SWRD",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $114872.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:04:54",
-      "time_kst": "22:04:54",
-      "symbol": "RNTZ",
-      "company_name": "RNTZ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 투매 급락 구간 방어 차단 (현재 -8.9% <= -8.0%)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:04:28",
-      "time_kst": "22:04:28",
-      "symbol": "IPDN",
-      "company_name": "IPDN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-21 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:03:52",
-      "time_kst": "22:03:52",
-      "symbol": "CHTR",
-      "company_name": "CHTR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $22244.62M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
