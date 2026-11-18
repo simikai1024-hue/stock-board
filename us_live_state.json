@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:11:48",
-  "updated_at_et": "2026-11-18 08:11:48",
-  "updated_epoch_ms": 1795007508565,
+  "updated_at_kst": "2026-11-18 22:12:53",
+  "updated_at_et": "2026-11-18 08:12:53",
+  "updated_epoch_ms": 1795007573070,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:11:43"
+    "updated_kst": "22:12:44"
   },
   "stats": {
     "today_total": 23,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:12:10",
+      "time_kst": "22:12:10",
+      "symbol": "NNOX",
+      "company_name": "NNOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:07:49",
       "time_kst": "22:07:49",
       "symbol": "FFR",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $7032.38M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:23:27",
-      "time_kst": "21:23:27",
-      "symbol": "BOF",
-      "company_name": "BOF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
     }
   ]
 }
