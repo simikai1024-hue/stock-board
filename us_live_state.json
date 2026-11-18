@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 00:58:02",
-  "updated_at_et": "2026-11-18 10:58:02",
-  "updated_epoch_ms": 1795017482134,
+  "updated_at_kst": "2026-11-19 00:59:09",
+  "updated_at_et": "2026-11-18 10:59:09",
+  "updated_epoch_ms": 1795017549094,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:57:56"
+    "updated_kst": "00:59:00"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "10:58:05",
+      "time_kst": "00:58:05",
+      "symbol": "ZBRA",
+      "company_name": "ZBRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $14701.19M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "10:50:22",
       "time_kst": "00:50:22",
       "symbol": "VIVO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-15 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:06:03",
-      "time_kst": "23:06:03",
-      "symbol": "AMZN",
-      "company_name": "AMZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2788590.36M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
