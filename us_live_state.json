@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 19:50:32",
-  "updated_at_et": "2026-11-18 05:50:32",
-  "updated_epoch_ms": 1794999032475,
+  "updated_at_kst": "2026-11-18 19:51:33",
+  "updated_at_et": "2026-11-18 05:51:33",
+  "updated_epoch_ms": 1794999093973,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:50:24"
+    "updated_kst": "19:51:25"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 53,
+    "today_hardcut": 54,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "05:50:59",
+      "time_kst": "19:50:59",
+      "symbol": "CODX",
+      "company_name": "CODX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K/A] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "05:46:07",
       "time_kst": "19:46:07",
       "symbol": "LAES",
@@ -2924,16 +2934,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $63.47M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:01:30",
-      "time_kst": "18:01:30",
-      "symbol": "SCAG",
-      "company_name": "SCAG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $61.17M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
