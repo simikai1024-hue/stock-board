@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:23:30",
-  "updated_at_et": "2026-11-18 07:23:30",
-  "updated_epoch_ms": 1795004610373,
+  "updated_at_kst": "2026-11-18 21:24:28",
+  "updated_at_et": "2026-11-18 07:24:28",
+  "updated_epoch_ms": 1795004668744,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:23:09"
+    "updated_kst": "21:24:14"
   },
   "stats": {
     "today_total": 13,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:24:23",
+      "time_kst": "21:24:23",
+      "symbol": "TELO",
+      "company_name": "TELO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:23:42",
+      "time_kst": "21:23:42",
+      "symbol": "BRNX",
+      "company_name": "BRNX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-14 [424B5])"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:23:36",
+      "time_kst": "21:23:36",
+      "symbol": "CPB",
+      "company_name": "CPB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $7032.38M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:23:27",
       "time_kst": "21:23:27",
       "symbol": "BOF",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:35:36",
-      "time_kst": "18:35:36",
-      "symbol": "SUIG",
-      "company_name": "SUIG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.14M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:32:52",
-      "time_kst": "18:32:52",
-      "symbol": "MOBX",
-      "company_name": "MOBX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:32:40",
-      "time_kst": "18:32:40",
-      "symbol": "VHUB",
-      "company_name": "VHUB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
     }
   ]
 }
