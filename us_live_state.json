@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:03:54",
-  "updated_at_et": "2026-11-18 07:03:54",
-  "updated_epoch_ms": 1795003434575,
+  "updated_at_kst": "2026-11-18 21:04:30",
+  "updated_at_et": "2026-11-18 07:04:30",
+  "updated_epoch_ms": 1795003470820,
   "analyzing": {
-    "active": true,
-    "symbol": "WKHS",
-    "company_name": "WKHS",
-    "exchange": "ND",
-    "price": 2.08,
-    "gain_pct": 9.47,
-    "mcap_m": 22.73,
-    "catalyst_hint": "[당일 PR] Workhorse Expands Canadian Dealer Network, Partners with BDS Fleet Service to Sell and Service All-electric W56 Step Vans in Ontario",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:03:46",
-    "started_at_kst": "21:03:46",
-    "started_epoch_ms": 1795003426395
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:03:34"
+    "updated_kst": "21:04:15"
   },
   "stats": {
-    "today_total": 10,
-    "today_nblm_count": 10,
+    "today_total": 11,
+    "today_nblm_count": 11,
     "today_buy": 0,
-    "today_false": 10,
+    "today_false": 11,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 11,
-    "total_false": 139,
-    "avg_nblm_sec": 47.4
+    "total_buy": 10,
+    "total_false": 140,
+    "avg_nblm_sec": 46.9
   },
   "verdicts": [
+    {
+      "id": "v_1795003465565_WKHS_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "07:04:25",
+      "time_kst": "21:04:25",
+      "symbol": "WKHS",
+      "company_name": "WKHS",
+      "exchange": "ND",
+      "price": 2.08,
+      "gain_pct": 9.47,
+      "mcap_m": 22.73,
+      "decision": "FALSE",
+      "elapsed_sec": 42.3,
+      "reason": "확정 수주 전무한 단순 캐나다 딜러망 추가 제휴 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -19.1% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Workhorse Expands Canadian Dealer Network, Partners with BDS Fleet Service to Sell and Service All-electric W56 Step Vans in Ontario",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 WKHS (Workhorse Group, Inc.) 2026-11-18 07:03 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.73M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과) [721].\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정된 대량 차량 판매 수주 계약이 아니라, 단순 캐나다 온타리오 지역의 BDS 플릿 서비스(BDS Fleet Service)와의 **딜러 판매망 제휴 계약(Dealer Agreement to sell and service vehicles in Ontario)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -19.1% 급락 덤핑):\n전일 종가 $1.9000 대비 현재가 $2.0800 (+9.47%), 당일 최고가 $2.5700 (고점 대비 -19.1%).\n당일 누적 거래대금 $11,364 USD (1만1천 달러 수준의 극소액 프리마켓 거래량).\n장전 프리마켓에서 $2.5700까지 튄 직후 -19.1% 급락하며 개인 매수세를 유인하고 매물대를 덤핑 중인 전형적인 윗꼬리 차트.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다 [721].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Workhorse Expands Canadian Dealer Network, Partners with BDS Fleet Service to Sell and Service All-electric W56 Step Vans in Ontario\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 딜러망 추가 제휴 홍보물 (Dealer Agreement PR):\n원문 본문에 *\"today announced it has signed a dealer agreement with BDS Fleet Service... to sell Workhorse vehicles in Ontario, Canada. The agreement is Workhorse’s second dealer partnership in Canada...\"*라고 명시되어 있습니다.\n이는 플릿 고객사로부터 차량 수백~수천 대를 확정 판매하여 대금이 유입되는 대형 상업 수주가 아니라, 현지 딜러사와 판매 대행 계약을 맺었다는 단순 판매 유통망 확장(Dealer Network Expansion) 홍보에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다 [722].\n11월 16일 실적 발표(Q3 실적 어닝콜) 직후 나온 전형적인 후속 IR 포장 (Spin PR):\n과거 이력 대조 결과 회사는 불과 이틀 전인 11월 16일과 17일에 3분기 실적 발표(순차적 매출 증가)와 어닝콜을 마친 상태입니다.\n실적 발표 직후 주가 부양을 위해 통상적인 지역 딜러 계약을 호재처럼 포장해 배포한 **전형적인 금액 미기재 언론 플레이(Spin PR)**입니다 [722].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [722].\n심사 헌법 제3조 ④항 위배 및 장전 -19.1% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 딜러/제휴/파트너십 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 [722].\n장전 프리마켓에서 $2.5700까지 띄운 뒤 고점 대비 -19.1% 급락하며 개미들에게 물량을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 차량 판매 수주액이나 현금 선급금이 전무한 단순 캐나다 지역 딜러망 추가 제휴 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -19.1% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: WKHS 처리합니다 [722].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WKHS NOTES:\n[WKHS] 확정 수주 전무한 단순 캐나다 딜러망 추가 제휴 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -19.1% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI에 이어 WKHS까지 총 9개 종목 전수가 껍데기 제휴, 단순 실적, 상장폐지 경고 결함 통보로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795003409432_KNDI_FALSE",
       "date_et": "2026-11-18",
@@ -2424,26 +2432,6 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BLRX (BioLineRx Ltd.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.57M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/라이선스 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $1.3000 대비 현재가 $1.3200 (+1.54%), 당일 최고가 $1.5600 (장전 고점 대비 -15.4% 윗꼬리 덤핑), 당일 누적 거래대금 $59 USD (극소액 체결 상태).\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"BioLineRx and Hemispherian Present Phase 1/2a Clinical Study and Pre-Clinical Updates, Including Brain PK/PD Data, at SNO 2026\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 신약 성공이 아닌 단순 학회 발표/임상 중간 데이터 업데이트 (Conference Presentation PR):\n본 PR의 본질은 신경종양학회(SNO 2026)에서 파트너사 Hemispherian과 함께 GLIX1의 임상 1/2a상 4번째 코호트 개시 및 전임상 뇌 PK/PD 데이터를 구두/포스터 발표(Present Updates)한다는 단순 학회 발표 보도자료입니다.\n연구소 심사 헌법 제2조에서 FORCE_BUY 대상으로 규정한 'FDA 정식 품목 허가 승인(Approval)'이나 '임상 최종 성공(Endpoint Met)'이 아니며, 초기 단계(임상 1/2a상)의 단순 진행 현황 공유에 불과합니다.\n과거 학회 발표의 반복성 재탕 패턴 (ESMO → SNO):\n과거 180일 이력(2026-10-23) 대조 결과, 불과 3주 전에도 ESMO 2026 학회에서 GLIX1 전임상 데이터를 발표했다는 유사 보도자료를 낸 바 있으며, 이번 SNO 2026 발표 역시 정기 학회 시즌마다 반복되는 우려먹기성 IR 데이터 발표에 해당합니다.\n확정 현금 유입 및 1급 금융 기폭제 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 확정 달러 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 설거지:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 진행 업데이트는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.5600까지 반짝 상승 후 고점 대비 -15.4% 밀리며 거래대금이 59달러에 불과한 전형적인 무수급 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 최종 승인이나 확정 계약이 아닌 단순 학회(SNO 2026) 임상 1/2a상 중간 업데이트 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -15.4% 밀리는 윗꼬리 수급이 발생했으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BLRX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: BLRX NOTES:\n[BLRX] FDA 최종 승인이 아닌 단순 SNO 학회 임상 1/2a상 중간 데이터 발표 PR로 1급 기폭제 미달 및 장전 고점 대비 -15.4% 밀림으로 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 방금 07:04 ET에 승인된 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42%/배당률 55% 확정, 거래대금 100만불 돌파)**가 유일한 진성 대장주로 확정되었으며, 추가 1급 기폭제 출현 시 즉시 정밀 직독 결재를 진행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794830708855_HIHO_BUY",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:05:08",
-      "time_kst": "21:05:08",
-      "symbol": "HIHO",
-      "company_name": "HIHO",
-      "exchange": "ND",
-      "price": 1.0285,
-      "gain_pct": 31.02,
-      "mcap_m": 4.76,
-      "decision": "BUY",
-      "elapsed_sec": 31.6,
-      "reason": "주당 $0.43228(총 $2.0M, 시총 대비 42%/수익률 55%) 현금 특별배당 공식 결의 및 100만불 수급 동반 대박 PR(헌법 2조)로 즉시 매수 승인",
-      "catalyst_hint": "[당일 PR] HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 HIHO (Highway Holdings Limited) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.76M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모 (압도적 현금 배당 비율):\n금번 특별현금배당 총액은 $2.00M USD로, 실질 시가총액($4.76M) 대비 무려 **42.0%**에 달하는 초대형 현금 환원입니다.\n1주당 배당금은 $0.43228 USD로, 전일 종가($0.7850) 대비 배당수익률만 **+55.07%**에 달하는 파격적인 현금 직지급 확정입니다.\n실시간 체결가 및 수급: 전일 종가 $0.7850 대비 현재가 $1.0285 (+31.02%), 당일 최고가 $1.0500 (고점 대비 -2.0% 초강세 유지), 당일 누적 거래대금 $1,031,924 USD (장전 100만 달러 이상 진성 거래대금 폭발 유입).\n선발표 규정 확인: 배당 결의 후 4영업일 이내 6-K 제출 유예 규정 구간으로, 당일 6-K 미접수 사유는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증: 1급 특급 시그널(특별배당) 공식 충족\n당일(11/16 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND\"\n원문 직독 결과 드러난 핵심 팩트:\n주당 $0.43228 현금 특별배당 공식 선언 (Special Cash Dividend):\n원문 본문에 *\"announced declaration by the Special Committee of the Board of Directors of a US$0.43228 per common share cash special dividend payable on November 30, 2026. The amount equals US$2.0 million payable pro rata to holders of the Company's common shares as of November 27, 2026\"*라고 명시되어 있습니다.\n이사회 특별위원회가 주당 $0.43228 현금 배당(기준일 11월 27일, 지급일 11월 30일)을 전격 결의 확정했습니다.\n체급 대비 압도적 배당 규모 (시총의 42%, 주가의 55%):\n총 배당금 $2.0M은 시총($4.76M)의 42%에 달하며, 주당 배당금 $0.43228은 주가 0.7달러선 페니주에게 이론상 주가 하방을 완전히 지지하고 폭등을 유발하는 1급 실체적 현금 기폭제입니다.\n재탕이 아닌 직전 David Lazar $7.0M 투자 완료 후속 실체적 주주환원:\n과거 이력(11/05)의 David Lazar $7.0M 전략적 투자 유치 완료 이후 유입된 풍부한 현금을 기반으로 실행된 신규 확정 주주환원(특별배당) 1급 공시입니다.\n심사 헌법 제2조 ①항 완벽 부합:\n연구소 심사 헌법 제2조: \"시총($50.0M 이하) 대비 압도적인 확정 달러 수주/계약+현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주매입/소각, 특별배당이면 FORCE_BUY!\" 규칙에 100% 정밀 부합합니다.\n희석 폭탄 부재:\n당일 활성 424B5(ATM) 출회나 신규 EFFECT 및 8-K 3.02 신주 물량 투하가 일절 없습니다.\n3. 최종 심사 및 결재 판정\n시총 약 $4.76M의 초소형 품절주가 시총의 42%에 달하는 총 $2.0M(주당 $0.43228, 배당률 +55%)의 현금 특별배당을 공식 확정 발표하였으며, 장전 100만 달러 이상의 대규모 수급이 동반된 무결점 1급 대장주 표본이므로 연구소 4대 심사 헌법 제2조에 의거 **FORCE_BUY: HIHO**로 즉시 매수 승인합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: HIHO FORCE_BLOCK: NONE NOTES:\n[HIHO] 주당 $0.43228(총 $2.0M, 시총 대비 42%/수익률 55%) 현금 특별배당 공식 결의 및 100만불 수급 동반 대박 PR(헌법 2조)로 즉시 매수 승인 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "💰 익절 완료: 808주 | 매수 $1.0900 → 매도 $1.2701 (+16.52% / +145.52$)"
     }
   ],
   "hardcuts": [
