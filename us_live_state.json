@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:31:10",
-  "updated_at_et": "2026-11-18 09:31:10",
-  "updated_epoch_ms": 1795012270407,
+  "updated_at_kst": "2026-11-18 23:32:09",
+  "updated_at_et": "2026-11-18 09:32:09",
+  "updated_epoch_ms": 1795012329907,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:31:05"
+    "updated_kst": "23:32:04"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:31:43",
+      "time_kst": "23:31:43",
+      "symbol": "NCT",
+      "company_name": "NCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $182.45M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:31:28",
+      "time_kst": "23:31:28",
+      "symbol": "DWSN",
+      "company_name": "DWSN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.76M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "09:31:10",
+      "time_kst": "23:31:10",
+      "symbol": "COSM",
+      "company_name": "COSM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $286.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:31:05",
       "time_kst": "23:31:05",
       "symbol": "CITR",
@@ -2904,36 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:48:20",
-      "time_kst": "22:48:20",
-      "symbol": "VUZI",
-      "company_name": "VUZI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $103.04M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:45:28",
-      "time_kst": "22:45:28",
-      "symbol": "DRMA",
-      "company_name": "DRMA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:44:20",
-      "time_kst": "22:44:20",
-      "symbol": "SSTI",
-      "company_name": "SSTI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $109.1M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
