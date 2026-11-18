@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:06:26",
-  "updated_at_et": "2026-11-18 08:06:26",
-  "updated_epoch_ms": 1795007186341,
+  "updated_at_kst": "2026-11-18 22:06:59",
+  "updated_at_et": "2026-11-18 08:06:59",
+  "updated_epoch_ms": 1795007219408,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ETS",
+    "company_name": "ETS",
+    "exchange": "ND",
+    "price": 1.695,
+    "gain_pct": 0.0,
+    "mcap_m": 21.27,
+    "catalyst_hint": "[당일 PR] Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:06:54",
+    "started_at_kst": "22:06:54",
+    "started_epoch_ms": 1795007214679
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:06:21"
+    "updated_kst": "22:06:41"
   },
   "stats": {
     "today_total": 22,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:06:44",
+      "time_kst": "22:06:44",
+      "symbol": "BLLN",
+      "company_name": "BLLN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4658.05M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:05:52",
       "time_kst": "22:05:52",
       "symbol": "LTRN",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:20:37",
-      "time_kst": "21:20:37",
-      "symbol": "SLS",
-      "company_name": "SLS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3903.9M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
