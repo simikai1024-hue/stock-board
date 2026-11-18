@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 00:21:39",
-  "updated_at_et": "2026-11-18 10:21:39",
-  "updated_epoch_ms": 1795015299297,
+  "updated_at_kst": "2026-11-19 00:22:45",
+  "updated_at_et": "2026-11-18 10:22:45",
+  "updated_epoch_ms": 1795015365336,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:21:35"
+    "updated_kst": "00:22:37"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "10:21:48",
+      "time_kst": "00:21:48",
+      "symbol": "NMRK",
+      "company_name": "NMRK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1844.91M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "10:21:34",
       "time_kst": "00:21:34",
       "symbol": "CCG",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $26821.8M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:05:39",
-      "time_kst": "23:05:39",
-      "symbol": "CSCO",
-      "company_name": "CSCO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $374446.17M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
