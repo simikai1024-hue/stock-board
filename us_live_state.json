@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:45:25",
-  "updated_at_et": "2026-11-18 08:45:25",
-  "updated_epoch_ms": 1795009525117,
+  "updated_at_kst": "2026-11-18 22:45:38",
+  "updated_at_et": "2026-11-18 08:45:38",
+  "updated_epoch_ms": 1795009538046,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MBRX",
+    "company_name": "MBRX",
+    "exchange": "ND",
+    "price": 6.83,
+    "gain_pct": 0.0,
+    "mcap_m": 7.25,
+    "catalyst_hint": "[당일 PR] Moleculin Strengthens Global Intellectual Property Portfolio Around Annamycin, Secures Korean Patent Allowance",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:45:32",
+    "started_at_kst": "22:45:32",
+    "started_epoch_ms": 1795009532544
   },
   "halt_watch": {
     "active": false
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:45:28",
+      "time_kst": "22:45:28",
+      "symbol": "DRMA",
+      "company_name": "DRMA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:44:20",
       "time_kst": "22:44:20",
       "symbol": "SSTI",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $322.49M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:00:53",
-      "time_kst": "22:00:53",
-      "symbol": "JRVR",
-      "company_name": "JRVR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $139.67M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
