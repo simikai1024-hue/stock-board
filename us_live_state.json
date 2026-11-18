@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 04:13:48",
-  "updated_at_et": "2026-11-18 14:13:48",
-  "updated_epoch_ms": 1795029228396,
+  "updated_at_kst": "2026-11-19 04:14:50",
+  "updated_at_et": "2026-11-18 14:14:50",
+  "updated_epoch_ms": 1795029290759,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 23.4,
     "daily_done": true,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "04:13:38"
+    "holding_symbol": "CLRO",
+    "holding_qty": 131,
+    "avg_price": 7.8745,
+    "current_price": 7.51,
+    "profit_rate": -4.63,
+    "updated_kst": "04:14:46"
   },
   "stats": {
     "today_total": 41,
