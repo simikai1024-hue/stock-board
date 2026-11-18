@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:41:44",
-  "updated_at_et": "2026-11-18 07:41:44",
-  "updated_epoch_ms": 1795005704652,
+  "updated_at_kst": "2026-11-18 21:42:38",
+  "updated_at_et": "2026-11-18 07:42:38",
+  "updated_epoch_ms": 1795005758172,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:41:39"
+    "updated_kst": "21:42:17"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:42:32",
+      "time_kst": "21:42:32",
+      "symbol": "IMCC",
+      "company_name": "IMCC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:34:01",
       "time_kst": "21:34:01",
       "symbol": "TGTX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $8533.48M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:02:01",
-      "time_kst": "20:02:01",
-      "symbol": "ACIW",
-      "company_name": "ACIW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5904.49M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
