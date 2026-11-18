@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:17:48",
-  "updated_at_et": "2026-11-18 09:17:48",
-  "updated_epoch_ms": 1795011468322,
+  "updated_at_kst": "2026-11-18 23:18:50",
+  "updated_at_et": "2026-11-18 09:18:50",
+  "updated_epoch_ms": 1795011530190,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:17:42"
+    "updated_kst": "23:18:44"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:18:45",
+      "time_kst": "23:18:45",
+      "symbol": "RCT",
+      "company_name": "RCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $209.57M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:16:06",
       "time_kst": "23:16:06",
       "symbol": "NICE",
@@ -2924,16 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $0.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:31:37",
-      "time_kst": "22:31:37",
-      "symbol": "ACNB",
-      "company_name": "ACNB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $671.45M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
