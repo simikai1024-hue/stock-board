@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:56:03",
-  "updated_at_et": "2026-11-18 08:56:03",
-  "updated_epoch_ms": 1795010163498,
+  "updated_at_kst": "2026-11-18 22:56:48",
+  "updated_at_et": "2026-11-18 08:56:48",
+  "updated_epoch_ms": 1795010208794,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:56:00"
+    "updated_kst": "22:56:41"
   },
   "stats": {
     "today_total": 32,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:56:40",
+      "time_kst": "22:56:40",
+      "symbol": "CALM",
+      "company_name": "CALM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3047.4M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:56:32",
+      "time_kst": "22:56:32",
+      "symbol": "LPLA",
+      "company_name": "LPLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $21920.73M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:56:14",
+      "time_kst": "22:56:14",
+      "symbol": "BGDE",
+      "company_name": "BGDE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:55:31",
       "time_kst": "22:55:31",
       "symbol": "GASS",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $70.34M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:02:27",
-      "time_kst": "22:02:27",
-      "symbol": "ACTU",
-      "company_name": "ACTU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:02:13",
-      "time_kst": "22:02:13",
-      "symbol": "RTSN",
-      "company_name": "RTSN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $95.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:01:52",
-      "time_kst": "22:01:52",
-      "symbol": "SCTX",
-      "company_name": "SCTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $298.64M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
