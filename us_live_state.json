@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 22:03:49",
-  "updated_at_et": "2026-11-18 08:03:49",
-  "updated_epoch_ms": 1795007029394,
+  "updated_at_kst": "2026-11-18 22:04:36",
+  "updated_at_et": "2026-11-18 08:04:36",
+  "updated_epoch_ms": 1795007076966,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:03:37"
+    "updated_kst": "22:04:19"
   },
   "stats": {
     "today_total": 20,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "08:04:28",
+      "time_kst": "22:04:28",
+      "symbol": "IPDN",
+      "company_name": "IPDN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-21 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "08:03:52",
+      "time_kst": "22:03:52",
+      "symbol": "CHTR",
+      "company_name": "CHTR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $22244.62M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "08:03:48",
       "time_kst": "22:03:48",
       "symbol": "PRE",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $53.83M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:06:01",
-      "time_kst": "21:06:01",
-      "symbol": "NWCL",
-      "company_name": "NWCL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $83.85M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "07:05:53",
-      "time_kst": "21:05:53",
-      "symbol": "KRNT",
-      "company_name": "KRNT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $711.53M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
