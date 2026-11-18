@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:02:08",
-  "updated_at_et": "2026-11-18 07:02:08",
-  "updated_epoch_ms": 1795003328787,
+  "updated_at_kst": "2026-11-18 21:02:52",
+  "updated_at_et": "2026-11-18 07:02:52",
+  "updated_epoch_ms": 1795003372445,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "KNDI",
+    "company_name": "KNDI",
+    "exchange": "ND",
+    "price": 3.87,
+    "gain_pct": 8.71,
+    "mcap_m": 39.06,
+    "catalyst_hint": "[당일 PR] Kandi Technologies Reports Unaudited Financial Results for the Nine Months Ended September 30, 2026",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:02:49",
+    "started_at_kst": "21:02:49",
+    "started_epoch_ms": 1795003369152
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:01:51"
+    "updated_kst": "21:02:31"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2449,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:02:52",
+      "time_kst": "21:02:52",
+      "symbol": "JJSF",
+      "company_name": "JJSF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1692.55M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:02:49",
+      "time_kst": "21:02:49",
+      "symbol": "OMSE",
+      "company_name": "OMSE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $176.59M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:02:32",
+      "time_kst": "21:02:32",
+      "symbol": "AGLT",
+      "company_name": "AGLT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1769.68M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:02:27",
+      "time_kst": "21:02:27",
+      "symbol": "FAC",
+      "company_name": "FAC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $395.99M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:02:22",
+      "time_kst": "21:02:22",
+      "symbol": "NBP",
+      "company_name": "NBP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $95.39M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:02:03",
       "time_kst": "21:02:03",
       "symbol": "CSIQ",
@@ -2884,56 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:16:58",
-      "time_kst": "18:16:58",
-      "symbol": "LIMN",
-      "company_name": "LIMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:16:52",
-      "time_kst": "18:16:52",
-      "symbol": "VIVK",
-      "company_name": "VIVK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:16:30",
-      "time_kst": "18:16:30",
-      "symbol": "GANX",
-      "company_name": "GANX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $55.66M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:16:25",
-      "time_kst": "18:16:25",
-      "symbol": "OPNW",
-      "company_name": "OPNW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:16:11",
-      "time_kst": "18:16:11",
-      "symbol": "GMM",
-      "company_name": "GMM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
     }
   ]
 }
