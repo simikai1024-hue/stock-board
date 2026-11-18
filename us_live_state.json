@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 05:03:30",
-  "updated_at_et": "2026-11-18 15:03:30",
-  "updated_epoch_ms": 1795032210946,
+  "updated_at_kst": "2026-11-19 05:04:24",
+  "updated_at_et": "2026-11-18 15:04:24",
+  "updated_epoch_ms": 1795032264411,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.2395,
-    "profit_rate": -8.06,
-    "updated_kst": "05:03:22"
+    "current_price": 7.1938,
+    "profit_rate": -8.64,
+    "updated_kst": "05:04:19"
   },
   "stats": {
     "today_total": 41,
