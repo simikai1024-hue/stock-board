@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:18:40",
-  "updated_at_et": "2026-11-18 04:18:40",
-  "updated_epoch_ms": 1794993520925,
+  "updated_at_kst": "2026-11-18 18:19:38",
+  "updated_at_et": "2026-11-18 04:19:38",
+  "updated_epoch_ms": 1794993578291,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:18:33"
+    "updated_kst": "18:19:35"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 34,
+    "today_hardcut": 35,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:19:33",
+      "time_kst": "18:19:33",
+      "symbol": "FFAI",
+      "company_name": "FFAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:18:02",
       "time_kst": "18:18:02",
       "symbol": "SRTM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $262.69M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "10:08:27",
-      "time_kst": "00:08:27",
-      "symbol": "CNXN",
-      "company_name": "CNXN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2061.74M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
