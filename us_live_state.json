@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 23:12:57",
-  "updated_at_et": "2026-11-18 09:12:57",
-  "updated_epoch_ms": 1795011177139,
+  "updated_at_kst": "2026-11-18 23:14:02",
+  "updated_at_et": "2026-11-18 09:14:02",
+  "updated_epoch_ms": 1795011242684,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:12:50"
+    "updated_kst": "23:13:54"
   },
   "stats": {
     "today_total": 35,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "09:13:24",
+      "time_kst": "23:13:24",
+      "symbol": "PDYN",
+      "company_name": "PDYN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $147.46M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "09:11:49",
       "time_kst": "23:11:49",
       "symbol": "ROOT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $92.82M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "08:25:07",
-      "time_kst": "22:25:07",
-      "symbol": "REAX",
-      "company_name": "REAX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $382.01M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
