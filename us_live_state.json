@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:57:28",
-  "updated_at_et": "2026-11-18 04:57:28",
-  "updated_epoch_ms": 1794995848206,
+  "updated_at_kst": "2026-11-18 19:02:47",
+  "updated_at_et": "2026-11-18 05:02:47",
+  "updated_epoch_ms": 1794996167716,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:57:22"
+    "updated_kst": "19:02:39"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 46,
+    "today_hardcut": 48,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "05:01:05",
+      "time_kst": "19:01:05",
+      "symbol": "CNXU",
+      "company_name": "CNXU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.82M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "05:00:32",
+      "time_kst": "19:00:32",
+      "symbol": "RXRX",
+      "company_name": "RXRX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1695.56M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:45:24",
       "time_kst": "18:45:24",
       "symbol": "NTCL",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "11:53:35",
-      "time_kst": "01:53:35",
-      "symbol": "VIAV",
-      "company_name": "VIAV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7065.34M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "11:52:40",
-      "time_kst": "01:52:40",
-      "symbol": "NTRA",
-      "company_name": "NTRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $41831.04M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
