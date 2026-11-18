@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 00:49:50",
-  "updated_at_et": "2026-11-18 10:49:50",
-  "updated_epoch_ms": 1795016990682,
+  "updated_at_kst": "2026-11-19 00:50:51",
+  "updated_at_et": "2026-11-18 10:50:51",
+  "updated_epoch_ms": 1795017051952,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:49:42"
+    "updated_kst": "00:50:43"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "10:50:22",
+      "time_kst": "00:50:22",
+      "symbol": "VIVO",
+      "company_name": "VIVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.31M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "10:41:02",
       "time_kst": "00:41:02",
       "symbol": "GRDX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2788590.36M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:05:50",
-      "time_kst": "23:05:50",
-      "symbol": "CXAI",
-      "company_name": "CXAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-22 [8-K] (Item 1.01,3.02,8.01,9.01))"
     }
   ]
 }
