@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:01:33",
-  "updated_at_et": "2026-11-18 04:01:33",
-  "updated_epoch_ms": 1794992493554,
+  "updated_at_kst": "2026-11-18 18:02:23",
+  "updated_at_et": "2026-11-18 04:02:23",
+  "updated_epoch_ms": 1794992543599,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:01:29"
+    "updated_kst": "18:02:10"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 4,
+    "today_hardcut": 7,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:02:19",
+      "time_kst": "18:02:19",
+      "symbol": "MIST",
+      "company_name": "MIST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.44M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:01:59",
+      "time_kst": "18:01:59",
+      "symbol": "MDCX",
+      "company_name": "MDCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,3.03,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:01:38",
+      "time_kst": "18:01:38",
+      "symbol": "CVU",
+      "company_name": "CVU",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.47M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:01:30",
       "time_kst": "18:01:30",
       "symbol": "SCAG",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $231.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:27:47",
-      "time_kst": "23:27:47",
-      "symbol": "ONMD",
-      "company_name": "ONMD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (OneMedNet Reports Third Quarter 2026 Financial Results and)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:26:55",
-      "time_kst": "23:26:55",
-      "symbol": "SWRD",
-      "company_name": "SWRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $628.22M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:26:52",
-      "time_kst": "23:26:52",
-      "symbol": "LOBO",
-      "company_name": "LOBO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.56M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
