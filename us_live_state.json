@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 20:21:39",
-  "updated_at_et": "2026-11-18 06:21:39",
-  "updated_epoch_ms": 1795000899801,
+  "updated_at_kst": "2026-11-18 20:22:45",
+  "updated_at_et": "2026-11-18 06:22:45",
+  "updated_epoch_ms": 1795000965090,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:21:34"
+    "updated_kst": "20:22:36"
   },
   "stats": {
     "today_total": 6,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "06:22:03",
+      "time_kst": "20:22:03",
+      "symbol": "RGS",
+      "company_name": "RGS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.42M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "06:12:24",
       "time_kst": "20:12:24",
       "symbol": "MEDS",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:03:44",
-      "time_kst": "18:03:44",
-      "symbol": "RNXT",
-      "company_name": "RNXT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.18M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
