@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 01:09:40",
-  "updated_at_et": "2026-11-18 11:09:40",
-  "updated_epoch_ms": 1795018180493,
+  "updated_at_kst": "2026-11-19 01:10:41",
+  "updated_at_et": "2026-11-18 11:10:41",
+  "updated_epoch_ms": 1795018241961,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.17,
-    "profit_rate": -8.95,
-    "updated_kst": "01:09:35"
+    "current_price": 7.215,
+    "profit_rate": -8.38,
+    "updated_kst": "01:10:36"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "11:10:07",
+      "time_kst": "01:10:07",
+      "symbol": "VOD",
+      "company_name": "VOD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $35262.61M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "11:09:48",
+      "time_kst": "01:09:48",
+      "symbol": "DMII",
+      "company_name": "DMII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $652.61M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "11:01:46",
       "time_kst": "01:01:46",
       "symbol": "FOXF",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $933.77M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:06:36",
-      "time_kst": "23:06:36",
-      "symbol": "RMNI",
-      "company_name": "RMNI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $503.34M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:06:30",
-      "time_kst": "23:06:30",
-      "symbol": "NEGG",
-      "company_name": "NEGG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $163.18M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
