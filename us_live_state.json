@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:00:37",
-  "updated_at_et": "2026-11-18 07:00:37",
-  "updated_epoch_ms": 1795003237672,
+  "updated_at_kst": "2026-11-18 21:01:19",
+  "updated_at_et": "2026-11-18 07:01:19",
+  "updated_epoch_ms": 1795003279689,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:00:29"
+    "updated_kst": "21:01:09"
   },
   "stats": {
     "today_total": 9,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:01:11",
+      "time_kst": "21:01:11",
+      "symbol": "OCTV",
+      "company_name": "OCTV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5575.45M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:01:03",
+      "time_kst": "21:01:03",
+      "symbol": "AQST",
+      "company_name": "AQST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $465.05M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "06:59:00",
       "time_kst": "20:59:00",
       "symbol": "CNL",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $64.03M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:15:28",
-      "time_kst": "18:15:28",
-      "symbol": "ABTS",
-      "company_name": "ABTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-30 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "04:15:19",
-      "time_kst": "18:15:19",
-      "symbol": "AZI",
-      "company_name": "AZI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $74.97M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
