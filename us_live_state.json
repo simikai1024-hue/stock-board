@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:51:22",
-  "updated_at_et": "2026-11-18 07:51:22",
-  "updated_epoch_ms": 1795006282997,
+  "updated_at_kst": "2026-11-18 21:52:11",
+  "updated_at_et": "2026-11-18 07:52:11",
+  "updated_epoch_ms": 1795006331904,
   "analyzing": {
-    "active": true,
-    "symbol": "MASK",
-    "company_name": "MASK",
-    "exchange": "ND",
-    "price": 1.9523,
-    "gain_pct": 6.68,
-    "mcap_m": 7.24,
-    "catalyst_hint": "[당일 PR] 3 E Network Technology Group Limited Regains Compliance with Nasdaq Listing Requirements",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:51:14",
-    "started_at_kst": "21:51:14",
-    "started_epoch_ms": 1795006274708
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:51:19"
+    "updated_kst": "21:52:00"
   },
   "stats": {
-    "today_total": 17,
-    "today_nblm_count": 17,
+    "today_total": 18,
+    "today_nblm_count": 18,
     "today_buy": 0,
-    "today_false": 17,
+    "today_false": 18,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 46.9
+    "avg_nblm_sec": 47.2
   },
   "verdicts": [
+    {
+      "id": "v_1795006322090_MASK_FALSE",
+      "date_et": "2026-11-18",
+      "weekday_kr": "수",
+      "time_et": "07:52:02",
+      "time_kst": "21:52:02",
+      "symbol": "MASK",
+      "company_name": "MASK",
+      "exchange": "ND",
+      "price": 1.9523,
+      "gain_pct": 6.68,
+      "mcap_m": 7.24,
+      "decision": "FALSE",
+      "elapsed_sec": 51.1,
+      "reason": "확정 수주 및 부채 소멸 전무한 단순 나스닥 상장요건 회복 서한(Compliance) 수령 행정 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] 3 E Network Technology Group Limited Regains Compliance with Nasdaq Listing Requirements",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MASK (3 E Network Technology Group Limited) 2026-11-18 07:51 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.24M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 신규 상업 수주나 현금 선급금이 발생하는 계약이 아니라, 단순 **나스닥 상장 유지 요건 회복 서한 수령(Regains Compliance with Nasdaq Listing Requirements)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $1.8300 대비 현재가 $1.9523 (+6.68%), 당일 최고가 $2.0000 (고점 대비 -2.4%).\n당일 누적 거래대금 $6,022 USD (6천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:50 ET) 공식 PR 원문 분석:\nPR 제목: \"3 E Network Technology Group Limited Regains Compliance with Nasdaq Listing Requirements\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 사후 규제 행정 서한 수령 (Regains Compliance PR):\n원문 본문에 *\"on November 16, 2026, it received a letter from The Nasdaq Stock Market LLC ('Nasdaq') confirming that the Company had regained compliance with the periodic filing requirements / listing rules...\"*라고 명시되어 있습니다.\n이는 회사 금고로 현금이 유입되는 대형 상업 수주(AIMD형)나 독점 라이선스 계약이 아닙니다.\n지난 10월 30일 수령했던 나스닥 결정 서한(Determination Letter) 등 상장 규정 위반 상태를 사후 해소하여 나스닥 본부로부터 규격 요건 회복 서한을 받았다는 단순 사후 규제 행정 확인 통보에 불과합니다.\nONFO형 대박 턴어라운드 조건(전환사채 0원 전액 소멸) 절대 미달:\n연구소 심사 헌법 제2조 ②항의 ONFO형(시총 $15M 이하 초소형주)은 반드시 **[나스닥 최소 자기자본 공식 충족 + 잔여 전환사채(CB) 0원 전액 소멸]**이 동시에 달성되어 악성 오버행이 100% 영구 제거된 구조적 무차입 클린 턴어라운드여야 합니다.\nMASK의 당일 보도자료는 단순 상장 규정 회복 확인 서한 수령일 뿐, 잔여 전환사채 0원 소멸이나 빚 청산과 같은 실질적 재무 구조 혁신 내용이 전무합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각\" 등 주가를 수직 견인할 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 행정 통보 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 규정 준수/요건 회복(Regains Compliance) 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 앞서 차단된 TNMG와 동일 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무하고, 단순 나스닥 상장 요건 회복 서한(Compliance Letter) 수령을 알리는 사후 행정 보도자료에 불과하여 1급 확정 기폭제 기준(AIMD형) 및 ONFO형 구조적 턴어라운드 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MASK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: MASK NOTES:\n[MASK] 확정 수주 및 부채 소멸 전무한 단순 나스닥 상장요건 회복 서한(Compliance) 수령 행정 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR에 이어 MASK까지 총 14개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 단순 규제 행정 통보로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795005636324_NUR_FALSE",
       "date_et": "2026-11-18",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CNSY (Cerenome, Inc.) 07:42 ET 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.31M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/수주/라이선스 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $0.9502 대비 현재가 $0.9629 (+1.34%), 당일 최고가 $1.1800 (장전 고점 대비 -18.4% 급격한 윗꼬리 덤핑 지속), 당일 누적 거래대금 $25,965 USD.\n선발표 규정 확인: 학회 발표 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Cerenome Reports Interim ReSPECT-LM Data Supporting Repeat Dosing of REYOBIQ™ in Leptomeningeal Metastases at the 2026 SNO Annual Meeting\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 신약 성공이 아닌 단순 학회 중간 데이터 발표 (Interim Conference Data PR):\n신경종양학회(2026 SNO Annual Meeting)에서 연수막 전이(LM) 대상 REYOBIQ™의 진행 중인 임상 중간 데이터(Interim ReSPECT-LM Data)를 발표한 단순 학회 포스터/구두 발표 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 'FDA 최종 품목 승인(Approval)'이나 '임상 3상 최종 평가지표 입증(Endpoint Met)'이 아니며, 진행 중인 임상의 단순 중간 경과 공유에 불과합니다.\n직전 3분기 실적 발표(11/13)의 판박이 3일 만의 재탕 (SNO 학회 우려먹기 IR):\n과거 180일 이력 대조 결과, 회사는 불과 3영업일 전(2026-11-13) 3분기 실적 발표 PR에서 이미 *\"Featuring REYOBIQ ReSPECT-LM Data...\"*라며 해당 임상 데이터를 핵심 하이라이트로 공개한 바 있습니다.\n3일 전에 이미 시장에 노출된 임상 데이터를 주말 직후 SNO 학회 일정에 맞춰 다시 배포한 전형적인 재탕성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 라이선스 계약, 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 피뢰침 설거지 차트:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 발표/임상 중간 데이터/기발표 임상 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.1800까지 반짝 상승 후 고점 대비 -18.4% 급락하며 시초가 부근($0.96)까지 곤두박질친 전형적인 피뢰침 설거지 수급입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터 발표이자 불과 3일 전 3분기 실적 발표에서 기언급된 데이터의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -18.4% 급락 덤핑 수급이 지속되고 있으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CNSY 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CNSY NOTES:\n[CNSY] FDA 승인이 아닌 단순 SNO 학회 임상 중간 데이터이자 3일 전 Q3 실적 발표 데이터 재탕 PR로 장전 -18.4% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794832767607_CMND_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "07:39:27",
-      "time_kst": "21:39:27",
-      "symbol": "CMND",
-      "company_name": "CMND",
-      "exchange": "ND",
-      "price": 4.36,
-      "gain_pct": -3.75,
-      "mcap_m": 0.28,
-      "decision": "FALSE",
-      "elapsed_sec": 35.5,
-      "reason": "FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 홍보 PR로 1급 확정 기폭제 미달 및 장전 음봉 하락 전량 차단",
-      "catalyst_hint": "[당일 PR] Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CMND (Clearmind Medicine Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.28M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 관문 무희석 통과).\n체급 대비 규모: 당일 PR 내 백만 달러($M) 이상 확정 계약/라이선스 수주 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급: 전일 종가 $4.5300 대비 현재가 $4.3600 (-3.75%), 당일 최고가 $4.7850 (고점 대비 -8.9% 음봉 밀림), 당일 누적 거래대금 $2,222 USD (장전 프리마켓 거래량 미미한 바닥 구간).\n선발표 규정 확인: 임상 환자 등록 완료 등은 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 07:37 ET) 공식 PR 원문 분석:\nPR 제목: \"Clearmind Achieves Full Enrollment for Part C in CMND-100 Phase I/IIa Trial, Marking Key Clinical Milestone\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 임상 완료가 아닌 단순 초기 임상 '환자 등록 완료' 공지 (Patient Enrollment Milestone PR):\n본 PR의 본질은 알코올 사용 장애(AUD) 치료제 후보물질인 CMND-100의 임상 1/2a상 Part C 코호트에서 '환자 모집/등록을 완료(Achieves Full Enrollment)'했다는 단순 임상 중간 진행 단계 보도자료입니다.\n연구소 심사 헌법 제2조에서 FORCE_BUY 대상으로 규정한 **'FDA 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 아니며, 약효 검증이나 승인이 아닌 단순히 임상 시험 대상 환자를 다 채웠다는 실체 없는 중간 일정 알림에 불과합니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 확정 수주 계약금/선급금(AIMD형), 대규모 자사주 매입/소각, 특별배당(HIHO형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배 및 전형적인 장전 음봉 밀림 차트:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 임상 환자 등록(Enrollment)/중간 일정 공유 마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $4.7850까지 반짝 상승 후 고점 대비 -8.9% 밀리며 현재가 -3.75% 마이너스 파란불로 곤두박질친 전형적인 무수급 피뢰침 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 공지에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -3.75% 음봉으로 밀리고 있으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CMND 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CMND NOTES:\n[CMND] FDA 승인이 아닌 단순 임상 1/2a상 환자 등록 완료(Enrollment) 홍보 PR로 1급 확정 기폭제 미달 및 장전 음봉 하락 전량 차단 ===VERDICT_END===\n💡 오늘 장전에는 **HIHO (주당 $0.43228 특별현금배당, 시총 대비 42% 확정, 거래대금 100만불 돌파)**가 유일하게 헌법 2조를 통과한 진성 대장주이며, 본장 개장(09:30 ET) 전후로 추가 1급 기폭제 종목이 포착되면 즉시 직독 심사를 집행하겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:51:39",
+      "time_kst": "21:51:39",
+      "symbol": "ALLR",
+      "company_name": "ALLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-17 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
+    },
     {
       "date_et": "2026-11-18",
       "time_et": "07:51:22",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $309.51M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:31:22",
-      "time_kst": "20:31:22",
-      "symbol": "PC",
-      "company_name": "PC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $118.63M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
