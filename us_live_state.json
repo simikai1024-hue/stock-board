@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 21:44:49",
-  "updated_at_et": "2026-11-18 07:44:49",
-  "updated_epoch_ms": 1795005889896,
+  "updated_at_kst": "2026-11-18 21:45:48",
+  "updated_at_et": "2026-11-18 07:45:48",
+  "updated_epoch_ms": 1795005948307,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:44:41"
+    "updated_kst": "21:45:45"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "07:45:25",
+      "time_kst": "21:45:25",
+      "symbol": "SCNI",
+      "company_name": "SCNI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "07:45:19",
+      "time_kst": "21:45:19",
+      "symbol": "YSWY",
+      "company_name": "YSWY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1533.1M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "07:42:41",
       "time_kst": "21:42:41",
       "symbol": "SLE",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:03:37",
-      "time_kst": "20:03:37",
-      "symbol": "IPHA",
-      "company_name": "IPHA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $148.56M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "06:03:09",
-      "time_kst": "20:03:09",
-      "symbol": "GLBE",
-      "company_name": "GLBE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6686.77M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
