@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:00:52",
-  "updated_at_et": "2026-11-18 04:00:52",
-  "updated_epoch_ms": 1794992452633,
+  "updated_at_kst": "2026-11-18 18:01:33",
+  "updated_at_et": "2026-11-18 04:01:33",
+  "updated_epoch_ms": 1794992493554,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:46"
+    "updated_kst": "18:01:29"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 2,
+    "today_hardcut": 4,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:01:30",
+      "time_kst": "18:01:30",
+      "symbol": "SCAG",
+      "company_name": "SCAG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $61.17M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "04:00:59",
+      "time_kst": "18:00:59",
+      "symbol": "GTBP",
+      "company_name": "GTBP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:00:47",
       "time_kst": "18:00:47",
       "symbol": "BURU",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $51.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:26:28",
-      "time_kst": "23:26:28",
-      "symbol": "EDBL",
-      "company_name": "EDBL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "09:25:05",
-      "time_kst": "23:25:05",
-      "symbol": "MIST",
-      "company_name": "MIST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.55M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
