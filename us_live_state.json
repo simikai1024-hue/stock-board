@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 01:26:22",
-  "updated_at_et": "2026-11-18 11:26:22",
-  "updated_epoch_ms": 1795019182989,
+  "updated_at_kst": "2026-11-19 01:27:19",
+  "updated_at_et": "2026-11-18 11:27:19",
+  "updated_epoch_ms": 1795019239885,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.12,
-    "profit_rate": -9.58,
-    "updated_kst": "01:26:17"
+    "current_price": 7.18,
+    "profit_rate": -8.82,
+    "updated_kst": "01:27:17"
   },
   "stats": {
     "today_total": 38,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "11:27:19",
+      "time_kst": "01:27:19",
+      "symbol": "JSPR",
+      "company_name": "JSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $344.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
+      "time_et": "11:26:52",
+      "time_kst": "01:26:52",
+      "symbol": "GNTX",
+      "company_name": "GNTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3858.09M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "11:15:13",
       "time_kst": "01:15:13",
       "symbol": "XPON",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $676.51M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:06:58",
-      "time_kst": "23:06:58",
-      "symbol": "AXON",
-      "company_name": "AXON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $24314.99M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:06:52",
-      "time_kst": "23:06:52",
-      "symbol": "ASO",
-      "company_name": "ASO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4277.89M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
