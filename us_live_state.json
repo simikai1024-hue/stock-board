@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 01:27:19",
-  "updated_at_et": "2026-11-18 11:27:19",
-  "updated_epoch_ms": 1795019239885,
+  "updated_at_kst": "2026-11-19 01:27:48",
+  "updated_at_et": "2026-11-18 11:27:48",
+  "updated_epoch_ms": 1795019268824,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "RPID",
+    "company_name": "RPID",
+    "exchange": "ND",
+    "price": 0.735,
+    "gain_pct": -0.24,
+    "mcap_m": 36.87,
+    "catalyst_hint": "[당일 PR] SHAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Rapid Micro Biosystems, Inc. (NASDAQ: RPID)",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:27:43",
+    "started_at_kst": "01:27:43",
+    "started_epoch_ms": 1795019263498
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "CLRO",
     "holding_qty": 131,
     "avg_price": 7.8745,
-    "current_price": 7.18,
-    "profit_rate": -8.82,
-    "updated_kst": "01:27:17"
+    "current_price": 7.15,
+    "profit_rate": -9.2,
+    "updated_kst": "01:27:35"
   },
   "stats": {
     "today_total": 38,
