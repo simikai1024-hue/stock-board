@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-18 18:34:58",
-  "updated_at_et": "2026-11-18 04:34:58",
-  "updated_epoch_ms": 1794994498762,
+  "updated_at_kst": "2026-11-18 18:35:41",
+  "updated_at_et": "2026-11-18 04:35:41",
+  "updated_epoch_ms": 1794994541472,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:34:53"
+    "updated_kst": "18:35:33"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 42,
+    "today_hardcut": 43,
     "total_verdicts": 150,
     "total_buy": 12,
     "total_false": 138,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-18",
+      "time_et": "04:35:36",
+      "time_kst": "18:35:36",
+      "symbol": "SUIG",
+      "company_name": "SUIG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.14M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-18",
       "time_et": "04:32:52",
       "time_kst": "18:32:52",
       "symbol": "MOBX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-17",
-      "time_et": "11:12:55",
-      "time_kst": "01:12:55",
-      "symbol": "DWSN",
-      "company_name": "DWSN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $55.28M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
