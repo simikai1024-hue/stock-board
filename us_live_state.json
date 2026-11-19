@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:33:02",
-  "updated_at_et": "2026-11-19 07:33:02",
-  "updated_epoch_ms": 1795091582292,
+  "updated_at_kst": "2026-11-19 21:33:15",
+  "updated_at_et": "2026-11-19 07:33:15",
+  "updated_epoch_ms": 1795091595634,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ELBM",
+    "company_name": "ELBM",
+    "exchange": "ND",
+    "price": 0.4024,
+    "gain_pct": 0.0,
+    "mcap_m": 43.07,
+    "catalyst_hint": "[당일 PR] Electra to Showcase Refinery Progress and Allied Refining Vision at Global Industry Forums",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:33:06",
+    "started_at_kst": "21:33:06",
+    "started_epoch_ms": 1795091586549
   },
   "halt_watch": {
     "active": false
