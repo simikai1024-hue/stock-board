@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:03:55",
-  "updated_at_et": "2026-11-19 07:03:55",
-  "updated_epoch_ms": 1795089835486,
+  "updated_at_kst": "2026-11-19 21:04:30",
+  "updated_at_et": "2026-11-19 07:04:30",
+  "updated_epoch_ms": 1795089870895,
   "analyzing": {
-    "active": true,
-    "symbol": "SMTK",
-    "company_name": "SMTK",
-    "exchange": "ND",
-    "price": 0.1999,
-    "gain_pct": -7.24,
-    "mcap_m": 0.21,
-    "catalyst_hint": "[당일 PR] Smartkem, Inc. announces reverse split of common stock to support continued Nasdaq listing",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:03:49",
-    "started_at_kst": "21:03:49",
-    "started_epoch_ms": 1795089829524
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:03:53"
+    "updated_kst": "21:04:12"
   },
   "stats": {
-    "today_total": 7,
-    "today_nblm_count": 7,
+    "today_total": 8,
+    "today_nblm_count": 8,
     "today_buy": 0,
-    "today_false": 7,
+    "today_false": 8,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 51.4
+    "avg_nblm_sec": 50.2
   },
   "verdicts": [
+    {
+      "id": "v_1795089866538_SMTK_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "07:04:26",
+      "time_kst": "21:04:26",
+      "symbol": "SMTK",
+      "company_name": "SMTK",
+      "exchange": "ND",
+      "price": 0.1999,
+      "gain_pct": -7.24,
+      "mcap_m": 0.21,
+      "decision": "FALSE",
+      "elapsed_sec": 41.8,
+      "reason": "확정 상업수주 및 부채청소 전무한 단순 상폐방어용 1-for-5 주식병합 행정 PR로 헌법 2조 2항 단서 위배 및 장전 -16.7% 음봉 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Smartkem, Inc. announces reverse split of common stock to support continued Nasdaq listing",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SMTK (Smartkem, Inc.) 2026-11-19 07:03:44 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트 (장전 -16.7% 급락 음봉 덤핑)\n상장 거래소 및 체급: The NASDAQ Capital Market (SMTK) 상장사로 거래소 필터 헌장 제1조 합격.\n실질 시가총액: 약 **$0.21M USD (약 21만 달러)**로 $50.0M 및 $15.0M 이하 극초소형 품절주 체급.\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 주식병합 악재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 나스닥 상장폐지를 모면하기 위한 이사회 승인 1-for-5 주식병합(Reverse Stock Split to support continued Nasdaq listing) 행정 공지에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -16.7% 급락 음봉 덤핑):\n전일 종가 $0.2155 대비 현재가 $0.1999 (-7.24%).\n당일 프리마켓 최고가 $0.2400 (+11.4%)을 찍은 직후 병합 악재가 반영되며 고점 대비 -16.7% 급락, 전일 종가 밑(-7.24%) 파란색 음봉으로 주저앉음.\n당일 누적 거래대금 $17,350 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Smartkem, Inc. announces reverse split of common stock to support continued Nasdaq listing\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n부채 청소 없는 단순 상폐 방어용 주식병합 행정 PR (심사 헌법 제2조 ②항 단서 정면 위배):\n원문 본문에 *\"Smartkem, Inc. (Nasdaq: SMTK)... today announced that its Board of Directors has approved a reverse stock split of the Company’s outstanding common stock at a ratio of 1-for-5, following stockholder approval...\"*라고 명시되어 있습니다.\n연구소 심사 헌법 제2조 ②항: \"초소형주가 나스닥 상장유지 자기자본 요건 충족 + 차입부채/전환사채 전액 상환·출자전환을 동시 달성한 재무 턴어라운드(ONFO·CLRO형)는 FORCE_BUY이나, 부채청소 없이 음봉인 단순 규정회복 행정 PR은 FORCE_BLOCK!\" 규칙이 명시되어 있습니다.\nSMTK는 부채를 전액 탕감하거나 순현금을 확충한 턴어라운드가 아니며, 주가 1달러 미달로 상장폐지될 위기에 처하자 주식 수만 5대 1로 줄여 인위적으로 주가를 올리는 단순 행정 조치일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당, 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각\" 등 기업 가치를 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -16.7% 음봉 덤핑 (100% FORCE_BLOCK):\n신규 확정 계약 금액($M) 및 현금 선급금이 전무한 단순 상폐 방어용 1-for-5 주식병합 공지이며, 장전 최고가 대비 -16.7% 폭락 음봉(-7.24%)으로 덤핑 중이므로 100% FORCE_BLOCK 차단 대상입니다.\n3. 최종 심사 및 결재 판정\nSMTK의 당일 공식 PR은 확정 상업 수주나 부채 청소가 전무한 단순 상장폐지 방어용 1-for-5 주식병합 행정 발표에 불과하며, 장전 최고가 대비 -16.7% 급락 음봉 덤핑 중이므로 심사 헌법 제2조 ②항 단서 및 제3조 ④항에 의거 FORCE_BLOCK: SMTK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: SMTK NOTES:\n[SMTK] 확정 상업수주 및 부채청소 전무한 단순 상폐방어용 1-for-5 주식병합 행정 PR로 헌법 2조 2항 단서 위배 및 장전 -16.7% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR에 이어 SMTK까지 총 7개 종목 전수가 껍데기 IR, 비상업성 보조금, 부채 리파이낸싱, 단순 주식병합 음봉으로 정밀 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795089821628_MRKR_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,39 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 DARE (Daré Bioscience, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.3M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 적발):\n본문 핵심 금액으로 추출된 약 $10.70M USD(시총 대비 80.5%)는 오늘 새롭게 체결된 신규 확정 계약금이 아닙니다.\n이는 **2024년 11월에 이미 체결된 총 $10.7M 규모의 기존 보조금 협약(existing grant agreement originally announced in November 2024)**의 전체 프레임워크 총액에 불과합니다.\n금번 당일 실제로 수령한 금액은 해당 기존 협약에 따른 끝에서 두 번째 분할 지급분인 **고작 $851,796 USD (약 $0.85M)**에 그칩니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.6574 대비 현재가 $0.6760 (+2.83%), 당일 최고가 $0.6950 (고점 대비 -2.7%).\n당일 누적 거래대금 $235 USD (300달러 미만의 극소액 거래량 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:09 ET) 공식 PR 원문 분석:\nPR 제목: *\"Daré Bioscience Receives Approximately $852,000 in Additional Grant Funding\"*\n원문 직독 결과 드러난 치명적 실체:\n2024년 11월 기체결 보조금의 단순 쪼개기 분할 수령 (심사 헌법 제3조 ①항 정면 위배):\n원문 본문에 *\"today announced that it has received an additional payment of $851,796 under its existing grant agreement. This payment represents the second-to-last anticipated tranche under the up to approximately $10.7 million grant agreement originally announced in November 2024\"*라고 명시되어 있습니다.\n회사는 이미 2024년에 약 $5.4M, 2025년 11월에 약 $3.6M을 수령했으며, 이번 발표는 잔여 트랜치 중 고작 $85만 달러를 분할 수령했다는 기존 계약의 단순 잔여분 입금 알림에 불과합니다.\n이는 심사 헌법 제3조 ①항인 **'기발표 대형 프레임워크 계약(기존 $10.7M 계약)의 일부 분할발주/분할지급으로서 시총 대비 비중도 작은 쪼개기 재탕'**에 100% 해당하는 대표적 오답 패턴입니다.\n체급을 점프시키는 신규 창사 최대 수주가 아님:\n과거 소액 수령 후 시총을 압도하는 신규 대형 본계약 점프(AIMD형)가 아니며, 2년 전 발표된 기존 한도 내의 잔여 소액 지급분 입금 보도자료입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '기발표 기존 보조금 협약의 잔여 쪼개기 분할 지급 PR은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 2024년 11월 기발표된 $10.7M 기존 보조금 협약의 단순 분할 지급분($85만 달러) 수령 알림에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DARE 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: DARE NOTES:\n[DARE] 신규 계약이 아닌 2024년 11월 기발표 $10.7M 보조금의 단순 쪼개기 분할 지급분($85만불) 수령 PR로 헌법 3조 1항 위배 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794838271932_REVB_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "09:11:11",
-      "time_kst": "23:11:11",
-      "symbol": "REVB",
-      "company_name": "REVB",
-      "exchange": "ND",
-      "price": 4.39,
-      "gain_pct": 2.93,
-      "mcap_m": 3.0,
-      "decision": "FALSE",
-      "elapsed_sec": 52.8,
-      "reason": "FDA 승인 없는 단순 Gemini 개발 가속화 계획 및 파트너십 추진 홍보(TAM $94B 착시) PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Revelation Biosciences Announces Accelerated Gemini Development Plan and Strategic Partnership Initiatives",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 REVB (Revelation Biosciences, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.0M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 3,133,333% 적발):\n본문 핵심 금액으로 감지된 약 **$94,000.00M USD (940억 달러)**는 회사에 신규 유입되는 계약금이나 수주액이 절대 아닙니다.\n회사가 개발 중인 치료제(Gemini)의 적응증 대상 질환(급성 신장 손상, 심근경색, 패혈증 등)의 글로벌 전체 시장 추정치(TAM, Total Addressable Market) 등 **홍보용 시장 규모 통계 수치(TAM 착시)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $4.2650 대비 현재가 $4.3900 (+2.93%), 당일 최고가 $4.5000 (고점 대비 -2.4%).\n당일 누적 거래대금 $44 USD (단 10주 남짓 체결 수준의 극단적 거래량 실종 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 전략적 계획 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Revelation Biosciences Announces Accelerated Gemini Development Plan and Strategic Partnership Initiatives\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 자체 개발 가속화 계획 및 파트너십 추진 계획 표명 (Plan & Initiatives PR):\n본 PR의 본질은 자사 신약 후보물질(Gemini)의 개발 속도를 높이기 위한 내부 전략 전환을 발표하고, 향후 파트너십을 추진하겠다는 **단순 계획 및 의향 표명 보도자료(announced a strategic shift designed to accelerate development... and strategic partnership initiatives)**입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 전혀 아닙니다.\n확정 계약 금액(Dollar Value)이 전무한 구속력 없는 파트너십 탐색:\n글로벌 빅파마와의 확정된 독점 라이선스 본계약 체결, 거액 현금 선급금(Upfront Cash, AIMD형) 유입 등 실체적 계약이 아니라, 향후 파트너십을 체결하기 위한 '추진 계획(Initiatives)'을 언급한 전형적인 언론 플레이 홍보물입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금, 빅파마 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 실적 부진(11/05 순손실 확대) 후 나온 주가 방어용 IR:\n과거 이력 대조 결과 회사는 11월 5일 3분기 순손실 확대 실적 발표 이후 주가 하락을 방어하기 위해 계획성 IR 보도자료를 낸 것에 불과합니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 개발 계획/파트너십 추진 의향/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이나 확정 수주 계약이 아닌 단순 자체 개발 가속화 계획 및 파트너십 추진 계획(전체 시장규모 $94B 착시) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: REVB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: REVB NOTES:\n[REVB] FDA 승인 없는 단순 Gemini 개발 가속화 계획 및 파트너십 추진 홍보(TAM $94B 착시) PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:04:07",
+      "time_kst": "21:04:07",
+      "symbol": "WMT",
+      "company_name": "WMT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1010442.4M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:04:02",
+      "time_kst": "21:04:02",
+      "symbol": "TTWO",
+      "company_name": "TTWO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $40552.21M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:04:00",
+      "time_kst": "21:04:00",
+      "symbol": "NVCR",
+      "company_name": "NVCR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1254.51M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "07:03:54",
@@ -2916,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:47:50",
-      "time_kst": "18:47:50",
-      "symbol": "QUCY",
-      "company_name": "QUCY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.08M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:38:49",
-      "time_kst": "18:38:49",
-      "symbol": "NCT",
-      "company_name": "NCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $119.94M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:30:14",
-      "time_kst": "18:30:14",
-      "symbol": "NWGL",
-      "company_name": "NWGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $92.52M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
