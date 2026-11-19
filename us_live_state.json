@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:07:26",
-  "updated_at_et": "2026-11-19 07:07:26",
-  "updated_epoch_ms": 1795090046361,
+  "updated_at_kst": "2026-11-19 21:07:33",
+  "updated_at_et": "2026-11-19 07:07:33",
+  "updated_epoch_ms": 1795090053765,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "GNPX",
+    "company_name": "GNPX",
+    "exchange": "ND",
+    "price": 1.71,
+    "gain_pct": 0.0,
+    "mcap_m": 2.28,
+    "catalyst_hint": "[당일 PR] Genprex Presents Preclinical Data Identifying TROP2 as a Potential Predictive Biomarker for Reqorsa® Gene Therapy in Lung Cancer",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:07:30",
+    "started_at_kst": "21:07:30",
+    "started_epoch_ms": 1795090050591
   },
   "halt_watch": {
     "active": false
