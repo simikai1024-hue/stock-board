@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:08:19",
-  "updated_at_et": "2026-11-19 09:08:19",
-  "updated_epoch_ms": 1795097299133,
+  "updated_at_kst": "2026-11-19 23:09:11",
+  "updated_at_et": "2026-11-19 09:09:11",
+  "updated_epoch_ms": 1795097351350,
   "analyzing": {
-    "active": true,
-    "symbol": "LEXX",
-    "company_name": "LEXX",
-    "exchange": "ND",
-    "price": 4.28,
-    "gain_pct": 0.0,
-    "mcap_m": 9.02,
-    "catalyst_hint": "[당일 PR] Lexaria's Human Study GLP-1-H26-7 Completes Dosing as Scheduled",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:08:10",
-    "started_at_kst": "23:08:10",
-    "started_epoch_ms": 1795097290863
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:08:10"
+    "updated_kst": "23:09:10"
   },
   "stats": {
-    "today_total": 42,
-    "today_nblm_count": 42,
+    "today_total": 43,
+    "today_nblm_count": 43,
     "today_buy": 0,
-    "today_false": 42,
+    "today_false": 43,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.3
+    "avg_nblm_sec": 51.5
   },
   "verdicts": [
+    {
+      "id": "v_1795097346043_LEXX_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "09:09:06",
+      "time_kst": "23:09:06",
+      "symbol": "LEXX",
+      "company_name": "LEXX",
+      "exchange": "ND",
+      "price": 4.28,
+      "gain_pct": 0.0,
+      "mcap_m": 9.02,
+      "decision": "FALSE",
+      "elapsed_sec": 59.5,
+      "reason": "확정 수주 및 탑라인 데이터 전무한 10/21 기발표 환자등록에 이은 단순 GLP-1 파일럿 투약완료 쪼개기 재탕 PR로 헌법 3조 1·4항 위배 및 장전 -4.9% 윗꼬리 소멸 전량 차단",
+      "catalyst_hint": "[당일 PR] Lexaria's Human Study GLP-1-H26-7 Completes Dosing as Scheduled",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 LEXX (Lexaria Bioscience Corp.) 2026-11-19 09:08:06 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 8, 290].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $0 USD 및 투약 완료 단순 일정)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: LEXX) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 8, 291].\n실질 시가총액: 약 $9.02M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 10, 290].\n체급 대비 규모 (상업 수주/선급금 0원 및 파일럿 임상 단순 투약 완료 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 290].\n헤드라인의 'Novo's Wegovy' 언급은 노보 노디스크와의 상업 계약이 아니라, 자사 DehydraTECH-세마글루타이드 제형과 시판 중인 위고비 알약을 비교하는 자체 인체 파일럿 연구 7번(GLP-1-H26-7)의 대상군 수식어에 불과합니다 [cite: 291].\n발표된 실체의 본질은 확정 매출이나 현금이 일시에 꽂히는 거액 메가 수주(AIMD형)가 아니라, 신규 계약 금액이 전무하고 유의미한 유효성 데이터조차 없는 단순 '투약 투여 완료(Completes Dosing as Scheduled)' 중간 행정 일정 언론플레이입니다 [cite: 11, 291, 292].\n실시간 체결가 및 수급 (장전 거래대금 $0 USD 전무 및 -4.9% 윗꼬리):\n전일 종가 $4.2800 대비 현재가 $4.2800 (+0.00%) [cite: 291].\n당일 프리마켓 최고가 $4.5000 (+5.14%)까지 반짝 띄운 후 결과 없는 투약 완료 공지임을 확인하고 고점 대비 -4.9% 밀려 보합권으로 주저앉음 [cite: 291].\n당일 누적 거래대금은 $0 USD (체결 공백 상태) [cite: 291].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 8, 291].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 09:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Lexaria's Human Study GLP-1-H26-7 Completes Dosing as Scheduled\" [cite: 291]\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n임상 성공/탑라인 결과가 전무한 단순 '피험자 투약 완료' 쪼개기 재탕 홍보물:\n원문 본문에 *\"reports that final dosing has been completed on schedule with Human Pilot Study #7 (GLP-1-H26-7)... With dosing complete and final blood samples taken, the Study work will now shift to laboratory sample analyses, quality control and review of all data, and then reporting... No information from the Study will be provided to any third parties until all data has been reviewed...\"*라고 명시되어 있습니다 [cite: 291, 292].\n이는 FDA 승인이나 통계적 유의성을 입증한 임상 성공(SELLAS형 Phase 3 REGAL 성공 등)이 전혀 아닙니다 [cite: 11, 53].\n단순히 피험자 투약 일정이 끝났고 이제부터 혈액 분석을 시작할 예정이라는 중간 진행 단계 알림에 불과하며, 핵심 효능/PK 데이터조차 단 하나도 공개되지 않은 빈 껍데기 일정 공지입니다 [cite: 292].\n과거 180일 재탕 대조: 10월 21일 PR의 뻔한 쪼개기 우려먹기 적발:\n과거 180일 원장 대조 결과 [cite: 297]:\n[2026-10-21 | thenewswire] Lexaria's Human Study GLP-1-H26-7 Reaches Full Enrollment and Continues Dosing on Schedule [cite: 297]\n지난 10월 21일 \"환자 등록 완료 및 일정대로 투약 중\"이라고 언론플레이했던 동일 파일럿 연구(GLP-1-H26-7)를 한 달 만에 \"일정대로 투약 완료\"로 문구만 바꾸어 다시 낸 **전형적인 임상 일정 쪼개기 재탕(심사 헌법 제3조 ①항)**입니다 [cite: 291, 297].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 11].\n심사 헌법 제3조 ①·④항 위배 및 장전 -4.9% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 임상 진행 일정의 쪼개기 재탕' 및 ④항의 '신규 확정 계약 금액($M) 및 임상 탑라인 결과가 결여된 단순 투약 완료/일정 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 11].\n장전 프리마켓에서 $4.5000까지 반짝 띄운 후 실체 없는 투약 완료 쪼개기 재탕임을 확인하고 고점 대비 -4.9% 밀려 보합(+0.00%)으로 주저앉은 전형적인 윗꼬리 소멸 패턴입니다 [cite: 291].\n3. 최종 심사 및 결재 판정\nLEXX의 당일 공식 PR은 확정 상업 수주나 선급금이 전무하며, 유의미한 임상 데이터 없이 지난 10/21 환자 등록 PR에 이은 단순 파일럿 연구 투약 완료 쪼개기 재탕 언론플레이에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금, 임상 성공)에 절대 미달하므로 심사 헌법 제3조 ①·④항에 의거 FORCE_BLOCK: LEXX 처리합니다 [cite: 11, 291, 297].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: LEXX NOTES:\n[LEXX] 확정 수주 및 탑라인 데이터 전무한 10/21 기발표 환자등록에 이은 단순 GLP-1 파일럿 투약완료 쪼개기 재탕 PR로 헌법 3조 1·4항 위배 및 장전 -4.9% 윗꼬리 소멸 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI, ATHR, VIVS, NUWE, SAGT, LFS, FTCI, LIQT, MAMO, MODD에 이어 LEXX까지 총 34개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사/웨비나 참가, 금액 미기재 제휴/고객 채택/업무협약/기술평가서, 시운전 검수 승인, 단순 신제품 출시 예고, 기발표 보험등재 확장 재탕, 임상 투약완료 쪼개기 재탕 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 11, 291, 297]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 11].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795097276612_MODD_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 MIRA (MIRA Pharmaceuticals, Inc.) 2026-11-17 08:03 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.52M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $0.6310 대비 현재가 $0.6310 (+0.00%), 당일 최고가 $0.6649 (고점 대비 -5.1%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 빅파마 기술이전 계약이 아닌 초기 전임상 연구 결과 발표 (Preclinical Findings PR):\n본 PR의 본질은 FDA 시판 승인이나 임상 3상 성공, 또는 글로벌 대형 제약사와의 거액 독점 라이선스 계약이 아닙니다.\nMIRA-55 파이프라인의 비마약성 통증 완화 기전과 관련하여 CB2 수용체 활성화 및 500배 이상의 선택성 차이를 확인했다는 **초기 전임상(Preclinical) 실험실 약리 데이터 발표 보도자료(New Findings Highlight MIRA-55's Potent CB2 Activation... With Encouraging Preclinical Pain Relief...)**에 불과합니다.\n빅파마로부터 유입되는 확정 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 3상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 전임상 홍보(10/29)의 연장선상 학술 발표:\n과거 이력 대조 결과 회사는 2026년 10월 29일에도 MIRA-55 전임상 결과 보도자료를 배포한 바 있습니다.\n이번 보도자료 역시 기존 파이프라인의 추가 시험관/동물 실험 수준 약리 데이터에 불과한 전형적인 임상 이전 단계의 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 전임상(Preclinical) 연구 결과/약리 기전 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 정식 승인이 전무한 MIRA-55의 단순 초기 전임상(Preclinical) 선택성 약리 결과 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MIRA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: MIRA NOTES:\n[MIRA] 확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 08:00 ET 기준 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 피크 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794920593530_DXR_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:03:13",
-      "time_kst": "22:03:13",
-      "symbol": "DXR",
-      "company_name": "DXR",
-      "exchange": "ND",
-      "price": 8.355,
-      "gain_pct": 0.0,
-      "mcap_m": 48.78,
-      "decision": "FALSE",
-      "elapsed_sec": 46.3,
-      "reason": "확정 수주/매출 전무한 단순 캔자스 의료센터 내 ezBVA 랩 프로그램 런칭 마케팅 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 DXR (Daxor Corporation) 2026-11-17 08:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $48.78M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $8.3550 대비 현재가 $8.3550 (+0.00%), 당일 최고가 $8.7163 (고점 대비 -4.1%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단일 의료센터 내 ezBVA 랩 프로그램 단순 도입 홍보 (Clinical Program Launch PR):\n본 PR의 본질은 대규모 매출 계약이나 정부/빅파마 수주가 아니라, 캔자스 소재의 한 대학 의료센터(Premier Kansas Academic Medical Center)에 자체 혈액량 분석(BVA) 랩 프로그램을 런칭했다는 **단순 개별 병원 프로그램 도입 마케팅 보도자료(today announced the commercial launch of a new BVA program at...)**입니다.\n외부 기관이나 병원으로부터 확정된 대규모 장비/진단키트 구매 수주액, 최소 보장 구매 수량(MOQ), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 학회 홍보(10/14, 10/15)의 연장선상 상업화 마케팅 뉴스:\n과거 이력 대조 결과 회사는 10월 14~15일 MedAxiom 트랜스포럼 학회 참가 등 BVA 플랫폼 상업화 확장을 지속적으로 알려왔습니다.\n이번 보도자료 역시 특정 거액 납품 계약 없이 개별 병원에 랩 프로그램을 도입했다는 사실을 포장한 전형적인 상업화 진행 과정의 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 프로그램 런칭/병원 도입/제휴 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 캔자스 소재 대학 의료센터 내 ezBVA 랩 프로그램 단순 런칭 마케팅 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: DXR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: DXR NOTES:\n[DXR] 확정 수주/매출 전무한 단순 캔자스 의료센터 내 ezBVA 랩 프로그램 런칭 마케팅 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 15개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입으로 확인되어 안전하게 전량 차단되었습니다. 08:00~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
