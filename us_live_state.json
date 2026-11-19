@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-20 01:23:57",
-  "updated_at_et": "2026-11-19 11:23:57",
-  "updated_epoch_ms": 1795105437667,
+  "updated_at_kst": "2026-11-20 01:24:56",
+  "updated_at_et": "2026-11-19 11:24:56",
+  "updated_epoch_ms": 1795105496141,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "POAS",
     "holding_qty": 199,
     "avg_price": 3.7231,
-    "current_price": 3.36,
-    "profit_rate": -9.75,
-    "updated_kst": "01:23:52"
+    "current_price": 3.3895,
+    "profit_rate": -8.96,
+    "updated_kst": "01:24:49"
   },
   "stats": {
     "today_total": 48,
