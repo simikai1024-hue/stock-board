@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:31:44",
-  "updated_at_et": "2026-11-19 07:31:44",
-  "updated_epoch_ms": 1795091504738,
+  "updated_at_kst": "2026-11-19 21:32:20",
+  "updated_at_et": "2026-11-19 07:32:20",
+  "updated_epoch_ms": 1795091540029,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "STEX",
+    "company_name": "STEX",
+    "exchange": "ND",
+    "price": 0.29,
+    "gain_pct": 0.83,
+    "mcap_m": 34.16,
+    "catalyst_hint": "[당일 PR] Streamex Corp. and Monetary Metals & Co. Expand Partnership to Unlock Gold Yield in IRAs",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:32:11",
+    "started_at_kst": "21:32:11",
+    "started_epoch_ms": 1795091531362
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:31:35"
+    "updated_kst": "21:32:15"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2449,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:32:10",
+      "time_kst": "21:32:10",
+      "symbol": "MDCX",
+      "company_name": "MDCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,3.03,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:31:55",
+      "time_kst": "21:31:55",
+      "symbol": "LE",
+      "company_name": "LE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $284.51M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:31:50",
+      "time_kst": "21:31:50",
+      "symbol": "SAIC",
+      "company_name": "SAIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6160.62M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:31:44",
+      "time_kst": "21:31:44",
+      "symbol": "GCL",
+      "company_name": "GCL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $189.45M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:31:38",
       "time_kst": "21:31:38",
       "symbol": "PVLA",
@@ -2894,46 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:27:44",
-      "time_kst": "19:27:44",
-      "symbol": "EDVA",
-      "company_name": "EDVA",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:27:16",
-      "time_kst": "19:27:16",
-      "symbol": "BTQ",
-      "company_name": "BTQ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $172.08M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:22:01",
-      "time_kst": "19:22:01",
-      "symbol": "CIGL",
-      "company_name": "CIGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $56.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:18:41",
-      "time_kst": "19:18:41",
-      "symbol": "VBIO",
-      "company_name": "VBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
