@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:26:15",
-  "updated_at_et": "2026-11-19 09:26:15",
-  "updated_epoch_ms": 1795098375661,
+  "updated_at_kst": "2026-11-19 23:26:34",
+  "updated_at_et": "2026-11-19 09:26:34",
+  "updated_epoch_ms": 1795098394258,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "LOBO",
+    "company_name": "LOBO",
+    "exchange": "ND",
+    "price": 3.1,
+    "gain_pct": -3.43,
+    "mcap_m": 44.77,
+    "catalyst_hint": "[당일 PR] LOBO Connects 30 Community Senior Service Centers to Its AI-Powered SISaaS Platform for Initial Testing",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:26:29",
+    "started_at_kst": "23:26:29",
+    "started_epoch_ms": 1795098389064
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:26:02"
+    "updated_kst": "23:26:23"
   },
   "stats": {
     "today_total": 45,
