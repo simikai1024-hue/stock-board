@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 20:31:41",
-  "updated_at_et": "2026-11-19 06:31:41",
-  "updated_epoch_ms": 1795087901293,
+  "updated_at_kst": "2026-11-19 20:32:03",
+  "updated_at_et": "2026-11-19 06:32:03",
+  "updated_epoch_ms": 1795087923869,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AETR",
+    "company_name": "AETR",
+    "exchange": "ND",
+    "price": 1.74,
+    "gain_pct": 4.82,
+    "mcap_m": 33.05,
+    "catalyst_hint": "[당일 PR] Aetherion™ to Demonstrate CNG Heavy-Duty, HPDI Powered Trucks, Supported by C$2 Million Funding from Fuel Innovation Fund",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:31:58",
+    "started_at_kst": "20:31:58",
+    "started_epoch_ms": 1795087918008
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:31:40"
+    "updated_kst": "20:31:58"
   },
   "stats": {
     "today_total": 2,
