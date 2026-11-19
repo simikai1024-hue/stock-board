@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:49:00",
-  "updated_at_et": "2026-11-19 07:49:00",
-  "updated_epoch_ms": 1795092540296,
+  "updated_at_kst": "2026-11-19 21:49:50",
+  "updated_at_et": "2026-11-19 07:49:50",
+  "updated_epoch_ms": 1795092590727,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:48:55"
+    "updated_kst": "21:49:37"
   },
   "stats": {
     "today_total": 17,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:49:42",
+      "time_kst": "21:49:42",
+      "symbol": "GTBP",
+      "company_name": "GTBP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:40:08",
       "time_kst": "21:40:08",
       "symbol": "LIMN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $436.94M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "06:05:32",
-      "time_kst": "20:05:32",
-      "symbol": "HDL",
-      "company_name": "HDL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $628.96M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
