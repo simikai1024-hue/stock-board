@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:04:27",
-  "updated_at_et": "2026-11-19 04:04:27",
-  "updated_epoch_ms": 1795079067865,
+  "updated_at_kst": "2026-11-19 18:05:13",
+  "updated_at_et": "2026-11-19 04:05:13",
+  "updated_epoch_ms": 1795079113233,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:04:15"
+    "updated_kst": "18:04:58"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 14,
+    "today_hardcut": 18,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:05:08",
+      "time_kst": "18:05:08",
+      "symbol": "BGDE",
+      "company_name": "BGDE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:04:53",
+      "time_kst": "18:04:53",
+      "symbol": "MKDW",
+      "company_name": "MKDW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.73M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:04:47",
+      "time_kst": "18:04:47",
+      "symbol": "BIAF",
+      "company_name": "BIAF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:04:27",
+      "time_kst": "18:04:27",
+      "symbol": "UFG",
+      "company_name": "UFG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $68.5M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:04:22",
       "time_kst": "18:04:22",
       "symbol": "BOF",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:36:32",
-      "time_kst": "23:36:32",
-      "symbol": "CDW",
-      "company_name": "CDW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $20352.6M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:32:40",
-      "time_kst": "23:32:40",
-      "symbol": "RSSS",
-      "company_name": "RSSS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $71.58M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:31:43",
-      "time_kst": "23:31:43",
-      "symbol": "NCT",
-      "company_name": "NCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $182.45M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:31:28",
-      "time_kst": "23:31:28",
-      "symbol": "DWSN",
-      "company_name": "DWSN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.76M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
