@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:02:53",
-  "updated_at_et": "2026-11-19 07:02:53",
-  "updated_epoch_ms": 1795089773568,
+  "updated_at_kst": "2026-11-19 21:03:44",
+  "updated_at_et": "2026-11-19 07:03:44",
+  "updated_epoch_ms": 1795089824699,
   "analyzing": {
-    "active": true,
-    "symbol": "MRKR",
-    "company_name": "MRKR",
-    "exchange": "ND",
-    "price": 0.9499,
-    "gain_pct": 11.33,
-    "mcap_m": 15.84,
-    "catalyst_hint": "[당일 PR] Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:02:48",
-    "started_at_kst": "21:02:48",
-    "started_epoch_ms": 1795089768195
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:02:52"
+    "updated_kst": "21:03:32"
   },
   "stats": {
-    "today_total": 6,
-    "today_nblm_count": 6,
+    "today_total": 7,
+    "today_nblm_count": 7,
     "today_buy": 0,
-    "today_false": 6,
+    "today_false": 7,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 50.4
+    "avg_nblm_sec": 51.4
   },
   "verdicts": [
+    {
+      "id": "v_1795089821628_MRKR_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "07:03:41",
+      "time_kst": "21:03:41",
+      "symbol": "MRKR",
+      "company_name": "MRKR",
+      "exchange": "ND",
+      "price": 0.9499,
+      "gain_pct": 11.33,
+      "mcap_m": 15.84,
+      "decision": "FALSE",
+      "elapsed_sec": 57.7,
+      "reason": "상업 수주 전무한 단순 CPRIT 텍사스 암연구원 임상 2상 연구 보조금(Grant) 수령 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 MRKR (Marker Therapeutics, Inc.) 2026-11-19 07:02:43 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n거래소 적격성: The NASDAQ Capital Market (Nasdaq: MRKR) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 합격.\n실질 시가총액: 약 $15.84M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $16.20M 수치의 치명적 본질 적발):\n언뜻 시총($15.84M) 대비 102.3%에 달하는 거액의 자금 조달로 보이지만, 이는 상업 매출이 폭발하는 고객사 수주(AIMD형)나 빅파마 독점 기술이전 계약이 아니라 **\"텍사스 암예방연구원(CPRIT)으로부터 림프종 임상 2상(APOLLO Study) 연구비 지원 명목으로 선정된 연구개발 정부/공공 보조금(CPRIT Grant)\"**에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 매물 출회):\n전일 종가 $0.8532 대비 현재가 $0.9499 (+11.33%).\n당일 프리마켓 최고가 $1.0100 (+18.4%)을 터치한 후 고점 대비 -6.0% 밀리며 차익 실현 윗꼬리 출회 중.\n당일 누적 거래대금 $9,074 USD (약 9천 달러 수준의 극소액 프리장 수급).\n당일 SEC 공시 현황: 2026-11-19 [8-K] (Item 8.01, 9.01) 제출 확인 (당일 배포된 보도자료를 단순 첨부한 기타 공시).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '임상 2상 R&D 비희석 연구 보조금' 언론플레이 (Grant PR):\n원문 본문에 *\"Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study... Highly competitive grant award provides significant non-dilutive funding to support Phase 2 development of MT-601 in CAR-relapsed lymphoma\"*라고 명시되어 있습니다.\n이는 회사 금고로 유입되어 당장 기업 가치와 주당순이익(EPS)을 폭발시키는 확정 공급 계약이나 거액의 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n텍사스 주정부 산하 기관(CPRIT)의 프로젝트성 연구비 지원(Grant)으로, 지정된 임상 2상 시험 진행 경비로만 단계별 소진되는 전형적인 바이오 연구개발 보조금일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (비상업 연구 보조금 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 정부/기관 보조금(Grant) 수령 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 직전 차단된 AETR의 C$2.0M 주정부 연료혁신기금 보조금과 본질적으로 동일한 유형).\n장전 프리마켓에서 $1.0100까지 반짝 띄운 뒤 시장이 단순 임상 연구비 지원임을 확인하고 고점 대비 -6.0% 밀리며 매물이 출회되고 있는 전형적인 윗꼬리 패턴입니다.\n3. 최종 심사 및 결재 판정\nMRKR의 당일 공식 PR 및 8-K는 상업 수주나 현금 선급금이 전무한 단순 텍사스주 암연구원(CPRIT)의 임상 2상 연구비 지원 보조금(Grant) 수령에 불과하여, 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금) 요건에 절대 미달하고 장전 고점 대비 -6.0% 윗꼬리 출회 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MRKR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: MRKR NOTES:\n[MRKR] 상업 수주 전무한 단순 CPRIT 텍사스 암연구원 임상 2상 연구 보조금(Grant) 수령 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(소액 정부 실증 보조금), SEAT(단순 부채 구조조정 리파이낸싱), YMAT(미쓰비시 케미컬 공급망 협력 재탕)에 이어 MRKR(단순 임상 R&D 보조금 수령)까지 총 6개 종목 전수가 실체적 상업 매출 기폭제 결여로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 약 2시간 27분 남았습니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795089756983_YMAT_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,69 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 REVB (Revelation Biosciences, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.0M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 3,133,333% 적발):\n본문 핵심 금액으로 감지된 약 **$94,000.00M USD (940억 달러)**는 회사에 신규 유입되는 계약금이나 수주액이 절대 아닙니다.\n회사가 개발 중인 치료제(Gemini)의 적응증 대상 질환(급성 신장 손상, 심근경색, 패혈증 등)의 글로벌 전체 시장 추정치(TAM, Total Addressable Market) 등 **홍보용 시장 규모 통계 수치(TAM 착시)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $4.2650 대비 현재가 $4.3900 (+2.93%), 당일 최고가 $4.5000 (고점 대비 -2.4%).\n당일 누적 거래대금 $44 USD (단 10주 남짓 체결 수준의 극단적 거래량 실종 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 전략적 계획 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Revelation Biosciences Announces Accelerated Gemini Development Plan and Strategic Partnership Initiatives\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 자체 개발 가속화 계획 및 파트너십 추진 계획 표명 (Plan & Initiatives PR):\n본 PR의 본질은 자사 신약 후보물질(Gemini)의 개발 속도를 높이기 위한 내부 전략 전환을 발표하고, 향후 파트너십을 추진하겠다는 **단순 계획 및 의향 표명 보도자료(announced a strategic shift designed to accelerate development... and strategic partnership initiatives)**입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 전혀 아닙니다.\n확정 계약 금액(Dollar Value)이 전무한 구속력 없는 파트너십 탐색:\n글로벌 빅파마와의 확정된 독점 라이선스 본계약 체결, 거액 현금 선급금(Upfront Cash, AIMD형) 유입 등 실체적 계약이 아니라, 향후 파트너십을 체결하기 위한 '추진 계획(Initiatives)'을 언급한 전형적인 언론 플레이 홍보물입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금, 빅파마 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 실적 부진(11/05 순손실 확대) 후 나온 주가 방어용 IR:\n과거 이력 대조 결과 회사는 11월 5일 3분기 순손실 확대 실적 발표 이후 주가 하락을 방어하기 위해 계획성 IR 보도자료를 낸 것에 불과합니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 개발 계획/파트너십 추진 의향/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이나 확정 수주 계약이 아닌 단순 자체 개발 가속화 계획 및 파트너십 추진 계획(전체 시장규모 $94B 착시) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: REVB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: REVB NOTES:\n[REVB] FDA 승인 없는 단순 Gemini 개발 가속화 계획 및 파트너십 추진 홍보(TAM $94B 착시) PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794838173949_UPLD_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "09:09:33",
-      "time_kst": "23:09:33",
-      "symbol": "UPLD",
-      "company_name": "UPLD",
-      "exchange": "ND",
-      "price": 2.94,
-      "gain_pct": 0.0,
-      "mcap_m": 8.35,
-      "decision": "FALSE",
-      "elapsed_sec": 52.3,
-      "reason": "확정 수주/매출 없는 단순 Amazon Bedrock 제품 기능 연동 및 AI 마케팅 홍보 PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Upland RightAnswers Gains AI-Powered Knowledge on Amazon Bedrock",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 UPLD (Upland Software, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.35M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/매출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (거래량 실종 바닥 구간):\n전일 종가 $2.9400 대비 현재가 $2.9400 (+0.00%), 당일 최고가 $3.0700 (고점 대비 -4.2%).\n당일 누적 거래대금 $0 USD (프리마켓 거래량 전무한 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 제품 기능 출시 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Upland RightAnswers Gains AI-Powered Knowledge on Amazon Bedrock\"\n원문 직독 결과 드러난 치명적 실체:\n확정 계약/매출 유입이 없는 단순 타사 클라우드(Amazon Bedrock) 기능 연동 및 통합 홍보 (Product Integration PR):\n본 PR의 본질은 자사의 지식 관리 솔루션인 RightAnswers를 아마존의 생성형 AI 플랫폼인 'Amazon Bedrock' 환경에 현대화하여 통합 지원(modernizing of Upland RightAnswers on Amazon Bedrock)한다는 단순 제품 기능 업데이트/출시 보도자료입니다.\n아마존(AWS)이 Upland에 거액의 확정 라이선스 비용을 지불하거나 대규모 구매 계약을 체결한 것이 전혀 아니며, 회사가 아마존 베드록 인프라를 활용하여 자사 소프트웨어 기능을 개편했다는 단순 기술 연동 마케팅 뉴스에 불과합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 우선주 배당 유예(11/09) 등 악재성 재무 흐름 속 단순 기능 홍보:\n과거 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 9일에 현금 부족 등으로 인해 *\"Upland Software Announces Waiver of Series A Preferred Stock Dividends(시리즈 A 우선주 배당 포기/유예)\"*를 발표한 바 있습니다.\n재무적 자금난/배당 유예 상황에서 나온 확정 계약금 없는 단순 AI 테마 편승용 제품 기능 업데이트 홍보물입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 플랫폼 연동/제휴/제품 기능 업데이트/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 아마존으로부터의 수주 계약이 아닌 단순 Amazon Bedrock 기반 RightAnswers 기능 현대화/연동 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: UPLD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: UPLD NOTES:\n[UPLD] 확정 수주/매출 없는 단순 Amazon Bedrock 제품 기능 연동 및 AI 마케팅 홍보 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:03:41",
+      "time_kst": "21:03:41",
+      "symbol": "DXLG",
+      "company_name": "DXLG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Destination XL Group, Inc. to Announce Third Quarter 2026 )"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:03:20",
+      "time_kst": "21:03:20",
+      "symbol": "REGN",
+      "company_name": "REGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $97797.11M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:03:14",
+      "time_kst": "21:03:14",
+      "symbol": "ATYR",
+      "company_name": "ATYR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $400.2M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:03:11",
+      "time_kst": "21:03:11",
+      "symbol": "KRRO",
+      "company_name": "KRRO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $170.75M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:03:08",
+      "time_kst": "21:03:08",
+      "symbol": "ADAG",
+      "company_name": "ADAG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $122.2M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:03:05",
+      "time_kst": "21:03:05",
+      "symbol": "EVAX",
+      "company_name": "EVAX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "07:02:49",
@@ -2486,16 +2534,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1510.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:02:13",
-      "time_kst": "21:02:13",
-      "symbol": "DXLG",
-      "company_name": "DXLG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Destination XL Group, Inc. to Announce Third Quarter 2026 )"
     },
     {
       "date_et": "2026-11-19",
@@ -2896,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:27:05",
-      "time_kst": "18:27:05",
-      "symbol": "CAST",
-      "company_name": "CAST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $55.91M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:25:05",
-      "time_kst": "18:25:05",
-      "symbol": "VVOS",
-      "company_name": "VVOS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,2.01,3.02,3.03,5.03,7.01,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:24:27",
-      "time_kst": "18:24:27",
-      "symbol": "QNME",
-      "company_name": "QNME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:18:49",
-      "time_kst": "18:18:49",
-      "symbol": "UPXI",
-      "company_name": "UPXI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.66M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:18:34",
-      "time_kst": "18:18:34",
-      "symbol": "OPTT",
-      "company_name": "OPTT",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [424B4])"
     }
   ]
 }
