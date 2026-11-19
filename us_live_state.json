@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:55:11",
-  "updated_at_et": "2026-11-19 08:55:11",
-  "updated_epoch_ms": 1795096511645,
+  "updated_at_kst": "2026-11-19 22:56:13",
+  "updated_at_et": "2026-11-19 08:56:13",
+  "updated_epoch_ms": 1795096573831,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:55:03"
+    "updated_kst": "22:56:05"
   },
   "stats": {
     "today_total": 38,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:55:26",
+      "time_kst": "22:55:26",
+      "symbol": "INTA",
+      "company_name": "INTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3392.59M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:55:17",
+      "time_kst": "22:55:17",
+      "symbol": "TSLA",
+      "company_name": "TSLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1516753.07M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:51:16",
       "time_kst": "22:51:16",
       "symbol": "TROW",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5174.6M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:05:04",
-      "time_kst": "22:05:04",
-      "symbol": "SRTM",
-      "company_name": "SRTM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:04:55",
-      "time_kst": "22:04:55",
-      "symbol": "APMD",
-      "company_name": "APMD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $726.46M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
