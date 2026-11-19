@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:34:19",
-  "updated_at_et": "2026-11-19 07:34:19",
-  "updated_epoch_ms": 1795091659244,
+  "updated_at_kst": "2026-11-19 21:35:01",
+  "updated_at_et": "2026-11-19 07:35:01",
+  "updated_epoch_ms": 1795091701696,
   "analyzing": {
-    "active": true,
-    "symbol": "DRIO",
-    "company_name": "DRIO",
-    "exchange": "ND",
-    "price": 1.6,
-    "gain_pct": 9.59,
-    "mcap_m": 18.06,
-    "catalyst_hint": "[당일 PR] Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:34:14",
-    "started_at_kst": "21:34:14",
-    "started_epoch_ms": 1795091654271
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:34:19"
+    "updated_kst": "21:35:00"
   },
   "stats": {
-    "today_total": 14,
-    "today_nblm_count": 14,
+    "today_total": 15,
+    "today_nblm_count": 15,
     "today_buy": 0,
-    "today_false": 14,
+    "today_false": 15,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 49.2
+    "avg_nblm_sec": 48.7
   },
   "verdicts": [
+    {
+      "id": "v_1795091692991_DRIO_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "07:34:52",
+      "time_kst": "21:34:52",
+      "symbol": "DRIO",
+      "company_name": "DRIO",
+      "exchange": "ND",
+      "price": 1.6,
+      "gain_pct": 9.59,
+      "mcap_m": 18.06,
+      "decision": "FALSE",
+      "elapsed_sec": 41.9,
+      "reason": "확정 상업수주 전무한 단순 WebMD Health Services 전략적 파트너십 제휴 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DRIO (DarioHealth Corp.) 2026-11-19 07:34:11 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 9, 10].\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 매물 출회 및 거래대금 극소)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: DRIO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 9].\n실질 시가총액: 약 $18.06M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 10].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 파트너십 홍보 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n헤드라인의 \"6,500만 명 대상(65 million lives covered)\" 수치는 WebMD Health Services의 잠재 회원 네트워크 규모일 뿐, DRIO 금고로 확정 유입되는 라이선스비나 선급금 달러($) 수치가 전혀 아닙니다.\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 공급 계약이 아니라, WebMD Health Services의 플랫폼(WebMD ONE)과 자사 AI 다중질환 플랫폼을 연계한다는 **전형적인 금액 미기재 전략적 제휴/플랫폼 연동 마케팅 홍보물(Strategic Partnership PR)**에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 출회):\n전일 종가 $1.4600 대비 현재가 $1.6000 (+9.59%).\n당일 프리마켓 최고가 $1.6500 (+13.0%)까지 반짝 띄운 후 실체 없는 제휴임을 확인하고 고점 대비 -3.0% 밀림.\n당일 누적 거래대금 $502 USD (약 500달러 수준의 극소액 프리마켓 거래).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 10].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '금액 미기재 전략적 파트너십/제휴' 언론플레이 (Partnership PR):\n원문 본문에 *\"Dario and WebMD Health Services Announce Strategic Partnership... Partnership combines WebMD ONE, a trusted engagement platform, with Dario's comprehensive AI-powered multi-condition platform and clinical care solutions...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 13].\n3,500개 고용주 및 6,500만 명 잠재 가입자 네트워크라는 외형적 수치로 포장했을 뿐, 실제 발생 매출은 가입자들의 향후 플랫폼 선택 및 이용률에 따라 좌우되는 전형적인 금액 미기재 사업 제휴/MOU성 보도자료에 불과합니다 (과거 족보집 231번 MEDS의 건강보험사 앱 MOU, 37번 NNOX의 태국 제휴 오답 패턴과 100% 동일).\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 13].\n심사 헌법 제3조 ④항 위배 (금액 미기재 제휴 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/특허/서비스 연동 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 차단된 STEX, YMAT, JG의 제휴·홍보성 PR과 동일한 유형).\n3. 최종 심사 및 결재 판정\nDRIO의 당일 공식 PR은 확정 상업 수주나 현금 선급금이 전무한 단순 WebMD Health Services와의 금액 미기재 전략적 파트너십 홍보물에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: DRIO 처리합니다 [cite: 13].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 11].\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: DRIO NOTES:\n[DRIO] 확정 상업수주 전무한 단순 WebMD Health Services 전략적 파트너십 제휴 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM에 이어 DRIO까지 총 13개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사 참가, 금액 미기재 제휴 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 11, 13]. 이제 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795091627573_ELBM_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "신규 수주가 아닌 타사(EVelution Energy)의 BoA 금융 자문사 선임 PR(BoA $250B 펀드 착시) 및 단순 주총 6-K로 1급 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] EVelution Energy Engages Bank of America to Assist in Structuring Proposed U.S. EXIM Financing",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 SDA (SunCar Technology Group Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.41M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 946,611% 적발):\n본문 핵심 금액으로 감지된 약 **$250,000.00M USD (2,500억 달러)**는 회사에 신규 유입되는 계약금이나 수주액이 절대 아닙니다.\n뱅크오브아메리카(Bank of America)가 올해 초 발표한 전체 18개월짜리 미국 핵심 인프라 금융 지원 프로그램의 총예산 한도(Earlier this year, Bank of America announced an 18-month, $250 billion Critical Infrastructure Finance Initiative...) 수치에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 정체):\n전일 종가 $0.2512 대비 현재가 **$0.2589 (+3.07%)**.\n당일 최고가 $0.2799 찍은 후 장전 고점 대비 -7.5% 밀리며 상승 탄력 둔화.\n당일 누적 거래대금 $19,556 USD.\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수 완료 (단, 임시주총 소집 통지서에 불과함).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:12 ET) 공식 PR 원문 분석:\nPR 제목: *\"EVelution Energy Engages Bank of America to Assist in Structuring Proposed U.S. EXIM Financing\"*\n원문 직독 결과 드러난 치명적 실체:\n상장사 본업 수주가 아닌 타사(EVelution Energy)의 단순 자문사 고용 보도자료 (Advisory Engagement PR):\n본 PR의 주체는 코발트 가공 시설을 개발 중인 비상장사 'EVelution Energy LLC'이며, 미국 수출입은행(EXIM) 대출 자금 조달을 위해 Bank of America를 금융 자문사로 고용(engaged Bank of America to advise the Company and assist in structuring a potential debt transaction)했다는 단순 자문 계약 보도자료입니다.\nSunCar(SDA) 본업에 외부로부터 확정된 매출이나 대규모 현금 수주가 유입되는 것이 전혀 아닙니다.\n확정 자금 조달도 아닌 구속력 없는 투자의향서(LOI) 기반의 잠재적 부채 조달:\n본문상 *\"non-binding Letters of Interest from EXIM\"*를 바탕으로 향후 프로젝트 파이낸싱 승인 및 실행을 추진하기 위한 초기 자문 단계일 뿐, 실제로 대출이나 자금 조달이 확정된 상태도 아닙니다.\n당일 신규 제출된 6-K는 단순 주총 소집 통지서 (무호재 공시):\n당일 SEC에 접수된 6-K EX-99.1 원문은 *\"MEETING NOTICE FOR THE EXTRAORDINARY GENERAL MEETING OF THE SHAREHOLDERS\"*로, 자금 유입 호재가 없는 단순 임시주총 소집 공시입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 금융 자문사 선임/인프라 계획 발표(BoA $250B 프로그램 착시)는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 타사(EVelution Energy)의 BoA 금융 자문사 선임 보도자료(BoA 인프라 펀드 $250B 착시)에 불과하며, 당일 6-K 역시 단순 주총 소집 통지서로 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SDA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: SDA NOTES:\n[SDA] 신규 수주가 아닌 타사(EVelution Energy)의 BoA 금융 자문사 선임 PR(BoA $250B 펀드 착시) 및 단순 주총 6-K로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794838977685_DTST_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "09:22:57",
-      "time_kst": "23:22:57",
-      "symbol": "DTST",
-      "company_name": "DTST",
-      "exchange": "ND",
-      "price": 2.7659,
-      "gain_pct": -2.61,
-      "mcap_m": 6.47,
-      "decision": "FALSE",
-      "elapsed_sec": 62.7,
-      "reason": "신규 확정 수주가 아닌 단순 Q3 정기 실적 및 비즈니스 업데이트(재무제표 수치 $29.3M 착시) PR로 1급 기폭제 미달 및 장전 음봉 하락(-2.61%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Data Storage Corporation Provides Third Quarter 2026 Business Update",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DTST (Data Storage Corporation) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.47M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 452.9% 적발):\n본문 핵심 금액으로 감지된 약 $29.30M USD(시총 대비 452.9%)는 외부 고객사로부터 새롭게 유입되는 확정 수주나 신규 계약금이 아닙니다.\n회사의 3분기 누적 매출액, 총자산 또는 대차대조표상 지표 등 정기 분기 실적 보고서(10-Q/Earnings)에 포함된 단순 내부 재무 수치에 불과합니다.\n원문 부제에 적힌 실질 보유 현금 및 유가증권 역시 $9.5M 수준의 기존 잔고 현황일 뿐입니다.\n실시간 체결가 및 수급 (장전 음봉 덤핑 흐름):\n전일 종가 $2.8400 대비 현재가 $2.7659 (-2.61%).\n당일 최고가 $3.0600 찍은 후 장전 고점 대비 -9.6% 급락하며 마이너스 파란불로 하락 전환.\n당일 누적 거래대금 $809 USD (1천 달러 미만의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:20 ET) 공식 PR 원문 분석:\nPR 제목: \"Data Storage Corporation Provides Third Quarter 2026 Business Update\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주가 아닌 통상적인 3분기 정기 실적 및 사업 현황 업데이트 (Routine Q3 Business Update PR):\n본 PR의 본질은 회사가 2026년 9월 30일로 마감된 3분기 정기 재무 실적을 보고하고, 규제 산업을 위한 AI 연속성 플랫폼 개발 현황 및 보유 현금($9.5M, 무차입 경영)을 알리는 **단순 정기 실적 보도자료(today reported financial results for the third quarter ended September 30, 2026...)**입니다.\n외부 대기업이나 기관으로부터 확정된 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n족보집 심사 원칙상 \"단순 주주서한·기업현황(Business Update)·컨퍼런스콜 일정은 100% FORCE_BLOCK\" 규정에 직결됩니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n11월 5일 실적 발표 컨퍼런스콜 예고에 이은 예정된 일정 소진 (통상 분기 루틴):\n과거 이력 대조 결과, 회사는 이미 2026년 11월 5일에 \"Data Storage Corporation Schedules Third Quarter 2026 Business Update Call\" 보도자료를 통해 오늘 11:00 AM ET 컨퍼런스콜 및 실적 발표를 공식 예고한 바 있습니다.\n11월 13일 로이터 실적 프리뷰를 거쳐 예정된 일정에 맞춰 배포된 통상적인 정기 IR 뉴스입니다.\n심사 헌법 제3조 위배 및 장전 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/기업 현황 업데이트/보유현금 나열은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $3.0600까지 반짝 튀었다가 즉각 고점 대비 -9.6% 밀리며 -2.61% 마이너스 파란불 음봉으로 전락한 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 3분기 정기 실적(재무제표 수치 $29.3M 착시) 및 비즈니스 업데이트 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -9.6% 밀려 -2.61% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: DTST 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: DTST NOTES:\n[DTST] 신규 확정 수주가 아닌 단순 Q3 정기 실적 및 비즈니스 업데이트(재무제표 수치 $29.3M 착시) PR로 1급 기폭제 미달 및 장전 음봉 하락(-2.61%) 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
