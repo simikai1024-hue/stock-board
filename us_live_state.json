@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:39:59",
-  "updated_at_et": "2026-11-19 07:39:59",
-  "updated_epoch_ms": 1795091999691,
+  "updated_at_kst": "2026-11-19 21:41:06",
+  "updated_at_et": "2026-11-19 07:41:06",
+  "updated_epoch_ms": 1795092066360,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:39:55"
+    "updated_kst": "21:40:58"
   },
   "stats": {
     "today_total": 16,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:40:08",
+      "time_kst": "21:40:08",
+      "symbol": "LIMN",
+      "company_name": "LIMN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:38:15",
       "time_kst": "21:38:15",
       "symbol": "PFSA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $628.96M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "06:05:27",
-      "time_kst": "20:05:27",
-      "symbol": "NTES",
-      "company_name": "NTES",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $75430.59M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
