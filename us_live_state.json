@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:30:50",
-  "updated_at_et": "2026-11-19 07:30:50",
-  "updated_epoch_ms": 1795091450875,
+  "updated_at_kst": "2026-11-19 21:31:44",
+  "updated_at_et": "2026-11-19 07:31:44",
+  "updated_epoch_ms": 1795091504738,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:30:32"
+    "updated_kst": "21:31:35"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:31:38",
+      "time_kst": "21:31:38",
+      "symbol": "PVLA",
+      "company_name": "PVLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2142.78M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:18:47",
       "time_kst": "21:18:47",
       "symbol": "ONEN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:17:06",
-      "time_kst": "19:17:06",
-      "symbol": "AIIO",
-      "company_name": "AIIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1016.87M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
