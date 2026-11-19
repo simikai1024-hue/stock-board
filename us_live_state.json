@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:07:08",
-  "updated_at_et": "2026-11-19 08:07:08",
-  "updated_epoch_ms": 1795093628256,
+  "updated_at_kst": "2026-11-19 22:07:14",
+  "updated_at_et": "2026-11-19 08:07:14",
+  "updated_epoch_ms": 1795093634970,
   "analyzing": {
     "active": false
   },
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:07:10",
+      "time_kst": "22:07:10",
+      "symbol": "MRLN",
+      "company_name": "MRLN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $87.95M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:07:01",
       "time_kst": "22:07:01",
       "symbol": "HRMY",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $12365.37M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:05:02",
-      "time_kst": "21:05:02",
-      "symbol": "SMTK",
-      "company_name": "SMTK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 투매 급락 구간 방어 차단 (현재 -8.6% <= -8.0%)"
     }
   ]
 }
