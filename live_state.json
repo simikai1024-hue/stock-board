@@ -1,34 +1,13 @@
 {
   "date": "2026-11-19",
-  "updated_at": "2026-11-19 09:30:36",
+  "updated_at": "2026-11-19 09:50:29",
   "isi_board": {
-    "updated_at": "2026-11-19 09:30:36",
+    "updated_at": "2026-11-19 09:50:29",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-18",
     "theme_updated_at": "15:34:12",
     "overnight_holding": {
-      "active": true,
-      "code": "058610",
-      "name": "에스피지",
-      "buy_date": "2026-11-18",
-      "strategy": "ISI_LEADER_OVERNIGHT",
-      "theme_name": "로봇·액추에이터 / 제습기",
-      "rank_type": "진성 급등테마 1등 대장주 (4중 품질필터 통과)",
-      "init_qty": 1,
-      "buy_price": 76200,
-      "vwap_price": 74005,
-      "target_tp_pct": 6.0,
-      "target_sell_px": 80800,
-      "stop_loss_px": 72700,
-      "ambush_sell_ord_no": "0000073",
-      "ambush_stex": "KRX",
-      "ambush_sell_px": 80800,
-      "ambush_buy_p": 76200.0,
-      "ambush_init_qty": 1,
-      "nxt_tried_date": "2026-11-19",
-      "nxt_ineligible": true,
-      "last_krx_try_ts": 1795047600.5674615,
-      "weekday_short": "수"
+      "active": false
     },
     "top3_themes": [
       {
@@ -290,7 +269,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-19",
-      "updated_at": "09:30:15",
+      "updated_at": "09:48:50",
       "signal_status": "NEUTRAL",
       "active_signal": null,
       "today_closed": null,
@@ -401,9 +380,9 @@
         "kospi_personal_eok": 0,
         "kosdaq_foreign_eok": 0,
         "kosdaq_inst_eok": 0,
-        "usdkrw": 1328.0,
-        "usdkrw_chg": -6.0,
-        "usdkrw_pct": -0.45,
+        "usdkrw": 1330.5,
+        "usdkrw_chg": -3.5,
+        "usdkrw_pct": -0.26,
         "nasdaq_pct": 0.42,
         "sox_pct": 0.1,
         "macro_score": 1,
@@ -413,6 +392,13 @@
         "news_label": "호악재 혼조",
         "headlines": [
           {
+            "title": "한달 만에 27% ‘폭락의 눈물’…CEO 리스크까지 겹친 엔비디아 앞날은",
+            "press": "매일경제",
+            "time": "09:29",
+            "tone": "NEUTRAL",
+            "url": "https://n.news.naver.com/mnews/article/009/0005765963"
+          },
+          {
             "title": "수능날엔 주가 떨어진다?…10년치 코스피 성적표 살펴보니",
             "press": "한국경제",
             "time": "09:16",
@@ -420,18 +406,11 @@
             "url": "https://n.news.naver.com/mnews/article/015/0005355663"
           },
           {
-            "title": "코인판된 증시에 뺨 맞은 진짜 코인판",
+            "title": "‘9000 광풍’ 코인판된 증시에 뺨 맞은 진짜 코인판",
             "press": "조선일보",
             "time": "09:02",
-            "tone": "UP",
+            "tone": "NEUTRAL",
             "url": "https://n.news.naver.com/mnews/article/023/0004010508"
-          },
-          {
-            "title": "반도체 장비주, 2028년까지 달린다…유진證 “전공정株 주목”",
-            "press": "조선비즈",
-            "time": "08:54",
-            "tone": "DN",
-            "url": "https://n.news.naver.com/mnews/article/366/0001205847"
           }
         ]
       },
@@ -464,7 +443,7 @@
           "pair_money_share_pct": 50.0,
           "flow_surge_mult": 2.39
         },
-        "line1": "외국인이 코스피 0억(코스닥 0억) 중립 탐색 중이며, 미 나스닥(+0.42%)·반도체(+0.10%) 및 원/달러 1,328.0원(-6.0원) 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
+        "line1": "외국인이 코스피 0억(코스닥 0억) 중립 탐색 중이며, 미 나스닥(+0.42%)·반도체(+0.10%) 및 원/달러 1,330.5원(-3.5원) 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 평소 대비 2.39배 자금이 집중되며 당일 VWAP 상단 체류 68%를 기록해 해당 방향이 우위를 점하고 있습니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
@@ -495,29 +474,28 @@
       ]
     },
     "stats": {
-      "total_closed": 5,
-      "win_count": 3,
+      "total_closed": 6,
+      "win_count": 4,
       "loss_count": 2,
-      "win_rate_pct": 60.0,
-      "total_pnl_krw": 1553
+      "win_rate_pct": 66.7,
+      "total_pnl_krw": 5979
     },
     "trades": [
       {
-        "status": "HOLDING",
+        "status": "WIN",
         "buy_date": "2026-11-18",
         "buy_weekday": "수",
-        "sell_date": "",
-        "sell_time": "",
+        "sell_date": "2026-11-19",
+        "sell_weekday": "목",
+        "sell_time": "09:50",
         "code": "058610",
         "name": "에스피지",
-        "theme_name": "로봇·액추에이터 / 제습기",
+        "theme_name": "로봇·액추에이터",
         "qty": 1,
         "buy_price": 76200,
         "sell_price": 80800,
-        "vwap_price": 74005,
-        "stop_loss_px": 72700,
-        "pnl_pct": 0.0,
-        "pnl_krw": 0
+        "pnl_pct": 5.81,
+        "pnl_krw": 4426
       },
       {
         "status": "LOSS",
@@ -601,20 +579,58 @@
       }
     ]
   },
-  "history": [],
+  "history": [
+    {
+      "id": "1795049425621_058610_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-19 09:50:25",
+      "name": "에스피지",
+      "code": "058610",
+      "price": 80800,
+      "flu_rt": 6.04,
+      "val_uk": 0.0,
+      "target_price": 84800,
+      "stop_price": 78300,
+      "ammo_title": "💰 확정 수익: +4,426원 (+5.81%) | 매수 76,200원 → 매도 80,800원 (1주) [🎯ISI 1등대장 종가베팅 +6.04% KRX 그물망 칼익절!]",
+      "ammo_date": "",
+      "note": "🎉 🎯ISI 1등대장 종가베팅 +6.04% KRX 그물망 칼익절! 완료! 확정 수익 +4,426원 (+5.81%)",
+      "pnl_krw": 4426,
+      "pnl_pct": 5.81,
+      "buy_price": 76200,
+      "qty": 1
+    }
+  ],
   "intraday_ledger": {
-    "updated_at": "2026-11-19 09:30:36",
+    "updated_at": "2026-11-19 09:50:29",
     "stats": {
-      "total_closed": 16,
-      "win_count": 7,
-      "hit_5pct_count": 3,
+      "total_closed": 17,
+      "win_count": 8,
+      "hit_5pct_count": 4,
       "super_win_count": 0,
       "loss_count": 9,
       "buy_fail_count": 0,
-      "win_rate_pct": 43.8,
-      "total_pnl_krw": -9600
+      "win_rate_pct": 47.1,
+      "total_pnl_krw": -5174
     },
     "rows": [
+      {
+        "date": "2026-11-19",
+        "weekday": "목요일",
+        "weekday_short": "목",
+        "code": "058610",
+        "name": "에스피지",
+        "buy_price": 76200,
+        "sell_price": 80800,
+        "qty": 1,
+        "pnl_pct": 5.81,
+        "pnl_krw": 4426,
+        "status": "WIN",
+        "buy_time": "",
+        "sell_time": "09:50:25",
+        "reason": "💰 확정 수익: +4,426원 (+5.81%) | 매수 76,200원 → 매도 80,800원 (1주) [🎯ISI 1등대장 종가베팅 +6.04% KRX 그물망 칼익절!]",
+        "note": "🎉 🎯ISI 1등대장 종가베팅 +6.04% KRX 그물망 칼익절! 완료! 확정 수익 +4,426원 (+5.81%)"
+      },
       {
         "date": "2026-11-18",
         "weekday": "수요일",
@@ -1049,7 +1065,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-19 09:30:36",
+    "updated_at": "2026-11-19 09:50:29",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -4980,7 +4996,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-19 09:30:36",
+    "updated_at": "2026-11-19 09:50:29",
     "deprecated": true,
     "stats": {},
     "days": []
