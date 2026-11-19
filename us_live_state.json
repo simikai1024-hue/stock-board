@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:46:15",
-  "updated_at_et": "2026-11-19 09:46:15",
-  "updated_epoch_ms": 1795099575362,
+  "updated_at_kst": "2026-11-19 23:47:08",
+  "updated_at_et": "2026-11-19 09:47:08",
+  "updated_epoch_ms": 1795099628539,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:46:09"
+    "updated_kst": "23:46:58"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:46:59",
+      "time_kst": "23:46:59",
+      "symbol": "BOF",
+      "company_name": "BOF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:46:49",
+      "time_kst": "23:46:49",
+      "symbol": "BL",
+      "company_name": "BL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1409.45M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:46:43",
+      "time_kst": "23:46:43",
+      "symbol": "AIFA",
+      "company_name": "AIFA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:46:34",
+      "time_kst": "23:46:34",
+      "symbol": "NXGL",
+      "company_name": "NXGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:46:26",
+      "time_kst": "23:46:26",
+      "symbol": "CING",
+      "company_name": "CING",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $76.46M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:36:15",
       "time_kst": "23:36:15",
       "symbol": "CDW",
@@ -2567,16 +2617,6 @@
     },
     {
       "date_et": "2026-11-19",
-      "time_et": "09:29:55",
-      "time_kst": "23:29:55",
-      "symbol": "CING",
-      "company_name": "CING",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $76.46M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
       "time_et": "09:29:16",
       "time_kst": "23:29:16",
       "symbol": "OBAI",
@@ -2594,16 +2634,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $330.18M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:26:07",
-      "time_kst": "23:26:07",
-      "symbol": "NXGL",
-      "company_name": "NXGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
     },
     {
       "date_et": "2026-11-19",
@@ -2867,16 +2897,6 @@
     },
     {
       "date_et": "2026-11-19",
-      "time_et": "09:02:08",
-      "time_kst": "23:02:08",
-      "symbol": "AIFA",
-      "company_name": "AIFA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
       "time_et": "09:02:01",
       "time_kst": "23:02:01",
       "symbol": "GYGY",
@@ -2884,16 +2904,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-19 [424B3])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:01:51",
-      "time_kst": "23:01:51",
-      "symbol": "BL",
-      "company_name": "BL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1409.45M (기준 <= $50.0M USD 초과/초고속컷)"
     },
     {
       "date_et": "2026-11-19",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $545.02M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:55:26",
-      "time_kst": "22:55:26",
-      "symbol": "INTA",
-      "company_name": "INTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3392.59M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
