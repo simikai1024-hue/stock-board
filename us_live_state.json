@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:04:16",
-  "updated_at_et": "2026-11-19 08:04:16",
-  "updated_epoch_ms": 1795093456153,
+  "updated_at_kst": "2026-11-19 22:04:24",
+  "updated_at_et": "2026-11-19 08:04:24",
+  "updated_epoch_ms": 1795093464734,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MARPS",
+    "company_name": "MARPS",
+    "exchange": "ND",
+    "price": 4.38,
+    "gain_pct": 0.0,
+    "mcap_m": 8.76,
+    "catalyst_hint": "[당일 PR] MARINE PETROLEUM TRUST ANNOUNCES FOURTH QUARTER CASH DISTRIBUTION",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:04:19",
+    "started_at_kst": "22:04:19",
+    "started_epoch_ms": 1795093459835
   },
   "halt_watch": {
     "active": false
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:04:16",
+      "time_kst": "22:04:16",
+      "symbol": "RETO",
+      "company_name": "RETO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:03:43",
       "time_kst": "22:03:43",
       "symbol": "KMB",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $170.75M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:03:08",
-      "time_kst": "21:03:08",
-      "symbol": "ADAG",
-      "company_name": "ADAG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $122.2M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
