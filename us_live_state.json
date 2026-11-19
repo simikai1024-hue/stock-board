@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-20 07:46:48",
-  "updated_at_et": "2026-11-19 17:46:48",
-  "updated_epoch_ms": 1795128408477,
+  "updated_at_kst": "2026-11-20 07:53:25",
+  "updated_at_et": "2026-11-19 17:53:25",
+  "updated_epoch_ms": 1795128805866,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,42 @@
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "07:46:43"
+    "current_price": 0.68,
+    "profit_rate": -5.52,
+    "updated_kst": "07:53:22"
   },
   "stats": {
-    "today_total": 48,
+    "today_total": 49,
     "today_nblm_count": 47,
-    "today_buy": 1,
+    "today_buy": 2,
     "today_false": 47,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 2,
-    "total_false": 148,
+    "total_buy": 3,
+    "total_false": 147,
     "avg_nblm_sec": 51.9
   },
   "verdicts": [
+    {
+      "id": "v_manual_1795128803034_SEGG",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "17:53:23",
+      "time_kst": "07:53:23",
+      "symbol": "SEGG",
+      "company_name": "SEGG",
+      "exchange": "ND",
+      "price": 0.68,
+      "gain_pct": -5.52,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🛡️ 손절 청산: 767주 | 매수 $0.7197 → 매도 $0.6800 (-5.52% / -30.45$)"
+    },
     {
       "id": "v_manual_1795100283046_POAS",
       "date_et": "2026-11-19",
@@ -2410,26 +2430,6 @@
       "reason": "확정 현금 유입/수주 전무한 단순 미확정 인수 추진 제안(Proposed Acquisition) 홍보 PR로 헌법 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Turbo Energy Announces Proposed Acquisition To Expand Its Integrated Solar, Storage and Energy Management Platform",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 TURB (Turbo Energy, S.A.) 2026-11-17 08:17 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.62M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/현금 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 외부 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표 내용은 외부 수주가 아니라 다른 기업/자산 인수를 추진한다는 **미확정 인수 제안(Proposed Acquisition)**에 불과함.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.7906 대비 현재가 $0.8449 (+6.87%), 당일 최고가 $0.8650 (고점 대비 -2.3%).\n당일 누적 거래대금 $3,845 USD (3천8백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-17 [6-K] 접수 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:15 ET) 공식 PR 원문 분석:\nPR 제목: \"Turbo Energy Announces Proposed Acquisition To Expand Its Integrated Solar, Storage and Energy Management Platform\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 미확정 기업/자산 인수 추진 제안 (Proposed Acquisition PR):\n본 PR의 본질은 외부 대기업이나 기관으로부터 유입되는 확정 납품 수주 계약이 아니라, 통합 태양광·ESS·에너지 관리 플랫폼 확장을 위해 인수를 추진/제안한다는 **단순 미확정 인수 추진 발표(today announced a proposed acquisition...)**입니다.\n기업 인수는 회사 자금의 지출이나 신주 발행(잠재적 주주가치 희석)을 동반할 뿐, 연구소 승인 요건인 **\"시총을 압도하는 확정 달러 수주 + 즉각 가용한 현금 선급금(AIMD형)\"**과 정반대되는 구조입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 기계약 수주(11/10) 이후 배포된 외형 확장 홍보성 뉴스:\n과거 이력 대조 결과 회사는 불과 일주일 전인 2026년 11월 10일에 *\"Pamesa Net Zero 계약 확장 $7.6M 수주\"*를 발표한 바 있습니다.\n이번 보도자료는 신규 확정 수주 없이 미확정 인수 제안(Proposed)을 포장하여 배포한 전형적인 외형 확장 기대감성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 인수 제안(Proposed Acquisition)/제휴/확장 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 확정된 고객사 수주나 현금 유입이 전무하고 자금 유출/희석 가능성이 있는 단순 미확정 인수 추진 제안(Proposed Acquisition) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: TURB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: TURB NOTES:\n[TURB] 확정 현금 유입/수주 전무한 단순 미확정 인수 추진 제안(Proposed Acquisition) 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 20개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB) 전수가 실체적 확정 현금 유입이 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 자회사 사명 변경, 미확정 인수 제안으로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794920987580_FRSX_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:09:47",
-      "time_kst": "22:09:47",
-      "symbol": "FRSX",
-      "company_name": "FRSX",
-      "exchange": "ND",
-      "price": 0.5354,
-      "gain_pct": 7.06,
-      "mcap_m": 3.14,
-      "decision": "FALSE",
-      "elapsed_sec": 44.1,
-      "reason": "확정 수주/매출 전무한 단순 자회사 사명변경 및 AI 자율주행 스택 확장 마케팅 PR로 헌법 3조 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Foresight Expands into Full Integrated AI Autonomy Stack with Unmanned Ground and Aerial Vehicles Technology",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 FRSX (Foresight Autonomous Holdings Ltd.) 2026-11-17 08:08 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.14M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.5001 대비 현재가 $0.5354 (+7.06%), 당일 최고가 $0.5500 (고점 대비 -2.7%).\n당일 누적 거래대금 $50 USD (50달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Foresight Expands into Full Integrated AI Autonomy Stack with Unmanned Ground and Aerial Vehicles Technology\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 자회사 사명 변경 및 자율주행 스택 사업영역 확장 홍보 (Subsidiary Rebranding PR):\n본 PR의 본질은 신규 수주 계약이나 현금 유입이 아니라, 100% 자회사인 'Foresight Automotive Ltd.'의 등록 사명을 'Foresight Intelligent Systems Ltd.'로 변경하고 무인 지상/공중 차량 자율주행 스택 영역으로 확장하겠다는 **단순 자회사 리브랜딩 및 기술 포지셔닝 홍보 보도자료(subsidiary changes its registered name... reflecting its shift to a one-stop-shop provider...)**입니다.\n외부 완성차(OEM), 방산 기관, 빅테크로부터 확정된 대규모 소프트웨어/센서 납품 계약액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 방산 지상차량 통합 발표(11/12)의 연장선상 쪼개기 IR 언론 플레이:\n과거 이력 대조 결과 회사는 불과 5일 전인 2026년 11월 12일에도 \"Foresight Successfully Completes Integration into Modular Autonomous Ground Vehicles for Defense Applications\" 보도자료를 배포한 바 있습니다.\n신규 매출 계약 없이 기존 방산 자율주행 무인차량 프로젝트를 자회사 사명 변경 및 사업 스택 확장 명목으로 포장하여 배포한 전형적인 사후 쪼개기/리브랜딩성 껍데기 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 자율주행 프로젝트의 쪼개기 재탕 및 ④ 금액 미기재 단순 자회사 사명 변경/포트폴리오 확장 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 단순 자회사 사명 변경(Foresight Automotive -> Foresight Intelligent Systems) 및 AI 자율주행 스택 확장 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: FRSX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: FRSX NOTES:\n[FRSX] 확정 수주/매출 전무한 단순 자회사 사명변경 및 AI 자율주행 스택 확장 마케팅 PR로 헌법 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 자회사 사명 변경으로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
