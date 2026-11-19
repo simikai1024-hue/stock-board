@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:47:08",
-  "updated_at_et": "2026-11-19 09:47:08",
-  "updated_epoch_ms": 1795099628539,
+  "updated_at_kst": "2026-11-19 23:47:55",
+  "updated_at_et": "2026-11-19 09:47:55",
+  "updated_epoch_ms": 1795099675703,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:46:58"
+    "updated_kst": "23:47:41"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,66 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:47:47",
+      "time_kst": "23:47:47",
+      "symbol": "ICUI",
+      "company_name": "ICUI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4463.8M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:42",
+      "time_kst": "23:47:42",
+      "symbol": "FEIM",
+      "company_name": "FEIM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $696.13M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:34",
+      "time_kst": "23:47:34",
+      "symbol": "FRD",
+      "company_name": "FRD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $257.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:29",
+      "time_kst": "23:47:29",
+      "symbol": "RGCO",
+      "company_name": "RGCO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $234.75M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:21",
+      "time_kst": "23:47:21",
+      "symbol": "NTWK",
+      "company_name": "NTWK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.26M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:11",
+      "time_kst": "23:47:11",
+      "symbol": "GYGY",
+      "company_name": "GYGY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-19 [424B3])"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:46:59",
       "time_kst": "23:46:59",
       "symbol": "BOF",
@@ -2874,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1516.08M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:02:57",
-      "time_kst": "23:02:57",
-      "symbol": "BLNE",
-      "company_name": "BLNE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 투매 급락 구간 방어 차단 (현재 -9.7% <= -8.0%)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:02:48",
-      "time_kst": "23:02:48",
-      "symbol": "BOT",
-      "company_name": "BOT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $482.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:02:01",
-      "time_kst": "23:02:01",
-      "symbol": "GYGY",
-      "company_name": "GYGY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-19 [424B3])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:01:11",
-      "time_kst": "23:01:11",
-      "symbol": "AXON",
-      "company_name": "AXON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $24486.0M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:00:56",
-      "time_kst": "23:00:56",
-      "symbol": "RGCO",
-      "company_name": "RGCO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $234.75M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:00:51",
-      "time_kst": "23:00:51",
-      "symbol": "NEXN",
-      "company_name": "NEXN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $545.02M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
