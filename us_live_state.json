@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:27:25",
-  "updated_at_et": "2026-11-19 09:27:25",
-  "updated_epoch_ms": 1795098445237,
+  "updated_at_kst": "2026-11-19 23:28:11",
+  "updated_at_et": "2026-11-19 09:28:11",
+  "updated_epoch_ms": 1795098491405,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "프리장실전",
+    "session_label": "개장동시호가",
     "watchlist_count": 0,
     "orderable_usd": 927.94,
     "daily_done": false,
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:27:07"
+    "updated_kst": "23:28:06"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:28:03",
+      "time_kst": "23:28:03",
+      "symbol": "SZZL",
+      "company_name": "SZZL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $330.18M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:26:07",
       "time_kst": "23:26:07",
       "symbol": "NXGL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $349.05M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:37:11",
-      "time_kst": "22:37:11",
-      "symbol": "PYXS",
-      "company_name": "PYXS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $168.65M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
