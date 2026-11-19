@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:54:13",
-  "updated_at_et": "2026-11-19 04:54:13",
-  "updated_epoch_ms": 1795082053497,
+  "updated_at_kst": "2026-11-19 18:55:14",
+  "updated_at_et": "2026-11-19 04:55:14",
+  "updated_epoch_ms": 1795082114013,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:54:05"
+    "updated_kst": "18:55:05"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 35,
+    "today_hardcut": 36,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:55:09",
+      "time_kst": "18:55:09",
+      "symbol": "SDOT",
+      "company_name": "SDOT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:47:50",
       "time_kst": "18:47:50",
       "symbol": "QUCY",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1844.91M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "10:21:34",
-      "time_kst": "00:21:34",
-      "symbol": "CCG",
-      "company_name": "CCG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $184.01M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
