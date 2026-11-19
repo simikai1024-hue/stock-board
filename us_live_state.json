@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:08:12",
-  "updated_at_et": "2026-11-19 08:08:12",
-  "updated_epoch_ms": 1795093692558,
+  "updated_at_kst": "2026-11-19 22:08:25",
+  "updated_at_et": "2026-11-19 08:08:25",
+  "updated_epoch_ms": 1795093705023,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AZIO",
+    "company_name": "AZIO",
+    "exchange": "ND",
+    "price": 0.4945,
+    "gain_pct": 12.36,
+    "mcap_m": 8.51,
+    "catalyst_hint": "[당일 PR] AZIO AI Brings AI-Campus Power Expertise to $144.6 Million in Awarded U.S. Army Microgrid Contracts, Serving as General Contractor at Fort Buchanan",
+    "queue_remaining": 5,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:08:16",
+    "started_at_kst": "22:08:16",
+    "started_epoch_ms": 1795093696169
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:08:01"
+    "updated_kst": "22:08:21"
   },
   "stats": {
     "today_total": 25,
