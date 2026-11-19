@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:12:42",
-  "updated_at_et": "2026-11-19 08:12:42",
-  "updated_epoch_ms": 1795093962808,
+  "updated_at_kst": "2026-11-19 22:13:33",
+  "updated_at_et": "2026-11-19 08:13:33",
+  "updated_epoch_ms": 1795094013187,
   "analyzing": {
-    "active": true,
-    "symbol": "ATHR",
-    "company_name": "ATHR",
-    "exchange": "ND",
-    "price": 1.93,
-    "gain_pct": 0.0,
-    "mcap_m": 23.62,
-    "catalyst_hint": "[당일 PR] Aether Holdings Signs Binding Framework Agreement for JV to Develop AI Data Center in Thailand",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:12:37",
-    "started_at_kst": "22:12:37",
-    "started_epoch_ms": 1795093957143
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:12:28"
+    "updated_kst": "22:13:27"
   },
   "stats": {
-    "today_total": 29,
-    "today_nblm_count": 29,
+    "today_total": 30,
+    "today_nblm_count": 30,
     "today_buy": 0,
-    "today_false": 29,
+    "today_false": 30,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.2
+    "avg_nblm_sec": 51.1
   },
   "verdicts": [
+    {
+      "id": "v_1795094004044_ATHR_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "08:13:24",
+      "time_kst": "22:13:24",
+      "symbol": "ATHR",
+      "company_name": "ATHR",
+      "exchange": "ND",
+      "price": 1.93,
+      "gain_pct": 0.0,
+      "mcap_m": 23.62,
+      "decision": "FALSE",
+      "elapsed_sec": 50.3,
+      "reason": "확정 수주 전무·외부 펀딩 의존형 태국 JV 프레임워크이자 11/18 로이터 기발표 하루 만의 재탕 PR로 헌법 3조 1·4항 위배 및 장전 -27.7% 폭락 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Aether Holdings Signs Binding Framework Agreement for JV to Develop AI Data Center in Thailand",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ATHR (Aether Holdings, Inc.) 2026-11-19 08:12:29 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 12, 13, 288].\n1. 체급 & 실시간 시세 수급 팩트 (장전 고점 대비 -27.7% 폭락 윗꼬리 덤핑)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: ATHR) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 12, 291].\n실질 시가총액: 약 $23.62M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 14, 288].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 기본합의서(Framework) 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 288].\n헤드라인의 태국 AI 데이터센터 합작법인(JV) 건은 당장 매출이나 현금이 입금되는 확정 본계약(AIMD형)이 아니라, 기본 조건만 설정한 **비구속적·기본합의서 성격의 단순 프레임워크 계약(Tripartite Framework Agreement for Proposed JV)**에 불과합니다 [cite: 15, 291].\n실시간 체결가 및 수급 (장전 최고가 대비 -27.7% 수직 폭락 덤핑):\n전일 종가 $1.9300 대비 현재가 $1.9300 (+0.00%) [cite: 289].\n당일 프리마켓 최고가 $2.6700 (+38.34%)까지 급등시킨 후 실체 없는 기본 프레임워크 발표임을 확인하고 $1.9300까지 고점 대비 무려 -27.7% 수직 폭락하며 시초 갭을 완전히 반납했습니다 [cite: 289].\n현재가 기준 당일 누적 거래대금은 $0 USD (호가 갭 붕괴 후 체결 공백) [cite: 289].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 14, 289].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 08:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Aether Holdings Signs Binding Framework Agreement for JV to Develop AI Data Center in Thailand\" [cite: 289]\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 '외부 펀딩 의존형 단순 JV 설립 기본합의' 언론플레이 (Framework PR):\n원문 본문에 *\"entered into a binding tripartite framework agreement with Cho Thavee Public Company Limited ('CHO') and Advance Capital Partners Limited ('ACP')... establishing the principal terms for a proposed joint venture to develop and operate an AI data center project in Khon Kaen, Thailand\"*라고 명시되어 있습니다 [cite: 291].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 14, 15].\n더욱이 원문 하단에 **\"The joint venture is expected to seek third-party financing for project expenditures... There can be no assurance that such financing will be available on acceptable terms or at all (JV는 프로젝트 비용을 위해 외부 제3자 자금 조달을 모색해야 하며, 해당 금융 조달이 성공할 것이라는 보장이 전혀 없다)\"**라고 스스로 자인하고 있습니다 [cite: 294].\n확정된 자금 조달조차 없어 외부 투자 유치에 의존하는 뜬구름 잡기식 개발 구상에 불과합니다 [cite: 294].\n과거 180일 재탕 대조: 어제(11/18) 로이터 타전 건의 하루 만의 단순 뒷북 재배포:\n과거 180일 원장 대조 결과 [cite: 299]:\n[2026-11-18 | reuters] Cho Thavee To Collaborate With Aether, Advance Capital Partners For Development Of AI Data Center Project In Thailand\n파트너사인 Cho Thavee를 통해 어제(11/18) 이미 로이터 통신 등에 외신으로 대대적으로 노출된 합작 개발 내용을, 오늘 아침 통신망(tmx_newsfile)을 통해 회사 명의 공식 PR로 문장만 다듬어 다시 뿌린 100% 하루 만의 기발표 뒷북 우려먹기 재탕 PR입니다 [cite: 289, 299].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 14, 15].\n심사 헌법 제3조 ①·④항 위배 및 장전 -27.7% 폭락 덤핑 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 외신 내용의 하루 만의 재홍보 쪼개기 재탕' 및 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 프레임워크/JV 설립 합의는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 14, 15].\n장전 프리마켓에서 $2.6700까지 띄워 개미를 유인한 후 실체 없는 외부 펀딩 의존형 재탕 JV임을 확인하자마자 고점 대비 -27.7% 폭락하며 전일 종가($1.9300)로 주저앉은 전형적인 설거지 차트입니다 [cite: 289].\n3. 최종 심사 및 결재 판정\nATHR의 당일 공식 PR은 확정 상업 수주나 선급금이 전무하고 외부 펀딩에 의존하는 단순 태국 데이터센터 JV 프레임워크 합의이자, 어제(11/18) 파트너사가 기발표한 내용을 재포장한 재탕 홍보물에 불과합니다 [cite: 291, 294, 299].\n헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하며 장전 최고가 대비 -27.7% 폭락 덤핑 중이므로 심사 헌법 제3조 ①·④항에 의거 FORCE_BLOCK: ATHR 처리합니다 [cite: 14, 15, 289].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 303].\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: ATHR NOTES:\n[ATHR] 확정 수주 전무·외부 펀딩 의존형 태국 JV 프레임워크이자 11/18 로이터 기발표 하루 만의 재탕 PR로 헌법 3조 1·4항 위배 및 장전 -27.7% 폭락 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI에 이어 ATHR까지 총 25개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사 참가, 금액 미기재 제휴/고객 채택, 단순 투자 검토, 기발표 사후종결 재탕, 초기 Pre-IND 피드백, 소액 정기배당, 정부 지원사업 단순 참여, 하도급 단순 합류, 전일 외신 재탕 프레임워크 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 14, 15]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 14, 15].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795093943295_VERI_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "확정 수주/매출 전무한 합병 대가 신주발행 승인용 확정 위임장(Proxy Statement/DEFA14A) 제출 및 주주서한 발송 PR로 헌법 3조 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Destination XL Group Files Definitive Proxy Statement and Mails Letter to Stockholders",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 DXLG (Destination XL Group, Inc.) 2026-11-17 07:04 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.21M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $0.4000 대비 현재가 $0.4000 (+0.00%), 당일 최고가 $0.4149 (고점 대비 -3.6%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-17 [DEFA14A] 접수 확인 (주주 서한 및 위임장 권유 추가 자료).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Destination XL Group Files Definitive Proxy Statement and Mails Letter to Stockholders\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/신규 현금 유입이 아닌 기추진 합병 관련 확정 위임장(Proxy) 제출 및 주주 서한 발송 (Administrative Proxy PR):\n본 PR의 본질은 회사가 기존에 추진 중이던 FBB Holdings I, Inc.와의 합병과 관련하여 미 증권거래위원회(SEC)에 **확정 위임장 설명서(definitive proxy statement)를 제출하고 주주들에게 합병 대가로 DXL 보통주 발행 승인을 요청하는 서한을 발송했다는 단순 주총 행정 절차 안내 보도자료(today announced that it has filed its definitive proxy statement... and mails letter to stockholders)**입니다.\n외부 대기업이나 기관으로부터 유입되는 확정 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 유입 계약이 원문 어디에도 전혀 없습니다.\n오히려 보통주 신주 발행(issuance of shares) 승인을 요구하는 지분 희석성 합병 안건:\n원문 본문에 *\"including a proposal to approve the issuance of shares of DXL common stock as the merger consideration\"*라고 명시되어 있어, 합병 대가 지급을 위해 대규모 신주를 발행해야 하는 잠재적 희석/오버행 유발 안건입니다.\n과거 180일 주총 일정 공지(11/02) 및 예비 위임장(PRER14A) 제출의 연장선상 행정 일정:\n과거 이력 대조 결과 회사는 이미 10월 2일 및 10월 19일에 예비 위임장(PRER14A)을 제출하고, 11월 2일 연례 주총 일정(2026 Annual Meeting Date)을 발표한 바 있습니다.\n11월 17일 PR은 기발표된 합병 안건의 형식적 확정 위임장(DEFA14A) 접수에 따른 통상적인 수순 보고에 불과합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 합병 안건의 행정적 후속 절차 쪼개기 재탕 및 ④ 금액 미기재 단순 위임장/주주서한 발송 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 DEFA14A는 신규 수주나 매출 계약이 아닌 FBB Holdings I과의 합병 대가 신주 발행 승인을 위한 확정 위임장(Definitive Proxy Statement) 제출 및 단순 주주 서한 발송 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DXLG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: DXLG NOTES:\n[DXLG] 확정 수주/매출 전무한 합병 대가 신주발행 승인용 확정 위임장(Proxy Statement/DEFA14A) 제출 및 주주서한 발송 PR로 헌법 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG) 전수가 실체적 확정 현금 유입이 없는 정기 지표, 신제품 홍보, 협회 가입, 비구속 MOU, 단순 위임장 제출로 확인되어 안전하게 전량 차단되었습니다. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794916997304_DXLG_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "07:03:17",
-      "time_kst": "21:03:17",
-      "symbol": "DXLG",
-      "company_name": "DXLG",
-      "exchange": "ND",
-      "price": 0.4,
-      "gain_pct": 0.0,
-      "mcap_m": 22.21,
-      "decision": "FALSE",
-      "elapsed_sec": 40.4,
-      "reason": "확정 수주/매출 전무한 합병 대가 신주발행 승인용 확정 위임장(Proxy Statement/DEFA14A) 제출 및 주주서한 발송 PR로 헌법 3조 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Destination XL Group Files Definitive Proxy Statement and Mails Letter to Stockholders",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DXLG (Destination XL Group, Inc.) 2026-11-17 07:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.21M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $0.4000 대비 현재가 $0.4000 (+0.00%), 당일 최고가 $0.4149 (고점 대비 -3.6%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-17 [DEFA14A] 접수 확인 (주주 서한 및 위임장 권유 추가 자료).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Destination XL Group Files Definitive Proxy Statement and Mails Letter to Stockholders\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/신규 현금 유입이 아닌 기추진 합병 관련 확정 위임장(Proxy) 제출 및 주주 서한 발송 (Administrative Proxy PR):\n본 PR의 본질은 회사가 기존에 추진 중이던 FBB Holdings I, Inc.와의 합병과 관련하여 미 증권거래위원회(SEC)에 **확정 위임장 설명서(definitive proxy statement)를 제출하고 주주들에게 합병 대가로 DXL 보통주 발행 승인을 요청하는 서한을 발송했다는 단순 주총 행정 절차 안내 보도자료(today announced that it has filed its definitive proxy statement... and mails letter to stockholders)**입니다.\n외부 대기업이나 기관으로부터 유입되는 확정 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 유입 계약이 원문 어디에도 전혀 없습니다.\n오히려 보통주 신주 발행(issuance of shares) 승인을 요구하는 지분 희석성 합병 안건:\n원문 본문에 *\"including a proposal to approve the issuance of shares of DXL common stock as the merger consideration\"*라고 명시되어 있어, 합병 대가 지급을 위해 대규모 신주를 발행해야 하는 잠재적 희석/오버행 유발 안건입니다.\n과거 180일 주총 일정 공지(11/02) 및 예비 위임장(PRER14A) 제출의 연장선상 행정 일정:\n과거 이력 대조 결과 회사는 이미 10월 2일 및 10월 19일에 예비 위임장(PRER14A)을 제출하고, 11월 2일 연례 주총 일정(2026 Annual Meeting Date)을 발표한 바 있습니다.\n11월 17일 PR은 기발표된 합병 안건의 형식적 확정 위임장(DEFA14A) 접수에 따른 통상적인 수순 보고에 불과합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 합병 안건의 행정적 후속 절차 쪼개기 재탕 및 ④ 금액 미기재 단순 위임장/주주서한 발송 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 DEFA14A는 신규 수주나 매출 계약이 아닌 FBB Holdings I과의 합병 대가 신주 발행 승인을 위한 확정 위임장(Definitive Proxy Statement) 제출 및 단순 주주 서한 발송 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DXLG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: DXLG NOTES:\n[DXLG] 확정 수주/매출 전무한 합병 대가 신주발행 승인용 확정 위임장(Proxy Statement/DEFA14A) 제출 및 주주서한 발송 PR로 헌법 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG) 전수가 실체적 확정 현금 유입이 없는 정기 지표, 신제품 홍보, 협회 가입, 비구속 MOU, 단순 위임장 제출로 확인되어 안전하게 전량 차단되었습니다. 장전 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
