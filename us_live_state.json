@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:36:35",
-  "updated_at_et": "2026-11-19 08:36:35",
-  "updated_epoch_ms": 1795095395293,
+  "updated_at_kst": "2026-11-19 22:37:16",
+  "updated_at_et": "2026-11-19 08:37:16",
+  "updated_epoch_ms": 1795095436440,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:36:20"
+    "updated_kst": "22:37:01"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:37:11",
+      "time_kst": "22:37:11",
+      "symbol": "PYXS",
+      "company_name": "PYXS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $168.65M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:35:19",
       "time_kst": "22:35:19",
       "symbol": "IBRX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:01:52",
-      "time_kst": "22:01:52",
-      "symbol": "NXPI",
-      "company_name": "NXPI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $63635.82M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
