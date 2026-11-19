@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:02:54",
-  "updated_at_et": "2026-11-19 09:02:54",
-  "updated_epoch_ms": 1795096974029,
+  "updated_at_kst": "2026-11-19 23:04:00",
+  "updated_at_et": "2026-11-19 09:04:00",
+  "updated_epoch_ms": 1795097040496,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:02:36"
+    "updated_kst": "23:03:40"
   },
   "stats": {
     "today_total": 40,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:03:53",
+      "time_kst": "23:03:53",
+      "symbol": "CASH",
+      "company_name": "CASH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1516.08M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:02:57",
+      "time_kst": "23:02:57",
+      "symbol": "BLNE",
+      "company_name": "BLNE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 투매 급락 구간 방어 차단 (현재 -9.7% <= -8.0%)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:02:48",
       "time_kst": "23:02:48",
       "symbol": "BOT",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:07:18",
-      "time_kst": "22:07:18",
-      "symbol": "OPRA",
-      "company_name": "OPRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1239.51M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:07:10",
-      "time_kst": "22:07:10",
-      "symbol": "MRLN",
-      "company_name": "MRLN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $87.95M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
