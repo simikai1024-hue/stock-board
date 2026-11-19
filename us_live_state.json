@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:19:26",
-  "updated_at_et": "2026-11-19 09:19:26",
-  "updated_epoch_ms": 1795097966227,
+  "updated_at_kst": "2026-11-19 23:20:29",
+  "updated_at_et": "2026-11-19 09:20:29",
+  "updated_epoch_ms": 1795098029380,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:19:18"
+    "updated_kst": "23:20:21"
   },
   "stats": {
     "today_total": 45,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:20:20",
+      "time_kst": "23:20:20",
+      "symbol": "WPRT",
+      "company_name": "WPRT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:17:57",
       "time_kst": "23:17:57",
       "symbol": "LSTA",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1948882.61M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:33:20",
-      "time_kst": "22:33:20",
-      "symbol": "SIDU",
-      "company_name": "SIDU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $87.32M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
