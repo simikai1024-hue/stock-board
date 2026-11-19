@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:02:25",
-  "updated_at_et": "2026-11-19 08:02:25",
-  "updated_epoch_ms": 1795093345957,
+  "updated_at_kst": "2026-11-19 22:03:13",
+  "updated_at_et": "2026-11-19 08:03:13",
+  "updated_epoch_ms": 1795093393581,
   "analyzing": {
-    "active": true,
-    "symbol": "ALP",
-    "company_name": "ALP",
-    "exchange": "ND",
-    "price": 2.33,
-    "gain_pct": 1.08,
-    "mcap_m": 3.61,
-    "catalyst_hint": "[당일 PR] Alpha Compute Completes Asset Acquisitions for Alpha Energy 02 Campus in Western Pennsylvania, Securing 430MW of Natural Gas Power",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:02:20",
-    "started_at_kst": "22:02:20",
-    "started_epoch_ms": 1795093340481
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:02:10"
+    "updated_kst": "22:02:52"
   },
   "stats": {
-    "today_total": 19,
-    "today_nblm_count": 19,
+    "today_total": 20,
+    "today_nblm_count": 20,
     "today_buy": 0,
-    "today_false": 19,
+    "today_false": 20,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 2,
     "total_false": 148,
-    "avg_nblm_sec": 49.9
+    "avg_nblm_sec": 50.5
   },
   "verdicts": [
+    {
+      "id": "v_1795093388172_ALP_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "08:03:08",
+      "time_kst": "22:03:08",
+      "symbol": "ALP",
+      "company_name": "ALP",
+      "exchange": "ND",
+      "price": 2.33,
+      "gain_pct": 1.08,
+      "mcap_m": 3.61,
+      "decision": "FALSE",
+      "elapsed_sec": 61.7,
+      "reason": "신규 수주 전무 및 9/22 기발표 $5.5M 자산인수 2개월 만의 단순 사후종결(Closed) 재탕 PR로 헌법 3조 1항 위배 및 장전 -5.7% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Alpha Compute Completes Asset Acquisitions for Alpha Energy 02 Campus in Western Pennsylvania, Securing 430MW of Natural Gas Power",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ALP (Alpha Compute Corp.) 2026-11-19 08:02:06 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 3, 4, 302].\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 -5.7% 및 거래대금 극소)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: ALP) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 3, 304].\n실질 시가총액: 약 $3.61M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과) [cite: 4, 302].\n체급 대비 규모 (헤드라인 $5.50M 수치의 치명적 본질 및 기발표 재탕 적발):\n언뜻 시총($3.61M) 대비 152.4%에 달하는 $5.5M 규모의 거액 거래로 보이지만, 이는 회사 금고로 현금이 유입되는 상업 수주나 라이선스 계약이 아니라 **\"회사가 현금을 지출하여 자산을 매입(Acquisitions)한 건\"**입니다 [cite: 304].\n더욱이 원문 본문 직독 결과, 본 거래는 이미 두 달 전인 2026년 9월 22일에 최초 계약 체결이 발표되었고, 9월 29일 실사 업데이트까지 거친 뒤 금일 단순 종결(closed/completed) 처리된 100% 사후 종결 재탕 PR입니다 [cite: 304, 314].\n실시간 체결가 및 수급 (장전 최고가 대비 -5.7% 윗꼬리 출회):\n전일 종가 $2.3050 대비 현재가 $2.3300 (+1.08%) [cite: 303].\n당일 프리마켓 최고가 $2.4700 (+7.16%)까지 반짝 띄운 후 기발표 종결 재탕임을 확인하고 고점 대비 -5.7% 밀림 [cite: 303].\n당일 누적 거래대금은 $3,574 USD (약 3.5천 달러 수준의 극소액 프리마켓 거래) [cite: 303].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 4, 303].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 08:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Alpha Compute Completes Asset Acquisitions for Alpha Energy 02 Campus in Western Pennsylvania, Securing 430MW of Natural Gas Power\" [cite: 303]\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n회사가 이미 9월 22일 발표했던 $5.5M 자산 인수 건의 100% 사후 완료 재탕 (Closing PR):\n원문 본문에 **\"The transaction was first announced on September 22, 2026, at a total purchase price of $5.5 million, and the Company provided a due diligence update on September 29, 2026 (본 거래는 2026년 9월 22일 총 매입가 $5.5M에 최초 발표되었고, 9월 29일 실사 업데이트를 제공한 바 있다)\"**라고 명백히 자인하고 있습니다 [cite: 304].\n과거 180일 원장 대조 결과 [cite: 314]:\n[2026-09-22 | reuters] Alpha Compute Signs Binding Contract To Acquire Assets Of Operating Oil And Gas Business In Pennsylvania\n[2026-09-29 | globenewswire] Alpha Compute Update on Operating Oil and Gas Assets Due Diligence in Pennsylvania, Securing 300+ Acres Across the Marcellus and Utica Shales\n즉, 신규 확정 계약이나 수주가 발생한 것이 아니라, 이미 2개월 전에 시세에 선반영된 $5.5M 부동산·유전 인수가 법적으로 완료(closed)되었다는 사후 확인성 재탕 보도자료에 불과합니다 [cite: 304, 314].\n매출 유입이 아닌 자금 유출 거래 + 자원 상업화 불확실성 경고:\n본 거래는 외부 고객사로부터 당장 현금 선급금이 꽂히는 수주(AIMD형)가 아니라 회사가 $5.5M을 지출하는 자산 매입입니다 [cite: 4, 304].\n또한 원문 하단 위험 고지(Forward-looking statements)에서 **\"NSAI가 평가한 22.5 BCF는 확정 매장량(Reserves)이 아닌 조건부 자원(Contingent resources)에 불과하며, 주 환경보호국(DEP) 운영자 승인 등 미해결 조건이 남아있어 상업적 개발이나 실제 회수를 전혀 보장할 수 없다\"**고 명시하고 있습니다 [cite: 311].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 4, 15].\n심사 헌법 제3조 ①항 위배 (기발표 거래 사후 완료 재탕 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 계약/인수의 사후 종결/연장/재홍보 쪼개기 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 4, 13].\n장전 프리마켓에서 $2.4700까지 반짝 띄운 후 9월 발표 건의 단순 종결 재탕임을 확인하고 고점 대비 -5.7% 밀리며 보합권(+1.08%)으로 주저앉은 전형적인 윗꼬리 소멸 패턴입니다 [cite: 303].\n3. 최종 심사 및 결재 판정\nALP의 당일 공식 PR은 신규 상업 수주가 전무하며, 지난 9/22 및 9/29 발표되었던 $5.5M 펜실베이니아 캠퍼스 자산 매입의 단순 사후 종결(Closed) 재탕에 불과하므로 심사 헌법 제3조 ①항에 의거 FORCE_BLOCK: ALP 처리합니다 [cite: 4, 304, 314].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 4].\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: ALP NOTES:\n[ALP] 신규 수주 전무 및 9/22 기발표 $5.5M 자산인수 2개월 만의 단순 사후종결(Closed) 재탕 PR로 헌법 3조 1항 위배 및 장전 -5.7% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL에 이어 ALP까지 총 18개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사 참가, 금액 미기재 제휴, 단순 투자 검토, 기발표 사후종결 재탕 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 4, 13]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795092909973_NXPL_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,59 @@
       "full_report": "[달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 NUR (NuRAN Wireless Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.49M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (윗꼬리 정체 및 상승 탄력 둔화):\n전일 종가 $0.4037 대비 현재가 $0.4199 (+4.01%).\n당일 최고가 $0.4300 찍은 후 고점 대비 -2.3% 밀리며 상승폭 축소.\n당일 누적 거래대금 $113,393 USD (약 11만 달러 수준의 미약한 거래량).\n당일 SEC 공시 현황: 2026-11-16 [6-K] 접수 완료.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"NuRAN Wireless Eliminates Floating-Price Preferred Overhang and Locks In a Fixed C$1.20 Conversion Price\"\n원문 직독 결과 드러난 치명적 실체:\nONFO형 구조적 턴어라운드 공식의 핵심 2대 요건 동시 미충족 (치명적 착시 적발):\n연구소 심사 헌법 제2조 ②항의 ONFO형 특급 기폭제 공식은 **① [나스닥 최소 자기자본($2.5M+) 요건 공식 충족(상폐위기 졸업)]**과 **② [잔여 전환사채/전환채무 0원(No Convertible Notes Outstanding, 악성 오버행 전액 소멸)]**을 동시에 공식 발표해야 합니다.\n그러나 NUR의 원문은 **전환사채(부채)를 전액 갚아 없앤 것이 아니라, 기존 우선주(Preferred Shares)의 변동 전환가(Floating-Price)를 주당 C$1.20 고정 전환가(Locks In a Fixed C$1.20 Conversion Price)로 조정한 내부 구조조정(Restructuring)**에 불과합니다.\n원문 부제에서도 *\"Preferred shares restructuring... puts a fixed number on future dilution\"*라고 명시되어 있어, 미래 신주 희석(future dilution)의 물량 상한만 고정했을 뿐 악성 희석 잠재성 자체는 여전히 살아있습니다.\n나스닥 상폐 위기(1달러 미만 경고) 직면 상태의 단순 방어용 IR:\n과거 이력 대조 결과 회사는 불과 3일 전인 2026년 11월 13일에 *\"NuRAN Wireless Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency(나스닥 1달러 미만 상장폐지 결격 통지)\"*를 수령한 상태입니다.\n나스닥 상폐 통지 직후 악성 하방 압력을 방어하기 위해 '우선주 전환가 고정'이라는 내부 조건을 변경해 배포한 전형적인 주가 방어성 보도자료입니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 우선주 전환 조건 변경/오버행 축소 홍보성 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 부채 전액 소멸 및 나스닥 자기자본 충족(ONFO형)이 아닌 단순 우선주 전환가 고정(C$1.20) 내부 변경 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: NUR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: NUR NOTES:\n[NUR] 부채 소멸·자기자본 회복(ONFO형)이 아닌 단순 우선주 전환가 고정(C$1.20) 내부 조정 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 정규장 중 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 장중 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794840906581_SLMT_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "09:55:06",
-      "time_kst": "23:55:06",
-      "symbol": "SLMT",
-      "company_name": "SLMT",
-      "exchange": "ND",
-      "price": 3.1,
-      "gain_pct": -1.59,
-      "mcap_m": 34.13,
-      "decision": "FALSE",
-      "elapsed_sec": 89.6,
-      "reason": "확정 수주/계약 금액 전무한 단순 GPU-as-a-Service 사업 진출 계획(Plans) 홍보 PR로 1급 기폭제 미달 및 음봉 하락(-1.59%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Solmate Infrastructure Plans to Expand into Global AI Compute with a GPU-as-a-Service asset-light Model",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SLMT (Solmate Infrastructure PLC) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $34.13M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/공급 계약/매출 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장중 음봉 하락 전환):\n전일 종가 $3.1500 대비 현재가 $3.1000 (-1.59%).\n당일 최고가 $3.2650 찍은 후 장중 고점 대비 -5.1% 밀리며 마이너스 파란불 음봉 전락.\n당일 누적 거래대금 $11,052 USD.\n선발표 규정 및 공시 확인: 당일 6-K 제출 여부와 무관하게 PR 원문의 실체적 금융 기폭제 검증이 핵심입니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:43 ET) 공식 PR 원문 분석:\nPR 제목: \"Solmate Infrastructure Plans to Expand into Global AI Compute with a GPU-as-a-Service asset-light Model\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 계약이 아닌 단순 미래 사업 진출 계획 표명 (Vague Business Plan PR):\n본 PR의 본질은 회사가 GPU-as-a-Service 경량화 모델을 통해 글로벌 AI 연산 시장에 진출할 **계획(announced its planned expansion...)**이라는 단순 사업 구상 보도자료입니다.\n원문 본문에도 *\"With anticipated access to GPUs in the UAE, the Nasdaq-listed company plans to connect businesses worldwide...\"*와 같이 **'예상되는(anticipated)', '계획이다(plans)'**라는 추상적 문구만 가득할 뿐, 실제로 구매를 확정한 고객사나 체결된 구속력 있는 계약서가 단 한 건도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n사명 변경(10/28) 및 이사회 변경(11/02) 이후 나온 전형적인 테마 편승용 언론 플레이:\n과거 180일 이력 대조 결과 회사는 10월 28일 사명 변경(Legal Name Change), 11월 2일 이사회 교체(Board Changes) 등 경영권/외형 변경 작업을 거친 후, 주가 부양을 위해 알맹이(확정 매출) 없는 AI 및 GPU 테마 편승성 계획 보도자료를 배포한 전형적인 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 위배 및 음봉 꺾임:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 미래 사업 계획/AI 테마 편승/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 정규장 개장 후 $3.2650에서 고점 대비 -5.1% 밀리며 -1.59% 음봉 파란불로 주저앉은 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약이나 고객사 수주가 전무한 단순 GPU-as-a-Service 사업 진출 계획(Plan) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장중 주가가 -1.59% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SLMT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: SLMT NOTES:\n[SLMT] 확정 수주/계약 금액 전무한 단순 GPU-as-a-Service 사업 진출 계획(Plans) 홍보 PR로 1급 기폭제 미달 및 음봉 하락(-1.59%) 전량 차단 ===VERDICT_END===\n💡 오늘 장중 프리마켓~본장 초반 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:03:04",
+      "time_kst": "22:03:04",
+      "symbol": "GDEV",
+      "company_name": "GDEV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $150.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:02:56",
+      "time_kst": "22:02:56",
+      "symbol": "ALT",
+      "company_name": "ALT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $270.48M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:02:51",
+      "time_kst": "22:02:51",
+      "symbol": "NTWK",
+      "company_name": "NTWK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.47M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:02:45",
+      "time_kst": "22:02:45",
+      "symbol": "RZLV",
+      "company_name": "RZLV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $412.7M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:02:37",
+      "time_kst": "22:02:37",
+      "symbol": "NTIC",
+      "company_name": "NTIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $71.41M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "08:02:15",
@@ -2896,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $18820.85M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:02:16",
-      "time_kst": "21:02:16",
-      "symbol": "PLUG",
-      "company_name": "PLUG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1510.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:01:46",
-      "time_kst": "21:01:46",
-      "symbol": "BKR",
-      "company_name": "BKR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $46972.59M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:01:41",
-      "time_kst": "21:01:41",
-      "symbol": "IRD",
-      "company_name": "IRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $378.88M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:00:57",
-      "time_kst": "21:00:57",
-      "symbol": "AXSM",
-      "company_name": "AXSM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7048.4M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:00:54",
-      "time_kst": "21:00:54",
-      "symbol": "CD",
-      "company_name": "CD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $442.22M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
