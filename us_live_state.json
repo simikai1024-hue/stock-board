@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:21:26",
-  "updated_at_et": "2026-11-19 09:21:26",
-  "updated_epoch_ms": 1795098086932,
+  "updated_at_kst": "2026-11-19 23:22:26",
+  "updated_at_et": "2026-11-19 09:22:26",
+  "updated_epoch_ms": 1795098146391,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:21:23"
+    "updated_kst": "23:22:24"
   },
   "stats": {
     "today_total": 45,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:22:18",
+      "time_kst": "23:22:18",
+      "symbol": "HRTX",
+      "company_name": "HRTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:20:43",
       "time_kst": "23:20:43",
       "symbol": "HALO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $183.31M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:35:08",
-      "time_kst": "22:35:08",
-      "symbol": "NFLX",
-      "company_name": "NFLX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $245640.66M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
