@@ -370,7 +370,14 @@ class ISITradingEngine:
                 top3 = stock_metrics[:3]
                 theme_money = sum(x["money_eok"] for x in top3)
 
-            leader = max(surging_m, key=lambda x: (x["rate"], x["money_eok"])) if surging_m else max(top3, key=lambda x: x["rate"])
+            # 상한가 잠김(>= +29.0%) 종목은 15:18 실매수 체결 불가하므로 매수 가능한(+5.0% ~ +28.9%) 1등 대장주를 우선 선정!
+            buyable_surging = [x for x in surging_m if x["rate"] < 29.0]
+            if buyable_surging:
+                leader = max(buyable_surging, key=lambda x: (x["rate"], x["money_eok"]))
+            elif surging_m:
+                leader = max(surging_m, key=lambda x: (x["rate"], x["money_eok"]))
+            else:
+                leader = max(top3, key=lambda x: x["rate"])
             candidates = [s for s in stock_metrics if s["code"] != leader["code"] and 2.0 <= s["rate"] <= 14.0]
             second = max(candidates, key=lambda x: x["vol_ratio"]) if candidates else (top3[1] if len(top3) > 1 else leader)
 
@@ -447,8 +454,8 @@ class ISITradingEngine:
     @staticmethod
     def _is_clean_closing_candidate(c: dict) -> bool:
         """
-        [진성 종가베팅 4대 품질 관문 — 가짜 대장주·장막판 윗꼬리 설거지·빈약 잡주 원천 차단]
-        1) 등락률 >= +5.0% (실제 강세 상승 종목만 허용)
+        [진성 종가베팅 5대 품질 관문 — 상한가 잠김·가짜 대장주·장막판 윗꼬리 설거지·빈약 잡주 원천 차단]
+        1) 등락률 +5.0% <= rate < +29.0% (실제 강세 상승 종목만 허용 & 상한가 잠김 매수불가 종목 자동 제외!)
         2) 종가(현재가) >= 당일 세력평단(VWAP) 안착 필수 (장 막판 매수세 이탈 종목 차단)
         3) 윗꼬리 비율(upper_wick) <= 30.0% (장중 고점 대비 반토막 설거지 캔들 차단)
         4) 수급 체급: 거래대금 >= 200억 원 OR (거래대금 >= 50억 원 & 외국인+기관 순매수 > 0억)
@@ -462,7 +469,7 @@ class ISITradingEngine:
         meok = int(c.get("money_eok") or 0)
         prog = int(c.get("prog_money") or 0)
 
-        if cl < 2000 or rt < 5.0:
+        if cl < 2000 or rt < 5.0 or rt >= 29.0:
             return False
         if vw > 0 and cl < vw:
             return False
