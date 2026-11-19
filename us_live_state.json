@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:01:04",
-  "updated_at_et": "2026-11-19 09:01:04",
-  "updated_epoch_ms": 1795096864284,
+  "updated_at_kst": "2026-11-19 23:01:23",
+  "updated_at_et": "2026-11-19 09:01:23",
+  "updated_epoch_ms": 1795096883147,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "LIQT",
+    "company_name": "LIQT",
+    "exchange": "ND",
+    "price": 0.2209,
+    "gain_pct": 4.69,
+    "mcap_m": 7.28,
+    "catalyst_hint": "[당일 PR] LiqTech Receives Commissioning Approval for iCER Marine Water Treatment System",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:01:14",
+    "started_at_kst": "23:01:14",
+    "started_epoch_ms": 1795096874544
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:00:57"
+    "updated_kst": "23:01:17"
   },
   "stats": {
     "today_total": 39,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:01:11",
+      "time_kst": "23:01:11",
+      "symbol": "AXON",
+      "company_name": "AXON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $24486.0M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:00:56",
       "time_kst": "23:00:56",
       "symbol": "RGCO",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $37825.85M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:05:54",
-      "time_kst": "22:05:54",
-      "symbol": "ADTN",
-      "company_name": "ADTN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $385.48M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
