@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:08:06",
-  "updated_at_et": "2026-11-19 09:08:06",
-  "updated_epoch_ms": 1795097286583,
+  "updated_at_kst": "2026-11-19 23:08:19",
+  "updated_at_et": "2026-11-19 09:08:19",
+  "updated_epoch_ms": 1795097299133,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "LEXX",
+    "company_name": "LEXX",
+    "exchange": "ND",
+    "price": 4.28,
+    "gain_pct": 0.0,
+    "mcap_m": 9.02,
+    "catalyst_hint": "[당일 PR] Lexaria's Human Study GLP-1-H26-7 Completes Dosing as Scheduled",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:08:10",
+    "started_at_kst": "23:08:10",
+    "started_epoch_ms": 1795097290863
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:07:49"
+    "updated_kst": "23:08:10"
   },
   "stats": {
     "today_total": 42,
