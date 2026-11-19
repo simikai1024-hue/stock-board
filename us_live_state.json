@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:48:59",
-  "updated_at_et": "2026-11-19 08:48:59",
-  "updated_epoch_ms": 1795096139406,
+  "updated_at_kst": "2026-11-19 22:50:02",
+  "updated_at_et": "2026-11-19 08:50:02",
+  "updated_epoch_ms": 1795096202126,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:48:55"
+    "updated_kst": "22:49:58"
   },
   "stats": {
     "today_total": 38,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:49:56",
+      "time_kst": "22:49:56",
+      "symbol": "RML",
+      "company_name": "RML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:46:15",
       "time_kst": "22:46:15",
       "symbol": "ANIX",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1967.41M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:03:16",
-      "time_kst": "22:03:16",
-      "symbol": "IRLA",
-      "company_name": "IRLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $440.06M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
