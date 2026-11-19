@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:49:24",
-  "updated_at_et": "2026-11-19 09:49:24",
-  "updated_epoch_ms": 1795099764237,
+  "updated_at_kst": "2026-11-19 23:50:06",
+  "updated_at_et": "2026-11-19 09:50:06",
+  "updated_epoch_ms": 1795099806590,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:49:18"
+    "updated_kst": "23:50:01"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,86 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:50:01",
+      "time_kst": "23:50:01",
+      "symbol": "PVLA",
+      "company_name": "PVLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2142.78M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:55",
+      "time_kst": "23:49:55",
+      "symbol": "LE",
+      "company_name": "LE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $284.51M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:50",
+      "time_kst": "23:49:50",
+      "symbol": "HYFM",
+      "company_name": "HYFM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:45",
+      "time_kst": "23:49:45",
+      "symbol": "ZENA",
+      "company_name": "ZENA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $97.66M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:40",
+      "time_kst": "23:49:40",
+      "symbol": "RZLV",
+      "company_name": "RZLV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $412.7M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:34",
+      "time_kst": "23:49:34",
+      "symbol": "PHAT",
+      "company_name": "PHAT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $430.84M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:29",
+      "time_kst": "23:49:29",
+      "symbol": "ONEN",
+      "company_name": "ONEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.98M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:24",
+      "time_kst": "23:49:24",
+      "symbol": "NTIC",
+      "company_name": "NTIC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $71.41M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:49:18",
       "time_kst": "23:49:18",
       "symbol": "NVTS",
@@ -2854,86 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $278316.98M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:22:18",
-      "time_kst": "23:22:18",
-      "symbol": "HRTX",
-      "company_name": "HRTX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.0M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:20:43",
-      "time_kst": "23:20:43",
-      "symbol": "HALO",
-      "company_name": "HALO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $10922.16M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:20:20",
-      "time_kst": "23:20:20",
-      "symbol": "WPRT",
-      "company_name": "WPRT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "비정규 거래소 차단 (비허용 거래소 제외 (나스닥·아멕스만 허용, 현재=미확인))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:17:57",
-      "time_kst": "23:17:57",
-      "symbol": "LSTA",
-      "company_name": "LSTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Lisata Therapeutics, Inc. Announces Reverse Stock Split)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:15:57",
-      "time_kst": "23:15:57",
-      "symbol": "SCNI",
-      "company_name": "SCNI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:13:00",
-      "time_kst": "23:13:00",
-      "symbol": "HSCS",
-      "company_name": "HSCS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:07:46",
-      "time_kst": "23:07:46",
-      "symbol": "VRRM",
-      "company_name": "VRRM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $261.46M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:07:32",
-      "time_kst": "23:07:32",
-      "symbol": "SOUN",
-      "company_name": "SOUN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1470.06M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
