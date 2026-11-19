@@ -1,8 +1,8 @@
 {
-  "today_et": "2026-11-18",
-  "updated_at_kst": "2026-11-19 13:59:23",
-  "updated_at_et": "2026-11-18 23:59:23",
-  "updated_epoch_ms": 1795064363182,
+  "today_et": "2026-11-19",
+  "updated_at_kst": "2026-11-19 14:00:24",
+  "updated_at_et": "2026-11-19 00:00:24",
+  "updated_epoch_ms": 1795064424453,
   "analyzing": {
     "active": false
   },
@@ -13,24 +13,24 @@
     "session_label": "장외대기",
     "watchlist_count": 0,
     "orderable_usd": 927.94,
-    "daily_done": true,
+    "daily_done": false,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "13:59:20"
+    "updated_kst": "14:00:19"
   },
   "stats": {
-    "today_total": 41,
-    "today_nblm_count": 40,
-    "today_buy": 1,
-    "today_false": 40,
-    "today_hardcut": 60,
+    "today_total": 0,
+    "today_nblm_count": 0,
+    "today_buy": 0,
+    "today_false": 0,
+    "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 49.0
+    "avg_nblm_sec": 41.8
   },
   "verdicts": [
     {
