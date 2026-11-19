@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:31:09",
-  "updated_at_et": "2026-11-19 09:31:09",
-  "updated_epoch_ms": 1795098669047,
+  "updated_at_kst": "2026-11-19 23:31:54",
+  "updated_at_et": "2026-11-19 09:31:54",
+  "updated_epoch_ms": 1795098714180,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:31:03"
+    "updated_kst": "23:31:46"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:31:48",
+      "time_kst": "23:31:48",
+      "symbol": "VMAR",
+      "company_name": "VMAR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Financial Results Vision Marine Technologies Announces Fis)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:31:38",
+      "time_kst": "23:31:38",
+      "symbol": "OSTX",
+      "company_name": "OSTX",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:31:20",
+      "time_kst": "23:31:20",
+      "symbol": "FOXX",
+      "company_name": "FOXX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:31:10",
+      "time_kst": "23:31:10",
+      "symbol": "ICU",
+      "company_name": "ICU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-10 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:30:08",
       "time_kst": "23:30:08",
       "symbol": "IDAI",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $94.21M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:45:34",
-      "time_kst": "22:45:34",
-      "symbol": "FRD",
-      "company_name": "FRD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $257.81M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:45:09",
-      "time_kst": "22:45:09",
-      "symbol": "GCMG",
-      "company_name": "GCMG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $807.33M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:42:19",
-      "time_kst": "22:42:19",
-      "symbol": "TYGO",
-      "company_name": "TYGO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.54M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:41:47",
-      "time_kst": "22:41:47",
-      "symbol": "ALLR",
-      "company_name": "ALLR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-17 [8-K] (Item 1.01,3.02,3.03,5.03,8.01,9.01))"
     }
   ]
 }
