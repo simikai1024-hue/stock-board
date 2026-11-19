@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:03:30",
-  "updated_at_et": "2026-11-19 04:03:30",
-  "updated_epoch_ms": 1795079010342,
+  "updated_at_kst": "2026-11-19 18:04:27",
+  "updated_at_et": "2026-11-19 04:04:27",
+  "updated_epoch_ms": 1795079067865,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:03:16"
+    "updated_kst": "18:04:15"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 11,
+    "today_hardcut": 14,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:04:22",
+      "time_kst": "18:04:22",
+      "symbol": "BOF",
+      "company_name": "BOF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:03:44",
+      "time_kst": "18:03:44",
+      "symbol": "NIVF",
+      "company_name": "NIVF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:03:38",
+      "time_kst": "18:03:38",
+      "symbol": "SLE",
+      "company_name": "SLE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:03:27",
       "time_kst": "18:03:27",
       "symbol": "DWTX",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $57.76M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:31:10",
-      "time_kst": "23:31:10",
-      "symbol": "COSM",
-      "company_name": "COSM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $286.81M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:31:05",
-      "time_kst": "23:31:05",
-      "symbol": "CITR",
-      "company_name": "CITR",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.65M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:30:55",
-      "time_kst": "23:30:55",
-      "symbol": "VTSI",
-      "company_name": "VTSI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $51.82M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
