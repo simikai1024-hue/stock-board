@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:17:57",
-  "updated_at_et": "2026-11-19 04:17:57",
-  "updated_epoch_ms": 1795079877448,
+  "updated_at_kst": "2026-11-19 18:18:38",
+  "updated_at_et": "2026-11-19 04:18:38",
+  "updated_epoch_ms": 1795079918537,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:17:39"
+    "updated_kst": "18:18:19"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 22,
+    "today_hardcut": 26,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:18:34",
+      "time_kst": "18:18:34",
+      "symbol": "OPTT",
+      "company_name": "OPTT",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [424B4])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:18:28",
+      "time_kst": "18:18:28",
+      "symbol": "ARBE",
+      "company_name": "ARBE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.41M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:18:14",
+      "time_kst": "18:18:14",
+      "symbol": "TNON",
+      "company_name": "TNON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:17:59",
+      "time_kst": "18:17:59",
+      "symbol": "FFR",
+      "company_name": "FFR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.01,3.02,5.02,5.03,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:17:49",
       "time_kst": "18:17:49",
       "symbol": "DFNS",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-18 [424B3])"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:54:19",
-      "time_kst": "23:54:19",
-      "symbol": "RMTI",
-      "company_name": "RMTI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:53:23",
-      "time_kst": "23:53:23",
-      "symbol": "MDRN",
-      "company_name": "MDRN",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "당일 급등(+81.3%) 후 고점($3.5000) 대비 -38.4% 윗꼬리 설거지 차단 (기준 <= -35%)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:51:23",
-      "time_kst": "23:51:23",
-      "symbol": "OSTX",
-      "company_name": "OSTX",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-19 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:47:18",
-      "time_kst": "23:47:18",
-      "symbol": "RIME",
-      "company_name": "RIME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Algorhythm Announces Reverse Stock Split)"
     }
   ]
 }
