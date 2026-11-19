@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:06:07",
-  "updated_at_et": "2026-11-19 09:06:07",
-  "updated_epoch_ms": 1795097167632,
+  "updated_at_kst": "2026-11-19 23:06:50",
+  "updated_at_et": "2026-11-19 09:06:50",
+  "updated_epoch_ms": 1795097210326,
   "analyzing": {
     "active": true,
     "symbol": "MAMO",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:06:07"
+    "updated_kst": "23:06:48"
   },
   "stats": {
     "today_total": 40,
@@ -2449,6 +2449,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:06:41",
+      "time_kst": "23:06:41",
+      "symbol": "SOFI",
+      "company_name": "SOFI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $18312.52M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:06:33",
+      "time_kst": "23:06:33",
+      "symbol": "JBLU",
+      "company_name": "JBLU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1347.15M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:06:24",
+      "time_kst": "23:06:24",
+      "symbol": "CHYM",
+      "company_name": "CHYM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $12161.14M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:06:03",
       "time_kst": "23:06:03",
       "symbol": "JRSH",
@@ -2916,36 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.52M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:31:26",
-      "time_kst": "22:31:26",
-      "symbol": "NEOV",
-      "company_name": "NEOV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $130.91M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:31:17",
-      "time_kst": "22:31:17",
-      "symbol": "ICUI",
-      "company_name": "ICUI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4463.8M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:31:09",
-      "time_kst": "22:31:09",
-      "symbol": "RZAI",
-      "company_name": "RZAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $119.08M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
