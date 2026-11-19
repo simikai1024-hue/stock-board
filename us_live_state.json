@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 19:01:27",
-  "updated_at_et": "2026-11-19 05:01:27",
-  "updated_epoch_ms": 1795082487813,
+  "updated_at_kst": "2026-11-19 19:02:11",
+  "updated_at_et": "2026-11-19 05:02:11",
+  "updated_epoch_ms": 1795082531576,
   "analyzing": {
-    "active": true,
-    "symbol": "JG",
-    "company_name": "JG",
-    "exchange": "ND",
-    "price": 5.13,
-    "gain_pct": 0.0,
-    "mcap_m": 23.82,
-    "catalyst_hint": "[당일 PR] MoonFox Data Opens Continuous China LLM Usage Data to Global Investors and Research Firms",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "05:01:22",
-    "started_at_kst": "19:01:22",
-    "started_epoch_ms": 1795082482327
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:01:17"
+    "updated_kst": "19:01:56"
   },
   "stats": {
-    "today_total": 0,
-    "today_nblm_count": 0,
+    "today_total": 1,
+    "today_nblm_count": 1,
     "today_buy": 0,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 38,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 41.8
+    "avg_nblm_sec": 49.3
   },
   "verdicts": [
+    {
+      "id": "v_1795082526420_JG_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "05:02:06",
+      "time_kst": "19:02:06",
+      "symbol": "JG",
+      "company_name": "JG",
+      "exchange": "ND",
+      "price": 5.13,
+      "gain_pct": 0.0,
+      "mcap_m": 23.82,
+      "decision": "FALSE",
+      "elapsed_sec": 49.3,
+      "reason": "확정 수주 전무한 산하 MoonFox Data 중국 LLM 사용량 데이터셋 단순 출시 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] MoonFox Data Opens Continuous China LLM Usage Data to Global Investors and Research Firms",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 JG (Aurora Mobile Limited) 2026-11-19 05:01:17 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.82M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 공급 계약이 아니라, 단순 산하 브랜드(MoonFox Data)의 중국 거대언어모델(LLM) 사용량 데이터 세트를 글로벌 투자자와 리서치 기업에 공개/제공한다는 **금액 미기재 데이터 상품 출시·홍보성 언론플레이(MoonFox Data Opens Continuous China LLM Usage Data to Global Investors and Research Firms)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간):\n전일 종가 $5.1300 대비 현재가 $5.1300 (+0.00%), 당일 최고가 $5.5400 (고점 대비 -7.4%).\n당일 누적 거래대금 $0 USD (프리마켓 거래 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 05:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MoonFox Data Opens Continuous China LLM Usage Data to Global Investors and Research Firms\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '자체 데이터 세트 출시/홍보' 언론플레이:\n원문 본문에 *\"MoonFox Data, the full-scenario data insight and analytics specialist under Aurora Mobile (NASDAQ: JG), today set out how its China large language model (LLM) usage dataset gives global investors and research firms a continuous view of how much each leading Chinese model is actually being used...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n단지 산하 데이터 분석 브랜드가 중국 LLM 사용량 트래킹 데이터를 기관 및 투자자들에게 API 형태로 제공한다는 전형적인 금액 미기재 자사 서비스 출시/마케팅 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 12일 실적 부진 및 가이던스 하향 직후의 상습 AI 테마 편승 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 불과 일주일 전인 2026년 11월 12일에 3분기 실적 발표(6-K)를 내며 연간 가이던스를 하향(lowers FY guidance)한 바 있습니다.\n또한 과거 180일 동안 \"EngageLab Brings AI Beyond the Send Button\"(10/23), \"Modellix.ai Brings Unified AI Model Access\"(10/30), \"GPTbots.ai Enters Partnership\"(10/15) 등 실질 매출과 무관하게 'AI' 키워드만 붙여 보도자료를 남발하던 전형적인 중국계 소형주의 AI 테마 편승 언론플레이(Spin PR)의 연장선입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 서비스 출시 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/특허/서비스 출시/마케팅 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 단순 산하 브랜드의 중국 LLM 사용량 데이터 제공 사실을 알리는 마케팅성 서비스 홍보물에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로\n, 심사 헌법 제3조에 의거 FORCE_BLOCK: JG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: JG NOTES:\n[JG] 확정 수주 전무한 산하 MoonFox Data 중국 LLM 사용량 데이터셋 단순 출시 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 첫 결재 대상이었던 JG는 실체 없는 AI 마케팅 홍보물로 판별되어 안전하게 전량 방어되었습니다\n. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_manual_1795026845937_CLRO",
       "date_et": "2026-11-18",
@@ -2422,26 +2430,6 @@
       "reason": "신규 확정 수주가 아닌 단순 Q3 9개월 누적 정기 실적 발표(순매출 증가율 나열) PR로 1급 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-mo",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 IDAI (Trust Stamp / T Stamp Inc.) 08:38 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.89M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 거래량 실종 바닥 구간):\n전일 종가 $2.5500 대비 현재가 $2.6200 (+2.75%), 당일 최고가 $2.6200.\n당일 누적 거래대금 $5 USD (단 2주 체결 수준의 극단적 거래량 실종 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-month period when compared to the comparable periods in 2025, with the growth in revenue significantly outpacing the growth in cash expenses\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적인 3분기 정기 실적 보고 (Periodic Q3 Financial Results PR):\n본 PR의 본질은 2026년 9월 30일로 마감된 9개월 누적 및 3분기 정기 재무 실적을 정리해 발표한 단순 정기 실적 보도자료입니다.\n3분기 순매출 37% 증가 및 9개월 누적 순매출 28% 증가 등을 내세우고 있으나, 외부로부터 새로운 확정 계약금이 유입되는 1급 금융 기폭제가 아닙니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 연속된 특허 홍보 및 실적 발표 재탕 흐름:\n과거 이력 대조 결과, 회사는 11월 11일에도 \"Trust Stamp Announces Patent Filing For Agentic-AI Transaction Authentication\" 등 자금 유입이 없는 단순 특허 출원 홍보를 배포한 바 있으며, 11월 13일 실적 발표 일정 예고(Timing of Reporting)를 거쳐 오늘 정기 실적을 발표한 수순입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/매출 증가율 홍보/마케팅성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 확정 수주 계약이 아닌 단순 3분기 정기 실적(순매출 증가율 나열) 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: IDAI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: IDAI NOTES:\n[IDAI] 신규 확정 수주가 아닌 단순 Q3 9개월 누적 정기 실적 발표(순매출 증가율 나열) PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794836279035_NAMM_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "08:37:59",
-      "time_kst": "22:37:59",
-      "symbol": "NAMM",
-      "company_name": "NAMM",
-      "exchange": "ND",
-      "price": 0.7006,
-      "gain_pct": -3.6,
-      "mcap_m": 39.13,
-      "decision": "FALSE",
-      "elapsed_sec": 41.8,
-      "reason": "확정 계약 금액 없는 단순 기존 How Mine 제련 설비 초기 가동 경과 보고(기발표 언급 재탕) 및 장전 음봉 하락(-3.60%)으로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Namib Minerals Reports Strong Initial Operating Leverage From Expanded How Mine Mill",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 NAMM (Namib Minerals) 08:37 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.13M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 달러 금액 미기재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 수주/공급 계약/판매 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 피뢰침 음봉 덤핑 유지):\n전일 종가 $0.7268 대비 현재가 $0.7006 (-3.60%).\n당일 최고가 $0.8120 찍은 후 장전 고점 대비 -13.7% 급락하며 마이너스 파란불 궤적 지속.\n당일 누적 거래대금 $11,053 USD.\n선발표 규정 확인: 운영 업데이트 관련 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미제출 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Namib Minerals Reports Strong Initial Operating Leverage From Expanded How Mine Mill\"\n원문 직독 결과 드러난 치명적 실체:\n확정 계약/매출 유입이 없는 단순 기존 설비 가동 업데이트 (Operational Update PR):\n본 PR의 본질은 회사가 짐바브웨에 위치한 하우 광산(How Mine)에서 최근 시운전 및 설치를 완료했다고 과거에 이미 발표했던 분쇄 공장 확장 설비(Expanded Mill)의 초기 운영 레버리지 및 가동 성과를 업데이트(provided an update on the performance of the recently commissioned expanded milling plant)했다는 단순 사내 운영 경과 보고 보도자료입니다.\n원문 첫 문단에 *\"As previously announced, the Company installed and com...\"*라고 명시적으로 적혀 있듯, 과거 이미 발표된 설비 증설 사실을 바탕으로 초기 운영 상황을 전하는 전형적인 기존 가동성 뉴스입니다.\n확정 달러 수주 및 1급 금융 기폭제 절대 결여 (심사 헌법 제3조 ①항 위배):\n심사 헌법 제3조 ①항: \"기발표 대형 프레임워크 계약/설비의 단순가동/연장 등 시총 대비 비중도 작은 쪼개기 재탕 및 금액 미기재 단순 홍보는 100% FORCE_BLOCK\" 규칙에 직결됩니다.\n외부 글로벌 대기업이나 기관으로부터 확정된 거액 현금 수주 계약(AIMD형), 대규모 자사주 매입/소각(PXLW형), 보통주 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 소멸(ONFO형) 등 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n장전 고점 대비 -13.7% 피뢰침 덤핑 차트:\n실체적 확정 현금 계약이 없는 단순 운영 업데이트임이 확인되자마자 장전 최고가 $0.8120에서 -13.7% 급락하여 -3.60% 음봉으로 꺾인 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 구체적 계약 달러 금액이 없는 단순 기존 설비 가동 경과 보고(기발표 언급 재탕)에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -13.7% 밀리며 -3.60% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: NAMM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: NAMM NOTES:\n[NAMM] 확정 계약 금액 없는 단순 기존 How Mine 제련 설비 초기 가동 경과 보고(기발표 언급 재탕) 및 장전 음봉 하락(-3.60%)으로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
