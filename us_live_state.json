@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:05:19",
-  "updated_at_et": "2026-11-19 07:05:19",
-  "updated_epoch_ms": 1795089919223,
+  "updated_at_kst": "2026-11-19 21:05:28",
+  "updated_at_et": "2026-11-19 07:05:28",
+  "updated_epoch_ms": 1795089928129,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "KPRX",
+    "company_name": "KPRX",
+    "exchange": "ND",
+    "price": 0.84,
+    "gain_pct": 1.84,
+    "mcap_m": 3.72,
+    "catalyst_hint": "[당일 PR] How KIO-401 Positions Kiora as a Late-Stage Retinal Therapeutics Company",
+    "queue_remaining": 2,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:05:23",
+    "started_at_kst": "21:05:23",
+    "started_epoch_ms": 1795089923347
   },
   "halt_watch": {
     "active": false
