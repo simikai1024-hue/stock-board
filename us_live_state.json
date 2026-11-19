@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:18:24",
-  "updated_at_et": "2026-11-19 09:18:24",
-  "updated_epoch_ms": 1795097904593,
+  "updated_at_kst": "2026-11-19 23:19:26",
+  "updated_at_et": "2026-11-19 09:19:26",
+  "updated_epoch_ms": 1795097966227,
   "analyzing": {
-    "active": true,
-    "symbol": "BLNE",
-    "company_name": "BLNE",
-    "exchange": "ND",
-    "price": 0.44,
-    "gain_pct": 4.51,
-    "mcap_m": 15.62,
-    "catalyst_hint": "[당일 PR] Beeline Holdings Enters into Definitive Merger Agreement to Acquire TYTL, With a View to Expanding into Tokenized Real Estate and Blockchain-Enabled Home Equity Finance",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:18:16",
-    "started_at_kst": "23:18:16",
-    "started_epoch_ms": 1795097896809
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:18:16"
+    "updated_kst": "23:19:18"
   },
   "stats": {
-    "today_total": 44,
-    "today_nblm_count": 44,
+    "today_total": 45,
+    "today_nblm_count": 45,
     "today_buy": 0,
-    "today_false": 44,
+    "today_false": 45,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.5
+    "avg_nblm_sec": 51.8
   },
   "verdicts": [
+    {
+      "id": "v_1795097957761_BLNE_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "09:19:17",
+      "time_kst": "23:19:17",
+      "symbol": "BLNE",
+      "company_name": "BLNE",
+      "exchange": "ND",
+      "price": 0.44,
+      "gain_pct": 4.51,
+      "mcap_m": 15.62,
+      "decision": "FALSE",
+      "elapsed_sec": 65.7,
+      "reason": "확정 수주 전무한 CEO 개인회사(TYTL) 40% 신주발행 지분희석 전량주식교환 M&A 및 장전 -17.0% 덤핑 폭락으로 헌법 3조 4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Beeline Holdings Enters into Definitive Merger Agreement to Acquire TYTL, With a View to Expanding into Tokenized Real Estate and Blockchain-Enabled Home Equity Finance",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 BLNE (Beeline Holdings, Inc.) 2026-11-19 09:18:12 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 3, 230].\n1. 체급 & 실시간 시세 수급 팩트 (장전 고점 대비 -17.0% 급락 덤핑)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: BLNE) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 232].\n실질 시가총액: 약 $15.62M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 4, 230].\n체급 대비 규모 (신규 수주/선급금 0원 및 CEO 이해상충 전량 주식교환 피인수 M&A 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 상업 수주액 0원) [cite: 230].\n자동 검증의 '확정 M&A' 시그널은 외부 대기업의 거액 프리미엄 공개매수(Tender Offer)나 현금 살포가 아니라, **\"BLNE가 TYTL Corp.을 전량 신주 발행(All-stock)으로 인수하는 역희석 합병\"**에 불과합니다 [cite: 232].\n더욱이 TYTL은 BLNE의 CEO(Nick Liuzza)가 대표이자 대주주로 있는 특수관계인(이해상충) 기업이며, 합병 대가로 대규모 신주가 발행되어 기존 주주 지분율이 60%로 희석(40% 지분 TYTL 측 배정)됩니다 [cite: 233, 234].\n실시간 체결가 및 수급 (장전 최고가 대비 -17.0% 급락 덤핑):\n전일 종가 $0.4210 대비 현재가 $0.4400 (+4.51%) [cite: 231].\n당일 프리마켓 최고가 $0.5300 (+25.89%)까지 반짝 띄운 후, 실체 없는 내부 특수관계인 전량 주식교환 합병임을 시장이 간파하면서 고점 대비 무려 -17.0% 폭락하며 투매가 쏟아지고 있습니다 [cite: 231].\n당일 누적 거래대금은 $30,768 USD [cite: 231].\n당일 SEC 공시 현황: 2026-11-19 [DEFA14A], 2026-11-19 [8-K] (Item 1.01, 7.01, 9.01) 제출 완료 확인 [cite: 231, 242].\n2. 당일 공식 PR 및 SEC 8-K 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 09:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Beeline Holdings Enters into Definitive Merger Agreement to Acquire TYTL, With a View to Expanding into Tokenized Real Estate and Blockchain-Enabled Home Equity Finance\" [cite: 231]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 '전량 주식교환(All-Stock) 피인수 희석 M&A':\n원문 본문에 *\"entered into a definitive Merger Agreement to acquire TYTL Corp. ('TYTL')... in an all-stock transaction... Existing Beeline shareholders are expected to initially retain approximately 60% of the combined company, with TYTL shareholders owning approximately 40%...\"*라고 명시되어 있습니다 [cite: 232, 234].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 4, 8].\n오히려 피인수 회사(TYTL) 주주들에게 대규모 BLNE 신주를 찍어주어야 하므로 기존 주주 가치가 즉시 40% 희석되는 전형적인 주식 희석 합병입니다 [cite: 234].\nCEO 내부거래/이해상충 및 종결 조건 미충족 (Closing Condition 리스크):\n본문상 *\"Mr. Liuzza is Chief Executive Officer and a principal shareholder of TYTL\"*로 명시되어 있어, CEO 개인 회사와의 내부거래에 해당합니다 [cite: 233].\n또한 합병 종결 조건으로 \"TYTL이 최소 $15M의 기관 자본 확약을 유치해야 함(A closing condition requires TYTL to secure at least $15 million in committed institutional capital)\" 및 *\"소수주주 과반 승인 필요\"*가 걸려 있어 당장 성사 여부조차 불투명한 조건부 계약입니다 [cite: 236, 239].\n나스닥 상폐 경고(3.01) 잠복 상태 (오버행 리스크):\n35일 SEC 공시 원장 확인 결과, BLNE는 11월 6일 나스닥 최소 입찰가($1.00) 미달로 **상장폐지 결격 통보(8-K Item 3.01)**를 받은 상태입니다 [cite: 247].\n부채 전액 탕감이나 자기자본 확충을 동반한 재무 턴어라운드(ONFO형)가 아니며, 주가 부양을 위해 토큰화/블록체인 테마를 결합한 내부 인수 언론플레이에 불과합니다 [cite: 4, 232].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 4].\n심사 헌법 제3조 ④항 위배 및 장전 -17.0% 급락 덤핑 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 제휴/조건부 M&A 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 4].\n장전 프리마켓에서 $0.5300까지 반짝 띄운 후 실체 없는 주식교환 희석 M&A임을 확인하고 고점 대비 -17.0% 폭락하며 투매가 쏟아지는 전형적인 갭소멸 설거지 패턴입니다 [cite: 231].\n3. 최종 심사 및 결재 판정\nBLNE의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, CEO 개인 회사(TYTL)를 40% 신주 발행 희석으로 인수하는 내부거래성 전량 주식교환 M&A에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: BLNE 처리합니다 [cite: 4, 8, 232, 234].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: BLNE NOTES:\n[BLNE] 확정 수주 전무한 CEO 개인회사(TYTL) 40% 신주발행 지분희석 전량주식교환 M&A 및 장전 -17.0% 덤핑 폭락으로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI, ATHR, VIVS, NUWE, SAGT, LFS, FTCI, LIQT, MAMO, MODD, LEXX에 이어 BLNE까지 총 35개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사/웨비나 참가, 금액 미기재 제휴/고객 채택/업무협약/기술평가서, 시운전 검수 승인, 단순 신제품 출시 예고, 기발표 보험등재 확장 재탕, 임상 투약완료 쪼개기 재탕, 지분희석 주식교환 M&A 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 4, 230]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 4].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795097402184_LIQT_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 MIRA (MIRA Pharmaceuticals, Inc.) 2026-11-17 08:06 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.52M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $0.6310 대비 현재가 $0.6310 (+0.00%), 당일 최고가 $0.6649 (고점 대비 -5.1%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 빅파마 기술이전 계약이 아닌 초기 전임상 연구 결과 발표 (Preclinical Findings PR):\n본 PR의 본질은 FDA 시판 승인이나 임상 3상 성공, 또는 글로벌 대형 제약사와의 거액 독점 라이선스 계약이 아닙니다.\nMIRA-55 파이프라인의 비마약성 통증 완화 기전과 관련하여 CB2 수용체 활성화 및 500배 이상의 선택성 차이를 확인했다는 **초기 전임상(Preclinical) 실험실 약리 데이터 발표 보도자료(New Findings Highlight MIRA-55's Potent CB2 Activation... With Encouraging Preclinical Pain Relief...)**에 불과합니다.\n빅파마로부터 유입되는 확정 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 3상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 전임상 홍보(10/29)의 연장선상 학술 발표:\n과거 이력 대조 결과 회사는 2026년 10월 29일에도 MIRA-55 전임상 결과 보도자료를 배포한 바 있습니다.\n이번 보도자료 역시 기존 파이프라인의 추가 시험관/동물 실험 수준 약리 데이터에 불과한 전형적인 임상 이전 단계의 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 전임상(Preclinical) 연구 결과/약리 기전 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 정식 승인이 전무한 MIRA-55의 단순 초기 전임상(Preclinical) 선택성 약리 결과 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MIRA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: MIRA NOTES:\n[MIRA] 확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794920758889_DXR_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:05:58",
-      "time_kst": "22:05:58",
-      "symbol": "DXR",
-      "company_name": "DXR",
-      "exchange": "ND",
-      "price": 8.355,
-      "gain_pct": 0.0,
-      "mcap_m": 48.78,
-      "decision": "FALSE",
-      "elapsed_sec": 41.4,
-      "reason": "확정 수주/매출 전무한 단순 캔자스 의료센터 내 ezBVA 랩 프로그램 런칭 마케팅 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DXR (Daxor Corporation) 2026-11-17 08:05 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $48.78M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $8.3550 대비 현재가 $8.3550 (+0.00%), 당일 최고가 $8.7163 (고점 대비 -4.1%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단일 의료센터 내 ezBVA 랩 프로그램 단순 도입 홍보 (Clinical Program Launch PR):\n본 PR의 본질은 대규모 매출 계약이나 정부/빅파마 수주가 아니라, 캔자스 소재의 한 대학 의료센터(Premier Kansas Academic Medical Center)에 자체 혈액량 분석(BVA) 랩 프로그램을 런칭했다는 **단순 개별 병원 프로그램 도입 마케팅 보도자료(today announced the commercial launch of a new BVA program at...)**입니다.\n외부 기관이나 병원으로부터 확정된 대규모 장비/진단키트 구매 수주액, 최소 보장 구매 수량(MOQ), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 학회 홍보(10/14, 10/15)의 연장선상 상업화 마케팅 뉴스:\n과거 이력 대조 결과 회사는 10월 14~15일 MedAxiom 트랜스포럼 학회 참가 등 BVA 플랫폼 상업화 확장을 지속적으로 알려왔습니다.\n이번 보도자료 역시 특정 거액 납품 계약 없이 개별 병원에 랩 프로그램을 도입했다는 사실을 포장한 전형적인 상업화 진행 과정의 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 프로그램 런칭/병원 도입/제휴 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 캔자스 소재 대학 의료센터 내 ezBVA 랩 프로그램 단순 런칭 마케팅 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: DXR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: DXR NOTES:\n[DXR] 확정 수주/매출 전무한 단순 캔자스 의료센터 내 ezBVA 랩 프로그램 런칭 마케팅 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
