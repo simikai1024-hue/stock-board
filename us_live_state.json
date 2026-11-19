@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:46:16",
-  "updated_at_et": "2026-11-19 08:46:16",
-  "updated_epoch_ms": 1795095976626,
+  "updated_at_kst": "2026-11-19 22:46:55",
+  "updated_at_et": "2026-11-19 08:46:55",
+  "updated_epoch_ms": 1795096015952,
   "analyzing": {
-    "active": true,
-    "symbol": "FTCI",
-    "company_name": "FTCI",
-    "exchange": "ND",
-    "price": 0.75,
-    "gain_pct": 3.86,
-    "mcap_m": 13.72,
-    "catalyst_hint": "[당일 PR] DNV Study Highlights FTC Solar Pioneer Constructability and Robotics Potential",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:46:06",
-    "started_at_kst": "22:46:06",
-    "started_epoch_ms": 1795095966311
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:46:06"
+    "updated_kst": "22:46:48"
   },
   "stats": {
-    "today_total": 37,
-    "today_nblm_count": 37,
+    "today_total": 38,
+    "today_nblm_count": 38,
     "today_buy": 0,
-    "today_false": 37,
+    "today_false": 38,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.2
+    "avg_nblm_sec": 51.1
   },
   "verdicts": [
+    {
+      "id": "v_1795096010839_FTCI_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "08:46:50",
+      "time_kst": "22:46:50",
+      "symbol": "FTCI",
+      "company_name": "FTCI",
+      "exchange": "ND",
+      "price": 0.75,
+      "gain_pct": 3.86,
+      "mcap_m": 13.72,
+      "decision": "FALSE",
+      "elapsed_sec": 48.2,
+      "reason": "확정 수주 전무한 단순 DNV 기술평가서(트래커 시공성 평가) 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -6.0% 윗꼬리 소멸 전량 차단",
+      "catalyst_hint": "[당일 PR] DNV Study Highlights FTC Solar Pioneer Constructability and Robotics Potential",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 FTCI (FTC Solar, Inc.) 2026-11-19 08:46:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 3, 5].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $3.6K 극소 및 -6.0% 윗꼬리)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: FTCI) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 3].\n실질 시가총액: 약 $13.72M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 4].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 외부 기술평가서 홍보물 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n헤드라인의 DNV 연구 평가는 회사 금고로 직통 유입되는 매출이나 공급 계약이 아니라, 자사 태양광 트래커(Pioneer)의 시공 편의성과 로봇 공학 적용 가능성을 분석한 **\"DNV의 단순 기술 평가서(Technical Assessment Report)\"**에 불과합니다.\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 거액 메가 수주(AIMD형)가 아니라, **전형적인 금액 미기재 제품 기술력 자화자찬 홍보성 언론플레이(Study Highlights PR)**입니다 [cite: 5, 26].\n실시간 체결가 및 수급 (장전 최고가 대비 -6.0% 윗꼬리 출회):\n전일 종가 $0.7221 대비 현재가 $0.7500 (+3.86%).\n당일 프리마켓 최고가 $0.7979 (+10.50%)까지 반짝 띄운 후 실체 없는 외부 기술평가 홍보물임을 확인하고 고점 대비 -6.0% 밀려 상승폭을 대부분 반납했습니다.\n당일 누적 거래대금은 $3,605 USD (약 3.6천 달러 수준의 극소액 체결로 시장 관심 극히 미미).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 5].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 08:45:00 ET) 공식 PR 원문 분석:\nPR 제목: \"DNV Study Highlights FTC Solar Pioneer Constructability and Robotics Potential\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '외부 기관 기술 평가 보고서' 언론플레이 (Study PR):\n원문 본문에 *\"FTC Solar, Inc... today announced a DNV technical assessment underscoring the highly constructable design of its Pioneer tracker. The review examines how Pioneer's hardware, assembly sequence, and material management support field installation...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 5, 26].\n에너지 컨설팅 기관인 DNV가 자사 하드웨어 설계가 시공하기 용이하다고 평가했다는 기술 보고서 요약본에 불과하며, 실체적 신규 달러($) 확정 수주액 및 현금 선급금은 본문 어디에도 단 1달러도 없습니다.\n과거 FTCI 급등 이력과의 본질적 차이 (오답 교본 대조):\n족보집 제2장 50번 표본에 따르면 FTCI는 과거 11월 4일 당일 최고 +49.7% 상승을 기록한 바 있으나 [cite: 11], 금일 발표는 수주나 실적 턴어라운드가 완전히 결여된 단순 기술 평가 홍보물에 불과합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 5].\n심사 헌법 제3조 ④항 위배 및 장전 -6.0% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 제휴/특허/기술 평가서/유예연장 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 5].\n장전 프리마켓에서 $0.7979까지 반짝 띄운 후 실체 없는 기술 평가서임을 확인하고 고점 대비 -6.0% 밀리며 보합권으로 주저앉은 전형적인 윗꼬리 소멸 패턴입니다.\n3. 최종 심사 및 결재 판정\nFTCI의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무한 단순 DNV 기술 평가 보고서 홍보물에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: FTCI 처리합니다 [cite: 5, 26].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: FTCI NOTES:\n[FTCI] 확정 수주 전무한 단순 DNV 기술평가서(트래커 시공성 평가) 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -6.0% 윗꼬리 소멸 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI, ATHR, VIVS, NUWE, SAGT, LFS에 이어 FTCI까지 총 30개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사/웨비나 참가, 금액 미기재 제휴/고객 채택/업무협약/기술평가서, 단순 투자 검토, 기발표 사후종결 재탕, 초기 Pre-IND 피드백, 소액 정기배당, 정부 지원사업 단순 참여, 하도급 단순 합류, 자체 전망치 홍보 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 5]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 5].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795095386306_NUWE_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "기발표된 자회사(FRTT)의 9개월 누적실적($12M 착시) 15분만 재탕 인용 PR 및 장전 음봉 전환(-17.5% 덤핑)으로 헌법 3조 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Nexera: Subsidiary Fort Technology Reports 49% Growth with Record $12 Million Year-to-Date Revenues, Advancing Toward Milestones for Additional Fort Shares",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 NEXR (Nexera Technologies Ltd) 2026-11-17 07:48 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.70M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주 착시 1,714.3% 적발):\n본문 핵심 금액으로 감지된 약 $12.00M USD(시총 $0.70M 대비 1,714.3%)는 외부 고객사로부터 유입되는 신규 확정 수주나 현금 계약금이 아닙니다.\n오늘 앞선 07:32 ET에 이미 발표된 자회사 Fort Technology Inc. (FRTT)의 과거 9개월간 누적 실적(Year-to-Date Revenues) 회계 수치를 그대로 복사해 온 단순 자회사 실적 인용 수치에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 -17.5% 음봉 하락 덤핑):\n전일 종가 $1.3500 대비 현재가 **$1.3200 (-2.22%)**.\n장전 최고가 $1.6000 찍은 후 즉각 고점 대비 -17.5% 폭락하며 마이너스 파란불 음봉으로 전환.\n당일 누적 거래대금 $42,061 USD.\n당일 SEC 공시 현황: 2026-11-17 [6-K] 접수 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:47 ET) 공식 PR 원문 분석:\nPR 제목: *\"Nexera: Subsidiary Fort Technology Reports 49% Growth with Record $12 Million Year-to-Date Revenues, Advancing Toward Milestones for Additional Fort Shares\"*\n원문 직독 결과 드러난 치명적 실체:\n앞서 차단된 FRTT 실적 발표를 15분 만에 재인용한 100% 껍데기 재탕 (Subsidiary Re-announcement Trap):\nPR 첫 문장 자체가 *\"today announced that, as previously announced by its subsidiary, Fort Technology Inc. (Nasdaq: FRTT)... Fort has reported unaudited interim results\"*로 시작합니다.\n이미 오늘 07:32 ET 결재에서 신규 수주 전무 및 $20M 전환사채 잠복으로 차단된 FRTT의 9개월 누적 매출($12M)을 모회사 NEXR가 15분 만에 그대로 재홍보한 전형적인 쪼개기/재탕 언론 플레이입니다.\n추가 주식 취득(Milestones) 조건부 언급 착시 (현금 유입 전무):\n원문 본문에 *\"pursuant to which Nexera is entitled to receive additional common shares of Fort if certain milestones are met... there can be no assurance that either of the remaining milestones will be achieved\"*라고 명시되어 있습니다.\n이는 회사로 신규 현금이 유입되는 계약이 아니며, 자회사가 2028년까지 연간 매출 $15M 또는 $8M 자금조달을 달성해야 자회사 주식을 더 받을 수 있다는 불확실한 미래 조건부 주식 분배 조항에 불과합니다.\n자회사의 최대 $20M 전환사채(CB) 악성 오버행 공유:\n원문 본문에 자회사 FRTT가 최근 최대 $20.0M 규모의 무담보 전환사채(unsecured convertible promissory notes) 발행 계약을 체결했다고 재확인하고 있습니다.\n이는 ONFO형(전환사채 0원 전액 소멸)과 정반대로, 모회사 지분 가치를 훼손시키는 극단적인 전환사채 오버행 폭탄을 동반하고 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 -17.5% 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표된 자회사 실적을 15분 만에 그대로 베껴온 쪼개기 재탕 및 ④ 신규 확정 계약 금액이 없는 단순 마일스톤 기대 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.6000까지 반짝 상승 후 개미들에게 물량을 떠넘기며 고점 대비 -17.5% 급락한 -2.22% 마이너스 파란불 음봉 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 신규 수주나 매출 계약이 아니며, 앞서 07:32 ET에 기발표되어 차단된 자회사 FRTT의 9개월 누적 실적($12M 착시)을 15분 만에 재탕 인용한 홍보물에 불과하고, 장전 고점 대비 -17.5% 밀려 마이너스 음봉(-2.22%)으로 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: NEXR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: NEXR NOTES:\n[NEXR] 기발표된 자회사(FRTT)의 9개월 누적실적($12M 착시) 15분만 재탕 인용 PR 및 장전 음봉 전환(-17.5% 덤핑)으로 헌법 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR) 전수가 실체적 확정 현금 유입이 없는 정기 지표, 신제품 홍보, 협회 가입, 비구속 MOU, 단순 위임장, 공매도 안내문, 공장 통폐합, 자회사 실적 재탕으로 확인되어 안전하게 전량 차단되었습니다. 장전 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794919095483_ELAB_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "07:38:15",
-      "time_kst": "21:38:15",
-      "symbol": "ELAB",
-      "company_name": "ELAB",
-      "exchange": "ND",
-      "price": 1.6355,
-      "gain_pct": -2.36,
-      "mcap_m": 1.32,
-      "decision": "FALSE",
-      "elapsed_sec": 36.2,
-      "reason": "신규 수주/계약 전무한 기인수 자회사들의 단순 캘리포니아 공장 통폐합(이전) 홍보 PR로 헌법 3조 위배 및 장전 음봉(-1.48%) 전량 차단",
-      "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and O",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 ELAB (PMGC Holdings Inc.) 2026-11-17 07:37 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.32M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 음봉 하락 심화):\n전일 종가 $1.6600 대비 현재가 $1.6355 (-1.48%).\n당일 최고가 $1.7903 찍은 후 장전 고점 대비 -8.6% 밀리며 마이너스 파란불 음봉 유지.\n당일 누적 거래대금 $42,959 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and Operational Efficiency and Reducing Costs\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 과거 기인수 자회사들의 내부 생산시설 통폐합 완료 안내 (Internal Facility Consolidation PR):\n본 PR의 본질은 외부 신규 수주 계약이 아니라, 과거 2025년 7월과 2026년 5월에 각각 인수한 AGA Precision Systems와 A&B Aerospace의 제조 시설을 캘리포니아 아주사(Azusa) 단일 사업장으로 이전·통폐합 완료했다는 단순 내부 생산 공장 통합 및 원가 절감 기대 홍보 보도자료입니다.\n외부 대기업이나 방산 기관으로부터 확정된 대규모 신규 납품 계약액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 정기 실적 발표(11/16) 직후 배포된 쪼개기 IR 언론 플레이:\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 *\"3분기 매출 785% 급증($2.53M) 및 10-Q 제출\"*을 이미 발표한 바 있습니다.\n실적 발표 다음 날 주가 부양을 위해 기존 기인수 사업장의 단순 설비 이전 완료 사실을 포장하여 배포한 전형적인 사후 쪼개기/재홍보성 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 인수합병 사업장의 단순 설비 가동/이전 쪼개기 재탕 및 ④ 금액 미기재 단순 효율화/통폐합 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.7903까지 튀었다가 즉각 고점 대비 -8.6% 밀리며 -1.48% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 신규 매출 계약이 전무한 기존 기인수 자회사들의 단순 캘리포니아 공장 통폐합 이전 완료 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -1.48% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ELAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: ELAB NOTES:\n[ELAB] 신규 수주/계약 전무한 기인수 자회사들의 단순 캘리포니아 공장 통폐합(이전) 홍보 PR로 헌법 3조 위배 및 장전 음봉(-1.48%) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM) 전수가 확정 현금 유입이 없는 정기 지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 안내문, 공장 통폐합, 단순 협력 확대로 확인되어 안전하게 전량 차단되었습니다. 장전 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
