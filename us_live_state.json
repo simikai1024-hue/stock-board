@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:57:22",
-  "updated_at_et": "2026-11-19 09:57:22",
-  "updated_epoch_ms": 1795100242655,
+  "updated_at_kst": "2026-11-19 23:58:12",
+  "updated_at_et": "2026-11-19 09:58:12",
+  "updated_epoch_ms": 1795100292267,
   "analyzing": {
     "active": false
   },
@@ -12,27 +12,47 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 927.94,
+    "orderable_usd": 746.4,
     "daily_done": false,
-    "holding_symbol": "POAS",
-    "holding_qty": 214,
-    "avg_price": 4.3087,
-    "current_price": 3.97,
-    "profit_rate": -7.86,
-    "updated_kst": "23:57:14"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 3.5877,
+    "profit_rate": -16.73,
+    "updated_kst": "23:58:03"
   },
   "stats": {
-    "today_total": 47,
+    "today_total": 48,
     "today_nblm_count": 47,
-    "today_buy": 0,
+    "today_buy": 1,
     "today_false": 47,
     "today_hardcut": 60,
     "total_verdicts": 150,
-    "total_buy": 1,
-    "total_false": 149,
+    "total_buy": 2,
+    "total_false": 148,
     "avg_nblm_sec": 51.9
   },
   "verdicts": [
+    {
+      "id": "v_manual_1795100283046_POAS",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "09:58:03",
+      "time_kst": "23:58:03",
+      "symbol": "POAS",
+      "company_name": "POAS",
+      "exchange": "AM",
+      "price": 3.5877,
+      "gain_pct": -16.73,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🛡️ 손절 청산: 214주 | 매수 $4.3087 → 매도 $3.5877 (-16.73% / -154.29$)"
+    },
     {
       "id": "v_1795100103840_TDTH_FALSE",
       "date_et": "2026-11-19",
@@ -2412,29 +2432,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 FRSX (Foresight Autonomous Holdings Ltd.) 2026-11-17 08:08 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.14M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.5001 대비 현재가 $0.5354 (+7.06%), 당일 최고가 $0.5500 (고점 대비 -2.7%).\n당일 누적 거래대금 $50 USD (50달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Foresight Expands into Full Integrated AI Autonomy Stack with Unmanned Ground and Aerial Vehicles Technology\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 자회사 사명 변경 및 자율주행 스택 사업영역 확장 홍보 (Subsidiary Rebranding PR):\n본 PR의 본질은 신규 수주 계약이나 현금 유입이 아니라, 100% 자회사인 'Foresight Automotive Ltd.'의 등록 사명을 'Foresight Intelligent Systems Ltd.'로 변경하고 무인 지상/공중 차량 자율주행 스택 영역으로 확장하겠다는 **단순 자회사 리브랜딩 및 기술 포지셔닝 홍보 보도자료(subsidiary changes its registered name... reflecting its shift to a one-stop-shop provider...)**입니다.\n외부 완성차(OEM), 방산 기관, 빅테크로부터 확정된 대규모 소프트웨어/센서 납품 계약액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 방산 지상차량 통합 발표(11/12)의 연장선상 쪼개기 IR 언론 플레이:\n과거 이력 대조 결과 회사는 불과 5일 전인 2026년 11월 12일에도 \"Foresight Successfully Completes Integration into Modular Autonomous Ground Vehicles for Defense Applications\" 보도자료를 배포한 바 있습니다.\n신규 매출 계약 없이 기존 방산 자율주행 무인차량 프로젝트를 자회사 사명 변경 및 사업 스택 확장 명목으로 포장하여 배포한 전형적인 사후 쪼개기/리브랜딩성 껍데기 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 자율주행 프로젝트의 쪼개기 재탕 및 ④ 금액 미기재 단순 자회사 사명 변경/포트폴리오 확장 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 단순 자회사 사명 변경(Foresight Automotive -> Foresight Intelligent Systems) 및 AI 자율주행 스택 확장 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: FRSX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: FRSX NOTES:\n[FRSX] 확정 수주/매출 전무한 단순 자회사 사명변경 및 AI 자율주행 스택 확장 마케팅 PR로 헌법 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 자회사 사명 변경으로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794920933791_YFOR_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:08:53",
-      "time_kst": "22:08:53",
-      "symbol": "YFOR",
-      "company_name": "YFOR",
-      "exchange": "ND",
-      "price": 0.0447,
-      "gain_pct": 16.62,
-      "mcap_m": 0.57,
-      "decision": "FALSE",
-      "elapsed_sec": 43.4,
-      "reason": "전일(11/16) 기발표 영문 운영우선순위 PR을 24시간만 중국어로 번역 재배포한 100% 껍데기 재탕 및 고점대비 -17.2% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] YYForce 明确 AI 劳动力、机器人及设施管理领域的运营优先事项",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YFOR (YYForce Inc.) 2026-11-17 08:08 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.57M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 거래대금 $5.23M 터지며 고점 대비 -17.2% 덤핑):\n전일 종가 $0.0385 대비 현재가 $0.0447 (+16.10%).\n당일 최고가 $0.0540 찍은 후 장전 고점 대비 -17.2% 폭락하며 윗꼬리를 달고 덤핑 중.\n당일 누적 거래대금 $5,232,692 USD (523만 달러 규모의 대량 거래가 회전되며 개미에게 물량 전가 중).\n헌법 제1조에 따라 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성과 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"YYForce 明确 AI 劳动力、机器人及设施管理领域的运营优先事项\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n어제(11/16) 발표한 영문 PR을 24시간 만에 중국어로 번역만 바꿔 재배포한 100% 번역 재탕 (Exact Translation Trap):\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 GlobeNewswire를 통해 \"YYForce Sets Operating Priorities Across AI Workforce, Robotics and Facility Management\" 영문 보도자료를 배포했습니다.\n오늘 발표된 보도자료는 어제 배포된 운영 우선순위 설정 영문 PR을 **단순 중국어(简体中文)로 직역하여 24시간 만에 다시 전송한 껍데기 번역 재탕(Translation Re-hash)**에 불과합니다.\n확정 수주/현금 유입이 아닌 단순 자체 사업 운영 우선순위 나열 (Routine Operating Priorities PR):\n본 PR의 본질은 대규모 수주 계약이 아니라, 인력 배치 최적화 및 상용 로봇 도입 검토 등 내부 경영 방침을 설명한 단순 주주 서한/운영 방침 홍보문입니다.\n외부 대기업이나 글로벌 고객사로부터 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 -17.2% 설거지 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 보도자료의 24시간만 번역 재홍보 쪼개기 재탕 및 ④ 금액 미기재 단순 운영 방침 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.0540까지 띄워 $5.23M의 대량 거래대금을 터뜨리며 개미들에게 물량을 떠넘긴 후 고점 대비 -17.2% 폭락한 전형적인 껍데기 재탕 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 어제(11/16) 기발표된 영문 운영 우선순위 PR을 단순 중국어로 번역하여 재배포한 100% 번역 재탕 홍보물에 불과하고, 신규 확정 수주/매출이 전무하며 장전 고점 대비 -17.2% 폭락하여 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: YFOR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: YFOR NOTES:\n[YFOR] 전일(11/16) 기발표 영문 운영우선순위 PR을 24시간만 중국어로 번역 재배포한 100% 껍데기 재탕 및 고점대비 -17.2% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕으로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:57:46",
+      "time_kst": "23:57:46",
+      "symbol": "DTCX",
+      "company_name": "DTCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.64M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:57:41",
+      "time_kst": "23:57:41",
+      "symbol": "ALZN",
+      "company_name": "ALZN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K/A] (Item 1.01,3.02,5.03,9.01))"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "09:55:19",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $262.76M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:48:19",
-      "time_kst": "23:48:19",
-      "symbol": "RNXT",
-      "company_name": "RNXT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $53.08M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:48:08",
-      "time_kst": "23:48:08",
-      "symbol": "PCT",
-      "company_name": "PCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $365.82M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
