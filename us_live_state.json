@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 19:09:14",
-  "updated_at_et": "2026-11-19 05:09:14",
-  "updated_epoch_ms": 1795082954132,
+  "updated_at_kst": "2026-11-19 19:10:14",
+  "updated_at_et": "2026-11-19 05:10:14",
+  "updated_epoch_ms": 1795083014809,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:09:06"
+    "updated_kst": "19:10:06"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 39,
+    "today_hardcut": 40,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "05:09:20",
+      "time_kst": "19:09:20",
+      "symbol": "LNSR",
+      "company_name": "LNSR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.56M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "05:02:11",
       "time_kst": "19:02:11",
       "symbol": "TCOM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $5811.23M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "10:58:05",
-      "time_kst": "00:58:05",
-      "symbol": "ZBRA",
-      "company_name": "ZBRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $14701.19M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
