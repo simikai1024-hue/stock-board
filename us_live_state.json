@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:26:34",
-  "updated_at_et": "2026-11-19 09:26:34",
-  "updated_epoch_ms": 1795098394258,
+  "updated_at_kst": "2026-11-19 23:27:25",
+  "updated_at_et": "2026-11-19 09:27:25",
+  "updated_epoch_ms": 1795098445237,
   "analyzing": {
-    "active": true,
-    "symbol": "LOBO",
-    "company_name": "LOBO",
-    "exchange": "ND",
-    "price": 3.1,
-    "gain_pct": -3.43,
-    "mcap_m": 44.77,
-    "catalyst_hint": "[당일 PR] LOBO Connects 30 Community Senior Service Centers to Its AI-Powered SISaaS Platform for Initial Testing",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:26:29",
-    "started_at_kst": "23:26:29",
-    "started_epoch_ms": 1795098389064
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:26:23"
+    "updated_kst": "23:27:07"
   },
   "stats": {
-    "today_total": 45,
-    "today_nblm_count": 45,
+    "today_total": 46,
+    "today_nblm_count": 46,
     "today_buy": 0,
-    "today_false": 45,
+    "today_false": 46,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.8
+    "avg_nblm_sec": 51.9
   },
   "verdicts": [
+    {
+      "id": "v_1795098439045_LOBO_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "09:27:19",
+      "time_kst": "23:27:19",
+      "symbol": "LOBO",
+      "company_name": "LOBO",
+      "exchange": "ND",
+      "price": 3.1,
+      "gain_pct": -3.43,
+      "mcap_m": 44.77,
+      "decision": "FALSE",
+      "elapsed_sec": 56.0,
+      "reason": "확정 수주 전무한 11/17 플랫폼 출시에 이은 단순 30개소 초기 테스트 쪼개기 재탕 PR 및 장전 -21.5% 덤핑 음봉으로 헌법 3조 1·4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] LOBO Connects 30 Community Senior Service Centers to Its AI-Powered SISaaS Platform for Initial Testing",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 LOBO (LOBO TECHNOLOGIES LTD.) 2026-11-19 09:26:23 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 7, 263].\n1. 체급 & 실시간 시세 수급 팩트 (장전 음봉 -3.43% 및 고점 대비 -21.5% 급락 덤핑)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: LOBO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 264].\n실질 시가총액: 약 $44.77M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 9, 263].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 파일럿 플랫폼 단순 초기 테스트 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 상업 수주액 0원) [cite: 263].\n헤드라인의 '30 Community Senior Service Centers'는 유료 상업 판매 계약이 아니라, 자사 AI 기반 SISaaS 플랫폼의 **\"초기 테스트(Initial Testing)를 위해 30개 노인 복지 센터를 연결했다\"**는 내용에 불과합니다 [cite: 264].\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 거액 메가 수주(AIMD형)가 아니라, **전형적인 금액 미기재 제품 현장 시범 테스트 홍보성 언론플레이(Initial Testing PR)**입니다 [cite: 10, 264].\n실시간 체결가 및 수급 (장전 음봉 전환 및 고점 대비 -21.5% 급락):\n전일 종가 $3.2100 대비 현재가 $3.1000 (-3.43%)로 음봉 전환 [cite: 264].\n당일 프리마켓 최고가 $3.9500 (+23.05%)까지 반짝 띄운 후 실체 없는 테스트 홍보물임을 시장이 확인하고 고점 대비 무려 -21.5% 폭락하며 투매가 쏟아졌습니다 [cite: 264].\n당일 누적 거래대금은 $641 USD (약 640달러 수준의 극소액 체결) [cite: 264].\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 7, 264].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 과거 180일 재탕 대조\n당일(11/19 09:25:00 ET) 공식 PR 원문 분석:\nPR 제목: \"LOBO Connects 30 Community Senior Service Centers to Its AI-Powered SISaaS Platform for Initial Testing\" [cite: 264]\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '플랫폼 초기 테스트(Initial Testing)' 언론플레이:\n원문 본문에 *\"today announced that 30 community senior service centers have connected to its AI-powered Senior Integrated Solutions as a Service (SISaaS) platform for initial testing...\"*라고 명시되어 있습니다 [cite: 264].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 10, 59].\n30개 센터를 대상으로 시범 운영(베타/파일럿 테스트)을 시작했다는 것에 불과하며, 신규 확정 계약 금액($M) 및 현금 선급금은 본문 어디에도 단 1달러도 없습니다 [cite: 263].\n과거 180일 재탕 대조: 48시간 전(11/17) PR의 뻔한 쪼개기 우려먹기 적발:\n과거 180일 원장 대조 결과 [cite: 265]:\n[2026-11-17 | globenewswire] LOBO Launches AI-Powered SISaaS Platform for Community and Home-Based Senior Care [cite: 265]\n[2026-10-15 | globenewswire] LOBO Announces Development Plan for AI Computing Infrastructure and Integrated Senior Care Platform [cite: 266]\n[2026-10-12 | globenewswire] Lobo Technologies Enters China’s Projected RMB30 Trillion Silver Economy via Exclusive AI-Powered Senior Care Cooperation [cite: 266]\n불과 이틀 전인 11월 17일 \"SISaaS 플랫폼 공식 출시\" PR을 띄운 데 이어, 오늘 또다시 \"30개 센터 초기 테스트 연결\"로 문구만 살짝 바꾼 **전형적인 단기 쪼개기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 264, 265].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 11].\n심사 헌법 제3조 ①·④항 위배 및 장전 -21.5% 급락 덤핑 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 플랫폼 론칭의 쪼개기 재탕' 및 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 파일럿 테스트 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 10, 11].\n장전 프리마켓에서 $3.9500까지 반짝 띄운 후 실체 없는 테스트 재탕임을 확인하고 고점 대비 -21.5% 폭락하며 전일 대비 -3.43% 음봉으로 주저앉은 전형적인 설거지 차트입니다 [cite: 264].\n3. 최종 심사 및 결재 판정\nLOBO의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, 불과 이틀 전(11/17) SISaaS 플랫폼 출시에 이은 단순 30개 복지관 초기 테스트 쪼개기 재탕 언론플레이에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·④항에 의거 FORCE_BLOCK: LOBO 처리합니다 [cite: 10, 264, 265].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: LOBO NOTES:\n[LOBO] 확정 수주 전무한 11/17 플랫폼 출시에 이은 단순 30개소 초기 테스트 쪼개기 재탕 PR 및 장전 -21.5% 덤핑 음봉으로 헌법 3조 1·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI, ATHR, VIVS, NUWE, SAGT, LFS, FTCI, LIQT, MAMO, MODD, LEXX, BLNE에 이어 LOBO까지 총 36개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사/웨비나 참가, 금액 미기재 제휴/고객 채택/업무협약/기술평가서, 시운전 검수 승인, 단순 신제품 출시 예고, 기발표 보험등재 확장 재탕, 임상 투약완료 쪼개기 재탕, 지분희석 주식교환 M&A, 플랫폼 시범 테스트 쪼개기 재탕 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 10, 230, 264]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 10, 11].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795097957761_BLNE_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "시총 대비 11.6%($5.10M)에 불과한 2027년 SpaceX 라이드셰어 발사 일정 PR로 헌법 2조 수주요건(100%+) 미달 및 3조 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Momentus to Fly NASA Payloads on Vigoride-8 Spacecraft During Bandwagon-6 Rideshare Mission with SpaceX",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MNTS (Momentus Inc.) 2026-11-17 08:06 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $43.93M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주 착시 적발):\n본문 핵심 금액으로 언급된 약 $5.10M USD는 실질 시총($43.93M) 대비 **11.6%**에 불과합니다.\n연구소 심사 헌법 제2조 ①항(FORCE_BUY)의 수주 승인 기준인 \"시총 대비 100%+ 압도적 창사 최대 수주 + 거액 현금 선급금(AIMD형)\" 정량 요건에 턱없이 미달합니다.\n실시간 체결가 및 수급 (미미한 반응 구간):\n전일 종가 $1.9500 대비 현재가 $2.0000 (+2.56%), 당일 최고가 $2.0799 (고점 대비 -3.8%).\n당일 누적 거래대금 $34,498 USD (3만 4천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Momentus to Fly NASA Payloads on Vigoride-8 Spacecraft During Bandwagon-6 Rideshare Mission with SpaceX\"\n원문 직독 결과 드러난 치명적 실체:\n압도적 창사 최대 수주가 아닌 2027년 목표의 단순 탑재체 발사 계획 안내 (Future Launch Schedule PR):\n본 PR의 본질은 회사의 궤도 서비스 우주선(Vigoride-8)에 NASA 탑재체 등을 싣고 2027년을 목표로 스페이스X의 Bandwagon-6 라이드셰어 미션을 통해 발사할 예정이라는 미래 일정 홍보 보도자료입니다.\n체급 대비 규모가 $5.10M(시총 대비 11.6%) 수준의 소액 미션/예정치에 불과하며, 당장 시총을 압도하는 거액 확정 계약금이나 즉시 가용한 현금 선급금(AIMD형)이 결여되어 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 전혀 없습니다.\n과거 180일 우주 로봇/위성 마케팅(11/12)의 연장선상 미래 일정 발표:\n과거 이력 대조 결과 회사는 불과 5일 전인 2026년 11월 12일에도 \"Momentus Reports Strong Progress of in-Space Robotic Arm\" 보도자료를 배포한 바 있습니다.\n이번 보도자료 역시 기존에 추진 중이던 NASA/SpaceX 연계 라이드셰어 발사 일정을 포장하여 배포한 전형적인 미래(2027년) 목표성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 우주 프로젝트의 발사 일정 쪼개기 재탕 및 시총 대비 11.6%에 불과한 소규모 계약, ④ 금액 미기재/미래 목표성 협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 시총($43.93M)을 압도하지 못하는 소규모 금액($5.10M, 시총 대비 11.6%)이자 2027년 목표의 SpaceX 라이드셰어 발사 일정 안내에 불과하여 헌법 제2조 수주 요건(시총 100%+ 및 선급금)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MNTS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: MNTS NOTES:\n[MNTS] 시총 대비 11.6%($5.10M)에 불과한 2027년 SpaceX 라이드셰어 발사 일정 PR로 헌법 2조 수주요건(100%+) 미달 및 3조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정으로 확인되어 안전하게 전량 차단되었습니다\n. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794920814823_MIRA_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:06:54",
-      "time_kst": "22:06:54",
-      "symbol": "MIRA",
-      "company_name": "MIRA",
-      "exchange": "ND",
-      "price": 0.631,
-      "gain_pct": 0.0,
-      "mcap_m": 26.52,
-      "decision": "FALSE",
-      "elapsed_sec": 38.3,
-      "reason": "확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 바탕으로 진행한 MIRA (MIRA Pharmaceuticals, Inc.) 2026-11-17 08:06 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.52M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (완전 거래 정체 구간):\n전일 종가 $0.6310 대비 현재가 $0.6310 (+0.00%), 당일 최고가 $0.6649 (고점 대비 -5.1%).\n당일 누적 거래대금 $0 USD (체결 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MIRA Pharmaceuticals Reports New MIRA-55 Selectivity Findings Supporting a Differentiated Non-Opioid Approach to Pain\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 빅파마 기술이전 계약이 아닌 초기 전임상 연구 결과 발표 (Preclinical Findings PR):\n본 PR의 본질은 FDA 시판 승인이나 임상 3상 성공, 또는 글로벌 대형 제약사와의 거액 독점 라이선스 계약이 아닙니다.\nMIRA-55 파이프라인의 비마약성 통증 완화 기전과 관련하여 CB2 수용체 활성화 및 500배 이상의 선택성 차이를 확인했다는 **초기 전임상(Preclinical) 실험실 약리 데이터 발표 보도자료(New Findings Highlight MIRA-55's Potent CB2 Activation... With Encouraging Preclinical Pain Relief...)**에 불과합니다.\n빅파마로부터 유입되는 확정 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 3상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 전임상 홍보(10/29)의 연장선상 학술 발표:\n과거 이력 대조 결과 회사는 2026년 10월 29일에도 MIRA-55 전임상 결과 보도자료를 배포한 바 있습니다.\n이번 보도자료 역시 기존 파이프라인의 추가 시험관/동물 실험 수준 약리 데이터에 불과한 전형적인 임상 이전 단계의 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 전임상(Preclinical) 연구 결과/약리 기전 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 정식 승인이 전무한 MIRA-55의 단순 초기 전임상(Preclinical) 선택성 약리 결과 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MIRA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: MIRA NOTES:\n[MIRA] 확정 기술수출/매출 전무한 단순 MIRA-55 초기 전임상(Preclinical) 선택성 연구결과 발표 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표로 확인되어 안전하게 전량 차단되었습니다. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
