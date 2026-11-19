@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:05:04",
-  "updated_at_et": "2026-11-19 09:05:04",
-  "updated_epoch_ms": 1795097104827,
+  "updated_at_kst": "2026-11-19 23:05:54",
+  "updated_at_et": "2026-11-19 09:05:54",
+  "updated_epoch_ms": 1795097154864,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:05:04"
+    "updated_kst": "23:05:46"
   },
   "stats": {
     "today_total": 40,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:05:49",
+      "time_kst": "23:05:49",
+      "symbol": "MDB",
+      "company_name": "MDB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $24707.42M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:05:04",
+      "time_kst": "23:05:04",
+      "symbol": "PUBM",
+      "company_name": "PUBM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $947.49M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:04:59",
       "time_kst": "23:04:59",
       "symbol": "BULL",
@@ -2914,26 +2934,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:21:07",
-      "time_kst": "22:21:07",
-      "symbol": "MWC",
-      "company_name": "MWC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $79.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:19:26",
-      "time_kst": "22:19:26",
-      "symbol": "AMOD",
-      "company_name": "AMOD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [EFFECT] (Item ,,))"
     }
   ]
 }
