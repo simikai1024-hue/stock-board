@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:32:16",
-  "updated_at_et": "2026-11-19 08:32:16",
-  "updated_epoch_ms": 1795095136092,
+  "updated_at_kst": "2026-11-19 22:32:45",
+  "updated_at_et": "2026-11-19 08:32:45",
+  "updated_epoch_ms": 1795095165655,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NUWE",
+    "company_name": "NUWE",
+    "exchange": "ND",
+    "price": 4.19,
+    "gain_pct": 7.71,
+    "mcap_m": 15.28,
+    "catalyst_hint": "[당일 PR] Nuwellis to Host Webinar Discussing ULTRA-Peds Registry Results and Aquadex Performance in Critically Ill Pediatric Patients",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:32:36",
+    "started_at_kst": "22:32:36",
+    "started_epoch_ms": 1795095156798
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:32:10"
+    "updated_kst": "22:32:29"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:32:42",
+      "time_kst": "22:32:42",
+      "symbol": "SSII",
+      "company_name": "SSII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $262.76M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:32:23",
+      "time_kst": "22:32:23",
+      "symbol": "CNXU",
+      "company_name": "CNXU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $72.6M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:31:44",
       "time_kst": "22:31:44",
       "symbol": "NNE",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 투매 급락 구간 방어 차단 (현재 -11.6% <= -8.0%)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:49:42",
-      "time_kst": "21:49:42",
-      "symbol": "GTBP",
-      "company_name": "GTBP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:40:08",
-      "time_kst": "21:40:08",
-      "symbol": "LIMN",
-      "company_name": "LIMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
