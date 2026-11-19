@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:10:05",
-  "updated_at_et": "2026-11-19 09:10:05",
-  "updated_epoch_ms": 1795097405173,
+  "updated_at_kst": "2026-11-19 23:10:58",
+  "updated_at_et": "2026-11-19 09:10:58",
+  "updated_epoch_ms": 1795097458746,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:09:51"
+    "updated_kst": "23:10:56"
   },
   "stats": {
     "today_total": 44,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:10:54",
+      "time_kst": "23:10:54",
+      "symbol": "LSTA",
+      "company_name": "LSTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Lisata Therapeutics, Inc. Announces Reverse Stock Split)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:07:46",
       "time_kst": "23:07:46",
       "symbol": "VRRM",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $696.13M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:32:47",
-      "time_kst": "22:32:47",
-      "symbol": "PCT",
-      "company_name": "PCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $365.82M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
