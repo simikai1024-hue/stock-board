@@ -1,11 +1,11 @@
 {
   "date": "2026-11-19",
-  "updated_at": "2026-11-19 23:55:07",
+  "updated_at": "2026-11-20 01:30:28",
   "isi_board": {
-    "updated_at": "2026-11-19 23:55:07",
+    "updated_at": "2026-11-20 01:30:28",
     "updater_source": "GITHUB_CLOUD",
     "theme_date": "2026-11-19",
-    "theme_updated_at": "23:55:07 (☁️깃허브 자동)",
+    "theme_updated_at": "01:30:28 (☁️깃허브 자동)",
     "overnight_holding": {
       "active": true,
       "code": "035760",
@@ -344,7 +344,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-19",
-      "updated_at": "23:55:07 (☁️깃허브 자동)",
+      "updated_at": "01:30:28 (☁️깃허브 자동)",
       "signal_status": "NEUTRAL",
       "active_signal": null,
       "today_closed": null,
@@ -437,35 +437,35 @@
         "kospi_inst_eok": 120,
         "kosdaq_foreign_eok": -2162,
         "kosdaq_inst_eok": 2257,
-        "usdkrw": 1329.6,
-        "usdkrw_chg": -4.4,
-        "nasdaq_pct": 1.44,
-        "sox_pct": 3.86,
+        "usdkrw": 1333.7,
+        "usdkrw_chg": -0.3,
+        "nasdaq_pct": 0.35,
+        "sox_pct": 1.67,
         "macro_dir": "NEUTRAL",
         "macro_label": "수급·매크로 중립",
         "news_dir": "DN",
         "news_label": "경계·하방 재료 우위",
         "headlines": [
           {
-            "title": "‘내 주식 좀 살려주!’…엔트로픽 상장 공모가, ‘희망가’ 훌쩍 넘겨...AI 거품론 이겨낼까 주목",
-            "press": "문화일보",
-            "time": "23:04",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/021/0002834138"
-          },
-          {
-            "title": "앤트로픽 드디어 나스닥 데뷔…외인 K증시 돌아올까 [분석+]",
-            "press": "한국경제",
-            "time": "22:01",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/015/0005356122"
-          },
-          {
-            "title": "‘코스피 15% 빠질 때 50% 올랐다’…목표가 줄하향 속 증권가 눈높이 높아진 종목은 [투자360]",
-            "press": "헤럴드경제",
-            "time": "21:11",
+            "title": "“美 데이터센터 규제, 韓 영향 적어” “주정부 규제, 亞 반도체 기업 영향”",
+            "press": "조선일보",
+            "time": "00:33",
             "tone": "DN",
-            "url": "https://n.news.naver.com/mnews/article/016/0002725941"
+            "url": "https://n.news.naver.com/mnews/article/023/0004010659"
+          },
+          {
+            "title": "분산투자 믿었는데 반토막… 두산·한화 ETF ‘그룹주의 배신’",
+            "press": "국민일보",
+            "time": "00:17",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/005/0001886336"
+          },
+          {
+            "title": "다우 하락세로 전환…나스닥, 1.7% ↑[뉴욕증시]",
+            "press": "아시아경제",
+            "time": "00:04",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/277/0005845345"
           }
         ]
       },
@@ -494,7 +494,7 @@
           "pair_money_share_pct": 53.4,
           "flow_surge_mult": 0.97
         },
-        "line1": "외국인이 코스피 -4,086억(코스닥 -2,162억) 대량 순매도 출회 중이며, 미 나스닥(+1.44%)·반도체(+3.86%) 및 원/달러 1,329.6원 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
+        "line1": "외국인이 코스피 -4,086억(코스닥 -2,162억) 대량 순매도 출회 중이며, 미 나스닥(+0.35%)·반도체(+1.67%) 및 원/달러 1,333.7원 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 200] 쪽으로 평소 대비 0.97배 자금이 집중되며 당일 VWAP 상단 체류 57%를 기록 중입니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
