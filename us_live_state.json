@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:48:39",
-  "updated_at_et": "2026-11-19 09:48:39",
-  "updated_epoch_ms": 1795099719763,
+  "updated_at_kst": "2026-11-19 23:49:24",
+  "updated_at_et": "2026-11-19 09:49:24",
+  "updated_epoch_ms": 1795099764237,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:48:20"
+    "updated_kst": "23:49:18"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,96 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:49:18",
+      "time_kst": "23:49:18",
+      "symbol": "NVTS",
+      "company_name": "NVTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1967.41M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:15",
+      "time_kst": "23:49:15",
+      "symbol": "IRLA",
+      "company_name": "IRLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $440.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:13",
+      "time_kst": "23:49:13",
+      "symbol": "GEVO",
+      "company_name": "GEVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $420.54M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:07",
+      "time_kst": "23:49:07",
+      "symbol": "JACK",
+      "company_name": "JACK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $283.66M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:49:01",
+      "time_kst": "23:49:01",
+      "symbol": "SEV",
+      "company_name": "SEV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $80.72M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:55",
+      "time_kst": "23:48:55",
+      "symbol": "ALT",
+      "company_name": "ALT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $270.48M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:52",
+      "time_kst": "23:48:52",
+      "symbol": "MRLN",
+      "company_name": "MRLN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $87.95M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:46",
+      "time_kst": "23:48:46",
+      "symbol": "HRMY",
+      "company_name": "HRMY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1944.33M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:39",
+      "time_kst": "23:48:39",
+      "symbol": "FAC",
+      "company_name": "FAC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $400.27M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:48:33",
       "time_kst": "23:48:33",
       "symbol": "INLF",
@@ -2844,96 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1470.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:06:59",
-      "time_kst": "23:06:59",
-      "symbol": "RMNI",
-      "company_name": "RMNI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $500.56M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:06:50",
-      "time_kst": "23:06:50",
-      "symbol": "ALRM",
-      "company_name": "ALRM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3257.35M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:06:41",
-      "time_kst": "23:06:41",
-      "symbol": "SOFI",
-      "company_name": "SOFI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $18312.52M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:06:33",
-      "time_kst": "23:06:33",
-      "symbol": "JBLU",
-      "company_name": "JBLU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1347.15M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:06:24",
-      "time_kst": "23:06:24",
-      "symbol": "CHYM",
-      "company_name": "CHYM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $12161.14M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:06:03",
-      "time_kst": "23:06:03",
-      "symbol": "JRSH",
-      "company_name": "JRSH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $98.81M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:05:55",
-      "time_kst": "23:05:55",
-      "symbol": "VELO",
-      "company_name": "VELO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $112.27M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:05:49",
-      "time_kst": "23:05:49",
-      "symbol": "MDB",
-      "company_name": "MDB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $24707.42M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:05:04",
-      "time_kst": "23:05:04",
-      "symbol": "PUBM",
-      "company_name": "PUBM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $947.49M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
