@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 19:17:01",
-  "updated_at_et": "2026-11-19 05:17:01",
-  "updated_epoch_ms": 1795083421073,
+  "updated_at_kst": "2026-11-19 19:17:59",
+  "updated_at_et": "2026-11-19 05:17:59",
+  "updated_epoch_ms": 1795083479677,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:16:53"
+    "updated_kst": "19:17:54"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 42,
+    "today_hardcut": 43,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "05:17:06",
+      "time_kst": "19:17:06",
+      "symbol": "AIIO",
+      "company_name": "AIIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1016.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "05:16:02",
       "time_kst": "19:16:02",
       "symbol": "HIT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $652.61M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "11:01:46",
-      "time_kst": "01:01:46",
-      "symbol": "FOXF",
-      "company_name": "FOXF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $714.54M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
