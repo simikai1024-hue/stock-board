@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:18:27",
-  "updated_at_et": "2026-11-19 08:18:27",
-  "updated_epoch_ms": 1795094307750,
+  "updated_at_kst": "2026-11-19 22:19:30",
+  "updated_at_et": "2026-11-19 08:19:30",
+  "updated_epoch_ms": 1795094370839,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:18:19"
+    "updated_kst": "22:19:22"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:19:26",
+      "time_kst": "22:19:26",
+      "symbol": "AMOD",
+      "company_name": "AMOD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:17:24",
       "time_kst": "22:17:24",
       "symbol": "SLXN",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $6160.62M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:31:44",
-      "time_kst": "21:31:44",
-      "symbol": "GCL",
-      "company_name": "GCL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $189.45M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
