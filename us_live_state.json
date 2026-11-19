@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:16:41",
-  "updated_at_et": "2026-11-19 08:16:41",
-  "updated_epoch_ms": 1795094201863,
+  "updated_at_kst": "2026-11-19 22:17:29",
+  "updated_at_et": "2026-11-19 08:17:29",
+  "updated_epoch_ms": 1795094249159,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:16:35"
+    "updated_kst": "22:17:16"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:17:24",
+      "time_kst": "22:17:24",
+      "symbol": "SLXN",
+      "company_name": "SLXN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:15:34",
       "time_kst": "22:15:34",
       "symbol": "EU",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $189.45M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:31:38",
-      "time_kst": "21:31:38",
-      "symbol": "PVLA",
-      "company_name": "PVLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2142.78M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
