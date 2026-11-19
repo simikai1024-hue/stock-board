@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:17:22",
-  "updated_at_et": "2026-11-19 09:17:22",
-  "updated_epoch_ms": 1795097842053,
+  "updated_at_kst": "2026-11-19 23:18:24",
+  "updated_at_et": "2026-11-19 09:18:24",
+  "updated_epoch_ms": 1795097904593,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BLNE",
+    "company_name": "BLNE",
+    "exchange": "ND",
+    "price": 0.44,
+    "gain_pct": 4.51,
+    "mcap_m": 15.62,
+    "catalyst_hint": "[당일 PR] Beeline Holdings Enters into Definitive Merger Agreement to Acquire TYTL, With a View to Expanding into Tokenized Real Estate and Blockchain-Enabled Home Equity Finance",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:18:16",
+    "started_at_kst": "23:18:16",
+    "started_epoch_ms": 1795097896809
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:17:13"
+    "updated_kst": "23:18:16"
   },
   "stats": {
     "today_total": 44,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:17:57",
+      "time_kst": "23:17:57",
+      "symbol": "LSTA",
+      "company_name": "LSTA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Lisata Therapeutics, Inc. Announces Reverse Stock Split)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:15:57",
       "time_kst": "23:15:57",
       "symbol": "SCNI",
@@ -2454,16 +2476,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:10:54",
-      "time_kst": "23:10:54",
-      "symbol": "LSTA",
-      "company_name": "LSTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Lisata Therapeutics, Inc. Announces Reverse Stock Split)"
     },
     {
       "date_et": "2026-11-19",
