@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:00:00",
-  "updated_at_et": "2026-11-19 04:00:00",
-  "updated_epoch_ms": 1795078800806,
+  "updated_at_kst": "2026-11-19 18:00:46",
+  "updated_at_et": "2026-11-19 04:00:46",
+  "updated_epoch_ms": 1795078846517,
   "analyzing": {
     "active": false
   },
@@ -10,7 +10,7 @@
     "active": false
   },
   "account": {
-    "session_label": "장외대기",
+    "session_label": "프리장실전",
     "watchlist_count": 0,
     "orderable_usd": 927.94,
     "daily_done": false,
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "17:59:57"
+    "updated_kst": "18:00:37"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 2,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2436,6 +2436,26 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-19",
+      "time_et": "04:00:38",
+      "time_kst": "18:00:38",
+      "symbol": "GMM",
+      "company_name": "GMM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:00:25",
+      "time_kst": "18:00:25",
+      "symbol": "INLF",
+      "company_name": "INLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-16 [EFFECT] (Item ,,))"
+    },
+    {
       "date_et": "2026-11-18",
       "time_et": "11:31:07",
       "time_kst": "01:31:07",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $15913.74M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:15:30",
-      "time_kst": "23:15:30",
-      "symbol": "VBIO",
-      "company_name": "VBIO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:15:20",
-      "time_kst": "23:15:20",
-      "symbol": "MKDW",
-      "company_name": "MKDW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $60.61M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
