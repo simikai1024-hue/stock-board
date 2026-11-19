@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:37:16",
-  "updated_at_et": "2026-11-19 08:37:16",
-  "updated_epoch_ms": 1795095436440,
+  "updated_at_kst": "2026-11-19 22:37:57",
+  "updated_at_et": "2026-11-19 08:37:57",
+  "updated_epoch_ms": 1795095477291,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:37:01"
+    "updated_kst": "22:37:43"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:37:48",
+      "time_kst": "22:37:48",
+      "symbol": "FCHL",
+      "company_name": "FCHL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:37:16",
+      "time_kst": "22:37:16",
+      "symbol": "FGII",
+      "company_name": "FGII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $349.05M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:37:11",
       "time_kst": "22:37:11",
       "symbol": "PYXS",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:02:02",
-      "time_kst": "22:02:02",
-      "symbol": "JACK",
-      "company_name": "JACK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $283.66M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:01:57",
-      "time_kst": "22:01:57",
-      "symbol": "ELOG",
-      "company_name": "ELOG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
     }
   ]
 }
