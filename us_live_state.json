@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 20:56:08",
-  "updated_at_et": "2026-11-19 06:56:08",
-  "updated_epoch_ms": 1795089368767,
+  "updated_at_kst": "2026-11-19 20:56:53",
+  "updated_at_et": "2026-11-19 06:56:53",
+  "updated_epoch_ms": 1795089413241,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:56:00"
+    "updated_kst": "20:56:41"
   },
   "stats": {
     "today_total": 5,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "06:56:44",
+      "time_kst": "20:56:44",
+      "symbol": "LQDT",
+      "company_name": "LQDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1377.65M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "06:56:09",
+      "time_kst": "20:56:09",
+      "symbol": "ATLX",
+      "company_name": "ATLX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $51.0M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "06:56:00",
       "time_kst": "20:56:00",
       "symbol": "ANIP",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:04:27",
-      "time_kst": "18:04:27",
-      "symbol": "UFG",
-      "company_name": "UFG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $68.5M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:04:22",
-      "time_kst": "18:04:22",
-      "symbol": "BOF",
-      "company_name": "BOF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
     }
   ]
 }
