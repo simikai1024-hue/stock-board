@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:54:04",
-  "updated_at_et": "2026-11-19 07:54:04",
-  "updated_epoch_ms": 1795092844740,
+  "updated_at_kst": "2026-11-19 21:54:28",
+  "updated_at_et": "2026-11-19 07:54:28",
+  "updated_epoch_ms": 1795092868577,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NXPL",
+    "company_name": "NXPL",
+    "exchange": "ND",
+    "price": 7.79,
+    "gain_pct": 5.13,
+    "mcap_m": 21.38,
+    "catalyst_hint": "[당일 PR] NextPlat Announces PharmcoRx Agreement with MedSure Systems to Support Medication Adherence for Retail Medicare Patients in South Florida",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:54:19",
+    "started_at_kst": "21:54:19",
+    "started_epoch_ms": 1795092859980
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:54:00"
+    "updated_kst": "21:54:20"
   },
   "stats": {
     "today_total": 18,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:54:15",
+      "time_kst": "21:54:15",
+      "symbol": "SGML",
+      "company_name": "SGML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $475.04M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:51:39",
       "time_kst": "21:51:39",
       "symbol": "MASK",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $7964.53M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "06:05:45",
-      "time_kst": "20:05:45",
-      "symbol": "JOYY",
-      "company_name": "JOYY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2562.22M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
