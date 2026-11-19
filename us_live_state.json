@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:47:55",
-  "updated_at_et": "2026-11-19 09:47:55",
-  "updated_epoch_ms": 1795099675703,
+  "updated_at_kst": "2026-11-19 23:48:39",
+  "updated_at_et": "2026-11-19 09:48:39",
+  "updated_epoch_ms": 1795099719763,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:47:41"
+    "updated_kst": "23:48:20"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,66 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:48:33",
+      "time_kst": "23:48:33",
+      "symbol": "INLF",
+      "company_name": "INLF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-19 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:25",
+      "time_kst": "23:48:25",
+      "symbol": "SSII",
+      "company_name": "SSII",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $262.76M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:19",
+      "time_kst": "23:48:19",
+      "symbol": "RNXT",
+      "company_name": "RNXT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:48:08",
+      "time_kst": "23:48:08",
+      "symbol": "PCT",
+      "company_name": "PCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $365.82M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:59",
+      "time_kst": "23:47:59",
+      "symbol": "NEOV",
+      "company_name": "NEOV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $130.91M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:47:55",
+      "time_kst": "23:47:55",
+      "symbol": "NNE",
+      "company_name": "NNE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $555.78M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:47:47",
       "time_kst": "23:47:47",
       "symbol": "ICUI",
@@ -2874,66 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $947.49M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:04:59",
-      "time_kst": "23:04:59",
-      "symbol": "BULL",
-      "company_name": "BULL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2524.94M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:04:32",
-      "time_kst": "23:04:32",
-      "symbol": "BMM",
-      "company_name": "BMM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $254.82M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:04:27",
-      "time_kst": "23:04:27",
-      "symbol": "NEGG",
-      "company_name": "NEGG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $163.81M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:04:22",
-      "time_kst": "23:04:22",
-      "symbol": "YTRA",
-      "company_name": "YTRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $55.97M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:04:14",
-      "time_kst": "23:04:14",
-      "symbol": "IONR",
-      "company_name": "IONR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $172.21M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:03:53",
-      "time_kst": "23:03:53",
-      "symbol": "CASH",
-      "company_name": "CASH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1516.08M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
