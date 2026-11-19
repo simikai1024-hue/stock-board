@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:06:50",
-  "updated_at_et": "2026-11-19 09:06:50",
-  "updated_epoch_ms": 1795097210326,
+  "updated_at_kst": "2026-11-19 23:07:02",
+  "updated_at_et": "2026-11-19 09:07:02",
+  "updated_epoch_ms": 1795097222318,
   "analyzing": {
-    "active": true,
-    "symbol": "MAMO",
-    "company_name": "MAMO",
-    "exchange": "ND",
-    "price": 0.889,
-    "gain_pct": 0.0,
-    "mcap_m": 37.02,
-    "catalyst_hint": "[당일 PR] Massimo Group Expands Marine Portfolio with New Cove Series Entry-Level Boats",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:05:59",
-    "started_at_kst": "23:05:59",
-    "started_epoch_ms": 1795097159241
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -34,17 +22,37 @@
     "updated_kst": "23:06:48"
   },
   "stats": {
-    "today_total": 40,
-    "today_nblm_count": 40,
+    "today_total": 41,
+    "today_nblm_count": 41,
     "today_buy": 0,
-    "today_false": 40,
+    "today_false": 41,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.0
+    "avg_nblm_sec": 51.2
   },
   "verdicts": [
+    {
+      "id": "v_1795097213530_MAMO_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "09:06:53",
+      "time_kst": "23:06:53",
+      "symbol": "MAMO",
+      "company_name": "MAMO",
+      "exchange": "ND",
+      "price": 0.889,
+      "gain_pct": 0.0,
+      "mcap_m": 37.02,
+      "decision": "FALSE",
+      "elapsed_sec": 58.6,
+      "reason": "확정 수주 전무한 단순 2027년형 엔트리급 보트(Cove Series) 라인업 출시 예고 PR로 헌법 3조 4항(신제품 홍보) 위배 및 장전 -3.4% 윗꼬리 소멸 전량 차단",
+      "catalyst_hint": "[당일 PR] Massimo Group Expands Marine Portfolio with New Cove Series Entry-Level Boats",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 MAMO (Massimo Group) 2026-11-19 09:05:54 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 13, 14, 275].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $794 USD 및 -3.4% 윗꼬리)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: MAMO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 218].\n실질 시가총액: 약 $37.02M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 14, 275].\n체급 대비 규모 (상업 수주/선급금 0원 및 단순 엔트리 보트 출시 예정 홍보물 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 275].\n헤드라인의 \"$8,000 Range\"는 거액의 공급 계약금이 아니라, 2027년 1월 출시 예정인 자사 입문용 보트(Cove Series) 1대당 소비자 판매 예상 가격대($8,000 ~ $20,000)를 의미할 뿐입니다 [cite: 276, 277].\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 거액 메가 수주(AIMD형)가 아니라, **전형적인 금액 미기재 자사 신제품 라인업 출시 예고 언론플레이(Product Launch PR)**에 불과합니다 [cite: 14, 277].\n실시간 체결가 및 수급 (장전 거래대금 $794 USD 극소액 및 -3.4% 윗꼬리):\n전일 종가 $0.8890 대비 현재가 $0.8890 (+0.00%) [cite: 276].\n당일 프리마켓 최고가 $0.9200 (+3.49%)까지 반짝 띄운 후 실체 없는 신제품 출시 홍보물임을 확인하고 고점 대비 -3.4% 밀려 보합권으로 주저앉음 [cite: 276].\n당일 누적 거래대금 $794 USD (약 790달러 수준의 극소액 체결로 시장 반응 전무) [cite: 276].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 14, 276].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 09:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Massimo Group Expands Marine Portfolio with New Cove Series Entry-Level Boats\" [cite: 276]\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '자체 신규 보트 라인업 출시 예고' 홍보물:\n원문 본문에 *\"Massimo Group... today announced the upcoming launch of its new Cove Series through Massimo Marine, expanding the Company's marine portfolio into a more accessible entry-level price segment. Expected to launch in January 2027... Initial pricing is expected to range from approximately $8,000 to $20,000...\"*라고 명시되어 있습니다 [cite: 277].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 14, 61].\n과거 MAMO는 11월 3일 SEMA 쇼에서 신형 UTV(Warrior 1500XD 등) 공식 출시 PR을 띄웠으나 당시에도 당일 최고 +9.4% 반짝 윗꼬리 후 시초가(+0.0%)로 주저앉아 전형적인 설거지로 마감된 바 있습니다 (족보집 394번 표본) [cite: 217, 218].\n이번 보도자료 역시 해양 사업부(Massimo Marine)의 저가형 보트 모델 출시를 예고하는 단순 신제품 공개 언론플레이에 불과합니다 [cite: 277].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 14].\n심사 헌법 제3조 ④항 위배 및 장전 -3.4% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 신제품 출시/라인업 확장/제휴 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 14].\n장전 프리마켓에서 $0.9200까지 반짝 띄운 후 실체 없는 저가 보트 출시 홍보물임을 확인하고 고점 대비 -3.4% 밀리며 보합(+0.00%)으로 주저앉은 전형적인 윗꼬리 소멸 패턴입니다 [cite: 276].\n3. 최종 심사 및 결재 판정\nMAMO의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무한 단순 2027년형 엔트리급 보트(Cove Series) 라인업 출시 예고 홍보물에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MAMO 처리합니다 [cite: 14, 61, 276, 277].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: MAMO NOTES:\n[MAMO] 확정 수주 전무한 단순 2027년형 엔트리급 보트(Cove Series) 라인업 출시 예고 PR로 헌법 3조 4항(신제품 홍보) 위배 및 장전 -3.4% 윗꼬리 소멸 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI, ATHR, VIVS, NUWE, SAGT, LFS, FTCI, LIQT에 이어 MAMO까지 총 32개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사/웨비나 참가, 금액 미기재 제휴/고객 채택/업무협약/기술평가서, 시운전 검수 승인, 단순 신제품 출시 예고 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 14, 218, 276]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 14].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795096924621_LIQT_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 KIDZ (KIDZ AI Inc.) 2026-11-17 07:55 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.90M USD (연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 -19.2% 피뢰침 덤핑):\n전일 종가 $1.0450 대비 현재가 $1.0500 (+0.48%).\n당일 최고가 $1.3000 찍은 후 장전 고점 대비 -19.2% 폭락하며 상승폭을 거의 전량 반납.\n당일 누적 거래대금 $374,726 USD.\n헌법 제1조에 따라 8-K 미접수 및 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:45 ET) 공식 PR 원문 분석:\nPR 제목: \"KIDZ AI Announces Strategic Collaboration with Synestria to Optimize AI Infrastructure Performance\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 기회 탐색용 비구속 전략적 협력 (Strategic Collaboration PR):\n본 PR의 본질은 신규 매출 계약이나 수주가 아니라, Synestria와 함께 AI 인프라 성능 최적화 기회를 탐색하겠다는 **단순 업무 제휴/협력 보도자료(today announced a strategic collaboration with Synestria, Inc. to explore opportunities in AI infrastructure...)**입니다.\n외부 고객사나 빅테크로부터 확정된 GPU 납품 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 정기 실적 발표(11/12) 직후 배포된 전형적인 AI 테마 편승 언론 플레이:\n과거 이력 대조 결과 회사는 불과 5일 전인 2026년 11월 12일에 3분기 실적을 발표한 바 있습니다.\n실적 발표 이후 주가 부양을 위해 교육(EdTech) 기업이 알맹이(확정 매출) 없는 AI 인프라 최적화 협력 뉴스를 띄운 전형적인 테마 편승성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배 및 장전 -19.2% 피뢰침 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 제휴/협력(Collaboration)/기회 탐색 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.3000까지 띄워 개미들에게 물량을 넘긴 후 고점 대비 -19.2% 급락하여 +0.48% 보합선까지 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 Synestria와의 단순 기회 탐색용 전략적 협력(Strategic Collaboration) 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 $1.3000 고점 대비 -19.2% 폭락하여 덤핑 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: KIDZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: KIDZ NOTES:\n[KIDZ] 확정 수주/매출 전무한 단순 AI 인프라 전략적 협력(Collaboration) PR로 헌법 3조 4항 위배 및 고점대비 -19.2% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴로 확인되어 안전하게 전량 차단되었습니다. 08:00~09:30 ET 본장 직전 피크 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794920141009_AIFF_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "07:55:41",
-      "time_kst": "21:55:41",
-      "symbol": "AIFF",
-      "company_name": "AIFF",
-      "exchange": "ND",
-      "price": 0.88,
-      "gain_pct": -0.6,
-      "mcap_m": 13.86,
-      "decision": "FALSE",
-      "elapsed_sec": 45.9,
-      "reason": "확정 수주/매출 전무한 단순 소아청소년 ADHD 뇌파 스캔 건수 증가(373% 착시) 마케팅 PR로 헌법 3조 4항 위배 및 장전 음봉 전환(-12.0% 덤핑) 전량 차단",
-      "catalyst_hint": "[당일 PR] Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 AIFF (Firefly Neuroscience, Inc.) 2026-11-17 07:54 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.86M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주/계약 금액 부재 재확인):\n본문 핵심 수치인 **\"373% YoY Increase (4.7-fold gain)\"**는 외부 대기업이나 기관으로부터 유입된 확정 수주액이나 달러($) 계약금이 아닙니다.\n18세 미만 ADHD 환자 대상 Evoke™ 뇌파 스캔 건수 증가율을 나타낸 **단순 상업적 운영 활동량 지표(Commercial Utilization Metric)**에 불과하며, 당일 PR 내 백만 달러($M) 이상 확정 계약 금액은 일절 미감지(전무) 상태입니다.\n실시간 체결가 및 수급 (장전 윗꼬리 -12.0% 덤핑 및 마이너스 음봉 전환):\n전일 종가 $0.8853 대비 현재가 **$0.8800 (-0.60%)**.\n당일 최고가 $0.9999 찍은 후 장전 고점 대비 -12.0% 밀리며 마이너스 파란불 음봉으로 완전히 주저앉음.\n당일 누적 거래대금 $12,939 USD (1만 2천 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:50 ET) 공식 PR 원문 분석:\nPR 제목: *\"Firefly Neuroscience Reports 373% Year-Over-Year Increase in U18 ADHD Evoke™ Scans as Commercial Expansion Accelerates\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 자체 스캔 건수 증가율 홍보 (Operating Utilization PR):\n본 PR의 본질은 Firefly Neuroscience가 소아청소년 ADHD 관련 Evoke™ 뇌파 스캔 건수가 전년 대비 373%(4.7배) 증가했다는 **단순 내부 운영/임상 이용 실적 홍보 보도자료(today announced a 373% YoY increase in commercial utilization of its Evoke™ platform...)**입니다.\n외부 글로벌 제약사나 대형 병원 체인으로부터 확정된 대규모 소프트웨어/장비 독점 라이선스 계약액, 최소 보장 구매 수량(MOQ), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 반복된 언론 플레이(9/25, 10/27)의 연장선상 마케팅 뉴스:\n과거 이력 대조 결과 회사는 9월 25일(NeuroSigma 제휴), 10월 27일(Versus 플랫폼 상업화) 등 지속적으로 보도자료를 냈으나\n, 실체적 수주 계약 없이 상업화 추진 과정의 단순 스캔 건수 통계를 포장한 전형적인 마케팅성 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑(-12.0%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 운영 통계/이용 건수 증가 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.9999까지 반짝 상승 후 즉각 고점 대비 -12.0% 폭락하며 -0.60% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 단순 소아청소년 ADHD 뇌파 스캔 건수 증가율(373% YoY 착시) 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 고점 대비 -12.0% 밀려 마이너스 음봉(-0.60%)으로 하락 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: AIFF 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: AIFF NOTES:\n[AIFF] 확정 수주/매출 전무한 단순 소아청소년 ADHD 뇌파 스캔 건수 증가(373% 착시) 마케팅 PR로 헌법 3조 4항 위배 및 장전 음봉 전환(-12.0% 덤핑) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 초입부터 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열로 확인되어 안전하게 전량 차단되었습니다\n. 08:00~09:30 ET 본장 직전 피크 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:06:59",
+      "time_kst": "23:06:59",
+      "symbol": "RMNI",
+      "company_name": "RMNI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $500.56M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:06:50",
+      "time_kst": "23:06:50",
+      "symbol": "ALRM",
+      "company_name": "ALRM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3257.35M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "09:06:41",
@@ -2926,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $72.6M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:31:44",
-      "time_kst": "22:31:44",
-      "symbol": "NNE",
-      "company_name": "NNE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $555.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:31:35",
-      "time_kst": "22:31:35",
-      "symbol": "RNXT",
-      "company_name": "RNXT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.52M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
