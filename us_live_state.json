@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:00:19",
-  "updated_at_et": "2026-11-19 09:00:19",
-  "updated_epoch_ms": 1795096819888,
+  "updated_at_kst": "2026-11-19 23:01:04",
+  "updated_at_et": "2026-11-19 09:01:04",
+  "updated_epoch_ms": 1795096864284,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:00:14"
+    "updated_kst": "23:00:57"
   },
   "stats": {
     "today_total": 39,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:00:56",
+      "time_kst": "23:00:56",
+      "symbol": "RGCO",
+      "company_name": "RGCO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $234.75M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:00:51",
+      "time_kst": "23:00:51",
+      "symbol": "NEXN",
+      "company_name": "NEXN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $545.02M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:55:26",
       "time_kst": "22:55:26",
       "symbol": "INTA",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $385.48M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:05:42",
-      "time_kst": "22:05:42",
-      "symbol": "IQST",
-      "company_name": "IQST",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:05:32",
-      "time_kst": "22:05:32",
-      "symbol": "PSMT",
-      "company_name": "PSMT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5174.6M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
