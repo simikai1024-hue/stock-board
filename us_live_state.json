@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:45:43",
-  "updated_at_et": "2026-11-19 08:45:43",
-  "updated_epoch_ms": 1795095943051,
+  "updated_at_kst": "2026-11-19 22:46:16",
+  "updated_at_et": "2026-11-19 08:46:16",
+  "updated_epoch_ms": 1795095976626,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FTCI",
+    "company_name": "FTCI",
+    "exchange": "ND",
+    "price": 0.75,
+    "gain_pct": 3.86,
+    "mcap_m": 13.72,
+    "catalyst_hint": "[당일 PR] DNV Study Highlights FTC Solar Pioneer Constructability and Robotics Potential",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:46:06",
+    "started_at_kst": "22:46:06",
+    "started_epoch_ms": 1795095966311
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:45:25"
+    "updated_kst": "22:46:06"
   },
   "stats": {
     "today_total": 37,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:46:15",
+      "time_kst": "22:46:15",
+      "symbol": "ANIX",
+      "company_name": "ANIX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $94.21M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:45:34",
       "time_kst": "22:45:34",
       "symbol": "FRD",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $440.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:03:04",
-      "time_kst": "22:03:04",
-      "symbol": "GDEV",
-      "company_name": "GDEV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $150.87M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
