@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:03:13",
-  "updated_at_et": "2026-11-19 08:03:13",
-  "updated_epoch_ms": 1795093393581,
+  "updated_at_kst": "2026-11-19 22:03:28",
+  "updated_at_et": "2026-11-19 08:03:28",
+  "updated_epoch_ms": 1795093408009,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TVRD",
+    "company_name": "TVRD",
+    "exchange": "ND",
+    "price": 1.04,
+    "gain_pct": 0.0,
+    "mcap_m": 13.9,
+    "catalyst_hint": "[당일 PR] Tvardi Therapeutics Advances Next-Generation Oral STAT3 Inhibitor TTI-109 Toward IND in Inflammatory Bowel Disease Following FDA Pre-IND Feedback",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:03:23",
+    "started_at_kst": "22:03:23",
+    "started_epoch_ms": 1795093403542
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:02:52"
+    "updated_kst": "22:03:13"
   },
   "stats": {
     "today_total": 20,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:03:26",
+      "time_kst": "22:03:26",
+      "symbol": "NVTS",
+      "company_name": "NVTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1967.41M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:03:16",
+      "time_kst": "22:03:16",
+      "symbol": "IRLA",
+      "company_name": "IRLA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $440.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:03:04",
       "time_kst": "22:03:04",
       "symbol": "GDEV",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:02:43",
-      "time_kst": "21:02:43",
-      "symbol": "SPWR",
-      "company_name": "SPWR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1342.06M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:02:21",
-      "time_kst": "21:02:21",
-      "symbol": "WWD",
-      "company_name": "WWD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $18820.85M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
