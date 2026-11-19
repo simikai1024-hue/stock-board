@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:51:35",
-  "updated_at_et": "2026-11-19 09:51:35",
-  "updated_epoch_ms": 1795099895417,
+  "updated_at_kst": "2026-11-19 23:52:31",
+  "updated_at_et": "2026-11-19 09:52:31",
+  "updated_epoch_ms": 1795099951554,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:51:26"
+    "updated_kst": "23:52:23"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:52:27",
+      "time_kst": "23:52:27",
+      "symbol": "NXB",
+      "company_name": "NXB",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:51:52",
+      "time_kst": "23:51:52",
+      "symbol": "CASH",
+      "company_name": "CASH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1516.08M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:51:44",
+      "time_kst": "23:51:44",
+      "symbol": "NEGG",
+      "company_name": "NEGG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $163.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:51:39",
+      "time_kst": "23:51:39",
+      "symbol": "VBIO",
+      "company_name": "VBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:51:27",
       "time_kst": "23:51:27",
       "symbol": "ARAI",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:46:49",
-      "time_kst": "23:46:49",
-      "symbol": "BL",
-      "company_name": "BL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1409.45M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:46:43",
-      "time_kst": "23:46:43",
-      "symbol": "AIFA",
-      "company_name": "AIFA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 8-K Item 3.02 신주·워런트 희석 폭탄 명시 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:46:34",
-      "time_kst": "23:46:34",
-      "symbol": "NXGL",
-      "company_name": "NXGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:46:26",
-      "time_kst": "23:46:26",
-      "symbol": "CING",
-      "company_name": "CING",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $76.46M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
