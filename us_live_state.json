@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:10:04",
-  "updated_at_et": "2026-11-19 07:10:04",
-  "updated_epoch_ms": 1795090204516,
+  "updated_at_kst": "2026-11-19 21:11:08",
+  "updated_at_et": "2026-11-19 07:11:08",
+  "updated_epoch_ms": 1795090268554,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:09:59"
+    "updated_kst": "21:11:00"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:11:04",
+      "time_kst": "21:11:04",
+      "symbol": "MCHP",
+      "company_name": "MCHP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $32473.85M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:06:54",
       "time_kst": "21:06:54",
       "symbol": "TRMB",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $63.56M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:02:11",
-      "time_kst": "19:02:11",
-      "symbol": "TCOM",
-      "company_name": "TCOM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $27964.57M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
