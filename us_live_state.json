@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:01:59",
-  "updated_at_et": "2026-11-19 07:01:59",
-  "updated_epoch_ms": 1795089719172,
+  "updated_at_kst": "2026-11-19 21:02:42",
+  "updated_at_et": "2026-11-19 07:02:42",
+  "updated_epoch_ms": 1795089762585,
   "analyzing": {
-    "active": true,
-    "symbol": "YMAT",
-    "company_name": "YMAT",
-    "exchange": "ND",
-    "price": 0.9052,
-    "gain_pct": 4.03,
-    "mcap_m": 4.09,
-    "catalyst_hint": "[당일 PR] J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:01:53",
-    "started_at_kst": "21:01:53",
-    "started_epoch_ms": 1795089713823
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:01:51"
+    "updated_kst": "21:02:32"
   },
   "stats": {
-    "today_total": 5,
-    "today_nblm_count": 5,
+    "today_total": 6,
+    "today_nblm_count": 6,
     "today_buy": 0,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 49.7
+    "avg_nblm_sec": 50.4
   },
   "verdicts": [
+    {
+      "id": "v_1795089756983_YMAT_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "07:02:36",
+      "time_kst": "21:02:36",
+      "symbol": "YMAT",
+      "company_name": "YMAT",
+      "exchange": "ND",
+      "price": 0.9052,
+      "gain_pct": 4.03,
+      "mcap_m": 4.09,
+      "decision": "FALSE",
+      "elapsed_sec": 53.7,
+      "reason": "확정 상업수주 전무 및 11/09·11/11 미쓰비시 케미컬 탄소섬유 협력 1주일 만의 단순 쪼개기 재탕 홍보 PR로 헌법 3조 1·4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 YMAT (J-Star Holding Co., Ltd.) 2026-11-19 07:01:43 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.09M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주 달러 금액 0원).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 상업 공급 수주가 아니라, 단순 미쓰비시 케미컬(Mitsubishi Chemical)을 향후 미국 공장 가동 시 1차 공급업체(primary supplier)로 지정하고 협력을 확장한다는 **금액 미기재 전략적 제휴/원자재 공급망 협력 홍보(Expands Mitsubishi Chemical Partnership)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $0.8701 대비 현재가 $0.9052 (+4.03%), 당일 최고가 $0.9290 (고점 대비 -2.6%).\n당일 누적 거래대금 $7,659 USD (약 7천 달러 수준의 극소액 프리마켓 거래).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K/8-K 제출 유예 규정 구간이므로 당일 SEC 공시 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '원자재 공급선 지정 및 R&D 협력' 언론플레이:\n원문 본문에 *\"today announced an expansion of its strategic collaboration with Mitsubishi Chemical, establishing Mitsubishi Chemical as a primary supplier of specialty carbon fiber materials for J-Star’s planned U.S. manufacturing operations...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n향후 휴스턴에 설립할 무인기(UAV) 공장에 미쓰비시 케미컬의 탄소섬유 원자재를 조달받고 공동 R&D를 진행하겠다는 전형적인 금액 미기재 공급망 협력/MOU성 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 9일/11일 미쓰비시 방문·파트너십 PR에 이은 1주일 만의 동일 파트너사 쪼개기 재탕 (Spin PR):\n서류철의 과거 180일 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 09일에 GlobeNewswire를 통해 *\"J-Star Holding Co., Ltd. Highlights U.S. Operational Progress with Delegation Visit from Global Tier 1 Carbon Fiber Manufacturer\"*를 발표했고\n, 이어 11월 11일에도 *\"Tier 1 Carbon Fiber Supplier Partnership\"*을 홍보했습니다.\n동일한 글로벌 1차 탄소섬유 제조사(미쓰비시 케미컬)와의 공장 실사 방문 및 협력 내용을 제품 개발, 파트너십 확장이라는 이름으로 제목만 바꿔가며 1주일 간격으로 우려먹는 **전형적인 상습 쪼개기 재탕 보도자료(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (쪼개기 재탕 및 금액 미기재 제휴 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 파트너십의 세부 연장/재홍보 쪼개기 재탕' 및 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n3. 최종 심사 및 결재 판정\nYMAT의 당일 공식 PR은 확정된 상업 수주나 현금 선급금이 전무하며, 지난 11/09 및 11/11 발표된 글로벌 1차 탄소섬유 공급사(미쓰비시 케미컬) 협업의 1주일 만의 단순 쪼개기 재탕 홍보물에 불과하므로 심사 헌법 제3조 ①·④항에 의거 FORCE_BLOCK: YMAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: YMAT NOTES:\n[YMAT] 확정 상업수주 전무 및 11/09·11/11 미쓰비시 케미컬 탄소섬유 협력 1주일 만의 단순 쪼개기 재탕 홍보 PR로 헌법 3조 1·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(시총 6%대 소액 실증 보조금), SEAT(단순 부채 구조조정 리파이낸싱)에 이어 YMAT(미쓰비시 케미컬 공급망 협력 쪼개기 재탕)까지 5개 종목 연속으로 껍데기 IR 및 재탕이 완벽히 식별되어 전량 안전하게 방어되었습니다\n. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795088094628_SEAT_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,39 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 UPLD (Upland Software, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.35M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/매출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (거래량 실종 바닥 구간):\n전일 종가 $2.9400 대비 현재가 $2.9400 (+0.00%), 당일 최고가 $3.0700 (고점 대비 -4.2%).\n당일 누적 거래대금 $0 USD (프리마켓 거래량 전무한 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 제품 기능 출시 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Upland RightAnswers Gains AI-Powered Knowledge on Amazon Bedrock\"\n원문 직독 결과 드러난 치명적 실체:\n확정 계약/매출 유입이 없는 단순 타사 클라우드(Amazon Bedrock) 기능 연동 및 통합 홍보 (Product Integration PR):\n본 PR의 본질은 자사의 지식 관리 솔루션인 RightAnswers를 아마존의 생성형 AI 플랫폼인 'Amazon Bedrock' 환경에 현대화하여 통합 지원(modernizing of Upland RightAnswers on Amazon Bedrock)한다는 단순 제품 기능 업데이트/출시 보도자료입니다.\n아마존(AWS)이 Upland에 거액의 확정 라이선스 비용을 지불하거나 대규모 구매 계약을 체결한 것이 전혀 아니며, 회사가 아마존 베드록 인프라를 활용하여 자사 소프트웨어 기능을 개편했다는 단순 기술 연동 마케팅 뉴스에 불과합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 우선주 배당 유예(11/09) 등 악재성 재무 흐름 속 단순 기능 홍보:\n과거 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 9일에 현금 부족 등으로 인해 *\"Upland Software Announces Waiver of Series A Preferred Stock Dividends(시리즈 A 우선주 배당 포기/유예)\"*를 발표한 바 있습니다.\n재무적 자금난/배당 유예 상황에서 나온 확정 계약금 없는 단순 AI 테마 편승용 제품 기능 업데이트 홍보물입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 플랫폼 연동/제휴/제품 기능 업데이트/마케팅 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 아마존으로부터의 수주 계약이 아닌 단순 Amazon Bedrock 기반 RightAnswers 기능 현대화/연동 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: UPLD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: UPLD NOTES:\n[UPLD] 확정 수주/매출 없는 단순 Amazon Bedrock 제품 기능 연동 및 AI 마케팅 홍보 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794837926084_MTVA_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "09:05:26",
-      "time_kst": "23:05:26",
-      "symbol": "MTVA",
-      "company_name": "MTVA",
-      "exchange": "ND",
-      "price": 1.3244,
-      "gain_pct": 1.88,
-      "mcap_m": 8.73,
-      "decision": "FALSE",
-      "elapsed_sec": 51.5,
-      "reason": "FDA 승인 없는 단순 ObesityWeek 학회 전임상 데이터 발표이자 11월 9일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] MetaVia Presents Preclinical Data Supporting the Potential of DA-1726 to Address Liver Disease and Weight Loss at ObesityWeek® 2026",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MTVA (MetaVia Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.73M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 달러 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 윗꼬리 정체):\n전일 종가 $1.3000 대비 현재가 **$1.3244 (+1.88%)**.\n당일 최고가 $1.4307 찍은 후 고점 대비 -7.4% 밀리며 상승폭 축소.\n당일 누적 거래대금 $1,727 USD (1천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-16 [8-K] (Item 7.01, 8.01, 9.01) 접수 완료 (학회 포스터 발표 보도자료 첨부).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:31 ET) 공식 PR 원문 분석:\nPR 제목: *\"MetaVia Presents Preclinical Data Supporting the Potential of DA-1726 to Address Liver Disease and Weight Loss at ObesityWeek® 2026\"*\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 임상 성공이 아닌 단순 학회(ObesityWeek® 2026) 전임상 동물실험 데이터 발표 (Preclinical Data PR):\n본 PR의 본질은 워싱턴 D.C.에서 열린 비만학회(ObesityWeek 2026, 11월 14일 발표)에서 DA-1726과 레타트루타이드(retatrutide)를 비교한 '전임상 동물 데이터(positive preclinical data from a head-to-head study)'를 포스터로 발표했다는 학회 결과 공유 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 전혀 아니며, 사람 대상 임상 2상 진입도 2027년 하반기 목표에 불과합니다.\n11월 9일 기발표 학회 포스터 발표 예고의 100% 노골적 재탕 (심사 헌법 제3조 ②항 위배):\n과거 180일 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 9일에 이미 \"MetaVia Announces Poster Presentation on DA-1726 at ObesityWeek® 2026\" 보도자료를 배포하여 해당 학회 포스터 발표를 사전 홍보한 바 있습니다.\n또한 11월 5일(간지방 68% 감소), 11월 12일(요산 수치 감소), 11월 13일(3분기 실적) 등 연일 DA-1726 관련 자잘한 중간 지표를 쪼개어 언론 플레이를 펼치고 있는 전형적인 반복 우려먹기/쪼개기성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 시총을 압도하는 확정 달러 수주/선급금(AIMD형), 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 전임상 데이터 발표/기발표 학회 일정 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 8-K는 FDA 승인이 아닌 단순 ObesityWeek 2026 학회 전임상 데이터 발표이자 11월 9일 기발표된 학회 건의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MTVA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: MTVA NOTES:\n[MTVA] FDA 승인 없는 단순 ObesityWeek 학회 전임상 데이터 발표이자 11월 9일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:02:21",
+      "time_kst": "21:02:21",
+      "symbol": "WWD",
+      "company_name": "WWD",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $18820.85M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:02:16",
+      "time_kst": "21:02:16",
+      "symbol": "PLUG",
+      "company_name": "PLUG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1510.78M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:02:13",
+      "time_kst": "21:02:13",
+      "symbol": "DXLG",
+      "company_name": "DXLG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 정기 분기·연간 실적발표/일정 예고 PR 차단 (Destination XL Group, Inc. to Announce Third Quarter 2026 )"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "07:01:46",
@@ -2916,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:17:59",
-      "time_kst": "18:17:59",
-      "symbol": "FFR",
-      "company_name": "FFR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.01,3.02,5.02,5.03,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:17:49",
-      "time_kst": "18:17:49",
-      "symbol": "DFNS",
-      "company_name": "DFNS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,2.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:17:11",
-      "time_kst": "18:17:11",
-      "symbol": "XXII",
-      "company_name": "XXII",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [424B5])"
     }
   ]
 }
