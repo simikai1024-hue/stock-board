@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 19:42:06",
-  "updated_at_et": "2026-11-19 05:42:06",
-  "updated_epoch_ms": 1795084926096,
+  "updated_at_kst": "2026-11-19 19:42:51",
+  "updated_at_et": "2026-11-19 05:42:51",
+  "updated_epoch_ms": 1795084971262,
   "analyzing": {
-    "active": true,
-    "symbol": "LASE",
-    "company_name": "LASE",
-    "exchange": "ND",
-    "price": 0.41,
-    "gain_pct": 4.51,
-    "mcap_m": 24.88,
-    "catalyst_hint": "[당일 PR] LASE to Premiere Quantum Bullet(TM) at Counter UAS Technology Conference in Washington, D.C.",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "05:41:57",
-    "started_at_kst": "19:41:57",
-    "started_epoch_ms": 1795084917101
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:42:03"
+    "updated_kst": "19:42:44"
   },
   "stats": {
-    "today_total": 1,
-    "today_nblm_count": 1,
+    "today_total": 2,
+    "today_nblm_count": 2,
     "today_buy": 0,
-    "today_false": 1,
-    "today_hardcut": 48,
+    "today_false": 2,
+    "today_hardcut": 49,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 49.3
+    "avg_nblm_sec": 52.2
   },
   "verdicts": [
+    {
+      "id": "v_1795084966399_LASE_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "05:42:46",
+      "time_kst": "19:42:46",
+      "symbol": "LASE",
+      "company_name": "LASE",
+      "exchange": "ND",
+      "price": 0.41,
+      "gain_pct": 4.51,
+      "mcap_m": 24.88,
+      "decision": "FALSE",
+      "elapsed_sec": 55.1,
+      "reason": "확정 수주 전무 및 10/28 발표에 이은 Quantum Bullet 대드론 콘퍼런스 단순 참가 쪼개기 홍보 PR로 헌법 3조 4항 위배 및 장전 -14.6% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] LASE to Premiere Quantum Bullet(TM) at Counter UAS Technology Conference in Washington, D.C.",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 LASE (LASE Corp. / 구 Laser Photonics Corporation) 2026-11-19 05:41:51 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.88M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주 달러 금액 0원).\n발표된 실체의 본질은 확정 매출이 발생하는 방산 공급 계약이 아니라, 단순 11월 30일부터 워싱턴 D.C.에서 열리는 **대드론 콘퍼런스(Counter UAS Technology USA)에서 자사 플랫폼(Quantum Bullet™)을 최초 공개(Premiere)하고 이사회 의장이 연사로 발표한다는 단순 행사 참가 홍보(Conference Premiere & Speaker PR)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -14.6% 급락 덤핑):\n전일 종가 $0.3923 대비 현재가 $0.4100 (+4.51%), 당일 최고가 $0.4800 (고점 대비 -14.6%).\n당일 누적 거래대금 $334 USD (장전 반짝 띄운 후 극소액 거래 속 -14.6% 윗꼬리 덤핑 출회).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 05:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"LASE to Premiere Quantum Bullet(TM) at Counter UAS Technology Conference in Washington, D.C.\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '콘퍼런스 시제품 발표 및 연사 참가' 홍보물:\n원문 본문에 *\"today announced that it will premiere its Quantum Bullet™ anti-drone platform at Counter Unmanned Aircraft System ('UAS') Technology USA, taking place November 30 through December 2, 2026, in Washington, D.C., where Dmitri Nikitin, Executive Chairman of LASE Corp., will also present as a featured speaker\"*라고 명시되어 있습니다.\n이는 국방부나 정부 기관으로부터 거액의 현금 선급금이 입금되는 확정 납품 계약(AIMD형)이 전혀 아닙니다.\n미 육군, 공군, 국토안보부 관계자들이 참석하는 콘퍼런스 행사에서 자사 시제품 플랫폼을 선보이고 기조연설을 한다는 전형적인 금액 미기재 행사 참가/마케팅 보도자료에 불과합니다.\nPR 본문에서 '상용화 전 추가 개발·평가 필요(매출 0원)' 스스로 자인:\n원문 본문에 **\"Development, integration, testing and customer evaluation remain necessary before commercialization (상용화에 앞서 개발, 통합, 테스트 및 고객 평가 과정이 여전히 필수적이다)\"**라고 명시되어 있어, 당장 상업 매출이 발생하지 않는 개발 초기 단계임을 스스로 인정하고 있습니다.\n10월 28일 PR에 이은 3주 만의 동일 제품(Quantum Bullet™) 콘퍼런스 쪼개기 재탕 (Spin PR):\n과거 180일 이력 대조 결과, 회사는 불과 3주 전인 2026년 10월 28일에도 ACCESS Newswire를 통해 *\"LASE Introduces Quantum Bullet(TM) Anti-Drone Platform at I/ITSEC Conference in November 2026\"*를 배포한 바 있습니다.\n지난달에는 올랜도 I/ITSEC 콘퍼런스 참가로 홍보하고, 이번에는 워싱턴 D.C. 콘퍼런스 참가로 행사 장소만 바꾸어 동일 제품(Quantum Bullet™)을 우려먹는 **전형적인 상습 콘퍼런스 언론플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 콘퍼런스 참가 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 콘퍼런스/박람회 참가·연사 발표·시제품 공개는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (어제 차단된 PMEC 청소로봇 엑스포 전시, SEGG 사이트 리뉴얼과 동일한 마케팅 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 지난 10/28 콘퍼런스 발표에 이어 워싱턴 D.C. 대드론 콘퍼런스 참가 사실을 알리는 3주 만의 동일 제품(Quantum Bullet™) 행사 쪼개기 보도자료에 불과하며, 장전 최고가 대비 -14.6% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: LASE 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: LASE NOTES:\n[LASE] 확정 수주 전무 및 10/28 발표에 이은 Quantum Bullet 대드론 콘퍼런스 단순 참가 쪼개기 홍보 PR로 헌법 3조 4항 위배 및 장전 -14.6% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓에서는 첫 번째 JG(중국 LLM 데이터셋 출시 홍보)에 이어 두 번째 LASE(대드론 콘퍼런스 참가 재탕 홍보)까지 모두 실체 없는 마케팅성 PR로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795082526420_JG_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 HIND (Vyome Holdings, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.09M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 적발):\n본문 및 자동 추출된 핵심 금액 약 $7.00M USD(시총 대비 63.1%)는 외부에서 신규 유입되는 확정 수주나 계약금이 아닙니다.\n바이오텍 정기 실적 보고서상 3분기 말 기준 회사의 잔여 현금성 자산(Cash and cash equivalents) 규모 및 누적 손실 변동 수치 등 내부 재무 상태표상의 단순 보유 현금/손실액 수치에 불과합니다.\n실시간 체결가 및 수급 (거래량 실종 바닥 구간):\n전일 종가 $1.5800 대비 현재가 $1.5800 (+0.00%), 당일 최고가 $1.6100 (고점 대비 -1.9%).\n당일 누적 거래대금 $0 USD (프리마켓 거래량 전무한 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:32 ET) 공식 PR 원문 분석:\nPR 제목: \"Vyome Reports Sharp Reduction in Q3 2026 Loss Per Share; Advances Lead VT-1953 Program\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 임상 성공이 아닌 통상적인 3분기 정기 실적 및 기업 업데이트 (Routine Q3 Financials & Corporate Update PR):\n본 PR의 본질은 2026년 9월 30일로 마감된 3분기 정기 재무 실적(주당 순손실 축소)을 보고하고, 주력 파이프라인(VT-1953)의 통상적 개발 진행 상황을 공유한 **단순 정기 실적 보도자료(reported financial results for the third quarter... and provided a corporate update)**입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 전혀 아닙니다.\n확정 현금 계약 및 1급 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 주가를 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 실적 프리뷰에 이은 예정된 일정 소진 (재탕/통상 루틴):\n과거 이력 대조 결과, 회사는 11월 10일 실적 프리뷰(Earnings Preview, 주당 20센트 손실 예상), 11월 12일 실적 요약(Earnings Summary) 보도에 이어 오늘 공식 PR을 배포한 것으로, 시장에서 이미 인지하고 있던 정기 분기 마감 루틴 뉴스에 불과합니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 실적/손실 축소 홍보/통상 기업 업데이트(Corporate Update)는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 FDA 승인이나 확정 수주가 아닌 단순 3분기 정기 실적(주당 손실 축소) 및 파이프라인 개발 진행 보고에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: HIND 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: HIND NOTES:\n[HIND] FDA 승인 없는 단순 Q3 정기 실적(주당손실 축소) 및 통상 파이프라인 진행 보고 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794836331961_IDAI_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "08:38:51",
-      "time_kst": "22:38:51",
-      "symbol": "IDAI",
-      "company_name": "IDAI",
-      "exchange": "ND",
-      "price": 2.62,
-      "gain_pct": 2.75,
-      "mcap_m": 14.89,
-      "decision": "FALSE",
-      "elapsed_sec": 43.0,
-      "reason": "신규 확정 수주가 아닌 단순 Q3 9개월 누적 정기 실적 발표(순매출 증가율 나열) PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-mo",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 IDAI (Trust Stamp / T Stamp Inc.) 08:38 ET 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.89M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 소형주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 거래량 실종 바닥 구간):\n전일 종가 $2.5500 대비 현재가 $2.6200 (+2.75%), 당일 최고가 $2.6200.\n당일 누적 거래대금 $5 USD (단 2주 체결 수준의 극단적 거래량 실종 바닥 구간).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미제출 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-month period when compared to the comparable periods in 2025, with the growth in revenue significantly outpacing the growth in cash expenses\"\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적인 3분기 정기 실적 보고 (Periodic Q3 Financial Results PR):\n본 PR의 본질은 2026년 9월 30일로 마감된 9개월 누적 및 3분기 정기 재무 실적을 정리해 발표한 단순 정기 실적 보도자료입니다.\n3분기 순매출 37% 증가 및 9개월 누적 순매출 28% 증가 등을 내세우고 있으나, 외부로부터 새로운 확정 계약금이 유입되는 1급 금융 기폭제가 아닙니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 연속된 특허 홍보 및 실적 발표 재탕 흐름:\n과거 이력 대조 결과, 회사는 11월 11일에도 \"Trust Stamp Announces Patent Filing For Agentic-AI Transaction Authentication\" 등 자금 유입이 없는 단순 특허 출원 홍보를 배포한 바 있으며, 11월 13일 실적 발표 일정 예고(Timing of Reporting)를 거쳐 오늘 정기 실적을 발표한 수순입니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/매출 증가율 홍보/마케팅성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 확정 수주 계약이 아닌 단순 3분기 정기 실적(순매출 증가율 나열) 발표에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: IDAI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: IDAI NOTES:\n[IDAI] 신규 확정 수주가 아닌 단순 Q3 9개월 누적 정기 실적 발표(순매출 증가율 나열) PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "05:42:43",
+      "time_kst": "19:42:43",
+      "symbol": "CDT",
+      "company_name": "CDT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "05:31:42",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2697.38M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "11:30:52",
-      "time_kst": "01:30:52",
-      "symbol": "TDTH",
-      "company_name": "TDTH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $68.51M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
