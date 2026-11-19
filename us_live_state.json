@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:10:42",
-  "updated_at_et": "2026-11-19 08:10:42",
-  "updated_epoch_ms": 1795093842218,
+  "updated_at_kst": "2026-11-19 22:11:22",
+  "updated_at_et": "2026-11-19 08:11:22",
+  "updated_epoch_ms": 1795093882792,
   "analyzing": {
-    "active": true,
-    "symbol": "MARPS",
-    "company_name": "MARPS",
-    "exchange": "ND",
-    "price": 4.38,
-    "gain_pct": 0.0,
-    "mcap_m": 8.76,
-    "catalyst_hint": "[당일 PR] MARINE PETROLEUM TRUST ANNOUNCES FOURTH QUARTER CASH DISTRIBUTION",
-    "queue_remaining": 3,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:10:33",
-    "started_at_kst": "22:10:33",
-    "started_epoch_ms": 1795093833443
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:10:23"
+    "updated_kst": "22:11:04"
   },
   "stats": {
-    "today_total": 27,
-    "today_nblm_count": 27,
+    "today_total": 28,
+    "today_nblm_count": 28,
     "today_buy": 0,
-    "today_false": 27,
+    "today_false": 28,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.2
+    "avg_nblm_sec": 51.0
   },
   "verdicts": [
+    {
+      "id": "v_1795093873581_MARPS_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "08:11:13",
+      "time_kst": "22:11:13",
+      "symbol": "MARPS",
+      "company_name": "MARPS",
+      "exchange": "ND",
+      "price": 4.38,
+      "gain_pct": 0.0,
+      "mcap_m": 8.76,
+      "decision": "FALSE",
+      "elapsed_sec": 43.7,
+      "reason": "확정 수주 전무 및 주당 $0.1296(수익률 2.96%)의 통상 4분기 정기 소액분배 PR로 헌법 3조 2항(배당 25% 미만) 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] MARINE PETROLEUM TRUST ANNOUNCES FOURTH QUARTER CASH DISTRIBUTION",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 MARPS (Marine Petroleum Trust) 2026-11-19 08:10:29 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재검증 직독 결재 보고입니다 [cite: 3, 5].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $0 및 거래 전무)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: MARPS) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 3].\n실질 시가총액: 약 $8.76M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과) [cite: 5].\n체급 대비 규모 (상업 수주 0원 및 분기 배당수익률 2.96% 소액 정기분배 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n헤드라인의 배당 발표는 대박 기폭제가 되는 **초고율 특별배당(Special Dividend)이 아니라, 통상적인 '4분기 정기 현금분배(Fourth Quarter Cash Distribution)'**입니다.\n1주(좌)당 분배금 $0.129648, 현재 주가($4.3800) 대비 **1회 분기 배당수익률은 약 2.96% (연환산 약 11.8%)**에 불과합니다.\n실시간 체결가 및 수급 (장전 거래대금 $0 및 보합):\n전일 종가 $4.3800 대비 현재가 $4.3800 (+0.00%).\n당일 누적 거래대금 $0 USD (체결 전무, 시장 무반응).\n선발표 규정 확인: 4영업일 이내 SEC 공시 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 08:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MARINE PETROLEUM TRUST ANNOUNCES FOURTH QUARTER CASH DISTRIBUTION\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n초고율 특별배당이 아닌 통상적인 '분기 정기 현금분배' (Quarterly Distribution PR):\n원문 본문에 *\"Marine Petroleum Trust (NASDAQ: MARPS) (\"Marine\") today declared a quarterly cash distribution to the holders of its units of beneficial interest of $0.129648 per unit, payable on December 28, 2026, to unitholders of record on November 30, 2026...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n로열티 트러스트(Royalty Trust) 펀드의 정례적인 4분기 수익 분배 공지일 뿐입니다.\n연구소 배당 헌법 기준 절대 미달 (심사 헌법 제2조 ①항 미달 및 제3조 ②항 정면 위배):\n연구소 심사 헌법 제2조 ①항 및 족보집 배당 원칙: \"배당은 오직 보통주 특별배당(Special Dividend) 중 배당수익률 25%+ 또는 시총 30%+ 현금살포(HIHO 55%->+78%, RBNE 72%->+126%, AIOK 82%->+267%)만 FORCE_BUY하며, 25% 미만 일반·소액배당(JCSE 12.5%->-3.1%)은 100% FORCE_BLOCK!\" 규칙이 명시되어 있습니다 [cite: 5, 8, 13, 15].\nMARPS의 이번 분배금은 '특별배당(Special Dividend)'이라는 명칭 자체가 없는 단순 분기 정기 배당이며, 1회 지급 수익률은 **2.96%**로 헌법 기준치인 25.0%에 턱없이 미달하는 극소액 배당입니다 [cite: 5].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금, 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(25%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸\" 등 기업 가치를 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 5].\n3. 최종 심사 및 결재 판정\nMARPS의 당일 공식 PR은 확정 상업 수주가 전무하며, 수익률 2.96%에 불과한 통상적인 4분기 정기 현금분배 공지이므로 심사 헌법 제3조 ②항(일반 정기/현금배당 및 배당수익률 25% 미만 소액배당 전량 차단)에 의거 FORCE_BLOCK: MARPS 처리합니다 [cite: 5].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: MARPS NOTES:\n[MARPS] 확정 수주 전무 및 주당 $0.1296(수익률 2.96%)의 통상 4분기 정기 소액분배 PR로 헌법 3조 2항(배당 25% 미만) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MVIS, AZIO, LUCY에 이어 MARPS 재확인 건까지 총 23개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사 참가, 금액 미기재 제휴, 단순 투자 검토, 기발표 사후종결 재탕, 초기 Pre-IND 피드백, 소액 정기배당, 정부 지원사업 단순 참여, 하도급 단순 합류, 제품 규격 인증 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 5, 231]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드, 25%+ 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 5, 12].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795093820917_LUCY_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "확정 수주/매출 전무한 합병 파트너사(Ferrox)의 비구속 MOU(Heads of Terms) 단순 가동 PR로 헌법 3조 위배 및 고점대비 -14.1% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SMTK (Smartkem, Inc.) 2026-11-17 07:01 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $0.22M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 극초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/공급 계약/매출 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 -14.1% 덤핑):\n전일 종가 $0.1639 대비 현재가 **$0.2081 (+26.97%)**.\n당일 최고가 $0.2423 찍은 후 장전 고점 대비 -14.1% 밀리며 상승 탄력 둔화.\n당일 누적 거래대금 $231,071 USD.\n헌법 제1조에 따라 8-K 미접수 및 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 합병 파트너사의 구속력 없는 MOU(Heads of Terms) 가동 (Non-binding Collaboration PR):\n본 PR의 본질은 Smartkem 본업의 매출이 아니라, 합병 추진 상대방인 'Ferrox Critical Minerals' 및 그 자회사(Tivani)가 광물 트레이더인 Wogen과 체결했던 구속력 없는 기본합의서(non-binding Heads of Terms)를 가동(activated)하여 시제품 샘플을 전달하고 시장 반응을 보겠다는 단순 사전 마케팅 협력 보도자료입니다.\n원문 본문에도 명시적으로 \"The Heads of Terms entered into in January 2026 are non-binding and are subject to a binding long-form agreement... There is no assurance that a binding agreement will be concluded\" 및 *\"There can be no assurance that prospective customer evaluations will result in purchase commitments or future revenues\"*라고 적혀 있어, 확정된 구매 주문(Purchase commitments)이나 미래 매출(Future revenues)이 전혀 없는 상태입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 합병 발표(8/3) 및 시연 생산 계획(8/26)에 이은 쪼개기 언론 플레이:\n과거 이력 대조 결과 회사는 2026년 8월 3일 Ferrox와의 주식 교환 합병 발표\n, 8월 26일 티바니 프로젝트 4분기 시연 생산 계획 발표 등 지속적으로 Ferrox 관련 재료를 홍보해 왔습니다.\n이번 보도자료 역시 기존에 발표된 1월 비구속 기본합의서를 바탕으로 한 단순 업무 가동(Heads of Terms 활성화) 형태의 전형적인 쪼개기/재홍보 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 윗꼬리 피뢰침:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 합병/프로젝트의 일부 연장/단순 가동 쪼개기 재탕 및 ④ 금액 미기재 단순 제휴/비구속 협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.2423까지 튀었다가 즉각 고점 대비 -14.1% 밀리며 긴 윗꼬리를 달고 덤핑되는 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 구매 주문이나 매출 유입이 전무한 합병 파트너사(Ferrox)의 비구속 기본합의서(Heads of Terms) 단순 가동 및 시제품 마케팅 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며\n, 장전 고점 대비 -14.1% 밀려 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SMTK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SMTK NOTES:\n[SMTK] 확정 수주/매출 전무한 합병 파트너사(Ferrox)의 비구속 MOU(Heads of Terms) 단순 가동 PR로 헌법 3조 위배 및 고점대비 -14.1% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 HUIZ, BEEM, SAEN, SMTK 모두 실체적 확정 현금 유입이 없는 껍데기 IR로 안전하게 전량 차단되었습니다. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 통과하는 진성 대박 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794914027232_SAEN_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "06:13:47",
-      "time_kst": "20:13:47",
-      "symbol": "SAEN",
-      "company_name": "SAEN",
-      "exchange": "ND",
-      "price": 0.5821,
-      "gain_pct": -2.98,
-      "mcap_m": 28.07,
-      "decision": "FALSE",
-      "elapsed_sec": 31.9,
-      "reason": "확정 수주/계약 금액 전무한 자회사의 단순 상공회의소 위원회 가입 홍보 PR로 헌법 3조 4항 위배 및 장전 음봉 하락(-2.98%) 전량 차단",
-      "catalyst_hint": "[당일 PR] Sòphia High Tech Joins the LANSSET Committee of the Italian Chamber of Commerce in Singapore to Support Asia-Pacific Expansion",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SAEN (Saentra Forge) 2026-11-17 06:13 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $28.07M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주/공급 계약/매출 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 음봉 하락 지속):\n전일 종가 $0.6000 대비 현재가 $0.5821 (-2.98%).\n당일 최고가 $0.6300 찍은 후 장전 고점 대비 -7.6% 밀리며 마이너스 파란불 음봉 유지.\n당일 누적 거래대금 $2,190 USD (2천 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 협회/위원회 가입 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 06:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Sòphia High Tech Joins the LANSSET Committee of the Italian Chamber of Commerce in Singapore to Support Asia-Pacific Expansion\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 자회사의 단순 상공회의소 산하 위원회 가입 (Committee Membership PR):\n본 PR의 본질은 Saentra Forge의 자회사인 Sòphia High Tech S.r.l.이 싱가포르 이탈리아 상공회의소 산하 'LANSSET 위원회'에 합류했다는 **단순 협회/위원회 가입 및 아시아-태평양 진출 지원 목적의 대외 네트워크 홍보 보도자료(today announced that Sòphia High Tech S.r.l. joins the LANSSET Committee...)**입니다.\n외부 대기업이나 정부 기관으로부터 확정된 구매 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사최대 수주 등), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 제휴/협회·위원회 가입/해외 진출 지원 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.6300까지 반짝 상승 후 고점 대비 -7.6% 밀리며 -2.98% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 자회사의 단순 싱가포르 상공회의소 위원회 가입 홍보 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -2.98% 음봉으로 하락 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: SAEN 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SAEN NOTES:\n[SAEN] 확정 수주/계약 금액 전무한 자회사의 단순 상공회의소 위원회 가입 홍보 PR로 헌법 3조 4항 위배 및 장전 음봉 하락(-2.98%) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 초입에 검토된 HUIZ(단순 9개월 운영지표), BEEM(단순 배터리 신제품 출시), SAEN(단순 위원회 가입) 모두 확정 매출이 없는 껍데기 IR로 안전하게 전량 차단되었습니다. 프리마켓 중반(~09:30 ET) 구간에서 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
