@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:50:02",
-  "updated_at_et": "2026-11-19 08:50:02",
-  "updated_epoch_ms": 1795096202126,
+  "updated_at_kst": "2026-11-19 22:51:03",
+  "updated_at_et": "2026-11-19 08:51:03",
+  "updated_epoch_ms": 1795096263394,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:49:58"
+    "updated_kst": "22:50:57"
   },
   "stats": {
     "today_total": 38,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:50:15",
+      "time_kst": "22:50:15",
+      "symbol": "TIGO",
+      "company_name": "TIGO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $13837.21M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:50:10",
+      "time_kst": "22:50:10",
+      "symbol": "PHOE",
+      "company_name": "PHOE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $324.0M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:50:04",
+      "time_kst": "22:50:04",
+      "symbol": "WSE",
+      "company_name": "WSE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $10852.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:50:02",
+      "time_kst": "22:50:02",
+      "symbol": "NYAX",
+      "company_name": "NYAX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1940.21M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:49:56",
       "time_kst": "22:49:56",
       "symbol": "RML",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $138.9M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:04:16",
-      "time_kst": "22:04:16",
-      "symbol": "RETO",
-      "company_name": "RETO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:03:43",
-      "time_kst": "22:03:43",
-      "symbol": "KMB",
-      "company_name": "KMB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $65806.75M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:03:35",
-      "time_kst": "22:03:35",
-      "symbol": "PHAT",
-      "company_name": "PHAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $430.84M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:03:26",
-      "time_kst": "22:03:26",
-      "symbol": "NVTS",
-      "company_name": "NVTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1967.41M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
