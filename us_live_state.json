@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:20:28",
-  "updated_at_et": "2026-11-19 08:20:28",
-  "updated_epoch_ms": 1795094428332,
+  "updated_at_kst": "2026-11-19 22:21:09",
+  "updated_at_et": "2026-11-19 08:21:09",
+  "updated_epoch_ms": 1795094469387,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:20:24"
+    "updated_kst": "22:21:03"
   },
   "stats": {
     "today_total": 33,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:21:07",
+      "time_kst": "22:21:07",
+      "symbol": "MWC",
+      "company_name": "MWC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $79.32M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:19:26",
       "time_kst": "22:19:26",
       "symbol": "AMOD",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $284.51M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:31:50",
-      "time_kst": "21:31:50",
-      "symbol": "SAIC",
-      "company_name": "SAIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6160.62M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
