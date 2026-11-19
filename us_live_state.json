@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:51:03",
-  "updated_at_et": "2026-11-19 08:51:03",
-  "updated_epoch_ms": 1795096263394,
+  "updated_at_kst": "2026-11-19 22:52:04",
+  "updated_at_et": "2026-11-19 08:52:04",
+  "updated_epoch_ms": 1795096324656,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:50:57"
+    "updated_kst": "22:51:59"
   },
   "stats": {
     "today_total": 38,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:51:16",
+      "time_kst": "22:51:16",
+      "symbol": "TROW",
+      "company_name": "TROW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $23414.66M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:50:15",
       "time_kst": "22:50:15",
       "symbol": "TIGO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $726.46M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:04:46",
-      "time_kst": "22:04:46",
-      "symbol": "HUMA",
-      "company_name": "HUMA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $138.9M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
