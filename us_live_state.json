@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:35:13",
-  "updated_at_et": "2026-11-19 09:35:13",
-  "updated_epoch_ms": 1795098913948,
+  "updated_at_kst": "2026-11-19 23:36:17",
+  "updated_at_et": "2026-11-19 09:36:17",
+  "updated_epoch_ms": 1795098977941,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:35:08"
+    "updated_kst": "23:36:12"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:36:15",
+      "time_kst": "23:36:15",
+      "symbol": "CDW",
+      "company_name": "CDW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $21093.97M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:33:57",
       "time_kst": "23:33:57",
       "symbol": "IBIO",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3392.59M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:55:17",
-      "time_kst": "22:55:17",
-      "symbol": "TSLA",
-      "company_name": "TSLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1516753.07M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
