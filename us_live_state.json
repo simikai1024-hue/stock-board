@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:06:07",
-  "updated_at_et": "2026-11-19 07:06:07",
-  "updated_epoch_ms": 1795089967957,
+  "updated_at_kst": "2026-11-19 21:06:16",
+  "updated_at_et": "2026-11-19 07:06:16",
+  "updated_epoch_ms": 1795089976899,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EVGN",
+    "company_name": "EVGN",
+    "exchange": "ND",
+    "price": 0.3476,
+    "gain_pct": -0.69,
+    "mcap_m": 6.28,
+    "catalyst_hint": "[당일 PR] Evogene Reports Financial Results for the Third Quarter and First Nine Months of 2026, Highlighting Progress in Two Internal Development Programs",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:06:12",
+    "started_at_kst": "21:06:12",
+    "started_epoch_ms": 1795089972149
   },
   "halt_watch": {
     "active": false
