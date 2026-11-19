@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:07:14",
-  "updated_at_et": "2026-11-19 08:07:14",
-  "updated_epoch_ms": 1795093634970,
+  "updated_at_kst": "2026-11-19 22:07:23",
+  "updated_at_et": "2026-11-19 08:07:23",
+  "updated_epoch_ms": 1795093643363,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MVIS",
+    "company_name": "MVIS",
+    "exchange": "ND",
+    "price": 0.8999,
+    "gain_pct": 3.31,
+    "mcap_m": 30.64,
+    "catalyst_hint": "[당일 PR] MicroVision and Blue-Band to Support $3 Million Federally Funded Intelligent Transportation Initiative in Louisville, Kentucky",
+    "queue_remaining": 6,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:07:18",
+    "started_at_kst": "22:07:18",
+    "started_epoch_ms": 1795093638392
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:06:59"
+    "updated_kst": "22:07:20"
   },
   "stats": {
     "today_total": 24,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:07:18",
+      "time_kst": "22:07:18",
+      "symbol": "OPRA",
+      "company_name": "OPRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1239.51M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:07:10",
       "time_kst": "22:07:10",
       "symbol": "MRLN",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $32473.85M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:06:54",
-      "time_kst": "21:06:54",
-      "symbol": "TRMB",
-      "company_name": "TRMB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $12365.37M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
