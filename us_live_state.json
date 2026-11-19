@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:17:58",
-  "updated_at_et": "2026-11-19 07:17:58",
-  "updated_epoch_ms": 1795090678015,
+  "updated_at_kst": "2026-11-19 21:18:52",
+  "updated_at_et": "2026-11-19 07:18:52",
+  "updated_epoch_ms": 1795090732687,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:17:53"
+    "updated_kst": "21:18:32"
   },
   "stats": {
     "today_total": 12,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:18:47",
+      "time_kst": "21:18:47",
+      "symbol": "ONEN",
+      "company_name": "ONEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.98M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:16:29",
       "time_kst": "21:16:29",
       "symbol": "AZI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1016.87M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:16:02",
-      "time_kst": "19:16:02",
-      "symbol": "HIT",
-      "company_name": "HIT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-15 [EFFECT] (Item ,,))"
     }
   ]
 }
