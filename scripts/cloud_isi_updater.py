@@ -9,6 +9,7 @@
 """
 import datetime
 import json
+import math
 import os
 import re
 import sys
@@ -179,11 +180,28 @@ def extract_isi_top3_themes() -> tuple:
             continue
         valid_rows.sort(key=lambda x: x["money_eok"], reverse=True)
         top3_pre = valid_rows[:3]
-        theme_money = sum(x["money_eok"] for x in top3_pre)
-        leader_pre = max(top3_pre, key=lambda x: x["rate"])
+        raw_theme_money = sum(x["money_eok"] for x in top3_pre)
+        surging_pre_rows = [x for x in valid_rows if x["rate"] >= 5.0]
+        surge_cnt_pre = len(surging_pre_rows)
+        surge_top3_pre = sorted(surging_pre_rows, key=lambda x: x["money_eok"], reverse=True)[:3]
+        surge_money_pre = sum(x["money_eok"] for x in surge_top3_pre)
+        surge_avg_rt_pre = (
+            sum(x["rate"] for x in sorted(surging_pre_rows, key=lambda x: x["rate"], reverse=True)[:3])
+            / max(1, min(3, surge_cnt_pre))
+            if surge_cnt_pre > 0 else 0.0
+        )
+        surge_score_pre = round(
+            surge_avg_rt_pre * math.log10(max(10.0, float(surge_money_pre))) * (1.25 if surge_cnt_pre >= 2 else 0.65),
+            2,
+        ) if surge_money_pre > 0 else 0.0
+        leader_pre = max(surging_pre_rows, key=lambda x: x["rate"]) if surging_pre_rows else max(top3_pre, key=lambda x: x["rate"])
         prelim_themes.append({
             "theme_name": t["theme_name"],
-            "theme_money": theme_money,
+            "theme_money": raw_theme_money,
+            "surge_money": surge_money_pre,
+            "surge_count": surge_cnt_pre,
+            "surge_avg_rate": round(surge_avg_rt_pre, 2),
+            "surge_score": surge_score_pre,
             "leader_rate": leader_pre["rate"],
             "valid_rows": valid_rows,
         })
@@ -192,11 +210,14 @@ def extract_isi_top3_themes() -> tuple:
         return latest_date_iso, []
 
     prelim_themes.sort(key=lambda x: x["theme_money"], reverse=True)
-    surging_pre = [pt for pt in prelim_themes if pt["leader_rate"] >= 5.0 and pt["theme_money"] >= 800]
-    target_themes = list(prelim_themes[:5])
-    for sp in surging_pre[:5]:
-        if sp not in target_themes:
-            target_themes.append(sp)
+    surging_pre = [pt for pt in prelim_themes if pt["surge_count"] >= 2 and pt["surge_money"] >= 500]
+    if not surging_pre:
+        surging_pre = [pt for pt in prelim_themes if pt["surge_count"] >= 1 and pt["surge_money"] >= 800]
+    surging_pre.sort(key=lambda x: (x["surge_score"], x["surge_money"]), reverse=True)
+    target_themes = list(surging_pre[:8])
+    for pt in prelim_themes[:4]:
+        if pt not in target_themes:
+            target_themes.append(pt)
 
     need_codes = []
     seen_c = set()
@@ -245,22 +266,54 @@ def extract_isi_top3_themes() -> tuple:
             })
 
         stock_metrics.sort(key=lambda x: x["money_eok"], reverse=True)
-        top3 = stock_metrics[:3]
-        theme_money = sum(x["money_eok"] for x in top3)
-        leader = max(top3, key=lambda x: x["rate"])
+        surging_m = [x for x in stock_metrics if x["rate"] >= 5.0]
+        surge_cnt = len(surging_m)
+        surge_top3 = sorted(surging_m, key=lambda x: x["money_eok"], reverse=True)[:3]
+        surge_money = sum(x["money_eok"] for x in surge_top3)
+        surge_avg_rt = (
+            sum(x["rate"] for x in sorted(surging_m, key=lambda x: x["rate"], reverse=True)[:3])
+            / max(1, min(3, surge_cnt))
+            if surge_cnt > 0 else 0.0
+        )
+        surge_score = round(
+            surge_avg_rt * math.log10(max(10.0, float(surge_money))) * (1.25 if surge_cnt >= 2 else 0.65),
+            2,
+        ) if surge_money > 0 else 0.0
+
+        if surge_cnt >= 2:
+            top3 = sorted(surging_m, key=lambda x: (x["rate"], x["money_eok"]), reverse=True)[:3]
+            if len(top3) < 3:
+                for sm in stock_metrics:
+                    if sm not in top3:
+                        top3.append(sm)
+                    if len(top3) == 3:
+                        break
+            theme_money = surge_money
+        else:
+            top3 = stock_metrics[:3]
+            theme_money = sum(x["money_eok"] for x in top3)
+
+        leader = max(surging_m, key=lambda x: (x["rate"], x["money_eok"])) if surging_m else max(top3, key=lambda x: x["rate"])
         candidates = [s for s in stock_metrics if s["code"] != leader["code"] and 2.0 <= s["rate"] <= 14.0]
-        second = max(candidates, key=lambda x: x["vol_ratio"]) if candidates else top3[1]
+        second = max(candidates, key=lambda x: x["vol_ratio"]) if candidates else (top3[1] if len(top3) > 1 else leader)
 
         theme_results.append({
             "theme_name": pt["theme_name"],
             "theme_money": theme_money,
+            "surge_money": surge_money,
+            "surge_count": surge_cnt,
+            "surge_avg_rate": round(surge_avg_rt, 2),
+            "surge_score": surge_score,
             "top3": top3,
             "leader": leader,
             "second": second,
         })
 
-    theme_results.sort(key=lambda x: x["theme_money"], reverse=True)
-    surging_themes = [t for t in theme_results if t["leader"]["rate"] >= 5.0 and t["theme_money"] >= 800]
+    surging_themes = [t for t in theme_results if t["surge_count"] >= 2 and t["surge_money"] >= 500]
+    if not surging_themes:
+        surging_themes = [t for t in theme_results if t["surge_count"] >= 1 and t["surge_money"] >= 800]
+    surging_themes.sort(key=lambda x: (x["surge_score"], x["surge_money"]), reverse=True)
+    theme_results.sort(key=lambda x: (x["surge_score"], x["theme_money"]), reverse=True)
 
     merged_themes = []
     seen_tnames = set()
