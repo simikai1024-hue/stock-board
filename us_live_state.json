@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:18:38",
-  "updated_at_et": "2026-11-19 04:18:38",
-  "updated_epoch_ms": 1795079918537,
+  "updated_at_kst": "2026-11-19 18:19:30",
+  "updated_at_et": "2026-11-19 04:19:30",
+  "updated_epoch_ms": 1795079970547,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:18:19"
+    "updated_kst": "18:19:22"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 26,
+    "today_hardcut": 27,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:18:49",
+      "time_kst": "18:18:49",
+      "symbol": "UPXI",
+      "company_name": "UPXI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:18:34",
       "time_kst": "18:18:34",
       "symbol": "OPTT",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $4662.54M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:54:28",
-      "time_kst": "23:54:28",
-      "symbol": "HDRN",
-      "company_name": "HDRN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-18 [424B3])"
     }
   ]
 }
