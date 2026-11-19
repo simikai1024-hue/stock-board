@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:06:16",
-  "updated_at_et": "2026-11-19 07:06:16",
-  "updated_epoch_ms": 1795089976899,
+  "updated_at_kst": "2026-11-19 21:07:03",
+  "updated_at_et": "2026-11-19 07:07:03",
+  "updated_epoch_ms": 1795090023780,
   "analyzing": {
     "active": true,
     "symbol": "EVGN",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:05:59"
+    "updated_kst": "21:07:00"
   },
   "stats": {
     "today_total": 10,
@@ -2449,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:06:54",
+      "time_kst": "21:06:54",
+      "symbol": "TRMB",
+      "company_name": "TRMB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $12365.37M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:05:02",
       "time_kst": "21:05:02",
       "symbol": "SMTK",
@@ -2936,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $27964.57M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "05:01:15",
-      "time_kst": "19:01:15",
-      "symbol": "HCM",
-      "company_name": "HCM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2440.79M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
