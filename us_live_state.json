@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:25:29",
-  "updated_at_et": "2026-11-19 09:25:29",
-  "updated_epoch_ms": 1795098329212,
+  "updated_at_kst": "2026-11-19 23:26:15",
+  "updated_at_et": "2026-11-19 09:26:15",
+  "updated_epoch_ms": 1795098375661,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:25:20"
+    "updated_kst": "23:26:02"
   },
   "stats": {
     "today_total": 45,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:26:07",
+      "time_kst": "23:26:07",
+      "symbol": "NXGL",
+      "company_name": "NXGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:26:01",
+      "time_kst": "23:26:01",
+      "symbol": "PANW",
+      "company_name": "PANW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $278316.98M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:22:18",
       "time_kst": "23:22:18",
       "symbol": "HRTX",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $168.65M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:35:19",
-      "time_kst": "22:35:19",
-      "symbol": "IBRX",
-      "company_name": "IBRX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $7127.66M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:35:13",
-      "time_kst": "22:35:13",
-      "symbol": "VOGX",
-      "company_name": "VOGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $183.31M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
