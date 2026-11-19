@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:04:00",
-  "updated_at_et": "2026-11-19 09:04:00",
-  "updated_epoch_ms": 1795097040496,
+  "updated_at_kst": "2026-11-19 23:05:04",
+  "updated_at_et": "2026-11-19 09:05:04",
+  "updated_epoch_ms": 1795097104827,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:03:40"
+    "updated_kst": "23:05:04"
   },
   "stats": {
     "today_total": 40,
@@ -2437,6 +2437,56 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:04:59",
+      "time_kst": "23:04:59",
+      "symbol": "BULL",
+      "company_name": "BULL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2524.94M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:04:32",
+      "time_kst": "23:04:32",
+      "symbol": "BMM",
+      "company_name": "BMM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $254.82M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:04:27",
+      "time_kst": "23:04:27",
+      "symbol": "NEGG",
+      "company_name": "NEGG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $163.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:04:22",
+      "time_kst": "23:04:22",
+      "symbol": "YTRA",
+      "company_name": "YTRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.97M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:04:14",
+      "time_kst": "23:04:14",
+      "symbol": "IONR",
+      "company_name": "IONR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $172.21M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:03:53",
       "time_kst": "23:03:53",
       "symbol": "CASH",
@@ -2884,56 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:17:24",
-      "time_kst": "22:17:24",
-      "symbol": "SLXN",
-      "company_name": "SLXN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:15:34",
-      "time_kst": "22:15:34",
-      "symbol": "EU",
-      "company_name": "EU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $92.86M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:15:03",
-      "time_kst": "22:15:03",
-      "symbol": "NTCT",
-      "company_name": "NTCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2370.82M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:10:02",
-      "time_kst": "22:10:02",
-      "symbol": "FAC",
-      "company_name": "FAC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $400.27M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:07:27",
-      "time_kst": "22:07:27",
-      "symbol": "TELO",
-      "company_name": "TELO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
     }
   ]
 }
