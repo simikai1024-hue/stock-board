@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:15:13",
-  "updated_at_et": "2026-11-19 08:15:13",
-  "updated_epoch_ms": 1795094113964,
+  "updated_at_kst": "2026-11-19 22:15:54",
+  "updated_at_et": "2026-11-19 08:15:54",
+  "updated_epoch_ms": 1795094154635,
   "analyzing": {
-    "active": true,
-    "symbol": "AZIO",
-    "company_name": "AZIO",
-    "exchange": "ND",
-    "price": 0.4764,
-    "gain_pct": 8.25,
-    "mcap_m": 8.2,
-    "catalyst_hint": "[당일 PR] AZIO AI Brings AI-Campus Power Expertise to $144.6 Million in Awarded U.S. Army Microgrid Contracts, Serving as General Contractor at Fort Buchanan",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:15:04",
-    "started_at_kst": "22:15:04",
-    "started_epoch_ms": 1795094104705
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:15:09"
+    "updated_kst": "22:15:52"
   },
   "stats": {
-    "today_total": 31,
-    "today_nblm_count": 31,
+    "today_total": 32,
+    "today_nblm_count": 32,
     "today_buy": 0,
-    "today_false": 31,
+    "today_false": 32,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.7
+    "avg_nblm_sec": 51.6
   },
   "verdicts": [
+    {
+      "id": "v_1795094149378_AZIO_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "08:15:49",
+      "time_kst": "22:15:49",
+      "symbol": "AZIO",
+      "company_name": "AZIO",
+      "exchange": "ND",
+      "price": 0.4764,
+      "gain_pct": 8.25,
+      "mcap_m": 8.2,
+      "decision": "FALSE",
+      "elapsed_sec": 47.7,
+      "reason": "직접 수주 전무 및 주계약자 ERP의 미 육군 $144.6M 프로젝트 단순 합류 홍보 PR로 헌법 3조 4항 위배 및 장전 -14.9% 덤핑 심화 전량 차단",
+      "catalyst_hint": "[당일 PR] AZIO AI Brings AI-Campus Power Expertise to $144.6 Million in Awarded U.S. Army Microgrid Contracts, Serving as General Contractor at Fort Buchanan",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 AZIO (AZIO AI Holdings, Inc.) 2026-11-19 08:15:01 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재검증 직독 결재 보고입니다 [cite: 3, 4].\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 -14.9%로 투매 가속)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: AZIO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 3, 15].\n실질 시가총액: 약 $8.20M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 4].\n체급 대비 규모 (헤드라인 $144.6M 수치의 치명적 본질 재확인 — 직접 수주 0원):\n언뜻 시총($8.20M) 대비 1,763%에 달하는 $144.6M 규모의 메가 계약으로 포장되어 있으나, 본문 직독 결과 이는 AZIO가 직접 수주한 계약금이나 회사 금고로 꽂히는 현금 선급금이 결코 아닙니다 [cite: 5].\n미 육군(U.S. Army) 마이크로그리드 계약 $144.6M(옵션 포함)의 진짜 주계약자(Prime Contractor)는 ERP이며, AZIO는 **\"ERP의 사업에 단순 합류(joins prime contractor ERP)\"**한 것에 불과합니다.\n포트 뷰캐넌($45.0M) 현장 시공(General contractor) 및 레이크 시티($99.6M) 프로젝트 관리 지원을 맡는다고 언론플레이를 펼쳤으나, AZIO가 실제로 수취하는 확정된 순수 용역 대가나 현금 선급금 달러($) 수치는 일절 기재되어 있지 않은 껍데기 하도급 홍보물입니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -14.9%로 덤핑 심화):\n전일 종가 $0.4401 대비 현재가 $0.4764 (+8.25%) (직전 08:08 ET 체결가 $0.4945에서 추가 하락).\n당일 프리마켓 최고가 $0.5600 (+27.24%)까지 반짝 띄운 후 시장이 주계약자 단순 합류 및 컨소시엄 지원 형태임을 완전히 간파하면서 고점 대비 무려 -14.9% 폭락하며 투매가 가속되고 있습니다.\n당일 누적 거래대금은 $98,394 USD (장전 거래 둔화).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 4].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 08:05:00 ET) 공식 PR 원문 분석:\nPR 제목: \"AZIO AI Brings AI-Campus Power Expertise to $144.6 Million in Awarded U.S. Army Microgrid Contracts, Serving as General Contractor at Fort Buchanan\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 '외부 주계약자(Prime Contractor) 프로젝트 단순 합류' 언론플레이 (Consortium/Sub-contractor PR):\n원문 본문에 *\"AZIO joins prime contractor ERP on two awarded U.S. Army microgrid contracts totaling about $144.6 million, including options. AZIO is general contractor at Fort Buchanan (about $45.0 million) and provides project-management support at Lake City (about $99.6 million)...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 5, 26].\n미 육군과 계약을 체결한 진짜 수주 주체는 ERP이며, AZIO는 해당 프로젝트의 현장 시공 및 PM 지원으로 참여하는 하도급/컨소시엄 파트너에 불과합니다 (오늘 아침 차단된 MVIS의 Blue-Band 루이빌 $3M 프로젝트 지원 PR과 100% 동일한 구조).\n외부 고객사로부터 당장 AZIO 금고로 직통 유입되는 실체적 신규 달러($) 확정 계약액 및 현금 선급금은 본문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 4, 5].\n심사 헌법 제3조 ④항 위배 및 장전 -14.9% 폭락 덤핑 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 제휴/컨소시엄 참여/지원 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 5].\n프리마켓 최고가 $0.5600을 찍은 후 실체 없는 주계약자 합류 홍보물임을 확인하고 고점 대비 -14.9%로 낙폭을 키우며 시초 갭을 반납하고 있는 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\nAZIO의 당일 공식 PR은 확정 상업 수주나 선급금이 전무하며, 주계약자 ERP의 미 육군 $144.6M 사업에 단순 합류하여 시공/PM 지원을 제공한다는 내용의 금액 미기재 컨소시엄 홍보물에 불과합니다 [cite: 5].\n헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하며 장전 최고가 대비 -14.9% 폭락 덤핑 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: AZIO 처리합니다 [cite: 4, 5].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 직접 수주 전무 및 주계약자 ERP의 미 육군 $144.6M 프로젝트 단순 합류 홍보 PR로 헌법 3조 4항 위배 및 장전 -14.9% 덤핑 심화 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, LUCY, VERI, ATHR, VIVS에 이어 AZIO 재확인 건까지 총 26개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사 참가, 금액 미기재 제휴/고객 채택, 단순 투자 검토, 기발표 사후종결 재탕, 초기 Pre-IND 피드백, 소액 정기배당, 정부 지원사업 단순 참여, 하도급 단순 합류, 전일 외신 재탕 프레임워크 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 4, 5]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 4, 5].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795094088892_VIVS_FALSE",
       "date_et": "2026-11-19",
@@ -2424,29 +2432,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YAAS (Youxin Technology Ltd) 2026-11-17 07:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.16M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 적발):\n본문 핵심 금액으로 감지된 수십만~백만 위안(\"several hundred thousand to over one million renminbi\")은 고객사로부터 확정된 수주액이나 매출 계약금이 아닙니다.\n회사가 출시한 클라우드 6.0/AIP 제품이 타깃으로 삼는 일반적인 기업 프로젝트의 통상 도입 비용 규모를 언급한 **마케팅 시장 설명 문구(Market Target Description Metric)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.8470 대비 현재가 $0.9009 (+6.36%), 당일 최고가 $0.9009 (고점 대비 +0.0%).\n당일 누적 거래대금 $1,275 USD (1천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 신제품 출시 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Youxin Technology Launches Youxin Cloud 6.0 and Youxin AIP, Enabling Natural Language-Driven Development of Enterprise Applications and AI Agents\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 자체 소프트웨어 신제품 출시 홍보 (Software Launch PR):\n본 PR의 본질은 Youxin Technology가 자연어 기반 엔터프라이즈 애플리케이션 및 AI 에이전트 개발 플랫폼인 'Youxin Cloud 6.0'과 'Youxin AIP'를 출시했다는 **단순 제품 런칭 마케팅 보도자료(today announced that it has launched Youxin Cloud 6.0 and Youxin AIP...)**입니다.\n외부 글로벌 대기업이나 공공기관으로부터 확정된 대규모 소프트웨어 납품 계약, 라이선스 독점 공급 계약, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 실적 발표(8/27) 이후 배포된 전형적인 AI 테마 편승용 언론 플레이:\n과거 이력 대조 결과 회사는 8월 27일 상반기 실적 발표 이후 주가 부양을 위해 알맹이(확정 매출 수주) 없는 AI 클라우드 신규 버전 출시 보도자료를 배포한 전형적인 마케팅성 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 신제품 출시/AI 플랫폼 런칭/제휴 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 계약이 전무한 단순 자체 AI 플랫폼(Youxin Cloud 6.0 & AIP) 출시 홍보 보도자료(수십만~백만 위안 프로젝트 비용 언급 착시)에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: YAAS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: YAAS NOTES:\n[YAAS] 확정 수주/계약 금액 전무한 단순 AI 플랫폼(Youxin Cloud 6.0/AIP) 출시 마케팅 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 7개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 런칭, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드로 확인되어 안전하게 전량 차단되었습니다. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794918763464_DAVI_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "07:32:43",
-      "time_kst": "21:32:43",
-      "symbol": "DAVI",
-      "company_name": "DAVI",
-      "exchange": "ND",
-      "price": 1.0299,
-      "gain_pct": 0.97,
-      "mcap_m": 25.75,
-      "decision": "FALSE",
-      "elapsed_sec": 62.3,
-      "reason": "확정 수주/매출 전무한 단순 공매도 대응용 주식 직접등록(DRS) 절차 안내 PR로 헌법 3조 4항 위배 및 고점대비 -11.2% 밀림 전량 차단",
-      "catalyst_hint": "[당일 PR] Davion Healthcare Plc Provides Shareholders with Guidance on Direct Registration and Confirmation of Share Ownership",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DAVI (Davion Healthcare Plc) 2026-11-17 07:31 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $25.75M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 신규 매출 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 -11.2% 덤핑):\n전일 종가 $1.0200 대비 현재가 **$1.0299 (+0.97%)**.\n당일 최고가 $1.1600 찍은 후 장전 고점 대비 -11.2% 밀리며 상승폭을 대부분 반납.\n당일 누적 거래대금 $4,846 USD (4천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"Davion Healthcare Plc Provides Shareholders with Guidance on Direct Registration and Confirmation of Share Ownership\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 단순 공매도 대응용 직접등록(DRS) 절차 안내 (Non-material Shareholder Guidance PR):\n본 PR의 본질은 상장사 매출 증대나 계약이 아니라, 10월 22일 나스닥 상장 이후 지속된 공매도(short-selling activity) 우려에 대응하여 주주들에게 명의개서대리인(VStock Transfer LLC)을 통한 직접등록시스템(DRS, Direct Registration System) 주식 이전 및 소유권 확인 절차를 안내한 단순 행정 가이드 보도자료입니다.\n원문 본문에도 \"The Company is providing this guidance solely to enable shareholders to obtain independent confirmation of their registered shareholdings and is not seeking to restrict or discourage shareholders from trading in the Company’s ordinary shares\" 및 *\"Nothing in this announcement constitutes a recommendation to purchase, sell, retain or otherwise deal...\"*라고 명시되어 있어, 외부 대기업 수주, 거액 현금 선급금(AIMD형) 등 실체적 금융 기폭제가 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 반복 인수 발표에 이은 단순 주가 방어용 언론 플레이:\n과거 이력 대조 결과 회사는 10월 26일($25M 기술 IP 인수), 10월 29일($13.5M 홈헬스케어 인수), 11월 6일($100M 인수자금 유치 자문계약), 11월 16일 바로 어제($10M 인디펜던스 케어 인수 합의) 등 연달아 인수 관련 보도자료를 쏟아냈습니다.\n잇단 인수 발표에도 주가가 $1선에서 공매도 압박을 받자, 실체적 매출 발표 없이 배포한 전형적인 공매도 방어용 껍데기 IR 안내문입니다.\n심사 헌법 제3조 ④항 위배 및 장전 윗꼬리 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 주주 안내문/공매도 방어용 DRS 절차 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.1600까지 튀었다가 즉각 고점 대비 -11.2% 밀리며 윗꼬리를 달고 정체 중인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 주주 주식 직접등록(DRS) 절차 안내 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 고점 대비 -11.2% 밀려 정체 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: DAVI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: DAVI NOTES:\n[DAVI] 확정 수주/매출 전무한 단순 공매도 대응용 주식 직접등록(DRS) 절차 안내 PR로 헌법 3조 4항 위배 및 고점대비 -11.2% 밀림 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI) 전수가 실체적 확정 현금 유입이 없는 정기 지표, 신제품 홍보, 협회 가입, 비구속 MOU, 단순 위임장, 공매도 안내문으로 확인되어 안전하게 전량 차단되었습니다\n. 장전 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-19",
+      "time_et": "08:15:34",
+      "time_kst": "22:15:34",
+      "symbol": "EU",
+      "company_name": "EU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $92.86M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-19",
       "time_et": "08:15:03",
@@ -2936,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2142.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:18:47",
-      "time_kst": "21:18:47",
-      "symbol": "ONEN",
-      "company_name": "ONEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $63.98M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
