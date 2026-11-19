@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:38:31",
-  "updated_at_et": "2026-11-19 04:38:31",
-  "updated_epoch_ms": 1795081111994,
+  "updated_at_kst": "2026-11-19 18:39:31",
+  "updated_at_et": "2026-11-19 04:39:31",
+  "updated_epoch_ms": 1795081171496,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:38:29"
+    "updated_kst": "18:39:26"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 33,
+    "today_hardcut": 34,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:38:49",
+      "time_kst": "18:38:49",
+      "symbol": "NCT",
+      "company_name": "NCT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $119.94M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:30:14",
       "time_kst": "18:30:14",
       "symbol": "NWGL",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "10:11:10",
-      "time_kst": "00:11:10",
-      "symbol": "TRVG",
-      "company_name": "TRVG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $98.26M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
