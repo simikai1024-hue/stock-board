@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:09:24",
-  "updated_at_et": "2026-11-19 08:09:24",
-  "updated_epoch_ms": 1795093764916,
+  "updated_at_kst": "2026-11-19 22:10:10",
+  "updated_at_et": "2026-11-19 08:10:10",
+  "updated_epoch_ms": 1795093810925,
   "analyzing": {
     "active": true,
     "symbol": "LUCY",
@@ -31,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:09:23"
+    "updated_kst": "22:10:03"
   },
   "stats": {
     "today_total": 26,
@@ -2449,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "08:10:02",
+      "time_kst": "22:10:02",
+      "symbol": "FAC",
+      "company_name": "FAC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $400.27M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "08:07:27",
       "time_kst": "22:07:27",
       "symbol": "TELO",
@@ -2936,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $69.0M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "07:15:51",
-      "time_kst": "21:15:51",
-      "symbol": "PCSA",
-      "company_name": "PCSA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-23 [EFFECT] (Item ,,))"
     }
   ]
 }
