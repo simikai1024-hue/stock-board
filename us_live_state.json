@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:07:02",
-  "updated_at_et": "2026-11-19 09:07:02",
-  "updated_epoch_ms": 1795097222318,
+  "updated_at_kst": "2026-11-19 23:07:15",
+  "updated_at_et": "2026-11-19 09:07:15",
+  "updated_epoch_ms": 1795097235312,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MODD",
+    "company_name": "MODD",
+    "exchange": "ND",
+    "price": 1.82,
+    "gain_pct": 0.0,
+    "mcap_m": 17.28,
+    "catalyst_hint": "[당일 PR] Modular Medical Secures Coverage Agreements with All Three of the Nation's Largest PBMs for Pivot Insulin Delivery System",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:07:06",
+    "started_at_kst": "23:07:06",
+    "started_epoch_ms": 1795097226595
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:06:48"
+    "updated_kst": "23:07:09"
   },
   "stats": {
     "today_total": 41,
