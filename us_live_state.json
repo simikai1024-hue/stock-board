@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:55:09",
-  "updated_at_et": "2026-11-19 09:55:09",
-  "updated_epoch_ms": 1795100109122,
+  "updated_at_kst": "2026-11-19 23:56:22",
+  "updated_at_et": "2026-11-19 09:56:22",
+  "updated_epoch_ms": 1795100182021,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "POAS",
     "holding_qty": 214,
     "avg_price": 4.3087,
-    "current_price": 3.89,
-    "profit_rate": -9.72,
-    "updated_kst": "23:54:54"
+    "current_price": 4.11,
+    "profit_rate": -4.61,
+    "updated_kst": "23:56:16"
   },
   "stats": {
     "today_total": 47,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:55:19",
+      "time_kst": "23:55:19",
+      "symbol": "DRK",
+      "company_name": "DRK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:55:14",
+      "time_kst": "23:55:14",
+      "symbol": "COSM",
+      "company_name": "COSM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $296.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:55:08",
       "time_kst": "23:55:08",
       "symbol": "LXEH",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $365.82M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:47:59",
-      "time_kst": "23:47:59",
-      "symbol": "NEOV",
-      "company_name": "NEOV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $130.91M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:47:55",
-      "time_kst": "23:47:55",
-      "symbol": "NNE",
-      "company_name": "NNE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $555.78M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
