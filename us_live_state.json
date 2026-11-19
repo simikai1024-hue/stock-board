@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 19:15:17",
-  "updated_at_et": "2026-11-19 05:15:17",
-  "updated_epoch_ms": 1795083317667,
+  "updated_at_kst": "2026-11-19 19:16:07",
+  "updated_at_et": "2026-11-19 05:16:07",
+  "updated_epoch_ms": 1795083367945,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "19:15:12"
+    "updated_kst": "19:15:52"
   },
   "stats": {
     "today_total": 1,
     "today_nblm_count": 1,
     "today_buy": 0,
     "today_false": 1,
-    "today_hardcut": 40,
+    "today_hardcut": 42,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "05:16:02",
+      "time_kst": "19:16:02",
+      "symbol": "HIT",
+      "company_name": "HIT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-15 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "05:15:31",
+      "time_kst": "19:15:31",
+      "symbol": "CIIT",
+      "company_name": "CIIT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-15 [8-K] (Item 1.01,3.02))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "05:09:20",
       "time_kst": "19:09:20",
       "symbol": "LNSR",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $714.54M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "11:01:41",
-      "time_kst": "01:01:41",
-      "symbol": "BIIB",
-      "company_name": "BIIB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $37071.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "11:01:04",
-      "time_kst": "01:01:04",
-      "symbol": "CVLT",
-      "company_name": "CVLT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5811.23M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
