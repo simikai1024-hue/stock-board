@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:53:26",
-  "updated_at_et": "2026-11-19 09:53:26",
-  "updated_epoch_ms": 1795100006472,
+  "updated_at_kst": "2026-11-19 23:54:23",
+  "updated_at_et": "2026-11-19 09:54:23",
+  "updated_epoch_ms": 1795100063032,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TDTH",
+    "company_name": "TDTH",
+    "exchange": "ND",
+    "price": 0.79,
+    "gain_pct": 8.22,
+    "mcap_m": 46.66,
+    "catalyst_hint": "[당일 PR] Trident Secures US$15 Million Private Placement at US$1.50 per Share to Fund Expansion into Energy Infrastructure for Data Centres",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:54:14",
+    "started_at_kst": "23:54:14",
+    "started_epoch_ms": 1795100054553
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "POAS",
     "holding_qty": 214,
     "avg_price": 4.3087,
-    "current_price": 4.0501,
-    "profit_rate": -6.0,
-    "updated_kst": "23:53:18"
+    "current_price": 4.0701,
+    "profit_rate": -5.54,
+    "updated_kst": "23:54:16"
   },
   "stats": {
     "today_total": 46,
@@ -2437,6 +2449,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:53:36",
+      "time_kst": "23:53:36",
+      "symbol": "VIVO",
+      "company_name": "VIVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $60.38M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:52:38",
       "time_kst": "23:52:38",
       "symbol": "JSPR",
@@ -2924,16 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $52.26M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:47:11",
-      "time_kst": "23:47:11",
-      "symbol": "GYGY",
-      "company_name": "GYGY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-19 [424B3])"
     }
   ]
 }
