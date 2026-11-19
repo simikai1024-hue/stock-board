@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:33:56",
-  "updated_at_et": "2026-11-19 07:33:56",
-  "updated_epoch_ms": 1795091636133,
+  "updated_at_kst": "2026-11-19 21:34:19",
+  "updated_at_et": "2026-11-19 07:34:19",
+  "updated_epoch_ms": 1795091659244,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DRIO",
+    "company_name": "DRIO",
+    "exchange": "ND",
+    "price": 1.6,
+    "gain_pct": 9.59,
+    "mcap_m": 18.06,
+    "catalyst_hint": "[당일 PR] Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:34:14",
+    "started_at_kst": "21:34:14",
+    "started_epoch_ms": 1795091654271
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:33:38"
+    "updated_kst": "21:34:19"
   },
   "stats": {
     "today_total": 14,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "07:34:07",
+      "time_kst": "21:34:07",
+      "symbol": "WMG",
+      "company_name": "WMG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $17241.67M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "07:33:59",
+      "time_kst": "21:33:59",
+      "symbol": "TEM",
+      "company_name": "TEM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $11604.39M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "07:32:38",
       "time_kst": "21:32:38",
       "symbol": "SCAG",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $126.04M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "06:01:50",
-      "time_kst": "20:01:50",
-      "symbol": "TSAT",
-      "company_name": "TSAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $694.7M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "06:01:42",
-      "time_kst": "20:01:42",
-      "symbol": "ZYME",
-      "company_name": "ZYME",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1811.59M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
