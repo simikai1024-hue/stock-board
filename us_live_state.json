@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 21:47:16",
-  "updated_at_et": "2026-11-19 07:47:16",
-  "updated_epoch_ms": 1795092436685,
+  "updated_at_kst": "2026-11-19 21:48:06",
+  "updated_at_et": "2026-11-19 07:48:06",
+  "updated_epoch_ms": 1795092486559,
   "analyzing": {
-    "active": true,
-    "symbol": "HTOO",
-    "company_name": "HTOO",
-    "exchange": "ND",
-    "price": 0.9299,
-    "gain_pct": 3.32,
-    "mcap_m": 6.99,
-    "catalyst_hint": "[당일 PR] Fusion Fuel to Evaluate Investment Opportunities in Venezuela’s Energy and Natural Resources Sectors",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:47:08",
-    "started_at_kst": "21:47:08",
-    "started_epoch_ms": 1795092428320
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:47:12"
+    "updated_kst": "21:47:53"
   },
   "stats": {
-    "today_total": 16,
-    "today_nblm_count": 16,
+    "today_total": 17,
+    "today_nblm_count": 17,
     "today_buy": 0,
-    "today_false": 16,
+    "today_false": 17,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 48.2
+    "avg_nblm_sec": 48.4
   },
   "verdicts": [
+    {
+      "id": "v_1795092477407_HTOO_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "07:47:57",
+      "time_kst": "21:47:57",
+      "symbol": "HTOO",
+      "company_name": "HTOO",
+      "exchange": "ND",
+      "price": 0.9299,
+      "gain_pct": 3.32,
+      "mcap_m": 6.99,
+      "decision": "FALSE",
+      "elapsed_sec": 52.7,
+      "reason": "확정 수주 전무 및 본계약 체결 0건 자인한 단순 베네수엘라 자원 투자 검토 언론플레이 PR로 헌법 3조 4항 위배 및 장전 -9.7% 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Fusion Fuel to Evaluate Investment Opportunities in Venezuela’s Energy and Natural Resources Sectors",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 HTOO (Fusion Fuel Green PLC) 2026-11-19 07:47:04 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 9, 10, 257].\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 -9.7% 출회 및 거래대금 극소)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: HTOO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 9, 258].\n실질 시가총액: 약 $6.99M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과) [cite: 10, 257].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 '단순 투자 검토' 허위 시그널 적발):\n파이썬 스캐너의 🔎 [자동 정밀 포인트]: 👑[특급 시그널 확인] 문구는 기사 내 'M&A', 'acquisitions' 등 단순 단어 매칭에 따른 **전형적인 기계적 오작동(False Positive)**입니다 [cite: 258, 259].\n원문 본문 직독 결과, 당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액은 **일절 미감지 (확정 수주액 0원)**되었습니다 [cite: 257, 259].\n본문의 본질은 베네수엘라 에너지/천연자원 분야의 잠재적 투자 기회를 단순 검토(Evaluating potential investment opportunities in Venezuela)하고 있다는 **금액 미기재 비구속적 사업 탐색 언론플레이(Exploring/Evaluating PR)**에 불과합니다 [cite: 258, 259].\n실시간 체결가 및 수급 (장전 윗꼬리 -9.7% 출회):\n전일 종가 $0.9000 대비 현재가 $0.9299 (+3.32%) [cite: 258].\n당일 프리마켓 최고가 $1.0300 (+14.44%)까지 반짝 띄운 후 시장이 단순 검토 단계임을 확인하고 고점 대비 -9.7% 밀림 [cite: 258].\n당일 누적 거래대금은 $131 USD로 극소액 거래 속 매물이 출회되고 있습니다 [cite: 258].\n당일 SEC 공시 현황: 2026-11-19 [6-K] 제출 확인 (당일 배포된 보도자료 단순 첨부) [cite: 266].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:45:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Fusion Fuel to Evaluate Investment Opportunities in Venezuela’s Energy and Natural Resources Sectors\" [cite: 258]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 '구속력 있는 본계약 0건'을 스스로 자인한 단순 검토 언론플레이:\n원문 본문에 **\"The Company is in preliminary discussions with multiple parties regarding specific investment opportunities... The Company has not entered into any definitive agreement with respect to any such opportunity (회사는 특정 투자 기회와 관련하여 여러 당사자와 예비 논의 단계에 있을 뿐이며, 어떠한 확정적 본계약도 체결하지 않았다)\"**라고 명백히 자인하고 있습니다 [cite: 259].\n또한 **\"Any transaction would be subject to due diligence, definitive transaction documentation, any required regulatory authorizations, and compliance with applicable sanctions... there can be no assurance that any transaction will be entered into or completed (모든 거래는 실사, 최종 계약서 작성, 규제 승인, 미국/EU 제재 준수에 달려 있으며, 거래가 성사되거나 완료될 것이라는 어떠한 보장도 없다)\"**라고 명시되어 있습니다 [cite: 264].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 13, 259].\n베네수엘라 거시 환경을 길게 인용한 뜬구름 잡기식 껍데기 IR:\n보도자료 대부분이 베네수엘라의 원유 생산량 회복(115만~125만 배럴), 천연가스 매장량(195조 입방피트), 석유법 개정 등 국가 매크로 통계를 나열하는 데 할애되어 있으며, HTOO 자체의 실질적 확정 매출이나 현금 유입은 0원입니다 [cite: 260, 261].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 13].\n심사 헌법 제3조 ④항 위배 (금액 미기재 제휴/검토 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/특허/투자 검토 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 [cite: 13].\n장전 프리마켓에서 $1.0300까지 반짝 띄운 후 실체 없는 뜬구름식 검토 PR임을 확인하고 고점 대비 -9.7% 밀리며 차익 실현 윗꼬리 매물이 출회된 전형적인 설거지 패턴입니다 [cite: 258].\n3. 최종 심사 및 결재 판정\nHTOO의 당일 공식 PR 및 6-K는 본계약 체결 0건을 스스로 자인한 단순 베네수엘라 투자 기회 예비 검토 언론플레이에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하며 장전 최고가 대비 -9.7% 윗꼬리 덤핑 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: HTOO 처리합니다 [cite: 13, 258, 259].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 11].\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: HTOO NOTES:\n[HTOO] 확정 수주 전무 및 본계약 체결 0건 자인한 단순 베네수엘라 자원 투자 검토 언론플레이 PR로 헌법 3조 4항 위배 및 장전 -9.7% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO에 이어 HTOO까지 총 14개 종목 전수가 껍데기 IR, 단순 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사 참가, 금액 미기재 제휴, 단순 투자 검토 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 11, 13]. 이제 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795091742240_CMND_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "스폰서 펀드의 브릿지 론 기반 $9M 아파트 매입(자금 지출 및 AUM 확대) PR로 매출/수주 유입 없는 단순 부동산 취득 1급 기폭제 미달 및 음봉 하락(-2.94%) 전량 차단",
       "catalyst_hint": "[당일 PR] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CWD (Caliber / CaliberCos Inc.) 09:30 ET 정규장 개장 직후 실시간 재확인 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.87M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 232.6% 적발):\n본문 핵심 금액으로 감지된 약 $9.00M USD(시총 대비 232.6%)는 상장사로 신규 유입되는 확정 수주나 매출 계약금이 아닙니다.\n회사가 운용하는 스폰서 투자 펀드가 브릿지 대출을 활용하여 45세대 아파트(Tonto Oaks Apartments)를 900만 달러에 매입(자금 지출 및 AUM 확대)했다는 단순 부동산 자산 취득 보도자료 수치에 불과합니다.\n실시간 체결가 및 수급 (개장 직후 음봉 하락 심화):\n전일 종가 $0.3839 대비 현재가 $0.3726 (-2.94%).\n당일 최고가 $0.4051 찍은 후 장전 고점 대비 -8.0% 밀리며 마이너스 파란불 음봉 확대.\n당일 누적 거래대금 $38,704 USD.\n선발표 규정 확인: 자산 취득 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:25 ET) 공식 PR 원문 분석:\nPR 제목: \"Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona\"\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 스폰서 펀드의 단순 부동산 매입 지출 (Real Estate Acquisition PR):\n본 PR의 본질은 대체자산운용사인 Caliber가 관리하는 투자 펀드가 브릿지 론을 끼고 45세대짜리 공동주택을 900만 달러에 사들였다는 사모 펀드 차원의 일상적인 부동산 자산 매입 뉴스입니다.\n상장법인(CWD)으로 거액의 현금이 입금되는 계약이나 창사 최대 수주가 아니라, 오히려 자금을 들여 부동산을 매입한 지출 건으로 주가를 폭등시키는 금융 기폭제가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 연간 가이던스 하향(11/12) 직후의 단순 포트폴리오 홍보:\n과거 이력 대조 결과 회사는 11월 12일 3분기 실적 발표와 함께 *\"연간 플랫폼 매출 가이던스를 하향(cuts FY platform revenue outlook)\"*한 바 있습니다.\n가이던스 하향 직후 배포된 펀드의 단순 아파트 매입 뉴스는 주가 반전을 이끌 수 없는 통상적인 IR에 불과합니다.\n심사 헌법 제3조 위배 및 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 부동산 매입/자산 취득/펀드 AUM 홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n정규장 개장(09:30 ET) 이후에도 고점 대비 -8.0% 밀리며 -2.94% 마이너스 파란불 음봉으로 하락 궤적이 지속되고 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 상장사 매출 유입이 아닌 스폰서 펀드의 브릿지 론 기반 900만 달러 아파트 매입(자금 지출 및 AUM 확대) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장중 -2.94% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CWD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 스폰서 펀드의 브릿지 론 기반 $9M 아파트 매입(자금 지출 및 AUM 확대) PR로 매출/수주 유입 없는 단순 부동산 취득 1급 기폭제 미달 및 음봉 하락(-2.94%) 전량 차단 ===VERDICT_END===\n💡 오늘 정규장 개장 시점에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 골든타임(~10:00 ET) 중 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794839311878_CWD_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "09:28:31",
-      "time_kst": "23:28:31",
-      "symbol": "CWD",
-      "company_name": "CWD",
-      "exchange": "ND",
-      "price": 0.3801,
-      "gain_pct": -0.99,
-      "mcap_m": 3.95,
-      "decision": "FALSE",
-      "elapsed_sec": 63.9,
-      "reason": "스폰서 펀드의 브릿지 론 기반 $9M 아파트 매입(자금 지출 및 AUM 확대) PR로 매출/수주 유입 없는 단순 부동산 취득 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CWD (Caliber / CaliberCos Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.95M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 227.8% 적발):\n본문 핵심 금액으로 감지된 약 $9.00M USD(시총 대비 227.8%)는 외부 고객사로부터 회사로 유입되는 확정 수주나 매출 계약금이 아닙니다.\n회사가 운용하는 스폰서 투자 펀드가 브릿지 론(bridge financing) 부채를 활용하여 애리조나주 페이슨 소재 45세대 아파트(Tonto Oaks Apartments)를 900만 달러에 매입하여 운용자산(FV AUM)을 늘렸다는 단순 부동산 자산 취득/매입 지출 보도자료(a Caliber-sponsored investment fund has acquired Tonto Oaks Apartments... for $9.0 million) 수치에 불과합니다.\n실시간 체결가 및 수급 (장전 음봉 덤핑 흐름):\n전일 종가 $0.3839 대비 현재가 **$0.3801 (-0.99%)**.\n당일 최고가 $0.4051 찍은 후 장전 고점 대비 -6.2% 밀리며 마이너스 파란불로 하락 전환.\n당일 누적 거래대금 $4,431 USD.\n선발표 규정 확인: 자산 취득 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 09:25 ET) 공식 PR 원문 분석:\nPR 제목: *\"Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber’s Multifamily Holdings in Payson, Arizona\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/매출 유입이 아닌 스폰서 펀드의 단순 부동산 매입 지출 (Real Estate Fund Acquisition PR):\n본 PR의 본질은 대체자산운용사인 Caliber가 관리하는 투자 펀드가 브릿지 대출을 끼고 45세대짜리 공동주택을 900만 달러에 사들였다는 사모 펀드 차원의 일상적인 부동산 자산 매입 뉴스입니다.\n상장법인(CWD)으로 현금이 대량 입금되는 계약이나 창사 최대 수주가 아니라, 오히려 자금을 들여 자산을 매수한 건으로 주가를 폭등시키는 금융 기폭제가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 정기 실적 부진 및 가이던스 하향 속 통상 IR:\n과거 이력 대조 결과, 회사는 불과 4일 전인 2026년 11월 12일에 3분기 실적 발표와 함께 *\"연간 플랫폼 매출 가이던스를 하향(cuts FY platform revenue outlook)\"*한 바 있습니다.\n가이던스 하향 직후 배포된 펀드의 단순 공동주택 매입 뉴스는 주가 반전을 이끌 수 없는 통상적인 포트폴리오 업데이트에 불과합니다.\n심사 헌법 제3조 위배 및 장전 음봉 전환:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 부동산 매입/자산 취득/펀드 AUM 홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.4051까지 반짝 상승 후 고점 대비 -6.2% 밀리며 -0.99% 마이너스 파란불 음봉으로 꺾인 전형적인 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 상장사 매출 유입이 아닌 스폰서 펀드의 브릿지 론 기반 900만 달러 아파트 매입(자금 지출 및 AUM 확대) 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -0.99% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CWD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 스폰서 펀드의 브릿지 론 기반 $9M 아파트 매입(자금 지출 및 AUM 확대) PR로 매출/수주 유입 없는 단순 부동산 취득 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장 직후 실시간 수급 돌파 종목 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
