@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:06:01",
-  "updated_at_et": "2026-11-19 08:06:01",
-  "updated_epoch_ms": 1795093561376,
+  "updated_at_kst": "2026-11-19 22:06:10",
+  "updated_at_et": "2026-11-19 08:06:10",
+  "updated_epoch_ms": 1795093570225,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TVRD",
+    "company_name": "TVRD",
+    "exchange": "ND",
+    "price": 1.04,
+    "gain_pct": 0.0,
+    "mcap_m": 13.9,
+    "catalyst_hint": "[당일 PR] Tvardi Therapeutics Advances Next-Generation Oral STAT3 Inhibitor TTI-109 Toward IND in Inflammatory Bowel Disease Following FDA Pre-IND Feedback",
+    "queue_remaining": 3,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:06:04",
+    "started_at_kst": "22:06:04",
+    "started_epoch_ms": 1795093564956
   },
   "halt_watch": {
     "active": false
