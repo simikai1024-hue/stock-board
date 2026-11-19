@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 22:33:33",
-  "updated_at_et": "2026-11-19 08:33:33",
-  "updated_epoch_ms": 1795095213951,
+  "updated_at_kst": "2026-11-19 22:34:18",
+  "updated_at_et": "2026-11-19 08:34:18",
+  "updated_epoch_ms": 1795095258030,
   "analyzing": {
-    "active": true,
-    "symbol": "SAGT",
-    "company_name": "SAGT",
-    "exchange": "ND",
-    "price": 1.1,
-    "gain_pct": 6.8,
-    "mcap_m": 27.23,
-    "catalyst_hint": "[당일 PR] Sagtec Establishes U.S. Subsidiary to Launch CLAi 2.0 and AI Edu, Expanding Its AI Subscription Business",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:33:28",
-    "started_at_kst": "22:33:28",
-    "started_epoch_ms": 1795095208429
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:33:12"
+    "updated_kst": "22:34:14"
   },
   "stats": {
-    "today_total": 34,
-    "today_nblm_count": 34,
+    "today_total": 35,
+    "today_nblm_count": 35,
     "today_buy": 0,
-    "today_false": 34,
+    "today_false": 35,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 1,
     "total_false": 149,
-    "avg_nblm_sec": 51.5
+    "avg_nblm_sec": 51.4
   },
   "verdicts": [
+    {
+      "id": "v_1795095252304_SAGT_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "08:34:12",
+      "time_kst": "22:34:12",
+      "symbol": "SAGT",
+      "company_name": "SAGT",
+      "exchange": "ND",
+      "price": 1.1,
+      "gain_pct": 6.8,
+      "mcap_m": 27.23,
+      "decision": "FALSE",
+      "elapsed_sec": 48.0,
+      "reason": "확정 수주 전무한 단순 미국 자회사 설립 및 12개월 내 $5M 매출 달성 목표치(추정) 홍보 PR로 헌법 3조 4항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Sagtec Establishes U.S. Subsidiary to Launch CLAi 2.0 and AI Edu, Expanding Its AI Subscription Business",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SAGT (Sagtec Global Limited) 2026-11-19 08:33:24 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 3, 5].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $1.2K 극소 및 목표치 홍보물)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: SAGT) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 3].\n실질 시가총액: 약 $27.23M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 4].\n체급 대비 규모 (헤드라인 $5.00M 수치의 치명적 본질 적발 — 확정 수주 0원):\n언뜻 시총 대비 18.4% 수준인 $5.00M 규모의 사업으로 보이나, 이는 외부 고객사로부터 당장 확정 계약금이나 현금 선급금이 입금되는 거래가 아닙니다.\nPR 본문 직독 결과, *\"Sagtec targets 5,000 to 10,000 subscribers in the first 12 months after launch and projects approximately US$5 million in revenue from the new offerings and its U.S. expansion\"*라고 명시되어 있습니다.\n즉, **\"미국 자회사 설립 후 향후 12개월간 구독자 5천~1만 명을 유치하여 약 $5M의 매출을 올리겠다는 '내부 자체 목표치(Target/Project)'\"**에 불과한 희망 회로 홍보물입니다.\n실시간 체결가 및 수급 (장전 윗꼬리 -2.6% 및 거래대금 극소 $1,296 USD):\n전일 종가 $1.0300 대비 현재가 $1.1000 (+6.80%).\n당일 프리마켓 최고가 $1.1297 (고점 대비 -2.6%).\n당일 누적 거래대금 $1,296 USD (약 1.3천 달러 수준의 극소액 체결로 시장 관심 전무).\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 SEC 공시 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 5].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 08:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Sagtec Establishes U.S. Subsidiary to Launch CLAi 2.0 and AI Edu, Expanding Its AI Subscription Business\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '자회사 설립 및 미래 매출 목표치(Projection)' 언론플레이:\n원문 본문에 *\"CLAi Global Limited will lead Sagtec's U.S. rollout of AI software and practical AI training... targets 5,000 to 10,000 subscribers... projects approximately US$5 million in revenue...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 5, 26].\n자체적인 미국 법인 설립과 구독 소프트웨어 출시 계획을 알리며 미래의 예상 매출을 $5M으로 추정해 발표한 전형적인 주관적 전망 홍보물입니다 (오늘 앞서 차단된 VIVS의 가이던스 상향 기대 PR과 동일한 오답 유형) [cite: 5].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 5].\n심사 헌법 제3조 ④항 위배 (확정 금액 결여 및 단순 전망/자회사 설립 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 자회사 설립/자체 전망치(Projection)/홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n3. 최종 심사 및 결재 판정\nSAGT의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, 단순 미국 자회사 설립 및 미래 12개월 구독 매출 $5M 달성 목표치에 대한 자체 홍보물에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: SAGT 처리합니다 [cite: 5, 26].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: SAGT NOTES:\n[SAGT] 확정 수주 전무한 단순 미국 자회사 설립 및 12개월 내 $5M 매출 달성 목표치(추정) 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN, GNPX, STEX, ELBM, DRIO, CMND, HTOO, GIXI, NXPL, ALP, TVRD, MARPS, MVIS, AZIO, LUCY, VERI, ATHR, VIVS, NUWE에 이어 SAGT까지 총 28개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상, 단순 행사/웨비나 참가, 금액 미기재 제휴/고객 채택, 단순 투자 검토, 기발표 사후종결 재탕, 초기 Pre-IND 피드백, 소액 정기배당, 정부 지원사업 단순 참여, 하도급 단순 합류, 자체 전망치 홍보 등으로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 5]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 5].",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795095201632_NUWE_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "신규 수주/계약 전무한 기인수 자회사들의 단순 캘리포니아 공장 통폐합(이전) 홍보 PR로 헌법 3조 위배 및 장전 음봉(-1.19%) 전량 차단",
       "catalyst_hint": "[당일 PR] PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and O",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ELAB (PMGC Holdings Inc.) 2026-11-17 07:35 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.33M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 신규 계약 달러 금액 전무).\n실시간 체결가 및 수급 (장전 윗꼬리 음봉 하락 덤핑):\n전일 종가 $1.6600 대비 현재가 **$1.6403 (-1.19%)**.\n당일 최고가 $1.7903 찍은 후 장전 고점 대비 -8.4% 밀리며 마이너스 파란불 음봉으로 전환.\n당일 누적 거래대금 $41,255 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"PMGC Holdings Inc. [NASDAQ: ELAB] Announces Successful Combination of Two Aerospace Manufacturing Companies into a Single California Location, Enhancing Manufacturing and Operational Efficiency and Reducing Costs\"*\n원문 직독 결과 드러난 치명적 실체:\n확정 수주/현금 유입이 아닌 과거 인수 완료된 자회사들의 내부 생산설비 통폐합 완료 안내 (Internal Facility Consolidation PR):\n본 PR의 본질은 신규 외부 수주 계약이 아니라, 2025년 7월과 2026년 5월에 각각 인수한 AGA Precision Systems와 A&B Aerospace의 제조 시설을 캘리포니아 아주사(Azusa) 단일 위치로 이전·통폐합 완료했다는 단순 내부 생산 공장 통합 및 원가 절감 기대 홍보 보도자료입니다.\n외부 대기업이나 방산 기관으로부터 확정된 대규모 신규 납품 계약액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n과거 180일 정기 실적 발표(11/16) 직후 배포된 쪼개기 IR 언론 플레이:\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 *\"3분기 매출 785% 급증($2.53M) 및 10-Q 제출\"*을 이미 발표한 바 있습니다.\n실적 발표 다음 날 주가 부양을 위해 기존 기인수 사업장의 단순 설비 이전 완료 사실을 포장하여 배포한 전형적인 사후 쪼개기/재홍보성 뉴스입니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 음봉 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 인수합병 사업장의 단순 설비 가동/이전 쪼개기 재탕 및 ④ 금액 미기재 단순 효율화/통폐합 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.7903까지 튀었다가 즉각 고점 대비 -8.4% 밀리며 -1.19% 마이너스 파란불 음봉으로 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 신규 매출 계약이 전무한 기존 기인수 자회사들의 단순 캘리포니아 공장 통폐합 이전 완료 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -1.19% 음봉으로 하락 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ELAB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: ELAB NOTES:\n[ELAB] 신규 수주/계약 전무한 기인수 자회사들의 단순 캘리포니아 공장 통폐합(이전) 홍보 PR로 헌법 3조 위배 및 장전 음봉(-1.19%) 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 9개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB) 전수가 실체적 확정 현금 유입이 없는 정기 실적/지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 안내문, 공장 통폐합으로 확인되어 안전하게 전량 차단되었습니다. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794918934178_STEX_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "07:35:34",
-      "time_kst": "21:35:34",
-      "symbol": "STEX",
-      "company_name": "STEX",
-      "exchange": "ND",
-      "price": 0.31,
-      "gain_pct": 3.44,
-      "mcap_m": 36.52,
-      "decision": "FALSE",
-      "elapsed_sec": 41.2,
-      "reason": "보통주 특별배당이 아닌 토큰화 금 상품(GLDY)의 8번째 정기 수익분배 PR로 배당요건(25%+) 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Streamex Corp. Announces October 2026 Yield Dividend Distribution for GLDY",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 STEX (Streamex Corp.) 2026-11-17 07:34 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.52M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 배당 착시 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 수주 달러 금액 전무).\n배당 관련 핵심 수치: 보통주 주주 대상 특별배당이 아니며, 추정 보통주 배당수익률 0.0% / 시총 대비 0.0%의 자체 상품 배당 공지에 불과함.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.2997 대비 현재가 $0.3100 (+3.44%), 당일 최고가 $0.3240 (고점 대비 -4.3%).\n당일 누적 거래대금 $31 USD (31달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Streamex Corp. Announces October 2026 Yield Dividend Distribution for GLDY\"\n원문 직독 결과 드러난 치명적 실체:\n보통주 특별현금배당이 아닌 토큰화 금 자산(GLDY)의 정기 이자/수익 분배 (Tokenized Asset Distribution PR):\n본 PR의 본질은 STEX 상장사 보통주 주주들에게 현금을 지급하는 기업 차원의 특별배당(Special Dividend)이 아닙니다.\n회사가 발행/운용하는 토큰화 금 상품인 'GLDY' 보유자들을 대상으로 10월분 8번째 정기 수익(eighth yield payment for GLDY, its yield-bearing gold asset)을 분배한다는 단순 자산 운용 안내 보도자료입니다.\n연구소 배당 헌법 제2조 및 제3조 ②항 정량 요건 완전 미달 (JCSE 오답교본형):\n연구소 심사 헌법 제2조(대박 PR / FORCE_BUY)의 배당 승인 조건은 **\"보통주 특별배당(Special Dividend)으로서 배당수익률 25% 이상 또는 배당총액 시총 대비 30% 이상의 파격 현금 살포(HIHO, RBNE, AIOK형)\"**이어야 합니다.\n반면 STEX의 발표는 보통주 배당수익률 **0.0%**이며, 헌법 제3조 ②항의 '배당수익률 25% 미만 소액 배당 및 일반/상품 정기 분배는 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초소형주 시총 40%+ 확정가 공개매수·즉시소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ②·④항 위배:\n상장사 주주 가치 제고와 무관한 단순 GLDY 토큰 상품 정기 분배 홍보 PR로 1급 확정 기폭제 기준에 미달합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 STEX 보통주 주주 대상 특별현금배당이 아닌 자체 토큰화 금 상품(GLDY)의 8번째 정기 이자 분배(추정 보통주 배당수익률 0.0%)에 불과하여 헌법 제2조 배당 요건(25%+)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: STEX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: STEX NOTES:\n[STEX] 보통주 특별배당이 아닌 토큰화 금 상품(GLDY)의 8번째 정기 수익분배 PR로 배당요건(25%+) 미달 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 8개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX) 전수가 실체적 확정 현금 유입이나 1급 금융 기폭제가 없는 껍데기 IR·정기 분배로 확인되어 안전하게 전량 차단되었습니다\n. 프리마켓 후반 및 본장 개장 전까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
