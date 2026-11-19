@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 20:30:47",
-  "updated_at_et": "2026-11-19 06:30:47",
-  "updated_epoch_ms": 1795087847802,
+  "updated_at_kst": "2026-11-19 20:31:41",
+  "updated_at_et": "2026-11-19 06:31:41",
+  "updated_epoch_ms": 1795087901293,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:30:42"
+    "updated_kst": "20:31:40"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 2,
     "today_buy": 0,
     "today_false": 2,
-    "today_hardcut": 59,
+    "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "06:31:34",
+      "time_kst": "20:31:34",
+      "symbol": "WLFC",
+      "company_name": "WLFC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $979.59M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "06:09:46",
       "time_kst": "20:09:46",
       "symbol": "ARAI",
@@ -2924,16 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "04:03:00",
-      "time_kst": "18:03:00",
-      "symbol": "TGL",
-      "company_name": "TGL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-21 [424B5])"
     }
   ]
 }
