@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:05:54",
-  "updated_at_et": "2026-11-19 09:05:54",
-  "updated_epoch_ms": 1795097154864,
+  "updated_at_kst": "2026-11-19 23:06:07",
+  "updated_at_et": "2026-11-19 09:06:07",
+  "updated_epoch_ms": 1795097167632,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "MAMO",
+    "company_name": "MAMO",
+    "exchange": "ND",
+    "price": 0.889,
+    "gain_pct": 0.0,
+    "mcap_m": 37.02,
+    "catalyst_hint": "[당일 PR] Massimo Group Expands Marine Portfolio with New Cove Series Entry-Level Boats",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:05:59",
+    "started_at_kst": "23:05:59",
+    "started_epoch_ms": 1795097159241
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:05:46"
+    "updated_kst": "23:06:07"
   },
   "stats": {
     "today_total": 40,
@@ -2437,6 +2449,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "09:06:03",
+      "time_kst": "23:06:03",
+      "symbol": "JRSH",
+      "company_name": "JRSH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $98.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "09:05:55",
+      "time_kst": "23:05:55",
+      "symbol": "VELO",
+      "company_name": "VELO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $112.27M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "09:05:49",
       "time_kst": "23:05:49",
       "symbol": "MDB",
@@ -2914,26 +2946,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $119.08M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:31:00",
-      "time_kst": "22:31:00",
-      "symbol": "WQEY",
-      "company_name": "WQEY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "구속력 없는 단순 LOI/MOU(Non-binding) 설익은 PR 차단 (WISeQey’s Subsidiary, SEALSQ Signs a LOI to Acquire Qui)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "08:28:22",
-      "time_kst": "22:28:22",
-      "symbol": "NNVC",
-      "company_name": "NNVC",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
     }
   ]
 }
