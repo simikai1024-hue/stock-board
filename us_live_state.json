@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 23:09:11",
-  "updated_at_et": "2026-11-19 09:09:11",
-  "updated_epoch_ms": 1795097351350,
+  "updated_at_kst": "2026-11-19 23:09:22",
+  "updated_at_et": "2026-11-19 09:09:22",
+  "updated_epoch_ms": 1795097362579,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "LIQT",
+    "company_name": "LIQT",
+    "exchange": "ND",
+    "price": 0.2209,
+    "gain_pct": 4.69,
+    "mcap_m": 7.28,
+    "catalyst_hint": "[당일 PR] LiqTech Receives Commissioning Approval for iCER Marine Water Treatment System",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:09:16",
+    "started_at_kst": "23:09:16",
+    "started_epoch_ms": 1795097356662
   },
   "halt_watch": {
     "active": false
