@@ -293,7 +293,13 @@ def extract_isi_top3_themes() -> tuple:
             top3 = stock_metrics[:3]
             theme_money = sum(x["money_eok"] for x in top3)
 
-        leader = max(surging_m, key=lambda x: (x["rate"], x["money_eok"])) if surging_m else max(top3, key=lambda x: x["rate"])
+        buyable_surging = [x for x in surging_m if x["rate"] < 29.0]
+        if buyable_surging:
+            leader = max(buyable_surging, key=lambda x: (x["rate"], x["money_eok"]))
+        elif surging_m:
+            leader = max(surging_m, key=lambda x: (x["rate"], x["money_eok"]))
+        else:
+            leader = max(top3, key=lambda x: x["rate"])
         candidates = [s for s in stock_metrics if s["code"] != leader["code"] and 2.0 <= s["rate"] <= 14.0]
         second = max(candidates, key=lambda x: x["vol_ratio"]) if candidates else (top3[1] if len(top3) > 1 else leader)
 
