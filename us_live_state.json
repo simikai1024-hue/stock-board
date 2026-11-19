@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 20:34:24",
-  "updated_at_et": "2026-11-19 06:34:24",
-  "updated_epoch_ms": 1795088064033,
+  "updated_at_kst": "2026-11-19 20:34:57",
+  "updated_at_et": "2026-11-19 06:34:57",
+  "updated_epoch_ms": 1795088097485,
   "analyzing": {
-    "active": true,
-    "symbol": "SEAT",
-    "company_name": "SEAT",
-    "exchange": "ND",
-    "price": 1.37,
-    "gain_pct": 7.03,
-    "mcap_m": 15.7,
-    "catalyst_hint": "[당일 PR] Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:34:20",
-    "started_at_kst": "20:34:20",
-    "started_epoch_ms": 1795088060995
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,40 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:34:22"
+    "updated_kst": "20:34:43"
   },
   "stats": {
-    "today_total": 4,
-    "today_nblm_count": 4,
+    "today_total": 5,
+    "today_nblm_count": 5,
     "today_buy": 0,
-    "today_false": 4,
+    "today_false": 5,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
-    "avg_nblm_sec": 53.0
+    "avg_nblm_sec": 49.7
   },
   "verdicts": [
+    {
+      "id": "v_1795088094628_SEAT_FALSE",
+      "date_et": "2026-11-19",
+      "weekday_kr": "목",
+      "time_et": "06:34:54",
+      "time_kst": "20:34:54",
+      "symbol": "SEAT",
+      "company_name": "SEAT",
+      "exchange": "ND",
+      "price": 1.37,
+      "gain_pct": 7.03,
+      "mcap_m": 15.7,
+      "decision": "FALSE",
+      "elapsed_sec": 36.5,
+      "reason": "확정 상업수주 전무 및 잔여부채 0원 청소 없는 단순 채권단 부채재조정(TSA/리파이낸싱) 협약 PR로 헌법 2조 미달 및 장전 고점대비 -29.7% 폭락 덤핑 전량 차단",
+      "catalyst_hint": "[당일 PR] Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization",
+      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 SEAT (Vivid Seats Inc.) 2026-11-19 06:34:18 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 -29.7% 설거지 폭탄 출회)\n실질 시가총액: 약 $15.70M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $273.00M 수치의 치명적 본질 적발):\n언뜻 시총 대비 1,700%를 초과하는 대규모 자본재조정(Recapitalization) 숫자가 감지되었으나, 본문 직독 결과 외부 고객사의 확정 상업 수주/현금 선급금(AIMD형)이 아니라 **기존 채권단(Lenders)과의 채무 재조정 지원 계약(Transaction Support Agreement, TSA)**에 불과합니다.\n순부채 $232M 감축 및 신규 1순위 기간대출(First Lien Term Loans) $66M 조달, 만기 2032년 연장을 골자로 하는 전형적인 한계기업의 부채 리파이낸싱·구조조정 협약입니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -29.7% 대폭락 덤핑):\n전일 종가 $1.2800 대비 현재가 $1.3700 (+7.03%).\n직전 프리마켓에서 **최고가 $1.9500 (+52.3%)**까지 띄운 뒤 시장이 채무조정/리파이낸싱 실체를 확인하자마자 고점 대비 -29.7% 폭락하며 장대 윗꼬리 덤핑 매물이 쏟아져 내렸습니다.\n당일 누적 거래대금은 $7,188 USD 수준으로 극소액입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 06:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 채권단과의 채무 구조조정 협약 (TSA / Recapitalization PR):\n원문 본문에 *\"Vivid Seats Inc. (Nasdaq: SEAT)... entered into a Transaction Support Agreement (the 'TSA') with an ad hoc group of lenders representing a majority of its term loans... Transaction Reduces Net Debt by $232 Million, Provides $66 Million of New First Lien, First Out Term Loans, and Extends Term Loan Maturities to 2032\"*라고 명시되어 있습니다.\n이는 회사 금고로 유입되어 당장 순이익으로 꽂히는 창사 최대 수주(AIMD형)가 전혀 아닙니다.\n과도한 차입부채를 만기 연장하고 신규 대출을 받아 기존 빚을 돌려막는 전형적인 재무 위기 기업의 부채 구조조정(Debt Restructuring) 협약입니다.\nCLRO·ONFO형 '완전 무차입 턴어라운드' 기준 미달 (헌법 제2조 ②항 불부합):\n연구소 심사 헌법 제2조 ②항의 재무 턴어라운드(ONFO·CLRO형) 승격 요건은 **\"나스닥 상장유지 자기자본 요건 충족(상폐위기 졸업) + 차입부채/전환사채 전액 상환 및 100% 출자전환으로 잔여 부채 0원 달성\"**이 필수 조건입니다.\n반면 SEAT의 자본재조정은 부채를 완전히 0원으로 청소하는 것이 아니라, 순부채 일부 감축 후에도 여전히 수억 달러 규모의 1순위 담보대출(Term Loans) 채무가 남아 만기만 2032년으로 유예시키는 구조입니다.\n따라서 잔여 부채 0원의 완전 무차입 오버행 소멸 공식에 절대 해당하지 않습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -29.7% 덤핑 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 채무 재조정/만기 연장/부채 리파이낸싱 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (족보집 506번 CAPS 전환사채 만기연장, 520번 TUSK 텀론 체결 오답 패턴과 일치).\n장전 프리마켓에서 $1.9500까지 반짝 띄운 뒤 시장이 빚 돌려막기 실체를 확인하자마자 고점 대비 -29.7% 폭락 음봉으로 내리꽂힌 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\nSEAT의 당일 공식 PR은 확정된 상업 매출 수주나 현금 선급금이 전무하고, 채권단과의 차입부채 만기 연장 및 신규 텀론 조달을 통한 부채 돌려막기 재조정 협약에 불과하여 헌법 제2조(AIMD/CLRO형) 요건에 절대 미달하며, 장전 최고가 대비 -29.7% 폭락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SEAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: SEAT NOTES:\n[SEAT] 확정 상업수주 전무 및 잔여부채 0원 청소 없는 단순 채권단 부채재조정(TSA/리파이낸싱) 협약 PR로 헌법 2조 미달 및 장전 고점대비 -29.7% 폭락 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(시총 6%대 소액 정부 실증 보조금)에 이어 SEAT(단순 부채 구조조정 리파이낸싱 및 -29.7% 윗꼬리 덤핑)까지 4개 종목 연속으로 껍데기 IR 및 비상업성 협약이 완벽히 식별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
+      "engine": "NotebookLM 직통",
+      "trade_action": "🛡️ 차단 (패스)"
+    },
     {
       "id": "v_1795088023458_SEAT_FALSE",
       "date_et": "2026-11-19",
@@ -2422,26 +2430,6 @@
       "reason": "FDA 승인 없는 단순 ObesityWeek 학회 전임상 데이터 발표이자 11월 9일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단",
       "catalyst_hint": "[당일 PR] MetaVia Presents Preclinical Data Supporting the Potential of DA-1726 to Address Liver Disease and Weight Loss at ObesityWeek® 2026",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MTVA (MetaVia Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $8.73M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 달러 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 신규 계약/수주/기술수출 금액 일절 미감지 (구체적 계약 달러 금액 부재).\n실시간 체결가 및 수급 (장전 윗꼬리 정체):\n전일 종가 $1.3000 대비 현재가 **$1.3244 (+1.88%)**.\n당일 최고가 $1.4307 찍은 후 고점 대비 -7.4% 밀리며 상승폭 축소.\n당일 누적 거래대금 $1,727 USD (1천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-16 [8-K] (Item 7.01, 8.01, 9.01) 접수 완료 (학회 포스터 발표 보도자료 첨부).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:31 ET) 공식 PR 원문 분석:\nPR 제목: *\"MetaVia Presents Preclinical Data Supporting the Potential of DA-1726 to Address Liver Disease and Weight Loss at ObesityWeek® 2026\"*\n원문 직독 결과 드러난 치명적 실체:\nFDA 최종 승인이나 임상 성공이 아닌 단순 학회(ObesityWeek® 2026) 전임상 동물실험 데이터 발표 (Preclinical Data PR):\n본 PR의 본질은 워싱턴 D.C.에서 열린 비만학회(ObesityWeek 2026, 11월 14일 발표)에서 DA-1726과 레타트루타이드(retatrutide)를 비교한 '전임상 동물 데이터(positive preclinical data from a head-to-head study)'를 포스터로 발표했다는 학회 결과 공유 보도자료입니다.\n연구소 심사 헌법 제2조의 FORCE_BUY 대상인 **'FDA 정식 품목 허가 승인(Approval)'**이나 **'임상 3상 최종 평가지표 입증(Endpoint Met)'**이 전혀 아니며, 사람 대상 임상 2상 진입도 2027년 하반기 목표에 불과합니다.\n11월 9일 기발표 학회 포스터 발표 예고의 100% 노골적 재탕 (심사 헌법 제3조 ②항 위배):\n과거 180일 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 9일에 이미 \"MetaVia Announces Poster Presentation on DA-1726 at ObesityWeek® 2026\" 보도자료를 배포하여 해당 학회 포스터 발표를 사전 홍보한 바 있습니다.\n또한 11월 5일(간지방 68% 감소), 11월 12일(요산 수치 감소), 11월 13일(3분기 실적) 등 연일 DA-1726 관련 자잘한 중간 지표를 쪼개어 언론 플레이를 펼치고 있는 전형적인 반복 우려먹기/쪼개기성 IR 보도자료입니다.\n확정 현금 유입 및 1급 금융 기폭제 절대 결여:\n빅파마 거액 독점 기술수출(라이선스 아웃), 시총을 압도하는 확정 달러 수주/선급금(AIMD형), 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+전환사채 0원 턴어라운드(ONFO형) 등 실체적 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 학회 전임상 데이터 발표/기발표 학회 일정 재탕은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 8-K는 FDA 승인이 아닌 단순 ObesityWeek 2026 학회 전임상 데이터 발표이자 11월 9일 기발표된 학회 건의 재탕 홍보물에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MTVA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: MTVA NOTES:\n[MTVA] FDA 승인 없는 단순 ObesityWeek 학회 전임상 데이터 발표이자 11월 9일 기발표 학회 건 재탕 PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), PXLW (총 $10M 법인 자사주 매입 승인 8-K), JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794837490195_SQFT_FALSE",
-      "date_et": "2026-11-16",
-      "weekday_kr": "월",
-      "time_et": "08:58:10",
-      "time_kst": "22:58:10",
-      "symbol": "SQFT",
-      "company_name": "SQFT",
-      "exchange": "ND",
-      "price": 0.81,
-      "gain_pct": 0.0,
-      "mcap_m": 1.16,
-      "decision": "FALSE",
-      "elapsed_sec": 47.0,
-      "reason": "신규 확정 수주가 아닌 단순 Q3 정기 실적 발표(자산 총계 $113M 착시) PR로 1급 기폭제 미달 전량 차단",
-      "catalyst_hint": "[당일 PR] Presidio Property Trust, Inc. Announces Earnings for the Quarter Ended September 30, 2026",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SQFT (Presidio Property Trust, Inc.) 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.16M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 검증 (치명적 수주 착시 9,767% 적발):\n본문 핵심 금액으로 감지된 약 $113.30M USD(시총 $1.16M 대비 9,767.2%)는 외부에서 신규 유입되는 확정 수주나 M&A 계약금이 아닙니다.\n리츠(REIT) 회사의 3분기 분기보고서상 총자산(Total Real Estate Assets) 또는 부동산 포트폴리오 장부가액 등 내부 대차대조표상의 기존 부동산 자산 총계 수치에 불과합니다.\n실시간 체결가 및 수급 (바닥 거래량 구간):\n전일 종가 $0.8100 대비 현재가 $0.8100 (+0.00%), 당일 최고가 $0.8185 (고점 대비 -1.0%), 당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 실체 판별이 핵심입니다.\n선발표 규정 확인: 10-Q 실적 발표 관련 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 근거가 되지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/16 08:45 ET) 공식 PR 원문 분석:\nPR 제목: *\"Presidio Property Trust, Inc. Announces Earnings for the Quarter Ended September 30, 2026\"*\n원문 직독 결과 드러난 치명적 실체:\n신규 수주가 아닌 통상적인 3분기 정기 실적 발표 (Routine REIT Q3 Earnings PR):\n본 PR의 본질은 다각화 상업용 리츠(REIT)사인 Presidio Property Trust가 2026년 9월 30일로 마감된 3분기 임대 수익($2.65M) 등 정기 분기 영업 실적을 공시한 **단순 정기 실적 보도자료(today reported earnings for its quarter ended September 30, 2026)**입니다.\n외부 신규 자본 유입, 대규모 부동산 매각 차익 실현, 창사 최대 수주 등 신규 사업 확정 호재가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여:\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적인 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 대규모 자사주 매입/소각(PXLW형), 특별현금배당(HIHO형, JCSE형), 나스닥 최소 자기자본 충족+오버행 해소(ONFO형)\" 등 주가를 수직 견인할 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 시리즈 D 우선주 교환 제안 이후 이어진 정기 일정 소진:\n과거 이력 대조 결과, 회사는 9월~10월 시리즈 D 우선주 교환 제안(Exchange Offer) 종료 이후\n, 11월 13일 정기 10-Q 제출 일정에 맞춰 분기 실적 홍보 보도자료를 낸 것에 불과합니다.\n심사 헌법 제3조 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액이 없는 단순 정기 분기실적/자산총계 나열/통상 IR 보도자료는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주 계약이 아닌 단순 3분기 정기 실적 발표(부동산 자산 총계 $113.3M 착시)에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: SQFT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-16 FORCE_BUY: NONE FORCE_BLOCK: SQFT NOTES:\n[SQFT] 신규 확정 수주가 아닌 단순 Q3 정기 실적 발표(자산 총계 $113M 착시) PR로 1급 기폭제 미달 전량 차단 ===VERDICT_END===\n💡 오늘 장전 프리마켓에서 헌법 제2조를 통과한 진성 대장주 라인업은 HIHO (보통주 특별현금배당 $0.43228, 시총 대비 42% 확정), **PXLW (총 $10M 법인 자사주 매입 승인 8-K)**\n, JCSE (보통주 현금배당 $0.20 승인 6-K, 수익률 12.5%) 3종목으로 확정 관리 중이며, 본장 개장(09:30 ET) 전후 추가 1급 기폭제 포착 시 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
