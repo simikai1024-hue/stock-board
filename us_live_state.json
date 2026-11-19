@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:26:38",
-  "updated_at_et": "2026-11-19 04:26:38",
-  "updated_epoch_ms": 1795080398565,
+  "updated_at_kst": "2026-11-19 18:27:21",
+  "updated_at_et": "2026-11-19 04:27:21",
+  "updated_epoch_ms": 1795080441943,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:26:30"
+    "updated_kst": "18:27:11"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 29,
+    "today_hardcut": 31,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:27:14",
+      "time_kst": "18:27:14",
+      "symbol": "CISS",
+      "company_name": "CISS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-16 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:27:05",
+      "time_kst": "18:27:05",
+      "symbol": "CAST",
+      "company_name": "CAST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $55.91M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:25:05",
       "time_kst": "18:25:05",
       "symbol": "VVOS",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $653.16M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "10:07:25",
-      "time_kst": "00:07:25",
-      "symbol": "ROP",
-      "company_name": "ROP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $46737.26M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:58:40",
-      "time_kst": "23:58:40",
-      "symbol": "TGHL",
-      "company_name": "TGHL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 투매 급락 구간 방어 차단 (현재 -9.5% <= -8.0%)"
     }
   ]
 }
