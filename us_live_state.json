@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-19",
-  "updated_at_kst": "2026-11-19 18:00:46",
-  "updated_at_et": "2026-11-19 04:00:46",
-  "updated_epoch_ms": 1795078846517,
+  "updated_at_kst": "2026-11-19 18:01:31",
+  "updated_at_et": "2026-11-19 04:01:31",
+  "updated_epoch_ms": 1795078891824,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:00:37"
+    "updated_kst": "18:01:18"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 2,
+    "today_hardcut": 5,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-19",
+      "time_et": "04:01:29",
+      "time_kst": "18:01:29",
+      "symbol": "LINK",
+      "company_name": "LINK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:01:22",
+      "time_kst": "18:01:22",
+      "symbol": "NCPL",
+      "company_name": "NCPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-19",
+      "time_et": "04:01:05",
+      "time_kst": "18:01:05",
+      "symbol": "DCM",
+      "company_name": "DCM",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-19",
       "time_et": "04:00:38",
       "time_kst": "18:00:38",
       "symbol": "GMM",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1085.18M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:18:45",
-      "time_kst": "23:18:45",
-      "symbol": "RCT",
-      "company_name": "RCT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $209.57M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:16:06",
-      "time_kst": "23:16:06",
-      "symbol": "NICE",
-      "company_name": "NICE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5254.77M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-18",
-      "time_et": "09:16:01",
-      "time_kst": "23:16:01",
-      "symbol": "SMCI",
-      "company_name": "SMCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $15913.74M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
