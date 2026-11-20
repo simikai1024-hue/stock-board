@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:19:46",
-  "updated_at_et": "2026-11-20 10:19:46",
-  "updated_epoch_ms": 1795187986345,
+  "updated_at_kst": "2026-11-21 00:20:54",
+  "updated_at_et": "2026-11-20 10:20:54",
+  "updated_epoch_ms": 1795188054952,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 235.61,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "00:19:31"
+    "holding_symbol": "LABT",
+    "holding_qty": 843,
+    "avg_price": 0.2786,
+    "current_price": 0.28,
+    "profit_rate": 0.5,
+    "updated_kst": "00:20:46"
   },
   "stats": {
     "today_total": 33,
