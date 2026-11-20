@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:01:49",
-  "updated_at_et": "2026-11-20 04:01:49",
-  "updated_epoch_ms": 1795165309600,
+  "updated_at_kst": "2026-11-20 18:02:46",
+  "updated_at_et": "2026-11-20 04:02:46",
+  "updated_epoch_ms": 1795165366408,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "SEGG",
     "holding_qty": 767,
     "avg_price": 0.7197,
-    "current_price": 0.7011,
-    "profit_rate": -2.58,
-    "updated_kst": "18:01:41"
+    "current_price": 0.7173,
+    "profit_rate": -0.33,
+    "updated_kst": "18:02:38"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 4,
+    "today_hardcut": 7,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:02:43",
+      "time_kst": "18:02:43",
+      "symbol": "OBAI",
+      "company_name": "OBAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:02:10",
+      "time_kst": "18:02:10",
+      "symbol": "NIXX",
+      "company_name": "NIXX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $78.21M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:02:02",
+      "time_kst": "18:02:02",
+      "symbol": "AIFA",
+      "company_name": "AIFA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:01:12",
       "time_kst": "18:01:12",
       "symbol": "INLF",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $283.66M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:49:01",
-      "time_kst": "23:49:01",
-      "symbol": "SEV",
-      "company_name": "SEV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $80.72M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:48:55",
-      "time_kst": "23:48:55",
-      "symbol": "ALT",
-      "company_name": "ALT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $270.48M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:48:52",
-      "time_kst": "23:48:52",
-      "symbol": "MRLN",
-      "company_name": "MRLN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $87.95M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
