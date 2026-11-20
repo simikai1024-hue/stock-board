@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:04:00",
-  "updated_at_et": "2026-11-20 09:04:00",
-  "updated_epoch_ms": 1795183440179,
+  "updated_at_kst": "2026-11-20 23:04:51",
+  "updated_at_et": "2026-11-20 09:04:51",
+  "updated_epoch_ms": 1795183491867,
   "analyzing": {
-    "active": true,
-    "symbol": "SAGT",
-    "company_name": "SAGT",
-    "exchange": "ND",
-    "price": 1.1242,
-    "gain_pct": 11.31,
-    "mcap_m": 27.82,
-    "catalyst_hint": "[당일 PR] Sagtec Global Limited Announces Additional Share Acquisition by CEO, Reinforcing Confidence in Long-Term Growth Strategy",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:03:57",
-    "started_at_kst": "23:03:57",
-    "started_epoch_ms": 1795183437333
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.9145,
-    "profit_rate": 8.88,
-    "updated_kst": "23:03:44"
+    "current_price": 0.8701,
+    "profit_rate": 3.6,
+    "updated_kst": "23:04:41"
   },
   "stats": {
-    "today_total": 23,
+    "today_total": 24,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 18,
+    "today_false": 19,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 56.1
+    "avg_nblm_sec": 56.0
   },
   "verdicts": [
+    {
+      "id": "v_1795183483265_SAGT_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "09:04:43",
+      "time_kst": "23:04:43",
+      "symbol": "SAGT",
+      "company_name": "SAGT",
+      "exchange": "ND",
+      "price": 1.1242,
+      "gain_pct": 11.31,
+      "mcap_m": 27.82,
+      "decision": "FALSE",
+      "elapsed_sec": 51.1,
+      "reason": "확정 수주 전무한 CEO 개인 소액 장외 지분 매수($26.7만 달러, 8월 기발표 판박이) 쪼개기 홍보 PR로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Sagtec Global Limited Announces Additional Share Acquisition by CEO, Reinforcing Confidence in Long-Term Growth Strategy",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 [cite: 5, 20], [달의검] 실시간 긴급결재 원문서류철 [cite: 259] 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 SAGT (Sagtec Global Limited) 2026-11-20 09:03:52 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 11, 259].\n1. 체급 & 실시간 시세 수급 팩트 (CEO 단순 내부자 장외 매수 $267,800 초소액 적발)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: SAGT) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 5, 260].\n실질 시가총액: 약 $27.82M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 12, 259].\n체급 대비 규모 (상업 수주/현금 유입 0원 및 CEO 개인 장외 주식 매수 $267.8K 초소액 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 상업 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 259].\n헤드라인의 'CEO 추가 주식 취득(Additional Share Acquisition by CEO)'은 회사 금고로 유입되는 확정 신규 매출이나 정부/상업 메가 계약이 절대 아닙니다 [cite: 260].\n본문 및 SEC Form 4 실제 원문 직독 결과, CEO인 Ng Chen Lok 개인이 기존 주주로부터 주당 $1.03에 보통주 260,000주를 장외 사적 거래(Privately negotiated transaction)로 취득한 것으로, **거래 총액은 고작 $267,800 USD (약 26.7만 달러 / 시총 $27.82M 대비 0.96%에 불과한 극소액 지분 이동)**입니다 [cite: 260, 266].\n이는 회사 계좌로 1달러도 유입되지 않는 개인 간 주식 매매일 뿐이며, 회사 실질 펀더멘털을 점프시키는 상업적 금융 기폭제가 전혀 아닙니다 [cite: 13, 260].\n실시간 체결가 및 수급 (+11.31% 상승률 대비 누적 거래대금 $2.5만 달러 미미):\n전일 종가 $1.0100 대비 현재가 $1.1242 (+11.31%) [cite: 260].\n당일 프리마켓 최고가 $1.1300 (+11.88%)을 터치했으나, 누적 거래대금은 $25,251 USD (약 2.5만 달러 수준의 극소액 체결)에 그치고 있습니다 [cite: 260].\n당일 SEC 공시 현황: 2026-11-20\n, 2026-11-20 [6-K], 2026-11-20 [6-K] 제출 확인 완료 [cite: 260].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 09:00:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire [cite: 260]\nPR 제목: \"Sagtec Global Limited Announces Additional Share Acquisition by CEO, Reinforcing Confidence in Long-Term Growth Strategy\" [cite: 260]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 'CEO 개인의 단순 장외 소액 지분 매수' 언론플레이:\n원문 본문에 *\"its Chief Executive Officer and major shareholder, Mr. Ng Chen Lok, has acquired an additional 260,000 Class A ordinary shares... through a privately negotiated transaction at a purchase price of US$1.03 per share, representing an aggregate purchase consideration of US$267,800...\"*라고 명시되어 있습니다 [cite: 260].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 13, 15].\n연구소 심사 헌법 제2조 ④항의 '무워런트 프리미엄 전략적 지분투자'는 회사로 유입되는 제3자 유상 신규 투자금을 의미하며, CEO 개인 간 구주 장외 매매($267.8K, 시가 $1.01과 유사한 $1.03)는 이에 해당하지 않습니다 [cite: 260].\n과거 180일 연속된 'CEO 지분 매수 및 정성적 AI' 쪼개기 우려먹기 적발:\n최근 180일 과거 PR 원장 대조 결과 [cite: 269, 270, 271]:\n[2026-08-04 | globenewswire] Sagtec Global Limited Announces the CEO and COO Acquire Shares from Existing Public Shareholders, Reinforcing Confidence in the Company's Long-Term Growth [cite: 271]\n원문 명시: \"The latest acquisition follows Mr. Ng's previous purchase of 300,000 Class A ordinary shares in July 2026...\" [cite: 261]\n이미 지난 8월 4일에도 'CEO와 COO의 기존 주주 주식 매수'로 언론플레이를 배포했던 데 이어, 오늘 또다시 동일한 패턴으로 $267.8K 소액 매수를 들고나와 '장기 성장 확신'을 반복 홍보하는 **전형적인 쪼개기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 260, 271].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 12, 13].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 내부자 소액 장외매수($26.7만 달러)/신뢰 표명/금액 미기재 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 259, 260].\n3. 최종 심사 및 결재 판정\nSAGT의 당일 공식 PR은 회사 금고로 유입되는 확정 상업 메가 수주나 현금 선급금이 전무하며, 지난 8월 발표의 판박이 쪼개기 재탕인 CEO 개인의 소액 장외 지분 매수($267,800, 시총 대비 0.96%) 홍보에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: SAGT 처리합니다 [cite: 259, 260, 271].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 274].\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: SAGT NOTES:\n[SAGT] 확정 수주 전무한 CEO 개인 소액 장외 지분 매수($26.7만 달러, 8월 기발표 판박이) 쪼개기 홍보 PR로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(주총 연기 단순 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역), 다섯 번째 종목 TYGO(로펌 집단소송 원고 모집 악재), 여섯 번째 종목 NCNA(학회 전임상 포스터 발표), 일곱 번째 종목 CVM(사우디 신속심사 트랙 단순 지정), 여덟 번째 종목 ZEO(전기료 절감 마케팅), 아홉 번째 종목 PHUN(주총 위임장 표 대결 서한), 열 번째 종목 BRNX(EU 경매 신청 계획 금액 착시), 열한 번째 종목 STKS(외식 가맹 모집 라이선싱 론칭), 열두 번째 종목 NVNO(학회 3년 추적 데이터 발표), 열세 번째 종목 FRGT(사내 AI 랩 연구 논문 발표), 열네 번째 종목 APRE(학회 1상 중간 결과 발표)에 이어 SAGT(CEO 소액 지분 매수 쪼개기 재탕)까지 15개 후보 종목 전수가 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상, 규제 지정, 학회 발표, 연구 논문, 내부자 소액 매수 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 259, 260, 281, 310, 311].\n이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 13, 274].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795183429336_APRE_FALSE",
       "track": "TRACK1",
@@ -2447,29 +2456,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 EDSA (Edesa Biotech, Inc.) 2026-11-17 09:26 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $26.02M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/라이선스 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 **일절 미감지 (구체적 계약 달러 금액 전무)**.\n발표된 실체는 현금 유입이 발생하는 상업 계약이나 FDA 정식 시판 승인이 아니라, 유럽위원회(EC)의 **희귀의약품 지정(Orphan Drug Designation)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $1.8900 대비 현재가 $1.9261 (+1.91%), 당일 최고가 $2.0500 (고점 대비 -6.0%).\n당일 누적 거래대금 $24,549 USD (2만4천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-17 [8-K] (Item 8.01 Other Events) 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:25 ET) 공식 PR 원문 분석:\nPR 제목: *\"Edesa Biotech Granted Orphan Designation for Paridiprubart for the Treatment of ARDS by the European Commission\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\nFDA 최종 시판 승인이나 빅파마 기술수출 계약이 아닌 단순 희귀의약품 지정 (Orphan Designation PR):\n본 PR의 본질은 의약품의 정식 상업 판매 허가(Approval)나 외부로부터의 현금 유입 계약이 아닙니다.\n급성호흡곤란증후군(ARDS) 치료제 후보물질인 파리디프루바트(paridiprubart)에 대해 유럽위원회(EC)로부터 **단순 희귀의약품 지정(Orphan Designation)을 획득했다는 규제 행정 절차 보도자료(today announced that the European Commission has granted orphan designation to its investigational drug paridiprubart...)**에 불과합니다.\n희귀의약품 지정은 수수료 감면 및 승인 후 독점권 가능성 등 행정적 혜택일 뿐, 당장 기업 금고로 유입되는 확정 계약금(Upfront), 선급금, 매출 달러가 원문 어디에도 단 1달러도 없습니다.\n과거 180일(11/09) 쿄린제약 독점 라이선스 계약($140M+)의 8일 만에 나온 후속 행정 쪼개기 재탕:\n과거 이력 대조 결과 회사는 불과 8일 전인 2026년 11월 9일에 이미 GlobeNewswire를 통해 *\"Edesa Biotech Announces Agreement with KYORIN Pharmaceutical to Develop and Commercialize Paridiprubart in Japan (Deal valued at more than $140 million)\"*라고 발표하며 주가가 당일 최고 +74.8% 분출한 바 있습니다.\n이번 보도자료는 11월 9일 기발표된 파리디프루바트 파이프라인의 **유럽 지역 행정 진행 상황(EC 희귀의약품 지정)을 띄운 전형적인 후속 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 11/9 기발표 계약 파이프라인의 유럽 행정 쪼개기 재탕 및 ④ 신규 확정 계약 금액 및 현금 유입이 없는 단순 희귀의약품 지정(Orphan Designation) 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 신규 상업 수주나 현금 선급금이 전무하고, 단순 유럽 EC 희귀의약품 지정 획득 및 11월 9일 기발표 파이프라인의 8일 만에 나온 후속 행정 쪼개기 재탕에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: EDSA 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: EDSA NOTES:\n[EDSA] 확정 수주/매출 전무한 단순 유럽 EC 희귀의약품 지정 및 11/9 기발표 파이프라인의 8일만 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 총 32개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI, SPCB, EDSA) 전수가 정밀 직독 검증을 거쳐 안전하게 전량 차단되었습니다. 09:30 ET 본장 개장 직후 첫 30분 수급 골든타임 구간까지 헌법 제2조를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794925172664_SINT_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "09:19:32",
-      "time_kst": "23:19:32",
-      "symbol": "SINT",
-      "company_name": "SINT",
-      "exchange": "ND",
-      "price": 1.37,
-      "gain_pct": 2.24,
-      "mcap_m": 10.35,
-      "decision": "FALSE",
-      "elapsed_sec": 45.8,
-      "reason": "확정 수주/매출 전무한 단순 해외 특허 2건 등록·3건 허여 홍보 PR로 헌법 3조 4항(금액 미기재 특허) 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] SINTX Strengthens Patent Portfolio to Support International Growth Across Healthcare Markets",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SINT (SINTX Technologies, Inc.) 2026-11-17 09:18 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.35M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 유입이 발생하는 상업 계약이 아니라, 단순 해외 **특허 2건 등록 및 3건 허여 통보(Two issued patents and three allowed applications)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $1.3400 대비 현재가 $1.3700 (+2.24%), 당일 최고가 $1.4550 (고점 대비 -5.8%).\n당일 누적 거래대금 $791 USD (791달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"SINTX Strengthens Patent Portfolio to Support International Growth Across Healthcare Markets\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 특허 등록·허여 홍보물 (Patent Portfolio PR):\n본 PR의 본질은 글로벌 기업과의 구속력 있는 독점 라이선스 계약이나 거액 수주가 아닙니다.\n질화규소(silicon nitride) 바이오 소재 관련하여 유럽, 캐나다, 일본, 한국에서 **2건의 특허 등록 및 3건의 출원 허여를 받았다는 단순 특허 포트폴리오 강화 보도자료(today announced two patent issuances and three patent allowances...)**에 불과합니다.\n외부 고객사로부터 유입되는 확정 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 에보닉 협업/3D 프린팅(11/11)의 연장선상에 있는 단순 특허 언론 플레이:\n과거 이력 대조 결과 회사는 11월 11일 에보닉(Evonik) SiN/PEEK 필라멘트 도입 기대감 및 FDA 510(k) 추진 보도자료를 낸 바 있습니다.\n이번 발표 역시 실체적 대형 수주나 상업적 매출 발생 없이 기존 R&D 파이프라인의 특허 취득을 포장한 전형적인 금액 미기재 지식재산권(IP) 홍보 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 특허 취득 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 특허 취득(Patent)/제휴/유예연장 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 해외 특허 2건 등록 및 3건 허여 통보 보도자료에 불과하여, 심사 헌법 제3조 ④항(금액 미기재 특허 취득 차단)에 의거 FORCE_BLOCK: SINT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SINT NOTES:\n[SINT] 확정 수주/매출 전무한 단순 해외 특허 2건 등록·3건 허여 홍보 PR로 헌법 3조 4항(금액 미기재 특허) 위배 전량 차단 ===VERDICT_END===\n💡 09:30 ET 본장 개장 직전 골든타임 구간까지 실시간 감시망을 풀가동하여, 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:04:18",
+      "time_kst": "23:04:18",
+      "symbol": "PMCB",
+      "company_name": "PMCB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.51M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-20",
       "time_et": "09:03:19",
@@ -2959,16 +2958,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "당일 유상증자/오퍼링/워런트 희석 PR 명시 (CytoSorbents Announces $6.25 Million Common Stock Finan)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:05:34",
-      "time_kst": "22:05:34",
-      "symbol": "BKHA",
-      "company_name": "BKHA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 투매 급락 구간 방어 차단 (현재 -67.0% <= -8.0%)"
     }
   ]
 }
