@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:41:27",
-  "updated_at_et": "2026-11-20 10:41:27",
-  "updated_epoch_ms": 1795189287678,
+  "updated_at_kst": "2026-11-21 00:42:18",
+  "updated_at_et": "2026-11-20 10:42:18",
+  "updated_epoch_ms": 1795189338080,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.2729,
-    "profit_rate": -2.05,
-    "updated_kst": "00:41:15"
+    "current_price": 0.2759,
+    "profit_rate": -0.97,
+    "updated_kst": "00:42:15"
   },
   "stats": {
     "today_total": 33,
@@ -2470,6 +2470,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:42:12",
+      "time_kst": "00:42:12",
+      "symbol": "APPN",
+      "company_name": "APPN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $3638.41M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "10:41:27",
+      "time_kst": "00:41:27",
+      "symbol": "PEBK",
+      "company_name": "PEBK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $226.27M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:41:21",
       "time_kst": "00:41:21",
       "symbol": "PMVP",
@@ -2947,26 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $149.2M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:10:04",
-      "time_kst": "23:10:04",
-      "symbol": "CSGP",
-      "company_name": "CSGP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $11547.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:09:56",
-      "time_kst": "23:09:56",
-      "symbol": "CENTA",
-      "company_name": "CENTA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2463.02M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
