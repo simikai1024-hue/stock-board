@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:50:40",
-  "updated_at_et": "2026-11-20 09:50:40",
-  "updated_epoch_ms": 1795186240194,
+  "updated_at_kst": "2026-11-20 23:51:53",
+  "updated_at_et": "2026-11-20 09:51:53",
+  "updated_epoch_ms": 1795186313770,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.7346,
-    "profit_rate": -12.54,
-    "updated_kst": "23:50:31"
+    "current_price": 0.7101,
+    "profit_rate": -15.45,
+    "updated_kst": "23:51:48"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:51:46",
+      "time_kst": "23:51:46",
+      "symbol": "VHUB",
+      "company_name": "VHUB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:50:54",
+      "time_kst": "23:50:54",
+      "symbol": "FBIO",
+      "company_name": "FBIO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.37M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:49:58",
       "time_kst": "23:49:58",
       "symbol": "GTM",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1149.45M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:38:25",
-      "time_kst": "22:38:25",
-      "symbol": "SCSC",
-      "company_name": "SCSC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $948.17M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:38:20",
-      "time_kst": "22:38:20",
-      "symbol": "MCHB",
-      "company_name": "MCHB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3215.6M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
