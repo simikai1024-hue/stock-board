@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:43:47",
-  "updated_at_et": "2026-11-20 06:43:47",
-  "updated_epoch_ms": 1795175027144,
+  "updated_at_kst": "2026-11-20 20:44:29",
+  "updated_at_et": "2026-11-20 06:44:29",
+  "updated_epoch_ms": 1795175069460,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.4487,
-    "profit_rate": -5.35,
-    "updated_kst": "20:43:38"
+    "current_price": 4.4594,
+    "profit_rate": -5.12,
+    "updated_kst": "20:44:15"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
     "today_false": 3,
-    "today_hardcut": 51,
+    "today_hardcut": 52,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "06:44:23",
+      "time_kst": "20:44:23",
+      "symbol": "SKHY",
+      "company_name": "SKHY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $847650.55M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "06:42:34",
       "time_kst": "20:42:34",
       "symbol": "CYCU",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:00:42",
-      "time_kst": "18:00:42",
-      "symbol": "NCPL",
-      "company_name": "NCPL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
     }
   ]
 }
