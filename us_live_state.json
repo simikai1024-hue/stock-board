@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:17:19",
-  "updated_at_et": "2026-11-20 07:17:19",
-  "updated_epoch_ms": 1795177039858,
+  "updated_at_kst": "2026-11-20 21:18:16",
+  "updated_at_et": "2026-11-20 07:18:16",
+  "updated_epoch_ms": 1795177096218,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.7902,
-    "profit_rate": 1.92,
-    "updated_kst": "21:17:11"
+    "current_price": 4.8615,
+    "profit_rate": 3.44,
+    "updated_kst": "21:18:08"
   },
   "stats": {
     "today_total": 6,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:17:27",
+      "time_kst": "21:17:27",
+      "symbol": "PYPL",
+      "company_name": "PYPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $46824.19M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:09:06",
       "time_kst": "21:09:06",
       "symbol": "YOUL",
@@ -2928,16 +2938,6 @@
       "symbol": "MEDS",
       "company_name": "MEDS",
       "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:05:02",
-      "time_kst": "18:05:02",
-      "symbol": "NNVC",
-      "company_name": "NNVC",
-      "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
     }
