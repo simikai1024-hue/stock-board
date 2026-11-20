@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:29:38",
-  "updated_at_et": "2026-11-20 10:29:38",
-  "updated_epoch_ms": 1795188578597,
+  "updated_at_kst": "2026-11-21 00:30:31",
+  "updated_at_et": "2026-11-20 10:30:31",
+  "updated_epoch_ms": 1795188631274,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.267,
-    "profit_rate": -4.16,
-    "updated_kst": "00:29:30"
+    "current_price": 0.27,
+    "profit_rate": -3.09,
+    "updated_kst": "00:30:27"
   },
   "stats": {
     "today_total": 33,
