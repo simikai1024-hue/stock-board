@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:39:07",
-  "updated_at_et": "2026-11-20 08:39:07",
-  "updated_epoch_ms": 1795181947140,
+  "updated_at_kst": "2026-11-20 22:39:17",
+  "updated_at_et": "2026-11-20 08:39:17",
+  "updated_epoch_ms": 1795181957615,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "BRNX",
+    "company_name": "BRNX",
+    "exchange": "ND",
+    "price": 0.263,
+    "gain_pct": -6.87,
+    "mcap_m": 0.51,
+    "catalyst_hint": "[당일 PR] BrenX Targets Europe's 1 Billion Euro Industrial Heat Auction Through Planned Joint Applications with Major Industrial Companies in Food, Chemicals and Tires",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:39:10",
+    "started_at_kst": "22:39:10",
+    "started_epoch_ms": 1795181950914
   },
   "halt_watch": {
     "active": false
