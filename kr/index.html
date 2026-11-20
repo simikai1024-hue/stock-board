@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>👑 1등 대장주 종가베팅 전광판</title>
+<title>👑 달의검 한국장 2모작 전광판 (종가베팅 · 계단주)</title>
 <meta name="theme-color" content="#BAE6FD">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1083,7 +1083,7 @@
   <!-- 상단 상태 바 -->
   <header class="top-bar">
     <div class="brand-group">
-      <span class="brand-title">👑 ISI 1등 대장주 종가베팅</span>
+      <span class="brand-title">👑 한국장 2모작 (종가베팅 · 계단주)</span>
       <span class="live-clock" id="kstClockLbl">--:--:-- KST</span>
       <span class="phase-pill" id="phasePill">장 상태 확인 중...</span>
     </div>
@@ -1152,69 +1152,178 @@
     </div>
   </section>
 
-  <!-- 2-B. 🧪 본장 대장주 실험실 (실시간 모의 검증 전용 박스 · 실계좌 주문 OFF) -->
+  <!-- 2-A2. 🧭 오늘의 지수 방향 예측 (VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독) -->
+  <section aria-labelledby="idx-radar-heading">
+    <div class="section-head">
+      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
+        <h2 class="section-title" id="idx-radar-heading">🧭 오늘의 지수 방향 예측</h2>
+        <span class="lab-safety-pill">📊 VWAP·자금 + 🌍 외인·환율 + 📰 시황뉴스</span>
+      </div>
+      <span class="section-sub" id="idxUpdateLbl">3박자 종합 판독 · 09:30 공식 확정 · 클릭 시 코드 복사</span>
+    </div>
+
+    <div class="lab-card" style="border-style:solid; border-color:#38BDF8;">
+      <!-- 상단 대표 시그널 배너 -->
+      <div class="lab-live-box" id="idxSignalBanner" style="margin-block-end:10px;">
+        <div>
+          <div class="lab-status-tag" id="idxStatusTag">🕒 3박자 지수 데이터 분석 중</div>
+          <div style="font-size:15px; font-weight:900; color:var(--text-main);" id="idxMainTxt">
+            정방향·인버스 자금 쏠림과 외국인 수급·환율·시황 속보를 결합해 지수 방향을 분석합니다.
+          </div>
+          <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="idxSubTxt">
+            09:30 기준 VWAP 체류비중(67%+) 및 외국인·매크로 동조 지수 추천 → 15:15 종가 정산 (거래세 0%)
+          </div>
+        </div>
+        <div id="idxRightAction"></div>
+      </div>
+
+      <!-- AI 2줄 종합 배경 브리핑 박스 -->
+      <div id="idxAiBriefBox" style="background:#F0F9FF; border:1.5px solid #7DD3FC; border-radius:12px; padding:11px 14px; margin-block-end:10px;">
+        <div style="font-size:12px; font-weight:900; color:#0369A1; margin-bottom:4px;" id="idxAiGradeBadge">🧠 AI 3박자 시황·수급 종합 브리핑</div>
+        <div style="font-size:13px; font-weight:800; color:#0F172A; line-height:1.5;" id="idxAiLine1">외국인 수급·환율·시황 뉴스를 불러오는 중입니다...</div>
+        <div style="font-size:12.5px; font-weight:800; color:#075985; line-height:1.5; margin-top:3px;" id="idxAiLine2"></div>
+      </div>
+
+      <!-- 코스피200 / 코스닥150 정방향 vs 인버스 자금·VWAP 대결 카드 -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;" id="idxPairGrid">
+        <div class="lab-kpi-mini" id="idxKospiBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">🏛️ 코스피 200 · 정방향 vs 인버스</div>
+          <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
+        </div>
+        <div class="lab-kpi-mini" id="idxKosdaqBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">🚀 코스닥 150 · 정방향 vs 인버스</div>
+          <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
+        </div>
+      </div>
+
+      <!-- 외국인·환율·미증시 + 실시간 지수 핵심 뉴스 2단 그리드 -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;">
+        <div class="lab-kpi-mini" id="idxMacroBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">🌍 외국인·기관 수급 & 환율·미증시</div>
+          <div style="font-size:13px; font-weight:800; color:var(--text-muted); margin-top:4px;">수급·매크로 집계 중...</div>
+        </div>
+        <div class="lab-kpi-mini" id="idxNewsBox" style="background:#FFFFFF;">
+          <div class="lab-kpi-lbl">📰 지수 영향 실시간 핵심 시황뉴스</div>
+          <div style="font-size:13px; font-weight:800; color:var(--text-muted); margin-top:4px;">시황 뉴스 수집 중...</div>
+        </div>
+      </div>
+
+      <details class="lab-hist-details" id="idxHistDetails">
+        <summary><span id="idxHistSummaryLbl">지수 방향 예측 누적 성적 & 일자별 기록 보기 (0건)</span></summary>
+        <div class="lab-hist-list" id="idxHistList">
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">평일 09:30 지수 방향 확정 및 15:15 정산 시 일자별 기록이 자동으로 누적됩니다.</div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 2-B. 🧪 제로출발 계단주 실험실 (시초 0% 이하 출발 → 3단 계단식 상승 포착 · 실계좌 주문 OFF) -->
   <section aria-labelledby="lab-heading">
     <div class="section-head">
       <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
-        <h2 class="section-title" id="lab-heading">🧪 본장 대장주 실험실</h2>
-        <span class="lab-safety-pill">🛡️ 모의 검증 전용 · 실계좌 주문 0원</span>
+        <h2 class="section-title" id="lab-heading">🪜 제로출발 계단주 (장중 2모작)</h2>
+        <span class="lab-safety-pill">🪜 시초 0% 이하 → 3단 계단 상승 · 2모작 실전 연동</span>
       </div>
-      <span class="section-sub">검증 완료 후 자동매매 모듈로 전환 가능</span>
+      <span class="section-sub">수직급등 배제 · 천천히 오르는 진성 계단주 포착 (+6% 익절 · -4.5% 손절 · 14:55 마감)</span>
     </div>
 
     <div class="lab-card">
       <div class="lab-kpi-strip">
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">📈 실험실 누적 수익률 (세후)</div>
+          <div class="lab-kpi-lbl">📈 계단주 누적 수익률 (세후)</div>
           <div class="lab-kpi-val" id="labCumRet">+0.00%</div>
         </div>
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">🎯 실험실 승률 · 모의 전적</div>
+          <div class="lab-kpi-lbl">🎯 계단주 승률 · 전적</div>
           <div class="lab-kpi-val" id="labWinStats">0.0% (0전 0승 0패)</div>
         </div>
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">⚙️ 실험실 검증 공식</div>
-          <div class="lab-kpi-rule">1위 대장주(+9%↑) VWAP 첫 눌림 → 14:50 홀딩 (-3% 손절)</div>
+          <div class="lab-kpi-lbl">⚙️ 계단주 매매 공식</div>
+          <div class="lab-kpi-rule">시초 0% 이하 → 09:45~13:00 3단 계단(VWAP 88%+) → +6% 익절 · -4.5% 손절 · 14:55 마감</div>
         </div>
       </div>
 
       <div class="lab-live-box" id="labLiveBox">
         <div>
-          <div class="lab-status-tag" id="labStatusTag">🕒 평일 09:25~13:30 감시 대기</div>
+          <div class="lab-status-tag" id="labStatusTag">🕒 평일 09:12~13:00 계단주 스캔 대기</div>
           <div style="font-size:14.5px; font-weight:800; color:var(--text-main);" id="labMainTxt">
-            평일 정규장 중 1위 진성급등 테마의 1등 대장주(+9%↑)가 세력본전(VWAP)으로 내려오면 자동 모의 포착합니다.
+            시초가 0% 이하에서 과열 없이 출발해 VWAP 위를 지키며 천천히 3단 계단식으로 오르는 종목과 급등 원인을 실시간 포착합니다.
           </div>
           <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="labSubTxt">
-            모든 모의 검증 성적은 실제 KRX 거래세·수수료·슬리피지(0.23%)를 차감해 냉정하게 기록됩니다.
+            장 초반 15분 설거지 급등을 배제하고, 수익 +4% 이후 VWAP 이탈 트레일링 익절로 상한가 추세는 끝까지 타고 윗꼬리는 방어합니다.
           </div>
         </div>
         <div id="labRightAction"></div>
       </div>
 
       <details class="lab-hist-details" id="labHistDetails">
-        <summary><span id="labHistSummaryLbl">실험실 일자별 모의 검증 기록 보기 (0건)</span></summary>
+        <summary><span id="labHistSummaryLbl">계단주 실험실 일자별 모의 검증 기록 보기 (0건)</span></summary>
         <div class="lab-hist-list" id="labHistList">
-          <div style="padding:10px; font-size:13px; color:var(--text-muted);">내일 본장(09:25~)부터 첫 모의 검증 기록이 자동으로 쌓입니다.</div>
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">오늘 본장(09:45~)부터 조건 충족 시 첫 계단주 포착 기록이 자동으로 쌓입니다.</div>
         </div>
       </details>
     </div>
   </section>
 
-  <!-- 3. 종가베팅 누적 성적 & 실전 체결 내역 -->
+  <!-- 2-C. ⚡ 무뉴스 상승 VI 실험실 (키움 ka10054 실시간 1차 상승 VI + 무뉴스·무공시 · 매수 후 최고가 추적 · 실주문 0원) -->
+  <section aria-labelledby="vi-lab-heading">
+    <div class="section-head">
+      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
+        <h2 class="section-title" id="vi-lab-heading">⚡ 무뉴스 상승 VI 실험실</h2>
+        <span class="lab-safety-pill">🧪 모의 검증 전용 · 실주문 0원 · 매수 후 최고가 추적</span>
+      </div>
+      <span class="section-sub">09:05~13:00 무뉴스·무공시 1차 상승 VI (대금 50억↑·시총 1조↓·VWAP 위)</span>
+    </div>
+
+    <div class="lab-card">
+      <div class="lab-kpi-strip">
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">📈 VI 실험실 누적 수익률 (세후)</div>
+          <div class="lab-kpi-val" id="viLabCumRet">+0.00%</div>
+        </div>
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">🎯 VI 실험실 승률 · 전적</div>
+          <div class="lab-kpi-val" id="viLabWinStats">0.0% (0전 0승 0패)</div>
+        </div>
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">⚙️ VI 검증 공식</div>
+          <div class="lab-kpi-rule">무뉴스·무공시 1차 상승 VI 해제 직후 모의 진입 → +6% 익절 · -4.5% 손절 · 15:30까지 최고가 추적</div>
+        </div>
+      </div>
+
+      <div class="lab-live-box" id="viLabLiveBox">
+        <div>
+          <div class="lab-status-tag" id="viLabStatusTag">🕒 평일 09:05~13:00 무뉴스 상승 VI 스캔 대기</div>
+          <div class="lab-stock-main" id="viLabStockMain">현재 포착된 무뉴스 상승 VI 종목 대기 중</div>
+          <div class="lab-stock-sub" id="viLabStockSub">당일·전일 공시 0건 · 뉴스 0건 1차 상승 VI 해제 시 자동 모의 매수 &amp; 당일 최고가 추적</div>
+        </div>
+        <div id="viLabRightAction"></div>
+      </div>
+
+      <details class="lab-hist-details" id="viLabHistDetails">
+        <summary><span id="viLabHistSummaryLbl">무뉴스 VI 실험실 일자별 기록 &amp; 매수 후 최고가 보기 (0건)</span></summary>
+        <div class="lab-hist-list" id="viLabHistList">
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">무뉴스 상승 VI 포착 시 진입가·청산가와 함께 매수 후 장중 최고 도달가(+%)가 자동 기록됩니다.</div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 3. 한국장 2모작 누적 성적 & 실전 체결 내역 -->
   <section aria-labelledby="ledger-heading">
     <div class="section-head">
-      <h2 class="section-title" id="ledger-heading">📊 종가베팅 실전 성적표</h2>
-      <span class="section-sub">행 클릭 시 종목코드 복사</span>
+      <h2 class="section-title" id="ledger-heading">📊 한국장 2모작 실전 성적표 (종가베팅 · 계단주)</h2>
+      <span class="section-sub">종가베팅·계단주 실계좌 통합 기록 · 행 클릭 시 코드 복사</span>
     </div>
 
     <div class="kpi-row">
       <div class="kpi-box">
-        <div class="kpi-lbl">💰 종가베팅 누적 실현손익</div>
+        <div class="kpi-lbl">💰 2모작 누적 실현손익</div>
         <div class="kpi-val" id="kpiPnl">+0원</div>
         <div class="kpi-sub" id="kpiPnlSub">세금·수수료 차감 후 키움 확정치</div>
       </div>
       <div class="kpi-box">
-        <div class="kpi-lbl">🎯 종가베팅 승률 · 전적</div>
+        <div class="kpi-lbl">🎯 2모작 승률 · 전적</div>
         <div class="kpi-val" id="kpiWinRate">0.0%</div>
         <div class="kpi-sub" id="kpiRecord">총 0전 (0승 0패)</div>
       </div>
@@ -1222,7 +1331,7 @@
 
     <div tabindex="0" role="region" aria-labelledby="ledger-caption" class="table-wrapper">
       <table>
-        <caption id="ledger-caption">ISI 1등 대장주 종가베팅 체결 원장</caption>
+        <caption id="ledger-caption">한국장 2모작 (종가베팅 · 제로출발 계단주) 실전 체결 원장</caption>
         <thead>
           <tr>
             <th scope="col">종목 (테마)</th>
@@ -1244,7 +1353,10 @@
 
 <script>
 (() => {
-  const STATE_URL = "https://raw.githubusercontent.com/simikai1024-hue/stock-board/main/live_state.json";
+  const STATE_URL_PRIMARY = window.location.protocol === "file:"
+    ? "https://simikai1024-hue.github.io/stock-board/live_state.json"
+    : "../live_state.json";
+  const STATE_URL_FALLBACK = "https://raw.githubusercontent.com/simikai1024-hue/stock-board/main/live_state.json";
   const TOPIC_ISI = "kr_whale_detector_vip_family_2026/isi";
   const TOPIC_LIVE = "kr_whale_detector_vip_family_2026/live";
 
@@ -1638,34 +1750,37 @@
     if (tStatus === "HOLDING" && pos && pos.code) {
       boxEl.className = "lab-live-box holding";
       tagEl.className = "lab-status-tag holding";
-      tagEl.textContent = `🎣 모의 탑승 중 (${pos.entry_time || ""} 체결)`;
+      const opTxt = pos.open_pct !== undefined ? `시초 ${Number(pos.open_pct) >= 0 ? "+" : ""}${Number(pos.open_pct).toFixed(1)}% 출발` : "제로출발";
+      tagEl.textContent = `🪜 계단주 모의 탑승 중 (${pos.entry_time || ""} 체결 · ${opTxt})`;
       const netP = Number(pos.cur_net_pct || 0);
       const pCls = netP >= 0 ? "up-txt" : "dn-txt";
-      mainEl.innerHTML = `[${escHtml(pos.theme_name)}] <strong>${escHtml(pos.name)}</strong> (${escHtml(pos.code)}) · 진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} <span class="${pCls}">(${netP >= 0 ? "+" : ""}${netP.toFixed(2)}%)</span>`;
-      subEl.textContent = `세력VWAP ${fmtWon(pos.vwap_price)} · 장중최고 +${Number(pos.max_raw_pct || 0).toFixed(1)}% · 🛡️ 손절 ${fmtWon(pos.stop_loss_px)}(-3%) · ⏰ 14:50 청산`;
-      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(pos.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+      const trStatus = pos.trail_armed ? "🟢 수익잠금(VWAP 트레일링 ON)" : `🛡️ 손절방패 ${fmtWon(pos.stop_loss_px)}(-2.8%)`;
+      mainEl.innerHTML = `${escHtml(pos.theme_name || "💰 계단매집")} · <strong>${escHtml(pos.name)}</strong> (${escHtml(pos.code)}) · 진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} <span class="${pCls}">(${netP >= 0 ? "+" : ""}${netP.toFixed(2)}%)</span>`;
+      subEl.textContent = `당일 VWAP ${fmtWon(pos.vwap_price)} · 최고 +${Number(pos.max_raw_pct || 0).toFixed(1)}% · ${trStatus} · ⏰ 미이탈 시 14:55 홀딩`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(pos.code)}', '${escHtml(pos.name)}')">📋 코드 복사</button> <a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(pos.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else if (tStatus === "ARMED" && armed && armed.code) {
       boxEl.className = "lab-live-box armed";
       tagEl.className = "lab-status-tag armed";
-      tagEl.textContent = "🕸️ VWAP 그물망 장전 완료";
-      mainEl.innerHTML = `[${escHtml(armed.theme_name)}] <strong>${escHtml(armed.name)}</strong> (${escHtml(armed.code)}) · 현재 ${fmtWon(armed.cur_price)} (${Number(armed.cur_rate || 0) >= 0 ? "+" : ""}${Number(armed.cur_rate || 0).toFixed(1)}%)`;
-      subEl.textContent = `🎯 세력본전 낚시 대기선: ${fmtWon(armed.limit_buy_px)} (VWAP ${fmtWon(armed.vwap_price)} · 현재 이격 +${Number(armed.gap_to_vwap_pct || 0).toFixed(1)}%)`;
-      rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(armed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
+      const opA = Number(armed.open_pct || 0);
+      tagEl.textContent = `🕵️ 제로출발 계단 형성 감시 중 (시초 ${opA >= 0 ? "+" : ""}${opA.toFixed(1)}%)`;
+      mainEl.innerHTML = `${escHtml(armed.theme_name || "💰 계단매집")} · <strong>${escHtml(armed.name)}</strong> (${escHtml(armed.code)}) · 현재 ${fmtWon(armed.cur_price)} (+${Number(armed.cur_rate || 0).toFixed(1)}%)`;
+      subEl.textContent = `VWAP 상단 체류 ${Number(armed.vwap_stay_pct || 0).toFixed(0)}% (VWAP ${fmtWon(armed.vwap_price)}) · 거래대금 ${Number(armed.money_eok || 0).toFixed(0)}억 · 09:45 이후 3단 계단 확정 시 자동 탑승`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(armed.code)}', '${escHtml(armed.name)}')">📋 코드 복사</button> <a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(armed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else if (tStatus === "DONE" && closed && closed.code) {
       boxEl.className = "lab-live-box";
       tagEl.className = "lab-status-tag";
-      tagEl.textContent = "✅ 오늘 실험실 모의 검증 완료";
+      tagEl.textContent = "✅ 금일 계단주 모의 검증 완료";
       const np = Number(closed.net_pnl_pct || 0);
       const cls = np >= 0 ? "up-txt" : "dn-txt";
-      mainEl.innerHTML = `[${escHtml(closed.theme_name)}] <strong>${escHtml(closed.name)}</strong> (${escHtml(closed.code)}) · ${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) <span class="${cls}">(${np >= 0 ? "+" : ""}${np.toFixed(2)}%)</span>`;
-      subEl.textContent = `장중최고 +${Number(closed.max_raw_pct || 0).toFixed(1)}% 도달 · 청산: ${closed.exit_reason || "14:50 마감"} (세금·수수료 0.23% 차감)`;
+      mainEl.innerHTML = `${escHtml(closed.theme_name || "")} · <strong>${escHtml(closed.name)}</strong> (${escHtml(closed.code)}) · ${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) <span class="${cls}">(${np >= 0 ? "+" : ""}${np.toFixed(2)}%)</span>`;
+      subEl.textContent = `시초 ${Number(closed.open_pct || 0).toFixed(1)}% 출발 · 장중최고 +${Number(closed.max_raw_pct || 0).toFixed(1)}% 도달 · 청산: ${closed.exit_reason || "14:55 마감"} (세금·수수료 0.23% 차감)`;
       rightEl.innerHTML = `<a class="action-btn naver mini" href="https://m.stock.naver.com/domestic/stock/${encodeURIComponent(closed.code)}/total" target="_blank" rel="noopener">📈 차트</a>`;
     } else {
       boxEl.className = "lab-live-box";
       tagEl.className = "lab-status-tag";
-      tagEl.textContent = "🕒 평일 09:25~13:30 감시 대기";
-      mainEl.textContent = "평일 본장 중 1위 진성급등 테마의 1등 대장주(+9%↑)가 세력본전(VWAP)으로 내려오면 자동 모의 포착합니다.";
-      subEl.textContent = "실전 돈은 1원도 투입되지 않으며, 세금·수수료(0.23%)까지 뺀 순수익으로 실전성을 먼저 증명합니다.";
+      tagEl.textContent = "🕒 평일 09:12~13:00 계단주 스캔 대기";
+      mainEl.textContent = "시초가 0% 이하(보합·음봉)로 출발한 뒤 초반 급등 없이 VWAP 위(88%+)를 지키며 천천히 3단 계단식으로 오르는 종목을 실시간 추적합니다.";
+      subEl.textContent = "포착 시 급등 원인(🔥주도테마 동반 / 📢공시 / 📰개별뉴스 / 💰조용한 TWAP 매집)을 자동 판독해 함께 띄워드립니다.";
       rightEl.innerHTML = "";
     }
 
@@ -1702,25 +1817,388 @@
     }
   }
 
+  function fmtSignedEok(val) {
+    const n = Math.round(Number(val || 0));
+    const sign = n > 0 ? "+" : (n < 0 ? "-" : "");
+    const a = Math.abs(n);
+    if (a >= 10000) {
+      const jo = Math.floor(a / 10000);
+      const rem = a % 10000;
+      return rem > 0 ? `${sign}${jo}조 ${rem.toLocaleString("ko-KR")}억` : `${sign}${jo}조`;
+    }
+    return `${sign}${a.toLocaleString("ko-KR")}억`;
+  }
+
+  function renderIndexRadar(isi) {
+    const idx = isi?.index_radar || {};
+    const bannerEl = document.getElementById("idxSignalBanner");
+    const tagEl = document.getElementById("idxStatusTag");
+    const mainEl = document.getElementById("idxMainTxt");
+    const subEl = document.getElementById("idxSubTxt");
+    const rightEl = document.getElementById("idxRightAction");
+    const aiGradeEl = document.getElementById("idxAiGradeBadge");
+    const aiLine1El = document.getElementById("idxAiLine1");
+    const aiLine2El = document.getElementById("idxAiLine2");
+    const aiBoxEl = document.getElementById("idxAiBriefBox");
+    const kospiBox = document.getElementById("idxKospiBox");
+    const kosdaqBox = document.getElementById("idxKosdaqBox");
+    const macroBox = document.getElementById("idxMacroBox");
+    const newsBox = document.getElementById("idxNewsBox");
+    const updEl = document.getElementById("idxUpdateLbl");
+    const histSumEl = document.getElementById("idxHistSummaryLbl");
+    const histListEl = document.getElementById("idxHistList");
+
+    if (!bannerEl) return;
+    if (updEl && idx.updated_at) {
+      updEl.textContent = `기준: ${idx.updated_at} · 3박자(VWAP·수급·뉴스) 판독 · 클릭 시 코드 복사`;
+    }
+
+    const syn = idx.synthesis || {};
+    const macro = idx.macro_news || {};
+
+    // AI 2줄 브리핑 렌더링
+    if (aiLine1El && syn.line1) {
+      if (aiGradeEl) {
+        aiGradeEl.textContent = `🧠 AI 3박자 종합 판독 · ${syn.badge || "실시간 분석 중"}`;
+      }
+      aiLine1El.textContent = syn.line1;
+      if (aiLine2El) aiLine2El.textContent = syn.line2 || "";
+      if (aiBoxEl) {
+        if (syn.grade === "CONFLICT") {
+          aiBoxEl.style.background = "#FFFBEB";
+          aiBoxEl.style.borderColor = "#F59E0B";
+        } else if (syn.grade === "STRONG") {
+          aiBoxEl.style.background = "#ECFDF5";
+          aiBoxEl.style.borderColor = "#10B981";
+        } else {
+          aiBoxEl.style.background = "#F0F9FF";
+          aiBoxEl.style.borderColor = "#7DD3FC";
+        }
+      }
+    }
+
+    const st = idx.signal_status || "WAITING";
+    const act = idx.active_signal;
+    const clsToday = idx.today_closed;
+    bannerEl.className = "lab-live-box";
+    tagEl.className = "lab-status-tag";
+    rightEl.innerHTML = "";
+
+    if (st === "ACTIVE" && act) {
+      const np = Number(act.cur_net_pct || 0);
+      const isUpDir = act.dir === "UP";
+      const icon = isUpDir ? "📈" : "📉";
+      const mp = Number(act.morn_above_pct || 0).toFixed(0);
+      const fm = Number(act.flow_surge_mult || 1.0).toFixed(2);
+      bannerEl.classList.add("holding");
+      tagEl.classList.add("holding");
+      tagEl.textContent = `${icon} 09:30 추천 확정 · ${act.dir_label} (체류 ${mp}% · 자금 ${fm}배)`;
+      mainEl.innerHTML = `추천 지수 ETF: <strong style="color:#0369A1;">${escHtml(act.name)} (${escHtml(act.code)})</strong> · 현재 <strong>${fmtWon(act.cur_price)}</strong>`;
+      subEl.textContent = `09:30 기준가 ${fmtWon(act.entry_price)} (오전 VWAP 체류 ${mp}% · 현재 VWAP ${fmtWon(act.vwap)}) · 15:15 종가 기준 정산`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(act.code)}', '${escHtml(act.name)}')">📋 ${escHtml(act.name)} · 실시간 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</button>`;
+    } else if (st === "CLOSED" && clsToday) {
+      const np = Number(clsToday.net_pnl_pct || 0);
+      if (np >= 0) tagEl.classList.add("holding");
+      tagEl.textContent = `✅ 금일 정산 완료 (${clsToday.dir_label})`;
+      mainEl.innerHTML = `${escHtml(clsToday.name)} (${escHtml(clsToday.code)}) · ${fmtWon(clsToday.entry_price)}(${escHtml(clsToday.entry_time)}) → ${fmtWon(clsToday.exit_price)}(${escHtml(clsToday.exit_time)})`;
+      subEl.innerHTML = `금일 확정 성적: <strong class="${np >= 0 ? "up-txt" : "dn-txt"}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</strong> (${escHtml(clsToday.exit_reason || "")})`;
+      rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(clsToday.code)}', '${escHtml(clsToday.name)}')">📋 종목코드 복사</button>`;
+    } else if (st === "NEUTRAL") {
+      tagEl.textContent = "⏸️ 금일 지수 혼조·엇갈림 (관망 권장)";
+      mainEl.textContent = "09:30 기준 VWAP 체류비중(67%+) 미달 또는 외국인 수급과 차트 방향이 충돌하여 관망을 권장합니다.";
+      subEl.textContent = "아래 카드에서 정방향·인버스 자금 쏠림과 실시간 외국인 수급·시황 뉴스 흐름을 계속 확인하실 수 있습니다.";
+    } else {
+      const bestNow = syn.lead_etf || idx.kosdaq_pair?.winner || idx.kospi_pair?.winner;
+      if (bestNow) {
+        const icon = bestNow.dir === "UP" ? "📈" : "📉";
+        const dp = Number(bestNow.day_above_pct || 0).toFixed(0);
+        const fm = Number(bestNow.flow_surge_mult || 1.0).toFixed(2);
+        bannerEl.classList.add("armed");
+        tagEl.classList.add("armed");
+        tagEl.textContent = syn.badge || `🧭 현재 우위: ${bestNow.dir_label} (체류 ${dp}%)`;
+        mainEl.innerHTML = `${icon} 종합 우위 지수: <strong style="color:#0369A1;">${escHtml(bestNow.name)} (${escHtml(bestNow.code)})</strong> · 현재 <strong>${fmtWon(bestNow.cur_price)}</strong>`;
+        subEl.textContent = `당일 VWAP(${fmtWon(bestNow.vwap)}) 상단 체류 ${dp}% · 평소 대비 자금 집중도 ${fm}배 · 평일 09:30 공식 확정`;
+        rightEl.innerHTML = `<button class="copy-chip" onclick="copyStockCode('${escHtml(bestNow.code)}', '${escHtml(bestNow.name)}')">📋 ${escHtml(bestNow.code)} 복사</button>`;
+      }
+    }
+
+    function renderPairBox(boxEl, marketTitle, pairObj) {
+      if (!boxEl || !pairObj || !pairObj.winner || !pairObj.other) return;
+      const w = pairObj.winner;
+      const o = pairObj.other;
+      const isUp = w.dir === "UP";
+      const badgeBg = isUp ? "#ECFDF5" : "#FFF1F2";
+      const badgeBorder = isUp ? "#10B981" : "#F43F5E";
+      const badgeTxt = isUp ? "#047857" : "#BE123C";
+      const wPct = Number(w.day_above_pct ?? 50).toFixed(0);
+      const wmPct = Number(w.morn_above_pct ?? wPct).toFixed(0);
+      const oPct = Number(o.day_above_pct ?? 50).toFixed(0);
+      const fm = Number(w.flow_surge_mult ?? 1.0).toFixed(2);
+      const mShare = Number(w.pair_money_share_pct ?? 50).toFixed(0);
+      const arrow = isUp ? "📈 상승 우위" : "📉 하락(인버스) 우위";
+      boxEl.style.cursor = "pointer";
+      boxEl.onclick = () => copyStockCode(w.code, w.name);
+      boxEl.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
+          <span class="lab-kpi-lbl" style="margin:0;">${marketTitle}</span>
+          <span style="font-size:11.5px; font-weight:900; padding:2px 8px; border-radius:999px; background:${badgeBg}; border:1px solid ${badgeBorder}; color:${badgeTxt};">
+            ${arrow} · 체류 ${wPct}%
+          </span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8px;">
+          <div style="font-size:16px; font-weight:900; color:var(--text-main);">
+            👑 ${escHtml(w.name)} <span style="font-size:12px; color:var(--text-muted);">(${escHtml(w.code)})</span>
+          </div>
+          <div style="font-size:16px; font-weight:900; color:#0369A1;">
+            ${fmtWon(w.cur_price)}
+          </div>
+        </div>
+        <div style="font-size:12.5px; font-weight:800; color:var(--text-muted); margin-top:4px;">
+          VWAP 체류 <strong style="color:#0369A1;">당일 ${wPct}%</strong> (09:30기준 <strong>${wmPct}%</strong>) · VWAP <strong>${fmtWon(w.vwap)}</strong> (<strong class="${w.vwap_gap_pct >= 0 ? "up-txt" : "dn-txt"}">${w.vwap_gap_pct >= 0 ? "+" : ""}${Number(w.vwap_gap_pct).toFixed(2)}%</strong>)
+        </div>
+        <div style="font-size:12px; font-weight:800; color:#075985; margin-top:3px;">
+          💰 자금 쏠림: 평소 대비 <strong>${fm}배</strong> 집중 (양방향 중 거래대금 <strong>${mShare}%</strong> 차지)
+        </div>
+        <div style="font-size:11.5px; font-weight:700; color:#64748B; margin-top:4px; padding-top:4px; border-top:1px dashed #BAE6FD;">
+          반대편: ${escHtml(o.name)} ${fmtWon(o.cur_price)} (당일 VWAP 상단 체류 ${oPct}%)
+        </div>
+      `;
+    }
+
+    renderPairBox(kospiBox, "🏛️ 코스피 200 · 정방향 vs 인버스", idx.kospi_pair);
+    renderPairBox(kosdaqBox, "🚀 코스닥 150 · 정방향 vs 인버스", idx.kosdaq_pair);
+
+    // 외국인·기관 수급 + 환율 + 미 증시 카드 렌더링
+    if (macroBox && macro && ("kospi_foreign_eok" in macro)) {
+      const kpf = Number(macro.kospi_foreign_eok || 0);
+      const kpi = Number(macro.kospi_inst_eok || 0);
+      const kqf = Number(macro.kosdaq_foreign_eok || 0);
+      const kqi = Number(macro.kosdaq_inst_eok || 0);
+      const fx = Number(macro.usdkrw || 0);
+      const fxc = Number(macro.usdkrw_chg || 0);
+      const ndx = Number(macro.nasdaq_pct || 0);
+      const sox = Number(macro.sox_pct || 0);
+      const mDir = macro.macro_dir || "NEUTRAL";
+      const mBg = mDir === "UP" ? "#ECFDF5" : (mDir === "DN" ? "#FFF1F2" : "#F1F5F9");
+      const mCol = mDir === "UP" ? "#047857" : (mDir === "DN" ? "#BE123C" : "#475569");
+      macroBox.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
+          <span class="lab-kpi-lbl" style="margin:0;">🌍 외국인·기관 수급 & 환율·미증시</span>
+          <span style="font-size:11px; font-weight:900; padding:2px 8px; border-radius:999px; background:${mBg}; color:${mCol};">
+            ${escHtml(macro.macro_label || "수급 분석")}
+          </span>
+        </div>
+        <div style="font-size:12.5px; font-weight:800; color:var(--text-main); line-height:1.6;">
+          • 코스피 수급: 외인 <strong class="${kpf >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kpf)}</strong> · 기관 <strong class="${kpi >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kpi)}</strong><br>
+          • 코스닥 수급: 외인 <strong class="${kqf >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kqf)}</strong> · 기관 <strong class="${kqi >= 0 ? "up-txt" : "dn-txt"}">${fmtSignedEok(kqi)}</strong><br>
+          • 환율·미증시: 원/달러 <strong>${fx > 0 ? fx.toFixed(1) + "원" : "-"}</strong> (${fxc >= 0 ? "+" : ""}${fxc.toFixed(1)}) · 나스닥 <strong class="${ndx >= 0 ? "up-txt" : "dn-txt"}">${ndx >= 0 ? "+" : ""}${ndx.toFixed(2)}%</strong> · 반도체 <strong class="${sox >= 0 ? "up-txt" : "dn-txt"}">${sox >= 0 ? "+" : ""}${sox.toFixed(2)}%</strong>
+        </div>
+      `;
+    }
+
+    // 실시간 시황 핵심 뉴스 카드 렌더링
+    if (newsBox && macro) {
+      const hls = Array.isArray(macro.headlines) ? macro.headlines : [];
+      const nDir = macro.news_dir || "NEUTRAL";
+      const nBg = nDir === "UP" ? "#ECFDF5" : (nDir === "DN" ? "#FFF1F2" : "#F1F5F9");
+      const nCol = nDir === "UP" ? "#047857" : (nDir === "DN" ? "#BE123C" : "#475569");
+      if (!hls.length) {
+        newsBox.innerHTML = `
+          <div class="lab-kpi-lbl">📰 지수 영향 실시간 핵심 시황뉴스</div>
+          <div style="font-size:12.5px; color:var(--text-muted); margin-top:6px;">현재 집계된 주요 시황 속보가 없습니다.</div>
+        `;
+      } else {
+        newsBox.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:6px; margin-bottom:6px;">
+            <span class="lab-kpi-lbl" style="margin:0;">📰 지수 영향 실시간 핵심 시황뉴스</span>
+            <span style="font-size:11px; font-weight:900; padding:2px 8px; border-radius:999px; background:${nBg}; color:${nCol};">
+              ${escHtml(macro.news_label || "시황 브리핑")}
+            </span>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:5px;">
+            ${hls.map(n => {
+              const tPill = n.tone === "UP"
+                ? `<span style="color:#BE123C; font-weight:900;">[강세]</span>`
+                : (n.tone === "DN" ? `<span style="color:#1D4ED8; font-weight:900;">[경계]</span>` : `<span style="color:#0369A1; font-weight:900;">[시황]</span>`);
+              return `
+                <a href="${escHtml(n.url || '#')}" target="_blank" rel="noopener" style="text-decoration:none; font-size:12.5px; font-weight:800; color:#0F172A; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                  ${tPill} ${escHtml(n.title)} <span style="font-size:11px; color:#64748B; font-weight:700;">(${escHtml(n.time || "")})</span>
+                </a>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }
+    }
+
+    const stats = idx.stats || {};
+    const hist = Array.isArray(idx.history) ? idx.history : [];
+    if (histSumEl) {
+      const sr = Number(stats.sum_return_pct || 0);
+      histSumEl.textContent = hist.length > 0
+        ? `지수 방향 예측 누적 성적: ${sr >= 0 ? "+" : ""}${sr.toFixed(2)}% · 승률 ${Number(stats.win_rate_pct || 0).toFixed(1)}% (${hist.length}건 보기)`
+        : `지수 방향 예측 일자별 기록 보기 (3박자 검증 공식 · 09:30 확정 ~ 15:15 정산)`;
+    }
+    if (histListEl && hist.length > 0) {
+      histListEl.innerHTML = hist.map((h) => {
+        const np = Number(h.net_pnl_pct || 0);
+        const cls = np >= 0 ? "up-txt" : "dn-txt";
+        return `
+          <div class="lab-hist-row" onclick="copyStockCode('${escHtml(h.code)}', '${escHtml(h.name)}')">
+            <div>
+              <span style="color:var(--text-muted);">${escHtml(h.date)}(${escHtml(h.weekday || "")})</span> ·
+              <strong>${escHtml(h.name)}</strong> <span style="font-size:12px; color:#0369A1;">[${escHtml(h.dir_label || "")}]</span>
+            </div>
+            <div>
+              <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
+              <span class="${cls}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+  }
+
+  function renderViLab(isi) {
+    const vl = isi && isi.vi_lab ? isi.vi_lab : null;
+    if (!vl) return;
+    const stats = vl.stats || {};
+    const cumEl = document.getElementById("viLabCumRet");
+    const winEl = document.getElementById("viLabWinStats");
+    const tagEl = document.getElementById("viLabStatusTag");
+    const mainEl = document.getElementById("viLabStockMain");
+    const subEl = document.getElementById("viLabStockSub");
+    const actEl = document.getElementById("viLabRightAction");
+    const histSumEl = document.getElementById("viLabHistSummaryLbl");
+    const histListEl = document.getElementById("viLabHistList");
+
+    const sumRet = Number(stats.sum_return_pct || 0);
+    if (cumEl) {
+      cumEl.textContent = `${sumRet >= 0 ? "+" : ""}${sumRet.toFixed(2)}%`;
+      cumEl.className = "lab-kpi-val " + (sumRet >= 0 ? "up-txt" : "dn-txt");
+    }
+    if (winEl) {
+      const tot = Number(stats.total_closed || 0);
+      const wr = Number(stats.win_rate_pct || 0);
+      winEl.textContent = `${wr.toFixed(1)}% (${tot}전 ${stats.win_count || 0}승 ${stats.loss_count || 0}패)`;
+    }
+
+    const tList = Array.isArray(vl.today_positions) ? vl.today_positions : [];
+    const liveBox = document.getElementById("viLabLiveBox");
+    if (tagEl) tagEl.classList.remove("holding");
+
+    if (tList.length > 0 && liveBox) {
+      const holdCnt = tList.filter(p => p.status === "HOLDING").length;
+      liveBox.style.display = "block";
+      liveBox.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+          <div class="lab-status-tag ${holdCnt > 0 ? "holding" : ""}" id="viLabStatusTag" style="margin:0;">
+            ⚡ 오늘 무뉴스 상승 VI 포착 총 ${tList.length}종목 (보유 ${holdCnt} · 청산 ${tList.length - holdCnt})
+          </div>
+          <span style="font-size:11.5px; color:var(--text-muted); font-weight:700;">09:05~13:00 걸리는 대로 자동 추가</span>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:7px;">
+          ${tList.map((p) => {
+            const isHold = p.status === "HOLDING";
+            const np = Number(isHold ? (p.cur_net_pct || 0) : (p.net_pnl_pct || 0));
+            const mp = Number(p.max_raw_pct || 0);
+            const cls = np >= 0 ? "up-txt" : "dn-txt";
+            const badge = isHold
+              ? `<span style="font-size:11px; font-weight:900; padding:2px 6px; border-radius:6px; background:#DBEAFE; color:#1D4ED8;">보유중</span>`
+              : `<span style="font-size:11px; font-weight:900; padding:2px 6px; border-radius:6px; background:${np >= 0 ? "#DCFCE7" : "#FEE2E2"}; color:${np >= 0 ? "#15803D" : "#B91C1C"};">${escHtml(p.exit_reason || "청산")}</span>`;
+            const pxLine = isHold
+              ? `진입 ${fmtWon(p.entry_price)}(${escHtml(p.entry_time || "")}) → 현재 ${fmtWon(p.cur_price)}`
+              : `진입 ${fmtWon(p.entry_price)}(${escHtml(p.entry_time || "")}) → 청산 ${fmtWon(p.exit_price)}(${escHtml(p.exit_time || "")})`;
+            return `
+              <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; padding:8px 10px; border-radius:10px; background:#F8FAFC; border:1px solid #E2E8F0;">
+                <div style="min-width:0;">
+                  <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                    ${badge}
+                    <strong style="font-size:14.5px; color:#0F172A;">${escHtml(p.name)}</strong>
+                    <span style="font-size:12px; color:var(--text-muted);">(${escHtml(p.code)})</span>
+                    <span class="${cls}" style="font-size:13.5px; font-weight:900;">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>
+                    <span style="font-size:12px; color:#0369A1; font-weight:700;">${escHtml(p.vi_tag || "")}</span>
+                  </div>
+                  <div style="font-size:12.5px; color:#475569; margin-top:3px;">
+                    ${pxLine} · <strong style="color:#BE123C;">🚀 최고 ${fmtWon(p.peak_price)} (+${mp.toFixed(2)}%)</strong>
+                  </div>
+                </div>
+                <div style="display:flex; gap:6px; flex-shrink:0;">
+                  <a class="btn-outline" href="https://m.stock.naver.com/domestic/stock/${escHtml(p.code)}/chart" target="_blank" rel="noopener" style="text-decoration:none; padding:5px 10px; font-size:12px;">📈 차트</a>
+                  <button class="btn-outline" onclick="copyStockCode('${escHtml(p.code)}','${escHtml(p.name)}')" style="padding:5px 10px; font-size:12px;">📋 복사</button>
+                </div>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    } else if (liveBox) {
+      liveBox.innerHTML = `
+        <div>
+          <div class="lab-status-tag" id="viLabStatusTag">🕒 평일 09:05~13:00 무뉴스 상승 VI 전수 스캔 대기</div>
+          <div class="lab-stock-main" id="viLabStockMain">현재 포착된 무뉴스 상승 VI 종목 대기 중</div>
+          <div class="lab-stock-sub" id="viLabStockSub">당일·전일 공시 0건 · 뉴스 0건 1차 상승 VI 해제 시 걸리는 대로 전부 리스트업 &amp; 최고가 추적</div>
+        </div>
+        <div id="viLabRightAction"></div>
+      `;
+    }
+
+    const hist = Array.isArray(vl.history) ? vl.history : [];
+    if (histSumEl) {
+      histSumEl.textContent = `무뉴스 VI 실험실 일자별 기록 & 매수 후 최고가 보기 (${hist.length}건)`;
+    }
+    if (histListEl && hist.length > 0) {
+      histListEl.innerHTML = hist.map((h) => {
+        const np = Number(h.net_pnl_pct || 0);
+        const mp = Number(h.max_raw_pct || 0);
+        const cls = np >= 0 ? "up-txt" : "dn-txt";
+        return `
+          <div class="lab-hist-row" onclick="copyStockCode('${escHtml(h.code)}', '${escHtml(h.name)}')">
+            <div>
+              <span style="color:var(--text-muted);">${escHtml(h.date)}(${escHtml(h.weekday || "")})</span> ·
+              <strong>${escHtml(h.name)}</strong>
+              <span style="font-size:12px; color:#0369A1;">${escHtml(h.vi_tag || "")}</span>
+              <a href="https://m.stock.naver.com/domestic/stock/${escHtml(h.code)}/chart" target="_blank" rel="noopener" onclick="event.stopPropagation();" style="margin-left:6px; font-size:11.5px; font-weight:800; color:#0284C7; text-decoration:none; padding:1px 6px; border-radius:6px; background:#E0F2FE;">📈 차트</a>
+            </div>
+            <div>
+              <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
+              <span class="${cls}">세후 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span> ·
+              <strong style="color:#BE123C;">최고 ${fmtWon(h.peak_price)} (+${mp.toFixed(2)}%)</strong>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+  }
+
   function applyIsiBoard(isi) {
     if (!isi) return;
     currentIsiData = isi;
-    renderHero(isi);
-    renderTop3Themes(isi);
-    renderIntradayLab(isi);
-    renderLedger(isi);
+    for (const fn of [renderHero, renderTop3Themes, renderIndexRadar, renderIntradayLab, renderViLab, renderLedger]) {
+      try {
+        fn(isi);
+      } catch (err) {
+        console.error("[Board Render Error]", fn.name, err);
+      }
+    }
   }
 
   window.fetchRemoteState = async function(manual = false) {
-    try {
-      const res = await fetch(`${STATE_URL}?t=${Date.now()}`, { cache: "no-store" });
-      if (!res.ok) return;
-      const data = await res.json();
-      if (data && data.isi_board) {
-        applyIsiBoard(data.isi_board);
-        if (manual) showToast("🔄 최신 전광판 동기화 완료!");
-      }
-    } catch (e) {}
+    for (const baseUrl of [STATE_URL_PRIMARY, STATE_URL_FALLBACK]) {
+      try {
+        const ctrl = new AbortController();
+        const tid = setTimeout(() => ctrl.abort(), 4500);
+        const res = await fetch(`${baseUrl}?t=${Date.now()}`, { cache: "no-store", signal: ctrl.signal });
+        clearTimeout(tid);
+        if (!res.ok) continue;
+        const data = await res.json();
+        if (data && data.isi_board) {
+          applyIsiBoard(data.isi_board);
+          if (manual) showToast("🔄 최신 전광판 동기화 완료!");
+          return;
+        }
+      } catch (e) {}
+    }
   };
 
   // 초기 즉시 로드 + 30초 백업 폴링
@@ -1757,8 +2235,17 @@
   } catch (e) {}
 
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+    let swRefreshed = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (!swRefreshed) {
+        swRefreshed = true;
+        window.location.reload();
+      }
+    });
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js").then(reg => reg.update()).catch(() => {});
+      navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" })
+        .then(reg => reg.update())
+        .catch(() => {});
     });
   }
 })();
