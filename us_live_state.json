@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 01:32:05",
-  "updated_at_et": "2026-11-20 11:32:05",
-  "updated_epoch_ms": 1795192325387,
+  "updated_at_kst": "2026-11-21 01:33:01",
+  "updated_at_et": "2026-11-20 11:33:01",
+  "updated_epoch_ms": 1795192381198,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 41,
     "avg_price": 4.3536,
-    "current_price": 4.775,
-    "profit_rate": 9.68,
-    "updated_kst": "01:32:00"
+    "current_price": 4.745,
+    "profit_rate": 8.99,
+    "updated_kst": "01:32:57"
   },
   "stats": {
     "today_total": 35,
@@ -2471,6 +2471,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "11:32:36",
+      "time_kst": "01:32:36",
+      "symbol": "AMCI",
+      "company_name": "AMCI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "11:12:38",
       "time_kst": "01:12:38",
       "symbol": "SPCX",
@@ -2958,16 +2968,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:20:46",
-      "time_kst": "23:20:46",
-      "symbol": "AAL",
-      "company_name": "AAL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $8428.5M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
