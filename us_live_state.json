@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 01:10:54",
-  "updated_at_et": "2026-11-20 11:10:54",
-  "updated_epoch_ms": 1795191054846,
+  "updated_at_kst": "2026-11-21 01:11:52",
+  "updated_at_et": "2026-11-20 11:11:52",
+  "updated_epoch_ms": 1795191112504,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 41,
     "avg_price": 4.3536,
-    "current_price": 4.87,
-    "profit_rate": 11.86,
-    "updated_kst": "01:10:46"
+    "current_price": 4.89,
+    "profit_rate": 12.32,
+    "updated_kst": "01:11:44"
   },
   "stats": {
     "today_total": 35,
@@ -2471,6 +2471,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "11:11:26",
+      "time_kst": "01:11:26",
+      "symbol": "QBTS",
+      "company_name": "QBTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2778.26M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "11:02:23",
       "time_kst": "01:02:23",
       "symbol": "FSLR",
@@ -2958,16 +2968,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-22 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:15:17",
-      "time_kst": "23:15:17",
-      "symbol": "GNS",
-      "company_name": "GNS",
-      "exchange": "NY",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $194.63M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
