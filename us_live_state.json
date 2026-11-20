@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:02:47",
-  "updated_at_et": "2026-11-20 07:02:47",
-  "updated_epoch_ms": 1795176167734,
+  "updated_at_kst": "2026-11-20 21:03:45",
+  "updated_at_et": "2026-11-20 07:03:45",
+  "updated_epoch_ms": 1795176225248,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.54,
-    "profit_rate": -3.4,
-    "updated_kst": "21:02:40"
+    "current_price": 4.5,
+    "profit_rate": -4.26,
+    "updated_kst": "21:03:39"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
     "today_false": 3,
-    "today_hardcut": 57,
+    "today_hardcut": 58,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:03:43",
+      "time_kst": "21:03:43",
+      "symbol": "REAL",
+      "company_name": "REAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1475.35M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:01:13",
       "time_kst": "21:01:13",
       "symbol": "MOBX",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:02:53",
-      "time_kst": "18:02:53",
-      "symbol": "TELO",
-      "company_name": "TELO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
     }
   ]
 }
