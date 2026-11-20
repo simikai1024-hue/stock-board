@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:18:57",
-  "updated_at_et": "2026-11-20 04:18:57",
-  "updated_epoch_ms": 1795166337430,
+  "updated_at_kst": "2026-11-20 18:19:46",
+  "updated_at_et": "2026-11-20 04:19:46",
+  "updated_epoch_ms": 1795166386089,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:18:48"
+    "updated_kst": "18:19:39"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 25,
+    "today_hardcut": 28,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:19:37",
+      "time_kst": "18:19:37",
+      "symbol": "FFAI",
+      "company_name": "FFAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:19:25",
+      "time_kst": "18:19:25",
+      "symbol": "BLNK",
+      "company_name": "BLNK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:19:16",
+      "time_kst": "18:19:16",
+      "symbol": "OLOX",
+      "company_name": "OLOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:18:01",
       "time_kst": "18:18:01",
       "symbol": "VVOS",
@@ -2904,36 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $568.7M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:47",
-      "time_kst": "23:50:47",
-      "symbol": "SIDU",
-      "company_name": "SIDU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $87.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:41",
-      "time_kst": "23:50:41",
-      "symbol": "TSLA",
-      "company_name": "TSLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1516753.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:36",
-      "time_kst": "23:50:36",
-      "symbol": "ANIX",
-      "company_name": "ANIX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $94.21M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
