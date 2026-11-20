@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:00:53",
-  "updated_at_et": "2026-11-20 09:00:53",
-  "updated_epoch_ms": 1795183253473,
+  "updated_at_kst": "2026-11-20 23:01:51",
+  "updated_at_et": "2026-11-20 09:01:51",
+  "updated_epoch_ms": 1795183311943,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "FRGT",
+    "company_name": "FRGT",
+    "exchange": "ND",
+    "price": 0.63,
+    "gain_pct": 4.98,
+    "mcap_m": 1.06,
+    "catalyst_hint": "[당일 PR] Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:01:43",
+    "started_at_kst": "23:01:43",
+    "started_epoch_ms": 1795183303043
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8601,
-    "profit_rate": 2.41,
-    "updated_kst": "23:00:48"
+    "current_price": 0.8836,
+    "profit_rate": 5.2,
+    "updated_kst": "23:01:46"
   },
   "stats": {
     "today_total": 21,
@@ -2458,6 +2470,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:01:43",
+      "time_kst": "23:01:43",
+      "symbol": "GRML",
+      "company_name": "GRML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:01:22",
+      "time_kst": "23:01:22",
+      "symbol": "RBNE",
+      "company_name": "RBNE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Robin Energy Announces Reverse Stock Split to be Effect)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:01:05",
+      "time_kst": "23:01:05",
+      "symbol": "MYSZ",
+      "company_name": "MYSZ",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:00:55",
+      "time_kst": "23:00:55",
+      "symbol": "SPWR",
+      "company_name": "SPWR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1217.14M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:55:52",
       "time_kst": "22:55:52",
       "symbol": "QBTS",
@@ -2915,46 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:34:23",
-      "time_kst": "21:34:23",
-      "symbol": "NXH",
-      "company_name": "NXH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $113.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:31:12",
-      "time_kst": "21:31:12",
-      "symbol": "NXTC",
-      "company_name": "NXTC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:25:49",
-      "time_kst": "21:25:49",
-      "symbol": "PLUR",
-      "company_name": "PLUR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-30 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:09:06",
-      "time_kst": "21:09:06",
-      "symbol": "YOUL",
-      "company_name": "YOUL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
     }
   ]
 }
