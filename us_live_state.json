@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:16:57",
-  "updated_at_et": "2026-11-20 04:16:57",
-  "updated_epoch_ms": 1795166217446,
+  "updated_at_kst": "2026-11-20 18:17:49",
+  "updated_at_et": "2026-11-20 04:17:49",
+  "updated_epoch_ms": 1795166269395,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:16:37"
+    "updated_kst": "18:17:41"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 20,
+    "today_hardcut": 24,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:17:49",
+      "time_kst": "18:17:49",
+      "symbol": "TWG",
+      "company_name": "TWG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $126.75M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:17:24",
+      "time_kst": "18:17:24",
+      "symbol": "WHLR",
+      "company_name": "WHLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:17:10",
+      "time_kst": "18:17:10",
+      "symbol": "CENN",
+      "company_name": "CENN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:16:58",
+      "time_kst": "18:16:58",
+      "symbol": "IMDX",
+      "company_name": "IMDX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.65M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:16:49",
       "time_kst": "18:16:49",
       "symbol": "GOAI",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $23414.66M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:25",
-      "time_kst": "23:50:25",
-      "symbol": "PUBM",
-      "company_name": "PUBM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $947.49M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:20",
-      "time_kst": "23:50:20",
-      "symbol": "ADAG",
-      "company_name": "ADAG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $122.2M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:14",
-      "time_kst": "23:50:14",
-      "symbol": "MCHP",
-      "company_name": "MCHP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $32473.85M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:09",
-      "time_kst": "23:50:09",
-      "symbol": "SAIC",
-      "company_name": "SAIC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6160.62M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
