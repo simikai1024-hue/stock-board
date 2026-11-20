@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 01:00:45",
-  "updated_at_et": "2026-11-20 11:00:45",
-  "updated_epoch_ms": 1795190445169,
+  "updated_at_kst": "2026-11-21 01:01:41",
+  "updated_at_et": "2026-11-20 11:01:41",
+  "updated_epoch_ms": 1795190501561,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 5.2204,
     "current_price": 4.76,
     "profit_rate": -8.82,
-    "updated_kst": "01:00:36"
+    "updated_kst": "01:01:33"
   },
   "stats": {
     "today_total": 35,
@@ -2471,6 +2471,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "11:01:12",
+      "time_kst": "01:01:12",
+      "symbol": "BULL",
+      "company_name": "BULL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2470.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:56:36",
       "time_kst": "00:56:36",
       "symbol": "PROV",
@@ -2618,16 +2628,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:57:59",
-      "time_kst": "23:57:59",
-      "symbol": "BULL",
-      "company_name": "BULL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2470.87M (기준 <= $50.0M USD 초과/초고속컷)"
     },
     {
       "date_et": "2026-11-20",
