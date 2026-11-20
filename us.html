@@ -570,9 +570,9 @@ function renderBoard(state) {
       div.className = `hl-item ${trk === "TRACK3" ? "t3" : "t1"}`;
       const gn = Number(v.gain_pct || 0);
       const px = Number(v.price || 0);
-      const kstHm = String(v.time_kst || "").slice(0, 5);
+      const etHm = String(v.time_et || "").slice(0, 5);
       div.innerHTML = `
-        <span class="hl-time">#${idx + 1} · ${kstHm || v.time_et?.slice(0,5) || ''}</span>
+        <span class="hl-time">#${idx + 1} · ${etHm ? etHm + ' ET' : (v.time_kst?.slice(0,5) || '')}</span>
         ${trackBadgeHtml(trk)}
         <span class="hl-sym">${v.symbol}</span>
         ${px > 0 ? `<span class="hl-gain ${gn < 0 ? 'neg' : ''}">$${px.toFixed(2)} (${gn>=0?'+':''}${gn.toFixed(1)}%)</span>` : ""}
@@ -649,8 +649,8 @@ function renderTimeline(state) {
 
       row.innerHTML = `
         <div class="col-time">
-          <div class="kst">🇰🇷 ${kstHm}</div>
-          <div class="et">🇺🇸 ${etHm} ET</div>
+          <div class="kst">🇺🇸 ${etHm} ET</div>
+          <div class="et">🇰🇷 ${kstHm} KST</div>
         </div>
         <div class="col-trk">
           ${trackBadgeHtml(trk)}
