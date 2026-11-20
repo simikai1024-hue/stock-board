@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:01:30",
-  "updated_at_et": "2026-11-20 06:01:30",
-  "updated_epoch_ms": 1795172490238,
+  "updated_at_kst": "2026-11-20 20:02:31",
+  "updated_at_et": "2026-11-20 06:02:31",
+  "updated_epoch_ms": 1795172551003,
   "analyzing": {
-    "active": true,
-    "symbol": "VWAV",
-    "company_name": "VWAV",
-    "exchange": "ND",
-    "price": 0.711,
-    "gain_pct": 7.47,
-    "mcap_m": 2.31,
-    "catalyst_hint": "[당일 PR] VisionWave Holdings Acquires Critical Minerals Intelligence Platform, Targeting Near-Term Commercialization of Defense Supply-Chain Intelligence",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "06:01:24",
-    "started_at_kst": "20:01:24",
-    "started_epoch_ms": 1795172484296
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:01:23"
+    "updated_kst": "20:02:22"
   },
   "stats": {
-    "today_total": 3,
+    "today_total": 4,
     "today_nblm_count": 0,
     "today_buy": 2,
-    "today_false": 1,
+    "today_false": 2,
     "today_hardcut": 44,
     "total_verdicts": 150,
     "total_buy": 5,
     "total_false": 145,
-    "avg_nblm_sec": 34.6
+    "avg_nblm_sec": 36.8
   },
   "verdicts": [
+    {
+      "id": "v_1795172545504_VWAV_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "06:02:25",
+      "time_kst": "20:02:25",
+      "symbol": "VWAV",
+      "company_name": "VWAV",
+      "exchange": "ND",
+      "price": 0.711,
+      "gain_pct": 7.47,
+      "mcap_m": 2.31,
+      "decision": "FALSE",
+      "elapsed_sec": 81.5,
+      "reason": "확정 수주 전무한 미종결 플랫폼 단순 인수 및 가설적 추정가 홍보 PR로 헌법 3조 2항(금액 미기재) 위배 및 장전 -12.2% 윗꼬리 소멸 전량 차단",
+      "catalyst_hint": "[당일 PR] VisionWave Holdings Acquires Critical Minerals Intelligence Platform, Targeting Near-Term Commercialization of Defense Supply-Chain Intelligence",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 [cite: 20], [달의검] 실시간 긴급결재 원문서류철 [cite: 429] 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 VWAV (VisionWave Holdings, Inc.) 2026-11-20 06:01:03 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 9, 429].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $9.4K 및 -12.2% 윗꼬리)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: VWAV) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 20, 431].\n실질 시가총액: 약 $2.31M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 10, 429].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 미종결 플랫폼 단순 인수 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 429].\n헤드라인의 '핵심 광물 정보 플랫폼(CMIP) 인수'는 회사 금고로 직통 유입되는 매출이나 국방 납품 계약이 아니라, Litial Ltd로부터 소프트웨어 플랫폼을 사오는 **미종결 지분/자산 인수 건(The acquisition has not yet closed)**에 불과합니다 [cite: 431, 432].\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 거액 메가 수주(AIMD형)가 아니라, **신규 계약 금액이 전무하고 미종결 상태인 브라우저 기반 MVP 플랫폼 단순 인수 언론플레이(Acquires Platform PR)**입니다 [cite: 11, 432, 433].\n실시간 체결가 및 수급 (장전 최고가 대비 -12.2% 윗꼬리 출회):\n전일 종가 $0.6616 대비 현재가 $0.7110 (+7.47%) [cite: 430].\n당일 프리마켓 최고가 $0.8100 (+22.43%)까지 반짝 띄운 후 실체 없는 플랫폼 인수 홍보물임을 확인하고 고점 대비 -12.2% 밀림 [cite: 430].\n당일 누적 거래대금은 $9,421 USD (약 9.4천 달러 수준의 극소액 체결) [cite: 430].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 430].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 06:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"VisionWave Holdings Acquires Critical Minerals Intelligence Platform, Targeting Near-Term Commercialization of Defense Supply-Chain Intelligence\" [cite: 430]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 미종결(Not Closed) 소프트웨어 플랫폼 단순 인수 홍보물:\n원문 본문에 *\"The agreement with Litial Ltd was signed on November 18, 2026, and the acquisition has not yet closed... CMIP includes a browser-based minimum viable product (MVP)...\"*라고 명시되어 있습니다 [cite: 432, 433].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 11, 22].\n완성된 상용 제품도 아닌 '브라우저 기반 최소 기능 제품(MVP)' 단계의 플랫폼을 인수하기로 계약만 체결했을 뿐 아직 거래가 종결(Closing)되지도 않은 상태입니다 [cite: 432, 433].\n본문 스스로 실토한 '확정 고객 계약 0건 및 단순 가정치 홍보':\n원문 본문에 *\"The platform developer's proposed commercial model contemplates annual enterprise subscriptions ranging from approximately $25,000 to $75,000... These figures represent proposed pricing assumptions rather than established customer contracts or verified historical revenue. VisionWave has not independently validated these assumptions, and there can be no assurance that any customer will purchase services at these or any other prices.\"*라고 적시되어 있습니다 [cite: 441].\n즉, 연간 2만 5천~7만 5천 달러라는 수치는 개발사의 일방적인 '희망 가격 가정치'일 뿐이며, 실제 계약된 고객이나 검증된 과거 매출은 단 1달러도 없음을 회사가 직접 인정하고 있습니다 [cite: 441].\n과거 180일 연속된 '방산/AI 테마성 금액 미기재 언론플레이' 남발 적발:\n과거 180일 PR 원장 대조 결과 [cite: 444]:\n[2026-11-18] Announces Strategic Partnership Agreements Intended To Expand Access To Defense Markets In Europe And Asia [cite: 444]\n[2026-11-12] Signs Non-Binding Letter of Intent to Acquire Controlling Interest in Ukrainian Unmanned Systems Technology Company EPSERVICE [cite: 445]\n[2026-11-10] Adds Six Field-Tested, Commercially Available Unmanned Aerial Systems to Its STRATUM Aerial Portfolio [cite: 445]\n이처럼 VWAV는 최근 일주일 동안 우크라이나 기업 인수 LOI, 드론 추가, 파트너십 제휴 등 **실체적 확정 매출이 전혀 없는 테마성 언론플레이 PR을 2~3일 간격으로 쪼개서 남발(심사 헌법 제3조 ①항)**해 온 전형적인 테마 편승주입니다 [cite: 444, 445].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 11].\n심사 헌법 제3조 ②항 위배 및 장전 -12.2% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 금액 미기재 제휴/플랫폼 인수/단순 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n장전 프리마켓에서 $0.8100까지 반짝 띄운 후 실체 없는 MVP 인수 홍보물임을 확인하고 고점 대비 -12.2% 밀린 전형적인 윗꼬리 소멸 패턴입니다 [cite: 430].\n3. 최종 심사 및 결재 판정\nVWAV의 당일 공식 PR은 확정 상업 수주나 현금 선급금이 전무하며, 아직 거래가 완료되지도 않은 브라우저 기반 MVP 플랫폼의 단순 인수 및 가설적 추정 가격대 홍보 언론플레이에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ②항에 의거 FORCE_BLOCK: VWAV 처리합니다 [cite: 11, 431, 432, 441].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: VWAV NOTES:\n[VWAV] 확정 수주 전무한 미종결 플랫폼 단순 인수 및 가설적 추정가 홍보 PR로 헌법 3조 2항(금액 미기재) 위배 및 장전 -12.2% 윗꼬리 소멸 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕)에 이어 VWAV(미종결 MVP 플랫폼 단순 인수)까지 2건 연속 껍데기 언론플레이로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 417, 431, 432]. 이후 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 10, 11].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795168915392_NA_FALSE",
       "track": "TRACK1",
@@ -2425,26 +2434,6 @@
       "reason": "11/9 기예고된 ObesityWeek 학회발표 및 기완료 임상 2b상 사후 하위분석(Post Hoc) 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 VERU (Veru Inc.) 2026-11-17 08:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.66M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.0800 대비 현재가 $2.1500 (+3.37%), 당일 최고가 $2.1500 (고점 대비 +0.0%).\n당일 누적 거래대금 $1,636 USD (1천6백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: *\"Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass and Physical Function\"*\n원문 직독 결과 드러난 치명적 실체:\nFDA 승인이나 빅파마 기술이전 계약이 아닌 학회 구두 발표 및 과거 임상 사후 하위분석 재탕 (Post Hoc Subset Analysis at ObesityWeek PR):\n본 PR의 본질은 FDA 정식 시판 승인이나 글로벌 제약사와의 거액 독점 라이선스 계약이 아닙니다.\n이미 완료된 과거 임상 2b상(QUALITY 연구) 환자 데이터 중 65세 이상 고령자 92명을 사후 분리 분석(Post hoc subset analysis)하여 비만학회(ObesityWeek 2026)에서 포디엄 구두 발표를 진행했다는 **단순 학회 발표 및 사후 통계 분석 보도자료(today announced that Veru had a podium presentation at ObesityWeek 2026 in Washington DC... reviewed results of the new post hoc physical function subset analysis...)**에 불과합니다.\n외부 빅파마로부터 확정 유입되는 라이선스 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 학회 발표 사전 예고(11/09)의 8일 만에 나온 단순 당일 행사 사후 발표 쪼개기 재탕:\n과거 이력 대조 결과 회사는 불과 8일 전인 2026년 11월 9일에 GlobeNewswire를 통해 *\"Veru to Present New Results on Effects of Enobosarm on Physical Function in Older Patients Receiving GLP-1 RA from the Phase 2b QUALITY clinical study at ObesityWeek 2026\"*라고 사전 예고한 바 있습니다.\n오늘 보도자료는 11월 9일에 발표할 것이라고 이미 알렸던 학회 발표 내용을 학회 당일(11/17) 단순 재인용하여 전송한 전형적인 사후 쪼개기/학회 재탕 언론 플레이입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 학회 사전예고(11/9)의 당일 사후 발표 쪼개기 재탕 및 과거 기완료 임상의 사후 하위분석(Post Hoc) 우려먹기, ④ 신규 확정 계약 금액이 없는 단순 학회 발표/데이터 홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 시판 승인이 전무하고, 11월 9일에 이미 예고되었던 ObesityWeek 2026 학회 구두 발표 및 기완료 임상 2b상의 사후 하위분석(Post Hoc) 결과 재탕에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: VERU 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: VERU NOTES:\n[VERU] 11/9 기예고된 ObesityWeek 학회발표 및 기완료 임상 2b상 사후 하위분석(Post Hoc) 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 23개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU) 전수가 실체적 확정 현금 유입이 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 자회사 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표로 확인되어 안전하게 전량 차단되었습니다\n. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794922063239_PFAI_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:27:43",
-      "time_kst": "22:27:43",
-      "symbol": "PFAI",
-      "company_name": "PFAI",
-      "exchange": "ND",
-      "price": 2.8361,
-      "gain_pct": 5.63,
-      "mcap_m": 33.37,
-      "decision": "FALSE",
-      "elapsed_sec": 47.8,
-      "reason": "확정 수주/매출 전무한 단순 실험실 규모(Laboratory-Scale) 아스타잔틴 추출 R&D 홍보 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Pinnacle Food Group Limited Achieves Laboratory-Scale Astaxanthin Extraction in Haematococcus pluvialis Program",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 PFAI (Pinnacle Food Group Limited) 2026-11-17 08:26 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.37M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.6850 대비 현재가 $2.8361 (+5.63%), 당일 최고가 $2.8361 (고점 대비 +0.0%).\n당일 누적 거래대금 $3,598 USD (3천5백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:15 ET) 공식 PR 원문 분석:\nPR 제목: \"Pinnacle Food Group Limited Achieves Laboratory-Scale Astaxanthin Extraction in Haematococcus pluvialis Program\"\n원문 직독 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 실험실 규모 추출 성공 발표 (Laboratory-Scale R&D PR):\n본 PR의 본질은 글로벌 식품/제약 기업과의 상업적 공급 계약이나 거액 수주가 아니라, 헤마토코쿠스 플루비알리스 미세조류 프로그램에서 **실험실 규모(laboratory scale)의 아스타잔틴 추출을 달성했다는 초기 R&D 연구 단계 발표 보도자료(Achieves Laboratory-Scale Astaxanthin Extraction... Research workflow advances... at laboratory scale)**에 불과합니다.\n외부 고객사로부터 유입되는 확정된 구매 주문액(PO), 최소 구매 수량(MOQ), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 M&A 자문사 선임(10/27) 이후 배포된 연구단계 홍보성 뉴스:\n과거 이력 대조 결과 회사는 10월 27일 M&A 자문사 선임 발표 등 외형 확장을 시도했으나, 이번 발표 역시 상업화 이전 단계인 '실험실 수준(Laboratory-scale)' 연구 진척을 포장한 전형적인 R&D 껍데기 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 연구개발/실험실 단위(Laboratory-Scale) 기술 진척 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 미세조류 아스타잔틴의 실험실 단위(Laboratory-Scale) 추출 성공 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로, 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: PFAI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: PFAI NOTES:\n[PFAI] 확정 수주/매출 전무한 단순 실험실 규모(Laboratory-Scale) 아스타잔틴 추출 R&D 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 22개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI) 전수가 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 자회사 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D로 확인되어 안전하게 전량 차단되었습니다\n. 08:30~09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
