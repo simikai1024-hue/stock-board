@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:58:06",
-  "updated_at_et": "2026-11-20 09:58:06",
-  "updated_epoch_ms": 1795186686241,
+  "updated_at_kst": "2026-11-20 23:58:27",
+  "updated_at_et": "2026-11-20 09:58:27",
+  "updated_epoch_ms": 1795186707954,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "ZEO",
+    "company_name": "ZEO",
+    "exchange": "ND",
+    "price": 0.2993,
+    "gain_pct": 3.56,
+    "mcap_m": 13.92,
+    "catalyst_hint": "[당일 PR] First Phosphate and Zeo Energy Interviews to Air Nationally on the RedChip Small Stocks, Big Money(TM) Show on Bloomberg TV",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:58:19",
+    "started_at_kst": "23:58:19",
+    "started_epoch_ms": 1795186699357
   },
   "halt_watch": {
     "active": false
@@ -14,12 +26,12 @@
     "watchlist_count": 0,
     "orderable_usd": 3.64,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "23:57:55"
+    "holding_symbol": "AKAN",
+    "holding_qty": 61,
+    "avg_price": 4.58,
+    "current_price": 4.2709,
+    "profit_rate": -6.75,
+    "updated_kst": "23:58:27"
   },
   "stats": {
     "today_total": 30,
