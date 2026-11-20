@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 01:56:41",
-  "updated_at_et": "2026-11-20 11:56:41",
-  "updated_epoch_ms": 1795193801617,
+  "updated_at_kst": "2026-11-21 01:56:58",
+  "updated_at_et": "2026-11-20 11:56:58",
+  "updated_epoch_ms": 1795193818022,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "AZIO",
+    "company_name": "AZIO",
+    "exchange": "ND",
+    "price": 0.4617,
+    "gain_pct": 14.99,
+    "mcap_m": 7.94,
+    "catalyst_hint": "[당일 PR] Same Business, Different Mission: AZIO AI Takes Its AI-Campus Power Playbook to $144.6 Million in Awarded U.S. Army Microgrid Work",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "11:56:49",
+    "started_at_kst": "01:56:49",
+    "started_epoch_ms": 1795193809321
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 41,
     "avg_price": 4.3536,
-    "current_price": 4.56,
-    "profit_rate": 4.74,
-    "updated_kst": "01:56:32"
+    "current_price": 4.5616,
+    "profit_rate": 4.78,
+    "updated_kst": "01:56:51"
   },
   "stats": {
     "today_total": 35,
