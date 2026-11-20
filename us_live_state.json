@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 03:58:03",
-  "updated_at_et": "2026-11-20 13:58:03",
-  "updated_epoch_ms": 1795201083286,
+  "updated_at_kst": "2026-11-21 03:59:05",
+  "updated_at_et": "2026-11-20 13:59:05",
+  "updated_epoch_ms": 1795201145823,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 41,
     "avg_price": 4.3536,
-    "current_price": 4.3201,
-    "profit_rate": -0.77,
-    "updated_kst": "03:57:58"
+    "current_price": 4.36,
+    "profit_rate": 0.15,
+    "updated_kst": "03:58:57"
   },
   "stats": {
     "today_total": 36,
