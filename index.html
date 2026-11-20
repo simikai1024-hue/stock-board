@@ -1265,6 +1265,50 @@
     </div>
   </section>
 
+  <!-- 2-C. ⚡ 무뉴스 상승 VI 실험실 (키움 ka10054 실시간 1차 상승 VI + 무뉴스·무공시 · 매수 후 최고가 추적 · 실주문 0원) -->
+  <section aria-labelledby="vi-lab-heading">
+    <div class="section-head">
+      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
+        <h2 class="section-title" id="vi-lab-heading">⚡ 무뉴스 상승 VI 실험실</h2>
+        <span class="lab-safety-pill">🧪 모의 검증 전용 · 실주문 0원 · 매수 후 최고가 추적</span>
+      </div>
+      <span class="section-sub">09:05~13:00 무뉴스·무공시 1차 상승 VI (대금 50억↑·시총 1조↓·VWAP 위)</span>
+    </div>
+
+    <div class="lab-card">
+      <div class="lab-kpi-strip">
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">📈 VI 실험실 누적 수익률 (세후)</div>
+          <div class="lab-kpi-val" id="viLabCumRet">+0.00%</div>
+        </div>
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">🎯 VI 실험실 승률 · 전적</div>
+          <div class="lab-kpi-val" id="viLabWinStats">0.0% (0전 0승 0패)</div>
+        </div>
+        <div class="lab-kpi-mini">
+          <div class="lab-kpi-lbl">⚙️ VI 검증 공식</div>
+          <div class="lab-kpi-rule">무뉴스·무공시 1차 상승 VI 해제 직후 모의 진입 → +6% 익절 · -4.5% 손절 · 15:30까지 최고가 추적</div>
+        </div>
+      </div>
+
+      <div class="lab-live-box" id="viLabLiveBox">
+        <div>
+          <div class="lab-status-tag" id="viLabStatusTag">🕒 평일 09:05~13:00 무뉴스 상승 VI 스캔 대기</div>
+          <div class="lab-stock-main" id="viLabStockMain">현재 포착된 무뉴스 상승 VI 종목 대기 중</div>
+          <div class="lab-stock-sub" id="viLabStockSub">당일·전일 공시 0건 · 뉴스 0건 1차 상승 VI 해제 시 자동 모의 매수 &amp; 당일 최고가 추적</div>
+        </div>
+        <div id="viLabRightAction"></div>
+      </div>
+
+      <details class="lab-hist-details" id="viLabHistDetails">
+        <summary><span id="viLabHistSummaryLbl">무뉴스 VI 실험실 일자별 기록 &amp; 매수 후 최고가 보기 (0건)</span></summary>
+        <div class="lab-hist-list" id="viLabHistList">
+          <div style="padding:10px; font-size:13px; color:var(--text-muted);">무뉴스 상승 VI 포착 시 진입가·청산가와 함께 매수 후 장중 최고 도달가(+%)가 자동 기록됩니다.</div>
+        </div>
+      </details>
+    </div>
+  </section>
+
   <!-- 3. 한국장 2모작 누적 성적 & 실전 체결 내역 -->
   <section aria-labelledby="ledger-heading">
     <div class="section-head">
@@ -2015,10 +2059,105 @@
     }
   }
 
+  function renderViLab(isi) {
+    const vl = isi && isi.vi_lab ? isi.vi_lab : null;
+    if (!vl) return;
+    const stats = vl.stats || {};
+    const cumEl = document.getElementById("viLabCumRet");
+    const winEl = document.getElementById("viLabWinStats");
+    const tagEl = document.getElementById("viLabStatusTag");
+    const mainEl = document.getElementById("viLabStockMain");
+    const subEl = document.getElementById("viLabStockSub");
+    const actEl = document.getElementById("viLabRightAction");
+    const histSumEl = document.getElementById("viLabHistSummaryLbl");
+    const histListEl = document.getElementById("viLabHistList");
+
+    const sumRet = Number(stats.sum_return_pct || 0);
+    if (cumEl) {
+      cumEl.textContent = `${sumRet >= 0 ? "+" : ""}${sumRet.toFixed(2)}%`;
+      cumEl.className = "lab-kpi-val " + (sumRet >= 0 ? "up-txt" : "dn-txt");
+    }
+    if (winEl) {
+      const tot = Number(stats.total_closed || 0);
+      const wr = Number(stats.win_rate_pct || 0);
+      winEl.textContent = `${wr.toFixed(1)}% (${tot}전 ${stats.win_count || 0}승 ${stats.loss_count || 0}패)`;
+    }
+
+    const status = vl.today_status || "IDLE";
+    const pos = vl.active_pos;
+    const closed = vl.today_closed;
+    if (tagEl) tagEl.classList.remove("holding");
+
+    if (status === "HOLDING" && pos) {
+      if (tagEl) {
+        tagEl.classList.add("holding");
+        tagEl.textContent = `⚡ 무뉴스 상승 VI 모의 보유 중 (${pos.entry_time || ""} 진입)`;
+      }
+      const np = Number(pos.cur_net_pct || 0);
+      const mp = Number(pos.max_raw_pct || 0);
+      if (mainEl) {
+        mainEl.innerHTML = `${escHtml(pos.name)} <span style="font-size:13px; color:var(--text-muted);">(${escHtml(pos.code)})</span> <span class="${np >= 0 ? "up-txt" : "dn-txt"}">${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>`;
+      }
+      if (subEl) {
+        subEl.innerHTML = `진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} · <strong style="color:#BE123C;">🚀 매수 후 최고 ${fmtWon(pos.peak_price)} (+${mp.toFixed(2)}%)</strong> · ${escHtml(pos.vi_tag || "")}`;
+      }
+      if (actEl) {
+        actEl.innerHTML = `<button class="btn-outline" onclick="copyStockCode('${escHtml(pos.code)}','${escHtml(pos.name)}')">📋 코드복사</button>`;
+      }
+    } else if (status === "DONE" && closed) {
+      const np = Number(closed.net_pnl_pct || 0);
+      const mp = Number(closed.max_raw_pct || 0);
+      if (tagEl) {
+        if (np >= 0) tagEl.classList.add("holding");
+        tagEl.textContent = `🏁 오늘 모의 청산 완료 (${closed.exit_reason || ""})`;
+      }
+      if (mainEl) {
+        mainEl.innerHTML = `${escHtml(closed.name)} <span style="font-size:13px; color:var(--text-muted);">(${escHtml(closed.code)})</span> <span class="${np >= 0 ? "up-txt" : "dn-txt"}">세후 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span>`;
+      }
+      if (subEl) {
+        subEl.innerHTML = `${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) · <strong style="color:#BE123C;">🚀 매수 후 당일 최고 ${fmtWon(closed.peak_price)} (+${mp.toFixed(2)}%)</strong>`;
+      }
+      if (actEl) {
+        actEl.innerHTML = `<button class="btn-outline" onclick="copyStockCode('${escHtml(closed.code)}','${escHtml(closed.name)}')">📋 코드복사</button>`;
+      }
+    } else {
+      if (tagEl) tagEl.textContent = "🕒 평일 09:05~13:00 무뉴스 상승 VI 스캔 대기";
+      if (mainEl) mainEl.textContent = "현재 포착된 무뉴스 상승 VI 종목 대기 중";
+      if (subEl) subEl.textContent = "당일·전일 공시 0건 · 뉴스 0건 1차 상승 VI 해제 시 자동 모의 매수 & 당일 최고가 추적";
+      if (actEl) actEl.innerHTML = "";
+    }
+
+    const hist = Array.isArray(vl.history) ? vl.history : [];
+    if (histSumEl) {
+      histSumEl.textContent = `무뉴스 VI 실험실 일자별 기록 & 매수 후 최고가 보기 (${hist.length}건)`;
+    }
+    if (histListEl && hist.length > 0) {
+      histListEl.innerHTML = hist.map((h) => {
+        const np = Number(h.net_pnl_pct || 0);
+        const mp = Number(h.max_raw_pct || 0);
+        const cls = np >= 0 ? "up-txt" : "dn-txt";
+        return `
+          <div class="lab-hist-row" onclick="copyStockCode('${escHtml(h.code)}', '${escHtml(h.name)}')">
+            <div>
+              <span style="color:var(--text-muted);">${escHtml(h.date)}(${escHtml(h.weekday || "")})</span> ·
+              <strong>${escHtml(h.name)}</strong>
+              <span style="font-size:12px; color:#0369A1;">${escHtml(h.vi_tag || "")}</span>
+            </div>
+            <div>
+              <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
+              <span class="${cls}">세후 ${np >= 0 ? "+" : ""}${np.toFixed(2)}%</span> ·
+              <strong style="color:#BE123C;">최고 ${fmtWon(h.peak_price)} (+${mp.toFixed(2)}%)</strong>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+  }
+
   function applyIsiBoard(isi) {
     if (!isi) return;
     currentIsiData = isi;
-    for (const fn of [renderHero, renderTop3Themes, renderIndexRadar, renderIntradayLab, renderLedger]) {
+    for (const fn of [renderHero, renderTop3Themes, renderIndexRadar, renderIntradayLab, renderViLab, renderLedger]) {
       try {
         fn(isi);
       } catch (err) {
