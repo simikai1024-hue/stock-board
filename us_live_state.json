@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:48:30",
-  "updated_at_et": "2026-11-20 08:48:30",
-  "updated_epoch_ms": 1795182510114,
+  "updated_at_kst": "2026-11-20 22:48:53",
+  "updated_at_et": "2026-11-20 08:48:53",
+  "updated_epoch_ms": 1795182533178,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "PHUN",
+    "company_name": "PHUN",
+    "exchange": "ND",
+    "price": 1.44,
+    "gain_pct": -2.04,
+    "mcap_m": 29.77,
+    "catalyst_hint": "[당일 PR] Phunware Files Definitive Proxy Statement and Issues Letter to Stockholders",
+    "queue_remaining": 1,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:48:44",
+    "started_at_kst": "22:48:44",
+    "started_epoch_ms": 1795182524675
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8701,
-    "profit_rate": 3.6,
-    "updated_kst": "22:48:25"
+    "current_price": 0.8642,
+    "profit_rate": 2.89,
+    "updated_kst": "22:48:45"
   },
   "stats": {
     "today_total": 19,
