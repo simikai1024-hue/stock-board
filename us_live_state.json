@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:00:09",
-  "updated_at_et": "2026-11-20 10:00:09",
-  "updated_epoch_ms": 1795186809861,
+  "updated_at_kst": "2026-11-21 00:01:11",
+  "updated_at_et": "2026-11-20 10:01:11",
+  "updated_epoch_ms": 1795186871761,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 4.58,
     "current_price": 4.16,
     "profit_rate": -9.17,
-    "updated_kst": "00:00:07"
+    "updated_kst": "00:01:03"
   },
   "stats": {
     "today_total": 31,
@@ -2468,6 +2468,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:00:34",
+      "time_kst": "00:00:34",
+      "symbol": "SEGG",
+      "company_name": "SEGG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 급등(+40.6%) 후 고점($0.9763) 대비 -27.1% 윗꼬리 설거지 차단 (기준 <= -25%)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:59:07",
       "time_kst": "23:59:07",
       "symbol": "ATYR",
@@ -2575,16 +2585,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $57.96M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:52:33",
-      "time_kst": "23:52:33",
-      "symbol": "SEGG",
-      "company_name": "SEGG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 급등(+40.6%) 후 고점($0.9763) 대비 -30.4% 윗꼬리 설거지 차단 (기준 <= -25%)"
     },
     {
       "date_et": "2026-11-20",
