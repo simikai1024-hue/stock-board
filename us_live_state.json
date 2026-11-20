@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:58:27",
-  "updated_at_et": "2026-11-20 09:58:27",
-  "updated_epoch_ms": 1795186707954,
+  "updated_at_kst": "2026-11-20 23:59:15",
+  "updated_at_et": "2026-11-20 09:59:15",
+  "updated_epoch_ms": 1795186755954,
   "analyzing": {
-    "active": true,
-    "symbol": "ZEO",
-    "company_name": "ZEO",
-    "exchange": "ND",
-    "price": 0.2993,
-    "gain_pct": 3.56,
-    "mcap_m": 13.92,
-    "catalyst_hint": "[당일 PR] First Phosphate and Zeo Energy Interviews to Air Nationally on the RedChip Small Stocks, Big Money(TM) Show on Bloomberg TV",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:58:19",
-    "started_at_kst": "23:58:19",
-    "started_epoch_ms": 1795186699357
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "AKAN",
     "holding_qty": 61,
     "avg_price": 4.58,
-    "current_price": 4.2709,
-    "profit_rate": -6.75,
-    "updated_kst": "23:58:27"
+    "current_price": 4.16,
+    "profit_rate": -9.17,
+    "updated_kst": "23:59:05"
   },
   "stats": {
-    "today_total": 30,
+    "today_total": 31,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 25,
+    "today_false": 26,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 58.9
+    "avg_nblm_sec": 56.9
   },
   "verdicts": [
+    {
+      "id": "v_1795186749854_ZEO_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "09:59:09",
+      "time_kst": "23:59:09",
+      "symbol": "ZEO",
+      "company_name": "ZEO",
+      "exchange": "ND",
+      "price": 0.2993,
+      "gain_pct": 3.56,
+      "mcap_m": 13.92,
+      "decision": "FALSE",
+      "elapsed_sec": 54.3,
+      "reason": "타사(PHOS) 광산 C$2.1B 도용 금액착시 및 유료 스폰서 방송 인터뷰(RedChip) 재탕 PR로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] First Phosphate and Zeo Energy Interviews to Air Nationally on the RedChip Small Stocks, Big Money(TM) Show on Bloomberg TV",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 실시간 긴급결재 원문서류철 소스 원문 팩트를 교차 대조하여 진행한 ZEO (Zeo Energy Corp.) 2026-11-20 09:58:15 ET 정규장 초반 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 292].\n1. 체급 & 실시간 시세 수급 팩트 (C$21억 달러 착시 적발 및 단순 IR 유료 스폰서 방송 인터뷰)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: ZEO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 297].\n실질 시가총액: 약 $13.92M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 292].\n체급 대비 규모 (C$21억 달러 착시 적발: 타사 First Phosphate의 광산 NPV 수치 도용 및 ZEO 금고 유입 0원) [cite: 292, 295]:\n당일 긴급 서류철에 표기된 '핵심 금액 약 $2,100.00M(C$2.1B)'은 ZEO의 수주가 아니라, **함께 인터뷰에 참여한 별개의 타사 'First Phosphate Corp.(PHOS)'의 퀘벡 Bégin-Lamarche 인산염 광산 예비타당성(PEA) 평가액(NPV C$2.1B)**입니다 [cite: 294, 295].\n즉, ZEO의 금고로 유입되는 확정 신규 매출이나 계약금은 단 1달러도 없으며, 타사의 자원 평가액이 기계적으로 긁혀 들어온 100% 금액 왜곡 착시입니다 [cite: 292, 295].\nZEO 파트 원문 직독 결과, CEO(Tim Bridgewater)가 블룸버그 TV의 **스폰서 유료 IR 방송 프로그램(RedChip Small Stocks, Big Money™ show)**에 출연하여 자사의 기존 주택용 태양광, 헬리오젠(Heliogen) 인수 이력, 데이터센터 파이프라인 진출 '전략을 구두로 설명(discuss)'하는 단순 기업 설명회에 불과합니다 [cite: 293, 297, 298].\n실시간 체결가 및 수급 (장전 최고가 대비 -3.5% 밀린 +3.56% 정체):\n전일 종가 $0.2890 대비 현재가 $0.2993 (+3.56%) [cite: 293].\n당일 최고가 $0.3100 (+7.27%) 터치 후 실체 없는 홍보 인터뷰임을 시장이 확인하고 고점 대비 -3.5% 밀려 정체 [cite: 293].\n정규장 개장 직후 누적 거래대금은 $65,575 USD (약 6.5만 달러 수준의 극소액 체결로 주포 수급 부재) [cite: 293].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 293].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일 공식 PR 원문 분석:\nPR #1 (09:00:00 ET | acceswire): \"First Phosphate and Zeo Energy Interviews to Air Nationally on the RedChip Small Stocks, Big Money(TM) Show on Bloomberg TV\" [cite: 293]\nPR #2 (08:30:00 ET | globenewswire): \"Zeo Energy Highlights Growing Cost Advantages of Residential Solar Amid Rising Utility Electricity Prices\" [cite: 305]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 'IR 대행사 유료 스폰서 방송 인터뷰' 및 '전기료 절감 홍보' 언론플레이:\nPR #1 원문에 *\"RedChip Companies will air interviews with First Phosphate Corp. and Zeo Energy Corp. on the RedChip Small Stocks, Big Money™ show, a sponsored television program airing on Bloomberg TV... PHOS and ZEO are clients of RedChip Companies...\"*라고 명시되어 있습니다 [cite: 293, 299].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 27].\nIR 대행사(RedChip)에 비용을 지불하고 방영하는 **스폰서 유료 홍보 방송(Sponsored Program)**이며, 타사(First Phosphate)의 C$2.1B 광산 평가액과 묶여 배포된 언론플레이에 불과합니다 [cite: 293, 295, 299].\n08:30 ET에 배포된 PR #2 역시 \"전기요금 상승 대비 자사 태양광 고객이 50% 절감하고 있다\"는 일반 마케팅 보도자료에 불과합니다 [cite: 306, 307].\n과거 180일 연속된 '데이터센터·무부채·선거 수혜' 우려먹기 쪼개기 재탕 적발:\n최근 180일 PR 원장 대조 결과 [cite: 311, 313]:\n[2026-11-13 | globenewswire] Zeo Energy Sees Expanding Opportunity as Energy Affordability Takes Center Stage Following 2026 Midterm Elections [cite: 311]\n[2026-09-23 | globenewswire] Zeo Energy Corp. Achieves Corporate Debt-Free Balance Sheet Following Early Retirement of Convertible Debt [cite: 313]\n[2026-09-22 | reuters] Zeo Energy Enters Cooperation Agreement With Ewyze To Develop Integrated Off-Grid Power And Data-Center Infrastructure [cite: 313]\n이미 지난 9월에 발표했던 '전환사채 상환 무부채 달성' 및 '데이터센터 인프라 협력' 내용을 오늘 방송 인터뷰에서 앵무새처럼 되풀이한 **전형적인 재탕·우려먹기 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 298, 299, 313].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 27, 36].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 방송 인터뷰(Interviews to Air)/IR 스폰서십/금액 착시 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n3. 최종 심사 및 결재 판정\nZEO의 당일 공식 PR은 타사(First Phosphate)의 C$2.1B 광산 평가액을 엮은 금액 착시이며, 실체는 RedChip 유료 스폰서 방송 인터뷰 및 과거 발표 재탕에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: ZEO 처리합니다 [cite: 293, 295, 299].\n계좌 보호 원칙에 의거하여 오늘 11/20 정규장 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: ZEO NOTES:\n[ZEO] 타사(PHOS) 광산 C$2.1B 도용 금액착시 및 유료 스폰서 방송 인터뷰(RedChip) 재탕 PR로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20)은 프리마켓부터 본장 개장 직후까지 NA, VWAV, DRIO, YFOR, TYGO, NCNA, CVM, PHUN, BRNX, STKS, NVNO, FRGT, APRE, SAGT, TKLF, CWD에 이어 ZEO(타사 금액 도용 스폰서 인터뷰)까지 17개 후보 종목 전수가 껍데기 IR, 타사 금액 착시, 유료 방송, 소액 용역, 소송 공지, 학회 발표로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 293, 295, 315, 316, 321, 326, 331, 335, 339, 342, 346, 353, 355].\n정규장 초반 거래대금이 집중되는 골든타임 구간 동안 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 27, 36].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795185077302_CWD_FALSE",
       "track": "TRACK1",
@@ -2454,29 +2463,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 WBUY (WEBUY GLOBAL LTD.) 2026-11-18 04:40:55 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.83M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 발생하는 상업 계약이 아니라, 단순 **ChatGPT 상에 자사 여행 앱(WeTrip)을 출시했다는 소프트웨어 기능 런칭(Launches WeTrip App on ChatGPT)**에 불과합니다.\n실시간 체결가 및 수급 (장전 반짝 상승 후 마이너스 음봉 전환 덤핑):\n전일 종가 $0.5190 대비 현재가 $0.5164 (-0.50%).\n당일 최고가 $0.5699를 찍은 뒤 고점 대비 -9.4% 급락하며 전일 종가 밑(-0.50%) 음봉으로 하락 전환.\n당일 누적 거래대금 $3,852 USD (3천8백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증 및 음봉 덤핑 확인이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 04:30 ET) 공식 PR 원문 분석:\nPR 제목: \"WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 앱/기능 런칭 홍보물 (App Launching PR):\n원문 본문에 *\"today announced the launch of the WeTrip app on ChatGPT, enabling travelers to discover China tours, explore detailed itineraries and request personalized travel proposals directly within ChatGPT... The launch opens a new digital distribution channel for Webuy’s China inbound travel business\"*라고 명시되어 있습니다.\n이는 오픈AI(OpenAI)와의 거액 독점 계약이나 글로벌 대형 여행사와의 확정 수주가 아니라, 누구나 등록 가능한 ChatGPT GPTs/앱 생태계에 자사 여행 상담 챗봇/앱을 등록했다는 단순 마케팅용 신규 기능 출시 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 AI 스마트 트래블 카드 출시(07/13, 09/01 6-K)에 이은 연속적 테마 편승 언론플레이:\n과거 이력 대조 결과 회사는 이미 2026년 7월과 9월에도 \"Webuy Launches AI Agent-Assisted Smart Travel Card...\" 보도자료를 낸 바 있습니다.\n이번 발표 역시 실질적인 수주나 확정 매출 발생 없이 유행하는 AI/ChatGPT 키워드를 자사 기존 여행 영업에 엮어 배포한 **전형적인 자체 마케팅/언론 플레이(Spin PR)**입니다.\n심사 헌법 제3조 ④항 위배 및 음봉 덤핑(-9.4%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 소프트웨어/앱(App) 출시 및 제휴 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.5699 찍은 직후 -9.4% 급락하며 전일 종가 밑(-0.50%) 음봉으로 주저앉은 전형적인 윗꼬리 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 보도자료에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 주가가 -9.4% 급락하여 음봉으로 전환되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: WBUY 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WBUY NOTES:\n[WBUY] 확정 수주/매출 전무한 단순 ChatGPT 내 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항 위배 및 장전 -9.4% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 초입 구간에서 WBUY는 AI 테마성 껍데기 앱 출시 홍보물로 확인되어 안전하게 전량 차단되었습니다\n. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794994370426_WBUY_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "04:32:50",
-      "time_kst": "18:32:50",
-      "symbol": "WBUY",
-      "company_name": "WBUY",
-      "exchange": "ND",
-      "price": 0.55,
-      "gain_pct": 5.97,
-      "mcap_m": 3.01,
-      "decision": "FALSE",
-      "elapsed_sec": 41.1,
-      "reason": "확정 수주/매출 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 WBUY (WEBUY GLOBAL LTD.) 2026-11-18 04:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [721].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.01M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과) [721, 724].\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 발생하는 상업 계약이 아니라, 단순 **ChatGPT 상에 자사 여행 앱(WeTrip)을 출시했다는 소프트웨어 기능 런칭(Launches WeTrip App on ChatGPT)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.5190 대비 현재가 $0.5500 (+5.97%), 당일 최고가 $0.5699 (고점 대비 -3.5%).\n당일 누적 거래대금 $2,070 USD (2천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다 [721].\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다 [721].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 04:30 ET) 공식 PR 원문 분석:\nPR 제목: \"WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 앱/플랫폼 런칭 홍보물 (App Launching PR):\n원문 본문에 *\"today announced the launch of the WeTrip app on ChatGPT, enabling travelers to discover China tours, explore detailed itineraries and request personalized travel proposals directly within ChatGPT... The launch opens a new digital distribution channel for Webuy’s China inbound travel business\"*라고 명시되어 있습니다.\n이는 오픈AI(OpenAI)와의 거액 독점 계약이나 대형 여행사와의 확정 수주가 아니라, 누구나 등록 가능한 ChatGPT GPTs/앱 생태계에 자사 여행 상담 챗봇/앱을 등록했다는 단순 마케팅용 신규 기능 출시 보도자료에 불과합니다.\n회사 금고로 즉각 유입되는 확정 계약금, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다 [722, 725].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [722, 725].\n소프트웨어/플랫폼 런칭 PR은 족보집상 전형적인 윗꼬리 설거지 패턴:\n족보집 누적 실전 표본에서 단순 AI/소프트웨어 기능 런칭(전일 FTCI FieldIQ 런칭 -11.4% 급락, SMX AI 플랫폼 출시 등)은 프리마켓 반짝 후 즉각 급락하거나 거래량 없이 주저앉는 전형적인 금액 미기재 홍보물 함정으로 증명되어 있습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 자체 앱 출시 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 소프트웨어/앱(App) 출시 및 제휴 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 [722].\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 보도자료에 불과하여, 심사 헌법 제3조 ④항(금액 미기재 단순 앱/기능 런칭 차단)에 의거 FORCE_BLOCK: WBUY 처리합니다 [722].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WBUY NOTES:\n[WBUY] 확정 수주/매출 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 첫 안건인 WBUY는 AI 테마를 차용한 단순 껍데기 앱 출시 홍보물로 확인되어 안전하게 방어되었습니다. 프리마켓 및 09:30 ET 정규장 개장 골든타임 구간 동안 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [722, 725].",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:59:07",
+      "time_kst": "23:59:07",
+      "symbol": "ATYR",
+      "company_name": "ATYR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $361.94M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:58:58",
+      "time_kst": "23:58:58",
+      "symbol": "EVAX",
+      "company_name": "EVAX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [EFFECT] (Item ,,))"
+    },
     {
       "date_et": "2026-11-20",
       "time_et": "09:57:59",
@@ -2956,26 +2965,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $863.11M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:01:22",
-      "time_kst": "23:01:22",
-      "symbol": "RBNE",
-      "company_name": "RBNE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "단순 주식병합(Reverse Stock Split) 발표 PR 차단 (Robin Energy Announces Reverse Stock Split to be Effect)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:01:05",
-      "time_kst": "23:01:05",
-      "symbol": "MYSZ",
-      "company_name": "MYSZ",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
     }
   ]
 }
