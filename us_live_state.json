@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:32:37",
-  "updated_at_et": "2026-11-20 07:32:37",
-  "updated_epoch_ms": 1795177957800,
+  "updated_at_kst": "2026-11-20 21:32:48",
+  "updated_at_et": "2026-11-20 07:32:48",
+  "updated_epoch_ms": 1795177968853,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "DRIO",
+    "company_name": "DRIO",
+    "exchange": "ND",
+    "price": 1.38,
+    "gain_pct": -4.17,
+    "mcap_m": 15.58,
+    "catalyst_hint": "[당일 PR] Dario CEO Erez Raphael to Lead Panel Discussion at U.S. Bancorp | BTIG Tech-Enabled Healthcare Forum",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:32:45",
+    "started_at_kst": "21:32:45",
+    "started_epoch_ms": 1795177965262
   },
   "halt_watch": {
     "active": false
