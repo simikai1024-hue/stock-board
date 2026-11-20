@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:12:07",
-  "updated_at_et": "2026-11-20 08:12:07",
-  "updated_epoch_ms": 1795180327242,
+  "updated_at_kst": "2026-11-20 22:13:03",
+  "updated_at_et": "2026-11-20 08:13:03",
+  "updated_epoch_ms": 1795180383226,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.0001,
-    "profit_rate": 6.39,
-    "updated_kst": "22:12:03"
+    "current_price": 4.94,
+    "profit_rate": 5.11,
+    "updated_kst": "22:12:43"
   },
   "stats": {
     "today_total": 11,
@@ -2448,6 +2448,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:12:56",
+      "time_kst": "22:12:56",
+      "symbol": "TDAC",
+      "company_name": "TDAC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $210.47M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:09:32",
       "time_kst": "22:09:32",
       "symbol": "RNXT",
@@ -2935,16 +2945,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:28:20",
-      "time_kst": "18:28:20",
-      "symbol": "CYAB",
-      "company_name": "CYAB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,8.01,9.01))"
     }
   ]
 }
