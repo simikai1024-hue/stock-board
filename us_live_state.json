@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:14:52",
-  "updated_at_et": "2026-11-20 09:14:52",
-  "updated_epoch_ms": 1795184092213,
+  "updated_at_kst": "2026-11-20 23:15:49",
+  "updated_at_et": "2026-11-20 09:15:49",
+  "updated_epoch_ms": 1795184149762,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.9201,
-    "profit_rate": 9.55,
-    "updated_kst": "23:14:46"
+    "current_price": 0.9,
+    "profit_rate": 7.16,
+    "updated_kst": "23:15:44"
   },
   "stats": {
     "today_total": 27,
@@ -2464,6 +2464,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:15:17",
+      "time_kst": "23:15:17",
+      "symbol": "GNS",
+      "company_name": "GNS",
+      "exchange": "NY",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $194.63M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:11:10",
       "time_kst": "23:11:10",
       "symbol": "VEON",
@@ -2951,16 +2961,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $6133.55M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:25:09",
-      "time_kst": "22:25:09",
-      "symbol": "ASUR",
-      "company_name": "ASUR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $309.84M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
