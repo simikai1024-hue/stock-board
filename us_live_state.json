@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:37:18",
-  "updated_at_et": "2026-11-20 07:37:18",
-  "updated_epoch_ms": 1795178238349,
+  "updated_at_kst": "2026-11-20 21:37:39",
+  "updated_at_et": "2026-11-20 07:37:39",
+  "updated_epoch_ms": 1795178259821,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "YFOR",
+    "company_name": "YFOR",
+    "exchange": "ND",
+    "price": 1.1,
+    "gain_pct": -2.65,
+    "mcap_m": 14.12,
+    "catalyst_hint": "[당일 PR] YYForce Wins S$831,120 Two-Year Security Contract in Singapore",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "07:37:33",
+    "started_at_kst": "21:37:33",
+    "started_epoch_ms": 1795178253643
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.46,
-    "profit_rate": 16.17,
-    "updated_kst": "21:37:12"
+    "current_price": 5.4813,
+    "profit_rate": 16.62,
+    "updated_kst": "21:37:32"
   },
   "stats": {
     "today_total": 7,
