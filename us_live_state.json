@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 19:26:04",
-  "updated_at_et": "2026-11-20 05:26:04",
-  "updated_epoch_ms": 1795170364807,
+  "updated_at_kst": "2026-11-20 19:27:01",
+  "updated_at_et": "2026-11-20 05:27:01",
+  "updated_epoch_ms": 1795170421457,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "RAYA",
     "holding_qty": 543,
     "avg_price": 0.914,
-    "current_price": 0.8172,
-    "profit_rate": -10.59,
-    "updated_kst": "19:26:01"
+    "current_price": 0.8123,
+    "profit_rate": -11.13,
+    "updated_kst": "19:26:56"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 0,
     "today_buy": 2,
     "today_false": 1,
-    "today_hardcut": 38,
+    "today_hardcut": 39,
     "total_verdicts": 150,
     "total_buy": 5,
     "total_false": 145,
@@ -2440,6 +2440,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "05:26:25",
+      "time_kst": "19:26:25",
+      "symbol": "DGNX",
+      "company_name": "DGNX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $52.25M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:42:30",
       "time_kst": "18:42:30",
       "symbol": "VIVO",
@@ -2927,16 +2937,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $383.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:52:27",
-      "time_kst": "23:52:27",
-      "symbol": "NXB",
-      "company_name": "NXB",
-      "exchange": "AM",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
     }
   ]
 }
