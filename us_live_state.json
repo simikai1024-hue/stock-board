@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:51:53",
-  "updated_at_et": "2026-11-20 09:51:53",
-  "updated_epoch_ms": 1795186313770,
+  "updated_at_kst": "2026-11-20 23:52:37",
+  "updated_at_et": "2026-11-20 09:52:37",
+  "updated_epoch_ms": 1795186357811,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.7101,
-    "profit_rate": -15.45,
-    "updated_kst": "23:51:48"
+    "current_price": 0.6794,
+    "profit_rate": -19.11,
+    "updated_kst": "23:52:29"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:52:33",
+      "time_kst": "23:52:33",
+      "symbol": "SEGG",
+      "company_name": "SEGG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 급등(+40.6%) 후 고점($0.9763) 대비 -30.4% 윗꼬리 설거지 차단 (기준 <= -25%)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:51:55",
+      "time_kst": "23:51:55",
+      "symbol": "VENU",
+      "company_name": "VENU",
+      "exchange": "AM",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $58.85M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:51:46",
       "time_kst": "23:51:46",
       "symbol": "VHUB",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.66M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:41:34",
-      "time_kst": "22:41:34",
-      "symbol": "GASS",
-      "company_name": "GASS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $285.53M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:38:31",
-      "time_kst": "22:38:31",
-      "symbol": "SVRA",
-      "company_name": "SVRA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1149.45M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
