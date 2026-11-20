@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:15:33",
-  "updated_at_et": "2026-11-20 04:15:33",
-  "updated_epoch_ms": 1795166133081,
+  "updated_at_kst": "2026-11-20 18:16:16",
+  "updated_at_et": "2026-11-20 04:16:16",
+  "updated_epoch_ms": 1795166176073,
   "analyzing": {
     "active": false
   },
@@ -12,21 +12,21 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 0,
-    "orderable_usd": 9.31,
+    "orderable_usd": 516.07,
     "daily_done": false,
-    "holding_symbol": "SEGG",
-    "holding_qty": 767,
-    "avg_price": 0.7197,
-    "current_price": 0.6799,
-    "profit_rate": -5.53,
-    "updated_kst": "18:15:24"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.6798,
+    "profit_rate": -5.54,
+    "updated_kst": "18:16:13"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 14,
+    "today_hardcut": 16,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -51,7 +51,7 @@
       "catalyst_hint": "[실전 체결 기록]",
       "full_report": "",
       "engine": "실전 포지션 정산",
-      "trade_action": "🛡️ 손절 청산: 767주 | 매수 $0.7197 → 매도 $0.6800 (-5.52% / -30.45$)"
+      "trade_action": "🛡️ 손절 청산: 767주 | 매수 $0.7197 → 매도 $0.6798 (-5.54% / -30.60$)"
     },
     {
       "id": "v_manual_1795100283046_POAS",
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:16:04",
+      "time_kst": "18:16:04",
+      "symbol": "NIVF",
+      "company_name": "NIVF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-19 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:15:46",
+      "time_kst": "18:15:46",
+      "symbol": "MEDS",
+      "company_name": "MEDS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:05:02",
       "time_kst": "18:05:02",
       "symbol": "NNVC",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:49:45",
-      "time_kst": "23:49:45",
-      "symbol": "ZENA",
-      "company_name": "ZENA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $97.66M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:49:40",
-      "time_kst": "23:49:40",
-      "symbol": "RZLV",
-      "company_name": "RZLV",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $412.7M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
