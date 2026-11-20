@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:51:02",
-  "updated_at_et": "2026-11-20 08:51:02",
-  "updated_epoch_ms": 1795182662990,
+  "updated_at_kst": "2026-11-20 22:52:07",
+  "updated_at_et": "2026-11-20 08:52:07",
+  "updated_epoch_ms": 1795182727757,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8624,
-    "profit_rate": 2.68,
-    "updated_kst": "22:50:58"
+    "current_price": 0.8691,
+    "profit_rate": 3.48,
+    "updated_kst": "22:52:02"
   },
   "stats": {
     "today_total": 21,
@@ -2458,6 +2458,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:51:33",
+      "time_kst": "22:51:33",
+      "symbol": "RIBB",
+      "company_name": "RIBB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:41:34",
       "time_kst": "22:41:34",
       "symbol": "GASS",
@@ -2945,16 +2955,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $23811.34M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:03:52",
-      "time_kst": "21:03:52",
-      "symbol": "SSNC",
-      "company_name": "SSNC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $17526.67M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
