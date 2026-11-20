@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:02:34",
-  "updated_at_et": "2026-11-20 10:02:34",
-  "updated_epoch_ms": 1795186954962,
+  "updated_at_kst": "2026-11-21 00:03:22",
+  "updated_at_et": "2026-11-20 10:03:22",
+  "updated_epoch_ms": 1795187002871,
   "analyzing": {
-    "active": true,
-    "symbol": "EPOW",
-    "company_name": "EPOW",
-    "exchange": "ND",
-    "price": 3.3017,
-    "gain_pct": 3.83,
-    "mcap_m": 8.44,
-    "catalyst_hint": "[당일 PR] E-Power’s Joint Venture Designated a National-Level “Little Giant” Enterprise by China’s Ministry of Industry and Information Technology",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "10:02:25",
-    "started_at_kst": "00:02:25",
-    "started_epoch_ms": 1795186945058
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -31,20 +19,41 @@
     "avg_price": 4.58,
     "current_price": 4.16,
     "profit_rate": -9.17,
-    "updated_kst": "00:02:21"
+    "updated_kst": "00:03:17"
   },
   "stats": {
-    "today_total": 31,
+    "today_total": 32,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 26,
+    "today_false": 27,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 56.9
+    "avg_nblm_sec": 56.6
   },
   "verdicts": [
+    {
+      "id": "v_1795186993525_EPOW_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "10:03:13",
+      "time_kst": "00:03:13",
+      "symbol": "EPOW",
+      "company_name": "EPOW",
+      "exchange": "ND",
+      "price": 3.3017,
+      "gain_pct": 3.83,
+      "mcap_m": 8.44,
+      "decision": "FALSE",
+      "elapsed_sec": 54.2,
+      "reason": "확정 수주 및 자금지원 전무(PR 본문 펀딩 0원 자백)한 합작사 중국 공신부 소거인 기업 지정 및 8/20 발표 판박이 재탕으로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] E-Power’s Joint Venture Designated a National-Level “Little Giant” Enterprise by China’s Ministry of Industry and Information Technology",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 실시간 긴급결재 원문서류철 소스 원문 팩트를 교차 대조하여 진행한 EPOW (E-Power Inc.) 2026-11-20 10:02:19 ET 정규장 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 335].\n1. 체급 & 실시간 시세 수급 팩트 (합작사 중국 공신부 단순 명칭 지정 및 8월 기발표 판박이 재탕)\n상장 거래소 및 체급: The NASDAQ Stock Market (NASDAQ: EPOW) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 337].\n실질 시가총액: 약 $8.44M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 335].\n체급 대비 규모 (상업 수주/현금 유입 0원 및 정부 자금 미지원 명시된 단순 명칭 지정 적발) [cite: 335, 339]:\n당일 PR 내 백만 달러($M) 이상 신규 확정 상업 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 335].\n헤드라인의 '합작사(Sunrise Guizhou) 중국 공업정보화부(MIIT) 국가급 소거인(Little Giant) 기업 지정'은 회사 금고로 직통 유입되는 신규 상업 수주나 매출 계약이 절대 아닙니다 [cite: 337].\n특히 PR 본문 면책 조항(Forward-Looking Statements)에 **\"The award described in this release recognizes the competition entry and does not carry funding or commercial commitments (본 발표에 명시된 상은 평가 심사 인정일 뿐, 일체의 자금 지원이나 상업적 약정을 수반하지 않음)\"**이라고 명백히 자백되어 있습니다 [cite: 339].\n따라서 당일 회사 계좌로 직통 입금되는 확정 현금이나 신규 매출은 단 1달러도 없습니다 [cite: 335, 339].\n실시간 체결가 및 수급 (장전 최고가 대비 -3.2% 밀린 +3.83% 정체 및 거래대금 $6.6K USD) [cite: 336]:\n전일 종가 $3.1800 대비 현재가 $3.3017 (+3.83%) [cite: 336].\n당일 최고가 $3.4100 (+7.23%) 터치 후 실체 없는 명칭 지정 발표임을 시장이 확인하고 고점 대비 -3.2% 밀려 정체 [cite: 336].\n정규장 개장 후 누적 거래대금은 $6,633 USD (약 6.6천 달러 수준의 극소액 체결로 주포 수급 부재) [cite: 336].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 336].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 10:00:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire [cite: 336]\nPR 제목: \"E-Power’s Joint Venture Designated a National-Level “Little Giant” Enterprise by China’s Ministry of Industry and Information Technology\" [cite: 336]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 자금 지원 0원의 단순 '소거인(Little Giant) 기업 지정' 언론플레이:\n원문 본문에 *\"its joint venture, Sunrise (Guizhou) New Energy Materials Co., Ltd. ('Sunrise Guizhou'), has been designated a national-level Specialized, Refined, Distinctive and Innovative ('Little Giant') enterprise by China's Ministry of Industry and Information Technology ('MIIT')... The award... does not carry funding or commercial commitments...\"*라고 명시되어 있습니다 [cite: 337, 339].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 7, 335, 339].\n또한 연구소 심사 헌법 제2조 ②항의 무상보조금은 '미국 정부/공공기관의 지분희석 0% 거액 확정 무상보조금(MRKR형)'을 의미하며, 중국 부처의 자금 미지원 단순 중소기업 타이틀 부여는 이에 해당하지 않습니다 [cite: 339].\n과거 180일 연속된 '8월 20일 기발표 추천 건'의 판박이 우려먹기 재탕 적발:\n과거 180일 PR 원장 대조 결과 [cite: 342]:\n[2026-08-20 | globenewswire] E-Power’s Joint Venture Selected for Recommendation as a National-Level “Little Giant” Enterprise in China [cite: 342]\n원문 명시: \"This designation completes the national review that followed Guizhou’s provincial recommendation earlier this year...\" [cite: 338]\n이미 지난 8월 20일 '중국 국가급 소거인 기업 추천 선정'으로 공식 PR을 배포했던 사안을, 오늘 국가 심사가 최종 완료되었다는 명목으로 동일한 타이틀을 다시 우려먹는 **전형적인 쪼개기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 338, 342].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 7, 335].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 정부/기관 지정(Designation)/인증/금액 미기재 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 335, 339].\n거래대금 $6.6K 수준에서 반응이 미미한 전형적인 껍데기 IR 패턴입니다 [cite: 336].\n3. 최종 심사 및 결재 판정\nEPOW의 당일 공식 PR은 회사 금고로 유입되는 확정 상업 메가 수주나 현금 선급금이 전무(자금 지원 0원 명시)하며, 지난 8월 20일 기발표의 연장선인 중국 공신부 소거인 기업 단순 지정 쪼개기 재탕에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: EPOW 처리합니다 [cite: 7, 335, 337, 339, 342].\n계좌 보호 원칙에 의거하여 오늘 11/20 정규장 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 344].\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: EPOW NOTES:\n[EPOW] 확정 수주 및 자금지원 전무(PR 본문 펀딩 0원 자백)한 합작사 중국 공신부 소거인 기업 지정 및 8/20 발표 판박이 재탕으로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20)은 프리마켓부터 정규장 개장 이후까지 NA, VWAV, DRIO, YFOR, TYGO, NCNA, CVM, PHUN, BRNX, STKS, NVNO, FRGT, APRE, SAGT, TKLF, CWD, ZEO에 이어 EPOW(중국 공신부 명칭 지정 재탕)까지 18개 후보 종목 전수가 껍데기 IR, 자금 0원 명칭 지정, 타사 금액 착시, 유료 방송, 소액 용역, 소송 공지, 학회 발표로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 335, 337, 339, 345, 347].\n본장 거래가 한창 진행 중인 만큼, 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 7].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795186749854_ZEO_FALSE",
       "track": "TRACK1",
@@ -2453,26 +2462,6 @@
       "reason": "수주/매출 0건 자인 및 확정 금액 전무한 단순 해외 3개국 비구속 MOU·파트너십 홍보 PR로 헌법 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] VisionWave Holdings Announces Strategic Partnership Agreements Intended to Expand Access to Defense Markets in Europe and Asia",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 VWAV (VisionWave Holdings, Inc.) 2026-11-18 06:01 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.66M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 발생하는 상업 수주 계약이 아니라, 이탈리아·인도·아시아 지역 대상의 **3건의 국제 파트너십 협약(MOU, 협력 프레임워크, 리셀러 계약)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.4971 대비 현재가 $0.5100 (+2.60%), 당일 최고가 $0.5268 (고점 대비 -3.2%).\n당일 누적 거래대금 $33,570 USD (3만3천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 06:00 ET) 공식 PR 원문 분석:\nPR 제목: \"VisionWave Holdings Announces Strategic Partnership Agreements Intended to Expand Access to Defense Markets in Europe and Asia\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 전형적인 비구속/구속력 없는 파트너십 협약 묶음 (MOU/Reseller PR):\n원문 본문에 회사는 3건의 협약을 다음과 같이 자인하고 있습니다:\n이탈리아 A.R.I.S. S.r.l. MOU: 6개월 단기 협약이며 언제든 30일 전 통보로 해지 가능하고, 구체적 가격·제조권·기술이전 등 경제적 조건은 별도 협상 대상일 뿐 강제성이 없으며, **\"No customer orders have been placed under the ARIS MOU to date\"**라고 명시되어 있습니다.\n인도 방산기업 및 포어사이트(FRSX) 3자 협력 협약: 비밀유지 등 기본 조항 외에는 **\"the Cooperation Agreement is non-binding, records the parties' present intentions only, and does not obligate any party to negotiate or enter into a definitive agreement\"**로 100% 비구속(Non-binding) 단순 의향서에 불과합니다.\n아시아 리셀러 계약: 최소 구매 약정(Minimum purchase commitment)이 전무하며, **\"no orders have been placed to date\"**로 수주 실적이 0건입니다.\n원문 본문 스스로 **\"None of these arrangements has generated revenue to date... None of them has resulted in customer orders or revenue to date, none obligates any counterparty to purchase products from the Company\"**라고 확정 매출 및 수주가 0건임을 명확히 못 박고 있습니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n과거 180일 우크라이나 LOI(11/12), FRSX 협업(11/12), 시연회(09/30)의 연속적 단순 파트너십 언론플레이:\n과거 이력 대조 결과 회사는 불과 6일 전인 11월 12일에도 포어사이트(FRSX) UGV 통합 완료 및 우크라이나 EPSERVICE 비구속 인수 LOI를 8-K로 배포한 바 있습니다.\n또한 9월 30일 국방 시스템 시연회, 10월 14일 AI 스트라텀 아키텍처 홍보 등 실질 수주 없는 단순 업무협약(MOU)·시연회·협력 템플릿을 돌려막는 전형적인 껍데기 IR 뉴스입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 제휴/MOU 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 비구속 제휴/MOU/파트너십/리셀러 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무하다고 본문 스스로 자인한 단순 비구속 파트너십 협약(MOU, 협력 프레임워크, 리셀러) 나열에 불과하여, 심사 헌법 제3조 ④항(금액 미기재 제휴/파트너십 차단)에 의거 FORCE_BLOCK: VWAV 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: VWAV NOTES:\n[VWAV] 수주/매출 0건 자인 및 확정 금액 전무한 단순 해외 3개국 비구속 MOU·파트너십 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY(ChatGPT 단순 앱 출시)에 이어 VWAV(매출 0건 단순 비구속 MOU 나열)까지 전형적인 껍데기 테마 홍보성 PR로 확인되어 안전하게 전량 방어되었습니다\n. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794994912951_WBUY_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "04:41:52",
-      "time_kst": "18:41:52",
-      "symbol": "WBUY",
-      "company_name": "WBUY",
-      "exchange": "ND",
-      "price": 0.5164,
-      "gain_pct": -0.5,
-      "mcap_m": 2.83,
-      "decision": "FALSE",
-      "elapsed_sec": 57.5,
-      "reason": "확정 수주/매출 전무한 단순 ChatGPT 내 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항 위배 및 장전 -9.4% 음봉 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 WBUY (WEBUY GLOBAL LTD.) 2026-11-18 04:40:55 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.83M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 발생하는 상업 계약이 아니라, 단순 **ChatGPT 상에 자사 여행 앱(WeTrip)을 출시했다는 소프트웨어 기능 런칭(Launches WeTrip App on ChatGPT)**에 불과합니다.\n실시간 체결가 및 수급 (장전 반짝 상승 후 마이너스 음봉 전환 덤핑):\n전일 종가 $0.5190 대비 현재가 $0.5164 (-0.50%).\n당일 최고가 $0.5699를 찍은 뒤 고점 대비 -9.4% 급락하며 전일 종가 밑(-0.50%) 음봉으로 하락 전환.\n당일 누적 거래대금 $3,852 USD (3천8백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증 및 음봉 덤핑 확인이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 04:30 ET) 공식 PR 원문 분석:\nPR 제목: \"WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 앱/기능 런칭 홍보물 (App Launching PR):\n원문 본문에 *\"today announced the launch of the WeTrip app on ChatGPT, enabling travelers to discover China tours, explore detailed itineraries and request personalized travel proposals directly within ChatGPT... The launch opens a new digital distribution channel for Webuy’s China inbound travel business\"*라고 명시되어 있습니다.\n이는 오픈AI(OpenAI)와의 거액 독점 계약이나 글로벌 대형 여행사와의 확정 수주가 아니라, 누구나 등록 가능한 ChatGPT GPTs/앱 생태계에 자사 여행 상담 챗봇/앱을 등록했다는 단순 마케팅용 신규 기능 출시 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 AI 스마트 트래블 카드 출시(07/13, 09/01 6-K)에 이은 연속적 테마 편승 언론플레이:\n과거 이력 대조 결과 회사는 이미 2026년 7월과 9월에도 \"Webuy Launches AI Agent-Assisted Smart Travel Card...\" 보도자료를 낸 바 있습니다.\n이번 발표 역시 실질적인 수주나 확정 매출 발생 없이 유행하는 AI/ChatGPT 키워드를 자사 기존 여행 영업에 엮어 배포한 **전형적인 자체 마케팅/언론 플레이(Spin PR)**입니다.\n심사 헌법 제3조 ④항 위배 및 음봉 덤핑(-9.4%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 소프트웨어/앱(App) 출시 및 제휴 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $0.5699 찍은 직후 -9.4% 급락하며 전일 종가 밑(-0.50%) 음봉으로 주저앉은 전형적인 윗꼬리 설거지 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 보도자료에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 주가가 -9.4% 급락하여 음봉으로 전환되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: WBUY 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WBUY NOTES:\n[WBUY] 확정 수주/매출 전무한 단순 ChatGPT 내 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항 위배 및 장전 -9.4% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 초입 구간에서 WBUY는 AI 테마성 껍데기 앱 출시 홍보물로 확인되어 안전하게 전량 차단되었습니다\n. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
