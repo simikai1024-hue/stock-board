@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:03:49",
-  "updated_at_et": "2026-11-20 09:03:49",
-  "updated_epoch_ms": 1795183429968,
+  "updated_at_kst": "2026-11-20 23:04:00",
+  "updated_at_et": "2026-11-20 09:04:00",
+  "updated_epoch_ms": 1795183440179,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "SAGT",
+    "company_name": "SAGT",
+    "exchange": "ND",
+    "price": 1.1242,
+    "gain_pct": 11.31,
+    "mcap_m": 27.82,
+    "catalyst_hint": "[당일 PR] Sagtec Global Limited Announces Additional Share Acquisition by CEO, Reinforcing Confidence in Long-Term Growth Strategy",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:03:57",
+    "started_at_kst": "23:03:57",
+    "started_epoch_ms": 1795183437333
   },
   "halt_watch": {
     "active": false
