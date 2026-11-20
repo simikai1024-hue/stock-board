@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:55:02",
-  "updated_at_et": "2026-11-20 08:55:02",
-  "updated_epoch_ms": 1795182902164,
+  "updated_at_kst": "2026-11-20 22:56:00",
+  "updated_at_et": "2026-11-20 08:56:00",
+  "updated_epoch_ms": 1795182960685,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8414,
-    "profit_rate": 0.18,
-    "updated_kst": "22:54:53"
+    "current_price": 0.8698,
+    "profit_rate": 3.56,
+    "updated_kst": "22:55:52"
   },
   "stats": {
     "today_total": 21,
@@ -2458,6 +2458,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:55:52",
+      "time_kst": "22:55:52",
+      "symbol": "QBTS",
+      "company_name": "QBTS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2778.26M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:55:00",
       "time_kst": "22:55:00",
       "symbol": "APVO",
@@ -2945,16 +2955,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:06:29",
-      "time_kst": "21:06:29",
-      "symbol": "VNDA",
-      "company_name": "VNDA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $221.92M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
