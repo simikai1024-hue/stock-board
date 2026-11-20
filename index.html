@@ -1300,6 +1300,8 @@
         <div id="viLabRightAction"></div>
       </div>
 
+      <div id="viLabChartWrap" style="display:none; margin-top:10px; padding:10px; border-radius:12px; background:#F8FAFC; border:1px solid #E2E8F0;"></div>
+
       <details class="lab-hist-details" id="viLabHistDetails">
         <summary><span id="viLabHistSummaryLbl">무뉴스 VI 실험실 일자별 기록 &amp; 매수 후 최고가 보기 (0건)</span></summary>
         <div class="lab-hist-list" id="viLabHistList">
@@ -2086,7 +2088,27 @@
     const status = vl.today_status || "IDLE";
     const pos = vl.active_pos;
     const closed = vl.today_closed;
+    const chartWrap = document.getElementById("viLabChartWrap");
     if (tagEl) tagEl.classList.remove("holding");
+
+    const _renderViChart = (cd, nm) => {
+      if (!chartWrap || !cd) return;
+      const tsMin = Math.floor(Date.now() / 60000);
+      const dayUrl = `https://ssl.pstatic.net/imgfinance/chart/item/area/day/${escHtml(cd)}.png?sidcode=${tsMin}`;
+      const candleUrl = `https://ssl.pstatic.net/imgfinance/chart/item/candle/day/${escHtml(cd)}.png?sidcode=${tsMin}`;
+      const naverUrl = `https://m.stock.naver.com/domestic/stock/${escHtml(cd)}/chart`;
+      chartWrap.style.display = "block";
+      chartWrap.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+          <span style="font-size:12.5px; font-weight:800; color:#0F172A;">📈 ${escHtml(nm)}(${escHtml(cd)}) 실시간 당일 분봉 · 일봉 차트</span>
+          <a href="${naverUrl}" target="_blank" rel="noopener" style="font-size:12px; font-weight:800; color:#0284C7; text-decoration:none;">네이버 상세차트 열기 ↗</a>
+        </div>
+        <a href="${naverUrl}" target="_blank" rel="noopener" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:8px; text-decoration:none;">
+          <img src="${dayUrl}" alt="${escHtml(nm)} 당일 분봉" style="width:100%; border-radius:8px; border:1px solid #CBD5E1; background:#FFF;" loading="lazy" />
+          <img src="${candleUrl}" alt="${escHtml(nm)} 일봉 차트" style="width:100%; border-radius:8px; border:1px solid #CBD5E1; background:#FFF;" loading="lazy" />
+        </a>
+      `;
+    };
 
     if (status === "HOLDING" && pos) {
       if (tagEl) {
@@ -2102,8 +2124,9 @@
         subEl.innerHTML = `진입 ${fmtWon(pos.entry_price)} → 현재 ${fmtWon(pos.cur_price)} · <strong style="color:#BE123C;">🚀 매수 후 최고 ${fmtWon(pos.peak_price)} (+${mp.toFixed(2)}%)</strong> · ${escHtml(pos.vi_tag || "")}`;
       }
       if (actEl) {
-        actEl.innerHTML = `<button class="btn-outline" onclick="copyStockCode('${escHtml(pos.code)}','${escHtml(pos.name)}')">📋 코드복사</button>`;
+        actEl.innerHTML = `<div style="display:flex; gap:6px; flex-wrap:wrap;"><a class="btn-outline" href="https://m.stock.naver.com/domestic/stock/${escHtml(pos.code)}/chart" target="_blank" rel="noopener" style="text-decoration:none;">📈 차트</a><button class="btn-outline" onclick="copyStockCode('${escHtml(pos.code)}','${escHtml(pos.name)}')">📋 코드복사</button></div>`;
       }
+      _renderViChart(pos.code, pos.name);
     } else if (status === "DONE" && closed) {
       const np = Number(closed.net_pnl_pct || 0);
       const mp = Number(closed.max_raw_pct || 0);
@@ -2118,13 +2141,18 @@
         subEl.innerHTML = `${fmtWon(closed.entry_price)}(${escHtml(closed.entry_time)}) → ${fmtWon(closed.exit_price)}(${escHtml(closed.exit_time)}) · <strong style="color:#BE123C;">🚀 매수 후 당일 최고 ${fmtWon(closed.peak_price)} (+${mp.toFixed(2)}%)</strong>`;
       }
       if (actEl) {
-        actEl.innerHTML = `<button class="btn-outline" onclick="copyStockCode('${escHtml(closed.code)}','${escHtml(closed.name)}')">📋 코드복사</button>`;
+        actEl.innerHTML = `<div style="display:flex; gap:6px; flex-wrap:wrap;"><a class="btn-outline" href="https://m.stock.naver.com/domestic/stock/${escHtml(closed.code)}/chart" target="_blank" rel="noopener" style="text-decoration:none;">📈 차트</a><button class="btn-outline" onclick="copyStockCode('${escHtml(closed.code)}','${escHtml(closed.name)}')">📋 코드복사</button></div>`;
       }
+      _renderViChart(closed.code, closed.name);
     } else {
       if (tagEl) tagEl.textContent = "🕒 평일 09:05~13:00 무뉴스 상승 VI 스캔 대기";
       if (mainEl) mainEl.textContent = "현재 포착된 무뉴스 상승 VI 종목 대기 중";
       if (subEl) subEl.textContent = "당일·전일 공시 0건 · 뉴스 0건 1차 상승 VI 해제 시 자동 모의 매수 & 당일 최고가 추적";
       if (actEl) actEl.innerHTML = "";
+      if (chartWrap) {
+        chartWrap.style.display = "none";
+        chartWrap.innerHTML = "";
+      }
     }
 
     const hist = Array.isArray(vl.history) ? vl.history : [];
@@ -2142,6 +2170,7 @@
               <span style="color:var(--text-muted);">${escHtml(h.date)}(${escHtml(h.weekday || "")})</span> ·
               <strong>${escHtml(h.name)}</strong>
               <span style="font-size:12px; color:#0369A1;">${escHtml(h.vi_tag || "")}</span>
+              <a href="https://m.stock.naver.com/domestic/stock/${escHtml(h.code)}/chart" target="_blank" rel="noopener" onclick="event.stopPropagation();" style="margin-left:6px; font-size:11.5px; font-weight:800; color:#0284C7; text-decoration:none; padding:1px 6px; border-radius:6px; background:#E0F2FE;">📈 차트</a>
             </div>
             <div>
               <span>${fmtWon(h.entry_price)}(${escHtml(h.entry_time)}) → ${fmtWon(h.exit_price)}(${escHtml(h.exit_time)})</span> ·
