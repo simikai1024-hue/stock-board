@@ -1,11 +1,11 @@
 {
   "date": "2026-11-20",
-  "updated_at": "2026-11-20 23:36:52",
+  "updated_at": "2026-11-21 01:04:29",
   "isi_board": {
-    "updated_at": "2026-11-20 23:36:52",
+    "updated_at": "2026-11-21 01:04:29",
     "updater_source": "GITHUB_CLOUD",
     "theme_date": "2026-11-20",
-    "theme_updated_at": "23:36:52 (☁️깃허브 자동)",
+    "theme_updated_at": "01:04:29 (☁️깃허브 자동)",
     "overnight_holding": {
       "active": false
     },
@@ -346,7 +346,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-20",
-      "updated_at": "23:36:52 (☁️깃허브 자동)",
+      "updated_at": "01:04:29 (☁️깃허브 자동)",
       "signal_status": "NEUTRAL",
       "active_signal": null,
       "today_closed": null,
@@ -439,35 +439,35 @@
         "kospi_inst_eok": -9330,
         "kosdaq_foreign_eok": -1615,
         "kosdaq_inst_eok": -1065,
-        "usdkrw": 1338.7,
-        "usdkrw_chg": 3.2,
-        "nasdaq_pct": -1.07,
-        "sox_pct": -3.71,
+        "usdkrw": 1341.4,
+        "usdkrw_chg": 5.9,
+        "nasdaq_pct": -2.69,
+        "sox_pct": -7.41,
         "macro_dir": "DN",
         "macro_label": "수급·매크로 하방 압력",
         "news_dir": "NEUTRAL",
         "news_label": "호악재 혼조",
         "headlines": [
           {
-            "title": "“AI 커닝해 주식 샀으니 취소해 달라”…차라리 '부정행위?' 자수하고 싶은 개미들",
-            "press": "전자신문",
-            "time": "22:01",
-            "tone": "UP",
-            "url": "https://n.news.naver.com/mnews/article/030/0003488063"
-          },
-          {
-            "title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
-            "press": "한국경제",
-            "time": "22:01",
+            "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
+            "press": "조선비즈",
+            "time": "00:49",
             "tone": "DN",
-            "url": "https://n.news.naver.com/mnews/article/015/0005356523"
+            "url": "https://n.news.naver.com/mnews/article/366/0001206346"
           },
           {
-            "title": "'국민주'에 물린 개미 어쩌나…절반 넘게 '손실'",
-            "press": "한국경제TV",
-            "time": "21:11",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/215/0001273445"
+            "title": "“제2의 구글 나왔네” 108조 쓸어 담았는데…‘몸값 2500조’ 앤트로픽 향한 경고 나왔다",
+            "press": "서울경제",
+            "time": "00:16",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/011/0004684545"
+          },
+          {
+            "title": "삼전 반토막, 하닉 3분의 2 증발…증권가의 뜻밖의 진단[종목e슈]",
+            "press": "이데일리",
+            "time": "00:02",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/018/0006413376"
           }
         ]
       },
@@ -496,7 +496,7 @@
           "pair_money_share_pct": 23.7,
           "flow_surge_mult": 0.79
         },
-        "line1": "외국인이 코스피 -1조 956억(코스닥 -1,615억) 대량 순매도 출회 중이며, 미 나스닥(-1.07%)·반도체(-3.71%) 및 원/달러 1,338.7원 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
+        "line1": "외국인이 코스피 -1조 956억(코스닥 -1,615억) 대량 순매도 출회 중이며, 미 나스닥(-2.69%)·반도체(-7.41%) 및 원/달러 1,341.4원 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 평소 대비 0.79배 자금이 집중되며 당일 VWAP 상단 체류 93%를 기록 중입니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
