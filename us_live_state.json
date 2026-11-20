@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 19:39:33",
-  "updated_at_et": "2026-11-20 05:39:33",
-  "updated_epoch_ms": 1795171173874,
+  "updated_at_kst": "2026-11-20 19:40:37",
+  "updated_at_et": "2026-11-20 05:40:37",
+  "updated_epoch_ms": 1795171237477,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "RAYA",
     "holding_qty": 543,
     "avg_price": 0.914,
-    "current_price": 0.88,
-    "profit_rate": -3.72,
-    "updated_kst": "19:39:28"
+    "current_price": 0.8834,
+    "profit_rate": -3.35,
+    "updated_kst": "19:40:29"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 0,
     "today_buy": 2,
     "today_false": 1,
-    "today_hardcut": 39,
+    "today_hardcut": 40,
     "total_verdicts": 150,
     "total_buy": 5,
     "total_false": 145,
@@ -2440,6 +2440,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "05:40:34",
+      "time_kst": "19:40:34",
+      "symbol": "NNOX",
+      "company_name": "NNOX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "05:26:25",
       "time_kst": "19:26:25",
       "symbol": "DGNX",
@@ -2927,16 +2937,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $60.38M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:52:38",
-      "time_kst": "23:52:38",
-      "symbol": "JSPR",
-      "company_name": "JSPR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $383.32M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
