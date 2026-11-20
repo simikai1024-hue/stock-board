@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:05:37",
-  "updated_at_et": "2026-11-20 07:05:37",
-  "updated_epoch_ms": 1795176337836,
+  "updated_at_kst": "2026-11-20 21:06:34",
+  "updated_at_et": "2026-11-20 07:06:34",
+  "updated_epoch_ms": 1795176394337,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.5726,
-    "profit_rate": -2.71,
-    "updated_kst": "21:05:33"
+    "current_price": 4.57,
+    "profit_rate": -2.77,
+    "updated_kst": "21:06:32"
   },
   "stats": {
     "today_total": 6,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:06:29",
+      "time_kst": "21:06:29",
+      "symbol": "VNDA",
+      "company_name": "VNDA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $221.92M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:03:54",
       "time_kst": "21:03:54",
       "symbol": "UTHR",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:04:18",
-      "time_kst": "18:04:18",
-      "symbol": "GTBP",
-      "company_name": "GTBP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
     }
   ]
 }
