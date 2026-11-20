@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:30:28",
-  "updated_at_et": "2026-11-20 09:30:28",
-  "updated_epoch_ms": 1795185028226,
+  "updated_at_kst": "2026-11-20 23:31:23",
+  "updated_at_et": "2026-11-20 09:31:23",
+  "updated_epoch_ms": 1795185083405,
   "analyzing": {
-    "active": true,
-    "symbol": "CWD",
-    "company_name": "CWD",
-    "exchange": "ND",
-    "price": 0.38,
-    "gain_pct": 3.04,
-    "mcap_m": 4.18,
-    "catalyst_hint": "[당일 PR] Caliber Publishes Inaugural Investor FAQ Answering 67 Shareholder Questions",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:30:24",
-    "started_at_kst": "23:30:24",
-    "started_epoch_ms": 1795185024640
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8894,
-    "profit_rate": 5.89,
-    "updated_kst": "23:30:11"
+    "current_price": 0.9086,
+    "profit_rate": 8.18,
+    "updated_kst": "23:31:08"
   },
   "stats": {
-    "today_total": 29,
+    "today_total": 30,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 24,
+    "today_false": 25,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 58.5
+    "avg_nblm_sec": 58.9
   },
   "verdicts": [
+    {
+      "id": "v_1795185077302_CWD_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "09:31:17",
+      "time_kst": "23:31:17",
+      "symbol": "CWD",
+      "company_name": "CWD",
+      "exchange": "ND",
+      "price": 0.38,
+      "gain_pct": 3.04,
+      "mcap_m": 4.18,
+      "decision": "FALSE",
+      "elapsed_sec": 57.0,
+      "reason": "확정 수주 전무한 기존 공시 취합 67개 문항 단순 투자자 FAQ(질의응답집) 배포 PR로 헌법 3조 1·2항 위배 및 거래대금 $754 미미 전량 차단",
+      "catalyst_hint": "[당일 PR] Caliber Publishes Inaugural Investor FAQ Answering 67 Shareholder Questions",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 실시간 긴급결재 원문서류철 소스 원문 팩트를 교차 대조하여 진행한 CWD (CaliberCos Inc.) 2026-11-20 09:30:20 ET 정규장 개장 직전 실시간 무결점 순수 PR 및 재탕 감별 재검증 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $754 USD 및 단순 67문항 투자자 FAQ 배포 재확인)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: CWD) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과.\n실질 시가총액: 약 $4.18M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과).\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 문답집 FAQ 공개 홍보물 재확인):\n당일 PR 내 백만 달러($M) 이상 신규 확정 상업 수주나 정부 계약 금액 일절 미감지 (확정 수주액 0원).\n헤드라인의 '67개 주주 질문에 답변하는 창립 투자자 FAQ 배포(Publishes Inaugural Investor FAQ Answering 67 Shareholder Questions)'는 회사 금고로 직통 유입되는 신규 매출 계약이나 기술이전이 절대 아닙니다.\n회사가 웹사이트([suspicious link removed] 자사 비즈니스 모델, 대차대조표, 주식 현황 등 **\"기존에 이미 보고된 내용들을 취합(Most answers bring together what Caliber has already reported)하여 일반 대중 및 잠재 주주를 위해 67개 문답 형태로 정리한 단순 IR 안내 책자(FAQ)\"**를 공개한 것에 불과합니다.\n당일 회사 금고로 직통 유입되는 신규 확정 매출이나 현금 선급금은 단 1달러도 없습니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -7.3% 밀려 +3.04% 정체 및 거래대금 $754 USD):\n전일 종가 $0.3688 대비 현재가 $0.3800 (+3.04%).\n당일 프리마켓 최고가 $0.4100 (+11.17%)까지 띄운 뒤 실체 없는 FAQ 배포임을 시장이 확인하고 고점 대비 -7.3% 밀려 정체 지속.\n당일 누적 거래대금은 $754 USD (약 750달러 수준의 극소액 체결로 주포 수급 부재).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 09:24:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire\nPR 제목: \"Caliber Publishes Inaugural Investor FAQ Answering 67 Shareholder Questions\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '기존 공시 내용 취합 67개 질문 FAQ' 언론플레이:\n원문 본문에 *\"today published its inaugural investor FAQ... The FAQ answers 67 questions about Caliber's business model, its two businesses, its plans and objectives, its balance sheet and its stock... Most answers bring together what Caliber has already reported...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n기존 분기 보고서와 사업 설명을 질의응답 형태로 재포장한 전형적인 마케팅/IR 보도자료입니다.\n과거 180일 연속된 '토큰화·어닝콜 우려먹기' 재탕 대조:\n과거 180일 PR 원장 대조 결과:\n[2026-11-16 | reuters] Caliber-Sponsored Fund Acquires Tonto Oaks Apartments, Expanding Caliber's Multifamily Holdings In Payson, Arizona\n[2026-11-12 | reuters] CaliberCos Q3 platform revenue rises on higher fees, cuts FY platform revenue outlook\n[2026-07-02 | yahoo_rss] CWD Stock Jumps Over 110% — Caliber Expands Chainlink-Powered Tokenization Push\n지난 11월 12일 3분기 실적 발표(연간 가이던스 삭감) 및 11월 16일 아파트 펀드 인수 보도에 이어, 오늘 또다시 자사 체인링크 토큰화와 부동산 사업 내용을 설명하는 FAQ를 띄워 **동일한 사업 구조를 반복 홍보(심사 헌법 제3조 ①항)**하고 있습니다.\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 FAQ 발표/IR 안내/금액 미기재 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n장전 프리마켓에서 $0.4100까지 반짝 띄운 후 실체 없는 문답집임을 확인하고 고점 대비 -7.3% 밀린 채 $754 USD 극소액 거래로 주저앉은 전형적인 껍데기 IR 패턴입니다.\n3. 최종 심사 및 결재 판정\nCWD의 당일 공식 PR은 회사 금고로 유입되는 확정 상업 메가 수주나 현금 선급금이 전무하며, 기존 공시 내용을 취합한 67문항 투자자 FAQ 공개 홍보물에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: CWD 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 재확인 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: CWD NOTES:\n[CWD] 확정 수주 전무한 기존 공시 취합 67개 문항 단순 투자자 FAQ(질의응답집) 배포 PR로 헌법 3조 1·2항 위배 및 거래대금 $754 미미 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역), 다섯 번째 종목 TYGO(로펌 집단소송 원고 모집 악재), 여섯 번째 종목 NCNA(학회 전임상 포스터 발표), 일곱 번째 종목 CVM(사우디 신속심사 트랙 단순 지정), 여덟 번째 종목 ZEO(전기료 절감 마케팅), 아홉 번째 종목 PHUN(주총 위임장 표 대결 서한), 열 번째 종목 BRNX(EU 경매 신청 계획 금액 착시), 열한 번째 종목 STKS(외식 가맹 모집 라이선싱 론칭), 열두 번째 종목 NVNO(학회 3년 추적 데이터 발표), 열세 번째 종목 FRGT(사내 AI 랩 연구 논문 발표), 열네 번째 종목 APRE(학회 1상 중간 결과 발표), 열다섯 번째 종목 SAGT(CEO 소액 지분 매수 쪼개기 재탕), 열여섯 번째 종목 TKLF(런던 소매 매장 오픈 공지)에 이어 CWD 재확인 건까지 모든 후보 종목이 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상, 규제 지정, 학회 발표, 연구 논문, 매장 출점, 문답집 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다.\n이제 09:30 ET 정규장이 막 개장되었으므로, 본장 초반 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다.",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795184816038_CWD_FALSE",
       "track": "TRACK1",
@@ -2451,26 +2460,6 @@
       "reason": "확정 수주/매출 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
       "catalyst_hint": "[당일 PR] WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 WBUY (WEBUY GLOBAL LTD.) 2026-11-18 04:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [721].\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.01M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과) [721, 724].\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 발생하는 상업 계약이 아니라, 단순 **ChatGPT 상에 자사 여행 앱(WeTrip)을 출시했다는 소프트웨어 기능 런칭(Launches WeTrip App on ChatGPT)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $0.5190 대비 현재가 $0.5500 (+5.97%), 당일 최고가 $0.5699 (고점 대비 -3.5%).\n당일 누적 거래대금 $2,070 USD (2천 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다 [721].\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다 [721].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 04:30 ET) 공식 PR 원문 분석:\nPR 제목: \"WEBUY GLOBAL LTD. Launches WeTrip App on ChatGPT for China Travel\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 앱/플랫폼 런칭 홍보물 (App Launching PR):\n원문 본문에 *\"today announced the launch of the WeTrip app on ChatGPT, enabling travelers to discover China tours, explore detailed itineraries and request personalized travel proposals directly within ChatGPT... The launch opens a new digital distribution channel for Webuy’s China inbound travel business\"*라고 명시되어 있습니다.\n이는 오픈AI(OpenAI)와의 거액 독점 계약이나 대형 여행사와의 확정 수주가 아니라, 누구나 등록 가능한 ChatGPT GPTs/앱 생태계에 자사 여행 상담 챗봇/앱을 등록했다는 단순 마케팅용 신규 기능 출시 보도자료에 불과합니다.\n회사 금고로 즉각 유입되는 확정 계약금, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다 [722, 725].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [722, 725].\n소프트웨어/플랫폼 런칭 PR은 족보집상 전형적인 윗꼬리 설거지 패턴:\n족보집 누적 실전 표본에서 단순 AI/소프트웨어 기능 런칭(전일 FTCI FieldIQ 런칭 -11.4% 급락, SMX AI 플랫폼 출시 등)은 프리마켓 반짝 후 즉각 급락하거나 거래량 없이 주저앉는 전형적인 금액 미기재 홍보물 함정으로 증명되어 있습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 자체 앱 출시 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 소프트웨어/앱(App) 출시 및 제휴 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 [722].\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 보도자료에 불과하여, 심사 헌법 제3조 ④항(금액 미기재 단순 앱/기능 런칭 차단)에 의거 FORCE_BLOCK: WBUY 처리합니다 [722].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WBUY NOTES:\n[WBUY] 확정 수주/매출 전무한 단순 ChatGPT 내 자체 여행 앱(WeTrip) 런칭 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 첫 안건인 WBUY는 AI 테마를 차용한 단순 껍데기 앱 출시 홍보물로 확인되어 안전하게 방어되었습니다. 프리마켓 및 09:30 ET 정규장 개장 골든타임 구간 동안 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [722, 725].",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794928590859_SMX_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "10:16:30",
-      "time_kst": "00:16:30",
-      "symbol": "SMX",
-      "company_name": "SMX",
-      "exchange": "ND",
-      "price": 5.18,
-      "gain_pct": 41.53,
-      "mcap_m": 5.64,
-      "decision": "FALSE",
-      "elapsed_sec": 67.3,
-      "reason": "확정 수주 전무 및 전일(11/16) 기공시된 trueGold 홍보를 제목만 바꾼 100% 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 및 장중 -23.5% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] SMX Aims to Close the Verification Gap in Global Gold Trading With trueGold",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SMX (SMX (Security Matters) Public Limited Company) 2026-11-17 10:15 ET 본장 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.64M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 **일절 미감지 (구체적 계약 달러 금액 전무)**.\n발표된 실체는 현금 선급금이 발생하는 상업 계약이 아니라, 단순 금 감별/추적 자회사 trueGold 기술 홍보 및 콘퍼런스 참가 언급에 불과합니다.\n실시간 체결가 및 수급 (장중 고점 $6.7700 찍은 후 고점 대비 -23.5% 급락 덤핑):\n전일 종가 $3.6600 대비 현재가 $5.1800 (+41.53%), 당일 최고가 $6.7700 (고점 대비 -23.5%).\n당일 누적 거래대금 $9,563,181 USD (약 956만 달러의 대량 거래량이 회전되며 윗꼬리 장대음봉 출회).\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 10:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"SMX Aims to Close the Verification Gap in Global Gold Trading With trueGold\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 기술 개발 및 콘퍼런스 참가 홍보물 (trueGold PR):\n원문 본문에 *\"SMX is developing technology to authenticate physical gold and connect it with secure records throughout its lifecycle... SMX is highlighting the technology in connection with the 2026 Dubai Precious Metals Conference, held November 16-17...\"*라고 명시되어 있습니다.\n이는 글로벌 정련소나 거래소와의 확정된 거액 상업 공급 계약이나 라이선스 체결이 아니라, 두바이 귀금속 콘퍼런스(11/16~17) 일정에 맞춰 자회사 trueGold의 금 분자 마킹 기술을 소개하고 상용화를 목표로 한다는 단순 기술 개발/행사 홍보 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n전일(11/16) 배포된 금 추적 PR 및 6-K(EX-99.1)의 문구만 바꾼 100% 재탕 쪼개기 언론플레이:\n과거 180일 원장 대조 결과 회사는 이미 전일인 2026년 11월 16일에 다음과 같은 동일 주제의 PR 3건을 배포하고 6-K(EX-99.1)로 공시했습니다\n:\n*[11/16 09:30 ET] \"SMX Targets the Missing Link in Global Gold Markets: Proof\"*\n*[11/16] \"SMX Brings a New Level of Transparency to Gold Trading Through trueGold Technology\"*\n*[11/16] \"SMX: The Future of Gold Will Be Defined by What We Know About It — Powering Verified Trade and Tokenisation\"*\n전일 6-K에 첨부된 *\"The future of gold will not only be defined by what it is worth. It will also be defined by what we know about it\"*라는 문구를 오늘 보도자료(11/17 10:00 ET) 본문에서도 토씨 하나 틀리지 않고 그대로 재인용하고 있습니다.\n즉, 당일 발표는 신규 호재가 아니라 **전일 발표했던 trueGold 홍보 보도자료를 두바이 행사 2일 차에 맞춰 제목만 살짝 비틀어 다시 살포한 전형적인 쪼개기 우려먹기 재탕(Spin PR)**입니다.\n잠재적 대량 주식 희석 리스크 상존 (424B3 리세일 오퍼링 대기):\nSEC 제출 이력 대조 결과 회사는 2026년 11월 9일 2.8:1 주식병합 직후인 11월 12일과 11월 13일에 연달아 424B3(최대 9,076,535주 매각 보충서)를 제출했습니다.\n주가가 튈 때마다 기존 투자자들의 매도 물량이 쏟아질 수 있는 구조적 오버행 함정이 열려 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장중 -23.5% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 전일 기발표된 trueGold 홍보의 노골적인 쪼개기 재탕 및 ④ 신규 확정 계약 금액 및 현금 유입이 없는 단순 콘퍼런스 참가/기술 개발 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장중 $6.7700까지 급등을 유도하여 $9.5M의 거래량을 터뜨린 후 고점 대비 -23.5% 급락하며 개미들에게 물량을 덤핑 중인 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무하고, 전일(11/16) 기발표된 trueGold 홍보 및 6-K 공시를 두바이 행사 2일 차에 맞춰 제목만 바꾼 100% 쪼개기 재탕 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장중 고점 대비 -23.5% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SMX 처리합니다.\n계좌 보호 원칙에 의거하여 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SMX NOTES:\n[SMX] 확정 수주 전무 및 전일(11/16) 기공시된 trueGold 홍보를 제목만 바꾼 100% 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 및 장중 -23.5% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 장전 및 본장 10:15 ET 구간까지 접수된 총 35개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI, SPCB, EDSA, CDIO, TOPS, SCWO, SMX) 전수가 껍데기 IR, 단순 실적/지표 재포장, 쪼개기 재탕으로 정밀 감별되어 안전하게 전량 방어되었습니다. 본장 중 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
