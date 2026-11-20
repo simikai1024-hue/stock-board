@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:20:22",
-  "updated_at_et": "2026-11-20 06:20:22",
-  "updated_epoch_ms": 1795173622067,
+  "updated_at_kst": "2026-11-20 20:21:43",
+  "updated_at_et": "2026-11-20 06:21:43",
+  "updated_epoch_ms": 1795173703825,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:20:15"
+    "updated_kst": "20:21:36"
   },
   "stats": {
-    "today_total": 5,
+    "today_total": 6,
     "today_nblm_count": 0,
-    "today_buy": 2,
+    "today_buy": 3,
     "today_false": 3,
     "today_hardcut": 48,
     "total_verdicts": 150,
-    "total_buy": 5,
-    "total_false": 145,
-    "avg_nblm_sec": 37.2
+    "total_buy": 6,
+    "total_false": 144,
+    "avg_nblm_sec": 30.7
   },
   "verdicts": [
+    {
+      "id": "v_1795173698082_AKAN_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "06:21:38",
+      "time_kst": "20:21:38",
+      "symbol": "AKAN",
+      "company_name": "AKAN",
+      "exchange": "ND",
+      "price": 4.6805,
+      "gain_pct": 41.83,
+      "mcap_m": 12.32,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +41.8% · 전일대비 +36.5% (VWAP $4.36↑) | 1분대금 $217K | 누적 $5.53M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "[Track 3 본장 첫 점화] 시가대비 +41.83% | 1분 $217.3K | 회전율 53.1%",
+      "full_report": "[Track 3: 본장 첫 +30% 점화 돌파 스나이퍼 실시간 포착]\n- 종목: AKAN (NASDAQ) | 시총: $12.32M\n- 시초가 대비: +41.83% ($3.3000 -> $4.6805)\n- 기준가(전일종가) 대비: +36.46% (기준가 $3.4299)\n- 프리마켓 고점 돌파: PM고점 $4.9900 돌파 완료 (프리장 분당 $20만 이력 0건)\n- 실시간 수급 화살표: 1분 거래대금 $217.3K (>= $200K)\n- 회전율 & 누적대금: 유통 회전율 53.1% (2.39M주) / 누적 $5.53M\n- 전략 집행: 즉시 선점 지정가 매수 및 +51% 그물망 익절 / -20% 방어 손절 자동 세팅!",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795172618881_VWAV_FALSE",
       "track": "TRACK1",
@@ -2415,26 +2436,6 @@
       "reason": "신규 수주 전무 및 전일(11/16) 기발표된 3분기 실적의 매출증가율만 재포장한 24시간만 실적 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-mo",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 IDAI (T Stamp Inc. / Trust Stamp) 2026-11-17 08:34 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.5M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주/신규 계약 금액 부재 적발):\n본문 헤드라인의 **\"37% increase in net revenue for Q3, 28% increase for nine-month period\"**는 신규 고객사 수주 계약이나 현금 유입 계약이 아닙니다.\n이미 지난 2026년 9월 30일로 마감된 **과거 3분기 및 9개월 누적 정기 실적 수치(Historical Financial Results)**에 불과하며, 당일 PR 내 백만 달러($M) 이상 신규 확정 계약 금액은 일절 미감지(전무) 상태입니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.2600 대비 현재가 $2.5500 (+12.83%), 당일 최고가 $2.6100 (고점 대비 -2.3%).\n당일 누적 거래대금 $82 USD (82달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-month period when compared to the comparable periods in 2025, with the growth in revenue significantly outpacing the growth in cash expenses\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n어제(11/16) 기발표된 3분기 정기 실적의 24시간 만의 포장 재탕 (Earnings Re-hash Trap):\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 이미 3분기 실적(Q3 Results)을 발표한 바 있습니다.\n어제 외신 보도(\"Trust Stamp's Q3 net loss widens due to higher expenses\", \"T Stamp Inc. Reports Q3 Loss, Lags Revenue Estimates\")를 통해 손실 확대 및 매출 전망치 하회로 주가가 부진하자, **당일 아침 매출 증가율(Q3 +37%, 9개월 +28%)과 비용 통제 문구만 유리하게 발췌·재가공하여 띄운 전형적인 사후 실적 재탕/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n단순 정기 실적 공표는 족보집상 전형적인 보합·설거지 패턴:\n족보집 누적 실전 표본에서 단순 분기 실적(Q3 Earnings) 발표 및 실적 호조 PR(CDW, EPAM, FTCI, ATYR, CNH 등)은 당일 일시적 반등 후 윗꼬리를 달고 급락하거나 보합으로 주저앉는 **전형적인 설거지/보합 함정(족보집 실패 표본 다수)**으로 증명되어 있습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 전일 기발표된 3분기 실적의 유리한 수치만 쪼개어 재홍보한 24시간 만의 쪼개기 재탕 및 ④ 신규 확정 수주 계약 금액이 없는 단순 정기 실적 보고서는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주나 매출 계약이 전무하며, 전일(11/16) 기발표되어 어닝 쇼크를 기록했던 3분기 정기 실적 중 매출 증가율만 유리하게 발췌하여 재포장한 100% 실적 재탕 PR에 불과하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: IDAI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: IDAI NOTES:\n[IDAI] 신규 수주 전무 및 전일(11/16) 기발표된 3분기 실적의 매출증가율만 재포장한 24시간만 실적 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 25개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI) 전수가 실체적 확정 현금 유입이 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장으로 확인되어 안전하게 전량 차단되었습니다. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794922442712_TOMZ_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:34:02",
-      "time_kst": "22:34:02",
-      "symbol": "TOMZ",
-      "company_name": "TOMZ",
-      "exchange": "ND",
-      "price": 2.57,
-      "gain_pct": 4.9,
-      "mcap_m": 20.93,
-      "decision": "FALSE",
-      "elapsed_sec": 58.8,
-      "reason": "수주/매출 전무 및 11/12 기준 경과한 나스닥 요건회복 사후 뒷북 PR(BJDX형)이며 ONFO형(시총 $15M 이하+CB 0원 소멸) 미달로 전량 차단",
-      "catalyst_hint": "[당일 PR] TOMI Environmental Solutions Regains Compliance with Nasdaq Minimum Bid Price and Stockholders’ Equity Requirements",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 TOMZ (TOMI Environmental Solutions, Inc.) 2026-11-17 08:33 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $20.93M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n⚠️ 체급 주의 요건: 연구소 헌법 제2조 ②항의 상장폐지 방어/자기자본 충족 특례(FORCE_BUY) 체급 기준인 \"시가총액 $15.0M 이하 초소형 품절주\" 관문 초과 ($20.93M > $15.0M).\n체급 대비 규모 (치명적 수주/신규 현금 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 외부 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.4500 대비 현재가 $2.5700 (+4.90%), 당일 최고가 $2.5700 (고점 대비 +0.0%).\n당일 누적 거래대금 $18 USD (18달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 사후 뒷북 공시 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-17 [10-Q], [NT 10-Q] 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"TOMI Environmental Solutions Regains Compliance with Nasdaq Minimum Bid Price and Stockholders’ Equity Requirements\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n이미 5일 전(11/12) 효력이 완료된 행정 통보의 사후 뒷북 보도자료 (BJDX형 사후 뒷북 8-K/PR 함정):\n원문 본문에 *\"today announced that as of November 12, 2026, the Company has regained compliance with the minimum closing bid price and stockholders’ equity requirements under Nasdaq Listing Rules 5550(a)(2) and 5550(b)(1)...\"*라고 명시되어 있습니다.\n이는 오늘 실시간으로 터진 호재가 아니라, 이미 지난주 목요일인 **2026년 11월 12일 기준(as of November 12, 2026)으로 충족 완료되어 시세가 소멸된 과거 사건을 5일 뒤 사후에 뒤늦게 보도자료로 배포한 전형적인 '사후 뒷북 PR(BJDX형 실전 오답 패턴)'**입니다.\nONFO형 진짜 대장주 요건(시총 $15M 이하 + CB 0원 소멸) 미달\n:\n연구소 헌법 제2조 ②항에 따른 자기자본 충족 승인 공식(ONFO형)은 **\"① 시총 $15M 이하 초소형 품절주 + ② 나스닥 최소 자기자본 충족 + ③ 잔여 전환사채(CB) 0원 전액 소멸\"**이 동시에 증명되어야 합니다.\nTOMZ는 실질 시총이 $20.93M으로 $15M 기준을 초과할 뿐만 아니라, 원문 어디에도 잔여 전환사채(CB) 오버행이 0원으로 전액 영구 소멸되었다는 확정 증빙이 결여되어 있습니다.\n확정 매출/현금 유입 전무 (단순 규정 준수 통보):\n외부 고객사나 정부로부터 유입되는 확정 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 및 사후 뒷북 차단 규칙 위배\n:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액이 미기재된 단순 인허가/유예/규정 준수(Compliance) 통보 및 이미 효력이 경과한 사후 뒷북 홍보물은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 유입이 전무하고, 이미 11월 12일 자로 효력이 경과한 나스닥 요건 충족(최소 입찰가 및 자기자본) 결과를 5일 만에 사후 배포한 뒷북 홍보물에 불과하며, 시총 $15M 초과 및 전환사채 0원 소멸 미증빙으로 ONFO형 대박 조건에 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: TOMZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: TOMZ NOTES:\n[TOMZ] 수주/매출 전무 및 11/12 기준 경과한 나스닥 요건회복 사후 뒷북 PR(BJDX형)이며 ONFO형(시총 $15M 이하+CB 0원 소멸) 미달로 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 24개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복으로 확인되어 안전하게 전량 차단되었습니다. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
