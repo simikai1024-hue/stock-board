@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:17:40",
-  "updated_at_et": "2026-11-20 10:17:40",
-  "updated_epoch_ms": 1795187860267,
+  "updated_at_kst": "2026-11-21 00:18:48",
+  "updated_at_et": "2026-11-20 10:18:48",
+  "updated_epoch_ms": 1795187928704,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 3.64,
+    "orderable_usd": 235.61,
     "daily_done": false,
-    "holding_symbol": "AKAN",
-    "holding_qty": 61,
-    "avg_price": 4.58,
-    "current_price": 4.16,
-    "profit_rate": -9.17,
-    "updated_kst": "00:17:31"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "00:18:48"
   },
   "stats": {
     "today_total": 33,
@@ -619,7 +619,7 @@
       "catalyst_hint": "[Track 3 본장 첫 점화] 시가대비 +41.83% | 1분 $217.3K | 회전율 53.1%",
       "full_report": "[Track 3: 본장 첫 +30% 점화 돌파 스나이퍼 실시간 포착]\n- 종목: AKAN (NASDAQ) | 시총: $12.32M\n- 시초가 대비: +41.83% ($3.3000 -> $4.6805)\n- 기준가(전일종가) 대비: +36.46% (기준가 $3.4299)\n- 프리마켓 고점 돌파: PM고점 $4.9900 돌파 완료 (프리장 분당 $20만 이력 0건)\n- 실시간 수급 화살표: 1분 거래대금 $217.3K (>= $200K)\n- 회전율 & 누적대금: 유통 회전율 53.1% (2.39M주) / 누적 $5.53M\n- 전략 집행: 즉시 선점 지정가 매수 및 +51% 그물망 익절 / -20% 방어 손절 자동 세팅!",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🛡️ 손절 청산: 78주 | 매수 $4.7000 → 매도 $4.6687 (-0.67% / -2.44$)"
+      "trade_action": "🛡️ 손절 청산: 61주 | 매수 $4.5800 → 매도 $3.6300 (-20.74% / -57.95$)"
     },
     {
       "id": "v_1795172618881_VWAV_FALSE",
