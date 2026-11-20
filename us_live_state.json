@@ -1,25 +1,37 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:29:55",
-  "updated_at_et": "2026-11-20 09:29:55",
-  "updated_epoch_ms": 1795184995267,
+  "updated_at_kst": "2026-11-20 23:30:28",
+  "updated_at_et": "2026-11-20 09:30:28",
+  "updated_epoch_ms": 1795185028226,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CWD",
+    "company_name": "CWD",
+    "exchange": "ND",
+    "price": 0.38,
+    "gain_pct": 3.04,
+    "mcap_m": 4.18,
+    "catalyst_hint": "[당일 PR] Caliber Publishes Inaugural Investor FAQ Answering 67 Shareholder Questions",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:30:24",
+    "started_at_kst": "23:30:24",
+    "started_epoch_ms": 1795185024640
   },
   "halt_watch": {
     "active": false
   },
   "account": {
-    "session_label": "개장동시호가",
+    "session_label": "정규장실전",
     "watchlist_count": 0,
     "orderable_usd": 0.41,
     "daily_done": false,
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8799,
-    "profit_rate": 4.76,
-    "updated_kst": "23:29:52"
+    "current_price": 0.8894,
+    "profit_rate": 5.89,
+    "updated_kst": "23:30:11"
   },
   "stats": {
     "today_total": 29,
