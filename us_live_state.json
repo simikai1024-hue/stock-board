@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:40:55",
-  "updated_at_et": "2026-11-20 08:40:55",
-  "updated_epoch_ms": 1795182055470,
+  "updated_at_kst": "2026-11-20 22:41:05",
+  "updated_at_et": "2026-11-20 08:41:05",
+  "updated_epoch_ms": 1795182065802,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "STKS",
+    "company_name": "STKS",
+    "exchange": "ND",
+    "price": 1.03,
+    "gain_pct": 0.0,
+    "mcap_m": 32.9,
+    "catalyst_hint": "[당일 PR] The ONE Group Accelerates Growth of Benihana Express with Launch of National Licensing Program",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:41:01",
+    "started_at_kst": "22:41:01",
+    "started_epoch_ms": 1795182061002
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8369,
-    "profit_rate": -0.36,
-    "updated_kst": "22:40:44"
+    "current_price": 0.8339,
+    "profit_rate": -0.71,
+    "updated_kst": "22:41:03"
   },
   "stats": {
     "today_total": 17,
