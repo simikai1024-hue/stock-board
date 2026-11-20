@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:02:28",
-  "updated_at_et": "2026-11-20 08:02:28",
-  "updated_epoch_ms": 1795179748636,
+  "updated_at_kst": "2026-11-20 22:03:24",
+  "updated_at_et": "2026-11-20 08:03:24",
+  "updated_epoch_ms": 1795179804260,
   "analyzing": {
-    "active": true,
-    "symbol": "NCNA",
-    "company_name": "NCNA",
-    "exchange": "ND",
-    "price": 0.75,
-    "gain_pct": 4.44,
-    "mcap_m": 3.61,
-    "catalyst_hint": "[당일 PR] NuCana Presents Preclinical Data Showing NUC-7738 Enhances Carfilzomib Activity in Multiple Myeloma Cell Lines at the 38th EORTC-NCI-AACR Symposium",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:02:22",
-    "started_at_kst": "22:02:22",
-    "started_epoch_ms": 1795179742589
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.09,
-    "profit_rate": 8.3,
-    "updated_kst": "22:02:08"
+    "current_price": 5.1787,
+    "profit_rate": 10.19,
+    "updated_kst": "22:03:23"
   },
   "stats": {
-    "today_total": 10,
+    "today_total": 11,
     "today_nblm_count": 0,
     "today_buy": 3,
-    "today_false": 7,
+    "today_false": 8,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
-    "avg_nblm_sec": 38.8
+    "avg_nblm_sec": 46.4
   },
   "verdicts": [
+    {
+      "id": "v_1795179801827_NCNA_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "08:03:21",
+      "time_kst": "22:03:21",
+      "symbol": "NCNA",
+      "company_name": "NCNA",
+      "exchange": "ND",
+      "price": 0.75,
+      "gain_pct": 4.44,
+      "mcap_m": 3.61,
+      "decision": "FALSE",
+      "elapsed_sec": 76.1,
+      "reason": "확정 수주 전무한 단순 암학회(EORTC-NCI-AACR) 세포주 전임상 데이터 포스터 발표 PR로 헌법 3조 2항 위배 및 장전 -15.7% 윗꼬리 소멸 전량 차단",
+      "catalyst_hint": "[당일 PR] NuCana Presents Preclinical Data Showing NUC-7738 Enhances Carfilzomib Activity in Multiple Myeloma Cell Lines at the 38th EORTC-NCI-AACR Symposium",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 NCNA (NuCana plc) 2026-11-20 08:02:05 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 424, 437].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $629 USD 극소액 및 -15.7% 윗꼬리 정체)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: NCNA) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 426].\n실질 시가총액: 약 $3.61M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 424].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 학회 단순 전임상 포스터 발표 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 424].\n헤드라인의 'EORTC-NCI-AACR 심포지엄 발표'는 회사 금고로 직통 유입되는 매출이나 기술이전(L/O) 계약이 아니라, 스페인 바르셀로나에서 열린 제38회 분자 표적 및 암 치료법 심포지엄에서 **세포주(Cell Lines) 시험관 수준의 \"전임상 데이터(Preclinical Data) 포스터 1건(Poster: PB-084)을 발표했다\"**는 학회 발표 홍보물에 불과합니다 [cite: 426, 431].\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 거액 메가 수주(AIMD형)나 FDA 승인/임상 2·3상 성공이 아니라, **신규 계약 금액이 전무한 학회 전임상 세포 시험 결과 홍보성 언론플레이(Preclinical Symposium PR)**입니다 [cite: 21, 426, 431].\n실시간 체결가 및 수급 (장전 최고가 대비 -15.7% 윗꼬리 정체):\n전일 종가 $0.7181 대비 현재가 $0.7500 (+4.44%) [cite: 425].\n당일 프리마켓 최고가 $0.8898 (+23.91%)까지 반짝 띄운 후 실체 없는 학회 포스터 발표임을 시장이 확인하고 고점 대비 -15.7% 밀려 거래 정체 지속 [cite: 425].\n당일 누적 거래대금은 $629 USD (약 630달러 수준의 극소액 체결로 시장 반응 전무) [cite: 425].\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 425].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 08:00:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire [cite: 425]\nPR 제목: \"NuCana Presents Preclinical Data Showing NUC-7738 Enhances Carfilzomib Activity in Multiple Myeloma Cell Lines at the 38th EORTC-NCI-AACR Symposium\" [cite: 425]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주 및 임상 2·3상 성공이 아닌 단순 '시험관 전임상(In Vitro Preclinical) 포스터' 발표:\n원문 본문에 *\"today announced new preclinical data showing that NUC-7738 enhanced the anti-cancer activity of carfilzomib... The findings were presented at the 38th EORTC-NCI-AACR Symposium... in three multiple myeloma cell lines... Poster Number: PB-084...\"*라고 명시되어 있습니다 [cite: 426, 427, 431].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 21].\n사람을 대상으로 한 임상 2/3상 1차 평가지표 통과(Primary Endpoint Success)나 FDA 품목 승인이 아니라, 실험실 3개 세포주에서 약물 병용 시 세포 생존율이 감소했다는 극초기 세포 수준의 기초 전임상 연구 결과에 불과합니다 [cite: 427].\n과거 180일 연속된 '연구 진행 경과 및 단순 학회 발표' 쪼개기 언론플레이 적발:\n최근 180일 PR 원장 대조 결과 [cite: 434]:\n[2026-11-12 | reuters] UK's NuCana Q3 net loss widens, cash runway extends to 2029 [cite: 434]\n[2026-09-30 | yahoo_rss] NuCana Announces Grant of Composition-of-Matter Patent for NUC-7738 in Europe [cite: 434]\n본문 언급: \"12월 14-16일 ESMO IO 학회에서 흑색종 임상 2상 확장 코호트 결과 발표 예정\" [cite: 431]\n신규 매출이나 기술이전 계약 없이 학회 일정마다 포스터 발표 및 일정 예고를 반복하는 **전형적인 바이오 쪼개기 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 431, 434].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 2/3상 1차평가지표 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 3, 4, 21].\n심사 헌법 제3조 ②항 위배 및 장전 -15.7% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 전임상(Preclinical)/학회 포스터/금액 미기재 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 437].\n장전 프리마켓에서 $0.8898까지 반짝 띄운 후 실체 없는 전임상 포스터 발표임을 확인하고 고점 대비 -15.7% 밀린 채 $629 극소액 거래로 윗꼬리가 달린 전형적인 소멸 패턴입니다 [cite: 425].\n3. 최종 심사 및 결재 판정\nNCNA의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, 제38회 EORTC-NCI-AACR 심포지엄의 단순 세포주 전임상 시험관 데이터 포스터 발표에 불과하여 헌법 제2조 ③항(임상 2/3상 1차평가지표 성공/FDA 승인)에 절대 미달하므로 심사 헌법 제3조 ②항에 의거 FORCE_BLOCK: NCNA 처리합니다 [cite: 425, 426, 431, 437].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 4].\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: NCNA NOTES:\n[NCNA] 확정 수주 전무한 단순 암학회(EORTC-NCI-AACR) 세포주 전임상 데이터 포스터 발표 PR로 헌법 3조 2항 위배 및 장전 -15.7% 윗꼬리 소멸 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역), 다섯 번째 종목 TYGO(로펌 집단소송 원고 모집 악재)에 이어 NCNA(학회 전임상 포스터 발표)까지 6개 후보 종목 전수가 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 416, 424, 430, 439]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 3, 4, 21].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795178853172_TYGO_FALSE",
       "track": "TRACK1",
@@ -2434,29 +2443,29 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BXBL (BOXABL Inc.) 2026-11-17 08:40 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.39M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주 착시 적발):\n본문에 표기된 주문 수치($16.6M 및 9개월 누적 추산 $51.80M)는 단일 고객사와의 구속력 있는 신규 메가 수주 계약이나 현금 선급금이 아닙니다.\n이미 지난 2026년 9월 30일로 종료된 과거 3분기 및 9개월 동안 발생한 소비자 직접판매(D2C) 주문 합산치 및 정기 분기 실적(Q3 Results for the three and nine months ended Sept. 30, 2026) 집계 홍보문에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -13.7% 급락 및 마이너스 파란불 음봉 전환):\n전일 종가 $1.5200 대비 현재가 $1.5195 (-0.03%).\n당일 최고가 $1.7600을 찍은 후 장전 고점 대비 -13.7% 폭락하며 마이너스 음봉으로 주저앉음.\n당일 누적 거래대금 $6,632 USD (장전 일시적 6천 달러 규모 거래 후 윗꼬리 덤핑).\n헌법 제1조에 따라 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증 및 장전 음봉 덤핑 확인이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:35 ET) 공식 PR 원문 분석:\nPR 제목: \"BOXABL third-quarter orders reach 2026 high, benefited by direct-to-consumer sales\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n단일 확정 메가 수주가 아닌 과거 3분기 정기 실적 및 누적 주문량 포장 발표 (Q3 Earnings & Backlog PR):\n원문 본문에 *\"today reported third-quarter results for the three and nine months ended Sept. 30, 2026... Net new orders for 209 Casitas, valued at $16.6 million, were the most of any quarter this year\"*라고 명시되어 있습니다.\n이는 연구소 헌법 제2조의 진짜 대장주 요건인 **'단일 대형 고객사와의 창사 최대 확정 달러 수주 + 즉각 가용한 거액 현금 선급금(AIMD형)'**이 아니라, 이미 종료된 과거 3분기(9/30 마감) 정기 실적을 발표하며 분기 중 발생했던 소매 주문량 합산치를 홍보용으로 앞세운 **전형적인 분기 어닝/실적 포장(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n단순 정기 실적 발표는 족보집상 전형적인 보합·설거지 패턴:\n족보집 누적 실전 표본에서 단순 분기 실적 및 수주잔고(Orderbook) 발표(CDW, ARRY, SHLS, EPAM, FTCI, IDAI 등)는 프리마켓 일시 반등 후 즉각 윗꼬리를 달고 급락하거나 보합으로 주저앉는 **전형적인 설거지/보합 함정(족보집 실패 표본 다수)**으로 증명되어 있습니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑(-13.7%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기 실적/누적 주문량 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.7600까지 반짝 상승 후 고점 대비 -13.7% 폭락하며 전일 종가 밑(-0.03%)으로 주저앉은 전형적인 실적 발표 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 단일 고객사와의 확정된 메가 수주 계약이나 현금 선급금이 전무한 단순 3분기(9/30 마감) 정기 실적 및 과거 분기 D2C 주문량 집계 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 주가가 -13.7% 급락하여 음봉 전환되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BXBL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: BXBL NOTES:\n[BXBL] 단일 확정 수주/선급금 전무한 단순 과거 3분기 정기실적 및 D2C 누적주문 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.7% 덤핑 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794922793501_BXBL_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:39:53",
-      "time_kst": "22:39:53",
-      "symbol": "BXBL",
-      "company_name": "BXBL",
-      "exchange": "ND",
-      "price": 1.5195,
-      "gain_pct": 3.29,
-      "mcap_m": 14.39,
-      "decision": "FALSE",
-      "elapsed_sec": 60.0,
-      "reason": "단일 확정 수주/선급금 전무한 단순 과거 3분기 정기실적 및 D2C 누적주문 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.7% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] BOXABL third-quarter orders reach 2026 high, benefited by direct-to-consumer sales",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BXBL (BOXABL Inc.) 2026-11-17 08:38 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.39M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주 착시 적발):\n본문에 표기된 주문 수치($16.6M 및 9개월 누적 추산 $51.80M)는 단일 고객사와의 구속력 있는 신규 메가 수주 계약이나 현금 선급금이 아닙니다.\n이미 지난 2026년 9월 30일로 종료된 과거 3분기 및 9개월 동안 발생한 소비자 직접판매(D2C) 주문 합산치 및 정기 분기 실적(Q3 Results for the three and nine months ended Sept. 30, 2026) 집계 홍보문에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -13.7% 급락 및 마이너스 파란불 음봉 전환):\n전일 종가 $1.5200 대비 현재가 $1.5195 (-0.03%).\n당일 최고가 $1.7600을 찍은 후 장전 고점 대비 -13.7% 폭락하며 마이너스 음봉으로 주저앉음.\n당일 누적 거래대금 $6,632 USD (장전 일시적 6천 달러 규모 거래 후 윗꼬리 덤핑).\n헌법 제1조에 따라 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증 및 장전 음봉 덤핑 확인이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:35 ET) 공식 PR 원문 분석:\nPR 제목: \"BOXABL third-quarter orders reach 2026 high, benefited by direct-to-consumer sales\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n단일 확정 메가 수주가 아닌 과거 3분기 정기 실적 및 누적 주문량 포장 발표 (Q3 Earnings & Backlog PR):\n원문 본문에 *\"today reported third-quarter results for the three and nine months ended Sept. 30, 2026... Net new orders for 209 Casitas, valued at $16.6 million, were the most of any quarter this year\"*라고 명시되어 있습니다.\n이는 연구소 헌법 제2조의 진짜 대장주 요건인 **'단일 대형 고객사와의 창사 최대 확정 달러 수주 + 즉각 가용한 거액 현금 선급금(AIMD형)'**이 아니라, 이미 종료된 과거 3분기(9/30 마감) 정기 실적을 발표하며 분기 중 발생했던 소매 주문량 합산치를 홍보용으로 앞세운 **전형적인 분기 어닝/실적 포장(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n단순 정기 실적 발표는 족보집상 전형적인 보합·설거지 패턴:\n족보집 누적 실전 표본에서 단순 분기 실적 및 수주잔고(Orderbook) 발표(CDW, ARRY, SHLS, EPAM, FTCI, IDAI 등)는 프리마켓 일시 반등 후 즉각 윗꼬리를 달고 급락하거나 보합으로 주저앉는 **전형적인 설거지/보합 함정(족보집 실패 표본 다수)**으로 증명되어 있습니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑(-13.7%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기 실적/누적 주문량 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.7600까지 반짝 상승 후 고점 대비 -13.7% 폭락하며 전일 종가 밑(-0.03%)으로 주저앉은 전형적인 실적 발표 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 단일 고객사와의 확정된 메가 수주 계약이나 현금 선급금이 전무한 단순 3분기(9/30 마감) 정기 실적 및 과거 분기 D2C 주문량 집계 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 주가가 -13.7% 급락하여 음봉 전환되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BXBL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: BXBL NOTES:\n[BXBL] 단일 확정 수주/선급금 전무한 단순 과거 3분기 정기실적 및 D2C 누적주문 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.7% 덤핑 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:03:15",
+      "time_kst": "22:03:15",
+      "symbol": "RZLV",
+      "company_name": "RZLV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $388.1M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:03:07",
+      "time_kst": "22:03:07",
+      "symbol": "ZJK",
+      "company_name": "ZJK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $53.58M (기준 <= $50.0M USD 초과/미확인)"
+    },
     {
       "date_et": "2026-11-20",
       "time_et": "08:02:11",
@@ -2869,16 +2878,6 @@
     },
     {
       "date_et": "2026-11-20",
-      "time_et": "04:28:55",
-      "time_kst": "18:28:55",
-      "symbol": "ZJK",
-      "company_name": "ZJK",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $63.04M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
       "time_et": "04:28:20",
       "time_kst": "18:28:20",
       "symbol": "CYAB",
@@ -2946,16 +2945,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:19:37",
-      "time_kst": "18:19:37",
-      "symbol": "FFAI",
-      "company_name": "FFAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-06 [8-K] (Item 1.01,3.02,3.03,5.03,9.01))"
     }
   ]
 }
