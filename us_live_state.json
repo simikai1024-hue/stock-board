@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:47:46",
-  "updated_at_et": "2026-11-20 09:47:46",
-  "updated_epoch_ms": 1795186066286,
+  "updated_at_kst": "2026-11-20 23:48:39",
+  "updated_at_et": "2026-11-20 09:48:39",
+  "updated_epoch_ms": 1795186119991,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.7651,
-    "profit_rate": -8.91,
-    "updated_kst": "23:47:38"
+    "current_price": 0.7447,
+    "profit_rate": -11.33,
+    "updated_kst": "23:48:34"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:48:06",
+      "time_kst": "23:48:06",
+      "symbol": "NIVF",
+      "company_name": "NIVF",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-20 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:47:55",
+      "time_kst": "23:47:55",
+      "symbol": "LXEH",
+      "company_name": "LXEH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-04 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:47:37",
       "time_kst": "23:47:37",
       "symbol": "MGN",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $145.91M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:32:22",
-      "time_kst": "22:32:22",
-      "symbol": "PANW",
-      "company_name": "PANW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $296174.4M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:31:19",
-      "time_kst": "22:31:19",
-      "symbol": "AGYS",
-      "company_name": "AGYS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $3183.87M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
