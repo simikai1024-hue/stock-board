@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:01:51",
-  "updated_at_et": "2026-11-20 09:01:51",
-  "updated_epoch_ms": 1795183311943,
+  "updated_at_kst": "2026-11-20 23:02:44",
+  "updated_at_et": "2026-11-20 09:02:44",
+  "updated_epoch_ms": 1795183364785,
   "analyzing": {
-    "active": true,
-    "symbol": "FRGT",
-    "company_name": "FRGT",
-    "exchange": "ND",
-    "price": 0.63,
-    "gain_pct": 4.98,
-    "mcap_m": 1.06,
-    "catalyst_hint": "[당일 PR] Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents",
-    "queue_remaining": 1,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:01:43",
-    "started_at_kst": "23:01:43",
-    "started_epoch_ms": 1795183303043
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8836,
-    "profit_rate": 5.2,
-    "updated_kst": "23:01:46"
+    "current_price": 0.8718,
+    "profit_rate": 3.8,
+    "updated_kst": "23:02:43"
   },
   "stats": {
-    "today_total": 21,
+    "today_total": 22,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 16,
+    "today_false": 17,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 49.1
+    "avg_nblm_sec": 54.8
   },
   "verdicts": [
+    {
+      "id": "v_1795183355957_FRGT_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "09:02:35",
+      "time_kst": "23:02:35",
+      "symbol": "FRGT",
+      "company_name": "FRGT",
+      "exchange": "ND",
+      "price": 0.63,
+      "gain_pct": 4.98,
+      "mcap_m": 1.06,
+      "decision": "FALSE",
+      "elapsed_sec": 56.9,
+      "reason": "확정 수주 전무한 사내 AI Lab 화물협상/음성 에이전트 연구논문 2편(arXiv) 및 오픈소스 공개 홍보 PR로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 [cite: 5, 20], [달의검] 실시간 긴급결재 원문서류철 [cite: 358] 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 FRGT (Freight Technologies, Inc.) 2026-11-20 09:01:39 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 13, 358].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $1.1K 극소액 및 arXiv 단순 연구 논문 발표 적발)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: FRGT) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 5, 359].\n실질 시가총액: 약 $1.06M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 10, 358].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 자체 AI 랩 프리프린트 논문 2편 발표 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 상업 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 358].\n헤드라인 및 본문 직독 결과, 당일 발표의 본질은 회사 금고로 직통 유입되는 신규 수주나 매출 계약이 아니라, **\"사내 AI Lab에서 화물 운송 협상 에이전트 및 음성 아키텍처에 관한 연구 논문 2편을 arXiv 프리프린트와 깃허브(GitHub, Apache 2.0 라이선스)에 공개 배포했다\"**는 단순 학술·연구 오픈소스 공개 홍보물에 불과합니다 [cite: 359, 365].\n발표된 실체는 확정 현금이 꽂히는 메가 수주(AIMD형)나 정부 계약이 아니며, 당일 확정된 신규 금융 매출이나 현금 유입은 단 1달러도 없습니다 [cite: 11, 358].\n실시간 체결가 및 수급 (장전 최고가 대비 -0.8% 및 거래대금 $1,127 USD 시장 반응 전무):\n전일 종가 $0.6001 대비 현재가 $0.6300 (+4.98%) [cite: 359].\n당일 프리마켓 최고가 $0.6349 (+5.80%)를 기록했으나 실체 없는 단순 arXiv 논문 배포임을 시장이 확인하고 누적 거래대금 $1,127 USD(약 1,100달러) 수준의 극소액 체결로 매수세 유입이 사실상 전무한 상태입니다 [cite: 359].\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 359].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 09:00:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire [cite: 359]\nPR 제목: \"Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents\" [cite: 359]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '사내 AI 랩 연구 논문 2편 arXiv/깃허브 공개' 언론플레이:\n원문 본문에 *\"today announced that its in-house AI Lab has published two research papers on the design of AI agents for freight negotiation, together with an open-source research toolkit for benchmarking negotiation agents. The papers are available as preprints on arXiv and in a new AI Lab section of the Company's redesigned website... The research toolkit is available on GitHub under an Apache 2.0 license...\"*라고 명시되어 있습니다 [cite: 359, 365].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 11].\n사내 실험실의 시뮬레이션 연구 결과(arXiv:2611.15838, arXiv:2611.19118)를 공유하고 자사 기술력을 과시하는 정성적 마케팅 발표에 불과합니다 [cite: 361, 363].\n과거 180일 연속된 'Zayren AI 에이전트 우려먹기' 쪼개기 재탕 적발:\n과거 180일 PR 원장 대조 결과 [cite: 368, 369]:\n[2026-10-27 | globenewswire] Freight Technologies Expands Zayren With AI Agents That Can Negotiate With Dozens of Carriers Simultaneously and AI Enterprise Logistics Analytics [cite: 368]\n[2026-10-19 | reuters] Fr8tech Simplifies Capital Structure By Retiring Legacy Preferred Shares And Clearing 2023 Warrants [cite: 368]\n[2026-10-15 | globenewswire] Freight Technologies Announces 1-for-10 Reverse Share Split (1-for-10 주식병합 단행) [cite: 370]\n[2026-09-18 | globenewswire] Freight Technologies Launches AI-Powered Proof-of-Delivery Validation [cite: 369]\n이미 지난 10월 27일 'Zayren AI 에이전트 확장'을 공식 PR로 배포했던 데 이어, 오늘 또다시 'Zayren에 적용된 AI 에이전트 연구 논문 공개'라는 명목으로 동일한 기술 테마를 우려먹는 **전형적인 쪼개기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 360, 368].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 11].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 연구 논문/학술 발표/오픈소스 공개/금액 미기재 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 358].\n과거 족보집에서도 FRGT는 10/30(+43.4%), 11/03(+39.9%) 등 일시적 변동성 이후 11/09(-3.3% 음봉 설거지)로 회귀했던 전력이 확인되며, 오늘 재료 역시 실체 없는 단순 논문 홍보물입니다 [cite: 13, 14, 315, 316].\n3. 최종 심사 및 결재 판정\nFRGT의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, 사내 AI Lab의 화물 협상 에이전트 시뮬레이션 연구 논문 2편(arXiv) 및 깃허브 공개 홍보에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: FRGT 처리합니다 [cite: 11, 358, 359, 365].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 373].\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: FRGT NOTES:\n[FRGT] 확정 수주 전무한 사내 AI Lab 화물협상/음성 에이전트 연구논문 2편(arXiv) 및 오픈소스 공개 홍보 PR로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역), 다섯 번째 종목 TYGO(로펌 집단소송 원고 모집 악재), 여섯 번째 종목 NCNA(학회 전임상 포스터 발표), 일곱 번째 종목 CVM(사우디 신속심사 트랙 단순 지정), 여덟 번째 종목 ZEO(전기료 절감 마케팅), 아홉 번째 종목 PHUN(주총 위임장 표 대결 서한), 열 번째 종목 BRNX(EU 경매 신청 계획 금액 착시), 열한 번째 종목 STKS(외식 가맹 모집 라이선싱 론칭), 열두 번째 종목 NVNO(학회 3년 추적 데이터 발표)에 이어 FRGT(사내 AI 랩 연구 논문 발표)까지 13개 후보 종목 전수가 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상, 규제 지정, 학회 발표, 연구 논문 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 358, 376, 394, 397, 402].\n이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 10, 11].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795182653881_NVNO_FALSE",
       "track": "TRACK1",
@@ -2445,29 +2454,39 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 FTCI (FTC Solar, Inc.) 2026-11-17 09:17 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $17.01M USD (나스닥 상장, 연구소 1차 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 외부 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 수반되는 신규 수주 계약이 아니라, 단순 자체 건설 지능 소프트웨어/기능 출시인 **FieldIQ 런칭(Launches FieldIQ)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -11.4% 급락 윗꼬리 덤핑 지속):\n전일 종가 $0.9050 대비 현재가 $0.9300 (+2.76%), 당일 최고가 $1.0500 (고점 대비 -11.4%).\n당일 누적 거래대금 $1,498 USD (1천4백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"FTC Solar Launches FieldIQ to Give EPCs Greater Visibility into Installation Productivity\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 소프트웨어/프로그램 출시 홍보물 (Software Launching PR):\n본 PR의 본질은 EPC 기업과의 거액 독점 공급 계약이나 확정 수주가 아닙니다.\nFTC Solar 트래커를 사용하는 프로젝트를 위한 건설 지능형 오퍼링인 **FieldIQ(드론 및 카메라 이미지 AI 분석 도구)를 런칭했다는 단순 자체 신제품/소프트웨어 기능 출시 보도자료(today announced the launch of FieldIQ, a construction intelligence offering... The offering uses AI to analyze drone and camera imagery...)**에 불과합니다.\n외부 고객사로부터 유입되는 확정 수주액(PO), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n11월 13일 유지보수 프로그램 런칭(SUNCARE™)에 이은 4일 만의 자체 서비스 출시 쪼개기 언론플레이:\n과거 이력 대조 결과 회사는 불과 4일 전인 2026년 11월 13일에도 GlobeNewswire를 통해 *\"FTC Solar Introduces SUNCARE™ Preventive Maintenance Program...\"*이라는 자체 서비스 도입 보도자료를 낸 바 있습니다.\n이번 발표 역시 실체적 대형 수주 없이 자사 트래커용 부가 기능(FieldIQ) 출시를 포장하여 연달아 배포한 전형적인 자체 마케팅/쪼개기 IR 뉴스입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 -11.4% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 자체 서비스 도입의 반복적 쪼개기 마케팅 홍보 및 ④ 신규 확정 계약 금액 및 현금 유입이 없는 단순 소프트웨어/기능 런칭 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.0500까지 반짝 상승 후 고점 대비 -11.4% 급락하며 전형적인 윗꼬리 설거지 흐름을 보이고 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무한 단순 자체 트래커용 AI 소프트웨어(FieldIQ) 출시 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -11.4% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: FTCI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: FTCI NOTES:\n[FTCI] 확정 수주/매출 전무한 단순 자체 트래커용 AI 소프트웨어(FieldIQ) 런칭 홍보 PR로 헌법 3조 4항 위배 및 장전 -11.4% 덤핑 전량 차단 ===VERDICT_END===\n💡 09:30 ET 본장 개장 직전 골든타임 구간까지 실시간 감시망을 풀가동하여, 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794924642302_SPCB_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "09:10:42",
-      "time_kst": "23:10:42",
-      "symbol": "SPCB",
-      "company_name": "SPCB",
-      "exchange": "ND",
-      "price": 7.14,
-      "gain_pct": 2.15,
-      "mcap_m": 44.84,
-      "decision": "FALSE",
-      "elapsed_sec": 53.4,
-      "reason": "$12.1M은 과거 EBITDA 착시이며 확정 계약금액 미기재 및 인디애나 단일 카운티 소액 납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SPCB (SuperCom Ltd.) 2026-11-17 09:09 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $44.84M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주/신규 계약 착시 적발):\n본문 핵심 금액으로 언급된 **약 $12.10M USD (시총 대비 27.0%)**는 당일 발표된 인디애나 카운티 수주 계약 금액이 아닙니다.\n이는 CEO(Ordan Trabelsi)가 인터뷰 문구에서 자사의 과거 실적을 과시하기 위해 언급한 **과거 12개월 누적 EBITDA 수치(trailing twelve-month EBITDA reaching approximately $12.1 million through the third quarter of 2026)**에 불과합니다.\n정작 당일 발표된 인디애나 카운티 교정국 계약의 확정 달러 총액은 원문 어디에도 단 1달러도 기재되지 않은 금액 미기재(일일 활성 기기당 반복 수익 모델) 계약입니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $6.9900 대비 현재가 $7.1400 (+2.15%), 당일 최고가 $7.2400 (고점 대비 -1.4%).\n당일 누적 거래대금 $20,029 USD (2만 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:06 ET) 공식 PR 원문 분석:\nPR 제목: *\"SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 메가 계약 금액 미기재 및 일상적인 지방 카운티 단위 쪼개기 계약 (County-level Contract PR):\n원문 본문에 *\"secured a direct county-level electronic monitoring contract with a community corrections agency in Indiana... The contract will follow a recurring revenue model based on daily active units\"*라고 명시되어 있습니다.\n이는 주 정부나 연방 단위의 거액 메가 수주가 아니라, 인디애나주 내 한 개 카운티(County) 단위 교정국에 PureOne 전자발찌를 납품하는 일상적 영업 수주이며, 확정된 총 계약 달러 금액($M) 및 즉각 가용한 현금 선급금(AIMD형)이 일절 기재되지 않은 전형적인 금액 미기재 PR입니다.\n과거 180일 반복된 '기존 사업자 밀어내기(Displacing Incumbent)' 쪼개기 홍보 패턴의 재탕:\n과거 이력 대조 결과 회사는 이미 2026년 10월 13일에도 \"SuperCom Wins 7th New York Electronic Monitoring Contract, Fully Displacing the Incumbent\" 보도자료를 낸 바 있습니다.\n또한 본문 스스로 *\"With more than 50 new electronic monitoring contracts secured across the U.S. since mid-2024...\"*라고 밝혔듯이\n, 이번 발표 역시 전국에서 수시로 체결되는 50여 개 자잘한 카운티 계약 중 하나를 **'기존 사업자 대체(2nd contract in Indiana, displacing incumbent)'라는 동일한 문구 템플릿으로 포장하여 배포한 전형적인 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표된 영업 수주의 소규모 카운티 단위 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M)이 미기재된 단순 반복적 지방 교정국 납품 홍보물은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 메가 수주 계약 금액이나 현금 선급금이 전무하고 ($12.1M은 과거 EBITDA 수치 착시)\n, 인디애나주 단일 카운티 단위의 일상적 교정국 전자발찌 공급을 기존 수주 템플릿으로 포장한 소규모 쪼개기 재탕 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SPCB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SPCB NOTES:\n[SPCB] $12.1M은 과거 EBITDA 착시이며 확정 계약금액 미기재 및 인디애나 단일 카운티 소액 납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 31개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI, SPCB) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품/소프트웨어 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장, 분할납품 현장배치, 상폐위기 주주서한, 로봇 1대 납품, 임상 환자방문 완료, 단순 특허 등록, 단순 CEO 간담회, 누적 수주잔고 홍보, 카운티 소액 수주 쪼개기로 확인되어 안전하게 전량 차단되었습니다\n. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:02:17",
+      "time_kst": "23:02:17",
+      "symbol": "NBBK",
+      "company_name": "NBBK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $863.11M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:02:09",
+      "time_kst": "23:02:09",
+      "symbol": "AIFA",
+      "company_name": "AIFA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:01:53",
+      "time_kst": "23:01:53",
+      "symbol": "GOAI",
+      "company_name": "GOAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
     {
       "date_et": "2026-11-20",
       "time_et": "09:01:43",
@@ -2937,36 +2956,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $53.58M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:02:11",
-      "time_kst": "22:02:11",
-      "symbol": "ELVR",
-      "company_name": "ELVR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $413.64M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:57:43",
-      "time_kst": "21:57:43",
-      "symbol": "QXL",
-      "company_name": "QXL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $64.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:38:21",
-      "time_kst": "21:38:21",
-      "symbol": "GYGY",
-      "company_name": "GYGY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,3.02,5.02,9.01))"
     }
   ]
 }
