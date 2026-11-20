@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:31:34",
-  "updated_at_et": "2026-11-20 10:31:34",
-  "updated_epoch_ms": 1795188694063,
+  "updated_at_kst": "2026-11-21 00:32:33",
+  "updated_at_et": "2026-11-20 10:32:33",
+  "updated_epoch_ms": 1795188753965,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.2706,
-    "profit_rate": -2.87,
-    "updated_kst": "00:31:29"
+    "current_price": 0.2707,
+    "profit_rate": -2.84,
+    "updated_kst": "00:32:31"
   },
   "stats": {
     "today_total": 33,
@@ -2470,6 +2470,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:31:54",
+      "time_kst": "00:31:54",
+      "symbol": "PMVP",
+      "company_name": "PMVP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $98.95M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:22:42",
       "time_kst": "00:22:42",
       "symbol": "IQST",
@@ -2957,16 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:09:40",
-      "time_kst": "23:09:40",
-      "symbol": "PHOS",
-      "company_name": "PHOS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1723.07M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
