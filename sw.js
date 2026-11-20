@@ -1,4 +1,4 @@
-// 달의검 한·미 전광판 통합 PWA Service Worker v19 (HTML 항시 최신 네트워크 직통 보장)
+// 달의검 한·미 전광판 통합 PWA Service Worker v20 (HTML 항시 최신 네트워크 직통 보장)
 const CACHE_NAME = 'stock-board-skyblue-v18';
 const SHELL_ASSETS = [
   './icons/kr-192.png',
