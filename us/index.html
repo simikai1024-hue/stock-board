@@ -9,7 +9,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="미국전광판">
-<link rel="manifest" href="./manifest.webmanifest?v=25">
+<link rel="manifest" href="./manifest.webmanifest?v=26">
 <link rel="icon" type="image/png" href="../icons/us-192.png">
 <link rel="apple-touch-icon" href="../icons/us-192.png">
 
@@ -330,7 +330,7 @@
       <button id="fT3" class="tab-btn" onclick="setFilter('track3')">🟣 트랙3 흥칫뿡</button>
       <button id="fT1" class="tab-btn" onclick="setFilter('track1')">🔵 트랙1 PR·공시</button>
     </div>
-    <button id="sortBtn" class="sort-btn" onclick="toggleSort()">🕒 발생 순서대로 (오전→오후)</button>
+    <button id="sortBtn" class="sort-btn" onclick="toggleSort()">⬇️ 최신 순서대로 (최근→과거)</button>
   </div>
 
   <!-- 타임라인 리스트 -->
@@ -357,7 +357,7 @@ const TOPIC_US_STATE = "us_whale_nblm_board_2026/state";
 const TOPIC_US_LIVE  = "us_whale_nblm_board_2026/live";
 
 let filterMode = "all"; // all | hot | track3 | track1
-let sortAsc = true;     // true: 같은 날짜 내 발생 순서대로 (오전→오후), false: 최신순
+let sortAsc = false;    // false: 가장 최신 신호가 맨 위(기본), true: 발생순(오전→오후)
 let cachedState = null;
 let soundEnabled = false;
 let audioCtx = null;
