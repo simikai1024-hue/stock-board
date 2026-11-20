@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:19:46",
-  "updated_at_et": "2026-11-20 04:19:46",
-  "updated_epoch_ms": 1795166386089,
+  "updated_at_kst": "2026-11-20 18:20:27",
+  "updated_at_et": "2026-11-20 04:20:27",
+  "updated_epoch_ms": 1795166427708,
   "analyzing": {
     "active": false
   },
@@ -19,14 +19,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:19:39"
+    "updated_kst": "18:20:22"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 28,
+    "today_hardcut": 30,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:20:22",
+      "time_kst": "18:20:22",
+      "symbol": "IDAI",
+      "company_name": "IDAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:20:08",
+      "time_kst": "18:20:08",
+      "symbol": "QNME",
+      "company_name": "QNME",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,7.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:19:37",
       "time_kst": "18:19:37",
       "symbol": "FFAI",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $65806.75M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:57",
-      "time_kst": "23:50:57",
-      "symbol": "EU",
-      "company_name": "EU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $92.86M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:52",
-      "time_kst": "23:50:52",
-      "symbol": "CMCO",
-      "company_name": "CMCO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $568.7M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
