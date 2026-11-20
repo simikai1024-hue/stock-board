@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:02:31",
-  "updated_at_et": "2026-11-20 06:02:31",
-  "updated_epoch_ms": 1795172551003,
+  "updated_at_kst": "2026-11-20 20:02:52",
+  "updated_at_et": "2026-11-20 06:02:52",
+  "updated_epoch_ms": 1795172572739,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "VWAV",
+    "company_name": "VWAV",
+    "exchange": "ND",
+    "price": 0.6896,
+    "gain_pct": 4.23,
+    "mcap_m": 2.24,
+    "catalyst_hint": "[당일 PR] VisionWave Holdings Acquires Critical Minerals Intelligence Platform, Targeting Near-Term Commercialization of Defense Supply-Chain Intelligence",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:02:47",
+    "started_at_kst": "20:02:47",
+    "started_epoch_ms": 1795172567504
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:02:22"
+    "updated_kst": "20:02:43"
   },
   "stats": {
     "today_total": 4,
