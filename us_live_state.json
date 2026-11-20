@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:36:23",
-  "updated_at_et": "2026-11-20 10:36:23",
-  "updated_epoch_ms": 1795188983651,
+  "updated_at_kst": "2026-11-21 00:36:48",
+  "updated_at_et": "2026-11-20 10:36:48",
+  "updated_epoch_ms": 1795189008103,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 235.61,
+    "orderable_usd": 0.16,
     "daily_done": false,
-    "holding_symbol": "LABT",
-    "holding_qty": 843,
-    "avg_price": 0.2786,
-    "current_price": 0.2679,
-    "profit_rate": -3.84,
-    "updated_kst": "00:36:19"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "00:36:39"
   },
   "stats": {
     "today_total": 33,
