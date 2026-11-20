@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:19:47",
-  "updated_at_et": "2026-11-20 09:19:47",
-  "updated_epoch_ms": 1795184387247,
+  "updated_at_kst": "2026-11-20 23:20:00",
+  "updated_at_et": "2026-11-20 09:20:00",
+  "updated_epoch_ms": 1795184400875,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "TKLF",
+    "company_name": "TKLF",
+    "exchange": "ND",
+    "price": 1.5838,
+    "gain_pct": 13.13,
+    "mcap_m": 6.7,
+    "catalyst_hint": "[당일 PR] Tokyo Lifestyle Co., Ltd. to Open New Reiwatakiya Store at Westfield London, Strengthening Its Retail Presence in the UK",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "09:19:53",
+    "started_at_kst": "23:19:53",
+    "started_epoch_ms": 1795184393686
   },
   "halt_watch": {
     "active": false
