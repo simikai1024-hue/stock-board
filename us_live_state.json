@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:27:48",
-  "updated_at_et": "2026-11-20 04:27:48",
-  "updated_epoch_ms": 1795166868019,
+  "updated_at_kst": "2026-11-20 18:28:49",
+  "updated_at_et": "2026-11-20 04:28:49",
+  "updated_epoch_ms": 1795166929391,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "RAYA",
     "holding_qty": 543,
     "avg_price": 0.914,
-    "current_price": 0.9156,
-    "profit_rate": 0.18,
-    "updated_kst": "18:27:42"
+    "current_price": 0.915,
+    "profit_rate": 0.11,
+    "updated_kst": "18:28:40"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 0,
     "today_buy": 2,
     "today_false": 0,
-    "today_hardcut": 34,
+    "today_hardcut": 35,
     "total_verdicts": 150,
     "total_buy": 5,
     "total_false": 145,
@@ -2439,6 +2439,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:28:20",
+      "time_kst": "18:28:20",
+      "symbol": "CYAB",
+      "company_name": "CYAB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-16 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:25:04",
       "time_kst": "18:25:04",
       "symbol": "VIVK",
@@ -2926,16 +2936,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-09 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:51:27",
-      "time_kst": "23:51:27",
-      "symbol": "ARAI",
-      "company_name": "ARAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $102.06M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
