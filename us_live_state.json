@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:41:05",
-  "updated_at_et": "2026-11-20 08:41:05",
-  "updated_epoch_ms": 1795182065802,
+  "updated_at_kst": "2026-11-20 22:42:03",
+  "updated_at_et": "2026-11-20 08:42:03",
+  "updated_epoch_ms": 1795182123487,
   "analyzing": {
-    "active": true,
-    "symbol": "STKS",
-    "company_name": "STKS",
-    "exchange": "ND",
-    "price": 1.03,
-    "gain_pct": 0.0,
-    "mcap_m": 32.9,
-    "catalyst_hint": "[당일 PR] The ONE Group Accelerates Growth of Benihana Express with Launch of National Licensing Program",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:41:01",
-    "started_at_kst": "22:41:01",
-    "started_epoch_ms": 1795182061002
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8339,
-    "profit_rate": -0.71,
-    "updated_kst": "22:41:03"
+    "current_price": 0.8402,
+    "profit_rate": 0.04,
+    "updated_kst": "22:41:59"
   },
   "stats": {
-    "today_total": 17,
+    "today_total": 18,
     "today_nblm_count": 0,
     "today_buy": 4,
-    "today_false": 13,
+    "today_false": 14,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 7,
     "total_false": 143,
-    "avg_nblm_sec": 52.5
+    "avg_nblm_sec": 53.3
   },
   "verdicts": [
+    {
+      "id": "v_1795182114198_STKS_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "08:41:54",
+      "time_kst": "22:41:54",
+      "symbol": "STKS",
+      "company_name": "STKS",
+      "exchange": "ND",
+      "price": 1.03,
+      "gain_pct": 0.0,
+      "mcap_m": 32.9,
+      "decision": "FALSE",
+      "elapsed_sec": 58.6,
+      "reason": "확정 수주 전무한 베니하나 익스프레스 가맹점 모집용 단순 라이선싱 프로그램 론칭 홍보 PR로 헌법 3조 1·2항 위배 및 장전 보합 정체 전량 차단",
+      "catalyst_hint": "[당일 PR] The ONE Group Accelerates Growth of Benihana Express with Launch of National Licensing Program",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 실시간 긴급결재 원문서류철 소스 원문 팩트를 정밀 교차 대조하여 진행한 STKS (The ONE Group Hospitality, Inc.) 2026-11-20 08:40:55 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 263].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $0 USD 및 보합 +0.00% 윗꼬리 정체)\n상장 거래소 및 체급: The NASDAQ Global Market (Nasdaq: STKS) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 264].\n실질 시가총액: 약 $32.9M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 5, 263].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 외식 프랜차이즈 가맹 모집 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 263].\n헤드라인의 '베니하나 익스프레스 전국 라이선싱 프로그램 론칭(Launch of National Licensing Program)'은 회사 금고로 직통 유입되는 확정 메가 매출이 아니라, **\"가맹 사업자 및 개발자들을 대상으로 베니하나 익스프레스 매장 라이선스 가맹 문의(Licensing Inquiry)를 접수받기 시작했다\"**는 단순 프랜차이즈 가맹 모집 홍보물에 불과합니다 [cite: 264, 269].\n본문 직독 결과, 덴버 2호점 오픈 및 연말까지 캘리포니아 직영점, 플로리다 가맹점 오픈 계획 등 기존 매장 현황 나열에 그칠 뿐, 당일 확정된 신규 대규모 계약금이나 라이선스 선급금은 단 1달러도 없습니다 [cite: 268].\n실시간 체결가 및 수급 (장전 최고가 대비 -10.4% 밀려 보합권 정체):\n전일 종가 $1.0300 대비 현재가 $1.0300 (+0.00%)로 보합권 정체 [cite: 264].\n당일 프리마켓 최고가 $1.1500 (+11.65%)까지 반짝 띄웠으나 실체 없는 가맹 모집 공지임을 시장이 확인하고 고점 대비 -10.4% 밀려 시초 제자리로 회귀 [cite: 264].\n당일 누적 거래대금은 $0 USD (체결 수급 전혀 유입되지 않음) [cite: 264].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 264].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 08:30:00 ET) 공식 PR 원문 분석:\n배포망: business_wire [cite: 264]\nPR 제목: \"The ONE Group Accelerates Growth of Benihana Express with Launch of National Licensing Program\" [cite: 264]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '외식 브랜드 가맹 사업(Licensing Program) 론칭' 언론플레이:\n원문 본문에 *\"today announced the launch of a licensing program for Benihana Express... creates new opportunities for experienced operators and developers... Operators and developers interested in licensing Benihana Express can submit an inquiry...\"*라고 명시되어 있습니다 [cite: 264, 269].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 6].\n가맹 희망자들에게 웹사이트 문의 폼을 열어둔 일반적인 외식 프랜차이즈 가맹 모집 안내문이며, 신규 상업 확정 계약 금액($M) 및 현금 선급금은 본문 어디에도 단 1달러도 없습니다 [cite: 263, 269].\n과거 180일 연속된 '베니하나 익스프레스 띄우기' 쪼개기 재탕 적발:\n과거 180일 PR 원장 대조 결과 [cite: 273]:\n[2026-11-09 | business_wire] The ONE Group to Participate in the 2026 Restaurant Finance & Development Conference in Las Vegas [cite: 273]\n[2026-11-06 | yahoo_rss] The ONE Group Sizzles on Benihana Express – Downloadable Quarterly Update Report [cite: 273]\n[2026-11-04 | business_wire] The ONE Group Reports Third Quarter 2026 Financial Results [cite: 274]\n지난 11월 6일 분기 보고서에서 이미 'Benihana Express'를 홍보한 데 이어, 오늘 또다시 라이선싱 프로그램 론칭이라는 명목으로 동일 브랜드를 우려먹는 **전형적인 쪼개기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 273].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 5, 6].\n심사 헌법 제3조 ②항 위배 및 장전 거래대금 $0 보합 정체 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 가맹/라이선싱 프로그램 론칭/금액 미기재 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n장전 프리마켓에서 $1.1500까지 반짝 띄운 후 실체 없는 가맹 모집 공지임을 확인하고 고점 대비 -10.4% 밀려 보합(+0.00%)에 머문 채 거래대금 $0 USD로 시장 관심이 완전히 배제된 전형적인 껍데기 IR 패턴입니다 [cite: 264].\n3. 최종 심사 및 결재 판정\nSTKS의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, 베니하나 익스프레스 브랜드의 가맹점 모집용 전국 라이선싱 프로그램 개시 공지에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: STKS 처리합니다 [cite: 6, 263, 264].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: STKS NOTES:\n[STKS] 확정 수주 전무한 베니하나 익스프레스 가맹점 모집용 단순 라이선싱 프로그램 론칭 홍보 PR로 헌법 3조 1·2항 위배 및 장전 보합 정체 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 NA(주총 연기 단순 재탕), VWAV(미종결 MVP 플랫폼 단순 인수), DRIO(포럼 패널 토론 단순 참가), YFOR(시총 대비 4.2% 초소액 경비 용역), TYGO(로펌 집단소송 원고 모집 악재), NCNA(학회 전임상 포스터 발표), CVM(사우디 신속심사 트랙 단순 지정), PHUN(주총 위임장 표 대결 서한), ZEO(전기료 절감 마케팅), BRNX(EU 경매 신청 계획 금액 착시)에 이어 STKS(외식 가맹 모집 라이선싱 론칭)까지 11개 후보 종목 전수가 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상, 규제 지정, 가맹 마케팅 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 264, 402, 417, 431, 432, 440, 766].\n이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 5, 6].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795182046318_BRNX_FALSE",
       "track": "TRACK1",
@@ -2441,29 +2450,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SINT (SINTX Technologies, Inc.) 2026-11-17 09:04 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $10.35M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 **일절 미감지 (구체적 계약 달러 금액 전무)**.\n발표된 실체는 현금 유입이 발생하는 상업 계약이 아니라, 유럽·캐나다·일본·한국에서의 **특허 2건 등록 및 3건 허여 통보(Two issued patents and three allowed applications)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $1.3400 대비 현재가 $1.3700 (+2.24%), 당일 최고가 $1.4550 (고점 대비 -5.8%).\n당일 누적 거래대금 $351 USD (351달러 수준의 극소액 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:00 ET) 공식 PR 원문 분석:\nPR 제목: *\"SINTX Strengthens Patent Portfolio to Support International Growth Across Healthcare Markets\"*\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 특허 등록·허여 홍보물 (Patent Portfolio PR):\n본 PR의 본질은 글로벌 기업과의 구속력 있는 독점 라이선스 계약이나 거액 수주가 아닙니다.\n질화규소(silicon nitride) 바이오 소재 관련하여 유럽, 캐나다, 일본, 한국에서 **2건의 특허 등록 및 3건의 출원 허여를 받았다는 단순 특허 포트폴리오 강화 보도자료(today announced two patent issuances and three patent allowances...)**에 불과합니다.\n외부 고객사로부터 유입되는 확정 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 에보닉 협업/3D 프린팅(11/11)의 연장선상에 있는 단순 특허 언론 플레이:\n과거 이력 대조 결과 회사는 11월 11일 에보닉(Evonik) SiN/PEEK 필라멘트 도입 기대감 및 FDA 510(k) 추진 보도자료를 낸 바 있습니다.\n이번 발표 역시 실체적 대형 수주나 상업적 매출 발생 없이 기존 R&D 파이프라인의 특허 취득을 포장한 전형적인 금액 미기재 지식재산권(IP) 홍보 IR 뉴스입니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 특허 취득 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 특허 취득(Patent)/제휴/유예연장 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무한 단순 해외 특허 2건 등록 및 3건 허여 통보 보도자료에 불과하여, 심사 헌법 제3조 ④항(금액 미기재 특허 취득 차단)에 의거 FORCE_BLOCK: SINT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SINT NOTES:\n[SINT] 확정 수주/매출 전무한 단순 해외 특허 2건 등록·3건 허여 홍보 PR로 헌법 3조 4항(금액 미기재 특허) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 28개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품/소프트웨어 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장, 분할납품 현장배치, 상폐위기 주주서한, 로봇 1대 납품, 임상 환자방문 완료, 금액 미기재 단순 특허 발표로 확인되어 안전하게 전량 차단되었습니다. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794924263024_FTCI_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "09:04:23",
-      "time_kst": "23:04:23",
-      "symbol": "FTCI",
-      "company_name": "FTCI",
-      "exchange": "ND",
-      "price": 0.93,
-      "gain_pct": 2.76,
-      "mcap_m": 17.01,
-      "decision": "FALSE",
-      "elapsed_sec": 59.8,
-      "reason": "확정 수주/매출 전무한 단순 자체 트래커용 AI 소프트웨어(FieldIQ) 런칭 홍보 PR로 헌법 3조 4항 위배 및 장전 -11.4% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] FTC Solar Launches FieldIQ to Give EPCs Greater Visibility into Installation Productivity",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 FTCI (FTC Solar, Inc.) 2026-11-17 09:03 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $17.01M USD (나스닥 상장, 연구소 1차 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 외부 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 수반되는 신규 수주 계약이 아니라, 단순 자체 건설 지능 소프트웨어/기능 출시인 **FieldIQ 런칭(Launches FieldIQ)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -11.4% 급락 윗꼬리 덤핑):\n전일 종가 $0.9050 대비 현재가 $0.9300 (+2.76%).\n당일 최고가 $1.0500 찍은 후 장전 고점 대비 -11.4% 급락하며 윗꼬리를 달고 덤핑 중입니다.\n당일 누적 거래대금 $1,397 USD (1천3백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"FTC Solar Launches FieldIQ to Give EPCs Greater Visibility into Installation Productivity\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 소프트웨어/프로그램 출시 홍보물 (Software Launching PR):\n본 PR의 본질은 EPC 기업과의 거액 독점 공급 계약이나 확정 수주가 아닙니다.\nFTC Solar 트래커를 사용하는 프로젝트를 위한 건설 지능형 오퍼링인 **FieldIQ(드론 및 카메라 이미지 AI 분석 도구)를 런칭했다는 단순 자체 신제품/소프트웨어 기능 출시 보도자료(today announced the launch of FieldIQ, a construction intelligence offering... The offering uses AI to analyze drone and camera imagery...)**에 불과합니다.\n외부 고객사로부터 유입되는 확정 수주액(PO), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n11월 13일 유지보수 프로그램 런칭(SUNCARE™)에 이은 4일 만의 자체 서비스 출시 쪼개기 언론플레이:\n과거 이력 대조 결과 회사는 불과 4일 전인 2026년 11월 13일에도 GlobeNewswire를 통해 *\"FTC Solar Introduces SUNCARE™ Preventive Maintenance Program...\"*이라는 자체 서비스 도입 보도자료를 낸 바 있습니다.\n이번 발표 역시 실체적 대형 수주 없이 자사 트래커용 부가 기능(FieldIQ) 출시를 포장하여 연달아 배포한 전형적인 자체 마케팅/쪼개기 IR 뉴스입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 -11.4% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 자체 서비스 도입의 반복적 쪼개기 마케팅 홍보 및 ④ 신규 확정 계약 금액 및 현금 유입이 없는 단순 소프트웨어/기능 런칭 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.0500까지 반짝 상승 후 고점 대비 -11.4% 급락하며 전형적인 윗꼬리 설거지 흐름을 보이고 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무한 단순 자체 트래커용 AI 소프트웨어(FieldIQ) 출시 보도자료에 불과하여 1급 확정 기폭제 기준에 절대 미달하며, 장전 주가가 -11.4% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: FTCI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: FTCI NOTES:\n[FTCI] 확정 수주/매출 전무한 단순 자체 트래커용 AI 소프트웨어(FieldIQ) 런칭 홍보 PR로 헌법 3조 4항 위배 및 장전 -11.4% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 27개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품/소프트웨어 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장, 분할납품 현장배치, 상폐위기 주주서한, 로봇 1대 납품, 임상 환자방문 완료로 확인되어 안전하게 전량 차단되었습니다. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:41:34",
+      "time_kst": "22:41:34",
+      "symbol": "GASS",
+      "company_name": "GASS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $285.53M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-20",
       "time_et": "08:38:31",
@@ -2953,16 +2952,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $17526.67M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:03:49",
-      "time_kst": "21:03:49",
-      "symbol": "DTIL",
-      "company_name": "DTIL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $193.04M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
