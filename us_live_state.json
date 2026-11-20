@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:46:56",
-  "updated_at_et": "2026-11-20 07:46:56",
-  "updated_epoch_ms": 1795178816730,
+  "updated_at_kst": "2026-11-20 21:47:40",
+  "updated_at_et": "2026-11-20 07:47:40",
+  "updated_epoch_ms": 1795178860710,
   "analyzing": {
-    "active": true,
-    "symbol": "TYGO",
-    "company_name": "TYGO",
-    "exchange": "ND",
-    "price": 0.5747,
-    "gain_pct": 0.0,
-    "mcap_m": 44.59,
-    "catalyst_hint": "[당일 PR] TYGO Class Action Lawsuit - Robbins LLP Reminds Tigo Energy Investors with Large Losses to Get Information Before the November 23, 2026 Lead Plaintiff Deadline",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:46:50",
-    "started_at_kst": "21:46:50",
-    "started_epoch_ms": 1795178810762
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.19,
-    "profit_rate": 10.43,
-    "updated_kst": "21:46:39"
+    "current_price": 5.1985,
+    "profit_rate": 10.61,
+    "updated_kst": "21:47:34"
   },
   "stats": {
-    "today_total": 9,
+    "today_total": 10,
     "today_nblm_count": 0,
     "today_buy": 3,
-    "today_false": 6,
+    "today_false": 7,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
-    "avg_nblm_sec": 34.3
+    "avg_nblm_sec": 38.8
   },
   "verdicts": [
+    {
+      "id": "v_1795178853172_TYGO_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "07:47:33",
+      "time_kst": "21:47:33",
+      "symbol": "TYGO",
+      "company_name": "TYGO",
+      "exchange": "ND",
+      "price": 0.5747,
+      "gain_pct": 0.0,
+      "mcap_m": 44.59,
+      "decision": "FALSE",
+      "elapsed_sec": 45.2,
+      "reason": "확정 수주 전무한 Robbins LLP 로펌의 증권 집단소송 대표원고 모집 안내문($135M 금액착시)으로 헌법 3조 2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] TYGO Class Action Lawsuit - Robbins LLP Reminds Tigo Energy Investors with Large Losses to Get Information Before the November 23, 2026 Lead Plaintiff Deadline",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 [cite: 16], [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 TYGO (Tigo Energy, Inc.) 2026-11-20 07:46:47 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 17, 18, 419].\n1. 체급 & 실시간 시세 수급 팩트 (호재 금액 $135M 착시 및 주주 집단소송 악재 적발)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: TYGO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 16].\n실질 시가총액: 약 $44.59M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 18].\n체급 대비 규모 (상업 수주/현금 유입 0원 및 원고 모집 소송 공지 적발):\n파이썬 1차 감지에서 포착된 핵심 금액 **약 $135.00M(시총 대비 302.8%)**은 회사 금고로 유입되는 확정 상업 메가 수주나 정부 계약금이 절대 아닙니다 [cite: 19].\n헤드라인 및 본문 직독 결과, 증권 전문 로펌인 Robbins LLP가 Tigo Energy의 대규모 주가 폭락 손실 주주들을 대리하여 대표 원고(Lead Plaintiff)를 모집하는 '증권 집단소송(Class Action Lawsuit)' 알림 공지에 불과합니다.\n$135M 규모 등 본문에 언급된 수치는 과거 피고(Tigo Energy 경영진)의 회계/실적 허위 공시로 인해 발생한 주주 피해 추정액 또는 소송 청구액 성격일 뿐, 회사에 꽂히는 현금이 아닌 심각한 사법 리스크 및 악재성 법률 공지입니다.\n실시간 체결가 및 수급 (장전 거래대금 $262 USD 극소액 및 -6.1% 윗꼬리 정체):\n전일 종가 $0.5747 대비 현재가 $0.5747 (+0.00%) 보합.\n당일 프리마켓 최고가 $0.6118 (+6.45%)까지 반짝 띄운 후 실체 없는 로펌 집단소송 안내문임을 확인하고 고점 대비 -6.1% 밀려 거래 정체.\n당일 누적 거래대금은 $262 USD (약 260달러 수준의 극소액 체결로 시장 반응 전무).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 18].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 07:44:00 ET) 공식 PR 원문 분석:\nPR 배포망: prnewswire\nPR 제목: \"TYGO Class Action Lawsuit - Robbins LLP Reminds Tigo Energy Investors with Large Losses to Get Information Before the November 23, 2026 Lead Plaintiff Deadline\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 '로펌의 증권 집단소송 대표 원고 모집' 악재성 공지:\n원문 본문에 *\"Shareholder rights law firm Robbins LLP reminds investors that a class action was filed on behalf of persons or entities who purchased or otherwise acquired Tigo Energy securities... lead plaintiff deadline is November 23, 2026...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 19, 34].\n기업 가치를 훼손하는 집단소송 기한 리마인더 언론플레이에 불과하며, 신규 상업 확정 계약 금액($M) 및 현금 선급금은 본문 어디에도 단 1달러도 없습니다 [cite: 19].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 18, 19, 21].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 홍보/소송/금액 미기재 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 19].\n호재 수주가 아닌 주주 소송 악재 PR이므로 당연 차단 대상입니다.\n3. 최종 심사 및 결재 판정\nTYGO의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, $135M 규모 착시를 일으킨 로펌의 증권 집단소송 대표 원고 모집 안내문에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ②항에 의거 FORCE_BLOCK: TYGO 처리합니다 [cite: 19, 34].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: TYGO NOTES:\n[TYGO] 확정 수주 전무한 Robbins LLP 로펌의 증권 집단소송 대표원고 모집 안내문($135M 금액착시)으로 헌법 3조 2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역)에 이어 TYGO(로펌 집단소송 원고 모집 악재)까지 5개 후보 종목 전수가 껍데기 IR, 소액 용역, 소송 공지로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 19, 417, 431, 432, 440]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 19, 21].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795178727431_YFOR_FALSE",
       "track": "TRACK1",
@@ -2431,26 +2440,6 @@
       "reason": "단일 확정 수주/선급금 전무한 단순 과거 3분기 정기실적 및 D2C 누적주문 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.7% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] BOXABL third-quarter orders reach 2026 high, benefited by direct-to-consumer sales",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 BXBL (BOXABL Inc.) 2026-11-17 08:38 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.39M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주 착시 적발):\n본문에 표기된 주문 수치($16.6M 및 9개월 누적 추산 $51.80M)는 단일 고객사와의 구속력 있는 신규 메가 수주 계약이나 현금 선급금이 아닙니다.\n이미 지난 2026년 9월 30일로 종료된 과거 3분기 및 9개월 동안 발생한 소비자 직접판매(D2C) 주문 합산치 및 정기 분기 실적(Q3 Results for the three and nine months ended Sept. 30, 2026) 집계 홍보문에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -13.7% 급락 및 마이너스 파란불 음봉 전환):\n전일 종가 $1.5200 대비 현재가 $1.5195 (-0.03%).\n당일 최고가 $1.7600을 찍은 후 장전 고점 대비 -13.7% 폭락하며 마이너스 음봉으로 주저앉음.\n당일 누적 거래대금 $6,632 USD (장전 일시적 6천 달러 규모 거래 후 윗꼬리 덤핑).\n헌법 제1조에 따라 거래량/상승률 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증 및 장전 음봉 덤핑 확인이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:35 ET) 공식 PR 원문 분석:\nPR 제목: \"BOXABL third-quarter orders reach 2026 high, benefited by direct-to-consumer sales\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n단일 확정 메가 수주가 아닌 과거 3분기 정기 실적 및 누적 주문량 포장 발표 (Q3 Earnings & Backlog PR):\n원문 본문에 *\"today reported third-quarter results for the three and nine months ended Sept. 30, 2026... Net new orders for 209 Casitas, valued at $16.6 million, were the most of any quarter this year\"*라고 명시되어 있습니다.\n이는 연구소 헌법 제2조의 진짜 대장주 요건인 **'단일 대형 고객사와의 창사 최대 확정 달러 수주 + 즉각 가용한 거액 현금 선급금(AIMD형)'**이 아니라, 이미 종료된 과거 3분기(9/30 마감) 정기 실적을 발표하며 분기 중 발생했던 소매 주문량 합산치를 홍보용으로 앞세운 **전형적인 분기 어닝/실적 포장(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n단순 정기 실적 발표는 족보집상 전형적인 보합·설거지 패턴:\n족보집 누적 실전 표본에서 단순 분기 실적 및 수주잔고(Orderbook) 발표(CDW, ARRY, SHLS, EPAM, FTCI, IDAI 등)는 프리마켓 일시 반등 후 즉각 윗꼬리를 달고 급락하거나 보합으로 주저앉는 **전형적인 설거지/보합 함정(족보집 실패 표본 다수)**으로 증명되어 있습니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑(-13.7%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기 실적/누적 주문량 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.7600까지 반짝 상승 후 고점 대비 -13.7% 폭락하며 전일 종가 밑(-0.03%)으로 주저앉은 전형적인 실적 발표 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 단일 고객사와의 확정된 메가 수주 계약이나 현금 선급금이 전무한 단순 3분기(9/30 마감) 정기 실적 및 과거 분기 D2C 주문량 집계 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 주가가 -13.7% 급락하여 음봉 전환되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: BXBL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: BXBL NOTES:\n[BXBL] 단일 확정 수주/선급금 전무한 단순 과거 3분기 정기실적 및 D2C 누적주문 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.7% 덤핑 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794922724342_VERU_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:38:44",
-      "time_kst": "22:38:44",
-      "symbol": "VERU",
-      "company_name": "VERU",
-      "exchange": "ND",
-      "price": 2.15,
-      "gain_pct": 3.37,
-      "mcap_m": 36.66,
-      "decision": "FALSE",
-      "elapsed_sec": 40.7,
-      "reason": "11/9 기예고된 ObesityWeek 학회발표 및 기완료 임상 2b상 사후 하위분석(Post Hoc) 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 VERU (Veru Inc.) 2026-11-17 08:37 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.66M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.0800 대비 현재가 $2.1500 (+3.37%), 당일 최고가 $2.1500 (고점 대비 +0.0%).\n당일 누적 거래대금 $1,638 USD (1천6백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass and Physical Function\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 승인이나 빅파마 기술이전 계약이 아닌 학회 구두 발표 및 과거 임상 사후 하위분석 재탕 (Post Hoc Subset Analysis at ObesityWeek PR):\n본 PR의 본질은 FDA 정식 시판 승인이나 글로벌 제약사와의 거액 독점 라이선스 계약이 아닙니다.\n이미 완료된 과거 임상 2b상(QUALITY 연구) 환자 데이터 중 65세 이상 고령자 92명을 사후 분리 분석(Post hoc subset analysis)하여 비만학회(ObesityWeek 2026)에서 포디엄 구두 발표를 진행했다는 **단순 학회 발표 및 사후 통계 분석 보도자료(today announced that Veru had a podium presentation at ObesityWeek 2026 in Washington DC... reviewed results of the new post hoc physical function subset analysis...)**에 불과합니다.\n외부 빅파마로부터 확정 유입되는 라이선스 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 학회 발표 사전 예고(11/09)의 8일 만에 나온 단순 당일 행사 사후 발표 쪼개기 재탕:\n과거 이력 대조 결과 회사는 불과 8일 전인 2026년 11월 9일에 GlobeNewswire를 통해 *\"Veru to Present New Results on Effects of Enobosarm on Physical Function in Older Patients Receiving GLP-1 RA from the Phase 2b QUALITY clinical study at ObesityWeek 2026\"*라고 사전 예고한 바 있습니다.\n오늘 보도자료는 11월 9일에 발표할 것이라고 이미 알렸던 학회 발표 내용을 학회 당일(11/17) 단순 재인용하여 전송한 전형적인 사후 쪼개기/학회 재탕 언론 플레이입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 학회 사전예고(11/9)의 당일 사후 발표 쪼개기 재탕 및 과거 기완료 임상의 사후 하위분석(Post Hoc) 우려먹기, ④ 신규 확정 계약 금액이 없는 단순 학회 발표/데이터 홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 시판 승인이 전무하고, 11월 9일에 이미 예고되었던 ObesityWeek 2026 학회 구두 발표 및 기완료 임상 2b상의 사후 하위분석(Post Hoc) 결과 재탕에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: VERU 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: VERU NOTES:\n[VERU] 11/9 기예고된 ObesityWeek 학회발표 및 기완료 임상 2b상 사후 하위분석(Post Hoc) 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
