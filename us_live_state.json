@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:16:16",
-  "updated_at_et": "2026-11-20 04:16:16",
-  "updated_epoch_ms": 1795166176073,
+  "updated_at_kst": "2026-11-20 18:16:57",
+  "updated_at_et": "2026-11-20 04:16:57",
+  "updated_epoch_ms": 1795166217446,
   "analyzing": {
     "active": false
   },
@@ -13,20 +13,20 @@
     "session_label": "프리장실전",
     "watchlist_count": 0,
     "orderable_usd": 516.07,
-    "daily_done": false,
+    "daily_done": true,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
-    "current_price": 0.6798,
-    "profit_rate": -5.54,
-    "updated_kst": "18:16:13"
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "18:16:37"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 16,
+    "today_hardcut": 20,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2437,6 +2437,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:16:49",
+      "time_kst": "18:16:49",
+      "symbol": "GOAI",
+      "company_name": "GOAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:16:42",
+      "time_kst": "18:16:42",
+      "symbol": "DWTX",
+      "company_name": "DWTX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:16:35",
+      "time_kst": "18:16:35",
+      "symbol": "ONEN",
+      "company_name": "ONEN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.14M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:16:21",
+      "time_kst": "18:16:21",
+      "symbol": "HCTI",
+      "company_name": "HCTI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.74M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:16:04",
       "time_kst": "18:16:04",
       "symbol": "NIVF",
@@ -2894,46 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $6160.62M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:06",
-      "time_kst": "23:50:06",
-      "symbol": "PLUG",
-      "company_name": "PLUG",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1510.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:50:01",
-      "time_kst": "23:50:01",
-      "symbol": "PVLA",
-      "company_name": "PVLA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2142.78M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:49:55",
-      "time_kst": "23:49:55",
-      "symbol": "LE",
-      "company_name": "LE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $284.51M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:49:50",
-      "time_kst": "23:49:50",
-      "symbol": "HYFM",
-      "company_name": "HYFM",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [424B5])"
     }
   ]
 }
