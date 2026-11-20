@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:38:05",
-  "updated_at_et": "2026-11-20 09:38:05",
-  "updated_epoch_ms": 1795185485776,
+  "updated_at_kst": "2026-11-20 23:39:02",
+  "updated_at_et": "2026-11-20 09:39:02",
+  "updated_epoch_ms": 1795185542029,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.801,
-    "profit_rate": -4.63,
-    "updated_kst": "23:37:59"
+    "current_price": 0.7503,
+    "profit_rate": -10.67,
+    "updated_kst": "23:38:56"
   },
   "stats": {
     "today_total": 30,
