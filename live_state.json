@@ -1,11 +1,11 @@
 {
   "date": "2026-11-20",
-  "updated_at": "2026-11-20 15:24:37",
+  "updated_at": "2026-11-20 15:28:48",
   "isi_board": {
-    "updated_at": "2026-11-20 15:24:37",
+    "updated_at": "2026-11-20 15:28:48",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-20",
-    "theme_updated_at": "15:24:37",
+    "theme_updated_at": "15:28:41",
     "overnight_holding": {
       "active": false
     },
@@ -244,7 +244,7 @@
         "cur_net_pct": -3.43,
         "max_raw_pct": 3.47,
         "trail_armed": false,
-        "updated_at": "15:24:35"
+        "updated_at": "15:24:52"
       },
       "today_closed": null,
       "stats": {
@@ -346,7 +346,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-20",
-      "updated_at": "15:24:30",
+      "updated_at": "15:28:28",
       "signal_status": "NEUTRAL",
       "active_signal": null,
       "today_closed": null,
@@ -366,8 +366,8 @@
           "vwap_gap_pct": 0.73,
           "chg_prev_pct": 5.58,
           "money_eok": 11791,
-          "inav": 1382.56,
-          "inav_gap_pct": -0.04,
+          "inav": 1384.21,
+          "inav_gap_pct": -0.16,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 15.4,
@@ -416,8 +416,8 @@
           "vwap_gap_pct": 1.57,
           "chg_prev_pct": 7.1,
           "money_eok": 1553,
-          "inav": 3053.87,
-          "inav_gap_pct": -0.22,
+          "inav": 3055.11,
+          "inav_gap_pct": -0.27,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 38.5,
@@ -457,9 +457,9 @@
         "kospi_personal_eok": 16182,
         "kosdaq_foreign_eok": -1834,
         "kosdaq_inst_eok": -927,
-        "usdkrw": 1336.9,
-        "usdkrw_chg": 1.4,
-        "usdkrw_pct": 0.1,
+        "usdkrw": 1337.0,
+        "usdkrw_chg": 1.5,
+        "usdkrw_pct": 0.11,
         "nasdaq_pct": -2.25,
         "sox_pct": -2.42,
         "macro_score": -4,
@@ -468,6 +468,13 @@
         "news_dir": "DN",
         "news_label": "경계·하방 재료 우위",
         "headlines": [
+          {
+            "title": "엔스로픽 상장도 못막은 日증시…닛케이 장중 3000엔 폭락",
+            "press": "이데일리",
+            "time": "15:18",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/018/0006413172"
+          },
           {
             "title": "\"대체 어디가 바닥인지\" 의지도 위축…개미들 짐 싸자 벌어진 일",
             "press": "한국경제TV",
@@ -481,13 +488,6 @@
             "time": "14:56",
             "tone": "DN",
             "url": "https://n.news.naver.com/mnews/article/215/0001273396"
-          },
-          {
-            "title": "'ANT'발 하락 끝 아니다?…월가 경고한 또 다른 고비 [딥시그널]",
-            "press": "한국경제TV",
-            "time": "14:52",
-            "tone": "DN",
-            "url": "https://n.news.naver.com/mnews/article/215/0001273395"
           }
         ]
       },
@@ -511,8 +511,8 @@
           "vwap_gap_pct": 1.57,
           "chg_prev_pct": 7.1,
           "money_eok": 1553,
-          "inav": 3053.87,
-          "inav_gap_pct": -0.22,
+          "inav": 3055.11,
+          "inav_gap_pct": -0.27,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 38.5,
@@ -520,7 +520,7 @@
           "pair_money_share_pct": 23.7,
           "flow_surge_mult": 1.1
         },
-        "line1": "외국인이 코스피 -1조 2,682억(코스닥 -1,834억) 대량 순매도 출회 중이며, 미 나스닥(-2.25%)·반도체(-2.42%) 및 원/달러 1,336.9원(+1.4원) 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
+        "line1": "외국인이 코스피 -1조 2,682억(코스닥 -1,834억) 대량 순매도 출회 중이며, 미 나스닥(-2.25%)·반도체(-2.42%) 및 원/달러 1,337.0원(+1.5원) 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 거래대금 점유율 24% 기록되며 당일 VWAP 상단 체류 93%를 기록해 수급·시황·차트 방향이 일치합니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
@@ -692,21 +692,58 @@
       "pnl_pct": -0.83,
       "buy_price": 6575,
       "qty": 28
+    },
+    {
+      "id": "1795156124049_002320_SELL",
+      "type": "SELL",
+      "auto_copy": false,
+      "time": "2026-11-20 15:28:44",
+      "name": "한진",
+      "code": "002320",
+      "price": 18430,
+      "flu_rt": 1.88,
+      "val_uk": 0.0,
+      "target_price": 19350,
+      "stop_price": 17870,
+      "ammo_title": "📘 확정 손실: -2,878원 (-3.77%) | 매수 19,110원 → 매도 18,430원 (4주) [⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%)]",
+      "ammo_date": "",
+      "note": "⏰ ⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%) 완료 | 확정 손익 -2,878원 (-3.77%)",
+      "pnl_krw": -2878,
+      "pnl_pct": -3.77,
+      "buy_price": 19110,
+      "qty": 4
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-20 15:24:37",
+    "updated_at": "2026-11-20 15:28:48",
     "stats": {
-      "total_closed": 18,
+      "total_closed": 19,
       "win_count": 7,
       "hit_5pct_count": 3,
       "super_win_count": 0,
-      "loss_count": 11,
+      "loss_count": 12,
       "buy_fail_count": 0,
-      "win_rate_pct": 38.9,
-      "total_pnl_krw": -15189
+      "win_rate_pct": 36.8,
+      "total_pnl_krw": -18067
     },
     "rows": [
+      {
+        "date": "2026-11-20",
+        "weekday": "금요일",
+        "weekday_short": "금",
+        "code": "002320",
+        "name": "한진",
+        "buy_price": 19110,
+        "sell_price": 18430,
+        "qty": 4,
+        "pnl_pct": -3.77,
+        "pnl_krw": -2878,
+        "status": "LOSS",
+        "buy_time": "",
+        "sell_time": "15:28:44",
+        "reason": "📘 확정 손실: -2,878원 (-3.77%) | 매수 19,110원 → 매도 18,430원 (4주) [⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%)]",
+        "note": "⏰ ⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%) 완료 | 확정 손익 -2,878원 (-3.77%)"
+      },
       {
         "date": "2026-11-20",
         "weekday": "금요일",
@@ -1193,7 +1230,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-20 15:24:37",
+    "updated_at": "2026-11-20 15:28:48",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -5124,7 +5161,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-20 15:24:37",
+    "updated_at": "2026-11-20 15:28:48",
     "deprecated": true,
     "stats": {},
     "days": []
