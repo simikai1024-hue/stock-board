@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:31:41",
-  "updated_at_et": "2026-11-20 07:31:41",
-  "updated_epoch_ms": 1795177901829,
+  "updated_at_kst": "2026-11-20 21:32:37",
+  "updated_at_et": "2026-11-20 07:32:37",
+  "updated_epoch_ms": 1795177957800,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.2987,
-    "profit_rate": 12.74,
-    "updated_kst": "21:31:32"
+    "current_price": 5.2813,
+    "profit_rate": 12.37,
+    "updated_kst": "21:32:31"
   },
   "stats": {
     "today_total": 6,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:31:50",
+      "time_kst": "21:31:50",
+      "symbol": "HSCS",
+      "company_name": "HSCS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-19 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:31:12",
       "time_kst": "21:31:12",
       "symbol": "NXTC",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.14M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:16:21",
-      "time_kst": "18:16:21",
-      "symbol": "HCTI",
-      "company_name": "HCTI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $56.74M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
