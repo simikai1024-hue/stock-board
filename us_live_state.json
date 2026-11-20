@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:45:11",
-  "updated_at_et": "2026-11-20 09:45:11",
-  "updated_epoch_ms": 1795185911323,
+  "updated_at_kst": "2026-11-20 23:46:08",
+  "updated_at_et": "2026-11-20 09:46:08",
+  "updated_epoch_ms": 1795185968279,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.7551,
-    "profit_rate": -10.1,
-    "updated_kst": "23:45:05"
+    "current_price": 0.7491,
+    "profit_rate": -10.81,
+    "updated_kst": "23:46:03"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:46:02",
+      "time_kst": "23:46:02",
+      "symbol": "TELA",
+      "company_name": "TELA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:39:45",
       "time_kst": "23:39:45",
       "symbol": "WERN",
@@ -2954,16 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $604.6M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:26:39",
-      "time_kst": "22:26:39",
-      "symbol": "CHRW",
-      "company_name": "CHRW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $15993.04M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
