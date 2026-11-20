@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:30:51",
-  "updated_at_et": "2026-11-20 06:30:51",
-  "updated_epoch_ms": 1795174251455,
+  "updated_at_kst": "2026-11-20 20:31:34",
+  "updated_at_et": "2026-11-20 06:31:34",
+  "updated_epoch_ms": 1795174294736,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.61,
-    "profit_rate": -1.91,
-    "updated_kst": "20:30:46"
+    "current_price": 4.6792,
+    "profit_rate": -0.44,
+    "updated_kst": "20:31:23"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
     "today_false": 3,
-    "today_hardcut": 49,
+    "today_hardcut": 50,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "06:31:29",
+      "time_kst": "20:31:29",
+      "symbol": "FUFU",
+      "company_name": "FUFU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $143.32M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "06:22:22",
       "time_kst": "20:22:22",
       "symbol": "ACRV",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:57:46",
-      "time_kst": "23:57:46",
-      "symbol": "DTCX",
-      "company_name": "DTCX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $59.64M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
