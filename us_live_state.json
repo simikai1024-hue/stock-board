@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:08:33",
-  "updated_at_et": "2026-11-20 09:08:33",
-  "updated_epoch_ms": 1795183713583,
+  "updated_at_kst": "2026-11-20 23:09:36",
+  "updated_at_et": "2026-11-20 09:09:36",
+  "updated_epoch_ms": 1795183776382,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.872,
-    "profit_rate": 3.82,
-    "updated_kst": "23:08:30"
+    "current_price": 0.8681,
+    "profit_rate": 3.36,
+    "updated_kst": "23:09:30"
   },
   "stats": {
     "today_total": 24,
@@ -2461,6 +2461,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:09:34",
+      "time_kst": "23:09:34",
+      "symbol": "NWBI",
+      "company_name": "NWBI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2123.96M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:07:23",
       "time_kst": "23:07:23",
       "symbol": "CHGA",
@@ -2948,16 +2958,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $20919.24M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:05:49",
-      "time_kst": "22:05:49",
-      "symbol": "ALNY",
-      "company_name": "ALNY",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $19798.72M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
