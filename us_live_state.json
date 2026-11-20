@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:47:03",
-  "updated_at_et": "2026-11-20 09:47:03",
-  "updated_epoch_ms": 1795186023904,
+  "updated_at_kst": "2026-11-20 23:47:46",
+  "updated_at_et": "2026-11-20 09:47:46",
+  "updated_epoch_ms": 1795186066286,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.7799,
-    "profit_rate": -7.14,
-    "updated_kst": "23:47:00"
+    "current_price": 0.7651,
+    "profit_rate": -8.91,
+    "updated_kst": "23:47:38"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:47:37",
+      "time_kst": "23:47:37",
+      "symbol": "MGN",
+      "company_name": "MGN",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-29 [424B4])"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:47:17",
+      "time_kst": "23:47:17",
+      "symbol": "KBSX",
+      "company_name": "KBSX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $56.18M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:47:08",
+      "time_kst": "23:47:08",
+      "symbol": "SCAG",
+      "company_name": "SCAG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.72M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:46:55",
       "time_kst": "23:46:55",
       "symbol": "PASW",
@@ -2934,36 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3183.87M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:31:16",
-      "time_kst": "22:31:16",
-      "symbol": "ALMR",
-      "company_name": "ALMR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1992.73M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:31:14",
-      "time_kst": "22:31:14",
-      "symbol": "PLYX",
-      "company_name": "PLYX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $75.27M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:30:45",
-      "time_kst": "22:30:45",
-      "symbol": "CRGO",
-      "company_name": "CRGO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $50.08M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
