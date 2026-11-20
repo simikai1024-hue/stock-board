@@ -1,8 +1,8 @@
 {
   "date": "2026-11-20",
-  "updated_at": "2026-11-20 15:30:35",
+  "updated_at": "2026-11-20 15:30:49",
   "isi_board": {
-    "updated_at": "2026-11-20 15:30:35",
+    "updated_at": "2026-11-20 15:30:49",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-20",
     "theme_updated_at": "15:30:35",
@@ -694,28 +694,28 @@
       "qty": 28
     },
     {
-      "id": "1795156124049_002320_SELL",
+      "id": "1795156244119_002320_SELL",
       "type": "SELL",
       "auto_copy": false,
-      "time": "2026-11-20 15:28:44",
+      "time": "2026-11-20 15:30:44",
       "name": "한진",
       "code": "002320",
-      "price": 18430,
-      "flu_rt": 1.88,
+      "price": 18500,
+      "flu_rt": 0.0,
       "val_uk": 0.0,
-      "target_price": 19350,
-      "stop_price": 17870,
-      "ammo_title": "📘 확정 손실: -2,878원 (-3.77%) | 매수 19,110원 → 매도 18,430원 (4주) [⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%)]",
+      "target_price": 19420,
+      "stop_price": 17940,
+      "ammo_title": "📘 확정 손실: -2,608원 (-3.41%) | 매수 19,110원 → 매도 18,500원 (4주) [수동/실전 전량매도 확정]",
       "ammo_date": "",
-      "note": "⏰ ⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%) 완료 | 확정 손익 -2,878원 (-3.77%)",
-      "pnl_krw": -2878,
-      "pnl_pct": -3.77,
+      "note": "⏰ 수동/실전 전량매도 확정 완료 | 확정 손익 -2,608원 (-3.41%)",
+      "pnl_krw": -2608,
+      "pnl_pct": -3.41,
       "buy_price": 19110,
       "qty": 4
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-20 15:30:35",
+    "updated_at": "2026-11-20 15:30:49",
     "stats": {
       "total_closed": 19,
       "win_count": 7,
@@ -724,7 +724,7 @@
       "loss_count": 12,
       "buy_fail_count": 0,
       "win_rate_pct": 36.8,
-      "total_pnl_krw": -18067
+      "total_pnl_krw": -17797
     },
     "rows": [
       {
@@ -734,15 +734,16 @@
         "code": "002320",
         "name": "한진",
         "buy_price": 19110,
-        "sell_price": 18430,
+        "sell_price": 18500,
         "qty": 4,
-        "pnl_pct": -3.77,
-        "pnl_krw": -2878,
+        "pnl_pct": -3.41,
+        "pnl_krw": -2608,
         "status": "LOSS",
         "buy_time": "",
-        "sell_time": "15:28:44",
+        "sell_time": "15:30:44",
         "reason": "📘 확정 손실: -2,878원 (-3.77%) | 매수 19,110원 → 매도 18,430원 (4주) [⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%)]",
-        "note": "⏰ ⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%) 완료 | 확정 손익 -2,878원 (-3.77%)"
+        "note": "⏰ ⏰계단주 NXT 미지원 15:27 KRX 안전청산(-3.56%) 완료 | 확정 손익 -2,878원 (-3.77%)",
+        "sell_summary": "📘 확정 손실: -2,608원 (-3.41%) | 매수 19,110원 → 매도 18,500원 (4주) [수동/실전 전량매도 확정]"
       },
       {
         "date": "2026-11-20",
@@ -1230,7 +1231,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-20 15:30:35",
+    "updated_at": "2026-11-20 15:30:49",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -5161,7 +5162,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-20 15:30:35",
+    "updated_at": "2026-11-20 15:30:49",
     "deprecated": true,
     "stats": {},
     "days": []
