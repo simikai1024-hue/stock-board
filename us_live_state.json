@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:02:05",
-  "updated_at_et": "2026-11-20 10:02:05",
-  "updated_epoch_ms": 1795186925753,
+  "updated_at_kst": "2026-11-21 00:02:34",
+  "updated_at_et": "2026-11-20 10:02:34",
+  "updated_epoch_ms": 1795186954962,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "EPOW",
+    "company_name": "EPOW",
+    "exchange": "ND",
+    "price": 3.3017,
+    "gain_pct": 3.83,
+    "mcap_m": 8.44,
+    "catalyst_hint": "[당일 PR] E-Power’s Joint Venture Designated a National-Level “Little Giant” Enterprise by China’s Ministry of Industry and Information Technology",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "10:02:25",
+    "started_at_kst": "00:02:25",
+    "started_epoch_ms": 1795186945058
   },
   "halt_watch": {
     "active": false
@@ -19,7 +31,7 @@
     "avg_price": 4.58,
     "current_price": 4.16,
     "profit_rate": -9.17,
-    "updated_kst": "00:02:01"
+    "updated_kst": "00:02:21"
   },
   "stats": {
     "today_total": 31,
