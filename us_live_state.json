@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:11:03",
-  "updated_at_et": "2026-11-20 09:11:03",
-  "updated_epoch_ms": 1795183863311,
+  "updated_at_kst": "2026-11-20 23:11:56",
+  "updated_at_et": "2026-11-20 09:11:56",
+  "updated_epoch_ms": 1795183916650,
   "analyzing": {
-    "active": true,
-    "symbol": "FRGT",
-    "company_name": "FRGT",
-    "exchange": "ND",
-    "price": 0.63,
-    "gain_pct": 4.98,
-    "mcap_m": 1.06,
-    "catalyst_hint": "[당일 PR] Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "09:10:54",
-    "started_at_kst": "23:10:54",
-    "started_epoch_ms": 1795183854403
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8674,
-    "profit_rate": 3.27,
-    "updated_kst": "23:10:49"
+    "current_price": 0.9149,
+    "profit_rate": 8.93,
+    "updated_kst": "23:11:51"
   },
   "stats": {
-    "today_total": 25,
+    "today_total": 26,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 20,
+    "today_false": 21,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 56.5
+    "avg_nblm_sec": 57.7
   },
   "verdicts": [
+    {
+      "id": "v_1795183909818_FRGT_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "09:11:49",
+      "time_kst": "23:11:49",
+      "symbol": "FRGT",
+      "company_name": "FRGT",
+      "exchange": "ND",
+      "price": 0.63,
+      "gain_pct": 4.98,
+      "mcap_m": 1.06,
+      "decision": "FALSE",
+      "elapsed_sec": 59.5,
+      "reason": "확정 수주 전무한 사내 AI Lab 화물협상/음성 에이전트 연구논문 2편(arXiv) 및 오픈소스 공개 홍보 PR로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 실시간 긴급결재 원문서류철 소스 원문 팩트를 교차 대조하여 진행한 FRGT (Freight Technologies, Inc.) 2026-11-20 09:10:50 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재검증 직독 결재 보고입니다 [cite: 5, 309].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $1,127 USD 극소액 및 arXiv 논문 발표 재확인)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: FRGT) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 5].\n실질 시가총액: 약 $1.06M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 6, 7].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 자체 AI 랩 프리프린트 논문 2편 발표 재확인):\n당일 PR 내 백만 달러($M) 이상 신규 확정 상업 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원) [cite: 7].\n헤드라인의 '사내 AI Lab 화물 협상 및 음성 에이전트 연구 논문 2편 발표(Publishes Two Studies on AI Negotiation and Voice Agents)'는 회사 금고로 직통 유입되는 매출 계약이 아니라, **\"사내 AI Lab에서 화물 운송 협상 에이전트 및 음성 아키텍처에 관한 시뮬레이션 연구 논문 2편을 arXiv 프리프린트와 깃허브(GitHub, Apache 2.0 라이선스)에 공개 배포했다\"**는 단순 학술·연구 오픈소스 공개 홍보물에 불과합니다.\n당일 확정된 신규 금융 매출이나 현금 유입은 단 1달러도 없습니다 [cite: 7].\n실시간 체결가 및 수급 (장전 거래대금 $1,127 USD 시장 반응 전무):\n전일 종가 $0.6001 대비 현재가 $0.6300 (+4.98%) 유지.\n당일 프리마켓 최고가 $0.6349 (+5.80%)를 기록한 뒤, 누적 거래대금은 $1,127 USD (약 1,100달러 수준의 극소액 체결)에 그치고 있어 시장의 실질적인 매수 수급 유입이 전혀 없습니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 09:00:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire\nPR 제목: \"Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '사내 AI 랩 연구 논문 2편 arXiv/깃허브 공개' 언론플레이:\n원문 본문에 *\"its in-house AI Lab has published two research papers on the design of AI agents for freight negotiation, together with an open-source research toolkit for benchmarking negotiation agents. The papers are available as preprints on arXiv and in a new AI Lab section of the Company's redesigned website... The research toolkit is available on GitHub under an Apache 2.0 license...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 7, 22].\n사내 실험실의 시뮬레이션 연구 결과를 공유하고 자사 기술력을 과시하는 정성적 마케팅 발표에 불과합니다.\n과거 180일 연속된 'Zayren AI 에이전트 우려먹기' 쪼개기 재탕 적발:\n과거 180일 PR 원장 대조 결과:\n[2026-10-27 | globenewswire] Freight Technologies Expands Zayren With AI Agents That Can Negotiate With Dozens of Carriers Simultaneously and AI Enterprise Logistics Analytics\n[2026-10-15 | globenewswire] Freight Technologies Announces 1-for-10 Reverse Share Split (1-for-10 주식병합 단행)\n이미 지난 10월 27일 'Zayren AI 에이전트 확장'을 공식 PR로 배포했던 데 이어, 오늘 또다시 'Zayren에 적용된 AI 에이전트 연구 논문 공개'라는 명목으로 동일한 기술 테마를 우려먹는 **전형적인 쪼개기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다.\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 6, 7].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 연구 논문/학술 발표/오픈소스 공개/금액 미기재 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 7].\n과거 족보집에서도 FRGT는 10/30(+43.4%), 11/03(+39.9%) 등 일시적 반짝 상승 이후 11/09(-3.3% 음봉 설거지)로 회귀했던 전력이 확인되며, 오늘 재료 역시 실체 없는 단순 논문 홍보물입니다 [cite: 12, 13, 265, 266].\n3. 최종 심사 및 결재 판정\nFRGT의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, 사내 AI Lab의 화물 협상 에이전트 시뮬레이션 연구 논문 2편(arXiv) 및 깃허브 공개 홍보에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: FRGT 처리합니다 [cite: 7].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 재확인 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 309].\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: FRGT NOTES:\n[FRGT] 확정 수주 전무한 사내 AI Lab 화물협상/음성 에이전트 연구논문 2편(arXiv) 및 오픈소스 공개 홍보 PR로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역), 다섯 번째 종목 TYGO(로펌 집단소송 원고 모집 악재), 여섯 번째 종목 NCNA(학회 전임상 포스터 발표), 일곱 번째 종목 CVM(사우디 신속심사 트랙 단순 지정), 여덟 번째 종목 ZEO(전기료 절감 마케팅), 아홉 번째 종목 PHUN(주총 위임장 표 대결 서한), 열 번째 종목 BRNX(EU 경매 신청 계획 금액 착시), 열한 번째 종목 STKS(외식 가맹 모집 라이선싱 론칭), 열두 번째 종목 NVNO(학회 3년 추적 데이터 발표), 열세 번째 종목 APRE(학회 1상 중간 결과 발표), 열네 번째 종목 SAGT(CEO 소액 지분 매수 쪼개기 재탕)에 이어 FRGT 재확인 건까지 모든 후보 종목이 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상, 규제 지정, 학회 발표, 연구 논문 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 317, 318, 346, 347, 350].\n이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 7, 22].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795183841602_APRE_FALSE",
       "track": "TRACK1",
@@ -2449,29 +2458,19 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 EDSA (Edesa Biotech, Inc.) 2026-11-17 09:37:54 ET 정규장 개장 직후 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $25.33M USD (나스닥 상장, 연구소 1차 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/라이선스 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 **일절 미감지 (구체적 계약 달러 금액 전무)**.\n발표된 실체는 현금 유입이 발생하는 상업 계약이나 FDA 정식 시판 승인이 아니라, 유럽위원회(EC)의 **희귀의약품 지정(Orphan Drug Designation)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -8.5% 급락 및 마이너스 파란불 음봉 전환):\n전일 종가 $1.8900 대비 현재가 **$1.8750 (-0.79%)**.\n장전 최고가 $2.0500를 기록한 뒤 본장 개장 직후 고점 대비 -8.5% 급락하며 마이너스 음봉(-0.79%)으로 주저앉음.\n당일 누적 거래대금 $931,467 USD (93만 달러 규모의 거래가 회전되며 윗꼬리 덤핑 출회).\n당일 SEC 공시 현황: 2026-11-17 [8-K] (Item 8.01 Other Events) 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:25 ET) 공식 PR 원문 분석:\nPR 제목: *\"Edesa Biotech Granted Orphan Designation for Paridiprubart for the Treatment of ARDS by the European Commission\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\nFDA 최종 시판 승인이나 빅파마 기술수출 계약이 아닌 단순 행정상 희귀의약품 지정 (Orphan Designation PR):\n본 PR의 본질은 의약품의 정식 상업 판매 허가(Approval)나 외부로부터의 현금 유입 계약이 아닙니다.\n급성호흡곤란증후군(ARDS) 치료제 후보물질인 파리디프루바트(paridiprubart)에 대해 유럽위원회(EC)로부터 **단순 희귀의약품 지정(Orphan Designation)을 획득했다는 규제 행정 절차 보도자료(today announced that the European Commission has granted orphan designation to its investigational drug paridiprubart...)**에 불과합니다.\n희귀의약품 지정은 수수료 감면 및 승인 후 독점권 가능성 등 행정적 인센티브일 뿐, 당장 기업 금고로 유입되는 확정 계약금(Upfront), 선급금, 매출 달러가 원문 어디에도 단 1달러도 없습니다.\n과거 180일(11/09) 쿄린제약 독점 라이선스 계약($140M+)의 8일 만에 나온 후속 행정 쪼개기 재탕:\n과거 이력 대조 결과 회사는 불과 8일 전인 2026년 11월 9일에 이미 GlobeNewswire를 통해 *\"Edesa Biotech Announces Agreement with KYORIN Pharmaceutical to Develop and Commercialize Paridiprubart in Japan (Deal valued at more than $140 million)\"*라고 발표하며 주가가 당일 최고 +74.8% 분출한 바 있습니다.\n이번 보도자료는 11월 9일 기발표된 파리디프루바트 파이프라인의 **유럽 지역 행정 진행 상황(EC 희귀의약품 지정)을 띄운 전형적인 후속 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 음봉 덤핑(-8.5%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 11/9 기발표 계약 파이프라인의 유럽 행정 쪼개기 재탕 및 ④ 신규 확정 계약 금액 및 현금 유입이 없는 단순 희귀의약품 지정(Orphan Designation) 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n본장 개장 직후 $2.0500에서 $1.8750까지 -8.5% 하락하며 전일 종가 밑(-0.79%) 음봉으로 주저앉은 전형적인 설거지 차트 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 신규 상업 수주나 현금 선급금이 전무하고, 단순 유럽 EC 희귀의약품 지정 획득 및 11월 9일 기발표 파이프라인의 8일 만에 나온 후속 행정 쪼개기 재탕에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장중 음봉으로 전환되었으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: EDSA 처리합니다.\n계좌 보호 원칙에 의거하여 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: EDSA NOTES:\n[EDSA] 확정 수주/매출 전무한 단순 유럽 EC 희귀의약품 지정 및 11/9 기발표 파이프라인의 8일만 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 및 장중 -8.5% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 정규장 개장 초반 30분 수급 골든타임 구간 동안 실시간 공시·PR 감시망을 집중 가동하고 있으니, 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794925869512_CDIO_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "09:31:09",
-      "time_kst": "23:31:09",
-      "symbol": "CDIO",
-      "company_name": "CDIO",
-      "exchange": "ND",
-      "price": 1.9123,
-      "gain_pct": 3.35,
-      "mcap_m": 5.66,
-      "decision": "FALSE",
-      "elapsed_sec": 55.5,
-      "reason": "확정 수주/매출 전무 및 단순 12/10 투자자 설명회 예고와 FDA 돌파구지정 '추진 계획' 홍보 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Cardio Diagnostics to Unveil Non-Obstructive Coronary Artery Disease Data, FDA Breakthrough Device Designation Strategy, and India Launch Update on December 10 Investor Cal",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CDIO (Cardio Diagnostics Holdings, Inc.) 2026-11-17 09:30 ET 본장 개장 직후 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.66M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/매출 유입 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 **일절 미감지 (구체적 계약 달러 금액 전무)**.\n발표된 실체의 본질은 즉각적인 현금 유입 계약이나 FDA 공식 승인이 아니라, 약 3주 뒤인 12월 10일 개최 예정인 투자자 콘퍼런스 콜(Investor Conference Call) 일정 사전 예고에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $1.7900 대비 현재가 $1.9123 (+6.83%), 당일 최고가 $2.0500 (고점 대비 -6.7%).\n당일 누적 거래대금 $40,031 USD (4만 달러 수준의 극소액 프리마켓/시초 회전).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:17 ET) 공식 PR 원문 분석:\nPR 제목: *\"Cardio Diagnostics to Unveil Non-Obstructive Coronary Artery Disease Data, FDA Breakthrough Device Designation Strategy, and India Launch Update on December 10 Investor Call\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\nFDA 최종 승인이 아닌 단순 '돌파구 기기 지정(Breakthrough Device) 신청 계획' 및 미래 행사 예고 홍보물 (Investor Call PR):\n원문 본문에 *\"today announced that it will host an investor conference call on Thursday, December 10, 2026... Building on these data, the Company plans to pursue FDA Breakthrough Device designation for the detection of non-obstructive coronary artery disease\"*라고 명시되어 있습니다.\n이는 FDA로부터 실제 승인(Approval)이나 공식 지정(Designation Granted)을 받은 것이 아니라, 12월 10일 투자자 설명회에서 비폐쇄성 관상동맥질환(NOCAD) 데이터 발표 및 향후 FDA 돌파구 기기 지정 신청을 '추진할 계획(plans to pursue)'이라는 미래 구상을 설명하겠다는 사전 홍보 보도자료에 불과합니다.\n외부 고객사나 빅파마로부터 당장 회사 금고로 유입되는 확정 계약금, 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n과거 180일 파트너십(인도 Dr. Lal PathLabs & Aimil) 및 백서 발표(11/12)의 반복 쪼개기 재탕:\n본문에 함께 언급된 *\"인도 내 테스트 개시(commencement of testing in India, in partnership with Dr. Lal PathLabs and Aimil)\"*는 이미 기체결된 기존 협력 관계를 설명회 안건으로 다시 열거한 것에 불과합니다.\n불과 5일 전인 11월 12일에도 *\"Cardio Diagnostics’ Whitepaper Examines Clinical Blind Spot in Coronary Heart Disease...\"*라는 백서 발간 보도자료를 냈으며, 이번 보도자료 역시 동일한 비폐쇄성 심장질환(NOCAD) 테마를 12월 10일 설명회 일정과 엮어 배포한 **전형적인 자체 IR 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 미래 콘퍼런스/설명회 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 상황판 감시 원칙의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 콘퍼런스 콜/투자자 설명회(Investor Call)/계획 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 현금 선급금이 전무하고, 단순 12월 10일 투자자 설명회 개최 예고 및 향후 FDA 돌파구 기기 지정 추진 계획을 알린 미래 홍보성 보도자료에 불과하여, 심사 헌법 제3조 ④항(금액 미기재 단순 설명회 홍보 차단)에 의거 FORCE_BLOCK: CDIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: CDIO NOTES:\n[CDIO] 확정 수주/매출 전무 및 단순 12/10 투자자 설명회 예고와 FDA 돌파구지정 '추진 계획' 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 09:30 ET 정규장 개장 직후 첫 30분 수급 골든타임 구간까지 실시간 감시망을 풀가동하여, 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
     }
   ],
   "hardcuts": [
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:11:10",
+      "time_kst": "23:11:10",
+      "symbol": "VEON",
+      "company_name": "VEON",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $5137.38M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
     {
       "date_et": "2026-11-20",
       "time_et": "09:10:20",
@@ -2961,16 +2960,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $309.84M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:25:01",
-      "time_kst": "22:25:01",
-      "symbol": "ALLO",
-      "company_name": "ALLO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $231.06M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
