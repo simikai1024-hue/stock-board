@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:41:28",
-  "updated_at_et": "2026-11-20 06:41:28",
-  "updated_epoch_ms": 1795174888982,
+  "updated_at_kst": "2026-11-20 20:42:40",
+  "updated_at_et": "2026-11-20 06:42:40",
+  "updated_epoch_ms": 1795174960073,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.5297,
-    "profit_rate": -3.62,
-    "updated_kst": "20:41:22"
+    "current_price": 4.5197,
+    "profit_rate": -3.84,
+    "updated_kst": "20:42:20"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
     "today_false": 3,
-    "today_hardcut": 50,
+    "today_hardcut": 51,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "06:42:34",
+      "time_kst": "20:42:34",
+      "symbol": "CYCU",
+      "company_name": "CYCU",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "06:31:29",
       "time_kst": "20:31:29",
       "symbol": "FUFU",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:00:22",
-      "time_kst": "18:00:22",
-      "symbol": "SEAT",
-      "company_name": "SEAT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,7.01,9.01))"
     }
   ]
 }
