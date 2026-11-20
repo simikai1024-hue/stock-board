@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:25:27",
-  "updated_at_et": "2026-11-20 08:25:27",
-  "updated_epoch_ms": 1795181127515,
+  "updated_at_kst": "2026-11-20 22:26:22",
+  "updated_at_et": "2026-11-20 08:26:22",
+  "updated_epoch_ms": 1795181182462,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8178,
-    "profit_rate": -2.63,
-    "updated_kst": "22:25:20"
+    "current_price": 0.842,
+    "profit_rate": 0.25,
+    "updated_kst": "22:26:18"
   },
   "stats": {
     "today_total": 13,
@@ -2450,6 +2450,76 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:26:14",
+      "time_kst": "22:26:14",
+      "symbol": "PSEC",
+      "company_name": "PSEC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $701.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:26:05",
+      "time_kst": "22:26:05",
+      "symbol": "OCUL",
+      "company_name": "OCUL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1289.33M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:26:01",
+      "time_kst": "22:26:01",
+      "symbol": "ERAS",
+      "company_name": "ERAS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $4990.59M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:25:57",
+      "time_kst": "22:25:57",
+      "symbol": "HSCS",
+      "company_name": "HSCS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-19 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:25:46",
+      "time_kst": "22:25:46",
+      "symbol": "IESC",
+      "company_name": "IESC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6722.68M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:25:37",
+      "time_kst": "22:25:37",
+      "symbol": "IMDX",
+      "company_name": "IMDX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.52M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:25:28",
+      "time_kst": "22:25:28",
+      "symbol": "INVE",
+      "company_name": "INVE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $63.23M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:25:17",
       "time_kst": "22:25:17",
       "symbol": "BLTE",
@@ -2640,26 +2710,6 @@
     },
     {
       "date_et": "2026-11-20",
-      "time_et": "08:01:45",
-      "time_kst": "22:01:45",
-      "symbol": "INVE",
-      "company_name": "INVE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $63.23M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:01:40",
-      "time_kst": "22:01:40",
-      "symbol": "IMDX",
-      "company_name": "IMDX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $56.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
       "time_et": "07:57:43",
       "time_kst": "21:57:43",
       "symbol": "QXL",
@@ -2667,16 +2717,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $64.92M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:46:29",
-      "time_kst": "21:46:29",
-      "symbol": "IESC",
-      "company_name": "IESC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6722.68M (기준 <= $50.0M USD 초과/초고속컷)"
     },
     {
       "date_et": "2026-11-20",
@@ -2697,16 +2737,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $113.32M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:31:50",
-      "time_kst": "21:31:50",
-      "symbol": "HSCS",
-      "company_name": "HSCS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-19 [424B5])"
     },
     {
       "date_et": "2026-11-20",
@@ -2810,26 +2840,6 @@
     },
     {
       "date_et": "2026-11-20",
-      "time_et": "07:01:02",
-      "time_kst": "21:01:02",
-      "symbol": "OCUL",
-      "company_name": "OCUL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1289.33M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "07:00:57",
-      "time_kst": "21:00:57",
-      "symbol": "ERAS",
-      "company_name": "ERAS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4990.59M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
       "time_et": "06:59:41",
       "time_kst": "20:59:41",
       "symbol": "YYAI",
@@ -2927,16 +2937,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3029.34M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "06:01:00",
-      "time_kst": "20:01:00",
-      "symbol": "PSEC",
-      "company_name": "PSEC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $701.81M (기준 <= $50.0M USD 초과/초고속컷)"
     },
     {
       "date_et": "2026-11-20",
