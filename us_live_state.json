@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:30:02",
-  "updated_at_et": "2026-11-20 08:30:02",
-  "updated_epoch_ms": 1795181402988,
+  "updated_at_kst": "2026-11-20 22:30:54",
+  "updated_at_et": "2026-11-20 08:30:54",
+  "updated_epoch_ms": 1795181454654,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8199,
-    "profit_rate": -2.38,
-    "updated_kst": "22:29:54"
+    "current_price": 0.8279,
+    "profit_rate": -1.43,
+    "updated_kst": "22:30:53"
   },
   "stats": {
     "today_total": 13,
@@ -2450,6 +2450,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:30:45",
+      "time_kst": "22:30:45",
+      "symbol": "CRGO",
+      "company_name": "CRGO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.08M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:26:45",
       "time_kst": "22:26:45",
       "symbol": "MATW",
@@ -2937,16 +2947,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3029.34M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "05:59:24",
-      "time_kst": "19:59:24",
-      "symbol": "BOXL",
-      "company_name": "BOXL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [EFFECT] (Item ,,))"
     }
   ]
 }
