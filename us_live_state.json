@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:50:00",
-  "updated_at_et": "2026-11-20 08:50:00",
-  "updated_epoch_ms": 1795182600856,
+  "updated_at_kst": "2026-11-20 22:51:02",
+  "updated_at_et": "2026-11-20 08:51:02",
+  "updated_epoch_ms": 1795182662990,
   "analyzing": {
-    "active": true,
-    "symbol": "NVNO",
-    "company_name": "NVNO",
-    "exchange": "ND",
-    "price": 5.68,
-    "gain_pct": 1.97,
-    "mcap_m": 3.95,
-    "catalyst_hint": "[당일 PR] enVVeno Medical Presents Three-Year Surgical Venous Valve Replacement Data Showing Sustained Clinical Benefit and Highlights Next-Generation enVVe Transcatheter System at t",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "08:49:55",
-    "started_at_kst": "22:49:55",
-    "started_epoch_ms": 1795182595650
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.9299,
-    "profit_rate": 10.72,
-    "updated_kst": "22:49:42"
+    "current_price": 0.8624,
+    "profit_rate": 2.68,
+    "updated_kst": "22:50:58"
   },
   "stats": {
-    "today_total": 20,
+    "today_total": 21,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 15,
+    "today_false": 16,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 8,
     "total_false": 142,
-    "avg_nblm_sec": 49.3
+    "avg_nblm_sec": 49.1
   },
   "verdicts": [
+    {
+      "id": "v_1795182653881_NVNO_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "08:50:53",
+      "time_kst": "22:50:53",
+      "symbol": "NVNO",
+      "company_name": "NVNO",
+      "exchange": "ND",
+      "price": 5.68,
+      "gain_pct": 1.97,
+      "mcap_m": 3.95,
+      "decision": "FALSE",
+      "elapsed_sec": 74.1,
+      "reason": "확정 수주 전무한 단순 혈관학회(VEITH 심포지엄) 기존 임상 3년 추적 관찰 데이터 발표 및 차세대 카테터 홍보 PR로 헌법 3조 2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] enVVeno Medical Presents Three-Year Surgical Venous Valve Replacement Data Showing Sustained Clinical Benefit and Highlights Next-Generation enVVe Transcatheter System at t",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 [cite: 5, 20], [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 NVNO (enVVeno Medical Corporation) 2026-11-20 08:49:39 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 3, 448].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $3.7K, +1.97% 미미한 반등 및 학회 3년 추적데이터 홍보 적발)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: NVNO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 5].\n실질 시가총액: 약 $3.95M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 4, 450].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 학회 3년 추적 관찰 데이터 발표 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 상업 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n헤드라인의 '제53회 VEITH 심포지엄 3년 수술 데이터 발표(Presents Three-Year Surgical Venous Valve Replacement Data at the 53rd Annual VEITH Symposium)'는 미국 FDA의 정식 품목 시판 승인(PMA/NDA Approval)이나 거액의 라이선스 아웃(L/O) 계약이 절대 아닙니다 [cite: 448].\n이는 기존 VenoValve 피벗 임상(Pivotal trial) 환자들의 36개월(3년) 시점 추적 관찰(Follow-up) 데이터가 기준선 대비 지속적인 임상적 개선을 보였다는 **학회 구두/초록 발표성 임상 경과 보고(Academic Symposium Update)**에 불과합니다.\n함께 언급된 차세대 'enVVe 트랜스카테터 시스템' 소개 역시 신규 확정 매출이나 현금 유입이 아닌, 향후 파이프라인 홍보 문구일 뿐 당일 회사 금고로 직통 유입되는 신규 확정 현금은 단 1달러도 없습니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -2.9% 밀려 +1.97% 정체):\n전일 종가 $5.5700 대비 현재가 $5.6800 (+1.97%) [cite: 3].\n당일 프리마켓 최고가 $5.8500 (+5.03%)까지 반짝 띄웠으나 실체 없는 학회 장기 추적 데이터 발표임을 시장이 확인하고 고점 대비 -2.9% 밀려 시초권 정체 지속.\n당일 누적 거래대금은 $3,759 USD (약 3.7천 달러 수준의 극소액 체결로 시장 반응 미미).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 3, 449].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 08:41:00 ET) 공식 PR 원문 분석:\n배포망: acceswire\nPR 제목: \"enVVeno Medical Presents Three-Year Surgical Venous Valve Replacement Data Showing Sustained Clinical Benefit and Highlights Next-Generation enVVe Transcatheter System at the 53rd Annual VEITH Symposium\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주 및 최종 시판 허가가 아닌 '학회 장기 추적(Long-term Follow-up) 데이터' 발표:\n원문 본문에 *\"Three-year follow-up data from the VenoValve pivotal trial shows sustained clinical improvement and continued patient benefit at 36 months compared to baseline... Highlights Next-Generation enVVe Transcatheter System at the 53rd Annual VEITH Symposium...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 5, 451].\n이미 진행 완료된 임상의 3년 장기 추적 관찰 결과를 연례 학회(VEITH Symposium)에서 구두 발표하고 차세대 시스템을 소개하는 일반적인 바이오 학회 IR 활동에 불과합니다.\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/신규 임상 2/3상 1차평가지표 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 4, 451].\n심사 헌법 제3조 ②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ②항의 '신규 확정 계약 금액($M) 및 현금 선급금이 결여된 단순 학회(Symposium)/장기 추적 관찰(Follow-up)/파이프라인 홍보 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다 [cite: 448].\n폭발적 시세를 견인할 수 없는 전형적인 바이오 학술 대회 발표 PR입니다.\n3. 최종 심사 및 결재 판정\nNVNO의 당일 공식 PR은 확정 상업 메가 수주나 현금 선급금이 전무하며, VEITH 심포지엄에서의 기존 피벗 임상 3년 추적 데이터 발표 및 차세대 시스템 홍보에 불과하여 헌법 제2조 ③항(FDA 정식 승인/신규 임상 성공) 및 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ②항에 의거 FORCE_BLOCK: NVNO 처리합니다 [cite: 448, 451].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: NVNO NOTES:\n[NVNO] 확정 수주 전무한 단순 혈관학회(VEITH 심포지엄) 기존 임상 3년 추적 관찰 데이터 발표 및 차세대 카테터 홍보 PR로 헌법 3조 2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가), 네 번째 종목 YFOR(시총 대비 4.2% 초소액 경비 용역), 다섯 번째 종목 TYGO(로펌 집단소송 원고 모집 악재), 여섯 번째 종목 NCNA(학회 전임상 포스터 발표), 일곱 번째 종목 CVM(사우디 신속심사 트랙 단순 지정), 여덟 번째 종목 ZEO(전기료 절감 마케팅), 아홉 번째 종목 PHUN(주총 위임장 표 대결 서한), 열 번째 종목 BRNX(EU 경매 신청 계획 금액 착시), 열한 번째 종목 STKS(외식 가맹 모집 라이선싱 론칭)에 이어 NVNO(학회 3년 추적 데이터 발표)까지 12개 후보 종목 전수가 껍데기 IR, 소액 용역, 소송 공지, 기초 전임상, 규제 지정, 학회 발표 홍보물로 정밀 감별되어 안전하게 전량 방어되었습니다.\n이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 5, 451].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795182574123_PHUN_FALSE",
       "track": "TRACK1",
@@ -2442,26 +2451,6 @@
       "reason": "$12.1M은 과거 EBITDA 착시이며 확정 계약금액 미기재 및 인디애나 단일 카운티 소액 납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SPCB (SuperCom Ltd.) 2026-11-17 09:09 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $44.84M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주/신규 계약 착시 적발):\n본문 핵심 금액으로 언급된 **약 $12.10M USD (시총 대비 27.0%)**는 당일 발표된 인디애나 카운티 수주 계약 금액이 아닙니다.\n이는 CEO(Ordan Trabelsi)가 인터뷰 문구에서 자사의 과거 실적을 과시하기 위해 언급한 **과거 12개월 누적 EBITDA 수치(trailing twelve-month EBITDA reaching approximately $12.1 million through the third quarter of 2026)**에 불과합니다.\n정작 당일 발표된 인디애나 카운티 교정국 계약의 확정 달러 총액은 원문 어디에도 단 1달러도 기재되지 않은 금액 미기재(일일 활성 기기당 반복 수익 모델) 계약입니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $6.9900 대비 현재가 $7.1400 (+2.15%), 당일 최고가 $7.2400 (고점 대비 -1.4%).\n당일 누적 거래대금 $20,029 USD (2만 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:06 ET) 공식 PR 원문 분석:\nPR 제목: *\"SuperCom Wins 2nd Electronic Monitoring Contract in Indiana, Fully Displacing Incumbent Provider\"*\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 메가 계약 금액 미기재 및 일상적인 지방 카운티 단위 쪼개기 계약 (County-level Contract PR):\n원문 본문에 *\"secured a direct county-level electronic monitoring contract with a community corrections agency in Indiana... The contract will follow a recurring revenue model based on daily active units\"*라고 명시되어 있습니다.\n이는 주 정부나 연방 단위의 거액 메가 수주가 아니라, 인디애나주 내 한 개 카운티(County) 단위 교정국에 PureOne 전자발찌를 납품하는 일상적 영업 수주이며, 확정된 총 계약 달러 금액($M) 및 즉각 가용한 현금 선급금(AIMD형)이 일절 기재되지 않은 전형적인 금액 미기재 PR입니다.\n과거 180일 반복된 '기존 사업자 밀어내기(Displacing Incumbent)' 쪼개기 홍보 패턴의 재탕:\n과거 이력 대조 결과 회사는 이미 2026년 10월 13일에도 \"SuperCom Wins 7th New York Electronic Monitoring Contract, Fully Displacing the Incumbent\" 보도자료를 낸 바 있습니다.\n또한 본문 스스로 *\"With more than 50 new electronic monitoring contracts secured across the U.S. since mid-2024...\"*라고 밝혔듯이\n, 이번 발표 역시 전국에서 수시로 체결되는 50여 개 자잘한 카운티 계약 중 하나를 **'기존 사업자 대체(2nd contract in Indiana, displacing incumbent)'라는 동일한 문구 템플릿으로 포장하여 배포한 전형적인 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표된 영업 수주의 소규모 카운티 단위 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M)이 미기재된 단순 반복적 지방 교정국 납품 홍보물은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 메가 수주 계약 금액이나 현금 선급금이 전무하고 ($12.1M은 과거 EBITDA 수치 착시)\n, 인디애나주 단일 카운티 단위의 일상적 교정국 전자발찌 공급을 기존 수주 템플릿으로 포장한 소규모 쪼개기 재탕 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SPCB 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: SPCB NOTES:\n[SPCB] $12.1M은 과거 EBITDA 착시이며 확정 계약금액 미기재 및 인디애나 단일 카운티 소액 납품 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 31개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI, SPCB) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품/소프트웨어 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장, 분할납품 현장배치, 상폐위기 주주서한, 로봇 1대 납품, 임상 환자방문 완료, 단순 특허 등록, 단순 CEO 간담회, 누적 수주잔고 홍보, 카운티 소액 수주 쪼개기로 확인되어 안전하게 전량 차단되었습니다\n. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794924579393_PPSI_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "09:09:39",
-      "time_kst": "23:09:39",
-      "symbol": "PPSI",
-      "company_name": "PPSI",
-      "exchange": "ND",
-      "price": 2.0602,
-      "gain_pct": -5.71,
-      "mcap_m": 22.87,
-      "decision": "FALSE",
-      "elapsed_sec": 63.1,
-      "reason": "단일 확정 메가수주 전무한 단순 과거 3분기 실적 및 수주잔고(Backlog) 홍보 PR로 헌법 3조 4항 위배 및 장전 -5.71% 음봉 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Pioneer Power Announces a 41.7% Year-to-Date Increase in Backlog to $17.9 Million as of September 30, 2026, and Provides a Business Update",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 PPSI (Pioneer Power Solutions, Inc.) 2026-11-17 09:08 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.87M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주/신규 계약 착시 적발):\n본문 핵심 금액으로 홍보된 **$17.90M USD (시총 대비 78.3%)**는 단일 고객사와의 신규 확정 수주나 즉각 가용한 현금 선급금이 아닙니다.\n이미 지난 2026년 9월 30일 자로 마감 집계된 과거 3분기 누적 수주잔고(Backlog as of September 30, 2026) 및 정기 분기 실적 발표(Q3 Financial Results) 집계치에 불과합니다.\n실시간 체결가 및 수급 (장전 -5.71% 파란불 음봉 하락 덤핑):\n전일 종가 $2.1850 대비 현재가 $2.0602 (-5.71%), 당일 최고가 $2.2199 (고점 대비 -7.2%).\n당일 누적 거래대금 $3,591 USD (3천5백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증 및 장전 음봉 덤핑 확인이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 09:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Pioneer Power Announces a 41.7% Year-to-Date Increase in Backlog to $17.9 Million as of September 30, 2026, and Provides a Business Update\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n단일 메가 확정 수주가 아닌 과거 3분기 정기 실적 및 누적 수주잔고(Backlog) 포장 발표 (Q3 Earnings & Backlog PR):\n원문 본문에 *\"today provided a business update and announced financial results for the third quarter... 41.7% Year-to-Date Increase in Backlog to $17.9 Million as of September 30, 2026\"*라고 명시되어 있습니다.\n이는 연구소 헌법 제2조의 진짜 대장주 요건인 **'단일 대형 고객사와의 창사 최대 확정 달러 수주 + 즉각 가용한 거액 현금 선급금(AIMD형)'**이 아니라, 이미 종료된 과거 3분기(9/30 마감) 정기 실적을 발표하며 기존 수주잔고 집계액을 홍보용 헤드라인으로 내세운 **전형적인 분기 실적 포장(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 전혀 없습니다.\n단순 수주잔고/정기 실적 발표는 족보집상 전형적인 보합·설거지 패턴:\n족보집 누적 실전 표본에서 단순 수주잔고(Backlog) 및 분기 실적 발표(MTEK $11M 백로그 최고 +11.6% 실패, TWIN $190.6M 백로그, CDW, ARRY, FTCI, BXBL 등)는 프리마켓 반짝 후 즉각 윗꼬리를 달고 급락하거나 보합으로 주저앉는 **전형적인 실패·보합 함정(족보집 실패 표본 다수)**으로 증명되어 있습니다.\n심사 헌법 제3조 ④항 위배 및 장전 음봉 덤핑(-5.71%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기 실적/누적 수주잔고(Backlog) 홍보성 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $2.2199 찍은 후 고점 대비 -7.2% 하락하며 전일 종가 밑(-5.71%)으로 주저앉은 전형적인 실적 발표 음봉 덤핑 흐름입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 단일 고객사와의 확정된 메가 수주 계약이나 현금 선급금이 전무한 단순 3분기(9/30 마감) 정기 실적 및 과거 누적 수주잔고(Backlog) 집계 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 주가가 -5.71% 음봉으로 주저앉았으므로 심사 헌법 제3조에 의거 FORCE_BLOCK: PPSI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: PPSI NOTES:\n[PPSI] 단일 확정 메가수주 전무한 단순 과거 3분기 실적 및 수주잔고(Backlog) 홍보 PR로 헌법 3조 4항 위배 및 장전 -5.71% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/17) 프리마켓 구간에서 검토된 30개 종목(HUIZ, BEEM, SAEN, SMTK, DXLG, DAVI, YAAS, FRTT, STEX, ELAB, ELBM, NEXR, AIFF, KIDZ, DXR, MIRA, MNTS, YFOR, FRSX, TURB, HYFT, PFAI, VERU, TOMZ, IDAI, GIXI, GIPR, PMEC, MTVA, FTCI, SINT, MODD, PPSI) 전수가 실체적 확정 현금 유입 없는 단순 운영지표, 신제품/소프트웨어 홍보, 협회 가입, 비구속 MOU, 위임장, 공매도 가이드, 공장 통폐합, 자회사 실적 재탕, 스캔 건수 나열, 단순 제휴, 병원 프로그램 도입, 전임상 연구 발표, 소규모 발사 일정, 번역 재탕, 사명 변경, 미확정 인수 제안, 대출 텀시트 재탕, 실험실 R&D, 학회 사후 발표, 사후 뒷북 규정회복, 정기실적 재포장, 분할납품 현장배치, 상폐위기 주주서한, 로봇 1대 납품, 임상 환자방문 완료, 단순 특허 등록, 단순 CEO 간담회, 누적 수주잔고 홍보로 확인되어 안전하게 전량 차단되었습니다\n. 09:30 ET 본장 직전 골든타임 구간에서 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완벽히 통과하는 진성 대박 기폭제가 포착되면 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
