@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:49:37",
-  "updated_at_et": "2026-11-20 09:49:37",
-  "updated_epoch_ms": 1795186177764,
+  "updated_at_kst": "2026-11-20 23:50:40",
+  "updated_at_et": "2026-11-20 09:50:40",
+  "updated_epoch_ms": 1795186240194,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.7432,
-    "profit_rate": -11.51,
-    "updated_kst": "23:49:34"
+    "current_price": 0.7346,
+    "profit_rate": -12.54,
+    "updated_kst": "23:50:31"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:49:58",
+      "time_kst": "23:49:58",
+      "symbol": "GTM",
+      "company_name": "GTM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $830.44M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:49:43",
+      "time_kst": "23:49:43",
+      "symbol": "YIBO",
+      "company_name": "YIBO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $65.16M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:49:16",
       "time_kst": "23:49:16",
       "symbol": "RTB",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $3215.6M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:38:14",
-      "time_kst": "22:38:14",
-      "symbol": "BETR",
-      "company_name": "BETR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $297.29M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:38:10",
-      "time_kst": "22:38:10",
-      "symbol": "PLTR",
-      "company_name": "PLTR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $370292.29M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
