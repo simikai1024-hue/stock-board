@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:28:00",
-  "updated_at_et": "2026-11-20 09:28:00",
-  "updated_epoch_ms": 1795184880884,
+  "updated_at_kst": "2026-11-20 23:28:45",
+  "updated_at_et": "2026-11-20 09:28:45",
+  "updated_epoch_ms": 1795184925514,
   "analyzing": {
     "active": false
   },
@@ -10,16 +10,16 @@
     "active": false
   },
   "account": {
-    "session_label": "프리장실전",
+    "session_label": "개장동시호가",
     "watchlist_count": 0,
     "orderable_usd": 0.41,
     "daily_done": false,
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8411,
-    "profit_rate": 0.14,
-    "updated_kst": "23:27:54"
+    "current_price": 0.8435,
+    "profit_rate": 0.43,
+    "updated_kst": "23:28:35"
   },
   "stats": {
     "today_total": 29,
@@ -2466,6 +2466,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:28:39",
+      "time_kst": "23:28:39",
+      "symbol": "SRTM",
+      "company_name": "SRTM",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-05 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:24:00",
       "time_kst": "23:24:00",
       "symbol": "HMR",
@@ -2953,16 +2963,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1289.33M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:26:01",
-      "time_kst": "22:26:01",
-      "symbol": "ERAS",
-      "company_name": "ERAS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $4990.59M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
