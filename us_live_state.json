@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:57:16",
-  "updated_at_et": "2026-11-20 09:57:16",
-  "updated_epoch_ms": 1795186636227,
+  "updated_at_kst": "2026-11-20 23:58:06",
+  "updated_at_et": "2026-11-20 09:58:06",
+  "updated_epoch_ms": 1795186686241,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:57:10"
+    "updated_kst": "23:57:55"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,76 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:57:59",
+      "time_kst": "23:57:59",
+      "symbol": "BULL",
+      "company_name": "BULL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2470.87M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:57:53",
+      "time_kst": "23:57:53",
+      "symbol": "PLYX",
+      "company_name": "PLYX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $75.27M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:57:47",
+      "time_kst": "23:57:47",
+      "symbol": "ALMR",
+      "company_name": "ALMR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $1992.73M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:57:43",
+      "time_kst": "23:57:43",
+      "symbol": "GRML",
+      "company_name": "GRML",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:57:36",
+      "time_kst": "23:57:36",
+      "symbol": "GOGO",
+      "company_name": "GOGO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $377.07M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:57:29",
+      "time_kst": "23:57:29",
+      "symbol": "GOAI",
+      "company_name": "GOAI",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:57:22",
+      "time_kst": "23:57:22",
+      "symbol": "AIFA",
+      "company_name": "AIFA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:56:38",
       "time_kst": "23:56:38",
       "symbol": "FOXX",
@@ -2857,26 +2927,6 @@
     },
     {
       "date_et": "2026-11-20",
-      "time_et": "09:03:19",
-      "time_kst": "23:03:19",
-      "symbol": "BULL",
-      "company_name": "BULL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2470.87M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:03:14",
-      "time_kst": "23:03:14",
-      "symbol": "GOGO",
-      "company_name": "GOGO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $377.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
       "time_et": "09:03:06",
       "time_kst": "23:03:06",
       "symbol": "PPBT",
@@ -2897,36 +2947,6 @@
     },
     {
       "date_et": "2026-11-20",
-      "time_et": "09:02:09",
-      "time_kst": "23:02:09",
-      "symbol": "AIFA",
-      "company_name": "AIFA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:01:53",
-      "time_kst": "23:01:53",
-      "symbol": "GOAI",
-      "company_name": "GOAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-22 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:01:43",
-      "time_kst": "23:01:43",
-      "symbol": "GRML",
-      "company_name": "GRML",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
       "time_et": "09:01:22",
       "time_kst": "23:01:22",
       "symbol": "RBNE",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:00:55",
-      "time_kst": "23:00:55",
-      "symbol": "SPWR",
-      "company_name": "SPWR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1217.14M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:55:52",
-      "time_kst": "22:55:52",
-      "symbol": "QBTS",
-      "company_name": "QBTS",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2778.26M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
