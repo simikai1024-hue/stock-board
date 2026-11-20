@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:15:53",
-  "updated_at_et": "2026-11-20 08:15:53",
-  "updated_epoch_ms": 1795180553096,
+  "updated_at_kst": "2026-11-20 22:16:24",
+  "updated_at_et": "2026-11-20 08:16:24",
+  "updated_epoch_ms": 1795180584013,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "CVM",
+    "company_name": "CVM",
+    "exchange": "AM",
+    "price": 1.47,
+    "gain_pct": 0.0,
+    "mcap_m": 25.86,
+    "catalyst_hint": "[당일 PR] CEL-SCI’s Multikine® Receives Saudi FDA NADR Designation, Accelerating Potential Commercial Launch",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "08:16:18",
+    "started_at_kst": "22:16:18",
+    "started_epoch_ms": 1795180578501
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.77,
-    "profit_rate": 1.49,
-    "updated_kst": "22:15:37"
+    "current_price": 4.6513,
+    "profit_rate": -1.04,
+    "updated_kst": "22:16:17"
   },
   "stats": {
     "today_total": 12,
@@ -2449,6 +2461,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:15:59",
+      "time_kst": "22:15:59",
+      "symbol": "ZBRA",
+      "company_name": "ZBRA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $14715.31M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:15:53",
+      "time_kst": "22:15:53",
+      "symbol": "PODC",
+      "company_name": "PODC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.29M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:15:47",
       "time_kst": "22:15:47",
       "symbol": "ARAI",
@@ -2926,26 +2958,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "05:26:25",
-      "time_kst": "19:26:25",
-      "symbol": "DGNX",
-      "company_name": "DGNX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $52.25M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:42:30",
-      "time_kst": "18:42:30",
-      "symbol": "VIVO",
-      "company_name": "VIVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.59M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
