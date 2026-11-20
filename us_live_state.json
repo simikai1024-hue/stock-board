@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 19:16:13",
-  "updated_at_et": "2026-11-20 05:16:13",
-  "updated_epoch_ms": 1795169773932,
+  "updated_at_kst": "2026-11-20 19:17:11",
+  "updated_at_et": "2026-11-20 05:17:11",
+  "updated_epoch_ms": 1795169831926,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "RAYA",
     "holding_qty": 543,
     "avg_price": 0.914,
-    "current_price": 0.8625,
-    "profit_rate": -5.63,
-    "updated_kst": "19:16:05"
+    "current_price": 0.8758,
+    "profit_rate": -4.18,
+    "updated_kst": "19:17:06"
   },
   "stats": {
     "today_total": 3,
