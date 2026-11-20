@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:37:05",
-  "updated_at_et": "2026-11-20 08:37:05",
-  "updated_epoch_ms": 1795181825415,
+  "updated_at_kst": "2026-11-20 22:38:09",
+  "updated_at_et": "2026-11-20 08:38:09",
+  "updated_epoch_ms": 1795181889480,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8049,
-    "profit_rate": -4.17,
-    "updated_kst": "22:37:00"
+    "current_price": 0.8048,
+    "profit_rate": -4.18,
+    "updated_kst": "22:38:03"
   },
   "stats": {
     "today_total": 15,
@@ -2452,6 +2452,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:38:07",
+      "time_kst": "22:38:07",
+      "symbol": "ONDS",
+      "company_name": "ONDS",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $2501.8M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:34:02",
       "time_kst": "22:34:02",
       "symbol": "MNSB",
@@ -2939,16 +2949,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $847650.55M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "06:42:34",
-      "time_kst": "20:42:34",
-      "symbol": "CYCU",
-      "company_name": "CYCU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,3.02,9.01))"
     }
   ]
 }
