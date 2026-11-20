@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:20:47",
-  "updated_at_et": "2026-11-20 04:20:47",
-  "updated_epoch_ms": 1795166447973,
+  "updated_at_kst": "2026-11-20 18:21:04",
+  "updated_at_et": "2026-11-20 04:21:04",
+  "updated_epoch_ms": 1795166464560,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 516.07,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "18:20:44"
+    "holding_symbol": "RAYA",
+    "holding_qty": 543,
+    "avg_price": 0.914,
+    "current_price": 0.9015,
+    "profit_rate": -1.37,
+    "updated_kst": "18:21:04"
   },
   "stats": {
     "today_total": 1,
@@ -52,7 +52,7 @@
       "catalyst_hint": "[Track 3 본장 첫 점화] 시가대비 +29.49% | 1분 $271.8K | 회전율 290.3%",
       "full_report": "[Track 3: 본장 첫 +30% 점화 돌파 스나이퍼 실시간 포착]\n- 종목: RAYA (NASDAQ) | 시총: $0.98M\n- 시초가 대비: +29.49% ($0.7061 -> $0.9143)\n- 기준가(전일종가) 대비: +86.21% (기준가 $0.4910)\n- 프리마켓 고점 돌파: PM고점 $1.0501 돌파 완료 (프리장 분당 $20만 이력 0건)\n- 실시간 수급 화살표: 1분 거래대금 $271.8K (>= $200K)\n- 회전율 & 누적대금: 유통 회전율 290.3% (0.97M주) / 누적 $2.38M\n- 전략 집행: 즉시 선점 지정가 매수 및 +51% 그물망 익절 / -20% 방어 손절 자동 세팅!",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🚀 실전매수 체결 완료 (543주 @ 평단 $0.9140)"
     },
     {
       "id": "v_manual_1795128803034_SEGG",
