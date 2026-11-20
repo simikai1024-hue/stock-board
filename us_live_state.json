@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 19:00:37",
-  "updated_at_et": "2026-11-20 05:00:37",
-  "updated_epoch_ms": 1795168837225,
+  "updated_at_kst": "2026-11-20 19:01:07",
+  "updated_at_et": "2026-11-20 05:01:07",
+  "updated_epoch_ms": 1795168867756,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "NA",
+    "company_name": "NA",
+    "exchange": "ND",
+    "price": 0.9051,
+    "gain_pct": 0.0,
+    "mcap_m": 19.92,
+    "catalyst_hint": "[당일 PR] Nano Labs Announces Postponement of 2026 Annual General Meeting",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "05:01:02",
+    "started_at_kst": "19:01:02",
+    "started_epoch_ms": 1795168862315
   },
   "halt_watch": {
     "active": false
@@ -17,9 +29,9 @@
     "holding_symbol": "RAYA",
     "holding_qty": 543,
     "avg_price": 0.914,
-    "current_price": 0.9686,
-    "profit_rate": 5.97,
-    "updated_kst": "19:00:28"
+    "current_price": 1.01,
+    "profit_rate": 10.5,
+    "updated_kst": "19:01:05"
   },
   "stats": {
     "today_total": 2,
