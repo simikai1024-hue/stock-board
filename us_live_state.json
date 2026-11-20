@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:06:40",
-  "updated_at_et": "2026-11-20 09:06:40",
-  "updated_epoch_ms": 1795183600888,
+  "updated_at_kst": "2026-11-20 23:07:32",
+  "updated_at_et": "2026-11-20 09:07:32",
+  "updated_epoch_ms": 1795183652180,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8678,
-    "profit_rate": 3.32,
-    "updated_kst": "23:06:36"
+    "current_price": 0.85,
+    "profit_rate": 1.2,
+    "updated_kst": "23:07:15"
   },
   "stats": {
     "today_total": 24,
@@ -2461,6 +2461,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:07:23",
+      "time_kst": "23:07:23",
+      "symbol": "CHGA",
+      "company_name": "CHGA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:04:18",
       "time_kst": "23:04:18",
       "symbol": "PMCB",
@@ -2948,16 +2958,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $19798.72M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:05:44",
-      "time_kst": "22:05:44",
-      "symbol": "CTSO",
-      "company_name": "CTSO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/오퍼링/워런트 희석 PR 명시 (CytoSorbents Announces $6.25 Million Common Stock Finan)"
     }
   ]
 }
