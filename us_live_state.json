@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:08:37",
-  "updated_at_et": "2026-11-20 07:08:37",
-  "updated_epoch_ms": 1795176517658,
+  "updated_at_kst": "2026-11-20 21:09:35",
+  "updated_at_et": "2026-11-20 07:09:35",
+  "updated_epoch_ms": 1795176575510,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.58,
-    "profit_rate": -2.55,
-    "updated_kst": "21:08:29"
+    "current_price": 4.5997,
+    "profit_rate": -2.13,
+    "updated_kst": "21:09:27"
   },
   "stats": {
     "today_total": 6,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:09:06",
+      "time_kst": "21:09:06",
+      "symbol": "YOUL",
+      "company_name": "YOUL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-03 [424B5])"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:06:29",
       "time_kst": "21:06:29",
       "symbol": "VNDA",
@@ -2930,16 +2940,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-17 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:04:22",
-      "time_kst": "18:04:22",
-      "symbol": "AMOD",
-      "company_name": "AMOD",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-28 [EFFECT] (Item ,,))"
     }
   ]
 }
