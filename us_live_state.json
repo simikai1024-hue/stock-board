@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:32:33",
-  "updated_at_et": "2026-11-20 10:32:33",
-  "updated_epoch_ms": 1795188753965,
+  "updated_at_kst": "2026-11-21 00:33:40",
+  "updated_at_et": "2026-11-20 10:33:40",
+  "updated_epoch_ms": 1795188820227,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.2707,
-    "profit_rate": -2.84,
-    "updated_kst": "00:32:31"
+    "current_price": 0.2709,
+    "profit_rate": -2.76,
+    "updated_kst": "00:33:31"
   },
   "stats": {
     "today_total": 33,
@@ -2470,6 +2470,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:33:37",
+      "time_kst": "00:33:37",
+      "symbol": "DTCX",
+      "company_name": "DTCX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $54.21M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:31:54",
       "time_kst": "00:31:54",
       "symbol": "PMVP",
@@ -2957,16 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2855.47M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:09:44",
-      "time_kst": "23:09:44",
-      "symbol": "JAGX",
-      "company_name": "JAGX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [424B5])"
     }
   ]
 }
