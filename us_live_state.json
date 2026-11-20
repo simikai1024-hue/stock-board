@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 01:01:41",
-  "updated_at_et": "2026-11-20 11:01:41",
-  "updated_epoch_ms": 1795190501561,
+  "updated_at_kst": "2026-11-21 01:02:53",
+  "updated_at_et": "2026-11-20 11:02:53",
+  "updated_epoch_ms": 1795190573713,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 5.2204,
     "current_price": 4.76,
     "profit_rate": -8.82,
-    "updated_kst": "01:01:33"
+    "updated_kst": "01:02:48"
   },
   "stats": {
     "today_total": 35,
@@ -2471,6 +2471,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "11:02:23",
+      "time_kst": "01:02:23",
+      "symbol": "FSLR",
+      "company_name": "FSLR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $16331.74M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "11:01:12",
       "time_kst": "01:01:12",
       "symbol": "BULL",
@@ -2958,16 +2968,6 @@
       "exchange": "NY",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $194.63M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:11:10",
-      "time_kst": "23:11:10",
-      "symbol": "VEON",
-      "company_name": "VEON",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $5137.38M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
