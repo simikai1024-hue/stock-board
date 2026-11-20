@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 04:58:20",
-  "updated_at_et": "2026-11-20 14:58:20",
-  "updated_epoch_ms": 1795204700261,
+  "updated_at_kst": "2026-11-21 04:59:17",
+  "updated_at_et": "2026-11-20 14:59:17",
+  "updated_epoch_ms": 1795204757133,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "MSS",
     "holding_qty": 120,
     "avg_price": 1.295,
-    "current_price": 1.31,
-    "profit_rate": 1.16,
-    "updated_kst": "04:58:11"
+    "current_price": 1.34,
+    "profit_rate": 3.47,
+    "updated_kst": "04:59:08"
   },
   "stats": {
     "today_total": 36,
