@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:50:15",
-  "updated_at_et": "2026-11-20 10:50:15",
-  "updated_epoch_ms": 1795189815145,
+  "updated_at_kst": "2026-11-21 00:50:56",
+  "updated_at_et": "2026-11-20 10:50:56",
+  "updated_epoch_ms": 1795189856479,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 222.99,
+    "orderable_usd": 3.18,
     "daily_done": false,
-    "holding_symbol": "AKAN",
-    "holding_qty": 42,
-    "avg_price": 5.2204,
-    "current_price": 5.2602,
-    "profit_rate": 0.76,
-    "updated_kst": "00:50:06"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "00:50:46"
   },
   "stats": {
     "today_total": 34,
@@ -2470,6 +2470,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:50:21",
+      "time_kst": "00:50:21",
+      "symbol": "THRY",
+      "company_name": "THRY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-20 [S-3])"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:42:12",
       "time_kst": "00:42:12",
       "symbol": "APPN",
@@ -2957,16 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $37025.57M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:10:11",
-      "time_kst": "23:10:11",
-      "symbol": "CHCI",
-      "company_name": "CHCI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $149.2M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
