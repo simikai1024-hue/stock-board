@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:33:28",
-  "updated_at_et": "2026-11-20 08:33:28",
-  "updated_epoch_ms": 1795181608855,
+  "updated_at_kst": "2026-11-20 22:34:11",
+  "updated_at_et": "2026-11-20 08:34:11",
+  "updated_epoch_ms": 1795181651003,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8102,
-    "profit_rate": -3.54,
-    "updated_kst": "22:33:10"
+    "current_price": 0.8043,
+    "profit_rate": -4.24,
+    "updated_kst": "22:34:07"
   },
   "stats": {
     "today_total": 15,
@@ -2452,6 +2452,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:34:02",
+      "time_kst": "22:34:02",
+      "symbol": "MNSB",
+      "company_name": "MNSB",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $145.91M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:32:22",
       "time_kst": "22:32:22",
       "symbol": "PANW",
@@ -2939,16 +2949,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "06:31:29",
-      "time_kst": "20:31:29",
-      "symbol": "FUFU",
-      "company_name": "FUFU",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $143.32M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
