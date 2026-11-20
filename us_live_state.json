@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:22:08",
-  "updated_at_et": "2026-11-20 06:22:08",
-  "updated_epoch_ms": 1795173728276,
+  "updated_at_kst": "2026-11-20 20:23:10",
+  "updated_at_et": "2026-11-20 06:23:10",
+  "updated_epoch_ms": 1795173790206,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.6605,
-    "profit_rate": -0.84,
-    "updated_kst": "20:22:05"
+    "current_price": 4.7391,
+    "profit_rate": 0.83,
+    "updated_kst": "20:23:02"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
     "today_false": 3,
-    "today_hardcut": 48,
+    "today_hardcut": 49,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
@@ -2443,6 +2443,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "06:22:22",
+      "time_kst": "20:22:22",
+      "symbol": "ACRV",
+      "company_name": "ACRV",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $64.37M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "06:20:16",
       "time_kst": "20:20:16",
       "symbol": "SCNI",
@@ -2930,16 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $59.64M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:57:41",
-      "time_kst": "23:57:41",
-      "symbol": "ALZN",
-      "company_name": "ALZN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-10 [8-K/A] (Item 1.01,3.02,5.03,9.01))"
     }
   ]
 }
