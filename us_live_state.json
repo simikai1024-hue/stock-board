@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:00:06",
-  "updated_at_et": "2026-11-20 04:00:06",
-  "updated_epoch_ms": 1795165206471,
+  "updated_at_kst": "2026-11-20 18:00:47",
+  "updated_at_et": "2026-11-20 04:00:47",
+  "updated_epoch_ms": 1795165247562,
   "analyzing": {
     "active": false
   },
@@ -10,23 +10,23 @@
     "active": false
   },
   "account": {
-    "session_label": "장외대기",
+    "session_label": "프리장실전",
     "watchlist_count": 0,
     "orderable_usd": 9.31,
     "daily_done": false,
     "holding_symbol": "SEGG",
     "holding_qty": 767,
     "avg_price": 0.7197,
-    "current_price": 0.6819,
-    "profit_rate": -5.25,
-    "updated_kst": "18:00:04"
+    "current_price": 0.7101,
+    "profit_rate": -1.33,
+    "updated_kst": "18:00:41"
   },
   "stats": {
     "today_total": 0,
     "today_nblm_count": 0,
     "today_buy": 0,
     "today_false": 0,
-    "today_hardcut": 0,
+    "today_hardcut": 2,
     "total_verdicts": 150,
     "total_buy": 3,
     "total_false": 147,
@@ -2436,6 +2436,26 @@
   ],
   "hardcuts": [
     {
+      "date_et": "2026-11-20",
+      "time_et": "04:00:42",
+      "time_kst": "18:00:42",
+      "symbol": "NCPL",
+      "company_name": "NCPL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-20 [8-K] (Item 1.01,2.03,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "04:00:22",
+      "time_kst": "18:00:22",
+      "symbol": "SEAT",
+      "company_name": "SEAT",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-19 [8-K] (Item 1.01,3.02,5.02,7.01,9.01))"
+    },
+    {
       "date_et": "2026-11-19",
       "time_et": "09:57:46",
       "time_kst": "23:57:46",
@@ -2914,26 +2934,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $400.27M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:48:33",
-      "time_kst": "23:48:33",
-      "symbol": "INLF",
-      "company_name": "INLF",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "당일 유상증자/희석 신고서(424B/S-1/F-1/S-3) 폭탄 명시 (2026-11-19 [424B5])"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:48:25",
-      "time_kst": "23:48:25",
-      "symbol": "SSII",
-      "company_name": "SSII",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $262.76M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
