@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 18:42:21",
-  "updated_at_et": "2026-11-20 04:42:21",
-  "updated_epoch_ms": 1795167741957,
+  "updated_at_kst": "2026-11-20 18:43:15",
+  "updated_at_et": "2026-11-20 04:43:15",
+  "updated_epoch_ms": 1795167795538,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "RAYA",
     "holding_qty": 543,
     "avg_price": 0.914,
-    "current_price": 0.8732,
-    "profit_rate": -4.46,
-    "updated_kst": "18:42:12"
+    "current_price": 0.8616,
+    "profit_rate": -5.73,
+    "updated_kst": "18:43:10"
   },
   "stats": {
     "today_total": 2,
     "today_nblm_count": 0,
     "today_buy": 2,
     "today_false": 0,
-    "today_hardcut": 37,
+    "today_hardcut": 38,
     "total_verdicts": 150,
     "total_buy": 5,
     "total_false": 145,
@@ -2439,6 +2439,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "04:42:30",
+      "time_kst": "18:42:30",
+      "symbol": "VIVO",
+      "company_name": "VIVO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.59M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "04:33:23",
       "time_kst": "18:33:23",
       "symbol": "LINK",
@@ -2926,16 +2936,6 @@
       "exchange": "AM",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-29 [8-K] (Item 1.01,2.03,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:51:52",
-      "time_kst": "23:51:52",
-      "symbol": "CASH",
-      "company_name": "CASH",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $1516.08M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
