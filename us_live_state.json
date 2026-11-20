@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:56:13",
-  "updated_at_et": "2026-11-20 09:56:13",
-  "updated_epoch_ms": 1795186573972,
+  "updated_at_kst": "2026-11-20 23:57:16",
+  "updated_at_et": "2026-11-20 09:57:16",
+  "updated_epoch_ms": 1795186636227,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 292.39,
+    "orderable_usd": 3.64,
     "daily_done": false,
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:56:11"
+    "updated_kst": "23:57:10"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:56:38",
+      "time_kst": "23:56:38",
+      "symbol": "FOXX",
+      "company_name": "FOXX",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:56:29",
+      "time_kst": "23:56:29",
+      "symbol": "CIGL",
+      "company_name": "CIGL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $57.96M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:52:33",
       "time_kst": "23:52:33",
       "symbol": "SEGG",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2778.26M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:55:00",
-      "time_kst": "22:55:00",
-      "symbol": "APVO",
-      "company_name": "APVO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-12 [8-K] (Item 1.01,3.02,8.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:51:33",
-      "time_kst": "22:51:33",
-      "symbol": "RIBB",
-      "company_name": "RIBB",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.66M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
