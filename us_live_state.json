@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:21:47",
-  "updated_at_et": "2026-11-20 10:21:47",
-  "updated_epoch_ms": 1795188107821,
+  "updated_at_kst": "2026-11-21 00:22:47",
+  "updated_at_et": "2026-11-20 10:22:47",
+  "updated_epoch_ms": 1795188167243,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.2899,
-    "profit_rate": 4.06,
-    "updated_kst": "00:21:42"
+    "current_price": 0.282,
+    "profit_rate": 1.22,
+    "updated_kst": "00:22:42"
   },
   "stats": {
     "today_total": 33,
@@ -2470,6 +2470,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:22:42",
+      "time_kst": "00:22:42",
+      "symbol": "IQST",
+      "company_name": "IQST",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.03,3.02,8.01,9.01))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "10:22:15",
+      "time_kst": "00:22:15",
+      "symbol": "JSPR",
+      "company_name": "JSPR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $357.7M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:19:40",
       "time_kst": "00:19:40",
       "symbol": "REED",
@@ -2947,26 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $1723.07M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:09:34",
-      "time_kst": "23:09:34",
-      "symbol": "NWBI",
-      "company_name": "NWBI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2123.96M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:07:23",
-      "time_kst": "23:07:23",
-      "symbol": "CHGA",
-      "company_name": "CHGA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-05 [8-K] (Item 1.01,2.03,3.02,5.02,9.01))"
     }
   ]
 }
