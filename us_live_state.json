@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:33:38",
-  "updated_at_et": "2026-11-20 07:33:38",
-  "updated_epoch_ms": 1795178018231,
+  "updated_at_kst": "2026-11-20 21:34:30",
+  "updated_at_et": "2026-11-20 07:34:30",
+  "updated_epoch_ms": 1795178070504,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.2799,
-    "profit_rate": 12.34,
-    "updated_kst": "21:33:27"
+    "current_price": 5.26,
+    "profit_rate": 11.91,
+    "updated_kst": "21:34:22"
   },
   "stats": {
     "today_total": 7,
@@ -2444,6 +2444,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:34:23",
+      "time_kst": "21:34:23",
+      "symbol": "NXH",
+      "company_name": "NXH",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $113.32M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:31:50",
       "time_kst": "21:31:50",
       "symbol": "HSCS",
@@ -2931,16 +2941,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:16:35",
-      "time_kst": "18:16:35",
-      "symbol": "ONEN",
-      "company_name": "ONEN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $54.14M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
