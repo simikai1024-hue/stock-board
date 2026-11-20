@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 01:56:58",
-  "updated_at_et": "2026-11-20 11:56:58",
-  "updated_epoch_ms": 1795193818022,
+  "updated_at_kst": "2026-11-21 01:57:51",
+  "updated_at_et": "2026-11-20 11:57:51",
+  "updated_epoch_ms": 1795193871698,
   "analyzing": {
-    "active": true,
-    "symbol": "AZIO",
-    "company_name": "AZIO",
-    "exchange": "ND",
-    "price": 0.4617,
-    "gain_pct": 14.99,
-    "mcap_m": 7.94,
-    "catalyst_hint": "[당일 PR] Same Business, Different Mission: AZIO AI Takes Its AI-Campus Power Playbook to $144.6 Million in Awarded U.S. Army Microgrid Work",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "11:56:49",
-    "started_at_kst": "01:56:49",
-    "started_epoch_ms": 1795193809321
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "AKAN",
     "holding_qty": 41,
     "avg_price": 4.3536,
-    "current_price": 4.5616,
-    "profit_rate": 4.78,
-    "updated_kst": "01:56:51"
+    "current_price": 4.5116,
+    "profit_rate": 3.63,
+    "updated_kst": "01:57:49"
   },
   "stats": {
-    "today_total": 35,
+    "today_total": 36,
     "today_nblm_count": 0,
     "today_buy": 7,
-    "today_false": 28,
+    "today_false": 29,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 10,
     "total_false": 140,
-    "avg_nblm_sec": 43.2
+    "avg_nblm_sec": 43.3
   },
   "verdicts": [
+    {
+      "id": "v_1795193865743_AZIO_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "11:57:45",
+      "time_kst": "01:57:45",
+      "symbol": "AZIO",
+      "company_name": "AZIO",
+      "exchange": "ND",
+      "price": 0.4617,
+      "gain_pct": 14.99,
+      "mcap_m": 7.94,
+      "decision": "FALSE",
+      "elapsed_sec": 60.5,
+      "reason": "11/19 기발표 육군 마이크로그리드 계약 100% 판박이 재탕 및 타사(ERP) 수주액 도용 착시(자사 매출 0원 자백)로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] Same Business, Different Mission: AZIO AI Takes Its AI-Campus Power Playbook to $144.6 Million in Awarded U.S. Army Microgrid Work",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 [cite: 13], [달의검] 실시간 긴급결재 원문서류철 [cite: 314] 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AZIO (AZIO AI Holdings, Inc.) 2026-11-20 11:56:45 ET 정규장 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 14, 314].\n1. 체급 & 실시간 시세 수급 팩트 (1.44억 달러 착시 적발 및 전일 기발표 판박이 재탕)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: AZIO) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 13, 316].\n실질 시가총액: 약 $7.94M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과) [cite: 15, 314].\n체급 대비 규모 ($144.60M 금액 왜곡 착시 적발: 타사 ERP의 계약 총액 도용 및 AZIO 매출 아님 자백):\n겉보기에는 핵심 금액 약 $144.60M (시총 $7.94M 대비 1,821.2%)의 미 육군 메가 수주처럼 포장되어 있으나, PR 본문 직독 결과 이는 치명적인 금액 착시이자 대리 홍보물입니다 [cite: 314, 319].\n원문 본문에 **\"The $144.6 million is the value of ERP's prime contracts with the U.S. Army. It is not AZIO's revenue, and AZIO is not providing revenue or profit projections (1억 4,460만 달러는 주계약자인 타사 ERP의 미 육군 계약 총액이며, AZIO의 매출이 아니며 AZIO는 어떠한 매출이나 이익 전망도 제공하지 않는다)\"**라고 명백히 자백되어 있습니다 [cite: 316, 319].\n더욱이 본문 첫머리에 **\"Disclosure: This article was prepared for and published by AZIO AI Holdings, Inc. and is not independent news coverage (본 기사는 AZIO가 작성 및 배포한 유료 홍보물이며 독립적인 뉴스 보도가 아님)\"**이라는 대행사 스폰서 문구가 명시되어 있습니다 [cite: 316].\n본 사업은 착공 일정조차 확정되지 않았으며, 주계약자 ERP가 이행보증증권(Bonds)을 미 육군에 제출하고 승인받아야만 비로소 시작될 수 있는 조건부 용역에 불과합니다 [cite: 319, 323].\n실시간 체결가 및 수급 (장중 최고가 대비 -0.1% 밀린 +14.99% 및 거래대금 $62.3K USD 미미):\n전일 종가 $0.4015 대비 현재가 $0.4617 (+14.99%) [cite: 315].\n당일 최고가 $0.4620 터치 후 윗꼬리 정체 중이며, 정규장 2시간 30분 경과 시점 누적 거래대금은 $62,300 USD (약 6.2만 달러 수준의 극소액 체결로 주포 기관 수급 유입 부재) [cite: 315].\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 315].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 11:55:00 ET) 공식 PR 원문 분석:\n배포망: globenewswire [cite: 315]\nPR 제목: \"Same Business, Different Mission: AZIO AI Takes Its AI-Campus Power Playbook to $144.6 Million in Awarded U.S. Army Microgrid Work\" [cite: 315]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n회사 금고로 유입되는 확정 금액 0원의 '타사 계약액 도용 마케팅' 언론플레이:\n원문 본문에 *\"On Thursday, it announced it will bring that same work to two awarded U.S. Army microgrid contracts with a combined value of about $144.6 million, under a general contracting agreement with prime contractor Energy Resilience Partners, LLC ('ERP')... The $144.6 million is the value of ERP's prime contracts... It is not AZIO's revenue...\"*라고 명시되어 있습니다 [cite: 316, 319].\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 18, 21].\nAZIO는 주계약자 ERP의 이사로 재직 중인 자사 이사(Larry G. Paige II)와의 관계를 통해 하청 총괄(GC) 및 PM 용역을 수행하고 순이익의 41.5%를 배분받기로 한 것에 불과하며, 확정된 계약 마진조차 0원(No margin is guaranteed)입니다 [cite: 320, 322].\n과거 180일 연속된 '어제(11/19) 발표의 100% 판박이 우려먹기 재탕' 적발:\n과거 180일 PR 원장 대조 결과 [cite: 324]:\n[2026-11-19 | financewire] AZIO AI Holdings (NASDAQ: AZIO) Signs Agreement to Support $144.6M in U.S. Army Microgrid Contracts [cite: 324]\n[2026-11-19 | reuters] Azio Ai Brings Ai-Campus Power Expertise To $144.6 Million In Awarded U.S. Army Microgrid Contracts, Serving As General Contractor At Fort Buchanan [cite: 324]\n[2026-11-19 | yahoo_rss] AZIO AI Holdings (AZIO) Signs Agreement to Support $144.6M in U.S. Army Microgrid Contracts [cite: 324]\n이미 어제(11/19) 로이터와 파이낸스와이어를 통해 $144.6M 미 육군 마이크로그리드 계약 지원 건을 대대적으로 발표했음에도 불구하고, 오늘(11/20) 글로브뉴스와이어 배포망만 바꾸어 \"Same Business, Different Mission\"이라는 문구를 달고 동일한 내용을 재탕 살포한 **전형적인 쪼개기 우려먹기 재탕 언론플레이(심사 헌법 제3조 ①항)**입니다 [cite: 315, 324].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 15, 18].\n심사 헌법 제3조 ①·②항 위배 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항(기발표 계약의 쪼개기 재탕) 및 ②항(자사 확정 매출 0원 자백, 타사 계약 총액 $144.6M 도용 착시, 스폰서 홍보물)에 완벽히 직격합니다 [cite: 316, 319, 324].\n과거 족보집에서도 AZIO는 11/03(+24.6% 후 시세 소멸), 11/09(+17.8% 윗꼬리 설거지) 등 일회성 변동성 이후 주저앉았던 전력이 확인됩니다 [cite: 86, 115, 116].\n3. 최종 심사 및 결재 판정\nAZIO의 당일 공식 PR은 타사(ERP)의 계약액 $144.6M을 도용한 금액 착시(자사 매출 아님을 원문에서 자백)이며, 어제(11/19) 이미 배포된 내용을 글로브뉴스와이어로 재살포한 판박이 재탕에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: AZIO 처리합니다 [cite: 15, 316, 319, 324].\n계좌 보호 원칙에 의거하여 오늘 11/20 정규장 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 330].\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 11/19 기발표 육군 마이크로그리드 계약 100% 판박이 재탕 및 타사(ERP) 수주액 도용 착시(자사 매출 0원 자백)로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20)은 프리마켓부터 본장 중반까지 NA, VWAV, DRIO, YFOR, TYGO, NCNA, CVM, PHUN, BRNX, STKS, NVNO, FRGT, APRE, SAGT, TKLF, CWD, ZEO, EPOW에 이어 AZIO(전일 발표 재탕 및 타사 금액 도용)까지 19개 후보 종목 전수가 껍데기 IR, 타사 금액 착시, 전일 재탕, 펀딩 0원 지정, 소액 용역, 소송 공지, 학회 발표로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 324, 332, 335, 339, 344].\n정규장 후반부까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완벽히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 18].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795190078599_VIVS_BUY",
       "track": "TRACK3",
@@ -2456,26 +2465,6 @@
       "reason": "확정 수주 전무한 단순 나스닥 $1 입찰가 미달 결함통보(Deficiency) 수령 악재 PR로 헌법 3조 4항 위배 및 장전 -11.5% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Magic Empire Global Limited Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MEGL (Magic Empire Global Limited) 2026-11-18 06:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.96M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 호재성 상업 계약이 아니라, 나스닥 상장유지 규정 미달에 따른 **최소 입찰가 미달 결함 통보 수령(Nasdaq Minimum Bid Price Deficiency Letter Receipt)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -11.5% 급락 덤핑):\n전일 종가 $0.1169 대비 현재가 $0.1175 (+0.51%), 당일 최고가 $0.1328 (고점 대비 -11.5%).\n당일 누적 거래대금 $856 USD (856달러 수준의 극소액 프리마켓 거래량).\n당일 SEC 공시 현황: 2026-11-18 [6-K] (EX-99.1) 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 06:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Magic Empire Global Limited Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n호재가 아닌 악재/행정 규제 통보 (Deficiency Notice PR):\n원문 본문에 *\"on November 16, 2026, the Company received a letter from the Listing Qualifications staff of The Nasdaq Stock Market notifying the Company that based on the closing bid price of the Company for the period from October 5, 2026 to November 13, 2026, the Company no longer meets the continued listing requirement of Nasdaq under Nasdaq Listing Rules 5550(a)(2), to maintain a minimum bid price of $1 per share\"*라고 명시되어 있습니다.\n이는 나스닥 상장 요건을 회복했다는 호재(Compliance Regained)가 아니라, 30영업일 연속 $1 미만 유지로 인해 상장폐지 경고 결함 통보를 받았다는 악재성 규제 행정 공시입니다.\n외부 고객사나 투자자로부터 회사 금고로 유입되는 확정 수주액, 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 $100M 신용 한도(11/04), $500M 목재 무역(10/27), $100M ATM 유증(10/02) 등 거액 뻥튀기 IR 상습 작전주 이력:\n과거 이력 대조 결과 회사는 10월과 11월에 $500M, $100M 단위의 허황된 목재 무역 제휴를 발표했으나 실체적 매출은 전무했습니다.\n오히려 10월 2일 $100M 규모의 ATM(At-the-Market Offering) 유상증자 프로그램을 가동하고 직전 9월 말 $3M 유상증자를 단행하는 등 지분 희석 리스크가 극심한 홍콩계 페이퍼컴퍼니 구조입니다.\n심사 헌법 제3조 ④항 위배 및 윗꼬리 덤핑(-11.5%):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 규정 미달 경고 통보(Deficiency Notice) 및 행정 통보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.1328까지 반짝 튄 뒤 -11.5% 급락하며 매물대 설거지가 진행 중입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 확정된 고객사 수주나 현금 선급금이 전무하고, 단순 나스닥 $1 최소 입찰가 미달 결함 통보(Deficiency Letter) 수령에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MEGL 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: MEGL NOTES:\n[MEGL] 확정 수주 전무한 단순 나스닥 $1 입찰가 미달 결함통보(Deficiency) 수령 악재 PR로 헌법 3조 4항 위배 및 장전 -11.5% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY(ChatGPT 단순 앱 출시), VWAV(매출 0건 비구속 MOU 나열), FRSX(비구속 3자 프레임워크 쪼개기), HIHO(특별배당 후속 단순 실적 덤핑), MEGL(상장폐지 경고 결함통보) 등 5개 종목 전수가 껍데기 IR 및 악재성 공시로 밝혀져 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795000717275_HIHO_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "06:18:37",
-      "time_kst": "20:18:37",
-      "symbol": "HIHO",
-      "company_name": "Highway Holdings Limited",
-      "exchange": "ND",
-      "price": 1.3503,
-      "gain_pct": 9.78,
-      "mcap_m": 6.25,
-      "decision": "FALSE",
-      "elapsed_sec": 46.1,
-      "reason": "11/16 특별배당 재료소멸 후 나온 단순 2분기 정기실적 홍보 PR로 헌법 3조 4항 위배 및 장전 -18.2% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] HIGHWAY HOLDINGS RETURNS TO STRONG REVENUE GROWTH AND OPERATING PROFITABILITY IN SECOND QUARTER FISCAL YEAR 2027",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 HIHO (Highway Holdings Limited) 2026-11-18 06:17:51 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $6.25M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 배당 등 금융 기폭제 결여 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 신규 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 11월 16일의 대박 특별배당과 같은 신규 금융 기폭제가 아니라, 단순 **2027 회계연도 2분기(9월 30일 마감) 정기 실적 발표(Second Quarter Fiscal Year 2027 Financial Results)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 $1.6500 찍은 후 고점 대비 -18.2% 급락 덤핑):\n전일 종가 $1.2300 대비 현재가 $1.3503 (+9.78%).\n장전 프리마켓에서 $1.6500까지 튀어 오른 뒤, 고점 대비 -18.2% 폭락하며 개인 매수세를 물리고 급락 덤핑 중.\n당일 누적 거래대금 $2,809,380 USD (약 280만 달러 규모의 대량 회전이 일어나며 전형적인 실적 발표 윗꼬리 차트 형성).\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 06:00 ET) 공식 PR 원문 분석:\nPR 제목: \"HIGHWAY HOLDINGS RETURNS TO STRONG REVENUE GROWTH AND OPERATING PROFITABILITY IN SECOND QUARTER FISCAL YEAR 2027\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 신규 금융 기폭제가 아닌 단순 과거 2분기 정기 실적 발표 (Quarterly Earnings PR):\n원문 본문은 지난 9월 30일로 이미 종료된 2027 회계연도 2분기 실적(매출 성장 및 영업이익 흑자 전환)을 나열한 전형적인 정기 실적 보고 보도자료입니다.\n외부 고객사로부터 회사 금고로 유입되는 확정 신규 메가 수주액, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 16일 기발표된 초고율 특별배당 재료 소멸 후 나온 사후 정기 실적 포장 (Spin PR):\n과거 이력 대조 결과 회사는 이미 이틀 전인 2026년 11월 16일에 PR Newswire를 통해 *\"HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND\"*를 발표하여 당일 주가가 +78.3% 폭등하며 이미 기폭제가 완전히 소멸/반영되었습니다.\n또한 11월 5일 데이비드 라자르(David Lazar)의 $7.0M 전략적 투자 및 기존 사업 스핀오프 완료 발표(6-K, 13D) 역시 이미 시장에 다 노출된 과거 재료입니다.\n이번 11/18 실적 발표는 이미 시세 분출이 끝난 종목에서 **지연 발표된 과거 분기 실적 수치를 띄워 남은 잔여 물량을 정리하는 사후 쪼개기/언론 플레이(Spin PR)**에 불과합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 새롭게 폭등시킬 수 있는 당일 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -18.2% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기 정기 실적 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.6500까지 반짝 상승 후 고점 대비 -18.2% 폭락하며 전형적인 실적 발표 설거지 윗꼬리 차트를 그리고 있습니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 단일 고객사와의 신규 확정 메가 수주나 현금 선급금이 전무하고, 이틀 전(11/16) 주당 $0.43228 특별배당으로 이미 시세가 분출된 이후에 나온 단순 2분기 정기 실적 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -18.2% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: HIHO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: HIHO NOTES:\n[HIHO] 11/16 특별배당 재료소멸 후 나온 단순 2분기 정기실적 홍보 PR로 헌법 3조 4항 위배 및 장전 -18.2% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY(ChatGPT 단순 앱 출시), VWAV(매출 0건 비구속 MOU 나열), FRSX(비구속 3자 프레임워크 쪼개기), HIHO(특별배당 후속 단순 실적 덤핑) 등 껍데기 IR 및 실적 재포장 4건이 전량 신속·정밀하게 차단되어 계좌를 안전하게 지켜냈습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
