@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 19:56:23",
-  "updated_at_et": "2026-11-20 05:56:23",
-  "updated_epoch_ms": 1795172183680,
+  "updated_at_kst": "2026-11-20 19:57:37",
+  "updated_at_et": "2026-11-20 05:57:37",
+  "updated_epoch_ms": 1795172257848,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "",
     "holding_qty": 0,
     "avg_price": 0.0,
-    "current_price": 0.67,
-    "profit_rate": -26.7,
-    "updated_kst": "19:56:20"
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "19:57:28"
   },
   "stats": {
     "today_total": 3,
