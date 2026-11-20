@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 23:32:15",
-  "updated_at_et": "2026-11-20 09:32:15",
-  "updated_epoch_ms": 1795185135941,
+  "updated_at_kst": "2026-11-20 23:35:52",
+  "updated_at_et": "2026-11-20 09:35:52",
+  "updated_epoch_ms": 1795185352059,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SEGG",
     "holding_qty": 447,
     "avg_price": 0.8399,
-    "current_price": 0.8597,
-    "profit_rate": 2.36,
-    "updated_kst": "23:32:06"
+    "current_price": 0.847,
+    "profit_rate": 0.85,
+    "updated_kst": "23:35:46"
   },
   "stats": {
     "today_total": 30,
@@ -2467,6 +2467,26 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "09:33:09",
+      "time_kst": "23:33:09",
+      "symbol": "DRK",
+      "company_name": "DRK",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "09:32:16",
+      "time_kst": "23:32:16",
+      "symbol": "EUDA",
+      "company_name": "EUDA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $50.54M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "09:32:13",
       "time_kst": "23:32:13",
       "symbol": "AIIO",
@@ -2944,26 +2964,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $936.61M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:26:22",
-      "time_kst": "22:26:22",
-      "symbol": "PYPL",
-      "company_name": "PYPL",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $46824.19M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:26:14",
-      "time_kst": "22:26:14",
-      "symbol": "PSEC",
-      "company_name": "PSEC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $701.81M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
