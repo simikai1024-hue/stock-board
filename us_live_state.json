@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:05:25",
-  "updated_at_et": "2026-11-20 08:05:25",
-  "updated_epoch_ms": 1795179925667,
+  "updated_at_kst": "2026-11-20 22:06:21",
+  "updated_at_et": "2026-11-20 08:06:21",
+  "updated_epoch_ms": 1795179981855,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.1587,
-    "profit_rate": 9.76,
-    "updated_kst": "22:05:20"
+    "current_price": 5.1,
+    "profit_rate": 8.51,
+    "updated_kst": "22:06:18"
   },
   "stats": {
     "today_total": 11,
@@ -2448,6 +2448,46 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:05:55",
+      "time_kst": "22:05:55",
+      "symbol": "CDW",
+      "company_name": "CDW",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $20919.24M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:05:49",
+      "time_kst": "22:05:49",
+      "symbol": "ALNY",
+      "company_name": "ALNY",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $19798.72M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:05:44",
+      "time_kst": "22:05:44",
+      "symbol": "CTSO",
+      "company_name": "CTSO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 유상증자/오퍼링/워런트 희석 PR 명시 (CytoSorbents Announces $6.25 Million Common Stock Finan)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:05:34",
+      "time_kst": "22:05:34",
+      "symbol": "BKHA",
+      "company_name": "BKHA",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "당일 투매 급락 구간 방어 차단 (현재 -67.0% <= -8.0%)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:04:19",
       "time_kst": "22:04:19",
       "symbol": "CMMB",
@@ -2905,46 +2945,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-18 [8-K] (Item 3.02))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:23:10",
-      "time_kst": "18:23:10",
-      "symbol": "PARA",
-      "company_name": "PARA",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-06 [424B4])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:21:54",
-      "time_kst": "18:21:54",
-      "symbol": "CDT",
-      "company_name": "CDT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-27 [8-K] (Item 1.01,3.02,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:20:28",
-      "time_kst": "18:20:28",
-      "symbol": "IMCC",
-      "company_name": "IMCC",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:20:22",
-      "time_kst": "18:20:22",
-      "symbol": "IDAI",
-      "company_name": "IDAI",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-18 [424B5])"
     }
   ]
 }
