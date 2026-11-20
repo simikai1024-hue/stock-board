@@ -1,22 +1,10 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:44:53",
-  "updated_at_et": "2026-11-20 07:44:53",
-  "updated_epoch_ms": 1795178693715,
+  "updated_at_kst": "2026-11-20 21:45:33",
+  "updated_at_et": "2026-11-20 07:45:33",
+  "updated_epoch_ms": 1795178733555,
   "analyzing": {
-    "active": true,
-    "symbol": "YFOR",
-    "company_name": "YFOR",
-    "exchange": "ND",
-    "price": 1.1615,
-    "gain_pct": 2.79,
-    "mcap_m": 14.91,
-    "catalyst_hint": "[당일 PR] YYForce Wins S$831,120 Two-Year Security Contract in Singapore",
-    "queue_remaining": 0,
-    "mode_label": "실시간 긴급 심문 중",
-    "started_at_et": "07:44:44",
-    "started_at_kst": "21:44:44",
-    "started_epoch_ms": 1795178684348
+    "active": false
   },
   "halt_watch": {
     "active": false
@@ -29,22 +17,43 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.03,
-    "profit_rate": 7.02,
-    "updated_kst": "21:44:44"
+    "current_price": 5.0999,
+    "profit_rate": 8.51,
+    "updated_kst": "21:45:23"
   },
   "stats": {
-    "today_total": 8,
+    "today_total": 9,
     "today_nblm_count": 0,
     "today_buy": 3,
-    "today_false": 5,
+    "today_false": 6,
     "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
-    "avg_nblm_sec": 29.6
+    "avg_nblm_sec": 34.3
   },
   "verdicts": [
+    {
+      "id": "v_1795178727431_YFOR_FALSE",
+      "track": "TRACK1",
+      "date_et": "2026-11-20",
+      "weekday_kr": "금",
+      "time_et": "07:45:27",
+      "time_kst": "21:45:27",
+      "symbol": "YFOR",
+      "company_name": "YFOR",
+      "exchange": "ND",
+      "price": 1.1615,
+      "gain_pct": 2.79,
+      "mcap_m": 14.91,
+      "decision": "FALSE",
+      "elapsed_sec": 47.0,
+      "reason": "실질 시총 대비 4.2%(약 $0.62M)에 불과한 2년 분할 단순 경비용역 도급 계약 및 장전 -14.6% 윗꼬리 소멸로 헌법 3조 1·2항 위배 전량 차단",
+      "catalyst_hint": "[당일 PR] YYForce Wins S$831,120 Two-Year Security Contract in Singapore",
+      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 YFOR (YYForce Inc.) 2026-11-20 07:44:40 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재검증 직독 결재 보고입니다 [cite: 18, 430].\n1. 체급 & 실시간 시세 수급 팩트 (장전 거래대금 $290K 및 -14.6% 윗꼬리 정체)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: YFOR) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 18, 432].\n실질 시가총액: 약 $14.91M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과) [cite: 20].\n체급 대비 규모 (시총 대비 단 4.2% 수준의 2년 분할 초소액 경비 용역 재확인):\n당일 PR의 계약 총액은 싱가포르 달러 S$831,120 [cite: 432].\n이를 미국 달러(USD)로 환산하면 약 $62만 달러($0.62M USD) 수준에 불과합니다 [cite: 430, 432].\n게다가 일시 수령도 아닌 \"2년 분할(Two-Year Contract)\" 계약이므로 연간 환산 매출은 약 $31만 달러($0.31M)에 그치며, 실질 시총($14.91M) 대비 비중은 **고작 4.2% (연간 기준 2.1%)**에 불과합니다 [cite: 432].\n이는 연구소 심사 헌법 제2조 ①항의 \"시총 대비 압도적 확정 달러 상업 수주(시총 30%+~100%+ 메가 수주 AIMD형)\" 기준에 턱없이 미달하는 일상적인 쇼핑몰 경비 인력 파견 도급 계약입니다 [cite: 21, 24, 432].\n실시간 체결가 및 수급 (장전 최고가 대비 -14.6% 윗꼬리 정체):\n전일 종가 $1.1300 대비 현재가 $1.1615 (+2.79%) [cite: 431].\n당일 프리마켓 최고가 $1.3600 (+20.35%)까지 반짝 띄운 후 실체 없는 소액 경비 용역임을 확인하고 고점 대비 -14.6% 밀려 상승폭을 대부분 반납했습니다 [cite: 431].\n당일 누적 거래대금은 $290,361 USD로 윗꼬리 구간에서 대규모 개인 물량 물림이 발생했습니다 [cite: 431].\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 20, 431].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/20 07:35:00 ET) 공식 PR 원문 분석:\nPR 제목: \"YYForce Wins S$831,120 Two-Year Security Contract in Singapore\" [cite: 431]\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 자회사(Uniforce)의 2년짜리 초소액 상업시설 경비 용역:\n원문 본문에 *\"today announced that its subsidiary, Uniforce Security Services Pte Ltd ('Uniforce'), was awarded a two-year contract valued at approximately S$831,120 to provide security services at a commercial retail and lifestyle development in Singapore... Uniforce will provide on-site security around the clock, 365 days a year. Officers will manage patrols, support crowd management and respond to incidents...\"*라고 명시되어 있습니다 [cite: 432].\n이는 회사 금고로 직통 유입되는 거액 현금 선급금(AIMD형 50% 현금 계약)이나 혁신 테크 수주가 전혀 아닙니다 [cite: 21, 39].\n싱가포르 내 리테일 상업시설 1곳에 경비원 인력을 파견해 순찰을 돌고 관제 센터를 지원하는 전형적인 단순 인력 파견 도급 용역입니다 [cite: 432].\n직전 11/17 주식병합(1-for-50) 단행 직후의 쪼개기 언론플레이 남발 적발:\n과거 180일 원장 대조 결과 [cite: 437, 438, 441]:\n[2026-11-19 SEC 6-K EX-99.1] YYForce Announces Effective Date of 1-for-50 Reverse Stock Split (11/17 기준 1-for-50 주식병합 발표) [cite: 441]\n[2026-11-13 | prnewswire] YYForce Wins Major UAE Hospitality Contracts as Middle East Expansion Accelerates [cite: 438]\n[2026-11-12 | prnewswire] YYForce Secures 100+ Outlet Restaurant Staffing Deal Across Singapore [cite: 438]\nYFOR는 최근 1-for-50 대규모 주식병합을 거치며 주가가 폭락한 상태에서 식당 인력 파견, UAE 호텔 계약 등 **실질 금융 임팩트가 미미한 소액 도급 계약 언론플레이를 2~3일 간격으로 쪼개서 배포(심사 헌법 제3조 ①항)**해 온 전형적인 테마 쪼개기 기업입니다 [cite: 438, 441].\n8대 1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(8대 1급 대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 상업수주/정부계약+현금선급금(시총 30%+~100%+ AIMD형), 지분희석 0% 거액 확정 무상보조금, 빅파마 독점 라이선스, FDA 승인/임상 성공, 프리미엄 전략적 지분투자, 상방 열린 M&A/공개매수, 초고율 보통주 특별배당, 나스닥 자기자본 회복+차입부채/전환사채 0원 전액소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 20, 21, 24].\n심사 헌법 제3조 ①·②항 위배 및 장전 -14.6% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '소규모 도급 용역의 쪼개기 재탕' 및 ②항의 '시총 대비 30%에 턱없이 미달하는 소액 계약(시총 대비 4.2%)' 규칙에 완벽히 직격합니다 [cite: 21].\n장전 프리마켓에서 $1.3600까지 반짝 띄운 후 실체 없는 60만 달러짜리 경비 용역임을 확인하고 고점 대비 -14.6% 밀려 정체된 전형적인 윗꼬리 설거지 차트입니다 [cite: 431].\n3. 최종 심사 및 결재 판정\nYFOR의 당일 공식 PR은 실질 시총 대비 고작 4.2% 수준(약 $0.62M USD)의 2년 분할 싱가포르 상업시설 경비 용역 도급 계약에 불과하여 헌법 제2조 ①항(시총 30%+~100%+ 창사 최대 수주+선급금)에 절대 미달하므로 심사 헌법 제3조 ①·②항에 의거 FORCE_BLOCK: YFOR 처리합니다 [cite: 21, 430, 431, 432].\n계좌 보호 원칙에 의거하여 오늘 11/20 프리마켓 재확인 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-20 FORCE_BUY: NONE FORCE_BLOCK: YFOR NOTES:\n[YFOR] 실질 시총 대비 4.2%(약 $0.62M)에 불과한 2년 분할 단순 경비용역 도급 계약 및 장전 -14.6% 윗꼬리 소멸로 헌법 3조 1·2항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/20) 프리마켓 구간에서는 첫 번째 종목 NA(단순 주총 연기 재탕), 두 번째 종목 VWAV(미종결 MVP 플랫폼 단순 인수), 세 번째 종목 DRIO(포럼 패널 토론 단순 참가)에 이어 YFOR(시총 대비 4.2% 초소액 경비 용역) 재확인 건까지 4개 후보 종목 전수가 껍데기 IR 및 소액 용역 언론플레이로 정밀 감별되어 안전하게 전량 방어되었습니다 [cite: 417, 431, 432, 441]. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 무차입 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 결재를 직통 보고드리겠습니다 [cite: 21, 24].",
+      "engine": "트랙1 PR·공시",
+      "trade_action": "🛡️ 트랙1 패스"
+    },
     {
       "id": "v_1795178301265_YFOR_FALSE",
       "track": "TRACK1",
@@ -2430,26 +2439,6 @@
       "reason": "11/9 기예고된 ObesityWeek 학회발표 및 기완료 임상 2b상 사후 하위분석(Post Hoc) 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 VERU (Veru Inc.) 2026-11-17 08:37 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.66M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 확정 수주/라이선스 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 라이선스 계약금이나 현금 유입 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.0800 대비 현재가 $2.1500 (+3.37%), 당일 최고가 $2.1500 (고점 대비 +0.0%).\n당일 누적 거래대금 $1,638 USD (1천6백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Physical Function Decline; Adding Enobosarm Preserved Significant Lean Mass and Physical Function\"\n원문 직독 결과 드러난 치명적 실체:\nFDA 승인이나 빅파마 기술이전 계약이 아닌 학회 구두 발표 및 과거 임상 사후 하위분석 재탕 (Post Hoc Subset Analysis at ObesityWeek PR):\n본 PR의 본질은 FDA 정식 시판 승인이나 글로벌 제약사와의 거액 독점 라이선스 계약이 아닙니다.\n이미 완료된 과거 임상 2b상(QUALITY 연구) 환자 데이터 중 65세 이상 고령자 92명을 사후 분리 분석(Post hoc subset analysis)하여 비만학회(ObesityWeek 2026)에서 포디엄 구두 발표를 진행했다는 **단순 학회 발표 및 사후 통계 분석 보도자료(today announced that Veru had a podium presentation at ObesityWeek 2026 in Washington DC... reviewed results of the new post hoc physical function subset analysis...)**에 불과합니다.\n외부 빅파마로부터 확정 유입되는 라이선스 계약금(Upfront), 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 전혀 없습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n과거 180일 학회 발표 사전 예고(11/09)의 8일 만에 나온 단순 당일 행사 사후 발표 쪼개기 재탕:\n과거 이력 대조 결과 회사는 불과 8일 전인 2026년 11월 9일에 GlobeNewswire를 통해 *\"Veru to Present New Results on Effects of Enobosarm on Physical Function in Older Patients Receiving GLP-1 RA from the Phase 2b QUALITY clinical study at ObesityWeek 2026\"*라고 사전 예고한 바 있습니다.\n오늘 보도자료는 11월 9일에 발표할 것이라고 이미 알렸던 학회 발표 내용을 학회 당일(11/17) 단순 재인용하여 전송한 전형적인 사후 쪼개기/학회 재탕 언론 플레이입니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 학회 사전예고(11/9)의 당일 사후 발표 쪼개기 재탕 및 과거 기완료 임상의 사후 하위분석(Post Hoc) 우려먹기, ④ 신규 확정 계약 금액이 없는 단순 학회 발표/데이터 홍보는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 빅파마 기술수출 계약이나 FDA 시판 승인이 전무하고, 11월 9일에 이미 예고되었던 ObesityWeek 2026 학회 구두 발표 및 기완료 임상 2b상의 사후 하위분석(Post Hoc) 결과 재탕에 불과하여 1급 확정 기폭제 기준에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: VERU 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: VERU NOTES:\n[VERU] 11/9 기예고된 ObesityWeek 학회발표 및 기완료 임상 2b상 사후 하위분석(Post Hoc) 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1794922673286_IDAI_FALSE",
-      "date_et": "2026-11-17",
-      "weekday_kr": "화",
-      "time_et": "08:37:53",
-      "time_kst": "22:37:53",
-      "symbol": "IDAI",
-      "company_name": "IDAI",
-      "exchange": "ND",
-      "price": 2.55,
-      "gain_pct": 12.83,
-      "mcap_m": 14.5,
-      "decision": "FALSE",
-      "elapsed_sec": 40.8,
-      "reason": "신규 수주 전무 및 전일(11/16) 기발표된 3분기 실적의 매출증가율만 재포장한 24시간만 실적 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-mo",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 IDAI (T Stamp Inc. / Trust Stamp) 2026-11-17 08:37 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.5M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 착시 정밀 검증 (치명적 수주/신규 계약 금액 부재 적발):\n본문 헤드라인의 **\"37% increase in net revenue for Q3, 28% increase for nine-month period\"**는 신규 고객사 수주 계약이나 현금 유입 계약이 아닙니다.\n이미 지난 2026년 9월 30일로 마감된 **과거 3분기 및 9개월 누적 정기 실적 수치(Historical Financial Results)**에 불과하며, 당일 PR 내 백만 달러($M) 이상 신규 확정 계약 금액은 일절 미감지(전무) 상태입니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.2600 대비 현재가 $2.5500 (+12.83%), 당일 최고가 $2.6100 (고점 대비 -2.3%).\n당일 누적 거래대금 $82 USD (82달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/17 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Trust Stamp provided a report for the nine months ending September 30, 2026 including a 37% increase in net revenue for Q3 and a 28% increase in net revenue for the nine-month period when compared to the comparable periods in 2025, with the growth in revenue significantly outpacing the growth in cash expenses\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n전일(11/16) 기발표된 3분기 정기 실적의 24시간 만의 포장 재탕 (Earnings Re-hash Trap):\n과거 이력 대조 결과 회사는 바로 전날인 2026년 11월 16일에 이미 3분기 실적(Q3 Results)을 공식 발표한 바 있습니다.\n어제 외신 보도(\"Trust Stamp's Q3 net loss widens due to higher expenses\", \"T Stamp Inc. Reports Q3 Loss, Lags Revenue Estimates\")를 통해 손실 확대 및 매출 전망치 하회로 주가가 부진하자, **당일 아침 매출 증가율(Q3 +37%, 9개월 +28%)과 비용 통제 문구만 유리하게 발췌·재가공하여 띄운 전형적인 사후 실적 재탕/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(AIMD형 창사 최대 수주), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n단순 정기 실적 공표는 족보집상 전형적인 보합·설거지 패턴:\n족보집 누적 실전 표본에서 단순 분기 실적(Q3 Earnings) 발표 및 실적 호조 PR(CDW, EPAM, FTCI, ATYR, CNH 등)은 당일 일시적 반등 후 윗꼬리를 달고 급락하거나 보합으로 주저앉는 **전형적인 설거지/보합 함정(족보집 실패 표본 다수)**으로 증명되어 있습니다.\n심사 헌법 제3조 ①·④항 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 전일 기발표된 3분기 실적의 유리한 수치만 쪼개어 재홍보한 24시간 만의 쪼개기 재탕 및 ④ 신규 확정 수주 계약 금액이 없는 단순 정기 실적 보고서는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 신규 수주나 매출 계약이 전무하며, 전일(11/16) 기발표되어 어닝 쇼크를 기록했던 3분기 정기 실적 중 매출 증가율만 유리하게 발췌하여 재포장한 100% 실적 재탕 PR에 불과하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: IDAI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-17 FORCE_BUY: NONE FORCE_BLOCK: IDAI NOTES:\n[IDAI] 신규 수주 전무 및 전일(11/16) 기발표된 3분기 실적의 매출증가율만 재포장한 24시간만 실적 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
