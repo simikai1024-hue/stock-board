@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:24:39",
-  "updated_at_et": "2026-11-20 08:24:39",
-  "updated_epoch_ms": 1795181079337,
+  "updated_at_kst": "2026-11-20 22:25:27",
+  "updated_at_et": "2026-11-20 08:25:27",
+  "updated_epoch_ms": 1795181127515,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 0.41,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "22:24:33"
+    "holding_symbol": "SEGG",
+    "holding_qty": 447,
+    "avg_price": 0.8399,
+    "current_price": 0.8178,
+    "profit_rate": -2.63,
+    "updated_kst": "22:25:20"
   },
   "stats": {
     "today_total": 13,
@@ -2450,6 +2450,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:25:17",
+      "time_kst": "22:25:17",
+      "symbol": "BLTE",
+      "company_name": "BLTE",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $6133.55M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:25:09",
+      "time_kst": "22:25:09",
+      "symbol": "ASUR",
+      "company_name": "ASUR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $309.84M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "08:25:01",
+      "time_kst": "22:25:01",
+      "symbol": "ALLO",
+      "company_name": "ALLO",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $231.06M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:23:57",
       "time_kst": "22:23:57",
       "symbol": "MATW",
@@ -2610,16 +2640,6 @@
     },
     {
       "date_et": "2026-11-20",
-      "time_et": "08:01:50",
-      "time_kst": "22:01:50",
-      "symbol": "BLTE",
-      "company_name": "BLTE",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $6133.55M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
       "time_et": "08:01:45",
       "time_kst": "22:01:45",
       "symbol": "INVE",
@@ -2637,26 +2657,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $56.67M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:01:34",
-      "time_kst": "22:01:34",
-      "symbol": "ASUR",
-      "company_name": "ASUR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $309.84M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "08:01:31",
-      "time_kst": "22:01:31",
-      "symbol": "ALLO",
-      "company_name": "ALLO",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $231.06M (기준 <= $50.0M USD 초과/초고속컷)"
     },
     {
       "date_et": "2026-11-20",
