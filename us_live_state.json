@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:57:36",
-  "updated_at_et": "2026-11-20 07:57:36",
-  "updated_epoch_ms": 1795179456453,
+  "updated_at_kst": "2026-11-20 21:58:32",
+  "updated_at_et": "2026-11-20 07:58:32",
+  "updated_epoch_ms": 1795179512863,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 5.08,
-    "profit_rate": 8.09,
-    "updated_kst": "21:57:27"
+    "current_price": 5.06,
+    "profit_rate": 7.66,
+    "updated_kst": "21:58:23"
   },
   "stats": {
     "today_total": 10,
@@ -2447,6 +2447,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:57:43",
+      "time_kst": "21:57:43",
+      "symbol": "QXL",
+      "company_name": "QXL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $64.92M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:46:29",
       "time_kst": "21:46:29",
       "symbol": "IESC",
@@ -2934,16 +2944,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:16:58",
-      "time_kst": "18:16:58",
-      "symbol": "IMDX",
-      "company_name": "IMDX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $57.65M (기준 <= $50.0M USD 초과/미확인)"
     }
   ]
 }
