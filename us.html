@@ -3,378 +3,344 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>미국판 달의 검 V5 · NotebookLM 실시간 심문 전광판</title>
-<link rel="icon" type="image/png" sizes="192x192" href="./icons/us-192.png">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>미국장 달의 검 · 트랙1 & 트랙3 실시간 신호판</title>
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
-  body { background-color: #0B1120; color: #F8FAFC; padding: 16px; max-width: 1260px; margin: 0 auto; line-height: 1.48; }
+  :root {
+    --bg: #F3F8FF;
+    --card: #FFFFFF;
+    --ink: #0F172A;
+    --muted: #64748B;
+    --line: #E2E8F0;
+    --sky: #0284C7;
+    --sky-soft: #E0F2FE;
+    --violet: #7C3AED;
+    --violet-soft: #F3E8FF;
+    --mint: #059669;
+    --mint-soft: #DCFCE7;
+    --coral: #E11D48;
+    --coral-soft: #FFE4E6;
+    --amber: #D97706;
+    --amber-soft: #FEF3C7;
+    --shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Pretendard', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
+  body {
+    background: linear-gradient(180deg, #EAF4FF 0%, #FFFDF8 52%, #F3F8FF 100%);
+    min-height: 100vh;
+    color: var(--ink);
+    padding: 14px;
+    max-width: 1120px;
+    margin: 0 auto;
+    line-height: 1.45;
+  }
 
-  /* 상단 헤더 */
-  .header-bar {
+  /* 상단 슬림 헤더 */
+  .top-header {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    background: #111C33; border: 1px solid #243556; border-radius: 14px; padding: 14px 20px; margin-bottom: 12px;
+    background: linear-gradient(135deg, #FFFFFF 0%, #F0F9FF 100%);
+    border: 1px solid #BAE6FD;
+    border-radius: 18px;
+    padding: 13px 18px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
   }
-  .header-title { font-size: 21px; font-weight: 900; color: #FDE047; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .header-sub-tag {
-    font-size: 12.5px; font-weight: 900; padding: 3px 9px; border-radius: 999px;
-    background: rgba(56, 189, 248, 0.18); border: 1px solid #38BDF8; color: #7DD3FC;
+  .brand-wrap { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+  .brand-title {
+    font-size: 19px; font-weight: 900; letter-spacing: -0.4px;
+    background: linear-gradient(90deg, #0284C7, #7C3AED);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
-  .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-  .clock-txt {
-    font-size: 13.5px; font-weight: 800; color: #E2E8F0; background: #0F172A;
-    border: 1px solid #334155; padding: 6px 12px; border-radius: 8px;
+  .ver-pill {
+    font-size: 11.5px; font-weight: 800; padding: 2px 8px; border-radius: 999px;
+    background: var(--violet-soft); color: var(--violet);
   }
-  .status-txt { font-size: 14px; font-weight: 800; color: #FBBF24; }
-  .sound-ctrl-group {
-    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
-    background: #0F172A; border: 1px solid #334155; border-radius: 10px; padding: 4px 8px;
+  .header-tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .clock-chip {
+    font-size: 12.5px; font-weight: 800; color: #334155;
+    background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 999px; padding: 5px 11px;
   }
-  .sound-btn {
-    background: #1E293B; color: #E2E8F0; border: 1px solid #475569; border-radius: 7px;
-    padding: 6px 11px; font-size: 13px; font-weight: 800; cursor: pointer; transition: 0.15s;
+  .live-chip {
+    font-size: 12.5px; font-weight: 800; padding: 5px 11px; border-radius: 999px;
+    background: var(--amber-soft); color: var(--amber);
   }
-  .sound-btn:hover { background: #334155; color: #FFFFFF; }
-  .sound-btn.on { background: #064E3B; border-color: #10B981; color: #A7F3D0; box-shadow: 0 0 12px rgba(16, 185, 129, 0.28); }
-  .sound-btn.playing { background: #1E1B4B; border-color: #818CF8; color: #E0E7FF; animation: spinDot 1.8s infinite; }
-  .vol-wrap { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 800; color: #94A3B8; padding: 0 4px; }
-  .vol-slider { width: 68px; accent-color: #38BDF8; cursor: pointer; }
+  .live-chip.ok { background: var(--mint-soft); color: var(--mint); }
+  .mini-btn {
+    border: 1px solid #CBD5E1; background: #FFFFFF; color: #334155;
+    border-radius: 999px; padding: 5px 11px; font-size: 12.5px; font-weight: 800;
+    cursor: pointer; transition: 0.15s;
+  }
+  .mini-btn:hover { background: #F1F5F9; transform: translateY(-1px); }
+  .mini-btn.on { background: var(--mint-soft); border-color: #34D399; color: var(--mint); }
 
-  /* 계좌 & 레이더 상태 스트립 */
-  .radar-strip {
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    background: #0F192E; border: 1px solid #1E3A5F; border-radius: 12px;
-    padding: 11px 18px; margin-bottom: 14px; font-size: 14.5px; font-weight: 800; color: #CBD5E1;
-  }
-  .radar-pos-pill {
-    padding: 5px 13px; border-radius: 999px; font-size: 14px; font-weight: 900;
-    background: rgba(16, 185, 129, 0.15); border: 1px solid #10B981; color: #6EE7B7;
-  }
-  .radar-pos-pill.holding {
-    background: rgba(245, 158, 11, 0.22); border-color: #F59E0B; color: #FDE047;
-  }
-  .radar-pos-pill.halting {
-    background: rgba(249, 115, 22, 0.24); border-color: #FB923C; color: #FED7AA;
-  }
-
-  /* 거래소 홀트 0.5초 밀착 감시 전용 배너 */
-  @keyframes haltPulse {
-    0%   { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.42); border-color: #F59E0B; }
-    50%  { box-shadow: 0 0 20px 3px rgba(249, 115, 22, 0.42); border-color: #FDBA74; }
-    100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.42); border-color: #F59E0B; }
-  }
-  .halt-banner {
-    display: none;
-    background: linear-gradient(135deg, #2E1A08 0%, #171324 100%);
-    border: 2px solid #F59E0B; border-radius: 15px; padding: 15px 20px;
-    margin-bottom: 14px; animation: haltPulse 1.8s infinite;
-  }
-  .halt-top {
+  /* 1줄 계좌/보유 상태 스트립 */
+  .pos-strip {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
-    margin-bottom: 6px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 10px 16px; margin-bottom: 12px; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    font-size: 13.5px; font-weight: 800; color: #334155;
   }
-  .halt-title { font-size: 16px; font-weight: 900; color: #FDE047; }
-  .halt-timer {
-    font-size: 13.5px; font-weight: 900; padding: 4px 11px; border-radius: 999px;
-    background: #0F172A; border: 1px solid #F59E0B; color: #FDBA74;
+  .pos-badge {
+    padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 900;
+    background: var(--mint-soft); color: var(--mint);
   }
-  .halt-main { font-size: 15.5px; font-weight: 800; color: #FFFBEB; line-height: 1.5; }
-  .halt-sub  { font-size: 13.5px; font-weight: 700; color: #FCD34D; margin-top: 5px; }
+  .pos-badge.holding { background: var(--amber-soft); color: #B45309; }
+  .pos-badge.halting { background: var(--coral-soft); color: var(--coral); }
 
-  /* 메인 히어로: 실시간 NotebookLM 분석 모니터 */
-  @keyframes pulseGlow {
-    0%   { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.45), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #38BDF8; }
-    50%  { box-shadow: 0 0 24px 4px rgba(250, 204, 21, 0.40), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #FACC15; }
-    100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.45), 0 8px 28px rgba(0, 0, 0, 0.5); border-color: #38BDF8; }
+  /* 실시간 분석 중 / 홀트 배너 (평소 숨김) */
+  @keyframes softPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.25); }
+    50% { box-shadow: 0 0 0 8px rgba(124, 58, 237, 0.06); }
   }
-  @keyframes spinDot {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50%      { opacity: 0.35; transform: scale(1.28); }
+  .live-alert-banner {
+    display: none;
+    background: linear-gradient(135deg, #EEF2FF 0%, #FFF1F2 100%);
+    border: 1.5px solid #A78BFA; border-radius: 15px;
+    padding: 12px 16px; margin-bottom: 12px;
+    animation: softPulse 1.8s infinite;
   }
+  .live-alert-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .live-alert-title { font-size: 14.5px; font-weight: 900; color: #5B21B6; }
+  .live-alert-timer { font-size: 12.5px; font-weight: 900; padding: 3px 10px; border-radius: 999px; background: #FFFFFF; color: #7C3AED; border: 1px solid #DDD6FE; }
+  .live-alert-body { font-size: 13.5px; font-weight: 700; color: #334155; margin-top: 5px; }
 
-  .hero-card {
-    background: linear-gradient(145deg, #13223F 0%, #0E172A 100%);
-    border: 2px solid #2A3F66; border-radius: 18px; padding: 22px 26px;
-    margin-bottom: 16px; transition: all 0.2s;
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.42);
+  /* 핵심 하이라이트 카드: 오늘 뜬 트랙1 · 트랙3 요약 */
+  .highlight-card {
+    background: linear-gradient(135deg, #FFFFFF 0%, #FAF5FF 55%, #F0FDF4 100%);
+    border: 1.5px solid #DDD6FE;
+    border-radius: 18px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow);
   }
-  .hero-card.analyzing {
-    background: linear-gradient(145deg, #172B4D 0%, #1E1B4B 100%);
-    animation: pulseGlow 1.8s infinite;
+  .hl-head {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 10px;
   }
-  .hero-card.buy-mode {
-    background: linear-gradient(145deg, #063729 0%, #0E172A 100%);
-    border-color: #10B981;
+  .hl-title { font-size: 15.5px; font-weight: 900; color: #1E293B; }
+  .hl-counts { display: flex; gap: 6px; flex-wrap: wrap; }
+  .cnt-chip {
+    font-size: 12px; font-weight: 900; padding: 3px 10px; border-radius: 999px;
+    background: #F1F5F9; color: #475569;
   }
-  .hero-card.false-mode {
-    background: linear-gradient(145deg, #1A1E36 0%, #0E172A 100%);
-    border-color: #475569;
-  }
+  .cnt-chip.t1 { background: var(--sky-soft); color: var(--sky); }
+  .cnt-chip.t3 { background: var(--violet-soft); color: var(--violet); }
+  .cnt-chip.buy { background: var(--mint-soft); color: var(--mint); }
 
-  .hero-top-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
-  .hero-badge { font-size: 16px; font-weight: 900; color: #38BDF8; display: flex; align-items: center; gap: 8px; }
-  .live-dot {
-    display: inline-block; width: 11px; height: 11px; border-radius: 50%;
-    background: #FACC15; animation: spinDot 1s infinite;
+  .hl-strip {
+    display: flex; gap: 9px; flex-wrap: wrap;
   }
-  .hero-timer-pill {
-    font-size: 14.5px; font-weight: 900; padding: 5px 13px; border-radius: 999px;
-    background: #0F172A; border: 1px solid #475569; color: #FDE047;
+  .hl-empty {
+    font-size: 13px; font-weight: 700; color: var(--muted);
+    background: rgba(255,255,255,0.75); border: 1px dashed #CBD5E1;
+    border-radius: 12px; padding: 11px 14px; width: 100%;
   }
+  .hl-item {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 13px;
+    padding: 8px 12px; cursor: pointer; transition: 0.15s;
+    box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);
+  }
+  .hl-item:hover { transform: translateY(-1px); border-color: #93C5FD; }
+  .hl-item.t3 { border-color: #C4B5FD; background: linear-gradient(135deg, #FFFFFF, #FAF5FF); }
+  .hl-item.t1 { border-color: #6EE7B7; background: linear-gradient(135deg, #FFFFFF, #ECFDF5); }
+  .hl-time { font-size: 12px; font-weight: 900; color: #64748B; }
+  .hl-sym { font-size: 15.5px; font-weight: 900; color: #0F172A; }
+  .hl-gain { font-size: 12.5px; font-weight: 900; color: var(--coral); }
+  .hl-gain.neg { color: var(--sky); }
 
-  .hero-main-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 6px 0 10px 0; }
-  .hero-ticker { font-size: 36px; font-weight: 900; color: #FFFFFF; letter-spacing: 0.5px; }
-  .ex-badge {
-    font-size: 13.5px; font-weight: 900; padding: 4px 10px; border-radius: 7px;
-    background: rgba(59, 130, 246, 0.22); border: 1px solid #60A5FA; color: #BFDBFE;
+  /* 트랙 & 판정 배지 */
+  .trk-badge {
+    display: inline-block; font-size: 11.5px; font-weight: 900;
+    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
   }
-  .ex-badge.am { background: rgba(168, 85, 247, 0.22); border-color: #C084FC; color: #E9D5FF; }
-  .ex-badge.ny { background: rgba(239, 68, 68, 0.20); border-color: #F87171; color: #FECACA; }
+  .trk-1 { background: var(--sky-soft); color: #0369A1; }
+  .trk-3 { background: linear-gradient(90deg, #8B5CF6, #EC4899); color: #FFFFFF; }
+  .trk-2 { background: var(--amber-soft); color: #B45309; }
+  .trk-pos { background: #F1F5F9; color: #475569; }
 
-  .verdict-big-pill {
-    font-size: 20px; font-weight: 900; padding: 7px 20px; border-radius: 999px;
+  .dec-badge {
+    display: inline-block; font-size: 11.5px; font-weight: 900;
+    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
   }
-  .verdict-big-pill.buy {
-    background: rgba(16, 185, 129, 0.25); border: 2px solid #10B981; color: #4ADE80;
-    box-shadow: 0 0 18px rgba(16, 185, 129, 0.35);
-  }
-  .verdict-big-pill.false {
-    background: rgba(239, 68, 68, 0.18); border: 2px solid #EF4444; color: #FCA5A5;
-  }
-  .verdict-big-pill.wait {
-    background: rgba(250, 204, 21, 0.20); border: 2px solid #FACC15; color: #FDE047;
-  }
+  .dec-buy { background: var(--mint-soft); color: #047857; border: 1px solid #6EE7B7; }
+  .dec-pass { background: #F1F5F9; color: #64748B; }
 
-  .hero-meta { font-size: 17px; font-weight: 800; color: #E2E8F0; margin-bottom: 10px; }
-  .hero-reason-box {
-    background: rgba(15, 23, 42, 0.72); border-left: 4px solid #38BDF8;
-    border-radius: 10px; padding: 13px 16px; font-size: 16.5px; font-weight: 800;
-    color: #F8FAFC; line-height: 1.55;
+  /* 필터 바 */
+  .bar-row {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 10px;
   }
-  .hero-reason-box.buy { border-left-color: #10B981; color: #D1FAE5; }
-  .hero-reason-box.false { border-left-color: #EF4444; color: #FEE2E2; }
-
-  /* 연구소장 원문 접기/펼치기 */
-  details.director-fold {
-    margin-top: 12px; background: rgba(15, 23, 42, 0.78); border: 1.5px solid #475569;
-    border-radius: 12px; overflow: hidden;
+  .tab-group { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tab-btn {
+    border: 1px solid #CBD5E1; background: #FFFFFF; color: #475569;
+    border-radius: 999px; padding: 6px 13px; font-size: 13px; font-weight: 800;
+    cursor: pointer; transition: 0.15s;
   }
-  details.director-fold summary {
-    list-style: none; cursor: pointer; padding: 11px 16px;
-    font-size: 15px; font-weight: 900; color: #FDE047;
-    background: linear-gradient(90deg, rgba(30, 58, 138, 0.45), rgba(30, 41, 59, 0.55));
-    display: flex; justify-content: space-between; align-items: center; user-select: none;
+  .tab-btn:hover { background: #F8FAFC; }
+  .tab-btn.active {
+    background: linear-gradient(90deg, #0284C7, #6366F1);
+    color: #FFFFFF; border-color: transparent;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
   }
-  details.director-fold summary::-webkit-details-marker { display: none; }
-  details.director-fold .fold-arrow::after { content: "▼ 클릭해서 NotebookLM 심사 전문 펼치기"; font-size: 13px; color: #93C5FD; }
-  details.director-fold[open] .fold-arrow::after { content: "▲ 전문 접기"; color: #A7F3D0; }
-  .director-full-text {
-    padding: 15px 18px; font-size: 15px; line-height: 1.72; color: #F1F5F9;
-    white-space: pre-wrap; border-top: 1px solid rgba(148, 163, 184, 0.25);
-  }
-
-  /* 요약 통계 알약 바 */
-  .stats-row {
-    display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;
-  }
-  .stat-pill {
-    padding: 9px 16px; border-radius: 12px; font-size: 15px; font-weight: 900;
-    background: #131F37; border: 1px solid #2A3F66; color: #F8FAFC;
-  }
-  .stat-pill.buy { background: rgba(16, 185, 129, 0.16); border-color: #10B981; color: #6EE7B7; }
-  .stat-pill.false { background: rgba(239, 68, 68, 0.14); border-color: #EF4444; color: #FCA5A5; }
-  .stat-pill.speed { background: rgba(56, 189, 248, 0.15); border-color: #38BDF8; color: #7DD3FC; }
-  .stat-pill.hc { background: rgba(148, 163, 184, 0.14); border-color: #64748B; color: #CBD5E1; }
-
-  /* 필터 탭 & 섹션 바 */
-  .section-bar {
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    margin: 6px 0 12px 0;
-  }
-  .section-title { font-size: 20px; font-weight: 900; color: #F8FAFC; }
-  .filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
-  .filter-btn {
-    padding: 8px 15px; border-radius: 10px; border: 1px solid #334155;
-    background: #1E293B; color: #CBD5E1; font-size: 14px; font-weight: 900; cursor: pointer; transition: 0.15s;
-  }
-  .filter-btn:hover { border-color: #60A5FA; color: #FFFFFF; }
-  .filter-btn.active { background: #2563EB; border-color: #60A5FA; color: #FFFFFF; }
-  .filter-btn.active-buy { background: #059669; border-color: #34D399; color: #FFFFFF; }
-  .filter-btn.active-false { background: #DC2626; border-color: #F87171; color: #FFFFFF; }
-
-  /* 판정 테이블 */
-  .table-card {
-    background: #111C33; border: 1px solid #2A3D63; border-radius: 16px;
-    overflow-x: auto; margin-bottom: 24px;
-  }
-  table { width: 100%; border-collapse: collapse; min-width: 760px; }
-  th {
-    background: #0F172A; color: #E2E8F0; font-size: 15px; font-weight: 900;
-    padding: 14px 12px; border-bottom: 2px solid #334155; text-align: center;
-  }
-  td {
-    padding: 14px 12px; border-bottom: 1px solid rgba(148, 163, 184, 0.14); font-size: 15.5px;
-    text-align: center; font-weight: 700; color: #F1F5F9; vertical-align: middle; transition: filter 0.12s;
-  }
-  tbody tr:hover td { filter: brightness(1.15); cursor: pointer; }
-  tr.date-group-start td { border-top: 2.5px solid #475569; }
-
-  /* 요일별 배경 테마 (어머니 전광판 동일 감성) */
-  tr.wk-mon td { background-color: #172133; }
-  tr.wk-mon td:first-child { border-left: 5px solid #94A3B8; }
-  .wk-badge.mon { background: rgba(148, 163, 184, 0.22); color: #E2E8F0; border: 1px solid #94A3B8; }
-
-  tr.wk-tue td { background-color: #211834; }
-  tr.wk-tue td:first-child { border-left: 5px solid #C084FC; }
-  .wk-badge.tue { background: rgba(192, 132, 252, 0.22); color: #E9D5FF; border: 1px solid #C084FC; }
-
-  tr.wk-wed td { background-color: #122628; }
-  tr.wk-wed td:first-child { border-left: 5px solid #2DD4BF; }
-  .wk-badge.wed { background: rgba(45, 212, 191, 0.20); color: #99F6E4; border: 1px solid #2DD4BF; }
-
-  tr.wk-thu td { background-color: #152443; }
-  tr.wk-thu td:first-child { border-left: 5px solid #60A5FA; }
-  .wk-badge.thu { background: rgba(96, 165, 250, 0.22); color: #BFDBFE; border: 1px solid #60A5FA; }
-
-  tr.wk-fri td { background-color: #251F14; }
-  tr.wk-fri td:first-child { border-left: 5px solid #FBBF24; }
-  .wk-badge.fri { background: rgba(251, 191, 36, 0.22); color: #FEF08A; border: 1px solid #FBBF24; }
-
-  .wk-badge {
-    display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 13px; font-weight: 900; margin-left: 4px;
+  .sort-btn {
+    border: 1px solid #CBD5E1; background: #FFFFFF; color: #334155;
+    border-radius: 999px; padding: 6px 12px; font-size: 12.5px; font-weight: 800;
+    cursor: pointer;
   }
 
-  .res-buy {
-    display: inline-block; padding: 7px 18px; border-radius: 999px; font-size: 16.5px; font-weight: 900;
-    background: rgba(16, 185, 129, 0.24); border: 1.5px solid #10B981; color: #4ADE80;
+  /* 메인 타임라인 리스트 카드 */
+  .list-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
   }
-  .res-false {
-    display: inline-block; padding: 7px 16px; border-radius: 999px; font-size: 16px; font-weight: 900;
-    background: rgba(239, 68, 68, 0.18); border: 1.5px solid #EF4444; color: #FCA5A5;
+  .date-divider {
+    background: linear-gradient(90deg, #EFF6FF, #FAF5FF);
+    color: #334155; font-size: 12.5px; font-weight: 900;
+    padding: 7px 16px; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0;
+    display: flex; justify-content: space-between; align-items: center;
   }
-  .res-hc {
-    display: inline-block; padding: 5px 12px; border-radius: 999px; font-size: 14px; font-weight: 900;
-    background: rgba(100, 116, 139, 0.25); border: 1px solid #94A3B8; color: #CBD5E1;
-  }
+  .date-divider:first-child { border-top: none; }
 
-  .reason-cell {
-    text-align: left; font-size: 15px; line-height: 1.5; color: #F1F5F9; max-width: 520px;
+  .sig-row {
+    display: grid;
+    grid-template-columns: 96px 96px 190px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #F1F5F9;
+    cursor: pointer;
+    transition: background 0.12s;
   }
-  .engine-mini {
-    display: inline-block; font-size: 11.5px; font-weight: 900; padding: 2px 7px; border-radius: 5px;
-    background: rgba(56, 189, 248, 0.16); border: 1px solid rgba(56, 189, 248, 0.45); color: #7DD3FC;
-    margin-right: 6px; vertical-align: middle;
+  .sig-row:last-child { border-bottom: none; }
+  .sig-row:hover { background: #F8FAFC; }
+  .sig-row.is-buy { background: linear-gradient(90deg, #F0FDF4 0%, #FFFFFF 45%); }
+  .sig-row.is-t3 { background: linear-gradient(90deg, #FAF5FF 0%, #FFFFFF 45%); }
+  .sig-row.is-pass { opacity: 0.86; }
+
+  .col-time .kst { font-size: 14px; font-weight: 900; color: #0F172A; }
+  .col-time .et { font-size: 11.5px; font-weight: 700; color: #94A3B8; }
+  .col-sym .sym-line { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .col-sym .sym { font-size: 16px; font-weight: 900; color: #0F172A; }
+  .col-sym .ex { font-size: 11px; font-weight: 800; color: #0284C7; background: #E0F2FE; padding: 1px 6px; border-radius: 5px; }
+  .col-sym .px { font-size: 12px; font-weight: 800; color: #475569; margin-top: 2px; }
+  .col-reason { font-size: 13px; font-weight: 700; color: #334155; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .col-act { display: flex; align-items: center; gap: 6px; }
+  .chart-btn {
+    border: 1px solid #BAE6FD; background: #F0F9FF; color: #0369A1;
+    border-radius: 8px; padding: 5px 9px; font-size: 12px; font-weight: 900;
+    cursor: pointer; text-decoration: none; white-space: nowrap;
   }
-  .engine-mini.legacy {
-    background: rgba(148, 163, 184, 0.15); border-color: #64748B; color: #94A3B8;
+  .chart-btn:hover { background: #E0F2FE; }
+
+  /* 상세 전문 모달 */
+  .modal-bg {
+    display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(3px); z-index: 999; align-items: center; justify-content: center; padding: 16px;
   }
-  .more-report-chip {
-    display: inline-block; margin-left: 6px; font-size: 12px; font-weight: 900;
-    color: #FDE047; background: rgba(250, 204, 21, 0.14); border: 1px solid rgba(250, 204, 21, 0.4);
-    padding: 1px 7px; border-radius: 5px;
+  .modal-bg.open { display: flex; }
+  .modal-box {
+    background: #FFFFFF; border-radius: 18px; max-width: 680px; width: 100%; max-height: 82vh;
+    overflow-y: auto; padding: 20px; box-shadow: 0 20px 50px rgba(15, 23, 42, 0.22);
   }
+  .modal-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .modal-title { font-size: 18px; font-weight: 900; color: #0F172A; }
+  .modal-close { border: none; background: #F1F5F9; color: #475569; border-radius: 999px; width: 32px; height: 32px; font-size: 16px; font-weight: 900; cursor: pointer; }
+  .modal-meta { font-size: 13px; font-weight: 800; color: #64748B; margin-bottom: 10px; }
+  .modal-reason { background: #F8FAFC; border-left: 4px solid #6366F1; border-radius: 10px; padding: 12px 14px; font-size: 14px; font-weight: 800; color: #1E293B; margin-bottom: 12px; }
+  .modal-full { background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-size: 13px; line-height: 1.65; color: #334155; white-space: pre-wrap; }
 
   @media (max-width: 760px) {
-    .hero-ticker { font-size: 28px; }
-    .header-title { font-size: 18px; }
+    body { padding: 10px; }
+    .sig-row {
+      grid-template-columns: 78px 1fr auto;
+      gap: 6px 8px;
+      padding: 10px 12px;
+    }
+    .col-trk { grid-column: 1 / 2; }
+    .col-sym { grid-column: 2 / 3; }
+    .col-act { grid-column: 3 / 4; }
+    .col-reason { grid-column: 1 / 4; font-size: 12.5px; }
   }
 </style>
 </head>
 <body>
 
-  <!-- 상단 바 -->
-  <div class="header-bar">
-    <div class="header-title">
-      🦅 미국판 달의 검 V5 · NotebookLM 실시간 전광판
-      <span class="header-sub-tag">ND · AM 전용 · 시총 $50M↓ · 지메일 0% 직통</span>
+  <!-- 상단 슬림 헤더 -->
+  <div class="top-header">
+    <div class="brand-wrap">
+      <div class="brand-title">🇺🇸 미국장 달의 검 · 트랙1 & 트랙3 신호판</div>
+      <span class="ver-pill">v23 LIVE</span>
     </div>
-    <div class="header-right">
-      <span class="clock-txt" id="dualClockLbl">🇺🇸 --:--:-- ET · 🇰🇷 --:--:-- KST</span>
-      <span class="status-txt" id="statusLbl">🟡 실시간 서버 연결 중...</span>
-      <a class="sound-btn" href="./us/" style="text-decoration:none;border-color:#38BDF8;color:#7DD3FC;">📲 앱 설치버전 열기</a>
-      <div class="sound-ctrl-group">
-        <button class="sound-btn" id="soundBtn" onclick="toggleSound()">🔔 알림·BGM 켜기</button>
-        <button class="sound-btn" id="previewBgmBtn" onclick="togglePreviewBgm()" title="올드보이 + 달콤한 인생 OST 12곡 무한 랜덤 재생 / 정지">🎻 올드보이·달콤한인생 OST</button>
-        <button class="sound-btn" id="nextOstBtn" onclick="skipNextOldboyOst()" title="다음 OST 랜덤 곡으로 즉시 넘기기">⏭️ 다음곡</button>
-        <button class="sound-btn" onclick="previewBuyFanfare()" title="BUY 매수 승인 골든 팡파레 들어보기">🎉 BUY음</button>
-        <span class="vol-wrap">🔊<input type="range" id="volSlider" class="vol-slider" min="20" max="150" value="115" oninput="updateMasterVolume(this.value)"><span id="volPctLbl">115%</span></span>
+    <div class="header-tools">
+      <span class="clock-chip" id="dualClockLbl">🇰🇷 --:-- KST · 🇺🇸 --:-- ET</span>
+      <span class="live-chip" id="statusLbl">🟡 연결 중...</span>
+      <button class="mini-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 OFF</button>
+      <button class="mini-btn" onclick="forceRefreshNow()">🔄 새로고침</button>
+    </div>
+  </div>
+
+  <!-- 1줄 보유 · 계좌 상태 -->
+  <div class="pos-strip">
+    <div id="radarLeftTxt">📡 상태 불러오는 중...</div>
+    <div class="pos-badge" id="radarPosPill">🎯 대기 중</div>
+  </div>
+
+  <!-- 실시간 심문 / 홀트 진행 중 배너 (평소 숨김) -->
+  <div class="live-alert-banner" id="liveAlertBanner">
+    <div class="live-alert-top">
+      <div class="live-alert-title" id="liveAlertTitle">⚡ 실시간 분석 중...</div>
+      <div class="live-alert-timer" id="liveAlertTimer">0초</div>
+    </div>
+    <div class="live-alert-body" id="liveAlertBody">-</div>
+  </div>
+
+  <!-- 오늘 뜬 트랙1 · 트랙3 핵심 포착 스트립 (시간순) -->
+  <div class="highlight-card">
+    <div class="hl-head">
+      <div class="hl-title" id="hlTitle">⚡ 오늘 뜬 트랙1 · 트랙3 핵심 신호 (발생 순서대로)</div>
+      <div class="hl-counts">
+        <span class="cnt-chip t3" id="cntT3">🟣 트랙3: 0건</span>
+        <span class="cnt-chip buy" id="cntT1Buy">🔵 트랙1 BUY: 0건</span>
+        <span class="cnt-chip t1" id="cntT1All">심사 총 0건</span>
       </div>
     </div>
-  </div>
-
-  <!-- 계좌 및 레이더 가동 상태 바 -->
-  <div class="radar-strip">
-    <div id="radarLeftTxt">📡 레이더 상태 불러오는 중...</div>
-    <div class="radar-pos-pill" id="radarPosPill">🎯 신규 타격 대기 중</div>
-  </div>
-
-  <!-- 거래소 공식 홀트 0.5초 첫 체결 스나이퍼 배너 (타 종목 동시 심문과 병렬 표시) -->
-  <div class="halt-banner" id="haltWatchBanner">
-    <div class="halt-top">
-      <div class="halt-title" id="haltBannerTitle">⏸️ 거래소 공식 홀트 감지 · 주문 취소 & 0.5초 첫 체결 밀착 감시 중</div>
-      <div class="halt-timer" id="haltBannerTimer">⏱️ 대기 0초</div>
-    </div>
-    <div class="halt-main" id="haltBannerMain">-</div>
-    <div class="halt-sub" id="haltBannerSub">💡 미체결 주문을 취소해 달러 예수금을 100% 복구했습니다. 홀트 해제 첫 체결 포착 즉시 매수하며, 대기 중 다른 종목 BUY 발생 시 선착순으로 전환 매수합니다.</div>
-  </div>
-
-  <!-- 메인 히어로: 실시간 분석 모니터 / 최근 판결 상세 -->
-  <div class="hero-card" id="heroCard">
-    <div class="hero-top-row">
-      <div class="hero-badge" id="heroBadge">📡 NotebookLM 연구소장 실시간 심문 모니터</div>
-      <div class="hero-timer-pill" id="heroTimerPill">대기 중</div>
-    </div>
-    <div class="hero-main-row">
-      <span class="hero-ticker" id="heroTicker">대기 중...</span>
-      <span class="ex-badge" id="heroExBadge" style="display:none;">ND</span>
-      <span class="verdict-big-pill wait" id="heroVerdictPill">신규 공시·PR 감시 중</span>
-    </div>
-    <div class="hero-meta" id="heroMeta">프리장(04:00 ET / 17:00 KST) ~ 정규장(15:00 ET) 동안 1차 하드컷을 통과한 종목이 포착되면 즉시 NotebookLM 심문이 시작됩니다.</div>
-    <div class="hero-reason-box" id="heroReasonBox">종목 심문이 시작되면 이곳에 실시간 분석 경과 초시계와 최종 BUY / FALSE 판정 사유가 즉시 표시됩니다.</div>
-
-    <details id="heroFullReportFold" class="director-fold" style="display:none;">
-      <summary>
-        <span id="heroFoldTitle">📖 NotebookLM 연구소장 원문 직독 심사 전문 보기</span>
-        <span class="fold-arrow"></span>
-      </summary>
-      <div class="director-full-text" id="heroFullReportBody"></div>
-    </details>
-  </div>
-
-  <!-- 요약 통계 알약 바 -->
-  <div class="stats-row">
-    <span class="stat-pill" id="statTodayTotal">오늘 심문 0건 (누적 0건)</span>
-    <span class="stat-pill buy" id="statBuyCnt">🔥 BUY 승인 0건</span>
-    <span class="stat-pill false" id="statFalseCnt">🛡️ FALSE 차단 0건</span>
-    <span class="stat-pill speed" id="statAvgSec">⚡ 평균 심문시간 --초</span>
-    <span class="stat-pill hc" id="statHardcutCnt">🛑 오늘 1차 하드컷 자체차단 0건</span>
-  </div>
-
-  <!-- 필터 탭 & 판정 피드 테이블 -->
-  <div class="section-bar">
-    <div class="section-title" id="tableTitleLbl">📋 NotebookLM 종목별 BUY / FALSE 실시간 판정 기록</div>
-    <div class="filter-tabs">
-      <button id="fBtnAll" class="filter-btn active" onclick="setFilterMode('all')">전체 판정</button>
-      <button id="fBtnBuy" class="filter-btn" onclick="setFilterMode('buy')">🔥 BUY 승인만</button>
-      <button id="fBtnFalse" class="filter-btn" onclick="setFilterMode('false')">🛡️ FALSE 차단만</button>
-      <button id="fBtnHc" class="filter-btn" onclick="setFilterMode('hardcut')">🛑 1차 파이썬 하드컷</button>
+    <div class="hl-strip" id="hlStrip">
+      <div class="hl-empty">오늘 아직 포착된 BUY / 트랙3 신호가 없습니다. 신호가 뜨면 여기에 시간순으로 차곡차곡 쌓입니다.</div>
     </div>
   </div>
 
-  <div class="table-card">
-    <table>
-      <thead id="boardThead">
-        <tr>
-          <th style="width:165px;">심문 시각 (ET / KST)</th>
-          <th style="width:210px;">종목 (거래소 · 체급)</th>
-          <th style="width:155px;">BUY / FALSE 판정</th>
-          <th>핵심 판정 사유 (클릭 시 상단 전문 보기)</th>
-        </tr>
-      </thead>
-      <tbody id="boardTbody">
-        <tr><td colspan="4" style="padding:28px; color:#94A3B8;">미국장 판정 데이터를 불러오는 중입니다...</td></tr>
-      </tbody>
-    </table>
+  <!-- 필터 & 정렬 바 -->
+  <div class="bar-row">
+    <div class="tab-group">
+      <button id="fAll" class="tab-btn active" onclick="setFilter('all')">⚡ 전체 (트랙1+3)</button>
+      <button id="fHot" class="tab-btn" onclick="setFilter('hot')">🔥 BUY · 트랙3만</button>
+      <button id="fT3" class="tab-btn" onclick="setFilter('track3')">🟣 트랙3 흥칫뿡</button>
+      <button id="fT1" class="tab-btn" onclick="setFilter('track1')">🔵 트랙1 PR·공시</button>
+    </div>
+    <button id="sortBtn" class="sort-btn" onclick="toggleSort()">🕒 발생 순서대로 (오전→오후)</button>
+  </div>
+
+  <!-- 타임라인 리스트 -->
+  <div class="list-card" id="timelineList">
+    <div style="padding:26px; text-align:center; color:#64748B; font-weight:700;">데이터를 불러오는 중입니다...</div>
+  </div>
+
+  <!-- 상세 보기 모달 -->
+  <div class="modal-bg" id="detailModal" onclick="if(event.target===this) closeModal()">
+    <div class="modal-box">
+      <div class="modal-head">
+        <div class="modal-title" id="mTitle">-</div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-meta" id="mMeta">-</div>
+      <div class="modal-reason" id="mReason">-</div>
+      <div class="modal-full" id="mFull"></div>
+    </div>
   </div>
 
 <script>
@@ -382,953 +348,332 @@ const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
 const TOPIC_US_STATE = "us_whale_nblm_board_2026/state";
 const TOPIC_US_LIVE  = "us_whale_nblm_board_2026/live";
 
-let filterMode = "all"; // 'all' | 'buy' | 'false' | 'hardcut'
+let filterMode = "all"; // all | hot | track3 | track1
+let sortAsc = true;     // true: 같은 날짜 내 발생 순서대로 (오전→오후), false: 최신순
 let cachedState = null;
-let lastEpochMs = 0;
-let selectedVerdictId = "";
+let soundEnabled = false;
+let audioCtx = null;
 let analyzingStartMs = 0;
-let isCurrentlyAnalyzing = false;
-let haltStartedMs = 0;
-let isCurrentlyHalting = false;
+let isAnalyzing = false;
+let haltStartMs = 0;
+let isHalting = false;
 const seenLiveIds = new Set();
 
-/* 실시간 ET / KST 듀얼 시계 & 분석 중 초시계 */
+/* 듀얼 시계 & 경과 초시계 */
 function tickClocks() {
   try {
     const now = new Date();
-    const etStr = now.toLocaleTimeString("en-GB", { timeZone: "America/New_York", hour12: false });
-    const kstStr = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false });
-    document.getElementById("dualClockLbl").innerText = `🇺🇸 ${etStr} ET · 🇰🇷 ${kstStr} KST`;
-
-    if (isCurrentlyAnalyzing && analyzingStartMs > 0) {
-      const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
-      document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
-    }
-    if (isCurrentlyHalting && haltStartedMs > 0) {
-      const hSec = Math.max(0, Math.floor((Date.now() - haltStartedMs) / 1000));
-      const mm = Math.floor(hSec / 60);
-      const ss = hSec % 60;
-      document.getElementById("haltBannerTimer").innerText =
-        mm > 0 ? `⏱️ 0.5초 밀착 감시 경과: ${mm}분 ${ss}초` : `⏱️ 0.5초 밀착 감시 경과: ${ss}초`;
+    const kst = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false }).slice(0, 5);
+    const et = now.toLocaleTimeString("en-GB", { timeZone: "America/New_York", hour12: false }).slice(0, 5);
+    document.getElementById("dualClockLbl").innerText = `🇰🇷 ${kst} KST · 🇺🇸 ${et} ET`;
+    if (isAnalyzing && analyzingStartMs > 0) {
+      const s = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
+      document.getElementById("liveAlertTimer").innerText = `⏱️ ${s}초 경과`;
+    } else if (isHalting && haltStartMs > 0) {
+      const s = Math.max(0, Math.floor((Date.now() - haltStartMs) / 1000));
+      document.getElementById("liveAlertTimer").innerText = `⏸️ 홀트 ${s}초 대기`;
     }
   } catch (e) {}
 }
 setInterval(tickClocks, 1000);
 tickClocks();
 
-let audioCtx = null;
-let masterGainNode = null;
-let compressorNode = null;
-let drySumBus = null;
-let fxSendBus = null;
-let sfxBusGain = null;
-let bgmBusGain = null;
-let bgmSchedulerTimer = null;
-let bgmStopTimer = null;
-let isBgmPlaying = false;
-let isPreviewPlaying = false;
-let soundEnabled = false;
-let masterVolScale = 1.15;
-let lastAutoAudioAnalyzeKey = "";
-let lastAutoAudioVerdictId = "";
-let initialStateLoaded = false;
-
-/* 스튜디오급 무노이즈 마스터 오디오 체인 (Pure Stereo Velvet Echo + Brickwall Safety Limiter) */
-function ensureAudioGraph() {
-  if (!audioCtx) {
-    const AC = window.AudioContext || window.webkitAudioContext;
-    audioCtx = new AC({ latencyHint: "playback" });
-    const now = audioCtx.currentTime;
-
-    // -3.0dBFS 브릭월 세이프티 리미터 (다중 화음 겹침 시 지글거리는 디지털 클리핑 원천 차단)
-    compressorNode = audioCtx.createDynamicsCompressor();
-    compressorNode.threshold.setValueAtTime(-3.0, now);
-    compressorNode.knee.setValueAtTime(6.0, now);
-    compressorNode.ratio.setValueAtTime(20.0, now);
-    compressorNode.attack.setValueAtTime(0.001, now);
-    compressorNode.release.setValueAtTime(0.15, now);
-
-    masterGainNode = audioCtx.createGain();
-    masterGainNode.gain.setValueAtTime(masterVolScale * 0.78, now);
-
-    // 드라이 버스 & 백색소음 0% 순수 스테레오 벨벳 딜레이 공간감 버스 (단 1회 고정 배선)
-    drySumBus = audioCtx.createGain();
-    drySumBus.gain.setValueAtTime(1.0, now);
-    drySumBus.connect(masterGainNode);
-
-    fxSendBus = audioCtx.createGain();
-    fxSendBus.gain.setValueAtTime(1.0, now);
-
-    const fxHp = audioCtx.createBiquadFilter();
-    fxHp.type = "highpass";
-    fxHp.frequency.setValueAtTime(280, now);
-
-    const fxLp = audioCtx.createBiquadFilter();
-    fxLp.type = "lowpass";
-    fxLp.frequency.setValueAtTime(1650, now);
-
-    const delayL = audioCtx.createDelay(1.0);
-    delayL.delayTime.setValueAtTime(0.19, now);
-    const delayR = audioCtx.createDelay(1.0);
-    delayR.delayTime.setValueAtTime(0.28, now);
-
-    const fbL = audioCtx.createGain();
-    fbL.gain.setValueAtTime(0.24, now);
-    const fbR = audioCtx.createGain();
-    fbR.gain.setValueAtTime(0.22, now);
-
-    const merger = audioCtx.createChannelMerger(2);
-    const fxReturn = audioCtx.createGain();
-    fxReturn.gain.setValueAtTime(0.22, now);
-
-    fxSendBus.connect(fxHp);
-    fxHp.connect(fxLp);
-    fxLp.connect(delayL);
-    fxLp.connect(delayR);
-
-    delayL.connect(fbL);
-    fbL.connect(delayR);
-    delayR.connect(fbR);
-    fbR.connect(delayL);
-
-    delayL.connect(merger, 0, 0);
-    delayR.connect(merger, 0, 1);
-    merger.connect(fxReturn);
-    fxReturn.connect(masterGainNode);
-
-    // 단발 차임·팡파레 전용 공용 버스
-    sfxBusGain = audioCtx.createGain();
-    sfxBusGain.gain.setValueAtTime(1.0, now);
-    sfxBusGain.connect(drySumBus);
-    sfxBusGain.connect(fxSendBus);
-
-    masterGainNode.connect(compressorNode);
-    compressorNode.connect(audioCtx.destination);
-  }
-  if (audioCtx.state === "suspended") {
-    audioCtx.resume();
-  }
-}
-
-function getTargetOstVolume() {
-  return Math.max(0.05, Math.min(1.0, (masterVolScale / 1.50) * 0.92));
-}
-
-function updateMasterVolume(val) {
-  const num = Math.max(20, Math.min(150, Number(val || 115)));
-  masterVolScale = num / 100.0;
-  const lbl = document.getElementById("volPctLbl");
-  if (lbl) lbl.innerText = `${num}%`;
-  try { localStorage.setItem("us_board_vol_pct", String(num)); } catch (e) {}
-  if (masterGainNode && audioCtx) {
-    masterGainNode.gain.setTargetAtTime(masterVolScale * 0.78, audioCtx.currentTime, 0.04);
-  }
-  if (typeof ostAudioEl !== "undefined" && ostAudioEl && !ostDuckTimer) {
-    ostAudioEl.volume = getTargetOstVolume();
-  }
-}
-
-(function initSavedVolume() {
-  try {
-    const sv = Number(localStorage.getItem("us_board_vol_pct") || 115);
-    if (sv >= 20 && sv <= 150) {
-      masterVolScale = sv / 100.0;
-      const sl = document.getElementById("volSlider");
-      const lb = document.getElementById("volPctLbl");
-      if (sl) sl.value = String(sv);
-      if (lb) lb.innerText = `${sv}%`;
-    }
-  } catch (e) {}
-})();
-
-/* 악기 1: 순수 배음 합성 Fender Rhodes 일렉트릭 피아노 (노이즈·클리핑 0%) */
-function playRhodesNote(freq, startT, dur, vol = 0.085, targetBus = null) {
-  if (!audioCtx) return;
-  const bus = targetBus || sfxBusGain || masterGainNode;
-  const safeDur = Math.max(0.28, dur);
-  const t0 = Math.max(audioCtx.currentTime + 0.012, audioCtx.currentTime + startT);
-  const tAtk = t0 + 0.022;
-  const tSus = t0 + Math.min(0.42, safeDur * 0.45);
-  const tRel = t0 + safeDur - 0.025;
-  const tEnd = t0 + safeDur;
-
-  const env = audioCtx.createGain();
-  env.gain.setValueAtTime(0.0, t0);
-  env.gain.linearRampToValueAtTime(vol, tAtk);
-  env.gain.exponentialRampToValueAtTime(Math.max(0.001, vol * 0.52), tSus);
-  env.gain.exponentialRampToValueAtTime(0.0008, tRel);
-  env.gain.linearRampToValueAtTime(0.0, tEnd);
-
-  // 기본음(Sine) + 따뜻한 2배음 바디 + 부드러운 벨 타인(3배음) 어택
-  const osc1 = audioCtx.createOscillator();
-  osc1.type = "sine";
-  osc1.frequency.setValueAtTime(freq, t0);
-
-  const osc2 = audioCtx.createOscillator();
-  osc2.type = "sine";
-  osc2.frequency.setValueAtTime(freq * 2.0, t0);
-  const g2 = audioCtx.createGain();
-  g2.gain.setValueAtTime(0.26, t0);
-  g2.gain.exponentialRampToValueAtTime(0.07, t0 + Math.min(0.55, safeDur * 0.7));
-
-  const tine = audioCtx.createOscillator();
-  tine.type = "sine";
-  tine.frequency.setValueAtTime(freq <= 600 ? freq * 3.0 : freq * 2.0, t0);
-  const gTine = audioCtx.createGain();
-  gTine.gain.setValueAtTime(0.075, t0);
-  gTine.gain.exponentialRampToValueAtTime(0.001, t0 + 0.13);
-  gTine.gain.linearRampToValueAtTime(0.0, t0 + 0.15);
-
-  osc1.connect(env);
-  osc2.connect(g2); g2.connect(env);
-  tine.connect(gTine); gTine.connect(env);
-  env.connect(bus);
-
-  osc1.onended = () => {
-    try { env.disconnect(); } catch (e) {}
-  };
-
-  osc1.start(t0); osc1.stop(tEnd + 0.02);
-  osc2.start(t0); osc2.stop(tEnd + 0.02);
-  tine.start(t0); tine.stop(t0 + 0.16);
-}
-
-/* 악기 2: 맑고 투명한 크리스탈 셀레스타 벨 / 하프 */
-function playCrystalBell(freq, startT, dur, vol = 0.095, targetBus = null) {
-  if (!audioCtx) return;
-  const bus = targetBus || sfxBusGain || masterGainNode;
-  const safeDur = Math.max(0.28, dur);
-  const t0 = Math.max(audioCtx.currentTime + 0.012, audioCtx.currentTime + startT);
-  const tAtk = t0 + 0.016;
-  const tMid = t0 + Math.min(0.32, safeDur * 0.38);
-  const tRel = t0 + safeDur - 0.025;
-  const tEnd = t0 + safeDur;
-
-  const env = audioCtx.createGain();
-  env.gain.setValueAtTime(0.0, t0);
-  env.gain.linearRampToValueAtTime(vol, tAtk);
-  env.gain.exponentialRampToValueAtTime(Math.max(0.001, vol * 0.42), tMid);
-  env.gain.exponentialRampToValueAtTime(0.0008, tRel);
-  env.gain.linearRampToValueAtTime(0.0, tEnd);
-
-  const o1 = audioCtx.createOscillator();
-  o1.type = "sine";
-  o1.frequency.setValueAtTime(freq, t0);
-
-  const o2 = audioCtx.createOscillator();
-  o2.type = "sine";
-  o2.frequency.setValueAtTime(freq * 2.0, t0);
-  const g2 = audioCtx.createGain();
-  g2.gain.setValueAtTime(0.18, t0);
-  g2.gain.exponentialRampToValueAtTime(0.001, t0 + safeDur * 0.55);
-  g2.gain.linearRampToValueAtTime(0.0, t0 + safeDur * 0.60);
-
-  o1.connect(env);
-  o2.connect(g2); g2.connect(env);
-  env.connect(bus);
-
-  o1.onended = () => {
-    try { env.disconnect(); } catch (e) {}
-  };
-
-  o1.start(t0); o1.stop(tEnd + 0.02);
-  o2.start(t0); o2.stop(tEnd + 0.02);
-}
-
-/* 악기 3: 단절 클릭(Pop) 없는 순수 사인 배음 웜 베이스 패드 */
-function playWarmBass(freq, startT, dur, vol = 0.125, targetBus = null) {
-  if (!audioCtx) return;
-  const bus = targetBus || drySumBus || masterGainNode;
-  const safeDur = Math.max(0.35, dur);
-  const t0 = Math.max(audioCtx.currentTime + 0.012, audioCtx.currentTime + startT);
-  const tAtk = t0 + 0.055;
-  const tSus = t0 + safeDur - 0.22;
-  const tRel = t0 + safeDur - 0.025;
-  const tEnd = t0 + safeDur;
-
-  const env = audioCtx.createGain();
-  env.gain.setValueAtTime(0.0, t0);
-  env.gain.linearRampToValueAtTime(vol, tAtk);
-  env.gain.linearRampToValueAtTime(vol * 0.80, tSus);
-  env.gain.exponentialRampToValueAtTime(0.0008, tRel);
-  env.gain.linearRampToValueAtTime(0.0, tEnd);
-
-  const sub = audioCtx.createOscillator();
-  sub.type = "sine";
-  sub.frequency.setValueAtTime(freq, t0);
-
-  const oct = audioCtx.createOscillator();
-  oct.type = "sine";
-  oct.frequency.setValueAtTime(freq * 2.0, t0);
-  const gOct = audioCtx.createGain();
-  gOct.gain.setValueAtTime(0.36, t0);
-
-  const fifth = audioCtx.createOscillator();
-  fifth.type = "sine";
-  fifth.frequency.setValueAtTime(freq * 3.0, t0);
-  const gFifth = audioCtx.createGain();
-  gFifth.gain.setValueAtTime(0.09, t0);
-  gFifth.gain.exponentialRampToValueAtTime(0.015, t0 + Math.min(0.45, safeDur * 0.5));
-
-  sub.connect(env);
-  oct.connect(gOct); gOct.connect(env);
-  fifth.connect(gFifth); gFifth.connect(env);
-  env.connect(bus);
-
-  sub.onended = () => {
-    try { env.disconnect(); } catch (e) {}
-  };
-
-  sub.start(t0); sub.stop(tEnd + 0.02);
-  oct.start(t0); oct.stop(tEnd + 0.02);
-  fifth.start(t0); fifth.stop(tEnd + 0.02);
-}
-
-/* 🎻 올드보이(Oldboy) + 달콤한 인생(A Bittersweet Life) OST 12대 명곡 랜덤 주크박스 & 심문 대기 BGM 엔진 */
-const OLDBOY_OST_TRACKS = [
-  { file: "oldboy_01_last_waltz.m4a", title: "[올드보이] The Last Waltz (미도의 테마)" },
-  { file: "oldboy_02_cries_whispers.m4a", title: "[올드보이] Cries and Whispers (우진의 테마)" },
-  { file: "oldboy_03_farewell_lovely.m4a", title: "[올드보이] Farewell, My Lovely (이별의 왈츠)" },
-  { file: "oldboy_04_frantic.m4a", title: "[올드보이] Frantic (장도리 복도 격투씬)" },
-  { file: "oldboy_05_look_whos_talking.m4a", title: "[올드보이] Look Who's Talking (오프닝)" },
-  { file: "oldboy_06_vivaldi_winter.m4a", title: "[올드보이] Vivaldi - 사계 겨울 1악장" },
-  { file: "bittersweet_01_romance.m4a", title: "[달콤한인생] Romance (유키 구라모토 · 선우의 테마)" },
-  { file: "bittersweet_02_irreversible_steps.m4a", title: "[달콤한인생] 돌이킬 수 없는 시간 (느와르 기타)" },
-  { file: "bittersweet_03_fairness.m4a", title: "[달콤한인생] 공정성 Fairness (달파란)" },
-  { file: "bittersweet_04_sky_lounge.m4a", title: "[달콤한인생] 스카이 라운지 Sky Lounge" },
-  { file: "bittersweet_05_dark_room.m4a", title: "[달콤한인생] Dark Room (어두운 방)" },
-  { file: "bittersweet_06_escape.m4a", title: "[달콤한인생] 탈출 Escape (클라이맥스)" }
-];
-
-let ostShuffleBag = [];
-let lastOstTrackIdx = -1;
-let currentOstTitle = "";
-let ostAudioEl = null;
-let ostFadeTimer = null;
-let ostDuckTimer = null;
-
-function resolveOstUrl(fileName) {
-  if (window.location.protocol === "file:") {
-    return "https://simikai1024-hue.github.io/stock-board/ost/" + fileName;
-  }
-  return "./ost/" + fileName;
-}
-
-function pickNextRandomOstTrack() {
-  if (ostShuffleBag.length === 0) {
-    const indices = OLDBOY_OST_TRACKS.map((_, i) => i);
-    for (let i = indices.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [indices[i], indices[j]] = [indices[j], indices[i]];
-    }
-    if (indices.length > 1 && indices[0] === lastOstTrackIdx) {
-      [indices[0], indices[indices.length - 1]] = [indices[indices.length - 1], indices[0]];
-    }
-    ostShuffleBag = indices;
-  }
-  const nextIdx = ostShuffleBag.shift();
-  lastOstTrackIdx = nextIdx;
-  return OLDBOY_OST_TRACKS[nextIdx];
-}
-
-function ensureOstAudioElement() {
-  if (!ostAudioEl) {
-    ostAudioEl = new Audio();
-    ostAudioEl.preload = "auto";
-    ostAudioEl.addEventListener("ended", () => {
-      if (isBgmPlaying) {
-        playRandomOldboyTrack(isPreviewPlaying, false);
-      }
-    });
-    ostAudioEl.addEventListener("error", () => {
-      if (isBgmPlaying) {
-        setTimeout(() => {
-          if (isBgmPlaying) playRandomOldboyTrack(isPreviewPlaying, false);
-        }, 600);
-      }
-    });
-  }
-  return ostAudioEl;
-}
-
-function updateOstButtonLabel() {
-  const pBtn = document.getElementById("previewBgmBtn");
-  if (!pBtn) return;
-  if (isBgmPlaying) {
-    pBtn.className = "sound-btn playing";
-    pBtn.innerText = `⏹️ ${currentOstTitle || "명작 OST"}`;
-    pBtn.title = `현재 재생 중: ${currentOstTitle} (클릭 시 정지)`;
-  } else {
-    pBtn.className = "sound-btn";
-    pBtn.innerText = "🎻 올드보이·달콤한인생 OST";
-    pBtn.title = "올드보이 + 달콤한 인생 OST 12곡 무한 랜덤 재생 / 정지";
-  }
-}
-
-function duckOstTemporarily(durationMs = 2300) {
-  if (!ostAudioEl || ostAudioEl.paused) return;
-  if (ostDuckTimer) clearTimeout(ostDuckTimer);
-  ostAudioEl.volume = Math.max(0.03, getTargetOstVolume() * 0.20);
-  ostDuckTimer = setTimeout(() => {
-    ostDuckTimer = null;
-    if (ostAudioEl && !ostAudioEl.paused && isBgmPlaying) {
-      ostAudioEl.volume = getTargetOstVolume();
-    }
-  }, durationMs);
-}
-
-function stopLoungeBgm(fadeSec = 0.30) {
-  if (bgmSchedulerTimer) {
-    clearInterval(bgmSchedulerTimer);
-    bgmSchedulerTimer = null;
-  }
-  if (bgmStopTimer) {
-    clearTimeout(bgmStopTimer);
-    bgmStopTimer = null;
-  }
-  if (ostFadeTimer) {
-    clearInterval(ostFadeTimer);
-    ostFadeTimer = null;
-  }
-  if (ostDuckTimer) {
-    clearTimeout(ostDuckTimer);
-    ostDuckTimer = null;
-  }
-  if (bgmBusGain && audioCtx) {
-    const oldBus = bgmBusGain;
-    bgmBusGain = null;
-    try {
-      const now = audioCtx.currentTime;
-      const curVal = Math.max(0.0, oldBus.gain.value);
-      oldBus.gain.cancelScheduledValues(now);
-      oldBus.gain.setValueAtTime(curVal, now);
-      oldBus.gain.linearRampToValueAtTime(0.0, now + fadeSec);
-      setTimeout(() => { try { oldBus.disconnect(); } catch (e) {} }, Math.ceil(fadeSec * 1000) + 120);
-    } catch (e) {}
-  }
-  if (ostAudioEl && !ostAudioEl.paused) {
-    const el = ostAudioEl;
-    const startVol = el.volume;
-    const steps = 6;
-    let step = 0;
-    const stepMs = Math.max(25, Math.floor((fadeSec * 1000) / steps));
-    ostFadeTimer = setInterval(() => {
-      step += 1;
-      if (step >= steps) {
-        clearInterval(ostFadeTimer);
-        ostFadeTimer = null;
-        try { el.pause(); el.currentTime = 0; } catch (e) {}
-      } else {
-        el.volume = Math.max(0.0, startVol * (1.0 - step / steps));
-      }
-    }, stepMs);
-  }
-  isBgmPlaying = false;
-  isPreviewPlaying = false;
-  currentOstTitle = "";
-  updateOstButtonLabel();
-}
-
-function playRandomOldboyTrack(asJukebox = false, withIntroChime = false) {
-  ensureAudioGraph();
-  if (ostFadeTimer) {
-    clearInterval(ostFadeTimer);
-    ostFadeTimer = null;
-  }
-  const el = ensureOstAudioElement();
-  const picked = pickNextRandomOstTrack();
-  currentOstTitle = picked.title;
-  isBgmPlaying = true;
-  isPreviewPlaying = asJukebox;
-  updateOstButtonLabel();
-
-  if (withIntroChime) {
-    [349.23, 440.00, 523.25, 659.25, 783.99].forEach((f, idx) => {
-      playCrystalBell(f, idx * 0.08, 1.15, 0.085);
-    });
-  }
-
-  try {
-    el.pause();
-    el.src = resolveOstUrl(picked.file);
-    el.volume = getTargetOstVolume();
-    const playPromise = el.play();
-    if (playPromise && typeof playPromise.catch === "function") {
-      playPromise.catch(() => {});
-    }
-  } catch (e) {}
-}
-
-function startLoungeAnalyzingBgm(isPreview = false) {
-  ensureAudioGraph();
-  // 사용자가 이미 수동으로 올드보이 OST 주크박스를 듣고 있으면 끊지 않고 심문 시작 차임만 얹어줌!
-  if (!isPreview && isPreviewPlaying && isBgmPlaying && ostAudioEl && !ostAudioEl.paused) {
-    duckOstTemporarily(1400);
-    [349.23, 440.00, 523.25, 659.25, 880.00].forEach((f, idx) => {
-      playCrystalBell(f, idx * 0.08, 1.2, 0.095);
-    });
-    return;
-  }
-  stopLoungeBgm(0.10);
-  playRandomOldboyTrack(isPreview, !isPreview);
-}
-
-function unlockOstAudioOnGesture() {
-  try {
-    const el = ensureOstAudioElement();
-    if (!isBgmPlaying && (!el.src || el.paused)) {
-      const prevSrc = el.src;
-      el.muted = true;
-      el.src = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA";
-      const p = el.play();
-      if (p && typeof p.then === "function") {
-        p.then(() => {
-          if (!isBgmPlaying) { el.pause(); el.muted = false; if (prevSrc) el.src = prevSrc; }
-        }).catch(() => { el.muted = false; });
-      } else {
-        el.muted = false;
-      }
-    }
-  } catch (e) {}
-}
-
-function skipNextOldboyOst() {
-  ensureAudioGraph();
-  if (!soundEnabled) {
-    soundEnabled = true;
-    const btn = document.getElementById("soundBtn");
-    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
-  }
-  playRandomOldboyTrack(true, false);
-}
-
-/* 알림음 컨트롤 */
 function toggleSound() {
-  ensureAudioGraph();
   soundEnabled = !soundEnabled;
+  if (soundEnabled && !audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  if (audioCtx && audioCtx.state === "suspended") audioCtx.resume();
   const btn = document.getElementById("soundBtn");
-  if (soundEnabled) {
-    btn.className = "sound-btn on";
-    btn.innerText = "🔊 알림·BGM 켜짐";
-    if (isCurrentlyAnalyzing) {
-      startLoungeAnalyzingBgm(false);
-    } else {
-      unlockOstAudioOnGesture();
-      [523.25, 659.25, 783.99, 1046.50].forEach((f, i) => playCrystalBell(f, i * 0.09, 1.0, 0.11));
-    }
-  } else {
-    stopLoungeBgm(0.25);
-    btn.className = "sound-btn";
-    btn.innerText = "🔔 알림·BGM 켜기";
-  }
+  btn.classList.toggle("on", soundEnabled);
+  btn.innerText = soundEnabled ? "🔔 알림음 ON" : "🔔 알림음 OFF";
+  if (soundEnabled) playChime(true);
 }
 
-function togglePreviewBgm() {
-  ensureAudioGraph();
-  if (!soundEnabled) {
-    soundEnabled = true;
-    const btn = document.getElementById("soundBtn");
-    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
-  }
-  if (isPreviewPlaying || isBgmPlaying) {
-    stopLoungeBgm(0.28);
-  } else {
-    startLoungeAnalyzingBgm(true);
-  }
-}
-
-function previewBuyFanfare() {
-  ensureAudioGraph();
-  if (!soundEnabled) {
-    soundEnabled = true;
-    const btn = document.getElementById("soundBtn");
-    if (btn) { btn.className = "sound-btn on"; btn.innerText = "🔊 알림·BGM 켜짐"; }
-  }
-  playEventSound("VERDICT_BUY", true);
-}
-
-let lastPlayedEvKey = "";
-let lastPlayedEvMs = 0;
-
-function playEventSound(evType, forcePlay = false) {
+function playChime(isBuy) {
   if (!soundEnabled) return;
-  const nowMs = Date.now();
-  if (!forcePlay && evType === lastPlayedEvKey && (nowMs - lastPlayedEvMs) < 1800) return;
-  lastPlayedEvKey = evType;
-  lastPlayedEvMs = nowMs;
-  ensureAudioGraph();
-
-  if (evType === "ANALYZING") {
-    startLoungeAnalyzingBgm(false);
-  } else if (evType === "VERDICT_BUY" || evType === "TRADE_BUY") {
-    // 수동 주크박스 감상 중이면 음악을 끄지 않고 볼륨만 잠시 낮춘 뒤 팡파레 울림!
-    if (isPreviewPlaying && isBgmPlaying) { duckOstTemporarily(2500); } else { stopLoungeBgm(0.26); }
-    const fanfare = [523.25, 659.25, 783.99, 987.77, 1174.66, 1567.98];
-    fanfare.forEach((f, i) => {
-      playCrystalBell(f, 0.06 + i * 0.085, 1.65, i >= 4 ? 0.135 : 0.11);
+  try {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === "suspended") audioCtx.resume();
+    const notes = isBuy ? [523.25, 659.25, 783.99, 1046.5] : [440, 554.37];
+    notes.forEach((f, i) => {
+      const o = audioCtx.createOscillator();
+      const g = audioCtx.createGain();
+      o.type = "sine";
+      o.frequency.value = f;
+      const t = audioCtx.currentTime + i * 0.09;
+      g.gain.setValueAtTime(0.001, t);
+      g.gain.linearRampToValueAtTime(0.14, t + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0008, t + 0.35);
+      o.connect(g); g.connect(audioCtx.destination);
+      o.start(t); o.stop(t + 0.36);
     });
-    [261.63, 329.63, 392.00, 493.88, 587.33].forEach((f, idx) => {
-      playRhodesNote(f, 0.12 + idx * 0.03, 2.0, 0.072);
-    });
-    playWarmBass(130.81, 0.10, 1.9, 0.135);
-    playCrystalBell(1318.51, 0.72, 1.3, 0.125);
-    playCrystalBell(1567.98, 0.90, 1.8, 0.145);
-  } else if (evType === "VERDICT_FALSE") {
-    // 수동 주크박스 감상 중이면 볼륨만 잠시 낮춘 뒤 차임 울림!
-    if (isPreviewPlaying && isBgmPlaying) { duckOstTemporarily(1800); } else { stopLoungeBgm(0.30); }
-    playRhodesNote(440.00, 0.05, 0.95, 0.095);
-    playCrystalBell(523.25, 0.05, 0.85, 0.085);
-    playRhodesNote(349.23, 0.28, 1.25, 0.10);
-    playRhodesNote(261.63, 0.30, 1.25, 0.085);
-  } else if (evType === "HALT_WATCH") {
-    // 홀트 감지 & 0.5초 밀착 감시 크리스탈 레이더 펄스
-    [659.25, 493.88, 659.25, 830.61].forEach((f, i) => {
-      playCrystalBell(f, i * 0.14, 0.85, 0.115);
-    });
-  }
+  } catch (e) {}
 }
 
-function fmtShortDate(dtStr) {
-  if (!dtStr || dtStr.length < 10) return dtStr || "-";
-  return `${Number(dtStr.slice(5, 7))}/${Number(dtStr.slice(8, 10))}`;
+function detectTrack(v) {
+  const explicit = String(v.track || "").toUpperCase();
+  if (explicit === "TRACK3") return "TRACK3";
+  if (explicit === "TRACK2") return "TRACK2";
+  if (explicit === "TRACK1") return "TRACK1";
+  const txt = `${v.engine || ""} ${v.catalyst_hint || ""} ${v.reason || ""} ${v.full_report || ""}`;
+  if (/Track\s*3|TRACK3|흥\s*칫\s*뿡|본장\s*첫\s*점화|수급\s*점화/i.test(txt)) return "TRACK3";
+  if (/Track\s*B|TRACK2|숏스퀴즈/i.test(txt)) return "TRACK2";
+  if (/실전\s*포지션/i.test(String(v.engine || ""))) return "POSITION";
+  return "TRACK1";
 }
 
-function getWeekdayThemeKey(dtStr) {
-  if (!dtStr || dtStr.length < 10) return "mon";
-  const parts = dtStr.slice(0, 10).split("-").map(Number);
-  const d = new Date(parts[0], parts[1] - 1, parts[2]);
-  const day = d.getDay();
-  if (day === 1) return "mon";
-  if (day === 2) return "tue";
-  if (day === 3) return "wed";
-  if (day === 4) return "thu";
-  if (day === 5) return "fri";
-  return "mon";
+function trackBadgeHtml(trk) {
+  if (trk === "TRACK3") return `<span class="trk-badge trk-3">🟣 트랙3 흥칫뿡</span>`;
+  if (trk === "TRACK2") return `<span class="trk-badge trk-2">🟠 트랙2</span>`;
+  if (trk === "POSITION") return `<span class="trk-badge trk-pos">💼 실전정산</span>`;
+  return `<span class="trk-badge trk-1">🔵 트랙1 PR</span>`;
 }
 
-function styleExBadge(el, ex) {
-  const exU = String(ex || "ND").toUpperCase();
-  el.style.display = "inline-block";
-  el.innerText = exU === "ND" ? "NASDAQ (ND)" : (exU === "AM" ? "AMEX (AM)" : exU);
-  el.className = "ex-badge" + (exU === "AM" ? " am" : (exU === "NY" ? " ny" : ""));
+function fmtShortDate(d) {
+  if (!d) return "-";
+  const p = String(d).split("-");
+  return p.length === 3 ? `${Number(p[1])}/${Number(p[2])}` : d;
 }
 
-function setFilterMode(mode) {
-  filterMode = mode;
-  document.getElementById("fBtnAll").className = mode === "all" ? "filter-btn active" : "filter-btn";
-  document.getElementById("fBtnBuy").className = mode === "buy" ? "filter-btn active-buy" : "filter-btn";
-  document.getElementById("fBtnFalse").className = mode === "false" ? "filter-btn active-false" : "filter-btn";
-  document.getElementById("fBtnHc").className = mode === "hardcut" ? "filter-btn active" : "filter-btn";
-  if (cachedState) renderBoard(cachedState, true);
+function chartUrl(sym, ex) {
+  const s = encodeURIComponent(String(sym || "").trim().toUpperCase());
+  const pref = String(ex || "").toUpperCase().includes("AM") ? "AMEX" : "NASDAQ";
+  return `https://www.tradingview.com/chart/?symbol=${pref}%3A${s}`;
 }
 
-function renderHeroVerdict(v, openReport = false) {
-  if (!v) return;
-  isCurrentlyAnalyzing = false;
-  analyzingStartMs = 0;
+function setFilter(m) {
+  filterMode = m;
+  ["all", "hot", "track3", "track1"].forEach(k => {
+    const id = k === "all" ? "fAll" : (k === "hot" ? "fHot" : (k === "track3" ? "fT3" : "fT1"));
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle("active", k === m);
+  });
+  if (cachedState) renderTimeline(cachedState);
+}
 
-  const isBuy = v.decision === "BUY";
-  const heroCard = document.getElementById("heroCard");
-  heroCard.className = "hero-card " + (isBuy ? "buy-mode" : "false-mode");
+function toggleSort() {
+  sortAsc = !sortAsc;
+  document.getElementById("sortBtn").innerText = sortAsc
+    ? "🕒 발생 순서대로 (오전→오후)"
+    : "⬇️ 최신 순서대로 (최근→과거)";
+  if (cachedState) renderTimeline(cachedState);
+}
 
-  document.getElementById("heroBadge").innerHTML =
-    `📌 최근 NotebookLM 심문 결과 (${v.date_et} ${v.time_et} ET · 한국 ${v.time_kst || '-'} KST)`;
-  document.getElementById("heroTimerPill").innerText = `⏱️ 심문 소요: ${Number(v.elapsed_sec || 0).toFixed(1)}초`;
-
-  const compTxt = (v.company_name && v.company_name !== v.symbol) ? ` · ${v.company_name}` : "";
-  document.getElementById("heroTicker").innerText = `${v.symbol}${compTxt}`;
-  styleExBadge(document.getElementById("heroExBadge"), v.exchange);
-
-  const vPill = document.getElementById("heroVerdictPill");
-  vPill.className = "verdict-big-pill " + (isBuy ? "buy" : "false");
-  vPill.innerText = isBuy ? "🔥 BUY (즉시 매수 승인!)" : "🛡️ FALSE (매수 차단)";
-
+function openModal(v) {
+  const trk = detectTrack(v);
+  document.getElementById("mTitle").innerText = `${v.symbol} (${v.exchange || 'ND'}) · ${v.decision === 'BUY' ? '🔥 BUY' : '🛡️ 패스'}`;
   const px = Number(v.price || 0);
   const gn = Number(v.gain_pct || 0);
   const mc = Number(v.mcap_m || 0);
-  const metaParts = [];
-  if (px > 0) metaParts.push(`심문 시점가: $${px.toFixed(4)} (${gn >= 0 ? '+' : ''}${gn.toFixed(2)}%)`);
-  if (mc > 0) metaParts.push(`실질 시총: $${mc.toFixed(2)}M USD`);
-  if (v.trade_action) metaParts.push(`실전 조치: ${v.trade_action}`);
-  document.getElementById("heroMeta").innerText = metaParts.join("   |   ") || `판정 엔진: ${v.engine || 'NotebookLM 직통'}`;
-
-  const rBox = document.getElementById("heroReasonBox");
-  rBox.className = "hero-reason-box " + (isBuy ? "buy" : "false");
-  const catLine = v.catalyst_hint ? `📰 포착 공시/PR: ${v.catalyst_hint}\n` : "";
-  rBox.innerText = `${catLine}💡 핵심 사유: ${v.reason || '-'}`;
-
-  const fold = document.getElementById("heroFullReportFold");
-  if (v.full_report && v.full_report.trim().length > 10) {
-    fold.style.display = "block";
-    document.getElementById("heroFoldTitle").innerText =
-      `📖 [${v.symbol}] NotebookLM 연구소장 원문 직독 심사 전문 전체 보기`;
-    document.getElementById("heroFullReportBody").innerText = v.full_report;
-    if (openReport) fold.open = true;
+  document.getElementById("mMeta").innerText =
+    `${trk} · ${fmtShortDate(v.date_et)}(${v.weekday_kr || ''}) 🇰🇷 ${v.time_kst || '-'} KST / 🇺🇸 ${v.time_et || '-'} ET` +
+    (px > 0 ? ` · $${px.toFixed(4)} (${gn>=0?'+':''}${gn.toFixed(1)}%)` : "") +
+    (mc > 0 ? ` · 시총 $${mc.toFixed(1)}M` : "");
+  document.getElementById("mReason").innerText = v.reason || "-";
+  const full = String(v.full_report || "").trim();
+  const fullEl = document.getElementById("mFull");
+  if (full.length > 5) {
+    fullEl.style.display = "block";
+    fullEl.innerText = full;
   } else {
-    fold.style.display = "none";
-    fold.open = false;
+    fullEl.style.display = "none";
   }
+  document.getElementById("detailModal").classList.add("open");
 }
 
-function renderHeroAnalyzing(an) {
-  isCurrentlyAnalyzing = true;
-  analyzingStartMs = Number(an.started_epoch_ms || Date.now());
-
-  const heroCard = document.getElementById("heroCard");
-  heroCard.className = "hero-card analyzing";
-
-  const qTxt = Number(an.queue_remaining || 0) > 0 ? ` · 뒤이어 대기열 ${an.queue_remaining}종목` : "";
-  document.getElementById("heroBadge").innerHTML =
-    `<span class="live-dot"></span> 🧠 지금 NotebookLM 연구소장이 원문 서류철을 정밀 심문하고 있습니다!! (${an.mode_label || '실시간 심문'}${qTxt})`;
-
-  const sec = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
-  document.getElementById("heroTimerPill").innerText = `⏱️ 실시간 분석 경과: ${sec}초...`;
-
-  const compTxt = (an.company_name && an.company_name !== an.symbol) ? ` · ${an.company_name}` : "";
-  document.getElementById("heroTicker").innerText = `${an.symbol}${compTxt}`;
-  styleExBadge(document.getElementById("heroExBadge"), an.exchange);
-
-  const vPill = document.getElementById("heroVerdictPill");
-  vPill.className = "verdict-big-pill wait";
-  vPill.innerText = "🧠 BUY / FALSE 판결 도출 중...";
-
-  const px = Number(an.price || 0);
-  const gn = Number(an.gain_pct || 0);
-  const mc = Number(an.mcap_m || 0);
-  const metaParts = [];
-  if (px > 0) metaParts.push(`현재 포착가: $${px.toFixed(4)} (${gn >= 0 ? '+' : ''}${gn.toFixed(2)}%)`);
-  if (mc > 0) metaParts.push(`실질 시총: $${mc.toFixed(2)}M USD`);
-  metaParts.push(`시작 시각: ${an.started_at_et || ''} ET (${an.started_at_kst || ''} KST)`);
-  document.getElementById("heroMeta").innerText = metaParts.join("   |   ");
-
-  const rBox = document.getElementById("heroReasonBox");
-  rBox.className = "hero-reason-box";
-  rBox.innerText = an.catalyst_hint
-    ? `📄 심사 중인 당일 공시·PR: ${an.catalyst_hint}\n🔎 포트 9333 상시 예열 크롬에서 [실시간 긴급결재 원문서류철] + [29종목 진위 족보집] 교차 검증 중...`
-    : `🔎 포트 9333 상시 예열 크롬에서 [실시간 긴급결재 원문서류철] + [29종목 진위 족보집] 교차 검증 중...`;
-
-  document.getElementById("heroFullReportFold").style.display = "none";
+function closeModal() {
+  document.getElementById("detailModal").classList.remove("open");
 }
 
-function renderBoard(state, forceRender = false) {
+function renderBoard(state) {
   if (!state) return;
-  const incomingMs = Number(state.updated_epoch_ms || 0);
-  if (!forceRender && lastEpochMs > 0 && incomingMs > 0 && incomingMs < lastEpochMs) {
-    return; // 구버전 캐시 역전 방지
-  }
-  if (incomingMs > 0) lastEpochMs = incomingMs;
   cachedState = state;
 
-  // 1) 계좌 & 레이더 상태 바
+  // 1) 보유 & 계좌 1줄 스트립
   const acc = state.account || {};
-  const wlCnt = Number(acc.watchlist_count || 168);
-  const usd = Number(acc.orderable_usd || 0);
-  const sess = acc.session_label || "프리장실전";
-  const doneTxt = acc.daily_done ? "🔒 금일 1회 매매 완료(계좌보호 잠금)" : "🟢 금일 타격 가능";
+  const cash = Number(acc.cash_usd || 0);
+  const sess = acc.session_label || "미국장 대기";
+  const upd = state.updated_kst ? state.updated_kst.slice(11, 16) : "";
   document.getElementById("radarLeftTxt").innerText =
-    `📡 [${sess}] 잠복 감시 ${wlCnt}종목 (ND·AM 전용)   |   💵 주문가능 외화: $${usd.toFixed(2)} USD   |   ${doneTxt}`;
+    `📡 ${sess} · 가용 $${cash.toLocaleString(undefined, {maximumFractionDigits: 0})}` + (upd ? ` · 갱신 ${upd}` : "");
 
-  const hw = state.halt_watch || {};
-  const haltBanner = document.getElementById("haltWatchBanner");
-  if (hw.active && hw.symbol) {
-    isCurrentlyHalting = true;
-    haltStartedMs = Number(hw.started_epoch_ms || Date.now());
-    haltBanner.style.display = "block";
-    const hEx = hw.exchange || "ND";
-    const hPx = Number(hw.halt_price || 0);
-    const resTxt = hw.resume_trade_et
-      ? `재개 확정: ${hw.resume_trade_et} ET${hw.resume_quote_et ? ' (호가재개 ' + hw.resume_quote_et + ')' : ''}`
-      : "재개 시각: 거래소 발표 대기 중 (3초마다 공식 피드 자동 조회)";
-    document.getElementById("haltBannerTitle").innerText =
-      `⏸️ [${hw.symbol} · ${hEx}] 거래소 공식 홀트 감지 → 미체결 주문 취소 & 0.5초 첫 체결 스나이퍼 가동 중!`;
-    document.getElementById("haltBannerMain").innerText =
-      `📌 사유: ${hw.reason_kr || hw.reason_code || '거래소 공식 홀트'}   |   정지 전 기준가: $${hPx.toFixed(4)}   |   정지시각: ${hw.halt_time_et || '-'} ET   |   ⏰ ${resTxt}`;
-    const hSec = Math.max(0, Math.floor((Date.now() - haltStartedMs) / 1000));
-    const mm = Math.floor(hSec / 60);
-    const ss = hSec % 60;
-    document.getElementById("haltBannerTimer").innerText =
-      mm > 0 ? `⏱️ 0.5초 밀착 감시 경과: ${mm}분 ${ss}초` : `⏱️ 0.5초 밀착 감시 경과: ${ss}초`;
+  const pill = document.getElementById("radarPosPill");
+  const hSym = String(acc.holding_symbol || "").trim();
+  const hQty = Number(acc.holding_qty || 0);
+  const halt = state.halt_watch || {};
+  if (halt.active && halt.symbol) {
+    isHalting = true;
+    haltStartMs = Number(halt.started_ms || Date.now());
+    pill.className = "pos-badge halting";
+    pill.innerText = `⏸️ ${halt.symbol} 홀트 감시 중`;
+  } else if (hSym && hQty > 0) {
+    isHalting = false;
+    const avg = Number(acc.avg_price || 0);
+    const cur = Number(acc.current_price || 0);
+    const pf = avg > 0 && cur > 0 ? ((cur - avg) / avg * 100) : Number(acc.pl_rate || 0);
+    pill.className = "pos-badge holding";
+    pill.innerText = `💼 ${hSym} ${hQty}주 · $${cur.toFixed(4)} (${pf>=0?'+':''}${pf.toFixed(2)}%)`;
   } else {
-    isCurrentlyHalting = false;
-    haltStartedMs = 0;
-    haltBanner.style.display = "none";
+    isHalting = false;
+    pill.className = "pos-badge";
+    pill.innerText = acc.daily_done ? "✅ 금일 매매 완료" : "🎯 트랙1 · 트랙3 사냥 대기 중";
   }
 
-  const posPill = document.getElementById("radarPosPill");
-  if (acc.holding_symbol && Number(acc.holding_qty || 0) > 0) {
-    const pRt = Number(acc.profit_rate || 0);
-    posPill.className = "radar-pos-pill holding";
-    posPill.innerText =
-      `🚀 실전 보유 중: ${acc.holding_symbol} (${acc.holding_qty}주) | 평단 $${Number(acc.avg_price||0).toFixed(4)} → 현재 $${Number(acc.current_price||0).toFixed(4)} (${pRt>=0?'+':''}${pRt.toFixed(2)}%)`;
-  } else if (hw.active && hw.symbol) {
-    posPill.className = "radar-pos-pill halting";
-    posPill.innerText =
-      `⏸️ ${hw.symbol} 홀트 0.5초 감시 중 (타 종목 BUY 동시 열림)`;
-  } else {
-    posPill.className = "radar-pos-pill";
-    posPill.innerText = acc.daily_done ? "🏁 금일 실전 매매 종료 (내일 개장 대기)" : "🎯 NotebookLM BUY 승인 대기 중";
-  }
-
-  // 2) 통계 알약 바
-  const st = state.stats || {};
-  document.getElementById("statTodayTotal").innerText =
-    `오늘 심문 ${Number(st.today_total || 0)}건 (누적 ${Number(st.total_verdicts || 0)}건)`;
-  document.getElementById("statBuyCnt").innerText =
-    `🔥 BUY 승인: 오늘 ${Number(st.today_buy || 0)}건 (누적 ${Number(st.total_buy || 0)}건)`;
-  document.getElementById("statFalseCnt").innerText =
-    `🛡️ FALSE 차단: 오늘 ${Number(st.today_false || 0)}건 (누적 ${Number(st.total_false || 0)}건)`;
-  document.getElementById("statAvgSec").innerText =
-    `⚡ 평균 심문시간: ${Number(st.avg_nblm_sec || 0).toFixed(1)}초`;
-  document.getElementById("statHardcutCnt").innerText =
-    `🛑 오늘 1차 하드컷 자체차단: ${Number(st.today_hardcut || 0)}건`;
-
-  // 3) 메인 히어로 카드 (분석 중이면 최우선 점등 + 사운드 상태 자동 동기화!)
+  // 2) 실시간 분석/홀트 배너 (필요할 때만 표시)
   const an = state.analyzing || {};
-  const verdicts = state.verdicts || [];
-  const newestVerdict = verdicts.length > 0 ? verdicts[0] : null;
-  if (!initialStateLoaded) {
-    initialStateLoaded = true;
-    if (newestVerdict && newestVerdict.id) lastAutoAudioVerdictId = newestVerdict.id;
-    if (an.active && an.symbol) lastAutoAudioAnalyzeKey = `${an.symbol}_${an.started_epoch_ms || 0}`;
-  } else if (soundEnabled) {
-    if (an.active && an.symbol) {
-      const aKey = `${an.symbol}_${an.started_epoch_ms || 0}`;
-      if (aKey !== lastAutoAudioAnalyzeKey && !isBgmPlaying) {
-        lastAutoAudioAnalyzeKey = aKey;
-        startLoungeAnalyzingBgm(false);
-      }
-    } else {
-      if (newestVerdict && newestVerdict.id && newestVerdict.id !== lastAutoAudioVerdictId) {
-        lastAutoAudioVerdictId = newestVerdict.id;
-        playEventSound(newestVerdict.decision === "BUY" ? "VERDICT_BUY" : "VERDICT_FALSE");
-      } else if (isBgmPlaying && !isPreviewPlaying) {
-        stopLoungeBgm(0.35);
-      }
-    }
-  }
+  const banner = document.getElementById("liveAlertBanner");
   if (an.active && an.symbol) {
-    renderHeroAnalyzing(an);
-  } else if (verdicts.length > 0) {
-    const chosen = (selectedVerdictId && verdicts.find(x => x.id === selectedVerdictId)) || verdicts[0];
-    renderHeroVerdict(chosen, false);
+    isAnalyzing = true;
+    analyzingStartMs = Number(an.started_ms || Date.now());
+    banner.style.display = "block";
+    document.getElementById("liveAlertTitle").innerText = `⚡ 트랙1 실시간 심문 중: ${an.symbol} (${an.exchange || 'ND'})`;
+    document.getElementById("liveAlertBody").innerText = an.catalyst_hint || "NotebookLM 8대 1급 호재 심사 진행 중...";
+  } else if (halt.active && halt.symbol) {
+    isAnalyzing = false;
+    banner.style.display = "block";
+    document.getElementById("liveAlertTitle").innerText = `⏸️ 거래소 홀트 감지: ${halt.symbol}`;
+    document.getElementById("liveAlertBody").innerText = halt.reason || "홀트 해제 첫 체결 0.5초 감시 중";
+  } else {
+    isAnalyzing = false;
+    banner.style.display = "none";
   }
 
-  // 4) 테이블 렌더링
-  const tbody = document.getElementById("boardTbody");
-  const thead = document.getElementById("boardThead");
-  tbody.innerHTML = "";
+  // 3) 오늘의 트랙1 · 트랙3 핵심 포착 요약 스트립
+  const verdicts = Array.isArray(state.verdicts) ? state.verdicts : [];
+  const latestDate = state.today_et || (verdicts[0] && verdicts[0].date_et) || "";
+  const todayRows = verdicts.filter(v => !latestDate || v.date_et === latestDate);
 
-  if (filterMode === "hardcut") {
-    document.getElementById("tableTitleLbl").innerText = "🛑 파이썬 1차 하드컷 자체 차단 로그 (NotebookLM 호출 전 0.1초 즉시 컷)";
-    thead.innerHTML = `
-      <tr>
-        <th style="width:165px;">차단 시각 (ET / KST)</th>
-        <th style="width:210px;">종목 (거래소 · 시총)</th>
-        <th style="width:155px;">1차 필터 판정</th>
-        <th>파이썬 0.1초 자체 차단 사유</th>
-      </tr>
-    `;
-    const hcs = state.hardcuts || [];
-    if (hcs.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="4" style="padding:28px; color:#94A3B8;">아직 기록된 금일 1차 하드컷 차단 내역이 없습니다. (다음 포착부터 실시간 기록됩니다)</td></tr>`;
-      return;
-    }
-    hcs.forEach((h) => {
-      const wkKey = getWeekdayThemeKey(h.date_et);
-      const tr = document.createElement("tr");
-      tr.className = `wk-${wkKey}`;
-      const mcTxt = Number(h.mcap_m || 0) > 0 ? `$${Number(h.mcap_m).toFixed(1)}M` : "-";
-      tr.innerHTML = `
-        <td>
-          <div style="font-weight:900;">${fmtShortDate(h.date_et)} · ${h.time_et || ''} ET</div>
-          <div style="font-size:12.5px; color:#94A3B8; margin-top:2px;">🇰🇷 ${h.time_kst || ''} KST</div>
-        </td>
-        <td>
-          <div style="font-weight:900; font-size:18px; color:#FFFFFF;">${h.symbol} <span style="font-size:12.5px; color:#93C5FD;">[${h.exchange || '-'}]</span></div>
-          <div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">시총: ${mcTxt}</div>
-        </td>
-        <td><span class="res-hc">🛑 0.1초 하드컷</span></td>
-        <td class="reason-cell">${h.reason || '-'}</td>
+  // 오늘 날짜 발생 순서대로 정렬 (오래된 것 -> 최신 것)
+  const todayChron = [...todayRows].sort((a, b) =>
+    String(a.time_et || "").localeCompare(String(b.time_et || ""))
+  );
+
+  const t3Hits = todayChron.filter(v => detectTrack(v) === "TRACK3");
+  const t1Buys = todayChron.filter(v => detectTrack(v) === "TRACK1" && v.decision === "BUY");
+  const hotToday = todayChron.filter(v => detectTrack(v) === "TRACK3" || (detectTrack(v) === "TRACK1" && v.decision === "BUY"));
+
+  document.getElementById("hlTitle").innerText =
+    `⚡ ${fmtShortDate(latestDate)} 트랙1 · 트랙3 핵심 신호 (발생 순서대로)`;
+  document.getElementById("cntT3").innerText = `🟣 트랙3: ${t3Hits.length}건`;
+  document.getElementById("cntT1Buy").innerText = `🔵 트랙1 BUY: ${t1Buys.length}건`;
+  document.getElementById("cntT1All").innerText = `오늘 전체 ${todayRows.length}건`;
+
+  const strip = document.getElementById("hlStrip");
+  if (hotToday.length === 0) {
+    strip.innerHTML = `<div class="hl-empty">아직 ${fmtShortDate(latestDate)} 기준 포착된 <b>BUY / 트랙3</b> 신호가 없습니다. 장중에 뜨면 여기 시간순으로 바로 쌓입니다!</div>`;
+  } else {
+    strip.innerHTML = "";
+    hotToday.forEach((v, idx) => {
+      const trk = detectTrack(v);
+      const div = document.createElement("div");
+      div.className = `hl-item ${trk === "TRACK3" ? "t3" : "t1"}`;
+      const gn = Number(v.gain_pct || 0);
+      const px = Number(v.price || 0);
+      const kstHm = String(v.time_kst || "").slice(0, 5);
+      div.innerHTML = `
+        <span class="hl-time">#${idx + 1} · ${kstHm || v.time_et?.slice(0,5) || ''}</span>
+        ${trackBadgeHtml(trk)}
+        <span class="hl-sym">${v.symbol}</span>
+        ${px > 0 ? `<span class="hl-gain ${gn < 0 ? 'neg' : ''}">$${px.toFixed(2)} (${gn>=0?'+':''}${gn.toFixed(1)}%)</span>` : ""}
+        <a class="chart-btn" href="${chartUrl(v.symbol, v.exchange)}" target="_blank" onclick="event.stopPropagation()">📈 차트</a>
       `;
-      tbody.appendChild(tr);
+      div.onclick = () => openModal(v);
+      strip.appendChild(div);
     });
-    return;
   }
 
-  document.getElementById("tableTitleLbl").innerText = "📋 NotebookLM 종목별 BUY / FALSE 실시간 판정 기록";
-  thead.innerHTML = `
-    <tr>
-      <th style="width:170px;">심문 시각 (ET / KST)</th>
-      <th style="width:220px;">종목 (거래소 · 체급)</th>
-      <th style="width:165px;">BUY / FALSE 판정</th>
-      <th>핵심 판정 사유 (클릭 시 상단 심사 전문 보기)</th>
-    </tr>
-  `;
+  // 4) 메인 타임라인 렌더링
+  renderTimeline(state);
+}
 
-  let rows = verdicts;
-  if (filterMode === "buy") rows = verdicts.filter(v => v.decision === "BUY");
-  if (filterMode === "false") rows = verdicts.filter(v => v.decision !== "BUY");
+function renderTimeline(state) {
+  const listEl = document.getElementById("timelineList");
+  const verdicts = Array.isArray(state.verdicts) ? state.verdicts : [];
+
+  let rows = verdicts.filter(v => {
+    const trk = detectTrack(v);
+    if (filterMode === "hot") return trk === "TRACK3" || v.decision === "BUY";
+    if (filterMode === "track3") return trk === "TRACK3";
+    if (filterMode === "track1") return trk === "TRACK1";
+    return true;
+  });
 
   if (rows.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="4" style="padding:28px; color:#94A3B8;">해당 조건의 판정 기록이 없습니다.</td></tr>`;
+    listEl.innerHTML = `<div style="padding:28px; text-align:center; color:#64748B; font-weight:700;">해당 조건의 신호 기록이 아직 없습니다.</div>`;
     return;
   }
 
-  let prevDate = "";
-  rows.forEach((v) => {
-    const wkKey = getWeekdayThemeKey(v.date_et);
-    const isNewDate = prevDate !== "" && prevDate !== v.date_et;
-    prevDate = v.date_et;
+  // 날짜별 그룹화 (최신 날짜가 위로, 각 날짜 내부는 sortAsc에 따라 발생순 또는 최신순)
+  const groups = new Map();
+  rows.forEach(v => {
+    const d = v.date_et || "기타";
+    if (!groups.has(d)) groups.set(d, []);
+    groups.get(d).push(v);
+  });
 
-    const tr = document.createElement("tr");
-    tr.className = `wk-${wkKey}` + (isNewDate ? " date-group-start" : "");
+  const sortedDates = Array.from(groups.keys()).sort((a, b) => b.localeCompare(a));
+  listEl.innerHTML = "";
 
-    const isBuy = v.decision === "BUY";
-    const badgeHtml = isBuy
-      ? `<span class="res-buy">🔥 BUY 승인</span>`
-      : `<span class="res-false">🛡️ FALSE 차단</span>`;
+  sortedDates.forEach(d => {
+    const dayItems = groups.get(d);
+    dayItems.sort((a, b) => {
+      const ta = String(a.time_et || "");
+      const tb = String(b.time_et || "");
+      return sortAsc ? ta.localeCompare(tb) : tb.localeCompare(ta);
+    });
 
-    const px = Number(v.price || 0);
-    const gn = Number(v.gain_pct || 0);
-    const mc = Number(v.mcap_m || 0);
-    const subMeta = [];
-    if (px > 0) subMeta.push(`$${px.toFixed(3)} (${gn>=0?'+':''}${gn.toFixed(1)}%)`);
-    if (mc > 0) subMeta.push(`시총 $${mc.toFixed(1)}M`);
-
-    const isLegacy = String(v.engine || "").includes("Gmail");
-    const engChip = `<span class="engine-mini ${isLegacy ? 'legacy' : ''}">${v.engine || 'NotebookLM 직통'}</span>`;
-    const hasFull = v.full_report && v.full_report.trim().length > 10;
-    const moreChip = hasFull ? `<span class="more-report-chip">📖 전문있음</span>` : "";
-    const actLine = v.trade_action ? `<div style="font-size:12.5px; color:${isBuy ? '#6EE7B7' : '#94A3B8'}; margin-top:4px;">⚡ ${v.trade_action}</div>` : "";
-
-    tr.innerHTML = `
-      <td>
-        <div style="font-weight:900; font-size:15.5px;">${fmtShortDate(v.date_et)} <span class="wk-badge ${wkKey}">${v.weekday_kr || ''}</span></div>
-        <div style="font-size:13.5px; color:#E2E8F0; margin-top:3px;">🇺🇸 ${v.time_et || ''} ET</div>
-        <div style="font-size:12.5px; color:#94A3B8;">🇰🇷 ${v.time_kst || '-'} KST · ⏱️${Number(v.elapsed_sec||0).toFixed(1)}초</div>
-      </td>
-      <td>
-        <div style="font-weight:900; font-size:19px; color:#FFFFFF;">${v.symbol} <span style="font-size:12.5px; color:#93C5FD;">[${v.exchange || 'ND'}]</span></div>
-        <div style="font-size:12.5px; color:#CBD5E1; margin-top:2px;">${subMeta.join(" · ") || v.company_name || "-"}</div>
-      </td>
-      <td>
-        ${badgeHtml}
-        ${actLine}
-      </td>
-      <td class="reason-cell">
-        ${engChip}${v.reason || '-'}${moreChip}
-      </td>
+    const wk = dayItems[0]?.weekday_kr || "";
+    const buyCnt = dayItems.filter(x => x.decision === "BUY" || detectTrack(x) === "TRACK3").length;
+    const divHead = document.createElement("div");
+    divHead.className = "date-divider";
+    divHead.innerHTML = `
+      <span>📅 ${fmtShortDate(d)} (${wk}) · 총 ${dayItems.length}건</span>
+      <span style="color:#7C3AED;">핵심 포착 ${buyCnt}건</span>
     `;
-    tr.onclick = () => {
-      selectedVerdictId = v.id;
-      renderHeroVerdict(v, true);
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-    tbody.appendChild(tr);
+    listEl.appendChild(divHead);
+
+    dayItems.forEach(v => {
+      const trk = detectTrack(v);
+      const isBuy = v.decision === "BUY";
+      const row = document.createElement("div");
+      row.className = "sig-row " + (trk === "TRACK3" ? "is-t3" : (isBuy ? "is-buy" : "is-pass"));
+
+      const px = Number(v.price || 0);
+      const gn = Number(v.gain_pct || 0);
+      const kstHm = String(v.time_kst || "-").slice(0, 5);
+      const etHm = String(v.time_et || "-").slice(0, 5);
+      const decHtml = trk === "TRACK3"
+        ? `<span class="dec-badge dec-buy">🚀 포착</span>`
+        : (isBuy ? `<span class="dec-badge dec-buy">🔥 BUY</span>` : `<span class="dec-badge dec-pass">🛡️ 패스</span>`);
+
+      row.innerHTML = `
+        <div class="col-time">
+          <div class="kst">🇰🇷 ${kstHm}</div>
+          <div class="et">🇺🇸 ${etHm} ET</div>
+        </div>
+        <div class="col-trk">
+          ${trackBadgeHtml(trk)}
+          <div style="margin-top:4px;">${decHtml}</div>
+        </div>
+        <div class="col-sym">
+          <div class="sym-line">
+            <span class="sym">${v.symbol}</span>
+            <span class="ex">${v.exchange || 'ND'}</span>
+          </div>
+          <div class="px">${px > 0 ? `$${px.toFixed(3)} (${gn>=0?'+':''}${gn.toFixed(1)}%)` : (v.company_name || '-')}</div>
+        </div>
+        <div class="col-reason">${v.reason || '-'}</div>
+        <div class="col-act">
+          <a class="chart-btn" href="${chartUrl(v.symbol, v.exchange)}" target="_blank" onclick="event.stopPropagation()">📈 차트</a>
+        </div>
+      `;
+      row.onclick = () => openModal(v);
+      listEl.appendChild(row);
+    });
   });
 }
 
-/* GitHub Pages 초기 로드 & 12초 주기 폴백 동기화 */
 async function pollGitHubState() {
   try {
     const stateUrl = window.location.protocol === "file:"
@@ -1337,45 +682,57 @@ async function pollGitHubState() {
     const res = await fetch(`${stateUrl}?t=${Date.now()}`, { cache: "no-store" });
     if (res.ok) {
       const state = await res.json();
-      renderBoard(state, false);
+      renderBoard(state);
     }
   } catch (e) {}
 }
-pollGitHubState();
-setInterval(pollGitHubState, 12000);
 
-/* EMQX 실시간 웹소켓 연결 */
+function forceRefreshNow() {
+  pollGitHubState();
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.update())).catch(() => {});
+  }
+}
+
+pollGitHubState();
+setInterval(pollGitHubState, 10000);
+
+/* Service Worker 업데이트 시 자동 새로고침 */
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    window.location.reload();
+  });
+}
+
+/* EMQX 실시간 웹소켓 */
 const client = mqtt.connect(BROKER_WSS, {
-  clientId: "us_nblm_board_" + Math.random().toString(16).slice(2, 10),
+  clientId: "us_board_v23_" + Math.random().toString(16).slice(2, 10),
   clean: true,
   reconnectPeriod: 2000,
 });
 
 client.on("connect", () => {
   const st = document.getElementById("statusLbl");
-  st.innerText = "🟢 실시간 자동 업데이트 켜짐";
-  st.style.color = "#34D399";
+  st.innerText = "🟢 실시간 연결됨";
+  st.classList.add("ok");
   client.subscribe([TOPIC_US_STATE, TOPIC_US_LIVE], { qos: 1 });
 });
 
 client.on("reconnect", () => {
   const st = document.getElementById("statusLbl");
-  st.innerText = "🟡 실시간 재연결 중...";
-  st.style.color = "#FBBF24";
+  st.innerText = "🟡 재연결 중...";
+  st.classList.remove("ok");
 });
 
 client.on("message", (topic, payload) => {
   try {
     const data = JSON.parse(new TextDecoder("utf-8").decode(payload));
     if (topic === TOPIC_US_STATE) {
-      if (data && data.verdicts && data.verdicts.length > 0 && !(data.analyzing && data.analyzing.active)) {
-        selectedVerdictId = data.verdicts[0].id;
-      }
-      renderBoard(data, true);
+      renderBoard(data);
     } else if (topic === TOPIC_US_LIVE && data) {
       if (data.id && seenLiveIds.has(data.id)) return;
       if (data.id) seenLiveIds.add(data.id);
-      playEventSound(data.event);
+      if (data.event === "VERDICT_BUY") playChime(true);
     }
   } catch (e) {}
 });
