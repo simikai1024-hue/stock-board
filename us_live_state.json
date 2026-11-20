@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 22:18:03",
-  "updated_at_et": "2026-11-20 08:18:03",
-  "updated_epoch_ms": 1795180683079,
+  "updated_at_kst": "2026-11-20 22:19:06",
+  "updated_at_et": "2026-11-20 08:19:06",
+  "updated_epoch_ms": 1795180746209,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.5601,
-    "profit_rate": -2.98,
-    "updated_kst": "22:17:57"
+    "current_price": 4.6687,
+    "profit_rate": -0.67,
+    "updated_kst": "22:18:57"
   },
   "stats": {
     "today_total": 13,
@@ -2450,6 +2450,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "08:18:09",
+      "time_kst": "22:18:09",
+      "symbol": "ELOG",
+      "company_name": "ELOG",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-19 [424B4])"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "08:15:59",
       "time_kst": "22:15:59",
       "symbol": "ZBRA",
@@ -2937,16 +2947,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [424B5])"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "05:40:34",
-      "time_kst": "19:40:34",
-      "symbol": "NNOX",
-      "company_name": "NNOX",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-13 [424B5])"
     }
   ]
 }
