@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:37:50",
-  "updated_at_et": "2026-11-20 10:37:50",
-  "updated_epoch_ms": 1795189070738,
+  "updated_at_kst": "2026-11-21 00:38:47",
+  "updated_at_et": "2026-11-20 10:38:47",
+  "updated_epoch_ms": 1795189127872,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.2643,
-    "profit_rate": -5.13,
-    "updated_kst": "00:37:48"
+    "current_price": 0.2691,
+    "profit_rate": -3.41,
+    "updated_kst": "00:38:45"
   },
   "stats": {
     "today_total": 33,
@@ -2470,6 +2470,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:37:51",
+      "time_kst": "00:37:51",
+      "symbol": "OFAL",
+      "company_name": "OFAL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $59.66M (기준 <= $50.0M USD 초과/미확인)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:33:37",
       "time_kst": "00:33:37",
       "symbol": "DTCX",
@@ -2957,16 +2967,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $2463.02M (기준 <= $50.0M USD 초과/초고속컷)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "09:09:50",
-      "time_kst": "23:09:50",
-      "symbol": "CENT",
-      "company_name": "CENT",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $2855.47M (기준 <= $50.0M USD 초과/초고속컷)"
     }
   ]
 }
