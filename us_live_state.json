@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-21 00:40:44",
-  "updated_at_et": "2026-11-20 10:40:44",
-  "updated_epoch_ms": 1795189244522,
+  "updated_at_kst": "2026-11-21 00:41:27",
+  "updated_at_et": "2026-11-20 10:41:27",
+  "updated_epoch_ms": 1795189287678,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "LABT",
     "holding_qty": 843,
     "avg_price": 0.2786,
-    "current_price": 0.2692,
-    "profit_rate": -3.37,
-    "updated_kst": "00:40:38"
+    "current_price": 0.2729,
+    "profit_rate": -2.05,
+    "updated_kst": "00:41:15"
   },
   "stats": {
     "today_total": 33,
@@ -2470,6 +2470,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "10:41:21",
+      "time_kst": "00:41:21",
+      "symbol": "PMVP",
+      "company_name": "PMVP",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $98.95M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "10:37:51",
       "time_kst": "00:37:51",
       "symbol": "OFAL",
@@ -2487,16 +2497,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "실질 시가총액 $54.21M (기준 <= $50.0M USD 초과/미확인)"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "10:31:54",
-      "time_kst": "00:31:54",
-      "symbol": "PMVP",
-      "company_name": "PMVP",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "실질 시가총액 $98.95M (기준 <= $50.0M USD 초과/초고속컷)"
     },
     {
       "date_et": "2026-11-20",
