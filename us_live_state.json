@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 21:03:45",
-  "updated_at_et": "2026-11-20 07:03:45",
-  "updated_epoch_ms": 1795176225248,
+  "updated_at_kst": "2026-11-20 21:04:45",
+  "updated_at_et": "2026-11-20 07:04:45",
+  "updated_epoch_ms": 1795176285624,
   "analyzing": {
     "active": false
   },
@@ -17,16 +17,16 @@
     "holding_symbol": "AKAN",
     "holding_qty": 78,
     "avg_price": 4.7,
-    "current_price": 4.5,
-    "profit_rate": -4.26,
-    "updated_kst": "21:03:39"
+    "current_price": 4.5297,
+    "profit_rate": -3.62,
+    "updated_kst": "21:04:37"
   },
   "stats": {
     "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
     "today_false": 3,
-    "today_hardcut": 58,
+    "today_hardcut": 60,
     "total_verdicts": 150,
     "total_buy": 6,
     "total_false": 144,
@@ -2443,6 +2443,36 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "07:03:54",
+      "time_kst": "21:03:54",
+      "symbol": "UTHR",
+      "company_name": "UTHR",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $23811.34M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "07:03:52",
+      "time_kst": "21:03:52",
+      "symbol": "SSNC",
+      "company_name": "SSNC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $17526.67M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
+      "time_et": "07:03:49",
+      "time_kst": "21:03:49",
+      "symbol": "DTIL",
+      "company_name": "DTIL",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $193.04M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "07:03:43",
       "time_kst": "21:03:43",
       "symbol": "REAL",
@@ -2910,36 +2940,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-10-20 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:03:49",
-      "time_kst": "18:03:49",
-      "symbol": "FFR",
-      "company_name": "FFR",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-10-26 [8-K] (Item 1.01,2.01,3.02,5.02,5.03,7.01,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:03:28",
-      "time_kst": "18:03:28",
-      "symbol": "LIMN",
-      "company_name": "LIMN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 8-K Item 3.02 신주·워런트 희석 폭탄 이력 (2026-11-03 [8-K] (Item 1.01,3.02,9.01))"
-    },
-    {
-      "date_et": "2026-11-20",
-      "time_et": "04:03:20",
-      "time_kst": "18:03:20",
-      "symbol": "SLXN",
-      "company_name": "SLXN",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-09 [EFFECT] (Item ,,))"
     }
   ]
 }
