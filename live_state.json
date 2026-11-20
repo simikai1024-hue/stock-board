@@ -1,8 +1,8 @@
 {
   "date": "2026-11-20",
-  "updated_at": "2026-11-20 10:48:42",
+  "updated_at": "2026-11-20 10:49:40",
   "isi_board": {
-    "updated_at": "2026-11-20 10:48:42",
+    "updated_at": "2026-11-20 10:49:40",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-20",
     "theme_updated_at": "10:48:41",
@@ -223,20 +223,29 @@
       "lab_version": "ZERO_OPEN_CLIMBER_V2",
       "rule_summary": "시초 0% 이하(보합·음봉) 출발 → 09:45~13:00 3단 계단식 상승(VWAP 체류 88%+) 포착 → +6.0% 익절 · -4.5% 손절 · 14:55 마감",
       "today_date": "2026-11-20",
-      "today_status": "ARMED",
-      "armed_candidate": {
-        "code": "089590",
-        "name": "제주항공",
-        "theme_name": "📰 뉴스(KB證 &quot;아시아나항공…)",
-        "open_pct": 0.12,
-        "cur_price": 8640,
-        "cur_rate": 3.35,
-        "vwap_price": 8522,
+      "today_status": "HOLDING",
+      "armed_candidate": null,
+      "active_pos": {
+        "code": "002320",
+        "name": "한진",
+        "theme_name": "💰 [종합 물류] 계단매집",
+        "open_pct": -3.21,
         "vwap_stay_pct": 95.0,
-        "money_eok": 98.7,
-        "updated_at": "10:48:11"
+        "money_eok": 41.4,
+        "entry_time": "10:48",
+        "entry_price": 19040,
+        "entry_rate": 5.25,
+        "vwap_at_entry": 18309,
+        "vwap_price": 18309,
+        "peak_price": 19040,
+        "stop_loss_px": 18180,
+        "cur_price": 19040,
+        "cur_raw_pct": 0.0,
+        "cur_net_pct": -0.23,
+        "max_raw_pct": 0.0,
+        "trail_armed": false,
+        "updated_at": "10:48:57"
       },
-      "active_pos": null,
       "today_closed": null,
       "stats": {
         "total_closed": 2,
@@ -296,12 +305,12 @@
           "entry_time": "10:13",
           "entry_price": 6740,
           "entry_rate": 8.71,
-          "cur_price": 6480,
+          "cur_price": 6530,
           "peak_price": 6760,
-          "cur_raw_pct": -3.86,
-          "cur_net_pct": -4.09,
+          "cur_raw_pct": -3.12,
+          "cur_net_pct": -3.35,
           "max_raw_pct": 0.3,
-          "updated_at": "10:48:36",
+          "updated_at": "10:49:23",
           "status": "HOLDING"
         }
       ],
@@ -525,7 +534,7 @@
       "win_count": 3,
       "loss_count": 4,
       "win_rate_pct": 42.9,
-      "total_pnl_krw": -3134
+      "total_pnl_krw": -4036
     },
     "trades": [
       {
@@ -534,15 +543,15 @@
         "buy_weekday": "금",
         "sell_date": "2026-11-20",
         "sell_weekday": "금",
-        "sell_time": "10:31",
+        "sell_time": "10:49",
         "code": "150900",
         "name": "파수AI",
         "theme_name": "",
-        "qty": 14,
-        "buy_price": 6590,
-        "sell_price": 6560,
-        "pnl_pct": -0.68,
-        "pnl_krw": -623
+        "qty": 28,
+        "buy_price": 6575,
+        "sell_price": 6535,
+        "pnl_pct": -0.83,
+        "pnl_krw": -1525
       },
       {
         "status": "LOSS",
@@ -644,28 +653,28 @@
   },
   "history": [
     {
-      "id": "1795138263229_150900_SELL",
+      "id": "1795139375804_150900_SELL",
       "type": "SELL",
       "auto_copy": false,
-      "time": "2026-11-20 10:31:03",
+      "time": "2026-11-20 10:49:35",
       "name": "파수AI",
       "code": "150900",
-      "price": 6560,
-      "flu_rt": 6.77,
+      "price": 6535,
+      "flu_rt": -0.46,
       "val_uk": 0.0,
-      "target_price": 6880,
-      "stop_price": 6360,
-      "ammo_title": "📘 확정 손실: -623원 (-0.68%) | 매수 6,590원 → 매도 6,560원 (14주) [ISI 종가베팅 세력평단·방어선(49,750원) 이탈 보호손절]",
+      "target_price": 6860,
+      "stop_price": 6330,
+      "ammo_title": "📘 확정 손실: -1,525원 (-0.83%) | 매수 6,575원 → 매도 6,535원 (28주) [🔄계단주(한진) 출현에 따른 종가종목 교체정리]",
       "ammo_date": "",
-      "note": "⏰ ISI 종가베팅 세력평단·방어선(49,750원) 이탈 보호손절 완료 | 확정 손익 -623원 (-0.68%)",
-      "pnl_krw": -623,
-      "pnl_pct": -0.68,
-      "buy_price": 6590,
-      "qty": 14
+      "note": "⏰ 🔄계단주(한진) 출현에 따른 종가종목 교체정리 완료 | 확정 손익 -1,525원 (-0.83%)",
+      "pnl_krw": -1525,
+      "pnl_pct": -0.83,
+      "buy_price": 6575,
+      "qty": 28
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-20 10:48:42",
+    "updated_at": "2026-11-20 10:49:40",
     "stats": {
       "total_closed": 18,
       "win_count": 7,
@@ -674,7 +683,7 @@
       "loss_count": 11,
       "buy_fail_count": 0,
       "win_rate_pct": 38.9,
-      "total_pnl_krw": -14287
+      "total_pnl_krw": -15189
     },
     "rows": [
       {
@@ -683,16 +692,17 @@
         "weekday_short": "금",
         "code": "150900",
         "name": "파수AI",
-        "buy_price": 6590,
-        "sell_price": 6560,
-        "qty": 14,
-        "pnl_pct": -0.68,
-        "pnl_krw": -623,
+        "buy_price": 6575,
+        "sell_price": 6535,
+        "qty": 28,
+        "pnl_pct": -0.83,
+        "pnl_krw": -1525,
         "status": "LOSS",
         "buy_time": "",
-        "sell_time": "10:31:03",
+        "sell_time": "10:49:35",
         "reason": "📘 확정 손실: -623원 (-0.68%) | 매수 6,590원 → 매도 6,560원 (14주) [ISI 종가베팅 세력평단·방어선(49,750원) 이탈 보호손절]",
-        "note": "⏰ ISI 종가베팅 세력평단·방어선(49,750원) 이탈 보호손절 완료 | 확정 손익 -623원 (-0.68%)"
+        "note": "⏰ ISI 종가베팅 세력평단·방어선(49,750원) 이탈 보호손절 완료 | 확정 손익 -623원 (-0.68%)",
+        "sell_summary": "📘 확정 손실: -1,525원 (-0.83%) | 매수 6,575원 → 매도 6,535원 (28주) [🔄계단주(한진) 출현에 따른 종가종목 교체정리]"
       },
       {
         "date": "2026-11-19",
@@ -1162,7 +1172,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-20 10:48:42",
+    "updated_at": "2026-11-20 10:49:40",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -5093,7 +5103,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-20 10:48:42",
+    "updated_at": "2026-11-20 10:49:40",
     "deprecated": true,
     "stats": {},
     "days": []
