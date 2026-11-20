@@ -1,10 +1,22 @@
 {
   "today_et": "2026-11-20",
-  "updated_at_kst": "2026-11-20 20:00:54",
-  "updated_at_et": "2026-11-20 06:00:54",
-  "updated_epoch_ms": 1795172454382,
+  "updated_at_kst": "2026-11-20 20:01:30",
+  "updated_at_et": "2026-11-20 06:01:30",
+  "updated_epoch_ms": 1795172490238,
   "analyzing": {
-    "active": false
+    "active": true,
+    "symbol": "VWAV",
+    "company_name": "VWAV",
+    "exchange": "ND",
+    "price": 0.711,
+    "gain_pct": 7.47,
+    "mcap_m": 2.31,
+    "catalyst_hint": "[당일 PR] VisionWave Holdings Acquires Critical Minerals Intelligence Platform, Targeting Near-Term Commercialization of Defense Supply-Chain Intelligence",
+    "queue_remaining": 0,
+    "mode_label": "실시간 긴급 심문 중",
+    "started_at_et": "06:01:24",
+    "started_at_kst": "20:01:24",
+    "started_epoch_ms": 1795172484296
   },
   "halt_watch": {
     "active": false
@@ -19,14 +31,14 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "20:00:49"
+    "updated_kst": "20:01:23"
   },
   "stats": {
     "today_total": 3,
     "today_nblm_count": 0,
     "today_buy": 2,
     "today_false": 1,
-    "today_hardcut": 43,
+    "today_hardcut": 44,
     "total_verdicts": 150,
     "total_buy": 5,
     "total_false": 145,
@@ -2440,6 +2452,16 @@
   "hardcuts": [
     {
       "date_et": "2026-11-20",
+      "time_et": "06:01:00",
+      "time_kst": "20:01:00",
+      "symbol": "PSEC",
+      "company_name": "PSEC",
+      "exchange": "ND",
+      "mcap_m": 0.0,
+      "reason": "실질 시가총액 $701.81M (기준 <= $50.0M USD 초과/초고속컷)"
+    },
+    {
+      "date_et": "2026-11-20",
       "time_et": "05:59:24",
       "time_kst": "19:59:24",
       "symbol": "BOXL",
@@ -2927,16 +2949,6 @@
       "exchange": "ND",
       "mcap_m": 0.0,
       "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-02 [EFFECT] (Item ,,))"
-    },
-    {
-      "date_et": "2026-11-19",
-      "time_et": "09:54:56",
-      "time_kst": "23:54:56",
-      "symbol": "TRAW",
-      "company_name": "TRAW",
-      "exchange": "ND",
-      "mcap_m": 0.0,
-      "reason": "최근 35일 내 활성 유증/오퍼링(424B5/424B4/EFFECT) 희석 폭탄 이력 (2026-11-12 [EFFECT] (Item ,,))"
     }
   ]
 }
