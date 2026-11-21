@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<title>미국장 달의 검 · 트랙1 & 트랙3 실시간 신호판</title>
+<title>미국장 달의 검 · 흥칫뿡 전용 실시간 신호판</title>
 <meta name="theme-color" content="#EAF4FF">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="미국전광판">
-<link rel="manifest" href="./manifest.webmanifest?v=27">
+<link rel="manifest" href="./manifest.webmanifest?v=28">
 <link rel="icon" type="image/png" href="../icons/us-192.png">
 <link rel="apple-touch-icon" href="../icons/us-192.png">
 
@@ -44,11 +44,10 @@
     line-height: 1.45;
   }
 
-  /* 상단 슬림 헤더 */
   .top-header {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    background: linear-gradient(135deg, #FFFFFF 0%, #F0F9FF 100%);
-    border: 1px solid #BAE6FD;
+    background: linear-gradient(135deg, #FFFFFF 0%, #FAF5FF 100%);
+    border: 1px solid #DDD6FE;
     border-radius: 18px;
     padding: 13px 18px;
     margin-bottom: 12px;
@@ -57,7 +56,7 @@
   .brand-wrap { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
   .brand-title {
     font-size: 19px; font-weight: 900; letter-spacing: -0.4px;
-    background: linear-gradient(90deg, #0284C7, #7C3AED);
+    background: linear-gradient(90deg, #7C3AED, #EC4899);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
   .ver-pill {
@@ -82,7 +81,6 @@
   .mini-btn:hover { background: #F1F5F9; transform: translateY(-1px); }
   .mini-btn.on { background: var(--mint-soft); border-color: #34D399; color: var(--mint); }
 
-  /* 1줄 계좌/보유 상태 스트립 */
   .pos-strip {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
     background: var(--card); border: 1px solid var(--line); border-radius: 14px;
@@ -94,26 +92,7 @@
     background: var(--mint-soft); color: var(--mint);
   }
   .pos-badge.holding { background: var(--amber-soft); color: #B45309; }
-  .pos-badge.halting { background: var(--coral-soft); color: var(--coral); }
 
-  /* 실시간 분석 중 / 홀트 배너 (평소 숨김) */
-  @keyframes softPulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.25); }
-    50% { box-shadow: 0 0 0 8px rgba(124, 58, 237, 0.06); }
-  }
-  .live-alert-banner {
-    display: none;
-    background: linear-gradient(135deg, #EEF2FF 0%, #FFF1F2 100%);
-    border: 1.5px solid #A78BFA; border-radius: 15px;
-    padding: 12px 16px; margin-bottom: 12px;
-    animation: softPulse 1.8s infinite;
-  }
-  .live-alert-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .live-alert-title { font-size: 14.5px; font-weight: 900; color: #5B21B6; }
-  .live-alert-timer { font-size: 12.5px; font-weight: 900; padding: 3px 10px; border-radius: 999px; background: #FFFFFF; color: #7C3AED; border: 1px solid #DDD6FE; }
-  .live-alert-body { font-size: 13.5px; font-weight: 700; color: #334155; margin-top: 5px; }
-
-  /* 핵심 하이라이트 카드: 오늘 뜬 트랙1 · 트랙3 요약 */
   .highlight-card {
     background: linear-gradient(135deg, #FFFFFF 0%, #FAF5FF 55%, #F0FDF4 100%);
     border: 1.5px solid #DDD6FE;
@@ -132,13 +111,11 @@
     font-size: 12px; font-weight: 900; padding: 3px 10px; border-radius: 999px;
     background: #F1F5F9; color: #475569;
   }
-  .cnt-chip.t1 { background: var(--sky-soft); color: var(--sky); }
   .cnt-chip.t3 { background: var(--violet-soft); color: var(--violet); }
-  .cnt-chip.buy { background: var(--mint-soft); color: var(--mint); }
+  .cnt-chip.nn { background: var(--mint-soft); color: var(--mint); }
+  .cnt-chip.pr { background: var(--sky-soft); color: var(--sky); }
 
-  .hl-strip {
-    display: flex; gap: 9px; flex-wrap: wrap;
-  }
+  .hl-strip { display: flex; gap: 9px; flex-wrap: wrap; }
   .hl-empty {
     font-size: 13px; font-weight: 700; color: var(--muted);
     background: rgba(255,255,255,0.75); border: 1px dashed #CBD5E1;
@@ -146,36 +123,27 @@
   }
   .hl-item {
     display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-    background: #FFFFFF; border: 1.5px solid #E2E8F0; border-radius: 13px;
+    background: linear-gradient(135deg, #FFFFFF, #FAF5FF);
+    border: 1.5px solid #C4B5FD; border-radius: 13px;
     padding: 8px 12px; cursor: pointer; transition: 0.15s;
     box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);
   }
-  .hl-item:hover { transform: translateY(-1px); border-color: #93C5FD; }
-  .hl-item.t3 { border-color: #C4B5FD; background: linear-gradient(135deg, #FFFFFF, #FAF5FF); }
-  .hl-item.t1 { border-color: #6EE7B7; background: linear-gradient(135deg, #FFFFFF, #ECFDF5); }
+  .hl-item:hover { transform: translateY(-1px); border-color: #8B5CF6; }
   .hl-time { font-size: 12px; font-weight: 900; color: #64748B; }
   .hl-sym { font-size: 15.5px; font-weight: 900; color: #0F172A; }
   .hl-gain { font-size: 12.5px; font-weight: 900; color: var(--coral); }
   .hl-gain.neg { color: var(--sky); }
 
-  /* 트랙 & 판정 배지 */
-  .trk-badge {
+  .cat-badge {
     display: inline-block; font-size: 11.5px; font-weight: 900;
-    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+    padding: 2px 9px; border-radius: 999px; white-space: nowrap;
   }
-  .trk-1 { background: var(--sky-soft); color: #0369A1; }
-  .trk-3 { background: linear-gradient(90deg, #8B5CF6, #EC4899); color: #FFFFFF; }
-  .trk-2 { background: var(--amber-soft); color: #B45309; }
-  .trk-pos { background: #F1F5F9; color: #475569; }
+  .cat-nn { background: var(--mint-soft); color: #047857; }
+  .cat-pr { background: var(--sky-soft); color: #0369A1; }
+  .cat-sec { background: var(--amber-soft); color: #B45309; }
+  .cat-both { background: var(--coral-soft); color: var(--coral); }
+  .cat-wait { background: #F1F5F9; color: #64748B; }
 
-  .dec-badge {
-    display: inline-block; font-size: 11.5px; font-weight: 900;
-    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
-  }
-  .dec-buy { background: var(--mint-soft); color: #047857; border: 1px solid #6EE7B7; }
-  .dec-pass { background: #F1F5F9; color: #64748B; }
-
-  /* 필터 바 */
   .bar-row {
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
     margin-bottom: 10px;
@@ -186,11 +154,10 @@
     border-radius: 999px; padding: 6px 13px; font-size: 13px; font-weight: 800;
     cursor: pointer; transition: 0.15s;
   }
-  .tab-btn:hover { background: #F8FAFC; }
   .tab-btn.active {
-    background: linear-gradient(90deg, #0284C7, #6366F1);
+    background: linear-gradient(90deg, #7C3AED, #EC4899);
     color: #FFFFFF; border-color: transparent;
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25);
   }
   .sort-btn {
     border: 1px solid #CBD5E1; background: #FFFFFF; color: #334155;
@@ -198,7 +165,6 @@
     cursor: pointer;
   }
 
-  /* 메인 타임라인 리스트 카드 */
   .list-card {
     background: var(--card);
     border: 1px solid var(--line);
@@ -207,7 +173,7 @@
     box-shadow: var(--shadow);
   }
   .date-divider {
-    background: linear-gradient(90deg, #EFF6FF, #FAF5FF);
+    background: linear-gradient(90deg, #FAF5FF, #EFF6FF);
     color: #334155; font-size: 12.5px; font-weight: 900;
     padding: 7px 16px; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0;
     display: flex; justify-content: space-between; align-items: center;
@@ -216,36 +182,35 @@
 
   .sig-row {
     display: grid;
-    grid-template-columns: 96px 96px 190px 1fr auto;
+    grid-template-columns: 98px 104px 180px 1fr auto;
     align-items: center;
     gap: 10px;
-    padding: 11px 16px;
+    padding: 12px 16px;
     border-bottom: 1px solid #F1F5F9;
     cursor: pointer;
     transition: background 0.12s;
+    background: linear-gradient(90deg, #FAF5FF 0%, #FFFFFF 35%);
   }
   .sig-row:last-child { border-bottom: none; }
   .sig-row:hover { background: #F8FAFC; }
-  .sig-row.is-buy { background: linear-gradient(90deg, #F0FDF4 0%, #FFFFFF 45%); }
-  .sig-row.is-t3 { background: linear-gradient(90deg, #FAF5FF 0%, #FFFFFF 45%); }
-  .sig-row.is-pass { opacity: 0.86; }
 
-  .col-time .kst { font-size: 14px; font-weight: 900; color: #0F172A; }
-  .col-time .et { font-size: 11.5px; font-weight: 700; color: #94A3B8; }
+  .col-time .et-big { font-size: 14px; font-weight: 900; color: #0F172A; }
+  .col-time .kst-sub { font-size: 11.5px; font-weight: 700; color: #94A3B8; }
   .col-sym .sym-line { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
-  .col-sym .sym { font-size: 16px; font-weight: 900; color: #0F172A; }
-  .col-sym .ex { font-size: 11px; font-weight: 800; color: #0284C7; background: #E0F2FE; padding: 1px 6px; border-radius: 5px; }
+  .col-sym .sym { font-size: 16.5px; font-weight: 900; color: #0F172A; }
+  .col-sym .ex { font-size: 11px; font-weight: 800; color: #7C3AED; background: #F3E8FF; padding: 1px 6px; border-radius: 5px; }
   .col-sym .px { font-size: 12px; font-weight: 800; color: #475569; margin-top: 2px; }
-  .col-reason { font-size: 13px; font-weight: 700; color: #334155; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-  .col-act { display: flex; align-items: center; gap: 6px; }
+  .col-detail .cat-line { font-size: 13px; font-weight: 800; color: #1E293B; }
+  .col-detail .nblm-line { font-size: 12.5px; font-weight: 700; color: #5B21B6; margin-top: 3px; }
+  .col-detail .sig-sub { font-size: 12px; font-weight: 600; color: #64748B; margin-top: 2px; }
+
   .chart-btn {
-    border: 1px solid #BAE6FD; background: #F0F9FF; color: #0369A1;
-    border-radius: 8px; padding: 5px 9px; font-size: 12px; font-weight: 900;
+    border: 1px solid #DDD6FE; background: #FAF5FF; color: #6D28D9;
+    border-radius: 8px; padding: 6px 10px; font-size: 12px; font-weight: 900;
     cursor: pointer; text-decoration: none; white-space: nowrap;
   }
-  .chart-btn:hover { background: #E0F2FE; }
+  .chart-btn:hover { background: #F3E8FF; }
 
-  /* 상세 전문 모달 */
   .modal-bg {
     display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45);
     backdrop-filter: blur(3px); z-index: 999; align-items: center; justify-content: center; padding: 16px;
@@ -259,86 +224,66 @@
   .modal-title { font-size: 18px; font-weight: 900; color: #0F172A; }
   .modal-close { border: none; background: #F1F5F9; color: #475569; border-radius: 999px; width: 32px; height: 32px; font-size: 16px; font-weight: 900; cursor: pointer; }
   .modal-meta { font-size: 13px; font-weight: 800; color: #64748B; margin-bottom: 10px; }
-  .modal-reason { background: #F8FAFC; border-left: 4px solid #6366F1; border-radius: 10px; padding: 12px 14px; font-size: 14px; font-weight: 800; color: #1E293B; margin-bottom: 12px; }
+  .modal-reason { background: #FAF5FF; border-left: 4px solid #7C3AED; border-radius: 10px; padding: 12px 14px; font-size: 13.5px; font-weight: 800; color: #1E293B; margin-bottom: 12px; }
   .modal-full { background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-size: 13px; line-height: 1.65; color: #334155; white-space: pre-wrap; }
 
   @media (max-width: 760px) {
     body { padding: 10px; }
-    .sig-row {
-      grid-template-columns: 78px 1fr auto;
-      gap: 6px 8px;
-      padding: 10px 12px;
-    }
-    .col-trk { grid-column: 1 / 2; }
+    .sig-row { grid-template-columns: 82px 1fr auto; gap: 6px 8px; padding: 10px 12px; }
+    .col-cat { grid-column: 1 / 2; }
     .col-sym { grid-column: 2 / 3; }
     .col-act { grid-column: 3 / 4; }
-    .col-reason { grid-column: 1 / 4; font-size: 12.5px; }
+    .col-detail { grid-column: 1 / 4; }
   }
 </style>
 </head>
 <body>
 
-  <!-- 상단 슬림 헤더 -->
   <div class="top-header">
     <div class="brand-wrap">
-      <div class="brand-title">🇺🇸 미국장 달의 검 · 트랙1 & 트랙3 신호판</div>
-      <span class="ver-pill">v23 LIVE</span>
+      <div class="brand-title">🇺🇸 미국장 달의 검 · 흥칫뿡 전용 신호판</div>
+      <span class="ver-pill">v28 LIVE</span>
     </div>
     <div class="header-tools">
-      <span class="clock-chip" id="dualClockLbl">🇰🇷 --:-- KST · 🇺🇸 --:-- ET</span>
+      <span class="clock-chip" id="dualClockLbl">🇺🇸 --:-- ET · 🇰🇷 --:-- KST</span>
       <span class="live-chip" id="statusLbl">🟡 연결 중...</span>
       <button class="mini-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 OFF</button>
       <button class="mini-btn" onclick="forceRefreshNow()">🔄 새로고침</button>
     </div>
   </div>
 
-  <!-- 1줄 보유 · 계좌 상태 -->
   <div class="pos-strip">
     <div id="radarLeftTxt">📡 상태 불러오는 중...</div>
-    <div class="pos-badge" id="radarPosPill">🎯 대기 중</div>
+    <div class="pos-badge" id="radarPosPill">🎯 흥칫뿡 대기 중</div>
   </div>
 
-  <!-- 실시간 심문 / 홀트 진행 중 배너 (평소 숨김) -->
-  <div class="live-alert-banner" id="liveAlertBanner">
-    <div class="live-alert-top">
-      <div class="live-alert-title" id="liveAlertTitle">⚡ 실시간 분석 중...</div>
-      <div class="live-alert-timer" id="liveAlertTimer">0초</div>
-    </div>
-    <div class="live-alert-body" id="liveAlertBody">-</div>
-  </div>
-
-  <!-- 오늘 뜬 트랙1 · 트랙3 핵심 포착 스트립 (시간순) -->
   <div class="highlight-card">
     <div class="hl-head">
-      <div class="hl-title" id="hlTitle">⚡ 오늘 뜬 트랙1 · 트랙3 핵심 신호 (발생 순서대로)</div>
+      <div class="hl-title" id="hlTitle">⚡ 오늘 '흥 칫 뿡' 포착 요약</div>
       <div class="hl-counts">
-        <span class="cnt-chip t3" id="cntT3">🟣 트랙3: 0건</span>
-        <span class="cnt-chip buy" id="cntT1Buy">🔵 트랙1 BUY: 0건</span>
-        <span class="cnt-chip t1" id="cntT1All">심사 총 0건</span>
+        <span class="cnt-chip t3" id="cntTotal">🟣 총 0건</span>
+        <span class="cnt-chip nn" id="cntNoNews">⚡ 무뉴스 0건</span>
+        <span class="cnt-chip pr" id="cntPrSec">📰 PR·공시 0건</span>
       </div>
     </div>
     <div class="hl-strip" id="hlStrip">
-      <div class="hl-empty">오늘 아직 포착된 BUY / 트랙3 신호가 없습니다. 신호가 뜨면 여기에 시간순으로 차곡차곡 쌓입니다.</div>
+      <div class="hl-empty">오늘 아직 '흥 칫 뿡'에 포착된 종목이 없습니다. 포착되면 즉시 매수 + 재료(PR·공시·무뉴스) + 연구소장 검수가 여기에 쌓입니다.</div>
     </div>
   </div>
 
-  <!-- 필터 & 정렬 바 -->
   <div class="bar-row">
     <div class="tab-group">
-      <button id="fAll" class="tab-btn active" onclick="setFilter('all')">⚡ 전체 (트랙1+3)</button>
-      <button id="fHot" class="tab-btn" onclick="setFilter('hot')">🔥 BUY · 트랙3만</button>
-      <button id="fT3" class="tab-btn" onclick="setFilter('track3')">🟣 트랙3 흥칫뿡</button>
-      <button id="fT1" class="tab-btn" onclick="setFilter('track1')">🔵 트랙1 PR·공시</button>
+      <button id="fAll" class="tab-btn active" onclick="setFilter('all')">🟣 흥칫뿡 전체</button>
+      <button id="fNoNews" class="tab-btn" onclick="setFilter('nonews')">⚡ 무뉴스만</button>
+      <button id="fPrSec" class="tab-btn" onclick="setFilter('prsec')">📰 PR·공시만</button>
     </div>
     <button id="sortBtn" class="sort-btn" onclick="toggleSort()">⬇️ 최신 순서대로 (최근→과거)</button>
   </div>
 
-  <!-- 타임라인 리스트 -->
   <div class="list-card" id="timelineList">
     <div style="padding:26px; text-align:center; color:#64748B; font-weight:700;">데이터를 불러오는 중입니다...</div>
   </div>
 
-  <!-- 상세 보기 모달 -->
   <div class="modal-bg" id="detailModal" onclick="if(event.target===this) closeModal()">
     <div class="modal-box">
       <div class="modal-head">
@@ -356,31 +301,19 @@ const BROKER_WSS = "wss://broker.emqx.io:8084/mqtt";
 const TOPIC_US_STATE = "us_whale_nblm_board_2026/state";
 const TOPIC_US_LIVE  = "us_whale_nblm_board_2026/live";
 
-let filterMode = "all"; // all | hot | track3 | track1
-let sortAsc = false;    // false: 가장 최신 신호가 맨 위(기본), true: 발생순(오전→오후)
+let filterMode = "all"; // all | nonews | prsec
+let sortAsc = false;    // 기본: 최신순 (가장 최근 포착이 맨 위)
 let cachedState = null;
 let soundEnabled = false;
 let audioCtx = null;
-let analyzingStartMs = 0;
-let isAnalyzing = false;
-let haltStartMs = 0;
-let isHalting = false;
 const seenLiveIds = new Set();
 
-/* 듀얼 시계 & 경과 초시계 */
 function tickClocks() {
   try {
     const now = new Date();
-    const kst = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false }).slice(0, 5);
     const et = now.toLocaleTimeString("en-GB", { timeZone: "America/New_York", hour12: false }).slice(0, 5);
-    document.getElementById("dualClockLbl").innerText = `🇰🇷 ${kst} KST · 🇺🇸 ${et} ET`;
-    if (isAnalyzing && analyzingStartMs > 0) {
-      const s = Math.max(0, Math.floor((Date.now() - analyzingStartMs) / 1000));
-      document.getElementById("liveAlertTimer").innerText = `⏱️ ${s}초 경과`;
-    } else if (isHalting && haltStartMs > 0) {
-      const s = Math.max(0, Math.floor((Date.now() - haltStartMs) / 1000));
-      document.getElementById("liveAlertTimer").innerText = `⏸️ 홀트 ${s}초 대기`;
-    }
+    const kst = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false }).slice(0, 5);
+    document.getElementById("dualClockLbl").innerText = `🇺🇸 ${et} ET · 🇰🇷 ${kst} KST`;
   } catch (e) {}
 }
 setInterval(tickClocks, 1000);
@@ -388,27 +321,22 @@ tickClocks();
 
 function toggleSound() {
   soundEnabled = !soundEnabled;
-  if (soundEnabled && !audioCtx) {
-    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  }
+  if (soundEnabled && !audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   if (audioCtx && audioCtx.state === "suspended") audioCtx.resume();
   const btn = document.getElementById("soundBtn");
   btn.classList.toggle("on", soundEnabled);
   btn.innerText = soundEnabled ? "🔔 알림음 ON" : "🔔 알림음 OFF";
-  if (soundEnabled) playChime(true);
+  if (soundEnabled) playChime();
 }
 
-function playChime(isBuy) {
+function playChime() {
   if (!soundEnabled) return;
   try {
     if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     if (audioCtx.state === "suspended") audioCtx.resume();
-    const notes = isBuy ? [523.25, 659.25, 783.99, 1046.5] : [440, 554.37];
-    notes.forEach((f, i) => {
-      const o = audioCtx.createOscillator();
-      const g = audioCtx.createGain();
-      o.type = "sine";
-      o.frequency.value = f;
+    [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => {
+      const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+      o.type = "sine"; o.frequency.value = f;
       const t = audioCtx.currentTime + i * 0.09;
       g.gain.setValueAtTime(0.001, t);
       g.gain.linearRampToValueAtTime(0.14, t + 0.02);
@@ -419,23 +347,30 @@ function playChime(isBuy) {
   } catch (e) {}
 }
 
-function detectTrack(v) {
-  const explicit = String(v.track || "").toUpperCase();
-  if (explicit === "TRACK3") return "TRACK3";
-  if (explicit === "TRACK2") return "TRACK2";
-  if (explicit === "TRACK1") return "TRACK1";
-  const txt = `${v.engine || ""} ${v.catalyst_hint || ""} ${v.reason || ""} ${v.full_report || ""}`;
-  if (/Track\s*3|TRACK3|흥\s*칫\s*뿡|본장\s*첫\s*점화|수급\s*점화/i.test(txt)) return "TRACK3";
-  if (/Track\s*B|TRACK2|숏스퀴즈/i.test(txt)) return "TRACK2";
-  if (/실전\s*포지션/i.test(String(v.engine || ""))) return "POSITION";
-  return "TRACK1";
+function isTrack3Row(v) {
+  const trk = String(v.track || "").toUpperCase();
+  if (trk === "TRACK3") return true;
+  const txt = `${v.engine || ""} ${v.catalyst_hint || ""} ${v.reason || ""}`;
+  return /Track\s*3|TRACK3|흥\s*칫\s*뿡|본장\s*첫\s*점화|수급\s*점화/i.test(txt);
 }
 
-function trackBadgeHtml(trk) {
-  if (trk === "TRACK3") return `<span class="trk-badge trk-3">🟣 트랙3 흥칫뿡</span>`;
-  if (trk === "TRACK2") return `<span class="trk-badge trk-2">🟠 트랙2</span>`;
-  if (trk === "POSITION") return `<span class="trk-badge trk-pos">💼 실전정산</span>`;
-  return `<span class="trk-badge trk-1">🔵 트랙1 PR</span>`;
+function getCatType(v) {
+  const ct = String(v.catalyst_type || "").toUpperCase();
+  if (ct) return ct;
+  const hint = `${v.catalyst_hint || ""} ${v.reason || ""}`;
+  if (/PR\+공시/i.test(hint)) return "PR_SEC";
+  if (/PR\s*있음/i.test(hint)) return "PR";
+  if (/SEC\s*공시/i.test(hint)) return "SEC";
+  if (/무뉴스/i.test(hint)) return "NO_NEWS";
+  return "WAIT";
+}
+
+function catBadgeHtml(ct) {
+  if (ct === "PR_SEC") return `<span class="cat-badge cat-both">📰🏛️ PR+공시</span>`;
+  if (ct === "PR") return `<span class="cat-badge cat-pr">📰 PR 있음</span>`;
+  if (ct === "SEC") return `<span class="cat-badge cat-sec">🏛️ SEC 공시</span>`;
+  if (ct === "NO_NEWS") return `<span class="cat-badge cat-nn">⚡ 무뉴스</span>`;
+  return `<span class="cat-badge cat-wait">🔍 검수중</span>`;
 }
 
 function fmtShortDate(d) {
@@ -452,8 +387,7 @@ function chartUrl(sym, ex) {
 
 function setFilter(m) {
   filterMode = m;
-  ["all", "hot", "track3", "track1"].forEach(k => {
-    const id = k === "all" ? "fAll" : (k === "hot" ? "fHot" : (k === "track3" ? "fT3" : "fT1"));
+  [["all","fAll"],["nonews","fNoNews"],["prsec","fPrSec"]].forEach(([k, id]) => {
     const el = document.getElementById(id);
     if (el) el.classList.toggle("active", k === m);
   });
@@ -469,36 +403,29 @@ function toggleSort() {
 }
 
 function openModal(v) {
-  const trk = detectTrack(v);
-  document.getElementById("mTitle").innerText = `${v.symbol} (${v.exchange || 'ND'}) · ${v.decision === 'BUY' ? '🔥 BUY' : '🛡️ 패스'}`;
-  const px = Number(v.price || 0);
-  const gn = Number(v.gain_pct || 0);
-  const mc = Number(v.mcap_m || 0);
+  document.getElementById("mTitle").innerText = `🟣 ${v.symbol} (${v.exchange || 'ND'}) · 흥칫뿡 포착 상세`;
+  const px = Number(v.price || 0), gn = Number(v.gain_pct || 0), mc = Number(v.mcap_m || 0);
   document.getElementById("mMeta").innerText =
-    `${trk} · ${fmtShortDate(v.date_et)}(${v.weekday_kr || ''}) 🇰🇷 ${v.time_kst || '-'} KST / 🇺🇸 ${v.time_et || '-'} ET` +
+    `${fmtShortDate(v.date_et)}(${v.weekday_kr || ''}) 🇺🇸 ${v.time_et || '-'} ET / 🇰🇷 ${v.time_kst || '-'} KST` +
     (px > 0 ? ` · $${px.toFixed(4)} (${gn>=0?'+':''}${gn.toFixed(1)}%)` : "") +
     (mc > 0 ? ` · 시총 $${mc.toFixed(1)}M` : "");
-  document.getElementById("mReason").innerText = v.reason || "-";
+  document.getElementById("mReason").innerText =
+    (v.catalyst_hint ? `[재료] ${v.catalyst_hint}\n` : "") +
+    (v.nblm_summary ? `${v.nblm_summary}\n` : "") +
+    `[포착] ${v.reason || '-'}`;
   const full = String(v.full_report || "").trim();
   const fullEl = document.getElementById("mFull");
-  if (full.length > 5) {
-    fullEl.style.display = "block";
-    fullEl.innerText = full;
-  } else {
-    fullEl.style.display = "none";
-  }
+  if (full.length > 5) { fullEl.style.display = "block"; fullEl.innerText = full; }
+  else { fullEl.style.display = "none"; }
   document.getElementById("detailModal").classList.add("open");
 }
 
-function closeModal() {
-  document.getElementById("detailModal").classList.remove("open");
-}
+function closeModal() { document.getElementById("detailModal").classList.remove("open"); }
 
 function renderBoard(state) {
   if (!state) return;
   cachedState = state;
 
-  // 1) 보유 & 계좌 1줄 스트립
   const acc = state.account || {};
   const cash = Number(acc.cash_usd || 0);
   const sess = acc.session_label || "미국장 대기";
@@ -509,79 +436,44 @@ function renderBoard(state) {
   const pill = document.getElementById("radarPosPill");
   const hSym = String(acc.holding_symbol || "").trim();
   const hQty = Number(acc.holding_qty || 0);
-  const halt = state.halt_watch || {};
-  if (halt.active && halt.symbol) {
-    isHalting = true;
-    haltStartMs = Number(halt.started_ms || Date.now());
-    pill.className = "pos-badge halting";
-    pill.innerText = `⏸️ ${halt.symbol} 홀트 감시 중`;
-  } else if (hSym && hQty > 0) {
-    isHalting = false;
-    const avg = Number(acc.avg_price || 0);
-    const cur = Number(acc.current_price || 0);
+  if (hSym && hQty > 0) {
+    const avg = Number(acc.avg_price || 0), cur = Number(acc.current_price || 0);
     const pf = avg > 0 && cur > 0 ? ((cur - avg) / avg * 100) : Number(acc.pl_rate || 0);
     pill.className = "pos-badge holding";
     pill.innerText = `💼 ${hSym} ${hQty}주 · $${cur.toFixed(4)} (${pf>=0?'+':''}${pf.toFixed(2)}%)`;
   } else {
-    isHalting = false;
     pill.className = "pos-badge";
-    pill.innerText = acc.daily_done ? "✅ 금일 매매 완료" : "🎯 트랙1 · 트랙3 사냥 대기 중";
+    pill.innerText = acc.daily_done ? "✅ +51% 목표 달성 완료" : "🎯 흥칫뿡 포착 대기 중";
   }
 
-  // 2) 실시간 분석/홀트 배너 (필요할 때만 표시)
-  const an = state.analyzing || {};
-  const banner = document.getElementById("liveAlertBanner");
-  if (an.active && an.symbol) {
-    isAnalyzing = true;
-    analyzingStartMs = Number(an.started_ms || Date.now());
-    banner.style.display = "block";
-    document.getElementById("liveAlertTitle").innerText = `⚡ 트랙1 실시간 심문 중: ${an.symbol} (${an.exchange || 'ND'})`;
-    document.getElementById("liveAlertBody").innerText = an.catalyst_hint || "NotebookLM 8대 1급 호재 심사 진행 중...";
-  } else if (halt.active && halt.symbol) {
-    isAnalyzing = false;
-    banner.style.display = "block";
-    document.getElementById("liveAlertTitle").innerText = `⏸️ 거래소 홀트 감지: ${halt.symbol}`;
-    document.getElementById("liveAlertBody").innerText = halt.reason || "홀트 해제 첫 체결 0.5초 감시 중";
-  } else {
-    isAnalyzing = false;
-    banner.style.display = "none";
-  }
+  // 트랙 3 ('흥 칫 뿡') 전용 필터링 — 트랙 1 전면 제외!
+  const allT3 = (Array.isArray(state.verdicts) ? state.verdicts : []).filter(isTrack3Row);
+  const latestDate = (allT3[0] && allT3[0].date_et) || state.today_et || "";
+  const todayT3 = allT3.filter(v => !latestDate || v.date_et === latestDate);
+  const todayChron = [...todayT3].sort((a, b) => String(a.time_et || "").localeCompare(String(b.time_et || "")));
 
-  // 3) 오늘의 트랙1 · 트랙3 핵심 포착 요약 스트립
-  const verdicts = Array.isArray(state.verdicts) ? state.verdicts : [];
-  const latestDate = state.today_et || (verdicts[0] && verdicts[0].date_et) || "";
-  const todayRows = verdicts.filter(v => !latestDate || v.date_et === latestDate);
+  const nnCnt = todayChron.filter(v => getCatType(v) === "NO_NEWS").length;
+  const prCnt = todayChron.filter(v => ["PR","SEC","PR_SEC"].includes(getCatType(v))).length;
 
-  // 오늘 날짜 발생 순서대로 정렬 (오래된 것 -> 최신 것)
-  const todayChron = [...todayRows].sort((a, b) =>
-    String(a.time_et || "").localeCompare(String(b.time_et || ""))
-  );
-
-  const t3Hits = todayChron.filter(v => detectTrack(v) === "TRACK3");
-  const t1Buys = todayChron.filter(v => detectTrack(v) === "TRACK1" && v.decision === "BUY");
-  const hotToday = todayChron.filter(v => detectTrack(v) === "TRACK3" || (detectTrack(v) === "TRACK1" && v.decision === "BUY"));
-
-  document.getElementById("hlTitle").innerText =
-    `⚡ ${fmtShortDate(latestDate)} 트랙1 · 트랙3 핵심 신호 (발생 순서대로)`;
-  document.getElementById("cntT3").innerText = `🟣 트랙3: ${t3Hits.length}건`;
-  document.getElementById("cntT1Buy").innerText = `🔵 트랙1 BUY: ${t1Buys.length}건`;
-  document.getElementById("cntT1All").innerText = `오늘 전체 ${todayRows.length}건`;
+  document.getElementById("hlTitle").innerText = `⚡ ${fmtShortDate(latestDate)} '흥 칫 뿡' 포착 종목 (미국 동부시간)`;
+  document.getElementById("cntTotal").innerText = `🟣 총 ${todayChron.length}건`;
+  document.getElementById("cntNoNews").innerText = `⚡ 무뉴스 ${nnCnt}건`;
+  document.getElementById("cntPrSec").innerText = `📰 PR·공시 ${prCnt}건`;
 
   const strip = document.getElementById("hlStrip");
-  if (hotToday.length === 0) {
-    strip.innerHTML = `<div class="hl-empty">아직 ${fmtShortDate(latestDate)} 기준 포착된 <b>BUY / 트랙3</b> 신호가 없습니다. 장중에 뜨면 여기 시간순으로 바로 쌓입니다!</div>`;
+  if (todayChron.length === 0) {
+    strip.innerHTML = `<div class="hl-empty">${fmtShortDate(latestDate)} 기준 '흥 칫 뿡'에 포착된 종목이 아직 없습니다. 포착되면 즉시 여기에 시간순으로 쌓입니다!</div>`;
   } else {
     strip.innerHTML = "";
-    hotToday.forEach((v, idx) => {
-      const trk = detectTrack(v);
+    todayChron.forEach((v, idx) => {
+      const ct = getCatType(v);
       const div = document.createElement("div");
-      div.className = `hl-item ${trk === "TRACK3" ? "t3" : "t1"}`;
-      const gn = Number(v.gain_pct || 0);
-      const px = Number(v.price || 0);
+      div.className = "hl-item";
+      const gn = Number(v.gain_pct || 0), px = Number(v.price || 0);
       const etHm = String(v.time_et || "").slice(0, 5);
       div.innerHTML = `
-        <span class="hl-time">#${idx + 1} · ${etHm ? etHm + ' ET' : (v.time_kst?.slice(0,5) || '')}</span>
-        ${trackBadgeHtml(trk)}
+        <span class="hl-time">#${idx + 1} · ${etHm ? etHm + ' ET' : ''}</span>
+        ${catBadgeHtml(ct)}
         <span class="hl-sym">${v.symbol}</span>
         ${px > 0 ? `<span class="hl-gain ${gn < 0 ? 'neg' : ''}">$${px.toFixed(2)} (${gn>=0?'+':''}${gn.toFixed(1)}%)</span>` : ""}
         <a class="chart-btn" href="${chartUrl(v.symbol, v.exchange)}" target="_blank" onclick="event.stopPropagation()">📈 차트</a>
@@ -591,28 +483,25 @@ function renderBoard(state) {
     });
   }
 
-  // 4) 메인 타임라인 렌더링
   renderTimeline(state);
 }
 
 function renderTimeline(state) {
   const listEl = document.getElementById("timelineList");
-  const verdicts = Array.isArray(state.verdicts) ? state.verdicts : [];
+  const allT3 = (Array.isArray(state.verdicts) ? state.verdicts : []).filter(isTrack3Row);
 
-  let rows = verdicts.filter(v => {
-    const trk = detectTrack(v);
-    if (filterMode === "hot") return trk === "TRACK3" || v.decision === "BUY";
-    if (filterMode === "track3") return trk === "TRACK3";
-    if (filterMode === "track1") return trk === "TRACK1";
+  let rows = allT3.filter(v => {
+    const ct = getCatType(v);
+    if (filterMode === "nonews") return ct === "NO_NEWS";
+    if (filterMode === "prsec") return ["PR","SEC","PR_SEC"].includes(ct);
     return true;
   });
 
   if (rows.length === 0) {
-    listEl.innerHTML = `<div style="padding:28px; text-align:center; color:#64748B; font-weight:700;">해당 조건의 신호 기록이 아직 없습니다.</div>`;
+    listEl.innerHTML = `<div style="padding:28px; text-align:center; color:#64748B; font-weight:700;">해당 조건의 '흥 칫 뿡' 포착 기록이 아직 없습니다.</div>`;
     return;
   }
 
-  // 날짜별 그룹화 (최신 날짜가 위로, 각 날짜 내부는 sortAsc에 따라 발생순 또는 최신순)
   const groups = new Map();
   rows.forEach(v => {
     const d = v.date_et || "기타";
@@ -625,45 +514,30 @@ function renderTimeline(state) {
 
   sortedDates.forEach(d => {
     const dayItems = groups.get(d);
-    dayItems.sort((a, b) => {
-      const ta = String(a.time_et || "");
-      const tb = String(b.time_et || "");
-      return sortAsc ? ta.localeCompare(tb) : tb.localeCompare(ta);
-    });
+    dayItems.sort((a, b) => sortAsc
+      ? String(a.time_et || "").localeCompare(String(b.time_et || ""))
+      : String(b.time_et || "").localeCompare(String(a.time_et || ""))
+    );
 
     const wk = dayItems[0]?.weekday_kr || "";
-    const buyCnt = dayItems.filter(x => x.decision === "BUY" || detectTrack(x) === "TRACK3").length;
     const divHead = document.createElement("div");
     divHead.className = "date-divider";
-    divHead.innerHTML = `
-      <span>📅 ${fmtShortDate(d)} (${wk}) · 총 ${dayItems.length}건</span>
-      <span style="color:#7C3AED;">핵심 포착 ${buyCnt}건</span>
-    `;
+    divHead.innerHTML = `<span>📅 ${fmtShortDate(d)} (${wk}) · 흥칫뿡 포착 ${dayItems.length}건</span><span style="color:#7C3AED;">클릭 시 연구소장 검수 전문 보기</span>`;
     listEl.appendChild(divHead);
 
     dayItems.forEach(v => {
-      const trk = detectTrack(v);
-      const isBuy = v.decision === "BUY";
-      const row = document.createElement("div");
-      row.className = "sig-row " + (trk === "TRACK3" ? "is-t3" : (isBuy ? "is-buy" : "is-pass"));
-
-      const px = Number(v.price || 0);
-      const gn = Number(v.gain_pct || 0);
-      const kstHm = String(v.time_kst || "-").slice(0, 5);
+      const ct = getCatType(v);
+      const px = Number(v.price || 0), gn = Number(v.gain_pct || 0);
       const etHm = String(v.time_et || "-").slice(0, 5);
-      const decHtml = trk === "TRACK3"
-        ? `<span class="dec-badge dec-buy">🚀 포착</span>`
-        : (isBuy ? `<span class="dec-badge dec-buy">🔥 BUY</span>` : `<span class="dec-badge dec-pass">🛡️ 패스</span>`);
-
+      const kstHm = String(v.time_kst || "-").slice(0, 5);
+      const row = document.createElement("div");
+      row.className = "sig-row";
       row.innerHTML = `
         <div class="col-time">
-          <div class="kst">🇺🇸 ${etHm} ET</div>
-          <div class="et">🇰🇷 ${kstHm} KST</div>
+          <div class="et-big">🇺🇸 ${etHm} ET</div>
+          <div class="kst-sub">🇰🇷 ${kstHm} KST</div>
         </div>
-        <div class="col-trk">
-          ${trackBadgeHtml(trk)}
-          <div style="margin-top:4px;">${decHtml}</div>
-        </div>
+        <div class="col-cat">${catBadgeHtml(ct)}</div>
         <div class="col-sym">
           <div class="sym-line">
             <span class="sym">${v.symbol}</span>
@@ -671,7 +545,10 @@ function renderTimeline(state) {
           </div>
           <div class="px">${px > 0 ? `$${px.toFixed(3)} (${gn>=0?'+':''}${gn.toFixed(1)}%)` : (v.company_name || '-')}</div>
         </div>
-        <div class="col-reason">${v.reason || '-'}</div>
+        <div class="col-detail">
+          <div class="cat-line">${v.catalyst_hint || '재료 분석 중...'}</div>
+          ${v.nblm_summary ? `<div class="nblm-line">${v.nblm_summary}</div>` : `<div class="sig-sub">${v.reason || ''}</div>`}
+        </div>
         <div class="col-act">
           <a class="chart-btn" href="${chartUrl(v.symbol, v.exchange)}" target="_blank" onclick="event.stopPropagation()">📈 차트</a>
         </div>
@@ -688,10 +565,7 @@ async function pollGitHubState() {
       ? "https://simikai1024-hue.github.io/stock-board/us_live_state.json"
       : "../us_live_state.json";
     const res = await fetch(`${stateUrl}?t=${Date.now()}`, { cache: "no-store" });
-    if (res.ok) {
-      const state = await res.json();
-      renderBoard(state);
-    }
+    if (res.ok) renderBoard(await res.json());
   } catch (e) {}
 }
 
@@ -706,43 +580,35 @@ function forceRefreshNow() {
 pollGitHubState();
 setInterval(pollGitHubState, 10000);
 
-/* Service Worker 업데이트 시 자동 새로고침 */
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {});
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    window.location.reload();
-  });
+  navigator.serviceWorker.addEventListener("controllerchange", () => window.location.reload());
 }
 
-/* EMQX 실시간 웹소켓 */
 const client = mqtt.connect(BROKER_WSS, {
-  clientId: "us_board_v23_" + Math.random().toString(16).slice(2, 10),
+  clientId: "us_t3_v28_" + Math.random().toString(16).slice(2, 10),
   clean: true,
   reconnectPeriod: 2000,
 });
-
 client.on("connect", () => {
   const st = document.getElementById("statusLbl");
   st.innerText = "🟢 실시간 연결됨";
   st.classList.add("ok");
   client.subscribe([TOPIC_US_STATE, TOPIC_US_LIVE], { qos: 1 });
 });
-
 client.on("reconnect", () => {
   const st = document.getElementById("statusLbl");
   st.innerText = "🟡 재연결 중...";
   st.classList.remove("ok");
 });
-
 client.on("message", (topic, payload) => {
   try {
     const data = JSON.parse(new TextDecoder("utf-8").decode(payload));
-    if (topic === TOPIC_US_STATE) {
-      renderBoard(data);
-    } else if (topic === TOPIC_US_LIVE && data) {
+    if (topic === TOPIC_US_STATE) renderBoard(data);
+    else if (topic === TOPIC_US_LIVE && data) {
       if (data.id && seenLiveIds.has(data.id)) return;
       if (data.id) seenLiveIds.add(data.id);
-      if (data.event === "VERDICT_BUY") playChime(true);
+      if (data.event === "VERDICT_BUY") playChime();
     }
   } catch (e) {}
 });
