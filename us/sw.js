@@ -1,5 +1,5 @@
-// 달의검 독립 폴더 전용 PWA Service Worker (US v27 — 무캐시 최신 직통)
-const CACHE_NAME = 'moon-sword-us-pwa-v27';
+// 달의검 독립 폴더 전용 PWA Service Worker (US v28 — 무캐시 최신 직통)
+const CACHE_NAME = 'moon-sword-us-pwa-v28';
 self.addEventListener('install', (e) => { self.skipWaiting(); });
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
