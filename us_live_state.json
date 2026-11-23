@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 22:29:19",
-  "updated_at_et": "2026-11-23 08:29:19",
-  "updated_epoch_ms": 1795440559210,
+  "updated_at_kst": "2026-11-23 22:30:14",
+  "updated_at_et": "2026-11-23 08:30:14",
+  "updated_epoch_ms": 1795440614915,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 1.48,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "22:29:19"
+    "holding_symbol": "DCGO",
+    "holding_qty": 407,
+    "avg_price": 0.2496,
+    "current_price": 0.2298,
+    "profit_rate": -7.93,
+    "updated_kst": "22:30:12"
   },
   "stats": {
     "today_total": 4,
