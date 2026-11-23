@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 22:24:19",
-  "updated_at_et": "2026-11-23 08:24:19",
-  "updated_epoch_ms": 1795440259738,
+  "updated_at_kst": "2026-11-23 22:25:21",
+  "updated_at_et": "2026-11-23 08:25:21",
+  "updated_epoch_ms": 1795440321783,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 108.19,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "22:24:19"
+    "holding_symbol": "WETO",
+    "holding_qty": 142,
+    "avg_price": 0.758,
+    "current_price": 0.7538,
+    "profit_rate": -0.55,
+    "updated_kst": "22:25:16"
   },
   "stats": {
     "today_total": 3,
