@@ -1,11 +1,11 @@
 {
   "date": "2026-11-23",
-  "updated_at": "2026-11-24 01:52:16",
+  "updated_at": "2026-11-24 04:11:51",
   "isi_board": {
-    "updated_at": "2026-11-24 01:52:16",
+    "updated_at": "2026-11-24 04:11:51",
     "updater_source": "GITHUB_CLOUD",
     "theme_date": "2026-11-23",
-    "theme_updated_at": "01:52:16 (☁️깃허브 자동)",
+    "theme_updated_at": "04:11:51 (☁️깃허브 자동)",
     "overnight_holding": {
       "active": false
     },
@@ -404,7 +404,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-23",
-      "updated_at": "01:52:16 (☁️깃허브 자동)",
+      "updated_at": "04:11:51 (☁️깃허브 자동)",
       "signal_status": "NEUTRAL",
       "active_signal": null,
       "today_closed": null,
@@ -497,35 +497,35 @@
         "kospi_inst_eok": 1758,
         "kosdaq_foreign_eok": -376,
         "kosdaq_inst_eok": 1950,
-        "usdkrw": 1344.2,
-        "usdkrw_chg": -0.8,
-        "nasdaq_pct": 6.53,
-        "sox_pct": 13.46,
+        "usdkrw": 1342.5,
+        "usdkrw_chg": -2.5,
+        "nasdaq_pct": 6.56,
+        "sox_pct": 13.31,
         "macro_dir": "NEUTRAL",
         "macro_label": "수급·매크로 중립",
         "news_dir": "UP",
         "news_label": "호재·반등 재료 우위",
         "headlines": [
           {
+            "title": "\"지금 주가도 저평가 아니다\"…SK하이닉스 목표가 또 낮춘 이유",
+            "press": "파이낸셜뉴스",
+            "time": "04:00",
+            "tone": "DN",
+            "url": "https://n.news.naver.com/mnews/article/014/0005608598"
+          },
+          {
+            "title": "젠슨 황 귀환에 엔비디아·SK하이닉스 폭등…트럼프 \"내 개입 중요\"(종합)",
+            "press": "이데일리",
+            "time": "01:50",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/018/0006414419"
+          },
+          {
             "title": "젠슨 황, 엔비디아 CEO 전격 복귀…이사회 만장일치 결정",
             "press": "한국경제",
             "time": "01:15",
             "tone": "UP",
             "url": "https://n.news.naver.com/mnews/article/015/0005357354"
-          },
-          {
-            "title": "젠슨 황 11일 만에 엔비디아 CEO로 복귀…트럼프 \"국가안보 위험 없어\"",
-            "press": "아시아경제",
-            "time": "00:53",
-            "tone": "UP",
-            "url": "https://n.news.naver.com/mnews/article/277/0005846682"
-          },
-          {
-            "title": "2분기 20조 팔렸던 ‘목표전환형 랩’, 증시 약세에 울상",
-            "press": "조선일보",
-            "time": "00:37",
-            "tone": "UP",
-            "url": "https://n.news.naver.com/mnews/article/023/0004011282"
           }
         ]
       },
@@ -554,7 +554,7 @@
           "pair_money_share_pct": 57.2,
           "flow_surge_mult": 1.04
         },
-        "line1": "외국인이 코스피 -2,560억(코스닥 -376억) 대량 순매도 출회 중이며, 미 나스닥(+6.53%)·반도체(+13.46%) 및 원/달러 1,344.2원 흐름 속에 시황 뉴스는 '호재·반등 재료 우위' 분위기입니다.",
+        "line1": "외국인이 코스피 -2,560억(코스닥 -376억) 대량 순매도 출회 중이며, 미 나스닥(+6.56%)·반도체(+13.31%) 및 원/달러 1,342.5원 흐름 속에 시황 뉴스는 '호재·반등 재료 우위' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 200] 쪽으로 평소 대비 1.04배 자금이 집중되며 당일 VWAP 상단 체류 54%를 기록 중입니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
