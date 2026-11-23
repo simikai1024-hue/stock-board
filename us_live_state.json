@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 22:19:22",
-  "updated_at_et": "2026-11-23 08:19:22",
-  "updated_epoch_ms": 1795439962387,
+  "updated_at_kst": "2026-11-23 22:20:17",
+  "updated_at_et": "2026-11-23 08:20:17",
+  "updated_epoch_ms": 1795440017556,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 143.23,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.3334,
-    "profit_rate": -21.94,
-    "updated_kst": "22:19:16"
+    "holding_symbol": "SMX",
+    "holding_qty": 37,
+    "avg_price": 3.7902,
+    "current_price": 3.6998,
+    "profit_rate": -2.39,
+    "updated_kst": "22:20:12"
   },
   "stats": {
     "today_total": 2,
