@@ -1089,6 +1089,7 @@
     </div>
     <div class="ctrl-group">
       <span class="conn-dot" id="connStatus">🟡 연결 중...</span>
+      <button type="button" class="btn-sm" id="krSoundBtn" onclick="toggleKrSound()" style="background:#ECFDF5; border-color:#10B981; color:#047857;">🔔 알림음 ON</button>
       <button type="button" class="btn-sm" onclick="fetchRemoteState(true)">🔄 새로고침</button>
     </div>
   </header>
@@ -1528,9 +1529,109 @@
     }
   }
 
+  /* 🔔 맑고 또렷한 크리스탈 벨 알림음 엔진 (테마 종목 변동 시 자동 재생) */
+  let krSoundOn = (function(){ try { return localStorage.getItem("kr_board_sound_on") !== "0"; } catch(e) { return true; } })();
+  let krAudioCtx = null;
+  let lastThemeStockSig = "";
+
+  function ensureKrAudio() {
+    try {
+      if (!krAudioCtx) {
+        const AC = window.AudioContext || window.webkitAudioContext;
+        if (AC) krAudioCtx = new AC();
+      }
+      if (krAudioCtx && krAudioCtx.state === "suspended") krAudioCtx.resume();
+    } catch (e) {}
+  }
+
+  function playKrCrystalChime() {
+    if (!krSoundOn) return;
+    try {
+      ensureKrAudio();
+      if (!krAudioCtx) return;
+      const now = krAudioCtx.currentTime;
+      // 맑고 또렷한 4음 크리스탈 벨 아르페지오 (C6 -> E6 -> G6 -> C7)
+      const notes = [1046.5, 1318.51, 1567.98, 2093.0];
+      notes.forEach((freq, idx) => {
+        const t0 = now + idx * 0.11;
+        const dur = idx === notes.length - 1 ? 0.72 : 0.42;
+
+        const osc1 = krAudioCtx.createOscillator();
+        const osc2 = krAudioCtx.createOscillator();
+        const g1 = krAudioCtx.createGain();
+        const g2 = krAudioCtx.createGain();
+
+        osc1.type = "sine";
+        osc1.frequency.setValueAtTime(freq, t0);
+        osc2.type = "triangle";
+        osc2.frequency.setValueAtTime(freq * 2.0, t0);
+
+        g1.gain.setValueAtTime(0.0001, t0);
+        g1.gain.linearRampToValueAtTime(0.36, t0 + 0.014);
+        g1.gain.exponentialRampToValueAtTime(0.001, t0 + dur);
+
+        g2.gain.setValueAtTime(0.0001, t0);
+        g2.gain.linearRampToValueAtTime(0.075, t0 + 0.012);
+        g2.gain.exponentialRampToValueAtTime(0.0008, t0 + dur * 0.6);
+
+        osc1.connect(g1); g1.connect(krAudioCtx.destination);
+        osc2.connect(g2); g2.connect(krAudioCtx.destination);
+        osc1.start(t0); osc1.stop(t0 + dur + 0.03);
+        osc2.start(t0); osc2.stop(t0 + dur + 0.03);
+      });
+    } catch (e) {}
+  }
+
+  function updateKrSoundBtn() {
+    const btn = document.getElementById("krSoundBtn");
+    if (!btn) return;
+    if (krSoundOn) {
+      btn.textContent = "🔔 알림음 ON";
+      btn.style.background = "#ECFDF5";
+      btn.style.borderColor = "#10B981";
+      btn.style.color = "#047857";
+    } else {
+      btn.textContent = "🔕 알림음 OFF";
+      btn.style.background = "#F1F5F9";
+      btn.style.borderColor = "#CBD5E1";
+      btn.style.color = "#64748B";
+    }
+  }
+
+  function toggleKrSound() {
+    krSoundOn = !krSoundOn;
+    try { localStorage.setItem("kr_board_sound_on", krSoundOn ? "1" : "0"); } catch (e) {}
+    updateKrSoundBtn();
+    if (krSoundOn) {
+      ensureKrAudio();
+      playKrCrystalChime();
+      showToast("🔔 맑은 크리스탈 벨 알림음이 켜졌습니다!");
+    }
+  }
+
+  // 브라우저 오디오 정책 자동 잠금 해제 (화면 아무 곳이나 첫 클릭 시)
+  document.addEventListener("pointerdown", () => { ensureKrAudio(); }, { once: true });
+  setTimeout(updateKrSoundBtn, 50);
+
   function renderTop3Themes(isi) {
     const wrap = document.getElementById("top3Container");
     const themes = (isi?.top3_themes || []).slice(0, 3);
+    // 테마 대장주·상위종목 변동 감지 시 맑고 또렷한 알림음 자동 재생!
+    try {
+      const curSig = themes.map(t => {
+        const ld = (t.leader || {}).code || "";
+        const subs = (t.sub_stocks || []).slice(0, 2).map(s => s.code || "").join(",");
+        return `${t.theme_name || ""}:${ld}:${subs}`;
+      }).join("|");
+      if (curSig) {
+        if (lastThemeStockSig && lastThemeStockSig !== curSig) {
+          playKrCrystalChime();
+          const newTop = (themes[0] && themes[0].leader && themes[0].leader.name) ? themes[0].leader.name : "테마 종목";
+          if (typeof showToast === "function") showToast(`🔔 주도테마 종목 갱신: ${newTop}`);
+        }
+        lastThemeStockSig = curSig;
+      }
+    } catch (e) {}
     const holdCode = (isi?.overnight_holding?.active && isi?.overnight_holding?.code) ? String(isi.overnight_holding.code) : "";
     const updLbl = document.getElementById("themeUpdateLbl");
     if (isi?.theme_updated_at) {
