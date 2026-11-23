@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 21:49:06",
-  "updated_at_et": "2026-11-23 07:49:06",
-  "updated_epoch_ms": 1795438146262,
+  "updated_at_kst": "2026-11-23 21:49:21",
+  "updated_at_et": "2026-11-23 07:49:21",
+  "updated_epoch_ms": 1795438161738,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 178.72,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "21:49:01"
+    "holding_symbol": "GMEX",
+    "holding_qty": 399,
+    "avg_price": 0.4271,
+    "current_price": 0.45,
+    "profit_rate": 5.36,
+    "updated_kst": "21:49:21"
   },
   "stats": {
     "today_total": 2,
@@ -72,7 +72,7 @@
       "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: GMEX (NASDAQ) | 시총: $0.68M\n- 시가 대비: +118.72% ($0.1966 -> $0.4300)\n- 전일 종가 대비: +123.96% (전일 $0.1920)\n- 1분 거래대금: $766.1K | 누적: $2.36M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "trade_action": "🚀 실전매수 체결 완료 (399주 @ 평단 $0.4271)",
       "catalyst_type": "NO_NEWS"
     },
     {
