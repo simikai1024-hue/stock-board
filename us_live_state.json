@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 21:48:53",
-  "updated_at_et": "2026-11-23 07:48:53",
-  "updated_epoch_ms": 1795438133637,
+  "updated_at_kst": "2026-11-23 21:49:00",
+  "updated_at_et": "2026-11-23 07:49:00",
+  "updated_epoch_ms": 1795438140576,
   "analyzing": {
     "active": false
   },
@@ -12,27 +12,47 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 0,
-    "orderable_usd": 181.56,
+    "orderable_usd": 178.72,
     "daily_done": false,
-    "holding_symbol": "SOAR",
-    "holding_qty": 924,
-    "avg_price": 0.1958,
-    "current_price": 0.1966,
-    "profit_rate": 0.41,
-    "updated_kst": "21:48:36"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.1939,
+    "profit_rate": -0.97,
+    "updated_kst": "21:48:56"
   },
   "stats": {
-    "today_total": 1,
+    "today_total": 2,
     "today_nblm_count": 0,
-    "today_buy": 1,
+    "today_buy": 2,
     "today_false": 0,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 12,
-    "total_false": 138,
-    "avg_nblm_sec": 32.1
+    "total_buy": 13,
+    "total_false": 137,
+    "avg_nblm_sec": 26.8
   },
   "verdicts": [
+    {
+      "id": "v_manual_1795438136329_SOAR",
+      "date_et": "2026-11-23",
+      "weekday_kr": "월",
+      "time_et": "07:48:56",
+      "time_kst": "21:48:56",
+      "symbol": "SOAR",
+      "company_name": "SOAR",
+      "exchange": "NY",
+      "price": 0.1939,
+      "gain_pct": -0.97,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🔄 신규 무결점 공시·PR(GMEX) 갈아타기 청산: 924주 ($0.1958 → $0.1939, -0.97% / -1.76$)"
+    },
     {
       "id": "v_1795438128897_GMEX_BUY",
       "track": "TRACK3",
@@ -49,10 +69,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +118.7% · 전일대비 +124.0% (VWAP $0.37↑) | 1분대금 $766K | 누적 $2.36M | 무뉴스 미사용",
-      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: GMEX (NASDAQ) | 시총: $0.68M\n- 시가 대비: +118.72% ($0.1966 -> $0.4300)\n- 전일 종가 대비: +123.96% (전일 $0.1920)\n- 1분 거래대금: $766.1K | 누적: $2.36M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "catalyst_type": "NO_NEWS"
     },
     {
       "id": "v_manual_1795205500951_MSS",
@@ -2446,26 +2467,6 @@
       "reason": "확정 수주 전무한 단순 3분기/9개월 정기 실적 발표(6-K)로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Kandi Technologies Reports Unaudited Financial Results for the Nine Months Ended September 30, 2026",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 KNDI (Kandi Technologies Group, Inc.) 2026-11-18 07:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.06M USD (나스닥 Global Select 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 신규 상업 수주가 아니라, 단순 **2026년 9월 30일 마감 9개월/3분기 정기 실적 발표(Unaudited Financial Results for the Nine Months Ended September 30, 2026)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $3.5600 대비 현재가 $3.8700 (+8.71%), 당일 최고가 $3.8800 (고점 대비 -0.3%).\n당일 누적 거래대금 $3,363 USD (3천3백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-18 [6-K] (EX-99.1) 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Kandi Technologies Reports Unaudited Financial Results for the Nine Months Ended September 30, 2026\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 신규 금융 기폭제가 아닌 단순 정기 실적 발표 (Periodic Earnings PR):\n원문 본문에 *\"today announced its unaudited financial results for the nine months ended September 30, 2026. Nine Months of 2026 Financial Highlights...\"*라고 명시되어 있습니다.\n이는 지난 9월 30일로 이미 종료된 과거 3분기/9개월 정기 결산 수치 보고에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 13일 예고된 일정에 따른 통상적 정기 실적 배포:\n과거 이력 대조 결과 회사는 5일 전인 2026년 11월 13일에 GlobeNewswire를 통해 *\"Kandi Technologies to Report Third Quarter 2026 Financial Results on Wednesday, November 18, 2026\"*라고 사전 일정을 예고한 바 있습니다.\n사전 일정에 맞춰 나온 통상적인 정기 실적 발표일 뿐, 시장을 뒤흔들 수 있는 돌발 호재나 특별 금융 기폭제가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 정기 실적 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기/정기 실적 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 단일 고객사와의 신규 확정 수주나 현금 선급금이 전무하고, 단순 과거 3분기/9개월 정기 실적 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: KNDI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: KNDI NOTES:\n[KNDI] 확정 수주 전무한 단순 3분기/9개월 정기 실적 발표(6-K)로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI에 이어 KNDI까지 총 8개 종목 전수가 껍데기 IR, 악재성 공시, 단순 정기 실적 발표로 밝혀져 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795002986943_GIXI_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "06:56:26",
-      "time_kst": "20:56:26",
-      "symbol": "GIXI",
-      "company_name": "GIXI",
-      "exchange": "ND",
-      "price": 3.06,
-      "gain_pct": 0.0,
-      "mcap_m": 7.63,
-      "decision": "FALSE",
-      "elapsed_sec": 38.1,
-      "reason": "수주/매출 전무한 단순 IonQ 인프라 활용 자체 기술 검증 및 전일 로봇에 이은 양자 테마 갈아타기 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Gix Internet: Quantum X Labs Achieves 99.93% Data Recovery in Qatacomb Quantum Cybersecurity Validation Using IonQ’s Quantum Computing Infrastructure",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 GIXI (Gix Internet Ltd.) 2026-11-18 06:55 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.63M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 IonQ와의 상업 계약이나 고객사 수주가 아니라, 단순 자회사 Quantum X Labs의 양자 보안 기술(Qatacomb) 자체 검증 테스트 결과(99.93% 복구율 달성) 홍보에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -8.1% 하락 및 거래량 0 바닥 구간):\n전일 종가 $3.0600 대비 현재가 $3.0600 (+0.00%), 당일 최고가 $3.3300 (고점 대비 -8.1%).\n당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 06:55 ET) 공식 PR 원문 분석:\nPR 제목: \"Gix Internet: Quantum X Labs Achieves 99.93% Data Recovery in Qatacomb Quantum Cybersecurity Validation Using IonQ’s Quantum Computing Infrastructure\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 기술 테스트 검증 홍보물 (Technology Validation PR):\n원문 본문에 *\"Quantum cybersecurity technology Qatacomb successfully passes four validation tests under simulated high-noise quantum computing conditions, demonstrating near-perfect authorized data recovery...\"*라고 명시되어 있습니다.\n이는 IonQ(아이온큐)로부터 거액 수주를 따냈거나 정식 상업 파트너십을 맺은 것이 아니라, 단지 아이온큐의 양자 컴퓨팅 인프라 클라우드를 유료/시뮬레이션으로 빌려 자사 소프트웨어 테스트를 진행하고 99.93% 복구율이 나왔다고 발표한 자체 R&D 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n전일(11/17) 병원 L4 로봇 배치 홍보에 이은 24시간 만의 테마 갈아타기 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 바로 어제인 2026년 11월 17일에도 GlobeNewswire를 통해 *\"Gix Deploys New Advanced AI-Powered L4 Autonomous Robot... at One of the World’s Top Hospitals\"*라는 AI 로봇 홍보 보도자료를 낸 바 있습니다.\n하루 만에 AI 로봇에서 양자 컴퓨팅(Quantum/IonQ)으로 키워드만 바꿔 시장의 밈(Meme) 수급을 유인하려는 전형적인 이스라엘계 소형 작전주의 연속적 테마 쪼개기/언론 플레이입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 기술 테스트/검증 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 기술 검증/테스트(Validation Tests)/인프라 활용 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무하고, IonQ 인프라를 단순 대여해 진행한 자체 기술 검증 테스트 결과 홍보 및 전일 AI 로봇에 이은 24시간 만의 양자 테마 갈아타기 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: GIXI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: GIXI NOTES:\n[GIXI] 수주/매출 전무한 단순 IonQ 인프라 활용 자체 기술 검증 및 전일 로봇에 이은 양자 테마 갈아타기 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY(ChatGPT 단순 앱 출시), VWAV(매출 0건 비구속 MOU 나열), FRSX(비구속 3자 프레임워크 쪼개기), HIHO(특별배당 후속 단순 실적 덤핑), MEGL(상장폐지 경고 결함통보), TNMG(10/30 매각 후속 상장유지요건 쪼개기), GIXI(IonQ 대여 기술검증 홍보) 등 7개 종목 전수가 껍데기 IR 및 테마성 언론플레이로 확인되어 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
