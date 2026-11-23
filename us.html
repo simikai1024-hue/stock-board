@@ -237,7 +237,7 @@
       <span class="ver-pill">v28 LIVE</span>
     </div>
     <div class="header-tools">
-      <span class="clock-chip" id="dualClockLbl">🇺🇸 --:-- ET · 🇰🇷 --:-- KST</span>
+      <span class="clock-chip" id="dualClockLbl">🇺🇸 --:-- ET</span>
       <span class="live-chip" id="statusLbl">🟡 연결 중...</span>
       <button class="mini-btn" id="soundBtn" onclick="toggleSound()">🔔 알림음 OFF</button>
       <button class="mini-btn" onclick="forceRefreshNow()">🔄 새로고침</button>
@@ -304,8 +304,7 @@ function tickClocks() {
   try {
     const now = new Date();
     const et = now.toLocaleTimeString("en-GB", { timeZone: "America/New_York", hour12: false }).slice(0, 5);
-    const kst = now.toLocaleTimeString("en-GB", { timeZone: "Asia/Seoul", hour12: false }).slice(0, 5);
-    document.getElementById("dualClockLbl").innerText = `🇺🇸 ${et} ET · 🇰🇷 ${kst} KST`;
+    document.getElementById("dualClockLbl").innerText = `🇺🇸 ${et} ET`;
   } catch (e) {}
 }
 setInterval(tickClocks, 1000);
@@ -398,7 +397,7 @@ function openModal(v) {
   document.getElementById("mTitle").innerText = `🟣 ${v.symbol} (${v.exchange || 'ND'}) · 흥칫뿡 포착 상세`;
   const px = Number(v.price || 0), gn = Number(v.gain_pct || 0), mc = Number(v.mcap_m || 0);
   document.getElementById("mMeta").innerText =
-    `${fmtShortDate(v.date_et)}(${v.weekday_kr || ''}) 🇺🇸 ${v.time_et || '-'} ET / 🇰🇷 ${v.time_kst || '-'} KST` +
+    `${fmtShortDate(v.date_et)}(${v.weekday_kr || ''}) 🇺🇸 ${v.time_et || '-'} ET` +
     (px > 0 ? ` · $${px.toFixed(4)} (${gn>=0?'+':''}${gn.toFixed(1)}%)` : "") +
     (mc > 0 ? ` · 시총 $${mc.toFixed(1)}M` : "");
   document.getElementById("mReason").innerText =
@@ -521,13 +520,11 @@ function renderTimeline(state) {
       const ct = getCatType(v);
       const px = Number(v.price || 0), gn = Number(v.gain_pct || 0);
       const etHm = String(v.time_et || "-").slice(0, 5);
-      const kstHm = String(v.time_kst || "-").slice(0, 5);
       const row = document.createElement("div");
       row.className = "sig-row";
       row.innerHTML = `
         <div class="col-time">
           <div class="et-big">🇺🇸 ${etHm} ET</div>
-          <div class="kst-sub">🇰🇷 ${kstHm} KST</div>
         </div>
         <div class="col-cat">${catBadgeHtml(ct)}</div>
         <div class="col-sym">
