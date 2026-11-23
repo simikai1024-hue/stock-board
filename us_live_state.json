@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 23:39:45",
-  "updated_at_et": "2026-11-23 09:39:45",
-  "updated_epoch_ms": 1795444785276,
+  "updated_at_kst": "2026-11-23 23:40:01",
+  "updated_at_et": "2026-11-23 09:40:01",
+  "updated_epoch_ms": 1795444801411,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:39:39"
+    "updated_kst": "23:40:01"
   },
   "stats": {
-    "today_total": 7,
+    "today_total": 8,
     "today_nblm_count": 0,
-    "today_buy": 5,
+    "today_buy": 6,
     "today_false": 2,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 16,
-    "total_false": 134,
+    "total_buy": 17,
+    "total_false": 133,
     "avg_nblm_sec": 6.1
   },
   "verdicts": [
+    {
+      "id": "v_1795444798425_CORD_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-23",
+      "weekday_kr": "월",
+      "time_et": "09:39:58",
+      "time_kst": "23:39:58",
+      "symbol": "CORD",
+      "company_name": "CORD",
+      "exchange": "ND",
+      "price": 3.24,
+      "gain_pct": 8.0,
+      "mcap_m": 44.37,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +8.0% · 전일대비 +-53.6% (VWAP $3.03↑) | 1분대금 $599K | 누적 $10.11M | 무뉴스 미사용",
+      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: CORD (AMEX) | 시총: $44.37M\n- 시가 대비: +8.00% ($3.0000 -> $3.2400)\n- 전일 종가 대비: +-53.58% (전일 $6.9798)\n- 1분 거래대금: $599.2K | 누적: $10.11M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -99% 손절",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795444665097_RBNE_FALSE",
       "track": "TRACK3",
@@ -2449,26 +2470,6 @@
       "reason": "확정 금액 전무한 단순 스타 트리뷴 대상 기존 계약 확장 쪼개기 홍보 PR로 헌법 3조 1항·4항 위배 및 장전 -14.6% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Dario Secures Second Women's Health Contract in Just Weeks with The Minnesota Star Tribune",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DRIO (DarioHealth Corp.) 2026-11-18 07:34 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $13.11M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 시총을 압도하는 창사 최대 메가 수주가 아니라, 단순 미네소타 스타 트리뷴(The Minnesota Star Tribune) 지역 언론사 직원을 대상으로 한 **기존 계약 확장 및 두 번째 여성 건강 솔루션(Dario Women™) 계약 체결 홍보(Secures Second Women's Health Contract in Just Weeks)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -14.6% 급락 윗꼬리 덤핑 출회):\n전일 종가 $1.1500 대비 현재가 $1.1615 (+1.00%).\n당일 최고가 $1.3600까지 반짝 상승한 뒤 고점 대비 -14.6% 급락하며 장전 프리마켓 윗꼬리 덤핑 출회 중.\n당일 누적 거래대금 $1,389 USD (1천3백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Dario Secures Second Women's Health Contract in Just Weeks with The Minnesota Star Tribune\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 소규모 기업 복지 계약 추가 및 기존 고객 확장 쪼개기 (Client Extension PR):\n원문 본문에 *\"The Minnesota Star Tribune expands its existing relationship with Dario to amplify cardiometabolic health outcomes with comprehensive women's health support to eligible employees beginning January 2027... Nearly 45% of Dario's B2B employer and health plan accounts now have multiple Dario solutions deployed\"*라고 명시되어 있습니다.\n이는 단일 계약으로 수천만 달러의 현금 선급금이 꽂히는 메가 수주(AIMD형)가 아니라, 기존 단일 기업 고객사에 신규 런칭한 여성 건강 솔루션을 부가 서비스로 끼워 넣은 전형적인 금액 미기재 소규모 기업 복지 계약 확장 홍보 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약 총액, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 기재되어 있지 않습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (기존 계약 확장 쪼개기 재탕 및 금액 미기재 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 기존 고객 관계의 소규모 쪼개기/확장 홍보 재탕 및 ④ 신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 계약/제휴 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.3600까지 띄운 뒤 고점 대비 -14.6% 급락하며 개미들에게 물량을 떠넘기는 전형적인 윗꼬리 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무한 단순 지방 언론사 대상의 기존 계약 확장 및 소규모 복지 솔루션 추가 홍보(금액 미기재)에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -14.6% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: DRIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: DRIO NOTES:\n[DRIO] 확정 금액 전무한 단순 스타 트리뷴 대상 기존 계약 확장 쪼개기 홍보 PR로 헌법 3조 1항·4항 위배 및 장전 -14.6% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH에 이어 DRIO까지 총 12개 종목 전수가 껍데기 IR, 단순 계약 확장 재포장, 비구속 MOU, 지분 희석으로 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795005241423_OPTH_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "07:34:01",
-      "time_kst": "21:34:01",
-      "symbol": "OPTH",
-      "company_name": "OPTH",
-      "exchange": "ND",
-      "price": 2.1,
-      "gain_pct": 0.0,
-      "mcap_m": 12.02,
-      "decision": "FALSE",
-      "elapsed_sec": 51.4,
-      "reason": "FDA 승인 전무한 단순 2027년 임상계획 홍보 및 신주발행 채무변제(Shares-for-Debt) 지분희석 폭탄으로 헌법 3조 4항·4조 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Optimi Health Outlines 2027 Plans for OPTI-101 Phase 2b in Major Depressive Disorder and OPTI-201 Phase 3 in PTSD; Announces Shares-for-Debt Settlement",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 OPTH (Optimi Health Corp.) 2026-11-18 07:33 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $12.02M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 미국 FDA 승인이나 글로벌 빅파마와의 거액 독점 라이선스가 아니라, 단순 **2027년 임상 2b/3상 계획 로드맵 나열 및 부채의 주식 대물변제(Shares-for-Debt Settlement)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간):\n전일 종가 $2.1000 대비 현재가 $2.1000 (+0.00%), 당일 최고가 $2.1750 (고점 대비 -3.4%).\n당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 희석 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-18 [6-K] 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:30 ET) 공식 PR 원문 분석:\nPR 제목: \"Optimi Health Outlines 2027 Plans for OPTI-101 Phase 2b in Major Depressive Disorder and OPTI-201 Phase 3 in PTSD; Announces Shares-for-Debt Settlement\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\nFDA 승인/임상 성공이 아닌 단순 '2027년 계획(Outlines 2027 Plans)' 로드맵 나열 (Plans/Roadmap PR):\n원문 본문에 *\"Proposed OPTI-101 protocol amendment converts the single-arm, open-label Phase 2 trial into a randomized, double-blind Phase 2b in severe major depressive disorder... dosing expected Q1 2027 with topline data expected in 2028\"*라고 명시되어 있습니다.\n이는 연구소 헌법 제2조가 요구하는 'FDA 최종 승인'이나 '임상 3상 1차 평가지표 통과(Topline Data Success)'가 아닙니다.\n임상 투약은 2027년 1분기에나 시작되고 결과 발표는 2028년에나 나오는 단순 미래 일정/임상 프로토콜 수정 계획안에 불과합니다.\n캐나다 보건부(Health Canada) 승인 임상 3상(OPTI-201) 역시 환자 100명 대상 계획일 뿐, 당장 상업화나 라이선스 아웃이 확정된 것이 아닙니다.\n치명적 신주 발행 희석 폭탄 적발 (Announces Shares-for-Debt Settlement):\nPR 헤드라인 및 본문 후반부에 **\"Announces Shares-for-Debt Settlement (채무의 주식 대물변제)\"**가 명확히 명시되어 있습니다.\n이는 회사가 현금이 부족하여 채권자에게 진 빚을 갚기 위해 **신주를 대량 찍어내어 교환해 주는 전형적인 신주 발행 지분 희석(Dilution Bomb)**입니다.\n족보집 실전 교본상 8-K Item 3.02(Unregistered Sales of Equity Securities)나 채무의 주식 스왑은 유통 물량을 대거 늘려 시장에 매물 폭탄으로 쏟아지는 전형적인 설거지/희석 악재로 규정되어 있습니다 (심사 헌법 제4조 위배).\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항(금액 미기재 임상 계획) 및 제4조(신주 발행 채무교환 희석) 동시 위배:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '단순 미래 임상 계획/프로토콜 변경 발표 차단' 및 제4조의 '신주 발행/지분 희석(Shares-for-Debt Settlement) 출회 시 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 FDA 승인이나 임상 성공이 아닌 단순 2027년 임상 로드맵 나열에 불과하며, 신주를 찍어 빚을 갚는 채무의 주식 대물변제(Shares-for-Debt Settlement) 지분 희석 폭탄이 포함되어 있으므로 심사 헌법 제3조 및 제4조에 의거 FORCE_BLOCK: OPTH 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: OPTH NOTES:\n[OPTH] FDA 승인 전무한 단순 2027년 임상계획 홍보 및 신주발행 채무변제(Shares-for-Debt) 지분희석 폭탄으로 헌법 3조 4항·4조 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX에 이어 OPTH까지 총 11개 종목 전수가 정밀 직독 검증을 통해 껍데기 IR, 악재성 공시, 지분 희석 함정으로 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
