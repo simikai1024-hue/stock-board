@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 22:26:19",
-  "updated_at_et": "2026-11-23 08:26:19",
-  "updated_epoch_ms": 1795440379443,
+  "updated_at_kst": "2026-11-23 22:27:16",
+  "updated_at_et": "2026-11-23 08:27:16",
+  "updated_epoch_ms": 1795440436503,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "WETO",
     "holding_qty": 142,
     "avg_price": 0.758,
-    "current_price": 0.745,
-    "profit_rate": -1.72,
-    "updated_kst": "22:26:14"
+    "current_price": 0.7362,
+    "profit_rate": -2.88,
+    "updated_kst": "22:27:11"
   },
   "stats": {
     "today_total": 3,
