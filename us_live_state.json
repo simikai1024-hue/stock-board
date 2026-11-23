@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 21:48:22",
-  "updated_at_et": "2026-11-23 07:48:22",
-  "updated_epoch_ms": 1795438102151,
+  "updated_at_kst": "2026-11-23 21:48:53",
+  "updated_at_et": "2026-11-23 07:48:53",
+  "updated_epoch_ms": 1795438133637,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,43 @@
     "holding_symbol": "SOAR",
     "holding_qty": 924,
     "avg_price": 0.1958,
-    "current_price": 0.1922,
-    "profit_rate": -1.84,
-    "updated_kst": "21:48:17"
+    "current_price": 0.1966,
+    "profit_rate": 0.41,
+    "updated_kst": "21:48:36"
   },
   "stats": {
-    "today_total": 0,
+    "today_total": 1,
     "today_nblm_count": 0,
-    "today_buy": 0,
+    "today_buy": 1,
     "today_false": 0,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 11,
-    "total_false": 139,
-    "avg_nblm_sec": 38.4
+    "total_buy": 12,
+    "total_false": 138,
+    "avg_nblm_sec": 32.1
   },
   "verdicts": [
+    {
+      "id": "v_1795438128897_GMEX_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-23",
+      "weekday_kr": "월",
+      "time_et": "07:48:48",
+      "time_kst": "21:48:48",
+      "symbol": "GMEX",
+      "company_name": "GMEX",
+      "exchange": "ND",
+      "price": 0.43,
+      "gain_pct": 118.72,
+      "mcap_m": 0.68,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +118.7% · 전일대비 +124.0% (VWAP $0.37↑) | 1분대금 $766K | 누적 $2.36M | 무뉴스 미사용",
+      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: GMEX (NASDAQ) | 시총: $0.68M\n- 시가 대비: +118.72% ($0.1966 -> $0.4300)\n- 전일 종가 대비: +123.96% (전일 $0.1920)\n- 1분 거래대금: $766.1K | 누적: $2.36M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_manual_1795205500951_MSS",
       "date_et": "2026-11-20",
@@ -2445,26 +2466,6 @@
       "reason": "수주/매출 전무한 단순 IonQ 인프라 활용 자체 기술 검증 및 전일 로봇에 이은 양자 테마 갈아타기 PR로 헌법 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Gix Internet: Quantum X Labs Achieves 99.93% Data Recovery in Qatacomb Quantum Cybersecurity Validation Using IonQ’s Quantum Computing Infrastructure",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 GIXI (Gix Internet Ltd.) 2026-11-18 06:55 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.63M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 IonQ와의 상업 계약이나 고객사 수주가 아니라, 단순 자회사 Quantum X Labs의 양자 보안 기술(Qatacomb) 자체 검증 테스트 결과(99.93% 복구율 달성) 홍보에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -8.1% 하락 및 거래량 0 바닥 구간):\n전일 종가 $3.0600 대비 현재가 $3.0600 (+0.00%), 당일 최고가 $3.3300 (고점 대비 -8.1%).\n당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 06:55 ET) 공식 PR 원문 분석:\nPR 제목: \"Gix Internet: Quantum X Labs Achieves 99.93% Data Recovery in Qatacomb Quantum Cybersecurity Validation Using IonQ’s Quantum Computing Infrastructure\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 기술 테스트 검증 홍보물 (Technology Validation PR):\n원문 본문에 *\"Quantum cybersecurity technology Qatacomb successfully passes four validation tests under simulated high-noise quantum computing conditions, demonstrating near-perfect authorized data recovery...\"*라고 명시되어 있습니다.\n이는 IonQ(아이온큐)로부터 거액 수주를 따냈거나 정식 상업 파트너십을 맺은 것이 아니라, 단지 아이온큐의 양자 컴퓨팅 인프라 클라우드를 유료/시뮬레이션으로 빌려 자사 소프트웨어 테스트를 진행하고 99.93% 복구율이 나왔다고 발표한 자체 R&D 보도자료에 불과합니다.\n외부 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n전일(11/17) 병원 L4 로봇 배치 홍보에 이은 24시간 만의 테마 갈아타기 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 바로 어제인 2026년 11월 17일에도 GlobeNewswire를 통해 *\"Gix Deploys New Advanced AI-Powered L4 Autonomous Robot... at One of the World’s Top Hospitals\"*라는 AI 로봇 홍보 보도자료를 낸 바 있습니다.\n하루 만에 AI 로봇에서 양자 컴퓨팅(Quantum/IonQ)으로 키워드만 바꿔 시장의 밈(Meme) 수급을 유인하려는 전형적인 이스라엘계 소형 작전주의 연속적 테마 쪼개기/언론 플레이입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 기술 테스트/검증 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 기술 검증/테스트(Validation Tests)/인프라 활용 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 고객사 수주나 매출 유입이 전무하고, IonQ 인프라를 단순 대여해 진행한 자체 기술 검증 테스트 결과 홍보 및 전일 AI 로봇에 이은 24시간 만의 양자 테마 갈아타기 PR에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: GIXI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: GIXI NOTES:\n[GIXI] 수주/매출 전무한 단순 IonQ 인프라 활용 자체 기술 검증 및 전일 로봇에 이은 양자 테마 갈아타기 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY(ChatGPT 단순 앱 출시), VWAV(매출 0건 비구속 MOU 나열), FRSX(비구속 3자 프레임워크 쪼개기), HIHO(특별배당 후속 단순 실적 덤핑), MEGL(상장폐지 경고 결함통보), TNMG(10/30 매각 후속 상장유지요건 쪼개기), GIXI(IonQ 대여 기술검증 홍보) 등 7개 종목 전수가 껍데기 IR 및 테마성 언론플레이로 확인되어 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795001639026_TNMG_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "06:33:59",
-      "time_kst": "20:33:59",
-      "symbol": "TNMG",
-      "company_name": "TNMG",
-      "exchange": "ND",
-      "price": 2.57,
-      "gain_pct": 3.21,
-      "mcap_m": 1.95,
-      "decision": "FALSE",
-      "elapsed_sec": 45.8,
-      "reason": "확정 수주 전무 및 10/30 기발표 MBO 매각 건의 나스닥 자기자본 요건 사후 확인 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] TNL Mediagene Regains Compliance with Nasdaq's Equity Rule",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 TNMG (TNL Mediagene) 2026-11-18 06:33 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $1.95M USD (나스닥 상장\n, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 통과\n).\n체급 대비 규모 (치명적 수주/신규 유입 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체는 현금 선급금이 발생하는 상업 수주나 신규 매출 계약이 아니라, 단순 나스닥 상장 규정상 **자기자본 요건 공식 회복 통보 수령(Regains Compliance with Nasdaq's Equity Rule)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 실종 바닥 구간):\n전일 종가 $2.4900 대비 현재가 $2.5700 (+3.21%), 당일 최고가 $2.6900 (고점 대비 -4.5%).\n당일 누적 거래대금 $21 USD (21달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 06:30 ET) 공식 PR 원문 분석:\nPR 제목: \"TNL Mediagene Regains Compliance with Nasdaq's Equity Rule\"\n원문 직독 및 족보집·상황판 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n10월 30일 MBO 매각 완료 호재(+65.6% 분출)의 20일 만에 나온 단순 사후 행정 확인 쪼개기 재탕\n:\n과거 이력 대조 결과 회사는 이미 지난 2026년 10월 30일에 TMX Newsfile 및 6-K를 통해 *\"TNL Mediagene Completes Sale of Japanese Business in Management Buyout; believes it has regained compliance with the Nasdaq stockholders' equity requirement\"*라고 발표하며 당일 최고 +65.6% 폭등 및 $248M의 대량 거래대금을 터뜨리며 시세가 분출 소멸된 바 있습니다.\n오늘 발표는 10월 30일 완료된 일본 사업부 매각의 결과로 나스닥 본부로부터 11월 16일 자 공식 확인 서한(Compliance Letter)을 받았다는 **전형적인 사후 행정 결과 확인성 뒷북/쪼개기 보도자료(Spin PR)**에 불과합니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 초소형주 나스닥 최소 자기자본 충족 + 잔여 전환사채(CB) 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n특히 ONFO형은 '자기자본 충족'과 동시에 '잔여 전환사채(CB) 0원 전액 소멸'이라는 강력한 오버행 완전 소멸이 결합된 케이스였으나, TNMG의 이번 공시는 단순 10/30 MBO 매각건의 나스닥 규정 충족 사후 통보일 뿐 신규 부채 소멸이나 수주 계약이 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (기발표 재료 사후 행정 쪼개기 재탕 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 10/30 기발표 매각 완료에 따른 사후 행정 결과 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 나스닥 상장 요건 회복 통보(Regains Compliance) 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 신규 상업 수주나 현금 선급금이 전무하고, 이미 10월 30일 시세가 분출(+65.6%)되었던 일본 사업부 MBO 매각에 따른 나스닥 자기자본 요건 회복 사후 확인 통보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로\n, 심사 헌법 제3조에 의거 FORCE_BLOCK: TNMG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: TNMG NOTES:\n[TNMG] 확정 수주 전무 및 10/30 기발표 MBO 매각 건의 나스닥 자기자본 요건 사후 확인 쪼개기 재탕 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY(ChatGPT 단순 앱 출시), VWAV(매출 0건 비구속 MOU 나열), FRSX(비구속 3자 프레임워크 쪼개기), HIHO(특별배당 후속 단순 실적 덤핑), MEGL(상장폐지 경고 결함통보), TNMG(10/30 매각 후속 상장유지요건 쪼개기) 등 6개 종목 전수가 정밀 직독 검증을 거쳐 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
