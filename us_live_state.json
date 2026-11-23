@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 22:23:16",
-  "updated_at_et": "2026-11-23 08:23:16",
-  "updated_epoch_ms": 1795440196802,
+  "updated_at_kst": "2026-11-23 22:24:19",
+  "updated_at_et": "2026-11-23 08:24:19",
+  "updated_epoch_ms": 1795440259738,
   "analyzing": {
     "active": false
   },
@@ -12,27 +12,47 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 0,
-    "orderable_usd": 143.23,
+    "orderable_usd": 108.19,
     "daily_done": false,
-    "holding_symbol": "SMX",
-    "holding_qty": 37,
-    "avg_price": 3.7902,
-    "current_price": 3.6598,
-    "profit_rate": -3.44,
-    "updated_kst": "22:23:11"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "22:24:19"
   },
   "stats": {
-    "today_total": 2,
+    "today_total": 3,
     "today_nblm_count": 0,
-    "today_buy": 2,
+    "today_buy": 3,
     "today_false": 0,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 13,
-    "total_false": 137,
-    "avg_nblm_sec": 26.8
+    "total_buy": 14,
+    "total_false": 136,
+    "avg_nblm_sec": 21.1
   },
   "verdicts": [
+    {
+      "id": "v_manual_1795440254163_SMX",
+      "date_et": "2026-11-23",
+      "weekday_kr": "월",
+      "time_et": "08:24:14",
+      "time_kst": "22:24:14",
+      "symbol": "SMX",
+      "company_name": "SMX",
+      "exchange": "ND",
+      "price": 2.8905,
+      "gain_pct": -23.74,
+      "mcap_m": 0.0,
+      "decision": "BUY",
+      "elapsed_sec": 0.0,
+      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
+      "catalyst_hint": "[실전 체결 기록]",
+      "full_report": "",
+      "engine": "실전 포지션 정산",
+      "trade_action": "🛡️ 손절 청산: 37주 | 매수 $3.7902 → 매도 $2.8905 (-23.74% / -33.29$)"
+    },
     {
       "id": "v_manual_1795438136329_SOAR",
       "date_et": "2026-11-23",
@@ -2447,26 +2467,6 @@
       "reason": "확정 수주 전무한 단순 캐나다 딜러망 추가 제휴 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -19.1% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Workhorse Expands Canadian Dealer Network, Partners with BDS Fleet Service to Sell and Service All-electric W56 Step Vans in Ontario",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 WKHS (Workhorse Group, Inc.) 2026-11-18 07:03 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $22.73M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과) [721].\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정된 대량 차량 판매 수주 계약이 아니라, 단순 캐나다 온타리오 지역의 BDS 플릿 서비스(BDS Fleet Service)와의 **딜러 판매망 제휴 계약(Dealer Agreement to sell and service vehicles in Ontario)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -19.1% 급락 덤핑):\n전일 종가 $1.9000 대비 현재가 $2.0800 (+9.47%), 당일 최고가 $2.5700 (고점 대비 -19.1%).\n당일 누적 거래대금 $11,364 USD (1만1천 달러 수준의 극소액 프리마켓 거래량).\n장전 프리마켓에서 $2.5700까지 튄 직후 -19.1% 급락하며 개인 매수세를 유인하고 매물대를 덤핑 중인 전형적인 윗꼬리 차트.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다 [721].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Workhorse Expands Canadian Dealer Network, Partners with BDS Fleet Service to Sell and Service All-electric W56 Step Vans in Ontario\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 딜러망 추가 제휴 홍보물 (Dealer Agreement PR):\n원문 본문에 *\"today announced it has signed a dealer agreement with BDS Fleet Service... to sell Workhorse vehicles in Ontario, Canada. The agreement is Workhorse’s second dealer partnership in Canada...\"*라고 명시되어 있습니다.\n이는 플릿 고객사로부터 차량 수백~수천 대를 확정 판매하여 대금이 유입되는 대형 상업 수주가 아니라, 현지 딜러사와 판매 대행 계약을 맺었다는 단순 판매 유통망 확장(Dealer Network Expansion) 홍보에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다 [722].\n11월 16일 실적 발표(Q3 실적 어닝콜) 직후 나온 전형적인 후속 IR 포장 (Spin PR):\n과거 이력 대조 결과 회사는 불과 이틀 전인 11월 16일과 17일에 3분기 실적 발표(순차적 매출 증가)와 어닝콜을 마친 상태입니다.\n실적 발표 직후 주가 부양을 위해 통상적인 지역 딜러 계약을 호재처럼 포장해 배포한 **전형적인 금액 미기재 언론 플레이(Spin PR)**입니다 [722].\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [722].\n심사 헌법 제3조 ④항 위배 및 장전 -19.1% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 유입이 없는 단순 딜러/제휴/파트너십 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 [722].\n장전 프리마켓에서 $2.5700까지 띄운 뒤 고점 대비 -19.1% 급락하며 개미들에게 물량을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 차량 판매 수주액이나 현금 선급금이 전무한 단순 캐나다 지역 딜러망 추가 제휴 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -19.1% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: WKHS 처리합니다 [722].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WKHS NOTES:\n[WKHS] 확정 수주 전무한 단순 캐나다 딜러망 추가 제휴 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -19.1% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI에 이어 WKHS까지 총 9개 종목 전수가 껍데기 제휴, 단순 실적, 상장폐지 경고 결함 통보로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795003409432_KNDI_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "07:03:29",
-      "time_kst": "21:03:29",
-      "symbol": "KNDI",
-      "company_name": "KNDI",
-      "exchange": "ND",
-      "price": 3.87,
-      "gain_pct": 8.71,
-      "mcap_m": 39.06,
-      "decision": "FALSE",
-      "elapsed_sec": 44.7,
-      "reason": "확정 수주 전무한 단순 3분기/9개월 정기 실적 발표(6-K)로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Kandi Technologies Reports Unaudited Financial Results for the Nine Months Ended September 30, 2026",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 KNDI (Kandi Technologies Group, Inc.) 2026-11-18 07:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.06M USD (나스닥 Global Select 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 신규 상업 수주가 아니라, 단순 **2026년 9월 30일 마감 9개월/3분기 정기 실적 발표(Unaudited Financial Results for the Nine Months Ended September 30, 2026)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $3.5600 대비 현재가 $3.8700 (+8.71%), 당일 최고가 $3.8800 (고점 대비 -0.3%).\n당일 누적 거래대금 $3,363 USD (3천3백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-18 [6-K] (EX-99.1) 제출 확인.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Kandi Technologies Reports Unaudited Financial Results for the Nine Months Ended September 30, 2026\"\n원문 직독 및 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 신규 금융 기폭제가 아닌 단순 정기 실적 발표 (Periodic Earnings PR):\n원문 본문에 *\"today announced its unaudited financial results for the nine months ended September 30, 2026. Nine Months of 2026 Financial Highlights...\"*라고 명시되어 있습니다.\n이는 지난 9월 30일로 이미 종료된 과거 3분기/9개월 정기 결산 수치 보고에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 13일 예고된 일정에 따른 통상적 정기 실적 배포:\n과거 이력 대조 결과 회사는 5일 전인 2026년 11월 13일에 GlobeNewswire를 통해 *\"Kandi Technologies to Report Third Quarter 2026 Financial Results on Wednesday, November 18, 2026\"*라고 사전 일정을 예고한 바 있습니다.\n사전 일정에 맞춰 나온 통상적인 정기 실적 발표일 뿐, 시장을 뒤흔들 수 있는 돌발 호재나 특별 금융 기폭제가 전혀 아닙니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 정기 실적 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항 및 족보집 실전 교본의 '신규 단일 확정 메가 계약 금액 및 현금 유입 선급금이 없는 단순 분기/정기 실적 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 단일 고객사와의 신규 확정 수주나 현금 선급금이 전무하고, 단순 과거 3분기/9개월 정기 실적 발표에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: KNDI 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: KNDI NOTES:\n[KNDI] 확정 수주 전무한 단순 3분기/9개월 정기 실적 발표(6-K)로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI에 이어 KNDI까지 총 8개 종목 전수가 껍데기 IR, 악재성 공시, 단순 정기 실적 발표로 밝혀져 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
