@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 21:53:51",
-  "updated_at_et": "2026-11-23 07:53:51",
-  "updated_epoch_ms": 1795438431629,
+  "updated_at_kst": "2026-11-23 21:54:50",
+  "updated_at_et": "2026-11-23 07:54:50",
+  "updated_epoch_ms": 1795438490594,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "GMEX",
     "holding_qty": 399,
     "avg_price": 0.4271,
-    "current_price": 0.4799,
-    "profit_rate": 12.36,
-    "updated_kst": "21:53:46"
+    "current_price": 0.4792,
+    "profit_rate": 12.2,
+    "updated_kst": "21:54:45"
   },
   "stats": {
     "today_total": 2,
