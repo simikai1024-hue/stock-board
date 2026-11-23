@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-23",
-  "updated_at_kst": "2026-11-23 21:42:30",
-  "updated_at_et": "2026-11-23 07:42:30",
-  "updated_epoch_ms": 1795437750828,
+  "updated_at_kst": "2026-11-23 21:43:28",
+  "updated_at_et": "2026-11-23 07:43:28",
+  "updated_epoch_ms": 1795437808587,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "SOAR",
     "holding_qty": 924,
     "avg_price": 0.1958,
-    "current_price": 0.2141,
-    "profit_rate": 9.35,
-    "updated_kst": "21:42:23"
+    "current_price": 0.2119,
+    "profit_rate": 8.22,
+    "updated_kst": "21:43:22"
   },
   "stats": {
     "today_total": 0,
