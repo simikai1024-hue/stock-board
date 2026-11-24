@@ -228,6 +228,10 @@
     .col-detail { grid-column: 1 / 4; }
   }
 </style>
+  <meta name="theme-color" content="#EAF4FF">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="../icons/us-192.png?v=31">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/us-180.png?v=31">
 </head>
 <body>
 
@@ -603,9 +607,7 @@ client.on("message", (topic, payload) => {
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.getRegistrations().then(regs => {
-    regs.forEach(r => {
-      if (!r.scope.endsWith('/stock-board/us/')) { r.unregister(); }
-    });
+    regs.forEach(r => { if (!r.scope.endsWith('/stock-board/us/')) { r.unregister(); } });
     navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {});
   });
 }
