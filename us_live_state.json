@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-24 23:30:33",
-  "updated_at_et": "2026-11-24 09:30:33",
-  "updated_epoch_ms": 1795530633716,
+  "updated_at_kst": "2026-11-24 23:30:42",
+  "updated_at_et": "2026-11-24 09:30:42",
+  "updated_epoch_ms": 1795530642825,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 71.11,
     "daily_done": false,
-    "holding_symbol": "",
-    "holding_qty": 0,
-    "avg_price": 0.0,
-    "current_price": 0.0,
-    "profit_rate": 0.0,
-    "updated_kst": "23:30:27"
+    "holding_symbol": "MEDS",
+    "holding_qty": 35,
+    "avg_price": 1.97,
+    "current_price": 1.989,
+    "profit_rate": 0.96,
+    "updated_kst": "23:30:40"
   },
   "stats": {
     "today_total": 5,
@@ -49,10 +49,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +9.4% · 전일대비 +19.3% (VWAP $1.98↑) | 1분대금 $476K | 누적 $0.48M | 무뉴스 미사용",
-      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "catalyst_hint": "📰🏛️ PR+공시 | 8-K(2026-11-23) · Atlas Signal Initiates Coverage of DataMeds AI: A Pharmacy-Led Platfor",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: MEDS (NASDAQ) | 시총: $11.32M\n- 시가 대비: +9.39% ($1.8100 -> $1.9800)\n- 전일 종가 대비: +19.28% (전일 $1.6600)\n- 1분 거래대금: $476.5K | 누적: $0.48M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "catalyst_type": "PR_SEC"
     },
     {
       "id": "v_1795526998841_PLAG_FALSE",
