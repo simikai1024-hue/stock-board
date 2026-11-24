@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-24 21:44:47",
-  "updated_at_et": "2026-11-24 07:44:47",
-  "updated_epoch_ms": 1795524287228,
+  "updated_at_kst": "2026-11-24 21:45:45",
+  "updated_at_et": "2026-11-24 07:45:45",
+  "updated_epoch_ms": 1795524345673,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "YFOR",
     "holding_qty": 64,
     "avg_price": 1.29,
-    "current_price": 1.14,
-    "profit_rate": -11.63,
-    "updated_kst": "21:44:44"
+    "current_price": 1.0209,
+    "profit_rate": -20.86,
+    "updated_kst": "21:45:43"
   },
   "stats": {
     "today_total": 2,
