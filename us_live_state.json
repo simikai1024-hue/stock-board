@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-25 07:52:36",
-  "updated_at_et": "2026-11-24 17:52:36",
-  "updated_epoch_ms": 1795560756728,
+  "updated_at_kst": "2026-11-25 07:53:34",
+  "updated_at_et": "2026-11-24 17:53:34",
+  "updated_epoch_ms": 1795560814463,
   "analyzing": {
     "active": false
   },
@@ -14,12 +14,12 @@
     "watchlist_count": 0,
     "orderable_usd": 0.56,
     "daily_done": false,
-    "holding_symbol": "BENF",
-    "holding_qty": 55,
-    "avg_price": 1.02,
-    "current_price": 0.8643,
-    "profit_rate": -15.26,
-    "updated_kst": "07:52:32"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "07:53:34"
   },
   "stats": {
     "today_total": 7,
@@ -52,7 +52,7 @@
       "catalyst_hint": "⛔ 탈락 사유: 시가 갭상승 과열 차단(시가 +43.0% > +30%)",
       "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: BENF (NASDAQ)\n- 탈락 사유: 시가 갭상승 과열 차단(시가 +43.0% > +30%)",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🛡️ 손절 청산: 55주 | 매수 $1.0200 → 매도 $0.8665 (-15.05% / -8.44$)"
     },
     {
       "id": "v_1795530647149_AKAN_BUY",
