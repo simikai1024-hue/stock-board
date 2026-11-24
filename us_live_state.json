@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-24 22:01:03",
-  "updated_at_et": "2026-11-24 08:01:03",
-  "updated_epoch_ms": 1795525263412,
+  "updated_at_kst": "2026-11-24 22:01:11",
+  "updated_at_et": "2026-11-24 08:01:11",
+  "updated_epoch_ms": 1795525271906,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:00:50"
+    "updated_kst": "22:01:10"
   },
   "stats": {
     "today_total": 3,
@@ -49,10 +49,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +19.0% · 전일대비 +28.2% (VWAP $0.46↑) | 1분대금 $242K | 누적 $0.65M | 무뉴스 미사용",
-      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: ONFO (NASDAQ) | 시총: $1.34M\n- 시가 대비: +19.04% ($0.4500 -> $0.5357)\n- 전일 종가 대비: +28.19% (전일 $0.4179)\n- 1분 거래대금: $242.2K | 누적: $0.65M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "catalyst_type": "NO_NEWS"
     },
     {
       "id": "v_1795523974810_YFOR_BUY",
