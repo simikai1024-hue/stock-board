@@ -1,8 +1,8 @@
 {
   "id": "/stock-board/us/",
-  "name": "🇺🇸 미국장 달의검 트랙1·3 신호판",
+  "name": "🇺🇸 미국장 흥칫뿡 전광판",
   "short_name": "미국전광판",
-  "description": "미국장 트랙1(PR·공시) & 트랙3(흥칫뿡) 실시간 신호 타임라인",
+  "description": "미국장 흥칫뿡(Track 3) 실시간 신호 전광판 (ET)",
   "lang": "ko",
   "start_url": "/stock-board/us/",
   "scope": "/stock-board/us/",
@@ -11,8 +11,23 @@
   "background_color": "#EAF4FF",
   "theme_color": "#EAF4FF",
   "icons": [
-    { "src": "../icons/us-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "../icons/us-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "../icons/us-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "../icons/us-192.png?v=30",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../icons/us-512.png?v=30",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../icons/us-512.png?v=30",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
