@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-25 00:41:09",
-  "updated_at_et": "2026-11-24 10:41:09",
-  "updated_epoch_ms": 1795534869320,
+  "updated_at_kst": "2026-11-25 00:42:13",
+  "updated_at_et": "2026-11-24 10:42:13",
+  "updated_epoch_ms": 1795534933563,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "MEDS",
     "holding_qty": 35,
     "avg_price": 1.97,
-    "current_price": 1.8007,
-    "profit_rate": -8.59,
-    "updated_kst": "00:41:06"
+    "current_price": 1.81,
+    "profit_rate": -8.12,
+    "updated_kst": "00:42:08"
   },
   "stats": {
     "today_total": 6,
