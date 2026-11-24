@@ -1,11 +1,11 @@
 {
   "date": "2026-11-24",
-  "updated_at": "2026-11-25 01:43:57",
+  "updated_at": "2026-11-25 03:50:38",
   "isi_board": {
-    "updated_at": "2026-11-25 01:43:57",
+    "updated_at": "2026-11-25 03:50:38",
     "updater_source": "GITHUB_CLOUD",
     "theme_date": "2026-11-24",
-    "theme_updated_at": "01:43:57 (☁️깃허브 자동)",
+    "theme_updated_at": "03:50:38 (☁️깃허브 자동)",
     "overnight_holding": {
       "active": false
     },
@@ -588,7 +588,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-24",
-      "updated_at": "01:43:57 (☁️깃허브 자동)",
+      "updated_at": "03:50:38 (☁️깃허브 자동)",
       "signal_status": "CLOSED",
       "active_signal": null,
       "today_closed": {
@@ -696,15 +696,22 @@
         "kospi_inst_eok": 8734,
         "kosdaq_foreign_eok": 1299,
         "kosdaq_inst_eok": 2225,
-        "usdkrw": 1345.0,
-        "usdkrw_chg": 2.5,
-        "nasdaq_pct": -2.36,
-        "sox_pct": -9.18,
+        "usdkrw": 1343.4,
+        "usdkrw_chg": 0.9,
+        "nasdaq_pct": -1.52,
+        "sox_pct": -7.26,
         "macro_dir": "UP",
         "macro_label": "수급·매크로 상승 우호",
         "news_dir": "UP",
         "news_label": "호재·반등 재료 우위",
         "headlines": [
+          {
+            "title": "내릴 땐 와르르 오를 땐 찔끔, 개미 탓?",
+            "press": "머니투데이",
+            "time": "03:00",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/008/0005445904"
+          },
           {
             "title": "앤스로픽, 공모가 83달러 깨졌는데…월가는 \"목표가 최고 150달러\"",
             "press": "이데일리",
@@ -718,13 +725,6 @@
             "time": "00:36",
             "tone": "DN",
             "url": "https://n.news.naver.com/mnews/article/023/0004011518"
-          },
-          {
-            "title": "AI주 반등 하루 만에 약세…엔비디아 5% ↓[뉴욕증시]",
-            "press": "아시아경제",
-            "time": "00:15",
-            "tone": "UP",
-            "url": "https://n.news.naver.com/mnews/article/277/0005847289"
           }
         ]
       },
@@ -753,7 +753,7 @@
           "pair_money_share_pct": 74.3,
           "flow_surge_mult": 1.06
         },
-        "line1": "외국인이 코스피 +8,130억(코스닥 +1,299억) 순매수 유입 중이며, 미 나스닥(-2.36%)·반도체(-9.18%) 및 원/달러 1,345.0원 흐름 속에 시황 뉴스는 '호재·반등 재료 우위' 분위기입니다.",
+        "line1": "외국인이 코스피 +8,130억(코스닥 +1,299억) 순매수 유입 중이며, 미 나스닥(-1.52%)·반도체(-7.26%) 및 원/달러 1,343.4원 흐름 속에 시황 뉴스는 '호재·반등 재료 우위' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150] 쪽으로 평소 대비 1.06배 자금이 집중되며 당일 VWAP 상단 체류 87%를 기록 중입니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
