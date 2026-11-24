@@ -1,4 +1,4 @@
-const CACHE = 'us-only-v30';
+const CACHE = 'us-only-v31';
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => {
   e.waitUntil((async () => {
