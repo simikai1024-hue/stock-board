@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-25 02:02:38",
-  "updated_at_et": "2026-11-24 12:02:38",
-  "updated_epoch_ms": 1795539758464,
+  "updated_at_kst": "2026-11-25 02:03:05",
+  "updated_at_et": "2026-11-24 12:03:05",
+  "updated_epoch_ms": 1795539785998,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 71.11,
+    "orderable_usd": 56.8,
     "daily_done": false,
-    "holding_symbol": "MEDS",
-    "holding_qty": 35,
-    "avg_price": 1.97,
-    "current_price": 1.61,
-    "profit_rate": -18.27,
-    "updated_kst": "02:02:36"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "02:03:05"
   },
   "stats": {
     "today_total": 6,
@@ -74,7 +74,7 @@
       "catalyst_hint": "📰🏛️ PR+공시 | 8-K(2026-11-23) · Atlas Signal Initiates Coverage of DataMeds AI: A Pharmacy-Led Platfor",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: MEDS (NASDAQ) | 시총: $11.32M\n- 시가 대비: +9.39% ($1.8100 -> $1.9800)\n- 전일 종가 대비: +19.28% (전일 $1.6600)\n- 1분 거래대금: $476.5K | 누적: $0.48M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 실전매수 체결 완료 (35주 @ 평단 $1.9700)",
+      "trade_action": "🛡️ 손절 청산: 35주 | 매수 $1.9700 → 매도 $1.5741 (-20.10% / -13.86$)",
       "catalyst_type": "PR_SEC"
     },
     {
