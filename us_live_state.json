@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-24 21:45:45",
-  "updated_at_et": "2026-11-24 07:45:45",
-  "updated_epoch_ms": 1795524345673,
+  "updated_at_kst": "2026-11-24 21:45:55",
+  "updated_at_et": "2026-11-24 07:45:55",
+  "updated_epoch_ms": 1795524355299,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "프리장실전",
     "watchlist_count": 0,
-    "orderable_usd": 87.49,
+    "orderable_usd": 71.11,
     "daily_done": false,
-    "holding_symbol": "YFOR",
-    "holding_qty": 64,
-    "avg_price": 1.29,
-    "current_price": 1.0209,
-    "profit_rate": -20.86,
-    "updated_kst": "21:45:43"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 1.04,
+    "profit_rate": -19.38,
+    "updated_kst": "21:45:52"
   },
   "stats": {
     "today_total": 2,
@@ -52,7 +52,7 @@
       "catalyst_hint": "📰 PR 있음 | YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Us",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: YFOR (NASDAQ) | 시총: $16.30M\n- 시가 대비: +42.72% ($0.8899 -> $1.2701)\n- 전일 종가 대비: +46.11% (전일 $0.8693)\n- 1분 거래대금: $664.5K | 누적: $1.69M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 실전매수 체결 완료 (64주 @ 평단 $1.2900)",
+      "trade_action": "🛡️ 손절 청산: 64주 | 매수 $1.2900 → 매도 $1.0400 (-19.38% / -16.00$)",
       "catalyst_type": "PR"
     },
     {
