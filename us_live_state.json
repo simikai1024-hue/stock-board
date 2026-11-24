@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-25 05:59:32",
-  "updated_at_et": "2026-11-24 15:59:32",
-  "updated_epoch_ms": 1795553972333,
+  "updated_at_kst": "2026-11-25 06:00:27",
+  "updated_at_et": "2026-11-24 16:00:27",
+  "updated_epoch_ms": 1795554027590,
   "analyzing": {
     "active": false
   },
@@ -10,16 +10,16 @@
     "active": false
   },
   "account": {
-    "session_label": "정규장실전",
+    "session_label": "장외대기",
     "watchlist_count": 0,
     "orderable_usd": 0.56,
     "daily_done": false,
     "holding_symbol": "BENF",
     "holding_qty": 55,
     "avg_price": 1.02,
-    "current_price": 0.8933,
-    "profit_rate": -12.42,
-    "updated_kst": "05:59:23"
+    "current_price": 0.8965,
+    "profit_rate": -12.11,
+    "updated_kst": "06:00:25"
   },
   "stats": {
     "today_total": 7,
