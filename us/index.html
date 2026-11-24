@@ -600,5 +600,15 @@ client.on("message", (topic, payload) => {
   } catch (e) {}
 });
 </script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(regs => {
+    regs.forEach(r => {
+      if (!r.scope.endsWith('/stock-board/us/')) { r.unregister(); }
+    });
+    navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {});
+  });
+}
+</script>
 </body>
 </html>
