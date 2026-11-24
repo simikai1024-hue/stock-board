@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-24 23:30:42",
-  "updated_at_et": "2026-11-24 09:30:42",
-  "updated_epoch_ms": 1795530642825,
+  "updated_at_kst": "2026-11-24 23:30:51",
+  "updated_at_et": "2026-11-24 09:30:51",
+  "updated_epoch_ms": 1795530651247,
   "analyzing": {
     "active": false
   },
@@ -17,22 +17,43 @@
     "holding_symbol": "MEDS",
     "holding_qty": 35,
     "avg_price": 1.97,
-    "current_price": 1.989,
-    "profit_rate": 0.96,
-    "updated_kst": "23:30:40"
+    "current_price": 1.9699,
+    "profit_rate": -0.01,
+    "updated_kst": "23:30:47"
   },
   "stats": {
-    "today_total": 5,
+    "today_total": 6,
     "today_nblm_count": 0,
-    "today_buy": 4,
+    "today_buy": 5,
     "today_false": 1,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 21,
-    "total_false": 129,
+    "total_buy": 22,
+    "total_false": 128,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795530647149_AKAN_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-24",
+      "weekday_kr": "화",
+      "time_et": "09:30:47",
+      "time_kst": "23:30:47",
+      "symbol": "AKAN",
+      "company_name": "AKAN",
+      "exchange": "ND",
+      "price": 3.585,
+      "gain_pct": 7.72,
+      "mcap_m": 9.44,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +7.7% · 전일대비 +39.0% (VWAP $3.58↑) | 1분대금 $572K | 누적 $0.57M | 무뉴스 미사용",
+      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: AKAN (NASDAQ) | 시총: $9.44M\n- 시가 대비: +7.72% ($3.3280 -> $3.5850)\n- 전일 종가 대비: +38.95% (전일 $2.5800)\n- 1분 거래대금: $571.7K | 누적: $0.57M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795530628591_MEDS_BUY",
       "track": "TRACK3",
@@ -52,7 +73,7 @@
       "catalyst_hint": "📰🏛️ PR+공시 | 8-K(2026-11-23) · Atlas Signal Initiates Coverage of DataMeds AI: A Pharmacy-Led Platfor",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: MEDS (NASDAQ) | 시총: $11.32M\n- 시가 대비: +9.39% ($1.8100 -> $1.9800)\n- 전일 종가 대비: +19.28% (전일 $1.6600)\n- 1분 거래대금: $476.5K | 누적: $0.48M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "trade_action": "🚀 실전매수 체결 완료 (35주 @ 평단 $1.9700)",
       "catalyst_type": "PR_SEC"
     },
     {
@@ -2462,26 +2483,6 @@
       "reason": "확정 M&A 전무한 단순 잠재 인수대상 물색 계획(Plans to Pursue) 홍보 PR로 헌법 3조 4항 위배 및 장전 -15.9% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ETS (Elite Express Holding Inc.) 2026-11-18 08:14:52 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $21.27M USD (나스닥 Capital Market 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (헤드라인 $30.00M 수치의 치명적 허상 적발):\n언뜻 시총 대비 141.0%에 달하는 $30.00M 규모로 포장되었으나, 이는 회사 금고로 즉각 유입되는 확정 수주나 현금 선급금이 아니라 **\"향후 최대 $30M 규모의 잠재적 인수 대상을 물색·추진할 계획(Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets)\"**이라는 **단순 희망성 M&A 탐색 의향(Plans/Intention)**에 불과합니다.\n구속력 있는 확정 인수 본계약(Definitive Merger Agreement)이 전혀 아닙니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -15.9% 윗꼬리 덤핑 지속):\n전일 종가 $1.6950 대비 현재가 $1.6950 (+0.00%).\n당일 프리마켓 최고가 $2.0150을 찍은 직후 고점 대비 -15.9% 급락하며 프리마켓 윗꼬리 덤핑 출회 중.\n당일 누적 거래대금 $0 USD (09:30 정규장 개장 직전 극단적 호가 공백).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 M&A 본계약이 아닌 단순 '잠재적 인수 대상 탐색 계획(Plans to Pursue)' 언론플레이:\n원문 본문에 *\"today announced that it is seeking potential acquisition targets as part of its strategy to expand its business through strategic acquisitions. The Company plans to evaluate opportunities...\"*라고 명시되어 있습니다.\n이는 대상 기업과 최종 합의서에 서명한 '확정 M&A(Definitive Agreement)'가 전혀 아닙니다.\n단지 앞으로 인수 대상을 찾아보겠다는 **구속력과 실체성이 0%인 단순 의향/계획 발표(Expression of Intent)**에 불과합니다.\n외부 고객사로부터 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n향후 인수 자금 조달을 위한 신주 발행 유상증자(지분 희석) 위험 내포:\n시총 $21M 수준의 소형 적자 물류회사가 $30M 규모의 인수를 추진하겠다는 것은 향후 필연적으로 대규모 신주 발행, 전환사채(CB) 발행, 공모 유상증자(S-1/S-3 오퍼링)를 통해 주주 지분을 대규모 희석시킬 수밖에 없는 구조입니다.\n족보집 실전 교본상 '실체 없는 M&A 탐색 발표 후 주가 띄우기 -> 유증 덤핑'은 전형적인 소형주 설거지 수법으로 분류됩니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -15.9% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 M&A 탐색/계획(Plans/LOI/MOU) 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $2.0150까지 띄운 뒤 시장이 껍데기 계획임을 인지하자마자 고점 대비 -15.9% 급락하며 개미들에게 물량을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 M&A 본계약이나 현금 유입이 전무한 단순 잠재 인수 대상 탐색 계획(Plans to Pursue Acquisitions) 언론플레이에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -15.9% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ETS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: ETS NOTES:\n[ETS] 확정 M&A 전무한 단순 잠재 인수대상 물색 계획(Plans to Pursue) 홍보 PR로 헌법 3조 4항 위배 및 장전 -15.9% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS까지 총 17개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 지분 희석으로 정밀 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795007327549_ETS_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "08:08:47",
-      "time_kst": "22:08:47",
-      "symbol": "ETS",
-      "company_name": "ETS",
-      "exchange": "ND",
-      "price": 1.695,
-      "gain_pct": 0.0,
-      "mcap_m": 21.27,
-      "decision": "FALSE",
-      "elapsed_sec": 117.7,
-      "reason": "확정 M&A 전무한 단순 잠재 인수대상 물색 계획(Plans to Pursue) 홍보 PR로 헌법 3조 4항 위배 및 장전 -15.9% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 ETS (Elite Express Holding Inc.) 2026-11-18 08:06 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $21.27M USD (나스닥 Capital Market 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $30.00M 수치의 치명적 허상 적발):\n언뜻 시총 대비 141.0%에 달하는 $30.00M 수치가 감지되었으나, 이는 회사로 들어오는 확정 수주나 현금 유입 계약이 아니라 **\"향후 최대 $30M 규모의 잠재적 인수 대상을 물색/추진할 계획(Announces Plans to Pursue Strategic Acquisitions)\"**이라는 **단순 희망성 M&A 탐색 계획(Plans/Intention)**에 불과합니다.\n확정된 인수 계약 체결(Definitive Merger Agreement)이나 본계약이 전혀 아닙니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -15.9% 윗꼬리 덤핑 출회):\n전일 종가 $1.6950 대비 현재가 $1.6950 (+0.00%).\n당일 프리마켓 최고가 $2.0150을 찍은 직후 고점 대비 -15.9% 급락하며 장전 윗꼬리 덤핑 출회 중.\n당일 누적 거래대금 $0 USD (09:30 본장 직전 극단적 호가 공백).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"Elite Express Holding Inc. Announces Plans to Pursue Strategic Acquisitions and Identify Potential Acquisition Targets\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 M&A 본계약이 아닌 단순 '잠재적 인수 대상 탐색 계획(Plans to Pursue)' 언론플레이:\n원문 본문에 *\"today announced that it is seeking potential acquisition targets as part of its strategy to expand its business through strategic acquisitions. The Company plans to evaluate opportunities...\"*라고 명시되어 있습니다.\n이는 대상 기업과 최종 합의서에 서명한 '확정 M&A(Definitive Agreement)'가 전혀 아닙니다.\n단지 앞으로 인수 대상을 찾아보겠다는 **구속력과 실체성이 0%인 단순 의향/계획 발표(Expression of Intent)**에 불과합니다.\n외부 고객사로부터 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n오히려 향후 인수 자금 조달을 위한 신주 발행 유상증자(희석) 위험 내포:\n시총 $21M 수준의 소형 적자 물류회사가 $30M 규모의 인수를 추진하겠다는 것은 향후 필연적으로 대규모 신주 발행, 전환사채(CB) 발행, 공모 유상증자(S-1/S-3 오퍼링)를 통해 주주 지분을 대규모 희석시킬 수밖에 없는 구조입니다.\n족보집 실전 교본상 '실체 없는 M&A 탐색 발표 후 주가 띄우기 -> 유증 덤핑'은 전형적인 소형주 설거지 수법으로 분류됩니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -15.9% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액 및 현금 유입이 없는 단순 M&A 탐색/계획(Plans/LOI/MOU) 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $2.0150까지 띄운 뒤 시장이 껍데기 계획임을 인지하자마자 고점 대비 -15.9% 급락하며 개미들에게 물량을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 M&A 본계약이나 현금 유입이 전무한 단순 잠재 인수 대상 탐색 계획(Plans to Pursue Acquisitions) 언론플레이에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -15.9% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ETS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: ETS NOTES:\n[ETS] 확정 M&A 전무한 단순 잠재 인수대상 물색 계획(Plans to Pursue) 홍보 PR로 헌법 3조 4항 위배 및 장전 -15.9% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG에 이어 ETS까지 총 17개 종목 전수가 껍데기 IR, 비구속 M&A 계획, 계약 쪼개기 재탕으로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
