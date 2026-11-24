@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-24 22:00:14",
-  "updated_at_et": "2026-11-24 08:00:14",
-  "updated_epoch_ms": 1795525214136,
+  "updated_at_kst": "2026-11-24 22:01:03",
+  "updated_at_et": "2026-11-24 08:01:03",
+  "updated_epoch_ms": 1795525263412,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:00:10"
+    "updated_kst": "22:00:50"
   },
   "stats": {
-    "today_total": 2,
+    "today_total": 3,
     "today_nblm_count": 0,
-    "today_buy": 2,
+    "today_buy": 3,
     "today_false": 0,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 19,
-    "total_false": 131,
-    "avg_nblm_sec": 0.1
+    "total_buy": 20,
+    "total_false": 130,
+    "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795525258957_ONFO_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-24",
+      "weekday_kr": "화",
+      "time_et": "08:00:58",
+      "time_kst": "22:00:58",
+      "symbol": "ONFO",
+      "company_name": "ONFO",
+      "exchange": "ND",
+      "price": 0.5357,
+      "gain_pct": 19.04,
+      "mcap_m": 1.34,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +19.0% · 전일대비 +28.2% (VWAP $0.46↑) | 1분대금 $242K | 누적 $0.65M | 무뉴스 미사용",
+      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: ONFO (NASDAQ) | 시총: $1.34M\n- 시가 대비: +19.04% ($0.4500 -> $0.5357)\n- 전일 종가 대비: +28.19% (전일 $0.4179)\n- 1분 거래대금: $242.2K | 누적: $0.65M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795523974810_YFOR_BUY",
       "track": "TRACK3",
@@ -2457,26 +2478,6 @@
       "reason": "확정 수주 전무 및 전일 캔자스 병원에 이은 멤피스 외래사이트 1곳 확장 쪼개기 홍보 PR로 헌법 3조 1항·4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Major Memphis Health System Expands BVA® Adoption to New Hospital Outpatient Site",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DXR (Daxor Corporation) 2026-11-18 08:04:50 ET 프리마켓 실시간 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $47.26M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 시총을 압도하는 창사 최대 메가 수주가 아니라, 단순 멤피스(Memphis) 지역 특정 헬스케어 시스템의 **병원 외래 사이트 1곳에 기존 BVA 혈액량 분석 진단 프로그램을 추가 도입했다는 병원 1곳 확장 홍보(Expands BVA Adoption to New Hospital Outpatient Site)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간 지속):\n전일 종가 $8.0950 대비 현재가 $8.0950 (+0.00%), 당일 최고가 $8.2900 (고점 대비 -2.4%).\n당일 누적 거래대금 $0 USD (프리마켓 거래량 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Major Memphis Health System Expands BVA® Adoption to New Hospital Outpatient Site\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 메가 수주가 아닌 단순 병원 외래 1곳 사이트 추가 쪼개기 재탕 (Hospital Site 쪼개기 PR):\n원문 본문에 *\"Major Memphis health system has expanded its Blood Volume Analysis (BVA) program to a new hospital outpatient location... Daxor’s ezBVA Lab Diagnostic Service Delivers 24-hour Turnaround Under Established Reimbursement Pathways\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 일시에 꽂히는 대형 상업 공급 계약(AIMD형)이 아니라, 기존에 도입되어 있던 특정 병원 시스템 내에서 외래 사이트 한 곳을 추가로 열었다는 전형적인 금액 미기재 병원 납품 경과 쪼개기 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약 총액, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 기재되어 있지 않습니다.\n어제(11/17) 캔자스 병원에 이은 24시간 만의 병원 이름만 바꾼 쪼개기 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 바로 어제인 2026년 11월 17일에도 GlobeNewswire를 통해 \"Daxor Expands Midwest Footprint with Launch of ezBVA Lab Program at Premier Kansas Academic Medical Center\" 보도자료를 낸 바 있습니다.\n어제는 캔자스 대학병원, 오늘은 멤피스 병원 외래 사이트로 **지역과 병원 이름만 바꾸어 매일 한 편씩 소액 납품/도입 사실을 거창하게 포장 배포하는 전형적인 상습 쪼개기/언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (병원 쪼개기 재탕 및 금액 미기재 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 기존 솔루션의 병원별/지점별 소규모 분할 도입 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 도입/제휴 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 전일(11/17) 캔자스 병원에 이어 멤피스 병원 외래 사이트 1곳 확장을 재포장한 전형적인 쪼개기 언론플레이에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: DXR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: DXR NOTES:\n[DXR] 확정 수주 전무 및 전일 캔자스 병원에 이은 멤피스 외래사이트 1곳 확장 쪼개기 홍보 PR로 헌법 3조 1항·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, SEGG에 이어 DXR(재검증)까지 껍데기 IR 및 쪼개기 재탕으로 감별되어 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795007024343_SEGG_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "08:03:44",
-      "time_kst": "22:03:44",
-      "symbol": "SEGG",
-      "company_name": "SEGG",
-      "exchange": "ND",
-      "price": 0.7329,
-      "gain_pct": 0.91,
-      "mcap_m": 3.08,
-      "decision": "FALSE",
-      "elapsed_sec": 46.0,
-      "reason": "확정 수주/매출 전무한 단순 Lottery.com 웹사이트 리뉴얼 오픈 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -19.3% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] SEGG Media Relaunches Lottery.com Worldwide, Built for Advertising, Sponsorship and Affiliate Revenue",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SEGG (SEGG Media Corporation / 구 Lottery.com) 2026-11-18 08:02 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $3.08M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 유입 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 시총을 압도하는 대형 상업 계약이나 선급금 유입이 아니라, 단순 기존 자사 복권 정보 웹사이트인 Lottery.com의 글로벌 리뉴얼 오픈(Relaunches Lottery.com Worldwide, Version 1) 및 광고/제휴 트래픽 수익화 포부 홍보에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -19.3% 급락 윗꼬리 덤핑 출회):\n전일 종가 $0.7263 대비 현재가 $0.7329 (+0.91%).\n당일 최고가 $0.9085까지 일시적으로 반짝 튄 직후 고점 대비 -19.3% 급락하며 프리마켓 윗꼬리 매물대 덤핑 출회 중.\n당일 누적 거래대금 $8,749 USD (8천7백 달러 수준의 극소액 프리마켓 거래량).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:00 ET) 공식 PR 원문 분석:\nPR 제목: \"SEGG Media Relaunches Lottery.com Worldwide, Built for Advertising, Sponsorship and Affiliate Revenue\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 수주/매출 계약이 아닌 단순 자체 웹사이트 리뉴얼 런칭 홍보물 (Website Relaunch PR):\n원문 본문에 *\"Version 1 delivers results for major lotteries worldwide, 11 languages, jackpot information, lottery news and guides, free games, and a ticket portal that will serve as the site's affiliate traffic area...\"*라고 명시되어 있습니다.\n이는 외부 대형 고객사로부터 회사 금고로 즉각 유입되는 확정 계약금이나 거액 현금 선급금(AIMD형)이 발생하는 거래가 아닙니다.\n단지 기존에 운영하던 웹사이트를 개편하여 전 세계 복권 당첨 번호 안내, 11개 국어 지원, 무료 게임, 제휴 트래픽 유입 창구를 열었다는 전형적인 금액 미기재 자체 서비스 리뉴얼/마케팅 보도자료에 불과합니다.\n외부 고객사나 제휴사로부터 확정된 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n어제(11/17) 나스닥 상장요건 회복 서한 발표에 이은 24시간 만의 후속 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 바로 어제인 2026년 11월 17일에 GlobeNewswire를 통해 *\"SEGG Media Publishes Nasdaq Letter Confirming Regained Listing Compliance\"*를 배포한 바 있습니다.\n상장 요건 회복 행정 통보(어제)에 이어, 오늘은 주가 부양을 위해 웹사이트 리뉴얼(오늘)이라는 **실체 없는 테마성 홍보 보도자료를 연달아 배포하는 전형적인 소형 한계기업의 언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -19.3% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 앱/웹사이트 런칭·리뉴얼·기능 추가 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 차단된 WBUY 앱 출시, STEX 자산 런칭과 동일 유형).\n장전 프리마켓에서 $0.9085까지 반짝 띄운 뒤 고점 대비 -19.3% 급락하며 개미들에게 물량을 떠넘기는 전형적인 윗꼬리 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무한 단순 Lottery.com 웹사이트 리뉴얼(Version 1) 오픈 홍보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -19.3% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SEGG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: SEGG NOTES:\n[SEGG] 확정 수주/매출 전무한 단순 Lottery.com 웹사이트 리뉴얼 오픈 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 및 장전 -19.3% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR에 이어 SEGG까지 총 16개 종목 전수가 껍데기 IR, 웹사이트 리뉴얼, 계약 쪼개기 재탕, 비구속 MOU로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
