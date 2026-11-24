@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-24",
-  "updated_at_kst": "2026-11-25 04:55:38",
-  "updated_at_et": "2026-11-24 14:55:38",
-  "updated_epoch_ms": 1795550138168,
+  "updated_at_kst": "2026-11-25 04:56:44",
+  "updated_at_et": "2026-11-24 14:56:44",
+  "updated_epoch_ms": 1795550204364,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "BENF",
     "holding_qty": 55,
     "avg_price": 1.02,
-    "current_price": 1.0136,
-    "profit_rate": -0.63,
-    "updated_kst": "04:55:35"
+    "current_price": 0.9999,
+    "profit_rate": -1.97,
+    "updated_kst": "04:56:40"
   },
   "stats": {
     "today_total": 7,
