@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:58:49",
-  "updated_at_et": "2026-11-25 09:58:49",
-  "updated_epoch_ms": 1795618729072,
+  "updated_at_kst": "2026-11-25 23:59:54",
+  "updated_at_et": "2026-11-25 09:59:54",
+  "updated_epoch_ms": 1795618794812,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "NXAT",
     "holding_qty": 206,
     "avg_price": 0.5548,
-    "current_price": 0.7241,
-    "profit_rate": 30.52,
-    "updated_kst": "23:58:45"
+    "current_price": 0.8128,
+    "profit_rate": 46.5,
+    "updated_kst": "23:59:50"
   },
   "stats": {
     "today_total": 15,
