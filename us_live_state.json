@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:23:48",
-  "updated_at_et": "2026-11-25 09:23:48",
-  "updated_epoch_ms": 1795616628796,
+  "updated_at_kst": "2026-11-25 23:24:01",
+  "updated_at_et": "2026-11-25 09:24:01",
+  "updated_epoch_ms": 1795616641734,
   "analyzing": {
     "active": false
   },
@@ -19,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:23:30"
+    "updated_kst": "23:23:52"
   },
   "stats": {
-    "today_total": 10,
+    "today_total": 11,
     "today_nblm_count": 0,
     "today_buy": 2,
-    "today_false": 8,
+    "today_false": 9,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 24,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795616639066_LOOP_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "09:23:59",
+      "time_kst": "23:23:59",
+      "symbol": "LOOP",
+      "company_name": "LOOP",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 시가 하회(음봉) 차단(현재 $0.160 <= 시가 $0.176)",
+      "catalyst_hint": "⛔ 탈락 사유: 시가 하회(음봉) 차단(현재 $0.160 <= 시가 $0.176)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: LOOP (NASDAQ)\n- 탈락 사유: 시가 하회(음봉) 차단(현재 $0.160 <= 시가 $0.176)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795616624687_LOOP_FALSE",
       "track": "TRACK3",
@@ -2477,26 +2498,6 @@
       "reason": "FDA 승인/확정 수주 전무한 단순 건선 3상 환자 투약완료 및 2027년 1분기 중간분석 예정 홍보 PR로 헌법 3조 4항 위배 및 장전 -5.5% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Can-Fite Pivotal Phase III Psoriasis Study Under an FDA- and EMA-agreed protocol: All Patients Completed Dosing and Interim Analysis Expected Q1 2027",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 CANF (Can-Fite BioPharma Ltd.) 2026-11-18 09:14 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.83M USD (NYSE American 상장, 거래소 필터 헌장 통과 및 연구소 시가총액 $50.0M 이하·$15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 FDA 최종 품목 허가 승인이나 빅파마 독점 기술이전 계약이 아니라, 단순 건선 임상 3상 연구에서 **중간 분석 대상 환자 투약 완료 및 2027년 1분기 중간 분석 결과 도출 예정이라는 진행 경과 공지(All Patients Completed Dosing and Interim Analysis Expected Q1 2027)**에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 덤핑 출회):\n전일 종가 $1.5300 대비 현재가 $1.5401 (+0.66%).\n당일 프리마켓 최고가 $1.6300 (+6.5%)을 찍은 직후 고점 대비 -5.5% 하락하며 윗꼬리 매물 출회 중.\n당일 누적 거래대금 $23,556 USD.\n당일 SEC 공시 현황: 2026-11-18 [6-K] 제출 확인 (당일 배포 보도자료 내용 첨부).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 07:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Can-Fite Pivotal Phase III Psoriasis Study Under an FDA- and EMA-agreed protocol: All Patients Completed Dosing and Interim Analysis Expected Q1 2027\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\nFDA 승인이나 1차 유효성 지표(Primary Endpoint) 달성이 아닌 단순 '환자 투약 완료' 경과 보고 (Dosing Completed PR):\n원문 본문에 *\"today announced completion of treatment of the first 240 patients (the interim-analysis cohort) enrolled in its pivotal Phase III study evaluating oral Piclidenoson for the treatment of moderate to severe psoriasis... An interim analysis is expected to be conducted during the first quarter of 2027\"*라고 명시되어 있습니다.\n이는 FDA의 최종 승인(Approval)이나 임상 3상 최종 성공(Met Primary Endpoint) 발표가 결코 아닙니다.\n단지 피험자 투약이 완료되었고 데이터 정리를 거쳐 2027년 1분기(내년)에 중간 분석 결과를 보겠다는 단순 임상 일정 경과 보고에 불과합니다.\n외부 빅파마로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 12일 간암 임상 홍보에 이은 상습 바이오 파이프라인 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 불과 6일 전인 2026년 11월 12일에도 GlobeNewswire를 통해 \"Can-Fite's Piclidenoson Shows Favorable Safety Profile in Liver Cancer...\" 파이프라인 홍보 보도자료를 낸 바 있습니다.\n구속력 있는 라이선스 계약이나 최종 승인이 없는 상태에서 파이프라인 진행 상황을 쪼개어 배포하는 전형적인 바이오 한계기업의 언론 플레이(Spin PR)입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 임상 경과 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 임상 환자 모집/투약 완료/결과 발표 예정(Expected) 공지는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 차단된 OPTH의 학회 발표, MBRX의 특허 등록과 동일한 바이오 껍데기 IR 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 6-K는 확정된 계약 금액이나 현금 선급금이 전무하고, 단순 건선 임상 3상 환자 투약 완료 및 2027년 1분기 중간 분석 예정 사실을 알리는 임상 진행 경과 보고에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며 장전 최고가 대비 -5.5% 윗꼬리 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: CANF 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: CANF NOTES:\n[CANF] FDA 승인/확정 수주 전무한 단순 건선 3상 환자 투약완료 및 2027년 1분기 중간분석 예정 홍보 PR로 헌법 3조 4항 위배 및 장전 -5.5% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG, AZIO에 이어 CANF까지 총 27개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 단순 임상 경과로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 정규장 개장까지 약 15분 남았습니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795011172553_AZIO_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "09:12:52",
-      "time_kst": "23:12:52",
-      "symbol": "AZIO",
-      "company_name": "AZIO",
-      "exchange": "ND",
-      "price": 0.4437,
-      "gain_pct": -3.1,
-      "mcap_m": 7.64,
-      "decision": "FALSE",
-      "elapsed_sec": 52.5,
-      "reason": "정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AZIO (AZIO AI Holdings, Inc.) 2026-11-18 09:12 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.64M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과\n).\n체급 대비 규모 (헤드라인 $75,000.00M 수치의 치명적 허상 및 숫자 왜곡 적발):\n언뜻 시총($7.64M) 대비 수십만%에 달하는 수백억 달러($75B) 규모의 천문학적 숫자가 감지되었으나, 이는 AZIO가 수주한 계약 금액이 아니라 **\"미국 의회가 통과시킨 NASA 예산 244억 달러, 탐사 예산 77억 달러 등 미국 정부의 우주 예산 규모를 보도자료에 단순 인용\"**한 것에 불과합니다.\nAZIO 회사 금고로 유입되는 확정 계약 달러($)는 단 1달러도 없습니다 (확정 수주액 0원).\n실시간 체결가 및 수급 (장전 최고가 대비 -13.0% 급락 음봉 덤핑):\n전일 종가 $0.4579 대비 현재가 $0.4437 (-3.10%).\n당일 프리마켓 최고가 $0.5100 (+11.4%)을 찍은 직후 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 장대음봉으로 주저앉음.\n당일 누적 거래대금 $4,334 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 09:10 ET) 공식 PR 원문 분석:\nPR 제목: \"AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 정부 수주가 아닌 단순 '우주·방산 전담팀 신설 및 입찰 참여 희망' 언론플레이 (Team Formation PR):\n원문 본문에 *\"has formed a dedicated space and government power team to pursue power and infrastructure work on the Moon, in space and for defense customers, including NASA and DARPA programs the company intends to compete for\"*라고 명시되어 있습니다.\n이는 NASA나 DARPA로부터 실제 수주를 따낸 계약(AIMD형)이 전혀 아닙니다.\n단지 정부 입찰에 뛰어들기 위해 사내 전담팀을 하나 꾸렸다는 구속력과 실체성이 0%인 내부 조직 개편/포부 발표에 불과합니다.\nPR 하단 법적 고지(Disclaimer)에서 '수주 실적 0건' 스스로 실토:\n원문 말미의 면책 조항(Forward-Looking Statements)을 보면 **\"AZIO has not been awarded any NASA or DARPA contract and may never be (AZIO는 NASA나 DARPA 계약을 전혀 수주한 바 없으며, 앞으로도 결코 수주하지 못할 수 있다)\"**라고 명백히 자인하고 있습니다.\n정부 예산 수치를 나열해 개미들을 현혹하는 전형적인 테마성 껍데기 IR 수법입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -13.0% 덤핑 (-3.10% 음봉 전락):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/팀 신설/입찰 의향 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.5100까지 반짝 띄운 뒤 시장이 껍데기 팀 신설 실체를 확인하자마자 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 음봉으로 내리꽂힌 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 NASA/DARPA 확정 수주나 현금 선급금이 전무(본문상 계약 0건 자인)한 단순 우주/정부 전담팀 신설 포부 홍보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 최고가 대비 -13.0% 급락 음봉 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AZIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG에 이어 AZIO까지 총 26개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 단순 팀 신설로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 17분 남은 핵심 승부처입니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
