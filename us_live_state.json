@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-26 00:08:57",
-  "updated_at_et": "2026-11-25 10:08:57",
-  "updated_epoch_ms": 1795619337617,
+  "updated_at_kst": "2026-11-26 00:09:06",
+  "updated_at_et": "2026-11-25 10:09:06",
+  "updated_epoch_ms": 1795619346862,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "00:08:41"
+    "updated_kst": "00:09:01"
   },
   "stats": {
     "today_total": 16,
@@ -49,10 +49,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +32.7% · 전일대비 +42.9% (VWAP $0.40↑) | 1분대금 $285K | 누적 $0.66M | AKAN수준 무뉴스·무공시 통과",
-      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: TOPP (NASDAQ) | 시총: $2.22M\n- 시가 대비: +32.70% ($0.3391 -> $0.4500)\n- 전일 종가 대비: +42.86% (전일 $0.3150)\n- 1분 거래대금: $285.2K | 누적: $0.66M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "catalyst_type": "NO_NEWS"
     },
     {
       "id": "v_1795618350016_FFAI_BUY",
