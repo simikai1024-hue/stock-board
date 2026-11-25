@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:59:54",
-  "updated_at_et": "2026-11-25 09:59:54",
-  "updated_epoch_ms": 1795618794812,
+  "updated_at_kst": "2026-11-26 00:00:23",
+  "updated_at_et": "2026-11-25 10:00:23",
+  "updated_epoch_ms": 1795618823525,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 114.78,
+    "orderable_usd": 173.08,
     "daily_done": false,
-    "holding_symbol": "NXAT",
-    "holding_qty": 206,
-    "avg_price": 0.5548,
-    "current_price": 0.8128,
-    "profit_rate": 46.5,
-    "updated_kst": "23:59:50"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.8314,
+    "profit_rate": 49.86,
+    "updated_kst": "00:00:19"
   },
   "stats": {
     "today_total": 15,
@@ -74,7 +74,7 @@
       "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: NXAT (NASDAQ) | 시총: $1.59M\n- 시가 대비: +43.91% ($0.4081 -> $0.5873)\n- 전일 종가 대비: +38.51% (전일 $0.4240)\n- 1분 거래대금: $254.7K | 누적: $0.48M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 실전매수 체결 완료 (202주 @ 평단 $0.5551)",
+      "trade_action": "💰 익절 완료: 206주 | 매수 $0.5548 → 매도 $0.8314 (+49.86% / +56.98$)",
       "catalyst_type": "NO_NEWS"
     },
     {
