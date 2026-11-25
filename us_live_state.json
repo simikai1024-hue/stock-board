@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:23:40",
-  "updated_at_et": "2026-11-25 09:23:40",
-  "updated_epoch_ms": 1795616620215,
+  "updated_at_kst": "2026-11-25 23:23:48",
+  "updated_at_et": "2026-11-25 09:23:48",
+  "updated_epoch_ms": 1795616628796,
   "analyzing": {
     "active": false
   },
@@ -22,10 +22,10 @@
     "updated_kst": "23:23:30"
   },
   "stats": {
-    "today_total": 9,
+    "today_total": 10,
     "today_nblm_count": 0,
     "today_buy": 2,
-    "today_false": 7,
+    "today_false": 8,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 24,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795616624687_LOOP_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "09:23:44",
+      "time_kst": "23:23:44",
+      "symbol": "LOOP",
+      "company_name": "LOOP",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 유통주식수 과다(27.07M주 > 10.0M주, 기준:Float)",
+      "catalyst_hint": "⛔ 탈락 사유: 유통주식수 과다(27.07M주 > 10.0M주, 기준:Float)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: LOOP (NASDAQ)\n- 탈락 사유: 유통주식수 과다(27.07M주 > 10.0M주, 기준:Float)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795615320312_VIVK_BUY",
       "track": "TRACK3",
@@ -2476,26 +2497,6 @@
       "reason": "정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AZIO (AZIO AI Holdings, Inc.) 2026-11-18 09:12 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.64M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과\n).\n체급 대비 규모 (헤드라인 $75,000.00M 수치의 치명적 허상 및 숫자 왜곡 적발):\n언뜻 시총($7.64M) 대비 수십만%에 달하는 수백억 달러($75B) 규모의 천문학적 숫자가 감지되었으나, 이는 AZIO가 수주한 계약 금액이 아니라 **\"미국 의회가 통과시킨 NASA 예산 244억 달러, 탐사 예산 77억 달러 등 미국 정부의 우주 예산 규모를 보도자료에 단순 인용\"**한 것에 불과합니다.\nAZIO 회사 금고로 유입되는 확정 계약 달러($)는 단 1달러도 없습니다 (확정 수주액 0원).\n실시간 체결가 및 수급 (장전 최고가 대비 -13.0% 급락 음봉 덤핑):\n전일 종가 $0.4579 대비 현재가 $0.4437 (-3.10%).\n당일 프리마켓 최고가 $0.5100 (+11.4%)을 찍은 직후 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 장대음봉으로 주저앉음.\n당일 누적 거래대금 $4,334 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 09:10 ET) 공식 PR 원문 분석:\nPR 제목: \"AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 정부 수주가 아닌 단순 '우주·방산 전담팀 신설 및 입찰 참여 희망' 언론플레이 (Team Formation PR):\n원문 본문에 *\"has formed a dedicated space and government power team to pursue power and infrastructure work on the Moon, in space and for defense customers, including NASA and DARPA programs the company intends to compete for\"*라고 명시되어 있습니다.\n이는 NASA나 DARPA로부터 실제 수주를 따낸 계약(AIMD형)이 전혀 아닙니다.\n단지 정부 입찰에 뛰어들기 위해 사내 전담팀을 하나 꾸렸다는 구속력과 실체성이 0%인 내부 조직 개편/포부 발표에 불과합니다.\nPR 하단 법적 고지(Disclaimer)에서 '수주 실적 0건' 스스로 실토:\n원문 말미의 면책 조항(Forward-Looking Statements)을 보면 **\"AZIO has not been awarded any NASA or DARPA contract and may never be (AZIO는 NASA나 DARPA 계약을 전혀 수주한 바 없으며, 앞으로도 결코 수주하지 못할 수 있다)\"**라고 명백히 자인하고 있습니다.\n정부 예산 수치를 나열해 개미들을 현혹하는 전형적인 테마성 껍데기 IR 수법입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -13.0% 덤핑 (-3.10% 음봉 전락):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/팀 신설/입찰 의향 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.5100까지 반짝 띄운 뒤 시장이 껍데기 팀 신설 실체를 확인하자마자 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 음봉으로 내리꽂힌 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 NASA/DARPA 확정 수주나 현금 선급금이 전무(본문상 계약 0건 자인)한 단순 우주/정부 전담팀 신설 포부 홍보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 최고가 대비 -13.0% 급락 음봉 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AZIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG에 이어 AZIO까지 총 26개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 단순 팀 신설로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 17분 남은 핵심 승부처입니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795010860085_ICG_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "09:07:40",
-      "time_kst": "23:07:40",
-      "symbol": "ICG",
-      "company_name": "ICG",
-      "exchange": "ND",
-      "price": 1.39,
-      "gain_pct": 6.11,
-      "mcap_m": 39.91,
-      "decision": "FALSE",
-      "elapsed_sec": 49.0,
-      "reason": "비엔나MTF(Vienna MTF) 거래소 필터 헌장 1조 원천 탈락 및 확정 수주 전무한 3개사 시제품 공동개발 홍보 PR로 헌법 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Cystar, Incergo and Visual Semiconductor Announce GF3D™ FreeRange: A Three-in-One, AI-Powered Rolling Display",
-      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장\n, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집\n 소스 원문 팩트를 교차 대조하여 진행한 ICG (Incergo S.A.) 2026-11-18 09:06 ET 프리마켓 실시간 무결점 순수 PR 및 거래소 필터 정밀 직독 결재 보고입니다.\n1. 거래소 적격성 정밀 감사 (치명적 거래소 탈락 적발)\n상장 거래소 팩트: 비엔나 증권거래소 MTF (Vienna MTF: ICG).\n당일 공식 PR 원문 본문 확인: *\"Incergo S.A. (Vienna MTF: ICG)...\"*라고 명확히 기재되어 있습니다.\n[달의검 미국 세력주 거래소 필터 헌장] 제1조 위배\n:\n헌장 제1조에 의거, 달의검 미국 세력주 매수 허용 거래소는 오직 NASDAQ(나스닥) 및 NYSE American(구 AMEX 중소형 거래소) 2곳으로 엄격히 한정됩니다.\nICG는 미국 정규 거래소(NASDAQ/NYSE American) 상장사가 아니라 오스트리아 비엔나 다자간매매체결회사(Vienna MTF) 및 미국 장외/해외 시장 거래 종목으로, 호가 공백과 유동성 부재 위험에 따라 공시 및 시총 무관 100% 즉시 차단(FORCE_BLOCK) 대상입니다.\n2. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $39.91M USD (파이썬 1차 $50.0M 이하 체급 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 공급 계약이 아니라, 단순 3개 사가 공동으로 롤링 디스플레이 신제품을 협력 개발한다는 **금액 미기재 시제품 공동개발 홍보(Announce GF3D FreeRange: Three-in-One Rolling Display)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $1.3100 대비 현재가 $1.3900 (+6.11%), 당일 최고가 $1.4100 (고점 대비 -1.4%).\n당일 누적 거래대금 $10,268 USD (약 1만 달러 수준의 극소액 프리마켓 거래량).\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 공시 미제출 자체는 차단 사유로 삼지 않습니다.\n3. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 09:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Cystar, Incergo and Visual Semiconductor Announce GF3D™ FreeRange: A Three-in-One, AI-Powered Rolling Display\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '공동 개발 협력(Working Together)' 언론플레이:\n원문 본문에 *\"Cystar, Incergo S.A. (Vienna MTF: ICG) and Visual Semiconductor, Inc. (VSI) today announced they are working together on GF3D™ FreeRange, an AI-powered Immersive Glasses-Free 3D rolling display...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n3개 사가 무안경 3D 롤링 디스플레이 시제품을 함께 개발 중이라는 전형적인 금액 미기재 제품 개발/마케팅 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n10월 13일 CEATEC 전시 발표에 이은 동일 파트너사 협업 재탕 (Spin PR):\n과거 이력 대조 결과 회사는 지난 2026년 10월 13일에도 Business Wire를 통해 *\"Visual Semiconductor and INCERGO Unleash Immersive 3D Without Glasses at CEATEC 2026\"*을 배포한 바 있습니다.\n동일한 파트너사(Visual Semiconductor)와 추진하던 무안경 3D 디스플레이 프로젝트에 제품 펫네임(GF3D FreeRange)만 붙여 다시 내놓은 **전형적인 상습 협력 재탕 보도자료(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 제휴 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/시제품 협력 개발 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n4. 최종 심사 및 결재 판정\nICG는 거래소 필터 헌장상 매수 허용 거래소(NASDAQ / NYSE American)가 아닌 Vienna MTF 상장 종목으로 헌장 제1조에 따라 원천 차단 대상이며\n, 당일 공식 PR 역시 확정 수주나 현금 선급금이 전무한 단순 시제품 공동개발 협력 홍보에 불과하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ICG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: ICG NOTES:\n[ICG] 비엔나MTF(Vienna MTF) 거래소 필터 헌장 1조 원천 탈락 및 확정 수주 전무한 3개사 시제품 공동개발 홍보 PR로 헌법 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN에 이어 ICG까지 총 25개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 비적격 거래소로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 정규장 개장까지 약 23분 남은 핵심 골든타임 구간입니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
