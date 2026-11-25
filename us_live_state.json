@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:43:29",
-  "updated_at_et": "2026-11-25 09:43:29",
-  "updated_epoch_ms": 1795617809915,
+  "updated_at_kst": "2026-11-25 23:43:47",
+  "updated_at_et": "2026-11-25 09:43:47",
+  "updated_epoch_ms": 1795617827093,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:43:27"
+    "updated_kst": "23:43:46"
   },
   "stats": {
-    "today_total": 13,
+    "today_total": 14,
     "today_nblm_count": 0,
-    "today_buy": 2,
+    "today_buy": 3,
     "today_false": 11,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 24,
-    "total_false": 126,
+    "total_buy": 25,
+    "total_false": 125,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795617824629_NXAT_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "09:43:44",
+      "time_kst": "23:43:44",
+      "symbol": "NXAT",
+      "company_name": "NXAT",
+      "exchange": "ND",
+      "price": 0.5873,
+      "gain_pct": 43.91,
+      "mcap_m": 1.59,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +43.9% · 전일대비 +38.5% (VWAP $0.54↑) | 1분대금 $255K | 누적 $0.48M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: NXAT (NASDAQ) | 시총: $1.59M\n- 시가 대비: +43.91% ($0.4081 -> $0.5873)\n- 전일 종가 대비: +38.51% (전일 $0.4240)\n- 1분 거래대금: $254.7K | 누적: $0.48M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795617283629_NRSN_FALSE",
       "track": "TRACK3",
@@ -2480,26 +2501,6 @@
       "reason": "머크(Merck) 현금 주당 $0.75 피인수로 상방 막힘(헌법 3조 5항) 및 외부 로펌 집단소송 조사 스팸(헌법 3조 4항) 이중 위배 전량 차단",
       "catalyst_hint": "[당일 PR] SHAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Rapid Micro Biosystems, Inc. (NASDAQ: RPID)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 RPID (Rapid Micro Biosystems, Inc.) 2026-11-18 11:27 ET 정규장 장중 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $36.87M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 RPID 회사 금고로 직통 유입되는 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 기업 가치를 폭등시키는 신규 호재성 발표가 아니라, 로펌(Monteverde & Associates PC)이 머크(Merck KGaA)의 RPID 인수 합병안과 관련해 주주들을 모아 집단소송을 제기하기 위해 낸 **치명적 로펌 집단소송 원고 모집 스팸(SHAREHOLDER ALERT / Investigation PR)**에 불과합니다.\n실시간 체결가 및 수급 (마이너스권 정체):\n전일 종가 $0.7368 대비 현재가 $0.7350 (-0.24%), 당일 최고가 $0.7500 (고점 대비 -2.0%).\n당일 누적 거래대금 $176,445 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 11:26 ET) 공식 PR 원문 분석:\nPR 제목: \"SHAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Rapid Micro Biosystems, Inc. (NASDAQ: RPID)\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n회사 공식 호재가 아닌 외부 로펌의 집단소송 원고 모집 스팸 (직전 차단된 AYTU와 동일 유형):\n원문 본문에 *\"Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the 'M&A Class Action Firm')... is investigating Rapid Micro Biosystems, Inc. (NASDAQ: RPID) related to its sale to Merck KGaA, Darmstadt, Germany. Under the terms of the proposed transaction, Rapid Micro shareholders are expected to receive $0.75 in cash per share. Is it a fair deal?\"*라고 명시되어 있습니다.\n이는 회사가 발표한 상업 수주, 라이선스, 승인 공시가 아니라 외부 소송 전문 로펌이 피인수 가격의 공정성을 문제 삼아 소송인단을 모집하기 위해 유료 배포망(PRNewswire)을 통해 살포한 **전형적인 로펌 스팸(Lawsuit / Investigation Alert)**입니다.\n회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n이틀 전(11/16) 확정 피인수(현금 주당 $0.75) 발표로 상방이 완전히 막힌 피인수주 (심사 헌법 제3조 ⑤항 정면 위배):\n과거 이력 대조 결과 회사는 이틀 전인 2026년 11월 16일에 독일 머크(Merck KGaA)에 **\"주당 현금 $0.75에 전량 피인수(Acquired)되는 최종 합병 계약(Definitive Agreement)\"**을 체결하고 8-K(Item 1.01)로 공시했습니다.\n인수 가액이 현금 주당 $0.75로 고정되어 있어 주가가 그 이상 폭등할 수 없도록 상방이 완전히 닫혀 있습니다.\n이는 연구소 심사 헌법 제3조 ⑤항의 \"현금인수가에 상방 막힌 피인수는 100% FORCE_BLOCK\" 규정에 완벽히 직격하는 대표적인 오답 패턴입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④·⑤항 위배 (로펌 스팸 및 상방 막힌 피인수 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 로펌 소송 조사/주주 경고 발표' 및 ⑤항의 '현금인수가($0.75)에 상방이 닫힌 피인수주' 규칙에 이중으로 해당하여 100% 차단 대상입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 상업 계약이나 현금 선급금이 전무한 외부 로펌의 집단소송 조사 착수 스팸이며, 이미 머크(Merck KGaA)에 주당 $0.75 현금 인수가로 상방이 닫혀 폭등 탄력이 소멸된 피인수주이므로 심사 헌법 제3조 ④·⑤항에 의거 FORCE_BLOCK: RPID 처리합니다.\n계좌 보호 원칙에 의거하여 정규장 장중 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: RPID NOTES:\n[RPID] 머크(Merck) 현금 주당 $0.75 피인수로 상방 막힘(헌법 3조 5항) 및 외부 로펌 집단소송 조사 스팸(헌법 3조 4항) 이중 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 장중 구간까지 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG, AZIO, CANF, AYTU에 이어 RPID까지 총 29개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 로펌 소송 스팸, 상방 막힌 피인수로 감별되어 전량 안전하게 방어되었습니다. 정규장 마감까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795018871272_AYTU_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "11:21:11",
-      "time_kst": "01:21:11",
-      "symbol": "AYTU",
-      "company_name": "AYTU",
-      "exchange": "ND",
-      "price": 2.65,
-      "gain_pct": -0.38,
-      "mcap_m": 28.8,
-      "decision": "FALSE",
-      "elapsed_sec": 41.6,
-      "reason": "확정 수주 전무한 외부 로펌 M&A 집단소송 조사 착수 스팸 PR로 헌법 3조 4항 위배 및 어제 투자의견 강등 연동 악재 전량 차단",
-      "catalyst_hint": "[당일 PR] $HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AYTU (Aytu BioPharma, Inc.) 2026-11-18 11:20 ET 정규장 장중 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $28.8M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 AYTU 회사 금고로 직통 유입되는 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 기업 가치를 폭등시키는 호재성 발표가 아니라, 로펌(Monteverde & Associates PC)이 주주들을 선동하여 집단소송을 제기하기 위해 낸 **치명적 악재성 주주 경고/조사 착수 공지($HAREHOLDER ALERT / Investigation PR)**에 불과합니다.\n실시간 체결가 및 수급 (음봉 정체 및 거래대금 $52.9만 돌파):\n전일 종가 $2.6600 대비 현재가 $2.6500 (-0.38%), 당일 최고가 $2.6700 (고점 대비 -0.7%).\n당일 누적 거래대금 $529,528 USD (약 53만 달러의 기관/개인 거래 발생 중이나 마이너스권 억눌림 지속).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 11:18 ET) 공식 PR 원문 분석:\nPR 제목: \"$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n회사 공식 호재가 아닌 외부 로펌의 집단소송 원고 모집 스팸 (Lawsuit Alert PR):\n원문 본문에 *\"Class Action Attorney Juan Monteverde with Monteverde & Associates PC... has recovered millions of dollars for shareholders... Announces An Investigation of Aytu BioPharma, Inc.\"*라고 명시되어 있습니다.\n이는 회사가 발표한 상업 수주, 라이선스, 승인 공시가 아니라 외부 소송 전문 로펌이 원고인단을 모집하기 위해 유료 배포망(PRNewswire)을 통해 살포한 **전형적인 로펌 스팸(Lawsuit / Investigation Alert)**입니다.\n회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n어제(11/17) 주요 투자은행(Maxim, Lake Street) 연속 투자의견 강등 악재와 연동:\n과거 이력 대조 결과 바로 전일인 2026년 11월 17일에 Maxim Group 및 Lake Street 등 주요 월가 증권사들이 일제히 AYTU에 대해 **'Buy(매수)'에서 'Hold(보유)'로 투자의견을 강등(Downgrade)**했습니다.\n애널리스트 투자의견 강등 악재에 이어 오늘은 로펌의 M&A 집단소송 조사 착수 경고까지 떨어진 전형적인 하방 압력 악재 구간입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 로펌 소송 홍보 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 로펌 소송 조사/주주 경고 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 상업 계약이나 현금 선급금이 전무한 외부 로펌의 집단소송 조사 착수(Investigation) 및 원고 모집 스팸에 불과하며, 어제 투자의견 연속 강등에 이은 악재성 PR이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AYTU 처리합니다.\n계좌 보호 원칙에 의거하여 정규장 장중 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AYTU NOTES:\n[AYTU] 확정 수주 전무한 외부 로펌 M&A 집단소송 조사 착수 스팸 PR로 헌법 3조 4항 위배 및 어제 투자의견 강등 연동 악재 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 장중 구간까지 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG, AZIO, CANF에 이어 AYTU까지 총 28개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 로펌 소송 스팸으로 감별되어 전량 안전하게 방어되었습니다. 정규장 마감까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
