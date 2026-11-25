@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 18:29:11",
-  "updated_at_et": "2026-11-25 04:29:11",
-  "updated_epoch_ms": 1795598951255,
+  "updated_at_kst": "2026-11-25 18:30:12",
+  "updated_at_et": "2026-11-25 04:30:12",
+  "updated_epoch_ms": 1795599012020,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "18:29:05"
+    "updated_kst": "18:30:07"
   },
   "stats": {
-    "today_total": 0,
+    "today_total": 1,
     "today_nblm_count": 0,
-    "today_buy": 0,
+    "today_buy": 1,
     "today_false": 0,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 22,
-    "total_false": 128,
+    "total_buy": 23,
+    "total_false": 127,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795599008358_RAYA_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "04:30:08",
+      "time_kst": "18:30:08",
+      "symbol": "RAYA",
+      "company_name": "RAYA",
+      "exchange": "ND",
+      "price": 1.02,
+      "gain_pct": 126.72,
+      "mcap_m": 1.1,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +126.7% · 전일대비 +140.1% (VWAP $0.86↑) | 1분대금 $229K | 누적 $0.32M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: RAYA (NASDAQ) | 시총: $1.10M\n- 시가 대비: +126.72% ($0.4499 -> $1.0200)\n- 전일 종가 대비: +140.06% (전일 $0.4249)\n- 1분 거래대금: $229.2K | 누적: $0.32M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
+      "engine": "트랙3 모의",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_1795544439536_BENF_FALSE",
       "track": "TRACK3",
@@ -2465,26 +2486,6 @@
       "reason": "신규 수주 전무한 단순 9개월 정기 실적 발표 PR로 헌법 3조 4항 위배, 족보집상 설거지 이력 및 장전 -17.0% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] IceCure Reports Financial & Operational Results for the Nine Months Ended September 30, 2026: 83% Year-Over-Year Growth in U.S. Sales and Major Growth in U.S. Commercial Re",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ICCM (IceCure Medical Ltd.) 2026-11-18 08:26 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.90M USD (나스닥 Capital Market 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $6.50M 수치의 치명적 착시 적발):\n언뜻 시총($2.90M) 대비 224.1%에 달하는 $6.50M 수치가 감지되었으나, 이는 외부 대형 고객사로부터 회사 금고로 유입되는 신규 확정 수주나 현금 선급금이 아니라 **\"2026년 9월 30일 기준 지난 9개월간의 과거 누적 매출 및 현금 잔고 등 정기 실적 발표(Financial & Operational Results for the Nine Months Ended September 30, 2026)\"**에 포함된 단순 과거 재무제표 수치에 불과합니다.\n신규 확정 상업 수주나 라이선스 계약이 전혀 아닙니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -17.0% 급락 윗꼬리 덤핑 출회):\n전일 종가 $0.8301 대비 현재가 $0.8469 (+2.02%).\n당일 프리마켓 최고가 $1.0200 (+22.9%)까지 튄 직후 고점 대비 -17.0% 급락하며 매물대 윗꼬리 덤핑 출회 중.\n당일 누적 거래대금 $93,906 USD (약 9만3천 달러의 손바뀜 발생).\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:25 ET) 공식 PR 원문 분석:\nPR 제목: \"IceCure Reports Financial & Operational Results for the Nine Months Ended September 30, 2026: 83% Year-Over-Year Growth in U.S. Sales and Major Growth in U.S. Commercial Reach to 21 States\"\n원문 직독 및 족보집 과거 이력 대조 결과 드러난 치명적 실체:\n신규 대박 수주가 아닌 단순 과거 9개월 정기 실적 발표 (Earnings Release PR):\n원문 본문에 *\"today reported financial and operational results for the nine months ended September 30, 2026... 83% year-over-year growth in U.S. sales... reach to 21 states\"*라고 명시되어 있습니다.\n이는 회사 금고로 새로운 현금이 일시에 꽂히는 창사 최대 메가 공급 계약(AIMD형)이나 빅파마 독점 기술이전이 아닙니다.\n상장기업이 주기적으로 공개해야 하는 과거 3분기/9개월간의 실적 결산(Earnings Release) 및 사업 경과 보고에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 신규 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 계약이 원문 어디에도 단 1달러도 없습니다.\n족보집상 이미 입증된 '실적 발표 후 장중 설거지' 단골 실패 종목:\n족보집 표본 확인 결과 ICCM은 불과 일주일 전인 2026년 11월 09일에도 프리마켓 08:25 ET 호재로 장전 +39.5%($0.95)까지 띄웠으나, 정규장 시작과 동시에 차익 매물이 쏟아지며 **'💀 실패·보합·설거지'**로 마감한 이력이 명확히 기록되어 있습니다 [11].\n실적 발표를 틈타 장전 주가를 띄운 뒤 개미들에게 고점 매물을 떠넘기는 전형적인 단골 설거지 패턴이 오늘 장전에서도 $1.0200 찍고 -17.0% 급락하며 그대로 재현되고 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -17.0% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 정기 실적 발표(Financial Results)는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 앞서 차단된 VWAV, KNDI, WKHS 실적 발표와 동일 유형).\n장전 프리마켓에서 $1.0200까지 띄워 개미들을 유인한 뒤, 시장이 \"신규 수주가 아닌 과거 실적 발표\"임을 확인하자마자 고점 대비 -17.0% 급락하며 매물을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 신규 상업 수주나 현금 선급금이 전무한 단순 9개월 정기 실적 발표(Earnings Report)에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 족보집상 설거지 이력 확인 및 장전 고점 대비 -17.0% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ICCM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: ICCM NOTES:\n[ICCM] 신규 수주 전무한 단순 9개월 정기 실적 발표 PR로 헌법 3조 4항 위배, 족보집상 설거지 이력 및 장전 -17.0% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS에 이어 ICCM까지 총 19개 종목 전수가 껍데기 IR, 단순 실적 발표, 계약 쪼개기 재탕, 비구속 MOU로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795008123444_DSS_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "08:22:03",
-      "time_kst": "22:22:03",
-      "symbol": "DSS",
-      "company_name": "DSS",
-      "exchange": "AM",
-      "price": 0.5275,
-      "gain_pct": 7.65,
-      "mcap_m": 5.3,
-      "decision": "FALSE",
-      "elapsed_sec": 59.1,
-      "reason": "현금 유입 전무한 기발표 자회사(Impact Biomedical)의 Zoar 합병 완료 사후 재탕 PR로 헌법 3조 1항·4항 위배 및 장전 -18.8% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] DSS Announces Completion of Impact Biomedical Business Combination with Zoar Limited",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 DSS (DSS, Inc.) 2026-11-18 08:21 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $5.3M USD (NYSE American 상장, 거래소 필터 헌장 통과 및 연구소 시가총액 $50.0M 이하·$15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 현금 유입 및 계약 금액 부재 적발):\n당일 PR 내 DSS 회사 금고로 직통 유입되는 백만 달러($M) 이상 확정 수주나 현금 선급금 일절 미감지 (DSS 귀속 현금 0원).\n발표된 실체의 본질은 신규 상업 수주가 아니라, 과거 9월부터 추진되어 온 자회사 임팩트 바이오메디컬(Impact Biomedical Inc.)과 조아(Zoar Limited) 간의 **기발표 기업결합 사후 행정적 완료 공지(Announces Completion of Impact Biomedical Business Combination with Zoar Limited)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -18.8% 급락 윗꼬리 덤핑 출회):\n전일 종가 $0.4900 대비 현재가 $0.5275 (+7.65%).\n당일 프리마켓 최고가 $0.6500 (+32.6%)까지 일시 폭등한 직후 고점 대비 -18.8% 급락하며 매물대 설거지 덤핑 출회 중.\n당일 누적 거래대금 $19,061 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:05 ET) 공식 PR 원문 분석:\nPR 제목: \"DSS Announces Completion of Impact Biomedical Business Combination with Zoar Limited\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\nDSS로 들어오는 현금 선급금이 0원인 자회사 분리 상장/지분 교환 (Subsidiary Spin-off PR):\n원문 본문에 *\"Impact Biomedical... has completed its previously announced business combination with Zoar Limited... Each outstanding share of Impact Biomedical common stock was converted into the right to receive one ordinary share of Zoar Limited... Zoar Limited ordinary shares are expected to begin trading on the NYSE American under the ticker symbol 'ZOAR' on November 18, 2026\"*라고 명시되어 있습니다.\n또한 *\"Zoar Labs reported approximately $651.7 million in revenue... These figures relate to Zoar Labs and do not represent DSS's consolidated financial results\"*라고 명시하여, 보도자료에 적힌 6억 달러 매출은 합병 대상 법인의 과거 실적일 뿐 DSS의 실적이나 현금 유입과 아무런 상관이 없음을 자인하고 있습니다.\n회사 금고로 유입되는 확정 계약금, 거액 현금 선급금(AIMD형) 등 실체적 신규 달러($) 현금 유입이 DSS에게 단 1달러도 없습니다.\n과거 180일간 3차례 우려먹은 사후 행정적 완결 재탕 (Completion PR):\n과거 이력 대조 결과 회사는 2026년 9월 16일(F-4 증권신고서 제출), 2026년 11월 2일(SEC의 F-4 효력발생 승인 완료), 2026년 11월 13일(주총 통과)에 이어, 오늘 단순히 합병 절차가 마무리되어 'ZOAR' 티커로 거래를 시작한다는 사실을 재공지한 **전형적인 사후 완결 재탕 보도자료(Old News Wrap-up)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 및 장전 -18.8% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '① 기발표 합병/계약의 사후 완결 및 재홍보 쪼개기 재탕 및 ④ 신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 지분교환/분리상장 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.6500까지 띄워 개미들을 유인한 뒤, 시장이 \"DSS 현금 유입 0원 및 기발표 합병 사후 통보\"라는 실체를 파악하자마자 고점 대비 -18.8% 급락하며 매물을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 DSS 회사 금고로 유입되는 확정 계약금이나 현금 선급금이 전무하고, 기발표된 자회사(Impact Biomedical)의 Zoar 합병 완료 및 분리 상장을 알리는 사후 재탕 보도자료에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 고점 대비 -18.8% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: DSS 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: DSS NOTES:\n[DSS] 현금 유입 전무한 기발표 자회사(Impact Biomedical)의 Zoar 합병 완료 사후 재탕 PR로 헌법 3조 1항·4항 위배 및 장전 -18.8% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS에 이어 DSS까지 총 18개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 M&A 계획, 자회사 분리 상장 재탕으로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
