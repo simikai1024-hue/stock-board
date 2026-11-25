@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:34:15",
-  "updated_at_et": "2026-11-25 09:34:15",
-  "updated_epoch_ms": 1795617255253,
+  "updated_at_kst": "2026-11-25 23:34:47",
+  "updated_at_et": "2026-11-25 09:34:47",
+  "updated_epoch_ms": 1795617287888,
   "analyzing": {
     "active": false
   },
@@ -19,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:34:12"
+    "updated_kst": "23:34:31"
   },
   "stats": {
-    "today_total": 12,
+    "today_total": 13,
     "today_nblm_count": 0,
     "today_buy": 2,
-    "today_false": 10,
+    "today_false": 11,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 24,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795617283629_NRSN_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "09:34:43",
+      "time_kst": "23:34:43",
+      "symbol": "NRSN",
+      "company_name": "NRSN",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 시가 갭상승 과열 차단(시가 +92.4% > +30%)",
+      "catalyst_hint": "⛔ 탈락 사유: 시가 갭상승 과열 차단(시가 +92.4% > +30%)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: NRSN (NASDAQ)\n- 탈락 사유: 시가 갭상승 과열 차단(시가 +92.4% > +30%)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795617073767_RAYA_FALSE",
       "track": "TRACK3",
@@ -2479,26 +2500,6 @@
       "reason": "확정 수주 전무한 외부 로펌 M&A 집단소송 조사 착수 스팸 PR로 헌법 3조 4항 위배 및 어제 투자의견 강등 연동 악재 전량 차단",
       "catalyst_hint": "[당일 PR] $HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AYTU (Aytu BioPharma, Inc.) 2026-11-18 11:20 ET 정규장 장중 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $28.8M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 AYTU 회사 금고로 직통 유입되는 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 기업 가치를 폭등시키는 호재성 발표가 아니라, 로펌(Monteverde & Associates PC)이 주주들을 선동하여 집단소송을 제기하기 위해 낸 **치명적 악재성 주주 경고/조사 착수 공지($HAREHOLDER ALERT / Investigation PR)**에 불과합니다.\n실시간 체결가 및 수급 (음봉 정체 및 거래대금 $52.9만 돌파):\n전일 종가 $2.6600 대비 현재가 $2.6500 (-0.38%), 당일 최고가 $2.6700 (고점 대비 -0.7%).\n당일 누적 거래대금 $529,528 USD (약 53만 달러의 기관/개인 거래 발생 중이나 마이너스권 억눌림 지속).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 11:18 ET) 공식 PR 원문 분석:\nPR 제목: \"$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Aytu BioPharma, Inc. (NASDAQ: AYTU)\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n회사 공식 호재가 아닌 외부 로펌의 집단소송 원고 모집 스팸 (Lawsuit Alert PR):\n원문 본문에 *\"Class Action Attorney Juan Monteverde with Monteverde & Associates PC... has recovered millions of dollars for shareholders... Announces An Investigation of Aytu BioPharma, Inc.\"*라고 명시되어 있습니다.\n이는 회사가 발표한 상업 수주, 라이선스, 승인 공시가 아니라 외부 소송 전문 로펌이 원고인단을 모집하기 위해 유료 배포망(PRNewswire)을 통해 살포한 **전형적인 로펌 스팸(Lawsuit / Investigation Alert)**입니다.\n회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n어제(11/17) 주요 투자은행(Maxim, Lake Street) 연속 투자의견 강등 악재와 연동:\n과거 이력 대조 결과 바로 전일인 2026년 11월 17일에 Maxim Group 및 Lake Street 등 주요 월가 증권사들이 일제히 AYTU에 대해 **'Buy(매수)'에서 'Hold(보유)'로 투자의견을 강등(Downgrade)**했습니다.\n애널리스트 투자의견 강등 악재에 이어 오늘은 로펌의 M&A 집단소송 조사 착수 경고까지 떨어진 전형적인 하방 압력 악재 구간입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 로펌 소송 홍보 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 로펌 소송 조사/주주 경고 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 상업 계약이나 현금 선급금이 전무한 외부 로펌의 집단소송 조사 착수(Investigation) 및 원고 모집 스팸에 불과하며, 어제 투자의견 연속 강등에 이은 악재성 PR이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AYTU 처리합니다.\n계좌 보호 원칙에 의거하여 정규장 장중 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AYTU NOTES:\n[AYTU] 확정 수주 전무한 외부 로펌 M&A 집단소송 조사 착수 스팸 PR로 헌법 3조 4항 위배 및 어제 투자의견 강등 연동 악재 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 장중 구간까지 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG, AZIO, CANF에 이어 AYTU까지 총 28개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 로펌 소송 스팸으로 감별되어 전량 안전하게 방어되었습니다. 정규장 마감까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795011407467_AZIO_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "09:16:47",
-      "time_kst": "23:16:47",
-      "symbol": "AZIO",
-      "company_name": "AZIO",
-      "exchange": "ND",
-      "price": 0.4437,
-      "gain_pct": -3.1,
-      "mcap_m": 7.64,
-      "decision": "FALSE",
-      "elapsed_sec": 41.5,
-      "reason": "정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AZIO (AZIO AI Holdings, Inc.) 2026-11-18 09:16:05 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 재심사 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.64M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 수십조 원 정부 예산 인용 및 수주 계약 0원 적발):\n당일 PR 내 백만 달러($M) 이상 AZIO 회사 금고로 직통 유입되는 확정 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 확정 수주가 아니라, 단순 연방 정부의 우주/달/미사일 방어 예산 편성 기조에 편승하여 사내에 전담팀(Dedicated Space and Government Power Team)을 꾸려 향후 입찰 참여를 추진하겠다는 **포부성 언론플레이(Team Formation PR)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -13.0% 급락 음봉 덤핑):\n전일 종가 $0.4579 대비 현재가 $0.4437 (-3.10%).\n당일 프리마켓 최고가 $0.5100 (+11.4%)을 찍은 직후 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 장대음봉으로 주저앉음.\n당일 누적 거래대금 $4,334 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 09:10 ET) 공식 PR 원문 분석:\nPR 제목: \"AZIO AI Forms Dedicated Space and Government Power Team to Pursue Lunar, Space and Defense Power Work\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 정부 수주가 아닌 단순 '우주·방산 전담팀 신설 및 입찰 참여 희망' 언론플레이:\n원문 본문에 *\"has formed a dedicated space and government power team to pursue power and infrastructure work on the Moon, in space and for defense customers, including NASA and DARPA programs the company intends to compete for\"*라고 명시되어 있습니다.\n이는 NASA나 DARPA로부터 실제 수주를 따낸 확정 계약(AIMD형)이 전혀 아닙니다.\n단지 정부 입찰에 뛰어들기 위해 사내 전담팀을 하나 꾸렸다는 구속력과 실체성이 0%인 내부 조직 개편 및 포부 발표에 불과합니다.\nPR 하단 법적 고지(Disclaimer)에서 '수주 실적 0건' 스스로 실토:\n원문 면책 조항(Forward-Looking Statements)상 **\"AZIO has not been awarded any NASA or DARPA contract and may never be (AZIO는 NASA나 DARPA 계약을 전혀 수주한 바 없으며, 앞으로도 결코 수주하지 못할 수 있다)\"**라고 명백히 자인하고 있습니다.\n정부 예산 수치를 나열해 개미들을 현혹하는 전형적인 테마성 껍데기 IR 수법입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -13.0% 덤핑 (-3.10% 음봉 전락):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/팀 신설/입찰 의향 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.5100까지 반짝 띄운 뒤 시장이 껍데기 팀 신설 실체를 확인하자마자 고점 대비 -13.0% 급락하며 전일 종가 밑(-3.10%) 음봉으로 내리꽂힌 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 NASA/DARPA 확정 수주나 현금 선급금이 전무(본문상 계약 0건 자인)한 단순 우주/정부 전담팀 신설 포부 홍보에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 장전 최고가 대비 -13.0% 급락 음봉 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AZIO 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: AZIO NOTES:\n[AZIO] 정부 수주 전무(계약 0건 실토)한 단순 NASA·DARPA 입찰 희망 전담팀 신설 홍보 PR로 헌법 3조 4항 위배 및 장전 -13.0% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX, WETH, PMEC, DLPN, ICG, CANF에 이어 AZIO까지 총 27개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크, 단순 팀 신설로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 약 13분 남은 핵심 승부처입니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
