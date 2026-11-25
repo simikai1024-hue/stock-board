@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:02:04",
-  "updated_at_et": "2026-11-25 09:02:04",
-  "updated_epoch_ms": 1795615324447,
+  "updated_at_kst": "2026-11-25 23:02:13",
+  "updated_at_et": "2026-11-25 09:02:13",
+  "updated_epoch_ms": 1795615333523,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:01:49"
+    "updated_kst": "23:02:09"
   },
   "stats": {
     "today_total": 9,
@@ -49,10 +49,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +41.2% · 전일대비 +46.3% (VWAP $0.23↑) | 1분대금 $221K | 누적 $0.32M | AKAN수준 무뉴스·무공시 통과",
-      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: VIVK (NASDAQ) | 시총: $0.40M\n- 시가 대비: +41.17% ($0.1744 -> $0.2462)\n- 전일 종가 대비: +46.29% (전일 $0.1683)\n- 1분 거래대금: $221.3K | 누적: $0.32M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
       "engine": "트랙3 모의",
-      "trade_action": "모의검증 (주문미실행)"
+      "trade_action": "모의검증 (주문미실행)",
+      "catalyst_type": "NO_NEWS"
     },
     {
       "id": "v_1795613760477_NRSN_FALSE",
