@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 22:05:10",
-  "updated_at_et": "2026-11-25 08:05:10",
-  "updated_epoch_ms": 1795611910577,
+  "updated_at_kst": "2026-11-25 22:05:39",
+  "updated_at_et": "2026-11-25 08:05:39",
+  "updated_epoch_ms": 1795611939042,
   "analyzing": {
     "active": false
   },
@@ -19,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:05:07"
+    "updated_kst": "22:05:26"
   },
   "stats": {
-    "today_total": 5,
+    "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 1,
-    "today_false": 4,
+    "today_false": 5,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 23,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795611936278_NRSN_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "08:05:36",
+      "time_kst": "22:05:36",
+      "symbol": "NRSN",
+      "company_name": "NRSN",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 무뉴스 탈락 — 공식PR 존재(PR Newswire: NeuraLight's Precision Brain Functio)",
+      "catalyst_hint": "⛔ 탈락 사유: 무뉴스 탈락 — 공식PR 존재(PR Newswire: NeuraLight's Precision Brain Functio)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: NRSN (NASDAQ)\n- 탈락 사유: 무뉴스 탈락 — 공식PR 존재(PR Newswire: NeuraLight's Precision Brain Functio)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795611069333_ZNB_FALSE",
       "track": "TRACK3",
@@ -2471,26 +2492,6 @@
       "reason": "현금선급금 전무한 단순 프레임워크(조달기본협약) PR로 확정본계약 미달(헌법 2조 선급금 결여) 및 장전 -8.2% 윗꼬리 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] WeTouch Technology Announces $25 Million Supply Agreement for Integrated Touchscreen Systems, Advancing Its Expansion Across Robotics and Smart Device Supply Chains",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 WETH (WeTouch Technology Inc.) 2026-11-18 08:46 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $11.88M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $25.00M 수치의 치명적 허상 적발):\n겉보기에는 헤드라인에 시총 대비 210.4%에 달하는 $25.00M 규모의 공급 계약(Supply Agreement)으로 포장되어 있습니다.\n그러나 본문 첫 문장을 직독한 결과, 실체는 확정된 단일 상업 발주(Firm Purchase Order)나 현금 선급금이 수반된 본계약이 아니라 **\"안후이 창신 후이퉁(Anhui Changxin Huitong Technology Co., Ltd.)과 체결한 단순 조달 기본계약(procurement framework agreement)\"**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -8.2% 윗꼬리 덤핑 출회):\n전일 종가 $0.8175 대비 현재가 $0.8875 (+8.56%).\n당일 프리마켓 최고가 $0.9668을 기록한 직후 고점 대비 -8.2% 하락하며 윗꼬리 매물대 출회 중.\n당일 누적 거래대금 $22,886 USD.\n선발표 규정 확인: 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 공시 미제출 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:45 ET) 공식 PR 원문 분석:\nPR 제목: \"WeTouch Technology Announces $25 Million Supply Agreement for Integrated Touchscreen Systems, Advancing Its Expansion Across Robotics and Smart Device Supply Chains\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 본계약이 아닌 구속력 없는 '조달 기본 프레임워크(Framework Agreement)' 계약:\n원문 본문에 *\"today announced a procurement framework agreement with Anhui Changxin Huitong Technology Co., Ltd.\"*라고 명시되어 있습니다.\n프레임워크 계약(Framework Agreement)은 향후 프로젝트 진행 시 발주를 낼 수 있다는 포괄적 조건 협약일 뿐, 상대방이 즉시 매수 의무를 지는 확정 발주서(PO)나 매출 보장 계약이 아닙니다.\n1급 대박 수주의 필수 요건인 '확정 현금 선급금(Cash Deposit)' 조건 전무 (헌법 제2조 미달):\n연구소 심사 헌법 제2조 ①항(대박 PR)에 규정된 수주 합격 기준은 **\"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형)\"**입니다.\n과거 대폭등 표본인 AIMD의 경우 총 계약액 $9M 중 *\"계약 체결 후 60일 이내에 지급되는 $4.5M(50%)의 확정 현금 선급금(Deposit payable within 60 days)\"*이라는 실질적 자금 유입 보증이 명기되어 있었습니다.\n반면 WETH의 이번 발표는 당장 회사 금고로 들어오는 확정 현금 선급금이나 최소 구매 보장(Minimum Purchase Commitment)이 단 1달러도 기재되어 있지 않은 전형적인 '프레임워크 총액 부풀리기 홍보'입니다.\n불과 이틀 전(11/16) 3분기 실적 발표에 이은 중국계 한계기업의 전형적인 언론플레이(Spin PR):\n과거 이력 대조 결과 회사는 불과 이틀 전인 2026년 11월 16일에 3분기 정기 실적을 발표한 바 있습니다.\n실적 발표 직후 중국 현지 기업과의 구속력 없는 프레임워크 협약 헤드라인에 $25M 수치만 얹어 장전 주가를 띄우는 전형적인 중국계 소형주 언론플레이 패턴입니다 (족보집상 ELPW, LUD의 프레임워크·MOU 실패 패턴과 일치).\n심사 헌법 제3조 ①·④항 위배 및 장전 -8.2% 덤핑:\n족보집 핵심 헌장 제1장의 '프레임워크 계약의 쪼개기·재홍보 및 실체적 현금 선급금이 결여된 협약은 100% FORCE_BLOCK' 규칙에 직접 저촉됩니다.\n장전 프리마켓에서 $0.9668까지 반짝 띄운 뒤 시장이 단순 프레임워크 협약임을 확인하자마자 고점 대비 -8.2% 밀리는 전형적인 윗꼬리 설거지 흐름을 보이고 있습니다.\n3. 최종 심사 및 결재 판정\nWETH의 당일 공식 PR은 헤드라인 $25M 금액에도 불구하고, 실체는 확정 발주 및 현금 선급금이 전무한 단순 중국 로컬 기업과의 조달 기본 협약(Procurement Framework Agreement)에 불과합니다.\n연구소 심사 헌법 제2조 ①항(AIMD형 확정 수주+선급금) 요건에 미달하며, 헌법 제3조(프레임워크/금액 미보장 협약 차단)에 저촉되므로 FORCE_BLOCK: WETH 처리합니다.\n계좌 보호 원칙에 따라 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: WETH NOTES:\n[WETH] 현금선급금 전무한 단순 프레임워크(조달기본협약) PR로 확정본계약 미달(헌법 2조 선급금 결여) 및 장전 -8.2% 윗꼬리 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ, MBRX에 이어 WETH까지 총 22개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 프레임워크 협약으로 정밀 감별되어 안전하게 전량 방어되었습니다\n. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795009573796_MBRX_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "08:46:13",
-      "time_kst": "22:46:13",
-      "symbol": "MBRX",
-      "company_name": "MBRX",
-      "exchange": "ND",
-      "price": 6.83,
-      "gain_pct": 0.0,
-      "mcap_m": 7.25,
-      "decision": "FALSE",
-      "elapsed_sec": 44.7,
-      "reason": "확정 수주 전무 및 11/12 호주 특허에 이은 한국 특허 쪼개기 홍보 PR로 헌법 3조 4항(금액 미기재 특허) 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Moleculin Strengthens Global Intellectual Property Portfolio Around Annamycin, Secures Korean Patent Allowance",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 MBRX (Moleculin Biotech, Inc.) 2026-11-18 08:45:29 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $7.25M USD (나스닥 Capital Market 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 상업 라이선스 계약이 아니라, 단순 자사 신약 후보물질(Annamycin)에 대한 대한민국 특허 등록 결정(Korean Patent Allowance) 취득 홍보에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $6.8300 대비 현재가 $6.8300 (+0.00%), 당일 최고가 $7.5000 (고점 대비 -8.9%).\n당일 누적 거래대금 $0 USD (09:30 본장 직전 극단적 호가 공백).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n당일 SEC 공시 현황: 2026-11-18 [8-K] (Item 7.01, 9.01) 제출 확인 (FD Disclosure 및 보도자료 첨부).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:35 ET) 공식 PR 원문 분석:\nPR 제목: \"Moleculin Strengthens Global Intellectual Property Portfolio Around Annamycin, Secures Korean Patent Allowance\"\n원문 직독 및 족보집 과거 이력 대조 결과 드러난 치명적 실체:\n확정 상업 수주/기술이전이 아닌 단순 '국가별 특허 등록' 쪼개기 언론플레이:\n원문 본문에 *\"Moleculin Biotech... today announced that South Korea’s Ministry of Intellectual Property has issued a decision to grant a patent covering the Company’s method of reconstituting liposomal Annamycin... extends reconstitution protection into another key Asia-Pacific market...\"*라고 명시되어 있습니다.\n이는 글로벌 빅파마로부터 거액의 반환 의무 없는 현금 선급금을 수취하는 기술이전(독점 라이선스)이나 FDA 최종 품목 허가 승인이 전혀 아닙니다.\n단순 지식재산권(특허) 등록 결정 소식으로, 회사 금고로 유입되는 신규 계약금이나 현금 선급금 등 실체적 달러($) 현금 유입이 단 1달러도 없습니다.\n11월 12일 호주 특허에 이은 국가만 바꾼 상습 특허 쪼개기 재탕:\n족보집 표본 확인 결과 MBRX는 불과 6일 전인 2026년 11월 12일에도 08:37 ET에 *\"Moleculin Secures Australian Patent for Annamycin Formulation Technology\"*를 배포하여 당일 8-K(Item 7.01)로 공시한 바 있습니다.\n지난주에는 호주 특허, 오늘은 한국 특허로 국가 이름만 바꾸어가며 동일 파이프라인(Annamycin)의 특허 등록 사실을 쪼개기 배포하는 **전형적인 상습 지재권 언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 특허 발표 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '금액 미기재 제휴/특허/유예연장 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR 및 8-K는 확정된 계약 금액이나 현금 선급금이 전무하고, 지난주(11/12) 호주 특허에 이어 한국 특허 등록 결정을 알리는 전형적인 국가별 특허 쪼개기 보도자료에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: MBRX 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: MBRX NOTES:\n[MBRX] 확정 수주 전무 및 11/12 호주 특허에 이은 한국 특허 쪼개기 홍보 PR로 헌법 3조 4항(금액 미기재 특허) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM, TOMZ에 이어 MBRX까지 총 21개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 금액 미기재 특허로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
