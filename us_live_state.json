@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 23:52:32",
-  "updated_at_et": "2026-11-25 09:52:32",
-  "updated_epoch_ms": 1795618352613,
+  "updated_at_kst": "2026-11-25 23:52:40",
+  "updated_at_et": "2026-11-25 09:52:40",
+  "updated_epoch_ms": 1795618360114,
   "analyzing": {
     "active": false
   },
@@ -49,10 +49,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +55.6% · 전일대비 +57.3% (VWAP $0.13↑) | 1분대금 $276K | 누적 $0.43M | AKAN수준 무뉴스·무공시 통과",
-      "catalyst_hint": "🔍 PR·공시·무뉴스 분류 및 연구소장 검수 중...",
+      "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: FFAI (NASDAQ) | 시총: $1.89M\n- 시가 대비: +55.64% ($0.0940 -> $0.1463)\n- 전일 종가 대비: +57.31% (전일 $0.0930)\n- 1분 거래대금: $275.8K | 누적: $0.43M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!",
+      "catalyst_type": "NO_NEWS"
     },
     {
       "id": "v_1795617824629_NXAT_BUY",
