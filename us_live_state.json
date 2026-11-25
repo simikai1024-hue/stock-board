@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-25",
-  "updated_at_kst": "2026-11-25 18:36:34",
-  "updated_at_et": "2026-11-25 04:36:34",
-  "updated_epoch_ms": 1795599394903,
+  "updated_at_kst": "2026-11-25 18:36:45",
+  "updated_at_et": "2026-11-25 04:36:45",
+  "updated_epoch_ms": 1795599405739,
   "analyzing": {
     "active": false
   },
@@ -22,10 +22,10 @@
     "updated_kst": "18:36:29"
   },
   "stats": {
-    "today_total": 1,
+    "today_total": 2,
     "today_nblm_count": 0,
     "today_buy": 1,
-    "today_false": 0,
+    "today_false": 1,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 23,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795599401370_WHLR_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-25",
+      "weekday_kr": "수",
+      "time_et": "04:36:41",
+      "time_kst": "18:36:41",
+      "symbol": "WHLR",
+      "company_name": "WHLR",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 무뉴스 탈락 — 최근7일 유증공시 차단(424B3 2026-11-24)",
+      "catalyst_hint": "⛔ 탈락 사유: 무뉴스 탈락 — 최근7일 유증공시 차단(424B3 2026-11-24)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: WHLR (NASDAQ)\n- 탈락 사유: 무뉴스 탈락 — 최근7일 유증공시 차단(424B3 2026-11-24)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795599008358_RAYA_BUY",
       "track": "TRACK3",
@@ -2467,26 +2488,6 @@
       "reason": "확정 수주 전무한 단순 식품가공업체 SteraMist 도입 평가(Evaluate) 진행 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단",
       "catalyst_hint": "[당일 PR] TOMI Environmental Solutions Expands SteraMist iHP in Meat, Poultry and Dairy Processing as Enterprise Food Producers Evaluate Multi-Facility Standardization",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 TOMZ (TOMI Environmental Solutions, Inc.) 2026-11-18 08:32 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $18.48M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 공급 계약이 아니라, 단순 가금류 고객사 확보 경험을 바탕으로 육류·유제품 대기업들이 도입을 검토/평가하고 있다는 **진행형 시장 탐색·홍보성 언론플레이(Enterprise Food Producers Evaluate Multi-Facility Standardization)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간):\n전일 종가 $2.2700 대비 현재가 $2.2700 (+0.00%), 당일 최고가 $2.3450 (고점 대비 -3.2%).\n당일 누적 거래대금 $0 USD.\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:30 ET) 공식 PR 원문 분석:\nPR 제목: \"TOMI Environmental Solutions Expands SteraMist iHP in Meat, Poultry and Dairy Processing as Enterprise Food Producers Evaluate Multi-Facility Standardization\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '고객사들의 평가/검토 진행 중(Evaluate)' 홍보물:\n원문 본문에 *\"Building on a new poultry customer secured through the Company’s food safety partner... TOMI is seeing growing interest from large meat, poultry, and dairy processors, including enterprises evaluating SteraMist as a standard disinfection protocol... TOMI is preparing a Form FDA 3480 Pre-Notification Consultation...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n단지 잠재 고객사들이 자사 살균 플랫폼(SteraMist) 도입을 내부 검토 및 평가(Evaluating)하고 있으며, FDA 사전 상담(Form 3480 PNC)을 준비 중이라는 전형적인 금액 미기재 사업 경과/영업 활동 홍보 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n어제(11/17) 나스닥 상장요건 회복 서한 공시에 이은 24시간 만의 후속 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 바로 어제인 2026년 11월 17일에 8-K(Item 7.01, 8.01) 및 GlobeNewswire를 통해 *\"TOMI Environmental Solutions Regains Compliance with Nasdaq Minimum Bid Price and Stockholders’ Equity Requirements\"*를 배포한 바 있습니다.\n어제 상장 요건 회복 행정 통보를 낸 직후, 오늘은 주가 부양을 위해 '식품 가공 분야 확장 검토'라는 **구속력과 계약 금액이 전무한 테마성 보도자료를 연달아 배포하는 전형적인 소형 한계기업의 언론 플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 사업 검토 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 도입 검토/평가(Evaluate)/협의 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 차단된 DRIO, DXR의 소규모 도입 홍보와 동일 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 단순 기업들의 SteraMist 소독 프로토콜 도입 평가(Evaluate) 및 FDA 사전 상담 준비 사실을 알리는 사업 경과 홍보물에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로, 심사 헌법 제3조에 의거 FORCE_BLOCK: TOMZ 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: TOMZ NOTES:\n[TOMZ] 확정 수주 전무한 단순 식품가공업체 SteraMist 도입 평가(Evaluate) 진행 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS, ICCM에 이어 TOMZ까지 총 20개 종목 전수가 껍데기 IR, 계약 쪼개기 재탕, 비구속 MOU, 단순 도입 평가로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795008450357_ICCM_FALSE",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "08:27:30",
-      "time_kst": "22:27:30",
-      "symbol": "ICCM",
-      "company_name": "ICCM",
-      "exchange": "ND",
-      "price": 0.8469,
-      "gain_pct": 2.02,
-      "mcap_m": 2.9,
-      "decision": "FALSE",
-      "elapsed_sec": 52.9,
-      "reason": "신규 수주 전무한 단순 9개월 정기 실적 발표 PR로 헌법 3조 4항 위배, 족보집상 설거지 이력 및 장전 -17.0% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] IceCure Reports Financial & Operational Results for the Nine Months Ended September 30, 2026: 83% Year-Over-Year Growth in U.S. Sales and Major Growth in U.S. Commercial Re",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 ICCM (IceCure Medical Ltd.) 2026-11-18 08:26 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $2.90M USD (나스닥 Capital Market 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $6.50M 수치의 치명적 착시 적발):\n언뜻 시총($2.90M) 대비 224.1%에 달하는 $6.50M 수치가 감지되었으나, 이는 외부 대형 고객사로부터 회사 금고로 유입되는 신규 확정 수주나 현금 선급금이 아니라 **\"2026년 9월 30일 기준 지난 9개월간의 과거 누적 매출 및 현금 잔고 등 정기 실적 발표(Financial & Operational Results for the Nine Months Ended September 30, 2026)\"**에 포함된 단순 과거 재무제표 수치에 불과합니다.\n신규 확정 상업 수주나 라이선스 계약이 전혀 아닙니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -17.0% 급락 윗꼬리 덤핑 출회):\n전일 종가 $0.8301 대비 현재가 $0.8469 (+2.02%).\n당일 프리마켓 최고가 $1.0200 (+22.9%)까지 튄 직후 고점 대비 -17.0% 급락하며 매물대 윗꼬리 덤핑 출회 중.\n당일 누적 거래대금 $93,906 USD (약 9만3천 달러의 손바뀜 발생).\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유가 아닙니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/18 08:25 ET) 공식 PR 원문 분석:\nPR 제목: \"IceCure Reports Financial & Operational Results for the Nine Months Ended September 30, 2026: 83% Year-Over-Year Growth in U.S. Sales and Major Growth in U.S. Commercial Reach to 21 States\"\n원문 직독 및 족보집 과거 이력 대조 결과 드러난 치명적 실체:\n신규 대박 수주가 아닌 단순 과거 9개월 정기 실적 발표 (Earnings Release PR):\n원문 본문에 *\"today reported financial and operational results for the nine months ended September 30, 2026... 83% year-over-year growth in U.S. sales... reach to 21 states\"*라고 명시되어 있습니다.\n이는 회사 금고로 새로운 현금이 일시에 꽂히는 창사 최대 메가 공급 계약(AIMD형)이나 빅파마 독점 기술이전이 아닙니다.\n상장기업이 주기적으로 공개해야 하는 과거 3분기/9개월간의 실적 결산(Earnings Release) 및 사업 경과 보고에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 신규 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 계약이 원문 어디에도 단 1달러도 없습니다.\n족보집상 이미 입증된 '실적 발표 후 장중 설거지' 단골 실패 종목:\n족보집 표본 확인 결과 ICCM은 불과 일주일 전인 2026년 11월 09일에도 프리마켓 08:25 ET 호재로 장전 +39.5%($0.95)까지 띄웠으나, 정규장 시작과 동시에 차익 매물이 쏟아지며 **'💀 실패·보합·설거지'**로 마감한 이력이 명확히 기록되어 있습니다 [11].\n실적 발표를 틈타 장전 주가를 띄운 뒤 개미들에게 고점 매물을 떠넘기는 전형적인 단골 설거지 패턴이 오늘 장전에서도 $1.0200 찍고 -17.0% 급락하며 그대로 재현되고 있습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -17.0% 덤핑:\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 정기 실적 발표(Financial Results)는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 앞서 차단된 VWAV, KNDI, WKHS 실적 발표와 동일 유형).\n장전 프리마켓에서 $1.0200까지 띄워 개미들을 유인한 뒤, 시장이 \"신규 수주가 아닌 과거 실적 발표\"임을 확인하자마자 고점 대비 -17.0% 급락하며 매물을 떠넘기는 전형적인 설거지 윗꼬리 차트입니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 신규 상업 수주나 현금 선급금이 전무한 단순 9개월 정기 실적 발표(Earnings Report)에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하며, 족보집상 설거지 이력 확인 및 장전 고점 대비 -17.0% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: ICCM 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-18 FORCE_BUY: NONE FORCE_BLOCK: ICCM NOTES:\n[ICCM] 신규 수주 전무한 단순 9개월 정기 실적 발표 PR로 헌법 3조 4항 위배, 족보집상 설거지 이력 및 장전 -17.0% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/18) 프리마켓 구간에서는 WBUY, VWAV, FRSX, HIHO, MEGL, TNMG, GIXI, KNDI, WKHS, STEX, OPTH, DRIO, NUR, MASK, DXR, SEGG, ETS, DSS에 이어 ICCM까지 총 19개 종목 전수가 껍데기 IR, 단순 실적 발표, 계약 쪼개기 재탕, 비구속 MOU로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드, 초고율 특별배당 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
