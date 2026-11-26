@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>👑 달의검 한국장 2모작 전광판 (종가베팅 · 계단주)</title>
+<title>👑 달의검 한국장 전광판 (주도테마 · 눌림목 종가베팅)</title>
 <meta name="theme-color" content="#BAE6FD">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1083,7 +1083,7 @@
   <!-- 상단 상태 바 -->
   <header class="top-bar">
     <div class="brand-group">
-      <span class="brand-title">👑 한국장 2모작 (종가베팅 · 계단주)</span>
+      <span class="brand-title">👑 한국장 전광판 (주도테마 · 눌림목 종가베팅)</span>
       <span class="live-clock" id="kstClockLbl">--:--:-- KST</span>
       <span class="phase-pill" id="phasePill">장 상태 확인 중...</span>
     </div>
@@ -1153,178 +1153,95 @@
     </div>
   </section>
 
-  <!-- 2-A2. 🧭 오늘의 지수 방향 예측 (VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독) -->
-  <section aria-labelledby="idx-radar-heading">
+  <!-- 2-B. 🎯 눌림목 2파 종가베팅 실전 현황 + 당일 후보 TOP 5 + 누적 성적표 -->
+  <section aria-labelledby="pullback-heading">
     <div class="section-head">
       <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
-        <h2 class="section-title" id="idx-radar-heading">🧭 오늘의 지수 방향 예측</h2>
-        <span class="lab-safety-pill">📊 VWAP·자금 + 🌍 외인·환율 + 📰 시황뉴스</span>
+        <h2 class="section-title" id="pullback-heading">🎯 눌림목 2파 종가베팅 실전 현황</h2>
+        <span class="lab-safety-pill" style="background:#ECFDF5; color:#047857; border-color:#6EE7B7;">🔥 19:30~19:48 10분할 실전 매수 · 익일 +6.0% / -4.5%</span>
       </div>
-      <span class="section-sub" id="idxUpdateLbl">3박자 종합 판독 · 09:30 공식 확정 · 클릭 시 코드 복사</span>
+      <span class="section-sub" id="pbUpdateLbl">최근 1~4일 +18%↑(250억↑) 급등 후 거래량 45%↓ 눌림 1등 선정 · 클릭 시 코드 복사</span>
     </div>
 
-    <div class="lab-card" style="border-style:solid; border-color:#38BDF8;">
-      <!-- 상단 대표 시그널 배너 -->
-      <div class="lab-live-box" id="idxSignalBanner" style="margin-block-end:10px;">
-        <div>
-          <div class="lab-status-tag" id="idxStatusTag">🕒 3박자 지수 데이터 분석 중</div>
-          <div style="font-size:15px; font-weight:900; color:var(--text-main);" id="idxMainTxt">
-            정방향·인버스 자금 쏠림과 외국인 수급·환율·시황 속보를 결합해 지수 방향을 분석합니다.
-          </div>
-          <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="idxSubTxt">
-            09:30 기준 VWAP 체류비중(67%+) 및 외국인·매크로 동조 지수 추천 → 15:15 종가 정산 (거래세 0%)
-          </div>
-        </div>
-        <div id="idxRightAction"></div>
-      </div>
-
-      <!-- AI 2줄 종합 배경 브리핑 박스 -->
-      <div id="idxAiBriefBox" style="background:#F0F9FF; border:1.5px solid #7DD3FC; border-radius:12px; padding:11px 14px; margin-block-end:10px;">
-        <div style="font-size:12px; font-weight:900; color:#0369A1; margin-bottom:4px;" id="idxAiGradeBadge">🧠 AI 3박자 시황·수급 종합 브리핑</div>
-        <div style="font-size:13px; font-weight:800; color:#0F172A; line-height:1.5;" id="idxAiLine1">외국인 수급·환율·시황 뉴스를 불러오는 중입니다...</div>
-        <div style="font-size:12.5px; font-weight:800; color:#075985; line-height:1.5; margin-top:3px;" id="idxAiLine2"></div>
-      </div>
-
-      <!-- 코스피200 / 코스닥150 정방향 vs 인버스 자금·VWAP 대결 카드 -->
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;" id="idxPairGrid">
-        <div class="lab-kpi-mini" id="idxKospiBox" style="background:#FFFFFF;">
-          <div class="lab-kpi-lbl">🏛️ 코스피 200 · 정방향 vs 인버스</div>
-          <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
-        </div>
-        <div class="lab-kpi-mini" id="idxKosdaqBox" style="background:#FFFFFF;">
-          <div class="lab-kpi-lbl">🚀 코스닥 150 · 정방향 vs 인버스</div>
-          <div style="font-size:15px; font-weight:900; color:var(--text-muted); margin-top:4px;">시세 데이터 불러오는 중...</div>
-        </div>
-      </div>
-
-      <!-- 외국인·환율·미증시 + 실시간 지수 핵심 뉴스 2단 그리드 -->
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px; margin-block-end:10px;">
-        <div class="lab-kpi-mini" id="idxMacroBox" style="background:#FFFFFF;">
-          <div class="lab-kpi-lbl">🌍 외국인·기관 수급 & 환율·미증시</div>
-          <div style="font-size:13px; font-weight:800; color:var(--text-muted); margin-top:4px;">수급·매크로 집계 중...</div>
-        </div>
-        <div class="lab-kpi-mini" id="idxNewsBox" style="background:#FFFFFF;">
-          <div class="lab-kpi-lbl">📰 지수 영향 실시간 핵심 시황뉴스</div>
-          <div style="font-size:13px; font-weight:800; color:var(--text-muted); margin-top:4px;">시황 뉴스 수집 중...</div>
-        </div>
-      </div>
-
-      <details class="lab-hist-details" id="idxHistDetails">
-        <summary><span id="idxHistSummaryLbl">지수 방향 예측 누적 성적 & 일자별 기록 보기 (0건)</span></summary>
-        <div class="lab-hist-list" id="idxHistList">
-          <div style="padding:10px; font-size:13px; color:var(--text-muted);">평일 09:30 지수 방향 확정 및 15:15 정산 시 일자별 기록이 자동으로 누적됩니다.</div>
-        </div>
-      </details>
-    </div>
-  </section>
-
-  <!-- 2-B. 🧪 제로출발 계단주 실험실 (시초 0% 이하 출발 → 3단 계단식 상승 포착 · 실계좌 주문 OFF) -->
-  <section aria-labelledby="lab-heading">
-    <div class="section-head">
-      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
-        <h2 class="section-title" id="lab-heading">🪜 제로출발 계단주 (장중 2모작)</h2>
-        <span class="lab-safety-pill">🪜 시초 0% 이하 → 3단 계단 상승 · 2모작 실전 연동</span>
-      </div>
-      <span class="section-sub">수직급등 배제 · 천천히 오르는 진성 계단주 포착 (+6% 익절 · -4.5% 손절 · 14:55 마감)</span>
-    </div>
-
-    <div class="lab-card">
+    <div class="lab-card" style="border-style:solid; border-color:#10B981;">
+      <!-- 1) 누적 KPI 요약 3칸 -->
       <div class="lab-kpi-strip">
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">📈 계단주 누적 수익률 (세후)</div>
-          <div class="lab-kpi-val" id="labCumRet">+0.00%</div>
+          <div class="lab-kpi-lbl">💰 눌림목 누적 실현손익</div>
+          <div class="lab-kpi-val" id="pbCumPnl">+0원</div>
         </div>
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">🎯 계단주 승률 · 전적</div>
-          <div class="lab-kpi-val" id="labWinStats">0.0% (0전 0승 0패)</div>
+          <div class="lab-kpi-lbl">🎯 눌림목 승률 · 전적</div>
+          <div class="lab-kpi-val" id="pbWinStats">0.0% (0전 0승 0패)</div>
         </div>
         <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">⚙️ 계단주 매매 공식</div>
-          <div class="lab-kpi-rule">시초 0% 이하 → 09:45~13:00 3단 계단(VWAP 88%+) → +6% 익절 · -4.5% 손절 · 14:55 마감</div>
+          <div class="lab-kpi-lbl">⚙️ 실전 매매 공식</div>
+          <div class="lab-kpi-rule">19:30~19:48 2분간격 10분할 매수 → 익일 +6.0% 지정가 매복 · -4.5% 하드방어선</div>
         </div>
       </div>
 
-      <div class="lab-live-box" id="labLiveBox">
+      <!-- 2) 실전 보유 현황 배너 -->
+      <div class="lab-live-box" id="pbHoldingBox" style="margin-block-end:12px;">
         <div>
-          <div class="lab-status-tag" id="labStatusTag">🕒 평일 09:12~13:00 계단주 스캔 대기</div>
-          <div style="font-size:14.5px; font-weight:800; color:var(--text-main);" id="labMainTxt">
-            시초가 0% 이하에서 과열 없이 출발해 VWAP 위를 지키며 천천히 3단 계단식으로 오르는 종목과 급등 원인을 실시간 포착합니다.
-          </div>
-          <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:3px;" id="labSubTxt">
-            장 초반 15분 설거지 급등을 배제하고, 수익 +4% 이후 VWAP 이탈 트레일링 익절로 상한가 추세는 끝까지 타고 윗꼬리는 방어합니다.
-          </div>
+          <div class="lab-status-tag" id="pbHoldingTag">🕒 눌림목 실전 포지션 불러오는 중...</div>
+          <div style="font-size:16px; font-weight:900; color:var(--text-main);" id="pbHoldingMain">데이터 수신 대기 중</div>
+          <div style="font-size:12.5px; font-weight:700; color:var(--text-muted); margin-top:4px;" id="pbHoldingSub">매일 19:30 애프터마켓 10분할 매수 자동 실행</div>
         </div>
-        <div id="labRightAction"></div>
+        <div id="pbHoldingAction"></div>
       </div>
 
-      <details class="lab-hist-details" id="labHistDetails">
-        <summary><span id="labHistSummaryLbl">계단주 실험실 일자별 모의 검증 기록 보기 (0건)</span></summary>
-        <div class="lab-hist-list" id="labHistList">
-          <div style="padding:10px; font-size:13px; color:var(--text-muted);">오늘 본장(09:45~)부터 조건 충족 시 첫 계단주 포착 기록이 자동으로 쌓입니다.</div>
+      <!-- 3) 당일 눌림목 후보 TOP 5 -->
+      <div style="margin-block-end:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+          <div style="font-size:14px; font-weight:900; color:#0F172A;">📋 당일 눌림목 후보 TOP 5 <span style="font-size:12px; font-weight:700; color:var(--text-muted);">(1위 자동 매수 대상 · 클릭 시 코드 복사)</span></div>
+          <span style="font-size:12px; font-weight:700; color:#0369A1;" id="pbScanDateLbl">스캔 대기 중</span>
         </div>
-      </details>
-    </div>
-  </section>
-
-  <!-- 2-C. ⚡ 무뉴스 상승 VI 실험실 (키움 ka10054 실시간 1차 상승 VI + 무뉴스·무공시 · 매수 후 최고가 추적 · 실주문 0원) -->
-  <section aria-labelledby="vi-lab-heading">
-    <div class="section-head">
-      <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap;">
-        <h2 class="section-title" id="vi-lab-heading">⚡ 무뉴스 상승 VI 실험실</h2>
-        <span class="lab-safety-pill">🧪 모의 검증 전용 · 실주문 0원 · 매수 후 최고가 추적</span>
-      </div>
-      <span class="section-sub">09:05~13:00 무뉴스·무공시 1차 상승 VI (대금 50억↑·시총 1조↓·VWAP 위)</span>
-    </div>
-
-    <div class="lab-card">
-      <div class="lab-kpi-strip">
-        <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">📈 VI 실험실 누적 수익률 (세후)</div>
-          <div class="lab-kpi-val" id="viLabCumRet">+0.00%</div>
-        </div>
-        <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">🎯 VI 실험실 승률 · 전적</div>
-          <div class="lab-kpi-val" id="viLabWinStats">0.0% (0전 0승 0패)</div>
-        </div>
-        <div class="lab-kpi-mini">
-          <div class="lab-kpi-lbl">⚙️ VI 검증 공식</div>
-          <div class="lab-kpi-rule">무뉴스·무공시 1차 상승 VI 해제 직후 모의 진입 → +6% 익절 · -4.5% 손절 · 15:30까지 최고가 추적</div>
+        <div id="pbTop5List" style="display:flex; flex-direction:column; gap:7px;">
+          <div style="padding:12px; font-size:13px; color:var(--text-muted); background:#F8FAFC; border-radius:10px; border:1px solid #E2E8F0;">당일 눌림목 후보 TOP 5를 불러오는 중입니다...</div>
         </div>
       </div>
 
-      <div class="lab-live-box" id="viLabLiveBox">
-        <div>
-          <div class="lab-status-tag" id="viLabStatusTag">🕒 평일 09:05~13:00 무뉴스 상승 VI 스캔 대기</div>
-          <div class="lab-stock-main" id="viLabStockMain">현재 포착된 무뉴스 상승 VI 종목 대기 중</div>
-          <div class="lab-stock-sub" id="viLabStockSub">당일·전일 공시 0건 · 뉴스 0건 1차 상승 VI 해제 시 자동 모의 매수 &amp; 당일 최고가 추적</div>
+      <!-- 4) 눌림목 종가베팅 전용 누적 성적표 -->
+      <div>
+        <div style="font-size:14px; font-weight:900; color:#0F172A; margin-bottom:8px;">🏆 눌림목 종가베팅 누적 성적표</div>
+        <div tabindex="0" role="region" aria-label="눌림목 종가베팅 누적 성적표" class="table-wrapper" style="box-shadow:none;">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">종목</th>
+                <th scope="col">매수 → 청산</th>
+                <th scope="col">매수가 → 매도가(목표)</th>
+                <th scope="col">확정 손익</th>
+                <th scope="col">상태</th>
+              </tr>
+            </thead>
+            <tbody id="pbLedgerBody">
+              <tr>
+                <th scope="row">-</th>
+                <td colspan="4">눌림목 체결 기록을 불러오는 중입니다...</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div id="viLabRightAction"></div>
       </div>
-
-      <details class="lab-hist-details" id="viLabHistDetails">
-        <summary><span id="viLabHistSummaryLbl">무뉴스 VI 실험실 일자별 기록 &amp; 매수 후 최고가 보기 (0건)</span></summary>
-        <div class="lab-hist-list" id="viLabHistList">
-          <div style="padding:10px; font-size:13px; color:var(--text-muted);">무뉴스 상승 VI 포착 시 진입가·청산가와 함께 매수 후 장중 최고 도달가(+%)가 자동 기록됩니다.</div>
-        </div>
-      </details>
     </div>
   </section>
 
   <!-- 3. 한국장 2모작 누적 성적 & 실전 체결 내역 -->
   <section aria-labelledby="ledger-heading">
     <div class="section-head">
-      <h2 class="section-title" id="ledger-heading">📊 한국장 2모작 실전 성적표 (종가베팅 · 계단주)</h2>
-      <span class="section-sub">종가베팅·계단주 실계좌 통합 기록 · 행 클릭 시 코드 복사</span>
+      <h2 class="section-title" id="ledger-heading">📊 주도테마 종가베팅 실전 성적표</h2>
+      <span class="section-sub">주도테마 종가베팅 실계좌 기록 · 행 클릭 시 코드 복사</span>
     </div>
 
     <div class="kpi-row">
       <div class="kpi-box">
-        <div class="kpi-lbl">💰 2모작 누적 실현손익</div>
+        <div class="kpi-lbl">💰 주도테마 누적 실현손익</div>
         <div class="kpi-val" id="kpiPnl">+0원</div>
         <div class="kpi-sub" id="kpiPnlSub">세금·수수료 차감 후 키움 확정치</div>
       </div>
       <div class="kpi-box">
-        <div class="kpi-lbl">🎯 2모작 승률 · 전적</div>
+        <div class="kpi-lbl">🎯 주도테마 승률 · 전적</div>
         <div class="kpi-val" id="kpiWinRate">0.0%</div>
         <div class="kpi-sub" id="kpiRecord">총 0전 (0승 0패)</div>
       </div>
@@ -1355,9 +1272,9 @@
 <script>
 (() => {
   const STATE_URL_PRIMARY = window.location.protocol === "file:"
-    ? "https://simikai1024-hue.github.io/stock-board/../live_state.json"
-    : "../../live_state.json";
-  const STATE_URL_FALLBACK = "https://raw.githubusercontent.com/simikai1024-hue/stock-board/main/../live_state.json";
+    ? "https://simikai1024-hue.github.io/stock-board/live_state.json"
+    : "../live_state.json";
+  const STATE_URL_FALLBACK = "https://raw.githubusercontent.com/simikai1024-hue/stock-board/main/live_state.json";
   const TOPIC_ISI = "kr_whale_detector_vip_family_2026/isi";
   const TOPIC_LIVE = "kr_whale_detector_vip_family_2026/live";
 
@@ -2272,10 +2189,144 @@
     }
   }
 
+  function renderPullbackBoard(isi) {
+    const pb = isi && isi.pullback_board ? isi.pullback_board : null;
+    const pnlEl = document.getElementById("pbCumPnl");
+    const winEl = document.getElementById("pbWinStats");
+    const tagEl = document.getElementById("pbHoldingTag");
+    const mainEl = document.getElementById("pbHoldingMain");
+    const subEl = document.getElementById("pbHoldingSub");
+    const actEl = document.getElementById("pbHoldingAction");
+    const scanEl = document.getElementById("pbScanDateLbl");
+    const top5El = document.getElementById("pbTop5List");
+    const bodyEl = document.getElementById("pbLedgerBody");
+    if (!pb) return;
+
+    const st = pb.stats || {};
+    const totPnl = Number(st.total_pnl_krw || 0);
+    if (pnlEl) {
+      pnlEl.textContent = `${totPnl >= 0 ? "+" : ""}${totPnl.toLocaleString("ko-KR")}원`;
+      pnlEl.className = `lab-kpi-val ${totPnl >= 0 ? "up-txt" : "dn-txt"}`;
+    }
+    if (winEl) {
+      const tc = Number(st.total_closed || 0);
+      const wc = Number(st.win_count || 0);
+      const lc = Number(st.loss_count || 0);
+      const wr = Number(st.win_rate_pct || 0);
+      winEl.textContent = `${wr.toFixed(1)}% (${tc}전 ${wc}승 ${lc}패)`;
+    }
+
+    const h = pb.holding || {};
+    if (h.active && h.code) {
+      const bp = Number(h.buy_price || 0);
+      const qty = Number(h.init_qty || 1);
+      const tp = Number(h.target_sell_px || 0);
+      const sl = Number(h.stop_loss_px || 0);
+      if (tagEl) {
+        tagEl.className = "lab-status-tag holding";
+        tagEl.textContent = `🌙 [${h.buy_date || ""}(${h.weekday_short || ""}) 실전 보유 중] ${h.theme_name || "눌림목 2파 1등"}`;
+      }
+      if (mainEl) {
+        mainEl.innerHTML = `<span style="cursor:pointer; text-decoration:underline;" onclick="copyStockCode('${escHtml(h.code)}','${escHtml(h.name)}')">${escHtml(h.name)} (${escHtml(h.code)})</span> · ${qty}주 @ ${fmtWon(bp)}`;
+      }
+      if (subEl) {
+        subEl.textContent = `🎯 익일 +6.0% 목표: ${fmtWon(tp)}  |  🛡️ -4.5% 방어선: ${fmtWon(sl)}  |  총 매수금 ${(bp * qty).toLocaleString("ko-KR")}원`;
+      }
+      if (actEl) {
+        actEl.innerHTML = `<a href="https://m.stock.naver.com/domestic/stock/${escHtml(h.code)}/chart" target="_blank" rel="noopener" class="action-btn naver" style="font-size:12.5px; padding:7px 12px;">📈 차트</a>`;
+      }
+    } else {
+      if (tagEl) {
+        tagEl.className = "lab-status-tag";
+        tagEl.textContent = "🕒 현재 눌림목 무보유 · 19:30~19:48 10분할 매수 대기";
+      }
+      if (mainEl) mainEl.textContent = "오늘 19:30 눌림목 1위 종목 10분할 매수 대기 중";
+      if (subEl) subEl.textContent = "조건 충족 종목이 0개면 매수하지 않고 현금 100%를 보존합니다.";
+      if (actEl) actEl.innerHTML = "";
+    }
+
+    if (scanEl) {
+      scanEl.textContent = pb.scan_updated_at ? `기준: ${pb.scan_updated_at}` : (pb.scan_date ? `기준일: ${pb.scan_date}` : "");
+    }
+
+    const cands = Array.isArray(pb.top5_candidates) ? pb.top5_candidates : [];
+    if (top5El) {
+      if (cands.length === 0) {
+        top5El.innerHTML = `<div style="padding:12px; font-size:13px; color:var(--text-muted); background:#F8FAFC; border-radius:10px; border:1px solid #E2E8F0;">조건을 충족하는 눌림목 후보가 없습니다 (현금 100% 보존).</div>`;
+      } else {
+        top5El.innerHTML = cands.map((c, idx) => {
+          const rank = c.rank || (idx + 1);
+          const isTop1 = rank === 1;
+          const sg = Number(c.surge_gain || 0);
+          const sa = Number(c.surge_amt_uk || 0);
+          const vr = Number(c.vol_ratio || 0);
+          const m5 = Number(c.ma5_gap || 0);
+          const tc = Number(c.today_chg || 0);
+          const sd = String(c.surge_date || "");
+          const sdFmt = sd.length === 8 ? `${sd.slice(4,6)}/${sd.slice(6,8)}` : sd;
+          return `
+            <div onclick="copyStockCode('${escHtml(c.code)}','${escHtml(c.name)}')" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; padding:10px 12px; border-radius:11px; background:${isTop1 ? "#ECFDF5" : "#F8FAFC"}; border:1.5px solid ${isTop1 ? "#10B981" : "#E2E8F0"};">
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                <span style="font-size:12px; font-weight:900; padding:2px 8px; border-radius:999px; background:${isTop1 ? "#059669" : "#334155"}; color:#FFFFFF;">${isTop1 ? "👑 1위" : `${rank}위`}</span>
+                <strong style="font-size:14.5px; color:#0F172A;">${escHtml(c.name)}</strong>
+                <span style="font-size:12px; color:var(--text-muted); font-weight:700;">${escHtml(c.code)}</span>
+                <span style="font-size:13px; font-weight:900; color:#0F172A;">${fmtWon(c.close)}</span>
+                <span class="${tc >= 0 ? "up-txt" : "dn-txt"}" style="font-size:12.5px; font-weight:800;">(${tc >= 0 ? "+" : ""}${tc.toFixed(1)}%)</span>
+              </div>
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:12px; font-weight:700; color:#334155;">
+                <span>점수 <strong style="color:#047857;">${Number(c.score || 0).toFixed(1)}</strong></span>
+                <span>· 급등 ${sdFmt}(+${sg.toFixed(1)}%, ${Math.round(sa).toLocaleString("ko-KR")}억)</span>
+                <span>· ${c.days_since || 1}일눌림</span>
+                <span>· 거래량 <strong>${vr.toFixed(1)}%</strong></span>
+                <span>· 5일선 ${m5 >= 0 ? "+" : ""}${m5.toFixed(1)}%</span>
+                <a href="https://m.stock.naver.com/domestic/stock/${escHtml(c.code)}/chart" target="_blank" rel="noopener" onclick="event.stopPropagation();" style="font-size:11.5px; font-weight:800; color:#0284C7; text-decoration:none; padding:2px 7px; border-radius:6px; background:#E0F2FE;">📈 차트</a>
+              </div>
+            </div>
+          `;
+        }).join("");
+      }
+    }
+
+    const trades = Array.isArray(pb.trades) ? pb.trades : [];
+    if (bodyEl) {
+      if (trades.length === 0) {
+        bodyEl.innerHTML = `<tr><th scope="row">-</th><td colspan="4">아직 기록된 눌림목 종가베팅 체결 내역이 없습니다.</td></tr>`;
+      } else {
+        bodyEl.innerHTML = trades.map((t) => {
+          const isHold = t.status === "HOLDING";
+          const isWin = t.status === "WIN";
+          const pp = Number(t.pnl_pct || 0);
+          const krw = Number(t.pnl_krw || 0);
+          const sched = isHold
+            ? `${escHtml(t.buy_date)}(${escHtml(t.buy_weekday || "")}) → 익일 대기`
+            : `${escHtml(t.buy_date)}(${escHtml(t.buy_weekday || "")}) → ${escHtml(t.sell_date)}(${escHtml(t.sell_weekday || "")}) ${escHtml(t.sell_time || "")}`;
+          const pxTxt = isHold
+            ? `${fmtWon(t.buy_price)} → 목표 ${fmtWon(t.sell_price)} (${t.qty || 1}주)`
+            : `${fmtWon(t.buy_price)} → ${fmtWon(t.sell_price)} (${t.qty || 1}주)`;
+          const pnlTxt = isHold
+            ? `<span style="color:#0369A1; font-weight:800;">진행 중</span>`
+            : `<span class="${krw >= 0 ? "up-txt" : "dn-txt"}" style="font-weight:900;">${krw >= 0 ? "+" : ""}${krw.toLocaleString("ko-KR")}원 (${pp >= 0 ? "+" : ""}${pp.toFixed(2)}%)</span>`;
+          const badge = isHold
+            ? `<span class="badge-hold">🌙 보유중</span>`
+            : (isWin ? `<span class="badge-win">✅ 익절</span>` : `<span class="badge-loss">🛡️ 손절</span>`);
+          return `
+            <tr onclick="copyStockCode('${escHtml(t.code)}','${escHtml(t.name)}')" style="cursor:pointer;">
+              <th scope="row"><strong>${escHtml(t.name)}</strong> <span style="font-size:11.5px; color:var(--text-muted);">${escHtml(t.code)}</span></th>
+              <td>${sched}</td>
+              <td>${pxTxt}</td>
+              <td>${pnlTxt}</td>
+              <td>${badge}</td>
+            </tr>
+          `;
+        }).join("");
+      }
+    }
+  }
+
   function applyIsiBoard(isi) {
     if (!isi) return;
     currentIsiData = isi;
-    for (const fn of [renderHero, renderTop3Themes, renderIndexRadar, renderIntradayLab, renderViLab, renderLedger]) {
+    for (const fn of [renderHero, renderTop3Themes, renderPullbackBoard, renderLedger]) {
       try {
         fn(isi);
       } catch (err) {
