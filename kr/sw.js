@@ -1,13 +1,12 @@
-const CACHE = 'kr-only-v30';
-self.addEventListener('install', () => self.skipWaiting());
+const CACHE_NAME = 'kr-only-v32';
+self.addEventListener('install', (e) => {
+  self.skipWaiting();
+});
 self.addEventListener('activate', (e) => {
-  e.waitUntil((async () => {
-    const keys = await caches.keys();
-    await Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)));
-    await self.clients.claim();
-  })());
+  e.waitUntil(
+    caches.keys().then((keys) => Promise.all(keys.map((k) => caches.delete(k)))).then(() => self.clients.claim())
+  );
 });
 self.addEventListener('fetch', (e) => {
-  if (e.request.method !== 'GET') return;
-  e.respondWith(fetch(e.request.url, { cache: 'no-store' }).catch(() => caches.match(e.request)));
+  e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
 });
