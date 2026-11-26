@@ -1,13 +1,31 @@
 {
   "date": "2026-11-26",
-  "updated_at": "2026-11-26 15:33:48",
+  "updated_at": "2026-11-26 19:34:05",
   "isi_board": {
-    "updated_at": "2026-11-26 15:33:48",
+    "updated_at": "2026-11-26 19:34:05",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-26",
-    "theme_updated_at": "15:33:48",
+    "theme_updated_at": "15:36:08",
     "overnight_holding": {
-      "active": false
+      "active": true,
+      "code": "263860",
+      "name": "지니언스",
+      "buy_date": "2026-11-26",
+      "strategy": "ISI_LEADER_OVERNIGHT",
+      "theme_name": "눌림목2파(1일조정·거래량31%)",
+      "rank_type": "방송 1위 메인 대장주",
+      "init_qty": 1,
+      "buy_price": 40050,
+      "vwap_price": 38850,
+      "target_tp_pct": 6.0,
+      "target_sell_px": 42450,
+      "stop_loss_px": 38200,
+      "ambush_sell_ord_no": "",
+      "ambush_stex": "",
+      "ambush_sell_px": 0,
+      "ambush_buy_p": 40050.0,
+      "ambush_init_qty": 1,
+      "weekday_short": "목"
     },
     "top3_themes": [
       {
@@ -29,12 +47,12 @@
         "second": {
           "code": "027360",
           "name": "아주IB투자",
-          "close": 2585,
-          "rate": 6.2,
-          "money_eok": 422,
-          "vwap": 2754,
-          "vol_ratio": 1083,
-          "upper_wick": 83.5,
+          "close": 2580,
+          "rate": 6.0,
+          "money_eok": 424,
+          "vwap": 2753,
+          "vol_ratio": 1087,
+          "upper_wick": 84.5,
           "prog_money": 0
         },
         "stocks": [
@@ -80,12 +98,12 @@
           {
             "code": "027360",
             "name": "아주IB투자",
-            "close": 2585,
-            "rate": 6.2,
-            "money_eok": 422,
-            "vwap": 2754,
-            "vol_ratio": 1083,
-            "upper_wick": 83.5,
+            "close": 2580,
+            "rate": 6.0,
+            "money_eok": 424,
+            "vwap": 2753,
+            "vol_ratio": 1087,
+            "upper_wick": 84.5,
             "prog_money": 0,
             "is_our_leader": false,
             "is_second": true
@@ -720,7 +738,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-26",
-      "updated_at": "15:33:42",
+      "updated_at": "15:36:02",
       "signal_status": "CLOSED",
       "active_signal": null,
       "today_closed": {
@@ -755,8 +773,8 @@
           "vwap_gap_pct": 1.07,
           "chg_prev_pct": -0.35,
           "money_eok": 11360,
-          "inav": 1418.83,
-          "inav_gap_pct": 0.01,
+          "inav": 1418.44,
+          "inav_gap_pct": 0.04,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 19.2,
@@ -805,8 +823,8 @@
           "vwap_gap_pct": 2.01,
           "chg_prev_pct": -0.67,
           "money_eok": 1574,
-          "inav": 2944.5,
-          "inav_gap_pct": 0.19,
+          "inav": 2945.33,
+          "inav_gap_pct": 0.16,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 11.5,
@@ -841,22 +859,29 @@
       },
       "macro_news": {
         "bizdate": "20261126",
-        "kospi_foreign_eok": -1136,
+        "kospi_foreign_eok": -1137,
         "kospi_inst_eok": 7508,
-        "kospi_personal_eok": -10439,
-        "kosdaq_foreign_eok": -1062,
+        "kospi_personal_eok": -10438,
+        "kosdaq_foreign_eok": -1063,
         "kosdaq_inst_eok": 2326,
-        "usdkrw": 1342.4,
-        "usdkrw_chg": -3.1,
-        "usdkrw_pct": -0.23,
+        "usdkrw": 1342.6,
+        "usdkrw_chg": -2.9,
+        "usdkrw_pct": -0.22,
         "nasdaq_pct": -0.62,
         "sox_pct": -0.65,
-        "macro_score": 0,
+        "macro_score": -1,
         "macro_dir": "NEUTRAL",
         "macro_label": "수급·매크로 중립",
         "news_dir": "NEUTRAL",
         "news_label": "호악재 혼조",
         "headlines": [
+          {
+            "title": "한국만의 문제 아니었다⋯반도체에 '널뛰기' 하는 韓美 증시",
+            "press": "아이뉴스24",
+            "time": "15:27",
+            "tone": "UP",
+            "url": "https://n.news.naver.com/mnews/article/031/0001078781"
+          },
           {
             "title": "증안펀드, 대만은 '빚'으로 실탄 늘리는데 한국은 '출자 여력' 벽",
             "press": "이데일리",
@@ -870,13 +895,6 @@
             "time": "14:38",
             "tone": "DN",
             "url": "https://n.news.naver.com/mnews/article/629/0000555880"
-          },
-          {
-            "title": "부도보험료 치솟는 빅테크…AI 돈줄에 경고등 [마켓딥다이브]",
-            "press": "한국경제TV",
-            "time": "14:17",
-            "tone": "NEUTRAL",
-            "url": "https://n.news.naver.com/mnews/article/215/0001274066"
           }
         ]
       },
@@ -900,8 +918,8 @@
           "vwap_gap_pct": 2.01,
           "chg_prev_pct": -0.67,
           "money_eok": 1574,
-          "inav": 2944.5,
-          "inav_gap_pct": 0.19,
+          "inav": 2945.33,
+          "inav_gap_pct": 0.16,
           "above_vwap": true,
           "is_bull_candle": true,
           "morn_above_pct": 11.5,
@@ -909,7 +927,7 @@
           "pair_money_share_pct": 20.7,
           "flow_surge_mult": 0.93
         },
-        "line1": "외국인이 코스피 -1,136억(코스닥 -1,062억) 대량 순매도 출회 중이며, 미 나스닥(-0.62%)·반도체(-0.65%) 및 원/달러 1,342.4원(-3.1원) 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
+        "line1": "외국인이 코스피 -1,137억(코스닥 -1,063억) 대량 순매도 출회 중이며, 미 나스닥(-0.62%)·반도체(-0.65%) 및 원/달러 1,342.6원(-2.9원) 흐름 속에 시황 뉴스는 '호악재 혼조' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150선물인버스] 쪽으로 거래대금 점유율 21% 기록되며 당일 VWAP 상단 체류 79%를 기록해 해당 방향이 우위를 점하고 있습니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
@@ -979,6 +997,23 @@
       "total_pnl_krw": -4036
     },
     "trades": [
+      {
+        "status": "HOLDING",
+        "buy_date": "2026-11-26",
+        "buy_weekday": "목",
+        "sell_date": "",
+        "sell_time": "",
+        "code": "263860",
+        "name": "지니언스",
+        "theme_name": "눌림목2파(1일조정·거래량31%)",
+        "qty": 1,
+        "buy_price": 40050,
+        "sell_price": 42450,
+        "vwap_price": 38850,
+        "stop_loss_px": 38200,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0
+      },
       {
         "status": "LOSS",
         "buy_date": "2026-11-20",
@@ -1133,10 +1168,28 @@
       "pnl_pct": 5.79,
       "buy_price": 4475,
       "qty": 16
+    },
+    {
+      "id": "1795689241859_263860_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-26 19:34:01",
+      "name": "지니언스",
+      "code": "263860",
+      "price": 40050,
+      "flu_rt": -4.88,
+      "val_uk": 0.0,
+      "target_price": 42050,
+      "stop_price": 38800,
+      "ammo_title": "👑 [ISI 종가베팅] 눌림목2파(1일조정·거래량31%) 1등 대장주 | 매수 40,050원(1주) → 익일 +6.0%(42,450원) 매복 타깃 (VWAP 38,850원)",
+      "ammo_date": "2026-11-26",
+      "note": "🌙 익일 +6.0%(42,450원) 그물망 익절 대기 | 방어선 38,200원",
+      "buy_price": 40050,
+      "qty": 1
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-26 15:33:48",
+    "updated_at": "2026-11-26 19:34:05",
     "stats": {
       "total_closed": 22,
       "win_count": 8,
@@ -1148,6 +1201,23 @@
       "total_pnl_krw": -28414
     },
     "rows": [
+      {
+        "date": "2026-11-26",
+        "weekday": "목요일",
+        "weekday_short": "목",
+        "code": "263860",
+        "name": "지니언스",
+        "buy_price": 40050,
+        "sell_price": 0,
+        "qty": 1,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "19:34:01",
+        "sell_time": "",
+        "reason": "👑 [ISI 종가베팅] 눌림목2파(1일조정·거래량31%) 1등 대장주 | 매수 40,050원(1주) → 익일 +6.0%(42,450원) 매복 타깃 (VWAP 38,850원)",
+        "note": "🌙 익일 +6.0%(42,450원) 그물망 익절 대기 | 방어선 38,200원"
+      },
       {
         "date": "2026-11-26",
         "weekday": "목요일",
@@ -1704,7 +1774,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-26 15:33:48",
+    "updated_at": "2026-11-26 19:34:05",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -5635,7 +5705,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-26 15:33:48",
+    "updated_at": "2026-11-26 19:34:05",
     "deprecated": true,
     "stats": {},
     "days": []
