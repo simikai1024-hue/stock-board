@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 23:02:47",
-  "updated_at_et": "2026-11-27 09:02:47",
-  "updated_epoch_ms": 1795788167624,
+  "updated_at_kst": "2026-11-27 23:02:58",
+  "updated_at_et": "2026-11-27 09:02:58",
+  "updated_epoch_ms": 1795788178348,
   "analyzing": {
     "active": false
   },
@@ -22,17 +22,38 @@
     "updated_kst": "23:02:43"
   },
   "stats": {
-    "today_total": 7,
+    "today_total": 8,
     "today_nblm_count": 0,
-    "today_buy": 3,
+    "today_buy": 4,
     "today_false": 4,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 30,
-    "total_false": 120,
+    "total_buy": 31,
+    "total_false": 119,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795788173661_TWG_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "09:02:53",
+      "time_kst": "23:02:53",
+      "symbol": "TWG",
+      "company_name": "TWG",
+      "exchange": "ND",
+      "price": 2.0896,
+      "gain_pct": 31.42,
+      "mcap_m": 7.86,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +31.4% · 전일대비 +23.6% (VWAP $1.98↑) | 1분대금 $317K | 누적 $0.60M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: TWG (NASDAQ) | 시총: $7.86M\n- 시가 대비: +31.42% ($1.5900 -> $2.0896)\n- 전일 종가 대비: +23.64% (전일 $1.6900)\n- 1분 거래대금: $316.7K | 누적: $0.60M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
+      "engine": "트랙3 모의",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_1795787134775_NUR_FALSE",
       "track": "TRACK3",
@@ -2496,26 +2517,6 @@
       "reason": "확정 상업수주 및 부채청소 전무한 단순 상폐방어용 1-for-5 주식병합 행정 PR로 헌법 2조 2항 단서 위배 및 장전 -16.7% 음봉 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Smartkem, Inc. announces reverse split of common stock to support continued Nasdaq listing",
       "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 SMTK (Smartkem, Inc.) 2026-11-19 07:03:44 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트 (장전 -16.7% 급락 음봉 덤핑)\n상장 거래소 및 체급: The NASDAQ Capital Market (SMTK) 상장사로 거래소 필터 헌장 제1조 합격.\n실질 시가총액: 약 **$0.21M USD (약 21만 달러)**로 $50.0M 및 $15.0M 이하 극초소형 품절주 체급.\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 단순 주식병합 악재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 나스닥 상장폐지를 모면하기 위한 이사회 승인 1-for-5 주식병합(Reverse Stock Split to support continued Nasdaq listing) 행정 공지에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -16.7% 급락 음봉 덤핑):\n전일 종가 $0.2155 대비 현재가 $0.1999 (-7.24%).\n당일 프리마켓 최고가 $0.2400 (+11.4%)을 찍은 직후 병합 악재가 반영되며 고점 대비 -16.7% 급락, 전일 종가 밑(-7.24%) 파란색 음봉으로 주저앉음.\n당일 누적 거래대금 $17,350 USD.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Smartkem, Inc. announces reverse split of common stock to support continued Nasdaq listing\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n부채 청소 없는 단순 상폐 방어용 주식병합 행정 PR (심사 헌법 제2조 ②항 단서 정면 위배):\n원문 본문에 *\"Smartkem, Inc. (Nasdaq: SMTK)... today announced that its Board of Directors has approved a reverse stock split of the Company’s outstanding common stock at a ratio of 1-for-5, following stockholder approval...\"*라고 명시되어 있습니다.\n연구소 심사 헌법 제2조 ②항: \"초소형주가 나스닥 상장유지 자기자본 요건 충족 + 차입부채/전환사채 전액 상환·출자전환을 동시 달성한 재무 턴어라운드(ONFO·CLRO형)는 FORCE_BUY이나, 부채청소 없이 음봉인 단순 규정회복 행정 PR은 FORCE_BLOCK!\" 규칙이 명시되어 있습니다.\nSMTK는 부채를 전액 탕감하거나 순현금을 확충한 턴어라운드가 아니며, 주가 1달러 미달로 상장폐지될 위기에 처하자 주식 수만 5대 1로 줄여 인위적으로 주가를 올리는 단순 행정 조치일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당, 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각\" 등 기업 가치를 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -16.7% 음봉 덤핑 (100% FORCE_BLOCK):\n신규 확정 계약 금액($M) 및 현금 선급금이 전무한 단순 상폐 방어용 1-for-5 주식병합 공지이며, 장전 최고가 대비 -16.7% 폭락 음봉(-7.24%)으로 덤핑 중이므로 100% FORCE_BLOCK 차단 대상입니다.\n3. 최종 심사 및 결재 판정\nSMTK의 당일 공식 PR은 확정 상업 수주나 부채 청소가 전무한 단순 상장폐지 방어용 1-for-5 주식병합 행정 발표에 불과하며, 장전 최고가 대비 -16.7% 급락 음봉 덤핑 중이므로 심사 헌법 제2조 ②항 단서 및 제3조 ④항에 의거 FORCE_BLOCK: SMTK 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: SMTK NOTES:\n[SMTK] 확정 상업수주 및 부채청소 전무한 단순 상폐방어용 1-for-5 주식병합 행정 PR로 헌법 2조 2항 단서 위배 및 장전 -16.7% 음봉 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR에 이어 SMTK까지 총 7개 종목 전수가 껍데기 IR, 비상업성 보조금, 부채 리파이낸싱, 단순 주식병합 음봉으로 정밀 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795089821628_MRKR_FALSE",
-      "date_et": "2026-11-19",
-      "weekday_kr": "목",
-      "time_et": "07:03:41",
-      "time_kst": "21:03:41",
-      "symbol": "MRKR",
-      "company_name": "MRKR",
-      "exchange": "ND",
-      "price": 0.9499,
-      "gain_pct": 11.33,
-      "mcap_m": 15.84,
-      "decision": "FALSE",
-      "elapsed_sec": 57.7,
-      "reason": "상업 수주 전무한 단순 CPRIT 텍사스 암연구원 임상 2상 연구 보조금(Grant) 수령 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study",
-      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 MRKR (Marker Therapeutics, Inc.) 2026-11-19 07:02:43 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n거래소 적격성: The NASDAQ Capital Market (Nasdaq: MRKR) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 합격.\n실질 시가총액: 약 $15.84M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $16.20M 수치의 치명적 본질 적발):\n언뜻 시총($15.84M) 대비 102.3%에 달하는 거액의 자금 조달로 보이지만, 이는 상업 매출이 폭발하는 고객사 수주(AIMD형)나 빅파마 독점 기술이전 계약이 아니라 **\"텍사스 암예방연구원(CPRIT)으로부터 림프종 임상 2상(APOLLO Study) 연구비 지원 명목으로 선정된 연구개발 정부/공공 보조금(CPRIT Grant)\"**에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 매물 출회):\n전일 종가 $0.8532 대비 현재가 $0.9499 (+11.33%).\n당일 프리마켓 최고가 $1.0100 (+18.4%)을 터치한 후 고점 대비 -6.0% 밀리며 차익 실현 윗꼬리 출회 중.\n당일 누적 거래대금 $9,074 USD (약 9천 달러 수준의 극소액 프리장 수급).\n당일 SEC 공시 현황: 2026-11-19 [8-K] (Item 8.01, 9.01) 제출 확인 (당일 배포된 보도자료를 단순 첨부한 기타 공시).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '임상 2상 R&D 비희석 연구 보조금' 언론플레이 (Grant PR):\n원문 본문에 *\"Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study... Highly competitive grant award provides significant non-dilutive funding to support Phase 2 development of MT-601 in CAR-relapsed lymphoma\"*라고 명시되어 있습니다.\n이는 회사 금고로 유입되어 당장 기업 가치와 주당순이익(EPS)을 폭발시키는 확정 공급 계약이나 거액의 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n텍사스 주정부 산하 기관(CPRIT)의 프로젝트성 연구비 지원(Grant)으로, 지정된 임상 2상 시험 진행 경비로만 단계별 소진되는 전형적인 바이오 연구개발 보조금일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (비상업 연구 보조금 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 정부/기관 보조금(Grant) 수령 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 직전 차단된 AETR의 C$2.0M 주정부 연료혁신기금 보조금과 본질적으로 동일한 유형).\n장전 프리마켓에서 $1.0100까지 반짝 띄운 뒤 시장이 단순 임상 연구비 지원임을 확인하고 고점 대비 -6.0% 밀리며 매물이 출회되고 있는 전형적인 윗꼬리 패턴입니다.\n3. 최종 심사 및 결재 판정\nMRKR의 당일 공식 PR 및 8-K는 상업 수주나 현금 선급금이 전무한 단순 텍사스주 암연구원(CPRIT)의 임상 2상 연구비 지원 보조금(Grant) 수령에 불과하여, 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금) 요건에 절대 미달하고 장전 고점 대비 -6.0% 윗꼬리 출회 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MRKR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: MRKR NOTES:\n[MRKR] 상업 수주 전무한 단순 CPRIT 텍사스 암연구원 임상 2상 연구 보조금(Grant) 수령 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(소액 정부 실증 보조금), SEAT(단순 부채 구조조정 리파이낸싱), YMAT(미쓰비시 케미컬 공급망 협력 재탕)에 이어 MRKR(단순 임상 R&D 보조금 수령)까지 총 6개 종목 전수가 실체적 상업 매출 기폭제 결여로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 약 2시간 27분 남았습니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
