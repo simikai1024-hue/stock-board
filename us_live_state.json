@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-28 02:17:03",
-  "updated_at_et": "2026-11-27 12:17:03",
-  "updated_epoch_ms": 1795799823772,
+  "updated_at_kst": "2026-11-28 02:17:46",
+  "updated_at_et": "2026-11-27 12:17:46",
+  "updated_epoch_ms": 1795799866149,
   "analyzing": {
     "active": false
   },
@@ -17,15 +17,15 @@
     "holding_symbol": "PDC",
     "holding_qty": 199,
     "avg_price": 0.8393,
-    "current_price": 0.734,
-    "profit_rate": -12.55,
-    "updated_kst": "02:16:56"
+    "current_price": 0.7456,
+    "profit_rate": -11.16,
+    "updated_kst": "02:17:36"
   },
   "stats": {
-    "today_total": 11,
+    "today_total": 12,
     "today_nblm_count": 0,
     "today_buy": 5,
-    "today_false": 6,
+    "today_false": 7,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 32,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795799861291_RETO_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "12:17:41",
+      "time_kst": "02:17:41",
+      "symbol": "RETO",
+      "company_name": "RETO",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 시가 갭상승 과열 차단(시가 +32.2% > +30%)",
+      "catalyst_hint": "⛔ 탈락 사유: 시가 갭상승 과열 차단(시가 +32.2% > +30%)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: RETO (NASDAQ)\n- 탈락 사유: 시가 갭상승 과열 차단(시가 +32.2% > +30%)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795796189779_PDC_BUY",
       "track": "TRACK3",
@@ -2502,26 +2523,6 @@
       "reason": "확정 상업수주 전무한 단순 AACR 심포지엄 전임상(TROP2) 데이터 학회 발표 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Genprex Presents Preclinical Data Identifying TROP2 as a Potential Predictive Biomarker for Reqorsa® Gene Therapy in Lung Cancer",
       "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 GNPX (Genprex, Inc.) 2026-11-19 07:07:26 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 9, 10].\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 -8.6% 및 거래대금 $0)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: GNPX) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 9].\n실질 시가총액: 약 $2.28M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 체급 관문 통과) [cite: 10].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 학술 심포지엄 전임상 데이터 발표 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 기업 가치를 폭등시키는 신규 상업 수주가 아니라, 2026 EORTC-NCI-AACR 분자표적 및 암치료 심포지엄에서 폐암 환자의 TROP2 바이오마커와 Reqorsa® 유전자 치료제 반응성 관련 **전임상(Preclinical) 학술 포스터 데이터를 발표했다는 단순 연구결과 홍보(Presents Preclinical Data at Symposium)**에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 -8.6% 출회):\n전일 종가 $1.7100 대비 현재가 $1.7100 (+0.00%).\n당일 프리마켓 최고가 $1.8700 (+9.36%)까지 반짝 띄운 후 학술 심포지엄 전임상 발표 실체가 확인되며 고점 대비 -8.6% 밀려 보합권으로 주저앉음.\n당일 누적 거래대금 $0 USD (체결 집계 정체).\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다 [cite: 10].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Genprex Presents Preclinical Data Identifying TROP2 as a Potential Predictive Biomarker for Reqorsa® Gene Therapy in Lung Cancer\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '학술 학회 전임상(동물/세포) 데이터 발표' 언론플레이 (Preclinical Symposium PR):\n원문 본문에 *\"Genprex Presents Preclinical Data Identifying TROP2 as a Potential Predictive Biomarker for Reqorsa® Gene Therapy in Lung Cancer... Data Presented at the 2026 EORTC-NCI-AACR Symposium Show TROP2 Levels May Help Predict Which Tumors Respond to Reqorsa® and Modulating TROP2 May Enhance Efficacy\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 13].\n임상 최종 승인(FDA Approval)도 아닌 초기 학술대회 전임상 연구 초록/데이터 발표에 불과하며, 실제 매출 발생까지 수년 이상의 시간과 천문학적 개발비가 소요되는 단계입니다 (족보집 216번 PPCB 췌장암 전임상 발표, 285번 CANF ESMO 학회 발표 오답 패턴과 100% 동일).\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 13].\n심사 헌법 제3조 ④항 위배 및 장전 -8.6% 윗꼬리 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 학회 발표/전임상 데이터 제시는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $1.8700까지 반짝 띄운 후 실체 없는 학술 발표임을 확인하고 고점 대비 -8.6% 밀리며 보합(+0.00%)으로 주저앉은 전형적인 윗꼬리 소멸 패턴입니다.\n3. 최종 심사 및 결재 판정\nGNPX의 당일 공식 PR은 확정 상업 수주나 현금 선급금이 전무한 단순 2026 EORTC-NCI-AACR 심포지엄 전임상 데이터 발표 홍보물에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하며 장전 고점 대비 -8.6% 윗꼬리 소멸 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: GNPX 처리합니다 [cite: 13].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 11].\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: GNPX NOTES:\n[GNPX] 확정 상업수주 전무한 단순 AACR 심포지엄 전임상(TROP2) 데이터 학회 발표 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX, EVGN에 이어 GNPX까지 총 10개 종목 전수가 껍데기 IR, 단순 보조금, 부채 리파이낸싱, 주식병합, 인터뷰 영상, 실적 발표, 학회 전임상 발표 등으로 정밀 감별되어 안전하게 전량 방어되었습니다. 이제 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 11, 13].",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795090037531_EVGN_FALSE",
-      "date_et": "2026-11-19",
-      "weekday_kr": "목",
-      "time_et": "07:07:17",
-      "time_kst": "21:07:17",
-      "symbol": "EVGN",
-      "company_name": "EVGN",
-      "exchange": "ND",
-      "price": 0.3476,
-      "gain_pct": -0.69,
-      "mcap_m": 6.28,
-      "decision": "FALSE",
-      "elapsed_sec": 69.5,
-      "reason": "확정 상업수주 전무한 단순 3분기 실적 발표 및 내부 R&D 진행 경과 요약 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] Evogene Reports Financial Results for the Third Quarter and First Nine Months of 2026, Highlighting Progress in Two Internal Development Programs",
-      "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 EVGN (Evogene Ltd.) 2026-11-19 07:06:07 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다 [cite: 9, 10].\n1. 체급 & 실시간 시세 수급 팩트 (장전 음봉 및 거래대금 극소)\n상장 거래소 및 체급: The NASDAQ Capital Market (Nasdaq: EVGN) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 통과 [cite: 9].\n실질 시가총액: 약 $6.28M USD (연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과) [cite: 10].\n체급 대비 규모 (상업 수주/현금 선급금 0원 및 통상 분기 실적 발표 적발):\n당일 PR 내 백만 달러($M) 이상 신규 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주액 0원).\n발표된 실체의 본질은 기업 가치를 폭등시키는 신규 상업 수주가 아니라, 통상적인 **2026년 3분기 및 9개월 실적 발표 및 내부 R&D 프로그램 진행 경과 요약(Reports Financial Results for Q3 and First Nine Months of 2026)**에 불과합니다.\n실시간 체결가 및 수급 (장전 음봉 정체):\n전일 종가 $0.3500 대비 현재가 $0.3476 (-0.69%), 당일 최고가 $0.3764 (고점 대비 -7.7%).\n당일 누적 거래대금 $1,224 USD (약 1.2천 달러 수준의 극소액 프리마켓 거래).\n당일 SEC 공시 현황: 2026-11-19 [6-K] 제출 확인 (외국기업 분기 실적 보고서 접수) [cite: 10].\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Evogene Reports Financial Results for the Third Quarter and First Nine Months of 2026, Highlighting Progress in Two Internal Development Programs\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '분기 정기 실적 발표 + 내부 R&D 업데이트' PR:\n원문 본문에 *\"Evogene Ltd. (Nasdaq: EVGN) (TASE: EVGN)... Reports Financial Results for the Third Quarter and First Nine Months of 2026, Highlighting Progress in Two Internal Development Programs... Company advances its internally developed drug discovery program targeting acute graft-versus-host disease (aGVHD) and AgPlenus' fungicide discovery programs...\"*라고 명시되어 있습니다.\n이는 회사 금고로 직통 유입되는 신규 확정 계약금이나 거액 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다 [cite: 13].\n3분기 재무제표 공시와 함께 자사 내부 파이프라인(급성 이식편대숙주병, 살균제 개발)의 개발 현황을 덧붙인 전형적인 정기 실적 발표(Earnings Release) 및 연구개발 진행 상황 홍보물에 불과합니다 (족보집 47번 MNTK, 52번 HRTX, 143번 TWIN 등의 단순 분기 실적 발표 오답 사례와 동일).\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다 [cite: 10, 13].\n심사 헌법 제3조 ④항 위배 (단순 실적/R&D 업데이트 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 분기 실적 발표 및 R&D 진행 상황 제시는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n장전 프리마켓에서 $0.3764까지 반짝 띄운 후 실체 없는 실적 발표임을 확인하고 고점 대비 -7.7% 밀리며 마이너스권 음봉(-0.69%)으로 주저앉은 전형적인 소멸 패턴입니다.\n3. 최종 심사 및 결재 판정\nEVGN의 당일 공식 PR 및 6-K는 확정 상업 수주나 현금 선급금이 전무한 단순 3분기 실적 발표 및 내부 R&D 진행 경과 요약에 불과하여 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금)에 절대 미달하며 마이너스권 음봉 상태이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: EVGN 처리합니다 [cite: 13].\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다 [cite: 11].\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: EVGN NOTES:\n[EVGN] 확정 상업수주 전무한 단순 3분기 실적 발표 및 내부 R&D 진행 경과 요약 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG, LASE, AETR, SEAT, YMAT, MRKR, SMTK, KPRX에 이어 EVGN까지 총 9개 종목 전수가 껍데기 IR, 연구 보조금, 부채 리파이낸싱, 단순 주식병합, CEO 인터뷰 영상, 정기 실적 발표 등으로 정밀 감별되어 안전하게 전량 방어되었습니다. 이제 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다 [cite: 11, 13].",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
