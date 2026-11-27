@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-28 02:56:50",
-  "updated_at_et": "2026-11-27 12:56:50",
-  "updated_epoch_ms": 1795802210904,
+  "updated_at_kst": "2026-11-28 02:57:16",
+  "updated_at_et": "2026-11-27 12:57:16",
+  "updated_epoch_ms": 1795802236700,
   "analyzing": {
     "active": false
   },
@@ -12,14 +12,14 @@
   "account": {
     "session_label": "정규장실전",
     "watchlist_count": 0,
-    "orderable_usd": 174.55,
+    "orderable_usd": 161.99,
     "daily_done": false,
-    "holding_symbol": "PDC",
-    "holding_qty": 199,
-    "avg_price": 0.8393,
-    "current_price": 0.781,
-    "profit_rate": -6.95,
-    "updated_kst": "02:56:46"
+    "holding_symbol": "",
+    "holding_qty": 0,
+    "avg_price": 0.0,
+    "current_price": 0.0,
+    "profit_rate": 0.0,
+    "updated_kst": "02:57:16"
   },
   "stats": {
     "today_total": 13,
@@ -94,7 +94,7 @@
       "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 실시간 포착]\n- 종목: PDC (NASDAQ) | 시총: $5.69M\n- 시가 대비: +31.39% ($0.6388 -> $0.8393)\n- 전일 종가 대비: +61.87% (전일 $0.5185)\n- 1분 거래대금: $214.0K | 누적: $1.97M\n- 전략 집행: 즉시 매수 및 +51% 그물망 익절 / -20% 손절",
       "engine": "트랙3 흥칫뿡",
-      "trade_action": "🚀 실전매수 체결 완료 (199주 @ 평단 $0.8393)",
+      "trade_action": "🛡️ 손절 청산: 199주 | 매수 $0.8393 → 매도 $0.7806 (-6.99% / -11.68$)",
       "catalyst_type": "NO_NEWS"
     },
     {
