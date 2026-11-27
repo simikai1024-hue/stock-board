@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 22:16:06",
-  "updated_at_et": "2026-11-27 08:16:06",
-  "updated_epoch_ms": 1795785366281,
+  "updated_at_kst": "2026-11-27 22:17:04",
+  "updated_at_et": "2026-11-27 08:17:04",
+  "updated_epoch_ms": 1795785424919,
   "analyzing": {
     "active": false
   },
@@ -19,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:15:52"
+    "updated_kst": "22:16:51"
   },
   "stats": {
-    "today_total": 5,
+    "today_total": 6,
     "today_nblm_count": 0,
     "today_buy": 3,
-    "today_false": 2,
+    "today_false": 3,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 30,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795785420443_UFG_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "08:17:00",
+      "time_kst": "22:17:00",
+      "symbol": "UFG",
+      "company_name": "UFG",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | VWAP 하회 차단(현재 $2.870 < VWAP $2.916)",
+      "catalyst_hint": "⛔ 탈락 사유: VWAP 하회 차단(현재 $2.870 < VWAP $2.916)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: UFG (NASDAQ)\n- 탈락 사유: VWAP 하회 차단(현재 $2.870 < VWAP $2.916)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795785364685_DCX_FALSE",
       "track": "TRACK3",
@@ -2494,26 +2515,6 @@
       "reason": "확정 상업수주 전무 및 11/09·11/11 미쓰비시 케미컬 탄소섬유 협력 1주일 만의 단순 쪼개기 재탕 홍보 PR로 헌법 3조 1·4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 YMAT (J-Star Holding Co., Ltd.) 2026-11-19 07:01:43 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.09M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주 달러 금액 0원).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 상업 공급 수주가 아니라, 단순 미쓰비시 케미컬(Mitsubishi Chemical)을 향후 미국 공장 가동 시 1차 공급업체(primary supplier)로 지정하고 협력을 확장한다는 **금액 미기재 전략적 제휴/원자재 공급망 협력 홍보(Expands Mitsubishi Chemical Partnership)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $0.8701 대비 현재가 $0.9052 (+4.03%), 당일 최고가 $0.9290 (고점 대비 -2.6%).\n당일 누적 거래대금 $7,659 USD (약 7천 달러 수준의 극소액 프리마켓 거래).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K/8-K 제출 유예 규정 구간이므로 당일 SEC 공시 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '원자재 공급선 지정 및 R&D 협력' 언론플레이:\n원문 본문에 *\"today announced an expansion of its strategic collaboration with Mitsubishi Chemical, establishing Mitsubishi Chemical as a primary supplier of specialty carbon fiber materials for J-Star’s planned U.S. manufacturing operations...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n향후 휴스턴에 설립할 무인기(UAV) 공장에 미쓰비시 케미컬의 탄소섬유 원자재를 조달받고 공동 R&D를 진행하겠다는 전형적인 금액 미기재 공급망 협력/MOU성 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 9일/11일 미쓰비시 방문·파트너십 PR에 이은 1주일 만의 동일 파트너사 쪼개기 재탕 (Spin PR):\n서류철의 과거 180일 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 09일에 GlobeNewswire를 통해 *\"J-Star Holding Co., Ltd. Highlights U.S. Operational Progress with Delegation Visit from Global Tier 1 Carbon Fiber Manufacturer\"*를 발표했고\n, 이어 11월 11일에도 *\"Tier 1 Carbon Fiber Supplier Partnership\"*을 홍보했습니다.\n동일한 글로벌 1차 탄소섬유 제조사(미쓰비시 케미컬)와의 공장 실사 방문 및 협력 내용을 제품 개발, 파트너십 확장이라는 이름으로 제목만 바꿔가며 1주일 간격으로 우려먹는 **전형적인 상습 쪼개기 재탕 보도자료(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (쪼개기 재탕 및 금액 미기재 제휴 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 파트너십의 세부 연장/재홍보 쪼개기 재탕' 및 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n3. 최종 심사 및 결재 판정\nYMAT의 당일 공식 PR은 확정된 상업 수주나 현금 선급금이 전무하며, 지난 11/09 및 11/11 발표된 글로벌 1차 탄소섬유 공급사(미쓰비시 케미컬) 협업의 1주일 만의 단순 쪼개기 재탕 홍보물에 불과하므로 심사 헌법 제3조 ①·④항에 의거 FORCE_BLOCK: YMAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: YMAT NOTES:\n[YMAT] 확정 상업수주 전무 및 11/09·11/11 미쓰비시 케미컬 탄소섬유 협력 1주일 만의 단순 쪼개기 재탕 홍보 PR로 헌법 3조 1·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(시총 6%대 소액 실증 보조금), SEAT(단순 부채 구조조정 리파이낸싱)에 이어 YMAT(미쓰비시 케미컬 공급망 협력 쪼개기 재탕)까지 5개 종목 연속으로 껍데기 IR 및 재탕이 완벽히 식별되어 전량 안전하게 방어되었습니다\n. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795088094628_SEAT_FALSE",
-      "date_et": "2026-11-19",
-      "weekday_kr": "목",
-      "time_et": "06:34:54",
-      "time_kst": "20:34:54",
-      "symbol": "SEAT",
-      "company_name": "SEAT",
-      "exchange": "ND",
-      "price": 1.37,
-      "gain_pct": 7.03,
-      "mcap_m": 15.7,
-      "decision": "FALSE",
-      "elapsed_sec": 36.5,
-      "reason": "확정 상업수주 전무 및 잔여부채 0원 청소 없는 단순 채권단 부채재조정(TSA/리파이낸싱) 협약 PR로 헌법 2조 미달 및 장전 고점대비 -29.7% 폭락 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 SEAT (Vivid Seats Inc.) 2026-11-19 06:34:18 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트 (장전 윗꼬리 -29.7% 설거지 폭탄 출회)\n실질 시가총액: 약 $15.70M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $273.00M 수치의 치명적 본질 적발):\n언뜻 시총 대비 1,700%를 초과하는 대규모 자본재조정(Recapitalization) 숫자가 감지되었으나, 본문 직독 결과 외부 고객사의 확정 상업 수주/현금 선급금(AIMD형)이 아니라 **기존 채권단(Lenders)과의 채무 재조정 지원 계약(Transaction Support Agreement, TSA)**에 불과합니다.\n순부채 $232M 감축 및 신규 1순위 기간대출(First Lien Term Loans) $66M 조달, 만기 2032년 연장을 골자로 하는 전형적인 한계기업의 부채 리파이낸싱·구조조정 협약입니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -29.7% 대폭락 덤핑):\n전일 종가 $1.2800 대비 현재가 $1.3700 (+7.03%).\n직전 프리마켓에서 **최고가 $1.9500 (+52.3%)**까지 띄운 뒤 시장이 채무조정/리파이낸싱 실체를 확인하자마자 고점 대비 -29.7% 폭락하며 장대 윗꼬리 덤핑 매물이 쏟아져 내렸습니다.\n당일 누적 거래대금은 $7,188 USD 수준으로 극소액입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 06:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 채권단과의 채무 구조조정 협약 (TSA / Recapitalization PR):\n원문 본문에 *\"Vivid Seats Inc. (Nasdaq: SEAT)... entered into a Transaction Support Agreement (the 'TSA') with an ad hoc group of lenders representing a majority of its term loans... Transaction Reduces Net Debt by $232 Million, Provides $66 Million of New First Lien, First Out Term Loans, and Extends Term Loan Maturities to 2032\"*라고 명시되어 있습니다.\n이는 회사 금고로 유입되어 당장 순이익으로 꽂히는 창사 최대 수주(AIMD형)가 전혀 아닙니다.\n과도한 차입부채를 만기 연장하고 신규 대출을 받아 기존 빚을 돌려막는 전형적인 재무 위기 기업의 부채 구조조정(Debt Restructuring) 협약입니다.\nCLRO·ONFO형 '완전 무차입 턴어라운드' 기준 미달 (헌법 제2조 ②항 불부합):\n연구소 심사 헌법 제2조 ②항의 재무 턴어라운드(ONFO·CLRO형) 승격 요건은 **\"나스닥 상장유지 자기자본 요건 충족(상폐위기 졸업) + 차입부채/전환사채 전액 상환 및 100% 출자전환으로 잔여 부채 0원 달성\"**이 필수 조건입니다.\n반면 SEAT의 자본재조정은 부채를 완전히 0원으로 청소하는 것이 아니라, 순부채 일부 감축 후에도 여전히 수억 달러 규모의 1순위 담보대출(Term Loans) 채무가 남아 만기만 2032년으로 유예시키는 구조입니다.\n따라서 잔여 부채 0원의 완전 무차입 오버행 소멸 공식에 절대 해당하지 않습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 및 장전 -29.7% 덤핑 (100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 채무 재조정/만기 연장/부채 리파이낸싱 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (족보집 506번 CAPS 전환사채 만기연장, 520번 TUSK 텀론 체결 오답 패턴과 일치).\n장전 프리마켓에서 $1.9500까지 반짝 띄운 뒤 시장이 빚 돌려막기 실체를 확인하자마자 고점 대비 -29.7% 폭락 음봉으로 내리꽂힌 전형적인 설거지 차트입니다.\n3. 최종 심사 및 결재 판정\nSEAT의 당일 공식 PR은 확정된 상업 매출 수주나 현금 선급금이 전무하고, 채권단과의 차입부채 만기 연장 및 신규 텀론 조달을 통한 부채 돌려막기 재조정 협약에 불과하여 헌법 제2조(AIMD/CLRO형) 요건에 절대 미달하며, 장전 최고가 대비 -29.7% 폭락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SEAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: SEAT NOTES:\n[SEAT] 확정 상업수주 전무 및 잔여부채 0원 청소 없는 단순 채권단 부채재조정(TSA/리파이낸싱) 협약 PR로 헌법 2조 미달 및 장전 고점대비 -29.7% 폭락 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(시총 6%대 소액 정부 실증 보조금)에 이어 SEAT(단순 부채 구조조정 리파이낸싱 및 -29.7% 윗꼬리 덤핑)까지 4개 종목 연속으로 껍데기 IR 및 비상업성 협약이 완벽히 식별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
