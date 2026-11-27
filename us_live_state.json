@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 22:45:11",
-  "updated_at_et": "2026-11-27 08:45:11",
-  "updated_epoch_ms": 1795787111252,
+  "updated_at_kst": "2026-11-27 22:45:39",
+  "updated_at_et": "2026-11-27 08:45:39",
+  "updated_epoch_ms": 1795787139438,
   "analyzing": {
     "active": false
   },
@@ -19,13 +19,13 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:45:06"
+    "updated_kst": "22:45:27"
   },
   "stats": {
-    "today_total": 6,
+    "today_total": 7,
     "today_nblm_count": 0,
     "today_buy": 3,
-    "today_false": 3,
+    "today_false": 4,
     "today_hardcut": 0,
     "total_verdicts": 150,
     "total_buy": 30,
@@ -33,6 +33,27 @@
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795787134775_NUR_FALSE",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "08:45:34",
+      "time_kst": "22:45:34",
+      "symbol": "NUR",
+      "company_name": "NUR",
+      "exchange": "ND",
+      "price": 0.0,
+      "gain_pct": 0.0,
+      "mcap_m": 0.0,
+      "decision": "FALSE",
+      "elapsed_sec": 0.2,
+      "reason": "흥칫뿡 포착·탈락 | 유통주식수 과다(12.93M주 > 10.0M주, 기준:Float)",
+      "catalyst_hint": "⛔ 탈락 사유: 유통주식수 과다(12.93M주 > 10.0M주, 기준:Float)",
+      "full_report": "[키움 2029 '흥 칫 뿡' 포착 → 내부 필터 탈락]\n- 종목: NUR (NASDAQ)\n- 탈락 사유: 유통주식수 과다(12.93M주 > 10.0M주, 기준:Float)",
+      "engine": "트랙3 흥칫뿡",
+      "trade_action": "🚀 트랙3 흥칫뿡 즉시 포착!"
+    },
     {
       "id": "v_1795785420443_UFG_FALSE",
       "track": "TRACK3",
@@ -2495,26 +2516,6 @@
       "reason": "상업 수주 전무한 단순 CPRIT 텍사스 암연구원 임상 2상 연구 보조금(Grant) 수령 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study",
       "full_report": "[달의검 핵심 개정한] 미국장 거래소 필터 헌장, [달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 MRKR (Marker Therapeutics, Inc.) 2026-11-19 07:02:43 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n거래소 적격성: The NASDAQ Capital Market (Nasdaq: MRKR) 상장사로 거래소 필터 헌장 제1조(NASDAQ/NYSE American 전용) 합격.\n실질 시가총액: 약 $15.84M USD (연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $16.20M 수치의 치명적 본질 적발):\n언뜻 시총($15.84M) 대비 102.3%에 달하는 거액의 자금 조달로 보이지만, 이는 상업 매출이 폭발하는 고객사 수주(AIMD형)나 빅파마 독점 기술이전 계약이 아니라 **\"텍사스 암예방연구원(CPRIT)으로부터 림프종 임상 2상(APOLLO Study) 연구비 지원 명목으로 선정된 연구개발 정부/공공 보조금(CPRIT Grant)\"**에 불과합니다.\n실시간 체결가 및 수급 (장전 윗꼬리 매물 출회):\n전일 종가 $0.8532 대비 현재가 $0.9499 (+11.33%).\n당일 프리마켓 최고가 $1.0100 (+18.4%)을 터치한 후 고점 대비 -6.0% 밀리며 차익 실현 윗꼬리 출회 중.\n당일 누적 거래대금 $9,074 USD (약 9천 달러 수준의 극소액 프리장 수급).\n당일 SEC 공시 현황: 2026-11-19 [8-K] (Item 8.01, 9.01) 제출 확인 (당일 배포된 보도자료를 단순 첨부한 기타 공시).\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '임상 2상 R&D 비희석 연구 보조금' 언론플레이 (Grant PR):\n원문 본문에 *\"Marker Therapeutics Awarded $16.2 Million CPRIT Grant to Advance MT-601 in Phase 2 APOLLO Study... Highly competitive grant award provides significant non-dilutive funding to support Phase 2 development of MT-601 in CAR-relapsed lymphoma\"*라고 명시되어 있습니다.\n이는 회사 금고로 유입되어 당장 기업 가치와 주당순이익(EPS)을 폭발시키는 확정 공급 계약이나 거액의 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n텍사스 주정부 산하 기관(CPRIT)의 프로젝트성 연구비 지원(Grant)으로, 지정된 임상 2상 시험 진행 경비로만 단계별 소진되는 전형적인 바이오 연구개발 보조금일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (비상업 연구 보조금 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 정부/기관 보조금(Grant) 수령 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (오늘 아침 직전 차단된 AETR의 C$2.0M 주정부 연료혁신기금 보조금과 본질적으로 동일한 유형).\n장전 프리마켓에서 $1.0100까지 반짝 띄운 뒤 시장이 단순 임상 연구비 지원임을 확인하고 고점 대비 -6.0% 밀리며 매물이 출회되고 있는 전형적인 윗꼬리 패턴입니다.\n3. 최종 심사 및 결재 판정\nMRKR의 당일 공식 PR 및 8-K는 상업 수주나 현금 선급금이 전무한 단순 텍사스주 암연구원(CPRIT)의 임상 2상 연구비 지원 보조금(Grant) 수령에 불과하여, 헌법 제2조 ①항(AIMD형 창사 최대 수주+선급금) 요건에 절대 미달하고 장전 고점 대비 -6.0% 윗꼬리 출회 중이므로 심사 헌법 제3조 ④항에 의거 FORCE_BLOCK: MRKR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: MRKR NOTES:\n[MRKR] 상업 수주 전무한 단순 CPRIT 텍사스 암연구원 임상 2상 연구 보조금(Grant) 수령 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(소액 정부 실증 보조금), SEAT(단순 부채 구조조정 리파이낸싱), YMAT(미쓰비시 케미컬 공급망 협력 재탕)에 이어 MRKR(단순 임상 R&D 보조금 수령)까지 총 6개 종목 전수가 실체적 상업 매출 기폭제 결여로 감별되어 전량 안전하게 방어되었습니다. 이제 09:30 ET 본장 개장까지 약 2시간 27분 남았습니다. 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795089756983_YMAT_FALSE",
-      "date_et": "2026-11-19",
-      "weekday_kr": "목",
-      "time_et": "07:02:36",
-      "time_kst": "21:02:36",
-      "symbol": "YMAT",
-      "company_name": "YMAT",
-      "exchange": "ND",
-      "price": 0.9052,
-      "gain_pct": 4.03,
-      "mcap_m": 4.09,
-      "decision": "FALSE",
-      "elapsed_sec": 53.7,
-      "reason": "확정 상업수주 전무 및 11/09·11/11 미쓰비시 케미컬 탄소섬유 협력 1주일 만의 단순 쪼개기 재탕 홍보 PR로 헌법 3조 1·4항 위배 전량 차단",
-      "catalyst_hint": "[당일 PR] J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 YMAT (J-Star Holding Co., Ltd.) 2026-11-19 07:01:43 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $4.09M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 및 $15.0M 이하 초소형 품절주 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주 달러 금액 0원).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 상업 공급 수주가 아니라, 단순 미쓰비시 케미컬(Mitsubishi Chemical)을 향후 미국 공장 가동 시 1차 공급업체(primary supplier)로 지정하고 협력을 확장한다는 **금액 미기재 전략적 제휴/원자재 공급망 협력 홍보(Expands Mitsubishi Chemical Partnership)**에 불과합니다.\n실시간 체결가 및 수급:\n전일 종가 $0.8701 대비 현재가 $0.9052 (+4.03%), 당일 최고가 $0.9290 (고점 대비 -2.6%).\n당일 누적 거래대금 $7,659 USD (약 7천 달러 수준의 극소액 프리마켓 거래).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K/8-K 제출 유예 규정 구간이므로 당일 SEC 공시 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 07:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"J-Star Holding Expands Mitsubishi Chemical Partnership to Advance U.S. UAV Manufacturing and Domestic Carbon Fiber Supply Chain\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '원자재 공급선 지정 및 R&D 협력' 언론플레이:\n원문 본문에 *\"today announced an expansion of its strategic collaboration with Mitsubishi Chemical, establishing Mitsubishi Chemical as a primary supplier of specialty carbon fiber materials for J-Star’s planned U.S. manufacturing operations...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n향후 휴스턴에 설립할 무인기(UAV) 공장에 미쓰비시 케미컬의 탄소섬유 원자재를 조달받고 공동 R&D를 진행하겠다는 전형적인 금액 미기재 공급망 협력/MOU성 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 9일/11일 미쓰비시 방문·파트너십 PR에 이은 1주일 만의 동일 파트너사 쪼개기 재탕 (Spin PR):\n서류철의 과거 180일 이력 대조 결과, 회사는 불과 일주일 전인 2026년 11월 09일에 GlobeNewswire를 통해 *\"J-Star Holding Co., Ltd. Highlights U.S. Operational Progress with Delegation Visit from Global Tier 1 Carbon Fiber Manufacturer\"*를 발표했고\n, 이어 11월 11일에도 *\"Tier 1 Carbon Fiber Supplier Partnership\"*을 홍보했습니다.\n동일한 글로벌 1차 탄소섬유 제조사(미쓰비시 케미컬)와의 공장 실사 방문 및 협력 내용을 제품 개발, 파트너십 확장이라는 이름으로 제목만 바꿔가며 1주일 간격으로 우려먹는 **전형적인 상습 쪼개기 재탕 보도자료(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ①·④항 위배 (쪼개기 재탕 및 금액 미기재 제휴 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ①항의 '기발표 파트너십의 세부 연장/재홍보 쪼개기 재탕' 및 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/협력 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 직격합니다.\n3. 최종 심사 및 결재 판정\nYMAT의 당일 공식 PR은 확정된 상업 수주나 현금 선급금이 전무하며, 지난 11/09 및 11/11 발표된 글로벌 1차 탄소섬유 공급사(미쓰비시 케미컬) 협업의 1주일 만의 단순 쪼개기 재탕 홍보물에 불과하므로 심사 헌법 제3조 ①·④항에 의거 FORCE_BLOCK: YMAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: YMAT NOTES:\n[YMAT] 확정 상업수주 전무 및 11/09·11/11 미쓰비시 케미컬 탄소섬유 협력 1주일 만의 단순 쪼개기 재탕 홍보 PR로 헌법 3조 1·4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(시총 6%대 소액 실증 보조금), SEAT(단순 부채 구조조정 리파이낸싱)에 이어 YMAT(미쓰비시 케미컬 공급망 협력 쪼개기 재탕)까지 5개 종목 연속으로 껍데기 IR 및 재탕이 완벽히 식별되어 전량 안전하게 방어되었습니다\n. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
