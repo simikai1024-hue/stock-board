@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 21:09:49",
-  "updated_at_et": "2026-11-27 07:09:49",
-  "updated_epoch_ms": 1795781389271,
+  "updated_at_kst": "2026-11-27 21:10:47",
+  "updated_at_et": "2026-11-27 07:10:47",
+  "updated_epoch_ms": 1795781447538,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:09:44"
+    "updated_kst": "21:10:44"
   },
   "stats": {
-    "today_total": 0,
+    "today_total": 1,
     "today_nblm_count": 0,
-    "today_buy": 0,
+    "today_buy": 1,
     "today_false": 0,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 27,
-    "total_false": 123,
+    "total_buy": 28,
+    "total_false": 122,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795781439581_RETO_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "07:10:39",
+      "time_kst": "21:10:39",
+      "symbol": "RETO",
+      "company_name": "RETO",
+      "exchange": "ND",
+      "price": 5.21,
+      "gain_pct": 31.9,
+      "mcap_m": 37.98,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +31.9% · 전일대비 +36.4% (VWAP $4.86↑) | 1분대금 $234K | 누적 $4.42M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: RETO (NASDAQ) | 시총: $37.98M\n- 시가 대비: +31.90% ($3.9500 -> $5.2100)\n- 전일 종가 대비: +36.39% (전일 $3.8200)\n- 1분 거래대금: $234.4K | 누적: $4.42M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
+      "engine": "트랙3 모의",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_1795619332435_TOPP_BUY",
       "track": "TRACK3",
@@ -2488,26 +2509,6 @@
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 교차 대조하여 진행한 JG (Aurora Mobile Limited) 2026-11-19 05:01:17 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $23.82M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (구체적 계약 달러 금액 전무).\n발표된 실체의 본질은 확정 매출이 일시에 꽂히는 공급 계약이 아니라, 단순 산하 브랜드(MoonFox Data)의 중국 거대언어모델(LLM) 사용량 데이터 세트를 글로벌 투자자와 리서치 기업에 공개/제공한다는 **금액 미기재 데이터 상품 출시·홍보성 언론플레이(MoonFox Data Opens Continuous China LLM Usage Data to Global Investors and Research Firms)**에 불과합니다.\n실시간 체결가 및 수급 (극단적 거래량 0 바닥 구간):\n전일 종가 $5.1300 대비 현재가 $5.1300 (+0.00%), 당일 최고가 $5.5400 (고점 대비 -7.4%).\n당일 누적 거래대금 $0 USD (프리마켓 거래 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 6-K 제출 유예 규정 구간이므로 당일 6-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 05:00:00 ET) 공식 PR 원문 분석:\nPR 제목: \"MoonFox Data Opens Continuous China LLM Usage Data to Global Investors and Research Firms\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '자체 데이터 세트 출시/홍보' 언론플레이:\n원문 본문에 *\"MoonFox Data, the full-scenario data insight and analytics specialist under Aurora Mobile (NASDAQ: JG), today set out how its China large language model (LLM) usage dataset gives global investors and research firms a continuous view of how much each leading Chinese model is actually being used...\"*라고 명시되어 있습니다.\n이는 회사 금고로 거액의 현금 선급금이 꽂히는 본계약(AIMD형)이 전혀 아닙니다.\n단지 산하 데이터 분석 브랜드가 중국 LLM 사용량 트래킹 데이터를 기관 및 투자자들에게 API 형태로 제공한다는 전형적인 금액 미기재 자사 서비스 출시/마케팅 보도자료에 불과합니다.\n외부 고객사로부터 당장 회사 금고로 유입되는 확정 계약금, 거액 현금 선급금 등 실체적 신규 달러($) 현금 유입 계약이 원문 어디에도 단 1달러도 없습니다.\n11월 12일 실적 부진 및 가이던스 하향 직후의 상습 AI 테마 편승 언론플레이 (Spin PR):\n과거 이력 대조 결과 회사는 불과 일주일 전인 2026년 11월 12일에 3분기 실적 발표(6-K)를 내며 연간 가이던스를 하향(lowers FY guidance)한 바 있습니다.\n또한 과거 180일 동안 \"EngageLab Brings AI Beyond the Send Button\"(10/23), \"Modellix.ai Brings Unified AI Model Access\"(10/30), \"GPTbots.ai Enters Partnership\"(10/15) 등 실질 매출과 무관하게 'AI' 키워드만 붙여 보도자료를 남발하던 전형적인 중국계 소형주의 AI 테마 편승 언론플레이(Spin PR)의 연장선입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 서비스 출시 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 제휴/특허/서비스 출시/마케팅 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 단순 산하 브랜드의 중국 LLM 사용량 데이터 제공 사실을 알리는 마케팅성 서비스 홍보물에 불과하여 1급 확정 기폭제 기준(AIMD형)에 절대 미달하므로\n, 심사 헌법 제3조에 의거 FORCE_BLOCK: JG 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: JG NOTES:\n[JG] 확정 수주 전무한 산하 MoonFox Data 중국 LLM 사용량 데이터셋 단순 출시 홍보 PR로 헌법 3조 4항(금액 미기재) 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 첫 결재 대상이었던 JG는 실체 없는 AI 마케팅 홍보물로 판별되어 안전하게 전량 방어되었습니다\n. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_manual_1795026845937_CLRO",
-      "date_et": "2026-11-18",
-      "weekday_kr": "수",
-      "time_et": "13:34:05",
-      "time_kst": "03:34:05",
-      "symbol": "CLRO",
-      "company_name": "CLRO",
-      "exchange": "ND",
-      "price": 7.35,
-      "gain_pct": -6.66,
-      "mcap_m": 0.0,
-      "decision": "BUY",
-      "elapsed_sec": 0.0,
-      "reason": "계좌 실전 포지션 매매 및 자동 보호 청산 기록",
-      "catalyst_hint": "[실전 체결 기록]",
-      "full_report": "",
-      "engine": "실전 포지션 정산",
-      "trade_action": "🛡️ 손절 청산: 131주 | 매수 $7.8745 → 매도 $6.9750 (-11.42% / -117.83$)"
     }
   ],
   "hardcuts": [
