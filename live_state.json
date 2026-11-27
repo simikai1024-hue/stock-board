@@ -1,11 +1,11 @@
 {
   "date": "2026-11-27",
-  "updated_at": "2026-11-28 00:50:57",
+  "updated_at": "2026-11-28 02:25:47",
   "isi_board": {
-    "updated_at": "2026-11-28 00:50:57",
+    "updated_at": "2026-11-28 02:25:47",
     "updater_source": "GITHUB_CLOUD",
     "theme_date": "2026-11-27",
-    "theme_updated_at": "00:50:57 (☁️깃허브 자동)",
+    "theme_updated_at": "02:25:47 (☁️깃허브 자동)",
     "overnight_holding": {
       "active": true,
       "code": "263860",
@@ -889,7 +889,7 @@
     },
     "index_radar": {
       "today_date": "2026-11-27",
-      "updated_at": "00:50:57 (☁️깃허브 자동)",
+      "updated_at": "02:25:47 (☁️깃허브 자동)",
       "signal_status": "ACTIVE",
       "active_signal": {
         "code": "229200",
@@ -1001,10 +1001,10 @@
         "kospi_inst_eok": 2190,
         "kosdaq_foreign_eok": 2970,
         "kosdaq_inst_eok": 5879,
-        "usdkrw": 1335.5,
-        "usdkrw_chg": -8.5,
-        "nasdaq_pct": 1.59,
-        "sox_pct": 2.56,
+        "usdkrw": 1334.9,
+        "usdkrw_chg": -9.1,
+        "nasdaq_pct": 1.9,
+        "sox_pct": 3.42,
         "macro_dir": "UP",
         "macro_label": "수급·매크로 상승 우호",
         "news_dir": "DN",
@@ -1058,7 +1058,7 @@
           "pair_money_share_pct": 80.9,
           "flow_surge_mult": 1.16
         },
-        "line1": "외국인이 코스피 +1조 1,625억(코스닥 +2,970억) 순매수 유입 중이며, 미 나스닥(+1.59%)·반도체(+2.56%) 및 원/달러 1,335.5원 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
+        "line1": "외국인이 코스피 +1조 1,625억(코스닥 +2,970억) 순매수 유입 중이며, 미 나스닥(+1.90%)·반도체(+3.42%) 및 원/달러 1,334.9원 흐름 속에 시황 뉴스는 '경계·하방 재료 우위' 분위기입니다.",
         "line2": "정방향·인버스 대결에서도 [KODEX 코스닥150] 쪽으로 평소 대비 1.16배 자금이 집중되며 당일 VWAP 상단 체류 100%를 기록 중입니다."
       },
       "backtest_badge": "VWAP·자금 + 외인·환율 + 시황뉴스 3박자 판독",
