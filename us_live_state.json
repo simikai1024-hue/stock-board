@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 23:02:58",
-  "updated_at_et": "2026-11-27 09:02:58",
-  "updated_epoch_ms": 1795788178348,
+  "updated_at_kst": "2026-11-27 23:03:07",
+  "updated_at_et": "2026-11-27 09:03:07",
+  "updated_epoch_ms": 1795788187828,
   "analyzing": {
     "active": false
   },
@@ -19,7 +19,7 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "23:02:43"
+    "updated_kst": "23:03:03"
   },
   "stats": {
     "today_total": 8,
@@ -49,10 +49,11 @@
       "decision": "BUY",
       "elapsed_sec": 0.2,
       "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +31.4% · 전일대비 +23.6% (VWAP $1.98↑) | 1분대금 $317K | 누적 $0.60M | AKAN수준 무뉴스·무공시 통과",
-      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "catalyst_hint": "⚡ 무뉴스 · 무공시 (순수 수급)",
       "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: TWG (NASDAQ) | 시총: $7.86M\n- 시가 대비: +31.42% ($1.5900 -> $2.0896)\n- 전일 종가 대비: +23.64% (전일 $1.6900)\n- 1분 거래대금: $316.7K | 누적: $0.60M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
       "engine": "트랙3 모의",
-      "trade_action": "모의검증 (주문미실행)"
+      "trade_action": "모의검증 (주문미실행)",
+      "catalyst_type": "NO_NEWS"
     },
     {
       "id": "v_1795787134775_NUR_FALSE",
