@@ -1,13 +1,31 @@
 {
   "date": "2026-11-27",
-  "updated_at": "2026-11-27 15:35:22",
+  "updated_at": "2026-11-27 19:33:39",
   "isi_board": {
-    "updated_at": "2026-11-27 15:35:22",
+    "updated_at": "2026-11-27 19:33:39",
     "updater_source": "HOME_PC",
     "theme_date": "2026-11-27",
     "theme_updated_at": "15:35:21",
     "overnight_holding": {
-      "active": false
+      "active": true,
+      "code": "263860",
+      "name": "지니언스",
+      "buy_date": "2026-11-27",
+      "strategy": "ISI_LEADER_OVERNIGHT",
+      "theme_name": "눌림목2파(2일조정·거래량25%)",
+      "rank_type": "방송 1위 메인 대장주",
+      "init_qty": 1,
+      "buy_price": 41000,
+      "vwap_price": 38850,
+      "target_tp_pct": 6.0,
+      "target_sell_px": 43450,
+      "stop_loss_px": 38850,
+      "ambush_sell_ord_no": "",
+      "ambush_stex": "",
+      "ambush_sell_px": 0,
+      "ambush_buy_p": 41000.0,
+      "ambush_init_qty": 1,
+      "weekday_short": "금"
     },
     "top3_themes": [
       {
@@ -258,60 +276,46 @@
       }
     ],
     "pullback_board": {
-      "updated_at": "2026-11-27 15:35:22",
+      "updated_at": "2026-11-27 19:33:39",
       "scan_date": "2026-11-27",
-      "scan_updated_at": "2026-11-27 07:42:26",
+      "scan_updated_at": "2026-11-27 19:33:28",
       "holding": {
-        "active": false
+        "active": true,
+        "code": "263860",
+        "name": "지니언스",
+        "buy_date": "2026-11-27",
+        "strategy": "ISI_LEADER_OVERNIGHT",
+        "theme_name": "눌림목2파(2일조정·거래량25%)",
+        "rank_type": "방송 1위 메인 대장주",
+        "init_qty": 1,
+        "buy_price": 41000,
+        "vwap_price": 38850,
+        "target_tp_pct": 6.0,
+        "target_sell_px": 43450,
+        "stop_loss_px": 38850,
+        "ambush_sell_ord_no": "",
+        "ambush_stex": "",
+        "ambush_sell_px": 0,
+        "ambush_buy_p": 41000.0,
+        "ambush_init_qty": 1,
+        "weekday_short": "금"
       },
       "top5_candidates": [
         {
           "code": "263860",
           "name": "지니언스",
-          "close": 40100,
+          "close": 40950,
           "vwap": 38850,
-          "score": 57.78,
+          "score": 64.79,
           "surge_date": "20261125",
           "surge_gain": 21.0,
           "surge_amt_uk": 4056.0,
-          "days_since": 1,
-          "vol_ratio": 31.6,
-          "today_chg": -4.0,
-          "ma5_gap": 7.6,
-          "theme_name": "눌림목2파(1일조정·거래량32%)",
-          "rank": 1
-        },
-        {
-          "code": "090710",
-          "name": "휴림로봇",
-          "close": 6800,
-          "vwap": 6905,
-          "score": 46.58,
-          "surge_date": "20261124",
-          "surge_gain": 29.9,
-          "surge_amt_uk": 1632.0,
           "days_since": 2,
-          "vol_ratio": 38.3,
-          "today_chg": -8.4,
-          "ma5_gap": 7.1,
-          "theme_name": "눌림목2파(2일조정·거래량38%)",
-          "rank": 2
-        },
-        {
-          "code": "439960",
-          "name": "코스모로보틱스",
-          "close": 4375,
-          "vwap": 4020,
-          "score": 39.96,
-          "surge_date": "20261123",
-          "surge_gain": 29.8,
-          "surge_amt_uk": 345.0,
-          "days_since": 3,
-          "vol_ratio": 28.8,
-          "today_chg": 0.7,
-          "ma5_gap": 2.3,
-          "theme_name": "눌림목2파(3일조정·거래량29%)",
-          "rank": 3
+          "vol_ratio": 25.0,
+          "today_chg": 2.1,
+          "ma5_gap": 6.1,
+          "theme_name": "눌림목2파(2일조정·거래량25%)",
+          "rank": 1
         }
       ],
       "stats": {
@@ -322,6 +326,23 @@
         "total_pnl_krw": 4149
       },
       "trades": [
+        {
+          "status": "HOLDING",
+          "buy_date": "2026-11-27",
+          "buy_weekday": "금",
+          "sell_date": "",
+          "sell_weekday": "",
+          "sell_time": "",
+          "code": "263860",
+          "name": "지니언스",
+          "theme_name": "눌림목2파(2일조정·거래량25%)",
+          "qty": 1,
+          "buy_price": 41000,
+          "sell_price": 43450,
+          "stop_loss_px": 38850,
+          "pnl_pct": 0.0,
+          "pnl_krw": 0
+        },
         {
           "status": "WIN",
           "buy_date": "2026-11-26",
@@ -1132,15 +1153,32 @@
     },
     "trades": [
       {
+        "status": "HOLDING",
+        "buy_date": "2026-11-27",
+        "buy_weekday": "금",
+        "sell_date": "",
+        "sell_time": "",
+        "code": "263860",
+        "name": "지니언스",
+        "theme_name": "눌림목2파(2일조정·거래량25%)",
+        "qty": 1,
+        "buy_price": 41000,
+        "sell_price": 43450,
+        "vwap_price": 38850,
+        "stop_loss_px": 38850,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0
+      },
+      {
         "status": "WIN",
-        "buy_date": "2026-11-26",
-        "buy_weekday": "목",
+        "buy_date": "2026-11-27",
+        "buy_weekday": "금",
         "sell_date": "2026-11-27",
         "sell_weekday": "금",
         "sell_time": "09:07",
         "code": "263860",
         "name": "지니언스",
-        "theme_name": "눌림목2파(1일조정·거래량31%)",
+        "theme_name": "눌림목2파(2일조정·거래량25%)",
         "qty": 1,
         "buy_price": 40050,
         "sell_price": 42450,
@@ -1281,10 +1319,28 @@
       "pnl_pct": 5.78,
       "buy_price": 40050,
       "qty": 1
+    },
+    {
+      "id": "1795775615907_263860_BUY",
+      "type": "BUY",
+      "auto_copy": false,
+      "time": "2026-11-27 19:33:35",
+      "name": "지니언스",
+      "code": "263860",
+      "price": 41000,
+      "flu_rt": 1.61,
+      "val_uk": 0.0,
+      "target_price": 43050,
+      "stop_price": 39750,
+      "ammo_title": "👑 [ISI 종가베팅] 눌림목2파(2일조정·거래량25%) 1등 대장주 | 매수 41,000원(1주) → 익일 +6.0%(43,450원) 매복 타깃 (VWAP 38,850원)",
+      "ammo_date": "2026-11-27",
+      "note": "🌙 익일 +6.0%(43,450원) 그물망 익절 대기 | 방어선 38,850원",
+      "buy_price": 41000,
+      "qty": 1
     }
   ],
   "intraday_ledger": {
-    "updated_at": "2026-11-27 15:35:22",
+    "updated_at": "2026-11-27 19:33:39",
     "stats": {
       "total_closed": 23,
       "win_count": 9,
@@ -1296,6 +1352,23 @@
       "total_pnl_krw": -26098
     },
     "rows": [
+      {
+        "date": "2026-11-27",
+        "weekday": "금요일",
+        "weekday_short": "금",
+        "code": "263860",
+        "name": "지니언스",
+        "buy_price": 41000,
+        "sell_price": 0,
+        "qty": 1,
+        "pnl_pct": 0.0,
+        "pnl_krw": 0,
+        "status": "OPEN",
+        "buy_time": "19:33:35",
+        "sell_time": "",
+        "reason": "👑 [ISI 종가베팅] 눌림목2파(2일조정·거래량25%) 1등 대장주 | 매수 41,000원(1주) → 익일 +6.0%(43,450원) 매복 타깃 (VWAP 38,850원)",
+        "note": "🌙 익일 +6.0%(43,450원) 그물망 익절 대기 | 방어선 38,850원"
+      },
       {
         "date": "2026-11-27",
         "weekday": "금요일",
@@ -1886,7 +1959,7 @@
     ]
   },
   "bap_data": {
-    "updated_at": "2026-11-27 15:35:22",
+    "updated_at": "2026-11-27 19:33:39",
     "stats": {
       "cooked_count": 26,
       "finalized_count": 26,
@@ -5817,7 +5890,7 @@
     ]
   },
   "aftermarket_data": {
-    "updated_at": "2026-11-27 15:35:22",
+    "updated_at": "2026-11-27 19:33:39",
     "deprecated": true,
     "stats": {},
     "days": []
