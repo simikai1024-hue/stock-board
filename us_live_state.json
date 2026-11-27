@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 21:53:22",
-  "updated_at_et": "2026-11-27 07:53:22",
-  "updated_epoch_ms": 1795784002948,
+  "updated_at_kst": "2026-11-27 21:53:39",
+  "updated_at_et": "2026-11-27 07:53:39",
+  "updated_epoch_ms": 1795784019319,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "21:53:20"
+    "updated_kst": "21:53:39"
   },
   "stats": {
-    "today_total": 2,
+    "today_total": 3,
     "today_nblm_count": 0,
-    "today_buy": 1,
+    "today_buy": 2,
     "today_false": 1,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 28,
-    "total_false": 122,
+    "total_buy": 29,
+    "total_false": 121,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795784016654_UFG_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "07:53:36",
+      "time_kst": "21:53:36",
+      "symbol": "UFG",
+      "company_name": "UFG",
+      "exchange": "ND",
+      "price": 2.4924,
+      "gain_pct": 31.87,
+      "mcap_m": 8.09,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +31.9% · 전일대비 +44.9% (VWAP $2.30↑) | 1분대금 $239K | 누적 $1.54M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: UFG (NASDAQ) | 시총: $8.09M\n- 시가 대비: +31.87% ($1.8900 -> $2.4924)\n- 전일 종가 대비: +44.91% (전일 $1.7200)\n- 1분 거래대금: $238.7K | 누적: $1.54M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
+      "engine": "트랙3 모의",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_1795781454060_RETO_FALSE",
       "track": "TRACK3",
@@ -2489,26 +2510,6 @@
       "reason": "확정 상업수주 전무 및 시총 대비 6.1%(C$2M)에 불과한 5대 트럭 시연용 정부 사후환급 보조금 PR로 헌법 2조 미달 및 장전 -8.4% 덤핑 전량 차단",
       "catalyst_hint": "[당일 PR] Aetherion™ to Demonstrate CNG Heavy-Duty, HPDI Powered Trucks, Supported by C$2 Million Funding from Fuel Innovation Fund",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AETR (Aetherion Technologies Inc.) 2026-11-19 06:31:50 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.05M USD (TSX / Nasdaq 동시 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 미달 적발):\n발표된 헤드라인 금액은 C$2.00M (캐나다 달러 약 2백만 달러, 미화 약 $1.42M 상당) 수준.\n이는 실질 시가총액($33.05M) 대비 **단 6.1%**에 불과하여, 연구소 심사 헌법 제2조 ①항의 \"시총 대비 100%+ 창사 최대 수주(AIMD형)\" 기준에 턱없이 미달합니다.\n더 치명적인 것은 이 금액조차 외부 고객사의 확정 매출(상업 발주)이 아니라, 캐나다 앨버타주 감축기금(Emissions Reduction Alberta) 산하의 Fuel Innovation Fund(FIF)로부터 특정 마일스톤 달성 시 지출 경비의 50%를 사후 환급(Refund/Reimbursement)받는 단순 보조금/지원금 협약에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -8.4% 윗꼬리 덤핑):\n전일 종가 $1.6600 대비 현재가 $1.7400 (+4.82%), 당일 최고가 $1.8995 (고점 대비 -8.4% 밀림).\n당일 누적 거래대금 $1,686 USD (장전 반짝 띄운 후 극소액 거래 속 -8.4% 윗꼬리 매물 출회).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 계약 후 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 공시 미제출 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 06:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Aetherion™ to Demonstrate CNG Heavy-Duty, HPDI Powered Trucks, Supported by C$2 Million Funding from Fuel Innovation Fund\"\n원문 직독 및 족보집 과거 이력 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '소규모 시연 프로젝트 경비 사후 보조금' 언론플레이:\n원문 본문에 *\"The FIF will refund the Company 50% of eligible expenditures for each milestone as it is completed up to a total of C$2.0 million. The total project budget of C$4.0 million is shared among FIF, Aetherion, our OEM partner and the fleet supporting the demonstration\"*라고 명시되어 있습니다.\n이는 회사 금고로 즉시 유입되어 순이익으로 직결되는 확정 계약금이나 대규모 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n12개월간 5대의 트럭을 시범 운행(Demonstration)하면서 회사가 먼저 비용을 지출한 뒤 요건을 채워야 절반을 돌려받는 연구개발/실증용 정부 매칭 보조금 프로그램일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (소액 보조금 및 6.1% 미미한 규모 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 정부 보조금/시제품 실증 프로젝트 발표 및 시총 대비 6.1%에 불과한 소액 지원금은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.8995까지 반짝 띄운 뒤 시장이 단순 실증 보조금임을 확인하고 고점 대비 -8.4% 밀리며 차익 실현 매물이 쏟아지고 있는 전형적인 윗꼬리 패턴입니다.\n3. 최종 심사 및 결재 판정\nAETR의 당일 공식 PR은 시총($33.05M) 대비 6.1%(C$2.0M)에 불과한 단순 실증 연구용 경비 사후 환급 보조금에 불과하여, 헌법 제2조 ①항(AIMD형 시총 100%+ 창사 최대 수주+선급금)에 절대 미달하며 장전 최고가 대비 -8.4% 윗꼬리 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AETR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: AETR NOTES:\n[AETR] 확정 상업수주 전무 및 시총 대비 6.1%(C$2M)에 불과한 5대 트럭 시연용 정부 사후환급 보조금 PR로 헌법 2조 미달 및 장전 -8.4% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕)에 이어 AETR(시총 6%대 소액 정부 실증 보조금)까지 모두 실질적인 매출 기폭제가 결여된 종목들로 정밀 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795084966399_LASE_FALSE",
-      "date_et": "2026-11-19",
-      "weekday_kr": "목",
-      "time_et": "05:42:46",
-      "time_kst": "19:42:46",
-      "symbol": "LASE",
-      "company_name": "LASE",
-      "exchange": "ND",
-      "price": 0.41,
-      "gain_pct": 4.51,
-      "mcap_m": 24.88,
-      "decision": "FALSE",
-      "elapsed_sec": 55.1,
-      "reason": "확정 수주 전무 및 10/28 발표에 이은 Quantum Bullet 대드론 콘퍼런스 단순 참가 쪼개기 홍보 PR로 헌법 3조 4항 위배 및 장전 -14.6% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] LASE to Premiere Quantum Bullet(TM) at Counter UAS Technology Conference in Washington, D.C.",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 LASE (LASE Corp. / 구 Laser Photonics Corporation) 2026-11-19 05:41:51 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $24.88M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 부재 적발):\n당일 PR 내 백만 달러($M) 이상 확정 수주나 현금 선급금 계약 금액 일절 미감지 (확정 수주 달러 금액 0원).\n발표된 실체의 본질은 확정 매출이 발생하는 방산 공급 계약이 아니라, 단순 11월 30일부터 워싱턴 D.C.에서 열리는 **대드론 콘퍼런스(Counter UAS Technology USA)에서 자사 플랫폼(Quantum Bullet™)을 최초 공개(Premiere)하고 이사회 의장이 연사로 발표한다는 단순 행사 참가 홍보(Conference Premiere & Speaker PR)**에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -14.6% 급락 덤핑):\n전일 종가 $0.3923 대비 현재가 $0.4100 (+4.51%), 당일 최고가 $0.4800 (고점 대비 -14.6%).\n당일 누적 거래대금 $334 USD (장전 반짝 띄운 후 극소액 거래 속 -14.6% 윗꼬리 덤핑 출회).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 05:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"LASE to Premiere Quantum Bullet(TM) at Counter UAS Technology Conference in Washington, D.C.\"\n원문 직독 및 족보집 과거 180일 재탕 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '콘퍼런스 시제품 발표 및 연사 참가' 홍보물:\n원문 본문에 *\"today announced that it will premiere its Quantum Bullet™ anti-drone platform at Counter Unmanned Aircraft System ('UAS') Technology USA, taking place November 30 through December 2, 2026, in Washington, D.C., where Dmitri Nikitin, Executive Chairman of LASE Corp., will also present as a featured speaker\"*라고 명시되어 있습니다.\n이는 국방부나 정부 기관으로부터 거액의 현금 선급금이 입금되는 확정 납품 계약(AIMD형)이 전혀 아닙니다.\n미 육군, 공군, 국토안보부 관계자들이 참석하는 콘퍼런스 행사에서 자사 시제품 플랫폼을 선보이고 기조연설을 한다는 전형적인 금액 미기재 행사 참가/마케팅 보도자료에 불과합니다.\nPR 본문에서 '상용화 전 추가 개발·평가 필요(매출 0원)' 스스로 자인:\n원문 본문에 **\"Development, integration, testing and customer evaluation remain necessary before commercialization (상용화에 앞서 개발, 통합, 테스트 및 고객 평가 과정이 여전히 필수적이다)\"**라고 명시되어 있어, 당장 상업 매출이 발생하지 않는 개발 초기 단계임을 스스로 인정하고 있습니다.\n10월 28일 PR에 이은 3주 만의 동일 제품(Quantum Bullet™) 콘퍼런스 쪼개기 재탕 (Spin PR):\n과거 180일 이력 대조 결과, 회사는 불과 3주 전인 2026년 10월 28일에도 ACCESS Newswire를 통해 *\"LASE Introduces Quantum Bullet(TM) Anti-Drone Platform at I/ITSEC Conference in November 2026\"*를 배포한 바 있습니다.\n지난달에는 올랜도 I/ITSEC 콘퍼런스 참가로 홍보하고, 이번에는 워싱턴 D.C. 콘퍼런스 참가로 행사 장소만 바꾸어 동일 제품(Quantum Bullet™)을 우려먹는 **전형적인 상습 콘퍼런스 언론플레이(Spin PR)**입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO형)\" 등 기업 가치를 수직 폭등시킬 수 있는 신규 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (금액 미기재 콘퍼런스 참가 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 계약 금액($M) 및 현금 선급금이 없는 단순 콘퍼런스/박람회 참가·연사 발표·시제품 공개는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (어제 차단된 PMEC 청소로봇 엑스포 전시, SEGG 사이트 리뉴얼과 동일한 마케팅 유형).\n3. 최종 심사 및 결재 판정\n당일 공식 PR은 확정된 계약 금액이나 현금 선급금이 전무하고, 지난 10/28 콘퍼런스 발표에 이어 워싱턴 D.C. 대드론 콘퍼런스 참가 사실을 알리는 3주 만의 동일 제품(Quantum Bullet™) 행사 쪼개기 보도자료에 불과하며, 장전 최고가 대비 -14.6% 급락 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: LASE 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: LASE NOTES:\n[LASE] 확정 수주 전무 및 10/28 발표에 이은 Quantum Bullet 대드론 콘퍼런스 단순 참가 쪼개기 홍보 PR로 헌법 3조 4항 위배 및 장전 -14.6% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓에서는 첫 번째 JG(중국 LLM 데이터셋 출시 홍보)에 이어 두 번째 LASE(대드론 콘퍼런스 참가 재탕 홍보)까지 모두 실체 없는 마케팅성 PR로 감별되어 전량 안전하게 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
