@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-28 02:15:07",
-  "updated_at_et": "2026-11-27 12:15:07",
-  "updated_epoch_ms": 1795799707287,
+  "updated_at_kst": "2026-11-28 02:16:00",
+  "updated_at_et": "2026-11-27 12:16:00",
+  "updated_epoch_ms": 1795799760708,
   "analyzing": {
     "active": false
   },
@@ -17,9 +17,9 @@
     "holding_symbol": "PDC",
     "holding_qty": 199,
     "avg_price": 0.8393,
-    "current_price": 0.7302,
-    "profit_rate": -13.0,
-    "updated_kst": "02:14:59"
+    "current_price": 0.737,
+    "profit_rate": -12.19,
+    "updated_kst": "02:15:58"
   },
   "stats": {
     "today_total": 11,
