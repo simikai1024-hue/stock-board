@@ -1,8 +1,8 @@
 {
   "today_et": "2026-11-27",
-  "updated_at_kst": "2026-11-27 22:14:55",
-  "updated_at_et": "2026-11-27 08:14:55",
-  "updated_epoch_ms": 1795785295598,
+  "updated_at_kst": "2026-11-27 22:15:55",
+  "updated_at_et": "2026-11-27 08:15:55",
+  "updated_epoch_ms": 1795785355400,
   "analyzing": {
     "active": false
   },
@@ -19,20 +19,41 @@
     "avg_price": 0.0,
     "current_price": 0.0,
     "profit_rate": 0.0,
-    "updated_kst": "22:14:50"
+    "updated_kst": "22:15:52"
   },
   "stats": {
-    "today_total": 3,
+    "today_total": 4,
     "today_nblm_count": 0,
-    "today_buy": 2,
+    "today_buy": 3,
     "today_false": 1,
     "today_hardcut": 0,
     "total_verdicts": 150,
-    "total_buy": 29,
-    "total_false": 121,
+    "total_buy": 30,
+    "total_false": 120,
     "avg_nblm_sec": 0.2
   },
   "verdicts": [
+    {
+      "id": "v_1795785350606_DCX_BUY",
+      "track": "TRACK3",
+      "date_et": "2026-11-27",
+      "weekday_kr": "금",
+      "time_et": "08:15:50",
+      "time_kst": "22:15:50",
+      "symbol": "DCX",
+      "company_name": "DCX",
+      "exchange": "ND",
+      "price": 0.68,
+      "gain_pct": 34.6,
+      "mcap_m": 1.6,
+      "decision": "BUY",
+      "elapsed_sec": 0.2,
+      "reason": "👀 [04:00~06:59 관전전용·매수OFF] 🚀 [Track 3 키움2029 '흥 칫 뿡' 무뉴스 포착] 시가대비 +34.6% · 전일대비 +40.9% (VWAP $0.63↑) | 1분대금 $213K | 누적 $0.49M | AKAN수준 무뉴스·무공시 통과",
+      "catalyst_hint": "👀 04:00~06:59 관전 전용 (매수 OFF) · 재료 분류 중...",
+      "full_report": "[키움 2029 '흥 칫 뿡' 관전 전용 포착(매수OFF)]\n- 종목: DCX (NASDAQ) | 시총: $1.60M\n- 시가 대비: +34.60% ($0.5052 -> $0.6800)\n- 전일 종가 대비: +40.87% (전일 $0.4827)\n- 1분 거래대금: $212.9K | 누적: $0.49M\n- 전략 집행: 관전 전용 (07:00 ET부터 실매수)",
+      "engine": "트랙3 모의",
+      "trade_action": "모의검증 (주문미실행)"
+    },
     {
       "id": "v_1795784016654_UFG_BUY",
       "track": "TRACK3",
@@ -2491,26 +2512,6 @@
       "reason": "확정 상업수주 전무 및 잔여부채 0원 청소 없는 단순 채권단 부채재조정(TSA/리파이낸싱) 협약 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단",
       "catalyst_hint": "[당일 PR] Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization",
       "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 SEAT (Vivid Seats Inc.) 2026-11-19 06:32:46 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $14.67M USD (나스닥 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (헤드라인 $273.00M 수치의 치명적 본질 적발):\n언뜻 시총($14.67M) 대비 1,860.9%에 달하는 거액의 자본재조정(Recapitalization) 규모가 감지되었습니다.\n그러나 본문 직독 결과, 외부 고객사로부터 당장 회사 금고로 유입되는 확정 상업 수주나 현금 선급금(AIMD형)이 아니라 **\"기존 대주주 및 채권단과 맺은 채무 재조정 지원 계약(Transaction Support Agreement, TSA)\"**에 불과합니다.\n내용의 실체는 순부채 $232M 감축 및 신규 1순위 기간대출(Term Loan) $66M 조달, 만기 2032년 연장을 골자로 하는 전형적인 한계기업의 부채 리파이낸싱·구조조정 협약입니다.\n실시간 체결가 및 수급 (극단적 거래량 0 정체):\n전일 종가 $1.2800 대비 현재가 $1.2800 (+0.00%), 당일 최고가 $1.3000 (고점 대비 -1.5%).\n당일 누적 거래대금 $0 USD (장전 거래 전무).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 4영업일 이내 8-K 제출 유예 규정 구간이므로 당일 8-K 미접수 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 06:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Vivid Seats Enters Into Transaction Support Agreement for Comprehensive Recapitalization\"\n원문 직독 및 족보집 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 채권단과의 채무 구조조정 협약 (TSA / Recapitalization PR):\n원문 본문에 *\"Vivid Seats Inc. (Nasdaq: SEAT)... today announced that it has entered into a Transaction Support Agreement (the 'TSA') with an ad hoc group of lenders representing a majority of its term loans... Transaction Reduces Net Debt by $232 Million, Provides $66 Million of New First Lien, First Out Term Loans, and Extends Term Loan Maturities to 2032\"*라고 명시되어 있습니다.\n이는 외부 고객사로부터 당장 회사 금고로 유입되어 즉각적인 매출로 연결되는 창사 최대 수주(AIMD형)가 전혀 아닙니다.\n과도한 차입부채를 만기 연장하고 신규 대출을 받아 기존 빚을 돌려막는 전형적인 재무 위기 기업의 부채 구조조정(Debt Restructuring) 협약입니다.\nCLRO·ONFO형 '완전 무차입 턴어라운드' 기준 미달 (헌법 제2조 ②항 불부합):\n연구소 심사 헌법 제2조 ②항에 승격된 재무 턴어라운드(ONFO·CLRO형)는 **\"나스닥 상장유지 자기자본 요건 충족(상폐위기 졸업) + 차입부채/전환사채 전액 상환 및 100% 출자전환으로 잔여 부채 0원 달성\"**이 필수 조건입니다.\n반면 SEAT의 자본재조정은 부채를 완전히 0원으로 청소하는 것이 아니라, 순부채 일부 감축 후에도 여전히 수억 달러 규모의 1순위 담보대출(First Lien Term Loans) 채무가 남아 만기만 2032년으로 유예시키는 구조입니다.\n따라서 잔여 부채 0원의 완전 무차입 오버행 소멸 공식에 해당하지 않습니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (단순 부채 재조정 협약 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 채무 재조정/만기 연장/부채 리파이낸싱 발표는 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다 (족보집 506번 CAPS 전환사채 만기연장, 520번 TUSK 텀론 체결 오답 패턴과 일치).\n3. 최종 심사 및 결재 판정\nSEAT의 당일 공식 PR은 확정된 상업 매출 수주나 현금 선급금이 전무하고, 채권단과의 차입부채 만기 연장 및 신규 텀론 조달을 통한 부채 돌려막기 재조정 협약에 불과하여 헌법 제2조(AIMD/CLRO형) 요건에 절대 미달하므로 심사 헌법 제3조에 의거 FORCE_BLOCK: SEAT 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: SEAT NOTES:\n[SEAT] 확정 상업수주 전무 및 잔여부채 0원 청소 없는 단순 채권단 부채재조정(TSA/리파이낸싱) 협약 PR로 헌법 2조 미달 및 3조 4항 위배 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓 구간에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕), AETR(시총 6%대 소액 정부 실증 보조금)에 이어 SEAT(단순 부채 구조조정 리파이낸싱)까지 4개 종목 연속으로 껍데기 IR 및 비상업성 협약이 완벽히 식별되어 안전하게 전량 방어되었습니다. 09:30 ET 본장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
-      "engine": "NotebookLM 직통",
-      "trade_action": "🛡️ 차단 (패스)"
-    },
-    {
-      "id": "v_1795087960831_AETR_FALSE",
-      "date_et": "2026-11-19",
-      "weekday_kr": "목",
-      "time_et": "06:32:40",
-      "time_kst": "20:32:40",
-      "symbol": "AETR",
-      "company_name": "AETR",
-      "exchange": "ND",
-      "price": 1.74,
-      "gain_pct": 4.82,
-      "mcap_m": 33.05,
-      "decision": "FALSE",
-      "elapsed_sec": 50.3,
-      "reason": "확정 상업수주 전무 및 시총 대비 6.1%(C$2M)에 불과한 5대 트럭 시연용 정부 사후환급 보조금 PR로 헌법 2조 미달 및 장전 -8.4% 덤핑 전량 차단",
-      "catalyst_hint": "[당일 PR] Aetherion™ to Demonstrate CNG Heavy-Duty, HPDI Powered Trucks, Supported by C$2 Million Funding from Fuel Innovation Fund",
-      "full_report": "[달의검] 실시간 긴급결재 원문서류철 및 [달의검] 누적 공시×당일등락률 진위 족보집 소스 원문 팩트를 정밀 교차 대조하여 진행한 AETR (Aetherion Technologies Inc.) 2026-11-19 06:31:50 ET 프리마켓 실시간 무결점 순수 PR 및 재탕 감별 정밀 직독 결재 보고입니다.\n1. 체급 & 실시간 시세 수급 팩트\n실질 시가총액: 약 $33.05M USD (TSX / Nasdaq 동시 상장, 연구소 시가총액 $50.0M 이하 체급 관문 무희석 1차 통과).\n체급 대비 규모 (치명적 수주/신규 계약 금액 미달 적발):\n발표된 헤드라인 금액은 C$2.00M (캐나다 달러 약 2백만 달러, 미화 약 $1.42M 상당) 수준.\n이는 실질 시가총액($33.05M) 대비 **단 6.1%**에 불과하여, 연구소 심사 헌법 제2조 ①항의 \"시총 대비 100%+ 창사 최대 수주(AIMD형)\" 기준에 턱없이 미달합니다.\n더 치명적인 것은 이 금액조차 외부 고객사의 확정 매출(상업 발주)이 아니라, 캐나다 앨버타주 감축기금(Emissions Reduction Alberta) 산하의 Fuel Innovation Fund(FIF)로부터 특정 마일스톤 달성 시 지출 경비의 50%를 사후 환급(Refund/Reimbursement)받는 단순 보조금/지원금 협약에 불과합니다.\n실시간 체결가 및 수급 (장전 최고가 대비 -8.4% 윗꼬리 덤핑):\n전일 종가 $1.6600 대비 현재가 $1.7400 (+4.82%), 당일 최고가 $1.8995 (고점 대비 -8.4% 밀림).\n당일 누적 거래대금 $1,686 USD (장전 반짝 띄운 후 극소액 거래 속 -8.4% 윗꼬리 매물 출회).\n헌법 제1조에 따라 거래량 0 바닥 구간 자체는 차단 사유가 되지 않으나, PR 내용의 실체성 및 재탕 여부 검증이 핵심입니다.\n선발표 규정 확인: 계약 후 4영업일 이내 8-K/6-K 제출 유예 규정 구간이므로 당일 공시 미제출 자체는 차단 사유로 삼지 않습니다.\n2. 당일 공식 PR 원문 직독 정밀 검증 & 기폭제 결함\n당일(11/19 06:30:00 ET) 공식 PR 원문 분석:\nPR 제목: \"Aetherion™ to Demonstrate CNG Heavy-Duty, HPDI Powered Trucks, Supported by C$2 Million Funding from Fuel Innovation Fund\"\n원문 직독 및 족보집 과거 이력 대조 결과 드러난 치명적 실체:\n확정 상업 메가 수주가 아닌 단순 '소규모 시연 프로젝트 경비 사후 보조금' 언론플레이:\n원문 본문에 *\"The FIF will refund the Company 50% of eligible expenditures for each milestone as it is completed up to a total of C$2.0 million. The total project budget of C$4.0 million is shared among FIF, Aetherion, our OEM partner and the fleet supporting the demonstration\"*라고 명시되어 있습니다.\n이는 회사 금고로 즉시 유입되어 순이익으로 직결되는 확정 계약금이나 대규모 현금 선급금(AIMD형 50% 현금 계약)이 전혀 아닙니다.\n12개월간 5대의 트럭을 시범 운행(Demonstration)하면서 회사가 먼저 비용을 지출한 뒤 요건을 채워야 절반을 돌려받는 연구개발/실증용 정부 매칭 보조금 프로그램일 뿐입니다.\n1급 확정 금융 기폭제 절대 결여 (심사 헌법 제2조 미달):\n연구소 심사 헌법 제2조(대박 PR)에 부합하는 \"시총($50.0M 이하) 대비 압도적 확정 달러 수주/계약 + 현금선급금(시총 100%+ 창사 최대 수주 AIMD형), 빅파마/대기업 거액 독점 라이선스, FDA 승인/임상 성공, 초고율 보통주 특별배당(배당수익률 25%+ / 시총 30%+), 초소형주 시총 40%+ 확정가 공개매수·즉시 주식소각, 나스닥 최소 자기자본 충족+전환사채 0원 전액 소멸(ONFO/CLRO형)\" 등 주가를 수직 폭등시킬 수 있는 1급 금융 기폭제가 원문 어디에도 전혀 없습니다.\n심사 헌법 제3조 ④항 위배 (소액 보조금 및 6.1% 미미한 규모 100% FORCE_BLOCK):\n'무결점 대박 PR + 재탕 감별' 4대 심사 헌법 제3조 ④항의 '신규 확정 상업 계약 금액($M) 및 실질적 현금 선급금이 결여된 단순 정부 보조금/시제품 실증 프로젝트 발표 및 시총 대비 6.1%에 불과한 소액 지원금은 1급 확정 기폭제 미달로 100% FORCE_BLOCK' 규칙에 완벽히 해당합니다.\n이미 장전 프리마켓에서 $1.8995까지 반짝 띄운 뒤 시장이 단순 실증 보조금임을 확인하고 고점 대비 -8.4% 밀리며 차익 실현 매물이 쏟아지고 있는 전형적인 윗꼬리 패턴입니다.\n3. 최종 심사 및 결재 판정\nAETR의 당일 공식 PR은 시총($33.05M) 대비 6.1%(C$2.0M)에 불과한 단순 실증 연구용 경비 사후 환급 보조금에 불과하여, 헌법 제2조 ①항(AIMD형 시총 100%+ 창사 최대 수주+선급금)에 절대 미달하며 장전 최고가 대비 -8.4% 윗꼬리 덤핑 중이므로 심사 헌법 제3조에 의거 FORCE_BLOCK: AETR 처리합니다.\n계좌 보호 원칙에 의거하여 오늘 프리마켓 매수 승인은 **FORCE_BUY: NONE**으로 확정합니다.\n===VERDICT_START=== DATE: 2026-11-19 FORCE_BUY: NONE FORCE_BLOCK: AETR NOTES:\n[AETR] 확정 상업수주 전무 및 시총 대비 6.1%(C$2M)에 불과한 5대 트럭 시연용 정부 사후환급 보조금 PR로 헌법 2조 미달 및 장전 -8.4% 덤핑 전량 차단 ===VERDICT_END===\n💡 오늘(11/19) 프리마켓에서는 JG(중국 LLM 데이터셋 홍보), LASE(대드론 콘퍼런스 참가 재탕)에 이어 AETR(시총 6%대 소액 정부 실증 보조금)까지 모두 실질적인 매출 기폭제가 결여된 종목들로 정밀 감별되어 안전하게 전량 방어되었습니다. 09:30 ET 정규장 개장 전후 골든타임 구간까지 헌법 제2조(AIMD형 창사 최대 수주+선급금, ONFO·CLRO형 구조적 턴어라운드 등)를 완전히 충족하는 진성 대박 기폭제가 포착되는 즉시 직독 보고드리겠습니다.",
       "engine": "NotebookLM 직통",
       "trade_action": "🛡️ 차단 (패스)"
     }
